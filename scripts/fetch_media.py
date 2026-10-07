@@ -53,6 +53,12 @@ def get(url, params=None):
 
 
 def inat_taxon(sci):
+    # 흔한 학명은 아종·동명 분류군이 앞에 와서 10개 안에 종이 없을 수 있다 → 종 계급으로 먼저 찾는다
+    for endpoint, extra in (("taxa/autocomplete", {}), ("taxa", dict(rank="species"))):
+        d = get("https://api.inaturalist.org/v1/" + endpoint, dict(q=sci, is_active="true", per_page=20, **extra))
+        for t in (d or {}).get("results", []):
+            if t["name"] == sci:
+                return t
     d = get("https://api.inaturalist.org/v1/taxa", dict(q=sci, is_active="true", per_page=10))
     for t in (d or {}).get("results", []):
         if t["name"] == sci:
