@@ -1,16 +1,21 @@
-name: 사진·요약 갱신
+name: 사진·본문 갱신
 
+# 매주: 국명이 있는 종의 사진·위키백과 본문을 60일마다 새로 받는다.
+# 매일: 국명이 없는 종을 하루 2,500종씩 채운다(iNaturalist 권고 하루 1만 회 안쪽). 다 채우면 할 일이 없어 금방 끝난다.
 on:
   schedule:
-    - cron: "40 18 * * 0"   # 매주 월요일 03:40 KST
+    - cron: "40 18 * * 0"   # 매주 월요일 03:40 KST — 국명 있는 종 갱신
+    - cron: "20 19 * * *"   # 매일 04:20 KST — 국명 없는 종 채우기
   workflow_dispatch:
     inputs:
+      scope:
+        description: "받을 범위"
+        type: choice
+        options: [named, unnamed, korean, all]
+        default: named
       limit:
-        description: "이번에 새로 받을 최대 종 수"
-        default: "400"
-      all_named:
-        description: "국명이 있는 모든 종까지 넓히기 (true/false)"
-        default: "false"
+        description: "이번에 받을 최대 종 수"
+        default: "2500"
 
 permissions:
   contents: write
@@ -22,7 +27,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,19 +37,28 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/fetch_sheets.py
       - run: python scripts/import_names.py
-      - name: eBird 종 코드
+      - name: eBird 분류표
         run: python scripts/fetch_ebird.py
-      - name: iNaturalist 사진·위키백과 요약
+      - name: 범위 정하기
+        id: scope
         run: |
-          python scripts/fetch_media.py --limit "${{ inputs.limit || 400 }}" \
-            $([ "${{ inputs.all_named }}" = "true" ] && echo --all-named)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "scope=${{ inputs.scope }}" >> "$GITHUB_OUTPUT"; echo "limit=${{ inputs.limit }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "20 19 * * *" ]; then
+            echo "scope=unnamed" >> "$GITHUB_OUTPUT"; echo "limit=2500" >> "$GITHUB_OUTPUT"
+          else
+            echo "scope=named" >> "$GITHUB_OUTPUT"; echo "limit=2500" >> "$GITHUB_OUTPUT"
+          fi
+      - name: iNaturalist 사진·위키백과 본문
+        run: python scripts/fetch_media.py --scope "${{ steps.scope.outputs.scope }}" --limit "${{ steps.scope.outputs.limit }}"
       - name: 저장소에 올리기
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/media data/ebird_codes.json
+          git add data/media data/ebird_codes.json data/ebird_families.json data/ebird_family_of.json
           if git diff --cached --quiet; then echo "바뀐 것 없음"; exit 0; fi
-          git commit -m "사진·요약 갱신 ($(date -u +%F))"
+          git commit -m "사진·본문 갱신: ${{ steps.scope.outputs.scope }} ($(date -u +%F))"
+          git pull --rebase origin main
           git push
           gh workflow run build.yml
         env:

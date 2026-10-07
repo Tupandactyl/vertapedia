@@ -4,7 +4,7 @@
 - iNaturalist 권고에 맞춰 1초에 한 번 이하로 부른다.
 - 이미 받은 종은 --max-age 일이 지나기 전에는 다시 받지 않는다.
 
-    python scripts/fetch_media.py                 # 국명이 있는 한국 출현종
+    python scripts/fetch_media.py                 # 국명이 있는 한국 출현종 (--scope named/unnamed/all)
     python scripts/fetch_media.py --limit 200     # 이번에 새로 받을 최대 종 수
 """
 import argparse
@@ -132,24 +132,28 @@ def wiki_full(url):
                 revision=pg.get("lastrevid"), sections=out)
 
 
-def targets(include_all=False):
+def targets(scope):
+    """korean: 한국 출현종 · named: 국명이 있는 모든 종 · unnamed: 국명이 없는 종만 · all: 전부"""
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
     sp = [t for t in names if t["rank"] == "species"]
     korean = [t for t in sp if t["status"] in ("kos", "official")]
-    rest = [t for t in sp if t not in korean and t.get("name")] if include_all else []
-    return korean + rest
+    named = [t for t in sp if t not in korean and t.get("name")]
+    unnamed = [t for t in sp if not t.get("name")]
+    return {"korean": korean, "named": korean + named, "unnamed": unnamed,
+            "all": korean + named + unnamed}[scope]
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=10_000)
     ap.add_argument("--max-age", type=int, default=60, help="이보다 오래된 자료만 다시 받는다(일)")
-    ap.add_argument("--all-named", action="store_true", help="국명이 있는 모든 종까지")
+    ap.add_argument("--scope", choices=["korean", "named", "unnamed", "all"], default="korean")
+    ap.add_argument("--all-named", action="store_true", help="--scope named 와 같다(예전 이름)")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     cutoff = (date.today() - timedelta(days=a.max_age)).isoformat()
     done = 0
-    for t in targets(a.all_named):
+    for t in targets("named" if a.all_named else a.scope):
         f = OUT / (t["sci"].replace(" ", "_") + ".json")
         old = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
         if old and old.get("fetched", "") >= cutoff:

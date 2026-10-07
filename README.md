@@ -43,7 +43,7 @@ GitHub Actions(`.github/workflows/build.yml`)가 6시간마다 시트를 받아 
 - 종 페이지(`sp.html#학명`)는 iNaturalist 연구등급 관찰 사진 가운데 재사용이 허락된 것(CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)만 싣고 촬영자를 밝힌다.
 - 설명은 지금은 영문 위키백과 요약을 그대로 싣는다(CC BY-SA). 한국어 번역은 비용 문제로 미뤄 두었다.
 - eBird·Macaulay Library·Birds of the World는 링크로만 잇는다(재게시 불가).
-- `.github/workflows/media.yml`이 매주 사진과 요약을 받아 `data/media/`에 커밋한다. 처음에는 국명이 있는 한국 출현종만 받고, Actions에서 `all_named`를 켜면 국명 있는 모든 종으로 넓힌다.
+- `.github/workflows/media.yml`: 매주 국명이 있는 종의 사진·본문을 갱신하고, 매일 국명이 없는 종을 2,500종씩 채워 `data/media/`에 커밋한다. Actions 탭에서 범위(`named`/`unnamed`/`korean`/`all`)를 골라 바로 돌릴 수도 있다.
 
 ## 손으로 돌리기
 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 python scripts/fetch_sheets.py
 python scripts/import_names.py            # 국가생물종목록 PDF 경로를 주면 nibr.json 도 다시 만든다
 python scripts/fetch_ebird.py
-python scripts/fetch_media.py --limit 20     # 사진·요약 (1초에 한 번씩 부르므로 느리다)
+python scripts/fetch_media.py --scope korean --limit 20   # 사진·본문 (1초에 한 번씩 부르므로 느리다)
 python scripts/build_site.py
 python scripts/build_review.py
 python -m http.server 8123 --directory site
