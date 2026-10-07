@@ -1,4 +1,4 @@
-"""종마다 iNaturalist 사진·영문 위키백과 요약을 받아 data/media/<학명>.json 에 둔다.
+"""종마다 iNaturalist 사진·영문 위키백과 본문을 받아 data/media/<학명>.json 에 둔다.
 
 - 사진은 재사용 가능한 라이선스(CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)만 받는다.
 - iNaturalist 권고에 맞춰 1초에 한 번 이하로 부른다.
@@ -9,6 +9,7 @@
 """
 import argparse
 import json
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -42,6 +43,11 @@ def get(url, params=None):
                 return None
             if e.code in (429, 500, 502, 503) and attempt < 3:
                 time.sleep(10 * (attempt + 1))
+                continue
+            raise
+        except (urllib.error.URLError, ConnectionError, TimeoutError, OSError):
+            if attempt < 3:  # 연결이 끊기면 잠깐 쉬고 다시
+                time.sleep(15 * (attempt + 1))
                 continue
             raise
 
@@ -78,15 +84,46 @@ def inat_photos(taxon_id):
     return out
 
 
-def wiki_summary(url):
+SKIP_SECTIONS = {"references", "external links", "see also", "further reading", "notes", "sources",
+                 "bibliography", "gallery", "footnotes", "citations", "cited sources", "works cited"}
+
+
+def wiki_full(url):
+    """영문 위키백과 본문 전체(일반 텍스트)를 절 단위로 받는다. 참고문헌·바깥 링크 절은 뺀다."""
     if not url:
         return None
-    title = urllib.parse.unquote(url.rsplit("/wiki/", 1)[-1])
-    d = get("https://en.wikipedia.org/api/rest_v1/page/summary/" + urllib.parse.quote(title, safe=""))
-    if not d or d.get("type") == "disambiguation":
+    title = urllib.parse.unquote(url.rsplit("/wiki/", 1)[-1]).replace("_", " ")
+    d = get("https://en.wikipedia.org/w/api.php", dict(
+        action="query", prop="extracts|info|pageprops", explaintext=1, exsectionformat="wiki",
+        redirects=1, titles=title, format="json", formatversion=2))
+    pages = (d or {}).get("query", {}).get("pages", [])
+    if not pages or pages[0].get("missing") or "disambiguation" in pages[0].get("pageprops", {}):
         return None
-    return dict(title=d.get("title"), extract=d.get("extract"), url=d["content_urls"]["desktop"]["page"],
-                revision=d.get("revision"))
+    pg = pages[0]
+    text = pg.get("extract") or ""
+    sections, cur = [], dict(h=None, level=1, text=[])
+    for line in text.splitlines():
+        m = re.match(r"^(={2,5})\s*(.*?)\s*\1$", line.strip())
+        if m:
+            sections.append(cur)
+            cur = dict(h=m.group(2), level=len(m.group(1)), text=[])
+        else:
+            cur["text"].append(line)
+    sections.append(cur)
+    out, skip_level = [], None
+    for sec in sections:
+        if skip_level is not None and sec["level"] > skip_level:
+            continue
+        skip_level = None
+        if sec["h"] and sec["h"].strip().lower() in SKIP_SECTIONS:
+            skip_level = sec["level"]
+            continue
+        paras = [p.strip() for p in sec["text"] if p.strip()]
+        if paras or sec["h"]:
+            out.append(dict(h=sec["h"], level=sec["level"], paras=paras))
+    out = [s for i, s in enumerate(out) if s["paras"] or (i + 1 < len(out) and out[i + 1]["level"] > s["level"])]
+    return dict(title=pg["title"], url="https://en.wikipedia.org/wiki/" + urllib.parse.quote(pg["title"].replace(" ", "_")),
+                revision=pg.get("lastrevid"), sections=out)
 
 
 def targets(include_all=False):
@@ -108,7 +145,16 @@ def main():
     done = 0
     for t in targets(a.all_named):
         f = OUT / (t["sci"].replace(" ", "_") + ".json")
-        if f.exists() and json.loads(f.read_text(encoding="utf-8")).get("fetched", "") >= cutoff:
+        old = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+        if old and old.get("fetched", "") >= cutoff:
+            # 예전 형식(요약만 있음)이면 위키백과 본문만 새로 받는다
+            if old.get("inat") and (old.get("wiki") or {}).get("sections") is None and old["inat"].get("wikipedia_url"):
+                if done >= a.limit:
+                    break
+                old["wiki"] = wiki_full(old["inat"]["wikipedia_url"])
+                f.write_text(json.dumps(old, ensure_ascii=False, indent=1), encoding="utf-8")
+                done += 1
+                print(f"{done:4} {t['sci']:34} 위키 본문 {'O' if old['wiki'] else '-'}", flush=True)
             continue
         if done >= a.limit:
             break
@@ -118,7 +164,7 @@ def main():
             rec["inat"] = dict(id=tx["id"], name=tx["name"], observations=tx.get("observations_count"),
                                wikipedia_url=tx.get("wikipedia_url"))
             rec["photos"] = inat_photos(tx["id"])
-            rec["wiki"] = wiki_summary(tx.get("wikipedia_url"))
+            rec["wiki"] = wiki_full(tx.get("wikipedia_url"))
         f.write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
         done += 1
         print(f"{done:4} {t['sci']:34} 사진 {len(rec['photos'])} 위키 {'O' if rec['wiki'] else '-'}", flush=True)

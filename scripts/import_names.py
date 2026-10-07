@@ -98,20 +98,25 @@ def parse_birds(path):
         if not rows:
             continue
         if ws.title == "과단위 번역":
+            # 머리글이 한 칸씩 밀려 있다: 0 목 「Struthioniformes (타조목)」, 1 과 학명, 2 영명, 3 과 국명(합의), 4~ 개인 제안
             h = [clean(c) for c in rows[0]]
             props = {i: c.replace(" 제안", "") for i, c in enumerate(h) if c and c.endswith("제안")}
+            order = None
             for r in rows[1:]:
-                sci = clean(cell(r, 2 - 1 + 1)) if False else clean(cell(r, h.index("과")))
-                # '과' 열에는 목 이름이 있고 실제 과 학명은 다음 열에 있다
-                order = clean(cell(r, h.index("과")))
-                fam = clean(cell(r, h.index("과(일반명)")))
-                en = clean(cell(r, h.index("과(국명)")))
+                o = clean(cell(r, 0))
+                if o:
+                    m = re.match(r"^([A-Z][a-z]+formes)\s*(?:\(([^)]*)\))?", o)
+                    if m:
+                        order = m.group(1)
+                        taxa.append(dict(group="AVES", rank="order", sci=order, en=None, consensus=m.group(2),
+                                         proposals={}, rationale=None, sheet=ws.title))
+                fam = clean(cell(r, 1))
                 if not fam or not FAM_RE.match(fam):
                     continue
                 p = {props[i]: clean(cell(r, i)) for i in props if clean(cell(r, i))}
-                cons = clean(cell(r, max(props) + 1)) if props else None
-                taxa.append(dict(group="AVES", rank="family", sci=fam, en=en, order=order,
-                                 consensus=cons, proposals=p, rationale=None, sheet=ws.title))
+                taxa.append(dict(group="AVES", rank="family", sci=FAM_RE.match(fam).group(1), en=clean(cell(r, 2)),
+                                 order=order, consensus=clean(cell(r, 3)), proposals=p, rationale=None,
+                                 sheet=ws.title))
             continue
         if ws.title in skip:
             continue
@@ -129,9 +134,10 @@ def parse_birds(path):
             m = FAM_RE.match(first)
             if m:
                 family = m.group(1)
-                ko = m.group(2)
-                taxa.append(dict(group="AVES", rank="family", sci=family, en=None, consensus=ko,
-                                 proposals={}, rationale=None, sheet=ws.title, from_header=True))
+                # 과단위 번역 탭에 이미 있으면 그쪽(합의·제안·목)을 쓴다
+                if not any(t["rank"] == "family" and t["sci"] == family for t in taxa):
+                    taxa.append(dict(group="AVES", rank="family", sci=family, en=None, consensus=m.group(2),
+                                     proposals={}, rationale=None, sheet=ws.title, from_header=True))
                 continue
             words = first.split()
             rank = "genus" if len(words) == 1 else "species" if len(words) == 2 else "subspecies"
@@ -153,19 +159,26 @@ def parse_reptiles(path):
             continue
         h = [clean(c) for c in rows[0]]
         if ws.title == "과단위 번역":
-            order = None
+            # 0 과(또는 목), 1 아과, 2 영명, 3 국명 제안, 4 해설, 5 목
+            order, cur_fam = None, None
             for r in rows[1:]:
                 fam, sub, en, ko, why, ordr = (clean(cell(r, i)) for i in range(6))
+                if ordr == "Lizards":  # 시트의 비공식 묶음 → 국가생물종목록의 도마뱀아목
+                    ordr = "Lacertilia"
                 if ordr:
                     order = ordr
-                if fam and not fam.endswith("idae") and not sub:
+                if fam and not fam.endswith("idae"):  # 목 행
+                    order = ordr or fam
+                    taxa.append(dict(group="REPTILIA", rank="order", sci=fam, en=en, consensus=ko,
+                                     proposals={}, rationale=why, sheet=ws.title))
                     continue
-                sci = sub if (sub and sub != "-") else fam
-                if not sci or sci == "-":
-                    continue
-                rank = "subfamily" if (sub and sub != "-") else ("family" if sci.endswith("idae") else "order")
-                taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, en=en, consensus=ko,
-                                 proposals={}, rationale=why, sheet=ws.title))
+                if fam:
+                    cur_fam = fam
+                    taxa.append(dict(group="REPTILIA", rank="family", sci=fam, en=en, consensus=ko, order=order,
+                                     proposals={}, rationale=why, sheet=ws.title))
+                elif sub and sub != "-":
+                    taxa.append(dict(group="REPTILIA", rank="subfamily", sci=sub, en=en, consensus=ko,
+                                     family=cur_fam, order=order, proposals={}, rationale=why, sheet=ws.title))
             continue
         if ws.title in ("통합목록", "지정관리종목록") or "명칭 제안" not in h:
             continue
@@ -304,6 +317,16 @@ def main():
         else:
             lst.append(entry)
         return True
+
+    # 시트 과들이 가리키는 목인데 목 행이 없으면 국가생물종목록의 목·아목 이름으로 채운다(예: 뱀아목)
+    used_orders = {(t["group"], t.get("order")) for t in sheet if t["rank"] == "family" and t.get("order")}
+    for o in nibr:
+        k = (o["group"], o["sci"])
+        if o["rank"] in ("order", "suborder") and k in used_orders and k not in by_key:
+            t = dict(group=o["group"], rank="order", sci=o["sci"], en=None, consensus=None, proposals={},
+                     rationale=None, sheet="국가생물종목록", official=o["ko"])
+            sheet.insert(0, t)
+            by_key[k] = t
 
     # --- 국가생물종목록 → 시트 ---
     review = []

@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vertapedia</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="tree.css">
 <style>
 /* Layout: 계통 경로 → 국명·학명 머리 → 사진 갤러리 → (설명 | 국명 카드·바깥 링크) */
 :root{
@@ -27,10 +28,24 @@ html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65;margin:0}
 a{color:var(--moss)}
 .top{background:var(--panel);border-bottom:1px solid var(--line);padding-inline:16px;padding-block:10px}
-.top-in{max-width:1080px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.top-in{max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
 .logo{font-family:var(--display);font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
 .top nav{margin-left:auto;font-size:13.5px;display:flex;gap:14px}
-.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 64px}
+.page{max-width:1320px;margin:0 auto;padding-inline:16px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:28px}
+.wrap{padding-block:16px 64px;min-width:0}
+.navtree{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto;padding-block:12px 40px;font-size:13px}
+.navtree h2{font-size:11px;letter-spacing:.08em;color:var(--muted);margin:0 0 4px;font-weight:600}
+@media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navtree{position:static;max-height:60vh;order:2;border-top:1px solid var(--line)}}
+.pn{display:flex;align-items:stretch;gap:8px;margin:0 0 14px;font-size:13px}
+.pn a,.pn span.off{flex:1;min-width:0;display:flex;flex-direction:column;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-decoration:none}
+.pn a:hover{border-color:var(--moss)}
+.pn small{color:var(--muted);font-size:11px}
+.pn .nx{text-align:right}
+.pn b{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pn span.off{visibility:hidden}
+.pn .pos{flex:none;align-self:center;color:var(--muted);font-variant-numeric:tabular-nums;font-size:12px}
+.prose h3{font-family:var(--display);font-size:18px;margin:20px 0 6px}
+.prose h4,.prose h5{font-size:15px;margin:16px 0 4px}
 .crumb{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px}
 .crumb span+span::before{content:"›";margin-right:4px;opacity:.6}
 h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;margin:8px 0 2px;text-wrap:balance}
@@ -79,9 +94,13 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <body>
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
-  <nav><a href="./">이름 찾기</a><a href="review.html">국명 검토</a></nav>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">이름 찾기</a><a href="review.html">국명 검토</a></nav>
 </div></header>
-<main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>
+<div class="page">
+  <aside class="navtree" aria-label="분류 나무"><h2>분류 나무</h2><div id="tree"></div></aside>
+  <main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>
+</div>
+<script src="tree.js"></script>
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
@@ -90,10 +109,18 @@ const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-N
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
 const credit=p=>{const m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(p.attribution||'');return `© ${m?m[1]:(p.attribution||'')} · ${LIC[p.license]||p.license}`};
 const nm=x=>x&&x.name?`${esc(x.name)} <i>${esc(x.sci)}</i>`:x?`<i>${esc(x.sci)}</i>`:'';
+const link=x=>`sp.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
+function pn(d){
+  const side=(x,cls,label)=>x?`<a class="${cls}" href="${link(x)}" ${cls==='pv'?'rel="prev"':'rel="next"'}><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
+  return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 종')}<span class="pos">${d.pos[0].toLocaleString()} / ${d.pos[1].toLocaleString()}</span>${side(d.next,'nx','다음 종 ›')}</nav>`;
+}
+let CUR=null,TREE=null;
+function drawTree(){if(TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
 function render(d){
+  CUR=d;drawTree();
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
   const title=d.name?`<h1>${esc(d.name)}</h1>`:`<h1 class="en">${esc(d.en||d.sci)}</h1>`;
-  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?esc(d.order):null,d.family?nm(d.family):null,d.genus?nm(d.genus):null].filter(Boolean);
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.family?nm(d.family):null,d.genus?nm(d.genus):null].filter(Boolean);
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
@@ -104,7 +131,9 @@ function render(d){
     <p class="galnote">사진: iNaturalist 연구등급 관찰 가운데 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). 사진을 누르면 원래 관찰 기록으로 갑니다.</p>`
     :`<div class="nophoto">${d.fetched?'재사용이 허락된 iNaturalist 사진이 아직 없습니다.':'사진을 아직 받지 않은 종입니다. 한국 출현종부터 차례로 받고 있습니다.'}</div>`;
   const w=d.wiki;
-  const desc=w&&w.extract?`<div class="notice">영문 위키백과 요약을 그대로 싣습니다. 한국어 번역은 준비 중입니다.</div><p lang="en">${esc(w.extract)}</p><p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a> · CC BY-SA 4.0</p>`
+  const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${esc(p)}</p>`).join('')).join('')
+    :w&&w.extract?`<p lang="en">${esc(w.extract)}</p>`:'';
+  const desc=body?`<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).':'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
     :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
@@ -122,6 +151,7 @@ function render(d){
   if(d.inat)links.push(`<li><a href="https://www.inaturalist.org/taxa/${d.inat.id}" target="_blank" rel="noopener">iNaturalist ↗</a><small>관찰 기록, 사진</small></li>`);
   if(w)links.push(`<li><a href="${esc(w.url)}" target="_blank" rel="noopener">영문 위키백과 ↗</a></li>`);
   document.getElementById('main').innerHTML=`
+    ${pn(d)}
     <div class="crumb">${crumb.map(c=>`<span>${c}</span>`).join('')}</div>
     ${title}
     <div class="sci"><i>${esc(d.sci)}</i>${d.author?` <b>${esc(d.author)}</b>`:''}</div>
@@ -139,7 +169,8 @@ function render(d){
         ${ssp}
         <div class="card"><h3>더 보기</h3><ul class="links">${links.join('')}</ul></div>
       </aside>
-    </div>`;
+    </div>
+    <div style="margin-top:28px">${pn(d)}</div>`;
 }
 function load(){
   const sci=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');
@@ -149,6 +180,13 @@ function load(){
   scrollTo(0,0);
 }
 addEventListener('hashchange',load);load();
+fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()});
+// ← → 로 시트 순서의 이전·다음 종
+addEventListener('keydown',e=>{
+  if(!CUR||e.altKey||e.ctrlKey||e.metaKey||/input|textarea|select/i.test(e.target.tagName))return;
+  const x=e.key==='ArrowLeft'?CUR.prev:e.key==='ArrowRight'?CUR.next:null;
+  if(x){location.hash=x.sci.replace(/ /g,'_')}
+});
 </script>
 </body>
 </html>

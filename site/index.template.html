@@ -1,128 +1,26 @@
 <!doctype html>
 <html lang="ko">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vertapedia</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
 <style>
-/* Layout: 이름 검색이 첫 화면의 일. 머리 → 검색창 → 결과 목록 → 자료 출처. */
-:root{
-  --bg:#eef1ee; --panel:#ffffff; --ink:#1d2621; --muted:#5d6b63; --line:#d3dbd5;
-  --moss:#2f5d46; --moss-soft:#dfeae3; --ok:#2e7d4f; --warn:#a86a12; --info:#3b5f8a;
-  --ok-bg:#e1f1e7; --warn-bg:#f8ecd6; --info-bg:#e2eaf4;
-  --display:"Gowun Batang",Georgia,serif; --body:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif; --mono:"IBM Plex Mono",Consolas,monospace;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
-  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --info:#9bbbe3;
-  --ok-bg:#1f3428; --warn-bg:#3a2e17; --info-bg:#1e2a3a; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
-  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --info:#9bbbe3;
-  --ok-bg:#1f3428; --warn-bg:#3a2e17; --info-bg:#1e2a3a; color-scheme:dark}
-*{box-sizing:border-box}
-[hidden]{display:none!important}
-html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6;margin:0}
-a{color:var(--moss)}
-.wrap{max-width:900px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
-header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px}
-h1{font-family:var(--display);font-size:clamp(34px,7vw,48px);margin:0;line-height:1.1}
-.tag{color:var(--muted);font-size:14px}
-header nav{margin-left:auto;font-size:13.5px;display:flex;gap:14px}
-.stats{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:13px;color:var(--muted);margin:14px 0 18px;font-variant-numeric:tabular-nums}
-.stats b{color:var(--ink);font-weight:600}
-.search{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:8px;z-index:2}
-.search input{flex:1;min-width:220px;font:inherit;font-size:17px;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
-.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
-.seg button{font:inherit;font-size:14px;border:0;background:var(--panel);color:var(--muted);padding:0 14px;cursor:pointer;min-height:44px}
-.seg button+button{border-left:1px solid var(--line)}
-.seg button[aria-pressed="true"]{background:var(--moss);color:var(--panel)}
-.count{font-size:12.5px;color:var(--muted);margin:6px 0 8px}
-ul.res{list-style:none;margin:0;padding:0;background:var(--panel);border:1px solid var(--line);border-radius:8px}
-ul.res li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:10px 14px;border-bottom:1px solid var(--line)}
-ul.res li:last-child{border-bottom:0}
-.go{color:inherit;text-decoration:none}.go:hover .nm{text-decoration:underline}
-.pic{color:var(--ok);font-size:10px;vertical-align:middle}
-.nm{font-family:var(--display);font-size:18px;font-weight:700}
-.nm.en{font-family:var(--body);font-weight:500;font-size:15.5px;color:var(--warn)}
-.sci{font-style:italic;color:var(--muted);font-size:14px}
-.rk{font-family:var(--mono);font-size:11px;color:var(--muted);margin-right:6px;font-style:normal}
-.meta{grid-column:1/-1;font-size:12.5px;color:var(--muted)}
-.ssp{grid-column:1/-1;font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
-.ssp i{color:var(--ink)}
-.st{font-size:11.5px;padding:1px 9px;border-radius:999px;white-space:nowrap;font-weight:500;align-self:start}
-.st.kos,.st.official{background:var(--ok-bg);color:var(--ok)}
-.st.consensus,.st.proposal{background:var(--info-bg);color:var(--info)}
-.st.none,.st.split,.st.kos_held{background:var(--warn-bg);color:var(--warn)}
-.empty{padding:28px;text-align:center;color:var(--muted)}
-.more{display:block;margin:10px auto 0;font:inherit;font-size:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:8px 18px;cursor:pointer;min-height:44px}
-footer{font-size:12.5px;color:var(--muted);margin-top:36px;border-top:1px solid var(--line);padding-top:14px}
-footer p{margin:0 0 6px;max-width:72ch}
-button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+:root{--bg:#eef1ee;--ink:#1d2621;--muted:#5d6b63;--moss:#2f5d46;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#141a17;--ink:#e4ebe6;--muted:#9aa9a0;--moss:#8cc4a5;color-scheme:dark}}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif;margin:0;display:grid;place-items:center;min-height:100vh;padding-inline:16px;text-align:center}
+a{color:var(--moss)} p{color:var(--muted)}
 </style>
 <body>
-<div class="wrap">
-  <header>
-    <h1>Vertapedia</h1>
-    <span class="tag">척추동물 국명 사전 · 조류 · 파충류</span>
-    <nav><a href="review.html">국명 검토</a><a href="https://github.com/Tupandactyl/vertapedia">GitHub</a></nav>
-  </header>
-  <div class="stats" id="stats"></div>
-
-  <div class="search">
-    <input id="q" type="search" placeholder="국명·학명·영명으로 찾기 (예: 두견이, Gekko, Ostrich)" autocomplete="off">
-    <div class="seg" role="group" aria-label="동물군">
-      <button aria-pressed="true" data-g="">전체</button><button aria-pressed="false" data-g="A">조류</button><button aria-pressed="false" data-g="R">파충류</button>
-    </div>
-  </div>
-  <p class="count" id="count">목록을 불러오는 중입니다.</p>
-  <ul class="res" id="res"></ul>
-  <button class="more" id="more" hidden>더 보기</button>
-
-  <footer>
-    <p>학명은 eBird/Clements·AviList(조류)와 The Reptile Database(파충류)를 따릅니다. 조류 국명은 한국조류목록 2025 → 국가생물종목록 2019 → 편집진 합의 → 편집진 제안 순으로 씁니다. 파충류 국명은 국가생물종목록 2019 → 편집진 합의 순입니다. 국명이 없으면 영명을 표시합니다.</p>
-    <p>편집진 시트가 바뀌면 6시간 안에 반영됩니다. <span id="built"></span></p>
-  </footer>
-</div>
+<main>
+  <h1>Vertapedia</h1>
+  <p id="msg">무작위 종 문서를 여는 중입니다.</p>
+  <p><a href="find.html">이름 찾기 · 분류 나무</a></p>
+</main>
 <script>
-const META=/*META*/null;
-const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
-const RK={f:'과',g:'속',s:'종'};
-const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
-let rows=[],g='',q='',limit=60;
-const s=META.stats;
-document.getElementById('stats').innerHTML=`<span>조류 <b>${s.AVES.total.toLocaleString()}</b>종 · 국명 <b>${s.AVES.named.toLocaleString()}</b> · 사진 <b>${s.AVES.photos.toLocaleString()}</b></span><span>파충류 <b>${s.REPTILIA.total.toLocaleString()}</b>종 · 국명 <b>${s.REPTILIA.named.toLocaleString()}</b> · 사진 <b>${s.REPTILIA.photos.toLocaleString()}</b></span>`;
-document.getElementById('built').textContent=`마지막 갱신: ${META.built}`;
-const key=t=>(t||'').toLowerCase().replace(/\s+/g,'');
-function render(){
-  const k=key(q);
-  let hits=rows.filter(r=>(!g||r[0]===g));
-  if(k){
-    hits=hits.filter(r=>r._k.includes(k));
-    hits.sort((a,b)=>(a._n.startsWith(k)?0:1)-(b._n.startsWith(k)?0:1)||(a[1]==='s'?1:0)-(b[1]==='s'?1:0));
-  }else hits=hits.filter(r=>r[1]==='f');
-  document.getElementById('count').textContent=k?`${hits.length.toLocaleString()}건`:`과 ${hits.length}개 · 검색어를 넣으면 종과 속도 찾습니다`;
-  const list=hits.slice(0,limit);
-  document.getElementById('res').innerHTML=list.length?list.map(r=>{
-    const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic]=r;
-    const label=name?`<span class="nm">${esc(name)}</span>`:`<span class="nm en">${esc(en||sci)}</span>`;
-    const title=rk==='s'?`<a class="go" href="sp.html#${esc(sci.replace(/ /g,'_'))}">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:label;
-    return `<li><div>${title}</div><span class="st ${st}">${ST[st]||st}</span>
-      <div class="sci"><span class="rk">${RK[rk]}</span>${esc(sci)}${name&&en?` · <span style="font-style:normal">${esc(en)}</span>`:''}</div>
-      ${fam&&rk!=='f'?`<div class="meta">${famKo?esc(famKo)+' ':''}${esc(fam)}</div>`:''}
-      ${ssp?`<div class="ssp">${ssp.map(x=>`<span><i>${esc(x[0])}</i> ${esc(x[1])}${x[2]?` (${esc(x[2].split(' · ')[0])})`:''}</span>`).join('')}</div>`:''}</li>`;
-  }).join(''):'<li class="empty">찾는 이름이 없습니다. 학명이나 영명으로도 찾아보세요.</li>';
-  document.getElementById('more').hidden=hits.length<=limit;
-}
-fetch('data/names.min.json').then(r=>r.json()).then(d=>{
-  rows=d.map(r=>Object.assign(r,{_n:key(r[3]),_k:key([r[3],r[2],r[4]].join(' '))+key((r[7]||[]).map(x=>x[1]+x[0]).join(''))}));
-  render();
-}).catch(()=>{document.getElementById('count').textContent='목록을 불러오지 못했습니다. 새로고침해 주세요.'});
-let tmr;document.getElementById('q').oninput=e=>{clearTimeout(tmr);tmr=setTimeout(()=>{q=e.target.value;limit=60;render()},120)};
-document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{g=b.dataset.g;limit=60;document.querySelectorAll('.seg button').forEach(o=>o.setAttribute('aria-pressed',o===b));render()});
-document.getElementById('more').onclick=()=>{limit+=120;render()};
+// 처음 들어오면 국명과 사진이 있는 종 가운데 하나를 무작위로 연다.
+fetch('data/random.json').then(r=>r.json()).then(pool=>{
+  const sci=pool[Math.floor(Math.random()*pool.length)];
+  location.replace('sp.html#'+encodeURIComponent(sci.replace(/ /g,'_')));
+}).catch(()=>{location.replace('find.html')});
 </script>
 </body>
 </html>
