@@ -1,0 +1,51 @@
+name: 사진·요약 갱신
+
+on:
+  schedule:
+    - cron: "40 18 * * 0"   # 매주 월요일 03:40 KST
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "이번에 새로 받을 최대 종 수"
+        default: "400"
+      all_named:
+        description: "국명이 있는 모든 종까지 넓히기 (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: media
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/fetch_sheets.py
+      - run: python scripts/import_names.py
+      - name: eBird 종 코드
+        run: python scripts/fetch_ebird.py
+      - name: iNaturalist 사진·위키백과 요약
+        run: |
+          python scripts/fetch_media.py --limit "${{ inputs.limit || 400 }}" \
+            $([ "${{ inputs.all_named }}" = "true" ] && echo --all-named)
+      - name: 저장소에 올리기
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/media data/ebird_codes.json
+          if git diff --cached --quiet; then echo "바뀐 것 없음"; exit 0; fi
+          git commit -m "사진·요약 갱신 ($(date -u +%F))"
+          git push
+          gh workflow run build.yml
+        env:
+          GH_TOKEN: ${{ github.token }}

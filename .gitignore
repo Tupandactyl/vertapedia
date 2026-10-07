@@ -11,11 +11,14 @@ data/report.txt
 
 # scripts/build_*.py 결과물
 site/index.html
+site/sp.html
+site/sp/
 site/review.html
 site/data/
 
 # 국가생물종목록 PDF 원본은 올리지 않는다 (추출한 data/nibr.json 만 둔다)
 *.pdf
 
+data/media_fetch.log
 __pycache__/
 .claude/

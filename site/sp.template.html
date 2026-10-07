@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vertapedia</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 계통 경로 → 국명·학명 머리 → 사진 갤러리 → (설명 | 국명 카드·바깥 링크) */
+:root{
+  --bg:#eef1ee; --panel:#ffffff; --ink:#1d2621; --muted:#5d6b63; --line:#d3dbd5;
+  --moss:#2f5d46; --moss-soft:#dfeae3; --ok:#2e7d4f; --warn:#a86a12; --info:#3b5f8a;
+  --ok-bg:#e1f1e7; --warn-bg:#f8ecd6; --info-bg:#e2eaf4; --shade:rgba(0,0,0,.62);
+  --display:"Gowun Batang",Georgia,serif; --body:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif; --mono:"IBM Plex Mono",Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
+  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --info:#9bbbe3;
+  --ok-bg:#1f3428; --warn-bg:#3a2e17; --info-bg:#1e2a3a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
+  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --info:#9bbbe3;
+  --ok-bg:#1f3428; --warn-bg:#3a2e17; --info-bg:#1e2a3a; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65;margin:0}
+a{color:var(--moss)}
+.top{background:var(--panel);border-bottom:1px solid var(--line);padding-inline:16px;padding-block:10px}
+.top-in{max-width:1080px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.logo{font-family:var(--display);font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
+.top nav{margin-left:auto;font-size:13.5px;display:flex;gap:14px}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 64px}
+.crumb{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px}
+.crumb span+span::before{content:"›";margin-right:4px;opacity:.6}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;margin:8px 0 2px;text-wrap:balance}
+h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
+.sci{font-family:var(--display);font-style:italic;font-size:19px;color:var(--muted)}
+.sci b{font-style:normal;font-weight:400;font-size:13.5px;font-family:var(--body)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 20px}
+.chip{font-size:12px;padding:2px 10px;border-radius:999px;background:var(--moss-soft);color:var(--moss);font-weight:500}
+.chip.warn{background:var(--warn-bg);color:var(--warn)} .chip.info{background:var(--info-bg);color:var(--info)}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-auto-rows:150px;gap:8px}
+.ph{position:relative;border-radius:6px;overflow:hidden;background:var(--moss-soft);margin:0;min-width:0}
+.ph:first-child{grid-row:span 2}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph a{display:block;height:100%}
+.ph figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 8px 5px;font-size:10.5px;line-height:1.35;background:linear-gradient(transparent,var(--shade));color:#fff}
+@media (max-width:640px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:120px}.ph:first-child{grid-column:span 2;grid-row:span 2}}
+.nophoto{padding:28px;border:1px dashed var(--line);border-radius:8px;text-align:center;color:var(--muted);font-size:13.5px}
+.galnote{font-size:12px;color:var(--muted);margin:8px 0 0}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;margin-top:28px}
+@media (max-width:900px){.cols{grid-template-columns:minmax(0,1fr)}}
+.prose{max-width:66ch}
+.prose h2,.card h3{font-family:var(--display);font-size:21px;margin:0 0 8px}
+.prose p{margin:0 0 12px}
+.notice{font-size:12.5px;background:var(--warn-bg);padding:8px 12px;border-radius:6px;margin-bottom:14px}
+.src{font-size:12px;color:var(--muted)}
+.side{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px}
+.card h3{font-size:17px}
+.big{font-family:var(--display);font-size:22px;font-weight:700}
+.st{font-size:11.5px;padding:1px 9px;border-radius:999px;white-space:nowrap;font-weight:500}
+.st.kos,.st.official{background:var(--ok-bg);color:var(--ok)}
+.st.consensus,.st.proposal{background:var(--info-bg);color:var(--info)}
+.st.none,.st.split,.st.kos_held{background:var(--warn-bg);color:var(--warn)}
+.why{font-size:13px;margin:10px 0 0}
+.why b{display:block;font-size:11.5px;color:var(--muted);font-weight:600;letter-spacing:.04em}
+dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:10px 0 0;font-size:13px}
+dt{color:var(--muted)} dd{margin:0}
+ul.links{list-style:none;margin:0;padding:0;font-size:14px}
+ul.links li{padding:6px 0;border-bottom:1px dashed var(--line)}
+ul.links li:last-child{border-bottom:0}
+ul.links small{display:block;color:var(--muted);font-size:11.5px}
+.ssp{font-size:13px;margin:0;padding-left:18px}
+.empty{padding:48px 0;text-align:center;color:var(--muted)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+</style>
+<body>
+<header class="top"><div class="top-in">
+  <a class="logo" href="./">Vertapedia</a>
+  <nav><a href="./">이름 찾기</a><a href="review.html">국명 검토</a></nav>
+</div></header>
+<main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>
+<script>
+const META=/*META*/null;
+const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
+const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
+const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
+const credit=p=>{const m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(p.attribution||'');return `© ${m?m[1]:(p.attribution||'')} · ${LIC[p.license]||p.license}`};
+const nm=x=>x&&x.name?`${esc(x.name)} <i>${esc(x.sci)}</i>`:x?`<i>${esc(x.sci)}</i>`:'';
+function render(d){
+  document.title=`${d.name||d.en||d.sci} · Vertapedia`;
+  const title=d.name?`<h1>${esc(d.name)}</h1>`:`<h1 class="en">${esc(d.en||d.sci)}</h1>`;
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?esc(d.order):null,d.family?nm(d.family):null,d.genus?nm(d.genus):null].filter(Boolean);
+  const chips=[];
+  if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
+  if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
+  if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
+  if(d.review)chips.push(`<span class="chip info">${esc(d.review)}</span>`);
+  const ph=d.photos||[];
+  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/observations/${p.obs}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
+    <p class="galnote">사진: iNaturalist 연구등급 관찰 가운데 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). 사진을 누르면 원래 관찰 기록으로 갑니다.</p>`
+    :`<div class="nophoto">${d.fetched?'재사용이 허락된 iNaturalist 사진이 아직 없습니다.':'사진을 아직 받지 않은 종입니다. 한국 출현종부터 차례로 받고 있습니다.'}</div>`;
+  const w=d.wiki;
+  const desc=w&&w.extract?`<div class="notice">영문 위키백과 요약을 그대로 싣습니다. 한국어 번역은 준비 중입니다.</div><p lang="en">${esc(w.extract)}</p><p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a> · CC BY-SA 4.0</p>`
+    :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
+  const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
+  const refs=[];
+  if(d.refs.official&&d.refs.official!==d.name)refs.push(['국가생물종목록',d.refs.official]);
+  if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
+  if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 유통명',d.refs.trade]);
+  if(d.synonyms&&d.synonyms.length)refs.push(['이명',d.synonyms.map(s=>`<i>${esc(s)}</i>`).join(', ')]);
+  const ssp=d.subspecies&&d.subspecies.length?`<div class="card"><h3>아종</h3><ul class="ssp">${d.subspecies.map(s=>`<li><i>${esc(s.sci)}</i> ${esc(s.ko)}${s.note?` <span class="src">(${esc(s.note.split(' · ')[0])})</span>`:''}</li>`).join('')}</ul></div>`:'';
+  const [g,e]=d.sci.split(' ');
+  const links=[];
+  if(d.ebird){links.push(`<li><a href="https://ebird.org/species/${d.ebird}" target="_blank" rel="noopener">eBird 종 정보 ↗</a><small>분포 지도, 관찰 기록</small></li>`);
+    links.push(`<li><a href="https://media.ebird.org/catalog?taxonCode=${d.ebird}&mediaType=photo" target="_blank" rel="noopener">Macaulay Library 사진 ↗</a><small>eBird 사진·소리 (저작권 보호, 원문에서 보기)</small></li>`);
+    links.push(`<li><a href="https://birdsoftheworld.org/bow/species/${d.ebird}/cur/introduction" target="_blank" rel="noopener">Birds of the World ↗</a><small>코넬대 종 해설 (구독)</small></li>`);}
+  if(d.group==='REPTILIA')links.push(`<li><a href="https://reptile-database.reptarium.cz/species?genus=${encodeURIComponent(g)}&species=${encodeURIComponent(e)}" target="_blank" rel="noopener">The Reptile Database ↗</a><small>분류, 분포, 문헌</small></li>`);
+  if(d.inat)links.push(`<li><a href="https://www.inaturalist.org/taxa/${d.inat.id}" target="_blank" rel="noopener">iNaturalist ↗</a><small>관찰 기록, 사진</small></li>`);
+  if(w)links.push(`<li><a href="${esc(w.url)}" target="_blank" rel="noopener">영문 위키백과 ↗</a></li>`);
+  document.getElementById('main').innerHTML=`
+    <div class="crumb">${crumb.map(c=>`<span>${c}</span>`).join('')}</div>
+    ${title}
+    <div class="sci"><i>${esc(d.sci)}</i>${d.author?` <b>${esc(d.author)}</b>`:''}</div>
+    <div class="chips">${chips.join('')}</div>
+    ${gal}
+    <div class="cols">
+      <section class="prose"><h2>설명</h2>${desc}</section>
+      <aside class="side">
+        <div class="card"><h3>국명</h3>
+          <div class="big">${d.name?esc(d.name):'—'}</div>
+          <span class="st ${d.status}">${ST[d.status]||d.status}</span>
+          ${why}
+          ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${r[1].startsWith('<')?r[1]:esc(r[1])}</dd>`).join('')}</dl>`:''}
+        </div>
+        ${ssp}
+        <div class="card"><h3>더 보기</h3><ul class="links">${links.join('')}</ul></div>
+      </aside>
+    </div>`;
+}
+function load(){
+  const sci=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');
+  if(!sci){document.getElementById('main').innerHTML='<p class="empty">종을 고르지 않았습니다. <a href="./">이름 찾기</a>에서 골라 주세요.</p>';return}
+  fetch(`sp/${encodeURIComponent(sci)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
+    .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci.replace(/_/g,' '))}” 종을 찾지 못했습니다. <a href="./">이름 찾기</a>로 돌아가기</p>`});
+  scrollTo(0,0);
+}
+addEventListener('hashchange',load);load();
+</script>
+</body>
+</html>

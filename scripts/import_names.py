@@ -201,6 +201,11 @@ def parse_kos(path):
         for r in rows[1:]:
             rank = (clean(cell(r, ix["분류"])) or "").lower()
             sci = clean(cell(r, ix["학명"]))
+            if rank in ("family", "order") and sci:
+                sci = sci.split()[-1].capitalize()
+                out.append(dict(group="AVES", rank=rank, sci=sci, ko=clean(cell(r, ix["국명"])),
+                                author=None, en=clean(cell(r, ix["영명"])), category=None, held=held))
+                continue
             if rank not in ("species", "ssp") or not sci:
                 continue
             out.append(dict(group="AVES", rank="species" if rank == "species" else "subspecies",
@@ -371,6 +376,11 @@ def main():
     # --- 한국조류목록 2025 → 시트 (조류만) ---
     kos_rows = []
     for k in kos:
+        if k["rank"] in ("family", "order"):
+            t = by_key.get(("AVES", k["sci"]))
+            if t and k["ko"] and not k["held"]:
+                t["kos"] = dict(sci=k["sci"], ko=k["ko"], category=None, held=False)
+            continue
         if k["rank"] == "subspecies":
             parent = " ".join(k["sci"].split()[:2])
             pt, _, _ = linker.link("AVES", parent, None)
@@ -401,6 +411,11 @@ def main():
     # (예: Gygis alba candida → 시트의 Gygis candida)
     kos_ssp = defaultdict(list)
     for k in kos:
+        if k["rank"] in ("family", "order"):
+            t = by_key.get(("AVES", k["sci"]))
+            if t and k["ko"] and not k["held"]:
+                t["kos"] = dict(sci=k["sci"], ko=k["ko"], category=None, held=False)
+            continue
         if k["rank"] == "subspecies":
             kos_ssp[" ".join(k["sci"].split()[:2])].append(k)
     for t in list(sheet):
