@@ -93,7 +93,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
 <script>
 const META=/*META*/null;
 const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
-const RK={o:'목',f:'과',g:'속',s:'종'};
+const RK={o:'목',u:'아목',f:'과',g:'속',s:'종'};
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 let rows=[],g='',q='',limit=60,TREE=null;
 const s=META.stats;
@@ -120,7 +120,7 @@ function render(){
   document.getElementById('res').innerHTML=list.length?list.map(r=>{
     const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic]=r;
     const label=name?`<span class="nm">${esc(name)}</span>`:`<span class="nm en">${esc(en||sci)}</span>`;
-    const title=rk==='s'?`<a class="go" href="sp.html#${esc(sci.replace(/ /g,'_'))}">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:label;
+    const title=rk==='s'?`<a class="go" href="sp.html#${esc(sci.replace(/ /g,'_'))}">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:rk==='f'?`<a class="go" href="fam.html#${esc(sci)}">${label}</a>`:label;
     return `<li><div>${title}</div><span class="st ${st}">${ST[st]||st}</span>
       <div class="sci"><span class="rk">${RK[rk]}</span>${esc(sci)}${name&&en?` · <span style="font-style:normal">${esc(en)}</span>`:''}</div>
       ${fam&&rk!=='f'?`<div class="meta">${famKo?esc(famKo)+' ':''}${esc(fam)}</div>`:''}

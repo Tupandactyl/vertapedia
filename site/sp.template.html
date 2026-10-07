@@ -120,7 +120,8 @@ function render(d){
   CUR=d;drawTree();
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
   const title=d.name?`<h1>${esc(d.name)}</h1>`:`<h1 class="en">${esc(d.en||d.sci)}</h1>`;
-  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.family?nm(d.family):null,d.genus?nm(d.genus):null].filter(Boolean);
+  const famLink=d.family&&d.family.name!==undefined?`<a href="fam.html#${encodeURIComponent(d.family.sci)}">${nm(d.family)}</a>`:d.family?nm(d.family):null;
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,famLink,d.genus?nm(d.genus):null].filter(Boolean);
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);

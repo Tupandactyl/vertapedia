@@ -31,6 +31,13 @@
 
 GitHub Actions(`.github/workflows/build.yml`)가 6시간마다 시트를 받아 국명을 다시 합치고 GitHub Pages에 배포한다. 바로 반영하려면 저장소의 Actions 탭 → "시트 반영과 배포" → Run workflow.
 
+## 문서
+
+- 첫 화면(`index.html`)은 국명과 사진이 있는 종 가운데 하나를 무작위로 연다.
+- 종 문서 `sp.html#학명`, 과 문서 `fam.html#과학명`(명칭 근거 + 포함 속·종). 둘 다 시트 순서로 이전·다음 이동(← → 키).
+- 이름 찾기 `find.html`: 검색어가 없으면 분류 나무(목 > 아목 > 과 > 속 > 종)를 접고 펴서 본다.
+- 파충류 유린목은 시트 Order 열의 Lizards/Serpentes 를 도마뱀아목·뱀아목으로 둔다(`data/overrides.json`).
+
 ## 사진·설명
 
 - 종 페이지(`sp.html#학명`)는 iNaturalist 연구등급 관찰 사진 가운데 재사용이 허락된 것(CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)만 싣고 촬영자를 밝힌다.

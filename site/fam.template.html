@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vertapedia</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="tree.css">
+<style>
+/* Layout: 왼쪽 분류 나무 | 과 문서(이전·다음 → 머리 → 명칭 근거 → 아과 → 포함 속·종) */
+:root{
+  --bg:#eef1ee; --panel:#ffffff; --ink:#1d2621; --muted:#5d6b63; --line:#d3dbd5;
+  --moss:#2f5d46; --moss-soft:#dfeae3; --ok:#2e7d4f; --warn:#a86a12; --info:#3b5f8a;
+  --ok-bg:#e1f1e7; --warn-bg:#f8ecd6; --info-bg:#e2eaf4;
+  --display:"Gowun Batang",Georgia,serif; --body:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif; --mono:"IBM Plex Mono",Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
+  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --info:#9bbbe3;
+  --ok-bg:#1f3428; --warn-bg:#3a2e17; --info-bg:#1e2a3a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
+  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --info:#9bbbe3;
+  --ok-bg:#1f3428; --warn-bg:#3a2e17; --info-bg:#1e2a3a; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65;margin:0}
+a{color:var(--moss)}
+.top{background:var(--panel);border-bottom:1px solid var(--line);padding-inline:16px;padding-block:10px}
+.top-in{max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.logo{font-family:var(--display);font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
+.top nav{margin-left:auto;font-size:13.5px;display:flex;gap:14px}
+.page{max-width:1320px;margin:0 auto;padding-inline:16px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:28px}
+.wrap{padding-block:16px 64px;min-width:0;max-width:860px}
+.navtree{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto;padding-block:12px 40px;font-size:13px}
+.navtree h2{font-size:11px;letter-spacing:.08em;color:var(--muted);margin:0 0 4px;font-weight:600}
+@media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navtree{position:static;max-height:60vh;order:2;border-top:1px solid var(--line)}}
+.pn{display:flex;align-items:stretch;gap:8px;margin:0 0 14px;font-size:13px}
+.pn a,.pn span.off{flex:1;min-width:0;display:flex;flex-direction:column;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-decoration:none}
+.pn a:hover{border-color:var(--moss)}
+.pn small{color:var(--muted);font-size:11px}
+.pn .nx{text-align:right}
+.pn b{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pn span.off{visibility:hidden}
+.pn .pos{flex:none;align-self:center;color:var(--muted);font-variant-numeric:tabular-nums;font-size:12px}
+.crumb{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px}
+.crumb span+span::before{content:"›";margin-right:4px;opacity:.6}
+.kind{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.06em}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;margin:4px 0 2px;text-wrap:balance}
+.sci{font-family:var(--display);font-size:19px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 18px}
+.chip{font-size:12px;padding:2px 10px;border-radius:999px;background:var(--moss-soft);color:var(--moss);font-weight:500}
+.st{font-size:11.5px;padding:1px 9px;border-radius:999px;white-space:nowrap;font-weight:500}
+.st.kos,.st.official{background:var(--ok-bg);color:var(--ok)}
+.st.consensus,.st.proposal{background:var(--info-bg);color:var(--info)}
+.st.none,.st.split,.st.kos_held{background:var(--warn-bg);color:var(--warn)}
+section{margin-top:22px}
+section>h2{font-family:var(--display);font-size:21px;margin:0 0 10px}
+.why{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;font-size:14.5px}
+.why .none{color:var(--muted)}
+.why dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:10px 0 0;font-size:13px}
+.why dt{color:var(--muted)} .why dd{margin:0}
+.subf{list-style:none;margin:0;padding:0}
+.subf li{padding:8px 0;border-bottom:1px dashed var(--line);font-size:14px}
+.subf small{display:block;color:var(--muted);font-size:12.5px}
+.genus{background:var(--panel);border:1px solid var(--line);border-radius:8px;margin-bottom:10px}
+.genus>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.genus>header b{font-family:var(--display);font-size:17px}
+.genus>header i{color:var(--muted)}
+.genus>header .n{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.genus>p{margin:0;padding:8px 14px 0;font-size:12.5px;color:var(--muted)}
+.genus ul{list-style:none;margin:0;padding:4px 0}
+.genus li a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 10px;padding:6px 14px;text-decoration:none;color:var(--ink)}
+.genus li a:hover{background:var(--moss-soft)}
+.genus li .ko{font-weight:600}
+.genus li .ko.en{color:var(--warn);font-weight:500}
+.genus li .s{font-size:12.5px;color:var(--muted);grid-column:1}
+.genus li .st{grid-row:1/3;grid-column:2;align-self:center}
+.pic{color:var(--ok);font-size:9px;margin-left:4px;vertical-align:middle}
+.empty{padding:48px 0;text-align:center;color:var(--muted)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+</style>
+<body>
+<header class="top"><div class="top-in">
+  <a class="logo" href="./">Vertapedia</a>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">이름 찾기</a><a href="review.html">국명 검토</a></nav>
+</div></header>
+<div class="page">
+  <aside class="navtree" aria-label="분류 나무"><h2>분류 나무</h2><div id="tree"></div></aside>
+  <main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>
+</div>
+<script src="tree.js"></script>
+<script>
+const META=/*META*/null;
+const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
+const nm=x=>x&&x.name?`${esc(x.name)} ${esc(x.sci)}`:x?esc(x.sci):'';
+const link=(page,x)=>`${page}.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
+function pn(d){
+  const side=(x,cls,label)=>x?`<a class="${cls}" href="${link('fam',x)}"><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
+  return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 과')}<span class="pos">${d.pos[0]} / ${d.pos[1]}</span>${side(d.next,'nx','다음 과 ›')}</nav>`;
+}
+let CUR=null,TREE=null;
+function drawTree(){if(TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
+function render(d){
+  CUR=d;drawTree();
+  document.title=`${d.name||d.sci} · Vertapedia`;
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null].filter(Boolean);
+  const refs=[];
+  if(d.refs.kos)refs.push(['한국조류목록 2025',d.refs.kos]);
+  if(d.refs.official)refs.push(['국가생물종목록',d.refs.official]);
+  const why=`<div class="why">${d.rationale?esc(d.rationale):`<span class="none">${d.status==='kos'||d.status==='official'?`${ST[d.status]}에 실린 국명을 그대로 씁니다.`:'명칭 근거가 아직 적히지 않았습니다. 시트의 과단위 번역 탭에 적으면 반영됩니다.'}</span>`}
+    ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('')}</dl>`:''}</div>`;
+  const subf=d.subfamilies.length?`<section><h2>아과</h2><ul class="subf">${d.subfamilies.map(s=>`<li>${s.name?`<b>${esc(s.name)}</b> `:''}${esc(s.sci)}${s.en?` · ${esc(s.en)}`:''}${s.rationale?`<small>${esc(s.rationale)}</small>`:''}</li>`).join('')}</ul></section>`:'';
+  const gens=d.genera.map(g=>`<article class="genus">
+      <header><b>${esc(g.name||g.sci)}</b>${g.name?`<i>${esc(g.sci)}</i>`:''}<span class="n">${g.species.length}종</span></header>
+      ${g.rationale?`<p>${esc(g.rationale)}</p>`:''}
+      <ul>${g.species.map(s=>`<li><a href="${link('sp',{sci:s[0]})}"><span class="ko${s[1]?'':' en'}">${esc(s[1]||s[2]||s[0])}${s[4]?'<span class="pic" title="사진 있음">●</span>':''}</span><span class="st ${s[3]}">${ST[s[3]]||s[3]}</span>${s[1]||s[2]?`<span class="s"><i>${esc(s[0])}</i>${s[1]&&s[2]?` · ${esc(s[2])}`:''}</span>`:''}</a></li>`).join('')}</ul>
+    </article>`).join('');
+  document.getElementById('main').innerHTML=`
+    ${pn(d)}
+    <div class="crumb">${crumb.map(c=>`<span>${c}</span>`).join('')}</div>
+    <div class="kind">과 FAMILY</div>
+    <h1>${esc(d.name||d.sci)}</h1>
+    <div class="sci">${esc(d.sci)}</div>
+    <div class="chips">${d.en?`<span class="chip">${esc(d.en)}</span>`:''}<span class="st ${d.status}">${ST[d.status]||d.status}</span><span class="chip">속 ${d.counts.genera} · 종 ${d.counts.species.toLocaleString()} · 국명 ${d.counts.named.toLocaleString()}</span></div>
+    <section><h2>명칭 근거</h2>${why}</section>
+    ${subf}
+    <section><h2>포함 속·종</h2>${gens}</section>
+    <div style="margin-top:28px">${pn(d)}</div>`;
+}
+function load(){
+  const sci=decodeURIComponent(location.hash.slice(1));
+  if(!sci){location.replace('find.html');return}
+  fetch(`fam/${encodeURIComponent(sci)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
+    .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci)}” 과를 찾지 못했습니다. <a href="find.html">이름 찾기</a>로 돌아가기</p>`});
+  scrollTo(0,0);
+}
+addEventListener('hashchange',load);load();
+fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()});
+addEventListener('keydown',e=>{
+  if(!CUR||e.altKey||e.ctrlKey||e.metaKey||/input|textarea|select/i.test(e.target.tagName))return;
+  const x=e.key==='ArrowLeft'?CUR.prev:e.key==='ArrowRight'?CUR.next:null;
+  if(x)location.hash=x.sci;
+});
+</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "_설명": "자동 대조로 풀리지 않는 국가생물종목록 학명을 손으로 정한 것. 편집자 확인(2026-10-08).",
+  "_설명": "자동 대조로 풀리지 않는 것을 편집자가 직접 정한 것(2026-10-08).",
   "link": [
     {"group": "AVES", "nibr_sci": "Hieraaetus fasciatus", "sci": "Aquila fasciata"}
   ],
@@ -12,5 +12,21 @@
     {"group": "AVES", "nibr_sci": "Anas carolinensis", "sci": "Anas crecca carolinensis", "parent": "Anas crecca", "note": "아종 단위 통합"},
     {"group": "AVES", "nibr_sci": "Larus heuglini", "sci": "Larus fuscus heuglini", "parent": "Larus fuscus", "note": "아종 단위 통합"},
     {"group": "AVES", "nibr_sci": "Carduelis hornemanni", "sci": "Acanthis flammea exilipes", "parent": "Acanthis flammea", "note": "아종 단위 통합 · 국내 기록 아종은 한국조류목록 2025 기준 exilipes"}
+  ],
+  "_파충류_목": "시트 과단위 번역의 Order 열 값 → [목, 아목]. 도마뱀·뱀은 유린목 아래 아목으로 둔다.",
+  "reptile_orders": {
+    "Lizards": ["Squamata", "Lacertilia"],
+    "Serpentes": ["Squamata", "Serpentes"]
+  },
+  "_과_철자": "시트 과단위 번역 탭의 과 학명 오타를 종 탭 표기로 맞춘다.",
+  "family_alias": {
+    "REPTILIA": {"Xenophiididae": "Xenophidiidae"}
+  },
+  "_분류미정": "시트 '분류미정 뱀' 탭의 종: 과는 정하지 않고 뱀아목 아래에 둔다.",
+  "unplaced_tabs": {
+    "분류미정 뱀": ["Squamata", "Serpentes"]
+  },
+  "names": [
+    {"group": "REPTILIA", "rank": "order", "sci": "Squamata", "name": "유린목", "note": "편집자 결정: 도마뱀아목과 뱀아목을 유린목 하나로 묶음"}
   ]
 }

@@ -150,7 +150,11 @@ def parse_birds(path):
 
 
 # ---------- 파충류 시트 ----------
-def parse_reptiles(path):
+def parse_reptiles(path, ov):
+    """ov: overrides.json — reptile_orders(Order 열 → [목, 아목]), family_alias, unplaced_tabs"""
+    ord_map = ov.get("reptile_orders", {})
+    alias = ov.get("family_alias", {}).get("REPTILIA", {})
+    unplaced = ov.get("unplaced_tabs", {})
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     taxa = []
     for ws in wb.worksheets:
@@ -160,22 +164,22 @@ def parse_reptiles(path):
         h = [clean(c) for c in rows[0]]
         if ws.title == "과단위 번역":
             # 0 과(또는 목), 1 아과, 2 영명, 3 국명 제안, 4 해설, 5 목
-            order, cur_fam = None, None
+            order, suborder, cur_fam = None, None, None
             for r in rows[1:]:
                 fam, sub, en, ko, why, ordr = (clean(cell(r, i)) for i in range(6))
-                if ordr == "Lizards":  # 시트의 비공식 묶음 → 국가생물종목록의 도마뱀아목
-                    ordr = "Lacertilia"
+                fam = alias.get(fam, fam)
                 if ordr:
-                    order = ordr
+                    order, suborder = ord_map.get(ordr, [ordr, None])
                 if fam and not fam.endswith("idae"):  # 목 행
-                    order = ordr or fam
+                    if not ordr:
+                        order, suborder = ord_map.get(fam, [fam, None])
                     taxa.append(dict(group="REPTILIA", rank="order", sci=fam, en=en, consensus=ko,
                                      proposals={}, rationale=why, sheet=ws.title))
                     continue
                 if fam:
                     cur_fam = fam
                     taxa.append(dict(group="REPTILIA", rank="family", sci=fam, en=en, consensus=ko, order=order,
-                                     proposals={}, rationale=why, sheet=ws.title))
+                                     suborder=suborder, proposals={}, rationale=why, sheet=ws.title))
                 elif sub and sub != "-":
                     taxa.append(dict(group="REPTILIA", rank="subfamily", sci=sub, en=en, consensus=ko,
                                      family=cur_fam, order=order, proposals={}, rationale=why, sheet=ws.title))
@@ -193,7 +197,9 @@ def parse_reptiles(path):
                 family = m.group(1)
                 continue
             rank = "genus" if len(sci.split()) == 1 else "species"
-            taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, family=family,
+            hint = unplaced.get(ws.title.strip())
+            taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, family=alias.get(family, family),
+                             order_hint=hint[0] if hint else None, suborder_hint=hint[1] if hint else None,
                              author=clean(cell(r, ix.get("Author"))),
                              moe=clean(cell(r, ix.get("환경부 지정명"))),
                              trade=clean(cell(r, ix.get("국내 통용/유통명"))),
@@ -288,7 +294,25 @@ def main():
     ov = json.loads((DATA / "overrides.json").read_text(encoding="utf-8"))
     kos = parse_kos(DATA / "kos2025.xlsx")
 
-    sheet = parse_birds(DATA / "birds.xlsx") + parse_reptiles(DATA / "reptiles.xlsx")
+    sheet = parse_birds(DATA / "birds.xlsx") + parse_reptiles(DATA / "reptiles.xlsx", ov)
+    # 과 머리줄이 없는 조류 탭(코뿔새목 등): eBird 분류표의 종 → 과로 채운다. 속 행은 그 속 종의 과를 따른다.
+    fam_of = json.loads((DATA / "ebird_family_of.json").read_text(encoding="utf-8")) \
+        if (DATA / "ebird_family_of.json").exists() else {}
+    genus_fam = {}
+    for t in sheet:
+        if t["group"] == "AVES" and t["rank"] == "species" and not t.get("family") and t["sci"] in fam_of:
+            t["family"] = fam_of[t["sci"]]
+            t["family_from"] = "eBird"
+        if t["group"] == "AVES" and t["rank"] == "species" and t.get("family"):
+            genus_fam.setdefault(t["sci"].split()[0], t["family"])
+    last = {}
+    for t in sheet:
+        if t["group"] == "AVES" and t["rank"] in ("genus", "species") and not t.get("family"):
+            # 그 속 다른 종의 과 → 없으면 시트에서 바로 앞 행의 과(eBird에서 속이 바뀐 종: Milvago 등)
+            t["family"] = genus_fam.get(t["sci"].split()[0]) or last.get(t["sheet"])
+            t["family_from"] = t.get("family_from") or "앞 행"
+        if t["group"] == "AVES" and t["rank"] in ("genus", "species") and t.get("family"):
+            last[t["sheet"]] = t["family"]
     by_key = {(t["group"], t["sci"]): t for t in sheet}
     linker = Linker(sheet)
     nibr_by = {(t["group"], t["sci"]): t for t in nibr}
@@ -319,11 +343,11 @@ def main():
         return True
 
     # 시트 과들이 가리키는 목인데 목 행이 없으면 국가생물종목록의 목·아목 이름으로 채운다(예: 뱀아목)
-    used_orders = {(t["group"], t.get("order")) for t in sheet if t["rank"] == "family" and t.get("order")}
+    used_orders = {(t["group"], t.get(k)) for t in sheet if t["rank"] == "family" for k in ("order", "suborder") if t.get(k)}
     for o in nibr:
         k = (o["group"], o["sci"])
         if o["rank"] in ("order", "suborder") and k in used_orders and k not in by_key:
-            t = dict(group=o["group"], rank="order", sci=o["sci"], en=None, consensus=None, proposals={},
+            t = dict(group=o["group"], rank=o["rank"], sci=o["sci"], en=None, consensus=None, proposals={},
                      rationale=None, sheet="국가생물종목록", official=o["ko"])
             sheet.insert(0, t)
             by_key[k] = t
@@ -347,7 +371,8 @@ def main():
                 rec.update(sheet_sci=t["sci"], result="편집자 지정", how="학명 직접 지정")
             elif kind == "keep":
                 repl = by_key.pop((o["group"], m["replaces"]), None) if m.get("replaces") else None
-                t = dict(group=o["group"], rank="species", sci=o["sci"], family=fam, author=o["author"],
+                t = dict(group=o["group"], rank="species", sci=o["sci"],
+                         family=(repl or {}).get("family") or fam, author=o["author"],
                          en=repl.get("en") if repl else None, consensus=None, proposals={}, rationale=None,
                          sheet="국가생물종목록", official=o["ko"], synonyms=[m["replaces"]] if repl else [],
                          review=m["note"])
@@ -475,6 +500,15 @@ def main():
         if t["status"] in ("proposal", "kos_held") and t["rank"] == "species" and used[(t["group"], norm(t["name"]))] > 1:
             t["name"], t["status"] = None, "none"
             t["proposals_hidden"] = True
+    # 편집자가 직접 정한 이름(overrides.json names) — 다른 모든 출처보다 먼저
+    for o in ov.get("names", []):
+        t = by_key.get((o["group"], o["sci"]))
+        if t is None:
+            t = dict(group=o["group"], rank=o["rank"], sci=o["sci"], en=None, consensus=None, proposals={},
+                     rationale=None, sheet="편집자 결정")
+            sheet.insert(0, t)
+            by_key[(o["group"], o["sci"])] = t
+        t.update(name=o["name"], status="consensus", rationale=o.get("note"))
     for t in sheet:
         stat[(t["group"], t["rank"], t["status"])] += 1
     # 아종: 한국조류목록 2025 이름이 있으면 그것을 먼저
