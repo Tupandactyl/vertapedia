@@ -34,7 +34,12 @@ a{color:var(--moss)}
 .page{max-width:1320px;margin:0 auto;padding-inline:16px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:28px}
 .wrap{padding-block:16px 64px;min-width:0}
 .navtree{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto;padding-block:12px 40px;font-size:13px}
-.navtree h2{font-size:11px;letter-spacing:.08em;color:var(--muted);margin:0 0 4px;font-weight:600}
+.paneltog{font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 12px;cursor:pointer}
+.paneltog:hover{color:var(--ink);border-color:var(--moss)}
+.paneltog .arr{display:inline-block;width:1em}
+.navtree #tree{margin-top:8px}
+.page.closed{grid-template-columns:minmax(0,1fr)}
+.page.closed .navtree{position:static;max-height:none;padding-block:12px 0;border-top:0;order:0}
 @media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navtree{position:static;max-height:60vh;order:2;border-top:1px solid var(--line)}}
 .pn{display:flex;align-items:stretch;gap:8px;margin:0 0 14px;font-size:13px}
 .pn a,.pn span.off{flex:1;min-width:0;display:flex;flex-direction:column;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-decoration:none}
@@ -97,7 +102,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
   <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">이름 찾기</a><a href="review.html">국명 검토</a></nav>
 </div></header>
 <div class="page">
-  <aside class="navtree" aria-label="분류 나무"><h2>분류 나무</h2><div id="tree"></div></aside>
+  <aside class="navtree" aria-label="분류군"><button type="button" class="paneltog" id="paneltog" aria-expanded="false" aria-controls="tree"><span class="arr">▸</span> 분류군</button><div id="tree" hidden></div></aside>
   <main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>
 </div>
 <script src="tree.js"></script>
@@ -114,8 +119,18 @@ function pn(d){
   const side=(x,cls,label)=>x?`<a class="${cls}" href="${link(x)}" ${cls==='pv'?'rel="prev"':'rel="next"'}><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
   return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 종')}<span class="pos">${d.pos[0].toLocaleString()} / ${d.pos[1].toLocaleString()}</span>${side(d.next,'nx','다음 종 ›')}</nav>`;
 }
-let CUR=null,TREE=null;
-function drawTree(){if(TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
+let CUR=null,TREE=null,OPEN=false;
+// 분류군 창: 기본은 접힘. 펼친 상태는 이 브라우저에 기억한다.
+try{OPEN=localStorage.getItem('vp-panel')==='open'}catch(e){}
+function setPanel(on){
+  OPEN=on;document.querySelector('.page').classList.toggle('closed',!on);
+  document.getElementById('tree').hidden=!on;
+  const b=document.getElementById('paneltog');b.setAttribute('aria-expanded',String(on));b.querySelector('.arr').textContent=on?'▾':'▸';
+  try{localStorage.setItem('vp-panel',on?'open':'closed')}catch(e){}
+  drawTree();
+}
+document.getElementById('paneltog').onclick=()=>setPanel(!OPEN);
+function drawTree(){if(OPEN&&TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
 function render(d){
   CUR=d;drawTree();
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
@@ -180,6 +195,7 @@ function load(){
     .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci.replace(/_/g,' '))}” 종을 찾지 못했습니다. <a href="./">이름 찾기</a>로 돌아가기</p>`});
   scrollTo(0,0);
 }
+setPanel(OPEN);
 addEventListener('hashchange',load);load();
 fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()});
 // ← → 로 시트 순서의 이전·다음 종

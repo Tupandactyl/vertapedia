@@ -110,7 +110,7 @@ function render(){
   const tb=document.getElementById('tree'),res=document.getElementById('res');
   tb.hidden=!!k;res.hidden=!k;
   if(!k){
-    document.getElementById('count').textContent='분류 나무 · ▸를 눌러 펼치고, 검색어를 넣으면 이름으로 찾습니다';
+    document.getElementById('count').textContent='분류군 · ▸를 눌러 펼치고, 검색어를 넣으면 이름으로 찾습니다';
     document.getElementById('more').hidden=true;
     if(TREE)VTree(tb,TREE,{groups:g?[g]:['A','R']});
     return;

@@ -1,7 +1,7 @@
 """data/names.json·data/media 에서 사이트 자료를 만든다.
 
 - site/data/names.min.json : 검색용 가벼운 목록
-- site/data/tree.json      : 목 > (아목) > 과 > 속 > 종 분류 나무 (시트 순서)
+- site/data/tree.json      : 목 > (아목) > 과 > 속 > 종 분류군 (시트 순서)
 - site/data/random.json    : 첫 화면에서 고를 종 (국명과 사진이 있는 종)
 - site/sp/<학명>.json      : 종 문서 (시트 기준 이전·다음 종 포함)
 - site/fam/<학명>.json     : 과 문서 — 명칭 근거와 포함 속·종 목록
@@ -66,7 +66,7 @@ def taxon(rank_map, g, sci):
     return short(x) if x else ({"sci": sci} if sci else None)
 
 
-# --- 분류 나무: 내부 마디 [계급, 학명, 국명, 자식들], 종 [학명, 국명, 영명, 사진] ---
+# --- 분류군: 내부 마디 [계급, 학명, 국명, 자식들], 종 [학명, 국명, 영명, 사진] ---
 tree = {}
 for t in species:
     g = t["group"]
