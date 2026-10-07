@@ -1,0 +1,54 @@
+{
+ "sci": "Melanoperdix niger",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1256,
+  "name": "Melanoperdix niger",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black_partridge"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65587263/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC)",
+   "obs": 41348650,
+   "place": "Riau, ID",
+   "date": "2015-08-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469676151/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frank_lambert, some rights reserved (CC BY-NC)",
+   "obs": 261433395,
+   "place": "Murung Raya, ID-KT, ID",
+   "date": "1990-08-10"
+  }
+ ],
+ "wiki": {
+  "title": "Black partridge",
+  "url": "https://en.wikipedia.org/wiki/Black_partridge",
+  "revision": 1377035833,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The black partridge (Melanoperdix niger), also known as the black wood partridge, is a small (up to 27 cm long) partridge with a thick bill, grey legs and dark brown iris. It is the only member of the monotypic genus Melanoperdix.",
+     "The black partridge is sexually dimorphic. The male has entirely glossy black plumage and a black bill, while the female is generally a chestnut-brown bird with a whitish throat and belly and a dark horn-coloured bill. The female is smaller than the male.",
+     "The black partridge occurs in lowland rainforests of Peninsular Malaysia, Borneo and Sumatra in southeast Asia. It was formerly found in, but is now long extinct, in Singapore. The female usually lays five to six white eggs.",
+     "Due to ongoing habitat loss, small population size and overhunting in some areas, the black partridge is evaluated as Vulnerable on the IUCN Red List of Threatened Species. It is listed on Appendix III of CITES in Malaysia."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "The black partridge has two accepted subspecies:",
+     "M. n. borneensis (Rothschild, 1917)",
+     "M. n. niger (Vigors, 1829)"
+    ]
+   }
+  ]
+ }
+}

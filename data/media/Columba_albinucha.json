@@ -1,0 +1,82 @@
+{
+ "sci": "Columba albinucha",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 3068,
+  "name": "Columba albinucha",
+  "observations": 29,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-naped_pigeon"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614142310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smithrngr, some rights reserved (CC BY-NC)",
+   "obs": 337790063,
+   "place": "Mbomo, CG-CO, CG",
+   "date": "2026-02-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632570348/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Robin Fjellström, some rights reserved (CC BY)",
+   "obs": 346975391,
+   "place": "Rafaï, CF-MB, CF",
+   "date": "2026-01-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414114806/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thierry_aebischer_chinko, some rights reserved (CC BY-NC)",
+   "obs": 233044651,
+   "place": "Rafaï, CF-MB, CF",
+   "date": "2015-06-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114982574/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thierry_aebischer_chinko, some rights reserved (CC BY-NC)",
+   "obs": 70700272,
+   "place": "Rafaï, CF-MB, CF",
+   "date": "2015-05-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146880725/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC)",
+   "obs": 88978196,
+   "place": "Uganda",
+   "date": "2021-07-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184030878/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sitszasadam, some rights reserved (CC BY-NC)",
+   "obs": 109214292,
+   "place": "Uganda",
+   "date": "2021-06-18"
+  }
+ ],
+ "wiki": {
+  "title": "White-naped pigeon",
+  "url": "https://en.wikipedia.org/wiki/White-naped_pigeon",
+  "revision": 1358697589,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The white-naped pigeon (Columba albinucha) is a species of bird in the family Columbidae. It is native to the Western High Plateau, the Adamawa and Bongo massifs and the Albertine Rift montane forests on the other.",
+     "Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest. It is threatened by habitat destruction."
+    ]
+   },
+   {
+    "h": "Status",
+    "level": 2,
+    "paras": [
+     "Although described as locally common in parts of the Democratic Republic of Congo, the white-naped pigeon is in general a scarce bird with a limited range. The chief threat it faces is the clearance of the forest habitat in which it lives, although it can survive in secondary woodland and has been reported in coffee plantations. Though its population is believed to be decreasing, its range is likely considerably larger than previously thought and is thus classified as Least Concern by the IUCN."
+    ]
+   }
+  ]
+ }
+}

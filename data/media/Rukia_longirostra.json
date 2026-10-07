@@ -1,0 +1,59 @@
+{
+ "sci": "Rukia longirostra",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 17531,
+  "name": "Rukia longirostra",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Long-billed_white-eye"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39755947/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "obs": 25652312,
+   "place": "Pohnpei, FM",
+   "date": "2019-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564494741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre de Chabannes, some rights reserved (CC BY-NC)",
+   "obs": 312638044,
+   "place": "Pohnpei, FM",
+   "date": "2023-12-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564498889/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre de Chabannes, some rights reserved (CC BY-NC)",
+   "obs": 312640237,
+   "place": "Pohnpei, FM",
+   "date": "2023-12-20"
+  }
+ ],
+ "wiki": {
+  "title": "Long-billed white-eye",
+  "url": "https://en.wikipedia.org/wiki/Long-billed_white-eye",
+  "revision": 1314931196,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The long-billed white-eye (Rukia longirostra), known  as tiht in Pohnpeian, is a species of bird in the family Zosteropidae. It is endemic to the island of Pohnpei in the Federated States of Micronesia.",
+     "The long-billed white-eye seems quite distinct in both plumage, structure, and habits from the teardrop white-eye Rukia ruki – the type species of genus Rukia – and may deserve a change of genus, possibly to Zosterops like the olive-colored white-eye (Z.oleagineus, formerly Rukia oleaginea)."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "Its natural habitats are subtropical or tropical moist lowland forest, and plantations. It is considered near-threatened by habitat loss.",
+     "It has a curious nuthatch-like behavior of creeping along large tree limbs, and seems particularly specialized in using its long, slightly decurved bill to extract arthropods from the severed ends of branches."
+    ]
+   }
+  ]
+ }
+}

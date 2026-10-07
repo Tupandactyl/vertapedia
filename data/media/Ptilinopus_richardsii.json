@@ -1,0 +1,72 @@
+{
+ "sci": "Ptilinopus richardsii",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 2724,
+  "name": "Ptilinopus richardsii",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Silver-capped_fruit_dove"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457205502/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC)",
+   "obs": 255159937,
+   "place": "Kangava, Solomon Islands",
+   "date": "2024-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530039288/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC)",
+   "obs": 294473069,
+   "place": "Lughu, Solomon Islands",
+   "date": "2025-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611800314/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY)",
+   "obs": 335778447,
+   "place": "Lughu, Solomon Islands",
+   "date": "2025-07-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527975836/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mcmadd, some rights reserved (CC BY-NC)",
+   "obs": 293342118,
+   "place": "Rennell Island, Solomon Islands",
+   "date": "2011-04-30"
+  }
+ ],
+ "wiki": {
+  "title": "Silver-capped fruit dove",
+  "url": "https://en.wikipedia.org/wiki/Silver-capped_fruit_dove",
+  "revision": 1358742608,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The silver-capped fruit dove (Ptilinopus richardsii) is a species of bird in the family Columbidae. It is endemic to Solomon Islands.",
+     "Its natural habitat is subtropical or tropical moist lowland forests."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Subspecies",
+    "level": 3,
+    "paras": [
+     "P. r. richardsii – Ramsay, 1882: The nominate subspecies, found on Ugi and Santa Anna.",
+     "P. r. cyanopterus – Mayr, 1931: Found on Rennell Island and Bellona Island."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sci": "Melanodryas cryptoleuca",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1509569,
+  "name": "Melanodryas cryptoleuca",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Smoky_robin"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3287391/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "obs": 2878675,
+   "place": "Amsui, West Papua, Indonesia",
+   "date": "2015-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109946264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC)",
+   "obs": 67966907,
+   "place": "Kabupaten Pegunungan Arfak, Papua Barat, Indonesien",
+   "date": "2010-11-05"
+  }
+ ],
+ "wiki": {
+  "title": "Smoky robin",
+  "url": "https://en.wikipedia.org/wiki/Smoky_robin",
+  "revision": 1341645721,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The smoky robin (Melanodryas cryptoleuca) is a species of bird in the Australasian robin family Petroicidae endemic to West Papua, Indonesia. Its natural habitat is subtropical or tropical moist montane forests."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The smoky robin was formally described in 1930 as Poecilodryas cryptoleucus by the German ornithologist Ernst Hartert based on specimens collected near Lehuma and Ditschi in the Arfak Mountains of northwest New Guinea. The specific epithet combines the Ancient Greek κρυπτος/kruptos meaning \"hidden\" with λευκος/leukos meaning \"white\". The smoky robin was formerly placed in the genus Peneothella, but in 2025 Peneothello was merged into a more broadly defined Melanodryas. This change was based on the results of a 2011 molecular genetic study of the Australasian robins by Les Christidis and coworkers.",
+     "Three subspecies are recognised:",
+     "M. c. cryptoleuca (Hartert, EJO, 1930) – montane northwestern New Guinea (Tamrau and Arfak), and Foja Mountains",
+     "M. c. albidior (Rothschild, LW, 1931) – montane west-central New Guinea (Weyland, Gauttier, and Nassau mountains)",
+     "M. c. maxima (Diamond, JM, 1985) – montane western New Guinea (Kumawa Mountains)"
+    ]
+   }
+  ]
+ }
+}

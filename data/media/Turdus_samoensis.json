@@ -1,0 +1,49 @@
+{
+ "sci": "Turdus samoensis",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1574894,
+  "name": "Turdus samoensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Samoan_island_thrush"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/742069087/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yung-Kuan Lee, some rights reserved (CC BY-NC)",
+   "obs": 404111567,
+   "place": "Mt.Silisili",
+   "date": "2026-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619773718/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) ian_mcallan, some rights reserved (CC BY)",
+   "obs": 340559844,
+   "place": "Gaga'ifomauga, Samoa",
+   "date": "2004-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Samoan island thrush",
+  "url": "https://en.wikipedia.org/wiki/Samoan_island_thrush",
+  "revision": 1363730929,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Samoan island thrush (Turdus samoensis) is a species of passerine bird in the thrush family Turdidae. It is endemic to the Samoan Islands, which includes Samoa and American Samoa. It was formerly considered a subspecies of the island thrush, but in 2024 the island thrush complex was split into 17 different species by the IOC and Clements checklist based on morphological and phylogenic differences."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Samoan island thrush was first described by clergyman and zoological collector Henry Baker Tristram in 1879 as Turdus samoensis. For a long time afterwards it was considered a subspecies of island thrush. However following a phylogenetic study in 2023, and with consideration to morphological differences between subspecies, the Samoan island thrush is now treated as a distinct species. The species is monotypic: no subspecies are recognised."
+    ]
+   }
+  ]
+ }
+}

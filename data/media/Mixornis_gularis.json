@@ -1,0 +1,129 @@
+{
+ "sci": "Mixornis gularis",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 339771,
+  "name": "Mixornis gularis",
+  "observations": 3057,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pin-striped_tit-babbler"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12909376/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "obs": 9482972,
+   "place": "Forest Track, Karimganj District, Assam",
+   "date": "2017-11-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278948049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC)",
+   "obs": 161383359,
+   "place": "Bhitarkanika",
+   "date": "2023-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/542569569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) neoxuanche, some rights reserved (CC BY-NC)",
+   "obs": 301105752,
+   "place": "Queenstown, Singapore",
+   "date": "2025-07-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476652984/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abbymasquelier, some rights reserved (CC BY-NC)",
+   "obs": 265371596,
+   "place": "Mount Faber Park, Singapore, SG, SG",
+   "date": "2025-03-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729499727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Soh Kam Yung, some rights reserved (CC BY-NC)",
+   "obs": 397728131,
+   "place": "Bukit Batok, Singapore",
+   "date": "2026-09-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729512870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Rigger, some rights reserved (CC BY-NC)",
+   "obs": 397730177,
+   "place": "Aft Tagore Dr, Singapore",
+   "date": "2026-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176229940/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rejoice Gassah, some rights reserved (CC BY)",
+   "obs": 105083864,
+   "place": "Hathikira Tea Estate, Karimganj, Assam, India",
+   "date": "2021-12-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247606488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mitch Rose, some rights reserved (CC BY-NC)",
+   "obs": 144284562,
+   "place": "Langkat Regency, North Sumatra, Indonesia",
+   "date": "2022-11-22"
+  }
+ ],
+ "wiki": {
+  "title": "Pin-striped tit-babbler",
+  "url": "https://en.wikipedia.org/wiki/Pin-striped_tit-babbler",
+  "revision": 1362738832,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The pin-striped tit-babbler (Mixornis gularis), also known as the yellow-breasted babbler, is a species of bird in the Old World babbler family Timaliidae that is found in South and Southeast Asia."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "The pin-striped tit-babbler was formally described in 1822 by the American naturalist Thomas Horsfield based on a specimen collected in Sumatra. He coined the binomial name Timalia gularis. The pin-striped tit-babbler was formerly placed in the genus Macronus but based on the results of a large molecular phylogenetic study published in 2019, the species was moved to the genus Mixornis that had been introduced in 1842 by the English zoologist Edward Blyth. The genus name combines the Ancient Greek mixis meaning \"mixed\" or \"mingling\" with ornis meaning \"bird\". The specific epithet gularis is Modern Latin meaning \"-throated\". The pin-striped tit-babbler belongs within a clade that includes the genera Dumetia and Timalia.",
+     "The species has also been split following a study by Nigel Collar to distinguish the morphologically distinct Bornean and Javan populations, which have since been renamed the bold-striped tit-babbler (Mixornis bornensis), from the rest of the pin-striped tit-babbler species complex.",
+     "The following 13 subspecies are recognized:",
+     "M. g. rubicapilla (Tickell, 1833) – Nepal, Bhutan and northeast India to Bangladesh and east-central India",
+     "M. g. ticehursti Stresemann, 1940 – west Myanmar",
+     "M. g. sulphureus (Rippon, 1900) – eastern Myanmar, west Thailand and southwest Yunnan (south China)",
+     "M. g. lutescens Delacour, 1926 – southeast Yunnan (south China), north, northeast Thailand and north Indochina",
+     "M. g. kinneari Delacour & Jabouille, 1924 – central Vietnam",
+     "M. g. saraburiensis (Deignan, 1956) – east-central Thailand and west Cambodia",
+     "M. g. versuricola Oberholser, 1922 – east Cambodia and south Vietnam",
+     "M. g. condorensis Robinson, 1921 – Con Son Island (off south Vietnam)",
+     "M. g. connectens (Kloss, 1918) – Tenasserim (southeast Myanmar), coastal Gulf of Thailand to central Malay Peninsula (includes chersonesophilus)",
+     "M. g. archipelagicus Oberholser, 1922 – Mergui Archipelago (off southwest Myanmar)",
+     "M. g. inveteratus Oberholser, 1922 – coastal islands off southeast Thailand and Cambodia",
+     "M. g. gularis (Horsfield, 1822) – south Malay Peninsula, Sumatra, Banyak Islands (west of north Sumatra) and Batu Islands (west of central Sumatra)",
+     "M. g. woodi Sharpe, 1877 – Palawan group (southwest Philippines)"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The species has a distinctive yellowish supercilium and rufous crown. The throat is yellowish with brown streaks.  Call is a loud repeated chonk-chonk-chonk-chonk-chonk somewhat reminiscent of a common tailorbird.",
+     "They forage in small flocks and creep and clamber in low vegetation. They breed in the pre-monsoon season from February to July and build a loose ball shaped nest made from grasses and leaves."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The species is widely distributed and is found in Bangladesh, Bhutan, Brunei, Cambodia, China, India, Indonesia, Laos, Malaysia, Myanmar, Nepal, Philippines, Singapore, Thailand and Vietnam.",
+     "In India, there are disjunct populations in southern India. This population was recorded by Salim Ali from Antharasanthe near the Kabini reservoir. There were no records of the species from this area after the initial collection. The southern population was rediscovered from the Masinagudi area in Mudumalai in 2004.",
+     "Other populations are found in the northern Eastern Ghats."
+    ]
+   }
+  ]
+ }
+}

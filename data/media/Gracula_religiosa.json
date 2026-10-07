@@ -1,0 +1,148 @@
+{
+ "sci": "Gracula religiosa",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 204517,
+  "name": "Gracula religiosa",
+  "observations": 3351,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Common_hill_myna"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152858872/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Samuel Lee, some rights reserved (CC BY)",
+   "obs": 92326541,
+   "place": "Tanglin, Singapore",
+   "date": "2021-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168799114/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) 卢江离, some rights reserved (CC BY)",
+   "obs": 101097468,
+   "place": "华侨城湿地",
+   "date": "2021-02-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727847632/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samrat Das, some rights reserved (CC BY-NC)",
+   "obs": 396874292,
+   "place": "4R92+2H9, Kantapukur, West Bengal 713423, India",
+   "date": "2022-03-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154280926/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC)",
+   "obs": 93115715,
+   "place": "Central Water Catchment, Singapore",
+   "date": "2021-08-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17518621/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Adams, some rights reserved (CC BY-NC)",
+   "obs": 12196771,
+   "place": "Jiyang, Sanya, China",
+   "date": "2018-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327411289/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ultraman Max, some rights reserved (CC BY-NC)",
+   "obs": 187246904,
+   "place": "Tanglin, Singapore",
+   "date": "2023-10-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342865119/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dixon Lau, some rights reserved (CC BY-NC)",
+   "obs": 194967031,
+   "place": "Mupong, Bintangor, Sarawak, Malaysia",
+   "date": "2023-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517099926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philippe Verbelen, some rights reserved (CC BY-NC)",
+   "obs": 287581618,
+   "place": "North Bengkulu Regency, Bengkulu, Indonesia",
+   "date": "2009-02-11"
+  }
+ ],
+ "wiki": {
+  "title": "Common hill myna",
+  "url": "https://en.wikipedia.org/wiki/Common_hill_myna",
+  "revision": 1352479616,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The common hill myna (Gracula religiosa), sometimes spelled \"mynah\" and formerly simply known as the hill myna or myna bird, is a species of starling found in the hills of South and Southeast Asia. The Sri Lanka hill myna, a former subspecies of G. religiosa, is now generally accepted as a separate species G. ptilogenys. The Nias hill myna (G. robusta) are also widely accepted as specifically distinct, and many authors favor treating the southern hill myna (G. indica) from the Nilgiris and elsewhere in the Western Ghats of India as a separate species.",
+     "The common hill myna is a popular talking bird. Its specific name religiosa may allude to the practice of teaching mynas to repeat sacred prayers. The common hill myna is one of the most commonly spotted birds in Asian aviculture."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The common hill myna was formally described in 1758 by the Swedish naturalist Carl Linnaeus in the tenth edition of his Systema Naturae under the current binomial name Gracula religiosa. The type location is the Indonesian island of Java. The genus name is from Latin graculus, an unknown bird sometimes identified as the western jackdaw. The specific epithet religiosa is from Latin religiosus meaning \"sacred\".",
+     "Nine subspecies are recognised:",
+     "G. r. peninsularis Whistler, H & Kinnear, NB, 1933 – northeastern peninsular India",
+     "G. r. intermedia Hay, A, 1845 – northern India to Myanmar, Thailand, Indochina, and southern China",
+     "G. r. andamanensis (Beavan, RC, 1867) – Andaman and Nicobar Islands",
+     "G. r. religiosa Linnaeus, C, 1758 – Malay Peninsula, Sumatra, Bangka Island, Java, Bali, and Borneo",
+     "G. r. batuensis Finsch, FHO, 1899 – Batu Islands and Mentawai Islands islands (off northwestern Sumatra)",
+     "G. r. palawanensis (Sharpe, RB, 1890) – Palawan (southwestern Philippines)",
+     "G. r. miotera Oberholser, HC, 1912 – Simeulue (off the western coast of Sumatra); on the brink of becoming extinct in the wild",
+     "G. r. robusta Salvadori, AT, 1887 – Nias, Pulan, Babi, Tuangku, and Bangkaru islands (off Sumatra)",
+     "G. r. enganensis Salvadori, AT, 1892 – Enggano Island (off southern Sumatra)",
+     "The subspecies G. r. enganensis, the Enggano hill myna, has been considered a separate species but has similar morphology and vocalizations. The subspecies G. r. robusta was formerly sometimes considered as a separate species, the Nias hill myna. It is now treated as a subspecies of the common hill myna based on the results of a molecular genetic study by Dominic Ng and collaborators that found that robusta was embedded in clade that included the subspecies batuensis and miotera.",
+     "The southern hill myna (Gracula indica) and the Tenggara hill myna (Gracula venerata) were formerly classified as subspecies of the common hill myna."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This is a stocky jet-black myna, with bright orange-yellow patches of naked skin and fleshy wattles on the side of its head and nape. At about 29 cm length, it is somewhat larger than the common myna (Acridotheres tristis).",
+     "It is overall green-glossed black plumage, purple-tinged on the head and neck. Its large, white wing patches are obvious in flight, but mostly covered when the bird is sitting. The bill and strong legs are bright yellow, and there are yellow wattles on the nape and under the eye. These differ conspicuously in shape from the naked eye-patch of the common myna and bank myna (A. ginginianus), and more subtly vary between the different hill mynas from South Asia: in the common hill myna, they extend from the eye to the nape, where they join, while the Sri Lanka hill myna has a single wattle across the nape and extending a bit towards the eyes. In the southern hill myna, the wattles are separate and curve towards the top of the head. The Nias myna differs in details of the facial wattles, and size, particularly that of the bill.",
+     "Sexes are similar; juveniles have a duller bill. The subspecies differ in size, in the pattern of wattles on the head and in the glossiness of the plumage.",
+     "A 2020 study found that the subspecies G. religiosa miotera likely represents a distinct species and was likely driven to extinction in the wild in the late 2010s due unsustainable collecting for the wildlife trade. The paper recommends rescuing the last genetically pure captive individuals for the purpose of captive breeding. The International Ornithological Congress tentatively recognises it as a subspecies."
+    ]
+   },
+   {
+    "h": "Vocalisations",
+    "level": 3,
+    "paras": [
+     "The common hill myna is often detected by its loud, shrill, descending whistles followed by other calls. It is most vocal at dawn and dusk, when it is found in small groups in forest clearings high in the canopy.",
+     "Both sexes can produce an extraordinarily wide range of loud calls – whistles, wails, screeches, and gurgles, sometimes melodious and often very human-like in quality. Each individual has a repertoire of three to 13 such call types, which may be shared with some near neighbours of the same sex, being learned when young.  Dialects change rapidly with distance, such that birds living more than 15 km apart have no call-types in common with one another.",
+     "Unlike some other birds, such as the greater racket-tailed drongo (Dicrurus paradiseus), the common hill myna does not imitate other birds in the wild, although it is a widely held misconception that they do. On the other hand, in captivity, they are among the most renowned mimics, the only bird, perhaps, on par with the grey parrot (Psittacus erithacus). They can learn to reproduce many everyday sounds, particularly the human voice, and even whistled tunes, with astonishing accuracy and clarity."
+    ]
+   },
+   {
+    "h": "Distribution and ecology",
+    "level": 2,
+    "paras": [
+     "This myna is a resident breeder from Kumaon division in India (80° E longitude) east through Nepal, Sikkim, Bhutan and Arunachal Pradesh, the lower Himalayas, terai and foothills up to 2,000 m ASL. Its range continues east through Southeast Asia northeastwards to southern China, and via Thailand southeastwards across northern Indonesia to Palawan in the Philippines. It is virtually extinct in Bangladesh due to habitat destruction and overexploitation for the pet trade. A feral population on Christmas Island has likewise disappeared. Introduced populations exist in Saint Helena, Puerto Rico and perhaps in the mainland United States and possibly elsewhere; feral birds require at least a warm subtropical climate to persist.",
+     "This myna is almost entirely arboreal, moving in large, noisy groups of half a dozen or so, in tree-tops at the edge of the forest. It hops sideways along the branch, unlike the characteristic jaunty walk of other mynas. Like most starlings, the hill myna is fairly omnivorous, eating fruit, nectar and insects.",
+     "They build a nest in a tree hole. The usual clutch consists of two or three eggs. There is no sexual dimorphism, which limits the selection of potential mates."
+    ]
+   },
+   {
+    "h": "Pet trade and conservation",
+    "level": 3,
+    "paras": [
+     "The hill mynas are popular cage birds, well known for their ability to imitate speech. The widely distributed common hill myna is the one most frequently seen in aviculture. Unlike other domesticated birds kept as pets, the mynas are often caught from the wild and sold via traders.",
+     "The species is quite common throughout its wide geographical range, with a rapid generation time. On a worldwide scale, the IUCN thus considers the common hill myna of Least Concern. But in the 1990s, nearly 20,000 wild-caught birds were brought into the pet trade each year. In the central part of its range, G. r. intermedia populations have declined markedly, especially in Thailand, which supplied much of the thriving market. On the other hand, neighboring countries met burgeoning domestic demands due to political and socio-economic restrictions on exports. Demand for pet mynas continues to be high in Southeast Asia.",
+     "In 1992, Thailand had the common hill myna put on CITES Appendix III, to safeguard its population. In 1997, at the request of the Netherlands and the Philippines, the species was pushed higher to CITES Appendix II. The Andaman and Nicobar Islands subspecies G. r. andamanensis and (if valid) G. r. halibrecta, described as \"exceedingly common\" in 1874, qualified as Near Threatened in 1991. The former is no longer ubiquitous in the Nicobar Islands and the latter has a very limited range.",
+     "Elsewhere, such as in the Philippines and Laos, the decline has been more localized. It is also becoming increasingly rare in the regions of northeastern India due to capture of fledged birds for the illegal pet trade. In the Garo Hills region, locals make artificial nests of a split-bamboo framework covered with grass, and put them up in accessible locations. This protects the mynas from habitat destruction while also controlling the local population. In recent years however, there has been a spike in demand for pet mynas in India despite it being illegal."
+    ]
+   }
+  ]
+ }
+}

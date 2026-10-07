@@ -1,0 +1,44 @@
+{
+ "sci": "Turdus pritzbueri",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1574891,
+  "name": "Turdus pritzbueri",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White-headed_island_thrush"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/742065796/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yung-Kuan Lee, some rights reserved (CC BY-NC)",
+   "obs": 404110135,
+   "place": "Yanfate, Tanna",
+   "date": "2026-08-13"
+  }
+ ],
+ "wiki": {
+  "title": "White-headed island thrush",
+  "url": "https://en.wikipedia.org/wiki/White-headed_island_thrush",
+  "revision": 1294320509,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The white-headed island-thrush (Turdus pritzbueri), also known as the Loyalty island thrush, is a species of passerine in the family Turdidae. It is found in Vanuatu, and New Caledonia. It was formerly considered to be a subspecies of island thrush, but was classified as a distinct species by the IOC and Clements checklist in 2024."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The white-headed island thrush was first described as Turdus pritzbueri in 1878 by ornithologist Edgar Leopold Layard based on a specimen from Lifou Island. It was later considered to be a subspecies of Island thrush under the name T. p. pritzbueri. Following a 2023 phylogenic study, it was one of 17 species split from the Island thrush in 2024.",
+     "There are currently two recognized subspecies:",
+     "Turdus pritzbueri pritzbueri Layard, 1878 - Found on the islands of Tanna and Futuna in Vanuatu and the Loyalty Islands in New Caledonia",
+     "Turdus pritzbueri albifrons (Ramsay, 1879) - Found on Erromango in Vanuatu"
+    ]
+   }
+  ]
+ }
+}

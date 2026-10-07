@@ -1,0 +1,51 @@
+{
+ "sci": "Campocolinus schlegelii",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1289687,
+  "name": "Campocolinus schlegelii",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Schlegel's_francolin"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462522054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 257800466,
+   "place": "Vina, Cameroon",
+   "date": "2006-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122948935/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thierry_aebischer_chinko, some rights reserved (CC BY-NC)",
+   "obs": 75173279,
+   "place": "Rafai, Zentralafrikanische Republik",
+   "date": "2012-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588300866/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thierry_aebischer_chinko, some rights reserved (CC BY-NC)",
+   "obs": 324972931,
+   "place": "Rafai, Central African Republic",
+   "date": "2012-04-05"
+  }
+ ],
+ "wiki": {
+  "title": "Schlegel's francolin",
+  "url": "https://en.wikipedia.org/wiki/Schlegel%27s_francolin",
+  "revision": 1373340606,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Schlegel's francolin (Campocolinus schlegelii) is a species of bird in the family Phasianidae. It is found in Cameroon, the Central African Republic, Chad, and South Sudan. According to the IUCN Red List, in which the species is rated as \"least concern\", the global population is unknown, but there have been no fluctuations in population.",
+     "Formerly classified in the genus Peliperdix, a 2020 study found it, the white-throated francolin (C. albogularis), and the coqui francolin (C. coqui) together comprise a new genus Campocolinus. The International Ornithological Congress has accepted these findings."
+    ]
+   }
+  ]
+ }
+}

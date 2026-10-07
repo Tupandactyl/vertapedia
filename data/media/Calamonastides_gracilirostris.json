@@ -1,0 +1,60 @@
+{
+ "sci": "Calamonastides gracilirostris",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 201176,
+  "name": "Calamonastides gracilirostris",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Papyrus_yellow_warbler"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610242253/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Graham, some rights reserved (CC BY-NC)",
+   "obs": 335869617,
+   "place": "Zambia",
+   "date": "2026-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71313021/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 44982478,
+   "place": null,
+   "date": "2011-08-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51299293/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rjq, some rights reserved (CC BY-NC)",
+   "obs": 32695659,
+   "place": "Rwanda",
+   "date": "2019-08-22"
+  }
+ ],
+ "wiki": {
+  "title": "Papyrus yellow warbler",
+  "url": "https://en.wikipedia.org/wiki/Papyrus_yellow_warbler",
+  "revision": 1314896503,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The papyrus yellow warbler, papyrus flycatcher-warbler or thin-billed flycatcher-warbler (Calamonastides gracilirostris) is a species of tree warbler; formerly, these were placed in the paraphyletic \"Old World warblers\". It is monotypic in its genus.",
+     "It is found in Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Tanzania, Uganda, and Zambia.",
+     "Its natural habitat is swamps.",
+     "It is threatened by habitat loss."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Compared with the dull browns and greys typical of swamp-dwelling warblers, this warbler is brightly coloured. It shows an underbelly of rich yellow and olive-brown upper parts. Its song consists of melodious liquid warbling."
+    ]
+   }
+  ]
+ }
+}

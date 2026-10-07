@@ -1,0 +1,50 @@
+{
+ "sci": "Turdus vanikorensis",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1574889,
+  "name": "Turdus vanikorensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vanikoro_island_thrush"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457205624/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC)",
+   "obs": 255159987,
+   "place": "Tetau Nangoto, Solomon Islands",
+   "date": "2024-10-29"
+  }
+ ],
+ "wiki": {
+  "title": "Vanikoro island thrush",
+  "url": "https://en.wikipedia.org/wiki/Vanikoro_island_thrush",
+  "revision": 1357068941,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Vanikoro island thrush (Turdus vanikorensis), also known as the Vanuatu island thrush, is a species of passerine in the family Turdidae. It is found in Vanuatu, the Solomon Islands and formerly New Caledonia. Until 2024, it was considered to be multiple subspecies of island thrush."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Vanikoro island thrush was first described as Turdus vanikorensis in 1832 by French naturalists Jean René Constant Quoy and Joseph Paul Gaimard. It was later considered to be a subspecies of Island thrush. Following a 2023 phylogenic study, the island thrush was split into 17 different species, including the Vanikoro island thrush by the IOC and Clements checklist.",
+     "There are currently eight recognized subspecies:",
+     "Turdus vanikorensis vanikorensis Quoy & Gaimard, 1832 – Found on the islands of Vanikoro and Santa Cruz in the Solomon Islands, and Espiritu Santo in Vanuatu",
+     "Turdus vanikorensis whitneyi Mayr, 1941 – Found on Gaua Island in Vanuatu",
+     "Turdus vanikorensis malekulae Mayr, 1941 – Found on Pentecost, Malakula, and Ambrym in Vanuatu",
+     "Turdus vanikorensis becki Mayr, 1941 – Found on Paama, Lopevi, Epi, and Emae in Vanuatu",
+     "Turdus vanikorensis rennellianus Mayr, 1931 – Found on Rennell Island in the Solomon Islands",
+     "Turdus vanikorensis placens Mayr, 1941 – Found on Ureparapara and Vanua Lava in Vanuatu",
+     "Turdus vanikorensis efatensis Mayr, 1941 – Found on Efate and Nguna in Vanuatu",
+     "†Turdus vanikorensis mareensis Layard & Tristram, 1879 – Found on Maré Island in New Caledonia (extinct)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sci": "Phylloscopus rotiensis",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 985574,
+  "name": "Phylloscopus rotiensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rote_leaf_warbler"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577607047/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 319528003,
+   "place": null,
+   "date": "2025-09-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446687669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC)",
+   "obs": 249835603,
+   "place": "Nusa Tenggara Timur, ID",
+   "date": "2024-08-22"
+  }
+ ],
+ "wiki": {
+  "title": "Rote leaf warbler",
+  "url": "https://en.wikipedia.org/wiki/Rote_leaf_warbler",
+  "revision": 1371756870,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Rote leaf warbler (Phylloscopus rotiensis) is a species of passerine bird in the family Phylloscopidae. It is endemic to Rote Island in Indonesia's Lesser Sunda Islands, where it lives in primary deciduous forest and secondary forest.",
+     "It is genetically highly distinct from other leaf warblers in the region, and it may be the first bird species to be described partly on the basis of genome-wide data. It can be phenotypically distinguished from other species by its coloration and the length of its bill, which is far longer than that of most other Asian leaf warblers. This is likely an adaptation to the dry climate of Rote Island. However, despite its heavy morphological and genetic divergence from other island leaf warblers, it has little vocal differentiation from them.",
+     "Due to heavy agricultural use on Rote Island for many years, only two major forest areas remain that can sustain this species. Thus, this species likely qualifies for Vulnerable under the IUCN Red List qualifications."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "sci": "Cairina moschata",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 7120,
+  "name": "Cairina moschata",
+  "observations": 100433,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Muscovy_duck"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9455880/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davy, some rights reserved (CC BY-NC)",
+   "obs": 7305938,
+   "place": "Yucatán, MX",
+   "date": "2017-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419868006/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Braydon Burton, some rights reserved (CC BY-NC)",
+   "obs": 236035607,
+   "place": "North Island / Te Ika-a-Māui, Auckland, Auckland, NZ",
+   "date": "2024-07-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39068614/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oliver Komar, some rights reserved (CC BY-NC)",
+   "obs": 25237726,
+   "place": "Zamorano University, San Antonio de Oriente, Honduras",
+   "date": "2019-05-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64729548/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lonnyholmes, some rights reserved (CC BY-NC)",
+   "obs": 40830946,
+   "place": "Las Vegas, NV, USA",
+   "date": "2020-03-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332958949/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brice C., some rights reserved (CC BY-NC)",
+   "obs": 189995029,
+   "place": "Hancock, Cape Coral, FL, USA",
+   "date": "2023-10-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197878110/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexamestre, some rights reserved (CC BY-NC)",
+   "obs": 117185821,
+   "place": "Tropical Park, Miami, FL, US",
+   "date": "2022-05-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31569747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arthur Windsor, some rights reserved (CC BY-NC)",
+   "obs": 20446535,
+   "place": "My Backyard, Greenacres, FL, USA",
+   "date": "2018-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22966936/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Eridan Xharahi, some rights reserved (CC BY)",
+   "obs": 15334402,
+   "place": "fort lauderdale",
+   "date": "2018-08-11"
+  }
+ ],
+ "wiki": {
+  "title": "Muscovy duck",
+  "url": "https://en.wikipedia.org/wiki/Muscovy_duck",
+  "revision": 1376327856,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Muscovy duck (Cairina moschata) is a species of duck native to the Americas, from the Lower Rio Grande Valley of Texas and Mexico south to Argentina and Uruguay. The species has been domesticated, and feral Muscovy ducks can be found locally in New Zealand, Australia, the United States, and in Central and Eastern Europe."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It is a large duck, with the males significantly larger than the females. The males are 76–84 cm (30–33 in) long and weigh up to 3–4 kg (6.6–8.8 lb); females are 71–76 cm (28–30 in) long and 1.25 kg (2.8 lb) weight, roughly half the weight of the males. The wingspan is from 137 to 152 cm (54 to 60 in). The plumage is predominantly black, with large white patches on the wing; the back and wing feathers being iridescent and glossy in males, while the females are more drab. Muscovy ducks have long claws on their feet and a wide, flat tail.",
+     "On the head, the male has a short crest on the nape. The bill is black with a speckling of pale pink. A blackish or dark red knob can be seen at the bill base, which is similar in colour to the bare skin of the face. The eyes are yellowish-brown. The legs and webbed feet are blackish. The female is similar in plumage, but smaller, with a feathered face and lacking the prominent knob. The juvenile is duller overall, with little or no white on the wing.",
+     "The drake has a low breathy call, and the hen a quiet trilling coo.",
+     "The Domestic Muscovy duck is commonly known in Spanish as the pato criollo. They have been bred since pre-Columbian times by Native Americans and are heavier and less able to fly long distances than wild birds. Their plumage is also more variable, often with extensive white. Although the Muscovy duck is a tropical bird, it adapts well to cooler climates, thriving in weather as cold as −12 °C (10 °F) and able to survive even colder conditions. In general, Barbary duck is the term used for C. moschata in a culinary context."
+    ]
+   },
+   {
+    "h": "Genomics",
+    "level": 2,
+    "paras": [
+     "A chromosome-level genome assembly of Cairina moschata was published in 2026. Generated using PacBio and Hi-C sequencing technologies, the assembly is approximately 1.27 Gb and consists of 39 chromosomes. The assembly showed a BUSCO completeness of 95.2%, and 16,901 protein-coding genes were predicted. Comparative genomic analysis found that expanded gene families were associated with immune-related pathways in C. moschata."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "The species was first scientifically described by Carl Linnaeus in his 1758 edition of Systema Naturae as Anas moschata, literally meaning \"musk duck\". It was later transferred to the genus Cairina, making its current binomial name Cairina moschata. It is monotypic, the only species in its genus; one other species formerly included, the white-winged duck, has been transferred to its own genus, as Asarcornis scutulata. There are no subspecies.",
+     "The Muscovy duck was formerly placed into the paraphyletic \"perching duck\" assemblage, but subsequently moved to the dabbling duck subfamily Anatinae. Analysis of the mtDNA sequences of the cytochrome b and NADH dehydrogenase subunit 2 genes, however, indicates that it might be closer to the genus Aix and better placed in the subfamily Tadorninae."
+    ]
+   },
+   {
+    "h": "Biology",
+    "level": 2,
+    "paras": [
+     "The karyotype of the Muscovy duck is 2n=80, consisting of three pairs of macrochromosomes, 36 pairs of microchromosomes, and a pair of sex chromosomes. The two largest macrochromosome pairs are submetacentric, while all other chromosomes are acrocentric or probably telocentric for the smallest microchromosomes. The submetacentric chromosomes and the Z (female) chromosome show rather little constitutive heterochromatin (C bands), while the W chromosomes are at least two-thirds heterochromatin.",
+     "Male Muscovy ducks have helical penises that become erect to 19 cm (7 in) in 0.3 seconds. Females have vaginas that coil in the opposite direction that appear to have evolved to limit forced copulation by males."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Common name \"Muscovy\"",
+    "level": 3,
+    "paras": [
+     "\"Muscovy\" is an old name for the region of Russia surrounding Moscow, but these ducks are neither native there nor were introduced there before they became known in Western Europe. It is not quite clear how the term came about; it very likely originated between 1550 and 1600, but did not become widespread until somewhat later.",
+     "In one suggestion, it has been claimed that the Company of Merchant Adventurers to New Lands traded these ducks to Europe occasionally after 1550; this chartered company became eventually known as the \"Muscovy Company\" or \"Muscovite Company\" so the ducks might thus have come to be called \"Muscovite ducks\" or \"Muscovy ducks\" in keeping with the common practice of attaching the importer's name to the products they sold. But while the Muscovite Company initiated vigorous trade with Russia, they hardly, if at all, traded produce from the Americas; thus, they are unlikely to have traded C. moschata to a significant extent.",
+     "Alternatively, just as in the turkey, which is also from North America, not Turkey, and the guineafowl, which are not limited to Guinea, \"Muscovy\" might be simply a generic term for an exotic place, in reference to the singular appearance of these birds. This is evidenced by other names suggesting the species came from lands where it is not actually native, but from where much \"outlandish\" produce was imported at that time (see below).",
+     "Yet another view, not incompatible with either of those discussed above, connects the species with the Muisca, a Native American nation in today's Colombia. The duck is native to these lands also, and it is likely that it was kept by the Muisca as a domestic animal to some extent. It is conceivable that a term like \"Muisca duck\", hard to comprehend for the average European of those times, would be corrupted into something more familiar. Likewise, the Miskito Indians of the Miskito Coast in Nicaragua and Honduras heavily relied on it as a domestic species, and the ducks as well may have been named after this region."
+    ]
+   },
+   {
+    "h": "Species name \"moschata\"",
+    "level": 3,
+    "paras": [
+     "Linnaeus' description of Anas moschata only consists of a curt but entirely unequivocal [Anas] facie nuda papillosa (\"A duck with a naked and carunculated face\"), and his primary reference is his earlier work Fauna Svecica. But Linnaeus refers also to older sources, wherein much information on the origin of the common name is found.",
+     "Conrad Gessner is given by Linnaeus as a source, but the Historia animalium mentions the Muscovy duck only in passing. Ulisse Aldrovandi discusses the species in detail, referring to the wild birds and its domestic breeds variously as anas cairina, anas indica or anas libyca – \"duck from Cairo\", \"Indian duck\" (in reference to the West Indies) or \"Libyan duck\". But his anas indica (based, like Gessner's brief discussion, ultimately on the reports of Christopher Columbus's travels) also seems to have included another species, perhaps a whistling-duck (Dendrocygna). Already however the species is tied to some more or less nondescript \"exotic\" locality, \"Libya\" could still refer to any place in Northern Africa at that time, where it did not occur naturally. Francis Willughby discusses \"The Muscovy duck\" as anas moschata and expresses his belief that Aldrovandi's and Gessner's anas cairina, anas indica and anas libyca (which he calls \"The Guiny duck\", adding another mistaken place of origin to the list) all refer to the same species. Finally, John Ray attempts to clear up the confusion by providing an alternative explanation for the name's etymology:",
+     "In English, it is called The Muscovy-Duck, though this is not transferred from Muscovia [the Neo-Latin name of Muscovy], but from the rather strong musk odour it exudes.",
+     "Linnaeus came to witness its \"gamey\" aroma first-hand, as he attests in the Fauna Svecica and again in the travelogue of this 1746 Västergötland excursion. Similarly, the Russian name of this species, muskusnaya utka (Мускусная утка), means \"musk duck\", without any reference to Moscow, as do the Bokmål and Danish moskusand, Dutch muskuseend, Finnish myskisorsa, French canard musqué, German Moschusente, Italian anatra muschiata, Spanish pato almizclado and Swedish myskand. In English, however, musk duck refers to the Australian species Biziura lobata."
+    ]
+   },
+   {
+    "h": "Genus name \"Cairina\"",
+    "level": 3,
+    "paras": [
+     "The currently assigned genus name Cairina, meanwhile, traces its origin to Aldrovandi and the mistaken belief that the birds came from Egypt: translated, the current scientific name of the Muscovy duck means \"the musky one from Cairo\"."
+    ]
+   },
+   {
+    "h": "Other names",
+    "level": 3,
+    "paras": [
+     "In some regions the name \"Barbary duck\" is used for domestic and \"Muscovy duck\" for wild birds; in other places, \"Barbary duck\" refers specifically to the dressed carcass, while \"Muscovy duck\" applies to living C. moschata, regardless of whether they are wild or domestic. In general, \"Barbary duck\" is the usual term for C. moschata in a culinary context."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "This non-migratory species normally inhabits forested swamps, lakes, streams and nearby grassland and farm crops, and often roosts in trees at night. The diet consists of plant material (such as the roots, stems, leaves, and seeds of aquatic plants and grasses, as well as terrestrial plants, including agricultural crops) obtained by grazing or dabbling in shallow water, and small fish, amphibians, reptiles, crustaceans, spiders, insects, millipedes, and worms. It is an aggressive duck; males often fight over food, territory or mates. The females fight with each other less often. Some adults will peck at the ducklings if they are eating at the same food source.",
+     "The Muscovy duck has benefited from nest boxes in Mexico, but it is somewhat uncommon in much of the eastern part of its range due to excessive hunting. It is not considered a globally threatened species by the IUCN, however, as it is widely distributed."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 3,
+    "paras": [
+     "This species, like the mallard, does not form stable pairs. They will mate on land or in water. The female lays a clutch of 8–15 white eggs, usually in a tree hole or hollow, which are incubated for 30–31 days. The eggs measure 6.2–7.1 cm (2.4–2.8 in) in length and 4.4–4.7 (1.7–1.9 in) in width. The sitting hen will leave the nest once a day from 20 minutes to one and a half hours, and will then defecate, drink water, eat and sometimes bathe. Once the eggs begin to hatch, it may take 24 hours for all the chicks to break through their shells. When feral chicks are born, they typically stay with their mother for about 10–12 weeks. Their bodies cannot produce all the heat they need, especially in temperate regions, so they will stay close to the mother, especially at night.",
+     "Often, the drake will stay in close contact with the brood for several weeks. The male will walk with the young during their normal travels in search for food, providing protection. Anecdotal evidence from East Anglia, U.K. suggests that, in response to different environmental conditions, other adults assist in protecting chicks and providing warmth at night. It has been suggested that this is in response to local efforts to cull this feral population, which has led to an atypical distribution of males and females, as well as young and mature birds.",
+     "For the first few weeks of their lives, Muscovy chicks feed on grain, corn, grass, insects, and almost anything that moves. Their mother shows them at an early age how to feed."
+    ]
+   },
+   {
+    "h": "Feral birds",
+    "level": 3,
+    "paras": [
+     "In feral birds with domesticated ancestry, the amount of white on the neck and head is variable, as well as the bill, which can be yellow, pink, black, or any mixture of these colours. It may have white patches or bars on the wings, which become more noticeable during flight. Both sexes have small red wattles around the bill, those of the male being larger and more brightly colored, and often considerably larger in feral birds.",
+     "Feral Muscovy ducks can breed near urban and suburban lakes and on farms, nesting in tree cavities or on the ground, under shrubs in yards, on apartment balconies, or under roof overhangs. Some feral populations, such as that in southern Florida, have a reputation of becoming pests on occasion. At night they often sleep at water, if there is a water source available, to flee quickly from predators if awakened. Small populations of Muscovy ducks can also be found in Ely, Cambridgeshire, Calstock, Cornwall, and Lincoln, Lincolnshire, U.K. Muscovy ducks have also been spotted in the Walsall Arboretum. There has been a small population in the Pavilion Gardens public park in Buxton, Derbyshire, for many years.",
+     "In the United States, Muscovy ducks are considered a non-native species, outside of Hidalgo, Starr and Zapata Counties in southernmost Texas, where they are considered indigenous. An owner may raise them for food production only (not for hunting). Similarly, if the ducks have no owner, 50CFR Part 21 (Migratory Bird Permits) allows the removal or destruction of the ducks, their eggs and their nests anywhere in the United States. The population in southern Florida is considered, with numbers in the several thousands, to be established enough to be considered \"countable\" for bird watchers.",
+     "Legal methods to restrict breeding include not feeding these ducks, deterring them with noise or chasing them away.",
+     "Although legislation passed in the United States prohibiting trade of Muscovy ducks, the Fish and Wildlife Services intend to revise the regulations. They are not currently implementing them, though release of Muscovy ducks to the wild outside their natural range is prohibited."
+    ]
+   },
+   {
+    "h": "Domestication",
+    "level": 2,
+    "paras": [
+     "Muscovy ducks had been domesticated by various Native American cultures in the Americas when Columbus arrived in the Bahamas. A few were brought onto Columbus' ship the Santa Maria when the ship sailed back to Europe in the early 16th century."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "sci": "Turdus schlegelii",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1574877,
+  "name": "Turdus schlegelii",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wallacean_island_thrush"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446123596/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC)",
+   "obs": 249555062,
+   "place": "Futamnasi",
+   "date": "2024-08-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406822120/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jefta Natanael, some rights reserved (CC BY-NC)",
+   "obs": 229220433,
+   "place": "Gowa Regency, South Sulawesi, Indonesia",
+   "date": "2024-07-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653540261/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC)",
+   "obs": 358263561,
+   "place": "South Timor Tengah Regency, East Nusa Tenggara, Indonesia",
+   "date": "2015-08-04"
+  }
+ ],
+ "wiki": {
+  "title": "Wallacean island thrush",
+  "url": "https://en.wikipedia.org/wiki/Wallacean_island_thrush",
+  "revision": 1334669321,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Wallacean island thrush (Turdus schlegelii), also known as the Sulawesi island thrush, is a species of passerine in the family Turdidae. It is found in Indonesia and Timor-Leste. It was formerly considered to be multiple subspecies of the island thrush, but was classified as a distinct species in 2024 by the IOC and Clements checklist based on morphological and phylogenic evidence."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Wallacean island thrush was first described by ornithologist Philip Sclater in 1861 as Turdus schlegelii based on specimens collected from Timor. Its binomial name, T. scheleglii was in honour of fellow ornithologist Hermann Schlegel. It was later considered to be a subspecies of the island thrush. Following a 2023 phylogenic study of the island thrush complex, and with consideration given to morphological differences, the island thrush was split into 17 species in 2024, including the Wallacean island thrush.",
+     "There are currently four recognized subspecies:",
+     "Turdus schlegelii schlegelii Sclater, PL, 1861 - Known from Mount Mutis on the island of Timor",
+     "Turdus schlegelii hygroscopus Stresemann, 1931 - Found in the Latimojong Mountains on Sulawesi",
+     "Turdus schlegelii celebensis (Büttikofer, 1893) - Found in southwest Sulawesi",
+     "Turdus schlegelii sterlingi Mayr, 1944 - Found on Tatamailau in Timor-Leste"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "sci": "Hydrornis caeruleus",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 367604,
+  "name": "Hydrornis caeruleus",
+  "observations": 14,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Giant_pitta"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66782847/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Johannes Schuster, some rights reserved (CC BY)",
+   "obs": 42075891,
+   "place": "Kinabatangan, MY-SA, MY",
+   "date": "2013-02-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242852913/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avery Bartels, some rights reserved (CC BY-NC)",
+   "obs": 141723598,
+   "place": "Sabah, MY",
+   "date": "2022-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291658122/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) piyapong, some rights reserved (CC BY-NC)",
+   "obs": 168300881,
+   "place": null,
+   "date": "2023-03-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463770871/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) khalebyordan, some rights reserved (CC BY-NC)",
+   "obs": 258482138,
+   "place": "Kinabatangan, MY-SA, MY",
+   "date": "2025-01-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618382982/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) khalebyordan, some rights reserved (CC BY-NC)",
+   "obs": 339879331,
+   "place": "Kinabatangan, MY-SA, MY",
+   "date": "2025-01-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449676150/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, some rights reserved (CC BY-NC)",
+   "obs": 251330351,
+   "place": "Sandakan, MY-SA, MY",
+   "date": "2019-10-29"
+  }
+ ],
+ "wiki": {
+  "title": "Giant pitta",
+  "url": "https://en.wikipedia.org/wiki/Giant_pitta",
+  "revision": 1333406928,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The giant pitta (Hydrornis caeruleus) is a species of bird in the family Pittidae."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The giant pitta is native to Brunei, Indonesia, Malaysia, Myanmar, and Thailand. It inhabits primary and tall secondary forests at elevations of up to 1,200 m (3,900 ft). It appears to prefer densely vegetated, swampy areas, but has infrequently been reported from drier and secondary vegetation."
+    ]
+   },
+   {
+    "h": "Conservation",
+    "level": 2,
+    "paras": [
+     "The species is classified as Near Threatened by the IUCN. Total population size is unknown, but it is believed to be scarce to rare, and thought to be under pressure from rapid forest loss in its native habitat."
+    ]
+   }
+  ]
+ }
+}
