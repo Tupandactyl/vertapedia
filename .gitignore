@@ -1,0 +1,21 @@
+# 편집진 시트: 배포할 때마다 새로 받는다
+data/birds.xlsx
+data/reptiles.xlsx
+
+# scripts/import_names.py 결과물
+data/names.json
+data/review.json
+data/conflicts.json
+data/kos.json
+data/report.txt
+
+# scripts/build_*.py 결과물
+site/index.html
+site/review.html
+site/data/
+
+# 국가생물종목록 PDF 원본은 올리지 않는다 (추출한 data/nibr.json 만 둔다)
+*.pdf
+
+__pycache__/
+.claude/

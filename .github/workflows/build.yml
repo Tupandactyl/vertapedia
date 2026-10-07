@@ -1,0 +1,50 @@
+name: 시트 반영과 배포
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 6시간마다 (UTC)
+  workflow_dispatch:          # Actions 탭에서 바로 돌리기
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 편집진 시트 내려받기
+        run: python scripts/fetch_sheets.py
+      - name: 국명 합치기
+        run: python scripts/import_names.py
+      - name: 페이지 만들기
+        run: |
+          python scripts/build_site.py
+          python scripts/build_review.py
+          rm site/*.template.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

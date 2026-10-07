@@ -1,0 +1,295 @@
+<title>Vertapedia 종 페이지 시안</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 좌측 분류 트리 + 우측 종 페이지(헤더 → 갤러리 → 설명 → 편집 패널). 도감 카드 느낌의 정보 우선 레이아웃 */
+:root{
+  --bg:#eef1ee; --panel:#ffffff; --ink:#1d2621; --muted:#5d6b63; --line:#d3dbd5;
+  --moss:#2f5d46; --moss-soft:#dfeae3; --ok:#2e7d4f; --warn:#a86a12; --bad:#a63b32;
+  --ok-bg:#e1f1e7; --warn-bg:#f8ecd6; --bad-bg:#f6e0dd;
+  --display:"Gowun Batang",Georgia,serif; --body:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif; --mono:"IBM Plex Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
+  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --bad:#ec8f86;
+  --ok-bg:#1f3428; --warn-bg:#3a2e17; --bad-bg:#3d221f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
+  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --bad:#ec8f86;
+  --ok-bg:#1f3428; --warn-bg:#3a2e17; --bad-bg:#3d221f; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65;margin:0}
+a{color:var(--moss)}
+.top{background:var(--panel);border-bottom:1px solid var(--line);padding:12px 16px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.top-in{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
+.logo{font-family:var(--display);font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
+.logo small{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:6px;font-weight:400}
+.groups{display:flex;gap:4px;flex-wrap:wrap}
+.groups button{font:inherit;font-size:13px;border:1px solid var(--line);background:transparent;color:var(--muted);padding:4px 12px;border-radius:999px;cursor:pointer}
+.groups button[aria-pressed="true"]{background:var(--moss);border-color:var(--moss);color:var(--panel)}
+.search{flex:1;min-width:180px;max-width:360px;margin-left:auto}
+.search input{width:100%;font:inherit;font-size:14px;padding:7px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 64px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr)}.tree{order:2}}
+.tree{font-size:13.5px}
+.tree h3,.side h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+.tree ol{list-style:none;margin:0;padding:0}
+.tree li{padding:3px 0 3px calc(var(--d)*12px);display:flex;gap:6px;align-items:baseline}
+.tree .rk{font-family:var(--mono);font-size:10.5px;color:var(--muted);width:46px;flex:none}
+.tree .cur{font-weight:600;color:var(--moss)}
+.tree .sib{margin-top:20px}
+.tree .sib a{display:block;padding:4px 0;text-decoration:none;color:var(--ink);border-bottom:1px dashed var(--line)}
+.tree .sib a i{color:var(--muted);font-size:12px}
+.treenote{font-size:11.5px;color:var(--muted);line-height:1.5;margin:10px 0 0}
+.tx{border-bottom:1px dotted currentColor}
+.tx.en{color:var(--warn)} .tx.prop{color:var(--moss)}
+.tx sup{font-size:9.5px;font-family:var(--mono);margin-left:1px}
+.official{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:8px 10px;border-radius:6px;background:var(--ok-bg)}
+.official b{font-family:var(--display);font-size:18px}
+.cite{font-size:11.5px;color:var(--muted);margin:6px 0 14px}
+.need{border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:10px}
+.need-item{background:var(--bg);border-radius:6px;padding:10px}
+.need-item .hd{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:13.5px}
+.need-item .hd i{color:var(--muted)}
+.need-item .why{font-size:12.5px;margin:6px 0 0;line-height:1.5}
+.need-item .why span{color:var(--muted)}
+form.add textarea{font:inherit;font-size:13.5px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);width:100%;min-height:72px;resize:vertical}
+form.add input,form.add select{background:var(--panel)}
+.linkbtn{font:inherit;font-size:12px;background:none;border:0;color:var(--moss);cursor:pointer;padding:0;text-decoration:underline}
+.crumb{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px}
+.crumb span+span::before{content:"›";margin-right:4px;opacity:.6}
+h1{font-family:var(--display);font-size:clamp(32px,5vw,46px);line-height:1.15;margin:10px 0 2px;text-wrap:balance}
+.sci{font-family:var(--display);font-style:italic;font-size:19px;color:var(--muted)}
+.sci b{font-style:normal;font-weight:400;font-size:14px;font-family:var(--body)}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}
+.chip{font-size:12px;padding:2px 10px;border-radius:999px;background:var(--moss-soft);color:var(--moss);font-weight:500}
+.chip.mono{font-family:var(--mono);font-weight:400}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:150px 150px;gap:8px}
+.ph{position:relative;border-radius:6px;overflow:hidden;background:var(--moss-soft);min-width:0}
+.ph:first-child{grid-row:span 2}
+.ph canvas{width:100%;height:100%;display:block}
+.ph .cap{position:absolute;left:0;right:0;bottom:0;padding:6px 8px;font-size:11px;line-height:1.35;background:linear-gradient(transparent,rgba(0,0,0,.62));color:#fff}
+.ph .lic{position:absolute;top:6px;left:6px;font-family:var(--mono);font-size:10.5px;padding:1px 6px;border-radius:4px;font-weight:500}
+.lic.ok{background:var(--ok-bg);color:var(--ok)} .lic.warn{background:var(--warn-bg);color:var(--warn)} .lic.bad{background:var(--bad-bg);color:var(--bad)}
+.ph.blocked canvas{filter:grayscale(1) blur(3px);opacity:.45}
+.ph.blocked .msg{position:absolute;inset:0;display:grid;place-items:center;text-align:center;font-size:12px;color:var(--ink);padding:10px}
+@media (max-width:620px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 120px 120px}.ph:first-child{grid-column:span 2;grid-row:auto}}
+.galnote{font-size:12px;color:var(--muted);margin:8px 0 0}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;margin-top:30px}
+@media (max-width:1040px){.cols{grid-template-columns:minmax(0,1fr)}}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-bottom:16px;overflow-x:auto}
+.tabs button{font:inherit;font-size:14px;background:none;border:0;border-bottom:2px solid transparent;padding:8px 14px;color:var(--muted);cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--moss);font-weight:600}
+.prose{max-width:66ch}
+.prose h2{font-family:var(--display);font-size:22px;margin:22px 0 6px}
+.prose p{margin:0 0 12px}
+.mt{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;background:var(--warn-bg);color:var(--ink);padding:8px 12px;border-radius:6px;margin-bottom:16px}
+.mt b{color:var(--warn)}
+table.src{width:100%;border-collapse:collapse;font-size:13px}
+.src th,.src td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.src th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.st{font-size:11.5px;padding:1px 8px;border-radius:999px;white-space:nowrap;font-weight:500}
+.st.ok{background:var(--ok-bg);color:var(--ok)} .st.warn{background:var(--warn-bg);color:var(--warn)} .st.bad{background:var(--bad-bg);color:var(--bad)}
+.tblwrap{overflow-x:auto}
+.side{display:flex;flex-direction:column;gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px}
+dl.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:0;font-size:13.5px}
+dl.facts dt{color:var(--muted)} dl.facts dd{margin:0;font-variant-numeric:tabular-nums}
+.names{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.name{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:14px;padding:6px 8px;border-radius:6px;background:var(--bg)}
+.name small{font-size:11px;color:var(--muted)}
+.name .st{flex:none}
+form.add{display:flex;flex-direction:column;gap:6px}
+form.add label{font-size:12px;color:var(--muted)}
+form.add input,form.add select{font:inherit;font-size:14px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%}
+form.add button,.btn{font:inherit;font-size:13.5px;font-weight:600;border:0;border-radius:6px;padding:8px 12px;background:var(--moss);color:var(--panel);cursor:pointer}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+.hist{font-size:12px;color:var(--muted);margin:10px 0 0;padding:0;list-style:none}
+.hist li{padding:3px 0;border-top:1px dashed var(--line)}
+.foot{font-size:11.5px;color:var(--muted);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+
+<header class="top"><div class="top-in">
+  <a class="logo" href="#">Vertapedia<small>시안 v0.1</small></a>
+  <div class="groups" role="group" aria-label="동물군">
+    <button aria-pressed="false">조류</button><button aria-pressed="true">파충류</button><button aria-pressed="false">양서류</button>
+  </div>
+  <div class="search"><input id="q" type="search" placeholder="국명·학명·영명 검색 (예: 도마뱀부치, Gekko)"></div>
+</div></header>
+
+<div class="wrap">
+  <aside class="tree">
+    <h3>분류 계통</h3>
+    <ol>
+      <li style="--d:0"><span class="rk">강</span>파충강 Reptilia</li>
+      <li style="--d:1"><span class="rk">목</span>뱀목 Squamata</li>
+      <li style="--d:2"><span class="rk">아목</span>도마뱀아목 Lacertilia</li>
+      <li style="--d:3"><span class="rk">과</span>도마뱀부치과 Gekkonidae</li>
+      <li style="--d:4"><span class="rk">속</span>도마뱀부치속 <i>Gekko</i></li>
+      <li style="--d:5" class="cur"><span class="rk">종</span>도마뱀부치</li>
+    </ol>
+    <div class="sib">
+      <h3>같은 속의 종</h3>
+      <a href="#">도마뱀부치 <i>Gekko japonicus</i></a>
+      <a href="#" data-sci="Gekko swinhonis" data-en="Swinhoe's gecko"></a>
+      <a href="#" data-sci="Gekko hokouensis" data-en="Hokou gecko"></a>
+      <p class="treenote">국가생물종목록 수록 종만 공식 국명이 붙습니다. 나머지 종은 영명으로 표시되고, 제안된 국명이 있으면 그 이름을 씁니다.</p>
+    </div>
+  </aside>
+
+  <main style="min-width:0">
+    <div class="crumb"><span>파충강</span><span>뱀목</span><span>도마뱀아목</span><span>도마뱀부치과</span><span>도마뱀부치속</span></div>
+    <h1>도마뱀부치</h1>
+    <div class="sci"><i>Gekko japonicus</i> <b>(Duméril &amp; Bibron, 1836)</b></div>
+    <div class="meta">
+      <span class="chip">영명 Schlegel's Japanese gecko</span>
+      <span class="chip">야행성</span>
+      <span class="chip">한국 출현</span>
+      <span class="chip mono">iNat #101316</span>
+      <span class="chip mono">관찰 2,676건</span>
+    </div>
+
+    <div class="gallery" id="gal"></div>
+    <p class="galnote">사진마다 라이선스를 판별해서 CC0·CC BY·CC BY-NC만 바로 보여 줍니다. 저작권 전부 보유(All rights reserved) 사진은 숨기고, Macaulay Library 사진은 원문 링크로만 연결합니다.</p>
+
+    <div class="cols">
+      <section style="min-width:0">
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-t="desc">설명</button>
+          <button role="tab" aria-selected="false" data-t="src">데이터 출처</button>
+        </div>
+        <div id="t-desc" class="prose">
+          <div class="mt"><span>⚙</span><span><b>기계 번역 초안</b> · 영어 위키백과 「Schlegel's Japanese gecko」 문서를 번역했습니다. 편집자 검수 전입니다. 원문 라이선스: CC BY-SA 4.0</span></div>
+          <h2>개요</h2>
+          <p>도마뱀부치는 도마뱀붙이과에 속하는 소형 도마뱀이다. 중국 동부와 일본에 널리 분포하며, 한국에서는 부산 등 남부 일부 지역에서 기록된다. 사람이 사는 건물 벽이나 창가에서 자주 발견되어 도시 환경에 잘 적응한 종으로 꼽힌다.</p>
+          <h2>형태</h2>
+          <p>몸은 납작하고 회갈색 바탕에 어두운 얼룩무늬가 있다. 발가락 아랫면의 넓은 판 구조 덕분에 수직 벽과 유리면을 자유롭게 오른다. 눈꺼풀이 없어 혀로 눈을 닦는다. 분포가 겹치는 <span class="tx" data-sci="Gekko hokouensis" data-en="Hokou gecko"></span>, <span class="tx" data-sci="Gekko swinhonis" data-en="Swinhoe's gecko"></span>와 외형이 비슷해 혼동되기도 한다.</p>
+          <p style="font-size:12px;color:var(--muted)">밑줄 친 이름 중 <span class="tx en">주황색</span>은 국명이 없어 영명을 그대로 둔 것이고, <span class="tx prop">초록색</span>은 편집자가 제안한 국명이 반영된 것입니다. 오른쪽 패널에서 국명을 제안하면 본문과 분류 트리에 바로 반영됩니다.</p>
+          <h2>생태</h2>
+          <p>밤에 활동하며 불빛에 모이는 곤충을 잡아먹는다. 여름철에 단단한 껍데기의 알을 두 개씩 틈새에 낳는다.</p>
+          <p style="font-size:12px;color:var(--muted)">이 섹션 아래에는 Birds of the World 같은 유료 자료의 본문을 싣지 않고, 「원문 보기」 링크만 둡니다.</p>
+        </div>
+        <div id="t-src" hidden>
+          <div class="tblwrap"><table class="src">
+            <thead><tr><th>출처</th><th>가져오는 것</th><th>상태</th></tr></thead>
+            <tbody>
+              <tr><td>국가생물종목록 Ⅱ (2019)</td><td>모든 공식 국명 (종·속·과·목·강)</td><td><span class="st ok">유일한 국명 출처</span></td></tr>
+              <tr><td>편집자 제안</td><td>목록에 없는 분류군의 국명과 작성 근거</td><td><span class="st warn">제안명으로 구분</span></td></tr>
+              <tr><td>iNaturalist API</td><td>분류 계통, 관찰 사진 (한국어 이름은 쓰지 않음)</td><td><span class="st ok">사용 가능</span></td></tr>
+              <tr><td>en.wikipedia</td><td>요약·본문 → 한국어 번역</td><td><span class="st ok">CC BY-SA 표기</span></td></tr>
+              <tr><td>Wikimedia Commons</td><td>자유 라이선스 사진</td><td><span class="st ok">사용 가능</span></td></tr>
+              <tr><td>eBird API 2.0</td><td>조류 분류표(Clements), 지역별 관찰 기록</td><td><span class="st ok">API 키 필요</span></td></tr>
+              <tr><td>Macaulay Library (eBird 사진)</td><td>사진 갤러리</td><td><span class="st warn">링크만</span></td></tr>
+              <tr><td>Birds of the World</td><td>종 설명 본문</td><td><span class="st bad">복제·번역 불가</span></td></tr>
+            </tbody>
+          </table></div>
+        </div>
+      </section>
+
+      <aside class="side">
+        <div class="card">
+          <h3>국명</h3>
+          <div class="official"><b>도마뱀부치</b><span class="st ok">공식 국명</span></div>
+          <p class="cite">국가생물종목록 Ⅱ (2019), 156쪽 · 과명 도마뱀부치과, 속명 도마뱀부치속</p>
+          <div class="need">
+            <h3>이 문서의 국명 없는 분류군</h3>
+            <div id="needs"></div>
+            <form class="add" id="addf">
+              <label for="tsci">대상 분류군</label>
+              <select id="tsci"></select>
+              <label for="nm">제안 국명</label>
+              <input id="nm" required placeholder="예: 호구도마뱀부치">
+              <label for="why">명칭 근거 (직접 작성)</label>
+              <textarea id="why" required placeholder="예: 모식산지 Hokou를 따르고, 공식 속명 '도마뱀부치속'을 어근으로 삼음."></textarea>
+              <label for="ref">참고 문헌·링크 (선택)</label>
+              <input id="ref" placeholder="예: 원기재 논문">
+              <button type="submit">국명 제안 등록</button>
+            </form>
+          </div>
+          <ul class="hist" id="hist"></ul>
+        </div>
+        <div class="card">
+          <h3>기본 정보</h3>
+          <dl class="facts">
+            <dt>몸길이</dt><dd>약 10–14 cm (꼬리 포함)</dd>
+            <dt>활동</dt><dd>야간</dd>
+            <dt>서식</dt><dd>건물 벽, 돌담, 숲 가장자리</dd>
+            <dt>분포</dt><dd>중국 동부, 일본, 한국 남부</dd>
+          </dl>
+        </div>
+      </aside>
+    </div>
+    <p class="foot">시안 페이지입니다. 사진은 자리 표시용 그림이고, 설명 문장은 형식을 보여 주기 위한 예시입니다. 국명 제안은 이 브라우저에만 임시 저장됩니다. 실서비스에서는 국명 데이터 파일에 근거와 함께 기록됩니다.</p>
+  </main>
+</div>
+
+<script>
+const photos=[
+  {lic:"CC BY-NC",cls:"ok",who:"관찰자 A · iNaturalist",seed:1},
+  {lic:"CC BY",cls:"ok",who:"관찰자 B · iNaturalist",seed:2},
+  {lic:"CC0",cls:"ok",who:"Wikimedia Commons",seed:3},
+  {lic:"©",cls:"bad",who:"",seed:4,blocked:"저작권 전부 보유\n자동 숨김"},
+  {lic:"ML",cls:"warn",who:"",seed:5,blocked:"Macaulay Library\n원문에서 보기 ↗"}
+];
+const gal=document.getElementById('gal');
+function draw(c,seed){
+  const r=c.getBoundingClientRect(),d=window.devicePixelRatio||1;c.width=r.width*d;c.height=r.height*d;
+  const x=c.getContext('2d');x.scale(d,d);const w=r.width,h=r.height;
+  let s=seed*9301;const rnd=()=>((s=(s*9301+49297)%233280)/233280);
+  const g=x.createLinearGradient(0,0,w,h);g.addColorStop(0,`hsl(${90+seed*14},18%,${30+seed*4}%)`);g.addColorStop(1,`hsl(${30+seed*10},20%,${18+seed*3}%)`);
+  x.fillStyle=g;x.fillRect(0,0,w,h);
+  for(let i=0;i<40;i++){x.fillStyle=`rgba(255,255,255,${rnd()*.06})`;x.beginPath();x.arc(rnd()*w,rnd()*h,rnd()*30+4,0,7);x.fill()}
+  // gecko silhouette
+  const cx=w*(.4+rnd()*.2),cy=h*(.45+rnd()*.1),sc=Math.min(w,h)/190,a=rnd()*1.2-.6;
+  x.save();x.translate(cx,cy);x.rotate(a);x.scale(sc,sc);x.fillStyle=`hsl(35,14%,${62+seed*3}%)`;
+  x.beginPath();x.ellipse(0,0,34,12,0,0,7);x.fill();
+  x.beginPath();x.ellipse(-44,0,14,10,0,0,7);x.fill();
+  x.beginPath();x.moveTo(30,-6);x.quadraticCurveTo(80,-4,96,22);x.quadraticCurveTo(76,4,30,6);x.fill();
+  [[-20,-1],[-20,1],[18,-1],[18,1]].forEach(([lx,sgn])=>{x.beginPath();x.moveTo(lx,0);x.lineTo(lx-8*sgn*-1+(lx<0?-8:8),sgn*28);x.lineTo(lx+4,sgn*8);x.fill();
+    for(let k=-1;k<=1;k++){x.beginPath();x.arc(lx+(lx<0?-8:8)+k*5,sgn*30,3,0,7);x.fill()}});
+  x.fillStyle="rgba(0,0,0,.35)";for(let i=0;i<6;i++){x.beginPath();x.ellipse(-24+i*10,(i%2?3:-3),3,2,0,0,7);x.fill()}
+  x.restore();
+}
+photos.forEach(p=>{
+  const el=document.createElement('figure');el.className='ph'+(p.blocked?' blocked':'');el.style.margin='0';
+  el.innerHTML=`<canvas></canvas><span class="lic ${p.cls}">${p.lic}</span>`+(p.blocked?`<div class="msg">${p.blocked.replace('\n','<br>')}</div>`:`<figcaption class="cap">${p.who}</figcaption>`);
+  gal.appendChild(el);
+});
+const paint=()=>gal.querySelectorAll('canvas').forEach((c,i)=>draw(c,photos[i].seed));
+paint();addEventListener('resize',paint);
+
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.tabs button').forEach(o=>o.setAttribute('aria-selected',o===b));
+  document.getElementById('t-desc').hidden=b.dataset.t!=='desc';document.getElementById('t-src').hidden=b.dataset.t!=='src';
+});
+document.querySelectorAll('.groups button').forEach(b=>b.onclick=()=>document.querySelectorAll('.groups button').forEach(o=>o.setAttribute('aria-pressed',o===b)));
+
+const taxa={"Gekko hokouensis":"Hokou gecko","Gekko swinhonis":"Swinhoe's gecko"};
+let props={"Gekko swinhonis":{n:"스윈호도마뱀부치",why:"종소명이 기리는 R. Swinhoe의 이름을 따르고, 공식 속명 '도마뱀부치속'에 맞춤.",ref:"",who:"편집자 J",d:"2026-10-02"}};
+let hist=["2026-10-02 · 편집자 J · Gekko swinhonis에 ‘스윈호도마뱀부치’ 제안"];
+try{const v=JSON.parse(localStorage.getItem('hb-props2')||'null');if(v){props=v.props;hist=v.hist}}catch(e){}
+const esc=t=>String(t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+const today=()=>new Date().toISOString().slice(0,10);
+function save(){try{localStorage.setItem('hb-props2',JSON.stringify({props,hist}))}catch(e){}}
+function render(){
+  document.querySelectorAll('[data-sci]').forEach(el=>{
+    const sci=el.dataset.sci,p=props[sci];
+    if(el.classList.contains('tx')){el.className='tx '+(p?'prop':'en');el.innerHTML=p?`${esc(p.n)}<sup>제안</sup>`:`${esc(el.dataset.en)}<sup>EN</sup>`;el.title=sci+(p?' · 근거: '+p.why:' · 국명 없음');}
+    else el.innerHTML=(p?`<span class="tx prop">${esc(p.n)}<sup>제안</sup></span>`:`<span class="tx en">${esc(el.dataset.en)}<sup>EN</sup></span>`)+` <i>${sci}</i>`;
+  });
+  document.getElementById('needs').innerHTML=Object.keys(taxa).map(sci=>{const p=props[sci];
+    return `<div class="need-item"><div class="hd"><span>${p?esc(p.n):esc(taxa[sci])} <i>${sci}</i></span><span class="st ${p?'ok':'warn'}">${p?'제안명 반영':'국명 없음'}</span></div>`+
+    (p?`<p class="why"><span>근거</span> ${esc(p.why)}${p.ref?`<br><span>참고</span> ${esc(p.ref)}`:''}<br><span>${esc(p.who)} · ${p.d}</span> <button type="button" class="linkbtn" data-undo="${sci}">제안 철회</button></p>`:'')+`</div>`}).join('');
+  const sel=document.getElementById('tsci');
+  sel.innerHTML=Object.keys(taxa).map(sci=>`<option value="${sci}">${sci} (${esc(taxa[sci])})</option>`).join('');
+  const open=Object.keys(taxa).find(k=>!props[k]);if(open)sel.value=open;
+  document.getElementById('hist').innerHTML=hist.map(h=>`<li>${esc(h)}</li>`).join('');
+  document.querySelectorAll('[data-undo]').forEach(b=>b.onclick=()=>{const k=b.dataset.undo;hist.unshift(`${today()} · 나 · ${k} 제안 철회`);delete props[k];save();render()});
+}
+render();
+document.getElementById('addf').onsubmit=e=>{
+  e.preventDefault();const g=id=>document.getElementById(id).value.trim();
+  const sci=g('tsci'),n=g('nm'),why=g('why');if(!n||!why)return;
+  props[sci]={n,why,ref:g('ref'),who:"나",d:today()};hist.unshift(`${today()} · 나 · ${sci}에 ‘${n}’ 제안`);
+  ['nm','why','ref'].forEach(id=>document.getElementById(id).value='');save();render();
+};
+</script>

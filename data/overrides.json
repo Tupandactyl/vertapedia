@@ -1,0 +1,16 @@
+{
+  "_설명": "자동 대조로 풀리지 않는 국가생물종목록 학명을 손으로 정한 것. 편집자 확인(2026-10-08).",
+  "link": [
+    {"group": "AVES", "nibr_sci": "Hieraaetus fasciatus", "sci": "Aquila fasciata"}
+  ],
+  "keep": [
+    {"group": "AVES", "nibr_sci": "Cisticola juncidis", "note": "시트에 없음 · 국가생물종목록 학명과 국명을 따름"},
+    {"group": "REPTILIA", "nibr_sci": "Gloydius saxatilis", "note": "시트에 없음 · 국가생물종목록 학명과 국명을 따름"},
+    {"group": "REPTILIA", "nibr_sci": "Pelamis platura", "replaces": "Hydrophis platurus", "note": "국가생물종목록 학명을 따름 · Reptile Database 표기는 Hydrophis platurus"}
+  ],
+  "subspecies": [
+    {"group": "AVES", "nibr_sci": "Anas carolinensis", "sci": "Anas crecca carolinensis", "parent": "Anas crecca", "note": "아종 단위 통합"},
+    {"group": "AVES", "nibr_sci": "Larus heuglini", "sci": "Larus fuscus heuglini", "parent": "Larus fuscus", "note": "아종 단위 통합"},
+    {"group": "AVES", "nibr_sci": "Carduelis hornemanni", "sci": "Acanthis flammea exilipes", "parent": "Acanthis flammea", "note": "아종 단위 통합 · 국내 기록 아종은 한국조류목록 2025 기준 exilipes"}
+  ]
+}
