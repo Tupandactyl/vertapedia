@@ -1,0 +1,138 @@
+{
+ "sci": "Leuconotopicus villosus",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 1651487,
+  "name": "Leuconotopicus villosus",
+  "observations": 82765,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hairy_woodpecker"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59053809/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dorriesfield, some rights reserved (CC BY-NC)",
+   "obs": 37269809,
+   "place": "Thunder Cape Bird Observatory",
+   "date": "2017-10-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164207055/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig K. Hunt, some rights reserved (CC BY-NC)",
+   "obs": 98604641,
+   "place": "Townshend, VT, USA",
+   "date": "2021-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169014125/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) LeAnn Plinske, some rights reserved (CC BY-NC)",
+   "obs": 101222185,
+   "place": "Baxter, MN, USA",
+   "date": "2021-11-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112501404/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig K. Hunt, some rights reserved (CC BY-NC)",
+   "obs": 69338599,
+   "place": "Townshend, VT, USA",
+   "date": "2021-02-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591813520/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mhalsted, some rights reserved (CC BY-NC)",
+   "obs": 326741337,
+   "place": "Flinton, ON K0H 1P0, Canada",
+   "date": "2025-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169734219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alain Maire, some rights reserved (CC BY-NC)",
+   "obs": 101627519,
+   "place": "Nicolet, QC, Canada",
+   "date": "2010-11-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470110771/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) birdcite-ing, some rights reserved (CC BY-NC)",
+   "obs": 261651167,
+   "place": "Johnsburg, IL, US",
+   "date": "2025-02-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143269296/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Martin, some rights reserved (CC BY-NC)",
+   "obs": 86920324,
+   "place": "Clear Creek County, CO, USA",
+   "date": "2021-07-13"
+  }
+ ],
+ "wiki": {
+  "title": "Hairy woodpecker",
+  "url": "https://en.wikipedia.org/wiki/Hairy_woodpecker",
+  "revision": 1357303594,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The hairy woodpecker (Leuconotopicus villosus) is a medium-sized woodpecker that is found over a large area of North America. It is approximately 250 mm (9.8 in) in length with a 380 mm (15 in) wingspan. With an estimated population in 2020 of almost nine million individuals, the hairy woodpecker is listed by the IUCN as a species of least concern. The species was previously placed in the genus Dryobates."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The hairy woodpecker was described and illustrated with a hand-coloured plate by the English naturalist Mark Catesby in his The Natural History of Carolina, Florida and the Bahama Islands which was published between 1729 and 1732. When in 1766 the Swedish naturalist Carl Linnaeus updated his Systema Naturae for the twelfth edition, he included the downy woodpecker, coined the binomial name Picus villosus and cited Catesby's book. The specific epithet villosus is the Latin word for \"hairy\". Linnaeus specified the type locality as America septentrionali (North America), with specific mention of Raccoon, New Jersey. The hairy woodpecker was formerly usually placed in either Dendrocopos or Picoides but a molecular phylogenetic study published in 2015 found that these genera did not form monophyletic groups. In the revised generic classification, the hairy woodpecker was moved to the genus Leuconotopicus that was erected by the French ornithologist Alfred Malherbe in 1845. Some taxonomic authorities place the hairy woodpecker in an expanded Dryobates that includes all the species in the genera Leuconotopicus and Veniliornis.",
+     "Seventeen subspecies are recognised:",
+     "L. v. septentrionalis (Nuttall, 1840) – west North America from south Alaska to Ontario to New Mexico",
+     "L. v. picoideus (Osgood, 1901) – Queen Charlotte Island (off British Columbia, Canada)",
+     "L. v. harrisi (Audubon, 1838) – southeast Alaska to north California",
+     "L. v. terraenovae (Batchelder, 1908) – Newfoundland",
+     "L. v. villosus (Linnaeus, 1766) – southeast Canada, north central and northeast USA",
+     "L. v. orius (Oberholser, 1911) – south central British Columbia to southeast California and southwest Utah",
+     "L. v. monticola (Anthony, 1898) – central British Columbia to north New Mexico",
+     "L. v. leucothorectis (Oberholser, 1911) – southeast California to west Texas",
+     "L. v. audubonii (Swainson, 1832) – southeast USA",
+     "L. v. hyloscopus (Cabanis & Heine, 1863) – west and south California, north Baja California (Mexico)",
+     "L. v. icastus (Oberholser, 1911) – southeast Arizona, southwest New Mexico to west Mexico",
+     "L. v. intermedius (Nelson, 1900) – east Mexico",
+     "L. v. jardinii\tMalherbe, 1845 – south central and east central Mexico",
+     "L. v. sanctorum (Nelson, 1897) – southeast Mexico to northwest Nicaragua",
+     "L. v. extimus (Bangs, 1902) – north central Costa Rica to west Panama",
+     "L. v. piger (Allen, GM, 1905) – north Bahamas",
+     "L. v. maynardi (Ridgway, 1887) – south Bahamas"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults are mainly black on the upper parts and wings, with a white or pale back and white spotting on the wings; the throat and belly vary from white to sooty brown, depending on subspecies. There is a white bar above and one below the eye. They have a black tail with white outer feathers. Adult males have a red patch or two side-by-side patches on the back of the head; juvenile males have red or rarely orange-red on the crown.",
+     "The hairy woodpecker measures from 18–26 cm (7.1–10.2 in) in length, 33–43 cm (13–17 in) in wingspan and 40–95 g (1.4–3.4 oz) in weight. It is virtually identical in plumage to the smaller downy woodpecker. The downy has a shorter bill relative to the size of its head, which is, other than size and voice, the best way to distinguish them in the field.  These two species are not closely related, however, and are likely to be separated in different genera. Another way to tell the two species apart is the lack of spots on its white tail feathers (present in the downy). Their outward similarity is a spectacular example of convergent evolution. As to the reason for this convergence, only tentative hypotheses have been advanced; in any case, because of the considerable size difference, ecological competition between the two species is slight."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The hairy woodpecker inhabits mature deciduous forests in the Bahamas, Canada, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Saint Pierre and Miquelon, and the United States. It is a vagrant to Puerto Rico and the Turks and Caicos Islands. Mating pairs will excavate a hole in a tree, where they will lay, on average, four white eggs.",
+     "These birds are mostly permanent residents. Birds in the extreme north may migrate further south; birds in mountainous areas may move to lower elevations."
+    ]
+   },
+   {
+    "h": "Behavior and ecology",
+    "level": 2,
+    "paras": [
+     "These birds forage on trees, often turning over bark or excavating to uncover insects. They mainly eat insects, but also fruits, berries and nuts, as well as sometimes tree sap. They are a predator of the European corn borer, a moth that costs the US agriculture industry more than $1 billion annually in crop losses and population control."
+    ]
+   }
+  ]
+ }
+}

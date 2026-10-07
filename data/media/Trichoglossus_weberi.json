@@ -1,0 +1,56 @@
+{
+ "sci": "Trichoglossus weberi",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 980093,
+  "name": "Trichoglossus weberi",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leaf_lorikeet"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12509428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC)",
+   "obs": 9241389,
+   "place": "Nusa Tenggara Timur, ID",
+   "date": "2017-12-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103017257/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Schellekens, some rights reserved (CC BY-NC)",
+   "obs": 64111068,
+   "place": "Nusa Tenggara Timur, ID",
+   "date": "2008-11-01"
+  }
+ ],
+ "wiki": {
+  "title": "Leaf lorikeet",
+  "url": "https://en.wikipedia.org/wiki/Leaf_lorikeet",
+  "revision": 1314632089,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The leaf lorikeet (Trichoglossus weberi), also known as the Flores lorikeet or Weber's lorikeet, is a species of parrot that is endemic to the Indonesian island of Flores. It was previously considered a subspecies of the rainbow lorikeet, but following a review in 1997, it is increasingly treated as a separate species."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Unlike all other members of the rainbow lorikeet group, the leaf lorikeet has an overall green plumage, with only a paler lime green chest and collar. With a total length of approximately 23 cm (9 in), it is the smallest member of the rainbow lorikeet group."
+    ]
+   },
+   {
+    "h": "Habitat and conservation",
+    "level": 2,
+    "paras": [
+     "It inhabits the edge of primary forest, secondary forest, woodland and plantations at altitudes up to 1,400 m (4,600 ft).  It remains fairly common, but its relatively small distribution could give cause for future concern. As well, its population is believed to be decreasing, with fewer than 20,000 mature individuals believed to be in the wild."
+    ]
+   }
+  ]
+ }
+}

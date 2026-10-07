@@ -1,0 +1,64 @@
+{
+ "sci": "Trichoglossus rosenbergii",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 1506165,
+  "name": "Trichoglossus rosenbergii",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Biak_lorikeet"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30360034/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC)",
+   "obs": 19707508,
+   "place": "Papua, ID",
+   "date": "2004-08-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213687393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M, some rights reserved (CC BY-NC)",
+   "obs": 125972389,
+   "place": "Biak Numfor, ID-PA, ID",
+   "date": "2022-06-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228276246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M, some rights reserved (CC BY-NC)",
+   "obs": 133970438,
+   "place": "Biak Numfor, ID-PA, ID",
+   "date": "2022-06-17"
+  }
+ ],
+ "wiki": {
+  "title": "Biak lorikeet",
+  "url": "https://en.wikipedia.org/wiki/Biak_lorikeet",
+  "revision": 1334317681,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Biak lorikeet (Trichoglossus rosenbergii), also known as Rosenberg's lorikeet, is a parrot in the family Psittaculidae. Formerly lumped in with Trichoglossus haematodus, it is endemic to the twin islands of Biak and Superiori in the Papua province of Indonesia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "As a newly separated species, specific information is scarce. It is assumed to be similar to other Trichoglossus parakeets in preferring lowland forest including secondary growth and plantations."
+    ]
+   },
+   {
+    "h": "Threats",
+    "level": 2,
+    "paras": [
+     "On Biak, forest is under heavy pressure from logging and subsistence farming. Trapping for trade does occur, but how much that affects the species is uncertain. Its population is believed to be decreasing, with fewer than 10,000 mature individuals in the wild."
+    ]
+   }
+  ]
+ }
+}

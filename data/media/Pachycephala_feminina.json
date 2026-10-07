@@ -1,0 +1,56 @@
+{
+ "sci": "Pachycephala feminina",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 201144,
+  "name": "Pachycephala feminina",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rennell_whistler"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533312420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC)",
+   "obs": 296195515,
+   "place": "Solomon Islands",
+   "date": "2025-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457213459/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC)",
+   "obs": 255163221,
+   "place": "Rennell and Bellona, SB",
+   "date": "2024-10-30"
+  }
+ ],
+ "wiki": {
+  "title": "Rennell whistler",
+  "url": "https://en.wikipedia.org/wiki/Rennell_whistler",
+  "revision": 1315220895,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Rennell whistler (Pachycephala feminina) is a species of bird in the family Pachycephalidae, which is endemic to the Rennell Island in the Solomon Islands. It was split from the Bismarck whistler by the IOC in 2016."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "It has been variably considered a subspecies of a widespread golden whistler (P. pectoralis) or treated as a separate species, but strong published evidence in favour of either treatment is limited, and further study is warranted to resolve the complex taxonomic situation."
+    ]
+   },
+   {
+    "h": "Status",
+    "level": 2,
+    "paras": [
+     "The Rennell whistler is assessed as Near Threatened by the IUCN due to its small population and habitat loss within a restricted range."
+    ]
+   }
+  ]
+ }
+}

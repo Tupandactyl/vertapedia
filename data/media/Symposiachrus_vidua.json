@@ -1,0 +1,51 @@
+{
+ "sci": "Symposiachrus vidua",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 201165,
+  "name": "Symposiachrus vidua",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-collared_monarch"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236916302/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC)",
+   "obs": 138594153,
+   "place": "Makira-Ulawa, Solomon Islands",
+   "date": "2013-05-18"
+  }
+ ],
+ "wiki": {
+  "title": "White-collared monarch",
+  "url": "https://en.wikipedia.org/wiki/White-collared_monarch",
+  "revision": 1315364341,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The white-collared monarch (Symposiachrus vidua) is a species of bird in the family Monarchidae.",
+     "It is found in the Solomon Islands of Ugi and Makira."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was originally described as belonging to the genus Piezorhynchus (a synonym for Myiagra) and subsequently classified in the genus Monarcha prior to being moved to Symposiachrus in 2009. Alternate names include the San Cristobal monarch and scaled monarch."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 3,
+    "paras": [
+     "There are two subspecies recognized:",
+     "S. v. squamulatus - (Tristram, 1882): Originally described as a separate species in the genus Piezorhynchus. Found on Ugi Island",
+     "S. v. vidua - (Tristram, 1879): Found on Makira"
+    ]
+   }
+  ]
+ }
+}

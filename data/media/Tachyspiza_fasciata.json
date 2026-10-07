@@ -1,0 +1,141 @@
+{
+ "sci": "Tachyspiza fasciata",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 1583256,
+  "name": "Tachyspiza fasciata",
+  "observations": 5100,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brown_goshawk"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/643341290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dennis Hocking, some rights reserved (CC BY-NC)",
+   "obs": 352479071,
+   "place": "South Jacana Wetlands Melbourne Victoria Australia",
+   "date": "2026-04-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459377801/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sylvia Felicity Ann Haworth, some rights reserved (CC BY-NC)",
+   "obs": 256240851,
+   "place": "Brisbane QLD, Australia",
+   "date": "2024-12-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224454350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damian White, some rights reserved (CC BY-NC)",
+   "obs": 131856298,
+   "place": "Gold Coast QLD, Australia",
+   "date": "2020-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66101158/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sskcm, some rights reserved (CC BY-NC)",
+   "obs": 41666005,
+   "place": "Queensland, AU",
+   "date": "2020-04-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63810096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Ayers, some rights reserved (CC BY-NC)",
+   "obs": 40171175,
+   "place": "Brisbane QLD, Australia",
+   "date": "2020-02-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311456965/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rogstanden, some rights reserved (CC BY-NC)",
+   "obs": 178939261,
+   "place": "450 Nepean Hwy, Mount Martha VIC 3934, Australia",
+   "date": "2013-07-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172466399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerry + Darren, some rights reserved (CC BY-NC)",
+   "obs": 103091415,
+   "place": "Narrikup WA 6326, Australia",
+   "date": "2021-12-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616562401/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC)",
+   "obs": 338988129,
+   "place": "Jelcobine WA 6306, Australia",
+   "date": "2026-02-10"
+  }
+ ],
+ "wiki": {
+  "title": "Brown goshawk",
+  "url": "https://en.wikipedia.org/wiki/Brown_goshawk",
+  "revision": 1332162734,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The brown goshawk (Tachyspiza fasciata) is a medium-sized bird of prey in the family Accipitridae found in Australia and surrounding islands. This species was formerly placed in the genus Accipiter."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The brown goshawk was formally described in 1827 by the naturalists Nicholas Vigors and Thomas Horsfield under the binomial name Astur fasciatus. The type locality is the state of New South Wales in eastern Australia. The brown goshawk was formerly placed in the genus Accipiter. In 2024 a comprehensive molecular phylogenetic study of the Accipitridae confirmed earlier work that had shown that the genus was polyphyletic. To resolve the non-monophyly, Accipiter was divided into six genera. The genus Tachyspiza was resurrected to accommodate the brown goshawk together with 26 other species that had previously been placed in Accipiter. The resurrected genus had been introduced in 1844 by the German naturalist Johann Jakob Kaup.  The genus name combines the Ancient Greek ταχυς (takhus) meaning \"fast\" with σπιζιας (spizias) meaning \"hawk\". The specific epithet fasciatus, fasciata is Late Latin meaning \"banded\" or \"striped\".",
+     "Thirteen subspecies are recognised:",
+     "T. f. natalis (Lister, 1889) – Christmas Island (south of west Java)",
+     "T. f. wallacii (Sharpe, 1874) – Lombok to Babar Islands (north Lesser Sunda Islands)",
+     "T. f. tjendanae (Stresemann, 1925) – Sumba (southwest Lesser Sunda Islands)",
+     "T. f. stresemanni (Rensch, 1931) – Tanahjampea, Kalao, Bonerate, Kalaotoa and Madu (south, southeast of southwest Sulawesi) and Tukangbesi Islands (southeast of southeast Sulawesi)",
+     "T. f. savu (Mayr, 1941) – Savu (east of Sumba, central Lesser Sunda Islands)",
+     "T. f. hellmayri (Stresemann, 1922) – Rote Island, Semau and Timor (east Lesser Sunda Islands)",
+     "T. f. buruensis (Stresemann, 1914) – Buru (central west Moluccas)",
+     "T. f. dogwa (Rand, 1941) – Trans-Fly (central south New Guinea) and Boigu Island and Saibai Island (north Torres Strait islands, far northeast Australia)",
+     "T. f. polycrypta (Rothschild & Hartert, EJO, 1915) – east New Guinea",
+     "T. f. vigilax (Wetmore, 1926) – Vanuatu and New Caledonia including Loyalty Islands",
+     "T. f. didimus (Mathews, 1912) – northeast Western Australia to Cape York Peninsula, northeast Queensland (north Australia)",
+     "T. f. fasciata (Vigors & Horsfield, 1827) – Australia (except north) and Tasmania, Rennell Island and Bellona Island (northwest of Rennell Island; south Solomon Islands)",
+     "T. f. rosseliana (Mayr, 1940) – Rossel Island (east Louisiade Archipelago, east of New Guinea)"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Its upperparts are grey with a chestnut collar; its underparts are mainly rufous, finely barred with white.  Thus it has similar colouring to the collared sparrowhawk but is larger.  The flight is fast and flexible.  The body length is 40–55 cm (15.7–21.7 in); the wingspan, 75–95 cm (29.5–37.4 in). Females are noticeably larger: adult males weigh 220 g (7.8 oz), and adult females, 355 g (12.5 oz)."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The brown goshawk is widespread through Australia, Wallacea, New Guinea, New Caledonia, Vanuatu and Fiji. In Australia, it is found mainly in eucalypt forests and woodlands, as well as farmland and urban areas. In the Pacific, it mainly inhabits rainforest. It was also found on Norfolk Island to about 1790, and this may be another undescribed subspecies. However, the lack of specimens from Norfolk Island (1 historical skin and 9 subfossil bones is all the material that has been found) means that no genetic test can be conducted."
+    ]
+   },
+   {
+    "h": "Feeding",
+    "level": 2,
+    "paras": [
+     "Brown goshawks feed mainly on other medium-sized birds, while small mammals such as rats and rabbits are also taken. Brown goshawks often hunt near farmland or wetlands, where birds such as ducks, cockatoos and pigeons are plentiful. Smaller prey such as finches, pipits and fairy-wrens are also preyed on, right up to birds the size of domestic fowls and even large, aggressive birds such as currawongs and kookaburras. Bats, small reptiles, amphibians, and large insects are also occasionally eaten.",
+     "The main methods of catching prey are still-hunting, by which the goshawk waits on a hidden perch until prey comes within striking distance, and flying through undergrowth attempting to flush out small prey. Less often, goshawks will stoop on prey from above, or even chase small mammals on foot.",
+     "When a brown goshawk is discovered by other birds, smaller species panic and flee for cover, while larger birds such as ravens, crows and magpies will aggressively mob it until it leaves the area."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 2,
+    "paras": [
+     "It nests in tall trees on a platform of sticks and twigs lined with green leaves.  The clutch size is usually three, sometimes two or four. The incubation period is about 30 days, with chicks fledging about 31 days after hatching."
+    ]
+   }
+  ]
+ }
+}

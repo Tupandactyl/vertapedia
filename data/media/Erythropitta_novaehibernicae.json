@@ -1,0 +1,46 @@
+{
+ "sci": "Erythropitta novaehibernicae",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 522307,
+  "name": "Erythropitta novaehibernicae",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bismarck_pitta"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/705926656/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Stecher, some rights reserved (CC BY-NC)",
+   "obs": 385592059,
+   "place": "Namatanai, PG-NI, PG",
+   "date": "2026-07-22"
+  }
+ ],
+ "wiki": {
+  "title": "Bismarck pitta",
+  "url": "https://en.wikipedia.org/wiki/Bismarck_pitta",
+  "revision": 1337796972,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Bismarck pitta or New Ireland pitta (Erythropitta novaehibernicae) is a species of pitta. It was formerly considered conspecific with the red-bellied pitta. It is endemic to the Bismarck Archipelago in Papua New Guinea. Its natural habitat is subtropical or tropical moist lowland forests. It is threatened by habitat loss."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Bismarck pitta was formally described in 1878 by the Australian zoologist Edward Pierson Ramsay from a specimen that had been collected on the island of New Ireland in the Bismarck Archipelago. He placed it in the genus Pitta and coined the binomial name Pitta novaehibernicae. The Bismarck pitta is now placed in the genus Erythropitta that was introduced 1854 in by Charles Lucien Bonaparte.",
+     "Four subspecies are recognised:",
+     "E. n. novaehibernicae (Ramsay, EP, 1878) – New Ireland (and probably Dyaul; northeast Bismarck Archipelago)",
+     "E. n. extima (Mayr, 1955) – New Hanover Island (=New Hanover, central north Bismarck Archipelago)",
+     "E. n. splendida (Mayr, 1955) – Tambar (north of central New Ireland, northeast Bismarck Archipelago, sometimes treated as a separate species, the Tabar pitta)",
+     "E. n. gazellae (Neumann, 1908) – New Britain and satellites from Tolokiwa to Duke of York (southeast Bismarck Archipelago, sometimes treated as a separate species, the New Britain pitta)"
+    ]
+   }
+  ]
+ }
+}

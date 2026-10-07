@@ -1,0 +1,49 @@
+{
+ "sci": "Carterornis castus",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 201154,
+  "name": "Carterornis castus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Loetoe_monarch"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332145081/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 189579998,
+   "place": "Tanimbar Site 1, Tanimbar Islands, Maluku, Indonesia",
+   "date": "2023-10-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595512883/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC)",
+   "obs": 328615207,
+   "place": "Maluku Tenggara Barat, ID-MA, ID",
+   "date": "2025-11-27"
+  }
+ ],
+ "wiki": {
+  "title": "Tanimbar monarch",
+  "url": "https://en.wikipedia.org/wiki/Tanimbar_monarch",
+  "revision": 1343746327,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Tanimbar monarch (Carterornis castus), or Loetoe monarch is a bird in the family Monarchidae endemic to Indonesia. It is found in the Tanimbar Islands."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This subspecies was formerly placed in the genus Monarcha until moved to Carterornis in 2009. While the Tanimbar monarch was formerly considered a subspecies of the white-naped monarch (C. pileatus), it is now considered a separate species."
+    ]
+   }
+  ]
+ }
+}

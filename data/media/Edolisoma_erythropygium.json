@@ -1,0 +1,62 @@
+{
+ "sci": "Edolisoma erythropygium",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 1585845,
+  "name": "Edolisoma erythropygium",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Melanesian_cicadabird"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238069886/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC)",
+   "obs": 139214019,
+   "place": "Guadalcanal Province, Solomon Islands",
+   "date": "2013-04-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43751915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Rush, some rights reserved (CC BY-NC)",
+   "obs": 28084012,
+   "place": "New Georgia Group, Solomon Islands",
+   "date": "2019-06-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43419290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) devonderaad, some rights reserved (CC BY-NC)",
+   "obs": 27878027,
+   "place": "Tetepare Island, , Solomon Islands, SB",
+   "date": "2019-06-18"
+  }
+ ],
+ "wiki": {
+  "title": "Central Melanesian cicadabird",
+  "url": "https://en.wikipedia.org/wiki/Central_Melanesian_cicadabird",
+  "revision": 1376852532,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The central Melanesian cicadabird (Edolisoma erythropygium) is a passerine bird in the family Campephagidae that is found on the islands of Tabar, Lihir as well as the islands in the Solomon Islands archipelago."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The central Melanesian cicadabird was formally described in 1888 by the English ornithologist Richard Bowdler Sharpe based on specimens collected on the island of \"Guadalcanar\" (Guadalcanal) in the Solomon Islands. He coined the binomial name Endoliisoma erythropygium. The specific epithet erythropygium combines the Ancient Greek ερυθρος/eruthros meaning \"red\" with -πυγιος/-pugios meaning \"-rumped. Sharpe explained that the name applied to the female bird. This cicadabird was formerly considered as a subspecies of Endoliisoma remotum (previously the grey-capped cicadabird, now the Bismarck cicadabird) but based on molecular genetic data and a comparison of plumage and vocalization, the central Melanesian cicadabird was promoted to species status and now includes four subspecies all of which were formerly included in Endoliisoma remotum.",
+     "Four subspecies are recognised:",
+     "E. e. ultimum (Mayr, 1955) – Tabar Island, Lihir Island and Tanga Islands (east of central New Ireland; northeast Bismarck Archipelago)",
+     "E. e. saturatius Rothschild & Hartert, EJO, 1902 – Buka Island to Bougainville Island and New Georgia group (north, central Solomon Islands)",
+     "E. e. nisorium Mayr, 1950 – Russell Islands (central south Solomon Islands)",
+     "E. e. erythropygium Sharpe, 1888 – Guadalcanal, Savo Island (to north of Guadalcanal), Florida Islands, Malaita and Ulawa Island (to southeast of Malaita; southeast Solomon Islands)"
+    ]
+   }
+  ]
+ }
+}

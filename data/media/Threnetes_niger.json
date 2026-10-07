@@ -1,0 +1,118 @@
+{
+ "sci": "Threnetes niger",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 6037,
+  "name": "Threnetes niger",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sooty_barbthroat"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544034321/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) louis_marsaud, some rights reserved (CC BY-NC)",
+   "obs": 301892611,
+   "place": "Cayenne, GF",
+   "date": "2025-07-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724115054/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Joao Quental, some rights reserved (CC BY)",
+   "obs": 394947845,
+   "place": "Serra Do Navio, AP, BR",
+   "date": "2026-07-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348917140/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Augusto Alves, some rights reserved (CC BY-NC)",
+   "obs": 198019968,
+   "place": "Serra do Navio, AP, 68948-000, Brasil",
+   "date": "2023-12-23"
+  }
+ ],
+ "wiki": {
+  "title": "Sooty barbthroat",
+  "url": "https://en.wikipedia.org/wiki/Sooty_barbthroat",
+  "revision": 1371917795,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The sooty barbthroat (Threnetes niger) is a hummingbird species in the family Trochilidae. It is found in Brazil and French Guiana."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The sooty barbthroat was formally described by the Swedish naturalist Carl Linnaeus in 1758 in the tenth edition of his Systema Naturae under the binomial name Trochilus niger. The type locality is Cayenne in French Guiana. The sooty barbthroat is now placed in the genus Threnetes that was introduced by John Gould in 1852.",
+     "Two subspecies are generally recognized:",
+     "T. n. niger (Linnaeus, 1758)",
+     "T. n. loehkeni Grantsau, 1969",
+     "The taxonomy and systematics of the sooty/pale-tailed barbthroat complex has caused much confusion. Some authors consider the sooty barbthroat to be a melanistic variant of the pale-tailed barbthroat (T. leucurus). As T. niger was described first, this scientific name is the valid name for both when they are considered conspecific.",
+     "The sooty and pale-tailed barbthroats are recognized as separate species by the South American Classification Committee of the American Ornithological Society (SACC), the International Ornithological Committee (IOC), the Clements taxonomy, and BirdLife International's Handbook of the Birds of the World (HBW). However, the assignment of subspecies between them varies. The SACC, IOC, and Clements assign the above two subspecies to the sooty barbthroat. HBW transfers subspecies loehkeni from the sooty to the pale-tailed, leaving the sooty monotypic.",
+     "Other authors suggest that the bronze-tailed barbthroat (T. n. loehkeni) should also be considered a valid species and include the doubtful Christina's barbthroat (T. n. christinae) as a subspecies. Freire's sooty barbthroat (T. n. freirei) is intermediate between the sooty and bronze-tailed barbthroats however, and thus its status needs to be clarified before the situation is resolved.",
+     "The sooty barbthroat and the other two members of its genus, pale-tailed barbthroat and band-tailed barbthroat (T. ruckeri), form a superspecies."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The sooty barbthroat is 10 to 12 cm (3.9 to 4.7 in) long. The adult male has iridescent bronze-green upperparts and breast, a black ear patch and throat, and a pale malar stripe. The tail of the nominate subspecies is uniformly dark; that of T. n. loehkeni has pale tips to the feathers. The belly is dark brownish gray. It has a nearly straight bill. As with other hermit hummingbirds, the sexes are similar; the female's bill is somewhat more decurved than the male's and the plumage has less contrast among the throat, breast, and belly. Young birds resemble the adult but have ochraceous feather edges."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The nominate T. n. niger is found in French Guiana and the northern part of Brazil's Amapá state. T. n. loehkeni is found south of the nominate in Amapá and Pará states north of the Amazon. It inhabits open and semi-open spaces within humid lowland and higher tropical forest, and other landscapes such as gallery forest, swamp forests, secondary forest, and plantations. In French Guiana it is found from sea level to 500 m (1,600 ft) of elevation."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Movement",
+    "level": 3,
+    "paras": [
+     "The sooty barbthroat is presumed to be a year-round resident throughout its range."
+    ]
+   },
+   {
+    "h": "Feeding",
+    "level": 3,
+    "paras": [
+     "Little is known about the sooty barbthroat's foraging technique and diet, though it is assumed to be a \"trap-line\" feeder like other hermit hummingbirds, visiting a circuit of flowering plants. It feeds on nectar at Heliconia and Monotagma plants, and probably several other tubular flowers and also on small arthropods."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 3,
+    "paras": [
+     "Nothing is known about the sooty barbthroat's breeding phenology."
+    ]
+   },
+   {
+    "h": "Vocalization",
+    "level": 3,
+    "paras": [
+     "The sooty barbthroat's vocalizations have not been described, and as of late 2021 no recordings are available at Xeno-canto or Cornell University's Macaulay Library."
+    ]
+   },
+   {
+    "h": "Status",
+    "level": 2,
+    "paras": [
+     "The IUCN has assessed the sooty barbthroat as being of Least Concern, though its population size and trend are unknown. It is \"[l]ocal and generally uncommon throughout [its] comparatively small range\"."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "sci": "Rhipidura rufofronta",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 1508371,
+  "name": "Rhipidura rufofronta",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Solomons_rufous_fantail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43905578/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY)",
+   "obs": 28176607,
+   "place": "Nakumwe, Solomon Islands",
+   "date": "2013-05-13"
+  }
+ ],
+ "wiki": {
+  "title": "Solomons rufous fantail",
+  "url": "https://en.wikipedia.org/wiki/Solomons_rufous_fantail",
+  "revision": 1314783276,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Solomons rufous fantail (Rhipidura rufofronta) is a species of bird in the family Rhipiduridae that is endemic to the Solomon Islands.  It was formerly considered to be a subspecies of the Australian rufous fantail (Rhipidura rufifrons)."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Solomons rufous fantail was formally described in 1879 by the Australian ornithologist Edward Pierson Ramsay based on a specimen that had been collected by James F. Cockerell on Guadalcanal in the Solomon Islands. Ramsay coined the binomial name Rhissidura rufofronta (with the genus name Rhipidura misspelled). The specific epithet combines Latin rufus meaning \"red\" with frons, frontis meaning \"forehead\" or \"brow\". The Solomons rufous fantail was formerly considered to be a subspecies of the rufous fantail (renamed the Australian rufous fantail) (Rhipidura rufifrons) but is now treated as a separate species mainly based on the genetic differences.",
+     "Seven subspecies are recognised:",
+     "R. r. commoda Hartert, EJO, 1918 – Buka to Isabel (north to central east Solomon Islands)",
+     "R. r. rufofronta Ramsay, EP, 1879 – Guadalcanal (south Solomon Islands)",
+     "R. r. granti Hartert, EJO, 1918 – New Georgia group (central west Solomon Islands)",
+     "R. r. brunnea Mayr, 1931 – Malaita (southeast Solomon Islands)",
+     "R. r. russata Tristram, 1879 – Makira (southeast Solomon Islands)",
+     "R. r. kuperi Mayr, 1931 – Owaraha (or Santa Ana) (east of Makira, southeast Solomon Islands)",
+     "R. r. ugiensis Mayr, 1931 – Ugi (north of Makira, southeast Solomon Islands)"
+    ]
+   }
+  ]
+ }
+}

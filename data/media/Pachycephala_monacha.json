@@ -1,0 +1,82 @@
+{
+ "sci": "Pachycephala monacha",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 7911,
+  "name": "Pachycephala monacha",
+  "observations": 10,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-headed_whistler"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462613468/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nur Khoirinnisaa, some rights reserved (CC BY-NC)",
+   "obs": 257880017,
+   "place": "Mimika, ID-PA, ID",
+   "date": "2023-12-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51408523/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 32761940,
+   "place": "Enga Province, Papua New Guinea",
+   "date": "2009-05-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/681412795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC)",
+   "obs": 372882804,
+   "place": "Wapenamanda District, Enga Province, Papua New Guinea",
+   "date": "2018-07-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344858788/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC)",
+   "obs": 195949450,
+   "place": "North Fly District, Western Province, Papua New Guinea",
+   "date": "2023-09-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712976258/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY)",
+   "obs": 389246945,
+   "place": "North Fly District, Western Province, Papua New Guinea",
+   "date": "2026-06-24"
+  }
+ ],
+ "wiki": {
+  "title": "Black-headed whistler",
+  "url": "https://en.wikipedia.org/wiki/Black-headed_whistler",
+  "revision": 1343633201,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The black-headed whistler (Pachycephala monacha) is a species of bird in the family Pachycephalidae. It is found on the Aru Islands and New Guinea. Its natural habitat is subtropical or tropical moist lowland forests."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "Some authorities have considered the black-headed whistler to be a subspecies of the rufous whistler."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 3,
+    "paras": [
+     "Two subspecies are recognized:",
+     "P. m. monacha – Gray, GR, 1858: Found on Aru Islands (off southwest New Guinea)",
+     "P. m. lugubris – Salvadori, 1881: Found in central New Guinea"
+    ]
+   }
+  ]
+ }
+}

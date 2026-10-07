@@ -1,0 +1,60 @@
+{
+ "sci": "Ailuroedus stonii",
+ "fetched": "2026-10-07",
+ "inat": {
+  "id": 512097,
+  "name": "Ailuroedus stonii",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ochre-breasted_catbird"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82238720/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Levitis, some rights reserved (CC BY)",
+   "obs": 51766856,
+   "place": "Eastern Highlands Province, Papua New Guinea",
+   "date": "2006-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620955886/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Mack, some rights reserved (CC BY-NC)",
+   "obs": 341141776,
+   "place": "Wara Sera station study area, Chimbu Province, Papua New Guinea",
+   "date": "1992-05-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621879392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Mack, some rights reserved (CC BY-NC)",
+   "obs": 341590635,
+   "place": "Wara Sera station study area, Chimbu Province, Papua New Guinea",
+   "date": "2002-07-09"
+  }
+ ],
+ "wiki": {
+  "title": "Ochre-breasted catbird",
+  "url": "https://en.wikipedia.org/wiki/Ochre-breasted_catbird",
+  "revision": 1242139562,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The ochre-breasted catbird (Ailuroedus stonii) is a species of bird in the family Ptilonorhynchidae. It is found in southern New Guinea. Its natural habitats are subtropical or tropical dry forests and subtropical or tropical moist lowland forests.",
+     "Until 2016, the ochre-breasted catbird was considered conspecific with the white-eared catbird. Martin Irestedt and colleagues examined the white-eared catbird species complex genetically and found there were three distinct lineages: the white-eared catbird (Ailuroedus buccoides) proper of the Bird's Head (Vogelkop) Peninsula, the ochre-breasted catbird (Ailuroedus stonii) of  the southern lowlands of New Guinea, and tan-capped catbird (Ailuroedus geislerorum) of the northern lowlands of New Guinea."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognised:",
+     "Ailuroedus stonii stonii – Sharpe, 1876: found in southeast New Guinea",
+     "Ailuroedus stonii cinnamomeus – Mees, 1964: found in southeast and southwest New Guinea"
+    ]
+   }
+  ]
+ }
+}
