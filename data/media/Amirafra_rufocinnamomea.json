@@ -1,0 +1,127 @@
+{
+ "sci": "Amirafra rufocinnamomea",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1583762,
+  "name": "Amirafra rufocinnamomea",
+  "observations": 272,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Flappet_lark"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209250946/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christiaan Viljoen, some rights reserved (CC BY)",
+   "obs": 35940535,
+   "place": "Hwange, Zimbabwe",
+   "date": "2019-11-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172101558/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julian, some rights reserved (CC BY-NC)",
+   "obs": 102869904,
+   "place": "Nkhata Bay, Malawi",
+   "date": "2021-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245669636/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC)",
+   "obs": 143259071,
+   "place": "Kasese, Busongora, Queen Elizabeth, Uganda",
+   "date": "2022-10-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60855890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 38302634,
+   "place": "Kasese, Uganda",
+   "date": "2010-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271880181/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC)",
+   "obs": 157230897,
+   "place": "Tarangire National Park, Tanzania",
+   "date": "2023-04-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473591058/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Justin Ponder, some rights reserved (CC BY)",
+   "obs": 263605523,
+   "place": "Nkangala District Municipality, South Africa",
+   "date": "2025-02-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/663741485/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 363611162,
+   "place": "Kasese, Uganda",
+   "date": "2025-08-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1499210/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "obs": 1186919,
+   "place": "Sakania, Katanga Province, Democratic Republic of Congo",
+   "date": "2014-12-14"
+  }
+ ],
+ "wiki": {
+  "title": "Flappet lark",
+  "url": "https://en.wikipedia.org/wiki/Flappet_lark",
+  "revision": 1314247374,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The flappet lark (Amirafra rufocinnamomea) is a species of lark in the family Alaudidae that is widespread across Sub-Saharan Africa. The name flappet originates from the distinctive wing flapping sound made during its breeding season."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "The flappet lark and the Cape clapper lark are regarded as forming a superspecies with the Eastern clapper lark. The alternate name \"cinnamon bush lark\" is also an alternate name for the singing bush lark.",
+     "The flappet lark was formerly placed in the genus Mirafra. It is one of three species that were moved to the resurrected genus Amirafra based on the results of a large molecular genetic study by the Swedish ornithologist Per Alström and collaborators that was published in 2023."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 3,
+    "paras": [
+     "Fifteen subspecies are recognised:",
+     "A. r. buckleyi (Shelley, 1873) – south Mauritania and Senegal to north Cameroon",
+     "A. r. serlei (White, CMN, 1960) – southeast Nigeria",
+     "A. r. tigrina (Oustalet, 1892) – east Cameroon to north DR Congo",
+     "A. r. furensis (Lynes, 1923) – central west Sudan",
+     "A. r. sobatensis (Lynes, 1914) – central Sudan",
+     "A. r. rufocinnamomea (Salvadori, 1866) – northwest, central Ethiopia",
+     "A. r. omoensis (Neumann, 1928) – southwest Ethiopia",
+     "A. r. torrida (Shelley, 1882) – southeast Sudan and south Ethiopia to north Uganda, central Kenya and central Tanzania",
+     "A. r. kawirondensis (Van Someren, 1921) – east DR Congo, west Uganda and west Kenya",
+     "A. r. fischeri (Reichenow, 1878) – Angola, south DR Congo, north Zambia and north Mozambique north through east Tanzania, east Kenya to south Somalia",
+     "A. r. schoutedeni (White, CMN, 1956) – Gabon and Central African Republic to west DR Congo and northwest Angola",
+     "A. r. lwenarum (White, CMN, 1945) – northwest Zambia",
+     "A. r. smithersi (White, CMN, 1956) – north Zambia, Zimbabwe, northeast Botswana and north South Africa",
+     "A. r. pintoi (White, CMN, 1956) – south Mozambique, Eswatini (formerly Swaziland) and northeast South Africa",
+     "A. r. mababiensis (Roberts, 1932) – west Zambia to central Botswana"
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The flappet lark has a large range covering much of the African continent with an estimated global extent of occurrence of 10,000,000 km2. Its natural habitats are dry savannah, moist savannah, and subtropical or tropical dry lowland grassland."
+    ]
+   }
+  ]
+ }
+}

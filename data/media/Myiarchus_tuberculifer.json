@@ -1,0 +1,207 @@
+{
+ "sci": "Myiarchus tuberculifer",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 15990,
+  "name": "Myiarchus tuberculifer",
+  "observations": 7090,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dusky-capped_flycatcher"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480246372/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Burwell, some rights reserved (CC BY-NC)",
+   "obs": 267249174,
+   "place": "Toledo District, Belize",
+   "date": "2025-03-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397003228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Butler, some rights reserved (CC BY-NC)",
+   "obs": 224028135,
+   "place": "Sierra Vista Southeast, AZ, USA",
+   "date": "2024-05-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309987979/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tracey Prothro, some rights reserved (CC BY-NC)",
+   "obs": 178113684,
+   "place": "Waterfall Trail, San Ramon, Alajuela, CR",
+   "date": "2023-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727900324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC)",
+   "obs": 396904779,
+   "place": "Provincia de Cartago, Jiménez, Costa Rica",
+   "date": "2026-02-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385799831/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jspaulding, some rights reserved (CC BY-NC)",
+   "obs": 218043558,
+   "place": "Kate Sessions Park",
+   "date": "2024-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340156691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Carlos López Domínguez, some rights reserved (CC BY-NC)",
+   "obs": 193627017,
+   "place": "Zona Universitaria, Xalapa-Enríquez, Ver., México",
+   "date": "2023-12-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26300729/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC)",
+   "obs": 17325638,
+   "place": "Santa Cruz County, AZ, USA",
+   "date": "2017-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719955235/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo, some rights reserved (CC BY-NC)",
+   "obs": 392829880,
+   "place": "Zona de Conservación Ecológica, Ciudad de México, CDMX, México",
+   "date": "2026-08-19"
+  }
+ ],
+ "wiki": {
+  "title": "Dusky-capped flycatcher",
+  "url": "https://en.wikipedia.org/wiki/Dusky-capped_flycatcher",
+  "revision": 1322438921,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The dusky-capped flycatcher (Myiarchus tuberculifer) is a passerine bird in the family Tyrannidae, the tyrant flycatchers. It is found in the United States, Mexico, every Central American country, Trinidad, and in every mainland South American country except Chile, Paraguay, and Uruguay."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "The dusky-capped flycatcher was originally described in 1837 as Tyrannus tuberculifer. Its further taxonomic history is complex. At various times at least what are now seven separate species were included as subspecies of Myiarchus tuberculifer. It currently is assigned these 13 subspecies:",
+     "M. t. olivascens Ridgway, 1884",
+     "M. t. lawrenceii (Jacob Giraud Jr, 1841)",
+     "M. t. querulous Nelson, 1904",
+     "M. t. platyrhynchus Ridgway, 1885",
+     "M. t. manens Parkes, 1982",
+     "M. t. connectens Miller, W & Griscom, 1925",
+     "M. t. littoralis Zimmer, JT, 1953",
+     "M. t. nigricapillus Cabanis, 1861",
+     "M. t. brunneiceps Lawrence, 1861",
+     "M. t. pallidus Zimmer, JT & Phelps, WH, 1946",
+     "M. t. tuberculifer (d'Orbigny & Lafresnaye, 1837)",
+     "M. t. nigriceps Sclater, PL, 1860",
+     "M. t. atriceps Cabanis, 1883",
+     "Plumage and vocalization similarities sort the subspecies into groups within the species. The North American Classification Committee of the American Ornithological Society recognizes two. The tuberculifer group (\"dusky-capped flycatcher\") includes all the subspecies except M. t. atriceps, which it calls the \"dark-capped flycatcher\". The Clements taxonomy recognizes these four groups:",
+     "Dusky-capped flycatcher (olivascens): M. t. olivascens",
+     "Dusky-capped Flycatcher (lawrenceii group): M. t. lawrenceii, M. t. querulous, M. t. platyrhynchus, M. t. manens, M. t. connectens, M. t. littoralis, M. t. nigricapillus, and M. t. brunneiceps",
+     "Dusky-capped flycatcher (tuberculifer/pallidus): M. t. tuberculifer and M. t. pallidus",
+     "Dusky-capped flycatcher (nigriceps/atriceps): M. t. nigriceps and M. t. atriceps",
+     "The Cornell Lab of Ornithology's Birds of the World treats each of M. t. olivascens, M. t. nigricapillus, M. t. nigriceps, and M. t. atriceps separately. It treats M. t. brunneiceps, M. t. tuberculifer, and M. t. pallidus as a group and the remaining six subspecies as another group.",
+     "Within the groups, differences among some subspecies, especially in vocalizations, are clinal so the exact limits of their ranges have not been firmly established. \"More playback experiments are needed throughout Central and South America to better define population limits.\"",
+     "The dusky-capped flycatcher and the Jamaican endemic sad flycatcher (M. barbirostris) form a superspecies.",
+     "Subspecies M. t. olivascens was for a time called the olivaceous flycatcher."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The dusky-capped flycatcher is 16 to 18.5 cm (6.3 to 7.3 in) long and weighs 14 to 27 g (0.49 to 0.95 oz). The sexes have the same plumage. Adults of the nominate subspecies M. t. tuberculifer have a sooty brown crown and face; the crown feathers form a slight crest. Their upperparts are mostly dark greenish olive-brown with browner uppertail coverts. Their wings are mostly dusky with thin dull white edges on the secondaries and thin buffy-white edges on the inner primaries. Their greater and median wing coverts have buffy brown edges. Their tail is dark grayish brown. Their throat and breast are gray and their belly and undertail coverts yellow.",
+     "The other subspecies of the dusky-capped flycatcher differ from the nominate and each other thus:",
+     "M. t. olivascens: blackish crown and pale gray face; grayish olive to olive green upperparts; rusty to ochre uppertail coverts; wings like the back with ochre, rufous, and yellowish to white edges on various feather groups; fuscous tail with ochre feather edges; pale gray throat and upper breast; straw yellow lower breast and belly",
+     "M. t. lawrenceii: dark grayish brown crown and sooty brown face; mostly olive upperparts with browner uppertail coverts; dusky grayish brown wings with cinnamon, cinnamon-brown, and cinnamon-rufous edges on various feather groups; deep grayish brown tail with cinnamon-rufous edges on outer webs; gray throat and breast; rest of underparts light yellow with olive tinge on sides",
+     "M. t. querulous: minimal differences from lawrenceii",
+     "M. t. platyrhynchus: minimal differences from lawrenceii",
+     "M. t. manens: minimal differences from lawrenceii",
+     "M. t. connectens: minimal differences from lawrenceii",
+     "M. t. littoralis: minimal differences from lawrenceii",
+     "M. t. nigricapillus: very dark sepia or olive brown to sooty black crown and dark brown face, olive upperparts, rufous edges on wing coverts, cinnamon-rufous edges on flight and tail feathers, gray throat and breast, bright yellow belly and undertail coverts",
+     "M. t. brunneiceps: resembles the nominate",
+     "M. t. pallidus: paler crown and lighter, less brown, upperparts than nominate",
+     "M. t. nigriceps: black crown; otherwise similar to nominate",
+     "M. t. atriceps: sooty black to blackish crown; otherwise similar to nominate",
+     "All subspecies have a dark brown iris, a black bill with a lighter base, and black legs and feet."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The subspecies of the dusky-capped flycatcher are found thus:",
+     "M. t. olivascens: southeastern Arizona and southwestern New Mexico south through Mexico to Oaxaca (and see below)",
+     "M. t. lawrenceii: from Nuevo León in eastern Mexico south into Guatemala and El Salvador",
+     "M. t. querulous: southwestern Mexico from southern Sinaloa south to Oaxaca; Tres Marias Islands",
+     "M. t. platyrhynchus: Cozumel Island",
+     "M. t. manens: from eastern Tabasco in eastern Mexico south into northern Belize, including Yucatán Peninsula",
+     "M. t. connectens: western Belize and northern Guatemala south through Honduras to central Nicaragua",
+     "M. t. littoralis: Pacific coast of Nicaragua into northwestern Costa Rica",
+     "M. t. nigricapillus: extreme southeastern Nicaragua, most of Costa Rica, and western Panama including offshore islands",
+     "M. t. brunneiceps: from the Panama Canal Zone into northwestern and western Colombia to Cauca and Huila departments",
+     "M. t. pallidus: northern and northeastern Colombia and western and northern Venezuela north of the Orinoco River",
+     "M. t. tuberculifer: Trinidad; central Colombia, eastern Ecuador, eastern Peru, and northern Bolivia east through Venezuela south of the Orinoco, the Guianas, and Amazonian Brazil; separately southeastern Brazil",
+     "M. t. nigriceps: southwestern Colombia south through most of western Ecuador",
+     "M. t. atriceps: east side of the Andes from southern Ecuador south through eastern Peru and Bolivia into northern Argentina",
+     "Subspecies M. t. olivascens has also occurred further north and west in Arizona, a few times in California, and a few times in western Texas.",
+     "The dusky-capped flycatcher inhabits a very wide variety of landscapes across its extremely large range. During the breeding season in Arizona and New Mexico, subspecies M. t. olivascens is found in riparian areas with deciduous trees, pines, and live oak. In northern Mexico it also occurs in riparian woodlands, pine-oak woodlands, and tropical thorn scrub and deciduous forest. In the non-breeding season it inhabits similar landscapes and also semi-deciduous forest and both humid and dry pine-oak forest. In elevation it is found as high as 2,250 m (7,400 ft).",
+     "From eastern Mexico to Nicaragua the several subspecies inhabit tropical evergreen, semi-deciduous, and decidous forest; cloudforest; coastal scrublands and swamp forest; thorn forest; both humid and semi-arid pine-oak forest; riparian zones in arid pine-oak forest and scrublands; and plantations. In elevation here the species ranges from sea level to at least 2,950 m (9,700 ft). In Costa Rica and western Panama it tends to favor somewhat open landscapes such as the edges and openings in forest, mature secondary forest, plantations, mangroves, and gardens. There it reaches about 1,800 m (5,900 ft).",
+     "In the Amazon Basin from Colombia south to Bolivia and east to the Atlantic, subspecies M. t. tuberculifer primarily inhabits várzea and terra firme forest and the transitional forest between them. It also occurs in secondary forest, riparian forest, and plantations. In Brazil it ranges from sea level to 1,300 m (4,300 ft). In Ecuador it mostly is found below 1,500 m (4,900 ft), in Peru below 1,200 m (3,900 ft), and in Venezuela below 1,300 m (4,300 ft).",
+     "The primarily Andean subspecies M. t. atriceps inhabits the subtropical and temperate zones between 700 and 3,400 m (2,300 and 11,200 ft). There it occurs in evergreen, semideciduous, and deciduous montane forest where it typically prefers the canopy and edges.",
+     "The other subspecies of the dusky-capped flycatcher, found from Panama south through Colombia and western Ecuador and Peru, inhabit landscapes that include tropical and subtropical evergreen and deciduous forest, riparian zones, secondary forest, and plantations. They too favor the edges and openings in forest. They reach 3,000 m (9,800 ft) in some areas but only 1,800 m (5,900 ft) in Colombia and 2,500 m (8,200 ft) in Ecuador."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Movement",
+    "level": 3,
+    "paras": [
+     "The dusky-capped flycatcher is a partial migrant. Subspecies M. t. olivascens departs from the United States and northwestern Mexico in August to September and returns to the U. S. in April. It winters further south in Mexico. M. t. platyrhynchus leaves Cozumel Island in November and returns perhaps in January but certainly by mid-April. Its wintering range is not known. The other subspecies are primarily year-round residents. However, after the breeding season the population in the Yucatán Peninsula mostly goes further inland and the population in southern South America apparently withdraws from higher to lower elevations or moves somewhat further north."
+    ]
+   },
+   {
+    "h": "Feeding",
+    "level": 3,
+    "paras": [
+     "The dusky-capped flycatcher's diet has not been detailed in much of its range but it is known to feed on insects and berries. In much of its range it typically forages singly; in Mexico it often is seen in pairs as well. In Mexico and much of South America it is known to join mixed-species feeding flocks. In the few places that its foraging technique has been observed, it captures insect prey with short sallies from a perch, sometimes taking it in mid-air and sometimes from vegetation while briefly hovering."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 3,
+    "paras": [
+     "In the U. S. and northern Mexico the dusky-capped flycatcher breeds between April and July. From central Mexico at least to Nicaragua it breeds from March to June. It breeds from April to June in Costa Rica. From Panama across northern South America and south into Ecuador it breeds between March and June. In the Amazon Basin it breeds between August and October and in the southern Andes in November and December.",
+     "The dusky-capped flycatcher's nest is usually made on a platform of fairly coarse materials such as sticks with softer material on top. These include moss, grass, leaves, seed fluff, bark strips, fabric, and hair. It is built in a cavity in a tree, both natural and woodpecker-made, and in nest boxes where available. Clutches range from three to five eggs that are creamy white with brown, purple, or lavender blotches and spots. The female alone incubates. The incubation period, time to fledging, and other details of parental care are not known."
+    ]
+   },
+   {
+    "h": "Vocalization",
+    "level": 3,
+    "paras": [
+     "The dusky-capped flycatcher's vocalizations vary across its range. In Mexico its dawn song \"consists of a long series of \"sentences\" made up of 2 or 3 elements\". In much of Central America it is \"a short, sharply whistled whit, a long drawn, plaintive, whistled wheeeu, and an emphatic whistle cut short\". In much of South America it is \"plaintive whistles alternated with huit notes\". Some other vocalizations are \"a buzzy trill that rises and falls...a gravelly chatter...a fairly sharp ki-dee ew, repeated 2 or 3 times [and a] thin pheeee or seeeee."
+    ]
+   },
+   {
+    "h": "Status",
+    "level": 2,
+    "paras": [
+     "The IUCN has assessed the dusky-capped flycatcher as being of Least Concern. It has an extremely large range; its estimated population of at least 20 million mature individuals is believed to be decreasing. No immediate threats have been identified. It is considered fairly common to common in northern Central America, common in Costa Rica and Colombia, \"widespread\" in Ecuador, fairly common in Peru and Venezuela, and common in Brazil."
+    ]
+   }
+  ]
+ }
+}

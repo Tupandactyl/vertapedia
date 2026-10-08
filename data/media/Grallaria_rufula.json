@@ -1,0 +1,107 @@
+{
+ "sci": "Grallaria rufula",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 116906,
+  "name": "Grallaria rufula",
+  "observations": 50,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rufous_antpitta"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350252903/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santi MD, some rights reserved (CC BY-NC)",
+   "obs": 198690095,
+   "place": "Guasca, Cundinamarca, Colombia",
+   "date": "2024-01-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736342431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenn Sinasac, some rights reserved (CC BY-NC)",
+   "obs": 401196428,
+   "place": "Guasca, Cundinamarca, CO",
+   "date": "2026-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598416353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC)",
+   "obs": 330057199,
+   "place": "Guasca, Cundinamarca, Colombia",
+   "date": "2025-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247660154/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Tan, some rights reserved (CC BY-NC)",
+   "obs": 144312468,
+   "place": "Guasca, CO-CU, CO",
+   "date": "2022-12-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236965033/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY)",
+   "obs": 138620618,
+   "place": "Bogotá, Kolumbien",
+   "date": "2022-08-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408306744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brewmaster, some rights reserved (CC BY-NC)",
+   "obs": 229987409,
+   "place": "Guasca, Cundinamarca, Colombia",
+   "date": "2024-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361097037/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan F. Mandelbaum, some rights reserved (CC BY)",
+   "obs": 204306218,
+   "place": "Guasca, Cundinamarca, Colombia",
+   "date": "2024-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473389746/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 263503591,
+   "place": "Guasca_2740m, Cundinamarca, Colombia",
+   "date": "2025-02-11"
+  }
+ ],
+ "wiki": {
+  "title": "Rufous antpitta",
+  "url": "https://en.wikipedia.org/wiki/Rufous_antpitta",
+  "revision": 1315110188,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "What is now the rufous antpitta complex was long considered to be a single species, Grallaria rufula, with seven subspecies. In 2020 G. rufula was found to be a species complex of 16 species, some of which were newly described. In 2021 the International Ornithological Committee and the Clements taxonomy implemented the split of the rufous antpitta into multiple species and accepted the newly described species. The revised Grallaria rufula sensu stricto, now called the Muisca antpitta, has no subspecies and is thus monotypic according to those taxonomies. However, BirdLife International's Handbook of the Birds of the World (HBW) did not fully implement the split. It retains the name rufous antpitta for Grallaria rufula and retains six of the seven previous subspecies within it. It had split only the former G. r. saltuensis as the Perija antpitta in 2018.",
+     "The members of the complex are listed below. They include the former subspecies of the rufous antpitta, the newly described species, and two previously known species newly recognized as part of the complex.",
+     "Sierra Nevada antpitta Grallaria spatiator",
+     "Perija antpitta, Grallaria saltuensis",
+     "Muisca antpitta, Grallaria rufula sensu stricto",
+     "Bicolored antpitta, Grallaria rufocinerea",
+     "Chami antpitta Grallaria alvarezi",
+     "Equatorial antpitta Grallaria saturata",
+     "Cajamarca antpitta Grallaria cajamarcae",
+     "Chestnut antpitta Grallaria blakei",
+     "Chachapoyas antpitta Grallaria gravesi",
+     "Panao antpitta Grallaria oneilli",
+     "Junin antpitta Grallaria obscura",
+     "Oxapampa antpitta\tGrallaria centralis",
+     "Ayacucho antpitta Grallaria ayacuchensis",
+     "Urubamba antpitta Grallaria occabambae",
+     "Puno antpitta Grallaria sinaensis",
+     "Bolivian antpitta Grallaria cochabambae"
+    ]
+   }
+  ]
+ }
+}

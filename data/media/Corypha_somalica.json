@@ -1,0 +1,76 @@
+{
+ "sci": "Corypha somalica",
+ "fetched": "2026-10-08",
+ "inat": {
+  "id": 1583707,
+  "name": "Corypha somalica",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Somali_lark"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637237330/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC)",
+   "obs": 349334667,
+   "place": "Ceel Afweyn, Somalia",
+   "date": "2025-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62605814/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 39457933,
+   "place": "Ceel-Afwein, Somalia",
+   "date": "2010-09-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62097352/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 39148851,
+   "place": "Oodweyne, Somalia",
+   "date": "2010-09-09"
+  }
+ ],
+ "wiki": {
+  "title": "Somali lark",
+  "url": "https://en.wikipedia.org/wiki/Somali_lark",
+  "revision": 1336160907,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Somali lark (Corypha somalica) is a species of lark in the family Alaudidae endemic to Somalia. Ash's lark is now considered to be a subspecies."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Somali lark was formally described  in 1903 by the British ornithologist Harry Witherby under the binomial name Certhilauda somalica. The species was formerly placed in the genus Mirafra. It is one of several species that were moved to the resurrected genus Corypha based on the results of a large molecular genetic study by the Swedish ornithologist Per Alström and collaborators that was published in 2023.",
+     "The term \"Somali lark\" is also used as an alternate name for both Archer's lark and the russet lark. The term \"red Somali lark\" is also used as an alternate name for the russet lark. Other alternate names include \"red Somali lark\", \"Somali bushlark\" and \"Somali long-billed lark\"."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 3,
+    "paras": [
+     "Two subspecies are recognized:",
+     "C. s. somalica (Witherby, 1903) – north Somalia (includes rochei as a synonym)",
+     "C. s. ashi (Colston, 1982) – central Somalia",
+     "The subspecies C. s. ashi was formerly treated as a separate species, Ash's lark. It is now considered to be a subspecies of the Somali lark based on molecular genetic and behavioral evidence, as well as a shared type locality. It was originally described by the ornithologist Peter Colston in 1982 under the binomial name Mirafra ashi. Colston chose the specific epithet to honour the ornithologist John Ash who had collected the specimen."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The range of M. somalica is somewhat large, with an estimated global extent of occurrence of 270,000 km2.",
+     "Its natural habitat is subtropical or tropical dry lowland grassland."
+    ]
+   }
+  ]
+ }
+}
