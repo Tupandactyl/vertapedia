@@ -1,0 +1,80 @@
+{
+ "sci": "Lepidoblepharis colombianus",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 34380,
+  "name": "Lepidoblepharis colombianus",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lepidoblepharis_colombianus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249658966/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alejandro Lopez, some rights reserved (CC BY-NC-SA)",
+   "obs": 145358787,
+   "place": "Reserva Natural Cuzcungos, Supatá, Cundinamarca, Colombia",
+   "date": "2022-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355902220/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khristian Venegas Valencia, some rights reserved (CC BY-NC)",
+   "obs": 201605612,
+   "place": "Boyacá, CO",
+   "date": "2023-06-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355902503/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khristian Venegas Valencia, some rights reserved (CC BY-NC)",
+   "obs": 201605618,
+   "place": "Boyacá, CO",
+   "date": "2023-06-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167977341/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hugo Bernal Hernández, some rights reserved (CC BY)",
+   "obs": 100628292,
+   "place": "Muzo, Boyacá, Colombia",
+   "date": "2019-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511215588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Sebastián Báez Gómez, some rights reserved (CC BY-NC)",
+   "obs": 284454774,
+   "place": "Mogotes, Santander, Colombia",
+   "date": "2025-05-26"
+  }
+ ],
+ "wiki": {
+  "title": "Lepidoblepharis colombianus",
+  "url": "https://en.wikipedia.org/wiki/Lepidoblepharis_colombianus",
+  "revision": 1355136837,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lepidoblepharis colombianus is a species of gecko, a lizard in the family Sphaerodactylidae. The species is endemic to Colombia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "L. colombianus is found in Cundinamarca Department, Colombia, at an altitude of 1,600 m (5,200 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. colombianus is oviparous."
+    ]
+   }
+  ]
+ }
+}

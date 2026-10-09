@@ -1,0 +1,64 @@
+{
+ "sci": "Sphaerodactylus poindexteri",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 540217,
+  "name": "Sphaerodactylus poindexteri",
+  "observations": 11,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sphaerodactylus_poindexteri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216562368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kanahau Wildlife Conservation NGO, www.kanahau.org, some rights reserved (CC BY-NC)",
+   "obs": 127559338,
+   "place": "Utila, Honduras",
+   "date": "2022-04-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204119217/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Court Harding, some rights reserved (CC BY)",
+   "obs": 120673619,
+   "place": "Utila, Honduras",
+   "date": "2022-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204118894/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Court Harding, some rights reserved (CC BY)",
+   "obs": 120673567,
+   "place": "Utila, Honduras",
+   "date": "2022-06-04"
+  }
+ ],
+ "wiki": {
+  "title": "Sphaerodactylus poindexteri",
+  "url": "https://en.wikipedia.org/wiki/Sphaerodactylus_poindexteri",
+  "revision": 1370206518,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphaerodactylus poindexteri is a small species of gecko, a lizard in the family Sphaerodactylidae. The species is endemic to Útila, one of the Bay Islands of Honduras."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, poindexteri, is in honor of James A. Poindexter of the USNM Support Center in Suitland, Maryland."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of S. poindexteri is leaf litter of Coccoloba uvifera and hardwood trees at altitudes of 3–10 m (9.8–32.8 ft)."
+    ]
+   }
+  ]
+ }
+}

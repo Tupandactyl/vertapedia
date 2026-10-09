@@ -1,0 +1,135 @@
+{
+ "sci": "Cisticola brachypterus",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 7659,
+  "name": "Cisticola brachypterus",
+  "observations": 149,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Short-winged_cisticola"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75178342/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC)",
+   "obs": 47401204,
+   "place": "Mbomo, Republic of the Congo",
+   "date": "2020-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284997352/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lois Posey, some rights reserved (CC BY-NC)",
+   "obs": 164699917,
+   "place": "Kayonza, Rwanda",
+   "date": "2023-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613178750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Александра Ивушкина, some rights reserved (CC BY-NC)",
+   "obs": 337324265,
+   "place": "Гураге, Эфиопия",
+   "date": "2025-12-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108889262/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wimvz, some rights reserved (CC BY-NC)",
+   "obs": 67401232,
+   "place": "Dalaba Prefecture, Guinee",
+   "date": "2019-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592263186/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 326963118,
+   "place": "Nyamasheke, Rwanda",
+   "date": "2025-11-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417963326/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Smith, some rights reserved (CC BY-NC)",
+   "obs": 235050883,
+   "place": "Gambia",
+   "date": "2024-08-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105681230/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nature_with_krista, some rights reserved (CC BY-NC)",
+   "obs": 65640169,
+   "place": "Serenje, Zambia",
+   "date": "2019-12-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51299309/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rjq, some rights reserved (CC BY-NC)",
+   "obs": 32695660,
+   "place": "Nyabugogo, Kigali, Rwanda",
+   "date": "2019-08-22"
+  }
+ ],
+ "wiki": {
+  "title": "Short-winged cisticola",
+  "url": "https://en.wikipedia.org/wiki/Short-winged_cisticola",
+  "revision": 1315182057,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The short-winged cisticola (Cisticola brachypterus), also known as the siffling cisticola, is a species of bird in the family Cisticolidae.  It is found in Angola, Benin, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Republic of the Congo, Democratic Republic of the Congo, Ivory Coast, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Liberia, Malawi, Mali, Mozambique, Niger, Nigeria, Rwanda, Senegal, Sierra Leone, Somalia, South Sudan, Tanzania, Togo, Uganda, Zambia, and Zimbabwe.",
+     "The short-winged cisticola resembles the neddicky, a similar member of the genus Cisticola, but lacks the rufous crown with a shorter tail and clear buff underparts."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The short-winged cisticola was formally described in 1870 by the English ornithologist Richard Bowdler Sharpe based on a specimen collected near the Volta River in Ghana and sent to him by the colonial administrator Herbert Taylor Ussher. Sharpe coined the binomial name Drymoeca brachyptera where the specific epithet is from Ancient Greek βραχυπτερος/brakhupteros meaning \"short-winged\", from βραχυς/brakhus meaning \"short\" and -πτερος/'-pteros' meaning \"-winged\". The short-winged cisticola is now one of 53 species placed in the genus Cisticola that was introduced in 1829 by the German naturalist Johann Jakob Kaup.",
+     "Nine subspecies are recognised:",
+     "C. b. brachypterus (Sharpe, 1870) – Senegal and Gambia to west Sudan, north DR Congo and north Angola",
+     "C. b. hypoxanthus Hartlaub, 1881 – northeast DR Congo, south Sudan and north Uganda",
+     "C. b. zedlitzi Reichenow, 1909 – Eritrea and Ethiopia",
+     "C. b. reichenowi Mearns, 1911 – south Somalia to northeast Tanzania",
+     "C. b. ankole Lynes, 1930 – east DR Congo and south Uganda to northwest Tanzania",
+     "C. b. kericho Lynes, 1930 – southwest Kenya",
+     "C. b. katonae Madarász, G, 1904 – central Kenya to north Tanzania",
+     "C. b. loanda Lynes, 1930 – central Angola to south DR Congo and west Zambia",
+     "C. b. isabellinus Reichenow, 1907 – east Zambia and south Tanzania to Mozambique"
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "It is widespread across sub-Saharan Africa, occurring from west Africa to Ethiopia and south to southern Mozambique. Here it is locally common in clearings in woodland, especially miombo (Brachystegia) but also other types of savanna woodland. It also occupies thickets with termite mounds, vegetation along drainage lines and edges of cultivated areas."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Food and feeding",
+    "level": 3,
+    "paras": [
+     "The short-winged cisticola mainly eats insects such as termites, grasshoppers (Orthoptera), beetles (Coleoptera) and bugs (Hemiptera). It forages unobtrusively in grass tufts and on the ground."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 3,
+    "paras": [
+     "In Zimbabwe the egg-laying season is from November–March. The nest is a compact ball shape with a side entrance, built of dry grass and leaves reinforced with spider web. It is typically placed very near the ground in a grass tuft or small shrub.",
+     "The clutch of 2-4 eggs is incubated solely by the female for about 14 days. The chicks stay in the nest for about 17 days."
+    ]
+   }
+  ]
+ }
+}

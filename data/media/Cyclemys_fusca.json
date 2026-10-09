@@ -1,0 +1,56 @@
+{
+ "sci": "Cyclemys fusca",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 98828,
+  "name": "Cyclemys fusca",
+  "observations": 12,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Myanmar_brown_leaf_turtle"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242337228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC)",
+   "obs": 141453049,
+   "place": "Myitkyina, Myanmar (Burma)",
+   "date": "2010-01-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242337247/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC)",
+   "obs": 141453051,
+   "place": "Myitkyina, Myanmar (Burma)",
+   "date": "2010-01-16"
+  }
+ ],
+ "wiki": {
+  "title": "Myanmar brown leaf turtle",
+  "url": "https://en.wikipedia.org/wiki/Myanmar_brown_leaf_turtle",
+  "revision": 1338457072,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Myanmar brown leaf turtle (Cyclemys fusca) is a species of Asian leaf turtle found in Myanmar."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Its carapace is dark brown, ovoid, and lacks patterns in adults. The plastron is dark brown to black with or without dense, black, radiating lines. The head is greenish yellow. The throat and neck are uniformly dark. The bridge is dark brown to black."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Myanmar brown leaf turtle is widespread in Myanmar, and perhaps occurs in adjacent India and Bangladesh."
+    ]
+   }
+  ]
+ }
+}

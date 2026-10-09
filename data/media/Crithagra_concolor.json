@@ -1,0 +1,77 @@
+{
+ "sci": "Crithagra concolor",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 558624,
+  "name": "Crithagra concolor",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/São_Tomé_grosbeak"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51946395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 33092833,
+   "place": null,
+   "date": "2009-08-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161705140/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 97253069,
+   "place": null,
+   "date": "2010-07-27"
+  }
+ ],
+ "wiki": {
+  "title": "São Tomé grosbeak",
+  "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_grosbeak",
+  "revision": 1355102239,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The São Tomé grosbeak (Crithagra concolor) is the largest member of the canary genus Crithagra, 50% heavier than the next largest canary species. It is endemic to the island of São Tomé.",
+     "For a long period this bird was known only from three nineteenth-century specimens. It was rediscovered in 1991. The current population is estimated at less than 250, and it is classified as critically endangered by the IUCN.",
+     "The São Tomé grosbeak was formerly placed in the genus Neospiza (meaning \"new finch\") but was assigned to the genus Crithagra based on a phylogenetic analysis of mitochondrial and nuclear DNA sequences."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The São Tomé grosbeak, when rediscovered, was thought to inhabit exclusively lowland, old-growth forests in the lower elevations of the south of the island. Observations in the early 2000s indicated that the species was also inhabiting younger forests at higher elevations (between 1,300–1,400 m). The grosbeak is a very discrete species, and thus difficult to detect; its believed scarcity may also be a function of persistent non-detection during surveys."
+    ]
+   },
+   {
+    "h": "Threats",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Habitat degradation",
+    "level": 3,
+    "paras": [
+     "Historically, old growth lowland forests were cleared to establish cocoa plantations which, when abandoned, grew into secondary forests, which are less suitable for the grosbeak. An oil palm plantation has also been established on São Tomé, compounding this habitat loss. However, given the bird's presence in secondary forests, habitat degradation is not believed to be as threatening as previously thought."
+    ]
+   },
+   {
+    "h": "Hybridization",
+    "level": 3,
+    "paras": [
+     "The São Tomé grosbeak may hybridise with the São Tomé seedeater (Serinus rufobrunneus thomensis), which could pollute an already small genetic pool."
+    ]
+   },
+   {
+    "h": "Predation",
+    "level": 3,
+    "paras": [
+     "Several introduced species like the black rat (Rattus rattus), mona monkey (Cercopithecus mona), African civet (Civettictis civetta), and feral cats (Felis catus) live on the island, and could presumably predate on the grosbeak. However, no data currently exists about predation's effects on the population; further research is needed to assess whether these species are threats to the São Tomé grosbeak's survival."
+    ]
+   }
+  ]
+ }
+}

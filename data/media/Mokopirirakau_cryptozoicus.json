@@ -1,0 +1,66 @@
+{
+ "sci": "Mokopirirakau cryptozoicus",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 102933,
+  "name": "Mokopirirakau cryptozoicus",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Takitimu_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353233449/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 200234389,
+   "place": "Southland, NZ-SO, NZ",
+   "date": "2024-02-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175789472/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Purdie, some rights reserved (CC BY-NC)",
+   "obs": 104853974,
+   "place": "Southland, NZ-SO, NZ",
+   "date": "2021-11-25"
+  }
+ ],
+ "wiki": {
+  "title": "Tākitimu gecko",
+  "url": "https://en.wikipedia.org/wiki/T%C4%81kitimu_gecko",
+  "revision": 1355311210,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Tākitimu gecko (Mokopirirakau cryptozoicus) is an endemic species of gecko in the family Diplodactylidae found in the Southland region of New Zealand. Tākitimu gecko were first described by Jewell and Leschen in 2004 as Hoplodactylus cryptozoicus."
+    ]
+   },
+   {
+    "h": "Physical characteristics",
+    "level": 2,
+    "paras": [
+     "Tākitimu gecko are a medium sized gecko of up to 87mm snout-vent length and 18g weight.",
+     "Colouring is grey on their upper surface, with pale herringbone markings, that extend down their tail. Some individuals have orange blotches and spots, other have purple-grey markings outlined in black."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The Tākitimu gecko is found only in and around Fiordland, in the lower part of the South Island, including the Takitimu Mountains, Rees Valley, northern Richardson Mountains, Waitutu Forest and Resolution Island.",
+     "The overall population is estimated to be fewer than 10,000 individuals, scattered in pockets across the distribution range, ranging in elevation from 200m to 1150m.",
+     "They favour rocky outcrops, bluffs and scree, which is descriptive to their cryptozoicus 'hidden on the ground' species name, although they have also been found in forests."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "As of 2021 the Department of Conservation (DOC) classified the Tākitimu gecko as Nationally Vulnerable under the New Zealand Threat Classification System."
+    ]
+   }
+  ]
+ }
+}

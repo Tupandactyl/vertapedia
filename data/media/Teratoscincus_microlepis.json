@@ -1,0 +1,63 @@
+{
+ "sci": "Teratoscincus microlepis",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 33575,
+  "name": "Teratoscincus microlepis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Small-scaled_wonder_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227284935/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 106483339,
+   "place": null,
+   "date": "2016-04-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9383188/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Akbar Nemati, some rights reserved (CC BY-NC)",
+   "obs": 7261168,
+   "place": "Chabahar",
+   "date": "2014-04-18"
+  }
+ ],
+ "wiki": {
+  "title": "Small-scaled wonder gecko",
+  "url": "https://en.wikipedia.org/wiki/Small-scaled_wonder_gecko",
+  "revision": 1355137521,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The small-scaled wonder gecko (Teratoscincus microlepis) is a species of lizard in the family Sphaerodactylidae. The species is endemic to Western and South Asia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. microlepis is found in southeastern Iran, Afghanistan, and southwestern  Pakistan (Balochistan province)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "T. microlepis may attain a snout-to-vent length of 6.7 cm (2.6 in), with a tail 4.2 cm (1.7 in) long."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. microlepis is oviparous."
+    ]
+   }
+  ]
+ }
+}

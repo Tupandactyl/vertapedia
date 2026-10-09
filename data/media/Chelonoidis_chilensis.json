@@ -1,0 +1,132 @@
+{
+ "sci": "Chelonoidis chilensis",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 40108,
+  "name": "Chelonoidis chilensis",
+  "observations": 519,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chaco_tortoise"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156264516/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Villafañe, some rights reserved (CC BY-NC)",
+   "obs": 94216007,
+   "place": "La Rioja, AR",
+   "date": "2020-12-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345236543/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Valentín Alfano, some rights reserved (CC BY)",
+   "obs": 196135172,
+   "place": "Buenos Aires, AR",
+   "date": "2024-01-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253536026/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Sabaliauskas, some rights reserved (CC BY-NC)",
+   "obs": 147350370,
+   "place": "Córdoba, AR",
+   "date": "2023-01-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150315609/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Patricio Cowper Coles, some rights reserved (CC BY)",
+   "obs": 90920095,
+   "place": "General Güemes, AR-CC, AR",
+   "date": "2015-11-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102807185/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 63997223,
+   "place": "San Antonio, AR-RN, AR",
+   "date": "2014-03-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107449914/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Francisco Tapia, some rights reserved (CC BY-NC)",
+   "obs": 66627245,
+   "place": "Avellaneda, AR-RN, AR",
+   "date": "2020-10-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130153765/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) María Belén Dri, some rights reserved (CC BY-NC)",
+   "obs": 79464952,
+   "place": "San Antonio, AR-RN, AR",
+   "date": "2019-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319876330/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Agustín Zarco, some rights reserved (CC BY)",
+   "obs": 183356694,
+   "place": "Lavalle, AR-MZ, AR",
+   "date": "2019-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Chaco tortoise",
+  "url": "https://en.wikipedia.org/wiki/Chaco_tortoise",
+  "revision": 1360474786,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Chaco tortoise (Chelonoidis chilensis), also known commonly as the Argentine tortoise, the Patagonian tortoise, or the southern wood tortoise, is a species of tortoise in the family Testudinidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The Chaco tortoise is mainly found in Argentina, but also in Bolivia and Paraguay, mainly within the Chaco and Monte ecoregions. Its distribution is mainly limited by temperature-related variables, and precipitation in the reproductive period."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The scientific name for this species, Chelonoidis chilensis, is misleading because it is not native to Chile. It occurs mainly in Argentina, Bolivia and neighboring Paraguay. When the species was first described by Gray in 1870, he mistakenly thought that Mendoza was in Chile instead of Argentina (the city was transfer in 1776), thus the misnomer. Sclater corrected Gray's mistake in the same year. However, the rules of nomenclature give precedence to the name chilensis, even though it was based on an erroneous assumption, and the name has persisted."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The carapace of C. chilensis can measure up to 43.3 cm (but usually less than 25 cm) in a straight line, and may be either totally yellowish brown or have dark-brown to black rings surrounding a tan center on each scute. Specimens found farther south tend to be much larger than those found in farther north populations. The rim of the shell is slightly serrated and has a dark wedge of pigment at the back edge of each scute. The plastron may be uniformly yellowish-brown or have a dark triangular wedge along the seams of each scute. The head, limbs and tail are greyish to yellowish-brown, with the front of each forelimb covered with large, angular scales and each thigh featuring several enlarged tubercles."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Like all tortoise species, the Chaco tortoise is primarily herbivorous, consuming grasses, shrubs, fruits, and cactus pads."
+    ]
+   },
+   {
+    "h": "Species status",
+    "level": 2,
+    "paras": [
+     "There is only one recognized species. However, some researchers believe C. chilensis should be divided into three species: C. chilensis, C. petersi, and C. donosobarrosi. Some support C. donosobarrosi as a subspecies (C. chilensis donosobarrosi). There is research to indicate that it may qualify as a separate species, while C. petersi may just be a variant of C. chilensis, the variances being clinal variations in adjacent populations. However, these taxa mentioned have all been formally synonymised and accepted. The morphological variation is explainable as a factor of elevation. Historically, these have been viewed as separate taxa, with little work done to confirm or deny it. Subsequent molecular analysis has found little to no genetic variation."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name (or subspecific name), donosobarrosi, is in honor of Chilean herpetologist Roberto Donoso-Barros, and petersi is in honor of American herpetologist James A. Peters."
+    ]
+   }
+  ]
+ }
+}

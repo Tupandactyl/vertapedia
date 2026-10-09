@@ -1,0 +1,80 @@
+{
+ "sci": "Strophurus spinula",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 1499822,
+  "name": "Strophurus spinula",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Strophurus_spinula"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516343187/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leristabait, some rights reserved (CC BY-NC)",
+   "obs": 287177407,
+   "place": "Menzies, AU-WA, AU",
+   "date": "2025-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343010726/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robertaudcent, some rights reserved (CC BY-NC)",
+   "obs": 195037845,
+   "place": "Paynes Find WA 6612, Australia",
+   "date": "2023-12-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638568377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) teddystein, some rights reserved (CC BY-NC)",
+   "obs": 350013710,
+   "place": "Paynes Find WA 6612, Australia",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457463585/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Ruggeri, some rights reserved (CC BY-NC)",
+   "obs": 255283845,
+   "place": "Yalgoo, AU-WA, AU",
+   "date": "2024-12-15"
+  }
+ ],
+ "wiki": {
+  "title": "Strophurus spinula",
+  "url": "https://en.wikipedia.org/wiki/Strophurus_spinula",
+  "revision": 1355165034,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Strophurus spinula, commonly known as the lesser thorn-tailed gecko, is a species of lizard in the family Diplodactylidae. It is endemic to Australia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The specific name spinula is Latin for 'little thorn', referring to the fact that its tail spines are comparatively small (a feature distinguishing it from the Goldfields spiny-tailed gecko).",
+     "The lesser thorn-tailed gecko was originally assigned as a population of Strophurus assimilis (the Goldfields spiny-tailed gecko). However, a 2023 study using molecular evidence has found it to be a distinct parapatric species, thus it was described as a new species Strophurus spinula."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The lesser thorn-tailed gecko reaches a snout-vent length of 40.8 to 61.2 mm, with the tail being 47.8 to 64.8% of the SVL. Their body color is mostly grey, with darker markings on the dorsal surface and a wavy pattern on the dorsolateral edge. Enlarged tubercles are arranged in a pair of parallel lines running down dorsal surface on either side of the dorsal mid-line, often broken at regular intervals of length. In live specimens, the iris shows reticulated patterns and is surrounded by an orange-brown ring of color."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "S. spinula is found in the southern areas of Western Australia. It mostly occurs in Mulga woodland, also appearing in mallee and shrublands with acacia & eucalyptus. One specimen was collected recorded from a saline alluvial plain with scattered haplophytic shrubland in Rosemont."
+    ]
+   }
+  ]
+ }
+}

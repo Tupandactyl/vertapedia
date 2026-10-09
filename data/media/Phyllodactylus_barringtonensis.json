@@ -1,0 +1,70 @@
+{
+ "sci": "Phyllodactylus barringtonensis",
+ "fetched": "2026-10-09",
+ "inat": {
+  "id": 33988,
+  "name": "Phyllodactylus barringtonensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Barrington_leaf-toed_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436346039/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 244607940,
+   "place": "Santa Cruz, Ecuador",
+   "date": "2016-06-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399894935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) colbys, some rights reserved (CC BY-NC)",
+   "obs": 225545259,
+   "place": "Parque Nacional Galápagos, Santa Fe, Galapagos, EC",
+   "date": "2024-06-01"
+  }
+ ],
+ "wiki": {
+  "title": "Barrington leaf-toed gecko",
+  "url": "https://en.wikipedia.org/wiki/Barrington_leaf-toed_gecko",
+  "revision": 1377208389,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Barrington leaf-toed gecko (Phyllodactylus barringtonensis) is a species of lizard in the family Phyllodactylidae. The species is endemic to Santa Fe Island in the Galapagos."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, barringtonensis, refers to Barrington Island, which is an alternate name for Santa Fe Island."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of P. barringtonensis is dry shrubland, at altitudes from sea level to 240 m (790 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The holotype of P. barringtonensis has a snout-to-vent length (SVL) of 4.1 cm (1.6 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "P. barringtonensis is oviparous."
+    ]
+   }
+  ]
+ }
+}
