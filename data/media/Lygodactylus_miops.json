@@ -1,0 +1,42 @@
+{
+ "sci": "Lygodactylus miops",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 68437,
+  "name": "Lygodactylus miops",
+  "observations": 41,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Günther's_dwarf_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57168690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC)",
+   "obs": 36185326,
+   "place": "Ranomafana National Park, Fianarantsoa, MG",
+   "date": "2019-11-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114090142/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alex Krohn, some rights reserved (CC BY-NC-SA)",
+   "obs": 70213447,
+   "place": "Alaotra-Mangoro, MG-TM, MG",
+   "date": "2016-01-01"
+  }
+ ],
+ "wiki": {
+  "title": "Günther's dwarf gecko",
+  "url": "https://en.wikipedia.org/wiki/G%C3%BCnther%27s_dwarf_gecko",
+  "revision": 1328113095,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Günther's dwarf gecko (Lygodactylus miops) is a species of gecko endemic to Madagascar."
+    ]
+   }
+  ]
+ }
+}

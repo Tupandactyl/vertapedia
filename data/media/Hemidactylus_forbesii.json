@@ -1,0 +1,71 @@
+{
+ "sci": "Hemidactylus forbesii",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34504,
+  "name": "Hemidactylus forbesii",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Socotra_leaf-toed_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435255710/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Newman, some rights reserved (CC BY-NC)",
+   "obs": 244041377,
+   "place": "Qalansiyah wa Abd Al Kuri, Yemen",
+   "date": "2022-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1817403/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1465687,
+   "place": "Abd Al Kuri",
+   "date": "2010-04-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336779179/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 191906897,
+   "place": "Qulensya Wa Abd Al Kuri, YE-HD, YE",
+   "date": "2022-03-18"
+  }
+ ],
+ "wiki": {
+  "title": "Socotra leaf-toed gecko",
+  "url": "https://en.wikipedia.org/wiki/Socotra_leaf-toed_gecko",
+  "revision": 1355116173,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Socotra leaf-toed gecko (Hemidactylus forbesii) is a species of lizard in the family Gekkonidae. The species is endemic to the island of Abd al-Kuri in the Socotra archipelago."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, forbesii, is in honor of Henry Ogg Forbes, who was a Scottish explorer and naturalist."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of H. forbesii is the intertidal zone."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "H. forbesii is oviparous. Eggs are laid in rock crevices or under stones."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "sci": "Pachydactylus sansteynae",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34129,
+  "name": "Pachydactylus sansteynae",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pachydactylus_sansteynae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482392921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Murray Lewis, some rights reserved (CC BY-NC)",
+   "obs": 268371316,
+   "place": "Kunene Region, Namibia",
+   "date": "2025-04-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523949291/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Murray Lewis, some rights reserved (CC BY-NC)",
+   "obs": 291219764,
+   "place": "Erongo Region, Namibia",
+   "date": "2025-06-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579422376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) daynebraine, some rights reserved (CC BY-NC)",
+   "obs": 320443371,
+   "place": null,
+   "date": "2025-10-10"
+  }
+ ],
+ "wiki": {
+  "title": "Pachydactylus sansteynae",
+  "url": "https://en.wikipedia.org/wiki/Pachydactylus_sansteynae",
+  "revision": 1355126748,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pachydactylus sansteynae, also known commonly as the coastal thick-toed gecko or San Steyn's gecko, is a species of lizard in the family Gekkonidae. The species is endemic to Namibia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, sansteynae, is in honor of San Steyn who is the wife of the senior taxon authority."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "P. sansteynae is oviparous."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "sci": "Pachydactylus katanganus",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34165,
+  "name": "Pachydactylus katanganus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Katanga_thick-toed_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607190526/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 334364621,
+   "place": "Nyika National Park, Rumphi, MW",
+   "date": "2026-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722309850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 394029399,
+   "place": "Karonga",
+   "date": "2011-03-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722175471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 393961181,
+   "place": "Karonga",
+   "date": "2011-03-02"
+  }
+ ],
+ "wiki": {
+  "title": "Katanga thick-toed gecko",
+  "url": "https://en.wikipedia.org/wiki/Katanga_thick-toed_gecko",
+  "revision": 1377449535,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Katanga thick-toed gecko (Pachydactylus katanganus) is a species of lizard in the family Gekkonidae."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "It is found in the Republic of the Congo and Malawi."
+    ]
+   }
+  ]
+ }
+}

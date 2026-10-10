@@ -1,0 +1,64 @@
+{
+ "sci": "Paragehyra felicitae",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 463977,
+  "name": "Paragehyra felicitae",
+  "observations": 16,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paragehyra_felicitae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/497973765/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antoine_baglan, some rights reserved (CC BY-NC)",
+   "obs": 277327430,
+   "place": "Anja",
+   "date": "2025-01-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16209305/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Michael A. Alcorn, some rights reserved (CC BY)",
+   "obs": 11375239,
+   "place": "Haute Matsiatra, Madagascar",
+   "date": "2016-11-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115520414/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) a_f_r, some rights reserved (CC BY-NC)",
+   "obs": 70998229,
+   "place": "Haute matsiatra, MG-FI, MG",
+   "date": "2017-03-23"
+  }
+ ],
+ "wiki": {
+  "title": "Paragehyra felicitae",
+  "url": "https://en.wikipedia.org/wiki/Paragehyra_felicitae",
+  "revision": 1377211830,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Paragehyra felicitae is a species of lizard in the family Gekkonidae. The species is endemic to Madagascar."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, felicitae, is in honor of \"Dr. Felicity O'Malley\"."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. felicitae is found in southcentral Madagascar, in the area that was formerly called Fianarantsoa Province."
+    ]
+   }
+  ]
+ }
+}

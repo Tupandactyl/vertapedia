@@ -1,0 +1,70 @@
+{
+ "sci": "Lygodactylus wetzeli",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34251,
+  "name": "Lygodactylus wetzeli",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/South_American_dwarf_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527249121/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Luciano Silveira, some rights reserved (CC BY-SA)",
+   "obs": 292982141,
+   "place": "Bonito - MS, Brasil",
+   "date": "2025-06-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333366142/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)",
+   "obs": 190204727,
+   "place": "Toledo, Dipartimento di Boquerón, PY",
+   "date": "2023-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "South American dwarf gecko",
+  "url": "https://en.wikipedia.org/wiki/South_American_dwarf_gecko",
+  "revision": 1376668588,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The South American dwarf gecko (Lygodactylus wetzeli) is a species of lizard in the family Gekkonidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, wetzeli, is in honor of American mammalogist Ralph M. Wetzel."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "L. wetzeli is found in eastern Bolivia, midwestern Brazil, and northern Paraguay."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of L. wetzeli is savanna."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. wetzeli is oviparous."
+    ]
+   }
+  ]
+ }
+}

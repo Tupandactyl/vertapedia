@@ -1,0 +1,70 @@
+{
+ "sci": "Hemidactylus mindiae",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 73819,
+  "name": "Hemidactylus mindiae",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mount_Sinai_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276169666/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hunter Stevens, some rights reserved (CC BY-NC)",
+   "obs": 159828674,
+   "place": "Entrance Dir Saint Catherine Street, Saint Catherine, South Sinai, EG",
+   "date": "2023-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244970797/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 142847847,
+   "place": "Wadi Rum, Jordan",
+   "date": "2022-11-25"
+  }
+ ],
+ "wiki": {
+  "title": "Mount Sinai gecko",
+  "url": "https://en.wikipedia.org/wiki/Mount_Sinai_gecko",
+  "revision": 1354936158,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Mount Sinai gecko (Hemidactylus mindiae) is a species of lizard in the family Gekkonidae. The species is endemic to Egypt."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The natural habitats of Hemidactylus mindiae are rocky areas and caves, at elevations of 600–2,000 m (2,000–6,600 ft), but it is also found in disturbed habitats such as rural gardens, and urban areas."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Hemidactylus mindiae is oviparous."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The Mount Sinai gecko is threatened by habitat loss due to quarrying and overgrazing of livestock."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific epithet, mindiae, commemorates the late Mindy Baha El Din, an environmentalist and herpetologist from Egypt. She was the wife of Sherif Baha El Din, also a herpetologist, who described this lizard as a new species."
+    ]
+   }
+  ]
+ }
+}

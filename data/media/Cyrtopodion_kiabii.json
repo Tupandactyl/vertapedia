@@ -1,0 +1,64 @@
+{
+ "sci": "Cyrtopodion kiabii",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 99036,
+  "name": "Cyrtopodion kiabii",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kiabii's_angular-toed_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53732398/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC)",
+   "obs": 34163525,
+   "place": "Bushehr, IR",
+   "date": "2019-10-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350841000/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvand Mohammadalizadegan, some rights reserved (CC BY-NC)",
+   "obs": 198992073,
+   "place": null,
+   "date": "2024-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466915814/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 260041225,
+   "place": "Parsian, Hormozgan Province, Iran",
+   "date": "2024-11-05"
+  }
+ ],
+ "wiki": {
+  "title": "Kiabii's angular-toed gecko",
+  "url": "https://en.wikipedia.org/wiki/Kiabii%27s_angular-toed_gecko",
+  "revision": 1364306315,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Kiabi's angular-toed gecko (Cyrtopodion kiabii) is a species of gecko, a lizard in the family Gekkonidae. The species is endemic to southern Iran."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, kiabii, is in honor of Iranian ecologist Bahram Hassanzadeh Kiabi of Shahid Beheshti University."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. kiabii is found in Bushehr Province, Iran."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "sci": "Lygodactylus bivittis",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34224,
+  "name": "Lygodactylus bivittis",
+  "observations": 15,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tiny_scaled_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132557912/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Hamer, some rights reserved (CC BY-NC)",
+   "obs": 80857354,
+   "place": "Madagascar",
+   "date": "2018-08-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448746563/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Horner, some rights reserved (CC BY-NC)",
+   "obs": 250861572,
+   "place": "Alaotra-Mangoro, MG-TM, MG",
+   "date": "2012-02-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594606758/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Premala Arulampalam, some rights reserved (CC BY-NC)",
+   "obs": 328169713,
+   "place": "Alaotra-Mangoro, MG-TM, MG",
+   "date": "2024-10-25"
+  }
+ ],
+ "wiki": {
+  "title": "Tiny scaled gecko",
+  "url": "https://en.wikipedia.org/wiki/Tiny_scaled_gecko",
+  "revision": 1354638774,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The tiny scaled gecko (Lygodactylus bivittis) is a species of lizard in the family Gekkonidae. The species is endemic to Madagascar."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "L. bivittis was formerly placed in a monotypic genus Microscalabotes. However, molecular data suggested that Microscalabotes is nested within Lygodactylus, and the genus was synonymized."
+    ]
+   },
+   {
+    "h": "Habitat and behavior",
+    "level": 2,
+    "paras": [
+     "L. bivittis occurs in low and mid-elevation humid forests at elevations of 300–1,000 m (980–3,280 ft) above sea level. It is diurnal and lives in trees. It does not occur in heavily degraded areas and is threatened by the loss and degradation of humid forests in eastern Madagascar."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. bivittis is oviparous."
+    ]
+   }
+  ]
+ }
+}

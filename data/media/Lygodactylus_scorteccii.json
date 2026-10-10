@@ -1,0 +1,63 @@
+{
+ "sci": "Lygodactylus scorteccii",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34255,
+  "name": "Lygodactylus scorteccii",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scortecci's_dwarf_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152921747/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC)",
+   "obs": 92362969,
+   "place": "Wenje, Lower Tana River",
+   "date": "2019-11-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152921830/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC)",
+   "obs": 92362973,
+   "place": "Wenje, Lower Tana River",
+   "date": "2019-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Scortecci's dwarf gecko",
+  "url": "https://en.wikipedia.org/wiki/Scortecci%27s_dwarf_gecko",
+  "revision": 1355117034,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scortecci's dwarf gecko (Lygodactylus scorteccii) is a species of lizard in the family Gekkonidae. The species is native to East Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, scorteccii, is in honor of Italian herpetologist Giuseppe Scortecci."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "L. scorteccii is found in Ethiopia, northwestern Kenya, and Somalia."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. scorteccii is oviparous."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "sci": "Lygodactylus broadleyi",
+ "fetched": "2026-10-10",
+ "inat": {
+  "id": 34302,
+  "name": "Lygodactylus broadleyi",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Broadley's_dwarf_gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21160113/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC)",
+   "obs": 14256069,
+   "place": "Mukurumudzi, Kenya",
+   "date": "2016-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21160025/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC)",
+   "obs": 14256068,
+   "place": "Kwale County, Kenya",
+   "date": "2015-08-29"
+  }
+ ],
+ "wiki": {
+  "title": "Broadley's dwarf gecko",
+  "url": "https://en.wikipedia.org/wiki/Broadley%27s_dwarf_gecko",
+  "revision": 1354930958,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Broadley's dwarf gecko (Lygodactylus broadleyi) is a species of lizard in the family Gekkonidae. The species is native to East Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, broadleyi, is in honor of African herpetologist Donald George Broadley."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "L. broadleyi is found in Kenya and Tanzania."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The maximum recorded snout-to-vent length for L. broadleyi is 2.3 cm (0.91 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. broadleyi is oviparous."
+    ]
+   }
+  ]
+ }
+}
