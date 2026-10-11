@@ -1,0 +1,48 @@
+{
+ "sci": "Insulasaurus arborens",
+ "fetched": "2026-10-11",
+ "inat": {
+  "id": 146182,
+  "name": "Insulasaurus arborens",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Insulasaurus_arborens"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633036895/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paolo Co, some rights reserved (CC BY)",
+   "obs": 347212433,
+   "place": "Aklan, Philippines",
+   "date": "2026-03-27"
+  }
+ ],
+ "wiki": {
+  "title": "Insulasaurus arborens",
+  "url": "https://en.wikipedia.org/wiki/Insulasaurus_arborens",
+  "revision": 1355138742,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Insulasaurus arborens, also known as the Negros sphenomorphus, is a species of lizard of the family of Scincidae. It is endemic to the Philippines."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "It is found on the islands of Negros, Panay, Pan de Azúcar and Masbate at elevations below 1,600 m (5,200 ft)."
+    ]
+   },
+   {
+    "h": "Original publication",
+    "level": 2,
+    "paras": [
+     "Taylor, 1917 : Snakes and lizards known from Negros, with descriptions of new species and subspecies. Philippine Journal of Science, vol. 12, p. 353-381 (texte intégral)."
+    ]
+   }
+  ]
+ }
+}
