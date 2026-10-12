@@ -118,7 +118,7 @@ function nmHtml(x,self){
   const it=rk==='S'||rk==='g', o=it?`<i>${esc(orig)}</i>`:esc(orig);
   if(rk==='S')return `<span class="nm notranslate" translate="no" title="${esc(ko)}">${go?`<a href="${go}">${o}</a>`:o}</span>`;
   const k=go?`<a href="${go}">${esc(ko)}</a>`:`<b>${esc(ko)}</b>`;
-  return `<span class="nm" title="${esc(orig)}">${k}${first?`<span class="notranslate" translate="no">(<span lang="en">${o}</span>)</span>`:''}</span>`;
+  return `<span class="nm" title="${esc(orig)}">${k}${first?`<span class="notranslate" translate="no"> (<span lang="en">${o}</span>)</span>`:''}</span>`;
 }
 const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
 const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
