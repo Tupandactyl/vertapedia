@@ -7,6 +7,10 @@
 import re
 
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*")
+# 속 이름 뒤에 와도 종소명이 아닌 흔한 영어 낱말
+ENGLISH = set("and or but the a an is are was were be been has have had in of on at to from by with as for "
+              "which that who whose its it this these those than then also not only into include includes "
+              "including contains contain comprises species genus genera family".split())
 THE = re.compile(r"(?:(?<=\W)|^)(?:[Tt]he|[Aa]n?) $")
 # 흔한 영어 낱말·사람 이름과 겹치는 한 단어 영명은 바꾸지 않는다
 AMBIGUOUS = {"merlin", "rook", "redhead", "whitehead", "hardhead", "ruff", "ou", "rifleman", "yellowhead",
@@ -57,7 +61,9 @@ class Linker:
         g = self.genus.get(toks[i].group())
         if g:
             nxt = toks[i + 1] if i + 1 < len(toks) else None
-            if not (nxt and text[toks[i].end():nxt.start()] == " " and nxt.group().islower()):
+            epithet = nxt and text[toks[i].end():nxt.start()] == " " and nxt.group().islower() \
+                and nxt.group() not in ENGLISH
+            if not epithet:
                 return i + 1, g
         return None
 
