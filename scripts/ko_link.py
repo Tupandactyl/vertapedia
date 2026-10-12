@@ -7,6 +7,7 @@
 import re
 
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*")
+THE = re.compile(r"(?:(?<=\W)|^)[Tt]he $")
 # 흔한 영어 낱말·사람 이름과 겹치는 한 단어 영명은 바꾸지 않는다
 AMBIGUOUS = {"merlin", "rook", "redhead", "whitehead", "hardhead", "ruff", "ou", "rifleman", "yellowhead",
              "redwing", "sora", "standardwing", "watercock", "morningbird"}
@@ -70,8 +71,11 @@ class Linker:
                 continue
             j, (ko, rk, sci) = m
             a, b = toks[i].start(), toks[j - 1].end()
-            if a > pos:
-                out.append(text[pos:a])
+            before = text[pos:a]
+            if rk != "S":  # 국명 앞 관사는 뺀다 — 남겨 두면 번역기가 "the ○○"를 "그만큼" 따위로 옮긴다
+                before = THE.sub("", before)
+            if before:
+                out.append(before)
             out.append([ko, text[a:b], rk, sci, 0 if rk == "S" or sci in seen else 1])
             if rk != "S":
                 seen.add(sci)
