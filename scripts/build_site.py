@@ -12,6 +12,8 @@ import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from ko_link import Linker
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SITE = ROOT / "site"
@@ -44,6 +46,7 @@ def first_by(*ranks):
 orders, families, genera = first_by("order", "suborder"), first_by("family"), first_by("genus")
 subfamilies = [t for t in names if t["rank"] == "subfamily"]
 species = [t for t in names if t["rank"] == "species"]
+linker = Linker(names)
 has_pic = lambda sci: bool(media.get(sci, {}).get("photos"))
 dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 fname = lambda sci: sci.replace(" ", "_") + ".json"
@@ -133,7 +136,7 @@ for g, lst in seq.items():
             refs=dict(official=t.get("official") if t["status"] != "official" else None,
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
-            inat=m.get("inat"), photos=m.get("photos", []), wiki=m.get("wiki"), fetched=m.get("fetched"),
+            inat=m.get("inat"), photos=m.get("photos", []), wiki=linker.wiki(m.get("wiki")), fetched=m.get("fetched"),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")

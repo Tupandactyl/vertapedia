@@ -95,6 +95,7 @@ ul.links small{display:block;color:var(--muted);font-size:11.5px}
 .ssp{font-size:13px;margin:0;padding-left:18px}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
 button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+.nm a{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}.nm b{font-weight:600}
 </style>
 <body>
 <header class="top"><div class="top-in">
@@ -109,6 +110,16 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+// 본문 속 생물 이름: [국명, 원래 이름, 계급(s 종·S 학명·g 속·f 과·o 목), 학명, 처음?]. 크롬 번역이 건드리지 않게 translate="no"
+const NM_PAGE={s:'sp',S:'sp',f:'fam'};
+function nmHtml(x,self){
+  const [ko,orig,rk,sci,first]=x, page=NM_PAGE[rk], go=page&&sci!==self?`${page}.html#${encodeURIComponent(sci.replace(/ /g,'_'))}`:null;
+  const it=rk==='S'||rk==='g', o=it?`<i>${esc(orig)}</i>`:esc(orig);
+  if(rk==='S')return `<span class="nm notranslate" translate="no" title="${esc(ko)}">${go?`<a href="${go}">${o}</a>`:o}</span>`;
+  const k=go?`<a href="${go}" lang="ko">${esc(ko)}</a>`:`<b lang="ko">${esc(ko)}</b>`;
+  return `<span class="nm notranslate" translate="no" title="${esc(orig)}">${k}${first?`(<span lang="en">${o}</span>)`:''}</span>`;
+}
+const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
 const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
@@ -147,9 +158,9 @@ function render(d){
     <p class="galnote">사진: iNaturalist 연구등급 관찰 가운데 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). 사진을 누르면 원래 관찰 기록으로 갑니다.</p>`
     :`<div class="nophoto">${d.fetched?'재사용이 허락된 iNaturalist 사진이 아직 없습니다.':'사진을 아직 받지 않은 종입니다. 한국 출현종부터 차례로 받고 있습니다.'}</div>`;
   const w=d.wiki;
-  const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${esc(p)}</p>`).join('')).join('')
+  const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${para(p,d.sci)}</p>`).join('')).join('')
     :w&&w.extract?`<p lang="en">${esc(w.extract)}</p>`:'';
-  const desc=body?`<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).':'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
+  const desc=body?`<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).'+(w.ko_linked?' 생물 이름은 버타피디아 국명으로 바꿨고, 처음 나올 때 원래 이름을 괄호에 함께 적었습니다. 이름을 누르면 해당 문서로 갑니다.':''):'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
     :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
