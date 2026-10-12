@@ -1,0 +1,148 @@
+{
+ "sci": "Cercosaura schreibersii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34763,
+  "name": "Cercosaura schreibersii",
+  "observations": 681,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cercosaura_schreibersii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361281912/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Sabaliauskas, some rights reserved (CC BY-NC)",
+   "obs": 204397779,
+   "place": "Punta Indio, Provincia de Buenos Aires, Argentina",
+   "date": "2024-03-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408504940/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) RAP, some rights reserved (CC BY)",
+   "obs": 230088172,
+   "place": "Reserva Ecológica Ciudad Universitaria-Costanera Norte, Intendente Güiraldes 2160, Buenos Aires, C1704 Cdad. Autónoma de Buenos Aires, Argentina",
+   "date": "2024-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196352767/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Diego Barboza, some rights reserved (CC BY)",
+   "obs": 116327911,
+   "place": "80000 San José, Departamento de San José, Uruguay",
+   "date": "2022-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132360786/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mauro Fossati, some rights reserved (CC BY)",
+   "obs": 80741839,
+   "place": "Villa Serrana la Gruta, Provincia de Buenos Aires, Argentina",
+   "date": "2021-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614501980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diogo Siqueira, some rights reserved (CC BY-NC)",
+   "obs": 337965467,
+   "place": "Laranjeiras do Sul, PR, Brasil",
+   "date": "2026-02-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374107428/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Eroles, some rights reserved (CC BY-NC)",
+   "obs": 211630232,
+   "place": "El Palomar, Provincia de Buenos Aires, Argentina",
+   "date": "2024-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196149437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaias Maximiliano Churruarin, some rights reserved (CC BY-NC)",
+   "obs": 116214917,
+   "place": "Tostado, Santa Fe, Argentina",
+   "date": "2022-05-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257916167/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Teresita, some rights reserved (CC BY-NC)",
+   "obs": 149657289,
+   "place": "San Jose de Feliciano, Entre Ríos, Argentina",
+   "date": "2023-02-25"
+  }
+ ],
+ "wiki": {
+  "title": "Cercosaura schreibersii",
+  "url": "https://en.wikipedia.org/wiki/Cercosaura_schreibersii",
+  "revision": 1354683557,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cercosaura schreibersii, known commonly as Schreibers's many-fingered teiid  or the long-tailed little lizard, is a species of lizard in the family Gymnophthalmidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schreibersii, is in honor of Austrian naturalist Carl Franz Anton Ritter von Schreibers."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. schreibersii is found in Argentina, Bolivia, Brazil, Paraguay, and Uruguay."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of C. schreibersii are forest, savanna, shrubland, and grassland."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognized as being valid, including the nominotypical subspecies.",
+     "Cercosaura schreibersii albostrigatus (Griffin, 1917)",
+     "Cercosaura schreibersii schreibersii Wiegmann, 1834",
+     "Nota bene: A trinomial authority in parentheses indicates that the subspecies was originally described in a genus other than Cercosaura."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. schreibersii is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6360638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Reis Dotto, some rights reserved (CC BY-NC), uploaded by Bruno Reis Dotto",
+   "photo": 6360638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102932207/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Igor Gerolineto Alves, some rights reserved (CC BY-NC), uploaded by Igor Gerolineto Alves",
+   "photo": 102932207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182619172/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo S., some rights reserved (CC BY-NC), uploaded by Eduardo S.",
+   "photo": 182619172
+  }
+ ]
+}

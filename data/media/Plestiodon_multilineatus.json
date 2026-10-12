@@ -1,0 +1,87 @@
+{
+ "sci": "Plestiodon multilineatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73795,
+  "name": "Plestiodon multilineatus",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plestiodon_multilineatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93663669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Cruz Nieto, some rights reserved (CC BY-NC)",
+   "obs": 58663083,
+   "place": "Janos, Chih., México",
+   "date": "2020-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216362260/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elías Ramos, some rights reserved (CC BY-NC)",
+   "obs": 127443078,
+   "place": "Janos, Chih., México",
+   "date": "2016-09-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423161/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA)",
+   "obs": 339969,
+   "place": "Madera, MX-CH, MX",
+   "date": "2009-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59461976/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Cruz Nieto, some rights reserved (CC BY-NC)",
+   "obs": 37502088,
+   "place": "Madera, Chih., México",
+   "date": "2020-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433536/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA)",
+   "obs": 347965,
+   "place": "Madera, MX-CH, MX",
+   "date": "2009-08-04"
+  }
+ ],
+ "wiki": {
+  "title": "Plestiodon multilineatus",
+  "url": "https://en.wikipedia.org/wiki/Plestiodon_multilineatus",
+  "revision": 1314727497,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Plestiodon multilineatus, the Chihuahuan skink, is a species of skink. It is endemic to the state of Chihuahua, Mexico.",
+     "Plestiodon multilineatus can grow to 70 mm (2.8 in) in snout–vent length."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93663669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Cruz Nieto, some rights reserved (CC BY-NC), uploaded by Javier Cruz Nieto",
+   "photo": 93663669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433536/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 433536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423161/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 423161
+  }
+ ]
+}

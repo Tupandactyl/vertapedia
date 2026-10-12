@@ -1,0 +1,125 @@
+{
+ "sci": "Elgaria panamintina",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32053,
+  "name": "Elgaria panamintina",
+  "observations": 18,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Panamint_alligator_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201805697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Castelein, some rights reserved (CC BY-NC)",
+   "obs": 119382257,
+   "place": null,
+   "date": "2022-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667957855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lese Majeste, some rights reserved (CC BY-NC)",
+   "obs": 365836622,
+   "place": "California, US",
+   "date": "2026-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66532001/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flaxington, some rights reserved (CC BY-NC)",
+   "obs": 41929893,
+   "place": "Inyo County, US-CA, US",
+   "date": "2006-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66531973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flaxington, some rights reserved (CC BY-NC)",
+   "obs": 41929890,
+   "place": "Inyo County, US-CA, US",
+   "date": "2003-06-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338190839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kurt Rademacher, some rights reserved (CC BY-NC)",
+   "obs": 192623584,
+   "place": "Death Valley National Park, Inyo County, US-CA, US",
+   "date": "1970-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201629264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Max Laubstein, some rights reserved (CC BY-NC)",
+   "obs": 119286758,
+   "place": "Inyo County, US-CA, US",
+   "date": "2022-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285403715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Richardson, some rights reserved (CC BY-NC)",
+   "obs": 164916280,
+   "place": "Inyo County, US-CA, US",
+   "date": "2023-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151285823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ifimeetnature, some rights reserved (CC BY-NC)",
+   "obs": 91462390,
+   "place": null,
+   "date": "2021-05-02"
+  }
+ ],
+ "wiki": {
+  "title": "Panamint alligator lizard",
+  "url": "https://en.wikipedia.org/wiki/Panamint_alligator_lizard",
+  "revision": 1314598799,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Panamint alligator lizard (Elgaria panamintina) is a species of lizard in the Anguidae family."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Elgaria panamintina is endemic to California, from 2,500–7,513 feet (762–2,290 m) in the desert mountain ranges of Inyo and Mono Counties. They include the Panamint Range of Death Valley National Park, the Inyo Mountains, the White Mountains, and the Coso Mountains."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "They are 3+5⁄8–6 inches (92–152 mm) long from snout to vent.  The tail length on this species is usually longer than the body.",
+     "This species is also known to be quite aggressive and bites when threatened."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66531973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flaxington, some rights reserved (CC BY-NC), uploaded by Flaxington",
+   "photo": 66531973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66532001/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flaxington, some rights reserved (CC BY-NC), uploaded by Flaxington",
+   "photo": 66532001
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151285823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ifimeetnature, some rights reserved (CC BY-NC), uploaded by ifimeetnature",
+   "photo": 151285823
+  }
+ ]
+}

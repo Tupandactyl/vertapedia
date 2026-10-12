@@ -1,0 +1,79 @@
+{
+ "sci": "Anilios diversus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539272,
+  "name": "Anilios diversus",
+  "observations": 14,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Anilios_diversus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210002682/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jules Farquhar, some rights reserved (CC BY-NC)",
+   "obs": 123929550,
+   "place": "Broome Ward, Bilingurr, WA, AU",
+   "date": "2022-06-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546583204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brendan Casey, some rights reserved (CC BY-NC)",
+   "obs": 303263453,
+   "place": "Lake Mackay NT 0872, Australia",
+   "date": "2025-04-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88852342/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rogstanden, some rights reserved (CC BY-NC)",
+   "obs": 55785059,
+   "place": "Wills Road, Lawn Hill QLD 4825, Australia",
+   "date": "2019-09-20"
+  }
+ ],
+ "wiki": {
+  "title": "Anilios diversus",
+  "url": "https://en.wikipedia.org/wiki/Anilios_diversus",
+  "revision": 1355036527,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Anilios diversus, or the northern blind snake, is a species of snake in the family Typhlopidae. The species is endemic to Australia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Native to northern Australia, A. diversus is found in Northern Territory, Queensland, and Western Australia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of A. diversus are desert and grassland."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. diversus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88852342/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rogstanden, some rights reserved (CC BY-NC), uploaded by rogstanden",
+   "photo": 88852342
+  }
+ ]
+}

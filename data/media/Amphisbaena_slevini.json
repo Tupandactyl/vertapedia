@@ -1,0 +1,83 @@
+{
+ "sci": "Amphisbaena slevini",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31802,
+  "name": "Amphisbaena slevini",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Slevin's_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213294401/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giacomo Bruni, some rights reserved (CC BY-NC)",
+   "obs": 125754953,
+   "place": "Maués, BR-AM, BR",
+   "date": "2017-11-30"
+  }
+ ],
+ "wiki": {
+  "title": "Slevin's worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Slevin%27s_worm_lizard",
+  "revision": 1355138090,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Slevin's worm lizard (Amphisbaena slevini) is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to northern South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, slevini, is in honor of American herpetologist Joseph Richard Slevin."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. sleveni is found in Brazil (Amazonas state) and French Guiana."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of A. slevini is forest."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "A. slevini is a uniform light brownish color. Adults have a snout-to-vent length (SVL) of about 10–11 cm (3.9–4.3 in), and a tail length of about 1.5 cm (0.59 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. slevini is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213294419/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giacomo Bruni, some rights reserved (CC BY-NC), uploaded by Giacomo Bruni",
+   "photo": 213294419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213294401/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giacomo Bruni, some rights reserved (CC BY-NC), uploaded by Giacomo Bruni",
+   "photo": 213294401
+  }
+ ]
+}

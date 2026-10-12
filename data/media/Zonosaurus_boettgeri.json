@@ -1,0 +1,92 @@
+{
+ "sci": "Zonosaurus boettgeri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34714,
+  "name": "Zonosaurus boettgeri",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Zonosaurus_boettgeri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474599225/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JanVermeer, some rights reserved (CC BY-NC)",
+   "obs": 264129568,
+   "place": "Diana, MG-AS, MG",
+   "date": "2006-11-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624829860/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrianiaina Angelo, some rights reserved (CC BY-NC)",
+   "obs": 343057518,
+   "place": "Sava, MG-AS, MG",
+   "date": "2017-01-11"
+  }
+ ],
+ "wiki": {
+  "title": "Zonosaurus boettgeri",
+  "url": "https://en.wikipedia.org/wiki/Zonosaurus_boettgeri",
+  "revision": 1355082563,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Zonosaurus boettgeri, Boettger's girdled lizard, is a species of lizard in the family Gerrhosauridae. The species is endemic Madagascar."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Z. boettgeri is found in the northern Madagascar mainland, and on the island Nosy Be, where it is found in Lokobe Reserve."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Z. boettgeri is forest, at altitudes from sea level to 500 m (1,600 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Z. boettgeri grows to a total length (including tail) of 50 cm (20 in)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Z. boettgeri is arboreal."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Z. boettgeri is oviparous."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, boettgeri, is in honor of German herpetologist Oskar Boettger."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474599225/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JanVermeer, some rights reserved (CC BY-NC), uploaded by JanVermeer",
+   "photo": 474599225
+  }
+ ]
+}

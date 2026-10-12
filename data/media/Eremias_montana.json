@@ -1,0 +1,70 @@
+{
+ "sci": "Eremias montana",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539668,
+  "name": "Eremias montana",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eremias_montana"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405767761/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 228648292,
+   "place": null,
+   "date": "2024-07-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405761142/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 228645305,
+   "place": null,
+   "date": "2024-07-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/413052673/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvand Mohammadalizadegan, some rights reserved (CC BY-NC)",
+   "obs": 232491153,
+   "place": "Hamadan, IR",
+   "date": "2024-07-27"
+  }
+ ],
+ "wiki": {
+  "title": "Eremias montana",
+  "url": "https://en.wikipedia.org/wiki/Eremias_montana",
+  "revision": 1170006266,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eremias montana (commonly known as the mountain racerunner), is a species of lizard found in the Alvand Mountains in Hamadan Province, Iran."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405761142/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 405761142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405769706/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 405769706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405763757/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 405763757
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "sci": "Eremias isfahanica",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 558889,
+  "name": "Eremias isfahanica",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eremias_isfahanica"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224777000/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 132028003,
+   "place": null,
+   "date": "2022-04-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718904807/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reza pirhadi, some rights reserved (CC BY-NC)",
+   "obs": 392290095,
+   "place": "Khomeynishahr, IR-ES, IR",
+   "date": "2024-11-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718904262/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reza pirhadi, some rights reserved (CC BY-NC)",
+   "obs": 392289823,
+   "place": "Khomeynishahr, IR-ES, IR",
+   "date": "2024-11-02"
+  }
+ ],
+ "wiki": {
+  "title": "Eremias isfahanica",
+  "url": "https://en.wikipedia.org/wiki/Eremias_isfahanica",
+  "revision": 1311770384,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eremias isfahanica is a species of lizard endemic to Iran."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224777000/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 224777000
+  }
+ ]
+}

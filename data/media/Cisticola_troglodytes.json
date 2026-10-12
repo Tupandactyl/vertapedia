@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1992889/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-SA)",
+   "photo": 1992889
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1992890/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 1992890
+  }
+ ]
 }

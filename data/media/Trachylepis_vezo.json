@@ -1,0 +1,59 @@
+{
+ "sci": "Trachylepis vezo",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37982,
+  "name": "Trachylepis vezo",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trachylepis_vezo"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102989175/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC)",
+   "obs": 64095324,
+   "place": "Atsimo-Andrefana, Madagascar",
+   "date": "2012-01-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242007951/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC)",
+   "obs": 141286078,
+   "place": "Antsokay Arboretum, Toliara, MG",
+   "date": "2022-11-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20079746/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 13640325,
+   "place": "Ifaty, Madagascar",
+   "date": "1989-11-18"
+  }
+ ],
+ "wiki": {
+  "title": "Trachylepis vezo",
+  "url": "https://en.wikipedia.org/wiki/Trachylepis_vezo",
+  "revision": 1355143849,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trachylepis vezo is a species of skink, a lizard in the family Scincidae.",
+     "The species is endemic to Madagascar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20079746/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Simon Tonge",
+   "photo": 20079746
+  }
+ ]
+}

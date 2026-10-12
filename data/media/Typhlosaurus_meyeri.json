@@ -1,0 +1,99 @@
+{
+ "sci": "Typhlosaurus meyeri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37702,
+  "name": "Typhlosaurus meyeri",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Meyer's_blind_legless_skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270991926/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 156700419,
+   "place": "Outskirts of Lüderitz, Namibia",
+   "date": "2023-04-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340086588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 193587261,
+   "place": "Karas Region, Namibia",
+   "date": "2023-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732382294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Gaude, some rights reserved (CC BY-NC)",
+   "obs": 399196591,
+   "place": "Luderitz, NA-KA, NA",
+   "date": "2026-09-11"
+  }
+ ],
+ "wiki": {
+  "title": "Meyer's blind legless skink",
+  "url": "https://en.wikipedia.org/wiki/Meyer%27s_blind_legless_skink",
+  "revision": 1373197244,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Meyer's blind legless skink (Typhlosaurus meyeri), also commonly known as Meyer's legless skink, and the variable blind legless skink, is a species of lizard in the subfamily Acontinae of the family Scincidae. The species is native to southern Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name meyeri, is in honor of German ornithologist Adolf Bernhard Meyer."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of Typhlosaurus meyeri usually have a snout-to-vent length (SVL) of 12–16 cm (4.7–6.3 in). The maximum recorded SVL is 18.8 cm (7.4 in)."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Typhlosaurus meyeri is found in extreme southwestern Namibia and adjacent extreme northwestern South Africa."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Typhlosaurus meyeri is sandy desert, at elevations of 50–400 m (160–1,310 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Typhlosaurus meyeri is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270991911/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 270991911
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270991926/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 270991926
+  }
+ ]
+}

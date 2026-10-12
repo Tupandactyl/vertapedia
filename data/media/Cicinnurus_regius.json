@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59166008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 59166008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59165992/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 59165992
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219425847/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M, some rights reserved (CC BY-NC), uploaded by Jonathan M",
+   "photo": 219425847
+  }
+ ]
 }

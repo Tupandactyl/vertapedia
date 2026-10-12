@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/561170042/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Damien Wallace",
+   "photo": 561170042
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3604865/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) colinmorita, some rights reserved (CC BY-NC), uploaded by colinmorita",
+   "photo": 3604865
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3102696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) colinmorita, some rights reserved (CC BY-NC), uploaded by colinmorita",
+   "photo": 3102696
+  }
+ ]
 }

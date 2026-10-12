@@ -72,5 +72,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98980009/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Prince, some rights reserved (CC BY)",
+   "photo": 98980009
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558866650/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gideon Lam, some rights reserved (CC BY-NC), uploaded by Gideon Lam",
+   "photo": 558866650
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504934171/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) B. Phalan, some rights reserved (CC BY), uploaded by B. Phalan",
+   "photo": 504934171
+  }
+ ]
 }

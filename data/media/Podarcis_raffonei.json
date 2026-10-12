@@ -1,0 +1,100 @@
+{
+ "sci": "Podarcis raffonei",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35594,
+  "name": "Podarcis raffonei",
+  "observations": 13,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Aeolian_wall_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7883506/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+   "obs": 6267414,
+   "place": "Messina, Sicily, IT",
+   "date": "2017-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992242/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andalpasso, some rights reserved (CC BY-NC)",
+   "obs": 95747974,
+   "place": "Messina, Sicily, IT",
+   "date": "2021-09-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185574045/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Riccardo Rocca, some rights reserved (CC BY)",
+   "obs": 110044241,
+   "place": "Messina, Sicily, IT",
+   "date": "2021-07-29"
+  }
+ ],
+ "wiki": {
+  "title": "Aeolian wall lizard",
+  "url": "https://en.wikipedia.org/wiki/Aeolian_wall_lizard",
+  "revision": 1358160968,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Aeolian wall lizard (Podarcis raffonei), also known commonly as Raffone's wall lizard, is a species of lizard in the family Lacertidae. The species is endemic to Italy and is assessed as endangered by the IUCN due to its limited habitat and small populations."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, raffonei or raffoneae, is in honor of Dr. Antonia Raffone, wife of Antonino Trischitta, collected the holotype."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The natural habitats of P. raffonei are Mediterranean-type shrubby vegetation and rocky shores."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "There are only four locations hosting P. raffonei, all of them in the Aeolian Islands: the island of Strombolicchio, a small islet off the coast of the nearby island of Salina, another off the coast of the island of Filicudi, and some areas of Vulcano."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The overall population of P. raffonei is around 2,000 – 2,500 mature individuals distributed on a surface not bigger than 5,525 m2 (.002 mi2). It is believed that this rare lizard once inhabited a larger area, but the competition with the very common, invasive Italian wall lizard reduced its distribution to a smaller area.",
+     "Podarcis raffonei is confined to a total area of occupancy of under 2 ha, making it one of the most geographically restricted vertebrates in Europe. The largest extant population is on the Capo Grosso peninsula of Vulcano island, where surveys in 2015 and 2017 estimated between 800 and 1,300 adult lizards, accounting for more than half of the species' remaining habitat. Such tiny and fragmented populations are highly vulnerable to random events and demographic fluctuations.",
+     "This lizard faces severe pressure from the non-native Italian wall lizard, Podarcis siculus, which competes for the same rocky and shrubby habitats and interbreeds with P. raffonei. Field observations revealed a dramatic shift in dorsal colour patterns between 2015 and 2017: whereas nearly all individuals displayed the typical brown P. raffonei pattern in 2015, fewer than half did so two years later, suggesting a rapid increase in hybrids or introgressed forms. Complicating matters, captive studies have shown that pure P. raffonei can undergo seasonal colour changes—shifting from brown to green—even in the absence of hybridisation. Robust genomic analyses alongside standardised monitoring are therefore required to distinguish true hybridisation from phenotypic plasticity and to guide effective conservation measures."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2682823/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Federico Muciaccia, some rights reserved (CC BY-SA)",
+   "photo": 2682823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992242/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andalpasso, some rights reserved (CC BY-NC), uploaded by andalpasso",
+   "photo": 158992242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7883506/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Don Loarie, some rights reserved (CC BY), uploaded by Don Loarie",
+   "photo": 7883506
+  }
+ ]
+}

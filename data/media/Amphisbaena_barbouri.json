@@ -1,0 +1,101 @@
+{
+ "sci": "Amphisbaena barbouri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31860,
+  "name": "Amphisbaena barbouri",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cuban_many-ringed_amphisbaena"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29749751/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC)",
+   "obs": 19347022,
+   "place": "Santa Cruz del Norte, Cuba",
+   "date": "2018-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29744162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC)",
+   "obs": 19346897,
+   "place": "Santa Cruz del Norte, Cuba",
+   "date": "2018-12-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573316890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stevethesnakeguy, some rights reserved (CC BY-NC)",
+   "obs": 317286283,
+   "place": "Santa Cruz del Norte, Mayabeque, CU",
+   "date": "2024-02-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351371495/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ginger, some rights reserved (CC BY-NC)",
+   "obs": 199258396,
+   "place": "Mayabeque Province, CU",
+   "date": "2024-02-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635600731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) julienviglione, some rights reserved (CC BY-NC)",
+   "obs": 348503308,
+   "place": "Autopista Sur, Cárdenas, Matanzas, CU",
+   "date": "2026-04-08"
+  }
+ ],
+ "wiki": {
+  "title": "Cuban many-ringed amphisbaena",
+  "url": "https://en.wikipedia.org/wiki/Cuban_many-ringed_amphisbaena",
+  "revision": 1355137665,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cuban many-ringed amphisbaena (Amphisbaena barbouri), also known commonly as the Cuban many-ringed worm lizard, is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to Cuba."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, barbouri, is in honor of American herpetologist Thomas Barbour."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of A. barbouri is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. barbouri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29749751/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC), uploaded by Paul Pratt",
+   "photo": 29749751
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29744162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC), uploaded by Paul Pratt",
+   "photo": 29744162
+  }
+ ]
+}

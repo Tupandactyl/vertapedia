@@ -1,0 +1,70 @@
+{
+ "sci": "Proctoporus optimus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403092,
+  "name": "Proctoporus optimus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Proctoporus_optimus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12952410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Lau, some rights reserved (CC BY-NC)",
+   "obs": 9505181,
+   "place": "Machu Picchu, Peru",
+   "date": "2015-05-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366272865/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeanpierzolorzano, some rights reserved (CC BY-NC)",
+   "obs": 207091455,
+   "place": "Urubamba, Perú",
+   "date": "2024-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164199520/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Skjold Søndergaard, some rights reserved (CC BY)",
+   "obs": 98600235,
+   "place": "Sector Mandor, Aguas Calientes 08680, Perú",
+   "date": "2021-10-18"
+  }
+ ],
+ "wiki": {
+  "title": "Proctoporus optimus",
+  "url": "https://en.wikipedia.org/wiki/Proctoporus_optimus",
+  "revision": 1377217034,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Proctoporus optimus is a species of lizard in the family Gymnophthalmidae. It is endemic to Peru, in montane ecosystems."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366272865/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeanpierzolorzano, some rights reserved (CC BY-NC)",
+   "photo": 366272865
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12952410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Lau, some rights reserved (CC BY-NC), uploaded by Gordon Lau",
+   "photo": 12952410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12952522/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Lau, some rights reserved (CC BY-NC), uploaded by Gordon Lau",
+   "photo": 12952522
+  }
+ ]
+}

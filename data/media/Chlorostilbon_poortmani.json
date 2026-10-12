@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221339439/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría",
+   "photo": 221339439
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11719393/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Todd Boland, some rights reserved (CC BY), uploaded by Todd Boland",
+   "photo": 11719393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299570/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Rico-Guevara, some rights reserved (CC BY-NC), uploaded by Alejandro Rico-Guevara",
+   "photo": 299570
+  }
+ ]
 }

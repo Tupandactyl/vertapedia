@@ -1,0 +1,132 @@
+{
+ "sci": "Callopistes flavipunctatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 38926,
+  "name": "Callopistes flavipunctatus",
+  "observations": 109,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/False_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610042141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "obs": 335770934,
+   "place": "Cajamarca, PE",
+   "date": "2000-01-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229803336/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC)",
+   "obs": 134749006,
+   "place": "Peru",
+   "date": "2022-09-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156988017/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) LEONIRES CABRERA, some rights reserved (CC BY-NC)",
+   "obs": 94624625,
+   "place": "Loja, EC",
+   "date": "2021-09-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2552289/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) acatenazzi, some rights reserved (CC BY-NC)",
+   "obs": 2255405,
+   "place": "Sechura, PE-PI, PE",
+   "date": "2006-12-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259091978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roger G. Barboza Castro, some rights reserved (CC BY-NC)",
+   "obs": 150277316,
+   "place": "Lambayeque, PE",
+   "date": "2023-02-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432118796/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yetsin Vinces Rosillo, some rights reserved (CC BY-NC)",
+   "obs": 242385042,
+   "place": "Peru",
+   "date": "2024-09-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583934888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Alonso, some rights reserved (CC BY-NC)",
+   "obs": 322763853,
+   "place": "Peru",
+   "date": "2023-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583945299/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Alonso, some rights reserved (CC BY-NC)",
+   "obs": 322764546,
+   "place": "Peru",
+   "date": "2023-12-16"
+  }
+ ],
+ "wiki": {
+  "title": "False monitor",
+  "url": "https://en.wikipedia.org/wiki/False_monitor",
+  "revision": 1276412958,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The false monitor or tegú varano (Callopistes flavipunctatus) is a species of lizard in the family Teiidae. It is found in northern Peru and southern Ecuador."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The species can reach a total length of 100 cm. Males get larger than females and have more massive heads.",
+     "Like many other teiids, they are capable of dropping and regenerating their tails."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Although data on their diet is scarce, what is known seems to indicate that species feeds on lizards, small rodents, and large insects, although Dicrodon lizards (such as D. guttulatum) may possibly represent the species' main prey. They have also been observed eating fruit, such as that of yellow cordia, as well as small birds such as Peruvian meadowlarks."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "Although it primarily forages for prey on the ground, it may occasionally climb trees as well."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432118796/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yetsin Vinces Rosillo, some rights reserved (CC BY-NC), uploaded by Yetsin Vinces Rosillo",
+   "photo": 432118796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2552289/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) acatenazzi, some rights reserved (CC BY-NC), uploaded by acatenazzi",
+   "photo": 2552289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229803336/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
+   "photo": 229803336
+  }
+ ]
+}

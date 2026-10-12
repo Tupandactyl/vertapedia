@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/403976715/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ethan Beaver, some rights reserved (CC BY-NC), uploaded by Ethan Beaver",
+   "photo": 403976715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77504/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 77504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30514340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 30514340
+  }
+ ]
 }

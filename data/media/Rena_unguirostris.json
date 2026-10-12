@@ -1,0 +1,96 @@
+{
+ "sci": "Rena unguirostris",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32446,
+  "name": "Rena unguirostris",
+  "observations": 11,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Southern_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60125454/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darío Coria, some rights reserved (CC BY-NC)",
+   "obs": 37882050,
+   "place": "Capital, Santiago del Estero, Argentina",
+   "date": "2015-11-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330261745/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gastonfrellatt, some rights reserved (CC BY-NC)",
+   "obs": 188656901,
+   "place": "San Marcos Sierras, Córdoba, Argentina",
+   "date": "2023-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1486336/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Guillermo Debandi, some rights reserved (CC BY)",
+   "obs": 1177720,
+   "place": "Lavalle, AR-MZ, AR",
+   "date": "2007-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299308457/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Andreas Rimoldi, some rights reserved (CC BY)",
+   "obs": 172416068,
+   "place": "Dipartimento di Hucal, Provincia di La Pampa, Argentina",
+   "date": "2022-12-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160651241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ssmuel222, some rights reserved (CC BY-NC)",
+   "obs": 96680081,
+   "place": "Ayacucho, San Luis, Argentina",
+   "date": "2015-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351539580/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlitos Esquivel, some rights reserved (CC BY-NC)",
+   "obs": 199345188,
+   "place": "Limay Mahuida, La Pampa, Argentina",
+   "date": "2024-01-20"
+  }
+ ],
+ "wiki": {
+  "title": "Southern blind snake",
+  "url": "https://en.wikipedia.org/wiki/Southern_blind_snake",
+  "revision": 1355031057,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The southern blind snake (Rena unguirostris) is a species of snake in the family Leptotyphlopidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "R. unguirostris is found in Argentina, Bolivia, and Paraguay."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "R. unguirostris is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1486336/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Guillermo Debandi, some rights reserved (CC BY), uploaded by Guillermo Debandi",
+   "photo": 1486336
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "sci": "Iphisa soinii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1545778,
+  "name": "Iphisa soinii",
+  "observations": 6,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488722117/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike REVI Boyd, some rights reserved (CC BY-NC)",
+   "obs": 271682764,
+   "place": "16310, Peru",
+   "date": "2025-04-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182261109/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) taopina, some rights reserved (CC BY-NC)",
+   "obs": 108270947,
+   "place": "El Eden, Ecuador",
+   "date": "2022-03-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65531527/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jorgebrito, some rights reserved (CC BY-NC)",
+   "obs": 41316432,
+   "place": "Arajuno, Ecuador",
+   "date": "2013-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631135251/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tomdurkin, some rights reserved (CC BY-NC)",
+   "obs": 346251144,
+   "place": "Maynas, PE-LO, PE",
+   "date": "2026-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68143422/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC)",
+   "obs": 42916596,
+   "place": "Shuin Mamus, Taisha, Morona Santiago,Ecuador",
+   "date": "2018-12-07"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68143422/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC), uploaded by Mario Humberto Yánez-Muñoz",
+   "photo": 68143422
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488722117/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike REVI Boyd, some rights reserved (CC BY-NC), uploaded by Mike REVI Boyd",
+   "photo": 488722117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631135251/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tomdurkin, some rights reserved (CC BY-NC)",
+   "photo": 631135251
+  }
+ ]
+}

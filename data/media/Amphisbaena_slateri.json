@@ -1,0 +1,80 @@
+{
+ "sci": "Amphisbaena slateri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31803,
+  "name": "Amphisbaena slateri",
+  "observations": 0,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Slater's_worm_lizard"
+ },
+ "photos": [],
+ "wiki": {
+  "title": "Slater's worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Slater%27s_worm_lizard",
+  "revision": 1355138086,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Slater's worm lizard (Amphisbaena slateri) is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to western South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, slateri, is in honor of Thomas Slater who collected the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. slateri is found in Peru and Bolivia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of A. slateri is forest, at altitudes of 610–2,000 m (2,000–6,560 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "A. slateri has a rounded head and a rounded tail tip. The body coloration is uniformly brown dorsally and ventrally."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. slateri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411042615/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://doi.org/10.3897/evolsyst.2.28059, some rights reserved (CC BY)",
+   "photo": 411042615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411042629/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://doi.org/10.3897/evolsyst.2.28059, some rights reserved (CC BY)",
+   "photo": 411042629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411042636/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://doi.org/10.3897/evolsyst.2.28059, some rights reserved (CC BY)",
+   "photo": 411042636
+  }
+ ]
+}

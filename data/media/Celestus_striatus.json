@@ -1,0 +1,42 @@
+{
+ "sci": "Celestus striatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403154,
+  "name": "Celestus striatus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Celestus_striatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388235063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rudi-diesel, some rights reserved (CC BY-NC)",
+   "obs": 219351035,
+   "place": "Windsor, Jamaika",
+   "date": "1985-04-18"
+  }
+ ],
+ "wiki": {
+  "title": "Celestus striatus",
+  "url": "https://en.wikipedia.org/wiki/Celestus_striatus",
+  "revision": 1355156518,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Celestus striatus is a species of lizard of the Diploglossidae family. It is possibly found in Jamaica."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388235063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rudi-diesel, some rights reserved (CC BY-NC)",
+   "photo": 388235063
+  }
+ ]
+}

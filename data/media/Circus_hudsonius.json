@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114355770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cin-Ty Lee, some rights reserved (CC BY-NC), uploaded by Cin-Ty Lee",
+   "photo": 114355770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134615032/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jonathan Eisen, some rights reserved (CC BY), uploaded by Jonathan Eisen",
+   "photo": 134615032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113215221/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Becky Matsubara, some rights reserved (CC BY-SA)",
+   "photo": 113215221
+  }
+ ]
 }

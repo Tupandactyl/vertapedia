@@ -1,0 +1,87 @@
+{
+ "sci": "Epictia amazonica",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 558887,
+  "name": "Epictia amazonica",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Epictia_amazonica"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684100509/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilson Lombana Riaño, some rights reserved (CC BY-NC)",
+   "obs": 374283132,
+   "place": "Villanueva, Casanare, Colombia",
+   "date": "2026-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402430888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilson Lombana Riaño, some rights reserved (CC BY-NC)",
+   "obs": 226882087,
+   "place": "Villanueva, Casanare, Colombia",
+   "date": "2024-07-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530898067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nikki Moreno, some rights reserved (CC BY-NC)",
+   "obs": 294928763,
+   "place": "Yopal, Casanare, Colombia",
+   "date": "2025-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658237369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Andrés Fonseca Castaño, some rights reserved (CC BY-NC)",
+   "obs": 360719685,
+   "place": "Puerto López, Meta, Colombia",
+   "date": "2026-05-11"
+  }
+ ],
+ "wiki": {
+  "title": "Epictia amazonica",
+  "url": "https://en.wikipedia.org/wiki/Epictia_amazonica",
+  "revision": 1355148373,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Epictia amazonica, also known commonly as the South American blind snake, is a species of snake in the family Leptotyphlopidae. The species is native to northern South America."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Epictia amazonica is black both dorsally and ventrally, except for the rostral and the tail tip which are tan."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Epictia amazonica is found in Colombia, French Guiana, Guyana, and southeastern Venezuela (Amazonas, Bolívar)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Epictia amazonica is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241873437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alicrama, some rights reserved (CC BY-NC)",
+   "photo": 241873437
+  }
+ ]
+}

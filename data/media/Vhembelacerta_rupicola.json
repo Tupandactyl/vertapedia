@@ -1,0 +1,111 @@
+{
+ "sci": "Vhembelacerta rupicola",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540317,
+  "name": "Vhembelacerta rupicola",
+  "observations": 24,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Soutpansberg_rock_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252893485/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 147014942,
+   "place": "Vhembe District Municipality, South Africa",
+   "date": "2022-12-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123576726/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Dirsuwei, some rights reserved (CC BY-NC)",
+   "obs": 75525662,
+   "place": "LP, ZA",
+   "date": "2021-04-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722670188/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 394212112,
+   "place": "Soutpansberg Region",
+   "date": "2014-11-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586992327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) teonj, some rights reserved (CC BY-NC)",
+   "obs": 324325014,
+   "place": "Makhado, Louis Trichardt, Limpopo, ZA",
+   "date": "2025-10-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59175412/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 37340010,
+   "place": "Lajuma, Soutspansberg, Far North, South Africa",
+   "date": "2020-01-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59175415/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 37340012,
+   "place": "Lajuma, Soutspansberg, Far North, South Africa",
+   "date": "2020-01-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619495553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) teonj, some rights reserved (CC BY-NC)",
+   "obs": 340422022,
+   "place": "Makhado, Louis Trichardt, Limpopo, ZA",
+   "date": "2025-11-11"
+  }
+ ],
+ "wiki": {
+  "title": "Soutpansberg rock lizard",
+  "url": "https://en.wikipedia.org/wiki/Soutpansberg_rock_lizard",
+  "revision": 1348883844,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Soutpansberg rock lizard (Vhembelacerta rupicola) is a small (40–50 mm) flattened species of lizard in the family Lacertidae. It has been described as a diurnal, rock-dwelling species inhabiting scree and rocky outcrops at altitudes from 900 to 1600 m. It is endemic to the Limpopo Province in the north of South Africa.",
+     "It is an active forager on the southern slopes of the Soutpansberg hills."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The species name \"rupicola\" means rock-inhabiting as this lizard is quite strictly saxicolous when compared to other species in the area like Trachylepis varia.",
+     "The first part of the genus name \"Vhembe-\" refers to the Vhembe region of Limpopo Province where the species is endemic. The second part of the name, \"lacerta\", refers to the Latin name for lizard, it also retains the historical link to the genus Lacerta to which the species was originally described."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15630965/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 15630965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59175415/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 59175415
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15664950/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 15664950
+  }
+ ]
+}

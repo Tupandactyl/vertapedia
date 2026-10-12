@@ -1,0 +1,78 @@
+{
+ "sci": "Oreosaurus serranus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606513,
+  "name": "Oreosaurus serranus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oreosaurus_serranus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263921244/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex, some rights reserved (CC BY-NC)",
+   "obs": 152854468,
+   "place": "Santa Marta, Magdalena, Colombia",
+   "date": "2023-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381890810/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 215967128,
+   "place": "Reserva ProAves El Dorado",
+   "date": "2024-05-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591348297/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 326504434,
+   "place": "Santa Marta, Magdalena, Colombia",
+   "date": "2025-11-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568390665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nemesiogulfo, some rights reserved (CC BY-NC)",
+   "obs": 314686788,
+   "place": "Santa Marta, Magdalena, Colombia",
+   "date": "2024-05-15"
+  }
+ ],
+ "wiki": {
+  "title": "Oreosaurus serranus",
+  "url": "https://en.wikipedia.org/wiki/Oreosaurus_serranus",
+  "revision": 1328140716,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oreosaurus serranus is a species of lizard in the family Gymnophthalmidae. It is endemic to Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263921244/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex, some rights reserved (CC BY-NC), uploaded by Alex",
+   "photo": 263921244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263921280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex, some rights reserved (CC BY-NC), uploaded by Alex",
+   "photo": 263921280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263921260/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex, some rights reserved (CC BY-NC), uploaded by Alex",
+   "photo": 263921260
+  }
+ ]
+}

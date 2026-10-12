@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27394521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27394521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57580555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 57580555
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560528374/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 560528374
+  }
+ ]
 }

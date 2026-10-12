@@ -1,0 +1,50 @@
+{
+ "sci": "Argyrophis siamensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539375,
+  "name": "Argyrophis siamensis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Argyrophis_siamensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599753217/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chanthea, some rights reserved (CC BY-NC)",
+   "obs": 330705709,
+   "place": "Trapeang Rung, Cambodia",
+   "date": "2025-12-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478553005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) apadmos, some rights reserved (CC BY-NC)",
+   "obs": 266349821,
+   "place": "Ta Nung, Da Lat, Lam Dong, VN",
+   "date": "2025-03-22"
+  }
+ ],
+ "wiki": {
+  "title": "Argyrophis siamensis",
+  "url": "https://en.wikipedia.org/wiki/Argyrophis_siamensis",
+  "revision": 1170212072,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Argyrophis siamensis, also known as the Siamese blind snake or Thailand worm snake, is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478553005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) apadmos, some rights reserved (CC BY-NC)",
+   "photo": 478553005
+  }
+ ]
+}

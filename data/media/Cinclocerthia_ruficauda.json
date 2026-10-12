@@ -144,5 +144,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/775718/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aristoi, some rights reserved (CC BY-SA)",
+   "photo": 775718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/775719/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Mawby, some rights reserved (CC BY)",
+   "photo": 775719
+  }
+ ]
 }

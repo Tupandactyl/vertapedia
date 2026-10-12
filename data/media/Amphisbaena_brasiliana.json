@@ -1,0 +1,72 @@
+{
+ "sci": "Amphisbaena brasiliana",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31725,
+  "name": "Amphisbaena brasiliana",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brazilian_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333796924/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vanessa Carvalho, some rights reserved (CC BY-NC)",
+   "obs": 190416339,
+   "place": "juruti",
+   "date": "2023-09-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115067999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac, some rights reserved (CC BY-NC)",
+   "obs": 70747872,
+   "place": "Caranazal, Santarém - PA, 68040-830, Brasil",
+   "date": "2021-03-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13116365/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 9612015,
+   "place": "Alta Floresta - State of Mato Grosso, 78580-000, Brazil",
+   "date": "2011-10-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14805785/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 10615475,
+   "place": "Alta Floresta - State of Mato Grosso, 78580-000, Brazil",
+   "date": "2018-01-23"
+  }
+ ],
+ "wiki": {
+  "title": "Brazilian worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Brazilian_worm_lizard",
+  "revision": 1355137679,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Brazilian worm lizard (Amphisbaena brasiliana) is a species of worm lizard in the family Amphisbaenidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333796924/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vanessa Carvalho, some rights reserved (CC BY-NC), uploaded by Vanessa Carvalho",
+   "photo": 333796924
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13116365/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA), uploaded by Rich Hoyer",
+   "photo": 13116365
+  }
+ ]
+}

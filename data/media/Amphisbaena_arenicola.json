@@ -1,0 +1,56 @@
+{
+ "sci": "Amphisbaena arenicola",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1031585,
+  "name": "Amphisbaena arenicola",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amphisbaena_arenicola"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62290845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Gabriel Gomes de Souza, some rights reserved (CC BY-NC)",
+   "obs": 39275145,
+   "place": "Içara, BR-SC, BR",
+   "date": "2020-02-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106823164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Gabriel Gomes de Souza, some rights reserved (CC BY-NC)",
+   "obs": 66285700,
+   "place": "Liri, Içara - SC, Brasil",
+   "date": "2020-12-07"
+  }
+ ],
+ "wiki": {
+  "title": "Amphisbaena arenicola",
+  "url": "https://en.wikipedia.org/wiki/Amphisbaena_arenicola",
+  "revision": 1355142365,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Amphisbaena arenicola is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106823164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Gabriel Gomes de Souza, some rights reserved (CC BY-NC), uploaded by João Gabriel Gomes de Souza",
+   "photo": 106823164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62290845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Gabriel Gomes de Souza, some rights reserved (CC BY-NC), uploaded by João Gabriel Gomes de Souza",
+   "photo": 62290845
+  }
+ ]
+}

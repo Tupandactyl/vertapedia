@@ -1,0 +1,56 @@
+{
+ "sci": "Antillotyphlops richardii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1630823,
+  "name": "Antillotyphlops richardii",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Richard's_worm_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171485672/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sarka Martinez, some rights reserved (CC BY-NC-SA)",
+   "obs": 102567426,
+   "place": "St. John, VI",
+   "date": "2021-12-05"
+  }
+ ],
+ "wiki": {
+  "title": "Richard's worm snake",
+  "url": "https://en.wikipedia.org/wiki/Richard%27s_worm_snake",
+  "revision": 1355038404,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Richard's worm snake (Antillotyphlops richardi) is a species of snake in the family Typhlopidae."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, richardi, is in honor of either of two French Botanists, Louis Claude Marie Richard or his son Achille Richard."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is endemic to the Caribbean, where it is found on Anegada in the British Virgin Islands, on the Turks and Caicos Islands, and on the United States Virgin Islands."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171485664/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sarka Martinez, some rights reserved (CC BY-NC-SA), uploaded by Sarka Martinez",
+   "photo": 171485664
+  }
+ ]
+}

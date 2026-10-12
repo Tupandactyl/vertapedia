@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86885524/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY), uploaded by Ian Dugdale",
+   "photo": 86885524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245960063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 245960063
+  }
+ ]
 }

@@ -1,0 +1,69 @@
+{
+ "sci": "Abronia cunemica",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1545926,
+  "name": "Abronia cunemica",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Abronia_cunemica"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448450260/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jocelyn López, some rights reserved (CC BY-NC)",
+   "obs": 250711833,
+   "place": "Coapilla, 29650 Coapilla, Chis., México",
+   "date": "2024-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Abronia cunemica",
+  "url": "https://en.wikipedia.org/wiki/Abronia_cunemica",
+  "revision": 1355172935,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Abronia cunemica, also known commonly as the Coapilla arboreal alligator lizard and el dragoncito de Coapilla in Mexican Spanish, is a species of lizard in the family Anguidae. The species, which was described in 2024 by Adam Clause et al., is native to southern Mexico."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Abronia cunemica is endemic to the Mexican state of Chiapas. The type locality is \"vicinity of Coapilla, Municipio de Coapilla, Northern Highlands, Chiapas, Mexico\"."
+    ]
+   },
+   {
+    "h": "Ecology and behaviour",
+    "level": 2,
+    "paras": [
+     "Abronia cunemica is an elusive tree-dweller, feeding mainly on insects. It is rarely seen due to its limited distribution and ambiguous behaviour.",
+     "It can reach a length of up to 9.8 in (250 mm) and is characterized by its yellow-brown scaly body with darker brown blotches."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448450260/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jocelyn López, some rights reserved (CC BY-NC), uploaded by Jocelyn López",
+   "photo": 448450260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448450303/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jocelyn López, some rights reserved (CC BY-NC), uploaded by Jocelyn López",
+   "photo": 448450303
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448450287/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jocelyn López, some rights reserved (CC BY-NC), uploaded by Jocelyn López",
+   "photo": 448450287
+  }
+ ]
+}

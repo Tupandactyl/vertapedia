@@ -1,0 +1,93 @@
+{
+ "sci": "Acanthodactylus taghitensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35411,
+  "name": "Acanthodactylus taghitensis",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Acanthodactylus_taghitensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116166453/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Henri Fabre, some rights reserved (CC BY-NC)",
+   "obs": 71356288,
+   "place": "Tabelbala, Algérie",
+   "date": "2006-01-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/508179326/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) menad_b, some rights reserved (CC BY-NC)",
+   "obs": 282834489,
+   "place": "El Bnoud, DZ-EB, DZ",
+   "date": "2025-05-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176560023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A. Casado, some rights reserved (CC BY-NC)",
+   "obs": 105254665,
+   "place": "Igli, Argelia",
+   "date": "1991-12-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207622824/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A. Casado, some rights reserved (CC BY-NC)",
+   "obs": 122617369,
+   "place": "Igli, Argelia",
+   "date": "1991-12-23"
+  }
+ ],
+ "wiki": {
+  "title": "Acanthodactylus taghitensis",
+  "url": "https://en.wikipedia.org/wiki/Acanthodactylus_taghitensis",
+  "revision": 1355111843,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acanthodactylus taghitensis  is a species of lizard in the family Lacertidae. The species is endemic to northwestern Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. taghitensis is found in Algeria, Mauritania, and Western Sahara."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitats of A. taghitensis are shrubland and desert."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. taghitensis is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176560023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A. Casado, some rights reserved (CC BY-NC), uploaded by Miguel A. Casado",
+   "photo": 176560023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116166453/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Henri Fabre, some rights reserved (CC BY-NC), uploaded by Pierre-Henri Fabre",
+   "photo": 116166453
+  }
+ ]
+}

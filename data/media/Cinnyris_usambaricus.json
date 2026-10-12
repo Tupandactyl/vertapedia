@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173263838/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, algunos derechos reservados (CC BY-NC), subido por Niall Perrins",
+   "photo": 173263838
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48810875/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, algunos derechos reservados (CC BY-NC), subido por Mikael Bauer",
+   "photo": 48810875
+  }
+ ]
 }

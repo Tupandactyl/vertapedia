@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127957680/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 127957680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15235261/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wynand Uys, some rights reserved (CC BY), uploaded by Wynand Uys",
+   "photo": 15235261
+  }
+ ]
 }

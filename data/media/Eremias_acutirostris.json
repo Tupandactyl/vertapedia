@@ -1,0 +1,42 @@
+{
+ "sci": "Eremias acutirostris",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 36050,
+  "name": "Eremias acutirostris",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eremias_acutirostris"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178885681/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 106483686,
+   "place": null,
+   "date": "2016-03-30"
+  }
+ ],
+ "wiki": {
+  "title": "Point-snouted racerunner",
+  "url": "https://en.wikipedia.org/wiki/Point-snouted_racerunner",
+  "revision": 1315122795,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The point-snouted racerunner (Eremias acutirostris) is a species of lizard found in east Iran, south Afghanistan and Pakistan ."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178885915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 178885915
+  }
+ ]
+}

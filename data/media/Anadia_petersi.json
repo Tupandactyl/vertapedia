@@ -1,0 +1,98 @@
+{
+ "sci": "Anadia petersi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34929,
+  "name": "Anadia petersi",
+  "observations": 11,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Anadia_petersi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/675780967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC)",
+   "obs": 369935376,
+   "place": "Vann Shoote, Mera, Pastaza, EC",
+   "date": "2026-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481179495/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC)",
+   "obs": 267736132,
+   "place": "Mera, Pastaza, EC",
+   "date": "2025-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177577529/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Benjamin Hidalgo, some rights reserved (CC BY)",
+   "obs": 105787667,
+   "place": "Quijos, EC-NA, EC",
+   "date": "2022-01-29"
+  }
+ ],
+ "wiki": {
+  "title": "Anadia petersi",
+  "url": "https://en.wikipedia.org/wiki/Anadia_petersi",
+  "revision": 1355140369,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Anadia petersi, known commonly as Peters' anadia, is a species of lizard in the family Gymnophthalmidae. The species is endemic to Ecuador."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, petersi, is in honor of American herpetologist James A. Peters."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. petersi is found in Loja Province, Ecuador."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of A. petersi is forest at an altitude of 1,700 m (5,600 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. petersi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68025821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC), uploaded by Alex Bentley",
+   "photo": 68025821
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68025837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC), uploaded by Alex Bentley",
+   "photo": 68025837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63687371/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC), uploaded by Alex Bentley",
+   "photo": 63687371
+  }
+ ]
+}

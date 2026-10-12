@@ -1,0 +1,56 @@
+{
+ "sci": "Afrotyphlops congestus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32679,
+  "name": "Afrotyphlops congestus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blotched_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638053475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Fjellström, some rights reserved (CC BY-NC)",
+   "obs": 349748589,
+   "place": "Rafai, Central African Republic",
+   "date": "2026-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386901379/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johnny Giese, some rights reserved (CC BY-NC)",
+   "obs": 218632609,
+   "place": "Karujubu Division, Uganda",
+   "date": "2022-12-15"
+  }
+ ],
+ "wiki": {
+  "title": "Blotched blind snake",
+  "url": "https://en.wikipedia.org/wiki/Blotched_blind_snake",
+  "revision": 1351679644,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The blotched blind snake (Afrotyphlops congestus) is a species of snake in the family Typhlopidae. It is distributed from eastern Nigeria through much of Middle Africa to Uganda. It is a fossorial species that occurs in humid forests, and particularly in the east, in gallery forests. It feeds on ants and termites."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148545553/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Kidwell, some rights reserved (CC BY-NC-SA), uploaded by David Kidwell",
+   "photo": 148545553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34490368/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) janis1, some rights reserved (CC BY-NC), uploaded by janis1",
+   "photo": 34490368
+  }
+ ]
+}

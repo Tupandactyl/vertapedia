@@ -1,0 +1,49 @@
+{
+ "sci": "Pygomeles petteri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37735,
+  "name": "Pygomeles petteri",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pygomeles_petteri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108059475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenbehrens, some rights reserved (CC BY-NC)",
+   "obs": 66955309,
+   "place": "Boeny, MG-MA, MG",
+   "date": "2020-12-21"
+  }
+ ],
+ "wiki": {
+  "title": "Pygomeles petteri",
+  "url": "https://en.wikipedia.org/wiki/Pygomeles_petteri",
+  "revision": 1355146215,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pygomeles petteri, also known commonly as Petter's short skink, is a species of lizard in the family Scincidae. The species is endemic to Madagascar."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name petteri, is in honor of French zoologist Francis Petter."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108059475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) kenbehrens, некоторые права защищены (CC BY-NC)",
+   "photo": 108059475
+  }
+ ]
+}

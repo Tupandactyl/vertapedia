@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170130490/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Denis Makhnovsky, some rights reserved (CC BY-NC), uploaded by Denis Makhnovsky",
+   "photo": 170130490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292471261/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rafael Würtemberger, some rights reserved (CC BY), uploaded by Rafael Würtemberger",
+   "photo": 292471261
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171447469/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nuno Veríssimo P., some rights reserved (CC BY-NC-SA), uploaded by Nuno Veríssimo P.",
+   "photo": 171447469
+  }
+ ]
 }

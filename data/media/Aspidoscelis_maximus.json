@@ -1,0 +1,110 @@
+{
+ "sci": "Aspidoscelis maximus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 194095,
+  "name": "Aspidoscelis maximus",
+  "observations": 304,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_Region_whiptail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123639166/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nohel Alfredo Martínez Armendares, some rights reserved (CC BY-NC)",
+   "obs": 75562760,
+   "place": "Cañada de León, B.C.S., México",
+   "date": "2020-09-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248238065/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jozef K. Richards, some rights reserved (CC BY-NC)",
+   "obs": 144613556,
+   "place": "Mexico",
+   "date": "2022-12-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23263088/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY)",
+   "obs": 15525309,
+   "place": "Aguas Termales Santa Rita, Baja California Sur, Mexico",
+   "date": "2018-08-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546531543/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+   "obs": 303239185,
+   "place": "La Paz, BCS, Mexico",
+   "date": "2025-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149866739/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY)",
+   "obs": 90667778,
+   "place": "Cabo Pulmo, BCS, Mexico",
+   "date": "2021-08-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689900128/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Fran Zayas, some rights reserved (CC BY-NC-SA)",
+   "obs": 377280429,
+   "place": "Los Cabos, B.C.S., México",
+   "date": "2026-07-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245796306/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) María Rodríguez-Salinas, some rights reserved (CC BY-NC-SA)",
+   "obs": 143330437,
+   "place": "Los Cabos, B.C.S., México",
+   "date": "2022-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700667246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alicia Córdova Bracamontes, some rights reserved (CC BY-NC)",
+   "obs": 382851538,
+   "place": "Los Cabos, B.C.S., México",
+   "date": "2026-06-26"
+  }
+ ],
+ "wiki": {
+  "title": "Cape Region whiptail",
+  "url": "https://en.wikipedia.org/wiki/Cape_Region_whiptail",
+  "revision": 1276400540,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cape Region whiptail (Aspidoscelis maximus) is a species of teiid lizard endemic to the Baja California Peninsula of Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149866390/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 149866390
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23263088/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 23263088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23262965/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 23262965
+  }
+ ]
+}

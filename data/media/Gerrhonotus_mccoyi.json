@@ -1,0 +1,56 @@
+{
+ "sci": "Gerrhonotus mccoyi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 797679,
+  "name": "Gerrhonotus mccoyi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gerrhonotus_mccoyi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5193645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marinog, some rights reserved (CC BY-NC)",
+   "obs": 4327556,
+   "place": "Ocampo, Coah., México",
+   "date": "2016-08-10"
+  }
+ ],
+ "wiki": {
+  "title": "Gerrhonotus mccoyi",
+  "url": "https://en.wikipedia.org/wiki/Gerrhonotus_mccoyi",
+  "revision": 1374907125,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Gerrhonotus mccoyi is a species of lizard in the family Anguidae. The species is native to northeastern Mexico."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Gerrhonotus mccoyi is endemic to the Mexican state of Coahuila."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, mccoyi, is in honor of American herpetologist C.J. \"Jack\" McCoy."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5193645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marinog, some rights reserved (CC BY-NC), uploaded by marinog",
+   "photo": 5193645
+  }
+ ]
+}

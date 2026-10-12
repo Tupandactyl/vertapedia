@@ -1,0 +1,43 @@
+{
+ "sci": "Sphenomorphus luelaiorum",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1651783,
+  "name": "Sphenomorphus luelaiorum",
+  "observations": 5,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520039932/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yee, some rights reserved (CC BY-NC)",
+   "obs": 289148920,
+   "place": "272台灣宜蘭縣南澳鄉",
+   "date": "2025-05-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654604837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yee, some rights reserved (CC BY-NC)",
+   "obs": 358812185,
+   "place": "台灣宜蘭縣大同鄉",
+   "date": "2026-05-01"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520039932/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yee, some rights reserved (CC BY-NC), uploaded by Yee",
+   "photo": 520039932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654604837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yee, some rights reserved (CC BY-NC), uploaded by Yee",
+   "photo": 654604837
+  }
+ ]
+}

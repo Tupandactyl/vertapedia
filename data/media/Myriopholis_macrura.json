@@ -1,0 +1,42 @@
+{
+ "sci": "Myriopholis macrura",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146295,
+  "name": "Myriopholis macrura",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Boulenger's_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1801846/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1453766,
+   "place": "Sokotra",
+   "date": "2007-12-27"
+  }
+ ],
+ "wiki": {
+  "title": "Boulenger's blind snake",
+  "url": "https://en.wikipedia.org/wiki/Boulenger%27s_blind_snake",
+  "revision": 1350416228,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Boulenger's blind snake (Myriopholis macrura) is a species of snake in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1801846/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1801846
+  }
+ ]
+}

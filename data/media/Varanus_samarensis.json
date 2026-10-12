@@ -1,0 +1,96 @@
+{
+ "sci": "Varanus samarensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540314,
+  "name": "Varanus samarensis",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Varanus_samarensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410634583/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 231229296,
+   "place": "Gotozon, Loboc, Bohol, Filipijnen",
+   "date": "2010-05-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/740401932/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nittan_lover, some rights reserved (CC BY-NC)",
+   "obs": 403268335,
+   "place": "フィリピン ボホル ローイー タンバンガン",
+   "date": "2026-09-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616327327/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 338863748,
+   "place": "Philippines",
+   "date": "2026-02-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/526068650/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 292336644,
+   "place": "Biabas, Ubay, Bohol, Philippines",
+   "date": "2025-04-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712426143/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julia, some rights reserved (CC BY-NC)",
+   "obs": 388950074,
+   "place": "P44F+68X, Bilar, Bohol, Philippines",
+   "date": "2026-08-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363899840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) donnykc, some rights reserved (CC BY-NC)",
+   "obs": 205783587,
+   "place": "Panglao, Dauis, Bohol, PH",
+   "date": "2024-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664244076/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amanda Bielskas, some rights reserved (CC BY-NC)",
+   "obs": 363872104,
+   "place": "Bilar",
+   "date": "2026-05-22"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus samarensis",
+  "url": "https://en.wikipedia.org/wiki/Varanus_samarensis",
+  "revision": 1374512364,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus samarensis, the Samar water monitor, is a species of lizard of   Varanidae family. It is found in the Philippines."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410634583/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 410634583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363899840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) donnykc, some rights reserved (CC BY-NC)",
+   "photo": 363899840
+  }
+ ]
+}

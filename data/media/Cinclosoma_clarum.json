@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278595455/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) loz88woz, some rights reserved (CC BY-NC)",
+   "photo": 278595455
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251276468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeffrey H. Skevington, some rights reserved (CC BY-NC), uploaded by Jeffrey H. Skevington",
+   "photo": 251276468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188922852/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kris Bernard, some rights reserved (CC BY-NC), uploaded by Kris Bernard",
+   "photo": 188922852
+  }
+ ]
 }

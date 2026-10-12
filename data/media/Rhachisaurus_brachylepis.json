@@ -1,0 +1,50 @@
+{
+ "sci": "Rhachisaurus brachylepis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34853,
+  "name": "Rhachisaurus brachylepis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhachisaurus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155170798/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 93610064,
+   "place": "Rodovia MG-10 Km 94 - Areias, Jaboticatubas - MG, 35847-000, Brasil",
+   "date": "2010-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482557571/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gabrielrocha17, some rights reserved (CC BY-NC)",
+   "obs": 268459366,
+   "place": "Montes Claros - MG, Brasil",
+   "date": "2024-03-23"
+  }
+ ],
+ "wiki": {
+  "title": "Rhachisaurus",
+  "url": "https://en.wikipedia.org/wiki/Rhachisaurus",
+  "revision": 1376664322,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhachisaurus is a genus of the lizard family Gymnophthalmidae. The genus is monotypic, i.e. it has only one species, Rhachisaurus brachylepis. It occurs in Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155170798/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 155170798
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "sci": "Parvoscincus steerei",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146338,
+  "name": "Parvoscincus steerei",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Parvoscincus_steerei"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59411536/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Chafer, some rights reserved (CC BY-NC)",
+   "obs": 37473081,
+   "place": "Sibulan, Negros Oriental, Philippines",
+   "date": "2019-10-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410634665/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 231229300,
+   "place": "Cang-agong, Siquijor, Filipijnen",
+   "date": "2010-05-18"
+  }
+ ],
+ "wiki": {
+  "title": "Parvoscincus steerei",
+  "url": "https://en.wikipedia.org/wiki/Parvoscincus_steerei",
+  "revision": 1314899650,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Steere's sphenomorphus (Parvoscincus steerei)  is a species of skink found in the Philippines."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59411536/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Chafer, some rights reserved (CC BY-NC), uploaded by Chris Chafer",
+   "photo": 59411536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410634665/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 410634665
+  }
+ ]
+}

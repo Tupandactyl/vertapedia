@@ -1,0 +1,91 @@
+{
+ "sci": "Abronia campbelli",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32019,
+  "name": "Abronia campbelli",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Abronia_campbelli"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1461535/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Ariano-Sánchez, some rights reserved (CC BY)",
+   "obs": 1159317,
+   "place": "Guatemala",
+   "date": "2013-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585103723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesse Hosman, some rights reserved (CC BY-NC)",
+   "obs": 323368499,
+   "place": "Guatemala",
+   "date": "2017-06-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33563945/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marvin Molina, some rights reserved (CC BY-NC)",
+   "obs": 21677114,
+   "place": "Guatemala",
+   "date": "2012-08-21"
+  }
+ ],
+ "wiki": {
+  "title": "Abronia campbelli",
+  "url": "https://en.wikipedia.org/wiki/Abronia_campbelli",
+  "revision": 1355093169,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Abronia campbelli, commonly known as Campbell's alligator lizard, is species of critically endangered arboreal alligator lizard in the family Anguidae. Abronia campbelli is endemic to eastern Guatemala."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, campbelli, is in honor of American herpetologist Jonathan A. Campbell."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Abronia campbelli is forest, at altitudes of 1,800–1,900 m (5,900–6,200 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Abronia campbelli is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1461535/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Ariano-Sánchez, some rights reserved (CC BY), uploaded by Daniel Ariano-Sánchez",
+   "photo": 1461535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142203551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mareneeaqueche2003, some rights reserved (CC BY-NC)",
+   "photo": 142203551
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33563945/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marvin Molina, some rights reserved (CC BY-NC), uploaded by Marvin Molina",
+   "photo": 33563945
+  }
+ ]
+}

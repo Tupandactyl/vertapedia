@@ -1,0 +1,73 @@
+{
+ "sci": "Siderolamprus montanus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403075,
+  "name": "Siderolamprus montanus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Siderolamprus_montanus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22920838/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Marina, some rights reserved (CC BY)",
+   "obs": 15310001,
+   "place": "Honduras",
+   "date": "2018-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24172454/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 16129955,
+   "place": "Honduras",
+   "date": "2018-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7757328/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) browntb, some rights reserved (CC BY-NC)",
+   "obs": 6182917,
+   "place": "Honduras",
+   "date": "2016-06-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7757323/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) browntb, some rights reserved (CC BY-NC)",
+   "obs": 6182916,
+   "place": "Honduras",
+   "date": "2016-06-16"
+  }
+ ],
+ "wiki": {
+  "title": "Siderolamprus montanus",
+  "url": "https://en.wikipedia.org/wiki/Siderolamprus_montanus",
+  "revision": 1355155492,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Siderolamprus montanus, the mountain lesser galliwasp, is a species of lizard of the Diploglossidae family. It is found in Honduras.",
+     "It was formerly classified in the genus Diploglossus, but was moved to Siderolamprus in 2021."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7757323/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) browntb, some rights reserved (CC BY-NC)",
+   "photo": 7757323
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7757328/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) browntb, some rights reserved (CC BY-NC)",
+   "photo": 7757328
+  }
+ ]
+}

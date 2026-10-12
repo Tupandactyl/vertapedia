@@ -1,0 +1,37 @@
+{
+ "sci": "Leptotyphlops jacobseni",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 104372,
+  "name": "Leptotyphlops jacobseni",
+  "observations": 4,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100099572/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Joubert Heymans, some rights reserved (CC BY)",
+   "obs": 62472954,
+   "place": "Ehlanzeni, Mpumalanga, South Africa",
+   "date": "2020-10-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165634649/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 99371488,
+   "place": "Buffelskloof NR",
+   "date": "2021-10-23"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165634649/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 165634649
+  }
+ ]
+}

@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61258110/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Martin Kunz, some rights reserved (CC BY)",
+   "photo": 61258110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112920289/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elizaveta Volkova, some rights reserved (CC BY-NC), uploaded by Elizaveta Volkova",
+   "photo": 112920289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43705228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+   "photo": 43705228
+  }
+ ]
 }

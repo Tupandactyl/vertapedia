@@ -1,0 +1,145 @@
+{
+ "sci": "Varanus kingorum",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 39448,
+  "name": "Varanus kingorum",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Kings'_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458760574/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC)",
+   "obs": 255938088,
+   "place": "Northern Territory, AU",
+   "date": "2023-02-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536281391/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smalllampropholis456, some rights reserved (CC BY-NC)",
+   "obs": 297767010,
+   "place": "Timber Creek NT 0852, Australia",
+   "date": "2025-01-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304700532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Graham Armstrong, some rights reserved (CC BY-NC)",
+   "obs": 175335706,
+   "place": "Western Australia, AU",
+   "date": "1981-07-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565572832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kingbrown87, some rights reserved (CC BY-NC)",
+   "obs": 313202389,
+   "place": "Australia",
+   "date": "2025-09-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666387135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) axeholmes, some rights reserved (CC BY-NC)",
+   "obs": 360844998,
+   "place": "Bradshaw, NT, AU",
+   "date": "2021-05-27"
+  }
+ ],
+ "wiki": {
+  "title": "Kings' monitor",
+  "url": "https://en.wikipedia.org/wiki/Kings%27_monitor",
+  "revision": 1354658102,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Kings' monitor (Varanus kingorum), also known commonly as Kings' goanna, Kings' rock monitor, and the pygmy rock monitor, is a small species of monitor lizard in the family Varanidae. The species is native to Australia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "V. kingorum is endemic to the northwestern part of the Northern Territory, and the adjacent northeastern part of Western Australia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The original description of V. kingorum as a species new to science was published in 1980, the result of a revision of Western and Central Australian varanid taxa.",
+     "Kings' monitor belongs to the subgenus Odatria along with the peacock monitor and the Pilbara monitor. Comparatively little is known about this species.",
+     "The holotype was collected beneath rocks in 1978 at Timber Creek in the Northern Territory by Max King."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, kingorum (genitive plural), is in honour of Canadian-born Australian ecologist Richard Dennis King (1942–2002) and Australian geneticist Max King (born 1946), honouring their contributions to the understanding of Australia varanids."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Kings' goanna inhabits rocky outcrops of the Kimberley region and adjacent areas. It is usually found in areas with rock exfoliations or slopes with open bushland and shrubs, where boulders and outcrops provide its required microhabitat. V. kingorum is also found in grasslands."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "V. kingorum is one of the smallest species of its genus, reaching a total length (including tail) of up to 40 cm (16 in). It is reddish brown in colour with a black reticulum in the juvenile that breaks down with age to form dark flecks. Small blackish spots appear at most parts of the dark upper body, and at the throat and near the vent against the creamy colour of the underparts."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "Kings' monitor retreats into holes, rock fissures, and small crevices when it is approached, being extremely shy.",
+     "This species has a long tail that is sometimes used to prod prey out of tight, inaccessible crevices. Such is a behaviour demonstrated by both adults and hatchlings alike, and as such is likely instinctual rather than learned."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "V. kingorum is oviparous. The incubation period of the eggs ranges from 89 to 126 days at a temperature of 29 +/- 2 °C."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "V. kingorum appears to feed exclusively on insects, including locusts, termites, and insect eggs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458760574/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 458760574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170264574/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Baumann, some rights reserved (CC BY)",
+   "photo": 170264574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304700532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Graham Armstrong, some rights reserved (CC BY-NC), uploaded by Graham Armstrong",
+   "photo": 304700532
+  }
+ ]
+}

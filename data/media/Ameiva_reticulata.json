@@ -1,0 +1,42 @@
+{
+ "sci": "Ameiva reticulata",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539242,
+  "name": "Ameiva reticulata",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ameiva_reticulata"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185452769/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY)",
+   "obs": 109977492,
+   "place": "Cañón del Mantaro, Huancavelica, Perú",
+   "date": "2021-03-15"
+  }
+ ],
+ "wiki": {
+  "title": "Ameiva reticulata",
+  "url": "https://en.wikipedia.org/wiki/Ameiva_reticulata",
+  "revision": 1283702307,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ameiva reticulata is a species of teiid lizard endemic to Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272075707/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roy_ramirez1204, some rights reserved (CC BY-NC), uploaded by roy_ramirez1204",
+   "photo": 272075707
+  }
+ ]
+}

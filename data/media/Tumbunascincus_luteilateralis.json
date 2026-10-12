@@ -1,0 +1,58 @@
+{
+ "sci": "Tumbunascincus luteilateralis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540273,
+  "name": "Tumbunascincus luteilateralis",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Orange-speckled_forest-skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88689635/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY)",
+   "obs": 55687291,
+   "place": "Mount Dalrymple, Eungella Hinterland QLD 4741, Australia",
+   "date": "2018-01-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88689628/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY)",
+   "obs": 55687290,
+   "place": "Mount Dalrymple, Eungella Hinterland QLD 4741, Australia",
+   "date": "2018-01-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99597743/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Bean, some rights reserved (CC BY-NC)",
+   "obs": 62181568,
+   "place": "Eungella Hinterland QLD 4741, Australia",
+   "date": "2020-10-10"
+  }
+ ],
+ "wiki": {
+  "title": "Orange-speckled forest-skink",
+  "url": "https://en.wikipedia.org/wiki/Orange-speckled_forest-skink",
+  "revision": 1374704717,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The orange-speckled forest-skink (Tumbunascincus luteilateralis), monotypic in the genus Tumbunascincus, is endemic to Queensland in Australia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88689628/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY), uploaded by dhfischer",
+   "photo": 88689628
+  }
+ ]
+}

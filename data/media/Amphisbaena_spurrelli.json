@@ -1,0 +1,89 @@
+{
+ "sci": "Amphisbaena spurrelli",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31801,
+  "name": "Amphisbaena spurrelli",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spurrell's_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618107727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Bayfield-Farrell, some rights reserved (CC BY-NC)",
+   "obs": 339745390,
+   "place": "8.023437, -77.731982",
+   "date": "2026-02-22"
+  }
+ ],
+ "wiki": {
+  "title": "Spurrell's worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Spurrell%27s_worm_lizard",
+  "revision": 1370490261,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Spurrell's worm lizard (Amphisbaena spurrelli) is a species of amphisbaenian in the family Amphisbaenidae. The species is native to Central America and northern South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, spurrelli, is in honor of British zoologist Herbert George Flaxman Spurrell."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Amphisbaena spurrelli is found in Colombia and Panama."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of Amphisbaena spurrelli is forest at altitudes of 100–200 m (330–660 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Amphisbaena spurrelli may attain a snout-to-vent length (SVL) of 30 cm (12 in), plus a tail 2.7 cm (1.1 in) long."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Amphisbaena spurrelli is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618107727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Bayfield-Farrell, some rights reserved (CC BY-NC), uploaded by Will Bayfield-Farrell",
+   "photo": 618107727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618107758/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Bayfield-Farrell, some rights reserved (CC BY-NC), uploaded by Will Bayfield-Farrell",
+   "photo": 618107758
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618107941/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Bayfield-Farrell, some rights reserved (CC BY-NC), uploaded by Will Bayfield-Farrell",
+   "photo": 618107941
+  }
+ ]
+}

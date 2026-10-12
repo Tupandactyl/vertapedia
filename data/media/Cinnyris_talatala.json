@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149594922/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Callum Evans, some rights reserved (CC BY-NC), uploaded by Callum Evans",
+   "photo": 149594922
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15929484/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernest Porter, some rights reserved (CC BY-NC), uploaded by Ernest Porter",
+   "photo": 15929484
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42121362/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ronel Broderick, some rights reserved (CC BY-NC), uploaded by Ronel Broderick",
+   "photo": 42121362
+  }
+ ]
 }

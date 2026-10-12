@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163755716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 163755716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163755701/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 163755701
+  }
+ ]
 }

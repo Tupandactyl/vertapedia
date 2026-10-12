@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325816945/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zhaoqi Leng, some rights reserved (CC BY-NC), uploaded by Zhaoqi Leng",
+   "photo": 325816945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297684643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 297684643
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256746214/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jagdish Singh Negi, some rights reserved (CC BY), uploaded by Jagdish Singh Negi",
+   "photo": 256746214
+  }
+ ]
 }

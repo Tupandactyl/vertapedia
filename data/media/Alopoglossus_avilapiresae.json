@@ -1,0 +1,50 @@
+{
+ "sci": "Alopoglossus avilapiresae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1120007,
+  "name": "Alopoglossus avilapiresae",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alopoglossus_avilapiresae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125862510/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Esteban Diego Koch, some rights reserved (CC BY-NC)",
+   "obs": 76971811,
+   "place": "Tabatinga - AM, 69640-000, Brasil",
+   "date": "2021-04-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117475883/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Pedroza Guimarães, some rights reserved (CC BY-NC)",
+   "obs": 72088808,
+   "place": "Campus da Universidade Federal do Acre, Rio Branco - AC, 69911, Brasil",
+   "date": "2018-11-02"
+  }
+ ],
+ "wiki": {
+  "title": "Alopoglossus avilapiresae",
+  "url": "https://en.wikipedia.org/wiki/Alopoglossus_avilapiresae",
+  "revision": 1217746079,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Alopoglossus avilapiresae is a species of lizard in the family Alopoglossidae. It is found in Brazil, Colombia, and Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117475883/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Pedroza Guimarães, some rights reserved (CC BY-NC), uploaded by David Pedroza Guimarães",
+   "photo": 117475883
+  }
+ ]
+}

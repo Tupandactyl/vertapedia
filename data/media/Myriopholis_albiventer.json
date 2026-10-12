@@ -1,0 +1,54 @@
+{
+ "sci": "Myriopholis albiventer",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32542,
+  "name": "Myriopholis albiventer",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White-bellied_worm_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/744227099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 405198573,
+   "place": "Siguiri Prefecture, Guinea",
+   "date": "2026-09-16"
+  }
+ ],
+ "wiki": {
+  "title": "White-bellied worm snake",
+  "url": "https://en.wikipedia.org/wiki/White-bellied_worm_snake",
+  "revision": 1359540199,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The white-bellied worm snake (Myriopholis albiventer) is a species of snake in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/744227108/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 744227108
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/744227099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 744227099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/744227035/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 744227035
+  }
+ ]
+}

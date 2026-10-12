@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92539516/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Terrington, some rights reserved (CC BY-NC), uploaded by Daniel Terrington",
+   "photo": 92539516
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110455458/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Halpin, some rights reserved (CC BY-NC), uploaded by Luke Halpin",
+   "photo": 110455458
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95658340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Halpin, some rights reserved (CC BY-NC), uploaded by Luke Halpin",
+   "photo": 95658340
+  }
+ ]
 }

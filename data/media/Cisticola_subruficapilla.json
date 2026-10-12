@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15392458/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marion Maclean, some rights reserved (CC BY-NC), uploaded by Marion Maclean",
+   "photo": 15392458
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360744747/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+   "photo": 360744747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15392460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marion Maclean, some rights reserved (CC BY-NC), uploaded by Marion Maclean",
+   "photo": 15392460
+  }
+ ]
 }

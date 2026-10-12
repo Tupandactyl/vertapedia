@@ -150,5 +150,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101453383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Eppler, some rights reserved (CC BY-NC), uploaded by John Eppler",
+   "photo": 101453383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104814401/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 104814401
+  }
+ ]
 }

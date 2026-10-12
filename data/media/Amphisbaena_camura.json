@@ -1,0 +1,117 @@
+{
+ "sci": "Amphisbaena camura",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31858,
+  "name": "Amphisbaena camura",
+  "observations": 35,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Amphisbaena_camura"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360947141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damian I Rumiz, some rights reserved (CC BY-NC)",
+   "obs": 204224341,
+   "place": "Andrés Ibáñez, BO-SC, BO",
+   "date": "2019-11-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628826874/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lasams, some rights reserved (CC BY-NC)",
+   "obs": 345079084,
+   "place": "Santa Cruz, BO",
+   "date": "2026-03-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627103646/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Drew E. Dittmer, some rights reserved (CC BY-NC)",
+   "obs": 344191567,
+   "place": "111437 San Lorenzo, Paraguay",
+   "date": "2026-03-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174126977/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Galindo, some rights reserved (CC BY)",
+   "obs": 103959655,
+   "place": "Andrés Ibáñez, BO-SC, BO",
+   "date": "2021-12-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11828504/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nina Lester Finley, some rights reserved (CC BY-NC)",
+   "obs": 8807609,
+   "place": "Corumbá - State of Mato Grosso do Sul, Brazil",
+   "date": "2017-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609278545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pamela Table, some rights reserved (CC BY-NC)",
+   "obs": 335392596,
+   "place": "Usher Ríos, Asunción, Departamento Central, PY",
+   "date": "2026-01-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174215288/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Galindo, some rights reserved (CC BY)",
+   "obs": 104009502,
+   "place": "6V55+9PX, Santa Cruz de la Sierra, Bolivia",
+   "date": "2021-12-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63075243/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guitou10, some rights reserved (CC BY-NC)",
+   "obs": 39737960,
+   "place": "General Martin Thomas McMahon, Asunción, Département central, PY",
+   "date": "2020-03-09"
+  }
+ ],
+ "wiki": {
+  "title": "Crooked worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Crooked_worm_lizard",
+  "revision": 1314179019,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The crooked worm lizard (Amphisbaena camura) is a worm lizard species in the genus Amphisbaena."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. camura is found in Bolivia, Brazil, and Paraguay."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174215301/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Galindo, some rights reserved (CC BY), uploaded by Daniel Galindo",
+   "photo": 174215301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11828504/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nina Lester Finley, some rights reserved (CC BY-NC), uploaded by Nina Lester Finley",
+   "photo": 11828504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63075243/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guitou10, some rights reserved (CC BY-NC)",
+   "photo": 63075243
+  }
+ ]
+}

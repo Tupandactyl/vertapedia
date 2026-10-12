@@ -1,0 +1,42 @@
+{
+ "sci": "Acutotyphlops solomonis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32553,
+  "name": "Acutotyphlops solomonis",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Acutotyphlops_solomonis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86598348/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-SA)",
+   "obs": 54425442,
+   "place": "Valevahalo, Guadalcanal, Solomon Islands",
+   "date": "2015-10-12"
+  }
+ ],
+ "wiki": {
+  "title": "Acutotyphlops solomonis",
+  "url": "https://en.wikipedia.org/wiki/Acutotyphlops_solomonis",
+  "revision": 1375986849,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acutotyphlops solomonis is a species of snake in the family Typhlopidae. It is found in the Solomon Islands and Papua New Guinea."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86598348/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-SA), uploaded by jqrichmond",
+   "photo": 86598348
+  }
+ ]
+}

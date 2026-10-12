@@ -1,0 +1,42 @@
+{
+ "sci": "Yanomamia guianensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 964790,
+  "name": "Yanomamia guianensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yanomamia_guianensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58521015/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Leite, some rights reserved (CC BY-NC)",
+   "obs": 36966078,
+   "place": "Uiramutã - RR, 69358-000, Brasil",
+   "date": "2019-12-15"
+  }
+ ],
+ "wiki": {
+  "title": "Yanomamia guianensis",
+  "url": "https://en.wikipedia.org/wiki/Yanomamia_guianensis",
+  "revision": 1376673846,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Yanomamia guianensis is a species of lizard in the family Gymnophthalmidae. It has been found only at higher elevations on Mount Ayanganna and Mount Roraima in west-central Guyana."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58521015/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Leite, some rights reserved (CC BY-NC), uploaded by Gabriel Leite",
+   "photo": 58521015
+  }
+ ]
+}

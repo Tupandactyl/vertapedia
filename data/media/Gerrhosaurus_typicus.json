@@ -1,0 +1,111 @@
+{
+ "sci": "Gerrhosaurus typicus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34733,
+  "name": "Gerrhosaurus typicus",
+  "observations": 27,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Namaqua_plated_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14189669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 10256164,
+   "place": "Bo-Karoo, South Africa",
+   "date": "2018-02-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347522833/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pieter Theron, some rights reserved (CC BY-NC)",
+   "obs": 197330719,
+   "place": "Namakwa District Municipality, South Africa",
+   "date": "2023-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30162799/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kevin Murray, some rights reserved (CC BY)",
+   "obs": 19592952,
+   "place": "Farm Brakputs, Namakwa, South Africa",
+   "date": "2019-01-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175165688/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kevin Murray, some rights reserved (CC BY)",
+   "obs": 104528420,
+   "place": "Brakputs Private Nature Reserve, Namakwa, South Africa",
+   "date": "2021-12-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95715089/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 59893876,
+   "place": "Nuwerus",
+   "date": "2020-08-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330367875/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kurt van Wyk, some rights reserved (CC BY-NC)",
+   "obs": 188711366,
+   "place": "Kamiesberg Local Municipality, South Africa",
+   "date": "2023-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440858553/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andrewaturner, some rights reserved (CC BY-NC)",
+   "obs": 246897404,
+   "place": "West Coast, ZA-WC, ZA",
+   "date": "2024-10-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31178963/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinjolliffe, some rights reserved (CC BY-NC)",
+   "obs": 20200423,
+   "place": "Drie Kuilen",
+   "date": "2016-09-22"
+  }
+ ],
+ "wiki": {
+  "title": "Namaqua plated lizard",
+  "url": "https://en.wikipedia.org/wiki/Namaqua_plated_lizard",
+  "revision": 1314928334,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Namaqua plated lizard or Karoo plated lizard (Gerrhosaurus typicus) is a species of lizard in the Gerrhosauridae family.",
+     "It is endemic to South Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14189661/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 14189661
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14189669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 14189669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14189656/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 14189656
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "sci": "Leposoma baturitensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34951,
+  "name": "Leposoma baturitensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leposoma_baturitensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176369865/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Guilhon, some rights reserved (CC BY-NC)",
+   "obs": 105154885,
+   "place": "Caucaia - CE, Brasil",
+   "date": "2022-01-15"
+  }
+ ],
+ "wiki": {
+  "title": "Leposoma baturitensis",
+  "url": "https://en.wikipedia.org/wiki/Leposoma_baturitensis",
+  "revision": 1352936475,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Leposoma baturitensis is a species of lizard in the family Gymnophthalmidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176369865/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Guilhon, some rights reserved (CC BY-NC), uploaded by Bruno Guilhon",
+   "photo": 176369865
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176369886/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Guilhon, some rights reserved (CC BY-NC), uploaded by Bruno Guilhon",
+   "photo": 176369886
+  }
+ ]
+}

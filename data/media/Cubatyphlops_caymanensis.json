@@ -1,0 +1,48 @@
+{
+ "sci": "Cubatyphlops caymanensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539520,
+  "name": "Cubatyphlops caymanensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cayman_worm_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601076174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tristanv, some rights reserved (CC BY-NC)",
+   "obs": 331347335,
+   "place": null,
+   "date": "2025-12-19"
+  }
+ ],
+ "wiki": {
+  "title": "Cayman worm snake",
+  "url": "https://en.wikipedia.org/wiki/Cayman_worm_snake",
+  "revision": 1313983348,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cayman worm snake (Cubatyphlops caymanensis) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601076242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tristanv, some rights reserved (CC BY-NC)",
+   "photo": 601076242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601076174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tristanv, some rights reserved (CC BY-NC)",
+   "photo": 601076174
+  }
+ ]
+}

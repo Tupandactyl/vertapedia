@@ -1,0 +1,61 @@
+{
+ "sci": "Acanthodactylus khamirensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539195,
+  "name": "Acanthodactylus khamirensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Acanthodactylus_khamirensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509816264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 283716966,
+   "place": "Bandar-e-Abbas, IR-HG, IR",
+   "date": "2025-03-20"
+  }
+ ],
+ "wiki": {
+  "title": "Acanthodactylus khamirensis",
+  "url": "https://en.wikipedia.org/wiki/Acanthodactylus_khamirensis",
+  "revision": 1355111762,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acanthodactylus khamirensis is a species of lizard in the family Lacertidae. The species is endemic to Iran."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. khamirensis is found in Hormozgan Province in southern Iran."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509818180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 509818180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509816264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 509816264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509819926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 509819926
+  }
+ ]
+}

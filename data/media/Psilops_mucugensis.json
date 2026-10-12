@@ -1,0 +1,50 @@
+{
+ "sci": "Psilops mucugensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606520,
+  "name": "Psilops mucugensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Psilops_mucugensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391090717/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Fábio Olmos, some rights reserved (CC BY)",
+   "obs": 220869930,
+   "place": "Barra - BA, Brasil",
+   "date": "2009-11-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177159513/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 105569219,
+   "place": "Mucugê - BA, Brasil",
+   "date": "2010-12-12"
+  }
+ ],
+ "wiki": {
+  "title": "Psilops mucugensis",
+  "url": "https://en.wikipedia.org/wiki/Psilops_mucugensis",
+  "revision": 1218425332,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Psilops mucugensis is a species of lizard in the family Gymnophthalmidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177159513/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 177159513
+  }
+ ]
+}

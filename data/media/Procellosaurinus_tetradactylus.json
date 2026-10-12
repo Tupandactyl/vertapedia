@@ -1,0 +1,42 @@
+{
+ "sci": "Procellosaurinus tetradactylus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34878,
+  "name": "Procellosaurinus tetradactylus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Procellosaurinus_tetradactylus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177735462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 105870250,
+   "place": "Casa Nova - BA, 47300-000, Brasil",
+   "date": "2012-11-14"
+  }
+ ],
+ "wiki": {
+  "title": "Procellosaurinus tetradactylus",
+  "url": "https://en.wikipedia.org/wiki/Procellosaurinus_tetradactylus",
+  "revision": 1351598902,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Procellosaurinus tetradactylus, Rodrigues's four-fingered teiid, is a species of lizard in the family Gymnophthalmidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177735954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 177735954
+  }
+ ]
+}

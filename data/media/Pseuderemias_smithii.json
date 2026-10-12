@@ -1,0 +1,107 @@
+{
+ "sci": "Pseuderemias smithii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35505,
+  "name": "Pseuderemias smithii",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pseuderemias_smithii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655601/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 514862,
+   "place": "Ilaut to South Horr",
+   "date": "2004-02-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158620177/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Claude Kolwelter, some rights reserved (CC BY)",
+   "obs": 95542339,
+   "place": "Waso, Kenia",
+   "date": "2021-08-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451361992/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) solvar123, some rights reserved (CC BY-NC)",
+   "obs": 252170765,
+   "place": "Waso, Kenia",
+   "date": "2024-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54479/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) 116916927065934112165, some rights reserved (CC BY)",
+   "obs": 31513,
+   "place": "West Gate Community Conservancy, Kenya",
+   "date": "2011-09-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667182/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 523820,
+   "place": "North Horr (10 km before)",
+   "date": "2005-07-12"
+  }
+ ],
+ "wiki": {
+  "title": "Pseuderemias smithii",
+  "url": "https://en.wikipedia.org/wiki/Pseuderemias_smithii",
+  "revision": 1355139963,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pseuderemias smithii, also known commonly as Smith's  racerunner or Smith's sand racer, is a species of lizard in the family Lacertidae. The species is native to East Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "P. smithii is named after Arthur Donaldson Smith, who was an American physician and traveller."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. smithii is found in Ethiopia, Kenya, and Somalia."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "P. smithii is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655601/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, niektoré práva vyhradené (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 655601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54479/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) 116916927065934112165, niektoré práva vyhradené (CC BY), uploaded by 116916927065934112165",
+   "photo": 54479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667159/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, niektoré práva vyhradené (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 667159
+  }
+ ]
+}

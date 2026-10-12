@@ -1,0 +1,50 @@
+{
+ "sci": "Holcosus pulcher",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1690308,
+  "name": "Holcosus pulcher",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Holcosus_pulcher"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83575379/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric van den Berghe, some rights reserved (CC BY-NC)",
+   "obs": 52570274,
+   "place": "Granada, Nicaragua",
+   "date": "2009-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83575596/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric van den Berghe, some rights reserved (CC BY-NC)",
+   "obs": 52570317,
+   "place": "Granada, Nicaragua",
+   "date": "2009-09-06"
+  }
+ ],
+ "wiki": {
+  "title": "Holcosus pulcher",
+  "url": "https://en.wikipedia.org/wiki/Holcosus_pulcher",
+  "revision": 1370200465,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Holcosus pulcher is a species of lizard in the family Teiidae. The species is native to Costa Rica and Honduras."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45718425/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jose Abelardo Sánchez, some rights reserved (CC BY-NC), uploaded by Jose Abelardo Sánchez",
+   "photo": 45718425
+  }
+ ]
+}

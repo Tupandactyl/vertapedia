@@ -1,0 +1,85 @@
+{
+ "sci": "Amphisbaena silvestrii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31804,
+  "name": "Amphisbaena silvestrii",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Amphisbaena_silvestrii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163338470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adriano Dias Amaro, some rights reserved (CC BY-NC)",
+   "obs": 98140296,
+   "place": "Planalto da Serra, MT, 78855-000, Brasil",
+   "date": "2021-10-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164262617/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adriano Dias Amaro, some rights reserved (CC BY-NC)",
+   "obs": 98634486,
+   "place": "Planalto da Serra, MT, 78855-000, Brasil",
+   "date": "2021-10-18"
+  }
+ ],
+ "wiki": {
+  "title": "Silvestri's worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Silvestri%27s_worm_lizard",
+  "revision": 1354950833,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Silvestri's worm lizard (Amphisbaena silvestrii) is a species of worm lizard in the family Amphisbaenidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, silvestrii, is in honor of Italian entomologist Filippo Silvestri."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. silvestrii is found in Bolivia (department of Santa Cruz), and also in Brazil (state of Mato Grosso)."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of A. silvestrii are forest and savanna."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "A. silvestrii has two precloacal pores, a character present in only about 20% of species of Amphisbaena."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. silvestrii is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163342523/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adriano Dias Amaro, some rights reserved (CC BY-NC), uploaded by Adriano Dias Amaro",
+   "photo": 163342523
+  }
+ ]
+}

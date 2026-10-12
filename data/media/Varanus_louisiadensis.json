@@ -1,0 +1,56 @@
+{
+ "sci": "Varanus louisiadensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1499819,
+  "name": "Varanus louisiadensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Louisiade_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600378629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shaunplumtree, some rights reserved (CC BY-NC)",
+   "obs": 331008939,
+   "place": "Louisiade Rural LLG, Milne Bay Province, Papua New Guinea",
+   "date": "2025-11-22"
+  }
+ ],
+ "wiki": {
+  "title": "Louisiade monitor",
+  "url": "https://en.wikipedia.org/wiki/Louisiade_monitor",
+  "revision": 1374519832,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Louisiade monitor (Varanus louisiadensis) is a species of monitor lizard native to the Louisiade Archipelago of Papua New Guinea. The species inhabits all three major islands of the Louisiade Archipelago: Tagula Island, Misima Island, and Rossel Island. It was first described in 2023, alongside Varanus tanimbar."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Varanus louisiadensis has a 3% genetic divergence from other species of monitor lizards. Its body is generally black in coloration, with the presence of yellow patterns that become less distinct with age.",
+     "Measurements taken from a sample of 11 individuals resulted in a snout–vent length ranging from 115 mm to 460 mm and tail length ranging from 270 mm to 1170 mm. The length of V. louisiadensis heads are about 1.82 times that of their width."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584019593/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nValter Weijola, Fred Klaus, some rights reserved (CC BY)",
+   "photo": 584019593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600378629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shaunplumtree, some rights reserved (CC BY-NC), uploaded by shaunplumtree",
+   "photo": 600378629
+  }
+ ]
+}

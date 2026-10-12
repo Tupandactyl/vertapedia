@@ -1,0 +1,42 @@
+{
+ "sci": "Ophiomorus persicus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37849,
+  "name": "Ophiomorus persicus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ophiomorus_persicus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142847138/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 86685051,
+   "place": null,
+   "date": "2017-04-13"
+  }
+ ],
+ "wiki": {
+  "title": "Ophiomorus persicus",
+  "url": "https://en.wikipedia.org/wiki/Ophiomorus_persicus",
+  "revision": 1315022870,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The  Persian snake skink (Ophiomorus persicus) is a species of skink endemic to Iran. A specimen collected in 1999 was found on sandy clay soil near Artemisia shrubs. It was originally described in 1867 as Hemipodion persicum."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142847138/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 142847138
+  }
+ ]
+}

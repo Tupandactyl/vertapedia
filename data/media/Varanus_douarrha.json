@@ -1,0 +1,64 @@
+{
+ "sci": "Varanus douarrha",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606537,
+  "name": "Varanus douarrha",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Varanus_douarrha"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417454786/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Winston Poh, some rights reserved (CC BY-NC)",
+   "obs": 234788305,
+   "place": "Namatanai District, New Ireland Province, Papua New Guinea",
+   "date": "2019-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/705284604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) C Biser, some rights reserved (CC BY-NC)",
+   "obs": 385253206,
+   "place": "Boluminski Highway, New Ireland, PG",
+   "date": "2026-07-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417452862/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Winston Poh, some rights reserved (CC BY-NC)",
+   "obs": 234787395,
+   "place": "Namatanai District, New Ireland Province, Papua New Guinea",
+   "date": "2018-06-24"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus douarrha",
+  "url": "https://en.wikipedia.org/wiki/Varanus_douarrha",
+  "revision": 1355155628,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus douarrha, the New Ireland monitor,  is a species of lizard of the family Varanidae. It is found on New Ireland in Papua New Guinea."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417454786/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Winston Poh, some rights reserved (CC BY-NC), uploaded by Winston Poh",
+   "photo": 417454786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417452862/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Winston Poh, some rights reserved (CC BY-NC), uploaded by Winston Poh",
+   "photo": 417452862
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "sci": "Epictia tesselata",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32451,
+  "name": "Epictia tesselata",
+  "observations": 17,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tschudi's_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302914011/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michele, some rights reserved (CC BY-NC)",
+   "obs": 174367296,
+   "place": "15074, Peru",
+   "date": "2023-07-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347734017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mauro Huamaní, some rights reserved (CC BY-NC)",
+   "obs": 197433763,
+   "place": "Pachacamac, Perú",
+   "date": "2023-09-24"
+  }
+ ],
+ "wiki": {
+  "title": "Tschudi's blind snake",
+  "url": "https://en.wikipedia.org/wiki/Tschudi%27s_blind_snake",
+  "revision": 1315221956,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tschudi's blind snake (Epictia tesselata) is a species of snake in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347734017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mauro Huamaní, some rights reserved (CC BY-NC), uploaded by Mauro Huamaní",
+   "photo": 347734017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302914044/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michele, some rights reserved (CC BY-NC), uploaded by Michele",
+   "photo": 302914044
+  }
+ ]
+}

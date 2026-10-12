@@ -1,0 +1,91 @@
+{
+ "sci": "Xenosaurus newmanorum",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 39523,
+  "name": "Xenosaurus newmanorum",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xenosaurus_newmanorum"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311520383/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francisco J. Muñoz Nolasco, some rights reserved (CC BY-NC)",
+   "obs": 178971073,
+   "place": "Xilitla, S.L.P., México",
+   "date": "2017-07-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33433673/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) toño, some rights reserved (CC BY-NC)",
+   "obs": 21598673,
+   "place": "Unnamed Road, San Luis Potosí, México",
+   "date": "2019-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27915091/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Arenas, some rights reserved (CC BY-NC)",
+   "obs": 18273115,
+   "place": "Xilitla, 79900 Xilitla, S.L.P., México",
+   "date": "2017-10-15"
+  }
+ ],
+ "wiki": {
+  "title": "Xenosaurus newmanorum",
+  "url": "https://en.wikipedia.org/wiki/Xenosaurus_newmanorum",
+  "revision": 1355155656,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xenosaurus  newmanorum, also known commonly as Newman's knob-scaled lizard, is a species of lizard in the family Xenosauridae. The species is endemic to Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, newmanorum (Latin, genitive, plural), is in honor of American zoologist Robert J. Newman and his wife Marcella Newman."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Xenosaurus newmanorum is rocky areas in forest, at elevations of 1,100–2,000 m (3,600–6,600 ft), but it has also been found in plantations of citrus fruits and coffee."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The mode of reproduction of Xenosaurus newmanorum has been described as viviparous and as ovoviviparous. Litter size is only one or two young. The gestation period lasts approximately one year, and the female only bears young every other year."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27915091/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Arenas，保留部分权利（CC BY-NC）, 由 Diego Arenas 上传",
+   "photo": 27915091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33433673/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) toño，保留部分权利（CC BY-NC）, 由 toño 上传",
+   "photo": 33433673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33434941/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) toño，保留部分权利（CC BY-NC）, 由 toño 上传",
+   "photo": 33434941
+  }
+ ]
+}

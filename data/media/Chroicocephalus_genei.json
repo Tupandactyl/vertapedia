@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1927834/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1927834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114613322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Александр Гончаров, some rights reserved (CC BY-NC), uploaded by Александр Гончаров",
+   "photo": 114613322
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54643232/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mina Zaki, some rights reserved (CC BY-NC), uploaded by Mina Zaki",
+   "photo": 54643232
+  }
+ ]
 }

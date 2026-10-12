@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109671205/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 109671205
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13409984/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13409984
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474132388/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Sebastián de Jesús Herrera Buenfil, some rights reserved (CC BY), uploaded by Sebastián de Jesús Herrera Buenfil",
+   "photo": 474132388
+  }
+ ]
 }

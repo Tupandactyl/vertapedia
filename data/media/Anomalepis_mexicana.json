@@ -1,0 +1,56 @@
+{
+ "sci": "Anomalepis mexicana",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32419,
+  "name": "Anomalepis mexicana",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Anomalepis_mexicanus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285733967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jorge, some rights reserved (CC BY-NC)",
+   "obs": 165089961,
+   "place": "Cañas, CR-GU, CR",
+   "date": "2023-04-28"
+  }
+ ],
+ "wiki": {
+  "title": "Anomalepis mexicana",
+  "url": "https://en.wikipedia.org/wiki/Anomalepis_mexicana",
+  "revision": 1370516107,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Anomalepis mexicana is a species of snake in the Anomalepididae family."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is endemic to Nicaragua, Costa Rica, Panama, and Peru."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Rounded snout, moderately prominent; nostrils lateral; rostral rather small; prefrontals and frontal subequal, the former forming a median suture; supraoculars well developed; eye distinguishable under the ocular; two superposed preoculars, the lower in contact with the labials; two small suboculars; two upper labials. Total length 32 times diameter of body; tail rounded, broader than long. 22 scales around body; a pair of enlarged preanals. Reddish brown, lighter ventrally, scales with a yellowish-white border. 130 mm (inches) in total length."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285733967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jorge, some rights reserved (CC BY-NC), uploaded by jorge",
+   "photo": 285733967
+  }
+ ]
+}

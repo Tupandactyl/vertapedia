@@ -1,0 +1,58 @@
+{
+ "sci": "Contomastix vacariensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 318658,
+  "name": "Contomastix vacariensis",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Contomastix_vacariensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602980254/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrei Langeloh Roos, some rights reserved (CC BY-NC)",
+   "obs": 332276412,
+   "place": "Lages, SC, Brasil",
+   "date": "2025-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518291616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cassiana Aguiar, some rights reserved (CC BY-NC)",
+   "obs": 288259776,
+   "place": "Lages - SC, Brasil",
+   "date": "2025-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271116792/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) André Ambrozio, some rights reserved (CC BY)",
+   "obs": 156773334,
+   "place": "Rio Grande do Sul, BR",
+   "date": "2013-08-03"
+  }
+ ],
+ "wiki": {
+  "title": "Contomastix vacariensis",
+  "url": "https://en.wikipedia.org/wiki/Contomastix_vacariensis",
+  "revision": 1353767966,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Contomastix vacariensis is a species of teiid lizard endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271116792/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) André Ambrozio, some rights reserved (CC BY), uploaded by André Ambrozio",
+   "photo": 271116792
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "sci": "Trachylepis bouri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1545851,
+  "name": "Trachylepis bouri",
+  "observations": 1,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50761588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC)",
+   "obs": 32370026,
+   "place": "Bentiaba, Angola",
+   "date": "2006-09-08"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50761588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC), uploaded by Octávio Mateus",
+   "photo": 50761588
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328922154/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC), uploaded by Octávio Mateus",
+   "photo": 328922154
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328922152/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC), uploaded by Octávio Mateus",
+   "photo": 328922152
+  }
+ ]
+}

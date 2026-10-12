@@ -1,0 +1,110 @@
+{
+ "sci": "Zonosaurus trilineatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34705,
+  "name": "Zonosaurus trilineatus",
+  "observations": 25,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zonosaurus_trilineatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470090516/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC)",
+   "obs": 261642055,
+   "place": "马达加斯加岛图利亚拉二区",
+   "date": "2025-02-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161247763/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Vallotton, some rights reserved (CC BY-NC)",
+   "obs": 97006356,
+   "place": "Arboretum d'Antsokay, Toliara Province, MG",
+   "date": "2019-12-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120865406/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pfaucher, some rights reserved (CC BY-NC)",
+   "obs": 73985669,
+   "place": "Amboasary-Atsimo, Madagascar",
+   "date": "1995-03-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31268148/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gab_bertin, some rights reserved (CC BY-NC)",
+   "obs": 20257706,
+   "place": "Village des Tortues, Mangily (Madagascar)",
+   "date": "2018-12-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322961754/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean-Jacques Argoud, some rights reserved (CC BY-NC)",
+   "obs": 184970006,
+   "place": "District de Beloha, Madagascar",
+   "date": "2007-03-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322961879/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean-Jacques Argoud, some rights reserved (CC BY-NC)",
+   "obs": 184970116,
+   "place": "District de Beloha, Madagascar",
+   "date": "2007-03-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592327985/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Kappes, some rights reserved (CC BY-NC)",
+   "obs": 326997734,
+   "place": "Berenty Reserve, Réserve de Berenty, Amboasary, Madagascar",
+   "date": "2007-01-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249623647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean Nicolas, some rights reserved (CC BY-NC)",
+   "obs": 145326533,
+   "place": "reserve de Berenty Madagascar",
+   "date": "1998-11-20"
+  }
+ ],
+ "wiki": {
+  "title": "Zonosaurus trilineatus",
+  "url": "https://en.wikipedia.org/wiki/Zonosaurus_trilineatus",
+  "revision": 1355155950,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Zonosaurus trilineatus, the three-lined girdled lizard, is a species of lizard in the family Gerrhosauridae. The species is endemic to Madagascar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111550228/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 111550228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12893765/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 12893765
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111550107/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 111550107
+  }
+ ]
+}

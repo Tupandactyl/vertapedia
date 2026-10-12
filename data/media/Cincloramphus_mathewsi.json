@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163977472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ric Raftis, some rights reserved (CC BY-NC), uploaded by Ric Raftis",
+   "photo": 163977472
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 182264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50554105/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ellura Sanctuary, some rights reserved (CC BY-NC), uploaded by Ellura Sanctuary",
+   "photo": 50554105
+  }
+ ]
 }

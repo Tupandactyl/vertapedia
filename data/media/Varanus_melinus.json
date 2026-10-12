@@ -1,0 +1,54 @@
+{
+ "sci": "Varanus melinus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 39446,
+  "name": "Varanus melinus",
+  "observations": 32,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Quince_Monitor"
+ },
+ "photos": [],
+ "wiki": {
+  "title": "Quince monitor",
+  "url": "https://en.wikipedia.org/wiki/Quince_monitor",
+  "revision": 1349663355,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The quince monitor (Varanus melinus) is a species of monitor lizards endemic to Indonesia. It is very closely related to the mangrove monitor (Varanus indicus), with both belonging to the subgenus Euprepiosaurus."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The quince monitor has a bright yellow head, legs, back and tail.  There is black reticulation on the lower part of its neck. The tail has alternating bands of yellow and black which get pale toward the last third. Its tongue is light pink in color with little variation. The quince monitor's nostril is situated closer to the tip of its snout than to its eye. This species can reach 80–120 cm (2.6–3.9 ft) in total length. A 20 year old male housed at the Cologne Zoo reached a total length of 129 cm, before suddenly dying of what was likely sepsis caused by an earlier bacterial infection.",
+     "This species is very similar in morphology to the mangrove monitor. Baby quince monitors will be darker in color and will gradually get brighter yellow with age."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The quince monitor is likely endemic to the Sula Islands in Indonesia, but it reportedly may occur in Banggai. Initially it was reported to originate from the Obi Islands, but this was only an intermediate wildlife trade station. It is threatened by habitat loss and collection for the wildlife trade."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265520577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alberto G. Nadal, some rights reserved (CC BY-NC), uploaded by Alberto G. Nadal",
+   "photo": 265520577
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46038276/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) mark6mauno, some rights reserved (CC BY)",
+   "photo": 46038276
+  }
+ ]
+}

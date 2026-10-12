@@ -1,0 +1,62 @@
+{
+ "sci": "Calyptommatus leiolepis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34771,
+  "name": "Calyptommatus leiolepis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Calyptommatus_leiolepis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534078441/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, some rights reserved (CC BY-NC)",
+   "obs": 296600517,
+   "place": "Casa Nova, BA, 47300-000, Brasil",
+   "date": "2025-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/636259661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anamaatb, some rights reserved (CC BY-NC)",
+   "obs": 348841588,
+   "place": "Casa Nova, BA, 47300-000, Brasil",
+   "date": "2025-03-12"
+  }
+ ],
+ "wiki": {
+  "title": "Calyptommatus leiolepis",
+  "url": "https://en.wikipedia.org/wiki/Calyptommatus_leiolepis",
+  "revision": 1376208166,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calyptommatus leiolepis is a species of lizard in the family Gymnophthalmidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534078441/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, alguns direitos reservados (CC BY-NC), carregado por Lucas Botelho",
+   "photo": 534078441
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534080820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, alguns direitos reservados (CC BY-NC), carregado por Lucas Botelho",
+   "photo": 534080820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534080826/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, alguns direitos reservados (CC BY-NC), carregado por Lucas Botelho",
+   "photo": 534080826
+  }
+ ]
+}

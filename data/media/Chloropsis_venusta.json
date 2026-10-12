@@ -79,5 +79,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83633227/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY), uploaded by Attila Steiner",
+   "photo": 83633227
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83638448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 83638448
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92442752/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 92442752
+  }
+ ]
 }

@@ -1,0 +1,87 @@
+{
+ "sci": "Hemicordylus nebulosus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 98432,
+  "name": "Hemicordylus nebulosus",
+  "observations": 11,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hemicordylus_nebulosus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191114643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 113115163,
+   "place": "Western Cape, ZA",
+   "date": "2022-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191114485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 113115162,
+   "place": "Western Cape, ZA",
+   "date": "2022-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211954078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) costannie, some rights reserved (CC BY-NC)",
+   "obs": 125008456,
+   "place": "Western Cape, ZA",
+   "date": "2004-02-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299749789/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 172654136,
+   "place": "Western Cape, ZA",
+   "date": "2022-08-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346227458/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Rebelo, some rights reserved (CC BY-SA)",
+   "obs": 196696343,
+   "place": "Western Cape, ZA",
+   "date": "2024-01-12"
+  }
+ ],
+ "wiki": {
+  "title": "Hemicordylus nebulosus",
+  "url": "https://en.wikipedia.org/wiki/Hemicordylus_nebulosus",
+  "revision": 1314868556,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hemicordylus nebulosus is a species of lizard in the Cordylidae family.",
+     "It is endemic to South Africa on the mist belt of northern slope of the Hottentots Holland Mountains. The scientific name, H. nebulosus means cloud or dark crag lizard. The name was given due to the melanistic body color. Other names include the dwarf cliff lizard, dwarf crag lizard, dark crag lizard and the cloudy crag lizard."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191113978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 191113978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191114485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 191114485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191114810/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 191114810
+  }
+ ]
+}

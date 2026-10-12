@@ -1,0 +1,115 @@
+{
+ "sci": "Afrotyphlops schmidti",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32559,
+  "name": "Afrotyphlops schmidti",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Schmidt’s_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618368691/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) william van Niekerk, some rights reserved (CC BY-NC)",
+   "obs": 339873232,
+   "place": "Kalumbila, Zambia",
+   "date": "2025-11-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66102590/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nico Vromant, some rights reserved (CC BY-NC)",
+   "obs": 41666921,
+   "place": "Roma, Lusaka, Zambia",
+   "date": "2020-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1467127/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC)",
+   "obs": 1163996,
+   "place": "Kasanka National Park",
+   "date": "2014-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170994679/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mac H. Alford, some rights reserved (CC BY-NC)",
+   "obs": 102310564,
+   "place": "Mulungushi University (Great North Road Campus, \"sabbatical house\"), Kapiri Mposhi, Zambia",
+   "date": "2021-11-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453319174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MSTour, some rights reserved (CC BY-NC)",
+   "obs": 253200541,
+   "place": "Kambove, Democratic Republic of the Congo",
+   "date": "2014-11-01"
+  }
+ ],
+ "wiki": {
+  "title": "Schmidt's blind snake",
+  "url": "https://en.wikipedia.org/wiki/Schmidt%27s_blind_snake",
+  "revision": 1355038414,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Schmidt's blind snake (Afrotyphlops schmidti, formerly Typhlops schmidti) is a species of snake in the family Typhlopidae. The species is endemic to Central and Southern Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schmidti, is in honor of American herpetologist Karl Patterson Schmidt."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognized:Afrotyphlops schmidti schmidti  (Laurent, 1956)",
+     "Afrotyphlops schmidti laurenti  (Laurent, 1968)"
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. schmidti is found in Angola, Zambia, and eastern and southern Democratic Republic of the Congo (formerly known as Zaire)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. schmidti is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1467128/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 1467128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1467127/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 1467127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1467132/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 1467132
+  }
+ ]
+}

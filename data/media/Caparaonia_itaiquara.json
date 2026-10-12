@@ -1,0 +1,56 @@
+{
+ "sci": "Caparaonia itaiquara",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 96724,
+  "name": "Caparaonia itaiquara",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Caparaonia"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104832858/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique C. Costa, some rights reserved (CC BY-NC)",
+   "obs": 65158879,
+   "place": "Pico da Bandeira, Ibitirama - ES, 29540-000, Brasil",
+   "date": "2014-11-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83412316/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan L. F. Magalhaes, some rights reserved (CC BY-NC)",
+   "obs": 52470463,
+   "place": "Alto Caparaó - MG, Brasil",
+   "date": "2013-05-03"
+  }
+ ],
+ "wiki": {
+  "title": "Caparaonia",
+  "url": "https://en.wikipedia.org/wiki/Caparaonia",
+  "revision": 1376208181,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Caparaonia is a genus of the lizard in family Gymnophthalmidae. The genus is monotypic, i.e. it has only one species, Caparaonia itaiquara. It is endemic to Brazil and is known from the Caparaó National Park on the border between Minas Gerais and Espírito Santo states."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104832858/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique C. Costa, some rights reserved (CC BY-NC), uploaded by Henrique C. Costa",
+   "photo": 104832858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83412316/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan L. F. Magalhaes, some rights reserved (CC BY-NC), uploaded by Ivan L. F. Magalhaes",
+   "photo": 83412316
+  }
+ ]
+}

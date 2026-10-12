@@ -1,0 +1,78 @@
+{
+ "sci": "Scincella forbesorum",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 112314,
+  "name": "Scincella forbesorum",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scincella_forbesorum"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12560713/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alain_tobon, some rights reserved (CC BY-NC)",
+   "obs": 9270858,
+   "place": "Pisaflores, Hgo., Mexico",
+   "date": "2012-08-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642100800/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mario a, some rights reserved (CC BY-NC)",
+   "obs": 351832688,
+   "place": "79910 S.L.P., México",
+   "date": "2026-04-21"
+  }
+ ],
+ "wiki": {
+  "title": "Scincella forbesorum",
+  "url": "https://en.wikipedia.org/wiki/Scincella_forbesorum",
+  "revision": 1355144416,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scincella forbesorum, also known commonly as Forbes' forest ground skink and la escíncela de bosque de Forbes  in Mexican Spanish, is a species of lizard in the family Scincidae. The species is endemic to Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, forbesorum (genitive plural), is in honor of Mr. and Mrs. Dyfrig McHattie Forbes, Mexican planters who assisted visiting herpetologists."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "S. forbesorum is known only from the Mexican state of Hidalgo in eastern central Mexico."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of S. forbesorum is forest, to which the common names refer. The holotype was collected at an altitude of 7,000 ft (2,100 m)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The mode of reproduction of S. forbesorum is unknown."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12560713/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alain_tobon, some rights reserved (CC BY-NC), uploaded by alain_tobon",
+   "photo": 12560713
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "sci": "Alopoglossus embera",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606423,
+  "name": "Alopoglossus embera",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alopoglossus_embera"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738499096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 402296927,
+   "place": "Reserva ProAves Ranita Terribilis",
+   "date": "2026-09-17"
+  }
+ ],
+ "wiki": {
+  "title": "Alopoglossus embera",
+  "url": "https://en.wikipedia.org/wiki/Alopoglossus_embera",
+  "revision": 1355141477,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Alopoglossus embera is a species of lizard in the family Alopoglossidae. The species is endemic to western Colombia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, embera, is in honor of the Emberá, an indigenous people of Colombia and Panama."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "In Colombia, A. embra is found in Cauca Department and Valle del Cauca Department."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738499096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC), uploaded by Fundacion ProAves",
+   "photo": 738499096
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "sci": "Elgaria velazquezi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32069,
+  "name": "Elgaria velazquezi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elgaria_velazquezi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61555297/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 38705835,
+   "place": "Mulegé, Baja California Sur, Mexico",
+   "date": "2018-02-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530600745/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam, some rights reserved (CC BY-NC)",
+   "obs": 294769677,
+   "place": "Mulegé, MX-BS, MX",
+   "date": "2025-06-28"
+  }
+ ],
+ "wiki": {
+  "title": "Elgaria velazquezi",
+  "url": "https://en.wikipedia.org/wiki/Elgaria_velazquezi",
+  "revision": 1355156736,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The central peninsular alligator lizard (Elgaria velazquezi) is a species of medium-sized lizard in the family Anguidae. The species is endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61555297/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 61555297
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530600745/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam, some rights reserved (CC BY-NC), uploaded by Adam",
+   "photo": 530600745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530600746/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam, some rights reserved (CC BY-NC), uploaded by Adam",
+   "photo": 530600746
+  }
+ ]
+}

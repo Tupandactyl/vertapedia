@@ -1,0 +1,77 @@
+{
+ "sci": "Varanus rasmusseni",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 114890,
+  "name": "Varanus rasmusseni",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Varanus_rasmusseni"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171929744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Kim Penetrante, some rights reserved (CC BY-NC)",
+   "obs": 102804081,
+   "place": "Panglima Sugala, Tawi-Tawi, Philippines",
+   "date": "2021-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357170830/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abdel1980, some rights reserved (CC BY-NC)",
+   "obs": 202252383,
+   "place": "Bongao, Tawi-Tawi, Philippines",
+   "date": "2023-11-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357170356/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abdel1980, some rights reserved (CC BY-NC)",
+   "obs": 202252381,
+   "place": "Bongao, Tawi-Tawi, Philippines",
+   "date": "2024-01-26"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus rasmusseni",
+  "url": "https://en.wikipedia.org/wiki/Varanus_rasmusseni",
+  "revision": 1374512358,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus rasmusseni is a species of monitor lizard. It is found in the Philippine islands of Tawi-Tawi, Jolo, and the Bitinan islands, in the Sulu Archipelago."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, rasmusseni, is in honor of Danish herpetologist Jens Bødtker Rasmussen"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172177005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Kim Penetrante, some rights reserved (CC BY-NC), uploaded by Gerson Kim Penetrante",
+   "photo": 172177005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171929744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Kim Penetrante, some rights reserved (CC BY-NC), uploaded by Gerson Kim Penetrante",
+   "photo": 171929744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357170835/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abdel1980, some rights reserved (CC BY-NC)",
+   "photo": 357170835
+  }
+ ]
+}

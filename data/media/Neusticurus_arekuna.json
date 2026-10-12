@@ -1,0 +1,50 @@
+{
+ "sci": "Neusticurus arekuna",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 738123,
+  "name": "Neusticurus arekuna",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Neusticurus_arekuna"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581343949/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 321448744,
+   "place": "Pacaraima - Roraima, 69345-000, Brésil",
+   "date": "2025-09-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588168860/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Piolain, some rights reserved (CC BY-NC)",
+   "obs": 324914227,
+   "place": "Pacaraima - Roraima, 69345-000, Brésil",
+   "date": "2025-09-21"
+  }
+ ],
+ "wiki": {
+  "title": "Neusticurus arekuna",
+  "url": "https://en.wikipedia.org/wiki/Neusticurus_arekuna",
+  "revision": 1376700048,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Neusticurus arekuna is a species of lizard in the family Gymnophthalmidae. It is found in Venezuela and Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581343949/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC), uploaded by Arnaud Aury",
+   "photo": 581343949
+  }
+ ]
+}

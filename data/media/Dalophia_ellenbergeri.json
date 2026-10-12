@@ -1,0 +1,83 @@
+{
+ "sci": "Dalophia ellenbergeri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31687,
+  "name": "Dalophia ellenbergeri",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dalophia_ellenbergeri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501866363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marcel, some rights reserved (CC BY-NC)",
+   "obs": 279477322,
+   "place": "Kalabo, Zambia",
+   "date": "2025-05-07"
+  }
+ ],
+ "wiki": {
+  "title": "Dalophia ellenbergeri",
+  "url": "https://en.wikipedia.org/wiki/Dalophia_ellenbergeri",
+  "revision": 1355138529,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dalophia ellenbergeri is a species of amphisbaenian in the family Amphisbaenidae. The species is native to southern Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, ellenbergeri, is in honor of Victor Ellenberger (1879–1972), who was an African-born Swiss missionary and naturalist."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "D. ellenbergeri is found in Angola and Zambia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of D. ellenbergeri is savanna."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "D. ellenbergeri is terrestrial and fossorial."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "D. ellenbergeri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501866553/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marcel, some rights reserved (CC BY-NC), uploaded by Marcel",
+   "photo": 501866553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501866363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marcel, some rights reserved (CC BY-NC), uploaded by Marcel",
+   "photo": 501866363
+  }
+ ]
+}

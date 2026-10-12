@@ -1,0 +1,70 @@
+{
+ "sci": "Mesalina saudiarabica",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 564807,
+  "name": "Mesalina saudiarabica",
+  "observations": 13,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mesalina_saudiarabica"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350515832/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 198826601,
+   "place": "Al Majmaah Saudi Arabia",
+   "date": "2023-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416566597/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mohamed Elshafey, some rights reserved (CC BY-NC)",
+   "obs": 234332988,
+   "place": "15496, Saudi Arabia",
+   "date": "2024-07-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350516625/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 198826839,
+   "place": "Al Majmaah Saudi Arabia",
+   "date": "2023-03-13"
+  }
+ ],
+ "wiki": {
+  "title": "Mesalina saudiarabica",
+  "url": "https://en.wikipedia.org/wiki/Mesalina_saudiarabica",
+  "revision": 1376373158,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Mesalina saudiarabica is a species of sand-dwelling lizard in the family Lacertidae. The species is endemic to Saudi Arabia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350517233/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 350517233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350516625/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 350516625
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350515832/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 350515832
+  }
+ ]
+}

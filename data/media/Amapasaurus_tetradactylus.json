@@ -1,0 +1,138 @@
+{
+ "sci": "Amapasaurus tetradactylus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34973,
+  "name": "Amapasaurus tetradactylus",
+  "observations": 9,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Amapasaurus_tetradactylus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380798892/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 215391070,
+   "place": "Serra do Navio - Amapá, 68948-000, Brésil",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417456385/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 234791835,
+   "place": "Serra do Navio - Amapá, 68948-000, Brésil",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479344309/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC)",
+   "obs": 266780014,
+   "place": "Maripasoula 97370, Guyane française",
+   "date": "2010-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386242789/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Piolain, some rights reserved (CC BY-NC)",
+   "obs": 218285919,
+   "place": "Serra do Navio - Amapá, 68948-000, Brésil",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219894996/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC)",
+   "obs": 129398188,
+   "place": "Maripasoula, Guyane française, mont Itoupé, zone coeur du Parc Amazonien de Guyane",
+   "date": "2016-01-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417456334/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 234791825,
+   "place": "Serra do Navio - Amapá, 68948-000, Brésil",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322339038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roger Le Guen, some rights reserved (CC BY-NC)",
+   "obs": 184640925,
+   "place": "Camopi 97330, Guyane française",
+   "date": "2010-03-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380800355/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 215391075,
+   "place": "Serra do Navio - Amapá, 68948-000, Brésil",
+   "date": "2024-05-08"
+  }
+ ],
+ "wiki": {
+  "title": "Four-toed amapasaurus",
+  "url": "https://en.wikipedia.org/wiki/Four-toed_amapasaurus",
+  "revision": 1332525309,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The four-toed amapasaurus (Amapasaurus tetradactylus) is a lizard that was discovered in 1970 by Osvaldo Rodrigues da Cunha. It is the only species in the genus Amapasaurus."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "This species is found in Brazil and Guyana."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It has small atrophied legs. It is very similar to the genus Leposoma, except for the number of fingers. Amapasaurus tetradactylus has four digits, and the lizards of the genus Leposoma have five."
+    ]
+   },
+   {
+    "h": "Habitat and behavior",
+    "level": 2,
+    "paras": [
+     "It lives on the forest floor and is diurnal."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Amapasaurus tetradactylus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479344309/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 479344309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380798892/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC), uploaded by Arnaud Aury",
+   "photo": 380798892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219895190/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC), uploaded by Sébastien SANT",
+   "photo": 219895190
+  }
+ ]
+}

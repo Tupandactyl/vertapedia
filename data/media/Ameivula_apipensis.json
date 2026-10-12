@@ -1,0 +1,58 @@
+{
+ "sci": "Ameivula apipensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 738063,
+  "name": "Ameivula apipensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ameivula_apipensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/552902548/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hayhusby, some rights reserved (CC BY-NC)",
+   "obs": 306585143,
+   "place": "Departamento de Neembucu, PY",
+   "date": "2025-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224870021/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Langstroth, some rights reserved (CC BY-NC)",
+   "obs": 132079413,
+   "place": "Isla Yacyreta, Paraguay",
+   "date": "2012-05-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568428834/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergio Galeano, some rights reserved (CC BY-NC)",
+   "obs": 314623177,
+   "place": "Isla Yacyreta, 071906, Paraguay",
+   "date": "2025-09-17"
+  }
+ ],
+ "wiki": {
+  "title": "Ameivula apipensis",
+  "url": "https://en.wikipedia.org/wiki/Ameivula_apipensis",
+  "revision": 1376207989,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ameivula apipensis is a species of teiid lizard endemic to Argentina."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224870021/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Langstroth, some rights reserved (CC BY-NC), uploaded by Robert Langstroth",
+   "photo": 224870021
+  }
+ ]
+}

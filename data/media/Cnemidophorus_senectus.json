@@ -1,0 +1,72 @@
+{
+ "sci": "Cnemidophorus senectus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 98087,
+  "name": "Cnemidophorus senectus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cnemidophorus_senectus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174116338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro D. Vernet P., some rights reserved (CC BY-NC)",
+   "obs": 103956512,
+   "place": "Los Cocos Sur, Porlamar 6301, Nueva Esparta, Venezuela",
+   "date": "2021-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108126287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro D. Vernet P., some rights reserved (CC BY-NC)",
+   "obs": 66991793,
+   "place": "La Chica, Macanao, Nueva Esparta, Venezuela",
+   "date": "2015-07-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464906263/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Никонова Вероника, some rights reserved (CC BY-NC)",
+   "obs": 259038437,
+   "place": "Плайя Эль Агуа, 6324, Нуэва-Эспарта, Венесуэла",
+   "date": "2011-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318600581/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juliovilam, some rights reserved (CC BY-NC)",
+   "obs": 182701710,
+   "place": "Antonio Díaz",
+   "date": "2023-09-10"
+  }
+ ],
+ "wiki": {
+  "title": "Cnemidophorus senectus",
+  "url": "https://en.wikipedia.org/wiki/Cnemidophorus_senectus",
+  "revision": 1376203297,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cnemidophorus senectus is a species of teiid lizard endemic to Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108126287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro D. Vernet P., some rights reserved (CC BY-NC), uploaded by Pedro D. Vernet P.",
+   "photo": 108126287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318600581/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juliovilam, some rights reserved (CC BY-NC)",
+   "photo": 318600581
+  }
+ ]
+}

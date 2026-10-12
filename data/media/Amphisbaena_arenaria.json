@@ -1,0 +1,42 @@
+{
+ "sci": "Amphisbaena arenaria",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31862,
+  "name": "Amphisbaena arenaria",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Amphisbaena_arenaria"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177736324/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 105870456,
+   "place": "Raso da Catarina - Canché, Jeremoabo - BA, 48540-000, Brasil",
+   "date": "2011-08-25"
+  }
+ ],
+ "wiki": {
+  "title": "Amphisbaena arenaria",
+  "url": "https://en.wikipedia.org/wiki/Amphisbaena_arenaria",
+  "revision": 1275864425,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Amphisbaena arenaria is a species of worm lizard found in Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177736324/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 177736324
+  }
+ ]
+}

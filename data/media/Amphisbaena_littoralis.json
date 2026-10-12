@@ -1,0 +1,58 @@
+{
+ "sci": "Amphisbaena littoralis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539254,
+  "name": "Amphisbaena littoralis",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amphisbaena_littoralis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389583122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcosdantasvs, some rights reserved (CC BY-NC)",
+   "obs": 220066401,
+   "place": null,
+   "date": "2024-06-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385558213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcosdantasvs, some rights reserved (CC BY-NC)",
+   "obs": 217913711,
+   "place": null,
+   "date": "2024-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130367038/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M. A. Lagares, some rights reserved (CC BY-NC)",
+   "obs": 79589020,
+   "place": "Touros - RN, Brasil",
+   "date": "2019-05-12"
+  }
+ ],
+ "wiki": {
+  "title": "Amphisbaena littoralis",
+  "url": "https://en.wikipedia.org/wiki/Amphisbaena_littoralis",
+  "revision": 1368575910,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Amphisbaena littoralis is a species of worm lizards found in Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130367038/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M. A. Lagares, some rights reserved (CC BY-NC), uploaded by M. A. Lagares",
+   "photo": 130367038
+  }
+ ]
+}

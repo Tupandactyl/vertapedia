@@ -1,0 +1,42 @@
+{
+ "sci": "Eremias cholistanica",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 100319,
+  "name": "Eremias cholistanica",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eremias_cholistanica"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/640034348/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mudassar Basri, some rights reserved (CC BY-NC)",
+   "obs": 350760918,
+   "place": "4Q83+2WW, Yazman Housing Scheme Yazman Housing Society, Yazman, Pakistan",
+   "date": "2024-08-06"
+  }
+ ],
+ "wiki": {
+  "title": "Eremias cholistanica",
+  "url": "https://en.wikipedia.org/wiki/Eremias_cholistanica",
+  "revision": 901125562,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eremias cholistanica is a species of lizard found in Pakistan."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/640034348/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mudassar Basri, some rights reserved (CC BY-NC), uploaded by Mudassar Basri",
+   "photo": 640034348
+  }
+ ]
+}

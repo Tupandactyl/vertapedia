@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444800955/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 444800955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444801242/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 444801242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337788016/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "Oikeuksia ei pidätetä, lähettänyt James Eaton",
+   "photo": 337788016
+  }
+ ]
 }

@@ -1,0 +1,63 @@
+{
+ "sci": "Amphisbaena stejnegeri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31800,
+  "name": "Amphisbaena stejnegeri",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stejneger's_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4461519/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) silvama, some rights reserved (CC BY-NC)",
+   "obs": 3816415,
+   "place": "Ituni, Guyana",
+   "date": "2013-01-08"
+  }
+ ],
+ "wiki": {
+  "title": "Stejneger's worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Stejneger%27s_worm_lizard",
+  "revision": 1355138114,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Stejneger's worm lizard (Amphisbaena stejnegeri) is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to Guyana."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, stejnegeri, is in honor of Norwegian-born American herpetologist Leonhard Stejneger."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of A. stejnegeri is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. stejnegeri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4461519/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) silvama, some rights reserved (CC BY-NC)",
+   "photo": 4461519
+  }
+ ]
+}

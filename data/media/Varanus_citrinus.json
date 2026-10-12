@@ -1,0 +1,50 @@
+{
+ "sci": "Varanus citrinus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403055,
+  "name": "Varanus citrinus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Varanus_citrinus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458760025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC)",
+   "obs": 255938076,
+   "place": "Gulf, AU-NT, AU",
+   "date": "2021-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/686931203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dylanmorley, some rights reserved (CC BY-NC)",
+   "obs": 375736159,
+   "place": "South West Gulf Ward, McArthur, NT, AU",
+   "date": "2026-06-27"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus citrinus",
+  "url": "https://en.wikipedia.org/wiki/Varanus_citrinus",
+  "revision": 1370525927,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus citrinus is a species of monitor lizard in the family Varanidae. The species is endemic to Australia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458760025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 458760025
+  }
+ ]
+}

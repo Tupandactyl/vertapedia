@@ -1,0 +1,57 @@
+{
+ "sci": "Afrotyphlops angolensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 93489,
+  "name": "Afrotyphlops angolensis",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Angola_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174013942/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) LUKE ABBOT, some rights reserved (CC BY-NC)",
+   "obs": 103900356,
+   "place": "Akagera National Park, Prefegitura ya Byumba, RW",
+   "date": "2021-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/510855209/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) koenbetjes, some rights reserved (CC BY-NC)",
+   "obs": 284273120,
+   "place": "Kanungu, Uganda",
+   "date": "2025-03-28"
+  }
+ ],
+ "wiki": {
+  "title": "Angola blind snake",
+  "url": "https://en.wikipedia.org/wiki/Angola_blind_snake",
+  "revision": 1313771353,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Angola blind snake or Angolan blind snake (Afrotyphlops angolensis) is a species of snake in the Typhlopidae family. While named after its type locality in Angola, it is widespread in Central and East Africa. Specifically, it is found in Angola, northern Zambia, the Democratic Republic of the Congo, the Republic of the Congo, Gabon, Cameroon, the Central African Republic, Tanzania, Uganda, Kenya, Rwanda, and Burundi.",
+     "Afrotyphlops angolensis occurs in a variety of habitats, including Afromontane forest, lowland tropical moist forest, grassland mosaic, and bushland. It appears to prefer moister habitats."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4606782/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 4606782
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97811315/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 97811315
+  }
+ ]
+}

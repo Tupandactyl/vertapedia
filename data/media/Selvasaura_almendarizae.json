@@ -1,0 +1,70 @@
+{
+ "sci": "Selvasaura almendarizae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1304724,
+  "name": "Selvasaura almendarizae",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Selvasaura_almendarizae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168035630/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC)",
+   "obs": 100661198,
+   "place": "Pastaza, EC-PA, EC",
+   "date": "2021-10-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362823501/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC)",
+   "obs": 205213988,
+   "place": "Mera, Ecuador",
+   "date": "2021-12-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103142241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC)",
+   "obs": 64180996,
+   "place": "Ecuador",
+   "date": "2020-10-01"
+  }
+ ],
+ "wiki": {
+  "title": "Selvasaura almendarizae",
+  "url": "https://en.wikipedia.org/wiki/Selvasaura_almendarizae",
+  "revision": 1376703725,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Selvasaura almendarizae, Almendáriz's microtegu, occurs in Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362823501/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC), uploaded by Zane Libke",
+   "photo": 362823501
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362823513/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC), uploaded by Zane Libke",
+   "photo": 362823513
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362823526/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC), uploaded by Zane Libke",
+   "photo": 362823526
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "sci": "Scelotes limpopoensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37683,
+  "name": "Scelotes limpopoensis",
+  "observations": 57,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scelotes_limpopoensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449710060/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 251348524,
+   "place": "Capricorn District Municipality, South Africa",
+   "date": "2024-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244892273/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) delanoprinsloo, some rights reserved (CC BY-NC)",
+   "obs": 142802666,
+   "place": "Musina, Musina, LP, ZA",
+   "date": "2022-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722716917/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 394236565,
+   "place": "Soutpansberg Region",
+   "date": "2019-04-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722746492/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 394251584,
+   "place": "Limpopo",
+   "date": "2018-10-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721331054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 393534322,
+   "place": "Limpopo",
+   "date": "2021-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484817816/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phillip Nieuwoudt, some rights reserved (CC BY-NC)",
+   "obs": 269632323,
+   "place": "Vhembe District Municipality, South Africa",
+   "date": "2020-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/515161594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 286554571,
+   "place": "Bobonong, Botswana",
+   "date": "2021-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459672121/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sanne0208, some rights reserved (CC BY-NC)",
+   "obs": 256385495,
+   "place": "Capricorn, ZA-NP, ZA",
+   "date": "2024-12-27"
+  }
+ ],
+ "wiki": {
+  "title": "Scelotes limpopoensis",
+  "url": "https://en.wikipedia.org/wiki/Scelotes_limpopoensis",
+  "revision": 1132158705,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Limpopo burrowing skink (Scelotes limpopoensis) is a lizard species found in the Limpopo River valley in South Africa.",
+     "This species lost the forelimbs entirely and the hind limbs are reduced to only two digits."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "There are two sub-species:",
+     "Scelotes limpopoensis albiventris JACOBSEN 1987 - first described in the Langjan Nature Reserve",
+     "Scelotes limpopoensis limpopoensis FITZSIMONS 1930",
+     "Although both sub-species occupy a similar habitat the range of S. l. albiventris is smaller than S. l. limpopoensis and they have not been discovered in sympatry, and may probably be a full species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86649670/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 86649670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59176046/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 59176046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59176000/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 59176000
+  }
+ ]
+}

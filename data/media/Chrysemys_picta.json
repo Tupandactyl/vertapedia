@@ -377,5 +377,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9927445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott",
+   "photo": 9927445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351689082/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 351689082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332831124/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colton Veltkamp, some rights reserved (CC BY-NC), uploaded by Colton Veltkamp",
+   "photo": 332831124
+  }
+ ]
 }

@@ -1,0 +1,110 @@
+{
+ "sci": "Plestiodon parvulus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73800,
+  "name": "Plestiodon parvulus",
+  "observations": 28,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plestiodon_parvulus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136674644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) F. Gual-Suarez, some rights reserved (CC BY-NC)",
+   "obs": 83228417,
+   "place": "Carretera a Estación de Biología Chamela, La Huerta, JAL, MX",
+   "date": "2018-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57209103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Georgia Born-Schmidt, some rights reserved (CC BY-NC)",
+   "obs": 36209154,
+   "place": "Bahía de Banderas, Nayarit, Mexiko",
+   "date": "2019-11-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247899675/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA)",
+   "obs": 144442393,
+   "place": "Compostela, Nay., México",
+   "date": "2022-09-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145296238/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) iriplup, some rights reserved (CC BY-NC)",
+   "obs": 88085002,
+   "place": "El Balastre",
+   "date": "2020-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265869490/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brayan Artigas, some rights reserved (CC BY-NC)",
+   "obs": 153900205,
+   "place": null,
+   "date": "2023-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176929092/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) iriplup, some rights reserved (CC BY-NC)",
+   "obs": 105448073,
+   "place": "Nayarit, MX",
+   "date": "2021-12-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53115431/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) patriciasamperio, some rights reserved (CC BY-NC)",
+   "obs": 33845939,
+   "place": "Concordia, Sinaloa, Mexico",
+   "date": "2019-09-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53579116/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Emmanuel Guevara Lazcano, some rights reserved (CC BY-NC-SA)",
+   "obs": 34073201,
+   "place": "Ruíz, Nay., México",
+   "date": "2016-08-15"
+  }
+ ],
+ "wiki": {
+  "title": "Plestiodon parvulus",
+  "url": "https://en.wikipedia.org/wiki/Plestiodon_parvulus",
+  "revision": 1314993491,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Plestiodon parvulus, the southern pygmy skink, is a species of lizard which is endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57209103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Georgia Born-Schmidt, some rights reserved (CC BY-NC), uploaded by Georgia Born-Schmidt",
+   "photo": 57209103
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6443217/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) candidamixtlan, some rights reserved (CC BY-NC)",
+   "photo": 6443217
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53579116/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Emmanuel Guevara Lazcano, some rights reserved (CC BY-NC-SA), uploaded by Emmanuel Guevara Lazcano",
+   "photo": 53579116
+  }
+ ]
+}

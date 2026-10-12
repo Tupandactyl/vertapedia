@@ -1,0 +1,64 @@
+{
+ "sci": "Acanthodactylus micropholis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35423,
+  "name": "Acanthodactylus micropholis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Acanthodactylus_micropholis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227088627/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 106484539,
+   "place": null,
+   "date": "2019-10-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469526232/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mehrparvar, some rights reserved (CC BY-NC)",
+   "obs": 261357524,
+   "place": "Minab, IR-HG, IR",
+   "date": "2025-02-04"
+  }
+ ],
+ "wiki": {
+  "title": "Acanthodactylus micropholis",
+  "url": "https://en.wikipedia.org/wiki/Acanthodactylus_micropholis",
+  "revision": 1355111787,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acanthodactylus micropholis, known commonly as the Persian fringe-toed lizard and the yellowtail fringe-fingered lizard, is a species of lizard in the family Lacertidae. The species is endemic to Asia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. micropholis is found in Afghanistan, Iran, and Pakistan."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. micropholis is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178887905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 178887905
+  }
+ ]
+}

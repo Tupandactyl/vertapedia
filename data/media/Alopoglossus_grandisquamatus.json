@@ -1,0 +1,50 @@
+{
+ "sci": "Alopoglossus grandisquamatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1119998,
+  "name": "Alopoglossus grandisquamatus",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alopoglossus_grandisquamatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577073460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 319250910,
+   "place": "El Carmen de Atrato, Chocó, Colombia",
+   "date": "2025-10-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631492415/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 341382311,
+   "place": "Reserva ProAves Las Tangaras",
+   "date": "2023-08-12"
+  }
+ ],
+ "wiki": {
+  "title": "Alopoglossus grandisquamatus",
+  "url": "https://en.wikipedia.org/wiki/Alopoglossus_grandisquamatus",
+  "revision": 1350184415,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Alopoglossus grandisquamatus, the common largescale lizard, is a species of lizard in the family Alopoglossidae. It is endemic to Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/552227689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC), uploaded by Fundacion ProAves",
+   "photo": 552227689
+  }
+ ]
+}

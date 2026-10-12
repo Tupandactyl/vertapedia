@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60334012/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Richardson, some rights reserved (CC BY-NC), uploaded by Will Richardson",
+   "photo": 60334012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67791/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 67791
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67792/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee Yap, some rights reserved (CC BY-SA)",
+   "photo": 67792
+  }
+ ]
 }

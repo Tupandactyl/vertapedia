@@ -1,0 +1,44 @@
+{
+ "sci": "Antillotyphlops monastus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539354,
+  "name": "Antillotyphlops monastus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Montserrat_worm_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271892960/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kaysie Ryan, some rights reserved (CC BY-NC)",
+   "obs": 156721655,
+   "place": null,
+   "date": "2023-04-25"
+  }
+ ],
+ "wiki": {
+  "title": "Montserrat worm snake",
+  "url": "https://en.wikipedia.org/wiki/Montserrat_worm_snake",
+  "revision": 1358102129,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Montserrat worm snake (Antillotyphlops monastus) is a species of blind snake that is endemic to the Caribbean Lesser Antilles.",
+     "It has a trunk length up to 258 mm, with a tail up to 44 mm long.  Its dorsal surface is medium brown, with a lighter ventral surface.  It is insectivorous and fossorial.",
+     "It is found on Montserrat."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146712725/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) petroicatraversi, some rights reserved (CC BY-NC)",
+   "photo": 146712725
+  }
+ ]
+}

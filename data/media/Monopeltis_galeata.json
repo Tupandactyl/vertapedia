@@ -1,0 +1,45 @@
+{
+ "sci": "Monopeltis galeata",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31771,
+  "name": "Monopeltis galeata",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Helmeted_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182825654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) flint_jack, some rights reserved (CC BY-NC)",
+   "obs": 108571791,
+   "place": "加蓬班基區",
+   "date": "2013-09-10"
+  }
+ ],
+ "wiki": {
+  "title": "Helmeted worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Helmeted_worm_lizard",
+  "revision": 1301811373,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Helmeted worm lizard is a common name for some amphisbaenian species",
+     "Helmeted worm lizard may refer to:",
+     "Amphisbaena acangaoba, native to Brazil",
+     "Monopeltis galeata, native to Central Africa"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182825654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) flint_jack, some rights reserved (CC BY-NC)",
+   "photo": 182825654
+  }
+ ]
+}

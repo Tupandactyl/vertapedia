@@ -1,0 +1,42 @@
+{
+ "sci": "Acutotyphlops kunuaensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32554,
+  "name": "Acutotyphlops kunuaensis",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Acutotyphlops_kunuaensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602023131/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC)",
+   "obs": 331813186,
+   "place": "South Bougainville District, AROB, Papouasie-Nouvelle-Guinée",
+   "date": "2025-10-06"
+  }
+ ],
+ "wiki": {
+  "title": "Kunua blind snake",
+  "url": "https://en.wikipedia.org/wiki/Kunua_blind_snake",
+  "revision": 1377270383,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Kunua blind snake (Acutotyphlops kunuaensis) is a species of snake in the Typhlopidae family. It is endemic to the island of Bougainville."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602023131/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC), uploaded by Guillaume Tessereau",
+   "photo": 602023131
+  }
+ ]
+}

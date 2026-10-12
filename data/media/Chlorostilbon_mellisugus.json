@@ -169,5 +169,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1315631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole LaRoche, some rights reserved (CC BY-NC), uploaded by Nicole LaRoche",
+   "photo": 1315631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567459/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-SA)",
+   "photo": 567459
+  }
+ ]
 }

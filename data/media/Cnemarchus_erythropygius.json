@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130385088/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Yupa, some rights reserved (CC BY-NC), uploaded by Luis Yupa",
+   "photo": 130385088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163586842/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 163586842
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92667907/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+   "photo": 92667907
+  }
+ ]
 }

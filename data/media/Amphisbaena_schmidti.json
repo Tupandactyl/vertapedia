@@ -1,0 +1,70 @@
+{
+ "sci": "Amphisbaena schmidti",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31805,
+  "name": "Amphisbaena schmidti",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amphisbaena_schmidti"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165365939/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lauramarrero6, some rights reserved (CC BY-NC)",
+   "obs": 99225624,
+   "place": "Puerto Rico, Ciales, PR, US",
+   "date": "2021-10-20"
+  }
+ ],
+ "wiki": {
+  "title": "Amphisbaena schmidti",
+  "url": "https://en.wikipedia.org/wiki/Amphisbaena_schmidti",
+  "revision": 1355038527,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Amphisbaena schmidti, known commonly as Schmidt's worm lizard or the Puerto Rican dusky worm lizard, is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to the Caribbean."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schmidti, is in honor of American herpetologist Karl Patterson Schmidt."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. schmidti is found in Puerto Rico."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitats of A. schmidti are shrubland, forest, and grassland at altitudes of 0–400 m (0–1,312 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. schmidti is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165365939/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lauramarrero6, some rights reserved (CC BY-NC)",
+   "photo": 165365939
+  }
+ ]
+}

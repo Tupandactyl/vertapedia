@@ -1,0 +1,72 @@
+{
+ "sci": "Epictia tricolor",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32449,
+  "name": "Epictia tricolor",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Three-colored_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63898155/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY)",
+   "obs": 40224013,
+   "place": "San Marcos Province, Peru",
+   "date": "2019-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283224420/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Chávez S.S., some rights reserved (CC BY-NC)",
+   "obs": 163734161,
+   "place": "15555, Perú",
+   "date": "2023-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63898249/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY)",
+   "obs": 40224024,
+   "place": "San Marcos Province, Peru",
+   "date": "2019-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639136276/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Daniel Tasayco, some rights reserved (CC BY-NC-SA)",
+   "obs": 350305350,
+   "place": "Mariscal Nieto Province, Peru",
+   "date": "2026-02-25"
+  }
+ ],
+ "wiki": {
+  "title": "Three-colored blind snake",
+  "url": "https://en.wikipedia.org/wiki/Three-colored_blind_snake",
+  "revision": 1377715923,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The three-colored blind snake (Epictia tricolor) is a species of snakes in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63898126/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 63898126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63898249/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 63898249
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "sci": "Cnemidophorus flavissimus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 98080,
+  "name": "Cnemidophorus flavissimus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cnemidophorus_flavissimus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656680264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angel luis rosque fuentes, some rights reserved (CC BY-NC)",
+   "obs": 359899313,
+   "place": "Venezuela",
+   "date": "2026-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693406226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Gianni-Zurita, some rights reserved (CC BY-NC)",
+   "obs": 379095552,
+   "place": "Venezuela",
+   "date": "2026-05-03"
+  }
+ ],
+ "wiki": {
+  "title": "Cnemidophorus flavissimus",
+  "url": "https://en.wikipedia.org/wiki/Cnemidophorus_flavissimus",
+  "revision": 1376203235,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cnemidophorus flavissimus is a species of teiid lizard found on Islas Los Frailes in Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693406226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Gianni-Zurita, algunos derechos reservados (CC BY-NC), subido por Rafael Gianni-Zurita",
+   "photo": 693406226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656680264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angel luis rosque fuentes, algunos derechos reservados (CC BY-NC), subido por angel luis rosque fuentes",
+   "photo": 656680264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693406224/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Gianni-Zurita, algunos derechos reservados (CC BY-NC), subido por Rafael Gianni-Zurita",
+   "photo": 693406224
+  }
+ ]
+}

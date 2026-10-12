@@ -1,0 +1,83 @@
+{
+ "sci": "Amphisbaena prunicolor",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31809,
+  "name": "Amphisbaena prunicolor",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plum-colored_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175635146/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tomás Carranza Perales, some rights reserved (CC BY)",
+   "obs": 104772828,
+   "place": "Gral Manuel Belgrano, Misiones, Argentina",
+   "date": "2021-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175862534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Sabaliauskas, some rights reserved (CC BY-NC)",
+   "obs": 104892384,
+   "place": "Ruta 101, N3364 Andresito, Misiones, Argentina",
+   "date": "2021-10-18"
+  }
+ ],
+ "wiki": {
+  "title": "Plum-colored worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Plum-colored_worm_lizard",
+  "revision": 1371194960,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The plum-colored worm lizard (Amphisbaena prunicolor) is a species of worm lizard in the family Amphisbaenidae. It is found in Argentina, Brazil, and Paraguay. It is a moderately-large, thin species for its genus, reaching a snout–vent length of 141.0–238.0 mm (5.55–9.37 in). It is mostly dark purplish-brown, with some variable white on the underside."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Aporarchus prunicolor was formally described in 1885 by the American biologist Edward Drinker Cope based on a specimen collected from Rio Grande do Sul, Brazil, probably from near São João do Monte Negro, in the modern-day Montenegro municipality. Belgian-British zoologist George Boulenger synonymized Aporarchus prunicolor with Amphisbaena darwini in the same year, considering the holotype of the former simply a juvenile of the latter. In 1966, in his taxonomic revision of the Amphisbaena darwini species complex, the American zoologist Carl Gans revived Amphisbaena prunicolor as a full species and demoted A. albocingulata to the status of a subspecies of prunicolor. The Brazilian herpetologist Paulo Vanzolini raised albocingulata to the status of a full species again in 2002. This arrangement has been maintained by subsequent authorities. Its specific epithet is derived from the Latin words prunus, meaning 'plum tree', and color, meaning 'color'."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Amphisbaena prunicolor is a moderately-large, thin species for its genus, reaching a snout–vent length of 141.0–238.0 mm (5.55–9.37 in). The back is usually a unicolor dark purplish-brown, with a slightly darker tail. The underside is a mix of white and purplish-brown, with the extent of white depending on the individual; it can stretch from the snout to the tip of the tail or be centered around the head and throat. In some individuals, the differently-colored scales on the venter make a checkboard pattern."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "Amphisbaena prunicolor is known from Argentina, Paraguay, and Brazil. In Argentina and Paraguay, it has been recorded from the provinces of Corrientes and Misiones and the department of Itapúa, respectively. In Brazil, it is known from Espírito Santo south to Rio Grande do Sul. Amphisbaena prunicolor is known to be predated upon by the plush-crested jay."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175635146/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tomás Carranza Perales, algunos derechos reservados (CC BY), subido por Tomás Carranza Perales",
+   "photo": 175635146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175634236/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tomás Carranza Perales, algunos derechos reservados (CC BY), subido por Tomás Carranza Perales",
+   "photo": 175634236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175862534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Sabaliauskas, algunos derechos reservados (CC BY-NC), subido por Alfredo Sabaliauskas",
+   "photo": 175862534
+  }
+ ]
+}

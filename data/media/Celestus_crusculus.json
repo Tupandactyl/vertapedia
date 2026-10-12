@@ -1,0 +1,88 @@
+{
+ "sci": "Celestus crusculus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31939,
+  "name": "Celestus crusculus",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Celestus_crusculus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89355151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Griffing, some rights reserved (CC BY-NC)",
+   "obs": 56090301,
+   "place": null,
+   "date": "2016-05-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284900967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex, some rights reserved (CC BY-NC)",
+   "obs": 164645659,
+   "place": "Jamaica",
+   "date": "2023-05-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188020114/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damion Laren Whyte, some rights reserved (CC BY-NC)",
+   "obs": 111380728,
+   "place": "Jamaica",
+   "date": "2022-04-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234970176/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damion Laren Whyte, some rights reserved (CC BY-NC)",
+   "obs": 137565183,
+   "place": null,
+   "date": "2022-10-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349603052/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damany Calder, some rights reserved (CC BY-NC)",
+   "obs": 198361350,
+   "place": "Jamaica, Kingston, Surrey County, JM",
+   "date": "2013-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83126232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rachelfeddis, some rights reserved (CC BY-NC)",
+   "obs": 52297334,
+   "place": "Grovedale Drive, Kingston, Surrey County, JM",
+   "date": "2020-05-26"
+  }
+ ],
+ "wiki": {
+  "title": "Celestus crusculus",
+  "url": "https://en.wikipedia.org/wiki/Celestus_crusculus",
+  "revision": 1355155299,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Celestus crusculus, the Jamaican galliwasp or Garman's galliwasp, is a species of lizard of the Diploglossidae family. It is found in Jamaica."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89355151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Griffing, some rights reserved (CC BY-NC), uploaded by Aaron Griffing",
+   "photo": 89355151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83126232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rachelfeddis, some rights reserved (CC BY-NC)",
+   "photo": 83126232
+  }
+ ]
+}

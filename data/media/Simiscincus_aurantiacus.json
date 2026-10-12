@@ -1,0 +1,42 @@
+{
+ "sci": "Simiscincus aurantiacus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37620,
+  "name": "Simiscincus aurantiacus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Orange-bellied_burrowing_skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216423819/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Rowland, some rights reserved (CC BY-NC)",
+   "obs": 127477028,
+   "place": "Sud, NC",
+   "date": "1994-08-26"
+  }
+ ],
+ "wiki": {
+  "title": "Orange-bellied burrowing skink",
+  "url": "https://en.wikipedia.org/wiki/Orange-bellied_burrowing_skink",
+  "revision": 1351950634,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The orange-bellied burrowing skink (Simiscincus aurantiacus) is a skink. It is monotypic in the genus Simiscincus.  It is endemic to New Caledonia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216423819/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Rowland, some rights reserved (CC BY-NC), uploaded by Peter Rowland",
+   "photo": 216423819
+  }
+ ]
+}

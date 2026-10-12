@@ -1,0 +1,58 @@
+{
+ "sci": "Abronia cuchumatanus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1161328,
+  "name": "Abronia cuchumatanus",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Abronia_cuchumatanus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584621543/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY-NC)",
+   "obs": 323110037,
+   "place": "Quiché, GT",
+   "date": "2025-10-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61830623/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 38889445,
+   "place": "San Mateo Ixtatán, Guatemala",
+   "date": "2017-08-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268088528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 155114863,
+   "place": "San Mateo Ixtatán, Guatemala",
+   "date": "2016-01-25"
+  }
+ ],
+ "wiki": {
+  "title": "Abronia cuchumatanus",
+  "url": "https://en.wikipedia.org/wiki/Abronia_cuchumatanus",
+  "revision": 1374906399,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cuchumatanes alligator lizard (Abronia cuchumatanus), is a species of lizard in the family Anguidae. The species is endemic to Guatemala."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61830623/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 61830623
+  }
+ ]
+}

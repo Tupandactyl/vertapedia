@@ -1,0 +1,83 @@
+{
+ "sci": "Xenosaurus fractus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 734662,
+  "name": "Xenosaurus fractus",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xenosaurus_fractus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147529586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo H. Sosa-Tovar, some rights reserved (CC BY-NC)",
+   "obs": 89347709,
+   "place": "Tlatlauquitepec, Pue., México",
+   "date": "2020-05-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93679932/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ynafh, some rights reserved (CC BY-NC)",
+   "obs": 58668011,
+   "place": "Cuetzalan del Progreso, MX-PU, MX",
+   "date": "2011-05-20"
+  }
+ ],
+ "wiki": {
+  "title": "Xenosaurus fractus",
+  "url": "https://en.wikipedia.org/wiki/Xenosaurus_fractus",
+  "revision": 1374906511,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xenosaurus fractus is a species of lizard found in Mexico. It was formally described in 2020 and is named after the broken dark crossband on its neck. The head and nape are pale brown to dark brown dorsally. The body, limbs, and tail are cream. The dorsum has a brown, middorsal funnel-shaped mark on nape and five broad brown crossbands on the body. It is known to occur in the municipalities of Huehuetla and Xochitlán on the Caribbean slopes of the Sierra Madre Oriental in northern Puebla, Mexico, at elevations of 850–1,470 m (2,790–4,820 ft)."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Xenosaurus fractus was formally described in 2020 based on an adult male specimen collected from near Cuispes village in municipality of Huehuetla in the state of Puebla, Mexico. The specific epithet is derived from the Latin word frangō and means \"broken\". It refers to the broken dark crossband on the lizard's nape, which is distinctive for a genus in which most species have continuous dark collars."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The head and nape are pale brown to dark brown dorsally. The body, limbs, and tail are cream. The dorsum has a brown, middorsal funnel-shaped mark on nape and five broad brown crossbands on the body. Ventrally, the neck is mostly unmarked, while the sides of the chest and abdomen, precloacal area, and the outer borders of the legs have irregular, transverse, fragmented narrow bars."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "Xenosaurus fractus is known to occur in the municipalities of Huehuetla and Xochitlán on the Caribbean slopes of the Sierra Madre Oriental in northern Puebla, Mexico. The species inhabits patches of cloud forest and coffee plantations, where it can be seen in crevices in rocky outcrops. It is known from an elevational range of 850–1,470 m (2,790–4,820 ft). An unconfirmed record of the species from Tepehican is around 12 km from the known distribution and is at an elevation of 1,930 m (6,330 ft)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147529586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo H. Sosa-Tovar, some rights reserved (CC BY-NC), uploaded by Guillermo H. Sosa-Tovar",
+   "photo": 147529586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93679932/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ynafh, some rights reserved (CC BY-NC), uploaded by ynafh",
+   "photo": 93679932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116360105/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorena García, some rights reserved (CC BY-NC), uploaded by Lorena García",
+   "photo": 116360105
+  }
+ ]
+}

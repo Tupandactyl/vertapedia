@@ -1,0 +1,57 @@
+{
+ "sci": "Siderolamprus adercus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403088,
+  "name": "Siderolamprus adercus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Siderolamprus_adercus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2751945/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC)",
+   "obs": 2459680,
+   "place": "Omar Torrijos National Park, El Copé, Panamá.",
+   "date": "2015-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195965805/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kai Squires, some rights reserved (CC BY)",
+   "obs": 116109951,
+   "place": "Coclé Province, Panama",
+   "date": "2022-05-07"
+  }
+ ],
+ "wiki": {
+  "title": "Siderolamprus adercus",
+  "url": "https://en.wikipedia.org/wiki/Siderolamprus_adercus",
+  "revision": 1376333800,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Siderolamprus adercus is a species of lizard of the Diploglossidae family. It is found in Panama.",
+     "It was formerly classified in the genus Celestus, but was moved to Siderolamprus in 2021."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2751945/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2751945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2754603/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2754603
+  }
+ ]
+}

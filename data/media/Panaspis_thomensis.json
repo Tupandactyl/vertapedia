@@ -1,0 +1,110 @@
+{
+ "sci": "Panaspis thomensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 738126,
+  "name": "Panaspis thomensis",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Panaspis_thomensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71679365/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Fábio Olmos, some rights reserved (CC BY)",
+   "obs": 45209822,
+   "place": "Bom sucesso, São Tomé e Príncipe",
+   "date": "2008-07-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13013297/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "obs": 9539989,
+   "place": "Me-Zochi, São Tomé and Príncipe",
+   "date": "2018-01-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418082906/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Newman, some rights reserved (CC BY-NC)",
+   "obs": 235113441,
+   "place": "Roca de Sao Joao Angolares, São Tomé and Príncipe",
+   "date": "2024-06-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161150782/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 96960884,
+   "place": "Nova Moca, São Tomé e Príncipe",
+   "date": "2009-05-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161151166/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 96960886,
+   "place": "Nova Moca, São Tomé e Príncipe",
+   "date": "2009-05-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342583886/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 194833684,
+   "place": "Mé-Zóchi, São Tomé and Príncipe",
+   "date": "2020-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619814063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zbrd, some rights reserved (CC BY-NC)",
+   "obs": 340590789,
+   "place": "Caué, Svatý Tomáš a Princův ostrov",
+   "date": "2026-02-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132187231/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GMarques, some rights reserved (CC BY-NC)",
+   "obs": 80649459,
+   "place": "Me-Zochi, São Tomé and Príncipe",
+   "date": "2011-03-17"
+  }
+ ],
+ "wiki": {
+  "title": "Panaspis thomensis",
+  "url": "https://en.wikipedia.org/wiki/Panaspis_thomensis",
+  "revision": 1355143322,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Panaspis thomensis, the São Tomé leaf-litter skink, is a species of lidless skinks in the family Scincidae. The species is found on São Tomé."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71679365/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Fábio Olmos, some rights reserved (CC BY), uploaded by Fábio Olmos",
+   "photo": 71679365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161150782/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Ricardo Lima",
+   "photo": 161150782
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13013297/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 13013297
+  }
+ ]
+}

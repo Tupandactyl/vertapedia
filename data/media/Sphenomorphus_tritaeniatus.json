@@ -1,0 +1,50 @@
+{
+ "sci": "Sphenomorphus tritaeniatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37593,
+  "name": "Sphenomorphus tritaeniatus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenomorphus_tritaeniatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2892665/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fabio Cianferoni, some rights reserved (CC BY-NC)",
+   "obs": 2588507,
+   "place": "Vietnam Tam Dao",
+   "date": "2013-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/538427998/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yannick Juvé, some rights reserved (CC BY-NC)",
+   "obs": 298886298,
+   "place": "Cúc Phương, Nho Quan, Ninh Bình, Vietnam",
+   "date": "2022-08-02"
+  }
+ ],
+ "wiki": {
+  "title": "Sphenomorphus tritaeniatus",
+  "url": "https://en.wikipedia.org/wiki/Sphenomorphus_tritaeniatus",
+  "revision": 1327798720,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphenomorphus tritaeniatus  is a species of skink found in Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2892665/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fabio Cianferoni, some rights reserved (CC BY-NC), uploaded by Fabio Cianferoni",
+   "photo": 2892665
+  }
+ ]
+}

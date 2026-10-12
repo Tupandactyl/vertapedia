@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438130307/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omkar S Damle, some rights reserved (CC BY-NC), uploaded by Omkar S Damle",
+   "photo": 438130307
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592256102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) THOMSON SABURAJ, some rights reserved (CC BY-NC), uploaded by THOMSON SABURAJ",
+   "photo": 592256102
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96155773/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) satyaprakashpandey, some rights reserved (CC BY-NC), uploaded by satyaprakashpandey",
+   "photo": 96155773
+  }
+ ]
 }

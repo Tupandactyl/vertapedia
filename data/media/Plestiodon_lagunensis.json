@@ -1,0 +1,68 @@
+{
+ "sci": "Plestiodon lagunensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73791,
+  "name": "Plestiodon lagunensis",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/San_Lucan_skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421584925/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Meling, some rights reserved (CC BY-NC)",
+   "obs": 236929242,
+   "place": "Mulegé, B.C.S., MX",
+   "date": "2024-08-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421786852/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bajapelagica, some rights reserved (CC BY-NC)",
+   "obs": 237032906,
+   "place": "La Paz, B.C.S., México",
+   "date": "2021-07-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466284412/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joe Black, some rights reserved (CC BY-NC)",
+   "obs": 259721325,
+   "place": "Mulegé Municipality, BCS, Mexico",
+   "date": "2023-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583174906/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Alonso, some rights reserved (CC BY-NC)",
+   "obs": 322378486,
+   "place": "Mulegé, B.C.S., México",
+   "date": "2022-03-22"
+  }
+ ],
+ "wiki": {
+  "title": "San Lucan skink",
+  "url": "https://en.wikipedia.org/wiki/San_Lucan_skink",
+  "revision": 1296631540,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The San Lucan skink (Plestiodon lagunensis) is a skink (a type of lizard) native to the Baja California Peninsula.",
+     "Together with the western skink (P. skiltonianus), Gilbert's skink (P. gilberti), and the four-lined Asiatic skink (P. quadrilineatus), the San Lucan skink belongs to the so-called \"skiltonianus group\". The exact taxonomy within this group is being questioned and may need revision following DNA analysis research.",
+     "The San Lucan skink occurs only on the southernmost tip of Baja California, in the mountains around La Paz. They tend to nest in the same areas as western skinks, and are visibly similar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421584925/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Meling, some rights reserved (CC BY-NC), uploaded by Erik Meling",
+   "photo": 421584925
+  }
+ ]
+}

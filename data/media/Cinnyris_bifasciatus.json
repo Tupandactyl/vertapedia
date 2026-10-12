@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1501553/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 1501553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656375/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 656375
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67431999/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Geoff Nichols, some rights reserved (CC BY-NC), uploaded by Geoff Nichols",
+   "photo": 67431999
+  }
+ ]
 }

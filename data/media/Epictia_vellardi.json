@@ -1,0 +1,71 @@
+{
+ "sci": "Epictia vellardi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32447,
+  "name": "Epictia vellardi",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Epictia_vellardi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662650567/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomaz Ricardo Favreto Sinani, some rights reserved (CC BY)",
+   "obs": 342886249,
+   "place": "Corumbá, MS, Brasil",
+   "date": "2026-02-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297269690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aloys PICHARD, some rights reserved (CC BY-NC)",
+   "obs": 171318997,
+   "place": "Rua João Pessoa, Porto Murtinho, MS, BR",
+   "date": "2023-07-05"
+  }
+ ],
+ "wiki": {
+  "title": "Epictia vellardi",
+  "url": "https://en.wikipedia.org/wiki/Epictia_vellardi",
+  "revision": 1355031080,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Epictia vellardi is a species of snake in the family Leptotyphlopidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, vellardi, is in honor of French herpetologist Jehan Albert Vellard, who for most of his life lived and worked in South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "E. vellardi is found in Argentina, Brazil, and Paraguay."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "E. vellardi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297269690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aloys PICHARD, some rights reserved (CC BY-NC), uploaded by Aloys PICHARD",
+   "photo": 297269690
+  }
+ ]
+}

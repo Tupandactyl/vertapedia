@@ -1,0 +1,70 @@
+{
+ "sci": "Acanthodactylus spinicauda",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35412,
+  "name": "Acanthodactylus spinicauda",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Doumergue's_fringe-fingered_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28138413/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) menad_b, some rights reserved (CC BY-NC)",
+   "obs": 18408628,
+   "place": "El Bnoud, DZ-EB, DZ",
+   "date": "2015-04-22"
+  }
+ ],
+ "wiki": {
+  "title": "Doumergue's fringe-fingered lizard",
+  "url": "https://en.wikipedia.org/wiki/Doumergue%27s_fringe-fingered_lizard",
+  "revision": 1354936414,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Doumergue's fringe-fingered lizard (Acanthodactylus spinicauda), also known commonly as Doumergue's fringe-toed lizard, is a species of lizard in the family Lacertidae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. spinicauda is found in Algeria."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The natural habitats of A. spinicauda are open stony and flat sandy places."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. spinicauda is oviparous, and the average clutch size is 8 eggs."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The species A. spinicauda is considered \"Endangered\" because of small geographic range, fragmented distribution within that range, and habitat loss. The species was collected for the first time in 1901. After more than a century no individuals were ever discovered again until recently in 2015, a discovery was made by an Algerian zoological team (D. Boualem, 2016)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28138413/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) menad_b, some rights reserved (CC BY-NC), uploaded by menad_b",
+   "photo": 28138413
+  }
+ ]
+}

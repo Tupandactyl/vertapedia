@@ -1,0 +1,73 @@
+{
+ "sci": "Comptus alloeides",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1659759,
+  "name": "Comptus alloeides",
+  "observations": 19,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285726196/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luisverdin, some rights reserved (CC BY-NC)",
+   "obs": 165086083,
+   "place": "5P8F+MP8, Punta Balandra 32000, República Dominicana",
+   "date": "2023-06-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439697545/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) verovar, some rights reserved (CC BY-NC)",
+   "obs": 246311254,
+   "place": "La Española, Las Terrenas, Samaná, DO",
+   "date": "2024-10-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287129459/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luisverdin, some rights reserved (CC BY-NC)",
+   "obs": 165845204,
+   "place": "5P8F+MP8, Punta Balandra 32000, República Dominicana",
+   "date": "2023-06-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599294187/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) henryphwang, some rights reserved (CC BY-NC)",
+   "obs": 330486385,
+   "place": "Dominican Republic",
+   "date": "2025-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599249273/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) henryphwang, some rights reserved (CC BY-NC)",
+   "obs": 330464029,
+   "place": "Dominican Republic",
+   "date": "2025-12-09"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285726196/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luisverdin，保留部分权利（CC BY-NC）, 由 luisverdin 上传",
+   "photo": 285726196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439697622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) verovar，保留部分权利（CC BY-NC）",
+   "photo": 439697622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439697545/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) verovar，保留部分权利（CC BY-NC）",
+   "photo": 439697545
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "sci": "Psammodromus microdactylus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35514,
+  "name": "Psammodromus microdactylus",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Psammodromus_microdactylus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1591739/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 1268282,
+   "place": "Azilal, MA-TD, MA",
+   "date": "2010-04-21"
+  }
+ ],
+ "wiki": {
+  "title": "Psammodromus microdactylus",
+  "url": "https://en.wikipedia.org/wiki/Psammodromus_microdactylus",
+  "revision": 1314885984,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Psammodromus microdactylus, the green psammodromus or small-fingered psammodromus, is a species of lizards in the family Lacertidae. It is endemic to Morocco.",
+     "Its natural habitats are Mediterranean-type shrubby vegetation and temperate grassland.",
+     "It is threatened by habitat loss."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1591739/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Mario Schweiger",
+   "photo": 1591739
+  }
+ ]
+}

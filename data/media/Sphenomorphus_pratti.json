@@ -1,0 +1,63 @@
+{
+ "sci": "Sphenomorphus pratti",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37509,
+  "name": "Sphenomorphus pratti",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sphenomorphus_pratti"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268456510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jari_cornelis, some rights reserved (CC BY-NC)",
+   "obs": 155313084,
+   "place": "Pulau Barie, Raja Ampat, West Papua, ID",
+   "date": "2023-04-11"
+  }
+ ],
+ "wiki": {
+  "title": "Sphenomorphus pratti",
+  "url": "https://en.wikipedia.org/wiki/Sphenomorphus_pratti",
+  "revision": 1355099145,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphenomorphus pratti is a species of skink, a lizard in the family Scincidae. The species is endemic to Papua New Guinea."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "S. pratti is found throughout Papua New Guinea except in savanna areas in the south. It is also found on the islands of New Britain, New Hanover Island, and Manus Island. It is found at elevations up to 1,625 m (5,331 ft)."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of S. pratti is forest."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, pratti, is in honor of British naturalist Antwerp Edgar Pratt who collected the type specimen."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268456510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jari_cornelis, some rights reserved (CC BY-NC)",
+   "photo": 268456510
+  }
+ ]
+}

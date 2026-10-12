@@ -301,5 +301,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465901609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Владимир Тарасов, some rights reserved (CC BY-NC), uploaded by Владимир Тарасов",
+   "photo": 465901609
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195032403/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vyatka, some rights reserved (CC BY-NC), uploaded by vyatka",
+   "photo": 195032403
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57957069/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Koshy Koshy, some rights reserved (CC BY)",
+   "photo": 57957069
+  }
+ ]
 }

@@ -1,0 +1,86 @@
+{
+ "sci": "Diploglossus millepunctatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31897,
+  "name": "Diploglossus millepunctatus",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dotted_galliwasp"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14727587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC)",
+   "obs": 6926907,
+   "place": "Malpelo Island",
+   "date": "2017-03-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95469992/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angelly Vasquez, some rights reserved (CC BY-NC)",
+   "obs": 59737615,
+   "place": "Malpelo",
+   "date": "2014-07-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280041994/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robinsongutierrez, some rights reserved (CC BY-NC)",
+   "obs": 161985953,
+   "place": "Isla de Malpelo, Colombia",
+   "date": "2023-04-25"
+  }
+ ],
+ "wiki": {
+  "title": "Dotted galliwasp",
+  "url": "https://en.wikipedia.org/wiki/Dotted_galliwasp",
+  "revision": 1335751606,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The dotted galliwasp or Malpelo galliwasp (Diploglossus millepunctatus) is a carnivorous species of lizard endemic to Malpelo Island, Colombia."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of the species grow to 50 cm in total length and can reach a weight of 500 g. They are predominantly black, but are liberally dotted with white."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "D. millepunctatus has extremely odd feeding habits for a lizard. Malpelo Island has few resources; the only available foods are crabs and seabirds, especially boobies. While the lizards eat both of these, they also eat guano, and mob birds returning to their young, forcing them to regurgitate their food for the lizards instead of their chicks."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 2,
+    "paras": [
+     "D. millepunctatus is viviparous."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The species is endemic to Malpelo Island, a possession of Colombia, where it is common. The island is treeless, rocky, and very small. Similar to the marine iguana, it has the ability to swim for short distances, although this is not related to its feeding habits. It shares the island with two other endemic lizard species, Anolis agassizi and Phyllodactylus transversalis."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8847631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC)",
+   "photo": 8847631
+  }
+ ]
+}

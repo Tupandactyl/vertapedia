@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178631189/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 178631189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178054305/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+   "photo": 178054305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2752155/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amado Demesa Arevalo, some rights reserved (CC BY-NC), uploaded by Amado Demesa Arevalo",
+   "photo": 2752155
+  }
+ ]
 }

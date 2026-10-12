@@ -1,0 +1,64 @@
+{
+ "sci": "Sphenomorphus cryptotis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37587,
+  "name": "Sphenomorphus cryptotis",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenomorphus_cryptotis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699068971/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vncreatures, some rights reserved (CC BY-NC)",
+   "obs": 382020299,
+   "place": "Ba Vì, Hà Nội, Việt Nam",
+   "date": "2026-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/747509905/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Taylor Swift, some rights reserved (CC BY-NC)",
+   "obs": 406826926,
+   "place": "Ba Vì, Hà Nội, Việt Nam",
+   "date": "2026-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253851645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 147516242,
+   "place": "Ba Vì, Hanoi, Vietnam",
+   "date": "2018-04-29"
+  }
+ ],
+ "wiki": {
+  "title": "Sphenomorphus cryptotis",
+  "url": "https://en.wikipedia.org/wiki/Sphenomorphus_cryptotis",
+  "revision": 1378294458,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphenomorphus cryptotis  is a species of skink found in Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253851645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC), uploaded by Vojtěch Víta",
+   "photo": 253851645
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699069084/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vncreatures, some rights reserved (CC BY-NC), uploaded by Vncreatures",
+   "photo": 699069084
+  }
+ ]
+}

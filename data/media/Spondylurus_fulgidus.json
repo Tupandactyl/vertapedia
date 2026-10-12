@@ -1,0 +1,72 @@
+{
+ "sci": "Spondylurus fulgidus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146443,
+  "name": "Spondylurus fulgidus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spondylurus_fulgidus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269632484/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damion Laren Whyte, some rights reserved (CC BY-NC)",
+   "obs": 155958194,
+   "place": "Jamaica",
+   "date": "2023-04-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/409354189/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC)",
+   "obs": 230538786,
+   "place": "Jamaica",
+   "date": "2024-07-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269633137/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damion Laren Whyte, some rights reserved (CC BY-NC)",
+   "obs": 155958601,
+   "place": "Jamaica",
+   "date": "2023-04-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/409903686/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) editaf, some rights reserved (CC BY-NC)",
+   "obs": 230834751,
+   "place": "Jamaica",
+   "date": "2024-07-21"
+  }
+ ],
+ "wiki": {
+  "title": "Spondylurus fulgidus",
+  "url": "https://en.wikipedia.org/wiki/Spondylurus_fulgidus",
+  "revision": 1327801666,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Jamaican skink (Spondylurus fulgidus) is a species of skink found in Jamaica."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269632502/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damion Laren Whyte, some rights reserved (CC BY-NC), uploaded by Damion Laren Whyte",
+   "photo": 269632502
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269632531/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damion Laren Whyte, some rights reserved (CC BY-NC), uploaded by Damion Laren Whyte",
+   "photo": 269632531
+  }
+ ]
+}

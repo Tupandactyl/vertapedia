@@ -1,0 +1,93 @@
+{
+ "sci": "Scincopus fasciatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37646,
+  "name": "Scincopus fasciatus",
+  "observations": 12,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scincopus_fasciatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31377577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC)",
+   "obs": 20320735,
+   "place": "Arlit, Niger",
+   "date": "2019-02-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599803975/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Houssem Ben othmen, some rights reserved (CC BY-NC)",
+   "obs": 330730365,
+   "place": "Bou Hedma, Tunisia",
+   "date": "2025-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105767044/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Garba, some rights reserved (CC BY-NC)",
+   "obs": 65688222,
+   "place": "Boboye, NE-DS, NE",
+   "date": "2020-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625136541/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Alonso, some rights reserved (CC BY-NC)",
+   "obs": 343218595,
+   "place": "Mederdra, Mauritania",
+   "date": "2020-01-24"
+  }
+ ],
+ "wiki": {
+  "title": "Peters's banded skink",
+  "url": "https://en.wikipedia.org/wiki/Peters%27s_banded_skink",
+  "revision": 1376017692,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Peters' banded skink (Scincopus fasciatus) is a species of skink belonging to the monotypic genus Scincopus.",
+     "These skinks are primarily found in the arid and rocky deserts of North Africa, with their range extending across regions such as Morocco, Algeria, Tunisia, Libya, and Egypt."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Peter's banded skink is a secretive and primarily terrestrial species. The habitats consisted of sandy areas covered with low discontinuous shrubs and scattered annual herbaceous plants (Cenchrus ciliaris). Shrubs consisted mainly in Rhantheruim suaveolens, Haloxylon scoparium and H. schmittianum."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "This species is oviparous. Females lay a clutch of eggs in burrows, providing protection from potential predators and temperature extremes. In captivity, clutch sizes of 4-5 eggs have been recorded."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31377577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC), uploaded by Eric",
+   "photo": 31377577
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105767044/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Garba, some rights reserved (CC BY-NC), uploaded by Garba",
+   "photo": 105767044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199245310/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zelectos, some rights reserved (CC BY-NC)",
+   "photo": 199245310
+  }
+ ]
+}

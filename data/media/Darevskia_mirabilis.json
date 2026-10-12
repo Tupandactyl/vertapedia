@@ -1,0 +1,58 @@
+{
+ "sci": "Darevskia mirabilis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1474003,
+  "name": "Darevskia mirabilis",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Darevskia_mirabilis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263540756/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC)",
+   "obs": 152649092,
+   "place": "İkizdere/Rize, Törökország",
+   "date": "2013-06-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/687124193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Koray Öğreten, some rights reserved (CC BY-NC)",
+   "obs": 375839293,
+   "place": "İkizdere/Rize, Türkiye",
+   "date": "2025-08-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613002967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) norbertriezing, some rights reserved (CC BY-NC)",
+   "obs": 337235792,
+   "place": "İkizdere/Rize, Törökország",
+   "date": "2013-06-09"
+  }
+ ],
+ "wiki": {
+  "title": "Darevskia mirabilis",
+  "url": "https://en.wikipedia.org/wiki/Darevskia_mirabilis",
+  "revision": 1348442476,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Darevskia mirabilis is a lizard species in the genus Darevskia. It is found in Turkey."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613002967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) norbertriezing, some rights reserved (CC BY-NC)",
+   "photo": 613002967
+  }
+ ]
+}

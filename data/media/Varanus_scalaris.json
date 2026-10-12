@@ -1,0 +1,122 @@
+{
+ "sci": "Varanus scalaris",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1393213,
+  "name": "Varanus scalaris",
+  "observations": 313,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Banded_tree_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105645263/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) phlherper, some rights reserved (CC BY-NC)",
+   "obs": 65617973,
+   "place": "Northern Territory, AU",
+   "date": "2015-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155276427/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) littlebrownskink, some rights reserved (CC BY-NC)",
+   "obs": 93667304,
+   "place": "Prince of Wales QLD 4875, Australia",
+   "date": "2018-08-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323510915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colour Blind Flora Enthusiast, some rights reserved (CC BY-NC)",
+   "obs": 185252239,
+   "place": "Mapoon QLD 4874, Australia",
+   "date": "2023-04-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123767577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jameslambo, some rights reserved (CC BY-NC)",
+   "obs": 75634826,
+   "place": "Darwin NT, Australia",
+   "date": "2021-04-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61635347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sarlou85, some rights reserved (CC BY-NC)",
+   "obs": 38749732,
+   "place": "Robin Falls, NT, AU",
+   "date": "2019-05-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115877925/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) norts, some rights reserved (CC BY-NC)",
+   "obs": 71197396,
+   "place": "Somerville Gardens, Parap, NT, AU",
+   "date": "2021-03-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141871388/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) donnamareetomkinson, some rights reserved (CC BY-NC)",
+   "obs": 86148474,
+   "place": "Laura QLD 4892, Australia",
+   "date": "2021-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453452051/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorden Perrett, some rights reserved (CC BY-NC)",
+   "obs": 253267436,
+   "place": "Northern Territory, AU",
+   "date": "2024-11-25"
+  }
+ ],
+ "wiki": {
+  "title": "Banded tree monitor",
+  "url": "https://en.wikipedia.org/wiki/Banded_tree_monitor",
+  "revision": 1348209182,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus scalaris is a small species of monitor lizard. It is often referred to as the banded tree monitor or the spotted tree monitor.",
+     "It is found in Western Australia and the Northern Territory. It was first described as a subspecies of the Timor monitor and was elevated to full species status by Glen Milton Storr in 1983. Later, the eastern subspecies of V. scalaris similis was classified as its own species, leaving the banded tree monitor restricted to northwestern Australia.",
+     "The species inhabits trees in the savanna woodlands and forages for food in both trees and on the ground, with a diet consisting of insects as well as small vertebrates."
+    ]
+   },
+   {
+    "h": "Venom",
+    "level": 2,
+    "paras": [
+     "Like all other monitor lizards, banded tree monitors possess venom glands in their lower jaws, giving them a noticeably venomous bite. The venom is an anticoagulant, and has two known mechanisms for disrupting blood clotting: by fibrinogenolysis (the destructive cleavage of fibrinogen) and by blocking platelet aggregation. The venom also causes hypotension. Monitor lizard venom is extremely complex and diverse due to the great range of ecological niches that they occupy.",
+     "Banded tree monitors have the most potently fibrinogenolytic venoms of all monitor lizards, matched only by the similarly named tree monitors from the subgenus Hapturosaurus. This may be because arboreal monitor species experience strong selection pressure to quickly subjugate prey items before they break free and escape by falling out of the trees or flying away. As fibrinogenolytic activity is not painful, the venom likely has a primarily predatory role in subjugating prey, instead of acting as a predator deterrent.",
+     "It is suggested that higher prey escape potential may cause increased venom potency, as the lethally toxic eastern green mamba and boomslang are also arboreal. This may also apply to the piscivorous and highly venomous cone snails, given their highly mobile fish prey.",
+     "As the venom is an anticoagulant, monitor lizard bites often bleed far more than what the mechanical damage of the bite alone would have induced."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197143199/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) coenobita, some rights reserved (CC BY), uploaded by coenobita",
+   "photo": 197143199
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188042299/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Max Tibby",
+   "photo": 188042299
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42391825/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mattyhartdarwin, some rights reserved (CC BY-NC)",
+   "photo": 42391825
+  }
+ ]
+}

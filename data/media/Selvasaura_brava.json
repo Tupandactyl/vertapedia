@@ -1,0 +1,50 @@
+{
+ "sci": "Selvasaura brava",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 797758,
+  "name": "Selvasaura brava",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Selvasaura_brava"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461946573/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) César María Aguilar Gómez, some rights reserved (CC BY-NC)",
+   "obs": 257504101,
+   "place": "Rioja, Perú",
+   "date": "2011-04-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178945646/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) antonc, some rights reserved (CC BY-NC)",
+   "obs": 106516167,
+   "place": "Oxapampa Province, Peru",
+   "date": "2022-01-23"
+  }
+ ],
+ "wiki": {
+  "title": "Selvasaura brava",
+  "url": "https://en.wikipedia.org/wiki/Selvasaura_brava",
+  "revision": 1374565051,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Selvasaura brava, the brave forest microtegu, occurs in Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178945963/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) antonc, some rights reserved (CC BY-NC)",
+   "photo": 178945963
+  }
+ ]
+}

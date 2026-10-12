@@ -1,0 +1,66 @@
+{
+ "sci": "Spondylurus culebrae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146442,
+  "name": "Spondylurus culebrae",
+  "observations": 17,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spondylurus_culebrae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524647078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yaritzart, some rights reserved (CC BY-NC)",
+   "obs": 289582969,
+   "place": null,
+   "date": "2016-06-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613547695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paul mckinney, some rights reserved (CC BY-NC)",
+   "obs": 337499352,
+   "place": null,
+   "date": "2026-02-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7728495/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnwilliams, some rights reserved (CC BY-NC)",
+   "obs": 6163249,
+   "place": null,
+   "date": "2015-11-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7728497/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnwilliams, some rights reserved (CC BY-NC)",
+   "obs": 6163248,
+   "place": null,
+   "date": "2015-11-24"
+  }
+ ],
+ "wiki": {
+  "title": "Spondylurus culebrae",
+  "url": "https://en.wikipedia.org/wiki/Spondylurus_culebrae",
+  "revision": 1315359288,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Spondylurus culebrae, the Culebra skink, is a species of skink found on Culebra and on Culebrita, an uninhabited island off Culebra, in Puerto Rico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7728495/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnwilliams, some rights reserved (CC BY-NC), uploaded by johnwilliams",
+   "photo": 7728495
+  }
+ ]
+}

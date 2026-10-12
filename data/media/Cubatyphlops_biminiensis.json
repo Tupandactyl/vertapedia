@@ -1,0 +1,107 @@
+{
+ "sci": "Cubatyphlops biminiensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539519,
+  "name": "Cubatyphlops biminiensis",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bahamian_slender_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246125490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin A. Bakkegard, some rights reserved (CC BY-NC)",
+   "obs": 143508244,
+   "place": "North Andros, BS",
+   "date": "2022-12-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246050152/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin A. Bakkegard, some rights reserved (CC BY-NC)",
+   "obs": 143456316,
+   "place": "Bahamas",
+   "date": "2022-12-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13937119/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Machado, some rights reserved (CC BY)",
+   "obs": 10110180,
+   "place": "Biminis, BS",
+   "date": "2018-03-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13937877/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Machado, some rights reserved (CC BY)",
+   "obs": 10110670,
+   "place": "Biminis, BS",
+   "date": "2018-03-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242617615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tyler C Hake, some rights reserved (CC BY-NC)",
+   "obs": 141598236,
+   "place": "Bahamas",
+   "date": "2016-12-19"
+  }
+ ],
+ "wiki": {
+  "title": "Bahamian slender blind snake",
+  "url": "https://en.wikipedia.org/wiki/Bahamian_slender_blind_snake",
+  "revision": 1355036769,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Bahamian slender blind snake (Cubatyphlops biminiensis) is a species of snake in the family Typhlopidae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. biminiensis is endemic to the Bahamas."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "C. biminiensis has a long and slender body. The dorsal scales in the vertebral row number 465-500 from the rostral to the tail-tip spine, and the scales around the body number 22–24. The snout is broad and rounded. The rostral scale is wide, half as wide as the head. The preocular is in contact with the second and third upper labials."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. biminiensis is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13937877/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Machado, some rights reserved (CC BY), uploaded by Ben Machado",
+   "photo": 13937877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13937185/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Machado, some rights reserved (CC BY), uploaded by Ben Machado",
+   "photo": 13937185
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13937228/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Machado, some rights reserved (CC BY), uploaded by Ben Machado",
+   "photo": 13937228
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "sci": "Afrotyphlops nigrocandidus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 93492,
+  "name": "Afrotyphlops nigrocandidus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bicoloured_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585519804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "obs": 323580979,
+   "place": "Ludewa, TZ-NJ, TZ",
+   "date": "2024-11-09"
+  }
+ ],
+ "wiki": {
+  "title": "Bicoloured blind snake",
+  "url": "https://en.wikipedia.org/wiki/Bicoloured_blind_snake",
+  "revision": 1313825070,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The bicoloured blind snake (Afrotyphlops nigrocandidus) is a species of snake in the Typhlopidae family. The common name \"bicoloured blind skink\" has also been coined for it, although it is not a skink. It is endemic to east–central Tanzania."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609499970/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "photo": 609499970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585519804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "photo": 585519804
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "sci": "Afrotyphlops liberiensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539221,
+  "name": "Afrotyphlops liberiensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Liberian_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199671228/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ryansig, some rights reserved (CC BY-NC)",
+   "obs": 118195600,
+   "place": "Cavally, CI-MN, CI",
+   "date": "2022-04-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577703899/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 319581005,
+   "place": "3GV3+74 Dobloke, Liberia",
+   "date": "2021-05-14"
+  }
+ ],
+ "wiki": {
+  "title": "Liberian blind snake",
+  "url": "https://en.wikipedia.org/wiki/Liberian_blind_snake",
+  "revision": 1315119165,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Liberian blind snake (Afrotyphlops liberiensis) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577703899/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 577703899
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "sci": "Afrotyphlops elegans",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 525889,
+  "name": "Afrotyphlops elegans",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elegant_worm_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8569699/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Estrela Matilde, some rights reserved (CC BY-NC)",
+   "obs": 6747036,
+   "place": "Reta de Porto Real",
+   "date": "2017-06-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243007379/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tfilipa, some rights reserved (CC BY-NC)",
+   "obs": 141405433,
+   "place": "Príncipe, Príncipe, ST",
+   "date": "2022-11-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350141472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sytskew, some rights reserved (CC BY-NC)",
+   "obs": 198632943,
+   "place": "Lola, ST-PR, ST",
+   "date": "2024-02-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439152835/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matis Mallocher, some rights reserved (CC BY-NC)",
+   "obs": 246039032,
+   "place": "Príncipe, Principe, ST",
+   "date": "2024-10-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13013333/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "obs": 9539993,
+   "place": "Pague, São Tomé and Príncipe",
+   "date": "2018-01-10"
+  }
+ ],
+ "wiki": {
+  "title": "Elegant blind snake",
+  "url": "https://en.wikipedia.org/wiki/Elegant_blind_snake",
+  "revision": 1313819569,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The elegant blind snake (Afrotyphlops elegans), also called the elegant worm snake, is a species of snake in the Typhlopidae family.  It was described by Wilhelm Peters in 1868. The species occurs on the island of Príncipe in São Tomé and Príncipe."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8569699/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Estrela Matilde, some rights reserved (CC BY-NC), uploaded by Estrela Matilde",
+   "photo": 8569699
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8569706/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Estrela Matilde, some rights reserved (CC BY-NC), uploaded by Estrela Matilde",
+   "photo": 8569706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8569848/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Estrela Matilde, some rights reserved (CC BY-NC), uploaded by Estrela Matilde",
+   "photo": 8569848
+  }
+ ]
+}

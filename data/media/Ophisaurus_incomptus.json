@@ -1,0 +1,65 @@
+{
+ "sci": "Ophisaurus incomptus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31984,
+  "name": "Ophisaurus incomptus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ophisaurus_incomptus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440782815/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kenia Reyes, some rights reserved (CC BY-NC)",
+   "obs": 246859794,
+   "place": "89678 Tamps., México",
+   "date": "2024-10-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58148046/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA)",
+   "obs": 36753562,
+   "place": "San Luis Potosí, MX",
+   "date": "2019-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429649946/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kenia Reyes, some rights reserved (CC BY-NC)",
+   "obs": 241099256,
+   "place": "89678 Tamps., México",
+   "date": "2024-09-07"
+  }
+ ],
+ "wiki": {
+  "title": "Ophisaurus incomptus",
+  "url": "https://en.wikipedia.org/wiki/Ophisaurus_incomptus",
+  "revision": 1355155223,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ophisaurus incomptus, the plainneck glass lizard, is a species of lizard of the Anguidae family. It is found in Mexico.",
+     "This species is known only from the Veracruz moist forests of southeastern San Luis Potosí state. It is known from fewer than five locations, over a total range area of less than 5,000 km2. The species is poorly known and may occur more widely."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58148046/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 58148046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58148044/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 58148044
+  }
+ ]
+}

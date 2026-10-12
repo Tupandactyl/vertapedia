@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233914195/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xiaogang Zhou, some rights reserved (CC BY-NC), uploaded by Xiaogang Zhou",
+   "photo": 233914195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474116963/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Glamhag, some rights reserved (CC BY-NC-SA)",
+   "photo": 474116963
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249007533/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thiago Valença, some rights reserved (CC BY-SA)",
+   "photo": 249007533
+  }
+ ]
 }

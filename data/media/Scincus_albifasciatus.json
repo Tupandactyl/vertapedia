@@ -1,0 +1,104 @@
+{
+ "sci": "Scincus albifasciatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 112322,
+  "name": "Scincus albifasciatus",
+  "observations": 28,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scincus_albifasciatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38261399/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pfaucher, some rights reserved (CC BY-NC)",
+   "obs": 24741802,
+   "place": "Oued el Dahab, Western Sahara",
+   "date": "2019-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446265201/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Aurélien Rovero, some rights reserved (CC BY)",
+   "obs": 249624028,
+   "place": "Ouarzazate, MA-SM, MA",
+   "date": "2024-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312568483/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC)",
+   "obs": 179528896,
+   "place": "Tinghir Province, Morocco",
+   "date": "2018-05-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75167301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) isabelmateus, some rights reserved (CC BY-NC)",
+   "obs": 47394730,
+   "place": "Merzouga, Marrocos",
+   "date": "2012-06-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115046192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) G. VIGO, some rights reserved (CC BY-NC)",
+   "obs": 70735517,
+   "place": "Tata, Maroc",
+   "date": "2011-03-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104262334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC)",
+   "obs": 64814427,
+   "place": "Zagora Province, Morocco",
+   "date": "2000-04-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12886692/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY)",
+   "obs": 9470537,
+   "place": "Nouadhibou, Mauretanien",
+   "date": "2006-09-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33486393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Audun Eriksen, some rights reserved (CC BY-NC)",
+   "obs": 21630444,
+   "place": "Errachidia Province, Morocco",
+   "date": "2018-03-11"
+  }
+ ],
+ "wiki": {
+  "title": "Scincus albifasciatus",
+  "url": "https://en.wikipedia.org/wiki/Scincus_albifasciatus",
+  "revision": 1315343952,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scincus albifasciatus is a species of lizard which is found in Senegal, Mauritania, Algeria, and Western Sahara."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38261399/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pfaucher, some rights reserved (CC BY-NC), uploaded by pfaucher",
+   "photo": 38261399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33486393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Audun Eriksen, some rights reserved (CC BY-NC), uploaded by Audun Eriksen",
+   "photo": 33486393
+  }
+ ]
+}

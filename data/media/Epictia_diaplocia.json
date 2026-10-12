@@ -1,0 +1,50 @@
+{
+ "sci": "Epictia diaplocia",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32522,
+  "name": "Epictia diaplocia",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Common_Peru_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201273320/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Isaac Krone, some rights reserved (CC BY)",
+   "obs": 119087201,
+   "place": "Maynas, Loreto, Peru",
+   "date": "2022-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629078721/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Hjalmarson, some rights reserved (CC BY-NC)",
+   "obs": 345208889,
+   "place": "Carretera a Manu--Santa Isabel, Paucartambo Province, Peru",
+   "date": "2025-10-09"
+  }
+ ],
+ "wiki": {
+  "title": "Common Peru blind snake",
+  "url": "https://en.wikipedia.org/wiki/Common_Peru_blind_snake",
+  "revision": 1313728188,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The common Peru blind snake (Epictia diaplocia) is a species of snake in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245992657/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Erfil, some rights reserved (CC BY-SA)",
+   "photo": 245992657
+  }
+ ]
+}

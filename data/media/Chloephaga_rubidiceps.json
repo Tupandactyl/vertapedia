@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446154777/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 446154777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368996038/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Flavien Saboureau, some rights reserved (CC BY), uploaded by Flavien Saboureau",
+   "photo": 368996038
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456395335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roderich Barria Quintana, some rights reserved (CC BY-NC), uploaded by Roderich Barria Quintana",
+   "photo": 456395335
+  }
+ ]
 }

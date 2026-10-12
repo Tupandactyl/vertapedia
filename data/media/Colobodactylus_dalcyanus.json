@@ -1,0 +1,70 @@
+{
+ "sci": "Colobodactylus dalcyanus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34751,
+  "name": "Colobodactylus dalcyanus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Colobodactylus_dalcyanus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312372847/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alex S. Rosa, some rights reserved (CC BY-SA)",
+   "obs": 179428356,
+   "place": "Jardim Primavera, Campos do Jordão - SP, 12460-000, Brasil",
+   "date": "2020-10-22"
+  }
+ ],
+ "wiki": {
+  "title": "Colobodactylus dalcyanus",
+  "url": "https://en.wikipedia.org/wiki/Colobodactylus_dalcyanus",
+  "revision": 1355140728,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Colobodactylus dalcyanus, also known commonly as Vanzolini's teiid, is a species of lizard in the family Gymnophthalmidae. The species is endemic to Brazil."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, dalcyanus, is in honor of Brazilian entomologist Dalcy de Oliveira Albuquerque (1902–1982)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. dalcyanus is found in the Brazilian state of São Paulo."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of C. dalcyanus are forest and rocky areas."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. dalcyanus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312372847/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alex S. Rosa, some rights reserved (CC BY-SA), uploaded by Alex S. Rosa",
+   "photo": 312372847
+  }
+ ]
+}

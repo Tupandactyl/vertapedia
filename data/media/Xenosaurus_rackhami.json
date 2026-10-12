@@ -1,0 +1,62 @@
+{
+ "sci": "Xenosaurus rackhami",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 200610,
+  "name": "Xenosaurus rackhami",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xenosaurus_rackhami"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/844420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chavarriblas-, some rights reserved (CC BY-NC)",
+   "obs": 670288,
+   "place": "Reserva protegida \"La Pera\" Berriozábal, Chiapas",
+   "date": "2014-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91918148/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aureliano Argüello Figueroa, some rights reserved (CC BY-NC)",
+   "obs": 57614536,
+   "place": "Berriozábal, Chis., México",
+   "date": "2015-05-16"
+  }
+ ],
+ "wiki": {
+  "title": "Xenosaurus rackhami",
+  "url": "https://en.wikipedia.org/wiki/Xenosaurus_rackhami",
+  "revision": 1366889137,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xenosaurus  rackhami, also known as Rackham's knob-scaled lizard, is a species of lizard found in Mexico and Guatemala."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91918148/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aureliano Argüello Figueroa，保留部分权利（CC BY-NC）, 由 Aureliano Argüello Figueroa 上传",
+   "photo": 91918148
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/844420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chavarriblas-，保留部分权利（CC BY-NC）, 由 chavarriblas- 上传",
+   "photo": 844420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91930390/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aureliano Argüello Figueroa，保留部分权利（CC BY-NC）, 由 Aureliano Argüello Figueroa 上传",
+   "photo": 91930390
+  }
+ ]
+}

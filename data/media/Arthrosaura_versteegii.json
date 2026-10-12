@@ -1,0 +1,94 @@
+{
+ "sci": "Arthrosaura versteegii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34803,
+  "name": "Arthrosaura versteegii",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arthrosaura_versteegii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523949243/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC)",
+   "obs": 291220388,
+   "place": "Saint-Laurent-du-Maroni, Guyane française",
+   "date": "2005-11-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658541236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 360875249,
+   "place": "Maripasoula 97370, Guyane française",
+   "date": "2026-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658709696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 360966264,
+   "place": "Maripasoula 97370, Guyane française",
+   "date": "2026-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75480738/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC)",
+   "obs": 47588198,
+   "place": "Saül, Guyane française, monts Galbao",
+   "date": "2018-10-22"
+  }
+ ],
+ "wiki": {
+  "title": "Arthrosaura versteegii",
+  "url": "https://en.wikipedia.org/wiki/Arthrosaura_versteegii",
+  "revision": 1355140469,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Arthrosaura versteegii is a species of lizard in the family Gymnophthalmidae. The species is indigenous to northeastern South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, versteegii, is in honor of Gerard Martinus Versteeg (1876–1943), who was a Dutch physician and explorer."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. versteegii is found in Brazil (Amazonas), French Guiana, Suriname, and Venezuela."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of A. versteegii are forest and savanna, at altitudes of 100–1,400 m (330–4,590 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. versteegii is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75480738/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC), uploaded by Sébastien SANT",
+   "photo": 75480738
+  }
+ ]
+}

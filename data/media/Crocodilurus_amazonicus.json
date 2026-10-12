@@ -1,0 +1,131 @@
+{
+ "sci": "Crocodilurus amazonicus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 38643,
+  "name": "Crocodilurus amazonicus",
+  "observations": 106,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crocodilurus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243041896/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Duarte Marín, some rights reserved (CC BY-NC)",
+   "obs": 141820473,
+   "place": "Cumaribo, Vichada, Colombia",
+   "date": "2021-12-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682696510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gustavo Melo, some rights reserved (CC BY-NC)",
+   "obs": 373556463,
+   "place": "R. Coletora Leste - Águas Lindas, Ananindeua - PA, 67000-000, Brasil",
+   "date": "2026-06-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666758898/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sergioueda, some rights reserved (CC BY-NC)",
+   "obs": 365208958,
+   "place": "Manaus, AM, Brasil",
+   "date": "2022-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/570361322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Ferreira Bisneto, some rights reserved (CC BY-NC)",
+   "obs": 315715106,
+   "place": "Manacapuru - AM, 69400-000, Brasil",
+   "date": "2025-09-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/746280735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stanlilley, some rights reserved (CC BY-NC)",
+   "obs": 406218657,
+   "place": "Novo Airão - Amazonas, 69730-000, Brazil",
+   "date": "2026-09-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421040971/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edouard Veuillet, some rights reserved (CC BY-NC)",
+   "obs": 236649265,
+   "place": "Regina 97390, French Guiana",
+   "date": "2024-07-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338849240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AXEL ANTOINE - FEILL S., some rights reserved (CC BY-NC)",
+   "obs": 192953767,
+   "place": "Reserva Natural Palmari, Amazonia, Brazil",
+   "date": "2017-01-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414378/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 332090,
+   "place": "Madre Selva Biological Station, Loreto, Peru",
+   "date": "2013-01-17"
+  }
+ ],
+ "wiki": {
+  "title": "Crocodilurus",
+  "url": "https://en.wikipedia.org/wiki/Crocodilurus",
+  "revision": 1322734948,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crocodilurus is a monotypic lizard genus consisting of one species, Crocodilurus amazonicus, belonging to the family Teiidae (tegus, ameivas and whiptails). Its common name is the crocodile tegu, due to its appearance and fondness for water, and is locally known as the jacarerana. This semi-aquatic, predatory lizard has a flattened, paddle-like tail, enabling it to swim with ease."
+    ]
+   },
+   {
+    "h": "Figurative name",
+    "level": 2,
+    "paras": [
+     "The crocodile tegu has no close relation to crocodilians. The name Crocodilurus amazonicus (\"Amazonian little crocodile\") is only an analogy: It is a predatory reptile well adapted to living and hunting in water."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "C. amazonicus is found in the Amazon Basin and the Guiana Shield in South America."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "C. amazonicus preys upon arthropods, fish, amphibians, and reptiles."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103516919/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 103516919
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243041896/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Duarte Marín, some rights reserved (CC BY-NC), uploaded by Sebastián Duarte Marín",
+   "photo": 243041896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680286661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Laroche, some rights reserved (CC BY-NC), uploaded by Tom Laroche",
+   "photo": 680286661
+  }
+ ]
+}

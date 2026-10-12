@@ -1,0 +1,91 @@
+{
+ "sci": "Timon princeps",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35463,
+  "name": "Timon princeps",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Timon_princeps"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223434515/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "obs": 131307088,
+   "place": null,
+   "date": "2022-05-03"
+  }
+ ],
+ "wiki": {
+  "title": "Timon princeps",
+  "url": "https://en.wikipedia.org/wiki/Timon_princeps",
+  "revision": 1370772082,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Timon princeps, commonly called the Siirt lizard or the Zagrosian lizard, is a species of lizard in the family Lacertidae (wall lizards). The species is endemic to Western Asia."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The dorsal scales of T. princeps are an olive-tinted grey color, and the underbelly is an off-white. They have blue spots edged with black on their sides. Adult males have blue around their mouths, and adult females often have dark olive-green or black heads.",
+     "The outer row of ventral scales are smooth, and there are 13-17 femoral pores on each side.",
+     "Juvenile T. princeps often have less spotting on their backs, in comparison to the spotting found on adults."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Timon princeps is native to southwestern Iran (central Zagros Mountains near Shiraz), northern Iraq, northeastern Syria, and southeastern Turkey."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "The population of Timon princeps located in Iran is exclusively found in the forested areas of the Zagros Mountains."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. princeps is oviparous. During breeding, males will bite onto the lower back of females."
+    ]
+   },
+   {
+    "h": "Conservation",
+    "level": 2,
+    "paras": [
+     "As of December of 2008, Timon princeps is listed as Least Concern on the IUCN Red List."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/925085/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Omid Mozaffari, algunos derechos reservados (CC BY)",
+   "photo": 925085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767419/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Omid Mozaffari, algunos derechos reservados (CC BY)",
+   "photo": 767419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/925086/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Musa geçit, algunos derechos reservados (CC BY-SA)",
+   "photo": 925086
+  }
+ ]
+}

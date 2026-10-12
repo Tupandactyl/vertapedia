@@ -1,0 +1,42 @@
+{
+ "sci": "Bachia pallidiceps",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34783,
+  "name": "Bachia pallidiceps",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bachia_pallidiceps"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613291684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Lau, some rights reserved (CC BY-NC)",
+   "obs": 337376972,
+   "place": "Montelíbano, Córdoba, Colombia",
+   "date": "2023-02-15"
+  }
+ ],
+ "wiki": {
+  "title": "Bachia pallidiceps",
+  "url": "https://en.wikipedia.org/wiki/Bachia_pallidiceps",
+  "revision": 1314020105,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bachia pallidiceps, Cope's bachia, is a species of lizard in the family Gymnophthalmidae. It is found in  Costa Rica, Colombia, and Panama."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613291684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Iván Lau, некоторые права защищены (CC BY-NC), загрузил Iván Lau",
+   "photo": 613291684
+  }
+ ]
+}

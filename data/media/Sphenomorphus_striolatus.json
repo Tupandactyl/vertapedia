@@ -1,0 +1,72 @@
+{
+ "sci": "Sphenomorphus striolatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37492,
+  "name": "Sphenomorphus striolatus",
+  "observations": 18,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenomorphus_striolatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14120820/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Schellekens, some rights reserved (CC BY-NC)",
+   "obs": 10218625,
+   "place": "Regentschap Ende, Oost-Nusa Tenggara, Indonesië",
+   "date": "2012-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63506958/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC)",
+   "obs": 39992453,
+   "place": "Kabupaten Manggarai Barat, Ost-Nusa Tenggara, Indonesien",
+   "date": "2015-12-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2454241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC)",
+   "obs": 2014829,
+   "place": "Komodo, Komodo, Manggarai, Nusa Tenggara Timur, Indonesia",
+   "date": "2015-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83765624/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Iman Akbar, some rights reserved (CC BY-NC-SA)",
+   "obs": 52684965,
+   "place": "East Nusa Tenggara, Indonesia",
+   "date": "2016-05-29"
+  }
+ ],
+ "wiki": {
+  "title": "Sphenomorphus striolatus",
+  "url": "https://en.wikipedia.org/wiki/Sphenomorphus_striolatus",
+  "revision": 1271581029,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphenomorphus striolatus  is a species of skink found in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 582077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 582078
+  }
+ ]
+}

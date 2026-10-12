@@ -1,0 +1,51 @@
+{
+ "sci": "Iphisa surui",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1545881,
+  "name": "Iphisa surui",
+  "observations": 4,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265302060/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Lees, some rights reserved (CC BY-NC)",
+   "obs": 153595719,
+   "place": "Tabaporã - State of Mato Grosso, Brazil",
+   "date": "2006-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632165135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thiagosilva-soares, some rights reserved (CC BY-NC)",
+   "obs": 346772600,
+   "place": "Comodoro - MT, 78310-000, Brasil",
+   "date": "2013-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360054598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC)",
+   "obs": 203761681,
+   "place": "Pimenta Bueno - State of Rondônia, 76970-000, Brazil",
+   "date": "2017-06-18"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632165135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thiagosilva-soares, some rights reserved (CC BY-NC)",
+   "photo": 632165135
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360054598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC), uploaded by Zachary Lange",
+   "photo": 360054598
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "sci": "Mesalina ayunensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35815,
+  "name": "Mesalina ayunensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mesalina_ayunensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170854690/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rob Felix, some rights reserved (CC BY)",
+   "obs": 102235335,
+   "place": "Dhofar, Oman",
+   "date": "2002-09-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248686889/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 144842432,
+   "place": "Dafár, Omán",
+   "date": "2018-11-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248686750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 144842377,
+   "place": "Dafár, Omán",
+   "date": "2018-11-11"
+  }
+ ],
+ "wiki": {
+  "title": "Mesalina ayunensis",
+  "url": "https://en.wikipedia.org/wiki/Mesalina_ayunensis",
+  "revision": 1368565122,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Mesalina ayunensis, also known as the Ayun sand lizard or Arnold's sand lizard, is a species of sand-dwelling lizard in the family Lacertidae. It is endemic to Oman."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170854887/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Felix, some rights reserved (CC BY-NC), uploaded by Rob Felix",
+   "photo": 170854887
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170854690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Felix, some rights reserved (CC BY-NC), uploaded by Rob Felix",
+   "photo": 170854690
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170854893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Felix, some rights reserved (CC BY-NC), uploaded by Rob Felix",
+   "photo": 170854893
+  }
+ ]
+}

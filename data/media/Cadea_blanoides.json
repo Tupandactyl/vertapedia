@@ -1,0 +1,72 @@
+{
+ "sci": "Cadea blanoides",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31859,
+  "name": "Cadea blanoides",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cadea_blanoides"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254823101/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Seburn, some rights reserved (CC BY-NC)",
+   "obs": 148022740,
+   "place": "Jaruco, CU-MQ, CU",
+   "date": "2023-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207042414/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Dayron Breto, some rights reserved (CC BY)",
+   "obs": 122294145,
+   "place": "Los Palacios, CU-PR, CU",
+   "date": "2022-06-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532222073/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) julienviglione, some rights reserved (CC BY-NC)",
+   "obs": 295627714,
+   "place": "49C, Havana, City of Havana, CU",
+   "date": "2024-12-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532226268/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) julienviglione, some rights reserved (CC BY-NC)",
+   "obs": 295629794,
+   "place": "Plaza de la Revolución, CU-CH, CU",
+   "date": "2024-12-20"
+  }
+ ],
+ "wiki": {
+  "title": "Spotted amphisbaena",
+  "url": "https://en.wikipedia.org/wiki/Spotted_amphisbaena",
+  "revision": 1322269965,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The spotted amphisbaena (Cadea blanoides) is a species of amphisbaenian in the family Cadeidae. This species is endemic to the island of Cuba."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207042414/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Dayron Breto, algunos derechos reservados (CC BY), subido por Dayron Breto",
+   "photo": 207042414
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254826036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Seburn, algunos derechos reservados (CC BY-NC), subido por David Seburn",
+   "photo": 254826036
+  }
+ ]
+}

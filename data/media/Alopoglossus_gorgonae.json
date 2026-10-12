@@ -1,0 +1,78 @@
+{
+ "sci": "Alopoglossus gorgonae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1119999,
+  "name": "Alopoglossus gorgonae",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alopoglossus_gorgonae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264392769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JDLS, some rights reserved (CC BY-NC)",
+   "obs": 153105807,
+   "place": "Bosque protegido JDLS La Mana, Équateur",
+   "date": "2012-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568177863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 314574514,
+   "place": " Reserva ProAves El Pangan",
+   "date": "2020-11-01"
+  }
+ ],
+ "wiki": {
+  "title": "Alopoglossus gorgonae",
+  "url": "https://en.wikipedia.org/wiki/Alopoglossus_gorgonae",
+  "revision": 1370202805,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Alopoglossus gorgonae is a species of lizard in the family Alopoglossidae. The species is native to northwestern South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, gorgonae, refers to the type locality, Gorgona Island, Colombia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. gorgonae is  found in southwestern Colombia and adjacent northwestern Ecuador."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of A. gorgonae is forest, at altitudes from sea level to 500 m (1,600 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. gorgonae is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264392769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JDLS, some rights reserved (CC BY-NC), uploaded by JDLS",
+   "photo": 264392769
+  }
+ ]
+}

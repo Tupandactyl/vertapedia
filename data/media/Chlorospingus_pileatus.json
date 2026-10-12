@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73089707/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Wendelken, some rights reserved (CC BY-NC), uploaded by Dave Wendelken",
+   "photo": 73089707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6404863/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, some rights reserved (CC BY-NC), uploaded by Heather Pickard",
+   "photo": 6404863
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1965955/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1965955
+  }
+ ]
 }

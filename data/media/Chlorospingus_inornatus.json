@@ -116,5 +116,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174626187/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 174626187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13384723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13384723
+  }
+ ]
 }

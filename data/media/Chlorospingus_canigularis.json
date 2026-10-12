@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352573097/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
+   "photo": 352573097
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350273243/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan F. Mandelbaum, some rights reserved (CC BY), uploaded by Ryan F. Mandelbaum",
+   "photo": 350273243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245762781/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Moore, some rights reserved (CC BY-NC), uploaded by Nick Moore",
+   "photo": 245762781
+  }
+ ]
 }

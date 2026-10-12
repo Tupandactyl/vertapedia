@@ -168,5 +168,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98550/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Todd Pierson, niektóre prawa zastrzeżone (CC BY-NC-SA)",
+   "photo": 98550
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8447741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Preney, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Tom Preney",
+   "photo": 8447741
+  }
+ ]
 }

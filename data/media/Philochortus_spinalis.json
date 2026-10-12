@@ -1,0 +1,49 @@
+{
+ "sci": "Philochortus spinalis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35776,
+  "name": "Philochortus spinalis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philochortus_spinalis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367843/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC)",
+   "obs": 297424,
+   "place": "Awash, Misraq Shewa, ET-OR, ET",
+   "date": "2011-09-05"
+  }
+ ],
+ "wiki": {
+  "title": "Philochortus spinalis",
+  "url": "https://en.wikipedia.org/wiki/Philochortus_spinalis",
+  "revision": 1355139928,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philochortus spinalis, also known commonly as Peters's shield-backed lizard and the Eritrea orangetail lizard, is a species of lizard in the family Lacertidae. The species is native to the Horn of Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. spinalis is found in Eritrea, Ethiopia, and Somalia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367843/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC), uploaded by Vlada Trailin",
+   "photo": 367843
+  }
+ ]
+}

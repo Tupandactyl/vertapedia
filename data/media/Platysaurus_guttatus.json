@@ -1,0 +1,72 @@
+{
+ "sci": "Platysaurus guttatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 33100,
+  "name": "Platysaurus guttatus",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dwarf_flat_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454449298/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 253771683,
+   "place": "Capricorn, ZA-NP, ZA",
+   "date": "2019-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722666843/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 394210275,
+   "place": "Limpopo",
+   "date": "2019-04-22"
+  }
+ ],
+ "wiki": {
+  "title": "Dwarf flat lizard",
+  "url": "https://en.wikipedia.org/wiki/Dwarf_flat_lizard",
+  "revision": 1313801753,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The dwarf flat lizard or lesser flat lizard (Platysaurus guttatus) is a lizard in the family Cordylidae. It is found in Southern Africa."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Females and juveniles have a dark brown back with three thin, broken-up pale stripes and several pale spots between these stripes. The throat is blue-white, while the chest and belly are white. Adult males are green to blue-green on their back, with numerous pale spots. On the head, there are three pale stripes, while on the tail, there is bright orange which is paler underneath. The throat is pale green with black speckles and has no collar. The chest is blue and the belly is darker blue. The sides are blue like the belly, but are green or blue when immature. When the underneath a tree they start to change colors."
+    ]
+   },
+   {
+    "h": "Geography",
+    "level": 2,
+    "paras": [
+     "This lizard lives in South Africa, Botswana, southern Zimbabwe, Mozambique, and Malawi.",
+     "The dwarf flat lizard lives in arid and mesic savannas. This species also occurs with Platysaurus minor, the Waterberg flat lizard."
+    ]
+   },
+   {
+    "h": "Habits",
+    "level": 2,
+    "paras": [
+     "The dwarf flat lizard lives in small family groups and is very agile. Dwarf flat lizards lay two white eggs during October and December."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454449298/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 454449298
+  }
+ ]
+}

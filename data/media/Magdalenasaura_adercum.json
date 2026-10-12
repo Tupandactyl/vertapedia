@@ -1,0 +1,50 @@
+{
+ "sci": "Magdalenasaura adercum",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1129125,
+  "name": "Magdalenasaura adercum",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Magdalenasaura_adercum"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410460737/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Duarte Marín, some rights reserved (CC BY-NC)",
+   "obs": 231126719,
+   "place": "Samaná, Caldas, Colombia",
+   "date": "2024-07-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589238832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) @gonzalezduran, some rights reserved (CC BY-NC)",
+   "obs": 325443154,
+   "place": "Samaná, Samaná, Caldas, CO",
+   "date": "2025-11-01"
+  }
+ ],
+ "wiki": {
+  "title": "Magdalenasaura adercum",
+  "url": "https://en.wikipedia.org/wiki/Magdalenasaura_adercum",
+  "revision": 1369324721,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Magdalenasaura adercum is a species of lizard in the family Gymnophthalmidae. It is endemic to Antioquia, Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410460737/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Duarte Marín, some rights reserved (CC BY-NC), uploaded by Sebastián Duarte Marín",
+   "photo": 410460737
+  }
+ ]
+}

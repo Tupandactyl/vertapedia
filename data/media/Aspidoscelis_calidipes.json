@@ -1,0 +1,50 @@
+{
+ "sci": "Aspidoscelis calidipes",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73654,
+  "name": "Aspidoscelis calidipes",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aspidoscelis_calidipes"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264014218/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) betorquato, some rights reserved (CC BY-NC)",
+   "obs": 152939460,
+   "place": "La Huacana, Mich., México",
+   "date": "2020-08-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7379240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernesto Raya, some rights reserved (CC BY-NC)",
+   "obs": 5916092,
+   "place": "Michoacán, México",
+   "date": "2010-02-25"
+  }
+ ],
+ "wiki": {
+  "title": "Aspidoscelis calidipes",
+  "url": "https://en.wikipedia.org/wiki/Aspidoscelis_calidipes",
+  "revision": 1350852095,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aspidoscelis calidipes, the Tepalcatepec Valley whiptail, is a species of teiid lizard endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7379240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernesto Raya, some rights reserved (CC BY-NC), uploaded by Ernesto Raya",
+   "photo": 7379240
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "sci": "Panaspis annettesabinae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1129117,
+  "name": "Panaspis annettesabinae",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Panaspis_annettesabinae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123359530/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC)",
+   "obs": 75403983,
+   "place": "Keffa, Äthiopien",
+   "date": "2019-08-01"
+  }
+ ],
+ "wiki": {
+  "title": "Panaspis annettesabinae",
+  "url": "https://en.wikipedia.org/wiki/Panaspis_annettesabinae",
+  "revision": 1376028040,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Panaspis annettesabinae, also known as Sabin's snake-eyed skink, is a species of lidless skinks in the family Scincidae. It is endemic to Ethiopia. It is known from certainty only from its type locality near Bedele in the Oromia Region, southwestern Ethiopia, although there is a tentative record from central Ethiopia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "This species is named after Annette Sabin, from the philanthropic Sabin family."
+    ]
+   },
+   {
+    "h": "Habitat and distribution",
+    "level": 2,
+    "paras": [
+     "The holotype was found in a clearing within moist evergreen montane forest at 1,840 m (6,040 ft) above sea level."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Panaspis annettesabinae measure 42 mm (1.7 in) in snout–vent length."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123359530/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 123359530
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "sci": "Tropidophorus sebi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606532,
+  "name": "Tropidophorus sebi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tropidophorus_sebi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150436392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) manduka, some rights reserved (CC BY-NC)",
+   "obs": 90986974,
+   "place": "First Count Logging Camp, Putai, upper Baleh, Kapit district, Sarawak, East Malaysia (Borneo)",
+   "date": "2015-05-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736876982/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bugs Ling, some rights reserved (CC BY-NC)",
+   "obs": 401471868,
+   "place": "Kubah National Park, 93050 Kuching, Sarawak, Malaysia",
+   "date": "2026-09-19"
+  }
+ ],
+ "wiki": {
+  "title": "Tropidophorus sebi",
+  "url": "https://en.wikipedia.org/wiki/Tropidophorus_sebi",
+  "revision": 1368666898,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tropidophorus sebi, the Baleh water skink, is a species of skink. It is endemic to Sarawak in Malaysian Borneo."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150436392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) manduka, some rights reserved (CC BY-NC)",
+   "photo": 150436392
+  }
+ ]
+}

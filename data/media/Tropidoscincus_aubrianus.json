@@ -1,0 +1,50 @@
+{
+ "sci": "Tropidoscincus aubrianus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37376,
+  "name": "Tropidoscincus aubrianus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tropidoscincus_aubrianus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/696168646/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stephentho, some rights reserved (CC BY-NC)",
+   "obs": 380522083,
+   "place": "Sud, NC",
+   "date": "2026-07-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381461198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zsombor Károlyi, some rights reserved (CC BY-NC)",
+   "obs": 215740640,
+   "place": "Sud, NC",
+   "date": "2024-04-25"
+  }
+ ],
+ "wiki": {
+  "title": "Tropidoscincus aubrianus",
+  "url": "https://en.wikipedia.org/wiki/Tropidoscincus_aubrianus",
+  "revision": 1315260025,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aubrey's whiptailed skink (Tropidoscincus aubrianus) is a species of skink found in New Caledonia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171726484/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 171726484
+  }
+ ]
+}

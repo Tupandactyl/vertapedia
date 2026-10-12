@@ -1,0 +1,42 @@
+{
+ "sci": "Aspidoscelis opatae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73683,
+  "name": "Aspidoscelis opatae",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aspidoscelis_opatae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17549921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Leonardo Chavez Torres, some rights reserved (CC BY-NC)",
+   "obs": 12217016,
+   "place": "Bacadéhuachi, Son., México",
+   "date": "2014-07-12"
+  }
+ ],
+ "wiki": {
+  "title": "Aspidoscelis opatae",
+  "url": "https://en.wikipedia.org/wiki/Aspidoscelis_opatae",
+  "revision": 1314146815,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aspidoscelis opatae, the Opata whiptail, is a species of teiid lizard endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17549921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Leonardo Chavez Torres, some rights reserved (CC BY-NC), uploaded by Oscar Leonardo Chavez Torres",
+   "photo": 17549921
+  }
+ ]
+}

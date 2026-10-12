@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460310461/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Balaji Devarajan, some rights reserved (CC BY-NC), uploaded by Balaji Devarajan",
+   "photo": 460310461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113050343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Kielb, some rights reserved (CC BY-NC), uploaded by Michael Kielb",
+   "photo": 113050343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116539052/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 116539052
+  }
+ ]
 }

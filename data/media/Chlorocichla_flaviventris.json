@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761803/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 761803
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425376802/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 425376802
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443221183/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ingridmarx, some rights reserved (CC BY-NC)",
+   "photo": 443221183
+  }
+ ]
 }

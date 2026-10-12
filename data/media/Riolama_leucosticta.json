@@ -1,0 +1,64 @@
+{
+ "sci": "Riolama leucosticta",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34826,
+  "name": "Riolama leucosticta",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Riolama_leucosticta"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581775420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 321673153,
+   "place": "Gran Sabana, 8011, Bolívar, Venezuela",
+   "date": "2025-10-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608223477/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gabogr28, some rights reserved (CC BY-NC)",
+   "obs": 334872484,
+   "place": "Bolívar",
+   "date": "2025-10-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732854502/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sebastianlagonell, some rights reserved (CC BY-NC)",
+   "obs": 399440560,
+   "place": "67H7+V3W",
+   "date": "2026-09-01"
+  }
+ ],
+ "wiki": {
+  "title": "Riolama leucosticta",
+  "url": "https://en.wikipedia.org/wiki/Riolama_leucosticta",
+  "revision": 1328149255,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Riolama leucosticta, the white-spotted riolama, is a species of lizard in the family Gymnophthalmidae. It is endemic to Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581775399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC), uploaded by Arnaud Aury",
+   "photo": 581775399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581775420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC), uploaded by Arnaud Aury",
+   "photo": 581775420
+  }
+ ]
+}

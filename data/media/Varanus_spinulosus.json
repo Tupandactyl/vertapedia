@@ -1,0 +1,97 @@
+{
+ "sci": "Varanus spinulosus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 39472,
+  "name": "Varanus spinulosus",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Varanus_spinulosus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622322424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cole Chapman, some rights reserved (CC BY-NC)",
+   "obs": 341807804,
+   "place": "Hovukoilo, SB-IS, SB",
+   "date": "2026-03-03"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus spinulosus",
+  "url": "https://en.wikipedia.org/wiki/Varanus_spinulosus",
+  "revision": 1357560881,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus spinulosus, known commonly as the Solomon Island spiny monitor, Isabel monitor, or spiny-neck monitor, is a species of monitor lizard. It is native to the Solomon Islands archipelago, which includes the main island chain of the Solomon Islands as well as Bougainville Island in Papua New Guinea."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Varanus spinulosus was first described by Robert Mertens in 1941 from a single male specimen, and named Varanus indicus spinulosus as a subspecies of the mangrove monitor. This species was known only by the holotype until 1989, when 5 female specimens were collected. In 1994, the taxon was elevated to specific status as Varanus spinulosus, but remained a member of the subgenus Euprepriosaurus and the V. indicus species complex until it was declared incertae sedis in 2010, when it was concluded that the species likely represented a new subgenus due to its genital morphology. In 2016, the monotypic subgenus Solomonsaurus was coined for this species based on its unique scale structure, the latter which is reflected by this taxon's specific epithet spinulosus, meaning \"spiny\". A 2021 phylogenetic analysis suggests that this species dispersed to the Solomon Islands shortly after the genus Varanus formed 30 million years ago in the Oligocene, and is not particularly closely related to Euprepiosaurus, which diverged much later in the Late Miocene."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This species is in many respects similar to the mangrove monitors of the V. indicus species complex, but has a number of unique morphological characteristics, and is not particularly closely related to them. It has a spiny scale texture as each of the small body scales are strongly keeled and conical in shape, which is a feature unique amongst all monitor lizards. It has 3-4 rows of bright yellow spots running across its back, and has relatively large eyes. It also possesses a  distinct and acute canthus, a feature that is generally uncommon among other monitor species. Spiny-necked monitors also generally retain an \"extreme dark morph\" coloring, a trait likely stemming from the geographic restriction of the species. Unlike most mangrove monitors, this species maintains a uniform black ventral surface, and does not have light facial coloring. They also possess enlarged colored scales, with a lack of distinct mandibular bar patterns prevalent in other Varanidae, something observed only in this species. This species also possesses a variant pink base tongue color, though a third of the anterodorsal portion could also share the same pigment."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "This species generally resides in xeric (areas with higher rainfall during a selective period per year) and quasi-xeric environments. The selective environments for settling resulted in geographical restrictions to the Bismarck Archipelago and Solomon Island chains."
+    ]
+   },
+   {
+    "h": "Lifespan",
+    "level": 2,
+    "paras": [
+     "In zoos and other private collections, spiny-necked monitors live on average approximately 7.5 years."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Similarly to most other monitor species, this species is carnivorous, consuming insects, other invertebrates, and birds.",
+     "They feed on megapode eggs and on fish, often emerging from the bush. In the intertidal zone at low tide, it is possible that they would search for dead fish."
+    ]
+   },
+   {
+    "h": "Relationship with humans",
+    "level": 2,
+    "paras": [
+     "During the 1990s, many V. spinulosus were imported under the common name \"mangrove monitor\" due to increased desirability in the pet trade."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622322598/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cole Chapman, some rights reserved (CC BY-NC), uploaded by Cole Chapman",
+   "photo": 622322598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622322424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cole Chapman, some rights reserved (CC BY-NC), uploaded by Cole Chapman",
+   "photo": 622322424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622322662/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cole Chapman, some rights reserved (CC BY-NC), uploaded by Cole Chapman",
+   "photo": 622322662
+  }
+ ]
+}

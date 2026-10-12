@@ -1,0 +1,70 @@
+{
+ "sci": "Protoblepharus apatani",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1367331,
+  "name": "Protoblepharus apatani",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Protoblepharus_apatani"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519229393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chintan sheth, some rights reserved (CC BY-NC)",
+   "obs": 124548468,
+   "place": "Lower Subansiri, IN-AR, IN",
+   "date": "2022-06-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206267801/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ashwin Viswanathan, some rights reserved (CC BY)",
+   "obs": 121863422,
+   "place": "791120",
+   "date": "2022-06-02"
+  }
+ ],
+ "wiki": {
+  "title": "Protoblepharus apatani",
+  "url": "https://en.wikipedia.org/wiki/Protoblepharus_apatani",
+  "revision": 1374741868,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Protoblepharus apatani is a species of skink. It was discovered during a herpetological investigation of the Indian state of Arunachal Pradesh and is endemic to the East Himalayan Mountains."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The generic epithet Protoblepharus is a Latinized combination of the Greek words proto (πρωτό), meaning ‘primitive’ and blepharo (βλέφaρο) meaning ‘eyelid’, which is a reference to ablepharine skinks. The epithet apatani is meant to honor the Apatani tribe of Ziro Valley in Arunachal Pradesh, who helped and assisted the fieldwork in Arunachal Pradesh."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Protoblepharus apatani has a small to medium-sized body, up to 63mm. Its body scales are glossy, smooth or striated. The holotype was golden brown with a broad dark stripe gradually diffusing with the background colour at the mid-body."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211115959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chintan sheth, some rights reserved (CC BY-NC), uploaded by chintan sheth",
+   "photo": 211115959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206267801/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ashwin Viswanathan, some rights reserved (CC BY), uploaded by Ashwin Viswanathan",
+   "photo": 206267801
+  }
+ ]
+}

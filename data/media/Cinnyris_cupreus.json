@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656404/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 656404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59909023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 59909023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81151223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antoon De Vylder, some rights reserved (CC BY-NC), uploaded by Antoon De Vylder",
+   "photo": 81151223
+  }
+ ]
 }

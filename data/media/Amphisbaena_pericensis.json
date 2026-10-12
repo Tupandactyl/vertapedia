@@ -1,0 +1,48 @@
+{
+ "sci": "Amphisbaena pericensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31815,
+  "name": "Amphisbaena pericensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Perico_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611291960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "obs": 336396914,
+   "place": "Lonya Grande, Utcubamba Province, Peru",
+   "date": "2025-01-14"
+  }
+ ],
+ "wiki": {
+  "title": "Perico worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Perico_worm_lizard",
+  "revision": 1355137981,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Perico worm lizard (Amphisbaena pericensis) is a worm lizard species in the family Amphisbaenidae. It is endemic to Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611291890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "photo": 611291890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611291960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "photo": 611291960
+  }
+ ]
+}

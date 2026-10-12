@@ -78,5 +78,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72121168/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Nik Borrow",
+   "photo": 72121168
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42251409/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Dérozier Violette",
+   "photo": 42251409
+  }
+ ]
 }

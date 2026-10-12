@@ -1,0 +1,98 @@
+{
+ "sci": "Gerrhonotus farri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 101422,
+  "name": "Gerrhonotus farri",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gerrhonotus_farri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658091324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC)",
+   "obs": 360642330,
+   "place": "San Luis Potosí, MX",
+   "date": "2025-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720214794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) erika_duque, some rights reserved (CC BY-NC)",
+   "obs": 392976898,
+   "place": "Villa de Guadalupe, S.L.P., México",
+   "date": "2026-08-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/686827429/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) curiel_09, some rights reserved (CC BY-NC)",
+   "obs": 375685109,
+   "place": "78868 S.L.P., México",
+   "date": "2026-06-26"
+  }
+ ],
+ "wiki": {
+  "title": "Gerrhonotus farri",
+  "url": "https://en.wikipedia.org/wiki/Gerrhonotus_farri",
+  "revision": 1355156604,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Gerrhonotus farri, also known commonly as Farr's alligator lizard and the Tamaulipan alligator lizard, is a species of lizard in the family Anguidae. The species is native to northeastern Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, farri, is in honor of American herpetologist William L. Farr, who collected the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "G. farri is endemic to the Mexican state of Tamaulipas."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The holotype of G. farri has a snout-to-vent length (SVL) of 11 cm (4.3 in). It has smooth dorsal scales, and its head is distinctly wider than its neck."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The mode of reproduction of G. farri is unknown."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658091324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 658091324
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658172144/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 658172144
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658093242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 658093242
+  }
+ ]
+}

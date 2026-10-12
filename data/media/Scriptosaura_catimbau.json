@@ -1,0 +1,62 @@
+{
+ "sci": "Scriptosaura catimbau",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 112368,
+  "name": "Scriptosaura catimbau",
+  "observations": 22,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scriptosaura"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700429282/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marcello Mastroianni Albuquerque Araújo, some rights reserved (CC BY)",
+   "obs": 382730172,
+   "place": "Pernambuco, BR",
+   "date": "2026-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716313001/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marcello Mastroianni Albuquerque Araújo, some rights reserved (CC BY)",
+   "obs": 390959287,
+   "place": "Pernambuco, BR",
+   "date": "2026-07-18"
+  }
+ ],
+ "wiki": {
+  "title": "Scriptosaura",
+  "url": "https://en.wikipedia.org/wiki/Scriptosaura",
+  "revision": 1376208415,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scriptosaura is a genus of the lizard family Gymnophthalmidae. The genus is monotypic, i.e. it has only one species, Scriptosaura catimbau. It occurs in Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700429282/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marcello Mastroianni Albuquerque Araújo, alguns direitos reservados (CC BY), carregado por Marcello Mastroianni Albuquerque Araújo",
+   "photo": 700429282
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693417206/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marcello Mastroianni Albuquerque Araújo, alguns direitos reservados (CC BY), carregado por Marcello Mastroianni Albuquerque Araújo",
+   "photo": 693417206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711526166/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marcello Mastroianni Albuquerque Araújo, alguns direitos reservados (CC BY), carregado por Marcello Mastroianni Albuquerque Araújo",
+   "photo": 711526166
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "sci": "Loxopholis caparensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539914,
+  "name": "Loxopholis caparensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Loxopholis_caparensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369764679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Delvis Romero, some rights reserved (CC BY-NC)",
+   "obs": 208985197,
+   "place": "Andrés Eloy Blanco, 5201, Barinas, Venezuela",
+   "date": "2024-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400348423/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Delvis Romero, some rights reserved (CC BY-NC)",
+   "obs": 225790370,
+   "place": "Andrés Eloy Blanco, 5201, Barinas, Venezuela",
+   "date": "2024-05-19"
+  }
+ ],
+ "wiki": {
+  "title": "Loxopholis caparensis",
+  "url": "https://en.wikipedia.org/wiki/Loxopholis_caparensis",
+  "revision": 1315050583,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Loxopholis caparensis is a species of lizard in the family Gymnophthalmidae. It is found in Venezuela and Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369764679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Delvis Romero, some rights reserved (CC BY-NC), uploaded by Delvis Romero",
+   "photo": 369764679
+  }
+ ]
+}

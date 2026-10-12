@@ -1,0 +1,83 @@
+{
+ "sci": "Scolecoseps boulengeri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37636,
+  "name": "Scolecoseps boulengeri",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scolecoseps_boulengeri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202167455/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 118498205,
+   "place": "Moma, MZ-NM, MZ",
+   "date": "2022-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217655908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amberj, some rights reserved (CC BY-NC)",
+   "obs": 128155615,
+   "place": "Moma, Mozambique",
+   "date": "2022-05-13"
+  }
+ ],
+ "wiki": {
+  "title": "Scolecoseps boulengeri",
+  "url": "https://en.wikipedia.org/wiki/Scolecoseps_boulengeri",
+  "revision": 1355146259,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scolecoseps boulengeri, also known commonly as Boulenger's limbless skink, is a species of lizard in the family Scincidae. The species is endemic to Mozambique."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, boulengeri, is in honor of Belgian-born British herpetologist George Albert Boulenger."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "S. boulengeri is found along the coast of Mozambique in Cabo Delgado Province and Nampula Province."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The mode of reproduction of S. boulengeri is unknown."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202167510/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 202167510
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202167565/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 202167565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202167618/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 202167618
+  }
+ ]
+}

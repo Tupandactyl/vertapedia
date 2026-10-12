@@ -1,0 +1,58 @@
+{
+ "sci": "Rondonops biscutatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540183,
+  "name": "Rondonops biscutatus",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rondonops_biscutatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49451676/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, some rights reserved (CC BY-SA)",
+   "obs": 31587793,
+   "place": "Cristalino Lodge - Alta Floresta - MT - Brazil",
+   "date": "2019-08-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60285087/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 37975090,
+   "place": "Novo Mundo, Mato Grosso, Brazil",
+   "date": "2020-01-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13117400/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 9612663,
+   "place": "Novo Mundo, Mato Grosso, Brazil",
+   "date": "2017-06-23"
+  }
+ ],
+ "wiki": {
+  "title": "Rondonops biscutatus",
+  "url": "https://en.wikipedia.org/wiki/Rondonops_biscutatus",
+  "revision": 1218425627,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rondonops biscutatus is a species of lizard in the family Gymnophthalmidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49451676/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, some rights reserved (CC BY-SA), uploaded by Sidnei Dantas",
+   "photo": 49451676
+  }
+ ]
+}

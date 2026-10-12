@@ -73,5 +73,25 @@
    "date": "2026-03-22"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597836560/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Domzjuniorwildlife, some rights reserved (CC BY-SA)",
+   "photo": 597836560
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473626338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Vincent Leonoras, some rights reserved (CC BY-NC), uploaded by Matt Vincent Leonoras",
+   "photo": 473626338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/694493450/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Ocaña, some rights reserved (CC BY-NC), uploaded by Michael Ocaña",
+   "photo": 694493450
+  }
+ ]
 }

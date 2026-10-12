@@ -1,0 +1,61 @@
+{
+ "sci": "Comptus stenurus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403142,
+  "name": "Comptus stenurus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Comptus_stenurus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46129122/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Reith, some rights reserved (CC BY-NC)",
+   "obs": 29554370,
+   "place": "Grand Bois National Park, Sud Department, Haiti",
+   "date": "2019-07-20"
+  }
+ ],
+ "wiki": {
+  "title": "Comptus stenurus",
+  "url": "https://en.wikipedia.org/wiki/Comptus_stenurus",
+  "revision": 1355155410,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Comptus stenurus, the Hispaniolan keeled galliwasp or Cope's galliwasp, is a species of lizard of the Diploglossidae family endemic to the Caribbean island of Hispaniola (in both the Dominican Republic and Haiti)."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "It was formerly classified in the genus Celestus, but was moved to Comptus in 2021."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182521/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ron Savage, some rights reserved (CC BY-NC-SA), uploaded by Ron Savage",
+   "photo": 182521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58367065/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 58367065
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170211423/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 170211423
+  }
+ ]
+}

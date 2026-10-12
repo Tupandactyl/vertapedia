@@ -1,0 +1,70 @@
+{
+ "sci": "Proablepharus reginae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37756,
+  "name": "Proablepharus reginae",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Proablepharus_reginae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249875171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bethany McLeod, some rights reserved (CC BY-NC)",
+   "obs": 145470240,
+   "place": "Tjoritja/West MacDonnell National Park, Mount Zeil, NT, AU",
+   "date": "2022-12-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410037668/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC)",
+   "obs": 230910245,
+   "place": "Tanami, AU-NT, AU",
+   "date": "2023-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276681091/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY)",
+   "obs": 160122612,
+   "place": "Australia",
+   "date": "2023-04-29"
+  }
+ ],
+ "wiki": {
+  "title": "Proablepharus reginae",
+  "url": "https://en.wikipedia.org/wiki/Proablepharus_reginae",
+  "revision": 1315080539,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Proablepharus reginae, the western soil-crevice skink, is a species of skink found in Australia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410037668/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 410037668
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276681091/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY), uploaded by Connor Margetts",
+   "photo": 276681091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249875171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bethany McLeod, some rights reserved (CC BY-NC), uploaded by Bethany McLeod",
+   "photo": 249875171
+  }
+ ]
+}

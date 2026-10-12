@@ -1,0 +1,70 @@
+{
+ "sci": "Tupinambis longilineus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 38937,
+  "name": "Tupinambis longilineus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tupinambis_longilineus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189919967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Stevens, some rights reserved (CC BY-NC)",
+   "obs": 112447156,
+   "place": "Gral. José Ballivián, Bolivia",
+   "date": "2022-02-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639264905/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Carlos Otávio Gussoni, some rights reserved (CC BY)",
+   "obs": 350369940,
+   "place": "Porto Velho, RO, Brasil",
+   "date": "2026-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62488923/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) rbeunen, some rights reserved (CC BY-NC-SA)",
+   "obs": 39392100,
+   "place": "Abel Iturralde, Bolivia",
+   "date": "2017-11-08"
+  }
+ ],
+ "wiki": {
+  "title": "Tupinambis longilineus",
+  "url": "https://en.wikipedia.org/wiki/Tupinambis_longilineus",
+  "revision": 1368643648,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tupinambis longilineus, the Rondonia tegu, is a species of lizard in the family Teiidae. It is endemic to Brazil and north Bolivia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189919967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Stevens, some rights reserved (CC BY-NC), uploaded by Luis Stevens",
+   "photo": 189919967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189919982/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Stevens, some rights reserved (CC BY-NC), uploaded by Luis Stevens",
+   "photo": 189919982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62488923/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) rbeunen, some rights reserved (CC BY-NC-SA), uploaded by rbeunen",
+   "photo": 62488923
+  }
+ ]
+}

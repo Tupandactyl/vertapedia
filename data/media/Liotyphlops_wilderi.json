@@ -1,0 +1,64 @@
+{
+ "sci": "Liotyphlops wilderi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32425,
+  "name": "Liotyphlops wilderi",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Liotyphlops_wilderi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165474047/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jean Martins, some rights reserved (CC BY)",
+   "obs": 99282893,
+   "place": "Unnamed Road - Alexânia, GO, 72920-000, Brasil",
+   "date": "2021-10-23"
+  }
+ ],
+ "wiki": {
+  "title": "Liotyphlops wilderi",
+  "url": "https://en.wikipedia.org/wiki/Liotyphlops_wilderi",
+  "revision": 1355030779,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Liotyphlops wilderi, also known as Wilder's blind snake, is a species of snake in the family Anomalepididae. The species is endemic to Brazil."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, wilderi, is in honor of Burt Green Wilder, who was an American comparative anatomist and naturalist."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "L. wilderi is found in southeastern Brazil, in the Brazilian states of Minas Gerais and Rio de Janeiro.",
+     "The preferred natural habitats of L. wilderi are forest and savanna."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. wilderi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165474047/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jean Martins, some rights reserved (CC BY), uploaded by Jean Martins",
+   "photo": 165474047
+  }
+ ]
+}

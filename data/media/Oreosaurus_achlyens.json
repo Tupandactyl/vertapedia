@@ -1,0 +1,50 @@
+{
+ "sci": "Oreosaurus achlyens",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606509,
+  "name": "Oreosaurus achlyens",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oreosaurus_achlyens"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330125812/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vojtobalaz, some rights reserved (CC BY-NC)",
+   "obs": 188594934,
+   "place": "Girardot, Aragua, Venezuela",
+   "date": "2007-02-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330126061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vojtobalaz, some rights reserved (CC BY-NC)",
+   "obs": 188594936,
+   "place": "Girardot, Aragua, Venezuela",
+   "date": "2007-02-20"
+  }
+ ],
+ "wiki": {
+  "title": "Oreosaurus achlyens",
+  "url": "https://en.wikipedia.org/wiki/Oreosaurus_achlyens",
+  "revision": 1328149208,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oreosaurus achlyens is a species of lizard in the family Gymnophthalmidae. It is endemic to Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330125812/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vojtobalaz, some rights reserved (CC BY-NC)",
+   "photo": 330125812
+  }
+ ]
+}

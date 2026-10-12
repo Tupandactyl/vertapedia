@@ -1,0 +1,50 @@
+{
+ "sci": "Epictia guayaquilensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1304701,
+  "name": "Epictia guayaquilensis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Guayaquila_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396260900/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gnormand, some rights reserved (CC BY-NC)",
+   "obs": 223627148,
+   "place": "Guayaquil, Ecuador",
+   "date": "2024-06-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100607020/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aldo Icaza, some rights reserved (CC BY-NC)",
+   "obs": 62757699,
+   "place": "Puerto del Morro, Ecuador",
+   "date": "2020-10-16"
+  }
+ ],
+ "wiki": {
+  "title": "Guayaquila blind snake",
+  "url": "https://en.wikipedia.org/wiki/Guayaquila_blind_snake",
+  "revision": 1328142899,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Guayaquila blind snake (Epictia guayaquilensis) is a species of snakes in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100607020/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aldo Icaza, some rights reserved (CC BY-NC), uploaded by Aldo Icaza",
+   "photo": 100607020
+  }
+ ]
+}

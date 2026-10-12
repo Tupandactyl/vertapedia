@@ -1,0 +1,78 @@
+{
+ "sci": "Liotyphlops schubarti",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32426,
+  "name": "Liotyphlops schubarti",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Liotyphlops_schubarti"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272612343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juliana A. de Oliveira, some rights reserved (CC BY-NC)",
+   "obs": 157691938,
+   "place": "Campinas, BR-SP, BR",
+   "date": "2023-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240801897/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José de Jesús Palacios Serrato, some rights reserved (CC BY-NC)",
+   "obs": 140656755,
+   "place": "Avenida Independência, Campinas, SP, BR",
+   "date": "2022-10-30"
+  }
+ ],
+ "wiki": {
+  "title": "Liotyphlops schubarti",
+  "url": "https://en.wikipedia.org/wiki/Liotyphlops_schubarti",
+  "revision": 1377208942,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Liotyphlops schubarti is a species of snake in the family Anomalepididae. The species is endemic to Brazil."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schubarti, is in honor of German-born Brazilian zoologist Otto Schubart."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "L. schubarti is found in the Brazilian state of São Paulo."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of L. schubarti is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. schubarti is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240801897/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José de Jesús Palacios Serrato, some rights reserved (CC BY-NC), uploaded by José de Jesús Palacios Serrato",
+   "photo": 240801897
+  }
+ ]
+}

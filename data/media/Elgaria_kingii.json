@@ -1,0 +1,149 @@
+{
+ "sci": "Elgaria kingii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32061,
+  "name": "Elgaria kingii",
+  "observations": 1980,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Madrean_alligator_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730332575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Zani (born @ 325 ppm), some rights reserved (CC BY-NC)",
+   "obs": 398146921,
+   "place": "Arizona, US",
+   "date": "2026-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50523535/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Correa Rodríguez, some rights reserved (CC BY-NC)",
+   "obs": 32225166,
+   "place": "San Dimas, Dgo., México",
+   "date": "2018-08-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586476042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Gutiérrez, some rights reserved (CC BY-NC)",
+   "obs": 324058069,
+   "place": "60906 Mich., México",
+   "date": "2025-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448290135/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan C.M., some rights reserved (CC BY-NC)",
+   "obs": 250633370,
+   "place": "46960 Jal., México",
+   "date": "2024-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632072528/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) L. Reid, some rights reserved (CC BY)",
+   "obs": 346725057,
+   "place": "Camp Verde, AZ 86322, USA",
+   "date": "2026-04-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432092385/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adán Bautista-del Moral, some rights reserved (CC BY-NC)",
+   "obs": 242371691,
+   "place": "Reserva de la Biosfera Janos, Chih., México",
+   "date": "2023-07-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546041776/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) River Ahlquist, some rights reserved (CC BY)",
+   "obs": 302970482,
+   "place": "W Fork Trail, Sedona, AZ, US",
+   "date": "2025-08-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14279972/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Buddy, some rights reserved (CC BY-NC)",
+   "obs": 10307919,
+   "place": "Cochise County, AZ, USA",
+   "date": "2008-08-18"
+  }
+ ],
+ "wiki": {
+  "title": "Madrean alligator lizard",
+  "url": "https://en.wikipedia.org/wiki/Madrean_alligator_lizard",
+  "revision": 1354670971,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Madrean alligator lizard (Elgaria kingii), also known commonly as King's alligator lizard and el lagarto de montaña in Mexican Spanish, is a species of lizard in the family Anguidae. The species is native to the southwestern United States and adjacent northwestern Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, kingii, is in honor of Phillip Parker King, an Australian-born Royal Navy officer who surveyed the coast of South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "E. kingii is found from southeastern Arizona and southwestern New Mexico, United States, southward to Jalisco, Colima, Nayarit, southeastern Zacatecas, and southwestern Aguascalientes, Mexico."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "E. kingii is found in a variety of habitats including desert, grassland, shrubland, and forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "E. kingii is oviparous."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Three subspecies are recognized as being valid, including the nominotypical subspecies.",
+     "Elgaria kingii ferruginea (Webb, 1962)",
+     "Elgaria kingii kingii Gray, 1838",
+     "Elgaria kingii nobilis Baird & Girard, 1852",
+     "Nota bene: A trinomial authority in parentheses indicates that the subspecies was originally described in a genus other than Elgaria."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138674158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Rivera, some rights reserved (CC BY-NC), uploaded by Ricardo Rivera",
+   "photo": 138674158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4110286/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David G. Barker, some rights reserved (CC BY-NC), uploaded by David G. Barker",
+   "photo": 4110286
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7967675/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Jacobi, some rights reserved (CC BY-NC), uploaded by Michael Jacobi",
+   "photo": 7967675
+  }
+ ]
+}

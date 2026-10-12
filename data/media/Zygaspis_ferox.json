@@ -1,0 +1,78 @@
+{
+ "sci": "Zygaspis ferox",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 115286,
+  "name": "Zygaspis ferox",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zygaspis_ferox"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503699365/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 280453798,
+   "place": null,
+   "date": "2025-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498090498/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adriaan Jordaan, some rights reserved (CC BY-NC)",
+   "obs": 277395811,
+   "place": null,
+   "date": "2025-04-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/505813653/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 281571050,
+   "place": null,
+   "date": "2025-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498091720/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adriaan Jordaan, some rights reserved (CC BY-NC)",
+   "obs": 277396482,
+   "place": null,
+   "date": "2025-04-21"
+  }
+ ],
+ "wiki": {
+  "title": "Zygaspis ferox",
+  "url": "https://en.wikipedia.org/wiki/Zygaspis_ferox",
+  "revision": 1355139154,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Zygaspis ferox is a worm lizard species in the family Amphisbaenidae. It is endemic to Zimbabwe."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503699365/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 503699365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503699343/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 503699343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503697445/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 503697445
+  }
+ ]
+}

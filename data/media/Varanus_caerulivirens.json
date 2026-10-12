@@ -1,0 +1,88 @@
+{
+ "sci": "Varanus caerulivirens",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 39462,
+  "name": "Varanus caerulivirens",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Turquoise_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597164099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Howard, some rights reserved (CC BY-NC)",
+   "obs": 329436867,
+   "place": "Halmahera Utara, North Maluku, ID",
+   "date": "2025-11-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255488287/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hamas Fathani, some rights reserved (CC BY-SA)",
+   "obs": 148369775,
+   "place": "Obi, Indonesia",
+   "date": "2022-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251173294/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Martin Gutewort, some rights reserved (CC BY)",
+   "obs": 146133888,
+   "place": "Halmahera Utara, Nord-Molukken, Indonesien",
+   "date": "2022-11-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446459543/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Ardian Rahman, some rights reserved (CC BY-NC)",
+   "obs": 249720671,
+   "place": "Baru, Obi, South Halmahera Regency, North Maluku, Indonesia",
+   "date": "2024-08-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443049628/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeanne Benioff, some rights reserved (CC BY-NC)",
+   "obs": 248005906,
+   "place": "Halmahera, North Maluku, Indonesia",
+   "date": "2016-07-25"
+  }
+ ],
+ "wiki": {
+  "title": "Turquoise monitor",
+  "url": "https://en.wikipedia.org/wiki/Turquoise_monitor",
+  "revision": 1357807218,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The turquoise monitor (Varanus caerulivirens) is a species of monitor lizards found in Indonesia. Specifically, it is found on Halmahera Island and in the Maluku Islands."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The main coloration of the turquoise monitor is black-brown and greyish-brown with some turquoise pattern. The underside coloration is light yellowish to turquoise with a blackish pattern. The throat and lower part of the neck of this monitor lizard is mostly yellowish. Varanus caerulivirens can grow up to about 110 cm in total length.",
+     "The diet of Varanus caerulivirens mainly consists of crustaceans, scorpions, grasshoppers and frogs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597164099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Howard, some rights reserved (CC BY-NC), uploaded by Tom Howard",
+   "photo": 597164099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446459543/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Ardian Rahman, some rights reserved (CC BY-NC), uploaded by Adam Ardian Rahman",
+   "photo": 446459543
+  }
+ ]
+}

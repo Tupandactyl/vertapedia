@@ -1,0 +1,126 @@
+{
+ "sci": "Zonosaurus madagascariensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34702,
+  "name": "Zonosaurus madagascariensis",
+  "observations": 565,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Madagascar_girdled_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360608304/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stefaneakame, some rights reserved (CC BY-NC)",
+   "obs": 204049470,
+   "place": "Nosy Mangabe, Province de Toamasina, MG",
+   "date": "2024-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10042519/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Broadhead, some rights reserved (CC BY-NC)",
+   "obs": 7669483,
+   "place": "Lalan'Andasibe, 514, Madagascar",
+   "date": "2016-12-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51846355/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC)",
+   "obs": 33031604,
+   "place": "District d'Ambanja, Madagascar",
+   "date": "2009-10-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653857213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) calfirecap, some rights reserved (CC BY-NC)",
+   "obs": 358428429,
+   "place": "Brickaville, Madagascar",
+   "date": "2025-12-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448848679/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC)",
+   "obs": 250912177,
+   "place": "Madagascar, Toamasina, MG",
+   "date": "2024-11-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590684522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrianiaina Angelo, some rights reserved (CC BY-NC)",
+   "obs": 326168228,
+   "place": "Toamasina II, Madagascar",
+   "date": "2025-11-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340641171/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tessamulder, some rights reserved (CC BY-NC)",
+   "obs": 193872776,
+   "place": "Madagaskar",
+   "date": "2023-12-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42517690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 27344024,
+   "place": "Toamasina Province, Madagascar",
+   "date": "1996-10-20"
+  }
+ ],
+ "wiki": {
+  "title": "Madagascar girdled lizard",
+  "url": "https://en.wikipedia.org/wiki/Madagascar_girdled_lizard",
+  "revision": 1320166468,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Madagascar girdled lizard or Madagascar plated lizard (Zonosaurus madagascariensis) is a species of lizard in the family Gerrhosauridae. It is found in Madagascar, some outlying islands (Nosy Be and the nearby islands; Grande Glorieuse) and the Seychelles (Cosmoledo). This generally common lizard is found in a range of habitat types, including open and degraded humid forest at mid and low altitudes. It also occurs in plantations. On Cosmoledo, it occurs in open shrubland. This oviparous lizard grows to 30 cm (12 in) total length."
+    ]
+   },
+   {
+    "h": "Evolutionary history",
+    "level": 2,
+    "paras": [
+     "The family Gerrhosauridae shares the strongest evolutionary linkages to Asian and South American Species. However, the population on the island most likely originated from colonization by ancestors \"rafting\" from the African Mainland. Within the Island of Madagascar, the Malagasy Plated Lizards are denoted by two individual genera of Gerrhosauridae: 1. Tracheloptychus, which consists of 2 separate species that occupy the subarid south and south-west regions of the Island 2. Zonosaurus, which consists of 17 species occupy the majority of the biomes distributed throughout the Island.",
+     "Originally, scientists concluded, based on morphological data, that the Zonosaurus was a sister to the Tracheloptychus genera.",
+     "In order to determine the evolutionary line of the species of Gerrhosauridae on the Island, specimens representing the species that inhabited the Island were acquired and tissue samples were taken and DNA samples were taken and underwent PCR. From the information, the tree for the evolution pathway was then \"inferred per gene and per type of gene,\" resulting in the following lineage as described by the below link containing a photo: http://ars.els-cdn.com/content/image/1-s2.0-S1055790313002534-gr2.jpg."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Populations on Cosmoledo and Grande Glorieuse are recognized as subspecies Zonosaurus madagascariensis insulanus Brygoo, 1985."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188327718/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 188327718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55835475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katarina Stenman, some rights reserved (CC BY-NC), uploaded by Katarina Stenman",
+   "photo": 55835475
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360608304/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stefaneakame, some rights reserved (CC BY-NC), uploaded by Stefaneakame",
+   "photo": 360608304
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "sci": "Myriopholis wilsoni",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146296,
+  "name": "Myriopholis wilsoni",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wilson's_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1803506/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1454927,
+   "place": "Sokotra",
+   "date": "2009-01-08"
+  }
+ ],
+ "wiki": {
+  "title": "Wilson's blind snake",
+  "url": "https://en.wikipedia.org/wiki/Wilson%27s_blind_snake",
+  "revision": 1355031093,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Wilson's blind snake (Myriopholis wilsoni) is a species of snake in the family Leptotyphlopidae. The species is native to Yemen."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, wilsoni, is in honor of American mammalogist Don Ellis Wilson."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "M. wilsoni is endemic to the island of Socotra in Yemen."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of M. wilsoni are forest and shrubland, at altitudes from sea level to 995 m (3,264 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "M. wilsoni is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1803506/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1803506
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "sci": "Prasinohaema virens",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37758,
+  "name": "Prasinohaema virens",
+  "observations": 9,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Prasinohaema_virens"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253099986/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC)",
+   "obs": 147122803,
+   "place": "Kiriwina-Goodenough, PG-MB, PG",
+   "date": "2009-09-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449949704/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Radovan Víta, some rights reserved (CC BY-NC)",
+   "obs": 251465260,
+   "place": "Buini Tusu, Šalamounovy ostrovy",
+   "date": "2003-03-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159122468/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Keith Martin-Smith, some rights reserved (CC BY-NC-SA)",
+   "obs": 95822217,
+   "place": "New Georgia Group, Solomon Islands",
+   "date": "2011-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43831082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julia Clem, some rights reserved (CC BY-NC)",
+   "obs": 28132091,
+   "place": "Tetepare Island",
+   "date": "2019-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240233740/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Keith Morris, some rights reserved (CC BY-NC)",
+   "obs": 140348568,
+   "place": "New Georgia Group, Solomon Islands",
+   "date": "2012-10-28"
+  }
+ ],
+ "wiki": {
+  "title": "Prasinohaema virens",
+  "url": "https://en.wikipedia.org/wiki/Prasinohaema_virens",
+  "revision": 1373746706,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The green-blooded skink (Prasinohaema virens), sometimes (ambiguously) known as green tree skink, is a scincid lizard species native to Papua New Guinea and the Solomon Islands. This small and arboreal lizard is common, but poorly known."
+    ]
+   },
+   {
+    "h": "Physiology",
+    "level": 2,
+    "paras": [
+     "The skink has developed setae on its toe pads (or digit pads) for climbing analogous to those of geckos and anoles, but the trait is believed to have evolved independently to these groups,  so is an example of convergent evolution. With regards to the trait, other species in the genus, P. flavipes and P. prehensicauda, have the primitive character, and lack the setae. Other skinks within the genus Lipinia have also evolved toe pad setae, and within the skink family, four morphologically distinct adhesive microstructures have evolved, possibly all with independent evolutionary origins. By contrast, anoles and geckos each use a single, common structure, although it appears to have evolved independently in the two groups."
+    ]
+   },
+   {
+    "h": "Blood",
+    "level": 3,
+    "paras": [
+     "As in other lizards of the genus Prasinohaema, the blood of  P. virens is green, rather than the usual red coloration of most vertebrates. The green blood pigmentation results in a strikingly bright lime-green coloration of muscles, bones, tongue, and mucosal tissue, and is the result of the accumulation of the bile pigment biliverdin in levels that would be toxic in all other vertebrates.  Biliverdin is formed from the breakdown of hemoglobin, and is normally converted to bilirubin.  However,  mutations in various genes regulating bilirubin formation is believed to lead to the formation and accumulation of high levels of biliverdin. It is speculated that the high biliverdin concentration protects against malaria."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "P. virens is native to Papua New Guinea and the Solomon Islands. It is found at altitudes ranging from sea level to 500 m (1,600 ft), and inhabits rainforest and plantations of different varieties."
+    ]
+   },
+   {
+    "h": "Import to Australia",
+    "level": 2,
+    "paras": [
+     "In Australia, importing this skink is prohibited under State and Territory legislation because the skink's risk as an invasive species has not yet been assessed. However, live specimens may be imported with a permit issued under the Environment Protection and Biodiversity Conservation Act 1999 for noncommercial purposes, such as research, but not as a household pet."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253099986/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC), uploaded by Eric N. Rittmeyer",
+   "photo": 253099986
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43831082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julia Clem, some rights reserved (CC BY-NC), uploaded by Julia Clem",
+   "photo": 43831082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159122468/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Keith Martin-Smith, some rights reserved (CC BY-NC-SA), uploaded by Keith Martin-Smith",
+   "photo": 159122468
+  }
+ ]
+}

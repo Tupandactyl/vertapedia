@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583269296/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SGSHANKAR, some rights reserved (CC BY-NC), uploaded by SGSHANKAR",
+   "photo": 583269296
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176375263/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 176375263
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116955676/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Udaya Kumar, some rights reserved (CC BY-NC), uploaded by Udaya Kumar",
+   "photo": 116955676
+  }
+ ]
 }

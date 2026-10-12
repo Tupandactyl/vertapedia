@@ -62,5 +62,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336281411/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) khalebyordan, some rights reserved (CC BY-NC)",
+   "photo": 336281411
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109955068/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi",
+   "photo": 109955068
+  }
+ ]
 }

@@ -1,0 +1,70 @@
+{
+ "sci": "Nothobachia ablephara",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34913,
+  "name": "Nothobachia ablephara",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nothobachia"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280443303/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Willianderson Lima, some rights reserved (CC BY-NC)",
+   "obs": 162203966,
+   "place": "Dom Inocêncio - PI, 64790-000, Brasil",
+   "date": "2020-10-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698503932/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Adeilson Melo, some rights reserved (CC BY)",
+   "obs": 381728201,
+   "place": "Petrolina, Pernambuco, Brazil",
+   "date": "2026-07-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591378467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, some rights reserved (CC BY-NC)",
+   "obs": 326519523,
+   "place": "Casa Nova, BA, 47300-000, Brasil",
+   "date": "2025-08-23"
+  }
+ ],
+ "wiki": {
+  "title": "Nothobachia",
+  "url": "https://en.wikipedia.org/wiki/Nothobachia",
+  "revision": 1376208318,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Nothobachia is a genus of lizards. It is monotypic with Nothobachia ablephara as the sole species. It is endemic to Bahia state of eastern Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591378552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, alguns direitos reservados (CC BY-NC), carregado por Lucas Botelho",
+   "photo": 591378552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591378524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, alguns direitos reservados (CC BY-NC), carregado por Lucas Botelho",
+   "photo": 591378524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698504198/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Adeilson Melo, alguns direitos reservados (CC BY), carregado por Adeilson Melo",
+   "photo": 698504198
+  }
+ ]
+}

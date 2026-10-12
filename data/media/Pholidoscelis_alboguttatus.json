@@ -1,0 +1,58 @@
+{
+ "sci": "Pholidoscelis alboguttatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1250123,
+  "name": "Pholidoscelis alboguttatus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pholidoscelis_alboguttatus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588796554/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Alejandro Rodríguez González, some rights reserved (CC BY-NC)",
+   "obs": 325224205,
+   "place": "PR, US",
+   "date": "2025-11-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731449663/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) erikmartin, some rights reserved (CC BY-NC)",
+   "obs": 398757834,
+   "place": "Isla De Mona E Islote Monito, Mayagüez 00680, Puerto Rico",
+   "date": "2002-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731118024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dalizcasablanca, some rights reserved (CC BY-NC)",
+   "obs": 398549515,
+   "place": "Isla de Mona, Mayagüez, PR, US",
+   "date": "2026-09-07"
+  }
+ ],
+ "wiki": {
+  "title": "Pholidoscelis alboguttatus",
+  "url": "https://en.wikipedia.org/wiki/Pholidoscelis_alboguttatus",
+  "revision": 1276547147,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pholidoscelis alboguttatus, the Mona ground lizard or Mona ameiva, is a member of the family Teiidae of lizards. It is endemic to Isla de Mona in Puerto Rico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588796554/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Alejandro Rodríguez González, some rights reserved (CC BY-NC), uploaded by Rafael Alejandro Rodríguez González",
+   "photo": 588796554
+  }
+ ]
+}

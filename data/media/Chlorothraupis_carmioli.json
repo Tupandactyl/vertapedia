@@ -73,5 +73,19 @@
    "date": "2023-12-18"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8918823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 8918823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137614/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 137614
+  }
+ ]
 }

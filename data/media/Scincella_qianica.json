@@ -1,0 +1,37 @@
+{
+ "sci": "Scincella qianica",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1655567,
+  "name": "Scincella qianica",
+  "observations": 4,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617720855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) notac, some rights reserved (CC BY-NC)",
+   "obs": 328067161,
+   "place": "Guiyang, CN-GZ, CN",
+   "date": "2025-11-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535311584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 江国彬, some rights reserved (CC BY-NC)",
+   "obs": 297249821,
+   "place": "中国贵州省贵阳市观山湖区",
+   "date": "2025-07-05"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535311584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 江国彬, some rights reserved (CC BY-NC), uploaded by 江国彬",
+   "photo": 535311584
+  }
+ ]
+}

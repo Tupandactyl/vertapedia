@@ -1,0 +1,110 @@
+{
+ "sci": "Pholidoscelis corvinus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606389,
+  "name": "Pholidoscelis corvinus",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sombrero_ameiva"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76745790/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique Miguel Pereira, some rights reserved (CC BY-NC)",
+   "obs": 48370622,
+   "place": null,
+   "date": "1999-07-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151842524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Toby Ross, some rights reserved (CC BY-NC)",
+   "obs": 91766086,
+   "place": null,
+   "date": "2021-08-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446368615/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 249677883,
+   "place": null,
+   "date": "2024-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71996793/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) blairhedges, some rights reserved (CC BY-NC)",
+   "obs": 45405469,
+   "place": null,
+   "date": "2010-10-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446678491/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) helenroy, some rights reserved (CC BY-NC)",
+   "obs": 249831146,
+   "place": null,
+   "date": "2024-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446678876/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) helenroy, some rights reserved (CC BY-NC)",
+   "obs": 249831356,
+   "place": null,
+   "date": "2024-10-29"
+  }
+ ],
+ "wiki": {
+  "title": "Sombrero ameiva",
+  "url": "https://en.wikipedia.org/wiki/Sombrero_ameiva",
+  "revision": 1354657405,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Sombrero ameiva (Pholidoscelis corvinus), also known commonly as the Sombrero groundlizard, is a species of lizard in the family Teiidae. The species is endemic to Sombrero, a small, uninhabited island in the Lesser Antilles under the jurisdiction of Anguilla. The species was originally described in the genus Ameiva."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of P. corvinus are melanistic, appearing plain brown to slate black, with a dark green to black ventral surface mottled with light blue. The tail is sometimes spotted green. Males have brown flecks on the dorsal surface and browner heads. Males grow to 133 mm (5.2 in) snout-to-vent length (SVL), with females being considerably smaller.",
+     "It is superficially similar in coloration and scalation to P. atratus and P. corax, two other melanistic species also found on small, barren islands in the Caribbean. As the islands have similar habitats, this is likely the result of independent adaptation."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "The diet of P. corvinus includes the eggs of ground-nesting birds."
+    ]
+   },
+   {
+    "h": "Conservation",
+    "level": 2,
+    "paras": [
+     "The Sombrero ameiva is listed as critically endangered on the IUCN Red List due to its limited distribution, an area less than 0.37 km2 (91 acres) in size. A 1999 study estimated between 396 and 461 individuals, including adults and juveniles, based on mark-recapture data. Although there are no permanent human settlements on Sombrero, increased rodent populations such as introduced mice may put pressure on the lizards. Flooding and sea level rise may also threaten the species. The population appeared to be thriving in the early 2000s, possibly due to its isolation from human activity, then crashed steeply to less than 100 individuals as of 2018 due to a combination of invasive species (primarily mice), severe hurricanes, and general environmental degradation. Mouse eradication and native plant restoration by conservation groups allowed the population to rebound to more than 1,600 individuals as of 2024."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151842555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Toby Ross, some rights reserved (CC BY-NC), uploaded by Toby Ross",
+   "photo": 151842555
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71996793/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) blairhedges, some rights reserved (CC BY-NC)",
+   "photo": 71996793
+  }
+ ]
+}

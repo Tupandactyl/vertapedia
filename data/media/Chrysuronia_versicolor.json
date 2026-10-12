@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253157/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 253157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253156/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 253156
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26372078/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26372078
+  }
+ ]
 }

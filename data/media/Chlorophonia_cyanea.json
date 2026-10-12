@@ -172,5 +172,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95547/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 95547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178836799/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 178836799
+  }
+ ]
 }

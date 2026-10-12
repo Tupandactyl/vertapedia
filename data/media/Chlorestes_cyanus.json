@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351653031/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 351653031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26314699/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26314699
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246092575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wagner d'Oliveira Alvim, some rights reserved (CC BY-NC), uploaded by Wagner d'Oliveira Alvim",
+   "photo": 246092575
+  }
+ ]
 }

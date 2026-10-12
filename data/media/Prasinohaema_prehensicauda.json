@@ -1,0 +1,64 @@
+{
+ "sci": "Prasinohaema prehensicauda",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37760,
+  "name": "Prasinohaema prehensicauda",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Prasinohaema_prehensicauda"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234831503/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Callum Blacklaw, some rights reserved (CC BY-NC)",
+   "obs": 137489714,
+   "place": "Jayawijaya, ID-PA, ID",
+   "date": "2022-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238374242/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Callum Blacklaw, some rights reserved (CC BY-NC)",
+   "obs": 139376765,
+   "place": "Ketimavit, Wamena, Jayawijaya Regency, Papua, Indonesia",
+   "date": "2022-10-02"
+  }
+ ],
+ "wiki": {
+  "title": "Prasinohaema prehensicauda",
+  "url": "https://en.wikipedia.org/wiki/Prasinohaema_prehensicauda",
+  "revision": 1347744804,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Prasinohaema prehensicauda, the prehensile green tree skink, is a species of skink. It is found in Papua New Guinea."
+    ]
+   },
+   {
+    "h": "Names",
+    "level": 2,
+    "paras": [
+     "It is known as sydn in the Kalam language of Papua New Guinea. Green P. prehensicauda are called sydn km, while brown ones are called sydn mlep."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "It is an arboreal skink found in casuarinas and other second-growth trees."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238374242/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Callum Blacklaw, some rights reserved (CC BY-NC), uploaded by Callum Blacklaw",
+   "photo": 238374242
+  }
+ ]
+}

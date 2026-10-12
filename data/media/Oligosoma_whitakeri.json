@@ -1,0 +1,79 @@
+{
+ "sci": "Oligosoma whitakeri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37023,
+  "name": "Oligosoma whitakeri",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Whitaker's_skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537853451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ogle, some rights reserved (CC BY-NC)",
+   "obs": 298587216,
+   "place": "Wellington, NZ",
+   "date": "1985-12-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111189026/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jake Osborne, some rights reserved (CC BY)",
+   "obs": 68634846,
+   "place": "Thames-Coromandel, NZ-WK, NZ",
+   "date": "2021-01-17"
+  }
+ ],
+ "wiki": {
+  "title": "Whitaker's skink",
+  "url": "https://en.wikipedia.org/wiki/Whitaker%27s_skink",
+  "revision": 1354932706,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Whitaker's skink (Oligosoma whitakeri), also known commonly as Whitaker's New Zealand skink, is an endangered species of skink, a lizard in the family Scincidae. The species is found only in New Zealand."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific epithet, whitakeri, is in honour of Anthony Whitaker, a New Zealand herpetologist who studied New Zealand lizards for more than 30 years."
+    ]
+   },
+   {
+    "h": "Habitat and behaviour",
+    "level": 2,
+    "paras": [
+     "Whitaker's skink lives in coastal forest and scrub. During the day it retreats to warm, moist places such as seabird burrows and deep boulder banks, and emerges on warm humid nights to forage."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "O. whitakeri is found on two small, predator-free islands off the Coromandel Peninsula – Middle Island in the Mercury Islands group, and Castle Island. There is also a mainland population in a small rocky area at the base of coastal hills at Pukerua Bay, near Wellington. Fossil bones found in the Waikato region suggest that these skinks were once more widely distributed.",
+     "The New Zealand Department of Conservation and the Friends of Mana Island are running a five-year project to catch and breed enough animals from the vulnerable Pukerua Bay colony to establish a sustainable population on nearby predator-free Mana Island."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "As of August 2021 the Department of Conservation (DOC) classified Whitaker's skink as Nationally Endangered under the New Zealand Threat Classification System."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111189026/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jake Osborne, some rights reserved (CC BY), uploaded by Jake Osborne",
+   "photo": 111189026
+  }
+ ]
+}

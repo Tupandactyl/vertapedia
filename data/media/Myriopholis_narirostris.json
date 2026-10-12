@@ -1,0 +1,59 @@
+{
+ "sci": "Myriopholis narirostris",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32481,
+  "name": "Myriopholis narirostris",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Myriopholis_narirostris"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/707354/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Brown, some rights reserved (CC BY)",
+   "obs": 554959,
+   "place": "Gunjur, The Gambia.",
+   "date": "2013-11-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/403372753/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 227379348,
+   "place": "Thiès, SN",
+   "date": "2024-07-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308803764/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mathieu_fr, some rights reserved (CC BY-NC)",
+   "obs": 177545444,
+   "place": "N2 (Sur La route de Dakar, Thiès 21000, Senegal",
+   "date": "2012-04-22"
+  }
+ ],
+ "wiki": {
+  "title": "Myriopholis narirostris",
+  "url": "https://en.wikipedia.org/wiki/Myriopholis_narirostris",
+  "revision": 1314609514,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Myriopholis narirostris is a species of snake in the family Leptotyphlopidae. It is found in West Africa (Ghana, Togo, Nigeria, and possibly Guinea) and in Middle Africa (Central African Republic); the Reptile Database indicates a more extensive distribution in these areas.",
+     "Myriopholis narirostris inhabit wet savanna and dry forest."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/707356/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Brown, some rights reserved (CC BY), uploaded by Thomas Brown",
+   "photo": 707356
+  }
+ ]
+}

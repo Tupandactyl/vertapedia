@@ -1,0 +1,57 @@
+{
+ "sci": "Mesalina martini",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35808,
+  "name": "Mesalina martini",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mesalina_martini"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2869770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roberto_sindaco, some rights reserved (CC BY-NC)",
+   "obs": 2572285,
+   "place": "Ghelaelo', ER-DU, ER",
+   "date": "2014-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1500297/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1187649,
+   "place": "Ghelaelo', ER-DU, ER",
+   "date": "2014-11-18"
+  }
+ ],
+ "wiki": {
+  "title": "Mesalina martini",
+  "url": "https://en.wikipedia.org/wiki/Mesalina_martini",
+  "revision": 1355139687,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Mesalina martini, also known commonly as Martin's desert racer and the Red Sea lizard, is a species of sand-dwelling lizard in the family Lacertidae. The species is native to the shores of the Red Sea."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Mesalina martini occurs in Egypt, Eritrea, Ethiopia, Somalia, Sudan, and Yemen"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1500297/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1500297
+  }
+ ]
+}

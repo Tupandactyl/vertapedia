@@ -1,0 +1,122 @@
+{
+ "sci": "Saproscincus lewisi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37720,
+  "name": "Saproscincus lewisi",
+  "observations": 18,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Saproscincus_lewisi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323230082/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mortonak, some rights reserved (CC BY-NC)",
+   "obs": 185106772,
+   "place": "Cape Tribulation QLD 4873, Australia",
+   "date": "2023-09-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159306482/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY)",
+   "obs": 56922210,
+   "place": "Cape Tribulation QLD 4873, Australia",
+   "date": "2007-12-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302693852/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kai Squires, some rights reserved (CC BY)",
+   "obs": 174245614,
+   "place": "Candlenut",
+   "date": "2023-07-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333908954/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kai Squires, some rights reserved (CC BY)",
+   "obs": 190471869,
+   "place": "Candlenut",
+   "date": "2023-11-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14129292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC)",
+   "obs": 10223289,
+   "place": "Cape Tribulation QLD 4873, Australien",
+   "date": "2018-02-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202210688/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC)",
+   "obs": 119606986,
+   "place": "Queensland, AU",
+   "date": "2012-10-30"
+  }
+ ],
+ "wiki": {
+  "title": "Saproscincus lewisi",
+  "url": "https://en.wikipedia.org/wiki/Saproscincus_lewisi",
+  "revision": 1355143410,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Saproscincus lewisi, also known commonly as the Cooktown shade-skink and the northern wet tropics shadeskink, is a species of lizard in the subfamily Eugongylinae of the family Scincidae. The species is endemic to Queensland in Australia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, lewisi, is in honor of Lewis Roberts, who collected the holotype."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of S. lewisi have a snout-to-vent length (SVL) of about 42 mm (1.7 in). At midbody the scales are arranged in 22–24 rows around the body. Dorsally, it is brown or bronze, with darker flecks."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of S. lewisi is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "S. lewisi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159306482/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY), uploaded by dhfischer",
+   "photo": 159306482
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14129292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 14129292
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151159058/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Mitchell, some rights reserved (CC BY-NC), uploaded by Christopher Mitchell",
+   "photo": 151159058
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "sci": "Gerrhosaurus bulsi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 101423,
+  "name": "Gerrhosaurus bulsi",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gerrhosaurus_bulsi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86948816/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 54637591,
+   "place": "Solwezi, ZM-NW, ZM",
+   "date": "2018-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11698582/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Querido, some rights reserved (CC BY-NC)",
+   "obs": 8721649,
+   "place": "Ícolo e Bengo, Angola",
+   "date": "2017-11-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618686343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) william van Niekerk, some rights reserved (CC BY-NC)",
+   "obs": 340030105,
+   "place": "Mwinilunga, ZM-NW, ZM",
+   "date": "2025-11-09"
+  }
+ ],
+ "wiki": {
+  "title": "Gerrhosaurus bulsi",
+  "url": "https://en.wikipedia.org/wiki/Gerrhosaurus_bulsi",
+  "revision": 1353564781,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Laurent's plated lizard (Gerrhosaurus bulsi) is a species of lizard in the Gerrhosauridae family.",
+     "It is found in Angola, Democratic Republic of the Congo, and Zambia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86949373/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 86949373
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86948816/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 86948816
+  }
+ ]
+}

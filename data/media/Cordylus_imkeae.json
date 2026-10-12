@@ -1,0 +1,99 @@
+{
+ "sci": "Cordylus imkeae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 33025,
+  "name": "Cordylus imkeae",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rooiberg_girdled_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109938150/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 67962194,
+   "place": "Rooiberg",
+   "date": "2008-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109936442/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 67961441,
+   "place": "Rooiberg",
+   "date": "2008-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208427739/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Helme, some rights reserved (CC BY-NC)",
+   "obs": 123057102,
+   "place": "Namakwa, ZA-NC, ZA",
+   "date": "2005-10-30"
+  }
+ ],
+ "wiki": {
+  "title": "Rooiberg girdled lizard",
+  "url": "https://en.wikipedia.org/wiki/Rooiberg_girdled_lizard",
+  "revision": 1355146302,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Rooiberg girdled lizard (Cordylus imkeae) is a species of small, spiny lizard in the family Cordylidae. The species is endemic to South Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, imkeae, is in honor of German biologist Imke Cordes."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. imkeae is found in Namaqualand, Northern Cape Province, South Africa."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of C. imkei is rocky areas of shrubland."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of C. imkeae usually have a snout-to-vent length (SVL) of 4.0–6.5 cm (1.6–2.6 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. imkei is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109936442/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 109936442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109938150/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 109938150
+  }
+ ]
+}

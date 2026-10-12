@@ -1,0 +1,50 @@
+{
+ "sci": "Tytthoscincus leproauricularis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540293,
+  "name": "Tytthoscincus leproauricularis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tytthoscincus_leproauricularis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562260681/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lars Fehlandt, some rights reserved (CC BY-NC)",
+   "obs": 311466702,
+   "place": "Siburan, Sarawak, Malaysia",
+   "date": "2025-08-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562261025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lars Fehlandt, some rights reserved (CC BY-NC)",
+   "obs": 311466703,
+   "place": "Siburan, Sarawak, Malaysia",
+   "date": "2025-08-28"
+  }
+ ],
+ "wiki": {
+  "title": "Tytthoscincus leproauricularis",
+  "url": "https://en.wikipedia.org/wiki/Tytthoscincus_leproauricularis",
+  "revision": 1327799925,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tytthoscincus leproauricularis, the scaly-eared diminutive leaf-litter skink, is a species of skink. It is endemic to Malaysia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562260681/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lars Fehlandt, some rights reserved (CC BY-NC), uploaded by Lars Fehlandt",
+   "photo": 562260681
+  }
+ ]
+}

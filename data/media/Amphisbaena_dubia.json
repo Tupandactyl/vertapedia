@@ -1,0 +1,42 @@
+{
+ "sci": "Amphisbaena dubia",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31850,
+  "name": "Amphisbaena dubia",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Uncertain_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568958481/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gustavo Santiago Lima, some rights reserved (CC BY-NC)",
+   "obs": 314879776,
+   "place": "Jardim Botânico De Diadema, Diadema, SP, BR",
+   "date": "2025-09-18"
+  }
+ ],
+ "wiki": {
+  "title": "Uncertain worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Uncertain_worm_lizard",
+  "revision": 1355137779,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The uncertain worm lizard (Amphisbaena dubia) is a worm lizard species in the family Amphisbaenidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568958481/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gustavo Santiago Lima, some rights reserved (CC BY-NC), uploaded by Gustavo Santiago Lima",
+   "photo": 568958481
+  }
+ ]
+}

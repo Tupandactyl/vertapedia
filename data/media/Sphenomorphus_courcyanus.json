@@ -1,0 +1,50 @@
+{
+ "sci": "Sphenomorphus courcyanus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37560,
+  "name": "Sphenomorphus courcyanus",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sphenomorphus_courcyanum"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582794921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nononosword, some rights reserved (CC BY-NC)",
+   "obs": 322185518,
+   "place": "西藏自治区林芝市墨脱县背崩乡",
+   "date": "2025-10-21"
+  }
+ ],
+ "wiki": {
+  "title": "Sphenomorphus courcyanus",
+  "url": "https://en.wikipedia.org/wiki/Sphenomorphus_courcyanus",
+  "revision": 1327796976,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphenomorphus courcyanus is a species of skink found in Asia."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "India (Assam), China (S Xizang = Tibet)",
+     "Type locality: Rotung, N. Assam"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557433468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pushengtong, some rights reserved (CC BY-NC)",
+   "photo": 557433468
+  }
+ ]
+}

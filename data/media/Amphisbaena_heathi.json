@@ -1,0 +1,87 @@
+{
+ "sci": "Amphisbaena heathi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31839,
+  "name": "Amphisbaena heathi",
+  "observations": 9,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Amphisbaena_heathi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725317446/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olyana Furtado, some rights reserved (CC BY-NC)",
+   "obs": 395562610,
+   "place": "Rio Grande do Norte, BR",
+   "date": "2022-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227684323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcosdantasvs, some rights reserved (CC BY-NC)",
+   "obs": 133651604,
+   "place": "Rio Grande do Norte, BR",
+   "date": "2021-03-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600563875/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olyana Furtado, some rights reserved (CC BY-NC)",
+   "obs": 331099810,
+   "place": "Rio Grande do Norte, BR",
+   "date": "2024-02-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425301613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcosdantasvs, some rights reserved (CC BY-NC)",
+   "obs": 238853918,
+   "place": null,
+   "date": "2024-08-30"
+  }
+ ],
+ "wiki": {
+  "title": "Heath's worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Heath%27s_worm_lizard",
+  "revision": 1354950806,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Heath's worm lizard (Amphisbaena heathi) is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to Brazil, in the state of Rio Grande do Norte."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, heathi, is in honor of American malacologist Harold Heath."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "A. heathi feeds mainly on termites, ants, insect larvae, and cockroach nymphs, but will also eat earthworms, leeches, and centipedes."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. heathi is oviparous. Eggs are laid during the dry season."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227684323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcosdantasvs, some rights reserved (CC BY-NC)",
+   "photo": 227684323
+  }
+ ]
+}

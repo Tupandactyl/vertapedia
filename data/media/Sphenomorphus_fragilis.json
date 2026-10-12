@@ -1,0 +1,62 @@
+{
+ "sci": "Sphenomorphus fragilis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37592,
+  "name": "Sphenomorphus fragilis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenomorphus_fragilis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253120148/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC)",
+   "obs": 147137795,
+   "place": "Kairuku-Hiri, PG-CE, PG",
+   "date": "2015-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369251823/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC)",
+   "obs": 208684965,
+   "place": "Kairuku-Hiri District, Central Province, Papua New Guinea",
+   "date": "2012-03-08"
+  }
+ ],
+ "wiki": {
+  "title": "Sphenomorphus fragilis",
+  "url": "https://en.wikipedia.org/wiki/Sphenomorphus_fragilis",
+  "revision": 1315373775,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sphenomorphus fragilis  is a species of skink found in Papua New Guinea."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253103097/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC), uploaded by Eric N. Rittmeyer",
+   "photo": 253103097
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253107329/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC), uploaded by Eric N. Rittmeyer",
+   "photo": 253107329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253103122/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC), uploaded by Eric N. Rittmeyer",
+   "photo": 253103122
+  }
+ ]
+}

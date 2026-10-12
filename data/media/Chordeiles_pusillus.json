@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35665/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mauricio Mercadante, some rights reserved (CC BY-NC-SA)",
+   "photo": 35665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200852634/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ademir Carosia, some rights reserved (CC BY-NC), uploaded by Ademir Carosia",
+   "photo": 200852634
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117697204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 117697204
+  }
+ ]
 }

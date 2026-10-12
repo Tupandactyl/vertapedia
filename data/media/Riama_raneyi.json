@@ -1,0 +1,83 @@
+{
+ "sci": "Riama raneyi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34841,
+  "name": "Riama raneyi",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Riama_raneyi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582622655/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 322111851,
+   "place": "Ecuador",
+   "date": "2025-07-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582622104/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 322111764,
+   "place": "Ecuador",
+   "date": "2025-07-26"
+  }
+ ],
+ "wiki": {
+  "title": "Riama raneyi",
+  "url": "https://en.wikipedia.org/wiki/Riama_raneyi",
+  "revision": 1355141131,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Riama raneyi is a species of lizard in the family Gymnophthalmidae. The species is endemic to Ecuador."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, raneyi, is in honor of Richard H. Raney, mayor of Lawrence, Kansas (1967–1968), for his support of the University of Kansas Natural History Museum."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "R. raneyi is found in Napo Province, Ecuador, at altitudes of 2,000–2,910 m (6,560–9,550 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "R. raneyi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582622676/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "photo": 582622676
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582623455/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "photo": 582623455
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582623483/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "photo": 582623483
+  }
+ ]
+}

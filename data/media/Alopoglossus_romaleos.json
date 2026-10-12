@@ -1,0 +1,86 @@
+{
+ "sci": "Alopoglossus romaleos",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1119993,
+  "name": "Alopoglossus romaleos",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alopoglossus_romaleos"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416828578/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Elkin Meriño Florez, some rights reserved (CC BY)",
+   "obs": 234466328,
+   "place": "Ciénaga, Magdalena, Colombia",
+   "date": "2024-07-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292852241/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Elkin Meriño Florez, some rights reserved (CC BY)",
+   "obs": 168944602,
+   "place": "Cuchilla Hierbabuena, Sierra Nevada de santa Marta",
+   "date": "2023-06-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410689973/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lucero Luna Montilla, some rights reserved (CC BY)",
+   "obs": 231248504,
+   "place": "Ciénaga, Magdalena, Colombia",
+   "date": "2024-07-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179364785/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Newman, some rights reserved (CC BY-NC)",
+   "obs": 106734280,
+   "place": "Ciénaga, Magdalena, Colombia",
+   "date": "2022-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410673753/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lucero Luna Montilla, some rights reserved (CC BY)",
+   "obs": 229312310,
+   "place": "Ciénaga, Magdalena, Colombia",
+   "date": "2024-07-12"
+  }
+ ],
+ "wiki": {
+  "title": "Alopoglossus romaleos",
+  "url": "https://en.wikipedia.org/wiki/Alopoglossus_romaleos",
+  "revision": 1346180483,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Alopoglossus romaleos is a species of lizard in the family Alopoglossidae. It is endemic to Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410690022/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lucero Luna Montilla, some rights reserved (CC BY), uploaded by Lucero Luna Montilla",
+   "photo": 410690022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292852241/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Elkin Meriño Florez, some rights reserved (CC BY), uploaded by Elkin Meriño Florez",
+   "photo": 292852241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410690146/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lucero Luna Montilla, some rights reserved (CC BY), uploaded by Lucero Luna Montilla",
+   "photo": 410690146
+  }
+ ]
+}

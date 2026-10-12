@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35095128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 35095128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251372619/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blythe Nilson, some rights reserved (CC BY-NC), uploaded by Blythe Nilson",
+   "photo": 251372619
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180639220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Brains, some rights reserved (CC BY-NC), uploaded by Bird Brains",
+   "photo": 180639220
+  }
+ ]
 }

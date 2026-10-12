@@ -117,5 +117,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/326756160/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 326756160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266021006/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) motti_beifus, some rights reserved (CC BY-NC)",
+   "photo": 266021006
+  }
+ ]
 }

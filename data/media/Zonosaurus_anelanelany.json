@@ -1,0 +1,42 @@
+{
+ "sci": "Zonosaurus anelanelany",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34704,
+  "name": "Zonosaurus anelanelany",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zonosaurus_anelanelany"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57143898/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lemurtaquin, some rights reserved (CC BY-NC)",
+   "obs": 36171147,
+   "place": "Vatovavy Fitovinany, MG-FI, MG",
+   "date": "2014-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Zonosaurus anelanelany",
+  "url": "https://en.wikipedia.org/wiki/Zonosaurus_anelanelany",
+  "revision": 1375080856,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Zonosaurus anelanelany is a species of lizard in the family Gerrhosauridae. The species is endemic to Madagascar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57143898/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lemurtaquin, some rights reserved (CC BY-NC), uploaded by lemurtaquin",
+   "photo": 57143898
+  }
+ ]
+}

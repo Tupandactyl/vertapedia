@@ -1,0 +1,132 @@
+{
+ "sci": "Ophiomorus punctatissimus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37850,
+  "name": "Ophiomorus punctatissimus",
+  "observations": 71,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Limbless_skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/493116317/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Chen, some rights reserved (CC BY-NC)",
+   "obs": 274275641,
+   "place": "Peloponnese, Western Greece and the Ionian Islands, GR",
+   "date": "2025-04-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68744762/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeremyjalabert, some rights reserved (CC BY-NC)",
+   "obs": 43321138,
+   "place": "Péloponnèse, Grèce",
+   "date": "2015-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/683671/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 522434,
+   "place": "Acrokorinthos [loc. n. 8]",
+   "date": "1997-06-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262374329/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Σάββας Ζαφειρίου (Savvas Zafeiriou), some rights reserved (CC BY-NC)",
+   "obs": 152013257,
+   "place": "Καλαμάτα, Ελλάδα",
+   "date": "2023-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342045067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicolas HELITAS, some rights reserved (CC BY-NC)",
+   "obs": 194567155,
+   "place": "Péloponnèse, Grèce",
+   "date": "2017-04-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465708434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonidas-Romanos Davranoglou, some rights reserved (CC BY-NC)",
+   "obs": 259432674,
+   "place": "Keria 230 71, Greece",
+   "date": "2025-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/371079555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chaline Olivier, some rights reserved (CC BY-NC)",
+   "obs": 209728447,
+   "place": "Limni Stymfalia-Apelevro oros Dimou Stymfalias Korinthias kai Koinotitas Aleas Argolidas, Lafka, Peloponnisos, GR",
+   "date": "2024-04-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486216609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chlobynature, some rights reserved (CC BY-NC)",
+   "obs": 270361782,
+   "place": "Peloponnese, Western Greece and the Ionian Islands, GR",
+   "date": "2025-04-11"
+  }
+ ],
+ "wiki": {
+  "title": "Greek snake skink",
+  "url": "https://en.wikipedia.org/wiki/Greek_snake_skink",
+  "revision": 1354932801,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Greek snake skink (Ophiomorus punctatissimus) is a species of skink, a lizard in the family Scincidae."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The species Ophiomorus kardesi was recently described for the Anatolian genetic lineage previously identified as Ophiomorus punctatissimus. Although no morphological differences have been identified, scientists have concluded that the genetic divergence and divergence time (around 10 million years) warranted recognising Ophiomorus kardesi as a distinct species.",
+     "These latter authors note that this work revealed several additional mitochondrial lineages within O. punctatissimus and that further study is needed to clarify the taxonomic status of these."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "This species is endemic to Europe, where it occurs in Greece on the Peloponnese Peninsula and on the islands of Kythira and Elafonisos in the Aegean Sea, off the southern tip of the Peloponnese."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Its natural habitats are temperate grassland and plantations."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68744762/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeremyjalabert, some rights reserved (CC BY-NC), uploaded by jeremyjalabert",
+   "photo": 68744762
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/683671/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 683671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2865560/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 2865560
+  }
+ ]
+}

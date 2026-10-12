@@ -1,0 +1,92 @@
+{
+ "sci": "Varanus juxtindicus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 114882,
+  "name": "Varanus juxtindicus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rennell_Island_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23318659/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark O'Brien, some rights reserved (CC BY-NC)",
+   "obs": 15597229,
+   "place": "East Rennell World Heritage Site",
+   "date": "2018-08-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87464184/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC)",
+   "obs": 54948911,
+   "place": "Rennell and Bellona Province, Solomon Islands",
+   "date": "2018-10-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533336118/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC)",
+   "obs": 296207415,
+   "place": "Rennell and Bellona, SB",
+   "date": "2025-07-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87463044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC)",
+   "obs": 54948549,
+   "place": "Tengano Village, Rennell and Bellona Province, Solomon Islands",
+   "date": "2018-10-23"
+  }
+ ],
+ "wiki": {
+  "title": "Rennell Island monitor",
+  "url": "https://en.wikipedia.org/wiki/Rennell_Island_monitor",
+  "revision": 1349663859,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Rennell Island monitor (Varanus juxtindicus) is a species of monitor lizards found in the Solomon Islands archipelago. It is also known as the Hakoi monitor. It belongs to the subgenus Euprepiosaurus along with the canopy goanna, the peach-throated monitor, Kalabeck's monitor, and others."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "This species is endemic to Rennell Island, one of the smaller of the Solomon Islands. It is especially found near Niupani."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The Rennell Island monitor can reach a length of up to 150  cm from snout to tail.  The pattern and coloration on its back are very similar to V. indicus, but this species is distinguished from the other members of the subgenus Euprepiosaurus by the lack of blue coloration (see Varanus yuwonoi and Varanus doreanus). Its tail shows no bands, nor is there a visible band on the side of the head.  The throat of V. juxtindicus lacks a noticeable pattern. Its tongue only has pigment at the tip. The first third of its tail is round in diameter, without any keel. \""
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87464184/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC), uploaded by jqrichmond",
+   "photo": 87464184
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533336118/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 533336118
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612901788/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 612901788
+  }
+ ]
+}

@@ -101,5 +101,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667752/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 667752
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15258845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 15258845
+  }
+ ]
 }

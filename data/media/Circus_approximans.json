@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527415393/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Harland, some rights reserved (CC BY), uploaded by William Harland",
+   "photo": 527415393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451845340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maurice, some rights reserved (CC BY-NC), uploaded by Maurice",
+   "photo": 451845340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42488027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Simao, some rights reserved (CC BY-NC), uploaded by Ricardo Simao",
+   "photo": 42488027
+  }
+ ]
 }

@@ -1,0 +1,75 @@
+{
+ "sci": "Guarocuyus jaraguanus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1439431,
+  "name": "Guarocuyus jaraguanus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Guarocuyus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601763912/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arielcontreras, some rights reserved (CC BY-NC)",
+   "obs": 331685891,
+   "place": "Oviedo, Dominican Republic",
+   "date": "2022-06-05"
+  }
+ ],
+ "wiki": {
+  "title": "Guarocuyus",
+  "url": "https://en.wikipedia.org/wiki/Guarocuyus",
+  "revision": 1370206464,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Jaragua forest lizard (Guarocuyus jaraguanus) is a species of lizard of the family Diploglossidae endemic to the Dominican Republic on the Caribbean island of Hispaniola."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "It is the only member of the genus Guarocuyus. It was named in honor of the Taíno cacique Enriquillo, whose indigenous name is thought to have been \"Guarocuya\". Being both a monotypic genus and species restricted to a single island and described only in 2022, G. jaraguanus is unique among recently-described reptiles. It is the sister group to the clade containing the genera Celestus, Comptus, and Panolopus (the latter two of which were previously considered synonymous with Celestus until 2021)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It is unique among celestines due to its nocturnal, arboreal habits with a semi-prehensile tail and webbed toes."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "It is found in the Dominican Republic, where it is known only from two small, adjacent keys in the Laguna de Oviedo, a lagoon in Jaragua National Park."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601763912/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arielcontreras, some rights reserved (CC BY-NC)",
+   "photo": 601763912
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601763946/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arielcontreras, some rights reserved (CC BY-NC)",
+   "photo": 601763946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601763931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arielcontreras, some rights reserved (CC BY-NC)",
+   "photo": 601763931
+  }
+ ]
+}

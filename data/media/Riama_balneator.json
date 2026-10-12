@@ -1,0 +1,62 @@
+{
+ "sci": "Riama balneator",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34847,
+  "name": "Riama balneator",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Riama_balneator"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57727291/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lía Altamirano, some rights reserved (CC BY-SA)",
+   "obs": 36512844,
+   "place": "Ecuador",
+   "date": "2019-11-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57103467/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yelena12, some rights reserved (CC BY-NC)",
+   "obs": 36146950,
+   "place": "Ecuador",
+   "date": "2019-11-08"
+  }
+ ],
+ "wiki": {
+  "title": "Riama balneator",
+  "url": "https://en.wikipedia.org/wiki/Riama_balneator",
+  "revision": 1328143149,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Riama balneator is a species of lizard in the family Gymnophthalmidae. It is endemic to Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57727291/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lía Altamirano, some rights reserved (CC BY-SA), uploaded by Lía Altamirano",
+   "photo": 57727291
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128052942/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lía Altamirano, some rights reserved (CC BY-SA)",
+   "photo": 128052942
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57103467/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yelena12, some rights reserved (CC BY-NC)",
+   "photo": 57103467
+  }
+ ]
+}

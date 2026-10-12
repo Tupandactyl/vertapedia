@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nDirk-Jan van Roest, some rights reserved (CC BY)",
+   "photo": 82887570
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594047326/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tano Caperna, some rights reserved (CC BY-NC), uploaded by Tano Caperna",
+   "photo": 594047326
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594047094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tano Caperna, some rights reserved (CC BY-NC), uploaded by Tano Caperna",
+   "photo": 594047094
+  }
+ ]
 }

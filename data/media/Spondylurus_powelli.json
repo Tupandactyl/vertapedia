@@ -1,0 +1,84 @@
+{
+ "sci": "Spondylurus powelli",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146452,
+  "name": "Spondylurus powelli",
+  "observations": 25,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spondylurus_powelli"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157426437/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) christenhusz, some rights reserved (CC BY-NC)",
+   "obs": 94871843,
+   "place": null,
+   "date": "2021-09-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441215952/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC)",
+   "obs": 247079631,
+   "place": null,
+   "date": "2021-06-25"
+  }
+ ],
+ "wiki": {
+  "title": "Spondylurus powelli",
+  "url": "https://en.wikipedia.org/wiki/Spondylurus_powelli",
+  "revision": 1354666431,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Spondylurus powelli, the Anguilla Bank skink, is a species of lizard belonging to the family Scincidae, the skinks. This species is found on some islands in the northern Lesser Antilles, the main ones being Anguilla and Saint Barthélemy, but it is not found on the main island of Saint Martin."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Spondylurus powelli was first formally described in 2012 by the American biologists S. Blair Hedges and Caitlin Conn with its type locality given as Shannon Hill, north of Sandy Ground, Anguilla, the holotype being collected in 1963 by James D. \"Skip\" Lazell. Hedges and Conn also mention paratypes collected on Anguilla and St. Barts. This species, and  S. martinae, of the island of Saint Martin. form the S. martinae species group within the genus Spondylurus, which is classified in the subfamily Mabuyinae of the skink family Scincidae."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "Spondylurus powelli is a member of the genus Spondylurus. This name was coined by the Austrian zoologist Leopold Fitzinger, but he did not explain its etymology. Hedges and Conn state that it appears to be derived from the Latin Spondylos, Greek for \"vertebra\", which may be an allusion to the obvious stripe along the miidle of the back of S. sloanii, its type species, and most of the other species in this genus. The specific name honours Robert Powell, an American herpetologist, in recognition of his contributions to the herpetology of the West Indies."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Spondylurus powelli has a maximum snout-vent length of 72 mm (2.83 in) in males and 70 mm (2.76 in) in females. It has a pale stripe along the middle of the back, and dark stripes either side of that as well as along the flanks, and pale feet."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "Spondylurus powelli is found in the islands of the Anguilla Bank, with populations on Anguilla and Saint Barthélemy, it is absent from Saint Martin, but in 2017 a population was found on Île Tintamarre, an uninhabited island which is part of the French Collectivity of Saint Martin and which is less than 3 km (1.9 mi) to the northeast of Saint Martin. There is also a population of skinks on Dog Island off Anguilla which have been tentatively identified as this species. These skinks have been found in rock-built walls on Anguilla and Tentamarre, while on Saint Barthélemy they have been found in sunny locations on cacti and in tall grass, and occasionally in houses."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157426437/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) christenhusz, some rights reserved (CC BY-NC)",
+   "photo": 157426437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6887294/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 6887294
+  }
+ ]
+}

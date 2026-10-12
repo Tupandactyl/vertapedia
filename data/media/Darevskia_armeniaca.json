@@ -1,0 +1,93 @@
+{
+ "sci": "Darevskia armeniaca",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35390,
+  "name": "Darevskia armeniaca",
+  "observations": 332,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Armenian_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12536680/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Katya, some rights reserved (CC BY)",
+   "obs": 9257330,
+   "place": "Tavush, Armenia",
+   "date": "2010-05-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323578314/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 185288382,
+   "place": "Tavush Province, Armenia",
+   "date": "2023-09-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580502064/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 321016727,
+   "place": "Harich, Shirak Province, Armenia",
+   "date": "2025-10-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2849379/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 603824,
+   "place": "Hankavan",
+   "date": "2005-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222730352/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anna Yargina, some rights reserved (CC BY-NC)",
+   "obs": 130927218,
+   "place": "4006, Армения",
+   "date": "2022-08-15"
+  }
+ ],
+ "wiki": {
+  "title": "Armenian lizard",
+  "url": "https://en.wikipedia.org/wiki/Armenian_lizard",
+  "revision": 1348442700,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Darevskia armeniaca,  commonly known as the Armenian lizard or the Armenian rock lizard, is a parthenogenetic (unisexually breeding) species (or form) of Darevskia, a genus of lizards belonging to the family Lacertidae, the wall lizards. Darevskia armeniaca is native to the Armenian Highland."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in northeastern Turkey, northern and northwestern Armenia, southern Georgia, and western Azerbaijan."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180613544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oleg, some rights reserved (CC BY-NC), uploaded by Oleg",
+   "photo": 180613544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760497/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 760497
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87633/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tigran Tadevosyan, some rights reserved (CC BY), uploaded by Tigran Tadevosyan",
+   "photo": 87633
+  }
+ ]
+}

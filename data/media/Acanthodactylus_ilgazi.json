@@ -1,0 +1,50 @@
+{
+ "sci": "Acanthodactylus ilgazi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1250268,
+  "name": "Acanthodactylus ilgazi",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Acanthodactylus_ilgazi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195698244/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 115954252,
+   "place": "Malatya, TR",
+   "date": "2022-05-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195697916/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 115954251,
+   "place": "Malatya, TR",
+   "date": "2022-05-05"
+  }
+ ],
+ "wiki": {
+  "title": "Acanthodactylus ilgazi",
+  "url": "https://en.wikipedia.org/wiki/Acanthodactylus_ilgazi",
+  "revision": 1355147126,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acanthodactylus ilgazi is a species of lizard in the family Lacertidae. The species is endemic to Turkey."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195698116/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY), uploaded by Kseniia Marianna Prondzynska",
+   "photo": 195698116
+  }
+ ]
+}

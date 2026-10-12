@@ -1,0 +1,42 @@
+{
+ "sci": "Amphisbaena hyporissor",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31837,
+  "name": "Amphisbaena hyporissor",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Barahona_amphisbaena"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180189215/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC)",
+   "obs": 107167086,
+   "place": "Dominican Republic",
+   "date": "2008-04-11"
+  }
+ ],
+ "wiki": {
+  "title": "Barahona amphisbaena",
+  "url": "https://en.wikipedia.org/wiki/Barahona_amphisbaena",
+  "revision": 1376701688,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Barahona amphisbaena (Amphisbaena hyporissor) is a species of worm lizard found in Hispaniola (Haiti and the Dominican Republic)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180189215/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 180189215
+  }
+ ]
+}

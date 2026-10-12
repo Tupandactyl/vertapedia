@@ -1,0 +1,76 @@
+{
+ "sci": "Tropidophorus mocquardii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146520,
+  "name": "Tropidophorus mocquardii",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tropidophorus_mocquardii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16226697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 11385083,
+   "place": "Kinabalu, Ranau, Sabah, Malaysia",
+   "date": "2018-02-28"
+  }
+ ],
+ "wiki": {
+  "title": "Tropidophorus mocquardii",
+  "url": "https://en.wikipedia.org/wiki/Tropidophorus_mocquardii",
+  "revision": 1355144890,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tropidophorus mocquardii  is a species of lizard in the subfamily Sphenomorphinae of the family Scincidae (skinks). The species is native to Malaysia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, mocquardii, is in honor of French herpetologist François Mocquard."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Tropidophorus mocquardii may attain a snout-to-vent length (SVL) of 9.5 cm (3.7 in). It has 34 scale rows around the body at midbody. Dorsally, it is brown with darker crossbars. The flanks have white spots. Ventrally, it is cream-colored."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Tropidophorus mocquardii is found in the northern part of the island of Borneo."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Tropidophorus mocquardii is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25775836/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 25775836
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16226697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 16226697
+  }
+ ]
+}

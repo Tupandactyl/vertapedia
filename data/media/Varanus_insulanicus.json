@@ -1,0 +1,110 @@
+{
+ "sci": "Varanus insulanicus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1403054,
+  "name": "Varanus insulanicus",
+  "observations": 29,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Varanus_insulanicus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455731311/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC)",
+   "obs": 254430394,
+   "place": "Northern Territory, AU",
+   "date": "2019-06-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616475624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Strachov, some rights reserved (CC BY-NC)",
+   "obs": 338942126,
+   "place": "Arnhem Hwy, Mount Bundey, NT, AU",
+   "date": "2026-02-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/681303807/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) truli45, some rights reserved (CC BY-NC)",
+   "obs": 372823359,
+   "place": "Jatbula Trail, Nitmiluk, NT, AU",
+   "date": "2026-06-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401990615/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Donna Belder, some rights reserved (CC BY)",
+   "obs": 226647328,
+   "place": "Kakadu National Park, Kakadu, NT, AU",
+   "date": "2024-06-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369083420/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) niravraham, some rights reserved (CC BY-NC)",
+   "obs": 208599340,
+   "place": "Northern Territory, AU",
+   "date": "2023-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591554105/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Jolly, some rights reserved (CC BY-NC)",
+   "obs": 326606298,
+   "place": "Beswick Creek, NT, AU",
+   "date": "2025-11-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658979645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cosmowhite, some rights reserved (CC BY-NC)",
+   "obs": 361097340,
+   "place": "Nitmiluk, NT, AU",
+   "date": "2026-05-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651205249/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) axeholmes, some rights reserved (CC BY-NC)",
+   "obs": 357063885,
+   "place": "Nitmiluk, NT, AU",
+   "date": "2011-11-07"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus insulanicus",
+  "url": "https://en.wikipedia.org/wiki/Varanus_insulanicus",
+  "revision": 1372077513,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Groote Eylandt monitor (Varanus insulanicus), also known commonly as the Black-Spotted Ridge-Tailed Goanna, is a medium-sized species of monitor lizard in the family Varanidae. The species is endemic to the Northern Territory. It belongs to the subgenus Odatria."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455731311/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 455731311
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359450219/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thilo Krueger, some rights reserved (CC BY-NC), uploaded by Thilo Krueger",
+   "photo": 359450219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84116212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) geoffbyrne, some rights reserved (CC BY-NC)",
+   "photo": 84116212
+  }
+ ]
+}

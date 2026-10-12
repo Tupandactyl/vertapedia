@@ -1,0 +1,102 @@
+{
+ "sci": "Aspidoscelis mexicanus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 145949,
+  "name": "Aspidoscelis mexicanus",
+  "observations": 20,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mexican_whiptail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221616457/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kārlis Jānis, some rights reserved (CC BY-NC)",
+   "obs": 130323822,
+   "place": "Monte Albán, Oax., Mexico",
+   "date": "2022-08-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165525714/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ranulfo Vasquez Vargas, some rights reserved (CC BY-NC)",
+   "obs": 99310711,
+   "place": "Santa María Tlahuitoltepec, Oax., México",
+   "date": "2018-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187815190/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Diana Fuentes, some rights reserved (CC BY-SA)",
+   "obs": 111269790,
+   "place": "Monte Albán, Oax., Mexico",
+   "date": "2022-04-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145763736/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 88351009,
+   "place": "Monte Albán",
+   "date": "2021-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367374662/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC)",
+   "obs": 207680331,
+   "place": "Monte Alban",
+   "date": "2024-03-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135266110/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) petekleinhenz, some rights reserved (CC BY-NC)",
+   "obs": 82417799,
+   "place": "Monte Albán, Oax., Mexico",
+   "date": "2021-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9804935/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Eugenio Padilla, some rights reserved (CC BY-SA)",
+   "obs": 7520627,
+   "place": "Tepuxtepec, Mixes, Oaxaca",
+   "date": "2009-05-09"
+  }
+ ],
+ "wiki": {
+  "title": "Mexican whiptail",
+  "url": "https://en.wikipedia.org/wiki/Mexican_whiptail",
+  "revision": 1130682568,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Mexican whiptail (Aspidoscelis mexicanus) is a species of teiid lizard endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9804935/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Eugenio Padilla, some rights reserved (CC BY-SA), uploaded by Eugenio Padilla",
+   "photo": 9804935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9458691/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Eugenio Padilla, some rights reserved (CC BY-SA), uploaded by Eugenio Padilla",
+   "photo": 9458691
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61271082/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Angel Aguilar Orea, some rights reserved (CC BY-NC), uploaded by Luis Angel Aguilar Orea",
+   "photo": 61271082
+  }
+ ]
+}

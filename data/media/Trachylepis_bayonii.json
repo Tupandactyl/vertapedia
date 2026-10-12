@@ -1,0 +1,108 @@
+{
+ "sci": "Trachylepis bayonii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37445,
+  "name": "Trachylepis bayonii",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trachylepis_bayonii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17781241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 12347684,
+   "place": "Luena, Angola",
+   "date": "2018-04-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30518736/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Andrew Hankey, some rights reserved (CC BY-SA)",
+   "obs": 19800070,
+   "place": "Namibe Province, Angola",
+   "date": "2009-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155808358/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC)",
+   "obs": 93963267,
+   "place": "Bibala, Angola",
+   "date": "2018-05-23"
+  }
+ ],
+ "wiki": {
+  "title": "Trachylepis bayonii",
+  "url": "https://en.wikipedia.org/wiki/Trachylepis_bayonii",
+  "revision": 1354673013,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trachylepis bayonii, also known commonly as Bayão's skink, Bayon's mabuya, and Bayon's skink, is a species of lizard in the family Scincidae. The species is endemic to Africa. There are two subspecies."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, bayonii, is in honor of Francisco Antonio Pinheiro Bayão, who was a Portuguese planter in Angola."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. bayonii is found in Angola, Kenya, Tanzania, and Uganda."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of T. bayonii are grassland and shrubland, at altitudes of 2,000–3,200 metres (6,560–10,500 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. bayonii is viviparous."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognized as being valid, including the nominotypical subspecies.",
+     "Trachylepis bayonii bayonii (Bocage, 1872)",
+     "Trachylepis bayonii keniensis (Loveridge, 1956)",
+     "Nota bene: A trinomial authority in parentheses indicates that the subspecies was originally described in a genus other than Trachylepis."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17781241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 17781241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17781211/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 17781211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17781207/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 17781207
+  }
+ ]
+}

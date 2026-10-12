@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110552834/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guenther Eichhorn, some rights reserved (CC BY-NC), uploaded by Guenther Eichhorn",
+   "photo": 110552834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462105894/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 462105894
+  }
+ ]
 }

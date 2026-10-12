@@ -1,0 +1,91 @@
+{
+ "sci": "Myriopholis cairi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 106357,
+  "name": "Myriopholis cairi",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cairo_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635997047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sarah Wahby, some rights reserved (CC BY-NC)",
+   "obs": 348699236,
+   "place": "Maadi Community Church, Maadi as Sarayat Al Gharbeyah, Maadi, Cairo Governorate 4212042, Egypt",
+   "date": "2026-04-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457731657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) seigneuretvassaldesprats, some rights reserved (CC BY-NC)",
+   "obs": 255413739,
+   "place": "Fayoum 2814001, Égypte",
+   "date": "2024-12-17"
+  }
+ ],
+ "wiki": {
+  "title": "Cairo blind snake",
+  "url": "https://en.wikipedia.org/wiki/Cairo_blind_snake",
+  "revision": 1355030863,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cairo blind snake (Myriopholis cairi) is a species of non-venomous snake in the family Leptotyphlopidae. The species is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "M. cairi is found in Egypt, Eritrea, Ethiopia, Mauritania, Niger, Somalia, Sudan, Uganda, and possibly in Libya."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, cairi, commemorates the city of Cairo, Egypt. The specific name of the junior synonymy, Stenostoma fitzingeri, commemorates Austrian herpetologist Leopold Fitzinger."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of M. cairi is shrubland, at altitudes from sea level to 400 m (1,300 ft), and it is also found in moist cultivated areas."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "M. cairi preys upon small invertebrates."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "M. cairi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457731657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) seigneuretvassaldesprats, some rights reserved (CC BY-NC)",
+   "photo": 457731657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457731687/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) seigneuretvassaldesprats, some rights reserved (CC BY-NC)",
+   "photo": 457731687
+  }
+ ]
+}

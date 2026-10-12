@@ -1,0 +1,50 @@
+{
+ "sci": "Chamaesaura tenuior",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 145997,
+  "name": "Chamaesaura tenuior",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chamaesaura_tenuior"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638968699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC)",
+   "obs": 350215868,
+   "place": "Nakuru, KE",
+   "date": "2026-04-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593354375/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mimgrooms, some rights reserved (CC BY-NC)",
+   "obs": 327508905,
+   "place": "Maiella, Kenya",
+   "date": "2025-11-20"
+  }
+ ],
+ "wiki": {
+  "title": "Chamaesaura tenuior",
+  "url": "https://en.wikipedia.org/wiki/Chamaesaura_tenuior",
+  "revision": 1314178699,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Chamaesaura tenuior, the Cape snake lizard, is a species of lizard which is found in the eastern Democratic Republic of the Congo, Uganda, Kenya, and Tanzania."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62150268/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 62150268
+  }
+ ]
+}

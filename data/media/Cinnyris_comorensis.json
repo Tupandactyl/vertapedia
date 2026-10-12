@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251227537/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank-Roland Fließ, some rights reserved (CC BY-NC), uploaded by Frank-Roland Fließ",
+   "photo": 251227537
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86620164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi",
+   "photo": 86620164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/674569026/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alanvannorman, some rights reserved (CC BY-NC)",
+   "photo": 674569026
+  }
+ ]
 }

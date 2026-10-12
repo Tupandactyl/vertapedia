@@ -1,0 +1,72 @@
+{
+ "sci": "Scelotes insularis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37686,
+  "name": "Scelotes insularis",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scelotes_insularis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419686391/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC)",
+   "obs": 235946090,
+   "place": "Bazaruto, MZ-IN-IS, MZ-IN, MZ",
+   "date": "2024-08-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338029609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Evan Trotzuk, some rights reserved (CC BY-NC)",
+   "obs": 192542972,
+   "place": "Bazaruto National Park, Vilankulo, MZ",
+   "date": "2023-11-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439515738/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zdvl, some rights reserved (CC BY-NC)",
+   "obs": 246222245,
+   "place": "Bazaruto National Park, Vilankulo, MZ",
+   "date": "2024-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339321129/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC)",
+   "obs": 193183146,
+   "place": "Vilankulo, Mozambique",
+   "date": "2023-11-27"
+  }
+ ],
+ "wiki": {
+  "title": "Scelotes insularis",
+  "url": "https://en.wikipedia.org/wiki/Scelotes_insularis",
+  "revision": 1315283616,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scelotes insularis is a species of lizard which is endemic to Mozambique."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339321127/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC), uploaded by cliffdorse",
+   "photo": 339321127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339321129/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC), uploaded by cliffdorse",
+   "photo": 339321129
+  }
+ ]
+}

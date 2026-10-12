@@ -1,0 +1,97 @@
+{
+ "sci": "Varanus bushi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 114881,
+  "name": "Varanus bushi",
+  "observations": 11,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pilbara_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608145081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brianna Collard, some rights reserved (CC BY-NC)",
+   "obs": 334834414,
+   "place": "Newman, WA, AU",
+   "date": "2025-06-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606367430/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kjell Hensen, some rights reserved (CC BY-NC)",
+   "obs": 333960691,
+   "place": "Great Northern Hwy, Juna Downs, WA, AU",
+   "date": "2026-01-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614429998/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kjell Hensen, some rights reserved (CC BY-NC)",
+   "obs": 337930163,
+   "place": "Great Northern Hwy, Newman, WA, AU",
+   "date": "2026-02-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334513510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dylan Goldspink, some rights reserved (CC BY-NC)",
+   "obs": 190774220,
+   "place": "Tableland Ward, Juna Downs, WA, AU",
+   "date": "2023-06-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617717828/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fabianrudin, some rights reserved (CC BY-NC)",
+   "obs": 339550605,
+   "place": "Fortescue WA 6716, Australia",
+   "date": "2026-02-20"
+  }
+ ],
+ "wiki": {
+  "title": "Pilbara monitor",
+  "url": "https://en.wikipedia.org/wiki/Pilbara_monitor",
+  "revision": 1354952286,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Pilbara monitor (Varanus bushi), also known commonly as Bush's monitor, Bush's pygmy monitor, and the Pilbara mulga goanna, is a species of monitor lizard in the family Varanidae. It is endemic to the Pilbara of Western Australia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, bushi, is in honor of Australian naturalist and herpetologist Brian Gordon Bush (born 1947)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "V. bushi is most similar to the stripe-tailed goanna (V. caudolineatus) and the pygmy mulga goanna (V. gilleni) of all monitor lizards. However, the Pilbara monitor can be distinguished from these other two species by some morphological and genetic differences.",
+     "There is little information on the behaviour of V. bushi. However, it is known to be arboreal and to shelter in bark crevices, in hollow trees, and under fallen logs.",
+     "It is an oviparous species."
+    ]
+   },
+   {
+    "h": "Habitat and distribution",
+    "level": 2,
+    "paras": [
+     "It is found in the arid and semi-arid grassland and scrub of the Pilbara."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334513510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dylan Goldspink, some rights reserved (CC BY-NC), uploaded by Dylan Goldspink",
+   "photo": 334513510
+  }
+ ]
+}

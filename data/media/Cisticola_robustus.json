@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667774/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren, some rights reserved (CC BY-NC)",
+   "photo": 667774
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667775/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Allan Drewitt, some rights reserved (CC BY)",
+   "photo": 667775
+  }
+ ]
 }

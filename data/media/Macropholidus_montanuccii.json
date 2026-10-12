@@ -1,0 +1,42 @@
+{
+ "sci": "Macropholidus montanuccii",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1161431,
+  "name": "Macropholidus montanuccii",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Macropholidus_montanuccii"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106035827/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angel Mario Hualpa Erazo, some rights reserved (CC BY-NC)",
+   "obs": 65838617,
+   "place": "Sozoranga, Ecuador",
+   "date": "2009-06-19"
+  }
+ ],
+ "wiki": {
+  "title": "Macropholidus montanuccii",
+  "url": "https://en.wikipedia.org/wiki/Macropholidus_montanuccii",
+  "revision": 1376703644,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Macropholidus montanuccii is a species of lizard in the family Gymnophthalmidae. It is endemic to Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106035827/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angel Mario Hualpa Erazo, some rights reserved (CC BY-NC), uploaded by Angel Mario Hualpa Erazo",
+   "photo": 106035827
+  }
+ ]
+}

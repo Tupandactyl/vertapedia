@@ -1,0 +1,54 @@
+{
+ "sci": "Nucras caesicaudata",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35791,
+  "name": "Nucras caesicaudata",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Nucras_caesicaudata"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602035003/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pietersen_darren, some rights reserved (CC BY-NC)",
+   "obs": 331818364,
+   "place": "7R25+J94 Banhine National Park, Dambi, Mozambique",
+   "date": "2025-12-01"
+  }
+ ],
+ "wiki": {
+  "title": "Nucras caesicaudata",
+  "url": "https://en.wikipedia.org/wiki/Nucras_caesicaudata",
+  "revision": 1324259049,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Nucras caesicaudata, the bluetailed sandveld lizard or bluetail scrub lizard, is a wall lizard in the family of true lizards (Lacertidae). It is found in southern Mozambique, southwestern Zimbabwe and the extreme northeast of South Africa. The lizard can clearly be distinguished because of its distinctive blue tail. Little has been discovered about its anatomy and way of life as it is rarely encountered, but it lives in the sandveld, a dry, sandy, savanna ecoregion."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6251593/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 6251593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6251594/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 6251594
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6251595/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 6251595
+  }
+ ]
+}

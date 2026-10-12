@@ -1,0 +1,117 @@
+{
+ "sci": "Scelotes montispectus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37677,
+  "name": "Scelotes montispectus",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Scelotes_montispectus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87933260/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 55232843,
+   "place": "Koeberg Nature Reserve",
+   "date": "2007-09-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321826117/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacobus Retief, some rights reserved (CC BY-NC)",
+   "obs": 184373667,
+   "place": "Melkbosstrand, Cape Town, 7437, South Africa",
+   "date": "2023-09-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15377010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) melda, some rights reserved (CC BY-NC)",
+   "obs": 10937560,
+   "place": "Pella Rd, Cape Farms",
+   "date": "2013-09-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722199924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 393973748,
+   "place": "Western Cape",
+   "date": "2015-10-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97130611/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC)",
+   "obs": 60732683,
+   "place": "Cape Farms, Cape Town, South Africa",
+   "date": "2020-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649180951/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oliver Angus, some rights reserved (CC BY-NC)",
+   "obs": 355984425,
+   "place": "West Coast Peninsula, South Africa",
+   "date": "2026-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398586539/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nick Schaller, some rights reserved (CC BY)",
+   "obs": 224857836,
+   "place": "West Coast DC, South Africa",
+   "date": "2018-08-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/515161603/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 286554572,
+   "place": "Western Cape, ZA",
+   "date": "2021-08-29"
+  }
+ ],
+ "wiki": {
+  "title": "Scelotes montispectus",
+  "url": "https://en.wikipedia.org/wiki/Scelotes_montispectus",
+  "revision": 1350412097,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Scelotes montispectus, the Bloubergstrand dwarf burrowing skink, is a species of skink which is endemic to southwestern South Africa."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "S. montispectus has only been found in a few areas around beach-front dunes near Atlantis and the West Coast National Park in the Western Cape."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87933260/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 87933260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97130611/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC), uploaded by cliffdorse",
+   "photo": 97130611
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15377010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) melda, some rights reserved (CC BY-NC), uploaded by melda",
+   "photo": 15377010
+  }
+ ]
+}

@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25155793/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 25155793
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649446/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 649446
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100127003/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andrew Deacon",
+   "photo": 100127003
+  }
+ ]
 }

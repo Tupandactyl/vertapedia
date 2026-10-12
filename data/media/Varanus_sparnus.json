@@ -1,0 +1,86 @@
+{
+ "sci": "Varanus sparnus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 467549,
+  "name": "Varanus sparnus",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dampier_Peninsula_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500877129/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmarquis, some rights reserved (CC BY-NC)",
+   "obs": 278938713,
+   "place": "Broome, AU-WA, AU",
+   "date": "2025-05-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679509761/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smalllampropholis456, some rights reserved (CC BY-NC)",
+   "obs": 371888060,
+   "place": "Broome, AU-WA, AU",
+   "date": "2026-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684061633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robyn Davies, some rights reserved (CC BY-NC)",
+   "obs": 374263571,
+   "place": "Broome, AU-WA, AU",
+   "date": "2026-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500936503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmarquis, some rights reserved (CC BY-NC)",
+   "obs": 278972359,
+   "place": "Broome, AU-WA, AU",
+   "date": "2018-07-22"
+  }
+ ],
+ "wiki": {
+  "title": "Dampier Peninsula monitor",
+  "url": "https://en.wikipedia.org/wiki/Dampier_Peninsula_monitor",
+  "revision": 1369403834,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Dampier Peninsula monitor or Dampier Peninsula goanna (Varanus sparnus), described in 2014, is the smallest known species of monitor lizard, growing up to 16.3 g (0.57 oz) with a length of almost 23 cm (9.1 in) and a SVL of 116 mm (4.6 in). It is believed to live only on the Dampier Peninsula of the Kimberley region in northern Western Australia. It is highly active, making it difficult to observe or photograph in the wild. It has short legs, an elongate body, a reddish-brown back with widely scattered black spots and \"a ridged, circular and short prehensile tail.\""
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "It was described in 2014 and assigned to the genus Varanus. The type specimens were collected from the Dampier Peninsula in 2009.",
+     "The species name, sparnus, is a Latinisation of a Greek word meaning 'rare' or 'scarce' and is in reference to this species' isolation and small range on the Dampier Peninsula."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679509761/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smalllampropholis456, some rights reserved (CC BY-NC)",
+   "photo": 679509761
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679509758/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smalllampropholis456, some rights reserved (CC BY-NC)",
+   "photo": 679509758
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500877129/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmarquis, some rights reserved (CC BY-NC)",
+   "photo": 500877129
+  }
+ ]
+}

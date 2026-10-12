@@ -1,0 +1,64 @@
+{
+ "sci": "Mesalina arnoldi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 738120,
+  "name": "Mesalina arnoldi",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mesalina_arnoldi"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335993557/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Crispian Emberson - HDC International, some rights reserved (CC BY-NC)",
+   "obs": 191515926,
+   "place": "Thar Saudi Arabia",
+   "date": "2023-11-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2855474/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1213476,
+   "place": "Plateau between Hababa and Kawkaban/ Yemen",
+   "date": "1998-02-07"
+  }
+ ],
+ "wiki": {
+  "title": "Mesalina arnoldi",
+  "url": "https://en.wikipedia.org/wiki/Mesalina_arnoldi",
+  "revision": 1355139637,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Mesalina arnoldi is a species of sand-dwelling lizard in the family Lacertidae. The species is endemic to Yemen."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, arnoldi, is in honor of British herpetologist E. Nicholas \"Nick\" Arnold."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitat of M. arnoldi is sparsely-vegetated rocky plateaus at elevations of 1,300–2,800 m (4,300–9,200 ft)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2855474/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 2855474
+  }
+ ]
+}

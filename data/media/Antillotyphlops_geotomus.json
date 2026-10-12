@@ -1,0 +1,43 @@
+{
+ "sci": "Antillotyphlops geotomus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539350,
+  "name": "Antillotyphlops geotomus",
+  "observations": 2,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852226/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) barbuda_peek, some rights reserved (CC BY-NC)",
+   "obs": 2560440,
+   "place": null,
+   "date": "2016-01-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852204/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) barbuda_peek, some rights reserved (CC BY-NC)",
+   "obs": 2560420,
+   "place": null,
+   "date": "2016-01-05"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852226/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) barbuda_peek, some rights reserved (CC BY-NC)",
+   "photo": 2852226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852204/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) barbuda_peek, some rights reserved (CC BY-NC)",
+   "photo": 2852204
+  }
+ ]
+}

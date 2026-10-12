@@ -1,0 +1,86 @@
+{
+ "sci": "Ameiva nodam",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539241,
+  "name": "Ameiva nodam",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ameiva_nodam"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610179812/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "obs": 335838134,
+   "place": "Peru",
+   "date": "2024-08-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109794180/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) PaulS, some rights reserved (CC BY-NC)",
+   "obs": 67886555,
+   "place": "Jaén, PE-CJ, PE",
+   "date": "2008-11-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611062735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "obs": 336282286,
+   "place": "Jaén, PE-CJ, PE",
+   "date": "2026-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535520326/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) erik_oberg, some rights reserved (CC BY-NC)",
+   "obs": 297360140,
+   "place": "Jaén, PE-CJ, PE",
+   "date": "2025-04-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373330862/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Requena, some rights reserved (CC BY-NC)",
+   "obs": 211138269,
+   "place": "Cajamarca, PE",
+   "date": "2024-04-26"
+  }
+ ],
+ "wiki": {
+  "title": "Ameiva nodam",
+  "url": "https://en.wikipedia.org/wiki/Ameiva_nodam",
+  "revision": 1374510145,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ameiva nodam is a species of teiid lizard endemic to Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610179812/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raul_ortiz_rios, some rights reserved (CC BY-NC)",
+   "photo": 610179812
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109794180/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) PaulS, some rights reserved (CC BY-NC), uploaded by PaulS",
+   "photo": 109794180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109794192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) PaulS, some rights reserved (CC BY-NC), uploaded by PaulS",
+   "photo": 109794192
+  }
+ ]
+}

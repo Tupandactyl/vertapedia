@@ -1,0 +1,42 @@
+{
+ "sci": "Trachylepis pulcherrima",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 114293,
+  "name": "Trachylepis pulcherrima",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trachylepis_pulcherrima"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506786009/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Willems, some rights reserved (CC BY-NC)",
+   "obs": 282093186,
+   "place": "Mitwaba, Democratic Republic of the Congo",
+   "date": "2025-04-11"
+  }
+ ],
+ "wiki": {
+  "title": "Trachylepis pulcherrima",
+  "url": "https://en.wikipedia.org/wiki/Trachylepis_pulcherrima",
+  "revision": 1327946739,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The beautiful skink (Trachylepis pulcherrima) is a species of skink found in the Democratic Republic of the Congo."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506786009/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Willems, some rights reserved (CC BY-NC), uploaded by Frank Willems",
+   "photo": 506786009
+  }
+ ]
+}

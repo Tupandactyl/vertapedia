@@ -1,0 +1,42 @@
+{
+ "sci": "Spondylurus anegadae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 146440,
+  "name": "Spondylurus anegadae",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spondylurus_anegadae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151354832/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rondel H. Smith, some rights reserved (CC BY-NC)",
+   "obs": 91495795,
+   "place": null,
+   "date": "2021-08-14"
+  }
+ ],
+ "wiki": {
+  "title": "Spondylurus anegadae",
+  "url": "https://en.wikipedia.org/wiki/Spondylurus_anegadae",
+  "revision": 1327801660,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Spondylurus anegadae, the Anegada skink, is a species of skink found on Anegada in the British Virgin Islands."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151354832/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rondel H. Smith, some rights reserved (CC BY-NC), uploaded by Rondel H. Smith",
+   "photo": 151354832
+  }
+ ]
+}

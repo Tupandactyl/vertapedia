@@ -1,0 +1,103 @@
+{
+ "sci": "Gerrhosaurus skoogi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34732,
+  "name": "Gerrhosaurus skoogi",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Desert_plated_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45483586/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+   "obs": 29151317,
+   "place": "Kunene Region, Namibia",
+   "date": "2002-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285851083/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 165156469,
+   "place": "Kunene Region, Namibia",
+   "date": "2023-05-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465884763/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 259523092,
+   "place": "Tombua, Angola",
+   "date": "2022-11-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456329331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nicehelix, some rights reserved (CC BY-NC)",
+   "obs": 254726425,
+   "place": "Parque Nacional do Iona, Tombua, Namibe, AO",
+   "date": "2024-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465884364/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 259522811,
+   "place": "Tombua, Angola",
+   "date": "2022-11-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422871321/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 237601306,
+   "place": "Kunene Region, Namibia",
+   "date": "2024-08-16"
+  }
+ ],
+ "wiki": {
+  "title": "Desert plated lizard",
+  "url": "https://en.wikipedia.org/wiki/Desert_plated_lizard",
+  "revision": 1332994763,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The desert plated lizard (Gerrhosaurus skoogi) is a reptile species endemic to the northern Namib Desert in Namibia and Angola. Also known as the sand plated lizard, It is diurnal."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, skoogi, is in honor of Hilmer Nils Erik Skoog (1870–1927), who was Curator of the Götesborgs Naturhistoriska museum from 1904 to 1927."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "In 1916 Andersson described this lizard as a new species, naming it Gerrhosaurus skoogi. In 1953  FitzSimons assigned the species to a new genus Angolosaurus. Recent studies suggest that this monotypic genus is synonymous to Gerrhosaurus and makes it paraphyletic; therefore A. skoogi was reclassified as Gerrhosaurus skoogi."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "Gerrhosaurus skoogi mostly eats plants, but it also forages for beetles and other small arthropods that live within the sand dunes that the lizard inhabits. G. skoogi is considered to be a sand-diving lizard and can move efficiently through sand dunes."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45483586/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) redrovertracy, some rights reserved (CC BY), uploaded by redrovertracy",
+   "photo": 45483586
+  }
+ ]
+}

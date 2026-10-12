@@ -1,0 +1,114 @@
+{
+ "sci": "Epictia columbi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32524,
+  "name": "Epictia columbi",
+  "observations": 11,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/San_Salvador_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243571539/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin A. Bakkegard, some rights reserved (CC BY-NC)",
+   "obs": 142094129,
+   "place": "Joshua Storr Way United Estates San Salvador, The Bahamas",
+   "date": "2022-11-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243971824/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin A. Bakkegard, some rights reserved (CC BY-NC)",
+   "obs": 142319752,
+   "place": "San Salvador, The Bahamas",
+   "date": "2022-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172059872/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY)",
+   "obs": 102874885,
+   "place": "San Salvador Island, The Bahamas",
+   "date": "2012-05-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172059868/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY)",
+   "obs": 102874884,
+   "place": "San Salvador Island, The Bahamas",
+   "date": "2012-05-10"
+  }
+ ],
+ "wiki": {
+  "title": "San Salvador blind snake",
+  "url": "https://en.wikipedia.org/wiki/San_Salvador_blind_snake",
+  "revision": 1374507883,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The  San Salvador blind snake (Epictia columbi) is a species of snake in the family Leptotyphlopidae. The species is native to the Caribbean."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, columbi, is in honor of Genoese explorer Christopher Columbus."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Epictia columbi is endemic to San Salvador Island in The Bahamas."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of Epictia columbi are forest and shrubland."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Epictia columbi may attain a total length (including tail) of 18 cm (7.1 in). It has 14 scale rows around the body. The rostral and head are brown. The body is black to blackish brown dorsally (11 scale rows), and reddish brown to yellowish brown ventrally (3 scale rows)."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Epictia columbi preys upon termites."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Epictia columbi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172059868/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 172059868
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172059872/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 172059872
+  }
+ ]
+}

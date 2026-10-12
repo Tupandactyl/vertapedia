@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67441066/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Henry Koh, some rights reserved (CC BY)",
+   "photo": 67441066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87962155/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M, some rights reserved (CC BY-NC), uploaded by Jonathan M",
+   "photo": 87962155
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87909103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M, some rights reserved (CC BY-NC), uploaded by Jonathan M",
+   "photo": 87909103
+  }
+ ]
 }

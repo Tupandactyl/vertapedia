@@ -1,0 +1,71 @@
+{
+ "sci": "Plestiodon lotus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 734638,
+  "name": "Plestiodon lotus",
+  "observations": 18,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plestiodon_lotus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84210526/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rogelio Aguilar Tapia, some rights reserved (CC BY-NC)",
+   "obs": 52957187,
+   "place": "Zacapala, Pue., México",
+   "date": "2020-07-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522203700/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Hidalgo Medina, some rights reserved (CC BY-NC)",
+   "obs": 290291584,
+   "place": "Tepoztlán, Mor., México",
+   "date": "2025-06-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4501602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenso Amates, some rights reserved (CC BY-NC)",
+   "obs": 3844570,
+   "place": "Pilcaya, Gro., México",
+   "date": "2016-07-07"
+  }
+ ],
+ "wiki": {
+  "title": "Plestiodon lotus",
+  "url": "https://en.wikipedia.org/wiki/Plestiodon_lotus",
+  "revision": 1374906501,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Plestiodon lotus is a species of skink. It is endemic to the Balsas River basin, Mexico.",
+     "Plestiodon lotus occurs in oak and tropical deciduous forests, where it can be found under rocks or fallen logs, but sometimes active on leaf litter."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522203700/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Hidalgo Medina, some rights reserved (CC BY-NC), uploaded by Andrea Hidalgo Medina",
+   "photo": 522203700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522203710/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Hidalgo Medina, some rights reserved (CC BY-NC), uploaded by Andrea Hidalgo Medina",
+   "photo": 522203710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90639106/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rogelio Aguilar Tapia, some rights reserved (CC BY-NC), uploaded by Rogelio Aguilar Tapia",
+   "photo": 90639106
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "sci": "Amphisbaena longinqua",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1119989,
+  "name": "Amphisbaena longinqua",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amphisbaena_longinqua"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153653623/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 92768810,
+   "place": "Rio do Pires - BA, Brasil",
+   "date": "2010-12-24"
+  }
+ ],
+ "wiki": {
+  "title": "Amphisbaena longinqua",
+  "url": "https://en.wikipedia.org/wiki/Amphisbaena_longinqua",
+  "revision": 1355143977,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Amphisbaena longinqua is a worm lizard species in the family Amphisbaenidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153653623/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 153653623
+  }
+ ]
+}

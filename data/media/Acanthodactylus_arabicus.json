@@ -1,0 +1,64 @@
+{
+ "sci": "Acanthodactylus arabicus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35446,
+  "name": "Acanthodactylus arabicus",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Acanthodactylus_arabicus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1532454/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1213512,
+   "place": "Toralbaha/ Yemen",
+   "date": "1998-02-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2854503/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1213507,
+   "place": "Bir Ali / Yemen",
+   "date": "1998-02-21"
+  }
+ ],
+ "wiki": {
+  "title": "Acanthodactylus arabicus",
+  "url": "https://en.wikipedia.org/wiki/Acanthodactylus_arabicus",
+  "revision": 1355100237,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acanthodactylus arabicus, commonly called the Arabian fringe-fingered lizard, is a species of lizard in the family Lacertidae. The species is endemic to southern Yemen."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "A. arabicus is a common species inhabiting deserts and dry shrublands with sandy substrates."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. arabicus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1532454/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1532454
+  }
+ ]
+}

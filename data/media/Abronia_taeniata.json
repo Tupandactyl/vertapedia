@@ -1,0 +1,120 @@
+{
+ "sci": "Abronia taeniata",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31998,
+  "name": "Abronia taeniata",
+  "observations": 284,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Abronia_taeniata"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195507457/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Guillermo, some rights reserved (CC BY-NC)",
+   "obs": 115837919,
+   "place": "Tamaulipas, MX",
+   "date": "2022-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8436508/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) APRN Necaxa, some rights reserved (CC BY-NC)",
+   "obs": 6659065,
+   "place": "Puebla, MX",
+   "date": "2016-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51217272/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pilifv, some rights reserved (CC BY-NC)",
+   "obs": 32644323,
+   "place": "Hidalgo, MX",
+   "date": "2019-05-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602745785/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 332161884,
+   "place": "Tamaulipas, MX",
+   "date": "2025-03-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431129891/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) José Miguel Esteban, some rights reserved (CC BY)",
+   "obs": 241871100,
+   "place": "Mexico",
+   "date": "2018-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8411170/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) UPPP, some rights reserved (CC BY-NC)",
+   "obs": 6620933,
+   "place": "Veracruz, MX",
+   "date": "2017-06-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306464623/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 176285182,
+   "place": "Veracruz, MX",
+   "date": "2023-08-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327082205/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC)",
+   "obs": 187076058,
+   "place": "Hidalgo, MX",
+   "date": "2023-10-03"
+  }
+ ],
+ "wiki": {
+  "title": "Abronia taeniata",
+  "url": "https://en.wikipedia.org/wiki/Abronia_taeniata",
+  "revision": 1358258424,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Abronia taeniata, the banded arboreal alligator lizard or bromeliad arboreal alligator lizard, is a vulnerable species of arboreal alligator lizard described in 1828 by Arend Friedrich August Wiegmann.",
+     "Abronia taeniata is eurythermic. It can sustain activity at a wide range of temperatures and actively avoids favorable microhabitats in the spring and is a moderate thermoregulator during autumn and winter."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Males reached sexual maturity at a smaller SVL (snout-vent length) than females. The same pattern emerged with body mass and both males and females had similar weights.",
+     "In males, testicular volume varied with the month; smaller in November, increases in December through January, a plateau from April to August and after a peak in September and October there was a patterned decline in November. Testicular increase correlated with mean monthly precipitation, but not temperature or photoperiod.",
+     "Litter size was not correlated with female SVL (snout-vent. length)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195507457/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Guillermo, some rights reserved (CC BY-NC), uploaded by Luis Guillermo",
+   "photo": 195507457
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327082205/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 327082205
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23890035/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karl Hawkman Drakulfeith, some rights reserved (CC BY-NC), uploaded by Karl Hawkman Drakulfeith",
+   "photo": 23890035
+  }
+ ]
+}

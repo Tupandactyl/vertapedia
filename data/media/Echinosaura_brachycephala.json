@@ -1,0 +1,56 @@
+{
+ "sci": "Echinosaura brachycephala",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34995,
+  "name": "Echinosaura brachycephala",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Echinosaura_brachycephala"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64647147/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holger Beck, some rights reserved (CC BY-NC)",
+   "obs": 40782138,
+   "place": "Ecuador",
+   "date": "2013-03-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60504023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davidbrito, some rights reserved (CC BY-NC)",
+   "obs": 38101971,
+   "place": "Ecuador",
+   "date": "2019-12-12"
+  }
+ ],
+ "wiki": {
+  "title": "Echinosaura brachycephala",
+  "url": "https://en.wikipedia.org/wiki/Echinosaura_brachycephala",
+  "revision": 1376373136,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Echinosaura brachycephala is a species of lizard in the family Gymnophthalmidae. It is endemic to Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64647147/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holger Beck, some rights reserved (CC BY-NC), uploaded by Holger Beck",
+   "photo": 64647147
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60504023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davidbrito, some rights reserved (CC BY-NC), uploaded by davidbrito",
+   "photo": 60504023
+  }
+ ]
+}

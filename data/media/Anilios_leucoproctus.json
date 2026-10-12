@@ -1,0 +1,50 @@
+{
+ "sci": "Anilios leucoproctus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 539284,
+  "name": "Anilios leucoproctus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White-tailed_blind_snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329387522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Simpson, some rights reserved (CC BY-NC)",
+   "obs": 188233167,
+   "place": "New Mapoon QLD 4876, Australia",
+   "date": "2023-10-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/551084343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesse Fagan, some rights reserved (CC BY-NC)",
+   "obs": 305632710,
+   "place": "Varirata National Park, Central Province, Papua New Guinea",
+   "date": "2025-08-01"
+  }
+ ],
+ "wiki": {
+  "title": "White-tailed blind snake",
+  "url": "https://en.wikipedia.org/wiki/White-tailed_blind_snake",
+  "revision": 1350415922,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The white-tailed blind snake (Anilios leucoproctus) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329387522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Simpson, some rights reserved (CC BY-NC), uploaded by Mark Simpson",
+   "photo": 329387522
+  }
+ ]
+}

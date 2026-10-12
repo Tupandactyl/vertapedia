@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239825107/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaury Durbano, some rights reserved (CC BY-NC), uploaded by Amaury Durbano",
+   "photo": 239825107
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42482054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 42482054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53792938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 53792938
+  }
+ ]
 }

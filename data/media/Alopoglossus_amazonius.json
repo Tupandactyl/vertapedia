@@ -1,0 +1,50 @@
+{
+ "sci": "Alopoglossus amazonius",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1120009,
+  "name": "Alopoglossus amazonius",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alopoglossus_amazonius"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153651702/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 92767574,
+   "place": "Porto Velho - RO, Brasil",
+   "date": "2012-02-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158120905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 95258105,
+   "place": "Porto Velho - RO, Brasil",
+   "date": "2010-07-08"
+  }
+ ],
+ "wiki": {
+  "title": "Alopoglossus amazonius",
+  "url": "https://en.wikipedia.org/wiki/Alopoglossus_amazonius",
+  "revision": 1217640698,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Alopoglossus amazonius, the Amazonanian teiid, is a species of lizard in the family Alopoglossidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153651702/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 153651702
+  }
+ ]
+}

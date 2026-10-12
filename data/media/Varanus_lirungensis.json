@@ -1,0 +1,77 @@
+{
+ "sci": "Varanus lirungensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 114884,
+  "name": "Varanus lirungensis",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lirung_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183492651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikel Yaki, some rights reserved (CC BY-NC)",
+   "obs": 108927000,
+   "place": "Indonesia",
+   "date": "2017-03-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335659839/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MUH IDRIS, some rights reserved (CC BY-NC)",
+   "obs": 191347982,
+   "place": "Sulawesi Utara, ID",
+   "date": "2023-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335659890/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MUH IDRIS, some rights reserved (CC BY-NC)",
+   "obs": 191348005,
+   "place": "Sulawesi Utara, ID",
+   "date": "2023-09-25"
+  }
+ ],
+ "wiki": {
+  "title": "Lirung monitor",
+  "url": "https://en.wikipedia.org/wiki/Lirung_monitor",
+  "revision": 1376373151,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Lirung monitor (Varanus lirungensis) is a species of monitor lizards on the Talaud Islands in Indonesia. It was recently discovered by André Koch, a German scientist from the Zoological Research Museum Alexander Koenig in Bonn, during a joint German-Indonesian research project. Koch stated the discovery was important, \"because it illustrates the high diversity of monitor lizards in Indonesia.\""
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The known Lirung monitor specimen has a total length of about 80 cm. Its belly is yellow-grey with some darker cross bands."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335659839/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MUH IDRIS, some rights reserved (CC BY-NC), uploaded by MUH IDRIS",
+   "photo": 335659839
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183492651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikel Yaki, some rights reserved (CC BY-NC), uploaded by Mikel Yaki",
+   "photo": 183492651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335659890/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MUH IDRIS, some rights reserved (CC BY-NC), uploaded by MUH IDRIS",
+   "photo": 335659890
+  }
+ ]
+}

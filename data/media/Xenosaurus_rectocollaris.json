@@ -1,0 +1,50 @@
+{
+ "sci": "Xenosaurus rectocollaris",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 74006,
+  "name": "Xenosaurus rectocollaris",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Xenosaurus_rectocollaris"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6771286/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CR Smith, some rights reserved (CC BY-NC)",
+   "obs": 5495256,
+   "place": "Hwy. 150 4.9 mi NE of Chapulco and 1.6 mi SW of Jct with Puebla/Veracruz border, Nicolás Bravo, Pue., Mexico",
+   "date": "1981-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296870338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "obs": 171105772,
+   "place": "Puebla, MX",
+   "date": "2012-07-15"
+  }
+ ],
+ "wiki": {
+  "title": "Xenosaurus rectocollaris",
+  "url": "https://en.wikipedia.org/wiki/Xenosaurus_rectocollaris",
+  "revision": 1370515486,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xenosaurus rectocollaris, sometimes known as the pallid knob-scaled lizard, is a species of viviparous lizard. It is endemic to Mexico where it is known from the Sierra Madre de Oaxaca of Oaxaca and Puebla states. It is a rare species occurring in rock crevices in pristine semi-arid areas."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6771286/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CR Smith, some rights reserved (CC BY-NC), uploaded by CR Smith",
+   "photo": 6771286
+  }
+ ]
+}

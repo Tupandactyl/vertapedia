@@ -1,0 +1,117 @@
+{
+ "sci": "Pseudocordylus spinosus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 33037,
+  "name": "Pseudocordylus spinosus",
+  "observations": 22,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Prickly_girdled_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213888081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Dirsuwei, some rights reserved (CC BY-NC)",
+   "obs": 126082917,
+   "place": "Cathkin Park, Cathkin Park, KZN, ZA",
+   "date": "2022-07-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60314505/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nick Schaller, some rights reserved (CC BY)",
+   "obs": 37991442,
+   "place": "Cathkin Park, South Africa",
+   "date": "2020-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213050967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Dirsuwei, some rights reserved (CC BY-NC)",
+   "obs": 125621999,
+   "place": "Cathkin Park, Cathkin Park, KZN, ZA",
+   "date": "2022-07-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531727327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC)",
+   "obs": 295368256,
+   "place": "uThukela District Municipality, South Africa",
+   "date": "2025-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31376561/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Hoare, some rights reserved (CC BY-NC-SA)",
+   "obs": 20320174,
+   "place": "Cathkin Park, South Africa",
+   "date": "2017-04-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650218003/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 356561758,
+   "place": "uThukela District Municipality, South Africa",
+   "date": "2026-04-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650237018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 356562246,
+   "place": "uThukela District Municipality, South Africa",
+   "date": "2026-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449323791/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 251147502,
+   "place": "Cathkin Park, KwaZulu-Natal, ZA",
+   "date": "2024-11-10"
+  }
+ ],
+ "wiki": {
+  "title": "Spiny crag lizard",
+  "url": "https://en.wikipedia.org/wiki/Spiny_crag_lizard",
+  "revision": 1315217555,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The spiny crag lizard or prickly girdled lizard (Pseudocordylus spinosus) is a species of lizard in the family Cordylidae."
+    ]
+   },
+   {
+    "h": "Range",
+    "level": 2,
+    "paras": [
+     "It is found in the northern Drakensberg escarpment of Lesotho and adjacent South Africa, besides a population in southern KwaZulu-Natal."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531727327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC), uploaded by Ruben Foquet",
+   "photo": 531727327
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650218003/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 650218003
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213888081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Dirsuwei, some rights reserved (CC BY-NC), uploaded by Jacob Dirsuwei",
+   "photo": 213888081
+  }
+ ]
+}

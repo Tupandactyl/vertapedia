@@ -1,0 +1,55 @@
+{
+ "sci": "Philochortus intermedius",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 35781,
+  "name": "Philochortus intermedius",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philochortus_intermedius"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718086831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hassan Yusuf Kaariye, some rights reserved (CC BY-NC)",
+   "obs": 391874853,
+   "place": "Korahe, Ethiopia",
+   "date": "2003-12-15"
+  }
+ ],
+ "wiki": {
+  "title": "Philochortus intermedius",
+  "url": "https://en.wikipedia.org/wiki/Philochortus_intermedius",
+  "revision": 1355139885,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philochortus intermedius, also known commonly as the southern orangetail lizard and Boulenger's shield-backed lizard, is a species of lizard in the family Lacertidae. The species is native to the Horn of Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. intermedius is found in Ethiopia and Somalia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718086831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hassan Yusuf Kaariye, some rights reserved (CC BY-NC), uploaded by Hassan Yusuf Kaariye",
+   "photo": 718086831
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718086825/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hassan Yusuf Kaariye, some rights reserved (CC BY-NC), uploaded by Hassan Yusuf Kaariye",
+   "photo": 718086825
+  }
+ ]
+}

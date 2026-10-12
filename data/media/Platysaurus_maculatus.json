@@ -1,0 +1,100 @@
+{
+ "sci": "Platysaurus maculatus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 33095,
+  "name": "Platysaurus maculatus",
+  "observations": 25,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spotted_flat_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383992462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 217085777,
+   "place": "Malema, Mozambique",
+   "date": "2024-05-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178305720/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A. Casado, some rights reserved (CC BY-NC)",
+   "obs": 106187389,
+   "place": "Chiúre, Mozambique",
+   "date": "1995-08-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384323834/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 217258982,
+   "place": "Malema, Mozambique",
+   "date": "2024-05-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646307180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yasalde Massingue, some rights reserved (CC BY-NC)",
+   "obs": 354269092,
+   "place": "Marrupa, MZ-NS, MZ",
+   "date": "2026-04-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532326997/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dakotawalz, some rights reserved (CC BY-NC)",
+   "obs": 295684296,
+   "place": "Rapale, MZ",
+   "date": "2025-07-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52994424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bewambay, some rights reserved (CC BY-NC)",
+   "obs": 33723423,
+   "place": "Ribaue, Mozambique",
+   "date": "2019-03-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385094973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC)",
+   "obs": 217668136,
+   "place": "Ile, Mozambique",
+   "date": "2024-04-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199379184/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tomas Chipiri Buruwate, some rights reserved (CC BY-NC)",
+   "obs": 118030476,
+   "place": "Gile, Mozambique",
+   "date": "2022-05-19"
+  }
+ ],
+ "wiki": {
+  "title": "Spotted flat lizard",
+  "url": "https://en.wikipedia.org/wiki/Spotted_flat_lizard",
+  "revision": 1315303667,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The spotted flat lizard (Platysaurus maculatus) is a lizard in the Cordylidae family, which is native to Mozambique.",
+     "The spotted flat lizard has two subspecies, P. m. maculatus and P. m. linecauda. Both were described in 1965.",
+     "The species is known as the spotted flat lizard because they use narrow cracks in flat rocks to hide and retreat from predators."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52994424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bewambay, some rights reserved (CC BY-NC), uploaded by bewambay",
+   "photo": 52994424
+  }
+ ]
+}

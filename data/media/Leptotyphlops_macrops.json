@@ -1,0 +1,80 @@
+{
+ "sci": "Leptotyphlops macrops",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32487,
+  "name": "Leptotyphlops macrops",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Leptotyphlops_macrops"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209226741/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Liepack, some rights reserved (CC BY)",
+   "obs": 123503214,
+   "place": "Shimba Hills, Kenia",
+   "date": "2014-05-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21326766/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA)",
+   "obs": 14354050,
+   "place": "Lungalunga, KE-KW, KE",
+   "date": "2015-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21326339/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA)",
+   "obs": 14353902,
+   "place": "Lungalunga, KE-KW, KE",
+   "date": "2016-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625317613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wasini Tour Guide, some rights reserved (CC BY-NC)",
+   "obs": 343296299,
+   "place": "Barawa 1, Wasini, Kenya",
+   "date": "2026-03-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261424498/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wasini Tour Guide, some rights reserved (CC BY-NC)",
+   "obs": 151506809,
+   "place": "Shimba Hills NR, Kenya",
+   "date": "2023-03-16"
+  }
+ ],
+ "wiki": {
+  "title": "Goggle-eyed worm snake",
+  "url": "https://en.wikipedia.org/wiki/Goggle-eyed_worm_snake",
+  "revision": 1377270373,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The goggle-eyed worm snake (Leptotyphlops macrops) is a species of snakes in the family Leptotyphlopidae. It lives entirely on the coast of southern Kenya and northern Tanzania in East Africa. It lives in savanna, forest, and artificial/terrestrial habitats. Its population is fragmented, their populations have extreme fluctuations, and are in decline. It was assessed on January 26, 2014 as conservation status Least Concern."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21326766/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA), uploaded by Ewout Knoester",
+   "photo": 21326766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21326339/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA), uploaded by Ewout Knoester",
+   "photo": 21326339
+  }
+ ]
+}

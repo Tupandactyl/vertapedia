@@ -1,0 +1,88 @@
+{
+ "sci": "Amphisbaena cubana",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31851,
+  "name": "Amphisbaena cubana",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cuban_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77282494/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, some rights reserved (CC BY-NC)",
+   "obs": 48697631,
+   "place": null,
+   "date": "2020-06-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189461352/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) faluke, some rights reserved (CC BY-NC)",
+   "obs": 112177297,
+   "place": "Reparto Zayas, Holguín, Cuba",
+   "date": "2012-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179865912/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) c_petersen_777, some rights reserved (CC BY-NC)",
+   "obs": 106995878,
+   "place": "Caimanera, Guantánamo, Cuba",
+   "date": "2019-10-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598872528/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noah Irwin, some rights reserved (CC BY-NC)",
+   "obs": 330264717,
+   "place": "Guantanamo Bay Naval Base, Caimanera, Guantánamo, CU",
+   "date": "2025-12-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205270810/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC)",
+   "obs": 121316273,
+   "place": "Caimanera, Cuba",
+   "date": "2022-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77286785/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, some rights reserved (CC BY-NC)",
+   "obs": 48699937,
+   "place": null,
+   "date": "2020-06-05"
+  }
+ ],
+ "wiki": {
+  "title": "Cuban worm lizard",
+  "url": "https://en.wikipedia.org/wiki/Cuban_worm_lizard",
+  "revision": 1355137757,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cuban worm lizard (Amphisbaena cubana) is a worm lizard species in the family Amphisbaenidae. It is endemic to Cuba."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77282494/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, some rights reserved (CC BY-NC), uploaded by Alexis Felipe",
+   "photo": 77282494
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77286785/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, some rights reserved (CC BY-NC), uploaded by Alexis Felipe",
+   "photo": 77286785
+  }
+ ]
+}

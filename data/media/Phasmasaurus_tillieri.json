@@ -1,0 +1,105 @@
+{
+ "sci": "Phasmasaurus tillieri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540054,
+  "name": "Phasmasaurus tillieri",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Phasmasaurus_tillieri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157623340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shankar Meyer, some rights reserved (CC BY-NC)",
+   "obs": 94981871,
+   "place": "Sud, NC",
+   "date": "2021-08-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325437279/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sabhh, some rights reserved (CC BY-NC)",
+   "obs": 186245260,
+   "place": "Sud, NC",
+   "date": "2023-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244445726/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicolas Rinck, some rights reserved (CC BY-NC)",
+   "obs": 142568204,
+   "place": "Sud, NC",
+   "date": "2022-11-22"
+  }
+ ],
+ "wiki": {
+  "title": "Phasmasaurus tillieri",
+  "url": "https://en.wikipedia.org/wiki/Phasmasaurus_tillieri",
+  "revision": 1355143343,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Phasmasaurus tillieri, commonly known as Tillier's maquis skink, is a species of lizard in the family Scincidae. It is endemic to New Caledonia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, tillieri, is in honor of French zoologist Simon Tillier."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. tillieri is found in southern New Caledonia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of P. tillieri are grassland and shrubland, at altitudes up to 1,000 m (3,300 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "P. tillieri may attain a snout-to-vent length (SVL) of 6.4 cm (2.5 in). The tail is extremely long, up to three times SVL. The limbs and digits are well-developed."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The mode of reproduction of P. tillieri is not known."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225571748/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roger Le Guen, some rights reserved (CC BY-NC), uploaded by Roger Le Guen",
+   "photo": 225571748
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157623340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shankar Meyer, some rights reserved (CC BY-NC), uploaded by Shankar Meyer",
+   "photo": 157623340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244447107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicolas Rinck, some rights reserved (CC BY-NC), uploaded by Nicolas Rinck",
+   "photo": 244447107
+  }
+ ]
+}

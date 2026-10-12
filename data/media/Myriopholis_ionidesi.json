@@ -1,0 +1,49 @@
+{
+ "sci": "Myriopholis ionidesi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 106358,
+  "name": "Myriopholis ionidesi",
+  "observations": 2,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465309563/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Piotr Naskrecki, some rights reserved (CC BY-NC)",
+   "obs": 259235380,
+   "place": "Chitengo, Gorongosa National Park, Mozambique",
+   "date": "2025-01-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332845307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 189933943,
+   "place": "TA Malenga Chanzi, MW-NK, MW",
+   "date": "2023-11-03"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332885801/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 332885801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332885759/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 332885759
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332885713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 332885713
+  }
+ ]
+}

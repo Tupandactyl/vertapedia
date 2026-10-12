@@ -1,0 +1,51 @@
+{
+ "sci": "Trachylepis volamenaloha",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37983,
+  "name": "Trachylepis volamenaloha",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trachylepis_volamenaloha"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468467180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karen Andrea Boehme, some rights reserved (CC BY-NC)",
+   "obs": 260825321,
+   "place": "Madagascar",
+   "date": "2019-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462950746/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anschieber, some rights reserved (CC BY-NC)",
+   "obs": 258063105,
+   "place": "Madagascar",
+   "date": "2024-11-21"
+  }
+ ],
+ "wiki": {
+  "title": "Trachylepis volamenaloha",
+  "url": "https://en.wikipedia.org/wiki/Trachylepis_volamenaloha",
+  "revision": 1355143853,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trachylepis volamenaloha is a species of skink, a lizard in the family Scincidae.",
+     "The species is endemic to Madagascar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468467180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karen Andrea Boehme, some rights reserved (CC BY-NC), uploaded by Karen Andrea Boehme",
+   "photo": 468467180
+  }
+ ]
+}

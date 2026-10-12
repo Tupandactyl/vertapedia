@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211016518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott O'Donnell, some rights reserved (CC BY-NC), uploaded by Scott O'Donnell",
+   "photo": 211016518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/553780008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brian stahls, some rights reserved (CC BY-NC), uploaded by brian stahls",
+   "photo": 553780008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467051501/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A Mejias, PhD., some rights reserved (CC BY-NC), uploaded by Miguel A Mejias, PhD.",
+   "photo": 467051501
+  }
+ ]
 }

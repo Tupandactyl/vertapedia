@@ -1,0 +1,42 @@
+{
+ "sci": "Takydromus yunkaiensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1031656,
+  "name": "Takydromus yunkaiensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Takydromus_yunkaiensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523410532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fugee, some rights reserved (CC BY-NC)",
+   "obs": 290932440,
+   "place": "中国广东省茂名市信宜市云开 邮政编码: 527233",
+   "date": "2025-06-16"
+  }
+ ],
+ "wiki": {
+  "title": "Takydromus yunkaiensis",
+  "url": "https://en.wikipedia.org/wiki/Takydromus_yunkaiensis",
+  "revision": 1377271816,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Takydromus yunkaiensis, the Yunkai grass lizard, is a species of lizard in the family Lacertidae. It is endemic to China."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523410532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fugee, some rights reserved (CC BY-NC), uploaded by fugee",
+   "photo": 523410532
+  }
+ ]
+}

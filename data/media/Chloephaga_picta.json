@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63806694/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Leggatt, some rights reserved (CC BY-NC), uploaded by Nick Leggatt",
+   "photo": 63806694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33946347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bob15noble, some rights reserved (CC BY-NC), uploaded by bob15noble",
+   "photo": 33946347
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73794221/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andrade_cesar, some rights reserved (CC BY-NC), uploaded by andrade_cesar",
+   "photo": 73794221
+  }
+ ]
 }

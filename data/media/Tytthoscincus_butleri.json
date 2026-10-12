@@ -1,0 +1,63 @@
+{
+ "sci": "Tytthoscincus butleri",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 540290,
+  "name": "Tytthoscincus butleri",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tytthoscincus_butleri"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255486481/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)",
+   "obs": 148368805,
+   "place": "Aiyoeweng, Betong District, Yala, Thailand",
+   "date": "2023-01-25"
+  }
+ ],
+ "wiki": {
+  "title": "Tytthoscincus butleri",
+  "url": "https://en.wikipedia.org/wiki/Tytthoscincus_butleri",
+  "revision": 1355144971,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tytthoscincus butleri, also known commonly as Butler's forest skink, is a species of lizard in the family Scincidae. The species is native to Malaysia and Thailand."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, butleri, is in honor of British zoologist Arthur Lennox Butler."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of T. butleri is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. butleri is oviparous. The eggs hatch in September."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255486481/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY), uploaded by Ian Dugdale",
+   "photo": 255486481
+  }
+ ]
+}

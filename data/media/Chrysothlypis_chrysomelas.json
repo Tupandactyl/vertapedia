@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2680638/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2680638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50958587/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dean Thompson, some rights reserved (CC BY-NC), uploaded by Dean Thompson",
+   "photo": 50958587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12620739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 12620739
+  }
+ ]
 }

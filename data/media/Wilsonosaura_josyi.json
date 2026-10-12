@@ -1,0 +1,70 @@
+{
+ "sci": "Wilsonosaura josyi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1119872,
+  "name": "Wilsonosaura josyi",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wilsonosaura"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332220486/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Langstroth, some rights reserved (CC BY-NC)",
+   "obs": 189617055,
+   "place": "RRG5+F94, Ayacucho 05002, Peru",
+   "date": "2006-11-27"
+  }
+ ],
+ "wiki": {
+  "title": "Wilsonosaura",
+  "url": "https://en.wikipedia.org/wiki/Wilsonosaura",
+  "revision": 1377216466,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Wilsonosaura josyi is a species of lizard in the family Gymnophthalmidae. The species, which is endemic to Peru, is monotypic in the genus Wilsonosaura."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, josyi, is in honor of Franz-Josef \"Josy\" Hans."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "W. josyi is found in central Peru, in Department of Junín."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The holotype of W. josyi was collected at an altitude of 2,880 m (9,450 ft), but its preferred natural habitat was not recorded."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "W. josyi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332220486/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Langstroth, some rights reserved (CC BY-NC), uploaded by Robert Langstroth",
+   "photo": 332220486
+  }
+ ]
+}

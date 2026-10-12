@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110106766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandy Horne, some rights reserved (CC BY-NC), uploaded by Sandy Horne",
+   "photo": 110106766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406840064/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rodgerp, some rights reserved (CC BY-NC)",
+   "photo": 406840064
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343861522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) scottytar, some rights reserved (CC BY-NC)",
+   "photo": 343861522
+  }
+ ]
 }

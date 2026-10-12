@@ -1,0 +1,160 @@
+{
+ "sci": "Acanthodactylus aegyptius",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 93054,
+  "name": "Acanthodactylus aegyptius",
+  "observations": 25,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Acanthodactylus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143821624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) E. Raven Teva, some rights reserved (CC BY-NC)",
+   "obs": 87252603,
+   "place": null,
+   "date": "2014-05-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465733403/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Rittner, some rights reserved (CC BY-NC)",
+   "obs": 259446387,
+   "place": null,
+   "date": "2022-07-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427723074/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafi Amar, some rights reserved (CC BY-NC)",
+   "obs": 240105093,
+   "place": "HaDarom, IL",
+   "date": "2024-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596492517/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stan Nikonov, some rights reserved (CC BY-NC)",
+   "obs": 329103665,
+   "place": null,
+   "date": "2023-03-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/678356512/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) omermeshulam, some rights reserved (CC BY-NC)",
+   "obs": 371288315,
+   "place": null,
+   "date": "2021-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/708981389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Broek, some rights reserved (CC BY-NC)",
+   "obs": 387233760,
+   "place": null,
+   "date": "2018-03-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319236837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Slavenko, some rights reserved (CC BY-NC)",
+   "obs": 183027130,
+   "place": null,
+   "date": "2014-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39557400/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, some rights reserved (CC BY-NC)",
+   "obs": 25531526,
+   "place": "HaDarom, IL",
+   "date": "2014-03-14"
+  }
+ ],
+ "wiki": {
+  "title": "Acanthodactylus",
+  "url": "https://en.wikipedia.org/wiki/Acanthodactylus",
+  "revision": 1374566322,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Acanthodactylus is a genus of lacertid lizards, commonly referred to as fringe-fingered lizards, fringe-toed lizards (though the latter common name is also used for the New World lizard genus Uma), and spiny-toed lizards."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The approximately 40 species in the genus Acanthodactylus are native to a wide area in North Africa, southern Europe and Western Asia; across the Sahara Desert, to the Iberian Peninsula, and east through the Arabian Peninsula, to Afghanistan and western India."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Though lizards of the genus Acanthodactylus prefer dry and sparsely vegetated regions, they are not strictly tied to an arid terrain; so it is not uncommon to come across them in various environments."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Members of the genus Acanthodactylus possess the following combination of traits:",
+     "Lacking occipital scales,",
+     "Flat ventral scales,",
+     "Fingers with three or four series of scales,",
+     "Toes with comb-like projections,",
+     "Femoral pores present,",
+     "Parietal foramen present.",
+     "The coloration and pattern of spots of Acanthodactylus is extremely variable, so it is unsurprising that zoologists have, at one time or another, classified every variety as a separate species."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Every saurian of the genus Acanthodactylus is very aggressive and gets continuously involved in skirmishes with other members of its species. The males strenuously defend the borders of their territories."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Acanthodactylus are oviparous. The number of eggs in a clutch ranges from 3 to 7. The total length of a sexually mature adult of the genus is, on average, 18 to 20 cm (7.1 to 7.9 in)."
+    ]
+   },
+   {
+    "h": "Classification",
+    "level": 2,
+    "paras": [
+     "Genus Acanthodactylus",
+     "Nota bene: A binomial authority in parentheses indicates that the species was originally described in a genus other than Acanthodactylus."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427723074/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafi Amar, some rights reserved (CC BY-NC), uploaded by Rafi Amar",
+   "photo": 427723074
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39557400/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, some rights reserved (CC BY-NC), uploaded by Leonid A. Neymark",
+   "photo": 39557400
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596492517/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stan Nikonov, some rights reserved (CC BY-NC), uploaded by Stan Nikonov",
+   "photo": 596492517
+  }
+ ]
+}

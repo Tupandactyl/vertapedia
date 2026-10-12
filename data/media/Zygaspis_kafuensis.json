@@ -1,0 +1,42 @@
+{
+ "sci": "Zygaspis kafuensis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31744,
+  "name": "Zygaspis kafuensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zygaspis_kafuensis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65616401/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) william van Niekerk, some rights reserved (CC BY-NC)",
+   "obs": 41365635,
+   "place": "Baja Garden",
+   "date": "2020-02-08"
+  }
+ ],
+ "wiki": {
+  "title": "Zygaspis kafuensis",
+  "url": "https://en.wikipedia.org/wiki/Zygaspis_kafuensis",
+  "revision": 1355139160,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Zygaspis kafuensis is a worm lizard species in the family Amphisbaenidae. It is endemic to Zambia. Its type locality is located in the Kafue National Park."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65616401/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) william van Niekerk, some rights reserved (CC BY-NC), uploaded by william van Niekerk",
+   "photo": 65616401
+  }
+ ]
+}

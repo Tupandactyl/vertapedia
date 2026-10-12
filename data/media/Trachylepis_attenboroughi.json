@@ -1,0 +1,45 @@
+{
+ "sci": "Trachylepis attenboroughi",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1545852,
+  "name": "Trachylepis attenboroughi",
+  "observations": 3,
+  "wikipedia_url": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511370229/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 284533936,
+   "place": "Ombadja, Angola",
+   "date": "2022-12-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528263439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC)",
+   "obs": 293500391,
+   "place": "Lubango, Angola",
+   "date": "2025-06-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589202501/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC)",
+   "obs": 325426580,
+   "place": "Bibala, Angola",
+   "date": "2025-10-13"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511370229/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC), uploaded by Luke Kemp",
+   "photo": 511370229
+  }
+ ]
+}

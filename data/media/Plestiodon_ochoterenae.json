@@ -1,0 +1,98 @@
+{
+ "sci": "Plestiodon ochoterenae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73798,
+  "name": "Plestiodon ochoterenae",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plestiodon_ochoterenae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206175818/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Manuel Morales, some rights reserved (CC BY-NC)",
+   "obs": 121812664,
+   "place": "Tixtla de Guerrero, Gro., México",
+   "date": "2022-06-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84056669/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jalil R., some rights reserved (CC BY-SA)",
+   "obs": 52803406,
+   "place": "Coyuca de Benítez, Gro., México",
+   "date": "2020-07-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239387751/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Manuel Morales, some rights reserved (CC BY-NC)",
+   "obs": 139906158,
+   "place": "Tixtla de Guerrero, Gro., México",
+   "date": "2022-10-23"
+  }
+ ],
+ "wiki": {
+  "title": "Plestiodon ochoterenae",
+  "url": "https://en.wikipedia.org/wiki/Plestiodon_ochoterenae",
+  "revision": 1375607415,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Plestiodon ochoterenae, also commonly known as the Guerreran skink and el eslaboncillo de Guerrero in Mexican Spanish, is a species of lizard in the subfamily Scincinae of the family Scincidae. The species is endemic to the Sierra Madre del Sur in Guerrero, Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "Plestiodon ochoterenae is named after Mexican biologist Isaac Ochoterena Mendieta (1885–1950)."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "A 2021 study determined that Plestiodon ochoterenae is most closely related to Plestiodon longiartus."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Plestiodon ochoterenae is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Plestiodon ochoterenae is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84056694/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jalil Rodríguez M., some rights reserved (CC BY-SA), uploaded by Jalil Rodríguez M.",
+   "photo": 84056694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84056669/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jalil Rodríguez M., some rights reserved (CC BY-SA), uploaded by Jalil Rodríguez M.",
+   "photo": 84056669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84093111/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jalil Rodríguez M., some rights reserved (CC BY-SA), uploaded by Jalil Rodríguez M.",
+   "photo": 84093111
+  }
+ ]
+}

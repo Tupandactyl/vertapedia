@@ -160,5 +160,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28362718/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 28362718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124772778/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Javier López Gómez, some rights reserved (CC BY-NC), uploaded by Omar Javier López Gómez",
+   "photo": 124772778
+  }
+ ]
 }

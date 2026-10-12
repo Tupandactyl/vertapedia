@@ -1,0 +1,58 @@
+{
+ "sci": "Epictia striatula",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 32462,
+  "name": "Epictia striatula",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Epictia_striatula"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422094852/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amandabrandao, some rights reserved (CC BY-NC)",
+   "obs": 237195106,
+   "place": "Rodovia Manaus - Boa Vista, Presidente Figueiredo, AM, BR",
+   "date": "2024-08-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528707270/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Miranda B., some rights reserved (CC BY-NC)",
+   "obs": 293765464,
+   "place": "Sud Yungas, BO-LP, BO",
+   "date": "2025-06-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58954126/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KennyUre_Wildlife, some rights reserved (CC BY-NC)",
+   "obs": 37211762,
+   "place": "Nor Yungas, BO-LP, BO",
+   "date": "2019-12-27"
+  }
+ ],
+ "wiki": {
+  "title": "Epictia striatula",
+  "url": "https://en.wikipedia.org/wiki/Epictia_striatula",
+  "revision": 1010390342,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Epictia striatula is a species of snake in the family Leptotyphlopidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58954126/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KennyUre_Wildlife, some rights reserved (CC BY-NC), uploaded by KennyUre_Wildlife",
+   "photo": 58954126
+  }
+ ]
+}

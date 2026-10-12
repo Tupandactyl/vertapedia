@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94637053/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 94637053
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481630615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thorny Toad Photography, some rights reserved (CC BY-NC), uploaded by Thorny Toad Photography",
+   "photo": 481630615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680587678/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Braxton L., some rights reserved (CC BY-NC), uploaded by Braxton L.",
+   "photo": 680587678
+  }
+ ]
 }

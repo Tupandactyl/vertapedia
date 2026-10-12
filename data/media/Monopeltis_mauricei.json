@@ -1,0 +1,64 @@
+{
+ "sci": "Monopeltis mauricei",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1632686,
+  "name": "Monopeltis mauricei",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Monopeltis_mauricei"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257611635/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gcochrane13, some rights reserved (CC BY-NC)",
+   "obs": 149493664,
+   "place": "1, Matabeleland North, ZW",
+   "date": "2023-02-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325048229/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) koenbetjes, some rights reserved (CC BY-NC)",
+   "obs": 186051935,
+   "place": "Otjozondjupa Region, Namibia",
+   "date": "2023-08-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385991025/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 218136043,
+   "place": "Ghanzi, Botswana",
+   "date": "2024-05-25"
+  }
+ ],
+ "wiki": {
+  "title": "Monopeltis mauricei",
+  "url": "https://en.wikipedia.org/wiki/Monopeltis_mauricei",
+  "revision": 1355164642,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Monopeltis mauricei, Maurice's slender worm lizard or Maurice's spade-snouted worm lizard,  is a species of amphisbaenian in the family Amphisbaenidae. The species found in Botswana, Namibia, South Africa, Zambia, and Zimbabwe."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257611698/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gcochrane13, some rights reserved (CC BY-NC)",
+   "photo": 257611698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385991025/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kingfisher14, some rights reserved (CC BY-NC), uploaded by kingfisher14",
+   "photo": 385991025
+  }
+ ]
+}

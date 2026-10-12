@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30809583/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Andrew Hankey, some rights reserved (CC BY-SA), uploaded by Andrew Hankey",
+   "photo": 30809583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53795291/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC), uploaded by Octávio Mateus",
+   "photo": 53795291
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53795295/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Octávio Mateus, some rights reserved (CC BY-NC), uploaded by Octávio Mateus",
+   "photo": 53795295
+  }
+ ]
 }

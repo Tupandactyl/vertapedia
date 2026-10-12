@@ -1,0 +1,62 @@
+{
+ "sci": "Zonosaurus subunicolor",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 34706,
+  "name": "Zonosaurus subunicolor",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zonosaurus_subunicolor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59892665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC)",
+   "obs": 37741672,
+   "place": "Diana, MG-AS, MG",
+   "date": "2020-01-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44601638/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC)",
+   "obs": 28604355,
+   "place": "Diana, MG-AS, MG",
+   "date": "2018-09-04"
+  }
+ ],
+ "wiki": {
+  "title": "Zonosaurus subunicolor",
+  "url": "https://en.wikipedia.org/wiki/Zonosaurus_subunicolor",
+  "revision": 1355155940,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Zonosaurus subunicolor is a species of lizard in the family Gerrhosauridae. The species is endemic to Madagascar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59892667/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 59892667
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59892665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 59892665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51847136/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 51847136
+  }
+ ]
+}

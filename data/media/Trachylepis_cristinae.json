@@ -1,0 +1,63 @@
+{
+ "sci": "Trachylepis cristinae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 462141,
+  "name": "Trachylepis cristinae",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Trachylepis_cristinae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1817412/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1465694,
+   "place": "Abd Al Kuri",
+   "date": "2010-04-02"
+  }
+ ],
+ "wiki": {
+  "title": "Trachylepis cristinae",
+  "url": "https://en.wikipedia.org/wiki/Trachylepis_cristinae",
+  "revision": 1355143739,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trachylepis cristinae, also known commonly as the Abd al Kuri skink, is a species of skink, a lizard in the family Scincidae. The species is endemic to Yemen."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, cristinae, is in honor of herpetologist Cristina Grieco, who was one of the collectors of the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. cristinae is found on the island of Abd al Kuri in Yemen."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "T. cristinae may attain a snout-to-vent length (SVL) of 11.5 cm (4.5 in)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1817412/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1817412
+  }
+ ]
+}

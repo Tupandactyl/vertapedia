@@ -1,0 +1,99 @@
+{
+ "sci": "Aspidoscelis danheimae",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 73663,
+  "name": "Aspidoscelis danheimae",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aspidoscelis_danheimae"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28565622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradford Hollingsworth, some rights reserved (CC BY-NC)",
+   "obs": 18660484,
+   "place": "La Paz, Baja California Sur, Mexico",
+   "date": "2018-11-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61499350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan Phillipsen, some rights reserved (CC BY-NC)",
+   "obs": 38674805,
+   "place": "La Paz, Baja California Sur, Mexico",
+   "date": "2019-01-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/274395517/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernesto Solana, some rights reserved (CC BY-NC)",
+   "obs": 158759382,
+   "place": "Isla San Jose, La Paz, BCS, MX",
+   "date": "2023-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29624256/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC)",
+   "obs": 19276617,
+   "place": "La Paz, Baja California Sur, Mexico",
+   "date": "2018-11-17"
+  }
+ ],
+ "wiki": {
+  "title": "Aspidoscelis danheimae",
+  "url": "https://en.wikipedia.org/wiki/Aspidoscelis_danheimae",
+  "revision": 1355140196,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aspidoscelis danheimae, also known commonly as the Isla San José whiptail, the San Jose Island blue-throated whiptail, and el huico de la Isla San José in Mexican Spanish, is a species of lizard in the family Teiidae. The species is endemic to Isla San José in Baja California Sur, Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, danheimae (genitive, feminine), is in honor of American herpetologist May Danheim Burt, the wife of the describer."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of Aspidoscelis danheimae are shrubland, rocky areas, and sandy areas, including beach."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Aspidoscelis danheimae is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61499350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan Phillipsen, some rights reserved (CC BY-NC), uploaded by Ivan Phillipsen",
+   "photo": 61499350
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28565622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradford Hollingsworth, some rights reserved (CC BY-NC), uploaded by Bradford Hollingsworth",
+   "photo": 28565622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29624256/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 29624256
+  }
+ ]
+}

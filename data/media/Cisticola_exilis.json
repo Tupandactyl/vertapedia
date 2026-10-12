@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56925736/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ron Greer, some rights reserved (CC BY-NC), uploaded by Ron Greer",
+   "photo": 56925736
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108492090/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrejs Medenis, some rights reserved (CC BY-NC), uploaded by Andrejs Medenis",
+   "photo": 108492090
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48364657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sahana M, some rights reserved (CC BY-NC), uploaded by Sahana M",
+   "photo": 48364657
+  }
+ ]
 }

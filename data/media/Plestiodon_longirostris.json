@@ -1,0 +1,135 @@
+{
+ "sci": "Plestiodon longirostris",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 37783,
+  "name": "Plestiodon longirostris",
+  "observations": 22,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bermuda_rock_skink"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74485634/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alison Copeland, some rights reserved (CC BY)",
+   "obs": 46966603,
+   "place": null,
+   "date": "2020-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32102495/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hugh_griffith, some rights reserved (CC BY-NC)",
+   "obs": 20813940,
+   "place": null,
+   "date": "1994-08-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216823524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Foster, some rights reserved (CC BY-NC)",
+   "obs": 127699741,
+   "place": null,
+   "date": "2022-07-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189568427/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC)",
+   "obs": 112237053,
+   "place": null,
+   "date": "2022-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216823333/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Foster, some rights reserved (CC BY-NC)",
+   "obs": 127699602,
+   "place": null,
+   "date": "2022-07-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216940323/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A Mejias, PhD., some rights reserved (CC BY-NC)",
+   "obs": 127764414,
+   "place": null,
+   "date": "2022-07-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619320984/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jimlep, some rights reserved (CC BY-NC)",
+   "obs": 340337035,
+   "place": null,
+   "date": "1971-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156385193/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Eddy, some rights reserved (CC BY-NC)",
+   "obs": 94284021,
+   "place": null,
+   "date": "2021-08-14"
+  }
+ ],
+ "wiki": {
+  "title": "Bermuda skink",
+  "url": "https://en.wikipedia.org/wiki/Bermuda_skink",
+  "revision": 1314372290,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Bermuda skink, longnose skink, or (Bermuda) rock lizard (Plestiodon longirostris) is a critically endangered species and the only endemic land-living vertebrate of Bermuda. It is a relatively small skink (a kind of lizard): adults reach an average snout-to-vent length of about 8 cm (3.1 in)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adult Bermuda skinks (also known as \"rock lizards\") have dark brown or black backs and are pinkish or light gray on the underside. Juveniles are lighter in color and have black stripes running along the sides of their bodies, which fade with age. Females are thought to retain the stripes longer than males. Adult males have larger heads. Hatchlings have bright blue tails. All have salmon orange cheeks and throat.",
+     "The Bermuda skink lives predominantly in rocky coastal areas. They feed on small invertebrates such as cockroaches or woodlice, but also on small terrestrial crustaceans.",
+     "While being more active during summer, the Bermuda skink does not hibernate, because the frost free winters allow it to be active year-round."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The species occurs only in Bermuda, and exists mainly on some of the smaller islands and nature reserves on the mainland, where the populations are fragmented into isolated pockets."
+    ]
+   },
+   {
+    "h": "Conservation",
+    "level": 2,
+    "paras": [
+     "The Bermuda skink has been listed on the IUCN Red List as critically endangered. It is threatened primarily by habitat destruction, predators introduced by humans (such as cats, rats, American crows, chickens, great kiskadees, yellow-crowned night herons, cane toads and anoles), as well as by human litter: the Bermuda skink has tiny claws on its feet, but no friction pads, and when it gets trapped in cast-away empty glass bottles or soda cans, it cannot climb out and thus starves or dies of heat stress or dehydration.",
+     "The Bermuda skink is listed as protected under the 2003 Bermuda Protected Species Act.",
+     "Chester Zoo is attempting to increase numbers of the skink with its own captive breeding program."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216940323/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A Mejias, PhD., some rights reserved (CC BY-NC), uploaded by Miguel A Mejias, PhD.",
+   "photo": 216940323
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156385193/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Eddy, some rights reserved (CC BY-NC), uploaded by Ben Eddy",
+   "photo": 156385193
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14221683/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nodnarb Nedloh, some rights reserved (CC BY-SA), uploaded by Nodnarb Nedloh",
+   "photo": 14221683
+  }
+ ]
+}

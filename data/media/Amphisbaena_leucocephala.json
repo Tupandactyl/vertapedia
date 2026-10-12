@@ -1,0 +1,42 @@
+{
+ "sci": "Amphisbaena leucocephala",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 31831,
+  "name": "Amphisbaena leucocephala",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White-headed_worm_lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246210638/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martín Cervantes-López, some rights reserved (CC BY-NC)",
+   "obs": 143553568,
+   "place": "Olivença, Ilhéus - BA, Brasil",
+   "date": "2021-11-10"
+  }
+ ],
+ "wiki": {
+  "title": "White-headed worm lizard",
+  "url": "https://en.wikipedia.org/wiki/White-headed_worm_lizard",
+  "revision": 1355137894,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The white-headed worm lizard (Amphisbaena leucocephala) is a worm lizard species in the family Amphisbaenidae. It is found in Brazil and Uruguay."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246210638/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martín Cervantes-López, some rights reserved (CC BY-NC), uploaded by Martín Cervantes-López",
+   "photo": 246210638
+  }
+ ]
+}

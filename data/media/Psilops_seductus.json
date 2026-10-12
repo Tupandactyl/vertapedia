@@ -1,0 +1,42 @@
+{
+ "sci": "Psilops seductus",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 606522,
+  "name": "Psilops seductus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Psilops_seductus"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346589125/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cristiano Nogueira, some rights reserved (CC BY-NC)",
+   "obs": 196869450,
+   "place": "Formoso - State of Minas Gerais, 38690-000, Brazil",
+   "date": "2001-10-21"
+  }
+ ],
+ "wiki": {
+  "title": "Psilops seductus",
+  "url": "https://en.wikipedia.org/wiki/Psilops_seductus",
+  "revision": 1218425380,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Psilops seductus is a species of lizard in the family Gymnophthalmidae. It is endemic to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346589125/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cristiano Nogueira, some rights reserved (CC BY-NC), uploaded by Cristiano Nogueira",
+   "photo": 346589125
+  }
+ ]
+}

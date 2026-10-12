@@ -1,0 +1,50 @@
+{
+ "sci": "Mesalina microlepis",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 564803,
+  "name": "Mesalina microlepis",
+  "observations": 13,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mesalina_microlepis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669708382/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Koray Öğreten, some rights reserved (CC BY-NC)",
+   "obs": 366757199,
+   "place": "Ceylanpınar, TR-SU, TR",
+   "date": "2026-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1543563/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 530700,
+   "place": "Hermel pyramid env. m 713 / Lebanon",
+   "date": "1999-05-16"
+  }
+ ],
+ "wiki": {
+  "title": "Mesalina microlepis",
+  "url": "https://en.wikipedia.org/wiki/Mesalina_microlepis",
+  "revision": 1244325705,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Mesalina microlepis, also known as the small-scaled desert lizard, is a species of sand-dwelling lizard in the family Lacertidae. It occurs in Syria, Lebanon, Egypt, Israel, Jordan, Iraq, and Iran."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1543563/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1543563
+  }
+ ]
+}

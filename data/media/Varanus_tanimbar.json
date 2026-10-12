@@ -1,0 +1,49 @@
+{
+ "sci": "Varanus tanimbar",
+ "fetched": "2026-10-12",
+ "inat": {
+  "id": 1499818,
+  "name": "Varanus tanimbar",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tanimbar_monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390272831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC)",
+   "obs": 220430209,
+   "place": "Yamdena, Tanimbar Islands, Maluku, Indonesia",
+   "date": "2006-08-13"
+  }
+ ],
+ "wiki": {
+  "title": "Tanimbar monitor",
+  "url": "https://en.wikipedia.org/wiki/Tanimbar_monitor",
+  "revision": 1374519884,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Tanimbar monitor (Varanus tanimbar) is a species of monitor lizard native to the Tanimbar archipelago of Maluku, Indonesia. It was first described in 2023 using specimens that were preserved at the Western Australian Museum. Another species of Varanus, the Louisiade monitor, was described in the same study."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Varanus tanimbar is the only species of monitor lizard native to the Tanimbar Islands, where it resides on the two largest islands: Yamdena and Selaru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390272831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 390272831
+  }
+ ]
+}
