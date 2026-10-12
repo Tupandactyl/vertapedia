@@ -110,14 +110,15 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
-// 본문 속 생물 이름: [국명, 원래 이름, 계급(s 종·S 학명·g 속·f 과·o 목), 학명, 처음?]. 크롬 번역이 건드리지 않게 translate="no"
+// 본문 속 생물 이름: [국명, 원래 이름, 계급(s 종·S 학명·g 속·f 과·o 목), 학명, 처음?].
+// 국명은 문장 속 낱말로 둬야 번역기가 명사로 보고 조사를 붙인다. 괄호 속 원래 이름과 학명만 translate="no"
 const NM_PAGE={s:'sp',S:'sp',f:'fam'};
 function nmHtml(x,self){
   const [ko,orig,rk,sci,first]=x, page=NM_PAGE[rk], go=page&&sci!==self?`${page}.html#${encodeURIComponent(sci.replace(/ /g,'_'))}`:null;
   const it=rk==='S'||rk==='g', o=it?`<i>${esc(orig)}</i>`:esc(orig);
   if(rk==='S')return `<span class="nm notranslate" translate="no" title="${esc(ko)}">${go?`<a href="${go}">${o}</a>`:o}</span>`;
-  const k=go?`<a href="${go}" lang="ko">${esc(ko)}</a>`:`<b lang="ko">${esc(ko)}</b>`;
-  return `<span class="nm notranslate" translate="no" title="${esc(orig)}">${k}${first?`(<span lang="en">${o}</span>)`:''}</span>`;
+  const k=go?`<a href="${go}">${esc(ko)}</a>`:`<b>${esc(ko)}</b>`;
+  return `<span class="nm" title="${esc(orig)}">${k}${first?`<span class="notranslate" translate="no">(<span lang="en">${o}</span>)</span>`:''}</span>`;
 }
 const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
 const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
