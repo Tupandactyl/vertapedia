@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171773229/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alexis Lours, some rights reserved (CC BY), uploaded by Alexis Lours",
+   "photo": 171773229
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638198544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 638198544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550588901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charon Özcan, some rights reserved (CC BY-NC), uploaded by Charon Özcan",
+   "photo": 550588901
+  }
+ ]
 }

@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2029330/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2029330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5810368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 5810368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7394717/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
+   "photo": 7394717
+  }
+ ]
 }

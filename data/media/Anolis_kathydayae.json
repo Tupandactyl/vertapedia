@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320689227/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Roger A. Morales-Flores, some rights reserved (CC BY), uploaded by Roger A. Morales-Flores",
+   "photo": 320689227
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320339799/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) braquel_wildlife, some rights reserved (CC BY-NC), uploaded by braquel_wildlife",
+   "photo": 320339799
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320688980/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Roger A. Morales-Flores, some rights reserved (CC BY), uploaded by Roger A. Morales-Flores",
+   "photo": 320688980
+  }
+ ]
 }

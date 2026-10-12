@@ -73,5 +73,19 @@
    "date": "2026-05-18"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173747500/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC), uploaded by Thet Zaw Naing",
+   "photo": 173747500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61020518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Tan, some rights reserved (CC BY-NC), uploaded by David Tan",
+   "photo": 61020518
+  }
+ ]
 }

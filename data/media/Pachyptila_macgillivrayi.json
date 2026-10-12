@@ -73,5 +73,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359579833/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) whale_nerd, some rights reserved (CC BY-NC), uploaded by whale_nerd",
+   "photo": 359579833
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185761218/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Rémi Bigonneau, some rights reserved (CC BY), uploaded by Rémi Bigonneau",
+   "photo": 185761218
+  }
+ ]
 }

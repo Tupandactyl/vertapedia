@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244248986/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Roberts, some rights reserved (CC BY-NC), uploaded by Dave Roberts",
+   "photo": 244248986
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104964567/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) chloe ⋆˚꩜｡, some rights reserved (CC BY-SA), uploaded by chloe ⋆˚꩜｡",
+   "photo": 104964567
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448616451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon",
+   "photo": 448616451
+  }
+ ]
 }

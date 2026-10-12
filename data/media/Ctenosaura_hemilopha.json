@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5127233/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jose Luis Leon de la Luz, some rights reserved (CC BY), uploaded by Jose Luis Leon de la Luz",
+   "photo": 5127233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3089795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 3089795
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17580724/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 17580724
+  }
+ ]
 }

@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629553/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 629553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629558/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 629558
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588685213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Lefebvre, some rights reserved (CC BY-NC), uploaded by James Lefebvre",
+   "photo": 588685213
+  }
+ ]
 }

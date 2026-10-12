@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148650787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 148650787
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3034843/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3034843
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310676/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 310676
+  }
+ ]
 }

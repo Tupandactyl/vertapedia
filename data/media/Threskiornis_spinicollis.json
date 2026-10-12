@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166954770/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Charles Lam, some rights reserved (CC BY-SA)",
+   "photo": 166954770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10151918/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 10151918
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46577457/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allan Lugg, some rights reserved (CC BY-NC), uploaded by Allan Lugg",
+   "photo": 46577457
+  }
+ ]
 }

@@ -56,5 +56,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225253691/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Langur Eco Travels, some rights reserved (CC BY-NC), uploaded by Langur Eco Travels",
+   "photo": 225253691
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395651305/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395651305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605852260/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 605852260
+  }
+ ]
 }

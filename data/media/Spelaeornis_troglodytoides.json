@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641176122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 陈嘉伟, some rights reserved (CC BY-NC), uploaded by 陈嘉伟",
+   "photo": 641176122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724675153/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 渔喵, some rights reserved (CC BY-NC-SA), uploaded by 渔喵",
+   "photo": 724675153
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589758459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jianguo Liu, some rights reserved (CC BY-NC), uploaded by jianguo Liu",
+   "photo": 589758459
+  }
+ ]
 }

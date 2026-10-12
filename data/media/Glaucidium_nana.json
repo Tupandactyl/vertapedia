@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90204178/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Moreno Vallejos, some rights reserved (CC BY-NC), uploaded by Pablo Moreno Vallejos",
+   "photo": 90204178
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13150446/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flavio Camus, some rights reserved (CC BY-NC)",
+   "photo": 13150446
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76797409/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor Raimilla, some rights reserved (CC BY-NC), uploaded by Victor Raimilla",
+   "photo": 76797409
+  }
+ ]
 }

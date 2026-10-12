@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71336108/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Howard Laidlaw, some rights reserved (CC BY-NC), uploaded by Howard Laidlaw",
+   "photo": 71336108
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43629239/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) clicque, some rights reserved (CC BY-NC), uploaded by clicque",
+   "photo": 43629239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49336393/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aitor, some rights reserved (CC BY), uploaded by Aitor",
+   "photo": 49336393
+  }
+ ]
 }

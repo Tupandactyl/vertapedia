@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83423772/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Schmidtutz, some rights reserved (CC BY-NC), uploaded by Carlos Schmidtutz",
+   "photo": 83423772
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28609934/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gustavo Fernando Durán, some rights reserved (CC BY-NC-SA), uploaded by Gustavo Fernando Durán",
+   "photo": 28609934
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78742010/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 78742010
+  }
+ ]
 }

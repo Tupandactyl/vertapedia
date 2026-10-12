@@ -178,5 +178,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/703735894/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Neelam Verma, some rights reserved (CC BY-NC), uploaded by Neelam Verma",
+   "photo": 703735894
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19168523/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saurabh Agrawal, some rights reserved (CC BY-NC), uploaded by Saurabh Agrawal",
+   "photo": 19168523
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411325560/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Floyd E. Hayes, some rights reserved (CC BY-NC), uploaded by Floyd E. Hayes",
+   "photo": 411325560
+  }
+ ]
 }

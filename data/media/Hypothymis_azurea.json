@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32860266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sunmr, some rights reserved (CC BY-NC)",
+   "photo": 32860266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97698760/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel V Raju, some rights reserved (CC BY-NC), uploaded by Daniel V Raju",
+   "photo": 97698760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11024234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 11024234
+  }
+ ]
 }

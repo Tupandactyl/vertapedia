@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134219104/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Arenas, some rights reserved (CC BY-NC), uploaded by Diego Arenas",
+   "photo": 134219104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54203079/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Stevens, some rights reserved (CC BY-NC), uploaded by Luis Stevens",
+   "photo": 54203079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54203086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Stevens, some rights reserved (CC BY-NC), uploaded by Luis Stevens",
+   "photo": 54203086
+  }
+ ]
 }

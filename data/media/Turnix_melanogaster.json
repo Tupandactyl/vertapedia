@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131811783/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 131811783
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252078966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kye Turnbull, some rights reserved (CC BY-NC), uploaded by Kye Turnbull",
+   "photo": 252078966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256891868/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kye Turnbull, some rights reserved (CC BY-NC), uploaded by Kye Turnbull",
+   "photo": 256891868
+  }
+ ]
 }

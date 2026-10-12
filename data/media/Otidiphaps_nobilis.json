@@ -83,5 +83,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601006869/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thegreatdodo, some rights reserved (CC BY-NC), uploaded by thegreatdodo",
+   "photo": 601006869
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121204183/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thorsten Mohr, some rights reserved (CC BY-SA)",
+   "photo": 121204183
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117101059/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Drew Avery, some rights reserved (CC BY)",
+   "photo": 117101059
+  }
+ ]
 }

@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578080570/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 莱克萝卜, some rights reserved (CC BY-NC), uploaded by 莱克萝卜",
+   "photo": 578080570
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335872007/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 335872007
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577371481/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) esoue, some rights reserved (CC BY-NC), uploaded by esoue",
+   "photo": 577371481
+  }
+ ]
 }

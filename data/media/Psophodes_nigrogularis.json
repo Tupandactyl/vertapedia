@@ -113,5 +113,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59410766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian McCauley, some rights reserved (CC BY-NC)",
+   "photo": 59410766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59410765/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian McCauley, some rights reserved (CC BY-NC)",
+   "photo": 59410765
+  }
+ ]
 }

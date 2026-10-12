@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2741972/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+   "photo": 2741972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55748193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexdersu, some rights reserved (CC BY-NC)",
+   "photo": 55748193
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111717536/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Игорь Поспелов, some rights reserved (CC BY-NC), uploaded by Игорь Поспелов",
+   "photo": 111717536
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28475135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Arenas, some rights reserved (CC BY-NC), uploaded by Diego Arenas",
+   "photo": 28475135
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44431677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Calzada Arciniega, some rights reserved (CC BY-NC), uploaded by Alejandro Calzada Arciniega",
+   "photo": 44431677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13395853/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Axuxco, some rights reserved (CC BY-NC), uploaded by Axuxco",
+   "photo": 13395853
+  }
+ ]
 }

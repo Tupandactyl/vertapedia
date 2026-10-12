@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13382826/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13382826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64338794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sahana M, some rights reserved (CC BY-NC), uploaded by Sahana M",
+   "photo": 64338794
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470443/{size}.JPG",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Vijay Barve",
+   "photo": 470443
+  }
+ ]
 }

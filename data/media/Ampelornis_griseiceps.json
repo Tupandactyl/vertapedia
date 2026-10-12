@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244722706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Moore, some rights reserved (CC BY-NC), uploaded by Nick Moore",
+   "photo": 244722706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244722699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Moore, some rights reserved (CC BY-NC), uploaded by Nick Moore",
+   "photo": 244722699
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244722688/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Moore, some rights reserved (CC BY-NC), uploaded by Nick Moore",
+   "photo": 244722688
+  }
+ ]
 }

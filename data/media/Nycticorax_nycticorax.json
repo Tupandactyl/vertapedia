@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49357930/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Kyle Nessen",
+   "photo": 49357930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59830074/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Алина Урусова, some rights reserved (CC BY), uploaded by Алина Урусова",
+   "photo": 59830074
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46092583/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 46092583
+  }
+ ]
 }

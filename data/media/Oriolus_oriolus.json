@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418521674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Arrigui Torres, some rights reserved (CC BY-NC), uploaded by Edwin Arrigui Torres",
+   "photo": 418521674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352101092/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Анатолий Кузьмин, some rights reserved (CC BY-NC), uploaded by Анатолий Кузьмин",
+   "photo": 352101092
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138119142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "photo": 138119142
+  }
+ ]
 }

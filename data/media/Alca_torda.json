@@ -211,5 +211,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135801313/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) António Terra, some rights reserved (CC BY-NC), uploaded by António Terra",
+   "photo": 135801313
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613561376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chris roberts, some rights reserved (CC BY-NC), uploaded by chris roberts",
+   "photo": 613561376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75923261/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dkirschke, some rights reserved (CC BY-NC)",
+   "photo": 75923261
+  }
+ ]
 }

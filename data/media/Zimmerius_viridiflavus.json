@@ -151,5 +151,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54713523/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paulsullivan25, some rights reserved (CC BY-NC), uploaded by paulsullivan25",
+   "photo": 54713523
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48977823/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 48977823
+  }
+ ]
 }

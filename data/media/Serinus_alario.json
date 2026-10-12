@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183380155/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg de Klerk, some rights reserved (CC BY-NC), uploaded by Greg de Klerk",
+   "photo": 183380155
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184869309/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 184869309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15191080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marion Maclean, some rights reserved (CC BY-NC), uploaded by Marion Maclean",
+   "photo": 15191080
+  }
+ ]
 }

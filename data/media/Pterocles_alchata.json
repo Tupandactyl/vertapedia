@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76457166/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, algunos derechos reservados (CC BY-NC), subido por abcdefgewing",
+   "photo": 76457166
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585267533/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anaëlle FRANCIA, algunos derechos reservados (CC BY-NC), subido por Anaëlle FRANCIA",
+   "photo": 585267533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320121466/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shlomi Levi, algunos derechos reservados (CC BY-NC), subido por Shlomi Levi",
+   "photo": 320121466
+  }
+ ]
 }

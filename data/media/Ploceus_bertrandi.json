@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450742169/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC), uploaded by Heinrich Human",
+   "photo": 450742169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454202969/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zein et Carlo, some rights reserved (CC BY-NC), uploaded by Zein et Carlo",
+   "photo": 454202969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179124975/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) murraychristian, some rights reserved (CC BY-NC)",
+   "photo": 179124975
+  }
+ ]
 }

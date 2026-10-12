@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359173987/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Siriwat Dangsri, some rights reserved (CC BY-NC), uploaded by Siriwat Dangsri",
+   "photo": 359173987
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18085638/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeremyjalabert, some rights reserved (CC BY-NC), uploaded by jeremyjalabert",
+   "photo": 18085638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148109167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) P. S. Sivaprasad, some rights reserved (CC BY-NC), uploaded by P. S. Sivaprasad",
+   "photo": 148109167
+  }
+ ]
 }

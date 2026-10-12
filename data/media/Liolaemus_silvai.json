@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1914119/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bastian Riveros Flores, some rights reserved (CC BY-NC), uploaded by Bastian Riveros Flores",
+   "photo": 1914119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61358955/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) taller_alas, some rights reserved (CC BY-NC)",
+   "photo": 61358955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13183396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diegogear, some rights reserved (CC BY-NC), uploaded by diegogear",
+   "photo": 13183396
+  }
+ ]
 }

@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341734708/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 341734708
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123160396/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 123160396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87987339/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 87987339
+  }
+ ]
 }

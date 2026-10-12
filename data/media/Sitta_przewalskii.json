@@ -134,5 +134,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106942877/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nChengdong WANG, some rights reserved (CC BY-SA)",
+   "photo": 106942877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82420255/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leithallb, some rights reserved (CC BY-NC), uploaded by leithallb",
+   "photo": 82420255
+  }
+ ]
 }

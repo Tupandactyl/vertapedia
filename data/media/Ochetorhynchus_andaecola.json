@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236165001/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 236165001
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5171979/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 5171979
+  }
+ ]
 }

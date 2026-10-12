@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367994967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 367994967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40063094/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rose Robin, some rights reserved (CC BY-NC-SA), uploaded by Rose Robin",
+   "photo": 40063094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257196389/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wingspanner, some rights reserved (CC BY-NC), uploaded by wingspanner",
+   "photo": 257196389
+  }
+ ]
 }

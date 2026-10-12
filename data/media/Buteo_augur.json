@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261346047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 261346047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27166857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) world_lineage, some rights reserved (CC BY-NC), uploaded by world_lineage",
+   "photo": 27166857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41310031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Zivkov, some rights reserved (CC BY-NC), uploaded by Pete Zivkov",
+   "photo": 41310031
+  }
+ ]
 }

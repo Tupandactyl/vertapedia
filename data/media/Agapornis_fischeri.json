@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312928188/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Floyd E. Hayes, some rights reserved (CC BY-NC), uploaded by Floyd E. Hayes",
+   "photo": 312928188
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28627933/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 28627933
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265511522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wicus leeuwner, some rights reserved (CC BY-NC), uploaded by wicus leeuwner",
+   "photo": 265511522
+  }
+ ]
 }

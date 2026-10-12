@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55930541/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David White, some rights reserved (CC BY-NC), uploaded by David White",
+   "photo": 55930541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56360337/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David White, some rights reserved (CC BY-NC), uploaded by David White",
+   "photo": 56360337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349342471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 349342471
+  }
+ ]
 }

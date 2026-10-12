@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190795341/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jhon Romero, some rights reserved (CC BY-NC), uploaded by Jhon Romero",
+   "photo": 190795341
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255794512/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 255794512
+  }
+ ]
 }

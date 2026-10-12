@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44730625/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44730625
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290553/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Rodríguez Arias, some rights reserved (CC BY-NC-SA)",
+   "photo": 2290553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125600040/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Serge Arias, some rights reserved (CC BY-NC-SA), uploaded by Serge Arias",
+   "photo": 125600040
+  }
+ ]
 }

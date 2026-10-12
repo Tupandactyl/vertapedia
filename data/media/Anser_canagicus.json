@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64260583/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 64260583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237795241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob, some rights reserved (CC BY-NC), uploaded by Bob",
+   "photo": 237795241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260926713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 260926713
+  }
+ ]
 }

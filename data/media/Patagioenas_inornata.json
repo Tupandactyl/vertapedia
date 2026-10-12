@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176576280/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ramón Joel Espinal Acevedo, some rights reserved (CC BY-NC), uploaded by Ramón Joel Espinal Acevedo",
+   "photo": 176576280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3817423/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Gochfeld, some rights reserved (CC BY-NC), uploaded by Michael Gochfeld",
+   "photo": 3817423
+  }
+ ]
 }

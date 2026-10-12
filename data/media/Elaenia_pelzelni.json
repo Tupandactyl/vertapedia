@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72227332/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Renata Xavier, some rights reserved (CC BY-NC), uploaded by Renata Xavier",
+   "photo": 72227332
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72227270/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Renata Xavier, some rights reserved (CC BY-NC), uploaded by Renata Xavier",
+   "photo": 72227270
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420609331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luiz Moschini, some rights reserved (CC BY-NC), uploaded by Luiz Moschini",
+   "photo": 420609331
+  }
+ ]
 }

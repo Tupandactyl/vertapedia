@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14538283/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maribel Armenteros, some rights reserved (CC BY-NC), uploaded by Maribel Armenteros",
+   "photo": 14538283
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187138/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) dominic sherony, some rights reserved (CC BY-SA)",
+   "photo": 187138
+  }
+ ]
 }

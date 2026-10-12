@@ -258,5 +258,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31507926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
+   "photo": 31507926
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57162936/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Данилова Валерия, some rights reserved (CC BY-NC), uploaded by Данилова Валерия",
+   "photo": 57162936
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28431499/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aleksey Levashkin, some rights reserved (CC BY-NC), uploaded by Aleksey Levashkin",
+   "photo": 28431499
+  }
+ ]
 }

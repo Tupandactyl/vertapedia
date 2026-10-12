@@ -54,5 +54,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108139529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) carlos Requejo, some rights reserved (CC BY-NC), uploaded by carlos Requejo",
+   "photo": 108139529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81685725/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Valenzuela, some rights reserved (CC BY-NC), uploaded by David Valenzuela",
+   "photo": 81685725
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180443/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Smithsonian Institution, National Museum of Natural History, Department of Vertebrate Zoology, Division of Amphibians & Reptiles, some rights reserved (CC BY-NC-SA)",
+   "photo": 180443
+  }
+ ]
 }

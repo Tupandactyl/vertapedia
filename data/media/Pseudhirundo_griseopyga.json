@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54253300/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 54253300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14150391/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) markusgmeiner, some rights reserved (CC BY-NC), uploaded by markusgmeiner",
+   "photo": 14150391
+  }
+ ]
 }

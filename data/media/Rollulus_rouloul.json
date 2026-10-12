@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595533581/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 595533581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490642226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Ow, some rights reserved (CC BY-NC), uploaded by Sebastian Ow",
+   "photo": 490642226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501394/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+   "photo": 501394
+  }
+ ]
 }

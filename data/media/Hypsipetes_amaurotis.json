@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20566056/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Toshihiro Gamo, some rights reserved (CC BY)",
+   "photo": 20566056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388249265/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Conor McMahon, some rights reserved (CC BY-NC), uploaded by Conor McMahon",
+   "photo": 388249265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445674221/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) WATANABE Hitoshi 渡辺仁, some rights reserved (CC BY), uploaded by WATANABE Hitoshi 渡辺仁",
+   "photo": 445674221
+  }
+ ]
 }

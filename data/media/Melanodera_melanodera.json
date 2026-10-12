@@ -111,5 +111,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90286023/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flavio Camus, some rights reserved (CC BY-NC), uploaded by Flavio Camus",
+   "photo": 90286023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211146/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 211146
+  }
+ ]
 }

@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/974563/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 974563
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/974566/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Josh Noseworthy, some rights reserved (CC BY)",
+   "photo": 974566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/974564/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 974564
+  }
+ ]
 }

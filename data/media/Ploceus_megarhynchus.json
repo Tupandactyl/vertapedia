@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67520093/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dibyendu Ash, some rights reserved (CC BY-SA)",
+   "photo": 67520093
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562982018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sourav Halder, some rights reserved (CC BY-NC), uploaded by Sourav Halder",
+   "photo": 562982018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67520091/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Koshy Koshy, some rights reserved (CC BY)",
+   "photo": 67520091
+  }
+ ]
 }

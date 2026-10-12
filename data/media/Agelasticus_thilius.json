@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144707601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Rodolfo Lillo Lobos, some rights reserved (CC BY-NC), uploaded by Juan Rodolfo Lillo Lobos",
+   "photo": 144707601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2553775/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Schlemmer, some rights reserved (CC BY-NC), uploaded by Jorge Schlemmer",
+   "photo": 2553775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28031/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vince Smith, some rights reserved (CC BY-NC-SA)",
+   "photo": 28031
+  }
+ ]
 }

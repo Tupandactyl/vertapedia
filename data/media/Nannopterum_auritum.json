@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541600012/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Martin Mortimer, some rights reserved (CC BY-NC), uploaded by Ben Martin Mortimer",
+   "photo": 541600012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182713821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 182713821
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659922269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Martin Mortimer, some rights reserved (CC BY-NC), uploaded by Ben Martin Mortimer",
+   "photo": 659922269
+  }
+ ]
 }

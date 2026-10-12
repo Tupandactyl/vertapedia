@@ -73,5 +73,25 @@
    "date": "2020-03-11"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146889387/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rene_vela, some rights reserved (CC BY-NC), uploaded by rene_vela",
+   "photo": 146889387
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39509981/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 39509981
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31114256/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 31114256
+  }
+ ]
 }

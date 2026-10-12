@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175041644/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 175041644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231211922/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lauren w., some rights reserved (CC BY-NC), uploaded by lauren w.",
+   "photo": 231211922
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436494281/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nlwolfartist, some rights reserved (CC BY)",
+   "photo": 436494281
+  }
+ ]
 }

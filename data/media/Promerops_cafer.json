@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728414837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philip Hoekstra, some rights reserved (CC BY-NC), uploaded by Philip Hoekstra",
+   "photo": 728414837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468945984/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+   "photo": 468945984
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159555798/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 159555798
+  }
+ ]
 }

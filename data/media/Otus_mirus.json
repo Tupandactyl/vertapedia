@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473357872/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault",
+   "photo": 473357872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366361503/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 366361503
+  }
+ ]
 }

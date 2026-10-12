@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981228/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 158981228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59667602/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Sandra Keller, some rights reserved (CC BY), uploaded by Sandra Keller",
+   "photo": 59667602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5251621/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 5251621
+  }
+ ]
 }

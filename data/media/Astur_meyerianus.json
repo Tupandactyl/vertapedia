@@ -47,5 +47,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718305305/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 718305305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291256916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 291256916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718305338/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 718305338
+  }
+ ]
 }

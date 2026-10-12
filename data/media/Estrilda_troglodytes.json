@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939261/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1939261
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60999627/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew Burnett, some rights reserved (CC BY-NC), uploaded by Matthew Burnett",
+   "photo": 60999627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19910487/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
+   "photo": 19910487
+  }
+ ]
 }

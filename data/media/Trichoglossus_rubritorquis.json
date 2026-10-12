@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10151673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 10151673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52386632/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA)",
+   "photo": 52386632
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17842705/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 17842705
+  }
+ ]
 }

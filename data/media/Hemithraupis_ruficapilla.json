@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64718673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hudson Martins Soares, some rights reserved (CC BY-NC), uploaded by Hudson Martins Soares",
+   "photo": 64718673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27425188/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 27425188
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27857897/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
+   "photo": 27857897
+  }
+ ]
 }

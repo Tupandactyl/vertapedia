@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356970638/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Lucas, some rights reserved (CC BY-NC-SA), uploaded by Lucas",
+   "photo": 356970638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116689848/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Calidris Esperanza, some rights reserved (CC BY-NC), uploaded by Calidris Esperanza",
+   "photo": 116689848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72979356/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gra-moll, some rights reserved (CC BY-NC)",
+   "photo": 72979356
+  }
+ ]
 }

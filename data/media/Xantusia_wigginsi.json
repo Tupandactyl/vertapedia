@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173541416/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) squamatologist, some rights reserved (CC BY-NC), uploaded by squamatologist",
+   "photo": 173541416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66953841/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flaxington, some rights reserved (CC BY-NC), uploaded by Flaxington",
+   "photo": 66953841
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66953827/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flaxington, some rights reserved (CC BY-NC), uploaded by Flaxington",
+   "photo": 66953827
+  }
+ ]
 }

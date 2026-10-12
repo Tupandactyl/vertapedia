@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29532165/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Trainor, some rights reserved (CC BY-NC), uploaded by Colin Trainor",
+   "photo": 29532165
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5540809/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Trainor, some rights reserved (CC BY-NC), uploaded by Colin Trainor",
+   "photo": 5540809
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6057685/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Trainor, some rights reserved (CC BY-NC), uploaded by Colin Trainor",
+   "photo": 6057685
+  }
+ ]
 }

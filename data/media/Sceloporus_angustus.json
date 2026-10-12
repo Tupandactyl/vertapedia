@@ -79,5 +79,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115652605/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ginni Callahan, some rights reserved (CC BY-NC), uploaded by Ginni Callahan",
+   "photo": 115652605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29331809/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 29331809
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28564557/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradford Hollingsworth, some rights reserved (CC BY-NC), uploaded by Bradford Hollingsworth",
+   "photo": 28564557
+  }
+ ]
 }

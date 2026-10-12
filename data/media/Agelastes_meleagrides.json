@@ -82,5 +82,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316777150/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+   "photo": 316777150
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171201280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr Anh Galat-Luong, some rights reserved (CC BY-NC), uploaded by Dr Anh Galat-Luong",
+   "photo": 171201280
+  }
+ ]
 }

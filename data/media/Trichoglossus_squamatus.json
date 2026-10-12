@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046670/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Doug Janson, some rights reserved (CC BY-SA)",
+   "photo": 159046670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3241851/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3241851
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046671/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kelan, some rights reserved (CC BY)",
+   "photo": 159046671
+  }
+ ]
 }

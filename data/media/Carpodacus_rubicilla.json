@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169489967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dssh, some rights reserved (CC BY-NC)",
+   "photo": 169489967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173156785/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Konstantin Romanov, some rights reserved (CC BY-NC), uploaded by Konstantin Romanov",
+   "photo": 173156785
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179821608/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Нина Штейнбреннер, some rights reserved (CC BY-NC), uploaded by Нина Штейнбреннер",
+   "photo": 179821608
+  }
+ ]
 }

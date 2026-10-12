@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90707654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Murugesh Nateshan, some rights reserved (CC BY-NC), uploaded by Murugesh Nateshan",
+   "photo": 90707654
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28669754/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) biobank-lantauhk, some rights reserved (CC BY-NC), uploaded by biobank-lantauhk",
+   "photo": 28669754
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107759244/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 107759244
+  }
+ ]
 }

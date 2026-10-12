@@ -104,5 +104,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126610750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Fisher, some rights reserved (CC BY-NC), uploaded by Grant Fisher",
+   "photo": 126610750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263684657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 263684657
+  }
+ ]
 }

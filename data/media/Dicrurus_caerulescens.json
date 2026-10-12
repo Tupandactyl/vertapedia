@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66021/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hafiz Issadeen, some rights reserved (CC BY)",
+   "photo": 66021
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66022/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dhammika Heenpella, some rights reserved (CC BY-NC)",
+   "photo": 66022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111592457/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ananda Balaraju, some rights reserved (CC BY-NC), uploaded by Ananda Balaraju",
+   "photo": 111592457
+  }
+ ]
 }

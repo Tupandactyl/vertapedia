@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164283/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Pius Mahimbi, some rights reserved (CC BY-SA)",
+   "photo": 164283
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15902969/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernest Porter, some rights reserved (CC BY-NC), uploaded by Ernest Porter",
+   "photo": 15902969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144501878/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 144501878
+  }
+ ]
 }

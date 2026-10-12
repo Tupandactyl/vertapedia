@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71318292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jiri Hodecek, some rights reserved (CC BY-NC), uploaded by Jiri Hodecek",
+   "photo": 71318292
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28497010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 28497010
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57407950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC), uploaded by Zane Libke",
+   "photo": 57407950
+  }
+ ]
 }

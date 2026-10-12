@@ -73,5 +73,19 @@
    "date": "2023-05-27"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566812467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khemthong Tonsakulrungruang, some rights reserved (CC BY-NC), uploaded by Khemthong Tonsakulrungruang",
+   "photo": 566812467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79779553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pierce, some rights reserved (CC BY-NC), uploaded by Andrew Pierce",
+   "photo": 79779553
+  }
+ ]
 }

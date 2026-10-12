@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530163677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown",
+   "photo": 530163677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228337169/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 228337169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228337067/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 228337067
+  }
+ ]
 }

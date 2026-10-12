@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97828234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) La Campana, Yotala, some rights reserved (CC BY-NC), uploaded by La Campana, Yotala",
+   "photo": 97828234
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82809739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 82809739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83274522/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Naturalist Tours",
+   "photo": 83274522
+  }
+ ]
 }

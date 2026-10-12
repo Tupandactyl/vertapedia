@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13799381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 13799381
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4081367/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor W Fazio III, some rights reserved (CC BY-NC), uploaded by Victor W Fazio III",
+   "photo": 4081367
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182215/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Georgie Sharp, some rights reserved (CC BY-NC)",
+   "photo": 182215
+  }
+ ]
 }

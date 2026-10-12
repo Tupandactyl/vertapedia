@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112556142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, alguns direitos reservados (CC BY-NC), carregado por Nik Borrow",
+   "photo": 112556142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269795832/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Bacuez, alguns direitos reservados (CC BY-NC), carregado por Frédéric Bacuez",
+   "photo": 269795832
+  }
+ ]
 }

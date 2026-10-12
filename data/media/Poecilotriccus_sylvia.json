@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262536195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+   "photo": 262536195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77962/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 77962
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244698192/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yucamontejo, some rights reserved (CC BY-NC), uploaded by yucamontejo",
+   "photo": 244698192
+  }
+ ]
 }

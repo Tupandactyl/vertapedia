@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430108063/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC), uploaded by Dave Drum",
+   "photo": 430108063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13823002/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Cephas, some rights reserved (CC BY-SA)",
+   "photo": 13823002
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178678089/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Coleen Lawlor, some rights reserved (CC BY-NC), uploaded by Coleen Lawlor",
+   "photo": 178678089
+  }
+ ]
 }

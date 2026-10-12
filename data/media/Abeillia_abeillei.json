@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10137907/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sierra_madre_chiapas, some rights reserved (CC BY-NC), uploaded by sierra_madre_chiapas",
+   "photo": 10137907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8245697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sierra_madre_chiapas, some rights reserved (CC BY-NC), uploaded by sierra_madre_chiapas",
+   "photo": 8245697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2029438/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2029438
+  }
+ ]
 }

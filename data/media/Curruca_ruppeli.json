@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852352/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1852352
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27411697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gökçe Coşkun, some rights reserved (CC BY-NC), uploaded by Gökçe Coşkun",
+   "photo": 27411697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480094994/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+   "photo": 480094994
+  }
+ ]
 }

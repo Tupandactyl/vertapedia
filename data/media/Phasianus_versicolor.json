@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18271943/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marco Mussita, some rights reserved (CC BY), uploaded by Marco Mussita",
+   "photo": 18271943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136692003/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) jitensha2021, some rights reserved (CC BY-NC)",
+   "photo": 136692003
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7594227/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Muir, some rights reserved (CC BY), uploaded by Matt Muir",
+   "photo": 7594227
+  }
+ ]
 }

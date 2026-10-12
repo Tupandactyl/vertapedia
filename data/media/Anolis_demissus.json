@@ -30,5 +30,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328936981/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) WHITE_LIPPED_ANOLE_(7426492292).jpg, some rights reserved (CC BY)",
+   "photo": 328936981
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129394814/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maxon_, some rights reserved (CC BY-NC)",
+   "photo": 129394814
+  }
+ ]
 }

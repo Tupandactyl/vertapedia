@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469956082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 469956082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243954417/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) emeadows, some rights reserved (CC BY-NC)",
+   "photo": 243954417
+  }
+ ]
 }

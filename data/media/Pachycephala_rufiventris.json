@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42490066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 42490066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46211246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot",
+   "photo": 46211246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152095554/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 152095554
+  }
+ ]
 }

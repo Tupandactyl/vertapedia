@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458211642/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Vincent Leonoras, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Matt Vincent Leonoras",
+   "photo": 458211642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27394980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Frédéric Desmoulins",
+   "photo": 27394980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457244327/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mathieu Soetens, osa oikeuksista pidätetään (CC BY), lähettänyt Mathieu Soetens",
+   "photo": 457244327
+  }
+ ]
 }

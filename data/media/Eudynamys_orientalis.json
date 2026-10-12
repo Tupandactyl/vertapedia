@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166363171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pam Day, some rights reserved (CC BY-NC), uploaded by Pam Day",
+   "photo": 166363171
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338979238/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rosewise, some rights reserved (CC BY-NC), uploaded by rosewise",
+   "photo": 338979238
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5693114/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Malcolm Tattersall, some rights reserved (CC BY-NC-SA)",
+   "photo": 5693114
+  }
+ ]
 }

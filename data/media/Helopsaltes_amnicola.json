@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246925504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "photo": 246925504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246925631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "photo": 246925631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421993431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+   "photo": 421993431
+  }
+ ]
 }

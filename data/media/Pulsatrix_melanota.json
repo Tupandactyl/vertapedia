@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648110/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Larry Kay, some rights reserved (CC BY)",
+   "photo": 648110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132819117/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 132819117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60934966/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allen Chartier, some rights reserved (CC BY-NC), uploaded by Allen Chartier",
+   "photo": 60934966
+  }
+ ]
 }

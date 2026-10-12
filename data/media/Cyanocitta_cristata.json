@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530721418/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY)",
+   "photo": 530721418
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288034385/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josiah Reed, some rights reserved (CC BY-NC), uploaded by Josiah Reed",
+   "photo": 288034385
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288955513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Della, some rights reserved (CC BY-NC), uploaded by Jim Della",
+   "photo": 288955513
+  }
+ ]
 }

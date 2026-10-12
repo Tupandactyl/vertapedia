@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380949978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pat_jones, some rights reserved (CC BY-NC)",
+   "photo": 380949978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599423824/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Maslowski, some rights reserved (CC BY-NC), uploaded by Grant Maslowski",
+   "photo": 599423824
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8189637/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 8189637
+  }
+ ]
 }

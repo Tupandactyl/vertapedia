@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2415474/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Fyn Kynd, some rights reserved (CC BY-SA), uploaded by Fyn Kynd",
+   "photo": 2415474
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5941/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Artie Kopelman, some rights reserved (CC BY-NC)",
+   "photo": 5941
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73344788/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) docprt, some rights reserved (CC BY-NC), uploaded by docprt",
+   "photo": 73344788
+  }
+ ]
 }

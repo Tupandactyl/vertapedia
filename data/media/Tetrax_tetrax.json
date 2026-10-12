@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5149978/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Raposo, some rights reserved (CC BY-NC), uploaded by Daniel Raposo",
+   "photo": 5149978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642004186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) miguel_angel_berbegal, some rights reserved (CC BY-NC)",
+   "photo": 642004186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5149984/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Raposo, some rights reserved (CC BY-NC), uploaded by Daniel Raposo",
+   "photo": 5149984
+  }
+ ]
 }

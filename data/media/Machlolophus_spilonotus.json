@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517293180/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 517293180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546778543/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY), uploaded by Ian Dugdale",
+   "photo": 546778543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108668675/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+   "photo": 108668675
+  }
+ ]
 }

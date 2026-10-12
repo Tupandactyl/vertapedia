@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61197264/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Анатолий Озерной /Anatoly Ozernoy, some rights reserved (CC BY-SA), uploaded by Анатолий Озерной /Anatoly Ozernoy",
+   "photo": 61197264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265012229/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Irina Kalashnikova, some rights reserved (CC BY-NC), uploaded by Irina Kalashnikova",
+   "photo": 265012229
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61197252/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Анатолий Озерной /Anatoly Ozernoy, some rights reserved (CC BY-SA), uploaded by Анатолий Озерной /Anatoly Ozernoy",
+   "photo": 61197252
+  }
+ ]
 }

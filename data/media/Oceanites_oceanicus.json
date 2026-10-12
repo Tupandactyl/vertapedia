@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145853274/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
+   "photo": 145853274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206795524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 206795524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17828/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Patrick Coin, some rights reserved (CC BY-NC-SA)",
+   "photo": 17828
+  }
+ ]
 }

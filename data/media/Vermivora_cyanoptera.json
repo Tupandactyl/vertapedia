@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10882105/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carl-Adam Wegenschimmel, some rights reserved (CC BY-NC), uploaded by Carl-Adam Wegenschimmel",
+   "photo": 10882105
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665792/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roy pilcher, some rights reserved (CC BY-NC), uploaded by roy pilcher",
+   "photo": 665792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29954682/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Casey Weissburg, some rights reserved (CC BY-NC), uploaded by Casey Weissburg",
+   "photo": 29954682
+  }
+ ]
 }

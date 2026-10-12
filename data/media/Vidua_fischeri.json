@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776668/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) KrisMaes, some rights reserved (CC BY-SA)",
+   "photo": 776668
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5819767/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Yvonne A. de Jong, some rights reserved (CC BY-NC-SA), uploaded by Yvonne A. de Jong",
+   "photo": 5819767
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27468066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 27468066
+  }
+ ]
 }

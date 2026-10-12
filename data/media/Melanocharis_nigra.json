@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217899004/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aponk Al'z Rusdy, some rights reserved (CC BY-NC), uploaded by Aponk Al'z Rusdy",
+   "photo": 217899004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/371941/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 371941
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310314800/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Muh Imam Ramdani, some rights reserved (CC BY-NC), uploaded by Muh Imam Ramdani",
+   "photo": 310314800
+  }
+ ]
 }

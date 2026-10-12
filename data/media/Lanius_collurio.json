@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13160268/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Radovan Václav, some rights reserved (CC BY-NC)",
+   "photo": 13160268
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211066082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Максим Стефанович, some rights reserved (CC BY-NC), uploaded by Максим Стефанович",
+   "photo": 211066082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202485866/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Viktor N. Chekan, some rights reserved (CC BY-NC), uploaded by Viktor N. Chekan",
+   "photo": 202485866
+  }
+ ]
 }

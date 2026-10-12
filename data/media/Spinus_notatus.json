@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38827382/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AnaLi Hr, some rights reserved (CC BY-NC), uploaded by AnaLi Hr",
+   "photo": 38827382
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123342822/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Juarez Santiago, some rights reserved (CC BY-NC), uploaded by Daniel Juarez Santiago",
+   "photo": 123342822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9764474/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eusebio Roldán Félix, some rights reserved (CC BY-NC), uploaded by Eusebio Roldán Félix",
+   "photo": 9764474
+  }
+ ]
 }

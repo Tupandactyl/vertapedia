@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267193515/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 267193515
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3196389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Clark, some rights reserved (CC BY-NC), uploaded by Matt Clark",
+   "photo": 3196389
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55120877/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 55120877
+  }
+ ]
 }

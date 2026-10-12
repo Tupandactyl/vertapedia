@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 415908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415909/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 415909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23673027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Jeffrey Ringer, some rights reserved (CC BY-NC), uploaded by David Jeffrey Ringer",
+   "photo": 23673027
+  }
+ ]
 }

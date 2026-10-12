@@ -158,5 +158,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249720079/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Edison Díaz, some rights reserved (CC BY-NC-SA), uploaded by Edison Díaz",
+   "photo": 249720079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107109205/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riley, some rights reserved (CC BY), uploaded by Dan Riley",
+   "photo": 107109205
+  }
+ ]
 }

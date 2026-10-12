@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116071338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josue Ramos Galdamez, some rights reserved (CC BY-NC), uploaded by Josue Ramos Galdamez",
+   "photo": 116071338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111283587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Carax, some rights reserved (CC BY-NC), uploaded by Omar Carax",
+   "photo": 111283587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38310918/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khristian Venegas Valencia, some rights reserved (CC BY-NC), uploaded by Khristian Venegas Valencia",
+   "photo": 38310918
+  }
+ ]
 }

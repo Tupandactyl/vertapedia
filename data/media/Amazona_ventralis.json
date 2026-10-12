@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64465180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 64465180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157589960/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Snowmanradio, some rights reserved (CC BY)",
+   "photo": 157589960
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64476341/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 64476341
+  }
+ ]
 }

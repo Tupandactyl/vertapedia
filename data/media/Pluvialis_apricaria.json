@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2301068/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kari Pihlaviita, some rights reserved (CC BY-NC)",
+   "photo": 2301068
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419598381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thegreatdodo, some rights reserved (CC BY-NC), uploaded by thegreatdodo",
+   "photo": 419598381
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32059732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+   "photo": 32059732
+  }
+ ]
 }

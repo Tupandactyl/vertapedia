@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1342163/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 1342163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10691969/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tas47, some rights reserved (CC BY-NC)",
+   "photo": 10691969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71394368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 71394368
+  }
+ ]
 }

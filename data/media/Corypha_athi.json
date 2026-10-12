@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316786619/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tresa Moulton, some rights reserved (CC BY-NC), uploaded by Tresa Moulton",
+   "photo": 316786619
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374612241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fred Berrington, some rights reserved (CC BY-NC), uploaded by Fred Berrington",
+   "photo": 374612241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338834276/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Subramanian Sevgan, some rights reserved (CC BY-NC), uploaded by Subramanian Sevgan",
+   "photo": 338834276
+  }
+ ]
 }

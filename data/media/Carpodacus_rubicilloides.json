@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287869509/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+   "photo": 287869509
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223261106/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC), uploaded by Mengshuai Ge",
+   "photo": 223261106
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223261080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC), uploaded by Mengshuai Ge",
+   "photo": 223261080
+  }
+ ]
 }

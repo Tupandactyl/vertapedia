@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10661057/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robbythai, some rights reserved (CC BY-NC)",
+   "photo": 10661057
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13061715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Chapman, some rights reserved (CC BY-NC), uploaded by Jeff Chapman",
+   "photo": 13061715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13061702/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Chapman, some rights reserved (CC BY-NC), uploaded by Jeff Chapman",
+   "photo": 13061702
+  }
+ ]
 }

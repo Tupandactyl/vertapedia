@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205060321/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 205060321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536624564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roman Prokhorov, some rights reserved (CC BY-NC), uploaded by Roman Prokhorov",
+   "photo": 536624564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28317537/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tamsin Carlisle, some rights reserved (CC BY-NC-SA), uploaded by Tamsin Carlisle",
+   "photo": 28317537
+  }
+ ]
 }

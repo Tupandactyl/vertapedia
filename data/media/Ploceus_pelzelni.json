@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533986950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Kruger, some rights reserved (CC BY-NC), uploaded by Andrew Kruger",
+   "photo": 533986950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55862603/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 55862603
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 26193
+  }
+ ]
 }

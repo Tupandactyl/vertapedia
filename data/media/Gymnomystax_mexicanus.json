@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302028630/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 302028630
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392150070/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+   "photo": 392150070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98846968/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 98846968
+  }
+ ]
 }

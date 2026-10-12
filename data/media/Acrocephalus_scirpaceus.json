@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355963131/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Morris, some rights reserved (CC BY-NC)",
+   "photo": 355963131
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355963136/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Shearman, some rights reserved (CC BY)",
+   "photo": 355963136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355963148/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "photo": 355963148
+  }
+ ]
 }

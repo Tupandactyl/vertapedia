@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62129559/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC), uploaded by Jesus Gordolomi Butterball RC",
+   "photo": 62129559
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59870422/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amelia Ryan, some rights reserved (CC BY-NC), uploaded by Amelia Ryan",
+   "photo": 59870422
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64424563/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nohel Alfredo Martínez Armendares, some rights reserved (CC BY-NC), uploaded by Nohel Alfredo Martínez Armendares",
+   "photo": 64424563
+  }
+ ]
 }

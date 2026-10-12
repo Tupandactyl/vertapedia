@@ -41,5 +41,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/512248965/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Yovie Jehabut",
+   "photo": 512248965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141359066/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ariefrahman, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 141359066
+  }
+ ]
 }

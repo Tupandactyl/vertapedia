@@ -58,5 +58,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737651279/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Mhlayson, some rights reserved (CC BY-SA)",
+   "photo": 737651279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232811750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 232811750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472838428/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nDylan Mckenzie, some rights reserved (CC BY-SA)",
+   "photo": 472838428
+  }
+ ]
 }

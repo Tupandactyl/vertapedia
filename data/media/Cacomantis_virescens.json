@@ -94,5 +94,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426725416/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hamas Fathani, osa oikeuksista pidätetään (CC BY-SA), lähettänyt Hamas Fathani",
+   "photo": 426725416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400552668/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jefta Natanael, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Jefta Natanael",
+   "photo": 400552668
+  }
+ ]
 }

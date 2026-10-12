@@ -177,5 +177,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105016792/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joey Mugleston, some rights reserved (CC BY-NC), uploaded by Joey Mugleston",
+   "photo": 105016792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138888316/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC), uploaded by Richard D Reams",
+   "photo": 138888316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465495505/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Owen Lishmund, some rights reserved (CC BY-NC), uploaded by Owen Lishmund",
+   "photo": 465495505
+  }
+ ]
 }

@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149829117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexey_nesmelov, some rights reserved (CC BY-NC)",
+   "photo": 149829117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464338212/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+   "photo": 464338212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52695454/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joanne Goldby, some rights reserved (CC BY-SA)",
+   "photo": 52695454
+  }
+ ]
 }

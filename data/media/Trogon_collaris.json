@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60596544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 60596544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166885356/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jonathancoley, some rights reserved (CC BY-NC)",
+   "photo": 166885356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46920467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvador Poot Villanueva, some rights reserved (CC BY-NC), uploaded by Salvador Poot Villanueva",
+   "photo": 46920467
+  }
+ ]
 }

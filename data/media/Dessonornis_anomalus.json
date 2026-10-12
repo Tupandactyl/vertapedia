@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6836503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 6836503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13338489/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY), uploaded by Mikael Bauer",
+   "photo": 13338489
+  }
+ ]
 }

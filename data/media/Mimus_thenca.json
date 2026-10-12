@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82631517/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Gross, some rights reserved (CC BY-NC), uploaded by Javier Gross",
+   "photo": 82631517
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122880910/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+   "photo": 122880910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flavio Camus, some rights reserved (CC BY-NC)",
+   "photo": 67850
+  }
+ ]
 }

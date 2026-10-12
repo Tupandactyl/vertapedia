@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244952594/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Khalid Alastad, some rights reserved (CC BY-NC-SA), uploaded by Khalid Alastad",
+   "photo": 244952594
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560828015/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uriel Levy, some rights reserved (CC BY-NC), uploaded by Uriel Levy",
+   "photo": 560828015
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612481025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 612481025
+  }
+ ]
 }

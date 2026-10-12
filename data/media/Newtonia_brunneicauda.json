@@ -124,5 +124,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4618529/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) benwalton, some rights reserved (CC BY-NC), uploaded by benwalton",
+   "photo": 4618529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3810619/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3810619
+  }
+ ]
 }

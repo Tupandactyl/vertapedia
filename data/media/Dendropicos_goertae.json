@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136095/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thom Haslam, some rights reserved (CC BY)",
+   "photo": 136095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 633023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 633024
+  }
+ ]
 }

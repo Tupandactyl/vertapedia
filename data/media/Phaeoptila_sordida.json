@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51584231/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Rodríguez Brito, some rights reserved (CC BY-NC), uploaded by Rafael Rodríguez Brito",
+   "photo": 51584231
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30471084/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Rodríguez Brito, some rights reserved (CC BY-NC), uploaded by Rafael Rodríguez Brito",
+   "photo": 30471084
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/705315/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 705315
+  }
+ ]
 }

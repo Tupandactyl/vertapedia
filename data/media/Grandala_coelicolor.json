@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173964014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 173964014
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598787159/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Natalya Andreyenkova, some rights reserved (CC BY-NC), uploaded by Natalya Andreyenkova",
+   "photo": 598787159
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174532732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jens Søgaard Hansen, some rights reserved (CC BY-NC), uploaded by Jens Søgaard Hansen",
+   "photo": 174532732
+  }
+ ]
 }

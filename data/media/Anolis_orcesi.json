@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169757315/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 169757315
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169757172/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 169757172
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169757183/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 169757183
+  }
+ ]
 }

@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15933015/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clodoaldo Costa Junior, some rights reserved (CC BY-NC), uploaded by Clodoaldo Costa Junior",
+   "photo": 15933015
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19726213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Rohrer, some rights reserved (CC BY-NC), uploaded by Chris Rohrer",
+   "photo": 19726213
+  }
+ ]
 }

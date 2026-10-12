@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117195646/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chalon Boesel, some rights reserved (CC BY-NC), uploaded by Chalon Boesel",
+   "photo": 117195646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84265101/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank-Roland Fließ, some rights reserved (CC BY-NC), uploaded by Frank-Roland Fließ",
+   "photo": 84265101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149453539/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 149453539
+  }
+ ]
 }

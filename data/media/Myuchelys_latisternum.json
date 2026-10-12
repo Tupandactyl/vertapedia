@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132303696/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David White, some rights reserved (CC BY-NC), uploaded by David White",
+   "photo": 132303696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1428157/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Nash, some rights reserved (CC BY-NC), uploaded by Chris Nash",
+   "photo": 1428157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11183766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC), uploaded by Paul Tavares",
+   "photo": 11183766
+  }
+ ]
 }

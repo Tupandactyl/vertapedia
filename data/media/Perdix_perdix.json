@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344182442/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) patrickgoa, some rights reserved (CC BY-NC), uploaded by patrickgoa",
+   "photo": 344182442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332169780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabi Rusu, some rights reserved (CC BY-NC), uploaded by Gabi Rusu",
+   "photo": 332169780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472680761/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 472680761
+  }
+ ]
 }

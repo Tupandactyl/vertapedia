@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355124712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, alguns direitos reservados (CC BY-NC), carregado por Don Marsille",
+   "photo": 355124712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14603516/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jill Soller, alguns direitos reservados (CC BY-NC), carregado por Jill Soller",
+   "photo": 14603516
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104824432/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, alguns direitos reservados (CC BY), carregado por Christoph Moning",
+   "photo": 104824432
+  }
+ ]
 }

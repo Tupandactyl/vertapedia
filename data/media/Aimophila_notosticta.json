@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208849615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 208849615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84332/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominic Sherony, some rights reserved (CC BY-SA)",
+   "photo": 84332
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173458968/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 173458968
+  }
+ ]
 }

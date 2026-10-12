@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15658404/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ColinDJones, some rights reserved (CC BY-NC), uploaded by ColinDJones",
+   "photo": 15658404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177827744/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William Hull, some rights reserved (CC BY-NC), uploaded by William Hull",
+   "photo": 177827744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177827733/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William Hull, some rights reserved (CC BY-NC), uploaded by William Hull",
+   "photo": 177827733
+  }
+ ]
 }

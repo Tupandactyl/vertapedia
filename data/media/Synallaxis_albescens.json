@@ -184,5 +184,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87538/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 87538
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575119/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 575119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575120/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 575120
+  }
+ ]
 }

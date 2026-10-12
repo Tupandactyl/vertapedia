@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329469492/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaëtan Jouvenez, some rights reserved (CC BY-NC), uploaded by Gaëtan Jouvenez",
+   "photo": 329469492
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205784110/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
+   "photo": 205784110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12204707/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) D. Gordon E. Robertson, some rights reserved (CC BY-SA)",
+   "photo": 12204707
+  }
+ ]
 }

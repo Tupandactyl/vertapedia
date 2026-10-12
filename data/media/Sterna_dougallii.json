@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295162927/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+   "photo": 295162927
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23509775/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KO Ka Ho, some rights reserved (CC BY-NC), uploaded by KO Ka Ho",
+   "photo": 23509775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125199/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) cyric, some rights reserved (CC BY-NC-SA), uploaded by cyric",
+   "photo": 125199
+  }
+ ]
 }

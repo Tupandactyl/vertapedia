@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14683543/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 14683543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102713937/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 102713937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250722690/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dan Harville, some rights reserved (CC BY-SA), uploaded by Dan Harville",
+   "photo": 250722690
+  }
+ ]
 }

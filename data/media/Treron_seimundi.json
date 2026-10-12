@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19142485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lam Mowsum, some rights reserved (CC BY-NC), uploaded by Lam Mowsum",
+   "photo": 19142485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6697794/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bangtran, some rights reserved (CC BY-NC), uploaded by bangtran",
+   "photo": 6697794
+  }
+ ]
 }

@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102107398/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Boettcher FNQ Nature Tours, some rights reserved (CC BY-NC), uploaded by James Boettcher FNQ Nature Tours",
+   "photo": 102107398
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29745961/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 29745961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20725684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rui Da Silva Pinto, some rights reserved (CC BY-NC), uploaded by Rui Da Silva Pinto",
+   "photo": 20725684
+  }
+ ]
 }

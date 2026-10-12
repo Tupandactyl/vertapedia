@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107531283/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Foss, some rights reserved (CC BY-NC), uploaded by Steve Foss",
+   "photo": 107531283
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107845999/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edu Franco, some rights reserved (CC BY-NC), uploaded by Edu Franco",
+   "photo": 107845999
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152083366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eneaschr, some rights reserved (CC BY-NC)",
+   "photo": 152083366
+  }
+ ]
 }

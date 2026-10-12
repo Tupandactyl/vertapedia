@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119259113/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julián Rolando Tocce, nogle rettigheder forbeholdes (CC BY-NC), uploadet af Julián Rolando Tocce",
+   "photo": 119259113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100599583/{size}.jpg",
+   "license": "cc0",
+   "attribution": "ingen rettigheder forbeholdt, uploadet af Hugo Hulsberg",
+   "photo": 100599583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1658998/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Guillermo Debandi, nogle rettigheder forbeholdes (CC BY), uploadet af Guillermo Debandi",
+   "photo": 1658998
+  }
+ ]
 }

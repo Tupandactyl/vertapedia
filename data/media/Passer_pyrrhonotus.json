@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341256358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr Harmeet Singh, some rights reserved (CC BY-NC), uploaded by Dr Harmeet Singh",
+   "photo": 341256358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455445640/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tahir Abbas Awan, some rights reserved (CC BY-NC), uploaded by Tahir Abbas Awan",
+   "photo": 455445640
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317658422/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kartik balasubramaniam, some rights reserved (CC BY-NC), uploaded by kartik balasubramaniam",
+   "photo": 317658422
+  }
+ ]
 }

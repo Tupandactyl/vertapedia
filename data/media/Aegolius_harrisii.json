@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61739943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) André Adeodato, some rights reserved (CC BY-NC), uploaded by André Adeodato",
+   "photo": 61739943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197969/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Fábio Maffei, some rights reserved (CC BY-NC-SA)",
+   "photo": 197969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69428064/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) javatru, some rights reserved (CC BY-NC), uploaded by javatru",
+   "photo": 69428064
+  }
+ ]
 }

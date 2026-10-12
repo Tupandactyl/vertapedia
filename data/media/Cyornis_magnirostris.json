@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448101923/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnlerond, some rights reserved (CC BY-NC)",
+   "photo": 448101923
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107247886/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 107247886
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107156246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 107156246
+  }
+ ]
 }

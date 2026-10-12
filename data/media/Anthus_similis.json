@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2432253/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 2432253
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1006763/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC)",
+   "photo": 1006763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106007211/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Akhter Ali Gani, some rights reserved (CC BY-NC), uploaded by Akhter Ali Gani",
+   "photo": 106007211
+  }
+ ]
 }

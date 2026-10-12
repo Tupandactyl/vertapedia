@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459370827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yucheol Shin, some rights reserved (CC BY-NC), uploaded by Yucheol Shin",
+   "photo": 459370827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330663705/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) williamscott279, some rights reserved (CC BY-NC)",
+   "photo": 330663705
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254534750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mark_ley, some rights reserved (CC BY-NC)",
+   "photo": 254534750
+  }
+ ]
 }

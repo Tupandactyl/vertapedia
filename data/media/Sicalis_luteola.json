@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33491763/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 33491763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2878873/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Schlemmer, some rights reserved (CC BY-NC), uploaded by Jorge Schlemmer",
+   "photo": 2878873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107423245/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Talone Rìo, some rights reserved (CC BY-NC), uploaded by Andrea Talone Rìo",
+   "photo": 107423245
+  }
+ ]
 }

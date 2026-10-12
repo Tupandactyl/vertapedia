@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69173461/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kudaibergen Amirekul, some rights reserved (CC BY-SA), uploaded by Kudaibergen Amirekul",
+   "photo": 69173461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724066136/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 724066136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724066158/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 724066158
+  }
+ ]
 }

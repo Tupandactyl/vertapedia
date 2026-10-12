@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464851435/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David McCorquodale, osa oikeuksista pidätetään (CC BY), lähettänyt David McCorquodale",
+   "photo": 464851435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178160867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nereston (Nelinho) Camargo, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Nereston (Nelinho) Camargo",
+   "photo": 178160867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351969584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jarbas Mattos, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Jarbas Mattos",
+   "photo": 351969584
+  }
+ ]
 }

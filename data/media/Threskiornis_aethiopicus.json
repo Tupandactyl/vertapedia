@@ -243,5 +243,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385585788/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CI Jay, some rights reserved (CC BY-NC), uploaded by CI Jay",
+   "photo": 385585788
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543809646/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
+   "photo": 543809646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358607572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "photo": 358607572
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267193404/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 267193404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363550890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+   "photo": 363550890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444088306/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fredy Ramón C., some rights reserved (CC BY-NC), uploaded by Fredy Ramón C.",
+   "photo": 444088306
+  }
+ ]
 }

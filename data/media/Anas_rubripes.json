@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340374896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Hotson, some rights reserved (CC BY-NC), uploaded by Paul Hotson",
+   "photo": 340374896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464575553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vasco Valadares, some rights reserved (CC BY-NC), uploaded by Vasco Valadares",
+   "photo": 464575553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455942890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) silvertop41, some rights reserved (CC BY-NC)",
+   "photo": 455942890
+  }
+ ]
 }

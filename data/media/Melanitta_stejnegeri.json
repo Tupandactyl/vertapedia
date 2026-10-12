@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217058201/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Наталия, some rights reserved (CC BY-NC), uploaded by Наталия",
+   "photo": 217058201
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110567157/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Marco Mussita, some rights reserved (CC BY), uploaded by Marco Mussita",
+   "photo": 110567157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453203747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stanislav Cherepushkin, some rights reserved (CC BY-NC), uploaded by Stanislav Cherepushkin",
+   "photo": 453203747
+  }
+ ]
 }

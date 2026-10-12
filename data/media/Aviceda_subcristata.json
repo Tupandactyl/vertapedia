@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49666143/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allan Lugg, some rights reserved (CC BY-NC), uploaded by Allan Lugg",
+   "photo": 49666143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248314662/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 248314662
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288816279/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anthony Katon, some rights reserved (CC BY-NC), uploaded by Anthony Katon",
+   "photo": 288816279
+  }
+ ]
 }

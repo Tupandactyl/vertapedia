@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28933142/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcosmoreno, some rights reserved (CC BY-NC)",
+   "photo": 28933142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24353597/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Keith Roragen, some rights reserved (CC BY-NC-SA), uploaded by Keith Roragen",
+   "photo": 24353597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27972466/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ana Sofia Aguirre Sahagun, some rights reserved (CC BY-NC), uploaded by Ana Sofia Aguirre Sahagun",
+   "photo": 27972466
+  }
+ ]
 }

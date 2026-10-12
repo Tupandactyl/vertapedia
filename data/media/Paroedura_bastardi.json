@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2009 Frank Teigler, some rights reserved (CC BY-NC)",
+   "photo": 378323
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2009 Frank Teigler, some rights reserved (CC BY-NC)",
+   "photo": 378324
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378325/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2009 Frank Teigler, some rights reserved (CC BY-NC)",
+   "photo": 378325
+  }
+ ]
 }

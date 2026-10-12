@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64980379/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yakov_salaviz, some rights reserved (CC BY-NC), uploaded by yakov_salaviz",
+   "photo": 64980379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349269628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fernwehfotografin, some rights reserved (CC BY-NC)",
+   "photo": 349269628
+  }
+ ]
 }

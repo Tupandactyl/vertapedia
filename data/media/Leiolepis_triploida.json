@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60488920/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY), uploaded by Ian Dugdale",
+   "photo": 60488920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61306618/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) phangnga_base, some rights reserved (CC BY-NC)",
+   "photo": 61306618
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75189074/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) manu310, some rights reserved (CC BY-NC)",
+   "photo": 75189074
+  }
+ ]
 }

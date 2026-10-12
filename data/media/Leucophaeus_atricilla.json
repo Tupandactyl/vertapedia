@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4196757/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 4196757
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264204727/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Squidpastry, some rights reserved (CC BY-NC), uploaded by Squidpastry",
+   "photo": 264204727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609217016/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott F Smith, some rights reserved (CC BY-NC), uploaded by Scott F Smith",
+   "photo": 609217016
+  }
+ ]
 }

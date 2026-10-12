@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35925710/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, algunos derechos reservados (CC BY-NC), subido por Paul Cools",
+   "photo": 35925710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59809892/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Renata Xavier, algunos derechos reservados (CC BY-NC), subido por Renata Xavier",
+   "photo": 59809892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47339757/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, algunos derechos reservados (CC BY-NC), subido por Oswaldo Hernández",
+   "photo": 47339757
+  }
+ ]
 }

@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56712/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rene Jakobson, some rights reserved (CC BY-NC-SA)",
+   "photo": 56712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629113/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 1629113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629115/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 1629115
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468402207/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) littlebrownskink, some rights reserved (CC BY-NC)",
+   "photo": 468402207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531136316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Karnasuta, some rights reserved (CC BY-NC), uploaded by Tim Karnasuta",
+   "photo": 531136316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330869831/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Evan Centanni, some rights reserved (CC BY-NC-SA), uploaded by Evan Centanni",
+   "photo": 330869831
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383837201/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by John Cull",
+   "photo": 383837201
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275768935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davhud, some rights reserved (CC BY-NC)",
+   "photo": 275768935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316321216/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Taylor, some rights reserved (CC BY-NC), uploaded by Taylor",
+   "photo": 316321216
+  }
+ ]
 }

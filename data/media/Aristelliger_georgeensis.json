@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40118500/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC), uploaded by J.D. Willson",
+   "photo": 40118500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6342961/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 6342961
+  }
+ ]
 }

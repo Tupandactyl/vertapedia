@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473707420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 473707420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235281030/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) i_c_riddell, some rights reserved (CC BY), uploaded by i_c_riddell",
+   "photo": 235281030
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107904611/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wimvz, some rights reserved (CC BY-NC), uploaded by wimvz",
+   "photo": 107904611
+  }
+ ]
 }

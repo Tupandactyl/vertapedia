@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94321076/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Ebanks, some rights reserved (CC BY-NC), uploaded by Nick Ebanks",
+   "photo": 94321076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32018620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cohen, some rights reserved (CC BY-NC), uploaded by David Cohen",
+   "photo": 32018620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107443066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anthony F Groves, some rights reserved (CC BY-NC), uploaded by Anthony F Groves",
+   "photo": 107443066
+  }
+ ]
 }

@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222686/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 222686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7858340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadi Yaghmour, some rights reserved (CC BY-NC), uploaded by Fadi Yaghmour",
+   "photo": 7858340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105373656/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khalid Alastad, some rights reserved (CC BY-NC), uploaded by Khalid Alastad",
+   "photo": 105373656
+  }
+ ]
 }

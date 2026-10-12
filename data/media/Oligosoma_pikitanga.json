@@ -69,5 +69,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176875738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Jewell, some rights reserved (CC BY-NC), uploaded by Tony Jewell",
+   "photo": 176875738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176875750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Jewell, some rights reserved (CC BY-NC), uploaded by Tony Jewell",
+   "photo": 176875750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184620655/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Carey_Knox_Southern_Scales",
+   "photo": 184620655
+  }
+ ]
 }

@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189603047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 189603047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90036225/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 洪廷維, some rights reserved (CC BY-NC), uploaded by 洪廷維",
+   "photo": 90036225
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90429572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 洪廷維, some rights reserved (CC BY-NC), uploaded by 洪廷維",
+   "photo": 90429572
+  }
+ ]
 }

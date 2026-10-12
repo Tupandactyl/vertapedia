@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112439100/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Henderson, some rights reserved (CC BY-NC)",
+   "photo": 112439100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58546438/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) carsonfam, some rights reserved (CC BY-NC)",
+   "photo": 58546438
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112439161/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wyatt Berka, some rights reserved (CC BY)",
+   "photo": 112439161
+  }
+ ]
 }

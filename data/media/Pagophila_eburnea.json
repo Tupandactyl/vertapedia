@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blake Matheson, some rights reserved (CC BY-NC)",
+   "photo": 75368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jamie Chavez, some rights reserved (CC BY-NC)",
+   "photo": 75369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75370/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC-SA)",
+   "photo": 75370
+  }
+ ]
 }

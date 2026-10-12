@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18377585/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY), uploaded by Brian Gratwicke",
+   "photo": 18377585
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160961693/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Mesa, some rights reserved (CC BY), uploaded by Daniel Mesa",
+   "photo": 160961693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56958301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Sebastian Forero Rodriguez, some rights reserved (CC BY-NC), uploaded by Juan Sebastian Forero Rodriguez",
+   "photo": 56958301
+  }
+ ]
 }

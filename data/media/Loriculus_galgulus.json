@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64901100/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 64901100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259126128/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Loriculus_galgulus_(juvenile)_-captive-8a.jpg, some rights reserved (CC BY)",
+   "photo": 259126128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162429148/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC), uploaded by Wild Sumatra",
+   "photo": 162429148
+  }
+ ]
 }

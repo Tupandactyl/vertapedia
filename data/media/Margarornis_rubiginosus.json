@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338617961/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kobus Lubbe, some rights reserved (CC BY-NC), uploaded by Kobus Lubbe",
+   "photo": 338617961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 45166185
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269754061/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) er-birds, some rights reserved (CC BY), uploaded by er-birds",
+   "photo": 269754061
+  }
+ ]
 }

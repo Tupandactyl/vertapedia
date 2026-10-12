@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121865702/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 121865702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97512674/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 97512674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97512675/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 97512675
+  }
+ ]
 }

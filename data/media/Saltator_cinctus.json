@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64591390/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
+   "photo": 64591390
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222616253/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Don Wellmann",
+   "photo": 222616253
+  }
+ ]
 }

@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12768711/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 12768711
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100593/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Peter Bono, some rights reserved (CC BY-NC-SA)",
+   "photo": 100593
+  }
+ ]
 }

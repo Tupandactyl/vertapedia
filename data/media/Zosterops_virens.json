@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545801809/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
+   "photo": 545801809
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226141088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Delport, some rights reserved (CC BY-NC), uploaded by Marie Delport",
+   "photo": 226141088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147616958/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Delport, some rights reserved (CC BY-NC), uploaded by Marie Delport",
+   "photo": 147616958
+  }
+ ]
 }

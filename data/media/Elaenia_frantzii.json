@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102685593/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
+   "photo": 102685593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55206792/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aitor, some rights reserved (CC BY), uploaded by Aitor",
+   "photo": 55206792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102685701/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
+   "photo": 102685701
+  }
+ ]
 }

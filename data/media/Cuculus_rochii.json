@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/811368/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 811368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55321808/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Steamer, some rights reserved (CC BY-NC), uploaded by James Steamer",
+   "photo": 55321808
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455070833/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 455070833
+  }
+ ]
 }

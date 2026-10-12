@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61816834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC), uploaded by J.D. Willson",
+   "photo": 61816834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127009354/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Arredondo T., some rights reserved (CC BY-NC), uploaded by Ricardo Arredondo T.",
+   "photo": 127009354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47705642/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) perlatum1131, some rights reserved (CC BY-NC), uploaded by perlatum1131",
+   "photo": 47705642
+  }
+ ]
 }

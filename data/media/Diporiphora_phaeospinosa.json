@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115497287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Dew, some rights reserved (CC BY-NC), uploaded by Steve Dew",
+   "photo": 115497287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40693541/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Laurence Sanders, some rights reserved (CC BY-NC-SA), uploaded by Laurence Sanders",
+   "photo": 40693541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140071479/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC), uploaded by Richard D Reams",
+   "photo": 140071479
+  }
+ ]
 }

@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164654701/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gwen506cr, some rights reserved (CC BY-NC)",
+   "photo": 164654701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11651702/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andy Wilson",
+   "photo": 11651702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44729691/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44729691
+  }
+ ]
 }

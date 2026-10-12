@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264933012/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 264933012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451679339/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Andrew Brown, some rights reserved (CC BY-NC-SA), uploaded by Andrew Brown",
+   "photo": 451679339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62030946/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Jeffrey Ringer, some rights reserved (CC BY-NC), uploaded by David Jeffrey Ringer",
+   "photo": 62030946
+  }
+ ]
 }

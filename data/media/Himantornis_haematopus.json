@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55179892/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 55179892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55179922/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 55179922
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55179876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 55179876
+  }
+ ]
 }

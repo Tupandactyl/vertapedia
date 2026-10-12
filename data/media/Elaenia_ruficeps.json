@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60743341/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Jeffrey Ringer, some rights reserved (CC BY-NC), uploaded by David Jeffrey Ringer",
+   "photo": 60743341
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60673225/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 60673225
+  }
+ ]
 }

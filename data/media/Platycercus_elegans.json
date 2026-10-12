@@ -182,5 +182,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159068167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 159068167
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159068173/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) patrickkavanagh, some rights reserved (CC BY)",
+   "photo": 159068173
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159068170/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) I Am birdsaspoetry.com , some rights reserved (CC BY)",
+   "photo": 159068170
+  }
+ ]
 }

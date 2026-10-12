@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12396588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 12396588
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204822102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Werner Witte, some rights reserved (CC BY-NC)",
+   "photo": 204822102
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84453435/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lflovesnature, some rights reserved (CC BY-NC), uploaded by lflovesnature",
+   "photo": 84453435
+  }
+ ]
 }

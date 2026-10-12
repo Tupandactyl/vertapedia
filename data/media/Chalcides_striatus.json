@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362605649/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Helio Batista, some rights reserved (CC BY-NC), uploaded by Helio Batista",
+   "photo": 362605649
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125214562/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Galli, some rights reserved (CC BY-NC), uploaded by Martin Galli",
+   "photo": 125214562
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132679/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) J. Gállego, some rights reserved (CC BY-NC-SA)",
+   "photo": 132679
+  }
+ ]
 }

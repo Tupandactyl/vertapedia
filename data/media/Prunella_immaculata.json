@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637047229/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Naumov, some rights reserved (CC BY-NC), uploaded by Alexander Naumov",
+   "photo": 637047229
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637047143/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Naumov, some rights reserved (CC BY-NC), uploaded by Alexander Naumov",
+   "photo": 637047143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136021964/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 136021964
+  }
+ ]
 }

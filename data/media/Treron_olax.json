@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228773716/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 228773716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10920930/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 10920930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456358657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Jones, some rights reserved (CC BY-NC), uploaded by Dan Jones",
+   "photo": 456358657
+  }
+ ]
 }

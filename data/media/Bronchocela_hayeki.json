@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262858539/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 262858539
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109010726/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 109010726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24920223/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rachmi, some rights reserved (CC BY-NC), uploaded by rachmi",
+   "photo": 24920223
+  }
+ ]
 }

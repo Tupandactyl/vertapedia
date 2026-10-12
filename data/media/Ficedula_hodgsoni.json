@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211899947/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rejoice Gassah, some rights reserved (CC BY), uploaded by Rejoice Gassah",
+   "photo": 211899947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1380166/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) porag, some rights reserved (CC BY-NC)",
+   "photo": 1380166
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29864786/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rejoice Gassah, some rights reserved (CC BY), uploaded by Rejoice Gassah",
+   "photo": 29864786
+  }
+ ]
 }

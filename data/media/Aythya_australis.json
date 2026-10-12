@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75701/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leo, some rights reserved (CC BY-NC-SA)",
+   "photo": 75701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13683044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashley M Bradford, some rights reserved (CC BY-NC), uploaded by Ashley M Bradford",
+   "photo": 13683044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108370224/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashley M Bradford, some rights reserved (CC BY-NC), uploaded by Ashley M Bradford",
+   "photo": 108370224
+  }
+ ]
 }

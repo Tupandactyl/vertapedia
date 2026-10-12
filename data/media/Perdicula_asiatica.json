@@ -173,5 +173,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54595321/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) PARAG KOKANE, some rights reserved (CC BY-NC), uploaded by PARAG KOKANE",
+   "photo": 54595321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8338036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saurabh Agrawal, some rights reserved (CC BY-NC), uploaded by Saurabh Agrawal",
+   "photo": 8338036
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181301435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 181301435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13718070/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Reuven Martin",
+   "photo": 13718070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14953177/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Nofsinger, some rights reserved (CC BY-NC), uploaded by Mark Nofsinger",
+   "photo": 14953177
+  }
+ ]
 }

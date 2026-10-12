@@ -109,5 +109,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456244/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Shirk, some rights reserved (CC BY-NC), uploaded by Phil Shirk",
+   "photo": 456244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2894747/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Carrie Seltzer, some rights reserved (CC BY), uploaded by Carrie Seltzer",
+   "photo": 2894747
+  }
+ ]
 }

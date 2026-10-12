@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639347818/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) viweedguy, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 639347818
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639347901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) viweedguy, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 639347901
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304791600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, osa oikeuksista pidätetään (CC BY-NC), lähettänyt terence zahner",
+   "photo": 304791600
+  }
+ ]
 }

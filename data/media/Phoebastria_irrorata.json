@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46583649/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 46583649
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576762917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 576762917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627054421/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uri Wolkowski, some rights reserved (CC BY-NC), uploaded by Uri Wolkowski",
+   "photo": 627054421
+  }
+ ]
 }

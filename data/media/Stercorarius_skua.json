@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19762/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ulrich Latzenhofer, some rights reserved (CC BY-SA)",
+   "photo": 19762
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81343065/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Valenzuela, some rights reserved (CC BY-NC), uploaded by Pedro Valenzuela",
+   "photo": 81343065
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72446988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Leggatt, some rights reserved (CC BY-NC), uploaded by Nick Leggatt",
+   "photo": 72446988
+  }
+ ]
 }

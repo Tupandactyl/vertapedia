@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 654556
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654557/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 654557
+  }
+ ]
 }

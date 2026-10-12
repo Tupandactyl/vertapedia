@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101919921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alpian Maleso, some rights reserved (CC BY-NC), uploaded by Alpian Maleso",
+   "photo": 101919921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143753206/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Wilton, some rights reserved (CC BY-NC), uploaded by Peter Wilton",
+   "photo": 143753206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303327198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GDown, some rights reserved (CC BY-NC), uploaded by GDown",
+   "photo": 303327198
+  }
+ ]
 }

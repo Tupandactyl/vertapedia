@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248686410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) emskakoon, some rights reserved (CC BY-NC), uploaded by emskakoon",
+   "photo": 248686410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615433389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) astronorm, some rights reserved (CC BY-NC), uploaded by astronorm",
+   "photo": 615433389
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247210770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Linda Alisto, some rights reserved (CC BY-NC), uploaded by Linda Alisto",
+   "photo": 247210770
+  }
+ ]
 }

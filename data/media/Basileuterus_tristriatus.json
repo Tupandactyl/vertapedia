@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57230683/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alto de San Miguel, some rights reserved (CC BY-NC), uploaded by Alto de San Miguel",
+   "photo": 57230683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70027106/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 70027106
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30765675/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dushenkov, some rights reserved (CC BY-NC)",
+   "photo": 30765675
+  }
+ ]
 }

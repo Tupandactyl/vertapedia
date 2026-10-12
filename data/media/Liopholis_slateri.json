@@ -68,5 +68,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136842557/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Jolly, some rights reserved (CC BY-NC), uploaded by Chris Jolly",
+   "photo": 136842557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435007582/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dirkvdl16, some rights reserved (CC BY-NC)",
+   "photo": 435007582
+  }
+ ]
 }

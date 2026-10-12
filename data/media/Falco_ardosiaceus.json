@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665567/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 665567
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 665568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 665569
+  }
+ ]
 }

@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142478022/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Randall Jiménez, some rights reserved (CC BY-NC), uploaded by Randall Jiménez",
+   "photo": 142478022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106818602/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dariel Sanabria Quirós, some rights reserved (CC BY-NC), uploaded by Dariel Sanabria Quirós",
+   "photo": 106818602
+  }
+ ]
 }

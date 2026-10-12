@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38698273/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Andrea Janitzki, some rights reserved (CC BY-NC-SA)",
+   "photo": 38698273
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11855604/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Valentin Moser, some rights reserved (CC BY), uploaded by Valentin Moser",
+   "photo": 11855604
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10996639/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 10996639
+  }
+ ]
 }

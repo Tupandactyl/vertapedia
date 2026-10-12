@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105374707/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Happy The Monk Singh, some rights reserved (CC BY-NC), uploaded by Happy The Monk Singh",
+   "photo": 105374707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110524741/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mturkoglu, some rights reserved (CC BY-NC), uploaded by mturkoglu",
+   "photo": 110524741
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28924761/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+   "photo": 28924761
+  }
+ ]
 }

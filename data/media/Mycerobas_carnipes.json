@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5629792/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 5629792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253630107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olga Sivokon, some rights reserved (CC BY-NC), uploaded by Olga Sivokon",
+   "photo": 253630107
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351433954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) PapilionemK (Hye-Ryon Kim), some rights reserved (CC BY-NC), uploaded by PapilionemK (Hye-Ryon Kim)",
+   "photo": 351433954
+  }
+ ]
 }

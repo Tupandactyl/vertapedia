@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519212147/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa",
+   "photo": 519212147
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113065265/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rawpixel Ltd, some rights reserved (CC BY)",
+   "photo": 113065265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113065269/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cornell University Museum of Vertebrates, some rights reserved (CC BY-NC-SA)",
+   "photo": 113065269
+  }
+ ]
 }

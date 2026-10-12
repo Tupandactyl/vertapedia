@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323017422/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 323017422
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90842308/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ken Billington, some rights reserved (CC BY-SA)",
+   "photo": 90842308
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90842311/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) anonymous, some rights reserved (CC BY)",
+   "photo": 90842311
+  }
+ ]
 }

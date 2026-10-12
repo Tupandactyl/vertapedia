@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117550780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 117550780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102043694/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Norton Santos, some rights reserved (CC BY-NC), uploaded by Norton Santos",
+   "photo": 102043694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8382741/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fmrosso, some rights reserved (CC BY-NC)",
+   "photo": 8382741
+  }
+ ]
 }

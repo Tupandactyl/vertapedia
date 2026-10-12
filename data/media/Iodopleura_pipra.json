@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98082565/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciana Chiyo, some rights reserved (CC BY-NC), uploaded by Luciana Chiyo",
+   "photo": 98082565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26371907/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26371907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/326155113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto De Oliveira Silva, some rights reserved (CC BY-NC), uploaded by Roberto De Oliveira Silva",
+   "photo": 326155113
+  }
+ ]
 }

@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155520284/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tiago Falótico, some rights reserved (CC BY-NC), uploaded by Tiago Falótico",
+   "photo": 155520284
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29471682/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 29471682
+  }
+ ]
 }

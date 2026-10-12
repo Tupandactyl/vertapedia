@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5054715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shantanu Paranjape, some rights reserved (CC BY-NC), uploaded by Shantanu Paranjape",
+   "photo": 5054715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47816874/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saloni, some rights reserved (CC BY-NC), uploaded by Saloni",
+   "photo": 47816874
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83192934/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rujuta Vinod, some rights reserved (CC BY-NC), uploaded by Rujuta Vinod",
+   "photo": 83192934
+  }
+ ]
 }

@@ -50,5 +50,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65587263/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi",
+   "photo": 65587263
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469676151/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frank_lambert, some rights reserved (CC BY-NC), uploaded by frank_lambert",
+   "photo": 469676151
+  }
+ ]
 }

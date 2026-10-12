@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252407098/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 252407098
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532100372/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Lovera, some rights reserved (CC BY-NC), uploaded by Sebastián Lovera",
+   "photo": 532100372
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412007719/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 412007719
+  }
+ ]
 }

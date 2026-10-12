@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15571159/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 15571159
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15571154/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 15571154
+  }
+ ]
 }

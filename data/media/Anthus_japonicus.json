@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65495319/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 권경숙, some rights reserved (CC BY-NC), uploaded by 권경숙",
+   "photo": 65495319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243885908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) saintsfc, some rights reserved (CC BY-NC)",
+   "photo": 243885908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110469080/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 110469080
+  }
+ ]
 }

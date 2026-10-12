@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110500346/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Morten Ross, some rights reserved (CC BY), uploaded by Morten Ross",
+   "photo": 110500346
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80394226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sharma BC, some rights reserved (CC BY-NC), uploaded by Sharma BC",
+   "photo": 80394226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90419949/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
+   "photo": 90419949
+  }
+ ]
 }

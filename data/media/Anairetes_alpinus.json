@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254106505/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) javatru, some rights reserved (CC BY-NC), uploaded by javatru",
+   "photo": 254106505
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261449683/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC), uploaded by Ryan Shaw",
+   "photo": 261449683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113307311/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 113307311
+  }
+ ]
 }

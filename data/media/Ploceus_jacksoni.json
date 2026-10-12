@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178422744/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 178422744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59339940/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 59339940
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160020411/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadzrun, some rights reserved (CC BY-NC), uploaded by Fadzrun",
+   "photo": 160020411
+  }
+ ]
 }

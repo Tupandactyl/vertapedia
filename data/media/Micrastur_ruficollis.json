@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46772236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rolando Pasos Pérez, some rights reserved (CC BY-NC), uploaded by Rolando Pasos Pérez",
+   "photo": 46772236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184322903/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bernardo Zorrilla, some rights reserved (CC BY-NC), uploaded by Bernardo Zorrilla",
+   "photo": 184322903
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5874463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenn Sinasac, some rights reserved (CC BY-NC), uploaded by Jenn Sinasac",
+   "photo": 5874463
+  }
+ ]
 }

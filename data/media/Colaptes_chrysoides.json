@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2921338/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 2921338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13589854/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 13589854
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2862264/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andy Blackledge, some rights reserved (CC BY)",
+   "photo": 2862264
+  }
+ ]
 }

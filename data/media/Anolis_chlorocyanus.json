@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144059/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2009 Frank Teigler, some rights reserved (CC BY-NC)",
+   "photo": 144059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3168256/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC)",
+   "photo": 3168256
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6274854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, some rights reserved (CC BY-NC), uploaded by Heather Pickard",
+   "photo": 6274854
+  }
+ ]
 }

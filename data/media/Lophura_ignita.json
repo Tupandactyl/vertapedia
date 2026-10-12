@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229942605/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 229942605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236456731/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfonsus Toribio Eko Saputro, some rights reserved (CC BY-NC), uploaded by Alfonsus Toribio Eko Saputro",
+   "photo": 236456731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410156691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gideon Lam, some rights reserved (CC BY-NC), uploaded by Gideon Lam",
+   "photo": 410156691
+  }
+ ]
 }

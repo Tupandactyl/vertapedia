@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347574081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) viweedguy, some rights reserved (CC BY-NC)",
+   "photo": 347574081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121907715/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) USFWS Endangered Species, some rights reserved (CC BY)",
+   "photo": 121907715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149909406/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jefferson Ashby, some rights reserved (CC BY-NC), uploaded by Jefferson Ashby",
+   "photo": 149909406
+  }
+ ]
 }

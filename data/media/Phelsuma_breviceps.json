@@ -135,5 +135,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441693744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+   "photo": 441693744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321598990/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean-Jacques Argoud, some rights reserved (CC BY-NC), uploaded by Jean-Jacques Argoud",
+   "photo": 321598990
+  }
+ ]
 }

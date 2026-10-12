@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163215385/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Mitchell Robinson, some rights reserved (CC BY-SA), uploaded by Mitchell Robinson",
+   "photo": 163215385
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21897912/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) islandboy, some rights reserved (CC BY-NC), uploaded by islandboy",
+   "photo": 21897912
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21897971/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) islandboy, some rights reserved (CC BY-NC), uploaded by islandboy",
+   "photo": 21897971
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297667126/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 297667126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6256586/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Guida, some rights reserved (CC BY-NC), uploaded by Tim Guida",
+   "photo": 6256586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42369889/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Johnson, some rights reserved (CC BY-NC), uploaded by Brian Johnson",
+   "photo": 42369889
+  }
+ ]
 }

@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93311329/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) sylvere corre, some rights reserved (CC BY-NC-SA)",
+   "photo": 93311329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5172424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 5172424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1372824/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole LaRoche, some rights reserved (CC BY-NC), uploaded by Nicole LaRoche",
+   "photo": 1372824
+  }
+ ]
 }

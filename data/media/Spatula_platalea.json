@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295509101/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 295509101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123053637/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silvia Mallet, some rights reserved (CC BY-NC), uploaded by Silvia Mallet",
+   "photo": 123053637
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109249987/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cotinga, some rights reserved (CC BY-NC), uploaded by cotinga",
+   "photo": 109249987
+  }
+ ]
 }

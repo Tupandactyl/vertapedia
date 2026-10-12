@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7383575/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 7383575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2873381/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2873381
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139965598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) A Emmerson, some rights reserved (CC BY-NC), uploaded by A Emmerson",
+   "photo": 139965598
+  }
+ ]
 }

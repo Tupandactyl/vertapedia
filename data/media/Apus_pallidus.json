@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189184432/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cog2022, some rights reserved (CC BY-NC)",
+   "photo": 189184432
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206581624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Pozo, some rights reserved (CC BY-NC), uploaded by Pablo Pozo",
+   "photo": 206581624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122201266/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kasikog, some rights reserved (CC BY-NC), uploaded by kasikog",
+   "photo": 122201266
+  }
+ ]
 }

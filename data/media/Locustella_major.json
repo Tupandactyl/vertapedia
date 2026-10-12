@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336833985/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 336833985
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/539727911/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salman Baloch, some rights reserved (CC BY-NC), uploaded by Salman Baloch",
+   "photo": 539727911
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/526129840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Azan Khan, some rights reserved (CC BY-NC), uploaded by Azan Khan",
+   "photo": 526129840
+  }
+ ]
 }

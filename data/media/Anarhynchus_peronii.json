@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329169537/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eamon Riordan-Short, some rights reserved (CC BY-NC), uploaded by Eamon Riordan-Short",
+   "photo": 329169537
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11197126/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tanhk, some rights reserved (CC BY-NC), uploaded by tanhk",
+   "photo": 11197126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11197138/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tanhk, some rights reserved (CC BY-NC), uploaded by tanhk",
+   "photo": 11197138
+  }
+ ]
 }

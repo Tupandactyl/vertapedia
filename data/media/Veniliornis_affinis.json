@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112931144/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 112931144
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84770341/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cotinga, some rights reserved (CC BY-NC), uploaded by cotinga",
+   "photo": 84770341
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253975796/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jimmy Pryor, some rights reserved (CC BY-NC), uploaded by Jimmy Pryor",
+   "photo": 253975796
+  }
+ ]
 }

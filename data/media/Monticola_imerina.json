@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22994445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+   "photo": 22994445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69430/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 69430
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69431/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 69431
+  }
+ ]
 }

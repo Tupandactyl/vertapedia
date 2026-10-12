@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394336481/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. de Jong, some rights reserved (CC BY-NC), uploaded by J. de Jong",
+   "photo": 394336481
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299597606/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thekarp, some rights reserved (CC BY-NC), uploaded by thekarp",
+   "photo": 299597606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219485360/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Roger A. Morales-Flores, some rights reserved (CC BY), uploaded by Roger A. Morales-Flores",
+   "photo": 219485360
+  }
+ ]
 }

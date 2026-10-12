@@ -91,5 +91,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29688300/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 29688300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29688296/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 29688296
+  }
+ ]
 }

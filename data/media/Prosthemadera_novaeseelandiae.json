@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463261137/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Amaris, some rights reserved (CC BY-NC), uploaded by Samuel Amaris",
+   "photo": 463261137
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26140669/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jacqui Geux, some rights reserved (CC BY), uploaded by Jacqui Geux",
+   "photo": 26140669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26140672/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jacqui Geux, some rights reserved (CC BY), uploaded by Jacqui Geux",
+   "photo": 26140672
+  }
+ ]
 }

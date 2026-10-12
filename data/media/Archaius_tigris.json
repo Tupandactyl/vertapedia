@@ -123,5 +123,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310625/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) James Hardcastle, some rights reserved (CC BY), uploaded by James Hardcastle",
+   "photo": 310625
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662517/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hans Stieglitz, some rights reserved (CC BY-SA)",
+   "photo": 662517
+  }
+ ]
 }

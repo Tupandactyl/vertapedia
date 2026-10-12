@@ -192,5 +192,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38628066/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jakeschneider00, some rights reserved (CC BY-NC)",
+   "photo": 38628066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46290839/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arman Moreno, some rights reserved (CC BY-NC), uploaded by Arman Moreno",
+   "photo": 46290839
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48929086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 48929086
+  }
+ ]
 }

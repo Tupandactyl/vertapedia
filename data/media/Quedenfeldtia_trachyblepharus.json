@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1530932/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1530932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1530933/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1530933
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1531067/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bouazza, some rights reserved (CC BY-SA)",
+   "photo": 1531067
+  }
+ ]
 }

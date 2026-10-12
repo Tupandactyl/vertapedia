@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73726759/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ricardoalvarezzamora, some rights reserved (CC BY-NC), uploaded by ricardoalvarezzamora",
+   "photo": 73726759
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158980156/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) ProAves Colombia, some rights reserved (CC BY-NC-SA)",
+   "photo": 158980156
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73726894/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ricardoalvarezzamora, some rights reserved (CC BY-NC), uploaded by ricardoalvarezzamora",
+   "photo": 73726894
+  }
+ ]
 }

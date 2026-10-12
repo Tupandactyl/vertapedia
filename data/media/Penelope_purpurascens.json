@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321144478/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 321144478
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112265280/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stefanyvillagomez, some rights reserved (CC BY-NC), uploaded by stefanyvillagomez",
+   "photo": 112265280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92100014/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría",
+   "photo": 92100014
+  }
+ ]
 }

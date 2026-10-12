@@ -209,5 +209,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112486204/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Kropf, some rights reserved (CC BY-NC), uploaded by Christian Kropf",
+   "photo": 112486204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255374945/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timmcclurg, some rights reserved (CC BY-NC)",
+   "photo": 255374945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616054911/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paolo Candotti, some rights reserved (CC BY-NC), uploaded by Paolo Candotti",
+   "photo": 616054911
+  }
+ ]
 }

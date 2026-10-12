@@ -257,5 +257,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10564552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurens R Halsey, some rights reserved (CC BY-NC), uploaded by Laurens R Halsey",
+   "photo": 10564552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112793022/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 112793022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465504/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 465504
+  }
+ ]
 }

@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42504913/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Hiebert, some rights reserved (CC BY-NC), uploaded by John Hiebert",
+   "photo": 42504913
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229407266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ajmcg, some rights reserved (CC BY-NC)",
+   "photo": 229407266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51307964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cherubs, some rights reserved (CC BY-NC)",
+   "photo": 51307964
+  }
+ ]
 }

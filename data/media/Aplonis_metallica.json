@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56627796/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 56627796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306396428/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 306396428
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46692043/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) W. Suprianto, some rights reserved (CC BY-NC), uploaded by W. Suprianto",
+   "photo": 46692043
+  }
+ ]
 }

@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113367698/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 113367698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120219358/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-SA)",
+   "photo": 120219358
+  }
+ ]
 }

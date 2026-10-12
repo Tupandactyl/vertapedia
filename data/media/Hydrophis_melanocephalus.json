@@ -106,5 +106,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113128158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franca Wermuth, some rights reserved (CC BY-NC), uploaded by Franca Wermuth",
+   "photo": 113128158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104336187/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) coralbiologist, some rights reserved (CC BY-NC), uploaded by coralbiologist",
+   "photo": 104336187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113128104/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franca Wermuth, some rights reserved (CC BY-NC), uploaded by Franca Wermuth",
+   "photo": 113128104
+  }
+ ]
 }

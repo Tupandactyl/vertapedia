@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178158642/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudio Martins de Souza, some rights reserved (CC BY-NC), uploaded by Claudio Martins de Souza",
+   "photo": 178158642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198619256/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Deia e Wesley, some rights reserved (CC BY-NC), uploaded by Deia e Wesley",
+   "photo": 198619256
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56960255/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) B. Phalan, some rights reserved (CC BY), uploaded by B. Phalan",
+   "photo": 56960255
+  }
+ ]
 }

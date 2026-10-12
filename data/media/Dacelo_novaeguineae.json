@@ -187,5 +187,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533737970/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elliot Blythman, some rights reserved (CC BY-NC), uploaded by Elliot Blythman",
+   "photo": 533737970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29449154/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
+   "photo": 29449154
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/434997959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dirkvdl16, some rights reserved (CC BY-NC)",
+   "photo": 434997959
+  }
+ ]
 }

@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7351990/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Arce Smith, some rights reserved (CC BY-NC), uploaded by José Arce Smith",
+   "photo": 7351990
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4261724/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martha Paty Moore (Beller), some rights reserved (CC BY-NC), uploaded by Martha Paty Moore (Beller)",
+   "photo": 4261724
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333708/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 333708
+  }
+ ]
 }

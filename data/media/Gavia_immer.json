@@ -289,5 +289,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181003377/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rebecca Scott, some rights reserved (CC BY-NC), uploaded by Rebecca Scott",
+   "photo": 181003377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40716113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jason Headley, some rights reserved (CC BY-NC), uploaded by Jason Headley",
+   "photo": 40716113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311615719/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pamela Weston, some rights reserved (CC BY-NC), uploaded by Pamela Weston",
+   "photo": 311615719
+  }
+ ]
 }

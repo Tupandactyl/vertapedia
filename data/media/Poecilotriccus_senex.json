@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120613390/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 120613390
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120613322/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 120613322
+  }
+ ]
 }

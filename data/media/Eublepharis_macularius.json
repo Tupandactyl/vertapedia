@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107932713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stevewalternature, some rights reserved (CC BY-NC)",
+   "photo": 107932713
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450679060/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Fritz Geller-Grimm, some rights reserved (CC BY-SA)",
+   "photo": 450679060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180540442/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Graham Armstrong, some rights reserved (CC BY-NC), uploaded by Graham Armstrong",
+   "photo": 180540442
+  }
+ ]
 }

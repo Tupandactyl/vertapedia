@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9185334/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noe Lopez, some rights reserved (CC BY-NC), uploaded by Noe Lopez",
+   "photo": 9185334
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81553/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt MacManes, some rights reserved (CC BY-NC-SA)",
+   "photo": 81553
+  }
+ ]
 }

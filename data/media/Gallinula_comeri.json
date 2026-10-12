@@ -66,5 +66,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473052914/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nA.J.Beintema, some rights reserved (CC BY)",
+   "photo": 473052914
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414074786/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) photo_bug, some rights reserved (CC BY-NC)",
+   "photo": 414074786
+  }
+ ]
 }

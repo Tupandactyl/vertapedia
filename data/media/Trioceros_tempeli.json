@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531832441/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, sommige rechten voorbehouden (CC BY-NC), geüpload door Bobby Bok",
+   "photo": 531832441
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2794459/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, sommige rechten voorbehouden (CC BY-NC-SA), geüpload door Roberto Sindaco",
+   "photo": 2794459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104917109/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John Lyakurwa, sommige rechten voorbehouden (CC BY), geüpload door John Lyakurwa",
+   "photo": 104917109
+  }
+ ]
 }

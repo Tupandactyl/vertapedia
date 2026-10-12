@@ -263,5 +263,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1150722/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Travis W. Reeder, some rights reserved (CC BY-NC), uploaded by Travis W. Reeder",
+   "photo": 1150722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28003961/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) rbeunen, some rights reserved (CC BY-NC-SA), uploaded by rbeunen",
+   "photo": 28003961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33718568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 33718568
+  }
+ ]
 }

@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44496385/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rick-uhlen, some rights reserved (CC BY-NC), uploaded by rick-uhlen",
+   "photo": 44496385
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669400/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 669400
+  }
+ ]
 }

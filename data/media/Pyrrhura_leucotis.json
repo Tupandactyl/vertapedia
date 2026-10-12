@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992309/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Hurben, some rights reserved (CC BY-SA)",
+   "photo": 158992309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992869/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Fernando Flores, some rights reserved (CC BY-SA)",
+   "photo": 158992869
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78194822/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Fernando Flores, some rights reserved (CC BY-SA)",
+   "photo": 78194822
+  }
+ ]
 }

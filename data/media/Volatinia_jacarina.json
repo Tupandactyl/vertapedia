@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/862024/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 862024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/862025/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wagner Machado Carlos Lemes, some rights reserved (CC BY)",
+   "photo": 862025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325884096/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Andreucci, some rights reserved (CC BY-NC), uploaded by Felipe Andreucci",
+   "photo": 325884096
+  }
+ ]
 }

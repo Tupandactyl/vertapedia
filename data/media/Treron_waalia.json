@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172202790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 172202790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95507052/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 95507052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint",
+   "photo": 698008
+  }
+ ]
 }

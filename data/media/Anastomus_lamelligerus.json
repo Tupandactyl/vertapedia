@@ -329,5 +329,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416330652/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 416330652
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58093080/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 58093080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429131082/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Glenn Perelson, some rights reserved (CC BY-NC), uploaded by Glenn Perelson",
+   "photo": 429131082
+  }
+ ]
 }

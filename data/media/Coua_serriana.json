@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3977583/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, osa oikeuksista pidätetään (CC BY)",
+   "photo": 3977583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3977987/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gossipguy, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 3977987
+  }
+ ]
 }

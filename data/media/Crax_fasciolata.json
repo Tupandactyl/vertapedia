@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379960/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 379960
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420077773/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giff Beaton, some rights reserved (CC BY-NC), uploaded by Giff Beaton",
+   "photo": 420077773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453857042/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY-SA), uploaded by Judy Gallagher",
+   "photo": 453857042
+  }
+ ]
 }

@@ -284,5 +284,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748687534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wild___max, some rights reserved (CC BY-NC)",
+   "photo": 748687534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14368564/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Lau, some rights reserved (CC BY-NC), uploaded by Iván Lau",
+   "photo": 14368564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39312135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 39312135
+  }
+ ]
 }

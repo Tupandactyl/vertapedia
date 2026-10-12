@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58378769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marion Maclean, some rights reserved (CC BY-NC), uploaded by Marion Maclean",
+   "photo": 58378769
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319165/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 319165
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6052771/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan",
+   "photo": 6052771
+  }
+ ]
 }

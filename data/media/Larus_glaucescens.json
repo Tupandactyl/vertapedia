@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6533141/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Warren Cronan, some rights reserved (CC BY-NC), uploaded by Warren Cronan",
+   "photo": 6533141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571485384/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) searching4critters, some rights reserved (CC BY-NC)",
+   "photo": 571485384
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243835751/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abhi s, some rights reserved (CC BY-NC), uploaded by abhi s",
+   "photo": 243835751
+  }
+ ]
 }

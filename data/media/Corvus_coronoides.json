@@ -183,5 +183,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450041710/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wellmaintainedhedge, some rights reserved (CC BY-NC), uploaded by wellmaintainedhedge",
+   "photo": 450041710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455217247/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by julie burgher",
+   "photo": 455217247
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464008486/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by lallen",
+   "photo": 464008486
+  }
+ ]
 }

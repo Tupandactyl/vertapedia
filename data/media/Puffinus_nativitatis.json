@@ -135,5 +135,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13735/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Duncan, some rights reserved (CC BY-SA)",
+   "photo": 13735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13736/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Duncan, some rights reserved (CC BY-SA)",
+   "photo": 13736
+  }
+ ]
 }

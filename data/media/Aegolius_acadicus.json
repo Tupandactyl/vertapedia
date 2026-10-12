@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28927383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinwallace, some rights reserved (CC BY-NC), uploaded by kevinwallace",
+   "photo": 28927383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600922777/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Dufour, some rights reserved (CC BY-NC), uploaded by Mike Dufour",
+   "photo": 600922777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59587574/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Richardson, some rights reserved (CC BY-NC), uploaded by Will Richardson",
+   "photo": 59587574
+  }
+ ]
 }

@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366741058/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Ivens, some rights reserved (CC BY-NC), uploaded by Robert Ivens",
+   "photo": 366741058
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366741463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Ivens, some rights reserved (CC BY-NC), uploaded by Robert Ivens",
+   "photo": 366741463
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1933881/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 1933881
+  }
+ ]
 }

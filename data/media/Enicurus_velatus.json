@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83634123/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 83634123
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355670142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+   "photo": 355670142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65708488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi",
+   "photo": 65708488
+  }
+ ]
 }

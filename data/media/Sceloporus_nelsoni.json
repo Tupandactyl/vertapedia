@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1711471/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) zanejohnson, some rights reserved (CC BY-NC)",
+   "photo": 1711471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2186826/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Francisco Farriols Sarabia, some rights reserved (CC BY), uploaded by Francisco Farriols Sarabia",
+   "photo": 2186826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3776183/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Francisco Farriols Sarabia, some rights reserved (CC BY), uploaded by Francisco Farriols Sarabia",
+   "photo": 3776183
+  }
+ ]
 }

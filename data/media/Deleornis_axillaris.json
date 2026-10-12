@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232276200/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Niall Perrins",
+   "photo": 232276200
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18830159/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Dérozier Violette",
+   "photo": 18830159
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13411152/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Scott Bowers",
+   "photo": 13411152
+  }
+ ]
 }

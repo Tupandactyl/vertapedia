@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30763941/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Claudio Maureira, some rights reserved (CC BY-NC-SA), uploaded by Claudio Maureira",
+   "photo": 30763941
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352845963/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Gana Soto, some rights reserved (CC BY-NC), uploaded by Juan Gana Soto",
+   "photo": 352845963
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486913001/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GreeganOwO, some rights reserved (CC BY-NC), uploaded by GreeganOwO",
+   "photo": 486913001
+  }
+ ]
 }

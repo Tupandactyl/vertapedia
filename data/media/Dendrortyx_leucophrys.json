@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86580822/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Grete Pasch, some rights reserved (CC BY), uploaded by Grete Pasch",
+   "photo": 86580822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136502055/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Serge Arias, some rights reserved (CC BY-NC-SA), uploaded by Serge Arias",
+   "photo": 136502055
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173951664/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 173951664
+  }
+ ]
 }

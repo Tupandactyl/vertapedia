@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8006186/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gunnar Engblom, some rights reserved (CC BY-NC-SA)",
+   "photo": 8006186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218349250/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arturo Reynoso Basurto, some rights reserved (CC BY-NC), uploaded by Arturo Reynoso Basurto",
+   "photo": 218349250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8211491/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ymurillo, some rights reserved (CC BY-NC)",
+   "photo": 8211491
+  }
+ ]
 }

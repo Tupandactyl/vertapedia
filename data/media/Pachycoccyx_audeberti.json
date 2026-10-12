@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214585552/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil White, some rights reserved (CC BY-NC), uploaded by Phil White",
+   "photo": 214585552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646797/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Riaan Marais, some rights reserved (CC BY-SA)",
+   "photo": 646797
+  }
+ ]
 }

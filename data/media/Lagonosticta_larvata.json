@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2798618/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Peter Wilton, some rights reserved (CC BY)",
+   "photo": 2798618
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59040697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 59040697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5469588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ONG OeBenin, some rights reserved (CC BY-NC), uploaded by ONG OeBenin",
+   "photo": 5469588
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33007735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 33007735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62134524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 62134524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67273684/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alejandro Mora, some rights reserved (CC BY-NC-SA), uploaded by Alejandro Mora",
+   "photo": 67273684
+  }
+ ]
 }

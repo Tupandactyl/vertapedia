@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32271498/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) saturnindi, some rights reserved (CC BY-NC), uploaded by saturnindi",
+   "photo": 32271498
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173411/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 118286120159557900922, some rights reserved (CC BY-NC-SA), uploaded by 118286120159557900922",
+   "photo": 173411
+  }
+ ]
 }

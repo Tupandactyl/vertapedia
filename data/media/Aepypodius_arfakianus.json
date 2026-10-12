@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713670242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hammam As, some rights reserved (CC BY-NC), uploaded by Hammam As",
+   "photo": 713670242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13270163/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 13270163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257725674/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aponk Al'z Rusdy, some rights reserved (CC BY-NC), uploaded by Aponk Al'z Rusdy",
+   "photo": 257725674
+  }
+ ]
 }

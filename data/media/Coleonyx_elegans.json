@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583197601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 583197601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424963971/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 424963971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300525198/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Zozaya, some rights reserved (CC BY-NC), uploaded by Marco Zozaya",
+   "photo": 300525198
+  }
+ ]
 }

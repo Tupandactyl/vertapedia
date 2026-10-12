@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4725762/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 4725762
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598532518/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+   "photo": 598532518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32104089/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+   "photo": 32104089
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6435696/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) D.J. McNeil, some rights reserved (CC BY-NC), uploaded by D.J. McNeil",
+   "photo": 6435696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2750563/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) corenchi_naturalista, some rights reserved (CC BY-NC), uploaded by corenchi_naturalista",
+   "photo": 2750563
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5287797/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Monroy, some rights reserved (CC BY-NC), uploaded by Alan Monroy",
+   "photo": 5287797
+  }
+ ]
 }

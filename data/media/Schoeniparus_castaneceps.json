@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624911834/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) kotatsuleo, some rights reserved (CC BY-NC-SA)",
+   "photo": 624911834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120760965/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
+   "photo": 120760965
+  }
+ ]
 }

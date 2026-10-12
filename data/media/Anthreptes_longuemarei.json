@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485045307/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Smith, some rights reserved (CC BY-NC), uploaded by Luke Smith",
+   "photo": 485045307
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2548407/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)",
+   "photo": 2548407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5877743/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 5877743
+  }
+ ]
 }

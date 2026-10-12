@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40795842/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian McCauley, some rights reserved (CC BY-NC)",
+   "photo": 40795842
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202381236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Geoff Walker, some rights reserved (CC BY-NC), uploaded by Geoff Walker",
+   "photo": 202381236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283855058/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily, some rights reserved (CC BY-NC), uploaded by Emily",
+   "photo": 283855058
+  }
+ ]
 }

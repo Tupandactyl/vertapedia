@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6630459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 6630459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573220822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy",
+   "photo": 573220822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3100302/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janet Farnworth, some rights reserved (CC BY-NC), uploaded by Janet Farnworth",
+   "photo": 3100302
+  }
+ ]
 }

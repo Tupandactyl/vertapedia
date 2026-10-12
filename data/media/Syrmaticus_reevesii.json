@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356970587/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hedwig.cz, some rights reserved (CC BY-NC), uploaded by Hedwig.cz",
+   "photo": 356970587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432590633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaëtan Jouvenez, some rights reserved (CC BY-NC), uploaded by Gaëtan Jouvenez",
+   "photo": 432590633
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325755123/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maryse, some rights reserved (CC BY-NC), uploaded by Maryse",
+   "photo": 325755123
+  }
+ ]
 }

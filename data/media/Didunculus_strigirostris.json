@@ -53,5 +53,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12833100/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jardine, 1845, some rights reserved (CC BY-SA)",
+   "photo": 12833100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290628/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Totodu74, some rights reserved (CC BY-SA)",
+   "photo": 2290628
+  }
+ ]
 }

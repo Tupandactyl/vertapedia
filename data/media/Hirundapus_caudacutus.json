@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383962539/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Haitong and Nicola, some rights reserved (CC BY-NC), uploaded by Haitong and Nicola",
+   "photo": 383962539
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443959258/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 443959258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443959265/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 443959265
+  }
+ ]
 }

@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59052053/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) herpetomaps, some rights reserved (CC BY-NC), uploaded by herpetomaps",
+   "photo": 59052053
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61359449/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) taller_alas, some rights reserved (CC BY-NC)",
+   "photo": 61359449
+  }
+ ]
 }

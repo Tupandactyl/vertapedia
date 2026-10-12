@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44148669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) osoandino, bazı hakları saklıdır (CC BY-NC), yükleyen: osoandino",
+   "photo": 44148669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339767972/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Dietze, bazı hakları saklıdır (CC BY), yükleyen: Frank Dietze",
+   "photo": 339767972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299538326/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Amaru Rubio, bazı hakları saklıdır (CC BY-NC-SA), yükleyen: Amaru Rubio",
+   "photo": 299538326
+  }
+ ]
 }

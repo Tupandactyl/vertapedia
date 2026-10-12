@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309917343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elysa Hazzard, some rights reserved (CC BY-NC), uploaded by Elysa Hazzard",
+   "photo": 309917343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225677483/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Taylor, some rights reserved (CC BY-NC), uploaded by Taylor",
+   "photo": 225677483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289217058/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) duffelbag, some rights reserved (CC BY-NC)",
+   "photo": 289217058
+  }
+ ]
 }

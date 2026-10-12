@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54957415/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vicente Valdes Guzman, some rights reserved (CC BY-NC), uploaded by Vicente Valdes Guzman",
+   "photo": 54957415
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81716383/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nico, some rights reserved (CC BY-NC), uploaded by Nico",
+   "photo": 81716383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78066425/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Godoy, some rights reserved (CC BY-NC), uploaded by Manuel Godoy",
+   "photo": 78066425
+  }
+ ]
 }

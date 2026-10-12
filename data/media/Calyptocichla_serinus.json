@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67909864/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 67909864
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2013687/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 2013687
+  }
+ ]
 }

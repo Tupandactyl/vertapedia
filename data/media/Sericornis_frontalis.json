@@ -126,5 +126,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229083706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rivendel, some rights reserved (CC BY-NC)",
+   "photo": 229083706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12631931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 12631931
+  }
+ ]
 }

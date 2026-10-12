@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328501155/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Augusto Olmos Mercado",
+   "photo": 328501155
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7034383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradford Hollingsworth, some rights reserved (CC BY-NC), uploaded by Bradford Hollingsworth",
+   "photo": 7034383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17720684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mstepek, some rights reserved (CC BY-NC), uploaded by mstepek",
+   "photo": 17720684
+  }
+ ]
 }

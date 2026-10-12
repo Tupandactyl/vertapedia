@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132063866/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eric gofreed, some rights reserved (CC BY-NC), uploaded by eric gofreed",
+   "photo": 132063866
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453093812/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) U.S. Fish and Wildlife Service Headquarters, some rights reserved (CC BY)",
+   "photo": 453093812
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2946643/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2946643
+  }
+ ]
 }

@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343396975/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andy Frank, some rights reserved (CC BY-NC), uploaded by Andy Frank",
+   "photo": 343396975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101285278/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 101285278
+  }
+ ]
 }

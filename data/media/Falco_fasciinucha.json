@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31116111/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernest Porter, some rights reserved (CC BY-NC), uploaded by Ernest Porter",
+   "photo": 31116111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57768587/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) i_c_riddell, some rights reserved (CC BY), uploaded by i_c_riddell",
+   "photo": 57768587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/782451/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tiggertai, some rights reserved (CC BY-SA)",
+   "photo": 782451
+  }
+ ]
 }

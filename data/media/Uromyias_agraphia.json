@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19447188/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 19447188
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19447189/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) dominic sherony, some rights reserved (CC BY-SA)",
+   "photo": 19447189
+  }
+ ]
 }

@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554646817/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 554646817
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10041921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nadège Lanau, some rights reserved (CC BY-NC), uploaded by Nadège Lanau",
+   "photo": 10041921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10042061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nadège Lanau, some rights reserved (CC BY-NC), uploaded by Nadège Lanau",
+   "photo": 10042061
+  }
+ ]
 }

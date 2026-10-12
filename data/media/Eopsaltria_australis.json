@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225195867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rivendel, some rights reserved (CC BY-NC)",
+   "photo": 225195867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20997/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 20997
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20998/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leo, some rights reserved (CC BY-NC-SA)",
+   "photo": 20998
+  }
+ ]
 }

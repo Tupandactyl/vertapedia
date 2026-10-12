@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175108600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 175108600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259654818/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Knarr Gallery, some rights reserved (CC BY-NC), uploaded by Knarr Gallery",
+   "photo": 259654818
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477468476/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pacho Gutiérrez, some rights reserved (CC BY-NC), uploaded by Pacho Gutiérrez",
+   "photo": 477468476
+  }
+ ]
 }

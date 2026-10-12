@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273251789/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Weston Barker, some rights reserved (CC BY-NC), uploaded by Weston Barker",
+   "photo": 273251789
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2883290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 2883290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466262819/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Hernandez, some rights reserved (CC BY-NC), uploaded by Ariel Hernandez",
+   "photo": 466262819
+  }
+ ]
 }

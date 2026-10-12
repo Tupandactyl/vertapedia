@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5864947/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cristianrial, some rights reserved (CC BY-NC)",
+   "photo": 5864947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135073014/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William Ramon Cruz Canto, some rights reserved (CC BY-NC), uploaded by William Ramon Cruz Canto",
+   "photo": 135073014
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339641580/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dickcannings, some rights reserved (CC BY-NC), uploaded by dickcannings",
+   "photo": 339641580
+  }
+ ]
 }

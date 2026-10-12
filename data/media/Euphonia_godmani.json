@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347079258/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Barry Sullender, some rights reserved (CC BY-NC), uploaded by Barry Sullender",
+   "photo": 347079258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32840403/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) conabio-pj010, some rights reserved (CC BY-NC), uploaded by conabio-pj010",
+   "photo": 32840403
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340810927/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brayan Artigas, some rights reserved (CC BY-NC), uploaded by Brayan Artigas",
+   "photo": 340810927
+  }
+ ]
 }

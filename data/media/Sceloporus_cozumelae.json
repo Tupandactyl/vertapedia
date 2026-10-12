@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2437834/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Katja Schulz, some rights reserved (CC BY)",
+   "photo": 2437834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90192274/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Scott Loarie",
+   "photo": 90192274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90192301/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Scott Loarie",
+   "photo": 90192301
+  }
+ ]
 }

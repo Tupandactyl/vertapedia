@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532937715/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
+   "photo": 532937715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167974072/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marley T. Gómez-Rincón, some rights reserved (CC BY-NC), uploaded by Marley T. Gómez-Rincón",
+   "photo": 167974072
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9638887/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Thomas Brooks, some rights reserved (CC BY-NC-SA), uploaded by Thomas Brooks",
+   "photo": 9638887
+  }
+ ]
 }

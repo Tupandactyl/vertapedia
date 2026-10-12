@@ -164,5 +164,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5322171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Maughn, some rights reserved (CC BY-NC), uploaded by J. Maughn",
+   "photo": 5322171
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251020/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 251020
+  }
+ ]
 }

@@ -98,5 +98,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6991571/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+   "photo": 6991571
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37399908/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Howes, some rights reserved (CC BY-NC), uploaded by John Howes",
+   "photo": 37399908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6061205/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rharris70, some rights reserved (CC BY-NC), uploaded by rharris70",
+   "photo": 6061205
+  }
+ ]
 }

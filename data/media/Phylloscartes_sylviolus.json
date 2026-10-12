@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130259108/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergio R Porto, some rights reserved (CC BY-NC), uploaded by Sergio R Porto",
+   "photo": 130259108
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386198613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique Seigarro Moutinho, some rights reserved (CC BY-NC), uploaded by Henrique Seigarro Moutinho",
+   "photo": 386198613
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27513576/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 27513576
+  }
+ ]
 }

@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360816895/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 360816895
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234374879/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 234374879
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459067137/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zane Libke, some rights reserved (CC BY-NC), uploaded by Zane Libke",
+   "photo": 459067137
+  }
+ ]
 }

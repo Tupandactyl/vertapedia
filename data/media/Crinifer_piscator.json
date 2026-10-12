@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/696607058/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olivier Coste, algunos derechos reservados (CC BY-NC), subido por Olivier Coste",
+   "photo": 696607058
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172165920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joao Tata Regala, algunos derechos reservados (CC BY-NC), subido por Joao Tata Regala",
+   "photo": 172165920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309124837/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Smith, algunos derechos reservados (CC BY-NC), subido por Luke Smith",
+   "photo": 309124837
+  }
+ ]
 }

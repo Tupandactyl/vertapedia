@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160179175/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterodekerken, some rights reserved (CC BY-NC)",
+   "photo": 160179175
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2532720/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Céline Labaume, some rights reserved (CC BY-SA)",
+   "photo": 2532720
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160179018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterodekerken, some rights reserved (CC BY-NC)",
+   "photo": 160179018
+  }
+ ]
 }

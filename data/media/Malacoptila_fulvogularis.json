@@ -140,5 +140,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5578424/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Benoit NABHOLZ, some rights reserved (CC BY-SA), uploaded by Benoit NABHOLZ",
+   "photo": 5578424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71083526/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 71083526
+  }
+ ]
 }

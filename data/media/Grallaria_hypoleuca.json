@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166873240/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 166873240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196913801/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hugo Bernal Hernández, some rights reserved (CC BY), uploaded by Hugo Bernal Hernández",
+   "photo": 196913801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327972844/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerold Morrison, some rights reserved (CC BY-NC), uploaded by Gerold Morrison",
+   "photo": 327972844
+  }
+ ]
 }

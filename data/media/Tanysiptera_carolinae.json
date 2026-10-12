@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360283277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guybroome, some rights reserved (CC BY-NC)",
+   "photo": 360283277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30360069/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 30360069
+  }
+ ]
 }

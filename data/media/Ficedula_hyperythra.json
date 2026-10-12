@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126272693/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jarot Wahyudi, S.Hut, M.URP, some rights reserved (CC BY-NC), uploaded by Jarot Wahyudi, S.Hut, M.URP",
+   "photo": 126272693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153104532/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) owling, some rights reserved (CC BY-NC), uploaded by owling",
+   "photo": 153104532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2004935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC)",
+   "photo": 2004935
+  }
+ ]
 }

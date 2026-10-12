@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292896916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Palliser, some rights reserved (CC BY-NC), uploaded by Tony Palliser",
+   "photo": 292896916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247831350/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Whitington, some rights reserved (CC BY), uploaded by Paul Whitington",
+   "photo": 247831350
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92807077/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cal Wood, some rights reserved (CC BY), uploaded by Cal Wood",
+   "photo": 92807077
+  }
+ ]
 }

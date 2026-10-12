@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144649456/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vasensuli, some rights reserved (CC BY-NC), uploaded by vasensuli",
+   "photo": 144649456
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249055322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arlango Lee, some rights reserved (CC BY-NC), uploaded by Arlango Lee",
+   "photo": 249055322
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115614959/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) harshithjv, some rights reserved (CC BY-NC-SA), uploaded by harshithjv",
+   "photo": 115614959
+  }
+ ]
 }

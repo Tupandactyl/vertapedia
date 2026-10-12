@@ -223,5 +223,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29094477/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 29094477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84645248/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Eichler, some rights reserved (CC BY-NC), uploaded by John Eichler",
+   "photo": 84645248
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44594741/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rod Lowther, some rights reserved (CC BY), uploaded by Rod Lowther",
+   "photo": 44594741
+  }
+ ]
 }

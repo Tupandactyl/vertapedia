@@ -234,5 +234,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+   "photo": 63139388
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94420777/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jackson W.F. Chu, some rights reserved (CC BY-NC-SA), uploaded by Jackson W.F. Chu",
+   "photo": 94420777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9191101/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Beatty, some rights reserved (CC BY-NC), uploaded by John Beatty",
+   "photo": 9191101
+  }
+ ]
 }

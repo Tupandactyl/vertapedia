@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63927730/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) delmer jonathan, some rights reserved (CC BY-NC), uploaded by delmer jonathan",
+   "photo": 63927730
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154853700/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vladlen Henríquez, some rights reserved (CC BY-NC), uploaded by Vladlen Henríquez",
+   "photo": 154853700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47086622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Helder I. Pérez, some rights reserved (CC BY-NC), uploaded by Helder I. Pérez",
+   "photo": 47086622
+  }
+ ]
 }

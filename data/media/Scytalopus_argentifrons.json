@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7703377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7703377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458475721/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Rankin, some rights reserved (CC BY-NC), uploaded by David Rankin",
+   "photo": 458475721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165640938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Debara, some rights reserved (CC BY-NC), uploaded by Debara",
+   "photo": 165640938
+  }
+ ]
 }

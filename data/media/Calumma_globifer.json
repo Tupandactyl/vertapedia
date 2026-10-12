@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2897409/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 2897409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17675413/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Woodall, some rights reserved (CC BY-NC), uploaded by Pete Woodall",
+   "photo": 17675413
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633512/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 633512
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30790566/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 30790566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604024923/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC), uploaded by leekelai",
+   "photo": 604024923
+  }
+ ]
 }

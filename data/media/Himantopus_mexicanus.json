@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151203059/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JuanFelipeRR, some rights reserved (CC BY-NC), uploaded by JuanFelipeRR",
+   "photo": 151203059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1624198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Alexander Carrillo Mtz, some rights reserved (CC BY-NC)",
+   "photo": 1624198
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14171167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Vitor Andriola, some rights reserved (CC BY-NC), uploaded by João Vitor Andriola",
+   "photo": 14171167
+  }
+ ]
 }

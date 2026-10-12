@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7813446/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 7813446
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557956848/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) burkh4rt, some rights reserved (CC BY-NC)",
+   "photo": 557956848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656353/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 656353
+  }
+ ]
 }

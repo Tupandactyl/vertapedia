@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63464361/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jen Sanford, some rights reserved (CC BY-NC), uploaded by Jen Sanford",
+   "photo": 63464361
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42945656/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rodrigo Arrazola, some rights reserved (CC BY-NC), uploaded by Rodrigo Arrazola",
+   "photo": 42945656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80551905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rodrigo Arrazola, some rights reserved (CC BY-NC), uploaded by Rodrigo Arrazola",
+   "photo": 80551905
+  }
+ ]
 }

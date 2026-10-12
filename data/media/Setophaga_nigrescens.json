@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275686522/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) cdbtx, some rights reserved (CC BY)",
+   "photo": 275686522
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119758279/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by adel-fridus",
+   "photo": 119758279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56259317/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rick Nirschl, some rights reserved (CC BY-NC), uploaded by Rick Nirschl",
+   "photo": 56259317
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177587793/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gavin Goodyear, some rights reserved (CC BY-NC), uploaded by Gavin Goodyear",
+   "photo": 177587793
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186538473/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mscaus, some rights reserved (CC BY-NC)",
+   "photo": 186538473
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175994004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cemone Hedges, some rights reserved (CC BY-NC), uploaded by Cemone Hedges",
+   "photo": 175994004
+  }
+ ]
 }

@@ -66,5 +66,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382465920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterchristiaen, some rights reserved (CC BY-NC)",
+   "photo": 382465920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99434815/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aviceda, some rights reserved (CC BY-SA)",
+   "photo": 99434815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/686306550/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rachel Reese, some rights reserved (CC BY-NC), uploaded by Rachel Reese",
+   "photo": 686306550
+  }
+ ]
 }

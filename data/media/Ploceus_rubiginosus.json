@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472893671/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jokbrocks, some rights reserved (CC BY-NC)",
+   "photo": 472893671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273626709/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) owlice, some rights reserved (CC BY-NC)",
+   "photo": 273626709
+  }
+ ]
 }

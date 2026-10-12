@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65537943/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rufus46, some rights reserved (CC BY-SA)",
+   "photo": 65537943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68379/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Edward Russell, some rights reserved (CC BY)",
+   "photo": 68379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56940553/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allika Firhandini, some rights reserved (CC BY-NC), uploaded by Allika Firhandini",
+   "photo": 56940553
+  }
+ ]
 }

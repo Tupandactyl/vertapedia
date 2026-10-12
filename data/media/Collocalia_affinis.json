@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419587545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor Beccari, some rights reserved (CC BY-NC), uploaded by Victor Beccari",
+   "photo": 419587545
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11196226/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 11196226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503794110/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) evilynlee, some rights reserved (CC BY-NC)",
+   "photo": 503794110
+  }
+ ]
 }

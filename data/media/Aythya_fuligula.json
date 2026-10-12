@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110387197/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Irina Krug, some rights reserved (CC BY-NC), uploaded by Irina Krug",
+   "photo": 110387197
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90504242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "photo": 90504242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187419990/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen Flynn, some rights reserved (CC BY-NC), uploaded by Stephen Flynn",
+   "photo": 187419990
+  }
+ ]
 }

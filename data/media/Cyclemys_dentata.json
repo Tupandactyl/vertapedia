@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2800442/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alice Rosen, some rights reserved (CC BY-NC), uploaded by Alice Rosen",
+   "photo": 2800442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852032/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 2852032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2800443/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alice Rosen, some rights reserved (CC BY-NC), uploaded by Alice Rosen",
+   "photo": 2800443
+  }
+ ]
 }

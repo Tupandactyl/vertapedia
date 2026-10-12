@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2794420/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 2794420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5156234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC), uploaded by Martin Grimm",
+   "photo": 5156234
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620297184/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) philadelphe william, some rights reserved (CC BY-NC), uploaded by philadelphe william",
+   "photo": 620297184
+  }
+ ]
 }

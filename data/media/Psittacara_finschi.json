@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172916437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lydia Cox, some rights reserved (CC BY-NC), uploaded by Lydia Cox",
+   "photo": 172916437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64146463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rosamiragliotta, some rights reserved (CC BY-NC), uploaded by rosamiragliotta",
+   "photo": 64146463
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37101747/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aitor, some rights reserved (CC BY), uploaded by Aitor",
+   "photo": 37101747
+  }
+ ]
 }

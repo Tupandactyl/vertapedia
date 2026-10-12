@@ -190,5 +190,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374737417/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 大俠, some rights reserved (CC BY-NC-SA), uploaded by 大俠",
+   "photo": 374737417
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631249839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 631249839
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631249888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 631249888
+  }
+ ]
 }

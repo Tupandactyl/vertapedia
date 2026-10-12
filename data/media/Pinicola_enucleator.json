@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599484125/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Дмитрий Осипов, some rights reserved (CC BY-NC), uploaded by Дмитрий Осипов",
+   "photo": 599484125
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259530/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC)",
+   "photo": 259530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28055193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandy Cutting, some rights reserved (CC BY-NC), uploaded by Sandy Cutting",
+   "photo": 28055193
+  }
+ ]
 }

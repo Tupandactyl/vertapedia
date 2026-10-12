@@ -224,5 +224,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39536095/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 39536095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182117/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 182117
+  }
+ ]
 }

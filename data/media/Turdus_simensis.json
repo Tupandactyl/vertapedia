@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86730094/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Graeme Baxter, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Graeme Baxter",
+   "photo": 86730094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15084102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 15084102
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90124910/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Nik Borrow",
+   "photo": 90124910
+  }
+ ]
 }

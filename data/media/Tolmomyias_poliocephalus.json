@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347023622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Augusto Ferreira, some rights reserved (CC BY-NC), uploaded by Eduardo Augusto Ferreira",
+   "photo": 347023622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031048/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 3031048
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1359415/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 1359415
+  }
+ ]
 }

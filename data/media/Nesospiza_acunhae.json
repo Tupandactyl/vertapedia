@@ -85,5 +85,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104252/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+   "photo": 104252
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104292/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+   "photo": 104292
+  }
+ ]
 }

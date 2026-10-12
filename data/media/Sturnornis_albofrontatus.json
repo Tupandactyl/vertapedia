@@ -103,5 +103,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89237005/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kedar, some rights reserved (CC BY-NC), uploaded by Kedar",
+   "photo": 89237005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344060661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hokoonwong, some rights reserved (CC BY-NC), uploaded by hokoonwong",
+   "photo": 344060661
+  }
+ ]
 }

@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53062711/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alto de San Miguel, some rights reserved (CC BY-NC), uploaded by Alto de San Miguel",
+   "photo": 53062711
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30073427/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilbert Camacho Guillen, some rights reserved (CC BY-NC), uploaded by Wilbert Camacho Guillen",
+   "photo": 30073427
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53062772/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alto de San Miguel, some rights reserved (CC BY-NC), uploaded by Alto de San Miguel",
+   "photo": 53062772
+  }
+ ]
 }

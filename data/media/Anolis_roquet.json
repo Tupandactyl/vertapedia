@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301922478/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel PINELLI, some rights reserved (CC BY-NC), uploaded by Daniel PINELLI",
+   "photo": 301922478
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16071776/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erika Mitchell, some rights reserved (CC BY-NC), uploaded by Erika Mitchell",
+   "photo": 16071776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61204554/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Charlotte Kirchner, some rights reserved (CC BY), uploaded by Charlotte Kirchner",
+   "photo": 61204554
+  }
+ ]
 }

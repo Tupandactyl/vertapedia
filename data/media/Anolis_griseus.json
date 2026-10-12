@@ -83,5 +83,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472826890/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Zika, some rights reserved (CC BY-NC), uploaded by Peter Zika",
+   "photo": 472826890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421755740/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ppvd, some rights reserved (CC BY-NC)",
+   "photo": 421755740
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256934380/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) probreviceps, some rights reserved (CC BY-NC)",
+   "photo": 256934380
+  }
+ ]
 }

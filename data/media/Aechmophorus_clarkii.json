@@ -186,5 +186,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244752349/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Baxter, some rights reserved (CC BY-NC), uploaded by Scott Baxter",
+   "photo": 244752349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428850397/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David D. Weldon, some rights reserved (CC BY-NC), uploaded by David D. Weldon",
+   "photo": 428850397
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592311484/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Templeton, some rights reserved (CC BY-NC), uploaded by Scott Templeton",
+   "photo": 592311484
+  }
+ ]
 }

@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258918791/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 258918791
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1811587/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Peter de Lange",
+   "photo": 1811587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1810988/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Peter de Lange",
+   "photo": 1810988
+  }
+ ]
 }

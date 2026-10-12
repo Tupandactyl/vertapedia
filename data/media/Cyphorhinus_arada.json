@@ -164,5 +164,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64710935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hudson Martins Soares, some rights reserved (CC BY-NC), uploaded by Hudson Martins Soares",
+   "photo": 64710935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37787109/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 37787109
+  }
+ ]
 }

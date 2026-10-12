@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338791340/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jason Stovin, some rights reserved (CC BY-NC), uploaded by Jason Stovin",
+   "photo": 338791340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604065377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kitsun3, some rights reserved (CC BY-NC)",
+   "photo": 604065377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251512938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mkensinger, some rights reserved (CC BY-NC)",
+   "photo": 251512938
+  }
+ ]
 }

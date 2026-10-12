@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62916052/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nat Panda, some rights reserved (CC BY-NC-SA), uploaded by Nat Panda",
+   "photo": 62916052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7635158/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cat Abbott, some rights reserved (CC BY-NC), uploaded by Cat Abbott",
+   "photo": 7635158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105723731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Harris, some rights reserved (CC BY-NC), uploaded by Bert Harris",
+   "photo": 105723731
+  }
+ ]
 }

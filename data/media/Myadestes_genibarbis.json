@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316080399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 316080399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15474815/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ColinDJones, some rights reserved (CC BY-NC), uploaded by ColinDJones",
+   "photo": 15474815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30980718/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 30980718
+  }
+ ]
 }

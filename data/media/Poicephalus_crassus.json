@@ -60,5 +60,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462106226/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nCallan Cohen, Claire Spottiswoode, and Julian Francis, some rights reserved (CC BY-SA)",
+   "photo": 462106226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188156656/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nCallan Cohen, Claire Spottiswoode, and Julian Francis, some rights reserved (CC BY-SA)",
+   "photo": 188156656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462106188/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nCallan Cohen, Claire Spottiswoode, and Julian Francis, some rights reserved (CC BY-SA)",
+   "photo": 462106188
+  }
+ ]
 }

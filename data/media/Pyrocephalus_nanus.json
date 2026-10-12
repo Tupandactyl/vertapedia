@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458964433/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Adam Jackson",
+   "photo": 458964433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96142731/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 96142731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31333488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Car Re, some rights reserved (CC BY-NC), uploaded by Car Re",
+   "photo": 31333488
+  }
+ ]
 }

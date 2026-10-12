@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356721/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) H2O Alchemist, some rights reserved (CC BY-NC-SA)",
+   "photo": 356721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356722/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 356722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+   "photo": 356723
+  }
+ ]
 }

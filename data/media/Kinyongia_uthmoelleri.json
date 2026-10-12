@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638966584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC), uploaded by Bobby Bok",
+   "photo": 638966584
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279338830/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Necas, some rights reserved (CC BY-NC), uploaded by Petr Necas",
+   "photo": 279338830
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279339888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Necas, some rights reserved (CC BY-NC), uploaded by Petr Necas",
+   "photo": 279339888
+  }
+ ]
 }

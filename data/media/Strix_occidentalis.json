@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2970421/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2970421
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139641615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Echols, some rights reserved (CC BY-NC), uploaded by Aaron Echols",
+   "photo": 139641615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5404083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 5404083
+  }
+ ]
 }

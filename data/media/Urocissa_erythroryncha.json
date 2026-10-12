@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251164920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown",
+   "photo": 251164920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113581247/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jayant M Deshpande, some rights reserved (CC BY-NC), uploaded by Jayant M Deshpande",
+   "photo": 113581247
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258768344/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fangchen, some rights reserved (CC BY-NC)",
+   "photo": 258768344
+  }
+ ]
 }

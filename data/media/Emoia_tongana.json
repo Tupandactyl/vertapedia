@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86414519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC), uploaded by jqrichmond",
+   "photo": 86414519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154238206/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noam Markus, some rights reserved (CC BY-NC), uploaded by Noam Markus",
+   "photo": 154238206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154238046/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noam Markus, some rights reserved (CC BY-NC), uploaded by Noam Markus",
+   "photo": 154238046
+  }
+ ]
 }

@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208618523/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Whaldener Endo",
+   "photo": 208618523
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9250057/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Michael Bakker Paiva, some rights reserved (CC BY), uploaded by Michael Bakker Paiva",
+   "photo": 9250057
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254107804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tulio Dornas, some rights reserved (CC BY-NC), uploaded by Tulio Dornas",
+   "photo": 254107804
+  }
+ ]
 }

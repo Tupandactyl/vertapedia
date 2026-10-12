@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13147638/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carole Riley, some rights reserved (CC BY-NC), uploaded by Carole Riley",
+   "photo": 13147638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159013875/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Andy, some rights reserved (CC BY-SA)",
+   "photo": 159013875
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79579854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johann Stock, some rights reserved (CC BY-NC), uploaded by Johann Stock",
+   "photo": 79579854
+  }
+ ]
 }

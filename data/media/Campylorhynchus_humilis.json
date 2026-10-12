@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242516316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bturnbull, some rights reserved (CC BY-NC)",
+   "photo": 242516316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442941966/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luc Claes, some rights reserved (CC BY-NC), uploaded by Luc Claes",
+   "photo": 442941966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120735367/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by adel-fridus",
+   "photo": 120735367
+  }
+ ]
 }

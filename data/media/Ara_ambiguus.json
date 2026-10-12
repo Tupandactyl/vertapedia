@@ -279,5 +279,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251572277/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Walter Welss, some rights reserved (CC BY-NC), uploaded by Walter Welss",
+   "photo": 251572277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30592575/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 30592575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205781941/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerbusch, some rights reserved (CC BY-NC), uploaded by Kerbusch",
+   "photo": 205781941
+  }
+ ]
 }

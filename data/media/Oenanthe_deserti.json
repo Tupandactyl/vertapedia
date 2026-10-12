@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591870994/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bastien Louboutin, some rights reserved (CC BY-NC), uploaded by Bastien Louboutin",
+   "photo": 591870994
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348386418/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SP CHOUDHARY, some rights reserved (CC BY-NC), uploaded by SP CHOUDHARY",
+   "photo": 348386418
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577647194/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) R.Rodrigues, some rights reserved (CC BY-NC), uploaded by R.Rodrigues",
+   "photo": 577647194
+  }
+ ]
 }

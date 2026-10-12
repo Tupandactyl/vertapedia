@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157600886/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paulo Barradas, some rights reserved (CC BY)",
+   "photo": 157600886
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6353560/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) NHMLA Community Science Program, some rights reserved (CC BY-NC), uploaded by NHMLA Community Science Program",
+   "photo": 6353560
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67998453/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gery-dupas, some rights reserved (CC BY-NC), uploaded by gery-dupas",
+   "photo": 67998453
+  }
+ ]
 }

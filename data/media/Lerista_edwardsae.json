@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108311792/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY), uploaded by Connor Margetts",
+   "photo": 108311792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108311845/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY), uploaded by Connor Margetts",
+   "photo": 108311845
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54462528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ted Johansen, some rights reserved (CC BY-NC), uploaded by Ted Johansen",
+   "photo": 54462528
+  }
+ ]
 }

@@ -73,5 +73,25 @@
    "date": "2005-12-16"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100330784/{size}.jpg",
+   "license": "cc0",
+   "attribution": "ingen rettigheder forbeholdt, uploadet af Hugo Hulsberg",
+   "photo": 100330784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182269075/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucero Moyano, nogle rettigheder forbeholdes (CC BY-NC), uploadet af Lucero Moyano",
+   "photo": 182269075
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48954169/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Celedon, nogle rettigheder forbeholdes (CC BY-NC), uploadet af Gabriel Celedon",
+   "photo": 48954169
+  }
+ ]
 }

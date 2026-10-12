@@ -208,5 +208,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2894947/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-SA)",
+   "photo": 2894947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) p.of.c, some rights reserved (CC BY-NC)",
+   "photo": 8742
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13600327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 13600327
+  }
+ ]
 }

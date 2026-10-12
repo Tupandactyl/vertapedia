@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14540703/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 14540703
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4431692/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andy Jones, some rights reserved (CC BY-NC), uploaded by Andy Jones",
+   "photo": 4431692
+  }
+ ]
 }

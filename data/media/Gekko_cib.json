@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362769579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 顾天玄, some rights reserved (CC BY-NC), uploaded by 顾天玄",
+   "photo": 362769579
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167423285/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 167423285
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167423413/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 167423413
+  }
+ ]
 }

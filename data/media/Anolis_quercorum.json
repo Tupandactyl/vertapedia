@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1725790/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Antony Heath, some rights reserved (CC BY-NC), uploaded by Mark Antony Heath",
+   "photo": 1725790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7985493/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jose-santiago, some rights reserved (CC BY-NC), uploaded by jose-santiago",
+   "photo": 7985493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1958316/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) AnaLi Hr, some rights reserved (CC BY-NC), uploaded by AnaLi Hr",
+   "photo": 1958316
+  }
+ ]
 }

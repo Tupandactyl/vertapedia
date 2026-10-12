@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289429063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 289429063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266809768/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sam Gordon, some rights reserved (CC BY-NC-SA), uploaded by Sam Gordon",
+   "photo": 266809768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46356529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot",
+   "photo": 46356529
+  }
+ ]
 }

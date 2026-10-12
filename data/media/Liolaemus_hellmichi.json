@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58983547/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Mauricio Contreras, some rights reserved (CC BY-NC), uploaded by Juan Mauricio Contreras",
+   "photo": 58983547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13799588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Almendras, some rights reserved (CC BY-NC), uploaded by Diego Almendras",
+   "photo": 13799588
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48386776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Mauricio Contreras, some rights reserved (CC BY-NC), uploaded by Juan Mauricio Contreras",
+   "photo": 48386776
+  }
+ ]
 }

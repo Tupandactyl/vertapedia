@@ -46,5 +46,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173782655/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erick Nicolas Patino Acosta, some rights reserved (CC BY-NC), uploaded by Erick Nicolas Patino Acosta",
+   "photo": 173782655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113805587/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier David Quiroga Nova, some rights reserved (CC BY-NC), uploaded by Javier David Quiroga Nova",
+   "photo": 113805587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113805620/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier David Quiroga Nova, some rights reserved (CC BY-NC), uploaded by Javier David Quiroga Nova",
+   "photo": 113805620
+  }
+ ]
 }

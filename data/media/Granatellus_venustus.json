@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13601834/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 13601834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1745017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jose Hugo Martínez Guerrero, some rights reserved (CC BY-NC), uploaded by Jose Hugo Martínez Guerrero",
+   "photo": 1745017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/790018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 790018
+  }
+ ]
 }

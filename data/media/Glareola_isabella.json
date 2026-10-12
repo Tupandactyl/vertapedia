@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278807673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Palliser, some rights reserved (CC BY-NC), uploaded by Tony Palliser",
+   "photo": 278807673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351003342/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 351003342
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258212117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 258212117
+  }
+ ]
 }

@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165875/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Pratt, some rights reserved (CC BY)",
+   "photo": 165875
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4736212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Lamb, some rights reserved (CC BY-NC), uploaded by Andrew Lamb",
+   "photo": 4736212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2021451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeffreyjclarke, some rights reserved (CC BY-NC)",
+   "photo": 2021451
+  }
+ ]
 }

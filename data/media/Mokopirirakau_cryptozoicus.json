@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175789472/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Purdie, some rights reserved (CC BY-NC), uploaded by Samuel Purdie",
+   "photo": 175789472
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175789485/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Purdie, some rights reserved (CC BY-NC), uploaded by Samuel Purdie",
+   "photo": 175789485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175789480/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Purdie, some rights reserved (CC BY-NC), uploaded by Samuel Purdie",
+   "photo": 175789480
+  }
+ ]
 }

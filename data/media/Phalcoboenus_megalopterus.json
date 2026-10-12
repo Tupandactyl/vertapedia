@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129013954/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Darío De la Fuente, some rights reserved (CC BY), uploaded by Darío De la Fuente",
+   "photo": 129013954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184690562/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexandre callou sampaio, some rights reserved (CC BY-NC), uploaded by alexandre callou sampaio",
+   "photo": 184690562
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252254826/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nicolás Villaseca Merino, some rights reserved (CC BY-SA), uploaded by Nicolás Villaseca Merino",
+   "photo": 252254826
+  }
+ ]
 }

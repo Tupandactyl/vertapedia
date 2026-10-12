@@ -243,5 +243,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22869683/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jill Bazeley, some rights reserved (CC BY-NC)",
+   "photo": 22869683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214947574/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott, some rights reserved (CC BY-NC), uploaded by Scott",
+   "photo": 214947574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122232145/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brice C., some rights reserved (CC BY-NC), uploaded by Brice C.",
+   "photo": 122232145
+  }
+ ]
 }

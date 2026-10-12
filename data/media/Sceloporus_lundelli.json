@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116147972/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro E. Nahuat-Cervera, some rights reserved (CC BY-NC), uploaded by Pedro E. Nahuat-Cervera",
+   "photo": 116147972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346808527/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 346808527
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42912633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rolando Pasos Pérez, some rights reserved (CC BY-NC), uploaded by Rolando Pasos Pérez",
+   "photo": 42912633
+  }
+ ]
 }

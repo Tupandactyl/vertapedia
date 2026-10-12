@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23832693/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 23832693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360387665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alana Pizarro, some rights reserved (CC BY-NC), uploaded by Alana Pizarro",
+   "photo": 360387665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2917429/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Smith, some rights reserved (CC BY-NC), uploaded by Kyle Smith",
+   "photo": 2917429
+  }
+ ]
 }

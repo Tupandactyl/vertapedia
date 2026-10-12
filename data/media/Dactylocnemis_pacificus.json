@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169935094/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Carey_Knox_Southern_Scales",
+   "photo": 169935094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31204729/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tom, some rights reserved (CC BY), uploaded by Tom",
+   "photo": 31204729
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163244319/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Oscar Dove, some rights reserved (CC BY), uploaded by Oscar Dove",
+   "photo": 163244319
+  }
+ ]
 }

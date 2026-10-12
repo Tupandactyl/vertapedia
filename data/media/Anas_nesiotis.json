@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30120080/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Fergus, some rights reserved (CC BY-NC), uploaded by Alex Fergus",
+   "photo": 30120080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47607398/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John Barkla, some rights reserved (CC BY), uploaded by John Barkla",
+   "photo": 47607398
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601580374/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 601580374
+  }
+ ]
 }

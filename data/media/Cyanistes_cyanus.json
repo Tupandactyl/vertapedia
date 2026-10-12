@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33035946/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 33035946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116301323/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 116301323
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485955943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid, some rights reserved (CC BY-NC), uploaded by Leonid",
+   "photo": 485955943
+  }
+ ]
 }

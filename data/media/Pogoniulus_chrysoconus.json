@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1787179/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 1787179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1787180/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 1787180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1787181/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 1787181
+  }
+ ]
 }

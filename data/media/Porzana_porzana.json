@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41827491/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+   "photo": 41827491
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230165477/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aep-prina, some rights reserved (CC BY-NC)",
+   "photo": 230165477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41827504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+   "photo": 41827504
+  }
+ ]
 }

@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275702583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mirko Ramos Leiva, some rights reserved (CC BY-NC), uploaded by Mirko Ramos Leiva",
+   "photo": 275702583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172111410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fernando Useros López, some rights reserved (CC BY-NC), uploaded by Fernando Useros López",
+   "photo": 172111410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94692726/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Llavaneras, some rights reserved (CC BY-NC), uploaded by Daniel Llavaneras",
+   "photo": 94692726
+  }
+ ]
 }

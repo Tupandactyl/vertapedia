@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468724329/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lawrence Hylton, some rights reserved (CC BY), uploaded by Lawrence Hylton",
+   "photo": 468724329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455797599/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 455797599
+  }
+ ]
 }

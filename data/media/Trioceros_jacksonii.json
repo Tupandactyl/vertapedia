@@ -163,5 +163,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238938611/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 238938611
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199880743/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Maughn, some rights reserved (CC BY-NC)",
+   "photo": 199880743
+  }
+ ]
 }

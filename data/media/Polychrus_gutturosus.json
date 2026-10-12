@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120460616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 120460616
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/508493289/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC), uploaded by Fundacion ProAves",
+   "photo": 508493289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63876266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Riley Fortier, some rights reserved (CC BY-NC), uploaded by Riley Fortier",
+   "photo": 63876266
+  }
+ ]
 }

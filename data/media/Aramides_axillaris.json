@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42727607/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Ismael Arellano Ciau, some rights reserved (CC BY-NC), uploaded by J. Ismael Arellano Ciau",
+   "photo": 42727607
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59912393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Aldrich, some rights reserved (CC BY-NC), uploaded by Andrew Aldrich",
+   "photo": 59912393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73823782/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Trinchan, some rights reserved (CC BY-NC), uploaded by Luis Trinchan",
+   "photo": 73823782
+  }
+ ]
 }

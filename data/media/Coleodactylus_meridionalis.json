@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82197348/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 82197348
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9786949/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Célio Moura Neto, some rights reserved (CC BY-NC)",
+   "photo": 9786949
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169220505/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomaz de Carvalho Callado, some rights reserved (CC BY), uploaded by Thomaz de Carvalho Callado",
+   "photo": 169220505
+  }
+ ]
 }

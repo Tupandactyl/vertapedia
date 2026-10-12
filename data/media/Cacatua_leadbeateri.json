@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112785464/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Melvaine, some rights reserved (CC BY-NC), uploaded by Jeff Melvaine",
+   "photo": 112785464
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216658527/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 216658527
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157562292/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 157562292
+  }
+ ]
 }

@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68667578/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) margot_oorebeek, some rights reserved (CC BY-NC), uploaded by margot_oorebeek",
+   "photo": 68667578
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74060255/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 74060255
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96163061/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anthony Katon, some rights reserved (CC BY-NC), uploaded by Anthony Katon",
+   "photo": 96163061
+  }
+ ]
 }

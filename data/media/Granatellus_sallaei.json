@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62483837/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janet Guardiola, some rights reserved (CC BY-NC), uploaded by Janet Guardiola",
+   "photo": 62483837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393153013/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro D. Yuit Mex, some rights reserved (CC BY-NC), uploaded by Pedro D. Yuit Mex",
+   "photo": 393153013
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3237185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angel_castillo_birdingtours, some rights reserved (CC BY-NC), uploaded by angel_castillo_birdingtours",
+   "photo": 3237185
+  }
+ ]
 }

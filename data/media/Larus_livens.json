@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610521133/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aleshade, some rights reserved (CC BY-NC)",
+   "photo": 610521133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2910976/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Laura Gaudette, some rights reserved (CC BY), uploaded by Laura Gaudette",
+   "photo": 2910976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606710530/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) epgabrelain, some rights reserved (CC BY-NC)",
+   "photo": 606710530
+  }
+ ]
 }

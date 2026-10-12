@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102436944/{size}.png",
+   "license": "cc-by",
+   "attribution": "(c) \n(Photo: Brian McNab), some rights reserved (CC BY)",
+   "photo": 102436944
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66421828/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nPhoto by David J. Stang, some rights reserved (CC BY-SA)",
+   "photo": 66421828
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66421831/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alex Slavenko, some rights reserved (CC BY-NC-SA)",
+   "photo": 66421831
+  }
+ ]
 }

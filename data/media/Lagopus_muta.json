@@ -216,5 +216,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 45166074
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 45166078
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84887895/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC), uploaded by Paul Pratt",
+   "photo": 84887895
+  }
+ ]
 }

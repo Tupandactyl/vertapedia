@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15679506/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Viduetsky, some rights reserved (CC BY-NC), uploaded by Alexander Viduetsky",
+   "photo": 15679506
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610862834/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Henry Hart",
+   "photo": 610862834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397365044/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Barna Takats, some rights reserved (CC BY-NC), uploaded by Barna Takats",
+   "photo": 397365044
+  }
+ ]
 }

@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164685515/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Basar, some rights reserved (CC BY-SA)",
+   "photo": 164685515
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63975558/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fsadjadi, some rights reserved (CC BY-NC), uploaded by fsadjadi",
+   "photo": 63975558
+  }
+ ]
 }

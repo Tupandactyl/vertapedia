@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167246197/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Ruggeri, some rights reserved (CC BY-NC), uploaded by Andrea Ruggeri",
+   "photo": 167246197
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142067908/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean and Fred Hort, some rights reserved (CC BY-NC), uploaded by Jean and Fred Hort",
+   "photo": 142067908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154898161/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alastair Robertson, some rights reserved (CC BY), uploaded by Alastair Robertson",
+   "photo": 154898161
+  }
+ ]
 }

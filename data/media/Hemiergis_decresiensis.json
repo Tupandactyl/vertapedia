@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78650358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Uren, some rights reserved (CC BY-NC), uploaded by Adrian Uren",
+   "photo": 78650358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1160271/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Travis W. Reeder, some rights reserved (CC BY-NC), uploaded by Travis W. Reeder",
+   "photo": 1160271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38321636/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Geoffrey Cox, some rights reserved (CC BY-NC), uploaded by Geoffrey Cox",
+   "photo": 38321636
+  }
+ ]
 }

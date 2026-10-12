@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158116884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ultraman Max, some rights reserved (CC BY-NC), uploaded by Ultraman Max",
+   "photo": 158116884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204268119/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcelfinlay, some rights reserved (CC BY-NC), uploaded by marcelfinlay",
+   "photo": 204268119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66414171/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) 孫鋒 林, some rights reserved (CC BY-SA)",
+   "photo": 66414171
+  }
+ ]
 }

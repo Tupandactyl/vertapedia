@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2713284/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 2713284
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19681228/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 19681228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58843935/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Rohrer, some rights reserved (CC BY-NC), uploaded by Chris Rohrer",
+   "photo": 58843935
+  }
+ ]
 }

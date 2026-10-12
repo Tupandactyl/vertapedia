@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10396859/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 10396859
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99136629/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 99136629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1356834/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 1356834
+  }
+ ]
 }

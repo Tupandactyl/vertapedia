@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109203635/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 109203635
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58695004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 58695004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61604702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yantza Farm, Zamora-Chinchipe, Ecuador, some rights reserved (CC BY-NC), uploaded by Yantza Farm, Zamora-Chinchipe, Ecuador",
+   "photo": 61604702
+  }
+ ]
 }

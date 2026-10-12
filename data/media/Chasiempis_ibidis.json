@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230670511/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 230670511
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301056991/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kellen Apuna, some rights reserved (CC BY-NC), uploaded by Kellen Apuna",
+   "photo": 301056991
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1759895/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) colinmorita, some rights reserved (CC BY-NC), uploaded by colinmorita",
+   "photo": 1759895
+  }
+ ]
 }

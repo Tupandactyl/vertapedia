@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31686685/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kevin Murray, some rights reserved (CC BY), uploaded by Kevin Murray",
+   "photo": 31686685
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15183308/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Brian du Preez, some rights reserved (CC BY-SA), uploaded by Brian du Preez",
+   "photo": 15183308
+  }
+ ]
 }

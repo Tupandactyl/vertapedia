@@ -59,5 +59,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408876535/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IanLJones, some rights reserved (CC BY-NC), uploaded by IanLJones",
+   "photo": 408876535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408876470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IanLJones, some rights reserved (CC BY-NC), uploaded by IanLJones",
+   "photo": 408876470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60492618/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Papahānaumokuākea Marine National Monument, some rights reserved (CC BY-NC)",
+   "photo": 60492618
+  }
+ ]
 }

@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360776243/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 360776243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396066503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 396066503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353707183/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ezequiel Racker, some rights reserved (CC BY), uploaded by Ezequiel Racker",
+   "photo": 353707183
+  }
+ ]
 }

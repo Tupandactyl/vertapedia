@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39390674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 39390674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256205335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 256205335
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59862964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford",
+   "photo": 59862964
+  }
+ ]
 }

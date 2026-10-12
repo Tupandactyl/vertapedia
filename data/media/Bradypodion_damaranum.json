@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1957488/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Devi Stuart-Fox and Adnan Moussalli, some rights reserved (CC BY)",
+   "photo": 1957488
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30549509/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 30549509
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103442141/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brett, some rights reserved (CC BY-NC), uploaded by Brett",
+   "photo": 103442141
+  }
+ ]
 }

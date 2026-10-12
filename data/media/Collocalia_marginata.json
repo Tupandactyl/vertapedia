@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362802199/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Pavel Shukov",
+   "photo": 362802199
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362802204/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Pavel Shukov",
+   "photo": 362802204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444029396/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \niNaturalist user: thibaudaronson, einige Rechte vorbehalten (CC BY-SA)",
+   "photo": 444029396
+  }
+ ]
 }

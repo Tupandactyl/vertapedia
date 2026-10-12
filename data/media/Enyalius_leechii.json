@@ -113,5 +113,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174943700/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) flavioubaid, some rights reserved (CC BY-NC)",
+   "photo": 174943700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112141404/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nereston (Nelinho) Camargo, some rights reserved (CC BY-NC), uploaded by Nereston (Nelinho) Camargo",
+   "photo": 112141404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65627920/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Leite, some rights reserved (CC BY-NC), uploaded by Gabriel Leite",
+   "photo": 65627920
+  }
+ ]
 }

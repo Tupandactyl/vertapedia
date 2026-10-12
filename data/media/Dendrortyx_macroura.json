@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39659201/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 39659201
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2370028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marisa Elca, some rights reserved (CC BY-NC), uploaded by Marisa Elca",
+   "photo": 2370028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2370029/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marisa Elca, some rights reserved (CC BY-NC), uploaded by Marisa Elca",
+   "photo": 2370029
+  }
+ ]
 }

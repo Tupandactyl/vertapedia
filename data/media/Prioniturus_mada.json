@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67552490/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Quartl, some rights reserved (CC BY-SA)",
+   "photo": 67552490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95821655/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 95821655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159071837/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Prioniturus_mada_-captive-8a.jpg, some rights reserved (CC BY-SA)",
+   "photo": 159071837
+  }
+ ]
 }

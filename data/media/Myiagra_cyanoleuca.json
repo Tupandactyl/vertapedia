@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153769650/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Campbell, some rights reserved (CC BY-NC), uploaded by Matt Campbell",
+   "photo": 153769650
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453182771/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 453182771
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39667713/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt Campbell, some rights reserved (CC BY-NC-SA), uploaded by Matt Campbell",
+   "photo": 39667713
+  }
+ ]
 }

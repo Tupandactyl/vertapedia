@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160415572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterodekerken, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 160415572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106380011/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Bird Explorers",
+   "photo": 106380011
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473810957/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darrell Parsons, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Darrell Parsons",
+   "photo": 473810957
+  }
+ ]
 }

@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585522718/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "photo": 585522718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348946840/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 348946840
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5640940/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karl Hawkman Drakulfeith, some rights reserved (CC BY-NC), uploaded by Karl Hawkman Drakulfeith",
+   "photo": 5640940
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Carlos Pérez Magaña, some rights reserved (CC BY-NC), uploaded by Juan Carlos Pérez Magaña",
+   "photo": 617365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84292/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 84292
+  }
+ ]
 }

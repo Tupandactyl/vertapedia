@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21457131/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) magdastlucia, some rights reserved (CC BY-NC), uploaded by magdastlucia",
+   "photo": 21457131
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252532744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gus Benson, some rights reserved (CC BY-NC), uploaded by Gus Benson",
+   "photo": 252532744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332867512/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 332867512
+  }
+ ]
 }

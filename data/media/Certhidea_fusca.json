@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228970/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) anonymous, some rights reserved (CC BY-SA)",
+   "photo": 228970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54675155/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Seig, some rights reserved (CC BY), uploaded by Seig",
+   "photo": 54675155
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60566474/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford",
+   "photo": 60566474
+  }
+ ]
 }

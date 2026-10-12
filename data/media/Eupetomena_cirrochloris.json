@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8656068/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fabiomanfredini, some rights reserved (CC BY-NC), uploaded by fabiomanfredini",
+   "photo": 8656068
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344352773/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nil Rodrigues, some rights reserved (CC BY-NC), uploaded by Nil Rodrigues",
+   "photo": 344352773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5900809/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fabiomanfredini, some rights reserved (CC BY-NC), uploaded by fabiomanfredini",
+   "photo": 5900809
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25528/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 25528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25530/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David d'O, some rights reserved (CC BY-NC-SA), uploaded by David d'O",
+   "photo": 25530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25531/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David d'O, some rights reserved (CC BY-NC-SA), uploaded by David d'O",
+   "photo": 25531
+  }
+ ]
 }

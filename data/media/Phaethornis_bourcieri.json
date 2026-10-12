@@ -140,5 +140,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333526926/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo",
+   "photo": 333526926
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266815351/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradley Davis, some rights reserved (CC BY-NC), uploaded by Bradley Davis",
+   "photo": 266815351
+  }
+ ]
 }

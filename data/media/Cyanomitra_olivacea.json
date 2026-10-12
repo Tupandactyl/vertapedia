@@ -357,5 +357,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181542496/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elaine Bester, some rights reserved (CC BY-NC), uploaded by Elaine Bester",
+   "photo": 181542496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70515346/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cati, some rights reserved (CC BY-NC), uploaded by cati",
+   "photo": 70515346
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15216889/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 15216889
+  }
+ ]
 }

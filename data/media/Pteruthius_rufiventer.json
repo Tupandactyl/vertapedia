@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138101582/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 138101582
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138101585/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 138101585
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138101567/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 138101567
+  }
+ ]
 }

@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71160684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel-silvius, some rights reserved (CC BY-NC)",
+   "photo": 71160684
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48339955/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nina Lester Finley, some rights reserved (CC BY-NC), uploaded by Nina Lester Finley",
+   "photo": 48339955
+  }
+ ]
 }

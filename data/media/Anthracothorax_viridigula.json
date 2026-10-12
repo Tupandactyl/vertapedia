@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644330120/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sariah Ramcharitar, some rights reserved (CC BY-NC), uploaded by Sariah Ramcharitar",
+   "photo": 644330120
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600083745/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Russ Hedley, some rights reserved (CC BY-NC), uploaded by Russ Hedley",
+   "photo": 600083745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119041734/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 119041734
+  }
+ ]
 }

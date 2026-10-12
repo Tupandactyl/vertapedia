@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46920193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvador Poot Villanueva, some rights reserved (CC BY-NC), uploaded by Salvador Poot Villanueva",
+   "photo": 46920193
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44731292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44731292
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5528098/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) williamcanto, some rights reserved (CC BY-NC), uploaded by williamcanto",
+   "photo": 5528098
+  }
+ ]
 }

@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162925209/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandon Ortiz Arenas, some rights reserved (CC BY-NC), uploaded by Brandon Ortiz Arenas",
+   "photo": 162925209
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16284745/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY), uploaded by Annika Lindqvist",
+   "photo": 16284745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165596947/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandon Ortiz Arenas, some rights reserved (CC BY-NC), uploaded by Brandon Ortiz Arenas",
+   "photo": 165596947
+  }
+ ]
 }

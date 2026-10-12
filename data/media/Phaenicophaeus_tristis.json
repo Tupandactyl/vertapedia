@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387722044/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niran Anurakpongsathorn, some rights reserved (CC BY-NC), uploaded by Niran Anurakpongsathorn",
+   "photo": 387722044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354550829/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 354550829
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2218245/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 2218245
+  }
+ ]
 }

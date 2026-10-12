@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1791064/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ron Savage, some rights reserved (CC BY-NC-SA), uploaded by Ron Savage",
+   "photo": 1791064
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1791152/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1791152
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20656661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jukka Jantunen, some rights reserved (CC BY-NC), uploaded by Jukka Jantunen",
+   "photo": 20656661
+  }
+ ]
 }

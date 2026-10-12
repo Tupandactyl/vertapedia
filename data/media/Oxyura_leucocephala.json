@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109604096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otgonbayar Tsend, some rights reserved (CC BY-NC), uploaded by Otgonbayar Tsend",
+   "photo": 109604096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114191040/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vyacheslav Luzanov, some rights reserved (CC BY-NC), uploaded by Vyacheslav Luzanov",
+   "photo": 114191040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483791125/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 483791125
+  }
+ ]
 }

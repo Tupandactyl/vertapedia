@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110940806/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dean Walton, some rights reserved (CC BY-NC), uploaded by Dean Walton",
+   "photo": 110940806
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27610557/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wynand Uys, some rights reserved (CC BY), uploaded by Wynand Uys",
+   "photo": 27610557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78349897/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elaine Bester, some rights reserved (CC BY-NC), uploaded by Elaine Bester",
+   "photo": 78349897
+  }
+ ]
 }

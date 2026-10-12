@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12013274/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gonzalo Mucientes Sandoval, some rights reserved (CC BY-NC), uploaded by Gonzalo Mucientes Sandoval",
+   "photo": 12013274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472987670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vasily Kalinichenko, some rights reserved (CC BY-NC), uploaded by Vasily Kalinichenko",
+   "photo": 472987670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24572317/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aissa Djamel Filali, some rights reserved (CC BY-SA), uploaded by Aissa Djamel Filali",
+   "photo": 24572317
+  }
+ ]
 }

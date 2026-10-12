@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104133569/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 104133569
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118922128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 118922128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362044600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mauricio Silvera, some rights reserved (CC BY-NC), uploaded by Mauricio Silvera",
+   "photo": 362044600
+  }
+ ]
 }

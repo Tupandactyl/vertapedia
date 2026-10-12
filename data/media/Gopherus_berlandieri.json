@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89600/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Clinton & Charles Robertson, niektóre prawa zastrzeżone (CC BY-SA)",
+   "photo": 89600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54069407/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Douglas Goldman, niektóre prawa zastrzeżone (CC BY-SA), przesłane przez użytkownika Douglas Goldman",
+   "photo": 54069407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53741163/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gary Abner Garcia-Garcia, niektóre prawa zastrzeżone (CC BY-SA), przesłane przez użytkownika Gary Abner Garcia-Garcia",
+   "photo": 53741163
+  }
+ ]
 }

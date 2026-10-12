@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430795661/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Steele, some rights reserved (CC BY-NC), uploaded by Jeff Steele",
+   "photo": 430795661
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519212007/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa",
+   "photo": 519212007
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14344404/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Biodiversity Heritage Library, some rights reserved (CC BY)",
+   "photo": 14344404
+  }
+ ]
 }

@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730663816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+   "photo": 730663816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/743981396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mauricio Silvera, some rights reserved (CC BY-NC), uploaded by Mauricio Silvera",
+   "photo": 743981396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468669716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Helena Ody Neves, some rights reserved (CC BY-NC), uploaded by Helena Ody Neves",
+   "photo": 468669716
+  }
+ ]
 }

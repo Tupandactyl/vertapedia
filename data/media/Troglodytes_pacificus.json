@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2530224/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) R.J. Adams, some rights reserved (CC BY-NC), uploaded by R.J. Adams",
+   "photo": 2530224
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2450738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 2450738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5286037/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kate Turner, some rights reserved (CC BY-NC), uploaded by Kate Turner",
+   "photo": 5286037
+  }
+ ]
 }

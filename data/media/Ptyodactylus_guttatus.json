@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187868098/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafi Amar, some rights reserved (CC BY-NC), uploaded by Rafi Amar",
+   "photo": 187868098
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151766508/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) לוי דביש, some rights reserved (CC BY-NC), uploaded by לוי דביש",
+   "photo": 151766508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12980876/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 12980876
+  }
+ ]
 }

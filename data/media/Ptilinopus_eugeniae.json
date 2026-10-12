@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466242739/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Linda S Terrill, some rights reserved (CC BY-NC), uploaded by Linda S Terrill",
+   "photo": 466242739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235499421/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 235499421
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236703290/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 236703290
+  }
+ ]
 }

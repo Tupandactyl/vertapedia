@@ -179,5 +179,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225001/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 225001
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1494346/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Durrell D. Kapan, some rights reserved (CC BY-NC), uploaded by Durrell D. Kapan",
+   "photo": 1494346
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351806533/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tate Putman, some rights reserved (CC BY-NC), uploaded by Tate Putman",
+   "photo": 351806533
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190287226/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 190287226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2450214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 2450214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30794880/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 30794880
+  }
+ ]
 }

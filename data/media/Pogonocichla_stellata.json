@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28084840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) clicque, some rights reserved (CC BY-NC), uploaded by clicque",
+   "photo": 28084840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666576/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 666576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666578/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 666578
+  }
+ ]
 }

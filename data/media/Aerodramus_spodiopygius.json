@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207363685/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
+   "photo": 207363685
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123160190/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 123160190
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166883390/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Floyd E. Hayes, some rights reserved (CC BY-NC), uploaded by Floyd E. Hayes",
+   "photo": 166883390
+  }
+ ]
 }

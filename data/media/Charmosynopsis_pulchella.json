@@ -82,5 +82,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159020705/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 159020705
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108019615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 108019615
+  }
+ ]
 }

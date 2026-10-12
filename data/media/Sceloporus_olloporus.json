@@ -73,5 +73,25 @@
    "date": "2006-01-14"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288326871/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Court Harding, some rights reserved (CC BY), uploaded by Court Harding",
+   "photo": 288326871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85518/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) BERNARD, some rights reserved (CC BY-NC-SA)",
+   "photo": 85518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58087888/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 58087888
+  }
+ ]
 }

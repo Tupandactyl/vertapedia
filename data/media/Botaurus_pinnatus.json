@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416265710/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mauricio Silvera, some rights reserved (CC BY-NC), uploaded by Mauricio Silvera",
+   "photo": 416265710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392086849/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fernando007cruz, some rights reserved (CC BY-NC)",
+   "photo": 392086849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523702025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Barreda Cárdenas, some rights reserved (CC BY-NC), uploaded by Carlos Barreda Cárdenas",
+   "photo": 523702025
+  }
+ ]
 }

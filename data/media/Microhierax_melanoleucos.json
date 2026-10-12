@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198693685/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Savi.odl, some rights reserved (CC BY-SA)",
+   "photo": 198693685
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198693693/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Savi.odl, some rights reserved (CC BY-SA)",
+   "photo": 198693693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454187334/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC), uploaded by Chitra Shanker",
+   "photo": 454187334
+  }
+ ]
 }

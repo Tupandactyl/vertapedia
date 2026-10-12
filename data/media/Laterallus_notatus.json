@@ -111,5 +111,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101271247/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Czerechowicz Hang, some rights reserved (CC BY-NC), uploaded by Bruno Czerechowicz Hang",
+   "photo": 101271247
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415637287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Antunez, some rights reserved (CC BY-NC), uploaded by Adrian Antunez",
+   "photo": 415637287
+  }
+ ]
 }

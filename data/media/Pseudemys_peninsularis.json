@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1926206/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gherman315, some rights reserved (CC BY-NC)",
+   "photo": 1926206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4768615/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mary Keim, some rights reserved (CC BY-NC-SA)",
+   "photo": 4768615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59575323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rainbowkitten, some rights reserved (CC BY-NC), uploaded by rainbowkitten",
+   "photo": 59575323
+  }
+ ]
 }

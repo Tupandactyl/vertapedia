@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67490648/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 67490648
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4930965/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 4930965
+  }
+ ]
 }

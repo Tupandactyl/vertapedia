@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60273349/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diegogear, some rights reserved (CC BY-NC), uploaded by diegogear",
+   "photo": 60273349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129702136/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Mauricio Contreras, some rights reserved (CC BY-NC), uploaded by Juan Mauricio Contreras",
+   "photo": 129702136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58547570/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Mauricio Contreras, some rights reserved (CC BY-NC), uploaded by Juan Mauricio Contreras",
+   "photo": 58547570
+  }
+ ]
 }

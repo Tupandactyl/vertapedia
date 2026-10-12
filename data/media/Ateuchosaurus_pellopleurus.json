@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5670548/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 5670548
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169537498/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hu4231, some rights reserved (CC BY-NC)",
+   "photo": 169537498
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68199542/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Takaaki Hattori, some rights reserved (CC BY), uploaded by Takaaki Hattori",
+   "photo": 68199542
+  }
+ ]
 }

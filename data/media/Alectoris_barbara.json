@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78174423/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) FritsM, some rights reserved (CC BY)",
+   "photo": 78174423
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/697169/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frits van der Meer from Utrecht, Nederland, some rights reserved (CC BY)",
+   "photo": 697169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6244307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 6244307
+  }
+ ]
 }

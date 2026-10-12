@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71282187/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sylvia Alexander, some rights reserved (CC BY-NC), uploaded by Sylvia Alexander",
+   "photo": 71282187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55529908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) deethy, some rights reserved (CC BY-NC)",
+   "photo": 55529908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57796184/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+   "photo": 57796184
+  }
+ ]
 }

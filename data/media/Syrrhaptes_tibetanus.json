@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80256961/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dibyendu Ash, algunos derechos reservados (CC BY-SA)",
+   "photo": 80256961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557537970/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Уколов, algunos derechos reservados (CC BY-NC), subido por Илья Уколов",
+   "photo": 557537970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106934454/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) soumyajit nandy, algunos derechos reservados (CC BY-SA)",
+   "photo": 106934454
+  }
+ ]
 }

@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327548198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Hentz, some rights reserved (CC BY-NC), uploaded by Alan Hentz",
+   "photo": 327548198
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253294600/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Paulo Mascaretti",
+   "photo": 253294600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183289934/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lilian Tomazelli, some rights reserved (CC BY-NC), uploaded by Lilian Tomazelli",
+   "photo": 183289934
+  }
+ ]
 }

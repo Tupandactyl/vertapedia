@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)",
+   "photo": 776122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30040310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) world_lineage, some rights reserved (CC BY-NC), uploaded by world_lineage",
+   "photo": 30040310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2244453/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Howard, some rights reserved (CC BY-NC), uploaded by Howard",
+   "photo": 2244453
+  }
+ ]
 }

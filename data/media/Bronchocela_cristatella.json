@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214809512/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cheongweei Gan, some rights reserved (CC BY), uploaded by Cheongweei Gan",
+   "photo": 214809512
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258524267/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) klearad, some rights reserved (CC BY-NC), uploaded by klearad",
+   "photo": 258524267
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93726270/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cheongweei Gan, some rights reserved (CC BY-NC), uploaded by Cheongweei Gan",
+   "photo": 93726270
+  }
+ ]
 }

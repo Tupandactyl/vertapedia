@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108311565/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY), uploaded by Connor Margetts",
+   "photo": 108311565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31749460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jukka Jantunen, some rights reserved (CC BY-NC), uploaded by Jukka Jantunen",
+   "photo": 31749460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21287091/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thilo Krueger, some rights reserved (CC BY-NC), uploaded by Thilo Krueger",
+   "photo": 21287091
+  }
+ ]
 }

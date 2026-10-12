@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156896357/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Woraphot Bunkhwamdi, some rights reserved (CC BY-NC), uploaded by Woraphot Bunkhwamdi",
+   "photo": 156896357
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375591839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ayuwat, some rights reserved (CC BY-NC)",
+   "photo": 375591839
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595249211/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 595249211
+  }
+ ]
 }

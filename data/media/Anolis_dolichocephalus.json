@@ -54,5 +54,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67470684/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) René Durocher, некоторые права защищены (CC BY-NC), загрузил René Durocher",
+   "photo": 67470684
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110067363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Martin Reith, некоторые права защищены (CC BY-NC), загрузил Martin Reith",
+   "photo": 110067363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159556125/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Martin Reith, некоторые права защищены (CC BY-NC), загрузил Martin Reith",
+   "photo": 159556125
+  }
+ ]
 }

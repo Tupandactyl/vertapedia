@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153887857/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Νaej, algunos derechos reservados (CC BY-NC-SA)",
+   "photo": 153887857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604971/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Rivero, algunos derechos reservados (CC BY-NC), subido por Marina Rivero",
+   "photo": 604971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/741660556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) craigjhowe, algunos derechos reservados (CC BY-NC)",
+   "photo": 741660556
+  }
+ ]
 }

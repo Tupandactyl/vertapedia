@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275257665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) srdsmkes, some rights reserved (CC BY-NC), uploaded by srdsmkes",
+   "photo": 275257665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112004492/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Laura Mae, some rights reserved (CC BY), uploaded by Laura Mae",
+   "photo": 112004492
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1628357/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dendroica cerulea, some rights reserved (CC BY-NC-SA)",
+   "photo": 1628357
+  }
+ ]
 }

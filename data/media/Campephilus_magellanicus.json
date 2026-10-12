@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48405/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Liam Quinn, some rights reserved (CC BY-SA)",
+   "photo": 48405
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5559433/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudia Komesu, some rights reserved (CC BY-NC), uploaded by Claudia Komesu",
+   "photo": 5559433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5559432/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudia Komesu, some rights reserved (CC BY-NC), uploaded by Claudia Komesu",
+   "photo": 5559432
+  }
+ ]
 }

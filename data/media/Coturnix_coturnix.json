@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227167679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
+   "photo": 227167679
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227167644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
+   "photo": 227167644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277758871/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Earl Roode, some rights reserved (CC BY-NC), uploaded by Earl Roode",
+   "photo": 277758871
+  }
+ ]
 }

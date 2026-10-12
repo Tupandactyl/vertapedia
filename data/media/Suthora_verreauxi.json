@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2683250/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 2683250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86383414/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ed_shaw, some rights reserved (CC BY-NC)",
+   "photo": 86383414
+  }
+ ]
 }

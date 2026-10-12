@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20207164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerry Carloy, some rights reserved (CC BY-NC), uploaded by Kerry Carloy",
+   "photo": 20207164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66445541/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Butler, some rights reserved (CC BY-NC), uploaded by Ken Butler",
+   "photo": 66445541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/512179366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) midnightc, some rights reserved (CC BY-NC)",
+   "photo": 512179366
+  }
+ ]
 }

@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260805089/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bennett, some rights reserved (CC BY-NC), uploaded by James Bennett",
+   "photo": 260805089
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54733855/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ellura Sanctuary, some rights reserved (CC BY-NC), uploaded by Ellura Sanctuary",
+   "photo": 54733855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9877180/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Faunaverse, some rights reserved (CC BY-NC), uploaded by Faunaverse",
+   "photo": 9877180
+  }
+ ]
 }

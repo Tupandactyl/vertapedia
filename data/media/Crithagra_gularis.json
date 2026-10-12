@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65061709/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Surics, some rights reserved (CC BY-NC), uploaded by Vince Surics",
+   "photo": 65061709
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633028636/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerhard Lemmer, some rights reserved (CC BY-NC), uploaded by Gerhard Lemmer",
+   "photo": 633028636
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15233552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernest Porter, some rights reserved (CC BY-NC), uploaded by Ernest Porter",
+   "photo": 15233552
+  }
+ ]
 }

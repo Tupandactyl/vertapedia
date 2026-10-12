@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179828302/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Grigory Heaton",
+   "photo": 179828302
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179828316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Grigory Heaton",
+   "photo": 179828316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4781049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerardo Durá, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Gerardo Durá",
+   "photo": 4781049
+  }
+ ]
 }

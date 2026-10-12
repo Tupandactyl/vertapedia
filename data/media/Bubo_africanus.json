@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252378479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
+   "photo": 252378479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5571087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudia Komesu, some rights reserved (CC BY-NC), uploaded by Claudia Komesu",
+   "photo": 5571087
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2674513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martina Hölzl, Littlewood Wildlife Photography, some rights reserved (CC BY-NC), uploaded by Martina Hölzl, Littlewood Wildlife Photography",
+   "photo": 2674513
+  }
+ ]
 }

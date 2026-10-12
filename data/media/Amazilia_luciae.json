@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77144095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mayron McKewy Mejía, some rights reserved (CC BY-NC), uploaded by Mayron McKewy Mejía",
+   "photo": 77144095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30788239/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hermes Vega, some rights reserved (CC BY-NC), uploaded by Hermes Vega",
+   "photo": 30788239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131618260/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marvin Paz, some rights reserved (CC BY-NC), uploaded by Marvin Paz",
+   "photo": 131618260
+  }
+ ]
 }

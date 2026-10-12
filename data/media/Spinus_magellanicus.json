@@ -178,5 +178,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404833089/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Guilherme Cameis Freda, some rights reserved (CC BY-SA), uploaded by Guilherme Cameis Freda",
+   "photo": 404833089
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177276022/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 177276022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170241464/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 170241464
+  }
+ ]
 }

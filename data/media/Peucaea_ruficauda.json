@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64955482/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric van den Berghe, some rights reserved (CC BY-NC), uploaded by Eric van den Berghe",
+   "photo": 64955482
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4781348/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerardo Durá, some rights reserved (CC BY-NC), uploaded by Gerardo Durá",
+   "photo": 4781348
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4814601/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Forest_13, some rights reserved (CC BY-NC), uploaded by Forest_13",
+   "photo": 4814601
+  }
+ ]
 }

@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183734844/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guy Lemelin, some rights reserved (CC BY-NC), uploaded by Guy Lemelin",
+   "photo": 183734844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100940156/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Kreuzhage, some rights reserved (CC BY-NC), uploaded by Andrea Kreuzhage",
+   "photo": 100940156
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100940107/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Kreuzhage, some rights reserved (CC BY-NC), uploaded by Andrea Kreuzhage",
+   "photo": 100940107
+  }
+ ]
 }

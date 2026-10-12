@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437472712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grace Bryant, some rights reserved (CC BY-NC), uploaded by Grace Bryant",
+   "photo": 437472712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624510823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Márcio Alves Cardoso, some rights reserved (CC BY-NC), uploaded by Márcio Alves Cardoso",
+   "photo": 624510823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/702070454/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 702070454
+  }
+ ]
 }

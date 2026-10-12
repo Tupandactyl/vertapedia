@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507206/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, bazı hakları saklıdır (CC BY)",
+   "photo": 1507206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102868822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ria Vogels, bazı hakları saklıdır (CC BY-NC), yükleyen: Ria Vogels",
+   "photo": 102868822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507207/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, bazı hakları saklıdır (CC BY)",
+   "photo": 1507207
+  }
+ ]
 }

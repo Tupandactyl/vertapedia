@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197970/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 197970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31044690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcelo_allende, some rights reserved (CC BY-NC), uploaded by marcelo_allende",
+   "photo": 31044690
+  }
+ ]
 }

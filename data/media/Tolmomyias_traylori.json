@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247969220/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 247969220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41546258/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anthony Giardenelli, some rights reserved (CC BY-NC), uploaded by Anthony Giardenelli",
+   "photo": 41546258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247969259/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 247969259
+  }
+ ]
 }

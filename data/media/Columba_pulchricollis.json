@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170878024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 170878024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90711124/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 洪廷維, some rights reserved (CC BY-NC), uploaded by 洪廷維",
+   "photo": 90711124
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25214527/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joan Kuo, some rights reserved (CC BY-NC), uploaded by Joan Kuo",
+   "photo": 25214527
+  }
+ ]
 }

@@ -69,5 +69,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292470443/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rafael Würtemberger, some rights reserved (CC BY), uploaded by Rafael Würtemberger",
+   "photo": 292470443
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62606497/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sophie Morel, some rights reserved (CC BY-NC), uploaded by Sophie Morel",
+   "photo": 62606497
+  }
+ ]
 }

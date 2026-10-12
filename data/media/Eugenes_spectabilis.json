@@ -151,5 +151,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35570537/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Soheil Zendeh, osa oikeuksista pidätetään (CC BY-NC-SA), lähettänyt Soheil Zendeh",
+   "photo": 35570537
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6405037/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Heather Pickard",
+   "photo": 6405037
+  }
+ ]
 }

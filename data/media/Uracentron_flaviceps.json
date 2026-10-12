@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49464780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 49464780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3032622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 3032622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175868169/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aceerfoundation, some rights reserved (CC BY-NC)",
+   "photo": 175868169
+  }
+ ]
 }

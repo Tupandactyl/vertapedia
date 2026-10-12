@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58368493/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 58368493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25680218/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 25680218
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7559883/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dr. Raju Kasambe, some rights reserved (CC BY-SA)",
+   "photo": 7559883
+  }
+ ]
 }

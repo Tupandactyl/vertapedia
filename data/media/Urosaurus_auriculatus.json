@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6544710/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Franco, some rights reserved (CC BY-NC), uploaded by Omar Franco",
+   "photo": 6544710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9678027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) world_lineage, some rights reserved (CC BY-NC), uploaded by world_lineage",
+   "photo": 9678027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7302837/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 7302837
+  }
+ ]
 }

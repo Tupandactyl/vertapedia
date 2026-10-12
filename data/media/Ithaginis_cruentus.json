@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28054/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Smithsonian Wild, some rights reserved (CC BY-NC-SA)",
+   "photo": 28054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11502098/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ckelkar, some rights reserved (CC BY-NC)",
+   "photo": 11502098
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41490587/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Johnson, some rights reserved (CC BY-NC), uploaded by Brian Johnson",
+   "photo": 41490587
+  }
+ ]
 }

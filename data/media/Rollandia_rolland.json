@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103739937/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+   "photo": 103739937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419772314/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nicolás Villaseca Merino, some rights reserved (CC BY-SA), uploaded by Nicolás Villaseca Merino",
+   "photo": 419772314
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519579943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Zoat, some rights reserved (CC BY-NC), uploaded by Leonardo Zoat",
+   "photo": 519579943
+  }
+ ]
 }

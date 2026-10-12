@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207742356/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Lupton, some rights reserved (CC BY-NC), uploaded by Peter Lupton",
+   "photo": 207742356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54837945/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 54837945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59365819/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 59365819
+  }
+ ]
 }

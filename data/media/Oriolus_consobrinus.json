@@ -105,5 +105,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276471375/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 276471375
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460051044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hyenaleen, some rights reserved (CC BY-NC)",
+   "photo": 460051044
+  }
+ ]
 }

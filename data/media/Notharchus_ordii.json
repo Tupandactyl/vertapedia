@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215950357/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kcarrol2, some rights reserved (CC BY-NC), uploaded by kcarrol2",
+   "photo": 215950357
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648139/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 648139
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143937505/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 143937505
+  }
+ ]
 }

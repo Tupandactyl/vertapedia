@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339665786/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 339665786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340901605/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 340901605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217579344/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grown In Haiti, some rights reserved (CC BY-NC), uploaded by Grown In Haiti",
+   "photo": 217579344
+  }
+ ]
 }

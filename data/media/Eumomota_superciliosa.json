@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32798954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 32798954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32798694/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 32798694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304665465/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alberto G. Nadal, some rights reserved (CC BY-NC), uploaded by Alberto G. Nadal",
+   "photo": 304665465
+  }
+ ]
 }

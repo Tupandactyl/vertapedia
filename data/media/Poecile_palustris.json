@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340559353/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vulpes_podšitá, some rights reserved (CC BY-NC-SA)",
+   "photo": 340559353
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254663383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luigi Andena, some rights reserved (CC BY-NC), uploaded by Luigi Andena",
+   "photo": 254663383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340559347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 340559347
+  }
+ ]
 }

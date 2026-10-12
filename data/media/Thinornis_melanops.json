@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198318695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaya M., some rights reserved (CC BY-NC), uploaded by Amaya M.",
+   "photo": 198318695
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8482057/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel, some rights reserved (CC BY-NC), uploaded by Daniel",
+   "photo": 8482057
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8482050/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel, some rights reserved (CC BY-NC), uploaded by Daniel",
+   "photo": 8482050
+  }
+ ]
 }

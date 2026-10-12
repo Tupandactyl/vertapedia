@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144907380/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zmachac, some rights reserved (CC BY-NC)",
+   "photo": 144907380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400020/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angel Sosa Bartuano, some rights reserved (CC BY-NC), uploaded by Angel Sosa Bartuano",
+   "photo": 400020
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2239766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Flaxington, some rights reserved (CC BY-NC), uploaded by Will Flaxington",
+   "photo": 2239766
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192680/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nuytsia@Tas, some rights reserved (CC BY-NC-SA)",
+   "photo": 192680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39891856/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 39891856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39869568/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 39869568
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625324168/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Turner Cambridge, algunos derechos reservados (CC BY-NC), subido por John Turner Cambridge",
+   "photo": 625324168
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504194392/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Hoekman, algunos derechos reservados (CC BY), subido por Paul Hoekman",
+   "photo": 504194392
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61296839/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, algunos derechos reservados (CC BY-NC), subido por copper",
+   "photo": 61296839
+  }
+ ]
 }

@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48370766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sahana M, some rights reserved (CC BY-NC), uploaded by Sahana M",
+   "photo": 48370766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10041169/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robbythai, some rights reserved (CC BY-NC)",
+   "photo": 10041169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3661937/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 3661937
+  }
+ ]
 }

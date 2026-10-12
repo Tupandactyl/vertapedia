@@ -57,5 +57,25 @@
    "date": "2026-04-16"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576371493/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antoine_baglan, some rights reserved (CC BY-NC)",
+   "photo": 576371493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602964052/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) philadelphe william, some rights reserved (CC BY-NC), uploaded by philadelphe william",
+   "photo": 602964052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613623873/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) philadelphe william, some rights reserved (CC BY-NC), uploaded by philadelphe william",
+   "photo": 613623873
+  }
+ ]
 }

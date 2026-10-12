@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136071/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Johan van Rensburg, some rights reserved (CC BY)",
+   "photo": 136071
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12818910/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 12818910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80859639/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) magdastlucia, some rights reserved (CC BY-NC), uploaded by magdastlucia",
+   "photo": 80859639
+  }
+ ]
 }

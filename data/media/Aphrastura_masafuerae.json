@@ -99,5 +99,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66222837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lukasmekis, some rights reserved (CC BY-NC), uploaded by lukasmekis",
+   "photo": 66222837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66224668/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patricio Novoa Quezada, some rights reserved (CC BY-NC)",
+   "photo": 66224668
+  }
+ ]
 }

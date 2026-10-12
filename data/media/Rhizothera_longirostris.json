@@ -35,5 +35,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141350817/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Unknown author, alguns direitos reservados (CC BY-SA)",
+   "photo": 141350817
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55757549/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Temminck, 1815, alguns direitos reservados (CC BY-SA)",
+   "photo": 55757549
+  }
+ ]
 }

@@ -161,5 +161,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/371764844/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 371764844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460964/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jose, some rights reserved (CC BY-NC), uploaded by Jose",
+   "photo": 460964
+  }
+ ]
 }

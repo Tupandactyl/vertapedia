@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170964616/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC), uploaded by Thet Zaw Naing",
+   "photo": 170964616
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108075290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khemthong Tonsakulrungruang, some rights reserved (CC BY-NC), uploaded by Khemthong Tonsakulrungruang",
+   "photo": 108075290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97683425/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC), uploaded by Peter Ericsson",
+   "photo": 97683425
+  }
+ ]
 }

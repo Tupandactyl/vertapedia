@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36416485/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Kurniawidjaja, some rights reserved (CC BY-NC), uploaded by Steven Kurniawidjaja",
+   "photo": 36416485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279776372/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gavinh, some rights reserved (CC BY-NC), uploaded by gavinh",
+   "photo": 279776372
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75841407/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lauren Glevanik, some rights reserved (CC BY-NC), uploaded by Lauren Glevanik",
+   "photo": 75841407
+  }
+ ]
 }

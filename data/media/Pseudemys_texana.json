@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51688538/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) texasturtles, some rights reserved (CC BY-NC), uploaded by texasturtles",
+   "photo": 51688538
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617469/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 617469
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13163427/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mary Ann Melton, some rights reserved (CC BY-NC), uploaded by Mary Ann Melton",
+   "photo": 13163427
+  }
+ ]
 }

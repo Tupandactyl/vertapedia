@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609732222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rimma Gerasimenko, some rights reserved (CC BY-NC), uploaded by Rimma Gerasimenko",
+   "photo": 609732222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465681971/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 莲子, some rights reserved (CC BY-NC), uploaded by 莲子",
+   "photo": 465681971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14171874/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chia⚡aka Cory Chiappone, some rights reserved (CC BY-NC), uploaded by Chia⚡aka Cory Chiappone",
+   "photo": 14171874
+  }
+ ]
 }

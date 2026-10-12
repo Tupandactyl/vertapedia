@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1458892/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 1458892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7512187/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi",
+   "photo": 7512187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105941665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Akbar Surya Tanjung, some rights reserved (CC BY-NC), uploaded by Akbar Surya Tanjung",
+   "photo": 105941665
+  }
+ ]
 }

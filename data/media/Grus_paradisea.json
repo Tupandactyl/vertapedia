@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66601/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Snelson, some rights reserved (CC BY)",
+   "photo": 66601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61845483/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fiona Hellmann, some rights reserved (CC BY-NC), uploaded by Fiona Hellmann",
+   "photo": 61845483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150949528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gareth Bain, some rights reserved (CC BY-NC), uploaded by Gareth Bain",
+   "photo": 150949528
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102882503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) André P. Amaral, some rights reserved (CC BY-NC), uploaded by André P. Amaral",
+   "photo": 102882503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442750018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicolás Montaño Rasch, some rights reserved (CC BY-NC), uploaded by Nicolás Montaño Rasch",
+   "photo": 442750018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59581798/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 59581798
+  }
+ ]
 }

@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12606914/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC), uploaded by Felix Fleck",
+   "photo": 12606914
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386748095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alazon, some rights reserved (CC BY-NC), uploaded by alazon",
+   "photo": 386748095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12606909/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC), uploaded by Felix Fleck",
+   "photo": 12606909
+  }
+ ]
 }

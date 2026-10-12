@@ -36,5 +36,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1097575/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kaliumperoxid, some rights reserved (CC BY)",
+   "photo": 1097575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315676861/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) S. Queen, some rights reserved (CC BY-NC), uploaded by S. Queen",
+   "photo": 315676861
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135850599/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Megan, some rights reserved (CC BY-NC), uploaded by Megan",
+   "photo": 135850599
+  }
+ ]
 }

@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532173426/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zibbirlo, some rights reserved (CC BY-NC)",
+   "photo": 532173426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263768864/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alberto Sánchez, some rights reserved (CC BY), uploaded by Alberto Sánchez",
+   "photo": 263768864
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94533770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raúl Trujillo Tovar, some rights reserved (CC BY-NC), uploaded by Raúl Trujillo Tovar",
+   "photo": 94533770
+  }
+ ]
 }

@@ -250,5 +250,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261340111/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 261340111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65245649/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 65245649
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739785754/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cassandra Barbosa, some rights reserved (CC BY-NC), uploaded by Cassandra Barbosa",
+   "photo": 739785754
+  }
+ ]
 }

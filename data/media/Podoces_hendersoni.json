@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151778/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rana@中国野鸟图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 151778
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629499/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Vladimir Yu. Arkhipov, Arkhivov, some rights reserved (CC BY-SA)",
+   "photo": 1629499
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53042847/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vladimir Yu. Arkhipov, some rights reserved (CC BY-NC), uploaded by Vladimir Yu. Arkhipov",
+   "photo": 53042847
+  }
+ ]
 }

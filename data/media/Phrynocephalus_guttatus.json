@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83048716/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, some rights reserved (CC BY-NC), uploaded by Leonid A. Neymark",
+   "photo": 83048716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724068411/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 724068411
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724068583/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 724068583
+  }
+ ]
 }

@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91002622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ginni Callahan, some rights reserved (CC BY-NC), uploaded by Ginni Callahan",
+   "photo": 91002622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62126075/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC), uploaded by Jesus Gordolomi Butterball RC",
+   "photo": 62126075
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17554223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ynafh, some rights reserved (CC BY-NC), uploaded by ynafh",
+   "photo": 17554223
+  }
+ ]
 }

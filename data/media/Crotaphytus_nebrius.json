@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651647846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+   "photo": 651647846
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11195882/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jacobddowen, some rights reserved (CC BY-NC), uploaded by jacobddowen",
+   "photo": 11195882
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81554/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Natalie McNear, some rights reserved (CC BY-NC)",
+   "photo": 81554
+  }
+ ]
 }

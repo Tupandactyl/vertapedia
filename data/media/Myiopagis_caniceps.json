@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447977643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Kenzo Aoyagui, some rights reserved (CC BY-NC), uploaded by Felipe Kenzo Aoyagui",
+   "photo": 447977643
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345594880/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 345594880
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252830052/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 252830052
+  }
+ ]
 }

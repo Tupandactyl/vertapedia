@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60560859/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Pieter Prins, some rights reserved (CC BY-SA), uploaded by Pieter Prins",
+   "photo": 60560859
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354348260/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 354348260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468841777/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Tero Linjama",
+   "photo": 468841777
+  }
+ ]
 }

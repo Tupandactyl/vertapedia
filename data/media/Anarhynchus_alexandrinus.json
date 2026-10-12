@@ -207,5 +207,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59571741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jamie Chavez, some rights reserved (CC BY-NC)",
+   "photo": 59571741
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379996503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Szymon Bzoma, some rights reserved (CC BY-NC), uploaded by Szymon Bzoma",
+   "photo": 379996503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428694160/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jennifer Frey, some rights reserved (CC BY), uploaded by Jennifer Frey",
+   "photo": 428694160
+  }
+ ]
 }

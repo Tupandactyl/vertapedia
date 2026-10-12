@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401588269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) p_concolor, some rights reserved (CC BY-NC)",
+   "photo": 401588269
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39296146/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mattia_baricordi, some rights reserved (CC BY-NC)",
+   "photo": 39296146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331773532/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Richard Fuller",
+   "photo": 331773532
+  }
+ ]
 }

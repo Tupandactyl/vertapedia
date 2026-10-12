@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32748192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leovigildo Cabrera, some rights reserved (CC BY-NC), uploaded by Leovigildo Cabrera",
+   "photo": 32748192
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152746391/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) tlaloc27, some rights reserved (CC BY), uploaded by tlaloc27",
+   "photo": 152746391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58410570/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 58410570
+  }
+ ]
 }

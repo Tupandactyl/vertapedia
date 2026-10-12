@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20302328/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 20302328
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148683060/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) cuatrok77, some rights reserved (CC BY-SA)",
+   "photo": 148683060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46936513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46936513
+  }
+ ]
 }

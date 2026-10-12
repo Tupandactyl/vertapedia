@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81729943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frankf, some rights reserved (CC BY-NC)",
+   "photo": 81729943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341223259/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Maizlish, some rights reserved (CC BY-NC)",
+   "photo": 341223259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11126960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 11126960
+  }
+ ]
 }

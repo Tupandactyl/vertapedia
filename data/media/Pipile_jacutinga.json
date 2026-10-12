@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243789945/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 243789945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22622704/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Murnane, some rights reserved (CC BY-NC), uploaded by John Murnane",
+   "photo": 22622704
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153731/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roland Kratzer, some rights reserved (CC BY-NC-SA)",
+   "photo": 153731
+  }
+ ]
 }

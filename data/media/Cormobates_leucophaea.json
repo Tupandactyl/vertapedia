@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188697319/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angelinbotanico, some rights reserved (CC BY-NC)",
+   "photo": 188697319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61032349/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anthonypaul, some rights reserved (CC BY-NC), uploaded by anthonypaul",
+   "photo": 61032349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226816016/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anna Lanigan, some rights reserved (CC BY-NC), uploaded by Anna Lanigan",
+   "photo": 226816016
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199529825/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 199529825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199530054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 199530054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272831572/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC), uploaded by Tim Forrester",
+   "photo": 272831572
+  }
+ ]
 }

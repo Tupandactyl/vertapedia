@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169931554/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 169931554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161720130/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 161720130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141918265/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 141918265
+  }
+ ]
 }

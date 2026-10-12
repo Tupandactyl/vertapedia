@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123538352/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dancg, some rights reserved (CC BY-NC)",
+   "photo": 123538352
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166057301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Cobern, some rights reserved (CC BY-NC), uploaded by Chris Cobern",
+   "photo": 166057301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175374398/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Lindorff, some rights reserved (CC BY-NC), uploaded by Chris Lindorff",
+   "photo": 175374398
+  }
+ ]
 }

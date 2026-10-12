@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54692600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Love, some rights reserved (CC BY-NC), uploaded by Anne Love",
+   "photo": 54692600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100153629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Campbell, some rights reserved (CC BY-NC), uploaded by Matt Campbell",
+   "photo": 100153629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102245817/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bay Amelia, some rights reserved (CC BY-NC), uploaded by Bay Amelia",
+   "photo": 102245817
+  }
+ ]
 }

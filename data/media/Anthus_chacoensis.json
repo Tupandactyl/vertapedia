@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109261175/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Camilo Garcia Gonzalez, some rights reserved (CC BY-NC), uploaded by Camilo Garcia Gonzalez",
+   "photo": 109261175
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168992426/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 168992426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168992261/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 168992261
+  }
+ ]
 }

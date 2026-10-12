@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4619280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jon McIntyre, some rights reserved (CC BY-NC), uploaded by Jon McIntyre",
+   "photo": 4619280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19701341/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) eleazarbenitezmartinez, some rights reserved (CC BY-NC-SA), uploaded by eleazarbenitezmartinez",
+   "photo": 19701341
+  }
+ ]
 }

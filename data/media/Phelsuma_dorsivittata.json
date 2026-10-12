@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129682277/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi",
+   "photo": 129682277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17254356/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James Hardcastle, some rights reserved (CC BY), uploaded by James Hardcastle",
+   "photo": 17254356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184633670/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 184633670
+  }
+ ]
 }

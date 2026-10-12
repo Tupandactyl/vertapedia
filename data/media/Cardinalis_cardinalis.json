@@ -232,5 +232,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189434971/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura Keene, some rights reserved (CC BY-NC), uploaded by Laura Keene",
+   "photo": 189434971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452211474/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nPaul Danese, some rights reserved (CC BY-SA)",
+   "photo": 452211474
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452211470/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nPaul Danese, some rights reserved (CC BY-SA)",
+   "photo": 452211470
+  }
+ ]
 }

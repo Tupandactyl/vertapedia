@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338036999/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC), uploaded by Jorge A. Pérez Torres",
+   "photo": 338036999
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14950092/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY)",
+   "photo": 14950092
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156376928/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eric gofreed, some rights reserved (CC BY-NC), uploaded by eric gofreed",
+   "photo": 156376928
+  }
+ ]
 }

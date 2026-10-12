@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120799987/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Morten Ross, some rights reserved (CC BY), uploaded by Morten Ross",
+   "photo": 120799987
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58192149/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bluebugs, some rights reserved (CC BY-NC), uploaded by bluebugs",
+   "photo": 58192149
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56618918/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY), uploaded by Cullen Hanks",
+   "photo": 56618918
+  }
+ ]
 }

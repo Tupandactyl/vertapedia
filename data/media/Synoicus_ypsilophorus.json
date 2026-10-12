@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/715282362/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison, some rights reserved (CC BY-SA)",
+   "photo": 715282362
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502172330/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brendan Fogarty, some rights reserved (CC BY-NC), uploaded by Brendan Fogarty",
+   "photo": 502172330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420256517/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julie Carp, some rights reserved (CC BY-NC), uploaded by Julie Carp",
+   "photo": 420256517
+  }
+ ]
 }

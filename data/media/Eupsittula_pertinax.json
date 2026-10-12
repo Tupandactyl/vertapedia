@@ -196,5 +196,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100107080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fernando Nunes, some rights reserved (CC BY-NC), uploaded by Fernando Nunes",
+   "photo": 100107080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348384363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
+   "photo": 348384363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18312883/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan José López Negrete, some rights reserved (CC BY-NC-SA), uploaded by Juan José López Negrete",
+   "photo": 18312883
+  }
+ ]
 }

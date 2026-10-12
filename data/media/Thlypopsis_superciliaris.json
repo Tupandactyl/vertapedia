@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568518/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+   "photo": 568518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141344/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-SA)",
+   "photo": 141344
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103315099/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, some rights reserved (CC BY-NC), uploaded by Nelson Apolo",
+   "photo": 103315099
+  }
+ ]
 }

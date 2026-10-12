@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7773/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maggie.Smith, some rights reserved (CC BY-NC)",
+   "photo": 7773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/828576/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Morris, some rights reserved (CC BY-NC)",
+   "photo": 828576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1712323/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Chill, some rights reserved (CC BY-NC-SA)",
+   "photo": 1712323
+  }
+ ]
 }

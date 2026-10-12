@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361908239/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tobias Polzer, some rights reserved (CC BY-NC), uploaded by Tobias Polzer",
+   "photo": 361908239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57011505/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Papageorgiou Nikolaos, some rights reserved (CC BY-NC), uploaded by Papageorgiou Nikolaos",
+   "photo": 57011505
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166959755/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "photo": 166959755
+  }
+ ]
 }

@@ -151,5 +151,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32658066/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 32658066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12398728/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 12398728
+  }
+ ]
 }

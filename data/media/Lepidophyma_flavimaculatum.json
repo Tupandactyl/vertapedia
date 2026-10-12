@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336728975/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Ma Contortrix, some rights reserved (CC BY-NC), uploaded by Juan Ma Contortrix",
+   "photo": 336728975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173509454/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC), uploaded by Richard D Reams",
+   "photo": 173509454
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177204549/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sacbé, some rights reserved (CC BY-NC), uploaded by Sacbé",
+   "photo": 177204549
+  }
+ ]
 }

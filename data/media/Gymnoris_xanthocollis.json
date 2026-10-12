@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113558543/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anil Kumar Verma, some rights reserved (CC BY-NC), uploaded by Anil Kumar Verma",
+   "photo": 113558543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584785954/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Raju Kasambe, some rights reserved (CC BY-NC-SA), uploaded by Raju Kasambe",
+   "photo": 584785954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586454974/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maitrey Chhaya, some rights reserved (CC BY-NC), uploaded by Maitrey Chhaya",
+   "photo": 586454974
+  }
+ ]
 }

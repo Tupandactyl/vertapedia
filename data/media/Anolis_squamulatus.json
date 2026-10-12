@@ -46,5 +46,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399827858/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Cabello Maleno, algunos derechos reservados (CC BY-NC), subido por Pedro Cabello Maleno",
+   "photo": 399827858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337363082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrej Funk, algunos derechos reservados (CC BY-NC), subido por Andrej Funk",
+   "photo": 337363082
+  }
+ ]
 }

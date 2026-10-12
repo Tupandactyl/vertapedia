@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1590593/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leandro Alvarez, some rights reserved (CC BY-NC-SA), uploaded by Leandro Alvarez",
+   "photo": 1590593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145857214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rdsage, some rights reserved (CC BY-NC), uploaded by rdsage",
+   "photo": 145857214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186900665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edgar Romeo, some rights reserved (CC BY-NC), uploaded by Edgar Romeo",
+   "photo": 186900665
+  }
+ ]
 }

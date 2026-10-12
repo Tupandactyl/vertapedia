@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256196659/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dawnborchardt, some rights reserved (CC BY-NC)",
+   "photo": 256196659
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54992768/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Tytherleigh, some rights reserved (CC BY-NC), uploaded by David Tytherleigh",
+   "photo": 54992768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63221812/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 63221812
+  }
+ ]
 }

@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260929893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, alguns direitos reservados (CC BY-NC), carregado por Steve Murray",
+   "photo": 260929893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266765178/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sam Gordon, alguns direitos reservados (CC BY-NC-SA), carregado por Sam Gordon",
+   "photo": 266765178
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110632764/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, alguns direitos reservados (CC BY-NC), carregado por Mikael Bauer",
+   "photo": 110632764
+  }
+ ]
 }

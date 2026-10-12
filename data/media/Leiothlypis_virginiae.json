@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29993008/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Shortell, some rights reserved (CC BY-NC), uploaded by Tim Shortell",
+   "photo": 29993008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283300/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 283300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341037018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Agosto, some rights reserved (CC BY-NC), uploaded by Luis Agosto",
+   "photo": 341037018
+  }
+ ]
 }

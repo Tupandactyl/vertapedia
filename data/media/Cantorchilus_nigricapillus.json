@@ -158,5 +158,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28587798/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Wendelken, some rights reserved (CC BY-NC), uploaded by Dave Wendelken",
+   "photo": 28587798
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65578619/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pointrond, some rights reserved (CC BY-NC), uploaded by pointrond",
+   "photo": 65578619
+  }
+ ]
 }

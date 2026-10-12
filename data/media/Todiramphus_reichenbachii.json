@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39741781/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, osa oikeuksista pidätetään (CC BY-SA), lähettänyt Thibaud Aronson",
+   "photo": 39741781
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39755820/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, osa oikeuksista pidätetään (CC BY-SA), lähettänyt Thibaud Aronson",
+   "photo": 39755820
+  }
+ ]
 }

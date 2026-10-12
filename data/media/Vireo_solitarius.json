@@ -171,5 +171,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37633612/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Janes, some rights reserved (CC BY-NC), uploaded by Ken Janes",
+   "photo": 37633612
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87193362/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sarah Wiebe, some rights reserved (CC BY-NC), uploaded by Sarah Wiebe",
+   "photo": 87193362
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16997521/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) isaacsanchez, some rights reserved (CC BY-NC), uploaded by isaacsanchez",
+   "photo": 16997521
+  }
+ ]
 }

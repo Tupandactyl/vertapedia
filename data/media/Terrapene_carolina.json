@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48987498/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Coldiron, some rights reserved (CC BY-NC), uploaded by Richard Coldiron",
+   "photo": 48987498
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107591995/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Coldiron, some rights reserved (CC BY-NC), uploaded by Richard Coldiron",
+   "photo": 107591995
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18191877/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Jones, some rights reserved (CC BY-NC), uploaded by Ryan Jones",
+   "photo": 18191877
+  }
+ ]
 }

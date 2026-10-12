@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91620138/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) www.viajar24h.com, some rights reserved (CC BY)",
+   "photo": 91620138
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332678295/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Stephane Mignon, some rights reserved (CC BY)",
+   "photo": 332678295
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157554668/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John Spade, some rights reserved (CC BY)",
+   "photo": 157554668
+  }
+ ]
 }

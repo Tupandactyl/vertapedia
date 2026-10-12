@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21109184/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lauren Gore, some rights reserved (CC BY), uploaded by Lauren Gore",
+   "photo": 21109184
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78376445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) OZinOH, some rights reserved (CC BY-NC)",
+   "photo": 78376445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76572674/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 76572674
+  }
+ ]
 }

@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10696942/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David G. Barker, some rights reserved (CC BY-NC), uploaded by David G. Barker",
+   "photo": 10696942
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8566795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David G. Barker, some rights reserved (CC BY-NC), uploaded by David G. Barker",
+   "photo": 8566795
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2845553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 2845553
+  }
+ ]
 }

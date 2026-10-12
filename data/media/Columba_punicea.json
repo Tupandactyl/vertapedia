@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550866635/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Haitong and Nicola, some rights reserved (CC BY-NC), uploaded by Haitong and Nicola",
+   "photo": 550866635
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586857044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) usaviah, some rights reserved (CC BY-NC)",
+   "photo": 586857044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107227589/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vatcharavee Sriprasertsil, some rights reserved (CC BY-NC), uploaded by Vatcharavee Sriprasertsil",
+   "photo": 107227589
+  }
+ ]
 }

@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8156204/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Adams, some rights reserved (CC BY-NC), uploaded by J. Adams",
+   "photo": 8156204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4989121/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carol McDougall, some rights reserved (CC BY-NC), uploaded by Carol McDougall",
+   "photo": 4989121
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13400807/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13400807
+  }
+ ]
 }

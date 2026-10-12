@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348797359/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maryse, some rights reserved (CC BY-NC), uploaded by Maryse",
+   "photo": 348797359
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9267560/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James McCulloch, some rights reserved (CC BY-NC), uploaded by James McCulloch",
+   "photo": 9267560
+  }
+ ]
 }

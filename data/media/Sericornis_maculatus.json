@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178998349/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darcy Whittaker, some rights reserved (CC BY-NC), uploaded by Darcy Whittaker",
+   "photo": 178998349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204830239/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Dew, some rights reserved (CC BY-NC), uploaded by Steve Dew",
+   "photo": 204830239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242879524/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Keith Morris, some rights reserved (CC BY-NC), uploaded by Keith Morris",
+   "photo": 242879524
+  }
+ ]
 }

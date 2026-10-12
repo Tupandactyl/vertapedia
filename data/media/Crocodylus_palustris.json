@@ -227,5 +227,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99149828/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 99149828
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62179564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vladimir Tkalčić, some rights reserved (CC BY-NC), uploaded by Vladimir Tkalčić",
+   "photo": 62179564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71115313/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dr. Raju Kasambe, some rights reserved (CC BY-SA)",
+   "photo": 71115313
+  }
+ ]
 }

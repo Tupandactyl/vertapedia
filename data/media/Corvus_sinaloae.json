@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184087708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 184087708
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17267047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Whitney Tsai Nakashima, some rights reserved (CC BY-NC), uploaded by Whitney Tsai Nakashima",
+   "photo": 17267047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84302/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 84302
+  }
+ ]
 }

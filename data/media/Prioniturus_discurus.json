@@ -120,5 +120,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732153/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 732153
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159071410/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) TJ Lin, some rights reserved (CC BY-SA)",
+   "photo": 159071410
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524995060/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC), uploaded by Hiroki Shudo",
+   "photo": 524995060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452652526/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcocml, some rights reserved (CC BY-NC)",
+   "photo": 452652526
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452654137/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcocml, some rights reserved (CC BY-NC)",
+   "photo": 452654137
+  }
+ ]
 }

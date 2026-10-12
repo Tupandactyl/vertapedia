@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291652365/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) piyapong, some rights reserved (CC BY-NC)",
+   "photo": 291652365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446991366/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) momo shou, some rights reserved (CC BY-NC), uploaded by momo shou",
+   "photo": 446991366
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20232447/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 20232447
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27206944/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) llimy, some rights reserved (CC BY-NC)",
+   "photo": 27206944
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29018447/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Sandino Guerrero, some rights reserved (CC BY), uploaded by Sandino Guerrero",
+   "photo": 29018447
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86207551/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francisco Valdes Perezgasga, some rights reserved (CC BY-NC), uploaded by Francisco Valdes Perezgasga",
+   "photo": 86207551
+  }
+ ]
 }

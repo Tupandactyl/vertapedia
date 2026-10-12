@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33689094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehmet ÜNLÜ, bazı hakları saklıdır (CC BY-NC), yükleyen: Mehmet ÜNLÜ",
+   "photo": 33689094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513455659/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, bazı hakları saklıdır (CC BY), yükleyen: Tommy Andriollo",
+   "photo": 513455659
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513455544/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, bazı hakları saklıdır (CC BY), yükleyen: Tommy Andriollo",
+   "photo": 513455544
+  }
+ ]
 }

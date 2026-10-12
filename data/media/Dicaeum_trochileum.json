@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351534593/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hammam As, some rights reserved (CC BY-NC), uploaded by Hammam As",
+   "photo": 351534593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4290433/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Durand, some rights reserved (CC BY-NC), uploaded by Bruno Durand",
+   "photo": 4290433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6423554/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldman19510, some rights reserved (CC BY-NC), uploaded by oldman19510",
+   "photo": 6423554
+  }
+ ]
 }

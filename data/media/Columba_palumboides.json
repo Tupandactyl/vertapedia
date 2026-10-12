@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13276314/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Albinjacob, some rights reserved (CC BY-SA)",
+   "photo": 13276314
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290905/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Balaji Venkatesh Sivaramakrishnan, some rights reserved (CC BY-NC-SA)",
+   "photo": 2290905
+  }
+ ]
 }

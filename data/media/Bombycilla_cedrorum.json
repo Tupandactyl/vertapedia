@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450146514/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manny Salas, some rights reserved (CC BY-NC), uploaded by Manny Salas",
+   "photo": 450146514
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31524582/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Tansley, some rights reserved (CC BY-NC), uploaded by Kyle Tansley",
+   "photo": 31524582
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82774602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Tansley, some rights reserved (CC BY-NC), uploaded by Kyle Tansley",
+   "photo": 82774602
+  }
+ ]
 }

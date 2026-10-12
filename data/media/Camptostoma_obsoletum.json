@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158365591/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 158365591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594937669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amandapmarcon, some rights reserved (CC BY-NC), uploaded by amandapmarcon",
+   "photo": 594937669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399141375/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 399141375
+  }
+ ]
 }

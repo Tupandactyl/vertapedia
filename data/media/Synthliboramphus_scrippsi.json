@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545999169/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) idavignon, some rights reserved (CC BY-NC), uploaded by idavignon",
+   "photo": 545999169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306601122/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Michael Eisen, some rights reserved (CC BY), uploaded by Michael Eisen",
+   "photo": 306601122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471044314/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Humberto \"Beto\" Montemayor, some rights reserved (CC BY-NC), uploaded by Luis Humberto \"Beto\" Montemayor",
+   "photo": 471044314
+  }
+ ]
 }

@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67855/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Laura Gooch, some rights reserved (CC BY-SA)",
+   "photo": 67855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208018302/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ronald W Smith, some rights reserved (CC BY-NC), uploaded by Ronald W Smith",
+   "photo": 208018302
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186540696/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by steve b",
+   "photo": 186540696
+  }
+ ]
 }

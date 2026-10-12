@@ -32,5 +32,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250146/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 艾小可@科技百科2.01，保留部分权利（CC BY-NC-SA）",
+   "photo": 250146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/745998040/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuxuan Liu，保留部分权利（CC BY-NC）, 由 Yuxuan Liu 上传",
+   "photo": 745998040
+  }
+ ]
 }

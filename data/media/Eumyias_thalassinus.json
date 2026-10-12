@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175806086/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cheongweei Gan, some rights reserved (CC BY), uploaded by Cheongweei Gan",
+   "photo": 175806086
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172276600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 172276600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247739772/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Sevin Dee, some rights reserved (CC BY), uploaded by Sevin Dee",
+   "photo": 247739772
+  }
+ ]
 }

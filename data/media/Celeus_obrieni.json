@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29471547/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Joao Quental, some rights reserved (CC BY)",
+   "photo": 29471547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420812825/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luiz Moschini, some rights reserved (CC BY-NC), uploaded by Luiz Moschini",
+   "photo": 420812825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437849419/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 437849419
+  }
+ ]
 }

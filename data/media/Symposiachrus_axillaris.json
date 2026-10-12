@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3271496/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3271496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340501136/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Jean-Paul Boerekamps",
+   "photo": 340501136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5155691/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Katerina Tvardikova, some rights reserved (CC BY-NC-SA)",
+   "photo": 5155691
+  }
+ ]
 }

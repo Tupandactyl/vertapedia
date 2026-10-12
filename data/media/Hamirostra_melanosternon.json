@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9194063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julius Simonelli, some rights reserved (CC BY-NC), uploaded by Julius Simonelli",
+   "photo": 9194063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227267045/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Schakelaar, some rights reserved (CC BY-NC), uploaded by Donna Schakelaar",
+   "photo": 227267045
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29313652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 29313652
+  }
+ ]
 }

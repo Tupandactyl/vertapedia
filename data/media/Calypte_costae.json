@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665376485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Braxton L., some rights reserved (CC BY-NC), uploaded by Braxton L.",
+   "photo": 665376485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5927465/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Claudia Jeannette Pérez Estrada, some rights reserved (CC BY-NC-SA), uploaded by Claudia Jeannette Pérez Estrada",
+   "photo": 5927465
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665376333/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Braxton L., some rights reserved (CC BY-NC), uploaded by Braxton L.",
+   "photo": 665376333
+  }
+ ]
 }

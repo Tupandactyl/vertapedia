@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15932302/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clodoaldo Costa Junior, some rights reserved (CC BY-NC), uploaded by Clodoaldo Costa Junior",
+   "photo": 15932302
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269081330/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 269081330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8229596/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 8229596
+  }
+ ]
 }

@@ -113,5 +113,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310601654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 310601654
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168366228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 168366228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104445740/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Payal Thakur, some rights reserved (CC BY-NC), uploaded by Payal Thakur",
+   "photo": 104445740
+  }
+ ]
 }

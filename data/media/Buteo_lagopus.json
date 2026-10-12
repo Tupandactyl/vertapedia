@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5813/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rick Leche - Photography, some rights reserved (CC BY-NC)",
+   "photo": 5813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28379192/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dmitry Boldyrev, some rights reserved (CC BY-NC-SA), uploaded by Dmitry Boldyrev",
+   "photo": 28379192
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256627802/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Channa Jayasinghe, some rights reserved (CC BY-NC), uploaded by Channa Jayasinghe",
+   "photo": 256627802
+  }
+ ]
 }

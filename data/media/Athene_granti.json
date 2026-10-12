@@ -38,5 +38,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332660733/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 332660733
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456272358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC), uploaded by peter maaskant",
+   "photo": 456272358
+  }
+ ]
 }

@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13404932/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lauriekoepke, some rights reserved (CC BY-NC)",
+   "photo": 13404932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350732751/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Hjalmarson, some rights reserved (CC BY-NC), uploaded by Emily Hjalmarson",
+   "photo": 350732751
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248036189/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Benson, some rights reserved (CC BY-NC), uploaded by Tom Benson",
+   "photo": 248036189
+  }
+ ]
 }

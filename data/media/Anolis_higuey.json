@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346828236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gabriellugo, some rights reserved (CC BY-NC)",
+   "photo": 346828236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102241312/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Nunes, some rights reserved (CC BY-NC), uploaded by Christian Nunes",
+   "photo": 102241312
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81111695/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 81111695
+  }
+ ]
 }

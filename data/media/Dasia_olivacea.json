@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173059513/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfian surya Fathoni, some rights reserved (CC BY-NC), uploaded by Alfian surya Fathoni",
+   "photo": 173059513
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60375951/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fajar Kaprawi, some rights reserved (CC BY-NC), uploaded by Fajar Kaprawi",
+   "photo": 60375951
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157497353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Binturong27, some rights reserved (CC BY-NC), uploaded by Binturong27",
+   "photo": 157497353
+  }
+ ]
 }

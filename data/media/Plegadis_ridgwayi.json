@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296537824/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Fernández Reza, some rights reserved (CC BY-NC), uploaded by Eduardo Fernández Reza",
+   "photo": 296537824
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528416475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sashacahill, some rights reserved (CC BY-NC), uploaded by sashacahill",
+   "photo": 528416475
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351257667/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt and Kaysea Bruce, some rights reserved (CC BY-NC), uploaded by Matt and Kaysea Bruce",
+   "photo": 351257667
+  }
+ ]
 }

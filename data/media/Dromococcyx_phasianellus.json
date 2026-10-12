@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250837780/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anderson Sandro, some rights reserved (CC BY-NC), uploaded by Anderson Sandro",
+   "photo": 250837780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398008532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 398008532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32019139/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Estrada, some rights reserved (CC BY-NC), uploaded by Eduardo Estrada",
+   "photo": 32019139
+  }
+ ]
 }

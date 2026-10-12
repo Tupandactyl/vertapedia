@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2608962/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) whodden, some rights reserved (CC BY-NC), uploaded by whodden",
+   "photo": 2608962
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173982739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Science and Education Coordinator MS FRAM, some rights reserved (CC BY-NC), uploaded by Science and Education Coordinator MS FRAM",
+   "photo": 173982739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179490920/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noah Strycker, some rights reserved (CC BY-NC), uploaded by Noah Strycker",
+   "photo": 179490920
+  }
+ ]
 }

@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123410763/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Михаил Анурьев, some rights reserved (CC BY-NC), uploaded by Михаил Анурьев",
+   "photo": 123410763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89434783/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dina Nesterkova, some rights reserved (CC BY-NC), uploaded by Dina Nesterkova",
+   "photo": 89434783
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1992110/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1992110
+  }
+ ]
 }

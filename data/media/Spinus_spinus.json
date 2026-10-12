@@ -184,5 +184,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458846447/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "photo": 458846447
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177544237/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "photo": 177544237
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458846454/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nSławek Staszczuk (photoss [AT] hotmail.co.uk), some rights reserved (CC BY-SA)",
+   "photo": 458846454
+  }
+ ]
 }

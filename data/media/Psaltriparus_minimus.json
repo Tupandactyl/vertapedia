@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111125701/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Krebs, some rights reserved (CC BY-NC-SA)",
+   "photo": 111125701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107086461/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Becky Matsubara, some rights reserved (CC BY)",
+   "photo": 107086461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66325129/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Arredondo T., some rights reserved (CC BY-NC), uploaded by Ricardo Arredondo T.",
+   "photo": 66325129
+  }
+ ]
 }

@@ -163,5 +163,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6825224/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 6825224
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64719047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hudson Martins Soares, some rights reserved (CC BY-NC), uploaded by Hudson Martins Soares",
+   "photo": 64719047
+  }
+ ]
 }

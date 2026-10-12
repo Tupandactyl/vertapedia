@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465446867/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY), uploaded by Dominik Maximilián Ramík",
+   "photo": 465446867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392717000/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY), uploaded by Dominik Maximilián Ramík",
+   "photo": 392717000
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141138681/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 141138681
+  }
+ ]
 }

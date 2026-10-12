@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23220356/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 23220356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54921944/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Mitchell, some rights reserved (CC BY-NC), uploaded by Christopher Mitchell",
+   "photo": 54921944
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44693540/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) datadan, some rights reserved (CC BY), uploaded by datadan",
+   "photo": 44693540
+  }
+ ]
 }

@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153069460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) owling, osa oikeuksista pidätetään (CC BY-NC), lähettänyt owling",
+   "photo": 153069460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11058601/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Tan Kok Hui",
+   "photo": 11058601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10966763/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Tan Kok Hui",
+   "photo": 10966763
+  }
+ ]
 }

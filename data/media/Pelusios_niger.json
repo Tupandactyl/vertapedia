@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109300490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Beat Akeret, some rights reserved (CC BY-NC), uploaded by Beat Akeret",
+   "photo": 109300490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60354651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raynacb, some rights reserved (CC BY-NC)",
+   "photo": 60354651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109300397/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Beat Akeret, some rights reserved (CC BY-NC), uploaded by Beat Akeret",
+   "photo": 109300397
+  }
+ ]
 }

@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481706671/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 481706671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4605404/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt Goff, some rights reserved (CC BY-NC-SA), uploaded by Matt Goff",
+   "photo": 4605404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317023/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 317023
+  }
+ ]
 }

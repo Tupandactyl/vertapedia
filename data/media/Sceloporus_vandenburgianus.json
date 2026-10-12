@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137397078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew Ferretti, some rights reserved (CC BY-NC), uploaded by Matthew Ferretti",
+   "photo": 137397078
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/955915/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mickey Long, some rights reserved (CC BY-NC), uploaded by Mickey Long",
+   "photo": 955915
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1342822/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+   "photo": 1342822
+  }
+ ]
 }

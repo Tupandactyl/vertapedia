@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531834901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC), uploaded by Bobby Bok",
+   "photo": 531834901
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Clifton, some rights reserved (CC BY-NC)",
+   "photo": 405950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2894253/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Carrie Seltzer, some rights reserved (CC BY), uploaded by Carrie Seltzer",
+   "photo": 2894253
+  }
+ ]
 }

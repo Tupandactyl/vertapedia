@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260043938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frode Jacobsen, some rights reserved (CC BY-NC), uploaded by Frode Jacobsen",
+   "photo": 260043938
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232767/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 232767
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223454/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 223454
+  }
+ ]
 }

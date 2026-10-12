@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350974/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rick elis.simpson, some rights reserved (CC BY-SA)",
+   "photo": 350974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350975/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hesperia2007 (Shirley), some rights reserved (CC BY-SA)",
+   "photo": 350975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118184553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 118184553
+  }
+ ]
 }

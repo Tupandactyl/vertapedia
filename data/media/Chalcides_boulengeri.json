@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776890/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 776890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/547856896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, some rights reserved (CC BY-NC), uploaded by Leonid A. Neymark",
+   "photo": 547856896
+  }
+ ]
 }

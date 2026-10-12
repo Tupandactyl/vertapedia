@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122821734/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Associação Vita Nativa, some rights reserved (CC BY-NC), uploaded by Associação Vita Nativa",
+   "photo": 122821734
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/493775528/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Li Jianong, some rights reserved (CC BY-NC), uploaded by Li Jianong",
+   "photo": 493775528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279478450/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+   "photo": 279478450
+  }
+ ]
 }

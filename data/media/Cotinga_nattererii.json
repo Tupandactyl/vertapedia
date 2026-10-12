@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3967158/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenn Sinasac, some rights reserved (CC BY-NC), uploaded by Jenn Sinasac",
+   "photo": 3967158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98915956/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, some rights reserved (CC BY-NC), uploaded by Nelson Apolo",
+   "photo": 98915956
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58779921/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riskin, some rights reserved (CC BY), uploaded by Dan Riskin",
+   "photo": 58779921
+  }
+ ]
 }

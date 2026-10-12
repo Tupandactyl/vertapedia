@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166959095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryan Caro San Martin, some rights reserved (CC BY-NC), uploaded by Bryan Caro San Martin",
+   "photo": 166959095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562664436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) javiervillamil, some rights reserved (CC BY-NC)",
+   "photo": 562664436
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31580317/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 31580317
+  }
+ ]
 }

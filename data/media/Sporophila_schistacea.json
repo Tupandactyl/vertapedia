@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58790930/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riskin, some rights reserved (CC BY), uploaded by Dan Riskin",
+   "photo": 58790930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38209950/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donald Pendleton, some rights reserved (CC BY-NC), uploaded by Donald Pendleton",
+   "photo": 38209950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235128158/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josef Stulz, some rights reserved (CC BY-NC), uploaded by Josef Stulz",
+   "photo": 235128158
+  }
+ ]
 }

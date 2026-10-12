@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117669910/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 117669910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58380546/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Axel Cubilla Rodríguez, some rights reserved (CC BY), uploaded by Jan Axel Cubilla Rodríguez",
+   "photo": 58380546
+  }
+ ]
 }

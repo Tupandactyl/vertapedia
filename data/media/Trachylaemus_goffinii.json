@@ -49,5 +49,25 @@
    "date": "2023-12-29"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480782749/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 480782749
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346391566/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lappuggla, some rights reserved (CC BY-NC)",
+   "photo": 346391566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357614265/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Moore, some rights reserved (CC BY-NC), uploaded by Nick Moore",
+   "photo": 357614265
+  }
+ ]
 }

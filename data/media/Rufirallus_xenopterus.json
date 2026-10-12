@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176298508/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luiz Alberto Santos, some rights reserved (CC BY-NC), uploaded by Luiz Alberto Santos",
+   "photo": 176298508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352055466/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Augusto Ferreira, some rights reserved (CC BY-NC), uploaded by Eduardo Augusto Ferreira",
+   "photo": 352055466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352684748/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jhennif, some rights reserved (CC BY-NC)",
+   "photo": 352684748
+  }
+ ]
 }

@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212658674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC), uploaded by Peter Ericsson",
+   "photo": 212658674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60008556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikel Yaki, some rights reserved (CC BY-NC), uploaded by Mikel Yaki",
+   "photo": 60008556
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53180929/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andi Siady Hamzah, some rights reserved (CC BY-NC), uploaded by Andi Siady Hamzah",
+   "photo": 53180929
+  }
+ ]
 }

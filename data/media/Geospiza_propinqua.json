@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132981142/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tristan Jobin, some rights reserved (CC BY), uploaded by Tristan Jobin",
+   "photo": 132981142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44040661/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 44040661
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49964302/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Harbula, some rights reserved (CC BY-NC), uploaded by Steve Harbula",
+   "photo": 49964302
+  }
+ ]
 }

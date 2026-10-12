@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198550919/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mark Bolnik, some rights reserved (CC BY), uploaded by Mark Bolnik",
+   "photo": 198550919
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253706297/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+   "photo": 253706297
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275474553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Delport, some rights reserved (CC BY-NC), uploaded by Marie Delport",
+   "photo": 275474553
+  }
+ ]
 }

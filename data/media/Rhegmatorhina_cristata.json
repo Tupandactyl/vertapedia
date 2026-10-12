@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249260770/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Abby Darrah, some rights reserved (CC BY), uploaded by Abby Darrah",
+   "photo": 249260770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12015679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Beja, some rights reserved (CC BY-NC), uploaded by Pedro Beja",
+   "photo": 12015679
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60450144/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Jeffrey Ringer, some rights reserved (CC BY-NC), uploaded by David Jeffrey Ringer",
+   "photo": 60450144
+  }
+ ]
 }

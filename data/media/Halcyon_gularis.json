@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46228416/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Len Worthington, osa oikeuksista pidätetään (CC BY-SA), lähettänyt Len Worthington",
+   "photo": 46228416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32327968/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Pauline Carmel Joy Eje, osa oikeuksista pidätetään (CC BY), lähettänyt Pauline Carmel Joy Eje",
+   "photo": 32327968
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31724572/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Pauline Carmel Joy Eje, osa oikeuksista pidätetään (CC BY), lähettänyt Pauline Carmel Joy Eje",
+   "photo": 31724572
+  }
+ ]
 }

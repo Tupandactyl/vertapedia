@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416898061/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) vinicius_s_domingues, some rights reserved (CC BY)",
+   "photo": 416898061
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341599499/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Francisco V. Bezerra Neto, some rights reserved (CC BY-SA), uploaded by Francisco V. Bezerra Neto",
+   "photo": 341599499
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250451945/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Amaral, some rights reserved (CC BY-NC), uploaded by Antonio Amaral",
+   "photo": 250451945
+  }
+ ]
 }

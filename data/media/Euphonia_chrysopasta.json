@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132727381/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tristan Jobin, some rights reserved (CC BY), uploaded by Tristan Jobin",
+   "photo": 132727381
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28763521/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Oscar Marín, some rights reserved (CC BY-SA), uploaded by Oscar Marín",
+   "photo": 28763521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60006437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY-NC), uploaded by Trevor Van Loon",
+   "photo": 60006437
+  }
+ ]
 }

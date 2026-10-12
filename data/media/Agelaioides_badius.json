@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9034313/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vincent A. Vos, some rights reserved (CC BY), uploaded by Vincent A. Vos",
+   "photo": 9034313
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2143892/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 2143892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153825/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roland Kratzer, some rights reserved (CC BY-NC-SA)",
+   "photo": 153825
+  }
+ ]
 }

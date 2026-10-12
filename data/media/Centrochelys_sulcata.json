@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286883668/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 286883668
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45836044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) garma55, some rights reserved (CC BY-NC)",
+   "photo": 45836044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72135473/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Macdonald, some rights reserved (CC BY-NC), uploaded by Doug Macdonald",
+   "photo": 72135473
+  }
+ ]
 }

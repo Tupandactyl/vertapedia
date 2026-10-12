@@ -30,5 +30,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223217080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Larry Chen, some rights reserved (CC BY-NC), uploaded by Larry Chen",
+   "photo": 223217080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223217096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Larry Chen, some rights reserved (CC BY-NC), uploaded by Larry Chen",
+   "photo": 223217096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223217128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Larry Chen, some rights reserved (CC BY-NC), uploaded by Larry Chen",
+   "photo": 223217128
+  }
+ ]
 }

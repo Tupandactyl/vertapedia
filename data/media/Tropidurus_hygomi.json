@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83917/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rodrigo Siqueira, some rights reserved (CC BY-NC-SA)",
+   "photo": 83917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178311876/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 178311876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178312422/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 178312422
+  }
+ ]
 }

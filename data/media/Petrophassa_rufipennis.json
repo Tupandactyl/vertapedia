@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455797777/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 455797777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123753242/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nimzee, some rights reserved (CC BY-NC), uploaded by Nimzee",
+   "photo": 123753242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57658728/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford",
+   "photo": 57658728
+  }
+ ]
 }

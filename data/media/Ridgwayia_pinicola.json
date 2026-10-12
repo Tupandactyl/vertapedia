@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192906466/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 192906466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9913/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Brennan Mulrooney, some rights reserved (CC BY-SA)",
+   "photo": 9913
+  }
+ ]
 }

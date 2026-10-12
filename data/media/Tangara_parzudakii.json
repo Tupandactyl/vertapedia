@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22417297/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 22417297
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61003363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allen Chartier, some rights reserved (CC BY-NC), uploaded by Allen Chartier",
+   "photo": 61003363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/570870/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+   "photo": 570870
+  }
+ ]
 }

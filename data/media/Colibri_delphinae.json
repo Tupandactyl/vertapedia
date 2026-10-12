@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59818657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 59818657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160333648/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 160333648
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64069284/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andy Pearce 🕊, some rights reserved (CC BY-NC), uploaded by Andy Pearce 🕊",
+   "photo": 64069284
+  }
+ ]
 }

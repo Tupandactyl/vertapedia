@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2029461/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2029461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70297863/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jan Meerman, some rights reserved (CC BY-NC), uploaded by Jan Meerman",
+   "photo": 70297863
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56098989/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 56098989
+  }
+ ]
 }

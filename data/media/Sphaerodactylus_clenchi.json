@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87577266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luismartinezartola, some rights reserved (CC BY-NC)",
+   "photo": 87577266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95159018/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Evan Centanni, some rights reserved (CC BY-NC-SA), uploaded by Evan Centanni",
+   "photo": 95159018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42238914/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hv001, some rights reserved (CC BY-NC), uploaded by hv001",
+   "photo": 42238914
+  }
+ ]
 }

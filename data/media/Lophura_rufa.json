@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24007780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 24007780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257407133/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andraescholz, some rights reserved (CC BY-NC), uploaded by andraescholz",
+   "photo": 257407133
+  }
+ ]
 }

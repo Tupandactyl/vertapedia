@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251495745/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC-SA), uploaded by brian fisher",
+   "photo": 251495745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321083583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 321083583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345341862/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 345341862
+  }
+ ]
 }

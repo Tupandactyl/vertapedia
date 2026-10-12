@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109740679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Carter, some rights reserved (CC BY-NC), uploaded by Paul Carter",
+   "photo": 109740679
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49279287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bionerds, some rights reserved (CC BY-NC), uploaded by Bionerds",
+   "photo": 49279287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15205185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 15205185
+  }
+ ]
 }

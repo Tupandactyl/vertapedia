@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292193973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Melton, some rights reserved (CC BY-NC), uploaded by Mike Melton",
+   "photo": 292193973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263837148/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY), uploaded by Ken-ichi Ueda",
+   "photo": 263837148
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64895243/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jessica Daze, some rights reserved (CC BY-NC), uploaded by Jessica Daze",
+   "photo": 64895243
+  }
+ ]
 }

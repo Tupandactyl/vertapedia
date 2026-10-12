@@ -118,5 +118,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347668163/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
+   "photo": 347668163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1901798/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) kirstenrose, some rights reserved (CC BY-NC)",
+   "photo": 1901798
+  }
+ ]
 }

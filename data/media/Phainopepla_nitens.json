@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355890/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alan Vernon, some rights reserved (CC BY-NC-SA)",
+   "photo": 355890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38642749/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Rohrer, some rights reserved (CC BY-NC), uploaded by Chris Rohrer",
+   "photo": 38642749
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105737087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Lindsey, some rights reserved (CC BY-NC), uploaded by Christopher Lindsey",
+   "photo": 105737087
+  }
+ ]
 }

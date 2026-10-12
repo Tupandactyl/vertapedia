@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60988052/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martín Sosa Reyes, some rights reserved (CC BY-NC), uploaded by Martín Sosa Reyes",
+   "photo": 60988052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/281548872/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Ma Contortrix, some rights reserved (CC BY-NC), uploaded by Juan Ma Contortrix",
+   "photo": 281548872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196349867/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Emmanuel Guevara Lazcano, some rights reserved (CC BY-NC-SA), uploaded by Emmanuel Guevara Lazcano",
+   "photo": 196349867
+  }
+ ]
 }

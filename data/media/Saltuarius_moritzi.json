@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359228393/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Max Tibby",
+   "photo": 359228393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59157219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Gorta, some rights reserved (CC BY-NC), uploaded by Simon Gorta",
+   "photo": 59157219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343852179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 343852179
+  }
+ ]
 }

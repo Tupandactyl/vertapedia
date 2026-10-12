@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353806586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergey Yeliseev, some rights reserved (CC BY-NC), uploaded by Sergey Yeliseev",
+   "photo": 353806586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389793000/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Михаил Голомысов, some rights reserved (CC BY), uploaded by Михаил Голомысов",
+   "photo": 389793000
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2645590/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) daviddvd-fudan, some rights reserved (CC BY-NC-SA)",
+   "photo": 2645590
+  }
+ ]
 }

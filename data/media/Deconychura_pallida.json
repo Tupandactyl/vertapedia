@@ -155,5 +155,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13425998/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Filho Manfredini, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Filho Manfredini",
+   "photo": 13425998
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117132650/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Edson Guilherme",
+   "photo": 117132650
+  }
+ ]
 }

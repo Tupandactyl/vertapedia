@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132095469/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dennis Laidler, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Dennis Laidler",
+   "photo": 132095469
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81119524/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerette Lotter, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Gerette Lotter",
+   "photo": 81119524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44891/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) 116916927065934112165, osa oikeuksista pidätetään (CC BY), lähettänyt 116916927065934112165",
+   "photo": 44891
+  }
+ ]
 }

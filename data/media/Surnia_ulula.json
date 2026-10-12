@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22530903/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Terry Gray, some rights reserved (CC BY-NC), uploaded by Terry Gray",
+   "photo": 22530903
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16029376/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ichuck, some rights reserved (CC BY-NC), uploaded by ichuck",
+   "photo": 16029376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26040754/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Yakovlev, some rights reserved (CC BY-NC), uploaded by Alexander Yakovlev",
+   "photo": 26040754
+  }
+ ]
 }

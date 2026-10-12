@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65813/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Магадан, some rights reserved (CC BY-NC-SA)",
+   "photo": 65813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47438958/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jugbayjs, some rights reserved (CC BY-NC), uploaded by jugbayjs",
+   "photo": 47438958
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239756160/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) brendanboyd, some rights reserved (CC BY)",
+   "photo": 239756160
+  }
+ ]
 }

@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5651/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Michael Hodge, some rights reserved (CC BY-NC-SA)",
+   "photo": 5651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62853099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
+   "photo": 62853099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112004436/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bonnie Kinder, some rights reserved (CC BY-NC), uploaded by Bonnie Kinder",
+   "photo": 112004436
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132296084/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) akw123, some rights reserved (CC BY-NC)",
+   "photo": 132296084
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80660776/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+   "photo": 80660776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75366618/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood",
+   "photo": 75366618
+  }
+ ]
 }

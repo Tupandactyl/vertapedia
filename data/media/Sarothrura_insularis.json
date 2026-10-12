@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626730547/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 626730547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146587300/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) inlandbirder, some rights reserved (CC BY-NC)",
+   "photo": 146587300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622291794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 622291794
+  }
+ ]
 }

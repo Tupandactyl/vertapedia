@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240539572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Rolph, some rights reserved (CC BY-NC), uploaded by Scott Rolph",
+   "photo": 240539572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152846214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Wilson, some rights reserved (CC BY-NC), uploaded by Doug Wilson",
+   "photo": 152846214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221128331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dean, some rights reserved (CC BY-NC), uploaded by Dean",
+   "photo": 221128331
+  }
+ ]
 }

@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14411660/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 14411660
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178682707/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY), uploaded by Trevor Van Loon",
+   "photo": 178682707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116549134/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) G. VIGO, some rights reserved (CC BY-NC), uploaded by G. VIGO",
+   "photo": 116549134
+  }
+ ]
 }

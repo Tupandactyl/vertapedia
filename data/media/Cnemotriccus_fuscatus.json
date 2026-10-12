@@ -172,5 +172,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26920862/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26920862
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25959619/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heitor Fagundes Beloch, some rights reserved (CC BY-NC), uploaded by Heitor Fagundes Beloch",
+   "photo": 25959619
+  }
+ ]
 }

@@ -73,5 +73,25 @@
    "date": "2025-09-18"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265884534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frankpierce, some rights reserved (CC BY-NC), uploaded by frankpierce",
+   "photo": 265884534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313661885/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Madelen Andersen, some rights reserved (CC BY-NC), uploaded by Madelen Andersen",
+   "photo": 313661885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157671706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tanyahattingh, some rights reserved (CC BY-NC)",
+   "photo": 157671706
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58600069/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emiliano Hernández Mejía, some rights reserved (CC BY-NC), uploaded by Emiliano Hernández Mejía",
+   "photo": 58600069
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1990892/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karlo Soto, some rights reserved (CC BY-NC), uploaded by Karlo Soto",
+   "photo": 1990892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4061615/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leticia Soriano Flores, some rights reserved (CC BY-NC), uploaded by Leticia Soriano Flores",
+   "photo": 4061615
+  }
+ ]
 }

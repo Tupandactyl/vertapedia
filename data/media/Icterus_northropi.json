@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24073794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Harris, some rights reserved (CC BY-NC), uploaded by Bert Harris",
+   "photo": 24073794
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11953999/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Mxmerce, some rights reserved (CC BY-SA)",
+   "photo": 11953999
+  }
+ ]
 }

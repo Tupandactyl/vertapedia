@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292289740/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Parth Kansara, some rights reserved (CC BY), uploaded by Parth Kansara",
+   "photo": 292289740
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240800/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 240800
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47401260/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 47401260
+  }
+ ]
 }

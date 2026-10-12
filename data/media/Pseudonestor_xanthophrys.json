@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110192639/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Araks Ohanyan, some rights reserved (CC BY-NC), uploaded by Araks Ohanyan",
+   "photo": 110192639
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66944877/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clayton Bownds, some rights reserved (CC BY-NC), uploaded by Clayton Bownds",
+   "photo": 66944877
+  }
+ ]
 }

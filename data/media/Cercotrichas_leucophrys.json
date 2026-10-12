@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26679857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) world_lineage, some rights reserved (CC BY-NC), uploaded by world_lineage",
+   "photo": 26679857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425389222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 425389222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147352496/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Delport, some rights reserved (CC BY-NC), uploaded by Marie Delport",
+   "photo": 147352496
+  }
+ ]
 }

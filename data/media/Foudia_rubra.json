@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451277444/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 451277444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5218384/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cédric de Foucault, some rights reserved (CC BY-NC-SA), uploaded by Cédric de Foucault",
+   "photo": 5218384
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429728191/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruperl, some rights reserved (CC BY-NC), uploaded by Ruperl",
+   "photo": 429728191
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20990980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 20990980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387344023/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Mark Fraser",
+   "photo": 387344023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137728426/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) M Rutherford, some rights reserved (CC BY), uploaded by M Rutherford",
+   "photo": 137728426
+  }
+ ]
 }

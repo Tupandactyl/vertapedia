@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113099676/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+   "photo": 113099676
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63645091/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 63645091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61137832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chuck Gates, some rights reserved (CC BY-NC), uploaded by Chuck Gates",
+   "photo": 61137832
+  }
+ ]
 }

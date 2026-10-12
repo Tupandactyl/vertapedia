@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99434628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bquser, some rights reserved (CC BY-NC), uploaded by bquser",
+   "photo": 99434628
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111394265/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Whitington, some rights reserved (CC BY), uploaded by Paul Whitington",
+   "photo": 111394265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56018203/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 56018203
+  }
+ ]
 }

@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146230715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leandro Cardoso, some rights reserved (CC BY-NC), uploaded by Leandro Cardoso",
+   "photo": 146230715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47258028/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Diogo Luiz, some rights reserved (CC BY), uploaded by Diogo Luiz",
+   "photo": 47258028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62697657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mauriciomoreiramartins, some rights reserved (CC BY-NC)",
+   "photo": 62697657
+  }
+ ]
 }

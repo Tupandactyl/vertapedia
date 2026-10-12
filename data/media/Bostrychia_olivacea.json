@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259359651/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Merrittimages, some rights reserved (CC BY-SA)",
+   "photo": 259359651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/963672/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 963672
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57441309/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mwangi wa Gitau, some rights reserved (CC BY-NC), uploaded by Mwangi wa Gitau",
+   "photo": 57441309
+  }
+ ]
 }

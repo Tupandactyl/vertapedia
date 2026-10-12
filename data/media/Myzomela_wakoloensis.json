@@ -62,5 +62,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416866095/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 416866095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247563359/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 247563359
+  }
+ ]
 }

@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107850993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Willem Meijlink, some rights reserved (CC BY-NC), uploaded by Willem Meijlink",
+   "photo": 107850993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735803109/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gab_with_a_bag, some rights reserved (CC BY-NC), uploaded by gab_with_a_bag",
+   "photo": 735803109
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336350737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 336350737
+  }
+ ]
 }

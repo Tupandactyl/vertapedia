@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29852529/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 29852529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30946960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 30946960
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62718505/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot",
+   "photo": 62718505
+  }
+ ]
 }

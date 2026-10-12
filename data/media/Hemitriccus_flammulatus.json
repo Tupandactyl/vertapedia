@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104250620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 104250620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284573532/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 284573532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54739026/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Pedroza Guimarães, some rights reserved (CC BY-NC), uploaded by David Pedroza Guimarães",
+   "photo": 54739026
+  }
+ ]
 }

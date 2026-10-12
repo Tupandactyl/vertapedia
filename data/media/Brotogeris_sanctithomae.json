@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896010/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Félix Uribe, some rights reserved (CC BY-SA)",
+   "photo": 158896010
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157601882/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Félix Uribe, some rights reserved (CC BY-SA)",
+   "photo": 157601882
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60411314/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Renata Xavier, some rights reserved (CC BY-NC), uploaded by Renata Xavier",
+   "photo": 60411314
+  }
+ ]
 }

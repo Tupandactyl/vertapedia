@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115273376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC), uploaded by Wild Sumatra",
+   "photo": 115273376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115273337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC), uploaded by Wild Sumatra",
+   "photo": 115273337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115273357/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC), uploaded by Wild Sumatra",
+   "photo": 115273357
+  }
+ ]
 }

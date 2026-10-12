@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323550530/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew C, some rights reserved (CC BY)",
+   "photo": 323550530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359119701/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ant.tab, some rights reserved (CC BY-SA)",
+   "photo": 359119701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198198943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sherrie Quillen, some rights reserved (CC BY-NC), uploaded by Sherrie Quillen",
+   "photo": 198198943
+  }
+ ]
 }

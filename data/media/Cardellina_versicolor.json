@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576158732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Arredondo T., some rights reserved (CC BY-NC), uploaded by Ricardo Arredondo T.",
+   "photo": 576158732
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344371288/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Adam Jackson",
+   "photo": 344371288
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26611246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Guillermo, some rights reserved (CC BY-NC), uploaded by Luis Guillermo",
+   "photo": 26611246
+  }
+ ]
 }

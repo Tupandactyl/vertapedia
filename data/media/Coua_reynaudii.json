@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/810203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 810203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63362893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Larry H Moore, some rights reserved (CC BY-NC), uploaded by Larry H Moore",
+   "photo": 63362893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4694347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 4694347
+  }
+ ]
 }

@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30856764/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 30856764
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204311525/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Malcolm Tattersall, some rights reserved (CC BY-NC), uploaded by Malcolm Tattersall",
+   "photo": 204311525
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349021828/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Hartmann, some rights reserved (CC BY-NC), uploaded by Frank Hartmann",
+   "photo": 349021828
+  }
+ ]
 }

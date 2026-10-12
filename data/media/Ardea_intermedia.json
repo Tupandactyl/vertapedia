@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451958732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ­이상윤/Sangyoon Lee, some rights reserved (CC BY-NC), uploaded by ­이상윤/Sangyoon Lee",
+   "photo": 451958732
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145341174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kishore T, some rights reserved (CC BY-NC), uploaded by kishore T",
+   "photo": 145341174
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621741885/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abdul nazer, some rights reserved (CC BY-NC), uploaded by abdul nazer",
+   "photo": 621741885
+  }
+ ]
 }

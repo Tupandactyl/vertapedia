@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120329917/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) felipejarafer, some rights reserved (CC BY)",
+   "photo": 120329917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121254641/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katherine Sanhueza Bravo, some rights reserved (CC BY-NC), uploaded by Katherine Sanhueza Bravo",
+   "photo": 121254641
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59589805/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudio Reyes-Olivares, some rights reserved (CC BY-NC), uploaded by Claudio Reyes-Olivares",
+   "photo": 59589805
+  }
+ ]
 }

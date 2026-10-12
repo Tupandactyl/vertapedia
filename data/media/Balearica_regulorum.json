@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261339008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 261339008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490035061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rohail Akbar, some rights reserved (CC BY-NC), uploaded by Rohail Akbar",
+   "photo": 490035061
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330767486/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Burak Doğansoysal, some rights reserved (CC BY-NC), uploaded by Burak Doğansoysal",
+   "photo": 330767486
+  }
+ ]
 }

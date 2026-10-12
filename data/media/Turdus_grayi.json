@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3772811/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sebastián Restrepo Calle, some rights reserved (CC BY-NC-SA)",
+   "photo": 3772811
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469205494/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Irene",
+   "photo": 469205494
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110583849/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Humberto Castañón González, some rights reserved (CC BY-NC), uploaded by José Humberto Castañón González",
+   "photo": 110583849
+  }
+ ]
 }

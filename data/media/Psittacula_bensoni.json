@@ -78,5 +78,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412799855/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) FunkMonk, some rights reserved (CC BY-SA)",
+   "photo": 412799855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412799866/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nJulian P. Hume, some rights reserved (CC BY)",
+   "photo": 412799866
+  }
+ ]
 }

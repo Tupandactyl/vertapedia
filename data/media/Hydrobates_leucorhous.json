@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97169797/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pleasantbaymac, some rights reserved (CC BY-NC), uploaded by pleasantbaymac",
+   "photo": 97169797
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14846009/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 14846009
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53010886/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Tepper, some rights reserved (CC BY-NC), uploaded by Nick Tepper",
+   "photo": 53010886
+  }
+ ]
 }

@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98713/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) cotinis, some rights reserved (CC BY-NC-SA)",
+   "photo": 98713
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98714/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dan Irizarry, some rights reserved (CC BY-NC-SA)",
+   "photo": 98714
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1127351/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) James Shelton, some rights reserved (CC BY-NC-SA), uploaded by James Shelton",
+   "photo": 1127351
+  }
+ ]
 }

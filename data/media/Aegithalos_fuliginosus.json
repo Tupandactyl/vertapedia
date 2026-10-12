@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600548753/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jiao Sun (孙娇), some rights reserved (CC BY), uploaded by Jiao Sun (孙娇)",
+   "photo": 600548753
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600548758/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jiao Sun (孙娇), some rights reserved (CC BY), uploaded by Jiao Sun (孙娇)",
+   "photo": 600548758
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459404619/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 渔喵, some rights reserved (CC BY-NC-SA), uploaded by 渔喵",
+   "photo": 459404619
+  }
+ ]
 }

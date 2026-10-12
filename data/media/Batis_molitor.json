@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2050552/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 2050552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2050553/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 2050553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2050554/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 2050554
+  }
+ ]
 }

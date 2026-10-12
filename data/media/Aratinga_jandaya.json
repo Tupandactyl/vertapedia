@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163703172/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas C. Marinho, some rights reserved (CC BY-NC), uploaded by Lucas C. Marinho",
+   "photo": 163703172
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364208036/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ednilson Macedo, some rights reserved (CC BY-NC), uploaded by Ednilson Macedo",
+   "photo": 364208036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331795752/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 331795752
+  }
+ ]
 }

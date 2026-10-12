@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464047537/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 464047537
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3687503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+   "photo": 3687503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194963982/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Keith Martin-Smith, some rights reserved (CC BY-NC-SA), uploaded by Keith Martin-Smith",
+   "photo": 194963982
+  }
+ ]
 }

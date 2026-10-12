@@ -116,5 +116,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19719017/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 19719017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501536967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grupo de Ecología y Conservación de Islas, A.C., some rights reserved (CC BY-NC), uploaded by Grupo de Ecología y Conservación de Islas, A.C.",
+   "photo": 501536967
+  }
+ ]
 }

@@ -68,5 +68,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88797050/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
+   "photo": 88797050
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101685544/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James St. John, some rights reserved (CC BY)",
+   "photo": 101685544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101685545/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James St. John, some rights reserved (CC BY)",
+   "photo": 101685545
+  }
+ ]
 }

@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159145106/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sssuresh, some rights reserved (CC BY-NC)",
+   "photo": 159145106
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592320936/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tobin Sparling (he/him), some rights reserved (CC BY-NC), uploaded by Tobin Sparling (he/him)",
+   "photo": 592320936
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574365854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mohamed Salah, some rights reserved (CC BY-NC), uploaded by Mohamed Salah",
+   "photo": 574365854
+  }
+ ]
 }

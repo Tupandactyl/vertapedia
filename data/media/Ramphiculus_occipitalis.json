@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672049249/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hokoonwong, some rights reserved (CC BY-NC), uploaded by hokoonwong",
+   "photo": 672049249
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/696300/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) jojo nicdao from muntinlupa, philippines, some rights reserved (CC BY)",
+   "photo": 696300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/696295/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 696295
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129337877/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerald Schneider, some rights reserved (CC BY-NC)",
+   "photo": 129337877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144066899/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stanislavcikalo, some rights reserved (CC BY-NC)",
+   "photo": 144066899
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180282904/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob Mackenzie, some rights reserved (CC BY-NC), uploaded by Bob Mackenzie",
+   "photo": 180282904
+  }
+ ]
 }

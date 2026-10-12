@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286591/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carolina Gámez, some rights reserved (CC BY-NC), uploaded by Carolina Gámez",
+   "photo": 286591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684497/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Levi Gray, some rights reserved (CC BY-NC), uploaded by Levi Gray",
+   "photo": 684497
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453021/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Paredes Montesinos, some rights reserved (CC BY-NC), uploaded by Rafael Paredes Montesinos",
+   "photo": 453021
+  }
+ ]
 }

@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224001/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) drongo boy @中国野鸟图库, alguns direitos reservados (CC BY-NC-SA)",
+   "photo": 224001
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317962547/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, alguns direitos reservados (CC BY-NC), carregado por James Bailey",
+   "photo": 317962547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17340088/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, alguns direitos reservados (CC BY), carregado por desertnaturalist",
+   "photo": 17340088
+  }
+ ]
 }

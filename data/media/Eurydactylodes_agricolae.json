@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174663825/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 174663825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155311735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damien Brouste, some rights reserved (CC BY-NC), uploaded by Damien Brouste",
+   "photo": 155311735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155311753/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damien Brouste, some rights reserved (CC BY-NC), uploaded by Damien Brouste",
+   "photo": 155311753
+  }
+ ]
 }

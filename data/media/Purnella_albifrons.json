@@ -124,5 +124,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305377186/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ashley Anderson, some rights reserved (CC BY-NC-SA), uploaded by Ashley Anderson",
+   "photo": 305377186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2281289/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Peter Jacobs, some rights reserved (CC BY-SA)",
+   "photo": 2281289
+  }
+ ]
 }

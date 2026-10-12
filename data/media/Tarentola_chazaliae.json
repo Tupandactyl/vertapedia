@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454734277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rodrigo Bustos Gil, some rights reserved (CC BY-NC), uploaded by Rodrigo Bustos Gil",
+   "photo": 454734277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939535/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alexandre Roux, some rights reserved (CC BY-NC-SA)",
+   "photo": 1939535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939536/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alexandre Roux, some rights reserved (CC BY-NC-SA)",
+   "photo": 1939536
+  }
+ ]
 }

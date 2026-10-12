@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412232363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tarek Nagah, some rights reserved (CC BY-NC), uploaded by Tarek Nagah",
+   "photo": 412232363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490204367/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uriel Levy, some rights reserved (CC BY-NC), uploaded by Uriel Levy",
+   "photo": 490204367
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320144387/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shlomi Levi, some rights reserved (CC BY-NC), uploaded by Shlomi Levi",
+   "photo": 320144387
+  }
+ ]
 }

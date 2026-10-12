@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3819111/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 3819111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456587400/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Renato Moraes, some rights reserved (CC BY), uploaded by Renato Moraes",
+   "photo": 456587400
+  }
+ ]
 }

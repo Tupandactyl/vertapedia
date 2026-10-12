@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655724367/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) R. Stewart, some rights reserved (CC BY-NC), uploaded by R. Stewart",
+   "photo": 655724367
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79651/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Victoria Gracia, some rights reserved (CC BY-NC-SA)",
+   "photo": 79651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15491435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 15491435
+  }
+ ]
 }

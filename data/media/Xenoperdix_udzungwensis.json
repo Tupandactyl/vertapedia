@@ -85,5 +85,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421523056/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC), uploaded by Heinrich Human",
+   "photo": 421523056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244972927/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 244972927
+  }
+ ]
 }

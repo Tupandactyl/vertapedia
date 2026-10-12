@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90118879/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anna Shipilova | Анна Шипилова, some rights reserved (CC BY-NC), uploaded by Anna Shipilova | Анна Шипилова",
+   "photo": 90118879
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130951678/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Filipp Suvorov, some rights reserved (CC BY-NC), uploaded by Filipp Suvorov",
+   "photo": 130951678
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136726517/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC), uploaded by Константин Самодуров",
+   "photo": 136726517
+  }
+ ]
 }

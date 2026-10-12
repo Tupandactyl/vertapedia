@@ -52,5 +52,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67834536/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dion Maple, some rights reserved (CC BY-NC), uploaded by Dion Maple",
+   "photo": 67834536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67834735/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dion Maple, some rights reserved (CC BY-NC), uploaded by Dion Maple",
+   "photo": 67834735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230313/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA)",
+   "photo": 230313
+  }
+ ]
 }

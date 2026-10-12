@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620993139/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Rodero Henández, algunos derechos reservados (CC BY-NC), subido por Ricardo Rodero Henández",
+   "photo": 620993139
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137041540/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, algunos derechos reservados (CC BY-NC-SA)",
+   "photo": 137041540
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593198183/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlanguy, algunos derechos reservados (CC BY-NC), subido por mlanguy",
+   "photo": 593198183
+  }
+ ]
 }

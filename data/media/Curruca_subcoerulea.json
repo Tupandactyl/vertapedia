@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89300552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ianrijsdijk, some rights reserved (CC BY-NC), uploaded by ianrijsdijk",
+   "photo": 89300552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46536/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 46536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1462422/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 1462422
+  }
+ ]
 }

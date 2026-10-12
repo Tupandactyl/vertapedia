@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57265819/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 57265819
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152901696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan van den Heever, some rights reserved (CC BY-NC), uploaded by Juan van den Heever",
+   "photo": 152901696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104223183/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 104223183
+  }
+ ]
 }

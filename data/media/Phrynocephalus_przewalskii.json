@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228359464/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 桃子, some rights reserved (CC BY-NC), uploaded by 桃子",
+   "photo": 228359464
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228359451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 桃子, some rights reserved (CC BY-NC), uploaded by 桃子",
+   "photo": 228359451
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113169718/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fei_REN, some rights reserved (CC BY-NC), uploaded by Fei_REN",
+   "photo": 113169718
+  }
+ ]
 }

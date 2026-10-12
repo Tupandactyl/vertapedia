@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461066013/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmmteixeira, some rights reserved (CC BY-NC), uploaded by cmmteixeira",
+   "photo": 461066013
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6361162/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 6361162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236780108/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 236780108
+  }
+ ]
 }

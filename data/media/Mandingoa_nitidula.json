@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111868076/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerette Lotter, some rights reserved (CC BY-NC), uploaded by Gerette Lotter",
+   "photo": 111868076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109211776/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sunčana Bradley, some rights reserved (CC BY), uploaded by Sunčana Bradley",
+   "photo": 109211776
+  }
+ ]
 }

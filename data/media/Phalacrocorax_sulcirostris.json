@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324786098/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom V, some rights reserved (CC BY-NC), uploaded by Tom V",
+   "photo": 324786098
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535843513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Amaris, some rights reserved (CC BY-NC), uploaded by Samuel Amaris",
+   "photo": 535843513
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79082599/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roxanne Lazarus, some rights reserved (CC BY-NC), uploaded by Roxanne Lazarus",
+   "photo": 79082599
+  }
+ ]
 }

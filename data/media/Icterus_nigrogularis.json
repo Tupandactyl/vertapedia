@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227611693/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 227611693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214198022/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Williams Viveros, some rights reserved (CC BY-NC), uploaded by Alejandro Williams Viveros",
+   "photo": 214198022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132469555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Williams Viveros, some rights reserved (CC BY-NC), uploaded by Alejandro Williams Viveros",
+   "photo": 132469555
+  }
+ ]
 }

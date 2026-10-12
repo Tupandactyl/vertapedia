@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29689368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Fitzgerald (Fitz), osa oikeuksista pidätetään (CC BY-NC), lähettänyt Dan Fitzgerald (Fitz)",
+   "photo": 29689368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29689016/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Fitzgerald (Fitz), osa oikeuksista pidätetään (CC BY-NC), lähettänyt Dan Fitzgerald (Fitz)",
+   "photo": 29689016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108259966/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, osa oikeuksista pidätetään (CC BY-NC-SA), lähettänyt Antonio Robles",
+   "photo": 108259966
+  }
+ ]
 }

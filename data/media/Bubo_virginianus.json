@@ -374,5 +374,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14549085/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Paul G. Johnson, some rights reserved (CC BY-NC-SA), uploaded by Paul G. Johnson",
+   "photo": 14549085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34757142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott",
+   "photo": 34757142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20323580/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Grinbergs, some rights reserved (CC BY-NC), uploaded by Doug Grinbergs",
+   "photo": 20323580
+  }
+ ]
 }

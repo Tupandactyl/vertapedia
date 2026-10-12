@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30183958/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bell, some rights reserved (CC BY-NC), uploaded by David Bell",
+   "photo": 30183958
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338565408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo Vinicius de Sousa Albuquerque Filho, some rights reserved (CC BY-NC), uploaded by Hugo Vinicius de Sousa Albuquerque Filho",
+   "photo": 338565408
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7428764/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Leonel Roget, some rights reserved (CC BY), uploaded by Leonel Roget",
+   "photo": 7428764
+  }
+ ]
 }

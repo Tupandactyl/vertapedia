@@ -30,5 +30,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98304838/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 98304838
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98304856/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 98304856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98304866/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 98304866
+  }
+ ]
 }

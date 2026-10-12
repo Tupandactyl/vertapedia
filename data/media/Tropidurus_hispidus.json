@@ -220,5 +220,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Ivo, some rights reserved (CC BY-NC), uploaded by Pedro Ivo",
+   "photo": 45669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86964782/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 86964782
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119470739/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno R. Möller, some rights reserved (CC BY-NC), uploaded by Bruno R. Möller",
+   "photo": 119470739
+  }
+ ]
 }

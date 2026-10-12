@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267085337/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Bryce van der Heide, некоторые права защищены (CC BY-NC), загрузил Bryce van der Heide",
+   "photo": 267085337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112504946/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Loxley Fedec, некоторые права защищены (CC BY-NC), загрузил Loxley Fedec",
+   "photo": 112504946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238790010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Loxley Fedec, некоторые права защищены (CC BY-NC), загрузил Loxley Fedec",
+   "photo": 238790010
+  }
+ ]
 }

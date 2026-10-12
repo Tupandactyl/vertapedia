@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186791969/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fer_garcia, some rights reserved (CC BY-NC)",
+   "photo": 186791969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62122054/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC), uploaded by Jesus Gordolomi Butterball RC",
+   "photo": 62122054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1553953/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aurelio Molina Hernández., some rights reserved (CC BY-NC), uploaded by Aurelio Molina Hernández.",
+   "photo": 1553953
+  }
+ ]
 }

@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321464947/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gustavo Fernando Durán, some rights reserved (CC BY-NC-SA), uploaded by Gustavo Fernando Durán",
+   "photo": 321464947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315953714/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alicia, some rights reserved (CC BY-NC), uploaded by Alicia",
+   "photo": 315953714
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59681643/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 59681643
+  }
+ ]
 }

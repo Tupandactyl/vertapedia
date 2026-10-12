@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262096096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 262096096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218878530/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 218878530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207650884/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diana_shang, some rights reserved (CC BY-NC)",
+   "photo": 207650884
+  }
+ ]
 }

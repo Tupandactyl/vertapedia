@@ -133,5 +133,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213103129/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 213103129
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213103162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 213103162
+  }
+ ]
 }

@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128878360/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Thaller, some rights reserved (CC BY-NC), uploaded by Christian Thaller",
+   "photo": 128878360
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611357393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Martinez, some rights reserved (CC BY-NC), uploaded by Oswaldo Martinez",
+   "photo": 611357393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136438483/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mateo Hernandez Schmidt, some rights reserved (CC BY-NC-SA), uploaded by Mateo Hernandez Schmidt",
+   "photo": 136438483
+  }
+ ]
 }

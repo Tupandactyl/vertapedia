@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182302378/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 182302378
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97686974/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC), uploaded by Peter Ericsson",
+   "photo": 97686974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149115473/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sorasak NAK-EIAM, some rights reserved (CC BY-NC), uploaded by Sorasak NAK-EIAM",
+   "photo": 149115473
+  }
+ ]
 }

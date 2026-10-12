@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242246301/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 242246301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241653542/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 241653542
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173590508/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnhartdrc, some rights reserved (CC BY-NC)",
+   "photo": 173590508
+  }
+ ]
 }

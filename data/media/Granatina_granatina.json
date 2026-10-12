@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680472711/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 680472711
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411337100/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cirolana, some rights reserved (CC BY-NC)",
+   "photo": 411337100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231431986/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 231431986
+  }
+ ]
 }

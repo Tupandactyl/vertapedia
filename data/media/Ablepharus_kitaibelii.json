@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48964054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Leonid A. Neymark",
+   "photo": 48964054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1677826/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mircea Nita, niektóre prawa zastrzeżone (CC BY)",
+   "photo": 1677826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1867528/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Paul Cools",
+   "photo": 1867528
+  }
+ ]
 }

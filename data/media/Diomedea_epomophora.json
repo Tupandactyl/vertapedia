@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117409640/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Fergus, some rights reserved (CC BY-NC), uploaded by Alex Fergus",
+   "photo": 117409640
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117409627/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Fergus, some rights reserved (CC BY-NC), uploaded by Alex Fergus",
+   "photo": 117409627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117409616/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Fergus, some rights reserved (CC BY-NC), uploaded by Alex Fergus",
+   "photo": 117409616
+  }
+ ]
 }

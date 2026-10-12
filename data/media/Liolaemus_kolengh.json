@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1653483/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Cuhna, some rights reserved (CC BY-NC), uploaded by Juan Cuhna",
+   "photo": 1653483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173180874/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) E Santos Ortega, some rights reserved (CC BY), uploaded by E Santos Ortega",
+   "photo": 173180874
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182273633/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucero Moyano, some rights reserved (CC BY-NC), uploaded by Lucero Moyano",
+   "photo": 182273633
+  }
+ ]
 }

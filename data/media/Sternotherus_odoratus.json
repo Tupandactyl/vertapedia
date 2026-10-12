@@ -178,5 +178,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5691931/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Metcalf, some rights reserved (CC BY-NC), uploaded by Kevin Metcalf",
+   "photo": 5691931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1345617/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashley Wahlberg, some rights reserved (CC BY-NC), uploaded by Ashley Wahlberg",
+   "photo": 1345617
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/870519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cooper Wyatt, some rights reserved (CC BY-NC), uploaded by Cooper Wyatt",
+   "photo": 870519
+  }
+ ]
 }

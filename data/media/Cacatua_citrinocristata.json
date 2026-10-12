@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304390963/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) emskakoon, some rights reserved (CC BY-NC), uploaded by emskakoon",
+   "photo": 304390963
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730840535/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruce Wedderburn, some rights reserved (CC BY-NC), uploaded by Bruce Wedderburn",
+   "photo": 730840535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179247931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 179247931
+  }
+ ]
 }

@@ -127,5 +127,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10771024/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robbythai, some rights reserved (CC BY-NC)",
+   "photo": 10771024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113575272/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) biodivinf, some rights reserved (CC BY-NC-SA)",
+   "photo": 113575272
+  }
+ ]
 }

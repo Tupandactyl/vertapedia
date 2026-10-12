@@ -186,5 +186,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111005655/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC), uploaded by Andrew Thompson",
+   "photo": 111005655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172878770/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) A Emmerson, some rights reserved (CC BY-NC), uploaded by A Emmerson",
+   "photo": 172878770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268791/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 268791
+  }
+ ]
 }

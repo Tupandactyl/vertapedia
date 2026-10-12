@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236761/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) d_robichaud, einige Rechte vorbehalten (CC BY-NC-SA)",
+   "photo": 236761
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164110518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Robichaud, einige Rechte vorbehalten (CC BY-NC), hochgeladen von David Robichaud",
+   "photo": 164110518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36115299/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lukasmekis, einige Rechte vorbehalten (CC BY-NC), hochgeladen von lukasmekis",
+   "photo": 36115299
+  }
+ ]
 }

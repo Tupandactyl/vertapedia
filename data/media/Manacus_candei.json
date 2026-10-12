@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182446443/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cornelio Chablé, some rights reserved (CC BY-NC), uploaded by Cornelio Chablé",
+   "photo": 182446443
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38424874/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvador Poot Villanueva, some rights reserved (CC BY-NC), uploaded by Salvador Poot Villanueva",
+   "photo": 38424874
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256139927/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benny Dominguez Santiago, some rights reserved (CC BY-NC), uploaded by Benny Dominguez Santiago",
+   "photo": 256139927
+  }
+ ]
 }

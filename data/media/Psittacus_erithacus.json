@@ -194,5 +194,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319398053/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) http://commons.wikimedia.org/wiki/User:Lmbuga, some rights reserved (CC BY-SA)",
+   "photo": 319398053
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216198379/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 216198379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81180217/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 81180217
+  }
+ ]
 }

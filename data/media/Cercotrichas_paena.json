@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/773864/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alastair Rae, some rights reserved (CC BY-SA)",
+   "photo": 773864
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229991025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andre Harmse, some rights reserved (CC BY-NC), uploaded by Andre Harmse",
+   "photo": 229991025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73111401/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Justin Ponder, some rights reserved (CC BY), uploaded by Justin Ponder",
+   "photo": 73111401
+  }
+ ]
 }

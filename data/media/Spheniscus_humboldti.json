@@ -282,5 +282,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106273398/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jmclatchie, some rights reserved (CC BY-NC)",
+   "photo": 106273398
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161759805/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rawbert|K|Photo, some rights reserved (CC BY-NC-SA)",
+   "photo": 161759805
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69110088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mickaël Villemagne, some rights reserved (CC BY-NC), uploaded by Mickaël Villemagne",
+   "photo": 69110088
+  }
+ ]
 }

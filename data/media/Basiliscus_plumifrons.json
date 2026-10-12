@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376322138/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucía Vargas, some rights reserved (CC BY-NC), uploaded by Lucía Vargas",
+   "photo": 376322138
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352235816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) courtjcam, some rights reserved (CC BY-NC)",
+   "photo": 352235816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7743493/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7743493
+  }
+ ]
 }

@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2996164/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Renoult, some rights reserved (CC BY-NC), uploaded by David Renoult",
+   "photo": 2996164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12550304/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Rebelo, some rights reserved (CC BY-SA), uploaded by Tony Rebelo",
+   "photo": 12550304
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51946974/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Rebelo, some rights reserved (CC BY-SA), uploaded by Tony Rebelo",
+   "photo": 51946974
+  }
+ ]
 }

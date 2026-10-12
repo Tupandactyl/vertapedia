@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111659170/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnmeikle, some rights reserved (CC BY-NC), uploaded by johnmeikle",
+   "photo": 111659170
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Gibbons, some rights reserved (CC BY-NC)",
+   "photo": 49943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2359750/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aurelio Molina Hernández., some rights reserved (CC BY-NC), uploaded by Aurelio Molina Hernández.",
+   "photo": 2359750
+  }
+ ]
 }

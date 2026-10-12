@@ -187,5 +187,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232289336/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "photo": 232289336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238171964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 238171964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238171999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 238171999
+  }
+ ]
 }

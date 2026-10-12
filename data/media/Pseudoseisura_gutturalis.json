@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42592727/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 42592727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10060304/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ezequiel Vera, some rights reserved (CC BY), uploaded by Ezequiel Vera",
+   "photo": 10060304
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33139938/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 33139938
+  }
+ ]
 }

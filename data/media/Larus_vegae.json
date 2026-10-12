@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289027978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maksim Antipin, some rights reserved (CC BY-NC), uploaded by Maksim Antipin",
+   "photo": 289027978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49010393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brodiaea_max, some rights reserved (CC BY-NC), uploaded by brodiaea_max",
+   "photo": 49010393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61468095/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marco Mussita, some rights reserved (CC BY), uploaded by Marco Mussita",
+   "photo": 61468095
+  }
+ ]
 }

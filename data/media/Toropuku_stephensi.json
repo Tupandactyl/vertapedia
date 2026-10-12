@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33631536/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kimberley Collins, some rights reserved (CC BY), uploaded by Kimberley Collins",
+   "photo": 33631536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624699491/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abi Quinnell, some rights reserved (CC BY-NC), uploaded by Abi Quinnell",
+   "photo": 624699491
+  }
+ ]
 }

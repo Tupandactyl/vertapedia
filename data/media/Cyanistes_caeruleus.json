@@ -207,5 +207,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41677354/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rorygardner79, some rights reserved (CC BY-NC)",
+   "photo": 41677354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32558473/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Марина Горбунова-Ëлкина, some rights reserved (CC BY-NC), uploaded by Марина Горбунова-Ëлкина",
+   "photo": 32558473
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405357242/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bengt Nyman, some rights reserved (CC BY)",
+   "photo": 405357242
+  }
+ ]
 }

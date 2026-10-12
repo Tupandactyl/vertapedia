@@ -172,5 +172,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29614437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Wendelken, some rights reserved (CC BY-NC), uploaded by Dave Wendelken",
+   "photo": 29614437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565400/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 565400
+  }
+ ]
 }

@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15919794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Erb, some rights reserved (CC BY-NC), uploaded by Peter Erb",
+   "photo": 15919794
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107480686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Reed, some rights reserved (CC BY-NC), uploaded by Grant Reed",
+   "photo": 107480686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28958420/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Erb, some rights reserved (CC BY-NC), uploaded by Peter Erb",
+   "photo": 28958420
+  }
+ ]
 }

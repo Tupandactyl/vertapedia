@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470528937/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 470528937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67049217/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Harding, some rights reserved (CC BY-NC), uploaded by Jeff Harding",
+   "photo": 67049217
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469599634/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 469599634
+  }
+ ]
 }

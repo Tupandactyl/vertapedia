@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29276524/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, bazı hakları saklıdır (CC BY), yükleyen: Forest Botial-Jarvis",
+   "photo": 29276524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424356581/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ­이상윤/Sangyoon Lee, bazı hakları saklıdır (CC BY-NC), yükleyen: ­이상윤/Sangyoon Lee",
+   "photo": 424356581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365313350/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Kennewell, bazı hakları saklıdır (CC BY-NC), yükleyen: Martin Kennewell",
+   "photo": 365313350
+  }
+ ]
 }

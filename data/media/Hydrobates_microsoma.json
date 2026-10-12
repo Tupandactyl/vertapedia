@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58063251/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 58063251
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147315972/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 147315972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 247696
+  }
+ ]
 }

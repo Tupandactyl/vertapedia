@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337414917/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, osa oikeuksista pidätetään (CC BY-SA), lähettänyt Joseph Morlan",
+   "photo": 337414917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664808/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, osa oikeuksista pidätetään (CC BY-NC), lähettänyt congonaturalist",
+   "photo": 11664808
+  }
+ ]
 }

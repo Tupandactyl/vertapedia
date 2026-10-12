@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147718635/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) happymountainnz, some rights reserved (CC BY-NC)",
+   "photo": 147718635
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249720260/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterodekerken, some rights reserved (CC BY-NC)",
+   "photo": 249720260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249721089/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterodekerken, some rights reserved (CC BY-NC)",
+   "photo": 249721089
+  }
+ ]
 }

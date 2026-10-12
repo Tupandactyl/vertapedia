@@ -75,5 +75,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64663205/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) taller_alas, some rights reserved (CC BY-NC)",
+   "photo": 64663205
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98003269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mmora, some rights reserved (CC BY-NC)",
+   "photo": 98003269
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86397967/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rodrigo Silva C, some rights reserved (CC BY-NC), uploaded by Rodrigo Silva C",
+   "photo": 86397967
+  }
+ ]
 }

@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303126204/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterchristiaen, some rights reserved (CC BY-NC)",
+   "photo": 303126204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312285356/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) blackdogto, some rights reserved (CC BY-NC), uploaded by blackdogto",
+   "photo": 312285356
+  }
+ ]
 }

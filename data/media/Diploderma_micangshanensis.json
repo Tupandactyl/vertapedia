@@ -73,5 +73,25 @@
    "date": "2010-09-17"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78231506/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Uzhov, some rights reserved (CC BY-NC), uploaded by Nick Uzhov",
+   "photo": 78231506
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218101967/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ziiiizek, some rights reserved (CC BY-NC), uploaded by ziiiizek",
+   "photo": 218101967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239465389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 氘氚聚变, some rights reserved (CC BY-NC), uploaded by 氘氚聚变",
+   "photo": 239465389
+  }
+ ]
 }

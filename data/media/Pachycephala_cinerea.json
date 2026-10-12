@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175362721/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadzrun, some rights reserved (CC BY-NC), uploaded by Fadzrun",
+   "photo": 175362721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175362735/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadzrun, some rights reserved (CC BY-NC), uploaded by Fadzrun",
+   "photo": 175362735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28289910/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob McDougall, some rights reserved (CC BY-NC), uploaded by Bob McDougall",
+   "photo": 28289910
+  }
+ ]
 }

@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347908/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 347908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32118459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shanelle Wikramanayake, some rights reserved (CC BY-NC), uploaded by Shanelle Wikramanayake",
+   "photo": 32118459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3511993/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Satyajit Shinde, some rights reserved (CC BY-NC), uploaded by Satyajit Shinde",
+   "photo": 3511993
+  }
+ ]
 }

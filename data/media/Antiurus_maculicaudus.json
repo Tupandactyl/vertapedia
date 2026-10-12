@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97286768/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JULIO CESAR GONZALEZ FILIPINO, some rights reserved (CC BY-NC), uploaded by JULIO CESAR GONZALEZ FILIPINO",
+   "photo": 97286768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26715754/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26715754
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26715747/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26715747
+  }
+ ]
 }

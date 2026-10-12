@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29947383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+   "photo": 29947383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32005348/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 32005348
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591270289/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerhard Lemmer, some rights reserved (CC BY-NC), uploaded by Gerhard Lemmer",
+   "photo": 591270289
+  }
+ ]
 }

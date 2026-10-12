@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252481813/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jim22lawrence, some rights reserved (CC BY-NC)",
+   "photo": 252481813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140012554/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt Goff, some rights reserved (CC BY-NC-SA), uploaded by Matt Goff",
+   "photo": 140012554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250122338/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Filemyr, some rights reserved (CC BY-NC), uploaded by Bert Filemyr",
+   "photo": 250122338
+  }
+ ]
 }

@@ -194,5 +194,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204107436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sssuresh, some rights reserved (CC BY-NC)",
+   "photo": 204107436
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49979217/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edgar Stich, some rights reserved (CC BY-NC), uploaded by Edgar Stich",
+   "photo": 49979217
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40492550/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) connk, some rights reserved (CC BY-NC), uploaded by connk",
+   "photo": 40492550
+  }
+ ]
 }

@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290656/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Pkspks, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 2290656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102959356/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rohith Srinivasan, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Rohith Srinivasan",
+   "photo": 102959356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110847573/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Attila Steiner",
+   "photo": 110847573
+  }
+ ]
 }

@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381327568/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gary T. Leavens, some rights reserved (CC BY-NC-SA), uploaded by Gary T. Leavens",
+   "photo": 381327568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567474/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-SA)",
+   "photo": 567474
+  }
+ ]
 }

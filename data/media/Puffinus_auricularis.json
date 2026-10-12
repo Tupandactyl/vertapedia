@@ -61,5 +61,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6009558/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 6009558
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9387018/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergio Martínez, some rights reserved (CC BY-NC), uploaded by Sergio Martínez",
+   "photo": 9387018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6014013/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 6014013
+  }
+ ]
 }

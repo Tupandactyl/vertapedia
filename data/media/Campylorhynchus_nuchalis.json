@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592670208/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, some rights reserved (CC BY-NC-SA), uploaded by Sergio Rivero Beneitez",
+   "photo": 592670208
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60875212/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 60875212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380861226/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gabo_utria, some rights reserved (CC BY-NC), uploaded by gabo_utria",
+   "photo": 380861226
+  }
+ ]
 }

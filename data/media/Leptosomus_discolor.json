@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620288298/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) philadelphe william, algunos derechos reservados (CC BY-NC), subido por philadelphe william",
+   "photo": 620288298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55446410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lemurtaquin, algunos derechos reservados (CC BY-NC), subido por lemurtaquin",
+   "photo": 55446410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123650162/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, algunos derechos reservados (CC BY-NC), subido por Phil Benstead",
+   "photo": 123650162
+  }
+ ]
 }

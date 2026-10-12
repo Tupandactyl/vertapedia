@@ -54,5 +54,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65358631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Nicholas, some rights reserved (CC BY-NC), uploaded by Simon Nicholas",
+   "photo": 65358631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27439571/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Nicholas, some rights reserved (CC BY-NC), uploaded by Simon Nicholas",
+   "photo": 27439571
+  }
+ ]
 }

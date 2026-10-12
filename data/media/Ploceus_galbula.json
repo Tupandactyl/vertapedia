@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23127792/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Cauldwell, some rights reserved (CC BY-NC), uploaded by Andrew Cauldwell",
+   "photo": 23127792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442115219/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo",
+   "photo": 442115219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230113139/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sssuresh, some rights reserved (CC BY-NC)",
+   "photo": 230113139
+  }
+ ]
 }

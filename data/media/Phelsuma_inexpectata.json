@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639628689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antoine_baglan, some rights reserved (CC BY-NC)",
+   "photo": 639628689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132555347/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC), uploaded by Laurent Barthe",
+   "photo": 132555347
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2481787/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) B.navez, some rights reserved (CC BY-SA)",
+   "photo": 2481787
+  }
+ ]
 }

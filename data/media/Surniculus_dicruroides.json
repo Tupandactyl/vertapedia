@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141361124/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Shantanu Kuveskar, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 141361124
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29732872/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) harshithjv, osa oikeuksista pidätetään (CC BY-NC-SA), lähettänyt harshithjv",
+   "photo": 29732872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72082559/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Renjith Jacob Mathews, osa oikeuksista pidätetään (CC BY), lähettänyt Renjith Jacob Mathews",
+   "photo": 72082559
+  }
+ ]
 }

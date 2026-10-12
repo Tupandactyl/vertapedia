@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500610304/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sohail Madan, some rights reserved (CC BY-NC), uploaded by Sohail Madan",
+   "photo": 500610304
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176662313/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gee912, some rights reserved (CC BY-NC)",
+   "photo": 176662313
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516065806/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sddouglas, some rights reserved (CC BY-NC)",
+   "photo": 516065806
+  }
+ ]
 }

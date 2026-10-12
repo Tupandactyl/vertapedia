@@ -202,5 +202,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113417306/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sarka Martinez, some rights reserved (CC BY-NC-SA), uploaded by Sarka Martinez",
+   "photo": 113417306
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4590443/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) samdigiulio, some rights reserved (CC BY-NC)",
+   "photo": 4590443
+  }
+ ]
 }

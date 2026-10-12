@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1427419/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mark Peck, some rights reserved (CC BY-NC-SA)",
+   "photo": 1427419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490816259/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katherine Sanhueza Bravo, some rights reserved (CC BY-NC), uploaded by Katherine Sanhueza Bravo",
+   "photo": 490816259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315662836/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alicia, some rights reserved (CC BY-NC), uploaded by Alicia",
+   "photo": 315662836
+  }
+ ]
 }

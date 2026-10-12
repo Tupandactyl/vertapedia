@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276470575/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, osa oikeuksista pidätetään (CC BY), lähettänyt Forest Botial-Jarvis",
+   "photo": 276470575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276470593/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, osa oikeuksista pidätetään (CC BY), lähettänyt Forest Botial-Jarvis",
+   "photo": 276470593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608841513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Pavel Shukov",
+   "photo": 608841513
+  }
+ ]
 }

@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305242234/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kangkang, some rights reserved (CC BY-NC), uploaded by kangkang",
+   "photo": 305242234
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205151064/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC), uploaded by Mengshuai Ge",
+   "photo": 205151064
+  }
+ ]
 }

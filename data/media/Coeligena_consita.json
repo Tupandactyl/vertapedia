@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473508980/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jackson Frost, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Jackson Frost",
+   "photo": 473508980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12993340/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andres Cuervo, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Andres Cuervo",
+   "photo": 12993340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12993341/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andres Cuervo, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Andres Cuervo",
+   "photo": 12993341
+  }
+ ]
 }

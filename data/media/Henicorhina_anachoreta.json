@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61667747/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Woodruff, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Michael Woodruff",
+   "photo": 61667747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47021247/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cullen Hanks, osa oikeuksista pidätetään (CC BY), lähettänyt Cullen Hanks",
+   "photo": 47021247
+  }
+ ]
 }

@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351251331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt and Kaysea Bruce, some rights reserved (CC BY-NC), uploaded by Matt and Kaysea Bruce",
+   "photo": 351251331
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115268304/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Ubillas, some rights reserved (CC BY-NC), uploaded by Jorge Ubillas",
+   "photo": 115268304
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115268276/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Ubillas, some rights reserved (CC BY-NC), uploaded by Jorge Ubillas",
+   "photo": 115268276
+  }
+ ]
 }

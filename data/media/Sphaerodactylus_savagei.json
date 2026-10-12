@@ -116,5 +116,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41861738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 41861738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145574648/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jiri Hodecek, some rights reserved (CC BY-NC), uploaded by Jiri Hodecek",
+   "photo": 145574648
+  }
+ ]
 }

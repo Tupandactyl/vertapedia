@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6209640/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan",
+   "photo": 6209640
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86732279/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ianrijsdijk, some rights reserved (CC BY-NC), uploaded by ianrijsdijk",
+   "photo": 86732279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15792288/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael McSweeney, some rights reserved (CC BY-NC), uploaded by Michael McSweeney",
+   "photo": 15792288
+  }
+ ]
 }

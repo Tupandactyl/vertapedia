@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/491024470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel S., some rights reserved (CC BY-NC), uploaded by Daniel S.",
+   "photo": 491024470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362675753/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holger Sanchez, some rights reserved (CC BY-NC), uploaded by Holger Sanchez",
+   "photo": 362675753
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362675686/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holger Sanchez, some rights reserved (CC BY-NC), uploaded by Holger Sanchez",
+   "photo": 362675686
+  }
+ ]
 }

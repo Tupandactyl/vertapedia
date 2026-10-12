@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620571037/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ross Millikan, some rights reserved (CC BY-NC), uploaded by Ross Millikan",
+   "photo": 620571037
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619429614/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelly Hu, some rights reserved (CC BY-NC), uploaded by Kelly Hu",
+   "photo": 619429614
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38650868/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mahathi Narayanaswamy, some rights reserved (CC BY-NC), uploaded by Mahathi Narayanaswamy",
+   "photo": 38650868
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65424013/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M. A. Naturalist, algunos derechos reservados (CC BY-NC), subido por M. A. Naturalist",
+   "photo": 65424013
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133528804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ingkayut Sa-ar, algunos derechos reservados (CC BY-NC), subido por Ingkayut Sa-ar",
+   "photo": 133528804
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28108555/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, algunos derechos reservados (CC BY-NC), subido por John Clough",
+   "photo": 28108555
+  }
+ ]
 }

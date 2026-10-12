@@ -196,5 +196,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227950/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Baird, some rights reserved (CC BY)",
+   "photo": 227950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32277062/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Arredondo T., some rights reserved (CC BY-NC), uploaded by Ricardo Arredondo T.",
+   "photo": 32277062
+  }
+ ]
 }

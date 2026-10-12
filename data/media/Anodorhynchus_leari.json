@@ -177,5 +177,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411582031/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thiago Gonçalves Coronado Antunes, some rights reserved (CC BY-NC), uploaded by Thiago Gonçalves Coronado Antunes",
+   "photo": 411582031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116341581/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) garretereis, some rights reserved (CC BY-NC)",
+   "photo": 116341581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61659378/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2",
+   "photo": 61659378
+  }
+ ]
 }

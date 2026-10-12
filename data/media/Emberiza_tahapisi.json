@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27699187/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Russ Hoverman, some rights reserved (CC BY-NC), uploaded by Russ Hoverman",
+   "photo": 27699187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250685062/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Maphisa, some rights reserved (CC BY-NC), uploaded by David Maphisa",
+   "photo": 250685062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13819772/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 13819772
+  }
+ ]
 }

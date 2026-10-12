@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588062503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jafrade, some rights reserved (CC BY-NC)",
+   "photo": 588062503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176876785/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 176876785
+  }
+ ]
 }

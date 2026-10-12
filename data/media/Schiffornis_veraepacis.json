@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34246951/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Lipmanson, some rights reserved (CC BY-NC), uploaded by Don Lipmanson",
+   "photo": 34246951
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327712170/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cornelio Chablé, some rights reserved (CC BY-NC), uploaded by Cornelio Chablé",
+   "photo": 327712170
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20460080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvador Poot Villanueva, some rights reserved (CC BY-NC), uploaded by Salvador Poot Villanueva",
+   "photo": 20460080
+  }
+ ]
 }

@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28344368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Skip Russell, some rights reserved (CC BY-NC), uploaded by Skip Russell",
+   "photo": 28344368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446478823/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 446478823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55923410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lemurtaquin, some rights reserved (CC BY-NC), uploaded by lemurtaquin",
+   "photo": 55923410
+  }
+ ]
 }

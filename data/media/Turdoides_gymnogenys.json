@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310415328/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, some rights reserved (CC BY-SA), uploaded by Joseph Morlan",
+   "photo": 310415328
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13644496/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 13644496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188082539/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 188082539
+  }
+ ]
 }

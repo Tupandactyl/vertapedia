@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4901146/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gunnar Engblom, some rights reserved (CC BY-NC-SA)",
+   "photo": 4901146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598323864/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gloriamarkiewicz, some rights reserved (CC BY-NC)",
+   "photo": 598323864
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319198433/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gloriamarkiewicz, some rights reserved (CC BY-NC)",
+   "photo": 319198433
+  }
+ ]
 }

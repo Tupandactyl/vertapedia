@@ -73,5 +73,25 @@
    "date": "2024-03-07"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389682131/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 389682131
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129652696/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría",
+   "photo": 129652696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158983528/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) thibaudaronson, some rights reserved (CC BY-SA)",
+   "photo": 158983528
+  }
+ ]
 }

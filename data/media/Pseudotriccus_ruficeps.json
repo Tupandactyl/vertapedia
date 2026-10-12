@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67607235/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 67607235
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164219622/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 164219622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164219596/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 164219596
+  }
+ ]
 }

@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142969290/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 142969290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72595718/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nicola van Berkel, some rights reserved (CC BY-SA), uploaded by Nicola van Berkel",
+   "photo": 72595718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21851324/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Zygy",
+   "photo": 21851324
+  }
+ ]
 }

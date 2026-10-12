@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265811214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC), uploaded by Saifudeen Muhammad",
+   "photo": 265811214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38283913/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wasamaki, some rights reserved (CC BY-NC), uploaded by wasamaki",
+   "photo": 38283913
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622284645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark + Holly Salvato, some rights reserved (CC BY-NC), uploaded by Mark + Holly Salvato",
+   "photo": 622284645
+  }
+ ]
 }

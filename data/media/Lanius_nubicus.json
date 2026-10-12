@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118443879/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Len Worthington, some rights reserved (CC BY-SA)",
+   "photo": 118443879
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110098599/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yaman Omran, some rights reserved (CC BY-NC), uploaded by Yaman Omran",
+   "photo": 110098599
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118443881/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 118443881
+  }
+ ]
 }

@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182704/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "photo": 182704
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18998396/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) shanelkalicharan, some rights reserved (CC BY-SA)",
+   "photo": 18998396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18998393/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tristan Ferne, some rights reserved (CC BY)",
+   "photo": 18998393
+  }
+ ]
 }

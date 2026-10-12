@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241774602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) max_hof_mann, some rights reserved (CC BY-NC), uploaded by max_hof_mann",
+   "photo": 241774602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/570644/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) ARALCAL by julian londono, some rights reserved (CC BY-SA)",
+   "photo": 570644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231218246/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 231218246
+  }
+ ]
 }

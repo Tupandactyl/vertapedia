@@ -103,5 +103,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208369016/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Russell Palmer, some rights reserved (CC BY-NC), uploaded by Russell Palmer",
+   "photo": 208369016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182251/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Clifton, some rights reserved (CC BY-NC)",
+   "photo": 182251
+  }
+ ]
 }

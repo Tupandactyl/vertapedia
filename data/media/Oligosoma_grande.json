@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168719902/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Carey_Knox_Southern_Scales",
+   "photo": 168719902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2616099/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jane Gosden, some rights reserved (CC BY-NC), uploaded by Jane Gosden",
+   "photo": 2616099
+  }
+ ]
 }

@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31194127/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
+   "photo": 31194127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26730727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeffrey H. Skevington, some rights reserved (CC BY-NC), uploaded by Jeffrey H. Skevington",
+   "photo": 26730727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31194107/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
+   "photo": 31194107
+  }
+ ]
 }

@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203705488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo Menéndez, some rights reserved (CC BY-NC), uploaded by Guillermo Menéndez",
+   "photo": 203705488
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43966555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Lescano, some rights reserved (CC BY-NC), uploaded by Sebastián Lescano",
+   "photo": 43966555
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191807610/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Martín Acosta Albarracín, some rights reserved (CC BY), uploaded by Martín Acosta Albarracín",
+   "photo": 191807610
+  }
+ ]
 }

@@ -195,5 +195,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13401183/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13401183
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103428046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thisfeministrox, some rights reserved (CC BY-NC)",
+   "photo": 103428046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109860868/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Steven Smethurst",
+   "photo": 109860868
+  }
+ ]
 }

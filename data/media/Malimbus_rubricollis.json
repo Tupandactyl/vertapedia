@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2846895/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ddk_photos, some rights reserved (CC BY-NC)",
+   "photo": 2846895
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171661413/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 171661413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66356155/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 66356155
+  }
+ ]
 }

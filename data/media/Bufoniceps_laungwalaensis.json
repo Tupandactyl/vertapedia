@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444126813/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frankiedurham, some rights reserved (CC BY-NC)",
+   "photo": 444126813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61441106/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Barna Takats, some rights reserved (CC BY-NC), uploaded by Barna Takats",
+   "photo": 61441106
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595197746/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ashwin Viswanathan, some rights reserved (CC BY), uploaded by Ashwin Viswanathan",
+   "photo": 595197746
+  }
+ ]
 }

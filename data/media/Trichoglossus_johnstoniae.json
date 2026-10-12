@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48163447/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Warby, some rights reserved (CC BY)",
+   "photo": 48163447
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48163446/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Mindanao_Lorikeet_(Trichoglossus_johnstoniae).jpg, some rights reserved (CC BY-SA)",
+   "photo": 48163446
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133026/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Carlos Urdiales, some rights reserved (CC BY-SA)",
+   "photo": 133026
+  }
+ ]
 }

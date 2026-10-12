@@ -382,5 +382,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611849733/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "photo": 611849733
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252127822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Бобаченко Елена, some rights reserved (CC BY-NC), uploaded by Бобаченко Елена",
+   "photo": 252127822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57394041/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Алина Урусова, some rights reserved (CC BY), uploaded by Алина Урусова",
+   "photo": 57394041
+  }
+ ]
 }

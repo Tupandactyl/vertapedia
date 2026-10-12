@@ -123,5 +123,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136013/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 136013
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221650653/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Кирилл, some rights reserved (CC BY), uploaded by Кирилл",
+   "photo": 221650653
+  }
+ ]
 }

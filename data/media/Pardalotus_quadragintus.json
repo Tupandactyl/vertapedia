@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606325786/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Keith Morris, some rights reserved (CC BY-NC), uploaded by Keith Morris",
+   "photo": 606325786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/538909976/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kenton, some rights reserved (CC BY-NC), uploaded by Kenton",
+   "photo": 538909976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47752855/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Steiner, some rights reserved (CC BY-NC), uploaded by Ryan Steiner",
+   "photo": 47752855
+  }
+ ]
 }

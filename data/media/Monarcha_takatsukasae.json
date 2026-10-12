@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435419648/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kaeliswift, some rights reserved (CC BY-NC)",
+   "photo": 435419648
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198557478/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) fletchermoore, some rights reserved (CC BY)",
+   "photo": 198557478
+  }
+ ]
 }

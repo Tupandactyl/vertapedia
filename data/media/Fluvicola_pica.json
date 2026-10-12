@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12513161/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mateo Hernandez Schmidt, some rights reserved (CC BY-NC-SA), uploaded by Mateo Hernandez Schmidt",
+   "photo": 12513161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100591/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 100591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85381933/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tatiana Velasquez, some rights reserved (CC BY-NC), uploaded by Tatiana Velasquez",
+   "photo": 85381933
+  }
+ ]
 }

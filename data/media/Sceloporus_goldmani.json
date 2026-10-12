@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12626601/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eliphaleth, some rights reserved (CC BY-NC), uploaded by eliphaleth",
+   "photo": 12626601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12386502/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Faunística Conservación e Investigación de Especies Endémicas AC, some rights reserved (CC BY-NC), uploaded by Faunística Conservación e Investigación de Especies Endémicas AC",
+   "photo": 12386502
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12386542/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Faunística Conservación e Investigación de Especies Endémicas AC, some rights reserved (CC BY-NC), uploaded by Faunística Conservación e Investigación de Especies Endémicas AC",
+   "photo": 12386542
+  }
+ ]
 }

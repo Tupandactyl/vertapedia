@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448648321/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by steve b",
+   "photo": 448648321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450544062/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeffrey H. Skevington, some rights reserved (CC BY-NC), uploaded by Jeffrey H. Skevington",
+   "photo": 450544062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107476112/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Leggatt, some rights reserved (CC BY-NC), uploaded by Nick Leggatt",
+   "photo": 107476112
+  }
+ ]
 }

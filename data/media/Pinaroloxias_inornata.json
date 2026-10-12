@@ -146,5 +146,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56340085/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Robert Webster, some rights reserved (CC BY-SA), uploaded by Robert Webster",
+   "photo": 56340085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56340083/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Robert Webster, some rights reserved (CC BY-SA), uploaded by Robert Webster",
+   "photo": 56340083
+  }
+ ]
 }

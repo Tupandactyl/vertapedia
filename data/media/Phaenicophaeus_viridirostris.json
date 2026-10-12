@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557086392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arpit_nature, some rights reserved (CC BY-NC), uploaded by Arpit_nature",
+   "photo": 557086392
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178765585/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saravanaraja Thyagarajan, some rights reserved (CC BY-NC), uploaded by Saravanaraja Thyagarajan",
+   "photo": 178765585
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241209800/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ravi Naidu, some rights reserved (CC BY-NC), uploaded by Ravi Naidu",
+   "photo": 241209800
+  }
+ ]
 }

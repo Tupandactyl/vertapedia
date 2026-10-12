@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543496196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) drbrachydactyl, some rights reserved (CC BY-NC)",
+   "photo": 543496196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237342094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 237342094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94386684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Foss, some rights reserved (CC BY-NC), uploaded by Steve Foss",
+   "photo": 94386684
+  }
+ ]
 }

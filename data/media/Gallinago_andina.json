@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429311077/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 429311077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442680917/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 442680917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65766171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mickaël Villemagne, some rights reserved (CC BY-NC), uploaded by Mickaël Villemagne",
+   "photo": 65766171
+  }
+ ]
 }

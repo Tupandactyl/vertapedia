@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393841552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 393841552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470009435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A Mejias, PhD., some rights reserved (CC BY-NC), uploaded by Miguel A Mejias, PhD.",
+   "photo": 470009435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351532015/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 351532015
+  }
+ ]
 }

@@ -96,5 +96,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82644844/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pierce, some rights reserved (CC BY-NC), uploaded by Andrew Pierce",
+   "photo": 82644844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84496008/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY), uploaded by Ian Dugdale",
+   "photo": 84496008
+  }
+ ]
 }

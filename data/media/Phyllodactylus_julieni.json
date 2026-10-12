@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35408929/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lauren Livo, some rights reserved (CC BY-NC), uploaded by Lauren Livo",
+   "photo": 35408929
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47304086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marck, some rights reserved (CC BY-NC), uploaded by marck",
+   "photo": 47304086
+  }
+ ]
 }

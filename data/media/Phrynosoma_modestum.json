@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469913983/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Kazmaier, some rights reserved (CC BY-NC), uploaded by Richard Kazmaier",
+   "photo": 469913983
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10096592/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chucho_molossus, some rights reserved (CC BY-NC), uploaded by chucho_molossus",
+   "photo": 10096592
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15898/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Hadley Paul Garland, some rights reserved (CC BY-NC-SA)",
+   "photo": 15898
+  }
+ ]
 }

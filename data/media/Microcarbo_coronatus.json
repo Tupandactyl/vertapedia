@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605762677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Mayo, some rights reserved (CC BY-NC), uploaded by Steve Mayo",
+   "photo": 605762677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464161218/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacobus Retief, some rights reserved (CC BY-NC), uploaded by Jacobus Retief",
+   "photo": 464161218
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124227964/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ruthie_mac, some rights reserved (CC BY-NC)",
+   "photo": 124227964
+  }
+ ]
 }

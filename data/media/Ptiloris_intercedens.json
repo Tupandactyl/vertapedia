@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612948061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leandro Rezende, some rights reserved (CC BY-NC), uploaded by Leandro Rezende",
+   "photo": 612948061
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572615420/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "photo": 572615420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575613880/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "photo": 575613880
+  }
+ ]
 }

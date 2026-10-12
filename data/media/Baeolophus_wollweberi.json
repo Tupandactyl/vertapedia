@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5550/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dmitry Mozzherin, some rights reserved (CC BY-NC-SA)",
+   "photo": 5550
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208289067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cam Stewart, some rights reserved (CC BY-NC), uploaded by Cam Stewart",
+   "photo": 208289067
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/307620468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jbp316, some rights reserved (CC BY-NC)",
+   "photo": 307620468
+  }
+ ]
 }

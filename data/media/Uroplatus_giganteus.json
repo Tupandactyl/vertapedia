@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26935508/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 26935508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1974957/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+   "photo": 1974957
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2387722/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Scott Loarie",
+   "photo": 2387722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247550319/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Harris, some rights reserved (CC BY-NC), uploaded by Bert Harris",
+   "photo": 247550319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188718735/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 188718735
+  }
+ ]
 }

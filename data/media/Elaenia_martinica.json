@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43874807/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) reefguard, some rights reserved (CC BY-NC)",
+   "photo": 43874807
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6400903/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 6400903
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173029/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) New Jersey Birds, some rights reserved (CC BY-SA)",
+   "photo": 173029
+  }
+ ]
 }

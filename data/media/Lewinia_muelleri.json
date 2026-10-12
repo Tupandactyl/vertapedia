@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468096101/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jake Osborne, some rights reserved (CC BY), uploaded by Jake Osborne",
+   "photo": 468096101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468096120/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jake Osborne, some rights reserved (CC BY), uploaded by Jake Osborne",
+   "photo": 468096120
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351721739/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jake Osborne, some rights reserved (CC BY), uploaded by Jake Osborne",
+   "photo": 351721739
+  }
+ ]
 }

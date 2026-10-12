@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345655323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dmitrii, some rights reserved (CC BY-NC), uploaded by Dmitrii",
+   "photo": 345655323
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175191402/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Taylor, some rights reserved (CC BY-NC), uploaded by Peter Taylor",
+   "photo": 175191402
+  }
+ ]
 }

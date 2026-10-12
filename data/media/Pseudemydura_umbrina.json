@@ -56,5 +56,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56034999/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bahudhara, some rights reserved (CC BY-SA)",
+   "photo": 56034999
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5243213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+   "photo": 5243213
+  }
+ ]
 }

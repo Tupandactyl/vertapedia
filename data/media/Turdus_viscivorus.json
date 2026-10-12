@@ -213,5 +213,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203268068/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Ghiraldi, some rights reserved (CC BY-NC), uploaded by Luca Ghiraldi",
+   "photo": 203268068
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256398718/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
+   "photo": 256398718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61267044/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Imran Shah, some rights reserved (CC BY-SA)",
+   "photo": 61267044
+  }
+ ]
 }

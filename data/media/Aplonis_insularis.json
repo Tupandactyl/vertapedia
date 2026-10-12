@@ -39,5 +39,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610909467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 610909467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609629791/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 609629791
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457211896/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC), uploaded by peter maaskant",
+   "photo": 457211896
+  }
+ ]
 }

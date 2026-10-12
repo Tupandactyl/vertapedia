@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1540749/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) johi_abraham, some rights reserved (CC BY-NC), uploaded by johi_abraham",
+   "photo": 1540749
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253536041/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Sabaliauskas, some rights reserved (CC BY-NC), uploaded by Alfredo Sabaliauskas",
+   "photo": 253536041
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459537671/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfredo Sabaliauskas, some rights reserved (CC BY-NC), uploaded by Alfredo Sabaliauskas",
+   "photo": 459537671
+  }
+ ]
 }

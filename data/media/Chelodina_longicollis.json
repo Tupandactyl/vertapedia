@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458618130/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Jaeger, some rights reserved (CC BY), uploaded by Thomas Jaeger",
+   "photo": 458618130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116268750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) deborod, some rights reserved (CC BY-NC), uploaded by deborod",
+   "photo": 116268750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29945890/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Lambert, some rights reserved (CC BY-NC-SA), uploaded by Nick Lambert",
+   "photo": 29945890
+  }
+ ]
 }

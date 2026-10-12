@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323397/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+   "photo": 323397
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5685435/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Carles Pastor, some rights reserved (CC BY-SA), uploaded by Carles Pastor",
+   "photo": 5685435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102020340/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 102020340
+  }
+ ]
 }

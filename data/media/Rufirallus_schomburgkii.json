@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176295999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luiz Alberto Santos, some rights reserved (CC BY-NC), uploaded by Luiz Alberto Santos",
+   "photo": 176295999
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22951832/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Lees, some rights reserved (CC BY-NC), uploaded by Alexander Lees",
+   "photo": 22951832
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150708986/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William R S Maciel, some rights reserved (CC BY-NC), uploaded by William R S Maciel",
+   "photo": 150708986
+  }
+ ]
 }

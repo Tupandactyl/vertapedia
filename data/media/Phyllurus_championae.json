@@ -73,5 +73,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12243158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) warblerific, some rights reserved (CC BY-NC)",
+   "photo": 12243158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1678272/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jeff Wright, some rights reserved (CC BY-SA)",
+   "photo": 1678272
+  }
+ ]
 }

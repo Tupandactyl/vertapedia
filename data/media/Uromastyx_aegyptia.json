@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202651911/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cog2022, some rights reserved (CC BY-NC)",
+   "photo": 202651911
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4003120/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tamsin Carlisle, some rights reserved (CC BY-NC-SA)",
+   "photo": 4003120
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13572503/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 13572503
+  }
+ ]
 }

@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27352901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 27352901
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2168397/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY), uploaded by Jorge Armín Escalante-Pasos",
+   "photo": 2168397
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2168395/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY), uploaded by Jorge Armín Escalante-Pasos",
+   "photo": 2168395
+  }
+ ]
 }

@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545970146/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Agustín Gabriel Álvarez, some rights reserved (CC BY-NC), uploaded by Agustín Gabriel Álvarez",
+   "photo": 545970146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45170080/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) RAP, some rights reserved (CC BY), uploaded by RAP",
+   "photo": 45170080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70281881/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier González, some rights reserved (CC BY-NC), uploaded by Javier González",
+   "photo": 70281881
+  }
+ ]
 }

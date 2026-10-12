@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195795850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gonzalonazati, some rights reserved (CC BY-NC)",
+   "photo": 195795850
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162662937/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 162662937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 95665
+  }
+ ]
 }

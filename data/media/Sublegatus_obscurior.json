@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444779474/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, einige Rechte vorbehalten (CC BY), hochgeladen von Christoph Moning",
+   "photo": 444779474
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11040716/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fabiomanfredini, einige Rechte vorbehalten (CC BY-NC), hochgeladen von fabiomanfredini",
+   "photo": 11040716
+  }
+ ]
 }

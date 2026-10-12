@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7474329/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rabiah_sairin, some rights reserved (CC BY-NC)",
+   "photo": 7474329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186407786/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 186407786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163414093/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Green Hill - Bukit Lawang (Andrea Molyneaux), some rights reserved (CC BY-NC), uploaded by Green Hill - Bukit Lawang (Andrea Molyneaux)",
+   "photo": 163414093
+  }
+ ]
 }

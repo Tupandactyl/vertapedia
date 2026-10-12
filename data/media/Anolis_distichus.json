@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453630683/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon",
+   "photo": 453630683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118044212/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brice C., some rights reserved (CC BY-NC), uploaded by Brice C.",
+   "photo": 118044212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13642271/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Richard Glor, some rights reserved (CC BY-NC-SA)",
+   "photo": 13642271
+  }
+ ]
 }

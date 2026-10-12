@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479862325/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mettalady Yeo, some rights reserved (CC BY-NC), uploaded by Mettalady Yeo",
+   "photo": 479862325
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59311122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 59311122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64492814/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 64492814
+  }
+ ]
 }

@@ -73,5 +73,25 @@
    "date": "2012-07-26"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1285930/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Smithsonian Institution, National Museum of Natural History, Department of Vertebrate Zoology, Division of Amphibians & Reptiles, some rights reserved (CC BY-NC-SA)",
+   "photo": 1285930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2168394/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY), uploaded by Jorge Armín Escalante-Pasos",
+   "photo": 2168394
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2168395/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY), uploaded by Jorge Armín Escalante-Pasos",
+   "photo": 2168395
+  }
+ ]
 }

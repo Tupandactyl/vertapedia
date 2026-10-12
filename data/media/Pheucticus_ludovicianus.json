@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169653410/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Cephas, some rights reserved (CC BY-SA)",
+   "photo": 169653410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239449/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blake Matheson, some rights reserved (CC BY-NC)",
+   "photo": 239449
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228640982/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig K. Hunt, some rights reserved (CC BY-NC), uploaded by Craig K. Hunt",
+   "photo": 228640982
+  }
+ ]
 }

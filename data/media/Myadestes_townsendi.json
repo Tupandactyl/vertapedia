@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106405630/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 106405630
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197300966/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Hart, some rights reserved (CC BY-NC), uploaded by Andrew Hart",
+   "photo": 197300966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244158286/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Weston Barker, some rights reserved (CC BY-NC), uploaded by Weston Barker",
+   "photo": 244158286
+  }
+ ]
 }

@@ -117,5 +117,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146689110/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rich Kostecke, some rights reserved (CC BY-NC), uploaded by Rich Kostecke",
+   "photo": 146689110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37943244/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 37943244
+  }
+ ]
 }

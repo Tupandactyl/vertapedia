@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522725167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 522725167
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300376956/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 300376956
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173856504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Bentsen, some rights reserved (CC BY-NC), uploaded by Steve Bentsen",
+   "photo": 173856504
+  }
+ ]
 }

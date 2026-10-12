@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156695716/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 156695716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36374620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Acosta, some rights reserved (CC BY-NC), uploaded by Martin Acosta",
+   "photo": 36374620
+  }
+ ]
 }

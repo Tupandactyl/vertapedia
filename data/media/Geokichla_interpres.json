@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133481351/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ingkayut Sa-ar, some rights reserved (CC BY-NC), uploaded by Ingkayut Sa-ar",
+   "photo": 133481351
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50586370/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut",
+   "photo": 50586370
+  }
+ ]
 }

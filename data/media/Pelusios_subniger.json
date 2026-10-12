@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28056878/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nick Schaller, some rights reserved (CC BY), uploaded by Nick Schaller",
+   "photo": 28056878
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144604855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) william van Niekerk, some rights reserved (CC BY-NC), uploaded by william van Niekerk",
+   "photo": 144604855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56744060/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Roland Kays",
+   "photo": 56744060
+  }
+ ]
 }

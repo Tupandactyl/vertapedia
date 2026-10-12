@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57379344/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) linfrank6, osa oikeuksista pidätetään (CC BY-NC), lähettänyt linfrank6",
+   "photo": 57379344
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43727435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Stephen John Davies",
+   "photo": 43727435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34208142/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Amaru Rubio, osa oikeuksista pidätetään (CC BY-NC-SA), lähettänyt Amaru Rubio",
+   "photo": 34208142
+  }
+ ]
 }

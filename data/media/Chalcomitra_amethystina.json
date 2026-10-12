@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16169724/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 16169724
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66392373/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 66392373
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31107232/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 31107232
+  }
+ ]
 }

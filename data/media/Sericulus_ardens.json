@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399320469/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Moore (Maryland), some rights reserved (CC BY-NC), uploaded by Jim Moore (Maryland)",
+   "photo": 399320469
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568922183/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "photo": 568922183
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399320455/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Moore (Maryland), some rights reserved (CC BY-NC), uploaded by Jim Moore (Maryland)",
+   "photo": 399320455
+  }
+ ]
 }

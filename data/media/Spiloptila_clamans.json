@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11977323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) animalita, some rights reserved (CC BY-NC), uploaded by animalita",
+   "photo": 11977323
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6446567/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen Moores, some rights reserved (CC BY-NC), uploaded by Stephen Moores",
+   "photo": 6446567
+  }
+ ]
 }

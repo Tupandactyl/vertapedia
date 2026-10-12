@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342561343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC), uploaded by Luke Verburgt",
+   "photo": 342561343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342561515/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC), uploaded by Luke Verburgt",
+   "photo": 342561515
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342561518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC), uploaded by Luke Verburgt",
+   "photo": 342561518
+  }
+ ]
 }

@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43750005/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Rush, some rights reserved (CC BY-NC), uploaded by Isaac Rush",
+   "photo": 43750005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43752780/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Rush, some rights reserved (CC BY-NC), uploaded by Isaac Rush",
+   "photo": 43752780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156632014/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 156632014
+  }
+ ]
 }

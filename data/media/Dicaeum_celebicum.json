@@ -98,5 +98,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6008049/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Susan Tsang, some rights reserved (CC BY-NC), uploaded by Susan Tsang",
+   "photo": 6008049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+   "photo": 312652
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273720/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 116643157779689425916, some rights reserved (CC BY-NC), uploaded by 116643157779689425916",
+   "photo": 273720
+  }
+ ]
 }

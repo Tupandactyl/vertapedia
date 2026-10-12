@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543347819/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Connor Margetts",
+   "photo": 543347819
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27711244/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rolf Lawrenz, some rights reserved (CC BY), uploaded by Rolf Lawrenz",
+   "photo": 27711244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102533903/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JohnNewman, some rights reserved (CC BY-NC), uploaded by JohnNewman",
+   "photo": 102533903
+  }
+ ]
 }

@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391550291/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 391550291
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1898222/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Acanthorhynchus_superciliosus.jpg: Julia Gross. derivative work: Berichard, some rights reserved (CC BY)",
+   "photo": 1898222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247736715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerry + Darren, some rights reserved (CC BY-NC), uploaded by Kerry + Darren",
+   "photo": 247736715
+  }
+ ]
 }

@@ -91,5 +91,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104726050/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santi MD, some rights reserved (CC BY-NC), uploaded by Santi MD",
+   "photo": 104726050
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17569/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-SA)",
+   "photo": 17569
+  }
+ ]
 }

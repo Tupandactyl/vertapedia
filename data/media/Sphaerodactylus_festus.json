@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637692966/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 637692966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602451402/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antoine_baglan, some rights reserved (CC BY-NC)",
+   "photo": 602451402
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637691220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 637691220
+  }
+ ]
 }

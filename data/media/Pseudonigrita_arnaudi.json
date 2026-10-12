@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376163359/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fboue19, some rights reserved (CC BY-NC)",
+   "photo": 376163359
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776697/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 776697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443798619/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Shepherd, some rights reserved (CC BY-NC), uploaded by Rob Shepherd",
+   "photo": 443798619
+  }
+ ]
 }

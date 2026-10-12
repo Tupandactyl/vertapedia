@@ -158,5 +158,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67607354/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 67607354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100040115/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 100040115
+  }
+ ]
 }

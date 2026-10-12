@@ -160,5 +160,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17004151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC), uploaded by Paul Tavares",
+   "photo": 17004151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245260/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 245260
+  }
+ ]
 }

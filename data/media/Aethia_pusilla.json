@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9814354/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James A. Giroux, some rights reserved (CC BY-NC), uploaded by James A. Giroux",
+   "photo": 9814354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 45166082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239779/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 239779
+  }
+ ]
 }

@@ -134,5 +134,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66409640/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Soheil Zendeh, some rights reserved (CC BY-NC-SA), uploaded by Soheil Zendeh",
+   "photo": 66409640
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99107009/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noé R. Quiróz, some rights reserved (CC BY-NC), uploaded by Noé R. Quiróz",
+   "photo": 99107009
+  }
+ ]
 }

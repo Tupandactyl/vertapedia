@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665817268/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JD, osa oikeuksista pidätetään (CC BY-NC), lähettänyt JD",
+   "photo": 665817268
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665817283/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JD, osa oikeuksista pidätetään (CC BY-NC), lähettänyt JD",
+   "photo": 665817283
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25580205/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Lorenzo Vinciguerra",
+   "photo": 25580205
+  }
+ ]
 }

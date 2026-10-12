@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147108694/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sean McCann, some rights reserved (CC BY-NC), uploaded by Sean McCann",
+   "photo": 147108694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98581/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 98581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98582/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vince Smith, some rights reserved (CC BY-NC-SA)",
+   "photo": 98582
+  }
+ ]
 }

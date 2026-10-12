@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246868004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Shepherd, some rights reserved (CC BY-NC), uploaded by Rob Shepherd",
+   "photo": 246868004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182150/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 182150
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182151/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 182151
+  }
+ ]
 }

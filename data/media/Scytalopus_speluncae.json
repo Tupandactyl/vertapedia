@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181138814/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudio Martins de Souza, some rights reserved (CC BY-NC), uploaded by Claudio Martins de Souza",
+   "photo": 181138814
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96689127/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juliano Marques, some rights reserved (CC BY-NC), uploaded by Juliano Marques",
+   "photo": 96689127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180698637/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique Seigarro Moutinho, some rights reserved (CC BY-NC), uploaded by Henrique Seigarro Moutinho",
+   "photo": 180698637
+  }
+ ]
 }

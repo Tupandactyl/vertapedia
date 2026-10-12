@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483053756/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fei-zheng Wu @ 吴飞征, some rights reserved (CC BY-NC), uploaded by Fei-zheng Wu @ 吴飞征",
+   "photo": 483053756
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44501409/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Woodall, some rights reserved (CC BY-NC), uploaded by Pete Woodall",
+   "photo": 44501409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14648104/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cnarraway, some rights reserved (CC BY-NC), uploaded by cnarraway",
+   "photo": 14648104
+  }
+ ]
 }

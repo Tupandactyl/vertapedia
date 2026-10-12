@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462275728/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba",
+   "photo": 462275728
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249330503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 249330503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599260434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jianguo Liu, some rights reserved (CC BY-NC), uploaded by jianguo Liu",
+   "photo": 599260434
+  }
+ ]
 }

@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/630931335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+   "photo": 630931335
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268450564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 268450564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283615944/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Roberts, some rights reserved (CC BY-NC), uploaded by John Roberts",
+   "photo": 283615944
+  }
+ ]
 }

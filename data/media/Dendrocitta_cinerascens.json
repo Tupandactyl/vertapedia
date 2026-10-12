@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73538341/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 73538341
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296673742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan Neo, some rights reserved (CC BY-NC), uploaded by Ivan Neo",
+   "photo": 296673742
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19921116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 19921116
+  }
+ ]
 }

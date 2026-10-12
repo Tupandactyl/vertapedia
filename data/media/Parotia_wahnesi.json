@@ -47,5 +47,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385640391/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC), uploaded by peter maaskant",
+   "photo": 385640391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247375/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) EOL Learning and Education Group, some rights reserved (CC BY)",
+   "photo": 247375
+  }
+ ]
 }

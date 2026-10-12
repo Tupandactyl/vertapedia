@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266749059/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sam Gordon, some rights reserved (CC BY-NC-SA), uploaded by Sam Gordon",
+   "photo": 266749059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267055467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 267055467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197229154/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darcy Whittaker, some rights reserved (CC BY-NC), uploaded by Darcy Whittaker",
+   "photo": 197229154
+  }
+ ]
 }

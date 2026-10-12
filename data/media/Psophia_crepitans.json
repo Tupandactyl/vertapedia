@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93307502/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 93307502
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233811569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+   "photo": 233811569
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120780365/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 120780365
+  }
+ ]
 }

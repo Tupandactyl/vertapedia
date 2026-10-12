@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26314728/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26314728
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31097951/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heitor Fagundes Beloch, some rights reserved (CC BY-NC), uploaded by Heitor Fagundes Beloch",
+   "photo": 31097951
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71496011/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reuber Brandão, some rights reserved (CC BY-NC), uploaded by Reuber Brandão",
+   "photo": 71496011
+  }
+ ]
 }

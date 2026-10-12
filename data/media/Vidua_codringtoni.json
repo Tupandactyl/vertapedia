@@ -71,5 +71,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484800026/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Corné Rautenbach, some rights reserved (CC BY-NC), uploaded by Corné Rautenbach",
+   "photo": 484800026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120206802/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean, some rights reserved (CC BY-NC), uploaded by Jean",
+   "photo": 120206802
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113073704/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nico Vromant, some rights reserved (CC BY-NC), uploaded by Nico Vromant",
+   "photo": 113073704
+  }
+ ]
 }

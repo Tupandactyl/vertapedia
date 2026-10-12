@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207903479/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+   "photo": 207903479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207903339/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+   "photo": 207903339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57731685/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 57731685
+  }
+ ]
 }

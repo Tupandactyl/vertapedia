@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13385408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13385408
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470281826/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Z. Lendvai, some rights reserved (CC BY-NC), uploaded by Adam Z. Lendvai",
+   "photo": 470281826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461917850/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oliver Huang, some rights reserved (CC BY-NC), uploaded by Oliver Huang",
+   "photo": 461917850
+  }
+ ]
 }

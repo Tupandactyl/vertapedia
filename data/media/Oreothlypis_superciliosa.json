@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275945863/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Manuel Carmona, some rights reserved (CC BY-NC), uploaded by Juan Manuel Carmona",
+   "photo": 275945863
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287559447/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ADLAI MENESES, some rights reserved (CC BY-NC), uploaded by ADLAI MENESES",
+   "photo": 287559447
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250485328/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mauricio Ruvalcaba, some rights reserved (CC BY-NC), uploaded by Mauricio Ruvalcaba",
+   "photo": 250485328
+  }
+ ]
 }

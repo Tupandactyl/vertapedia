@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14512387/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catherine Beard, some rights reserved (CC BY-NC), uploaded by Catherine Beard",
+   "photo": 14512387
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14512928/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catherine Beard, some rights reserved (CC BY-NC), uploaded by Catherine Beard",
+   "photo": 14512928
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14682369/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Houston, some rights reserved (CC BY-NC), uploaded by Dave Houston",
+   "photo": 14682369
+  }
+ ]
 }

@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290858/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Chris  Chafer, some rights reserved (CC BY)",
+   "photo": 2290858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402679173/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinpearce, some rights reserved (CC BY-NC)",
+   "photo": 402679173
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27441281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27441281
+  }
+ ]
 }

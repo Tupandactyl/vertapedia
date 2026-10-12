@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616673333/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khristian Venegas Valencia, some rights reserved (CC BY-NC), uploaded by Khristian Venegas Valencia",
+   "photo": 616673333
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121890151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marley T. Gómez-Rincón, some rights reserved (CC BY-NC), uploaded by Marley T. Gómez-Rincón",
+   "photo": 121890151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4059582/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 4059582
+  }
+ ]
 }

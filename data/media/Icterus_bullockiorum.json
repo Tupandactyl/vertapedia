@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6146876/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Becerril González, some rights reserved (CC BY-NC), uploaded by Manuel Becerril González",
+   "photo": 6146876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 200876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219311/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 219311
+  }
+ ]
 }

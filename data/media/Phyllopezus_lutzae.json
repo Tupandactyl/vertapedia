@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262570392/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) a_f_r, some rights reserved (CC BY-NC), uploaded by a_f_r",
+   "photo": 262570392
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12167253/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hélcio Urcino de Melo Neto, some rights reserved (CC BY-NC), uploaded by Hélcio Urcino de Melo Neto",
+   "photo": 12167253
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262570648/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) a_f_r, some rights reserved (CC BY-NC), uploaded by a_f_r",
+   "photo": 262570648
+  }
+ ]
 }

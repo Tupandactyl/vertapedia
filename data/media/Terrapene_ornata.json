@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366236/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Eric Osmundson, niektóre prawa zastrzeżone (CC BY-NC-SA)",
+   "photo": 366236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Cullen Hanks",
+   "photo": 167658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3695265/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Smith, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Jenny Smith",
+   "photo": 3695265
+  }
+ ]
 }

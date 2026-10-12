@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3391176/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3391176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12418079/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 12418079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54677/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Anne van der Wal, some rights reserved (CC BY-NC-SA)",
+   "photo": 54677
+  }
+ ]
 }

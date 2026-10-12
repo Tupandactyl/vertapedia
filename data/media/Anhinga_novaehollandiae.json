@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214297918/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jpshahady, some rights reserved (CC BY-NC)",
+   "photo": 214297918
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220886176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg West, some rights reserved (CC BY-NC), uploaded by Greg West",
+   "photo": 220886176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722883989/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aims, some rights reserved (CC BY-NC), uploaded by Aims",
+   "photo": 722883989
+  }
+ ]
 }

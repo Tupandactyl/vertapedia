@@ -111,5 +111,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113778784/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kamel Alfayadhi, osa oikeuksista pidätetään (CC BY-NC), lähettänyt kamel Alfayadhi",
+   "photo": 113778784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31311753/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shahrzad Fattahi, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Shahrzad Fattahi",
+   "photo": 31311753
+  }
+ ]
 }

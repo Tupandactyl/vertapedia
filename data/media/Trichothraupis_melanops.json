@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27445973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Paulo Rosa, some rights reserved (CC BY-NC), uploaded by João Paulo Rosa",
+   "photo": 27445973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567993605/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Claudio Martins de Souza, some rights reserved (CC BY-SA), uploaded by Claudio Martins de Souza",
+   "photo": 567993605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102657830/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ria Vogels, some rights reserved (CC BY-NC), uploaded by Ria Vogels",
+   "photo": 102657830
+  }
+ ]
 }

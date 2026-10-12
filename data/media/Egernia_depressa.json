@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457459103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Ruggeri, some rights reserved (CC BY-NC), uploaded by Andrea Ruggeri",
+   "photo": 457459103
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441617543/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) crocwreslter1, some rights reserved (CC BY-NC)",
+   "photo": 441617543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36530668/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 36530668
+  }
+ ]
 }

@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56266900/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael McSweeney, some rights reserved (CC BY-NC), uploaded by Michael McSweeney",
+   "photo": 56266900
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411693706/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cirolana, some rights reserved (CC BY-NC)",
+   "photo": 411693706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322417344/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hendrik McCarthy, some rights reserved (CC BY-NC), uploaded by Hendrik McCarthy",
+   "photo": 322417344
+  }
+ ]
 }

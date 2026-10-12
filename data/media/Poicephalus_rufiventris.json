@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46238556/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Donald Hampton, some rights reserved (CC BY-SA), uploaded by Donald Hampton",
+   "photo": 46238556
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30398310/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mikeloomis, some rights reserved (CC BY-NC), uploaded by mikeloomis",
+   "photo": 30398310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984739/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominic Sherony, some rights reserved (CC BY-SA)",
+   "photo": 158984739
+  }
+ ]
 }

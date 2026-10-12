@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114913966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) G. VIGO, some rights reserved (CC BY-NC), uploaded by G. VIGO",
+   "photo": 114913966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71360024/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lada Lisachova, some rights reserved (CC BY-NC), uploaded by Lada Lisachova",
+   "photo": 71360024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84926343/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 84926343
+  }
+ ]
 }

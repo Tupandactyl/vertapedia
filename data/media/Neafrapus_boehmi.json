@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1410742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Celesta, some rights reserved (CC BY-NC), uploaded by Celesta",
+   "photo": 1410742
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328990339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Johnstone, some rights reserved (CC BY-NC), uploaded by Richard Johnstone",
+   "photo": 328990339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528449731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 528449731
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269655241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 269655241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536291621/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 536291621
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242574585/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 242574585
+  }
+ ]
 }

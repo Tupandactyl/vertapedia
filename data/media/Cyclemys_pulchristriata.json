@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612604937/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 612604937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339854936/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 339854936
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339854921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 339854921
+  }
+ ]
 }

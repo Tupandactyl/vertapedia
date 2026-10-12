@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109526950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+   "photo": 109526950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97237472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pentti Ketola, some rights reserved (CC BY-NC), uploaded by Pentti Ketola",
+   "photo": 97237472
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103992496/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) esdena, some rights reserved (CC BY-NC), uploaded by esdena",
+   "photo": 103992496
+  }
+ ]
 }

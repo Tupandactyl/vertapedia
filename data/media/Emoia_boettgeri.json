@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39740117/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 39740117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114139331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raphael Forns, some rights reserved (CC BY-NC), uploaded by Raphael Forns",
+   "photo": 114139331
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114139322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raphael Forns, some rights reserved (CC BY-NC), uploaded by Raphael Forns",
+   "photo": 114139322
+  }
+ ]
 }

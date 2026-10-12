@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571270/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 571270
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460729/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lance H Martin, some rights reserved (CC BY-NC), uploaded by Lance H Martin",
+   "photo": 460729
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11995110/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kai Joaquin, some rights reserved (CC BY-NC), uploaded by Kai Joaquin",
+   "photo": 11995110
+  }
+ ]
 }

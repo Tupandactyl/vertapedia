@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174924473/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) coenobita, some rights reserved (CC BY), uploaded by coenobita",
+   "photo": 174924473
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29462644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rossco, some rights reserved (CC BY-NC)",
+   "photo": 29462644
+  }
+ ]
 }

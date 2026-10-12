@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31887/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joby Joseph, some rights reserved (CC BY-NC-SA)",
+   "photo": 31887
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31888/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joby Joseph, some rights reserved (CC BY-NC-SA)",
+   "photo": 31888
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10263457/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saurabh Agrawal, some rights reserved (CC BY-NC), uploaded by Saurabh Agrawal",
+   "photo": 10263457
+  }
+ ]
 }

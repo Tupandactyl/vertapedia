@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406800591/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Em De Blas, some rights reserved (CC BY-NC), uploaded by Em De Blas",
+   "photo": 406800591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406800475/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Em De Blas, some rights reserved (CC BY-NC), uploaded by Em De Blas",
+   "photo": 406800475
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2085658/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2085658
+  }
+ ]
 }

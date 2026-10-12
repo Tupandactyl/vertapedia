@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256303367/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rhianna Wren, some rights reserved (CC BY-NC), uploaded by Rhianna Wren",
+   "photo": 256303367
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17547/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frank wouters, some rights reserved (CC BY-NC)",
+   "photo": 17547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238382867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Lipmanson, some rights reserved (CC BY-NC), uploaded by Don Lipmanson",
+   "photo": 238382867
+  }
+ ]
 }

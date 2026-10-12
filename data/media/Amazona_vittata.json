@@ -184,5 +184,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157591938/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) U.S. Fish and Wildlife Service Southeast Region, some rights reserved (CC BY)",
+   "photo": 157591938
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157591939/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) vivtony00, some rights reserved (CC BY)",
+   "photo": 157591939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177478782/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+   "photo": 177478782
+  }
+ ]
 }

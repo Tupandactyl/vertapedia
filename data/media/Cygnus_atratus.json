@@ -224,5 +224,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464046604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Yonando, some rights reserved (CC BY-NC), uploaded by Kevin Yonando",
+   "photo": 464046604
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438378657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 438378657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256217859/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 256217859
+  }
+ ]
 }

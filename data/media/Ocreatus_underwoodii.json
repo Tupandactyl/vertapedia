@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280497563/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) OutdoorHikerGirl, einige Rechte vorbehalten (CC BY-NC), hochgeladen von OutdoorHikerGirl",
+   "photo": 280497563
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134331127/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) david0478, einige Rechte vorbehalten (CC BY-NC)",
+   "photo": 134331127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/559865/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, einige Rechte vorbehalten (CC BY-NC-SA)",
+   "photo": 559865
+  }
+ ]
 }

@@ -153,5 +153,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426606/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Paredes Montesinos, some rights reserved (CC BY-NC), uploaded by Rafael Paredes Montesinos",
+   "photo": 426606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177849305/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Laurel Meredyk, some rights reserved (CC BY), uploaded by Laurel Meredyk",
+   "photo": 177849305
+  }
+ ]
 }

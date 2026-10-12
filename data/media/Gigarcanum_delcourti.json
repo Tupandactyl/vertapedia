@@ -51,5 +51,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338569060/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nMatthew P. Heinicke, Stuart V. Nielsen, Aaron M. Bauer, Ryan Kelly, Anthony J. Geneva, Juan D. Daza, Shannon E. Keating & Tony Gamble, some rights reserved (CC BY)",
+   "photo": 338569060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47256458/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lamiot, some rights reserved (CC BY-SA)",
+   "photo": 47256458
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172523028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Dupont, some rights reserved (CC BY-NC), uploaded by Frédéric Dupont",
+   "photo": 172523028
+  }
+ ]
 }

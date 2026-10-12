@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474973104/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault",
+   "photo": 474973104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261838054/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 261838054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319382912/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joren van Schie, some rights reserved (CC BY-NC), uploaded by Joren van Schie",
+   "photo": 319382912
+  }
+ ]
 }

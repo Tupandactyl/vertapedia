@@ -75,5 +75,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27923628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 27923628
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27923631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 27923631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15105064/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 15105064
+  }
+ ]
 }

@@ -231,5 +231,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185217056/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 185217056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/556162067/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) ViiruPesonen, some rights reserved (CC BY-SA)",
+   "photo": 556162067
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372895/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+   "photo": 123372895
+  }
+ ]
 }

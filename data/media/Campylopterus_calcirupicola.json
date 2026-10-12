@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54771088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wagner Nogueira, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Wagner Nogueira",
+   "photo": 54771088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230324820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Luciano Bernardes",
+   "photo": 230324820
+  }
+ ]
 }

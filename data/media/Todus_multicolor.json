@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14016025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 14016025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14131924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 14131924
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29740964/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Fortin, some rights reserved (CC BY-NC), uploaded by Daniel Fortin",
+   "photo": 29740964
+  }
+ ]
 }

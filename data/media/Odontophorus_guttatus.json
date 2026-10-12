@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597660008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Unterdörfel, some rights reserved (CC BY-NC), uploaded by Paul Unterdörfel",
+   "photo": 597660008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6239460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 6239460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469982061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 469982061
+  }
+ ]
 }

@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28829701/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michi1, some rights reserved (CC BY-NC), uploaded by michi1",
+   "photo": 28829701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62617329/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timbr, some rights reserved (CC BY-NC), uploaded by timbr",
+   "photo": 62617329
+  }
+ ]
 }

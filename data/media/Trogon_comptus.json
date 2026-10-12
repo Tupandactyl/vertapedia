@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263756670/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) RJ Baltierra, some rights reserved (CC BY), uploaded by RJ Baltierra",
+   "photo": 263756670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65421/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-SA)",
+   "photo": 65421
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250031057/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Benson, some rights reserved (CC BY-NC), uploaded by Tom Benson",
+   "photo": 250031057
+  }
+ ]
 }

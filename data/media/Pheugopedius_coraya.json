@@ -120,5 +120,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42358344/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Orlando Acevedo-Charry, some rights reserved (CC BY-NC), uploaded by Orlando Acevedo-Charry",
+   "photo": 42358344
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42358360/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Orlando Acevedo-Charry, some rights reserved (CC BY-NC), uploaded by Orlando Acevedo-Charry",
+   "photo": 42358360
+  }
+ ]
 }

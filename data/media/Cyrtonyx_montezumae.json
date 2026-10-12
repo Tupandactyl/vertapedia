@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294405452/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rich Kostecke, some rights reserved (CC BY-NC), uploaded by Rich Kostecke",
+   "photo": 294405452
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67871510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brooke Sheridan, some rights reserved (CC BY-NC), uploaded by Brooke Sheridan",
+   "photo": 67871510
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8943912/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Behrens, some rights reserved (CC BY-NC), uploaded by Mikael Behrens",
+   "photo": 8943912
+  }
+ ]
 }

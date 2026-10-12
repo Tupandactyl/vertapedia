@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88051901/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 88051901
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6307916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 6307916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164477002/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leandro Bareiro Guiñazú, some rights reserved (CC BY-NC), uploaded by Leandro Bareiro Guiñazú",
+   "photo": 164477002
+  }
+ ]
 }

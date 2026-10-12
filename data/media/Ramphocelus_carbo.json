@@ -174,5 +174,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57574978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ierpabirding2019, some rights reserved (CC BY-NC)",
+   "photo": 57574978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121438781/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 121438781
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104388238/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 104388238
+  }
+ ]
 }

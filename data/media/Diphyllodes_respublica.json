@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286064119/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shigui_huang, some rights reserved (CC BY-NC)",
+   "photo": 286064119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28956203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 28956203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3252186/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3252186
+  }
+ ]
 }

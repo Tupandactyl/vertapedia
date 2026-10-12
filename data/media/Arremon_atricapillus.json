@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597801494/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kratzra, some rights reserved (CC BY-NC)",
+   "photo": 597801494
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332061450/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cheryl Rosenfeld, some rights reserved (CC BY-NC), uploaded by Cheryl Rosenfeld",
+   "photo": 332061450
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378227663/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmmteixeira, some rights reserved (CC BY-NC), uploaded by cmmteixeira",
+   "photo": 378227663
+  }
+ ]
 }

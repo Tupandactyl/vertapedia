@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336847602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) boasemmanuel, some rights reserved (CC BY-NC)",
+   "photo": 336847602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423725396/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mohd Syafiq Sivakumaran Bin Abdullah, some rights reserved (CC BY-NC), uploaded by Mohd Syafiq Sivakumaran Bin Abdullah",
+   "photo": 423725396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438993375/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allen Lyu, some rights reserved (CC BY-NC), uploaded by Allen Lyu",
+   "photo": 438993375
+  }
+ ]
 }

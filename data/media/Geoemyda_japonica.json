@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457027179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 丸善斯基, some rights reserved (CC BY-NC), uploaded by 丸善斯基",
+   "photo": 457027179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457024157/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 丸善斯基, some rights reserved (CC BY-NC), uploaded by 丸善斯基",
+   "photo": 457024157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26675716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Maino, some rights reserved (CC BY-NC), uploaded by James Maino",
+   "photo": 26675716
+  }
+ ]
 }

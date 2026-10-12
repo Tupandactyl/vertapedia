@@ -145,5 +145,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247908574/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 247908574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8835870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Andreas de Rivera Tønnessen, some rights reserved (CC BY-NC), uploaded by David Andreas de Rivera Tønnessen",
+   "photo": 8835870
+  }
+ ]
 }

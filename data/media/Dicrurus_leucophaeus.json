@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342616884/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jay Pruett, some rights reserved (CC BY), uploaded by Jay Pruett",
+   "photo": 342616884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259653491/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 259653491
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10381459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
+   "photo": 10381459
+  }
+ ]
 }

@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53221261/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Shane Walker, some rights reserved (CC BY), uploaded by Shane Walker",
+   "photo": 53221261
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188202113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lrathbone, some rights reserved (CC BY-NC)",
+   "photo": 188202113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159067868/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sammy Sam, some rights reserved (CC BY-SA)",
+   "photo": 159067868
+  }
+ ]
 }

@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35689797/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 35689797
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6496333/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) D.J. McNeil, some rights reserved (CC BY-NC), uploaded by D.J. McNeil",
+   "photo": 6496333
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290733/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY), uploaded by Annika Lindqvist",
+   "photo": 2290733
+  }
+ ]
 }

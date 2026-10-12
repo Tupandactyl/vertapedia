@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364869203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 364869203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8006869/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) La Mancha en Movimiento, some rights reserved (CC BY-NC), uploaded by La Mancha en Movimiento",
+   "photo": 8006869
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361867701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 361867701
+  }
+ ]
 }

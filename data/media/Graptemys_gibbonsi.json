@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12726122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grover J. Brown, some rights reserved (CC BY-NC), uploaded by Grover J. Brown",
+   "photo": 12726122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12764988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grover J. Brown, some rights reserved (CC BY-NC), uploaded by Grover J. Brown",
+   "photo": 12764988
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12470070/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grover J. Brown, some rights reserved (CC BY-NC), uploaded by Grover J. Brown",
+   "photo": 12470070
+  }
+ ]
 }

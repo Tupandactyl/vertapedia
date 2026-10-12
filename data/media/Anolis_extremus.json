@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/905164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) parobbert, some rights reserved (CC BY-NC), uploaded by parobbert",
+   "photo": 905164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13721345/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Grete Pasch, some rights reserved (CC BY), uploaded by Grete Pasch",
+   "photo": 13721345
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6520499/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Magne Flåten, some rights reserved (CC BY-NC-SA), uploaded by Magne Flåten",
+   "photo": 6520499
+  }
+ ]
 }

@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179719240/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Fotojunkie8’s, some rights reserved (CC BY), uploaded by Fotojunkie8’s",
+   "photo": 179719240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60544235/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 60544235
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78029802/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Filipe J Ribeiro, some rights reserved (CC BY-NC), uploaded by Filipe J Ribeiro",
+   "photo": 78029802
+  }
+ ]
 }

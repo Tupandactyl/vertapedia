@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471622669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Breytenbach, some rights reserved (CC BY-NC), uploaded by Jonathan Breytenbach",
+   "photo": 471622669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363214721/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Riddell, some rights reserved (CC BY-NC), uploaded by David Riddell",
+   "photo": 363214721
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203883115/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 203883115
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119053130/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+   "photo": 119053130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1718642/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cristián Pinto, some rights reserved (CC BY-NC-SA)",
+   "photo": 1718642
+  }
+ ]
 }

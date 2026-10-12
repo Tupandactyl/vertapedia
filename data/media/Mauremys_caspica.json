@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116162191/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kamel Alfayadhi, some rights reserved (CC BY-NC), uploaded by kamel Alfayadhi",
+   "photo": 116162191
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361234914/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mojtaba Vosough Rouhani, some rights reserved (CC BY-NC), uploaded by Mojtaba Vosough Rouhani",
+   "photo": 361234914
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99182510/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY), uploaded by Kseniia Marianna Prondzynska",
+   "photo": 99182510
+  }
+ ]
 }

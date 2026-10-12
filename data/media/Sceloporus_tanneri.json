@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34968665/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Fernando Solano, some rights reserved (CC BY-NC-SA), uploaded by Fernando Solano",
+   "photo": 34968665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11637454/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
+   "photo": 11637454
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11637452/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
+   "photo": 11637452
+  }
+ ]
 }

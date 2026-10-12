@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61329120/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
+   "photo": 61329120
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65472361/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Анна Васильченко, some rights reserved (CC BY), uploaded by Анна Васильченко",
+   "photo": 65472361
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57494499/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Вячеслав Ложкин, some rights reserved (CC BY-NC), uploaded by Вячеслав Ложкин",
+   "photo": 57494499
+  }
+ ]
 }

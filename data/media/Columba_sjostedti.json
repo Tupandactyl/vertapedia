@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2897677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 2897677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366521856/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tonya Tromblee, some rights reserved (CC BY-NC), uploaded by Tonya Tromblee",
+   "photo": 366521856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366522379/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tonya Tromblee, some rights reserved (CC BY-NC), uploaded by Tonya Tromblee",
+   "photo": 366522379
+  }
+ ]
 }

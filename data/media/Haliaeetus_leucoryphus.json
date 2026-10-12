@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100433148/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Koshy Koshy, some rights reserved (CC BY)",
+   "photo": 100433148
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88004039/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi",
+   "photo": 88004039
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14490779/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gregoire Dubois, some rights reserved (CC BY-NC)",
+   "photo": 14490779
+  }
+ ]
 }

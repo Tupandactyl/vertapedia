@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72739423/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Melvin Jaison, some rights reserved (CC BY-NC), uploaded by Melvin Jaison",
+   "photo": 72739423
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78441365/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Hopeland, some rights reserved (CC BY), uploaded by Hopeland",
+   "photo": 78441365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56576393/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sreejith Allipra, some rights reserved (CC BY-NC), uploaded by Sreejith Allipra",
+   "photo": 56576393
+  }
+ ]
 }

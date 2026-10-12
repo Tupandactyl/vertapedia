@@ -189,5 +189,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55818566/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pdubbin, some rights reserved (CC BY-NC)",
+   "photo": 55818566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101694991/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bquser, some rights reserved (CC BY-NC), uploaded by bquser",
+   "photo": 101694991
+  }
+ ]
 }

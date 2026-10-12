@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111001079/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Woraphot Bunkhwamdi, some rights reserved (CC BY-NC), uploaded by Woraphot Bunkhwamdi",
+   "photo": 111001079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13445353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dava123, some rights reserved (CC BY-NC), uploaded by dava123",
+   "photo": 13445353
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4979800/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Renoult, some rights reserved (CC BY-NC), uploaded by David Renoult",
+   "photo": 4979800
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26051240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Judith Ellen Lopez, some rights reserved (CC BY-NC), uploaded by Judith Ellen Lopez",
+   "photo": 26051240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55625481/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Tanner, some rights reserved (CC BY-NC), uploaded by Jeff Tanner",
+   "photo": 55625481
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4582862/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryant Olsen, some rights reserved (CC BY-NC)",
+   "photo": 4582862
+  }
+ ]
 }

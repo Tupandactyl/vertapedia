@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119051399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 119051399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37787616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 37787616
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153999071/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sítio Candeias - Itamonte, MG, some rights reserved (CC BY-NC), uploaded by Sítio Candeias - Itamonte, MG",
+   "photo": 153999071
+  }
+ ]
 }

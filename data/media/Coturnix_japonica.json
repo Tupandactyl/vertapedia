@@ -186,5 +186,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455759568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+   "photo": 455759568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347921902/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) jimchurches, some rights reserved (CC BY-NC-SA), uploaded by jimchurches",
+   "photo": 347921902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457709236/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown",
+   "photo": 457709236
+  }
+ ]
 }

@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35646845/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 35646845
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280967853/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paolo Mazzei, some rights reserved (CC BY-NC), uploaded by Paolo Mazzei",
+   "photo": 280967853
+  }
+ ]
 }

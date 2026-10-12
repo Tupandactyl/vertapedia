@@ -189,5 +189,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13745/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 13745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68003004/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+   "photo": 68003004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119153903/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ирина Николанвна Кудинова, some rights reserved (CC BY-NC), uploaded by Ирина Николанвна Кудинова",
+   "photo": 119153903
+  }
+ ]
 }

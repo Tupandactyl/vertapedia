@@ -119,5 +119,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4755040/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) benwalton, some rights reserved (CC BY-NC), uploaded by benwalton",
+   "photo": 4755040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45529520/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karol Tabarelli de Fatis, some rights reserved (CC BY-NC), uploaded by Karol Tabarelli de Fatis",
+   "photo": 45529520
+  }
+ ]
 }

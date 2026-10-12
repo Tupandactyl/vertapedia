@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69466414/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Blair Dudeck, some rights reserved (CC BY), uploaded by Blair Dudeck",
+   "photo": 69466414
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95477119/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) josuedeleonlux, some rights reserved (CC BY-NC)",
+   "photo": 95477119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7678102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7678102
+  }
+ ]
 }

@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271106899/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 271106899
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13174094/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-SA)",
+   "photo": 13174094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629649/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Steve Garvie from Dunfermline, Fife, Scotland, some rights reserved (CC BY-SA)",
+   "photo": 629649
+  }
+ ]
 }

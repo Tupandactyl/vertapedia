@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462514005/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) eloise kerroux, some rights reserved (CC BY), uploaded by eloise kerroux",
+   "photo": 462514005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97486748/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 97486748
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25727081/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Karim Haddad, some rights reserved (CC BY), uploaded by Karim Haddad",
+   "photo": 25727081
+  }
+ ]
 }

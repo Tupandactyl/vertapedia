@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213785350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maya5s, some rights reserved (CC BY-NC)",
+   "photo": 213785350
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2842606/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Florian Bäthge, some rights reserved (CC BY-NC), uploaded by Florian Bäthge",
+   "photo": 2842606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65158795/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nAuckland War Memorial Museum, some rights reserved (CC BY)",
+   "photo": 65158795
+  }
+ ]
 }

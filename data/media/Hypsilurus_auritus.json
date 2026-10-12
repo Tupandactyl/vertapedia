@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170305180/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Huda Wiradarma, some rights reserved (CC BY-NC), uploaded by Huda Wiradarma",
+   "photo": 170305180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170305639/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Huda Wiradarma, some rights reserved (CC BY-NC), uploaded by Huda Wiradarma",
+   "photo": 170305639
+  }
+ ]
 }

@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305885072/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rajan Rao, some rights reserved (CC BY), uploaded by Rajan Rao",
+   "photo": 305885072
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252145544/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Hrycyna, some rights reserved (CC BY), uploaded by Andrew Hrycyna",
+   "photo": 252145544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15634217/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alto de San Miguel, some rights reserved (CC BY-NC), uploaded by Alto de San Miguel",
+   "photo": 15634217
+  }
+ ]
 }

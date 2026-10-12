@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59541671/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Howard Friedman, some rights reserved (CC BY-NC), uploaded by Howard Friedman",
+   "photo": 59541671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90443754/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorena, some rights reserved (CC BY-NC), uploaded by Lorena",
+   "photo": 90443754
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59541663/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Howard Friedman, some rights reserved (CC BY-NC), uploaded by Howard Friedman",
+   "photo": 59541663
+  }
+ ]
 }

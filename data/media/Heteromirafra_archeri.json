@@ -146,5 +146,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23940091/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 23940091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13889957/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 13889957
+  }
+ ]
 }

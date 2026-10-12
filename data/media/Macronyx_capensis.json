@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58126222/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Gill, some rights reserved (CC BY-NC), uploaded by Richard Gill",
+   "photo": 58126222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102884088/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Gill, some rights reserved (CC BY-NC), uploaded by Richard Gill",
+   "photo": 102884088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324103/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 324103
+  }
+ ]
 }

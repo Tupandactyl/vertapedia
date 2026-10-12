@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29521066/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Evers, some rights reserved (CC BY-NC), uploaded by Chris Evers",
+   "photo": 29521066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1630540/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Candler, some rights reserved (CC BY-NC), uploaded by Richard Candler",
+   "photo": 1630540
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12964691/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grover J. Brown, some rights reserved (CC BY-NC), uploaded by Grover J. Brown",
+   "photo": 12964691
+  }
+ ]
 }

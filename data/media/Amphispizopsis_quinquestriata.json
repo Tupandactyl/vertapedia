@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5516180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 5516180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2579298/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JimBob's Birds, some rights reserved (CC BY-NC), uploaded by JimBob's Birds",
+   "photo": 2579298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5436959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 5436959
+  }
+ ]
 }

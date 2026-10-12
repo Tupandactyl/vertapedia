@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343017807/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Thomas Doerig, some rights reserved (CC BY-NC), uploaded by Guillaume Thomas Doerig",
+   "photo": 343017807
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61704925/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 61704925
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62737868/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 62737868
+  }
+ ]
 }

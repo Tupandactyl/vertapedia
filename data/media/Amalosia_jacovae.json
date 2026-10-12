@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108361244/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Greg Tasney, some rights reserved (CC BY-SA), uploaded by Greg Tasney",
+   "photo": 108361244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182850806/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 182850806
+  }
+ ]
 }

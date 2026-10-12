@@ -46,5 +46,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335871995/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 335871995
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433811364/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 夜星槎, some rights reserved (CC BY-NC), uploaded by 夜星槎",
+   "photo": 433811364
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185319241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 185319241
+  }
+ ]
 }

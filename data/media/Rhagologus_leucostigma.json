@@ -81,5 +81,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110443082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 110443082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227170713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M, some rights reserved (CC BY-NC), uploaded by Jonathan M",
+   "photo": 227170713
+  }
+ ]
 }

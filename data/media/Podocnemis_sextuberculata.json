@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11449444/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos F Rodríguez, some rights reserved (CC BY-NC), uploaded by Carlos F Rodríguez",
+   "photo": 11449444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58353026/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Rafael Bernhard, some rights reserved (CC BY), uploaded by Rafael Bernhard",
+   "photo": 58353026
+  }
+ ]
 }

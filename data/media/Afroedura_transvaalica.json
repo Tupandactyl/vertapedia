@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604157377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liam Botha, some rights reserved (CC BY-NC), uploaded by Liam Botha",
+   "photo": 604157377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200217436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) campbellturner, some rights reserved (CC BY-NC)",
+   "photo": 200217436
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179214784/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kurt van Wyk, some rights reserved (CC BY-NC), uploaded by Kurt van Wyk",
+   "photo": 179214784
+  }
+ ]
 }

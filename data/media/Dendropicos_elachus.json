@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121999070/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 121999070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121999032/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 121999032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121990644/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 121990644
+  }
+ ]
 }

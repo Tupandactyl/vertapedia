@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262468196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 262468196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231585661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cressgil, some rights reserved (CC BY-NC)",
+   "photo": 231585661
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117460827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Townend, some rights reserved (CC BY-NC), uploaded by Daniel Townend",
+   "photo": 117460827
+  }
+ ]
 }

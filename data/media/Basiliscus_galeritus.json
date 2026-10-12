@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155979867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Campos, some rights reserved (CC BY-NC), uploaded by Felipe Campos",
+   "photo": 155979867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318670697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Barrera Ocampo, some rights reserved (CC BY-NC), uploaded by Felipe Barrera Ocampo",
+   "photo": 318670697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54759/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Juan Manuel Cardona Granda, some rights reserved (CC BY)",
+   "photo": 54759
+  }
+ ]
 }

@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111363286/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Manuel Morales, some rights reserved (CC BY-NC), uploaded by José Manuel Morales",
+   "photo": 111363286
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77160053/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo J. Plata, some rights reserved (CC BY-NC), uploaded by Hugo J. Plata",
+   "photo": 77160053
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111350690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 111350690
+  }
+ ]
 }

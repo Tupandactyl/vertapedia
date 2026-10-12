@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Sutherland, some rights reserved (CC BY-NC)",
+   "photo": 151747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11188217/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
+   "photo": 11188217
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175208162/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sheldon Logan, some rights reserved (CC BY-NC), uploaded by Sheldon Logan",
+   "photo": 175208162
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348248779/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC), uploaded by Mengshuai Ge",
+   "photo": 348248779
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311866836/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+   "photo": 311866836
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22392632/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Adams, some rights reserved (CC BY-NC), uploaded by J. Adams",
+   "photo": 22392632
+  }
+ ]
 }

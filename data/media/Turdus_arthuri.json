@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351159552/{size}.jpg",
+   "license": "cc0",
+   "attribution": "Oikeuksia ei pidätetä, lähettänyt NINA WENÓLI",
+   "photo": 351159552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349049947/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santi MD, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Santi MD",
+   "photo": 349049947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36629749/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Paul Cools",
+   "photo": 36629749
+  }
+ ]
 }

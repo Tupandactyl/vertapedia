@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91937338/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 91937338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19399920/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ani Sarkisyan, some rights reserved (CC BY), uploaded by Ani Sarkisyan",
+   "photo": 19399920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5525820/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) katunchik, some rights reserved (CC BY), uploaded by katunchik",
+   "photo": 5525820
+  }
+ ]
 }

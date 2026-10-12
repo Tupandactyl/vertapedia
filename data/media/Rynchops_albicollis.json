@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9952415/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saurabh Agrawal, some rights reserved (CC BY-NC), uploaded by Saurabh Agrawal",
+   "photo": 9952415
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2850746/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) The Belurs, some rights reserved (CC BY-NC-SA)",
+   "photo": 2850746
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568479057/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rakesh Dhareshwar, some rights reserved (CC BY-NC), uploaded by Rakesh Dhareshwar",
+   "photo": 568479057
+  }
+ ]
 }

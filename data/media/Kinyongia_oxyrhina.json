@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638967626/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC), uploaded by Bobby Bok",
+   "photo": 638967626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104839712/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John Lyakurwa, some rights reserved (CC BY), uploaded by John Lyakurwa",
+   "photo": 104839712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279343047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Necas, some rights reserved (CC BY-NC), uploaded by Petr Necas",
+   "photo": 279343047
+  }
+ ]
 }

@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45021246/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Warren Cronan, some rights reserved (CC BY-NC), uploaded by Warren Cronan",
+   "photo": 45021246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249415681/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jozef K. Richards, some rights reserved (CC BY-NC), uploaded by Jozef K. Richards",
+   "photo": 249415681
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340702351/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC), uploaded by David Ruíz Domínguez",
+   "photo": 340702351
+  }
+ ]
 }

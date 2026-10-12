@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240936272/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Joshua S. Martin",
+   "photo": 240936272
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60834121/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Dew, some rights reserved (CC BY-NC), uploaded by Steve Dew",
+   "photo": 60834121
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111949601/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sarah macdonald, some rights reserved (CC BY-NC), uploaded by sarah macdonald",
+   "photo": 111949601
+  }
+ ]
 }

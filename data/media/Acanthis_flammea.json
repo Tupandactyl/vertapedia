@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226173/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC)",
+   "photo": 226173
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183369070/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonny Andrews, some rights reserved (CC BY-NC), uploaded by Jonny Andrews",
+   "photo": 183369070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446599304/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "photo": 446599304
+  }
+ ]
 }

@@ -198,5 +198,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71922706/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ceejay93, some rights reserved (CC BY-NC), uploaded by ceejay93",
+   "photo": 71922706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71922414/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ceejay93, some rights reserved (CC BY-NC), uploaded by ceejay93",
+   "photo": 71922414
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1326676/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint",
+   "photo": 1326676
+  }
+ ]
 }

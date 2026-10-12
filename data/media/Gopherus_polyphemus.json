@@ -245,5 +245,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59131024/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donald Fraser, some rights reserved (CC BY-NC), uploaded by Donald Fraser",
+   "photo": 59131024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18037162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave, some rights reserved (CC BY-NC), uploaded by Dave",
+   "photo": 18037162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56497692/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan R. Franck, some rights reserved (CC BY-NC), uploaded by Alan R. Franck",
+   "photo": 56497692
+  }
+ ]
 }

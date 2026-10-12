@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114640498/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 114640498
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5560849/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudia Komesu, some rights reserved (CC BY-NC), uploaded by Claudia Komesu",
+   "photo": 5560849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93076470/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pablisola, some rights reserved (CC BY-NC), uploaded by pablisola",
+   "photo": 93076470
+  }
+ ]
 }

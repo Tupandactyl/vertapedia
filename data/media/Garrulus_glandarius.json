@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168146456/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Luc Viatour, some rights reserved (CC BY-SA)",
+   "photo": 168146456
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384775597/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+   "photo": 384775597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32531591/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "photo": 32531591
+  }
+ ]
 }

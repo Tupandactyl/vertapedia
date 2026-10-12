@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50258340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Boyle, some rights reserved (CC BY-NC), uploaded by Phil Boyle",
+   "photo": 50258340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3426206/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3426206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3426527/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Harper, some rights reserved (CC BY-NC)",
+   "photo": 3426527
+  }
+ ]
 }

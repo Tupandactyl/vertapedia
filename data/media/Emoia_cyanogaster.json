@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203725004/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY), uploaded by Dominik Maximilián Ramík",
+   "photo": 203725004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271516424/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sue Carnahan, some rights reserved (CC BY), uploaded by Sue Carnahan",
+   "photo": 271516424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323186659/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francesco Martoni, some rights reserved (CC BY-NC), uploaded by Francesco Martoni",
+   "photo": 323186659
+  }
+ ]
 }

@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35436359/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 35436359
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256314790/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Onea, some rights reserved (CC BY-NC), uploaded by Daniel Onea",
+   "photo": 256314790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339281069/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Neira Mena, some rights reserved (CC BY-NC), uploaded by Nicole Neira Mena",
+   "photo": 339281069
+  }
+ ]
 }

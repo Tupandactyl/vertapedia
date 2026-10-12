@@ -102,5 +102,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27343516/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Justyn Stahl",
+   "photo": 27343516
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181599212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, einige Rechte vorbehalten (CC BY-NC), hochgeladen von David Monroy R",
+   "photo": 181599212
+  }
+ ]
 }

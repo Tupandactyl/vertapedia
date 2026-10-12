@@ -108,5 +108,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338267746/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) hbottai, some rights reserved (CC BY-SA)",
+   "photo": 338267746
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290004904/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+   "photo": 290004904
+  }
+ ]
 }

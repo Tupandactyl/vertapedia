@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7565678/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) http://www.flickr.com/photos/fisherbray/, some rights reserved (CC BY)",
+   "photo": 7565678
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225252734/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Langur Eco Travels, some rights reserved (CC BY-NC), uploaded by Langur Eco Travels",
+   "photo": 225252734
+  }
+ ]
 }

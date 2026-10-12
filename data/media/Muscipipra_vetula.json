@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27425233/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 27425233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11342800/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 11342800
+  }
+ ]
 }

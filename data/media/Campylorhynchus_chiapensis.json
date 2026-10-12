@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6706408/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MiltonRuiz, some rights reserved (CC BY-NC), uploaded by MiltonRuiz",
+   "photo": 6706408
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6753717/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Red de Monitores Pavón Pavo de Cacho, some rights reserved (CC BY-NC), uploaded by Red de Monitores Pavón Pavo de Cacho",
+   "photo": 6753717
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181348781/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 181348781
+  }
+ ]
 }

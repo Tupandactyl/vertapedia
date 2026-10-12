@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247680900/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA), uploaded by Esaú Valdenegro-Brito",
+   "photo": 247680900
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17745677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos E. Juárez-Peña, some rights reserved (CC BY-NC), uploaded by Carlos E. Juárez-Peña",
+   "photo": 17745677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417821/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Paredes Montesinos, some rights reserved (CC BY-NC), uploaded by Rafael Paredes Montesinos",
+   "photo": 417821
+  }
+ ]
 }

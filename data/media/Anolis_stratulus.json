@@ -197,5 +197,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259769564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Vázquez, some rights reserved (CC BY-NC), uploaded by José Vázquez",
+   "photo": 259769564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384473098/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John Thomlinson, some rights reserved (CC BY), uploaded by John Thomlinson",
+   "photo": 384473098
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296027640/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Enrique Baez Segui, some rights reserved (CC BY-NC), uploaded by Rafael Enrique Baez Segui",
+   "photo": 296027640
+  }
+ ]
 }

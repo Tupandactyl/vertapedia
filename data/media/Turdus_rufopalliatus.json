@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253871853/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 253871853
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184000036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 184000036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1633772/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gonzalo Zepeda Martínez, some rights reserved (CC BY-SA), uploaded by Gonzalo Zepeda Martínez",
+   "photo": 1633772
+  }
+ ]
 }

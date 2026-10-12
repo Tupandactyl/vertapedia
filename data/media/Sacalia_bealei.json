@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251558778/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Abad, some rights reserved (CC BY-NC), uploaded by Jorge Abad",
+   "photo": 251558778
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118349659/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 118349659
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118346780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 118346780
+  }
+ ]
 }

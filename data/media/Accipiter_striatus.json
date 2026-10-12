@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112860673/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Troy B, some rights reserved (CC BY), uploaded by Troy B",
+   "photo": 112860673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469345845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob Reiter, some rights reserved (CC BY-NC), uploaded by Bob Reiter",
+   "photo": 469345845
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617327735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leslie S, some rights reserved (CC BY-NC), uploaded by Leslie S",
+   "photo": 617327735
+  }
+ ]
 }

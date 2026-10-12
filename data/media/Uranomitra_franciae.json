@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308850271/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Shahan, some rights reserved (CC BY-NC), uploaded by Thomas Shahan",
+   "photo": 308850271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163889484/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 163889484
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347359129/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ianhearn, some rights reserved (CC BY-NC)",
+   "photo": 347359129
+  }
+ ]
 }

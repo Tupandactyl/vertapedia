@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57049791/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Westerduijn, some rights reserved (CC BY-NC), uploaded by Rob Westerduijn",
+   "photo": 57049791
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1718614/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1718614
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12506145/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 12506145
+  }
+ ]
 }

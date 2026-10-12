@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70054/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frode Jacobsen, some rights reserved (CC BY)",
+   "photo": 70054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306110/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 306110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/903609/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 903609
+  }
+ ]
 }

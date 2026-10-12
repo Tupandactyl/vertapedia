@@ -202,5 +202,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104749271/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 104749271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133042426/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig K. Hunt, some rights reserved (CC BY-NC), uploaded by Craig K. Hunt",
+   "photo": 133042426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451204094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arobey63, some rights reserved (CC BY-NC)",
+   "photo": 451204094
+  }
+ ]
 }

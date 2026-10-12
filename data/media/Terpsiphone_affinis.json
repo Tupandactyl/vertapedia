@@ -113,5 +113,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227333734/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yingyod Lapwong, some rights reserved (CC BY-NC), uploaded by Yingyod Lapwong",
+   "photo": 227333734
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11192885/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 11192885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310718/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 310718
+  }
+ ]
 }

@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600778189/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Chris Kirby-Lambert, some rights reserved (CC BY)",
+   "photo": 600778189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143140590/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Morris, some rights reserved (CC BY-NC), uploaded by David Morris",
+   "photo": 143140590
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458080362/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC), uploaded by leekelai",
+   "photo": 458080362
+  }
+ ]
 }

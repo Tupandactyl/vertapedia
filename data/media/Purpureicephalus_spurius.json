@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55463036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 55463036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133049/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bill & Mark Bell, some rights reserved (CC BY-NC-SA)",
+   "photo": 133049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11824025/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC), uploaded by Pam Piombino",
+   "photo": 11824025
+  }
+ ]
 }

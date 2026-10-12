@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217665326/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) François Guerraz, some rights reserved (CC BY-SA)",
+   "photo": 217665326
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45389360/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY-SA)",
+   "photo": 45389360
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187501981/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) whale_nerd, some rights reserved (CC BY-NC), uploaded by whale_nerd",
+   "photo": 187501981
+  }
+ ]
 }

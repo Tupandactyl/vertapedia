@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/671483191/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
+   "photo": 671483191
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2020741/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 2020741
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2020739/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 2020739
+  }
+ ]
 }

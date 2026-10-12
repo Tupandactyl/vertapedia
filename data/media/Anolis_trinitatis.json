@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105639582/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Zika, some rights reserved (CC BY-NC), uploaded by Peter Zika",
+   "photo": 105639582
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94381672/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katherine Clarke, some rights reserved (CC BY-NC), uploaded by Katherine Clarke",
+   "photo": 94381672
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110287081/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tarranmaharaj, some rights reserved (CC BY-NC)",
+   "photo": 110287081
+  }
+ ]
 }

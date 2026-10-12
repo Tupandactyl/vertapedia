@@ -222,5 +222,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/372073926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 372073926
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179173909/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andre Harmse, some rights reserved (CC BY-NC), uploaded by Andre Harmse",
+   "photo": 179173909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272528113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Errol Douwes, some rights reserved (CC BY-NC), uploaded by Errol Douwes",
+   "photo": 272528113
+  }
+ ]
 }

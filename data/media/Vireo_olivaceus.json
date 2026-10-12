@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45523359/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jefferykarafa, some rights reserved (CC BY-NC), uploaded by jefferykarafa",
+   "photo": 45523359
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272009008/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andy Reago & Chrissy McClarren, some rights reserved (CC BY)",
+   "photo": 272009008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23887464/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joe MDO, some rights reserved (CC BY-NC), uploaded by Joe MDO",
+   "photo": 23887464
+  }
+ ]
 }

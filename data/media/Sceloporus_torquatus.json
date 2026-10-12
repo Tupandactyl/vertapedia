@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leopoldo Islas Flores, some rights reserved (CC BY-NC), uploaded by Leopoldo Islas Flores",
+   "photo": 565510
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399595/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 399595
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252751/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Galindo-Leal, some rights reserved (CC BY-NC), uploaded by Carlos Galindo-Leal",
+   "photo": 252751
+  }
+ ]
 }

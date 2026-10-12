@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 13860198
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35112635/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jacky Judas, some rights reserved (CC BY), uploaded by Jacky Judas",
+   "photo": 35112635
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317139213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olga Sivokon, some rights reserved (CC BY-NC), uploaded by Olga Sivokon",
+   "photo": 317139213
+  }
+ ]
 }

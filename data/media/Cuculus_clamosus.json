@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8174575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 8174575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8174576/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Clifton, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 8174576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103684/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 103684
+  }
+ ]
 }

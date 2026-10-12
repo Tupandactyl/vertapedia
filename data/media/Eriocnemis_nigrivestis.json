@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328160519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, osa oikeuksista pidätetään (CC BY-NC), lähettänyt David Weaver",
+   "photo": 328160519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65238422/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Dietze, osa oikeuksista pidätetään (CC BY), lähettänyt Frank Dietze",
+   "photo": 65238422
+  }
+ ]
 }

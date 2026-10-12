@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426408174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marisel Morales, some rights reserved (CC BY-NC), uploaded by Marisel Morales",
+   "photo": 426408174
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/775745/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 775745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219675061/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 219675061
+  }
+ ]
 }

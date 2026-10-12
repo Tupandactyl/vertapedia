@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182130/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 182130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463354936/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by andrew2285",
+   "photo": 463354936
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260264978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 260264978
+  }
+ ]
 }

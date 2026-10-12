@@ -194,5 +194,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63281117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+   "photo": 63281117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216092477/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 216092477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147417872/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 147417872
+  }
+ ]
 }

@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95387873/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 95387873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267445870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anderson Sandro, some rights reserved (CC BY-NC), uploaded by Anderson Sandro",
+   "photo": 267445870
+  }
+ ]
 }

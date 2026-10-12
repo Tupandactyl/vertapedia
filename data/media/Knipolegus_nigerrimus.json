@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27918973/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
+   "photo": 27918973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11616528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik",
+   "photo": 11616528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141034670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcia_kurtz, some rights reserved (CC BY-NC), uploaded by marcia_kurtz",
+   "photo": 141034670
+  }
+ ]
 }

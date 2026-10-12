@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472748817/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maksymilian Wojtkiewicz, some rights reserved (CC BY-NC), uploaded by Maksymilian Wojtkiewicz",
+   "photo": 472748817
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354733164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Szymon Bzoma, some rights reserved (CC BY-NC), uploaded by Szymon Bzoma",
+   "photo": 354733164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40655/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee Yap, some rights reserved (CC BY-SA)",
+   "photo": 40655
+  }
+ ]
 }

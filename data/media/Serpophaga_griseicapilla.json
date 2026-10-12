@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2229701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Schlemmer, some rights reserved (CC BY-NC), uploaded by Jorge Schlemmer",
+   "photo": 2229701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59631081/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 59631081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215105107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier González, some rights reserved (CC BY-NC), uploaded by Javier González",
+   "photo": 215105107
+  }
+ ]
 }

@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43913042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kulyabin67, some rights reserved (CC BY-NC)",
+   "photo": 43913042
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109862330/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Игорь Поспелов, some rights reserved (CC BY-NC), uploaded by Игорь Поспелов",
+   "photo": 109862330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6664250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joanne Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Redwood",
+   "photo": 6664250
+  }
+ ]
 }

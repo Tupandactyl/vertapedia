@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428913768/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rejoice Gassah, osa oikeuksista pidätetään (CC BY), lähettänyt Rejoice Gassah",
+   "photo": 428913768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394368910/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Avinash Bhagat",
+   "photo": 394368910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41345270/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jamesmifan, osa oikeuksista pidätetään (CC BY-NC), lähettänyt jamesmifan",
+   "photo": 41345270
+  }
+ ]
 }

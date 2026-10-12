@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290527664/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no hay derechos reservados, subido por Hugo Hulsberg",
+   "photo": 290527664
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314623723/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oliver Kohler, algunos derechos reservados (CC BY-NC), subido por Oliver Kohler",
+   "photo": 314623723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/703656580/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gonzalo Martinez, algunos derechos reservados (CC BY), subido por Gonzalo Martinez",
+   "photo": 703656580
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71783114/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 71783114
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33054328/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 33054328
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43445643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 43445643
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62231844/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tommy Hui, some rights reserved (CC BY-NC), uploaded by Tommy Hui",
+   "photo": 62231844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479500711/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antoine_baglan, some rights reserved (CC BY-NC)",
+   "photo": 479500711
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149498764/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Philipp, some rights reserved (CC BY), uploaded by Philipp",
+   "photo": 149498764
+  }
+ ]
 }

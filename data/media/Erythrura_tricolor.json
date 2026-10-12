@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78352617/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Aurélien LEQUOY, some rights reserved (CC BY-NC-SA)",
+   "photo": 78352617
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78352619/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pierre-Jean Parra, some rights reserved (CC BY-NC-SA)",
+   "photo": 78352619
+  }
+ ]
 }

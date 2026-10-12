@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172405287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alenka Mihoric, some rights reserved (CC BY-NC), uploaded by Alenka Mihoric",
+   "photo": 172405287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62192274/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 62192274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2861199/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 2861199
+  }
+ ]
 }

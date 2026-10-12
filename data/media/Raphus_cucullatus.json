@@ -235,5 +235,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436289560/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lovettm08, some rights reserved (CC BY-NC)",
+   "photo": 436289560
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601492422/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bppking, some rights reserved (CC BY-NC)",
+   "photo": 601492422
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501799708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa",
+   "photo": 501799708
+  }
+ ]
 }

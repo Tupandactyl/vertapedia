@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27836456/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ericson Cernawsky Igual, some rights reserved (CC BY-SA), uploaded by Ericson Cernawsky Igual",
+   "photo": 27836456
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149077795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergio R Porto, some rights reserved (CC BY-NC), uploaded by Sergio R Porto",
+   "photo": 149077795
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189597638/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Paulo Mascaretti",
+   "photo": 189597638
+  }
+ ]
 }

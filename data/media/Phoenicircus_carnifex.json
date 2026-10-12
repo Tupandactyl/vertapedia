@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102439758/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://www.flickr.com/photos/67592110@N05, some rights reserved (CC BY)",
+   "photo": 102439758
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29544242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 29544242
+  }
+ ]
 }

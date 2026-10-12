@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896391/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Luiz Carlos  Rocha, some rights reserved (CC BY-SA)",
+   "photo": 158896391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157602109/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lucas de Melo, some rights reserved (CC BY)",
+   "photo": 157602109
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157602110/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Tavener, some rights reserved (CC BY)",
+   "photo": 157602110
+  }
+ ]
 }

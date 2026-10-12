@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78993266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maribel Armenteros, some rights reserved (CC BY-NC), uploaded by Maribel Armenteros",
+   "photo": 78993266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462179928/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 462179928
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90717803/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maribel Armenteros, some rights reserved (CC BY-NC), uploaded by Maribel Armenteros",
+   "photo": 90717803
+  }
+ ]
 }

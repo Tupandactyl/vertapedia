@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337986353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 337986353
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79304511/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Александр Кочетков, some rights reserved (CC BY-NC), uploaded by Александр Кочетков",
+   "photo": 79304511
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123250846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dina Nesterkova, some rights reserved (CC BY-NC), uploaded by Dina Nesterkova",
+   "photo": 123250846
+  }
+ ]
 }

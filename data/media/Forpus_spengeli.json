@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376534819/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Riley-Brendan Walsh, some rights reserved (CC BY-NC), uploaded by Riley-Brendan Walsh",
+   "photo": 376534819
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258131493/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 258131493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117015732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JuanFelipeRR, some rights reserved (CC BY-NC), uploaded by JuanFelipeRR",
+   "photo": 117015732
+  }
+ ]
 }

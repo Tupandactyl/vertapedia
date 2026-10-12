@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111368366/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC), uploaded by Sébastien SANT",
+   "photo": 111368366
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57592808/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephan, some rights reserved (CC BY-NC), uploaded by Stephan",
+   "photo": 57592808
+  }
+ ]
 }

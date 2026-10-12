@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114441448/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 114441448
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407844113/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Kidwell, some rights reserved (CC BY-NC-SA), uploaded by David Kidwell",
+   "photo": 407844113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58690184/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) obrock, some rights reserved (CC BY-NC), uploaded by obrock",
+   "photo": 58690184
+  }
+ ]
 }

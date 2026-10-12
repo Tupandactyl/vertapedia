@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99079934/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
+   "photo": 99079934
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99079970/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
+   "photo": 99079970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202678333/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 202678333
+  }
+ ]
 }

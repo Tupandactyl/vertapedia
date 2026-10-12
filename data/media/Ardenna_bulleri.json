@@ -106,5 +106,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194039/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) L Pittman, some rights reserved (CC BY-NC), uploaded by L Pittman",
+   "photo": 194039
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1580060/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Shearer, some rights reserved (CC BY-NC), uploaded by Peter Shearer",
+   "photo": 1580060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1485879/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Shearer, some rights reserved (CC BY-NC), uploaded by Peter Shearer",
+   "photo": 1485879
+  }
+ ]
 }

@@ -260,5 +260,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103003644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shubhra Sau, some rights reserved (CC BY-NC), uploaded by Shubhra Sau",
+   "photo": 103003644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101044791/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Orlando Bonney, some rights reserved (CC BY-NC), uploaded by Orlando Bonney",
+   "photo": 101044791
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188080748/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 188080748
+  }
+ ]
 }

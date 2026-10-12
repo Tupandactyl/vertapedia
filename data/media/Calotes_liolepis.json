@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522308450/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edward, some rights reserved (CC BY-NC), uploaded by Edward",
+   "photo": 522308450
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589284180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC), uploaded by Pasindu Dilshan Abegunawaradhana",
+   "photo": 589284180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300328630/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shanelle Wikramanayake, some rights reserved (CC BY-NC), uploaded by Shanelle Wikramanayake",
+   "photo": 300328630
+  }
+ ]
 }

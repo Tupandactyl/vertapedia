@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4721912/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ernesto Málaga-Arenas, some rights reserved (CC BY-NC-SA), uploaded by Ernesto Málaga-Arenas",
+   "photo": 4721912
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83356882/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nAlessandro Catenazzi, some rights reserved (CC BY-SA)",
+   "photo": 83356882
+  }
+ ]
 }

@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185157169/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Lupien, some rights reserved (CC BY-NC), uploaded by Scott Lupien",
+   "photo": 185157169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82310239/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Homemountain/Shan Gui, some rights reserved (CC BY-NC), uploaded by Homemountain/Shan Gui",
+   "photo": 82310239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185168883/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Lupien, some rights reserved (CC BY-NC), uploaded by Scott Lupien",
+   "photo": 185168883
+  }
+ ]
 }

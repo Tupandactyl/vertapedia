@@ -430,5 +430,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31310264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 31310264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115713521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather A. Wise, some rights reserved (CC BY-NC), uploaded by Heather A. Wise",
+   "photo": 115713521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127552700/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ilikepenguinz5, some rights reserved (CC BY-NC)",
+   "photo": 127552700
+  }
+ ]
 }

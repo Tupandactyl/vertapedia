@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102593123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+   "photo": 102593123
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92850724/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) markusgmeiner, some rights reserved (CC BY-NC), uploaded by markusgmeiner",
+   "photo": 92850724
+  }
+ ]
 }

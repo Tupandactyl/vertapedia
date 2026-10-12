@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63631495/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matthias Liffers, some rights reserved (CC BY)",
+   "photo": 63631495
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280597747/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) SeanMack, some rights reserved (CC BY-SA)",
+   "photo": 280597747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21717649/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 21717649
+  }
+ ]
 }

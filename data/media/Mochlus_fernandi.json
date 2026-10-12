@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340772004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elena Reljic, some rights reserved (CC BY-NC), uploaded by Elena Reljic",
+   "photo": 340772004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280597548/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) User:Haplochromis, some rights reserved (CC BY-SA)",
+   "photo": 280597548
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219636620/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Justin Philbois",
+   "photo": 219636620
+  }
+ ]
 }

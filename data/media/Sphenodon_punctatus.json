@@ -298,5 +298,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31712982/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) digitaltrails, some rights reserved (CC BY-NC-SA)",
+   "photo": 31712982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21532/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sid Mosdell, some rights reserved (CC BY)",
+   "photo": 21532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1233874/{size}.",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) bernard smith, some rights reserved (CC BY-NC-SA), uploaded by bernard smith",
+   "photo": 1233874
+  }
+ ]
 }

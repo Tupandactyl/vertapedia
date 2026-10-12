@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49464973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 49464973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52211602/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 52211602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56491479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Toby Ross, some rights reserved (CC BY-NC), uploaded by Toby Ross",
+   "photo": 56491479
+  }
+ ]
 }

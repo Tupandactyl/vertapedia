@@ -171,5 +171,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593429045/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) esdena, some rights reserved (CC BY-NC), uploaded by esdena",
+   "photo": 593429045
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62108561/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) hedera.baltica, some rights reserved (CC BY-SA)",
+   "photo": 62108561
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106116060/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Александр Гончаров, some rights reserved (CC BY-NC), uploaded by Александр Гончаров",
+   "photo": 106116060
+  }
+ ]
 }

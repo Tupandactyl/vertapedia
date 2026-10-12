@@ -223,5 +223,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688188083/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tim Evanson, some rights reserved (CC BY-SA)",
+   "photo": 688188083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5614/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Patrick Coin, some rights reserved (CC BY-NC-SA)",
+   "photo": 5614
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78305134/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James St. John, some rights reserved (CC BY)",
+   "photo": 78305134
+  }
+ ]
 }

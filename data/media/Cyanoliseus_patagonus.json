@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79627019/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jose_canas_fotografia, some rights reserved (CC BY-NC)",
+   "photo": 79627019
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114566815/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sical-isfla-veola, some rights reserved (CC BY-NC), uploaded by sical-isfla-veola",
+   "photo": 114566815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119313775/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Lescano, some rights reserved (CC BY-NC), uploaded by Sebastián Lescano",
+   "photo": 119313775
+  }
+ ]
 }

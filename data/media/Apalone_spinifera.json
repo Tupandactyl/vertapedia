@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16935958/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "brak praw zastrzeżonych, przesłane przez użytkownika Nick Loveland",
+   "photo": 16935958
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Greg Lasley",
+   "photo": 179018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429204507/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Below Blue Water Diver, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Below Blue Water Diver",
+   "photo": 429204507
+  }
+ ]
 }

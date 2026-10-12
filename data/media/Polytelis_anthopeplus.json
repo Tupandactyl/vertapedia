@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335751119/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Campbell, some rights reserved (CC BY-NC), uploaded by Matt Campbell",
+   "photo": 335751119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133083/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison (http://www.noodlesnacks.com/), some rights reserved (CC BY-SA)",
+   "photo": 133083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55415097/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 55415097
+  }
+ ]
 }

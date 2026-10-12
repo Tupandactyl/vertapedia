@@ -221,5 +221,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308087101/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) malu_md, some rights reserved (CC BY-NC)",
+   "photo": 308087101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243369264/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+   "photo": 243369264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9696846/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Bryant, some rights reserved (CC BY-NC-SA)",
+   "photo": 9696846
+  }
+ ]
 }

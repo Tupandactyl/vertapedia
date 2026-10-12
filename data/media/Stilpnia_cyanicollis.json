@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122443363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexandra Castañeda Hincapié, some rights reserved (CC BY-NC), uploaded by Alexandra Castañeda Hincapié",
+   "photo": 122443363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59047864/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 59047864
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96990586/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santi MD, some rights reserved (CC BY-NC), uploaded by Santi MD",
+   "photo": 96990586
+  }
+ ]
 }

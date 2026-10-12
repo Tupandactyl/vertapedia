@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65046508/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alejandro  Bayer Tamayo, some rights reserved (CC BY-SA)",
+   "photo": 65046508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5216838/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 5216838
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29437502/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) rbeunen, some rights reserved (CC BY-NC-SA), uploaded by rbeunen",
+   "photo": 29437502
+  }
+ ]
 }

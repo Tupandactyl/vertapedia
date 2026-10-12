@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49837122/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 49837122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109219666/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC), uploaded by Pasindu Dilshan Abegunawaradhana",
+   "photo": 109219666
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38651088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) See Gomen, some rights reserved (CC BY-NC), uploaded by See Gomen",
+   "photo": 38651088
+  }
+ ]
 }

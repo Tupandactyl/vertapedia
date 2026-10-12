@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178821336/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andre Harmse, some rights reserved (CC BY-NC), uploaded by Andre Harmse",
+   "photo": 178821336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3181916/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 3181916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3181918/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 3181918
+  }
+ ]
 }

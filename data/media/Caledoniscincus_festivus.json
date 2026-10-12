@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81764770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damien Brouste, some rights reserved (CC BY-NC), uploaded by Damien Brouste",
+   "photo": 81764770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155817321/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damien Brouste, some rights reserved (CC BY-NC), uploaded by Damien Brouste",
+   "photo": 155817321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155817278/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damien Brouste, some rights reserved (CC BY-NC), uploaded by Damien Brouste",
+   "photo": 155817278
+  }
+ ]
 }

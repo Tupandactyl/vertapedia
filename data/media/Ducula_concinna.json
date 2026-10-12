@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350966281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blythe Nilson, some rights reserved (CC BY-NC), uploaded by Blythe Nilson",
+   "photo": 350966281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180766688/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 180766688
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350966180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blythe Nilson, some rights reserved (CC BY-NC), uploaded by Blythe Nilson",
+   "photo": 350966180
+  }
+ ]
 }

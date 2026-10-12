@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174652872/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Benson, some rights reserved (CC BY-NC), uploaded by Tom Benson",
+   "photo": 174652872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113245781/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 113245781
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3896560/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Evers, some rights reserved (CC BY-NC), uploaded by Chris Evers",
+   "photo": 3896560
+  }
+ ]
 }

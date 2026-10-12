@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453606079/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot",
+   "photo": 453606079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457541706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xavierpiron, some rights reserved (CC BY-NC)",
+   "photo": 457541706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414485345/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot",
+   "photo": 414485345
+  }
+ ]
 }

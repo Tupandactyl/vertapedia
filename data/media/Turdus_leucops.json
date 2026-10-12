@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6405219/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 6405219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32788149/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 32788149
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56641654/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Diego Fernando Guillen, some rights reserved (CC BY-NC-SA), uploaded by Diego Fernando Guillen",
+   "photo": 56641654
+  }
+ ]
 }

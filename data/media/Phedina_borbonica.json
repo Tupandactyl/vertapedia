@@ -178,5 +178,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/974553/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 974553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441459391/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Matteo Bellucci, some rights reserved (CC BY), uploaded by Matteo Bellucci",
+   "photo": 441459391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/974555/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 974555
+  }
+ ]
 }

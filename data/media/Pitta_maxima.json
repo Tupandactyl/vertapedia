@@ -95,5 +95,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130083965/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC), uploaded by Phil Benstead",
+   "photo": 130083965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114163646/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 114163646
+  }
+ ]
 }

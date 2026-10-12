@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21487076/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hdmiller, some rights reserved (CC BY-NC)",
+   "photo": 21487076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13590837/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damon Tighe, some rights reserved (CC BY-NC), uploaded by Damon Tighe",
+   "photo": 13590837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108866077/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Linda Reinhold, some rights reserved (CC BY-NC), uploaded by Linda Reinhold",
+   "photo": 108866077
+  }
+ ]
 }

@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345173820/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 渔喵, some rights reserved (CC BY-NC-SA), uploaded by 渔喵",
+   "photo": 345173820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399346537/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) momo shou, some rights reserved (CC BY-NC), uploaded by momo shou",
+   "photo": 399346537
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360548675/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mianmian233, some rights reserved (CC BY-NC)",
+   "photo": 360548675
+  }
+ ]
 }

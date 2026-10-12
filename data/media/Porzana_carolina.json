@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25289653/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Don Loarie, some rights reserved (CC BY-NC-SA)",
+   "photo": 25289653
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32479683/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Sutherland, some rights reserved (CC BY-NC), uploaded by Don Sutherland",
+   "photo": 32479683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262518071/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Becky Matsubara, some rights reserved (CC BY)",
+   "photo": 262518071
+  }
+ ]
 }

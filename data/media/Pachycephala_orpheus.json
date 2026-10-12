@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445920109/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 445920109
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172036503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mitch Rose, some rights reserved (CC BY-NC), uploaded by Mitch Rose",
+   "photo": 172036503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132558711/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mitch Rose, some rights reserved (CC BY-NC), uploaded by Mitch Rose",
+   "photo": 132558711
+  }
+ ]
 }

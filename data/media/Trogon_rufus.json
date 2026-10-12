@@ -73,5 +73,25 @@
    "date": "2024-03-21"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60877541/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Babette Köhler, some rights reserved (CC BY-NC), uploaded by Babette Köhler",
+   "photo": 60877541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200980908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wkidder, some rights reserved (CC BY-NC)",
+   "photo": 200980908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243951943/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Evelyn Lazzaretti 🏳️‍⚧️",
+   "photo": 243951943
+  }
+ ]
 }

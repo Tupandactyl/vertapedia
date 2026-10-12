@@ -229,5 +229,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622245220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) missoulabirdnerd, some rights reserved (CC BY-NC), uploaded by missoulabirdnerd",
+   "photo": 622245220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389335657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura H, some rights reserved (CC BY-NC), uploaded by Laura H",
+   "photo": 389335657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482124381/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Пакалнис Дэниел, some rights reserved (CC BY-NC), uploaded by Пакалнис Дэниел",
+   "photo": 482124381
+  }
+ ]
 }

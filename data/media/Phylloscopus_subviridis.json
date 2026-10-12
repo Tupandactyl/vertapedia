@@ -52,5 +52,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336832723/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 336832723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297074219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 297074219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297074183/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 297074183
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97678623/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC), uploaded by Peter Ericsson",
+   "photo": 97678623
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46682132/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46682132
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3895827/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 3895827
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29920/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Scott Loarie",
+   "photo": 29920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114879911/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chen Zhi, some rights reserved (CC BY-NC), uploaded by Chen Zhi",
+   "photo": 114879911
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6400882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 6400882
+  }
+ ]
 }

@@ -92,5 +92,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107805766/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 107805766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7560679/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Thompson, some rights reserved (CC BY)",
+   "photo": 7560679
+  }
+ ]
 }

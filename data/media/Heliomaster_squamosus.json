@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352445337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jarbas Mattos, some rights reserved (CC BY-NC), uploaded by Jarbas Mattos",
+   "photo": 352445337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399876/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rick elis.simpson, some rights reserved (CC BY-SA)",
+   "photo": 399876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208985628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andreza Mancuso, some rights reserved (CC BY-NC), uploaded by Andreza Mancuso",
+   "photo": 208985628
+  }
+ ]
 }

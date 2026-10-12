@@ -170,5 +170,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419386988/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, some rights reserved (CC BY-NC-SA), uploaded by Sergio Rivero Beneitez",
+   "photo": 419386988
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268173373/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 268173373
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77930192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Filipe J Ribeiro, some rights reserved (CC BY-NC), uploaded by Filipe J Ribeiro",
+   "photo": 77930192
+  }
+ ]
 }

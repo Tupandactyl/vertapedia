@@ -241,5 +241,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212499566/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nautiboy, some rights reserved (CC BY-NC)",
+   "photo": 212499566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520662493/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Linda Cross, some rights reserved (CC BY-NC), uploaded by Linda Cross",
+   "photo": 520662493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330133179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 330133179
+  }
+ ]
 }

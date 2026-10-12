@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599860900/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kevin Brix, some rights reserved (CC BY-SA), uploaded by Kevin Brix",
+   "photo": 599860900
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117321438/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 117321438
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187968412/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 187968412
+  }
+ ]
 }

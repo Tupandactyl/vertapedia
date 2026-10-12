@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337948191/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nereston (Nelinho) Camargo, some rights reserved (CC BY-NC), uploaded by Nereston (Nelinho) Camargo",
+   "photo": 337948191
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10579369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Instituto Últimos Refúgios, some rights reserved (CC BY-NC), uploaded by Instituto Últimos Refúgios",
+   "photo": 10579369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10579372/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Instituto Últimos Refúgios, some rights reserved (CC BY-NC), uploaded by Instituto Últimos Refúgios",
+   "photo": 10579372
+  }
+ ]
 }

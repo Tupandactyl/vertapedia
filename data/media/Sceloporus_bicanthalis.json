@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1922935/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raymundo Omar, some rights reserved (CC BY-NC), uploaded by Raymundo Omar",
+   "photo": 1922935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718549/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tregua Catala Ezpera, some rights reserved (CC BY-NC), uploaded by Tregua Catala Ezpera",
+   "photo": 718549
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268673281/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Erick Gómez, some rights reserved (CC BY-NC), uploaded by J. Erick Gómez",
+   "photo": 268673281
+  }
+ ]
 }

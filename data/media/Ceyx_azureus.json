@@ -146,5 +146,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55929885/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David White, osa oikeuksista pidätetään (CC BY-NC), lähettänyt David White",
+   "photo": 55929885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426808/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, osa oikeuksista pidätetään (CC BY-NC), lähettänyt John Sullivan",
+   "photo": 426808
+  }
+ ]
 }

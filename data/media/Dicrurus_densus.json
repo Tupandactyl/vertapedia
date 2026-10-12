@@ -113,5 +113,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16075250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julius Simonelli, some rights reserved (CC BY-NC), uploaded by Julius Simonelli",
+   "photo": 16075250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133524803/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mitch Rose, some rights reserved (CC BY-NC), uploaded by Mitch Rose",
+   "photo": 133524803
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46936366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46936366
+  }
+ ]
 }

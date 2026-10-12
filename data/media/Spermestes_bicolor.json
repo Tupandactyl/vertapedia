@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479966110/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY)",
+   "photo": 479966110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238853636/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo",
+   "photo": 238853636
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304911857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blythe Nilson, some rights reserved (CC BY-NC), uploaded by Blythe Nilson",
+   "photo": 304911857
+  }
+ ]
 }

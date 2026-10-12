@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64408207/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 64408207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64408250/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 64408250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1907412/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ariefrahman, some rights reserved (CC BY-SA)",
+   "photo": 1907412
+  }
+ ]
 }

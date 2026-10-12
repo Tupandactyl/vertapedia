@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1616567/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leandro Alvarez, some rights reserved (CC BY-NC-SA), uploaded by Leandro Alvarez",
+   "photo": 1616567
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1616546/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leandro Alvarez, some rights reserved (CC BY-NC-SA), uploaded by Leandro Alvarez",
+   "photo": 1616546
+  }
+ ]
 }

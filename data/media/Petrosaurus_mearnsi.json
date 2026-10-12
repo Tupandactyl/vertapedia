@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 420820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3813089/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob Williams, some rights reserved (CC BY-NC), uploaded by Bob Williams",
+   "photo": 3813089
+  }
+ ]
 }

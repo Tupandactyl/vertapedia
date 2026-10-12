@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153075408/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Deb, some rights reserved (CC BY-NC), uploaded by Deb",
+   "photo": 153075408
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471783094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wallyinoz, some rights reserved (CC BY-NC)",
+   "photo": 471783094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523374297/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tropicalaussie, some rights reserved (CC BY-NC), uploaded by tropicalaussie",
+   "photo": 523374297
+  }
+ ]
 }

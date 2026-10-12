@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149299526/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Third Silence, some rights reserved (CC BY-SA), uploaded by Third Silence",
+   "photo": 149299526
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1147288/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Travis W. Reeder, some rights reserved (CC BY-NC), uploaded by Travis W. Reeder",
+   "photo": 1147288
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58226211/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) caliologist, some rights reserved (CC BY-NC-SA), uploaded by caliologist",
+   "photo": 58226211
+  }
+ ]
 }

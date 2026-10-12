@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394799006/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Clarke, some rights reserved (CC BY-NC), uploaded by Chris Clarke",
+   "photo": 394799006
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11569723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 11569723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52730791/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+   "photo": 52730791
+  }
+ ]
 }

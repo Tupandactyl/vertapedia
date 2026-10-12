@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337962135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tristan Scholze, some rights reserved (CC BY-NC), uploaded by Tristan Scholze",
+   "photo": 337962135
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2319564/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) 116916927065934112165, some rights reserved (CC BY), uploaded by 116916927065934112165",
+   "photo": 2319564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19740078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 19740078
+  }
+ ]
 }

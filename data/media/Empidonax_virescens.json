@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68962108/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Trinchan, some rights reserved (CC BY-NC), uploaded by Luis Trinchan",
+   "photo": 68962108
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361040595/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eliot VanOtteren, some rights reserved (CC BY-NC), uploaded by Eliot VanOtteren",
+   "photo": 361040595
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654928924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cin-Ty Lee, some rights reserved (CC BY-NC), uploaded by Cin-Ty Lee",
+   "photo": 654928924
+  }
+ ]
 }

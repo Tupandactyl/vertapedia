@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10978482/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 10978482
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610237549/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lee J, some rights reserved (CC BY-NC), uploaded by Lee J",
+   "photo": 610237549
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22193031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brennan Obermayer, some rights reserved (CC BY-NC), uploaded by Brennan Obermayer",
+   "photo": 22193031
+  }
+ ]
 }

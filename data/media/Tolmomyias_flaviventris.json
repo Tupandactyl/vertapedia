@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164605/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Helio Lourencini, some rights reserved (CC BY), uploaded by Helio Lourencini",
+   "photo": 111164605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187694964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 187694964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340546391/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 340546391
+  }
+ ]
 }

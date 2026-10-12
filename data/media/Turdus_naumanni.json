@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519172472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lionel CASSET, some rights reserved (CC BY-NC), uploaded by Lionel CASSET",
+   "photo": 519172472
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473083396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fangchen, some rights reserved (CC BY-NC)",
+   "photo": 473083396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275839588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naturalisttt, some rights reserved (CC BY-NC), uploaded by naturalisttt",
+   "photo": 275839588
+  }
+ ]
 }

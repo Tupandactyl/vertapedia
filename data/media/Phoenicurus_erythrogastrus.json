@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114319593/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vyacheslav Luzanov, some rights reserved (CC BY-NC), uploaded by Vyacheslav Luzanov",
+   "photo": 114319593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543294728/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Irina Kalashnikova, some rights reserved (CC BY-NC), uploaded by Irina Kalashnikova",
+   "photo": 543294728
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421455892/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Александр Кочетков, some rights reserved (CC BY-NC), uploaded by Александр Кочетков",
+   "photo": 421455892
+  }
+ ]
 }

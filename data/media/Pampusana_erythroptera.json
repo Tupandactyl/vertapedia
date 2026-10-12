@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395654885/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395654885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30088153/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shoko noiman, some rights reserved (CC BY-NC), uploaded by shoko noiman",
+   "photo": 30088153
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30088263/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shoko noiman, some rights reserved (CC BY-NC), uploaded by shoko noiman",
+   "photo": 30088263
+  }
+ ]
 }

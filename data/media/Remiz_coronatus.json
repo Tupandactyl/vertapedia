@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395991444/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC), uploaded by Илья Сухов",
+   "photo": 395991444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469855787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Уколов, some rights reserved (CC BY-NC), uploaded by Илья Уколов",
+   "photo": 469855787
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28906856/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Вячеслав Юсупов, some rights reserved (CC BY), uploaded by Вячеслав Юсупов",
+   "photo": 28906856
+  }
+ ]
 }

@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293815719/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vincent Prémel, some rights reserved (CC BY-NC), uploaded by Vincent Prémel",
+   "photo": 293815719
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71308958/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jiri Hodecek, some rights reserved (CC BY-NC), uploaded by Jiri Hodecek",
+   "photo": 71308958
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163315261/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 163315261
+  }
+ ]
 }

@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58053521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dmitry Ivanov, some rights reserved (CC BY-NC), uploaded by Dmitry Ivanov",
+   "photo": 58053521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305037/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ram-Man, some rights reserved (CC BY-SA)",
+   "photo": 305037
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177394229/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nine0009, some rights reserved (CC BY-NC)",
+   "photo": 177394229
+  }
+ ]
 }

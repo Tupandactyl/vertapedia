@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272358567/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edison Araguillin, some rights reserved (CC BY-NC), uploaded by Edison Araguillin",
+   "photo": 272358567
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25973591/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Carlos Martínez-Chamorro, some rights reserved (CC BY-NC-SA), uploaded by Carlos Martínez-Chamorro",
+   "photo": 25973591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157599994/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aratinga_weddellii_-Beale_Park,_Reading,_Berkshire,_England-8a.jpg, some rights reserved (CC BY)",
+   "photo": 157599994
+  }
+ ]
 }

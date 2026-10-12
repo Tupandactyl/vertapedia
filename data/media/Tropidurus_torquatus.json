@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167799747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pedrohenriquetunes, some rights reserved (CC BY-NC), uploaded by pedrohenriquetunes",
+   "photo": 167799747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76878834/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Peter Chen 2.0, some rights reserved (CC BY), uploaded by Peter Chen 2.0",
+   "photo": 76878834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18616805/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) João Menezes, some rights reserved (CC BY-NC-SA), uploaded by João Menezes",
+   "photo": 18616805
+  }
+ ]
 }

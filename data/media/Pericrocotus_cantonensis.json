@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8307918/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cat Abbott, some rights reserved (CC BY-NC), uploaded by Cat Abbott",
+   "photo": 8307918
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26266040/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 26266040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26266014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 26266014
+  }
+ ]
 }

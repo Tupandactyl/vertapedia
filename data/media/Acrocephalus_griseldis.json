@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103893396/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Tero Linjama",
+   "photo": 103893396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240003268/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) upandiyan, some rights reserved (CC BY-NC)",
+   "photo": 240003268
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11413289/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Barker, some rights reserved (CC BY-NC), uploaded by Jeremy Barker",
+   "photo": 11413289
+  }
+ ]
 }

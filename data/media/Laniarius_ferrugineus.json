@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25006748/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaunne-Marelize Van Tonder, some rights reserved (CC BY-NC), uploaded by Jaunne-Marelize Van Tonder",
+   "photo": 25006748
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25570434/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 25570434
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6183729/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan",
+   "photo": 6183729
+  }
+ ]
 }

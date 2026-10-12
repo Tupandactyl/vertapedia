@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188008946/{size}.png",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Ben Keen",
+   "photo": 188008946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115604824/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 115604824
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104820232/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 104820232
+  }
+ ]
 }

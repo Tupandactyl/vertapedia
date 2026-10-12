@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100046959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andy Pearce 🕊, some rights reserved (CC BY-NC), uploaded by Andy Pearce 🕊",
+   "photo": 100046959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399534/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Baird, some rights reserved (CC BY)",
+   "photo": 399534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187498780/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Laurel Meredyk, some rights reserved (CC BY), uploaded by Laurel Meredyk",
+   "photo": 187498780
+  }
+ ]
 }

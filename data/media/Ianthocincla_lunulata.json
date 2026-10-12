@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105731005/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Matěj Baťha, some rights reserved (CC BY-SA)",
+   "photo": 105731005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593708624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 593708624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586243090/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zhangmw, some rights reserved (CC BY-NC)",
+   "photo": 586243090
+  }
+ ]
 }

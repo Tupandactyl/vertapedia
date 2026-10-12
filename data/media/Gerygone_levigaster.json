@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261803665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 261803665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182305/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gerygone_levigaster.jpg, some rights reserved (CC BY)",
+   "photo": 182305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29988664/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dezmond Wells, some rights reserved (CC BY-NC), uploaded by Dezmond Wells",
+   "photo": 29988664
+  }
+ ]
 }

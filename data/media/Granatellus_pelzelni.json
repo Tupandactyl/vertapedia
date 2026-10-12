@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10123795/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+   "photo": 10123795
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477433880/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Martin, some rights reserved (CC BY-NC), uploaded by David Martin",
+   "photo": 477433880
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301832928/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michelle Martin, some rights reserved (CC BY-NC), uploaded by Michelle Martin",
+   "photo": 301832928
+  }
+ ]
 }

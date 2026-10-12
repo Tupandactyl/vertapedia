@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29158451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brennan Obermayer, some rights reserved (CC BY-NC), uploaded by Brennan Obermayer",
+   "photo": 29158451
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136497814/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Serge Arias, some rights reserved (CC BY-NC-SA), uploaded by Serge Arias",
+   "photo": 136497814
+  }
+ ]
 }

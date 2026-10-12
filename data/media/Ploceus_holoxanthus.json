@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333196142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wolfgang Bittermann, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Wolfgang Bittermann",
+   "photo": 333196142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53182325/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joni Overbosch, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Joni Overbosch",
+   "photo": 53182325
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333196184/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wolfgang Bittermann, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Wolfgang Bittermann",
+   "photo": 333196184
+  }
+ ]
 }

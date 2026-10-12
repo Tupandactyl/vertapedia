@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2018016/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 2018016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246951478/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daryl de Beer, some rights reserved (CC BY-NC), uploaded by Daryl de Beer",
+   "photo": 246951478
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219158599/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandra Falanga, some rights reserved (CC BY-NC), uploaded by Sandra Falanga",
+   "photo": 219158599
+  }
+ ]
 }

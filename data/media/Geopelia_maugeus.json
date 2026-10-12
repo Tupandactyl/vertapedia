@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69371695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) craigjhowe, some rights reserved (CC BY-NC)",
+   "photo": 69371695
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46936247/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46936247
+  }
+ ]
 }

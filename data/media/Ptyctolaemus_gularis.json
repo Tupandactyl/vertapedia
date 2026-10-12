@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12445075/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rohit Naniwadekar, some rights reserved (CC BY-SA)",
+   "photo": 12445075
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25939246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashok Kumar Mallik, some rights reserved (CC BY-NC), uploaded by Ashok Kumar Mallik",
+   "photo": 25939246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12445074/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Davidvraju, some rights reserved (CC BY-SA)",
+   "photo": 12445074
+  }
+ ]
 }

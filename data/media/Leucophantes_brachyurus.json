@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206433523/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 206433523
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127888031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 127888031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1563502/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Katerina Tvardikova, some rights reserved (CC BY-NC-SA)",
+   "photo": 1563502
+  }
+ ]
 }

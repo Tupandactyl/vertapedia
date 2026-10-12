@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104649297/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott W. Gavins, some rights reserved (CC BY-NC), uploaded by Scott W. Gavins",
+   "photo": 104649297
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111928761/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yingyod Lapwong, some rights reserved (CC BY-NC), uploaded by Yingyod Lapwong",
+   "photo": 111928761
+  }
+ ]
 }

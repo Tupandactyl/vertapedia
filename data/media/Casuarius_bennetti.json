@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729034452/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hammam As, some rights reserved (CC BY-NC), uploaded by Hammam As",
+   "photo": 729034452
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729034673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hammam As, some rights reserved (CC BY-NC), uploaded by Hammam As",
+   "photo": 729034673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232348/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Martin Sordilla, some rights reserved (CC BY)",
+   "photo": 232348
+  }
+ ]
 }

@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395973985/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amirudin Agus Nursalim, some rights reserved (CC BY-NC), uploaded by Amirudin Agus Nursalim",
+   "photo": 395973985
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101229683/{size}.png",
+   "license": "cc-by",
+   "attribution": "(c) \nAndrea Glässer-Trobisch & Dietmar Trobisch, some rights reserved (CC BY)",
+   "photo": 101229683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101229684/{size}.png",
+   "license": "cc-by",
+   "attribution": "(c) \nAndrea Glässer-Trobisch & Dietmar Trobisch, some rights reserved (CC BY)",
+   "photo": 101229684
+  }
+ ]
 }

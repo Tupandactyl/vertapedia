@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395651076/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395651076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565357680/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Émilien Vadam, some rights reserved (CC BY-NC), uploaded by Émilien Vadam",
+   "photo": 565357680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528708463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Natalya Andreyenkova, some rights reserved (CC BY-NC), uploaded by Natalya Andreyenkova",
+   "photo": 528708463
+  }
+ ]
 }

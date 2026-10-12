@@ -171,5 +171,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128132945/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jefferykarafa, some rights reserved (CC BY-NC), uploaded by jefferykarafa",
+   "photo": 128132945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243403713/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) MarvalPhotography19, some rights reserved (CC BY), uploaded by MarvalPhotography19",
+   "photo": 243403713
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8844788/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jody Shugart, some rights reserved (CC BY), uploaded by Jody Shugart",
+   "photo": 8844788
+  }
+ ]
 }

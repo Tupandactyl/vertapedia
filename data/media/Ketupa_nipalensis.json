@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116971226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Udaya Kumar, some rights reserved (CC BY-NC), uploaded by Udaya Kumar",
+   "photo": 116971226
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110848023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 110848023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119765851/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rujuta Vinod, some rights reserved (CC BY-NC), uploaded by Rujuta Vinod",
+   "photo": 119765851
+  }
+ ]
 }

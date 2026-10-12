@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1954331
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56152973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryan Box, some rights reserved (CC BY-NC), uploaded by Bryan Box",
+   "photo": 56152973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68787223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John N. Wright, some rights reserved (CC BY-NC), uploaded by John N. Wright",
+   "photo": 68787223
+  }
+ ]
 }

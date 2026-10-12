@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247800710/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 247800710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236246880/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+   "photo": 236246880
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173732456/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joseluisblazquez, some rights reserved (CC BY-NC)",
+   "photo": 173732456
+  }
+ ]
 }

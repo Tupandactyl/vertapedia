@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175809969/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Thet Zaw Naing",
+   "photo": 175809969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48916584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 48916584
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48916579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 48916579
+  }
+ ]
 }

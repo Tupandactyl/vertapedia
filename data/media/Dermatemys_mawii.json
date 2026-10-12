@@ -198,5 +198,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2529271/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfonsina Hernández Cardona, some rights reserved (CC BY-NC), uploaded by Alfonsina Hernández Cardona",
+   "photo": 2529271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31710401/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silvano LG, some rights reserved (CC BY-NC), uploaded by Silvano LG",
+   "photo": 31710401
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43512055/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jan Meerman, some rights reserved (CC BY-NC), uploaded by Jan Meerman",
+   "photo": 43512055
+  }
+ ]
 }

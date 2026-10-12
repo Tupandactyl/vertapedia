@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243764039/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 243764039
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12988718/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Grove, some rights reserved (CC BY-NC), uploaded by Simon Grove",
+   "photo": 12988718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3126350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 3126350
+  }
+ ]
 }

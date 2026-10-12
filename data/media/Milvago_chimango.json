@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240521909/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) graciela_gplp, some rights reserved (CC BY-NC)",
+   "photo": 240521909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101982726/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Fernando Sessegolo",
+   "photo": 101982726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122880841/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+   "photo": 122880841
+  }
+ ]
 }

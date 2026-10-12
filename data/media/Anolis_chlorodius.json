@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347421419/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amiel Hopkins, some rights reserved (CC BY-NC), uploaded by Amiel Hopkins",
+   "photo": 347421419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233797656/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julio Araujo, some rights reserved (CC BY-NC), uploaded by Julio Araujo",
+   "photo": 233797656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347421427/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amiel Hopkins, some rights reserved (CC BY-NC), uploaded by Amiel Hopkins",
+   "photo": 347421427
+  }
+ ]
 }

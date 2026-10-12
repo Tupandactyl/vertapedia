@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177699462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 177699462
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 656369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181176434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kurt Hennige, some rights reserved (CC BY-NC), uploaded by Kurt Hennige",
+   "photo": 181176434
+  }
+ ]
 }

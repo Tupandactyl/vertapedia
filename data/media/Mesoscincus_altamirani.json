@@ -106,5 +106,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44405954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Calzada Arciniega, some rights reserved (CC BY-NC), uploaded by Alejandro Calzada Arciniega",
+   "photo": 44405954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100941916/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pedro Martínez-M, some rights reserved (CC BY-NC-SA), uploaded by Pedro Martínez-M",
+   "photo": 100941916
+  }
+ ]
 }

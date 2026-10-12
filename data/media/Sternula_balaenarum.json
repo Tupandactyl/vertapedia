@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468422586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Goddard, some rights reserved (CC BY-NC), uploaded by Luke Goddard",
+   "photo": 468422586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104476525/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nature_with_krista, some rights reserved (CC BY-NC), uploaded by nature_with_krista",
+   "photo": 104476525
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193517332/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 193517332
+  }
+ ]
 }

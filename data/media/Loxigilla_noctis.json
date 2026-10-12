@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176751/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Mike's Birds, some rights reserved (CC BY-SA)",
+   "photo": 176751
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42934675/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+   "photo": 42934675
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176750/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Crotty, some rights reserved (CC BY)",
+   "photo": 176750
+  }
+ ]
 }

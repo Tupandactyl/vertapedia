@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95704850/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 95704850
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5856573/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Cardoso, some rights reserved (CC BY-NC), uploaded by Bruno Cardoso",
+   "photo": 5856573
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129209103/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M. A. Lagares, some rights reserved (CC BY-NC), uploaded by M. A. Lagares",
+   "photo": 129209103
+  }
+ ]
 }

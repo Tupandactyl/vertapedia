@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50761101/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chantelle Bosch, some rights reserved (CC BY-NC), uploaded by Chantelle Bosch",
+   "photo": 50761101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50761108/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chantelle Bosch, some rights reserved (CC BY-NC), uploaded by Chantelle Bosch",
+   "photo": 50761108
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50761104/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chantelle Bosch, some rights reserved (CC BY-NC), uploaded by Chantelle Bosch",
+   "photo": 50761104
+  }
+ ]
 }

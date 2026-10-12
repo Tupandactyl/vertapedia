@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/701382430/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lance_robinson, some rights reserved (CC BY-NC)",
+   "photo": 701382430
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201943372/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 201943372
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425598392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 425598392
+  }
+ ]
 }

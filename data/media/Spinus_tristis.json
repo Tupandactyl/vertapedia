@@ -181,5 +181,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384965723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Fisher, some rights reserved (CC BY-NC), uploaded by Chris Fisher",
+   "photo": 384965723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38479816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martine Blanchette, some rights reserved (CC BY-NC), uploaded by Martine Blanchette",
+   "photo": 38479816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84579952/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Glenn Berry",
+   "photo": 84579952
+  }
+ ]
 }

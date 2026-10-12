@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30653128/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) 尹若宇, some rights reserved (CC BY-SA), uploaded by 尹若宇",
+   "photo": 30653128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227323165/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) awayk3n, some rights reserved (CC BY), uploaded by awayk3n",
+   "photo": 227323165
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28584291/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Shawn O'Donnell, some rights reserved (CC BY), uploaded by Shawn O'Donnell",
+   "photo": 28584291
+  }
+ ]
 }

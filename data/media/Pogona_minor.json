@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1173651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Travis W. Reeder, some rights reserved (CC BY-NC), uploaded by Travis W. Reeder",
+   "photo": 1173651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428181/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 428181
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20748/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Chid Akash, some rights reserved (CC BY-NC-SA)",
+   "photo": 20748
+  }
+ ]
 }

@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361872328/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Michael Bommerer, some rights reserved (CC BY), uploaded by Michael Bommerer",
+   "photo": 361872328
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170039067/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Floyd E. Hayes, some rights reserved (CC BY-NC), uploaded by Floyd E. Hayes",
+   "photo": 170039067
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361872403/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Michael Bommerer, some rights reserved (CC BY), uploaded by Michael Bommerer",
+   "photo": 361872403
+  }
+ ]
 }

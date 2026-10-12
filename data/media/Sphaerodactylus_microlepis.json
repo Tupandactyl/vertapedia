@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114094281/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joshua LaPergola, some rights reserved (CC BY-NC-SA), uploaded by Joshua LaPergola",
+   "photo": 114094281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249340555/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristof Zyskowski, some rights reserved (CC BY), uploaded by Kristof Zyskowski",
+   "photo": 249340555
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113642819/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joshua LaPergola, some rights reserved (CC BY-NC-SA), uploaded by Joshua LaPergola",
+   "photo": 113642819
+  }
+ ]
 }

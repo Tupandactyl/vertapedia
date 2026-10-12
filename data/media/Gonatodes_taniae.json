@@ -81,5 +81,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14386043/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Lau, some rights reserved (CC BY-NC), uploaded by Iván Lau",
+   "photo": 14386043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340114543/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 340114543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590310593/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ramon andres raymond ovalles, some rights reserved (CC BY-NC), uploaded by ramon andres raymond ovalles",
+   "photo": 590310593
+  }
+ ]
 }

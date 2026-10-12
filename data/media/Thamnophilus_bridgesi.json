@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416423867/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jimmyandtony, some rights reserved (CC BY-NC), uploaded by jimmyandtony",
+   "photo": 416423867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185309/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 185309
+  }
+ ]
 }

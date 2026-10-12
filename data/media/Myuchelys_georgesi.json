@@ -82,5 +82,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602681439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aquarist-watch, some rights reserved (CC BY-NC)",
+   "photo": 602681439
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195565232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren Fielder, some rights reserved (CC BY-NC), uploaded by Darren Fielder",
+   "photo": 195565232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602681470/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aquarist-watch, some rights reserved (CC BY-NC)",
+   "photo": 602681470
+  }
+ ]
 }

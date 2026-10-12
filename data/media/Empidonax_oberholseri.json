@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314709723/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC), uploaded by Dave Drum",
+   "photo": 314709723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78438547/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) kirk gardner, some rights reserved (CC BY), uploaded by kirk gardner",
+   "photo": 78438547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45548794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Terry Sohl, some rights reserved (CC BY-NC), uploaded by Terry Sohl",
+   "photo": 45548794
+  }
+ ]
 }

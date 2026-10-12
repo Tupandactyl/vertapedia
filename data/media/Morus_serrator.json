@@ -186,5 +186,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446195135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 446195135
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257649840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Filemyr, some rights reserved (CC BY-NC), uploaded by Bert Filemyr",
+   "photo": 257649840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256533388/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Kreuzhage, some rights reserved (CC BY-NC), uploaded by Andrea Kreuzhage",
+   "photo": 256533388
+  }
+ ]
 }

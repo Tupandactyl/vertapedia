@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312426561/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kirby Morejohn, some rights reserved (CC BY-NC), uploaded by Kirby Morejohn",
+   "photo": 312426561
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312427028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kirby Morejohn, some rights reserved (CC BY-NC), uploaded by Kirby Morejohn",
+   "photo": 312427028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32797124/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joanne, some rights reserved (CC BY-NC), uploaded by Joanne",
+   "photo": 32797124
+  }
+ ]
 }

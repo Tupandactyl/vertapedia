@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3259415/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 3259415
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3259416/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 3259416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3259422/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) NJR ZA, some rights reserved (CC BY-SA)",
+   "photo": 3259422
+  }
+ ]
 }

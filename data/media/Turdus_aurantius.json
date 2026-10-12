@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182161061/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ken_simonite, some rights reserved (CC BY-NC), uploaded by ken_simonite",
+   "photo": 182161061
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14191683/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 14191683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240937/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 240937
+  }
+ ]
 }

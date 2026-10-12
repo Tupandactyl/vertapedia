@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206149012/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
+   "photo": 206149012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64276113/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tommy Farquhar, some rights reserved (CC BY-NC), uploaded by Tommy Farquhar",
+   "photo": 64276113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108246099/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Graves, some rights reserved (CC BY-NC), uploaded by Jeremy Graves",
+   "photo": 108246099
+  }
+ ]
 }

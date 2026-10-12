@@ -138,5 +138,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1358146/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 1358146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257850726/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo",
+   "photo": 257850726
+  }
+ ]
 }

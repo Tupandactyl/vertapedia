@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351197889/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 351197889
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351198069/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 351198069
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351198067/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 351198067
+  }
+ ]
 }

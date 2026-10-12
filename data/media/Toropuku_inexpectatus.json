@@ -79,5 +79,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12927948/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emma &amp; Tom, some rights reserved (CC BY-NC), uploaded by Emma &amp; Tom",
+   "photo": 12927948
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6306386/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sara Smerdon, some rights reserved (CC BY-NC), uploaded by Sara Smerdon",
+   "photo": 6306386
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12927954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emma &amp; Tom, some rights reserved (CC BY-NC), uploaded by Emma &amp; Tom",
+   "photo": 12927954
+  }
+ ]
 }

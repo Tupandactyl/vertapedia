@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465902475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) richardchong0560, some rights reserved (CC BY-NC)",
+   "photo": 465902475
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65594692/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M. A. Naturalist, some rights reserved (CC BY-NC), uploaded by M. A. Naturalist",
+   "photo": 65594692
+  }
+ ]
 }

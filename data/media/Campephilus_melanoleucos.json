@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31333613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gregory Greene, some rights reserved (CC BY-NC), uploaded by Gregory Greene",
+   "photo": 31333613
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349680946/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+   "photo": 349680946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75957/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 75957
+  }
+ ]
 }

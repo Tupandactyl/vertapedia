@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233250886/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stefanie_de_win, some rights reserved (CC BY-NC), uploaded by stefanie_de_win",
+   "photo": 233250886
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220581848/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 220581848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698682/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 698682
+  }
+ ]
 }

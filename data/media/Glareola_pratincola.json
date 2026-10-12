@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329263128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tomasz Wilk, some rights reserved (CC BY-NC), uploaded by Tomasz Wilk",
+   "photo": 329263128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54672/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Werner Witte, some rights reserved (CC BY-NC)",
+   "photo": 54672
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106779732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) josefwirth, some rights reserved (CC BY-NC), uploaded by josefwirth",
+   "photo": 106779732
+  }
+ ]
 }

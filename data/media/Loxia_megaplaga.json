@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13173719/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Taveras, some rights reserved (CC BY-NC), uploaded by Juan Taveras",
+   "photo": 13173719
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1534132/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rafy Rodriguez, some rights reserved (CC BY-NC-SA)",
+   "photo": 1534132
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13172344/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Taveras, some rights reserved (CC BY-NC), uploaded by Juan Taveras",
+   "photo": 13172344
+  }
+ ]
 }

@@ -69,5 +69,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416830923/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "Oikeuksia ei pidätetä, lähettänyt James Eaton",
+   "photo": 416830923
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95821790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Marie Tarrant",
+   "photo": 95821790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119709329/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Benoît Segerer",
+   "photo": 119709329
+  }
+ ]
 }

@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158993196/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) ProAves Colombia, some rights reserved (CC BY-NC-SA)",
+   "photo": 158993196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158993195/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Diego Tirira, some rights reserved (CC BY-SA)",
+   "photo": 158993195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158993197/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) ProAves Colombia, some rights reserved (CC BY-NC-SA)",
+   "photo": 158993197
+  }
+ ]
 }

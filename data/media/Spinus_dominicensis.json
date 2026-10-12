@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66854420/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 66854420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120631212/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) novvictan, some rights reserved (CC BY)",
+   "photo": 120631212
+  }
+ ]
 }

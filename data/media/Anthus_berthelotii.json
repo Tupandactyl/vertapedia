@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340539401/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 340539401
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3322624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 3322624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340539407/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 340539407
+  }
+ ]
 }

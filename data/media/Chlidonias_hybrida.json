@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1927693/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1927693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461663650/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Eugenio Pérez Garrido, some rights reserved (CC BY-NC), uploaded by Daniel Eugenio Pérez Garrido",
+   "photo": 461663650
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5468854/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+   "photo": 5468854
+  }
+ ]
 }

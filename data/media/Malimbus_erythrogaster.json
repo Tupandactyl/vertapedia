@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56026597/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 56026597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12253911/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 12253911
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169987080/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bureaubenjamin, some rights reserved (CC BY-NC)",
+   "photo": 169987080
+  }
+ ]
 }

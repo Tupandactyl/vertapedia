@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172034355/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott W. Gavins, some rights reserved (CC BY-NC), uploaded by Scott W. Gavins",
+   "photo": 172034355
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178639858/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY), uploaded by dhfischer",
+   "photo": 178639858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114222768/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott W. Gavins, some rights reserved (CC BY-NC), uploaded by Scott W. Gavins",
+   "photo": 114222768
+  }
+ ]
 }

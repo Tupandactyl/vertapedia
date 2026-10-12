@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449681805/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oasispanama, some rights reserved (CC BY-NC)",
+   "photo": 449681805
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449641508/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oasispanama, some rights reserved (CC BY-NC)",
+   "photo": 449641508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541440256/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jamie Simmons, some rights reserved (CC BY-NC), uploaded by Jamie Simmons",
+   "photo": 541440256
+  }
+ ]
 }

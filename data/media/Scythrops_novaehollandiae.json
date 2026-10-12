@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12708885/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 12708885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63532294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kalimata, some rights reserved (CC BY-NC), uploaded by kalimata",
+   "photo": 63532294
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68927/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) belgianchocolate, some rights reserved (CC BY-NC)",
+   "photo": 68927
+  }
+ ]
 }

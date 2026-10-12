@@ -38,5 +38,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419493806/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) briyithdanieladurandmasias, some rights reserved (CC BY-NC)",
+   "photo": 419493806
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249339157/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christoph Nissen, some rights reserved (CC BY-NC), uploaded by Christoph Nissen",
+   "photo": 249339157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419493792/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) briyithdanieladurandmasias, some rights reserved (CC BY-NC)",
+   "photo": 419493792
+  }
+ ]
 }

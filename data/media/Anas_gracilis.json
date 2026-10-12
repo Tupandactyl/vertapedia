@@ -202,5 +202,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415251777/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Amaris, some rights reserved (CC BY-NC), uploaded by Samuel Amaris",
+   "photo": 415251777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571814499/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) annotate, some rights reserved (CC BY-NC)",
+   "photo": 571814499
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57334032/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen Cox, some rights reserved (CC BY-NC), uploaded by Stephen Cox",
+   "photo": 57334032
+  }
+ ]
 }

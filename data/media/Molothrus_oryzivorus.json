@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1581326/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1581326
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216691449/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 216691449
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210595898/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silvia Mallet, some rights reserved (CC BY-NC), uploaded by Silvia Mallet",
+   "photo": 210595898
+  }
+ ]
 }

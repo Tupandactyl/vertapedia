@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56822009/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC), uploaded by Anubhav Agarwal",
+   "photo": 56822009
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64608076/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) R K, some rights reserved (CC BY), uploaded by R K",
+   "photo": 64608076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64608146/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) R K, some rights reserved (CC BY), uploaded by R K",
+   "photo": 64608146
+  }
+ ]
 }

@@ -154,5 +154,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3653101/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 3653101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/623365183/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Vickers, some rights reserved (CC BY), uploaded by Dan Vickers",
+   "photo": 623365183
+  }
+ ]
 }

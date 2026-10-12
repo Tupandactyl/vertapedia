@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49469942/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Allen, some rights reserved (CC BY), uploaded by Andrew Allen",
+   "photo": 49469942
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159108136/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Bromilow, some rights reserved (CC BY-NC), uploaded by John Bromilow",
+   "photo": 159108136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31682316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julius Simonelli, some rights reserved (CC BY-NC), uploaded by Julius Simonelli",
+   "photo": 31682316
+  }
+ ]
 }

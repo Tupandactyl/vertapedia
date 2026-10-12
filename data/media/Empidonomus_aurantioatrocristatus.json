@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55234361/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wagner Machado Carlos Lemes, some rights reserved (CC BY)",
+   "photo": 55234361
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55234362/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Deusdedith de Souza Alves Filho DehAlves, some rights reserved (CC BY-SA)",
+   "photo": 55234362
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55234363/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Félix Uribe, some rights reserved (CC BY-SA)",
+   "photo": 55234363
+  }
+ ]
 }

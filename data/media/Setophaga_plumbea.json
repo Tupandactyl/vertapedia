@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374154407/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 374154407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564375804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tomáš Marek, some rights reserved (CC BY-NC), uploaded by Tomáš Marek",
+   "photo": 564375804
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164338/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John C. Mittermeier, some rights reserved (CC BY)",
+   "photo": 164338
+  }
+ ]
 }

@@ -70,5 +70,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23851070/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hdmiller, some rights reserved (CC BY-NC)",
+   "photo": 23851070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39830334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leifgabrielsen, some rights reserved (CC BY-NC)",
+   "photo": 39830334
+  }
+ ]
 }

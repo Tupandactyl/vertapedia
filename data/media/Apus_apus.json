@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
+   "photo": 40612214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290895849/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juan manuel pérez rayego, some rights reserved (CC BY-NC), uploaded by juan manuel pérez rayego",
+   "photo": 290895849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28507875/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ruzovdmitry, some rights reserved (CC BY-NC), uploaded by ruzovdmitry",
+   "photo": 28507875
+  }
+ ]
 }

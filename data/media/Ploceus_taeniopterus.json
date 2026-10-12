@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458102620/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jens Thalund, some rights reserved (CC BY-NC), uploaded by Jens Thalund",
+   "photo": 458102620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415315232/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Curtis Dowhaniuk, some rights reserved (CC BY-NC), uploaded by Curtis Dowhaniuk",
+   "photo": 415315232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1098537/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) michaelandhelencox, some rights reserved (CC BY-NC-SA)",
+   "photo": 1098537
+  }
+ ]
 }

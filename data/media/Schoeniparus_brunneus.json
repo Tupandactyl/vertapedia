@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56927219/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Adams, some rights reserved (CC BY-NC), uploaded by J. Adams",
+   "photo": 56927219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228187868/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kellyshu, some rights reserved (CC BY-NC)",
+   "photo": 228187868
+  }
+ ]
 }

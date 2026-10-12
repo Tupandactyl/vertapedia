@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14842689/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Simon Tonge",
+   "photo": 14842689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211755376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 211755376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211755391/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 211755391
+  }
+ ]
 }

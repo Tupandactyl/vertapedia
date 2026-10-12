@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111547435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matteo Grilli, some rights reserved (CC BY-NC), uploaded by Matteo Grilli",
+   "photo": 111547435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172266832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sylvia Alexander, some rights reserved (CC BY-NC), uploaded by Sylvia Alexander",
+   "photo": 172266832
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109088705/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 109088705
+  }
+ ]
 }

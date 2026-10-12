@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513867982/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Wight, some rights reserved (CC BY-NC), uploaded by Alan Wight",
+   "photo": 513867982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513867992/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Wight, some rights reserved (CC BY-NC), uploaded by Alan Wight",
+   "photo": 513867992
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95648/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mike Allen, some rights reserved (CC BY-NC-SA)",
+   "photo": 95648
+  }
+ ]
 }

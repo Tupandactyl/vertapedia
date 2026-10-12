@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255878737/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Guy Babineau, osa oikeuksista pidätetään (CC BY), lähettänyt Guy Babineau",
+   "photo": 255878737
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21098512/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Starzomski, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Brian Starzomski",
+   "photo": 21098512
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94263841/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Nelson Apolo",
+   "photo": 94263841
+  }
+ ]
 }

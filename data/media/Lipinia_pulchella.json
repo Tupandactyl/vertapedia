@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362694646/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) santibiologist, some rights reserved (CC BY-NC), uploaded by santibiologist",
+   "photo": 362694646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184288352/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stefanie De Win, some rights reserved (CC BY-NC), uploaded by Stefanie De Win",
+   "photo": 184288352
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446797567/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinpearce, some rights reserved (CC BY-NC)",
+   "photo": 446797567
+  }
+ ]
 }

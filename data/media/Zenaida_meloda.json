@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319070472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mónica Soto Barahona, some rights reserved (CC BY-NC), uploaded by Mónica Soto Barahona",
+   "photo": 319070472
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400932336/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Hernandez, some rights reserved (CC BY-NC), uploaded by Ariel Hernandez",
+   "photo": 400932336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436645960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Hernandez, some rights reserved (CC BY-NC), uploaded by Ariel Hernandez",
+   "photo": 436645960
+  }
+ ]
 }

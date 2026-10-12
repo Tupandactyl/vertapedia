@@ -47,5 +47,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364372883/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jiao Sun (孙娇), some rights reserved (CC BY-SA), uploaded by Jiao Sun (孙娇)",
+   "photo": 364372883
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364372878/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jiao Sun (孙娇), some rights reserved (CC BY-SA), uploaded by Jiao Sun (孙娇)",
+   "photo": 364372878
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221204960/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nat Panda, some rights reserved (CC BY-NC-SA), uploaded by Nat Panda",
+   "photo": 221204960
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8145529/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Schlemmer, some rights reserved (CC BY-NC), uploaded by Jorge Schlemmer",
+   "photo": 8145529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27152336/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 27152336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26430104/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mauro Bernini, some rights reserved (CC BY-NC-SA), uploaded by Mauro Bernini",
+   "photo": 26430104
+  }
+ ]
 }

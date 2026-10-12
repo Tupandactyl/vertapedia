@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221320488/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 221320488
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83333929/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Arregui, some rights reserved (CC BY-NC), uploaded by Martin Arregui",
+   "photo": 83333929
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411140736/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Luis Ianiro, some rights reserved (CC BY-NC), uploaded by José Luis Ianiro",
+   "photo": 411140736
+  }
+ ]
 }

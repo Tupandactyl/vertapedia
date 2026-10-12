@@ -68,5 +68,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86630490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi",
+   "photo": 86630490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23701317/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brendan O'Loughlin, some rights reserved (CC BY-NC), uploaded by Brendan O'Loughlin",
+   "photo": 23701317
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23701807/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brendan O'Loughlin, some rights reserved (CC BY-NC), uploaded by Brendan O'Loughlin",
+   "photo": 23701807
+  }
+ ]
 }

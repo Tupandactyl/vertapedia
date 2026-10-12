@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169438063/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Collison, some rights reserved (CC BY-NC), uploaded by Jacob Collison",
+   "photo": 169438063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442712954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jtajax, some rights reserved (CC BY-NC)",
+   "photo": 442712954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3553666/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JoAnne-Russo, some rights reserved (CC BY-NC)",
+   "photo": 3553666
+  }
+ ]
 }

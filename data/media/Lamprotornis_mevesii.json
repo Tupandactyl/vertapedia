@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367127136/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tristan Scholze, some rights reserved (CC BY-NC), uploaded by Tristan Scholze",
+   "photo": 367127136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116163835/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 116163835
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616888389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Dolejsek, some rights reserved (CC BY-NC), uploaded by Petr Dolejsek",
+   "photo": 616888389
+  }
+ ]
 }

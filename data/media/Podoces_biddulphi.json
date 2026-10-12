@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98708942/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Askar Isabekov, some rights reserved (CC BY-NC), uploaded by Askar Isabekov",
+   "photo": 98708942
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86936642/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 86936642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86936692/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 86936692
+  }
+ ]
 }

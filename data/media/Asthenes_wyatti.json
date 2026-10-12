@@ -195,5 +195,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32255453/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 32255453
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2171029/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominic Sherony, some rights reserved (CC BY-SA)",
+   "photo": 2171029
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32255452/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominic Sherony, some rights reserved (CC BY-SA)",
+   "photo": 32255452
+  }
+ ]
 }

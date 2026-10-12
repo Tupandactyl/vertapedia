@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11219760/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC), uploaded by Paul Tavares",
+   "photo": 11219760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2321366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaico Caballero, some rights reserved (CC BY-NC), uploaded by Jaico Caballero",
+   "photo": 2321366
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11988458/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Hollinger, some rights reserved (CC BY)",
+   "photo": 11988458
+  }
+ ]
 }

@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127312827/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Dobbs, some rights reserved (CC BY-NC), uploaded by Robert Dobbs",
+   "photo": 127312827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171526759/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "photo": 171526759
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89355509/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Griffing, some rights reserved (CC BY-NC), uploaded by Aaron Griffing",
+   "photo": 89355509
+  }
+ ]
 }

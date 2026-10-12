@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461567245/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, osa oikeuksista pidätetään (CC BY-NC), lähettänyt David Monroy R",
+   "photo": 461567245
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396125071/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, osa oikeuksista pidätetään (CC BY-NC), lähettänyt David Monroy R",
+   "photo": 396125071
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97454239/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oliver Komar, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Oliver Komar",
+   "photo": 97454239
+  }
+ ]
 }

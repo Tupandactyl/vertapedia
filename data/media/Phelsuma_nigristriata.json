@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616000768/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) philadelphe william, some rights reserved (CC BY-NC), uploaded by philadelphe william",
+   "photo": 616000768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730944307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) philadelphe william, some rights reserved (CC BY-NC), uploaded by philadelphe william",
+   "photo": 730944307
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1445564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hyacynthus, some rights reserved (CC BY-NC), uploaded by hyacynthus",
+   "photo": 1445564
+  }
+ ]
 }

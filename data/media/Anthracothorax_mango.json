@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442375557/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 442375557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364952504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris G Earley, some rights reserved (CC BY-NC), uploaded by Chris G Earley",
+   "photo": 364952504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257291294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rwcannon57, some rights reserved (CC BY-NC)",
+   "photo": 257291294
+  }
+ ]
 }

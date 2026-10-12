@@ -83,5 +83,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852263/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) barbuda_peek, some rights reserved (CC BY-NC)",
+   "photo": 2852263
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11359933/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jgerbracht, some rights reserved (CC BY-NC)",
+   "photo": 11359933
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2852227/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) barbuda_peek, some rights reserved (CC BY-NC)",
+   "photo": 2852227
+  }
+ ]
 }

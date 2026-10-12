@@ -106,5 +106,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116146365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tristan Scholze, some rights reserved (CC BY-NC), uploaded by Tristan Scholze",
+   "photo": 116146365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450304837/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mangoat1, some rights reserved (CC BY-NC), uploaded by mangoat1",
+   "photo": 450304837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2802290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) misooksun, some rights reserved (CC BY-NC), uploaded by misooksun",
+   "photo": 2802290
+  }
+ ]
 }

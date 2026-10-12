@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177308057/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Herrington, some rights reserved (CC BY-NC), uploaded by Doug Herrington",
+   "photo": 177308057
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106220239/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Melvaine, some rights reserved (CC BY-NC), uploaded by Jeff Melvaine",
+   "photo": 106220239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57567953/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford",
+   "photo": 57567953
+  }
+ ]
 }

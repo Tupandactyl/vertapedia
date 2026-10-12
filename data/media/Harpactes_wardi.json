@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116956042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Udaya Kumar, some rights reserved (CC BY-NC), uploaded by Udaya Kumar",
+   "photo": 116956042
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30310775/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 30310775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/940211/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) soumyajit nandy, some rights reserved (CC BY-SA)",
+   "photo": 940211
+  }
+ ]
 }

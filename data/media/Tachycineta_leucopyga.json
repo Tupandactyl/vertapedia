@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70927/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 70927
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46950804/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Adrián LEIVA, some rights reserved (CC BY-NC), uploaded by Leonardo Adrián LEIVA",
+   "photo": 46950804
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165576400/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Lescano, some rights reserved (CC BY-NC), uploaded by Sebastián Lescano",
+   "photo": 165576400
+  }
+ ]
 }

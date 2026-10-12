@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238739562/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+   "photo": 238739562
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4274570/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+   "photo": 4274570
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237164155/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kurilin M S, some rights reserved (CC BY-NC), uploaded by Kurilin M S",
+   "photo": 237164155
+  }
+ ]
 }

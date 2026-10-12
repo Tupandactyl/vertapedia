@@ -187,5 +187,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453141810/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jared Manninen, some rights reserved (CC BY-NC), uploaded by Jared Manninen",
+   "photo": 453141810
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250021600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maticus, some rights reserved (CC BY-NC), uploaded by maticus",
+   "photo": 250021600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180185405/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rabbitlady101, some rights reserved (CC BY-NC)",
+   "photo": 180185405
+  }
+ ]
 }

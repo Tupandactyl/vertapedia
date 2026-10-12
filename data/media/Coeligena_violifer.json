@@ -161,5 +161,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106475417/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 106475417
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95944744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Nunes, some rights reserved (CC BY-NC), uploaded by Christian Nunes",
+   "photo": 95944744
+  }
+ ]
 }

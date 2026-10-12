@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238706641/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Science and Education Coordinator MS FRAM, some rights reserved (CC BY-NC), uploaded by Science and Education Coordinator MS FRAM",
+   "photo": 238706641
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122882758/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+   "photo": 122882758
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1812588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flavio Camus, some rights reserved (CC BY-NC)",
+   "photo": 1812588
+  }
+ ]
 }

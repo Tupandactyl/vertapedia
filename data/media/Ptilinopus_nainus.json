@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243003360/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pankaj Nirale, some rights reserved (CC BY-NC), uploaded by Pankaj Nirale",
+   "photo": 243003360
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325614504/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rosario Douglas, some rights reserved (CC BY), uploaded by Rosario Douglas",
+   "photo": 325614504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118322436/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 118322436
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441226422/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 441226422
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159035656/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Toby Ross, some rights reserved (CC BY-NC), uploaded by Toby Ross",
+   "photo": 159035656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76036783/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) greensxm, some rights reserved (CC BY-NC), uploaded by greensxm",
+   "photo": 76036783
+  }
+ ]
 }

@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148747744/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Wendelken, some rights reserved (CC BY-NC), uploaded by Dave Wendelken",
+   "photo": 148747744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1581238/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1581238
+  }
+ ]
 }

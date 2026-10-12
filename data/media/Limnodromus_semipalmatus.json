@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232391/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 台灣水鳥研究群 彰化海岸保育行動聯盟, some rights reserved (CC BY-NC-SA)",
+   "photo": 232391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612758604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+   "photo": 612758604
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166297472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wild_nn, some rights reserved (CC BY-NC)",
+   "photo": 166297472
+  }
+ ]
 }

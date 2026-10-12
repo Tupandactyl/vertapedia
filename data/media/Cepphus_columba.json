@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1714/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Baird, some rights reserved (CC BY)",
+   "photo": 1714
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47289124/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liam Singh, some rights reserved (CC BY-NC), uploaded by Liam Singh",
+   "photo": 47289124
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90863531/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Evers, some rights reserved (CC BY-NC), uploaded by Chris Evers",
+   "photo": 90863531
+  }
+ ]
 }

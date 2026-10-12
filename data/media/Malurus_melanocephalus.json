@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334894530/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ., some rights reserved (CC BY-NC), uploaded by .",
+   "photo": 334894530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83571485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bellagrayphotography, some rights reserved (CC BY-NC)",
+   "photo": 83571485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179401927/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Taylor, some rights reserved (CC BY-NC), uploaded by Peter Taylor",
+   "photo": 179401927
+  }
+ ]
 }

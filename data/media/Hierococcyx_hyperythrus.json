@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179934644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) trickytris, some rights reserved (CC BY-NC)",
+   "photo": 179934644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10964753/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Ganse, some rights reserved (CC BY-NC), uploaded by Alexander Ganse",
+   "photo": 10964753
+  }
+ ]
 }

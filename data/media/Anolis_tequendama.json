@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352202121/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Hugo Bernal Hernández, some rights reserved (CC BY), uploaded by Hugo Bernal Hernández",
+   "photo": 352202121
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346410830/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristiina Hurme, some rights reserved (CC BY), uploaded by Kristiina Hurme",
+   "photo": 346410830
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329358529/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ana Melisa Fernandes, some rights reserved (CC BY-NC), uploaded by Ana Melisa Fernandes",
+   "photo": 329358529
+  }
+ ]
 }

@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235265329/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Micho, some rights reserved (CC BY-NC), uploaded by Micho",
+   "photo": 235265329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60780068/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC), uploaded by Bobby Bok",
+   "photo": 60780068
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415716204/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jambobwana, some rights reserved (CC BY-NC)",
+   "photo": 415716204
+  }
+ ]
 }

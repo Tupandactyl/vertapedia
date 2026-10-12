@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58166910/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Hulme, some rights reserved (CC BY-NC), uploaded by Mark Hulme",
+   "photo": 58166910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246037146/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 246037146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246037134/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 246037134
+  }
+ ]
 }

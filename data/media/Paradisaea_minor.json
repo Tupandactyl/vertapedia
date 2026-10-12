@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58802968/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 58802968
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370659/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 370659
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3172372/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3172372
+  }
+ ]
 }

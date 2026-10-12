@@ -104,5 +104,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358676647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philip Griffin, some rights reserved (CC BY-NC), uploaded by Philip Griffin",
+   "photo": 358676647
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210034316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jules Farquhar, some rights reserved (CC BY-NC), uploaded by Jules Farquhar",
+   "photo": 210034316
+  }
+ ]
 }

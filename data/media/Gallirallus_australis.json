@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204782403/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 204782403
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530164369/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), uploaded by Saryu Mae 前 朝琉",
+   "photo": 530164369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227862476/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) miro, some rights reserved (CC BY-NC)",
+   "photo": 227862476
+  }
+ ]
 }

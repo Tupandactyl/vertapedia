@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62884158/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 62884158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60283325/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY-NC), uploaded by Trevor Van Loon",
+   "photo": 60283325
+  }
+ ]
 }

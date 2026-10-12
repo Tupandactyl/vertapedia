@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64793988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vincent Porcher, some rights reserved (CC BY-NC), uploaded by Vincent Porcher",
+   "photo": 64793988
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71985486/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Berit Gehrke, some rights reserved (CC BY-NC), uploaded by Berit Gehrke",
+   "photo": 71985486
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71985500/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Berit Gehrke, some rights reserved (CC BY-NC), uploaded by Berit Gehrke",
+   "photo": 71985500
+  }
+ ]
 }

@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102795331/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aitor, some rights reserved (CC BY), uploaded by Aitor",
+   "photo": 102795331
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896878/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 158896878
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104429898/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Howard Laidlaw, some rights reserved (CC BY-NC), uploaded by Howard Laidlaw",
+   "photo": 104429898
+  }
+ ]
 }

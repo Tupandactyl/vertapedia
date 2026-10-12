@@ -65,5 +65,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47948980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shahrzad Fattahi, some rights reserved (CC BY-NC), uploaded by Shahrzad Fattahi",
+   "photo": 47948980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351030806/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 351030806
+  }
+ ]
 }

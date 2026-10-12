@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40363/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 40363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45110290/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Graeme Cocks, some rights reserved (CC BY-NC-SA), uploaded by Graeme Cocks",
+   "photo": 45110290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1492454/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Nash, some rights reserved (CC BY-NC), uploaded by Chris Nash",
+   "photo": 1492454
+  }
+ ]
 }

@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11787373/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 11787373
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248569034/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC), uploaded by Thet Zaw Naing",
+   "photo": 248569034
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190854266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 190854266
+  }
+ ]
 }

@@ -64,5 +64,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622890779/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 622890779
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622890760/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte",
+   "photo": 622890760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95944734/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Nunes, some rights reserved (CC BY-NC), uploaded by Christian Nunes",
+   "photo": 95944734
+  }
+ ]
 }

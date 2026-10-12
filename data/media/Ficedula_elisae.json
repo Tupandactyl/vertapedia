@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241556916/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) 卢江离, some rights reserved (CC BY), uploaded by 卢江离",
+   "photo": 241556916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189602919/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 189602919
+  }
+ ]
 }

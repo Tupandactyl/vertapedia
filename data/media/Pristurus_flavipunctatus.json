@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86049716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexandre H. Leitão, some rights reserved (CC BY-NC), uploaded by Alexandre H. Leitão",
+   "photo": 86049716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1532279/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1532279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2865394/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 2865394
+  }
+ ]
 }

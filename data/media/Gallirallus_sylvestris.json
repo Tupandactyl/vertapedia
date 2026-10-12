@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208145300/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roxanne Lazarus, some rights reserved (CC BY-NC), uploaded by Roxanne Lazarus",
+   "photo": 208145300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136021/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) dracophylla, some rights reserved (CC BY-NC-SA)",
+   "photo": 136021
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3070084/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 3070084
+  }
+ ]
 }

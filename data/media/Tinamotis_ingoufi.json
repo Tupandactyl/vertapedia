@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180330310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, nogle rettigheder forbeholdes (CC BY-NC), uploadet af Luca Boscain",
+   "photo": 180330310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243645032/{size}.jpg",
+   "license": "cc0",
+   "attribution": "ingen rettigheder forbeholdt, uploadet af Hugo Hulsberg",
+   "photo": 243645032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243645270/{size}.jpg",
+   "license": "cc0",
+   "attribution": "ingen rettigheder forbeholdt, uploadet af Hugo Hulsberg",
+   "photo": 243645270
+  }
+ ]
 }

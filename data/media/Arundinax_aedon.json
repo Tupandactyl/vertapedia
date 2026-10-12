@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103338390/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Md. Zaber Ansary, some rights reserved (CC BY-NC), uploaded by Md. Zaber Ansary",
+   "photo": 103338390
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47268347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC), uploaded by Константин Самодуров",
+   "photo": 47268347
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47942647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC), uploaded by Константин Самодуров",
+   "photo": 47942647
+  }
+ ]
 }

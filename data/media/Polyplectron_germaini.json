@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344494392/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vsevolod Rudyi, some rights reserved (CC BY), uploaded by Vsevolod Rudyi",
+   "photo": 344494392
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222123189/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niran Anurakpongsathorn, some rights reserved (CC BY-NC), uploaded by Niran Anurakpongsathorn",
+   "photo": 222123189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259302820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) billyschofield, some rights reserved (CC BY-NC), uploaded by billyschofield",
+   "photo": 259302820
+  }
+ ]
 }

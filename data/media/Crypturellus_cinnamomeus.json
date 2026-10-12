@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18264503/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan Bou Riquer, some rights reserved (CC BY-NC-SA), uploaded by Juan Bou Riquer",
+   "photo": 18264503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19607280/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexpacheco, some rights reserved (CC BY-NC), uploaded by alexpacheco",
+   "photo": 19607280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209178428/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Zozaya, some rights reserved (CC BY-NC), uploaded by Marco Zozaya",
+   "photo": 209178428
+  }
+ ]
 }

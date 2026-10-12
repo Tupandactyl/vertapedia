@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390443967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Thomas, some rights reserved (CC BY-NC), uploaded by Andrew Thomas",
+   "photo": 390443967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2003379/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 2003379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 225644
+  }
+ ]
 }

@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123658984/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Nik Borrow",
+   "photo": 123658984
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137919404/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Xavier Rufray",
+   "photo": 137919404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610103277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, osa oikeuksista pidätetään (CC BY-NC), lähettänyt peter maaskant",
+   "photo": 610103277
+  }
+ ]
 }

@@ -38,5 +38,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9837618/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard de cauwer, some rights reserved (CC BY-NC), uploaded by Richard de cauwer",
+   "photo": 9837618
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9837612/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard de cauwer, some rights reserved (CC BY-NC), uploaded by Richard de cauwer",
+   "photo": 9837612
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9837605/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard de cauwer, some rights reserved (CC BY-NC), uploaded by Richard de cauwer",
+   "photo": 9837605
+  }
+ ]
 }

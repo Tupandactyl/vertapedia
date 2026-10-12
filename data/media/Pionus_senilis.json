@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250092444/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dean Thompson, some rights reserved (CC BY-NC), uploaded by Dean Thompson",
+   "photo": 250092444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6282742/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 6282742
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33695615/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Soheil Zendeh, some rights reserved (CC BY-NC-SA), uploaded by Soheil Zendeh",
+   "photo": 33695615
+  }
+ ]
 }

@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133009/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 133009
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148697466/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Allen, some rights reserved (CC BY), uploaded by Andrew Allen",
+   "photo": 148697466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1421200/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Nash, some rights reserved (CC BY-NC), uploaded by Chris Nash",
+   "photo": 1421200
+  }
+ ]
 }

@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Roberts, some rights reserved (CC BY-NC)",
+   "photo": 9036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450424667/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thegreatdodo, some rights reserved (CC BY-NC), uploaded by thegreatdodo",
+   "photo": 450424667
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9037/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mark Kilner, some rights reserved (CC BY-NC-SA)",
+   "photo": 9037
+  }
+ ]
 }

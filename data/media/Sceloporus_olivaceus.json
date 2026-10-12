@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16476904/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Brush, some rights reserved (CC BY-NC), uploaded by John Brush",
+   "photo": 16476904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51327439/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Debra Hendricks, some rights reserved (CC BY-NC), uploaded by Debra Hendricks",
+   "photo": 51327439
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew High, some rights reserved (CC BY-NC)",
+   "photo": 42545
+  }
+ ]
 }

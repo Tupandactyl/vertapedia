@@ -202,5 +202,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61267397/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ximo Galarza, some rights reserved (CC BY-NC-SA)",
+   "photo": 61267397
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61267400/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sid Mosdell, some rights reserved (CC BY)",
+   "photo": 61267400
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134361851/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergey Gladkevich, some rights reserved (CC BY-NC), uploaded by Sergey Gladkevich",
+   "photo": 134361851
+  }
+ ]
 }

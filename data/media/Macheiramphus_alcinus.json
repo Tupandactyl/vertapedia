@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605077692/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niels Poul Dreyer, some rights reserved (CC BY-NC), uploaded by Niels Poul Dreyer",
+   "photo": 605077692
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109210727/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Maceiramphus_alcinus.jpg, some rights reserved (CC BY-SA)",
+   "photo": 109210727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/547986578/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phuwarin Suchartbunmak, some rights reserved (CC BY-NC), uploaded by Phuwarin Suchartbunmak",
+   "photo": 547986578
+  }
+ ]
 }

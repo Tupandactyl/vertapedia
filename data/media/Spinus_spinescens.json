@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285693604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Javier López Gómez, some rights reserved (CC BY-NC), uploaded by Omar Javier López Gómez",
+   "photo": 285693604
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308874463/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nima Gallego, some rights reserved (CC BY-NC), uploaded by Nima Gallego",
+   "photo": 308874463
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64896497/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve King, some rights reserved (CC BY-NC), uploaded by Steve King",
+   "photo": 64896497
+  }
+ ]
 }

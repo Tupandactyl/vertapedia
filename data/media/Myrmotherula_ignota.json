@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354919534/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kalvin Chan, some rights reserved (CC BY), uploaded by Kalvin Chan",
+   "photo": 354919534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2638545/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2638545
+  }
+ ]
 }

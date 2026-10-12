@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59249037/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 59249037
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46111315/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yve Morrell, some rights reserved (CC BY-NC), uploaded by Yve Morrell",
+   "photo": 46111315
+  }
+ ]
 }

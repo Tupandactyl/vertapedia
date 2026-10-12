@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262719937/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Markos, some rights reserved (CC BY-NC), uploaded by Daniel Markos",
+   "photo": 262719937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302185303/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura Keene, some rights reserved (CC BY-NC), uploaded by Laura Keene",
+   "photo": 302185303
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209712223/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davidsando, some rights reserved (CC BY-NC), uploaded by davidsando",
+   "photo": 209712223
+  }
+ ]
 }

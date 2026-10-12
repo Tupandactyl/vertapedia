@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71756380/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Josip Skejo, some rights reserved (CC BY), uploaded by Josip Skejo",
+   "photo": 71756380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71756391/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Josip Skejo, some rights reserved (CC BY), uploaded by Josip Skejo",
+   "photo": 71756391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64597238/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 64597238
+  }
+ ]
 }

@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444196600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jakeh2022, some rights reserved (CC BY-NC)",
+   "photo": 444196600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587212560/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA)",
+   "photo": 587212560
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227837405/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yolande Lebreux, some rights reserved (CC BY-NC), uploaded by Yolande Lebreux",
+   "photo": 227837405
+  }
+ ]
 }

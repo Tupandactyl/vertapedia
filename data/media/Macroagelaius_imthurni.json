@@ -116,5 +116,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419417112/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, some rights reserved (CC BY-NC-SA), uploaded by Sergio Rivero Beneitez",
+   "photo": 419417112
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617312974/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 617312974
+  }
+ ]
 }

@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462224393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reinier Munguia, some rights reserved (CC BY-NC), uploaded by Reinier Munguia",
+   "photo": 462224393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390512021/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Agosto, some rights reserved (CC BY-NC), uploaded by Luis Agosto",
+   "photo": 390512021
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2341044/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) stgoalvaraddo, some rights reserved (CC BY-NC)",
+   "photo": 2341044
+  }
+ ]
 }

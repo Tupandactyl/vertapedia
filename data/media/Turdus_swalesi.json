@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25931096/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Winer, some rights reserved (CC BY-NC), uploaded by Adam Winer",
+   "photo": 25931096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20680/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kent McFarland, some rights reserved (CC BY-NC)",
+   "photo": 20680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/647902/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ron Savage, some rights reserved (CC BY-NC-SA), uploaded by Ron Savage",
+   "photo": 647902
+  }
+ ]
 }

@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183526953/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) murraychristian, some rights reserved (CC BY-NC)",
+   "photo": 183526953
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211482717/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roelof van der Breggen, some rights reserved (CC BY-NC), uploaded by Roelof van der Breggen",
+   "photo": 211482717
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21577472/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kate Braun, some rights reserved (CC BY-NC), uploaded by Kate Braun",
+   "photo": 21577472
+  }
+ ]
 }

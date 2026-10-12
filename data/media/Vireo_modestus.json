@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182934823/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ken_simonite, some rights reserved (CC BY-NC), uploaded by ken_simonite",
+   "photo": 182934823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3232179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cat Abbott, some rights reserved (CC BY-NC), uploaded by Cat Abbott",
+   "photo": 3232179
+  }
+ ]
 }

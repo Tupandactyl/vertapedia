@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2996741/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristiina Hurme, some rights reserved (CC BY), uploaded by Kristiina Hurme",
+   "photo": 2996741
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159117903/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fotalora, some rights reserved (CC BY-NC), uploaded by fotalora",
+   "photo": 159117903
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361096713/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan F. Mandelbaum, some rights reserved (CC BY), uploaded by Ryan F. Mandelbaum",
+   "photo": 361096713
+  }
+ ]
 }

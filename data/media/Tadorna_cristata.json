@@ -66,5 +66,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1450289/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kevin Deacon, some rights reserved (CC BY-SA)",
+   "photo": 1450289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143761824/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Austin R. Kelly, some rights reserved (CC BY-NC), uploaded by Austin R. Kelly",
+   "photo": 143761824
+  }
+ ]
 }

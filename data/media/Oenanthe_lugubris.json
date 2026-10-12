@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340344940/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hailu Tilahun Argaw, some rights reserved (CC BY-NC), uploaded by Hailu Tilahun Argaw",
+   "photo": 340344940
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43042031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 43042031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178139239/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 178139239
+  }
+ ]
 }

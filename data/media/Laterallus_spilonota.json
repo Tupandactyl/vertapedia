@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68508/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francisco Laso, some rights reserved (CC BY-NC-SA)",
+   "photo": 68508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41103765/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 41103765
+  }
+ ]
 }

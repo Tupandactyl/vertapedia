@@ -189,5 +189,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132879083/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) U.S. Fish and Wildlife Service Headquarters, some rights reserved (CC BY)",
+   "photo": 132879083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354616320/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Aguilar, some rights reserved (CC BY-NC), uploaded by Antonio Aguilar",
+   "photo": 354616320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11797493/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 11797493
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463013824/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shuo_hsu, some rights reserved (CC BY-NC)",
+   "photo": 463013824
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257138631/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Licheng Shih, some rights reserved (CC BY), uploaded by Licheng Shih",
+   "photo": 257138631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32266998/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA), uploaded by Kuan-Chieh (Chuck) Hung",
+   "photo": 32266998
+  }
+ ]
 }

@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316065642/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 316065642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3161047/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC)",
+   "photo": 3161047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426775453/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 426775453
+  }
+ ]
 }

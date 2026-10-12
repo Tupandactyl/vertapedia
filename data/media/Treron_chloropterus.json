@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290678/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Balaji Venkatesh Sivaramakrishnan, osa oikeuksista pidätetään (CC BY-NC-SA)",
+   "photo": 2290678
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111217955/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Attila Steiner",
+   "photo": 111217955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111219250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Attila Steiner",
+   "photo": 111219250
+  }
+ ]
 }

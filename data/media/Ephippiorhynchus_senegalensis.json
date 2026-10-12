@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394701847/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tristan Scholze, some rights reserved (CC BY-NC), uploaded by Tristan Scholze",
+   "photo": 394701847
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175575644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 175575644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139428603/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 139428603
+  }
+ ]
 }

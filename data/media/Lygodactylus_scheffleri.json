@@ -68,5 +68,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5355278/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC), uploaded by Martin Grimm",
+   "photo": 5355278
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55545053/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Seth Miller, some rights reserved (CC BY-NC), uploaded by Seth Miller",
+   "photo": 55545053
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1317430/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) caseyzill, some rights reserved (CC BY-NC), uploaded by caseyzill",
+   "photo": 1317430
+  }
+ ]
 }

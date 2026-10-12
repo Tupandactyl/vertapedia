@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337836597/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 337836597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182349143/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Lupton, some rights reserved (CC BY-NC), uploaded by Peter Lupton",
+   "photo": 182349143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313645336/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Helen Badenhorst, some rights reserved (CC BY-NC), uploaded by Helen Badenhorst",
+   "photo": 313645336
+  }
+ ]
 }

@@ -211,5 +211,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444966796/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marshallm7, some rights reserved (CC BY-NC)",
+   "photo": 444966796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188314565/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas liu, some rights reserved (CC BY-NC), uploaded by Lucas liu",
+   "photo": 188314565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303405741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sean Krepski, some rights reserved (CC BY-NC), uploaded by Sean Krepski",
+   "photo": 303405741
+  }
+ ]
 }

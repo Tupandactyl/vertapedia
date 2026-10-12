@@ -127,5 +127,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92205/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 92205
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637796/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alastair Rae, some rights reserved (CC BY-SA)",
+   "photo": 637796
+  }
+ ]
 }

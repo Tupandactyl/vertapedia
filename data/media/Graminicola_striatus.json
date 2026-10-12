@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/491112657/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Enoch Cheuk, some rights reserved (CC BY), uploaded by Enoch Cheuk",
+   "photo": 491112657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286092122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shigui_huang, some rights reserved (CC BY-NC)",
+   "photo": 286092122
+  }
+ ]
 }

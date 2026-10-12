@@ -103,5 +103,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776857/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 776857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266827324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) César María Aguilar Gómez, some rights reserved (CC BY-NC), uploaded by César María Aguilar Gómez",
+   "photo": 266827324
+  }
+ ]
 }

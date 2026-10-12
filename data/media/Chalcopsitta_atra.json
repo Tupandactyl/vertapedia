@@ -113,5 +113,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473253710/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Packa, some rights reserved (CC BY-SA)",
+   "photo": 473253710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473253716/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Crisco 1492, some rights reserved (CC BY-SA)",
+   "photo": 473253716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159016715/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Crisco 1492, some rights reserved (CC BY-SA)",
+   "photo": 159016715
+  }
+ ]
 }

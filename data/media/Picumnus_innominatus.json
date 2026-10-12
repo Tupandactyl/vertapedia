@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35540695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 35540695
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459276772/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown",
+   "photo": 459276772
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595506780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 魔笛, some rights reserved (CC BY-NC), uploaded by 魔笛",
+   "photo": 595506780
+  }
+ ]
 }

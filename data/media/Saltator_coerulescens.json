@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70399178/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Renata Xavier, some rights reserved (CC BY-NC), uploaded by Renata Xavier",
+   "photo": 70399178
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502262874/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gustavo Cattivelli Caruso, some rights reserved (CC BY), uploaded by Gustavo Cattivelli Caruso",
+   "photo": 502262874
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59628537/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 59628537
+  }
+ ]
 }

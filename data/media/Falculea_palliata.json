@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2608232/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cédric de Foucault, some rights reserved (CC BY-NC-SA), uploaded by Cédric de Foucault",
+   "photo": 2608232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56123293/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lemurtaquin, some rights reserved (CC BY-NC), uploaded by lemurtaquin",
+   "photo": 56123293
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56123029/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lemurtaquin, some rights reserved (CC BY-NC), uploaded by lemurtaquin",
+   "photo": 56123029
+  }
+ ]
 }

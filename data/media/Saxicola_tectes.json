@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8094667/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 8094667
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167571578/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 167571578
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456890969/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pierrickferret, some rights reserved (CC BY-NC), uploaded by pierrickferret",
+   "photo": 456890969
+  }
+ ]
 }

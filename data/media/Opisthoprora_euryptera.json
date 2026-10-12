@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207240816/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Johnson, some rights reserved (CC BY-NC), uploaded by Brian Johnson",
+   "photo": 207240816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71780079/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 71780079
+  }
+ ]
 }

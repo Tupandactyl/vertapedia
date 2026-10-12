@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179243597/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 179243597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114064066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Dickson, some rights reserved (CC BY-NC), uploaded by Paul Dickson",
+   "photo": 114064066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46936081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46936081
+  }
+ ]
 }

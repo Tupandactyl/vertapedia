@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118676181/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 118676181
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201881266/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) igor_voinov, some rights reserved (CC BY-NC), uploaded by igor_voinov",
+   "photo": 201881266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280443135/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) holycrab, some rights reserved (CC BY)",
+   "photo": 280443135
+  }
+ ]
 }

@@ -271,5 +271,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239718896/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel LaFrance, some rights reserved (CC BY-NC), uploaded by Daniel LaFrance",
+   "photo": 239718896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271239259/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mhalsted, some rights reserved (CC BY-NC)",
+   "photo": 271239259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/553422993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Fenwick, some rights reserved (CC BY-NC), uploaded by Jeff Fenwick",
+   "photo": 553422993
+  }
+ ]
 }

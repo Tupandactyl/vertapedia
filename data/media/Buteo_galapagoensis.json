@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627054612/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uri Wolkowski, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Uri Wolkowski",
+   "photo": 627054612
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/549174195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Benson, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Tom Benson",
+   "photo": 549174195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387865672/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Murnane, einige Rechte vorbehalten (CC BY-NC), hochgeladen von John Murnane",
+   "photo": 387865672
+  }
+ ]
 }

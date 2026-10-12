@@ -184,5 +184,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466502680/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrés Paniagua, some rights reserved (CC BY-NC), uploaded by Andrés Paniagua",
+   "photo": 466502680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/603976655/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carla Calamari, some rights reserved (CC BY-NC), uploaded by Carla Calamari",
+   "photo": 603976655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2581973/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2581973
+  }
+ ]
 }

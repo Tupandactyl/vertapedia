@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85645698/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) indianwildlife, some rights reserved (CC BY-NC), uploaded by indianwildlife",
+   "photo": 85645698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85645719/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) indianwildlife, some rights reserved (CC BY-NC), uploaded by indianwildlife",
+   "photo": 85645719
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102248443/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) GnanaeswarCh, some rights reserved (CC BY-SA)",
+   "photo": 102248443
+  }
+ ]
 }

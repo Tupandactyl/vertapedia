@@ -74,5 +74,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77989429/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrés León-Reyes, some rights reserved (CC BY-NC), uploaded by Andrés León-Reyes",
+   "photo": 77989429
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77985559/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrés León-Reyes, some rights reserved (CC BY-NC), uploaded by Andrés León-Reyes",
+   "photo": 77985559
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77985443/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrés León-Reyes, some rights reserved (CC BY-NC), uploaded by Andrés León-Reyes",
+   "photo": 77985443
+  }
+ ]
 }

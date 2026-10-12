@@ -140,5 +140,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27162659/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 27162659
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27770863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michelle Delaloye, some rights reserved (CC BY-NC), uploaded by Michelle Delaloye",
+   "photo": 27770863
+  }
+ ]
 }

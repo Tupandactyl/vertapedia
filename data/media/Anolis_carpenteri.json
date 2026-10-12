@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431704334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Salinas Seq., some rights reserved (CC BY-NC), uploaded by Ariel Salinas Seq.",
+   "photo": 431704334
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424137316/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fabián A. Sibaja Araya, some rights reserved (CC BY-NC), uploaded by Fabián A. Sibaja Araya",
+   "photo": 424137316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339576790/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sylvère corre, some rights reserved (CC BY-NC-SA)",
+   "photo": 339576790
+  }
+ ]
 }

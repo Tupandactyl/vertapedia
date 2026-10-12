@@ -37,5 +37,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133829/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Calame，保留部分权利（CC BY-NC）",
+   "photo": 133829
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11989888/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rushenb，保留部分权利（CC BY-SA）",
+   "photo": 11989888
+  }
+ ]
 }

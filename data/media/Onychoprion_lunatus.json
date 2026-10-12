@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/434830443/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IanLJones, some rights reserved (CC BY-NC), uploaded by IanLJones",
+   "photo": 434830443
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55251308/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philip Georgakakos, some rights reserved (CC BY-NC), uploaded by Philip Georgakakos",
+   "photo": 55251308
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66690/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Rolle, some rights reserved (CC BY-NC-SA)",
+   "photo": 66690
+  }
+ ]
 }

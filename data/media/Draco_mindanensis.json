@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291521358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guydutson, some rights reserved (CC BY-NC)",
+   "photo": 291521358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177425856/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nDr. Edward Harrison Taylor, some rights reserved (CC BY-SA)",
+   "photo": 177425856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177425858/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) rbrausse, some rights reserved (CC BY-SA)",
+   "photo": 177425858
+  }
+ ]
 }

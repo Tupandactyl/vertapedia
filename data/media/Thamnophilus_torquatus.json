@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6991607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+   "photo": 6991607
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212267831/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joás, some rights reserved (CC BY-NC), uploaded by Joás",
+   "photo": 212267831
+  }
+ ]
 }

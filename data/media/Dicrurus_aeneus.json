@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257120490/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 257120490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28386028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood",
+   "photo": 28386028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716748/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 716748
+  }
+ ]
 }

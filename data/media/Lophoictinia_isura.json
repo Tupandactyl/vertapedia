@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61610518/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 61610518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379915346/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arfcuff.wildlife, some rights reserved (CC BY-NC), uploaded by arfcuff.wildlife",
+   "photo": 379915346
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253990184/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angelinbotanico, some rights reserved (CC BY-NC)",
+   "photo": 253990184
+  }
+ ]
 }

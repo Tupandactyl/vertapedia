@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249221030/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 249221030
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117160327/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 117160327
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11796658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC), uploaded by David Ruíz Domínguez",
+   "photo": 11796658
+  }
+ ]
 }

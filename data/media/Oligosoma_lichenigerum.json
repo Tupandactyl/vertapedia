@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92540643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Terrington, some rights reserved (CC BY-NC), uploaded by Daniel Terrington",
+   "photo": 92540643
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338770402/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Gorta, some rights reserved (CC BY-NC), uploaded by Simon Gorta",
+   "photo": 338770402
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337067971/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Gorta, some rights reserved (CC BY-NC), uploaded by Simon Gorta",
+   "photo": 337067971
+  }
+ ]
 }

@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616308572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eeveefang, some rights reserved (CC BY-NC), uploaded by eeveefang",
+   "photo": 616308572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459579105/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) D.A. Ostiarius, some rights reserved (CC BY-NC), uploaded by D.A. Ostiarius",
+   "photo": 459579105
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358540071/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC), uploaded by Sakern | 永隔一江水",
+   "photo": 358540071
+  }
+ ]
 }

@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117828251/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 117828251
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456518651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cjmatheson, some rights reserved (CC BY-NC)",
+   "photo": 456518651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85154615/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pete Romfh, some rights reserved (CC BY-NC-SA), uploaded by Pete Romfh",
+   "photo": 85154615
+  }
+ ]
 }

@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63563327/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lorius_domicella_-Jurong_Bird_Park,_Singapore-8a.jpg, some rights reserved (CC BY-SA)",
+   "photo": 63563327
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30359930/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 30359930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63563328/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Henri, some rights reserved (CC BY)",
+   "photo": 63563328
+  }
+ ]
 }

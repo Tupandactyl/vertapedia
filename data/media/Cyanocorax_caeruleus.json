@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151597774/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Moura, some rights reserved (CC BY-NC), uploaded by Carlos Moura",
+   "photo": 151597774
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151739/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) lotlhmoq, some rights reserved (CC BY-NC-SA), uploaded by lotlhmoq",
+   "photo": 151739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1628058/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Maizlish, some rights reserved (CC BY-NC)",
+   "photo": 1628058
+  }
+ ]
 }

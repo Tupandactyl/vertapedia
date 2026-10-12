@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441905634/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+   "photo": 441905634
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12568128/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alex Krohn, some rights reserved (CC BY-NC-SA), uploaded by Alex Krohn",
+   "photo": 12568128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19724754/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 19724754
+  }
+ ]
 }

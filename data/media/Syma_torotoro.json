@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247436904/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sulawesijack, some rights reserved (CC BY-NC), uploaded by sulawesijack",
+   "photo": 247436904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300774273/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Simpson, some rights reserved (CC BY-NC), uploaded by Mark Simpson",
+   "photo": 300774273
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350977233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 350977233
+  }
+ ]
 }

@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350626336/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 350626336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183323941/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nigel Marsh, some rights reserved (CC BY-NC), uploaded by Nigel Marsh",
+   "photo": 183323941
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65041597/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rafael Robayna - ecocentrik.com, some rights reserved (CC BY-NC-SA)",
+   "photo": 65041597
+  }
+ ]
 }

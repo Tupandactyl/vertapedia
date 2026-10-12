@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29150263/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bionerds, some rights reserved (CC BY-NC), uploaded by Bionerds",
+   "photo": 29150263
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13796338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kylemaier, some rights reserved (CC BY-NC), uploaded by kylemaier",
+   "photo": 13796338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17827579/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joshua Weiss, some rights reserved (CC BY-NC), uploaded by Joshua Weiss",
+   "photo": 17827579
+  }
+ ]
 }

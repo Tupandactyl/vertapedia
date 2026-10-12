@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/676364459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Em De Blas, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Em De Blas",
+   "photo": 676364459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236915235/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, einige Rechte vorbehalten (CC BY), hochgeladen von Christoph Moning",
+   "photo": 236915235
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419292768/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, einige Rechte vorbehalten (CC BY-NC-SA), hochgeladen von Sergio Rivero Beneitez",
+   "photo": 419292768
+  }
+ ]
 }

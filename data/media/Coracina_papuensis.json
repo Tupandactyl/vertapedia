@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72778081/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Roy Lowry, some rights reserved (CC BY), uploaded by Roy Lowry",
+   "photo": 72778081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10463242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ian McMillan, some rights reserved (CC BY-NC), uploaded by Ian McMillan",
+   "photo": 10463242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39535361/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 39535361
+  }
+ ]
 }

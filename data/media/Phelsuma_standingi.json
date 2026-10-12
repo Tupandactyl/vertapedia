@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397039175/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) globalherping, some rights reserved (CC BY-NC), uploaded by globalherping",
+   "photo": 397039175
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63371876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Larry H Moore, some rights reserved (CC BY-NC), uploaded by Larry H Moore",
+   "photo": 63371876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442516474/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+   "photo": 442516474
+  }
+ ]
 }

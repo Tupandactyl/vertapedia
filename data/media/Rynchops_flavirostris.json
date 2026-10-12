@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336010717/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 336010717
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336010620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 336010620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299254839/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Corné Rautenbach, some rights reserved (CC BY-NC), uploaded by Corné Rautenbach",
+   "photo": 299254839
+  }
+ ]
 }

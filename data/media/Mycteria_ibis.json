@@ -185,5 +185,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639987503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin D. Sumrall, some rights reserved (CC BY-NC), uploaded by Colin D. Sumrall",
+   "photo": 639987503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116182063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leo G. Nico, some rights reserved (CC BY-NC), uploaded by Leo G. Nico",
+   "photo": 116182063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128424643/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Neil Edwards, some rights reserved (CC BY-NC), uploaded by Neil Edwards",
+   "photo": 128424643
+  }
+ ]
 }

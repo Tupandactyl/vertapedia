@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59611753/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC), uploaded by Илья Сухов",
+   "photo": 59611753
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116001731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Tansley, some rights reserved (CC BY-NC), uploaded by Kyle Tansley",
+   "photo": 116001731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249240254/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kent Ross, some rights reserved (CC BY-NC), uploaded by Kent Ross",
+   "photo": 249240254
+  }
+ ]
 }

@@ -64,5 +64,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9677256/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) PJeganathan, some rights reserved (CC BY-SA)",
+   "photo": 9677256
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589629492/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ranjini Murali, some rights reserved (CC BY-SA)",
+   "photo": 589629492
+  }
+ ]
 }

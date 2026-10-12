@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56410339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dougal Townsend, some rights reserved (CC BY-NC), uploaded by Dougal Townsend",
+   "photo": 56410339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49857906/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jayant M Deshpande, some rights reserved (CC BY-NC), uploaded by Jayant M Deshpande",
+   "photo": 49857906
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/652019658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GURSEWAK SINGH, some rights reserved (CC BY-NC), uploaded by GURSEWAK SINGH",
+   "photo": 652019658
+  }
+ ]
 }

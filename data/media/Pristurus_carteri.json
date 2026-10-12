@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13505115/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 13505115
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13505043/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 13505043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176314/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Moayed Salim Bahajjaj, some rights reserved (CC BY-NC-SA)",
+   "photo": 176314
+  }
+ ]
 }

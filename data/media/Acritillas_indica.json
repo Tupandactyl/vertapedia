@@ -125,5 +125,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58373615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karthik, some rights reserved (CC BY-NC), uploaded by Karthik",
+   "photo": 58373615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63120016/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 63120016
+  }
+ ]
 }

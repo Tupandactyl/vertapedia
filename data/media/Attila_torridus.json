@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260427504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bbompart, some rights reserved (CC BY-NC)",
+   "photo": 260427504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117502876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) csledge, some rights reserved (CC BY-NC), uploaded by csledge",
+   "photo": 117502876
+  }
+ ]
 }

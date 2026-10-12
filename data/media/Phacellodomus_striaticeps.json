@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198955776/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 198955776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30818476/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 30818476
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198957240/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 198957240
+  }
+ ]
 }

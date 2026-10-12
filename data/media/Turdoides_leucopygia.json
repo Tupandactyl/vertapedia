@@ -94,5 +94,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28476076/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Chapman, some rights reserved (CC BY-NC), uploaded by Jeff Chapman",
+   "photo": 28476076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58201874/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 58201874
+  }
+ ]
 }

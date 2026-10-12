@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593641966/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jules Farquhar, some rights reserved (CC BY-NC), uploaded by Jules Farquhar",
+   "photo": 593641966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624843028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) p_barden, some rights reserved (CC BY-NC), uploaded by p_barden",
+   "photo": 624843028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42648045/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Trainor, some rights reserved (CC BY-NC), uploaded by Colin Trainor",
+   "photo": 42648045
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436496/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Shirk, some rights reserved (CC BY-NC), uploaded by Phil Shirk",
+   "photo": 436496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101436875/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John Lyakurwa, some rights reserved (CC BY), uploaded by John Lyakurwa",
+   "photo": 101436875
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21058372/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frasergear, some rights reserved (CC BY-NC), uploaded by frasergear",
+   "photo": 21058372
+  }
+ ]
 }

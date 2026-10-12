@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7460707/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi",
+   "photo": 7460707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104000974/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 104000974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356069255/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal (ANudibranchMom on iNaturalist), some rights reserved (CC BY-NC)",
+   "photo": 356069255
+  }
+ ]
 }

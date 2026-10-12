@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115072804/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) G. VIGO, some rights reserved (CC BY-NC), uploaded by G. VIGO",
+   "photo": 115072804
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1796785/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 1796785
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437518395/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thierry_aebischer_chinko, some rights reserved (CC BY-NC), uploaded by thierry_aebischer_chinko",
+   "photo": 437518395
+  }
+ ]
 }

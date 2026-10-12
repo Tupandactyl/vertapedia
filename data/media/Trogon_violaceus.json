@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14765397/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC), uploaded by Paul Tavares",
+   "photo": 14765397
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 5633
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98330544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) doug_clarke, some rights reserved (CC BY-NC)",
+   "photo": 98330544
+  }
+ ]
 }

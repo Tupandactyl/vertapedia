@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173719514/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silviu Petrovan, some rights reserved (CC BY-NC), uploaded by Silviu Petrovan",
+   "photo": 173719514
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33086299/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Siegfried Troidl, some rights reserved (CC BY-NC), uploaded by Siegfried Troidl",
+   "photo": 33086299
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33086324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Siegfried Troidl, some rights reserved (CC BY-NC), uploaded by Siegfried Troidl",
+   "photo": 33086324
+  }
+ ]
 }

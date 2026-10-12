@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293515402/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 293515402
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145926052/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Todd Dixon, some rights reserved (CC BY-NC), uploaded by Todd Dixon",
+   "photo": 145926052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77306370/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 77306370
+  }
+ ]
 }

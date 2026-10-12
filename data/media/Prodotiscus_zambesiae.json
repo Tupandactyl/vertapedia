@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354516583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GLENN STOCKIL, algunos derechos reservados (CC BY-NC), subido por GLENN STOCKIL",
+   "photo": 354516583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171918026/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dbeadle, algunos derechos reservados (CC BY-NC), subido por dbeadle",
+   "photo": 171918026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310418924/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nancy McIntyre, algunos derechos reservados (CC BY-NC), subido por Nancy McIntyre",
+   "photo": 310418924
+  }
+ ]
 }

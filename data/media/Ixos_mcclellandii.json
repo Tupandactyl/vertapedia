@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186537156/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ignatius_augustine, some rights reserved (CC BY-NC)",
+   "photo": 186537156
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511877772/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Татьяна Химера, some rights reserved (CC BY-NC), uploaded by Татьяна Химера",
+   "photo": 511877772
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511874160/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Татьяна Химера, some rights reserved (CC BY-NC), uploaded by Татьяна Химера",
+   "photo": 511874160
+  }
+ ]
 }

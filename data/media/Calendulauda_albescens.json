@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613574547/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+   "photo": 613574547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330989827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 330989827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15233100/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kooscl, some rights reserved (CC BY-NC)",
+   "photo": 15233100
+  }
+ ]
 }

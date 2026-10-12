@@ -111,5 +111,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7560841/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 绿水青山任我游@中国鸟类图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 7560841
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375428292/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ou.wildlife, some rights reserved (CC BY-NC), uploaded by ou.wildlife",
+   "photo": 375428292
+  }
+ ]
 }

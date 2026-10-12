@@ -63,5 +63,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143751651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Wilton, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Peter Wilton",
+   "photo": 143751651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143004752/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Wilton, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Peter Wilton",
+   "photo": 143004752
+  }
+ ]
 }

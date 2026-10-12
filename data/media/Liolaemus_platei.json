@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12361114/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ignacio Díaz Caqueo, some rights reserved (CC BY-NC), uploaded by Ignacio Díaz Caqueo",
+   "photo": 12361114
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2859556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Archiverde, some rights reserved (CC BY-NC), uploaded by Archiverde",
+   "photo": 2859556
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1923970/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bastian Riveros Flores, some rights reserved (CC BY-NC), uploaded by Bastian Riveros Flores",
+   "photo": 1923970
+  }
+ ]
 }

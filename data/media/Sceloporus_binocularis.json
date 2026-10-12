@@ -73,5 +73,25 @@
    "date": "2014-08-08"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384982954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Barreda Cárdenas, some rights reserved (CC BY-NC), uploaded by Carlos Barreda Cárdenas",
+   "photo": 384982954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10445268/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carla Padilla, some rights reserved (CC BY-NC), uploaded by Carla Padilla",
+   "photo": 10445268
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1468820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Toño Hernández, some rights reserved (CC BY-NC)",
+   "photo": 1468820
+  }
+ ]
 }

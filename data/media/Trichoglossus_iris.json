@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030040/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) SandyCole, some rights reserved (CC BY-SA)",
+   "photo": 60030040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030041/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dan Coulter, some rights reserved (CC BY-NC-SA)",
+   "photo": 60030041
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030038/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dirk, some rights reserved (CC BY)",
+   "photo": 60030038
+  }
+ ]
 }

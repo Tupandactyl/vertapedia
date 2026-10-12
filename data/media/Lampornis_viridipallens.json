@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95768804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mario_trejo, some rights reserved (CC BY-NC), uploaded by mario_trejo",
+   "photo": 95768804
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28102454/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Denilson Eliu Ordoñez Moreno, some rights reserved (CC BY-NC), uploaded by Denilson Eliu Ordoñez Moreno",
+   "photo": 28102454
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28102448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Denilson Eliu Ordoñez Moreno, some rights reserved (CC BY-NC), uploaded by Denilson Eliu Ordoñez Moreno",
+   "photo": 28102448
+  }
+ ]
 }

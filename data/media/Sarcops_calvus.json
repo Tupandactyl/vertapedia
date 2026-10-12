@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313613269/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Domzjuniorwildlife, some rights reserved (CC BY-SA)",
+   "photo": 313613269
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271312766/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) labster, some rights reserved (CC BY-NC), uploaded by labster",
+   "photo": 271312766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61292190/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jaimaholland, some rights reserved (CC BY-NC)",
+   "photo": 61292190
+  }
+ ]
 }

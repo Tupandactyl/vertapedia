@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31479233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anil Kumar Verma, some rights reserved (CC BY-NC), uploaded by Anil Kumar Verma",
+   "photo": 31479233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180209965/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anil Kumar Verma, some rights reserved (CC BY-NC), uploaded by Anil Kumar Verma",
+   "photo": 180209965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52426/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hafiz Issadeen, some rights reserved (CC BY)",
+   "photo": 52426
+  }
+ ]
 }

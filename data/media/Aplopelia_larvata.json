@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15733195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 15733195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82570088/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
+   "photo": 82570088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219384815/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Delport, some rights reserved (CC BY-NC), uploaded by Marie Delport",
+   "photo": 219384815
+  }
+ ]
 }

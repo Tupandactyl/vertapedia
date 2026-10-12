@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104493821/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nature_with_krista, some rights reserved (CC BY-NC), uploaded by nature_with_krista",
+   "photo": 104493821
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55378118/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 55378118
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31100304/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricky Taylor, some rights reserved (CC BY-NC), uploaded by Ricky Taylor",
+   "photo": 31100304
+  }
+ ]
 }

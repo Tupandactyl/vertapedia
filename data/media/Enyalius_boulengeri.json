@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108118938/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Esteban Diego Koch, some rights reserved (CC BY-NC), uploaded by Esteban Diego Koch",
+   "photo": 108118938
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163437635/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zocca, some rights reserved (CC BY-NC), uploaded by Zocca",
+   "photo": 163437635
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13337810/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Instituto Últimos Refúgios, some rights reserved (CC BY-NC), uploaded by Instituto Últimos Refúgios",
+   "photo": 13337810
+  }
+ ]
 }

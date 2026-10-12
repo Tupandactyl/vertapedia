@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41736084/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) janie_jones, some rights reserved (CC BY-NC)",
+   "photo": 41736084
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399871/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rick elis.simpson, some rights reserved (CC BY-SA)",
+   "photo": 399871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198639888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Deia e Wesley, some rights reserved (CC BY-NC), uploaded by Deia e Wesley",
+   "photo": 198639888
+  }
+ ]
 }

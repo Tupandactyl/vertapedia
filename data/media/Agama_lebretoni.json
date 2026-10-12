@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31175837/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BenJee, some rights reserved (CC BY-NC), uploaded by BenJee",
+   "photo": 31175837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62914995/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hector Caballero Ballesteros, some rights reserved (CC BY-NC), uploaded by Hector Caballero Ballesteros",
+   "photo": 62914995
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176509384/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 176509384
+  }
+ ]
 }

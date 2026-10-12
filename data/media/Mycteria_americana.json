@@ -209,5 +209,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87252334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chezasaurus, some rights reserved (CC BY-NC), uploaded by chezasaurus",
+   "photo": 87252334
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337252564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 337252564
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142153329/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jenarricale, some rights reserved (CC BY-NC)",
+   "photo": 142153329
+  }
+ ]
 }

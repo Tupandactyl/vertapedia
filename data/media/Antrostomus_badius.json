@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236533931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro E. Nahuat-Cervera, some rights reserved (CC BY-NC), uploaded by Pedro E. Nahuat-Cervera",
+   "photo": 236533931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5655784/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto González, some rights reserved (CC BY-NC), uploaded by Roberto González",
+   "photo": 5655784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73822564/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Trinchan, some rights reserved (CC BY-NC), uploaded by Luis Trinchan",
+   "photo": 73822564
+  }
+ ]
 }

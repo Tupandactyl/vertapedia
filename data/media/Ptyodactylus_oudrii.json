@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104029238/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 104029238
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3883438/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alexandre Roux, some rights reserved (CC BY-NC-SA)",
+   "photo": 3883438
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1532282/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1532282
+  }
+ ]
 }

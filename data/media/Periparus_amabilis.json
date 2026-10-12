@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507337099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Ow, some rights reserved (CC BY-NC), uploaded by Sebastian Ow",
+   "photo": 507337099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177900396/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bankv, some rights reserved (CC BY-NC), uploaded by bankv",
+   "photo": 177900396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115217130/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) markaharper1, some rights reserved (CC BY-SA)",
+   "photo": 115217130
+  }
+ ]
 }

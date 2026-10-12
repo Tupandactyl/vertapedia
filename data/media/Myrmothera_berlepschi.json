@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331377731/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 331377731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51190020/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Fenwick, some rights reserved (CC BY-NC), uploaded by Paul Fenwick",
+   "photo": 51190020
+  }
+ ]
 }

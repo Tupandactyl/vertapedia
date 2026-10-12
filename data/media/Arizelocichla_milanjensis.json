@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252100766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timmcclurg, some rights reserved (CC BY-NC)",
+   "photo": 252100766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424136925/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GLENN STOCKIL, some rights reserved (CC BY-NC), uploaded by GLENN STOCKIL",
+   "photo": 424136925
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149820014/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 149820014
+  }
+ ]
 }

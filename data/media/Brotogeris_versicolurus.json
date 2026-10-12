@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458309507/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
+   "photo": 458309507
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355803484/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 355803484
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13964210/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holly Merker, some rights reserved (CC BY-NC), uploaded by Holly Merker",
+   "photo": 13964210
+  }
+ ]
 }

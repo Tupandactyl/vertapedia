@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411666605/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carolyn Stewart, some rights reserved (CC BY-NC), uploaded by Carolyn Stewart",
+   "photo": 411666605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173961018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 173961018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641183408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 陈嘉伟, some rights reserved (CC BY-NC), uploaded by 陈嘉伟",
+   "photo": 641183408
+  }
+ ]
 }

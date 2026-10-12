@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/556162413/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "photo": 556162413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Moody, some rights reserved (CC BY-NC)",
+   "photo": 132117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30394781/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Константин Ординарцев, some rights reserved (CC BY-NC), uploaded by Константин Ординарцев",
+   "photo": 30394781
+  }
+ ]
 }

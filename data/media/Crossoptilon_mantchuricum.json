@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607401216/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yishen Xiao, some rights reserved (CC BY-NC), uploaded by Yishen Xiao",
+   "photo": 607401216
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112276670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 112276670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104405085/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 104405085
+  }
+ ]
 }

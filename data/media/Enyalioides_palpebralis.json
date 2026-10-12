@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648043/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Erfil, some rights reserved (CC BY-SA)",
+   "photo": 648043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36420399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Acosta, some rights reserved (CC BY-NC), uploaded by Martin Acosta",
+   "photo": 36420399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17617442/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Erin McKittrick, some rights reserved (CC BY), uploaded by Erin McKittrick",
+   "photo": 17617442
+  }
+ ]
 }

@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240743179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ozbeach Andy, some rights reserved (CC BY-NC), uploaded by Ozbeach Andy",
+   "photo": 240743179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39719856/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Anna Lanigan, some rights reserved (CC BY-NC-SA), uploaded by Anna Lanigan",
+   "photo": 39719856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59553866/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald",
+   "photo": 59553866
+  }
+ ]
 }

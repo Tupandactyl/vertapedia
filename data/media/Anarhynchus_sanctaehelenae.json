@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419898409/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anaïs Duhamel, some rights reserved (CC BY-NC), uploaded by Anaïs Duhamel",
+   "photo": 419898409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357593673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kiniroesler, some rights reserved (CC BY-NC)",
+   "photo": 357593673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191520601/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Leggatt, some rights reserved (CC BY-NC), uploaded by Nick Leggatt",
+   "photo": 191520601
+  }
+ ]
 }

@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58309823/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 58309823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330117869/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) edwardrooks, some rights reserved (CC BY-NC), uploaded by edwardrooks",
+   "photo": 330117869
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333242849/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nancyd, some rights reserved (CC BY-NC)",
+   "photo": 333242849
+  }
+ ]
 }

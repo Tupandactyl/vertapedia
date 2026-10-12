@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76309732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood",
+   "photo": 76309732
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36565111/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 落花。生, some rights reserved (CC BY-NC), uploaded by 落花。生",
+   "photo": 36565111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297685337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 297685337
+  }
+ ]
 }

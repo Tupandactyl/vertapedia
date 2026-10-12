@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49717187/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Meza, some rights reserved (CC BY-NC), uploaded by Kevin Meza",
+   "photo": 49717187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34560937/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Osmar Mayoral, some rights reserved (CC BY-NC), uploaded by Osmar Mayoral",
+   "photo": 34560937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34560907/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Osmar Mayoral, some rights reserved (CC BY-NC), uploaded by Osmar Mayoral",
+   "photo": 34560907
+  }
+ ]
 }

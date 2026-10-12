@@ -53,5 +53,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315069825/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bilbyphotog, some rights reserved (CC BY-NC)",
+   "photo": 315069825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179534715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hayden, some rights reserved (CC BY-NC), uploaded by Hayden",
+   "photo": 179534715
+  }
+ ]
 }

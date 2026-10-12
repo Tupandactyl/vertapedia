@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39709866/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 茶棚, some rights reserved (CC BY-NC), uploaded by 茶棚",
+   "photo": 39709866
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139220031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Анастасия Клюева, some rights reserved (CC BY-NC), uploaded by Анастасия Клюева",
+   "photo": 139220031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175701776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wanyshen, some rights reserved (CC BY-NC), uploaded by wanyshen",
+   "photo": 175701776
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278298624/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC), uploaded by Tim Forrester",
+   "photo": 278298624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115960027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khristian Venegas Valencia, some rights reserved (CC BY-NC), uploaded by Khristian Venegas Valencia",
+   "photo": 115960027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249099283/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andres Killer, some rights reserved (CC BY-NC), uploaded by Andres Killer",
+   "photo": 249099283
+  }
+ ]
 }

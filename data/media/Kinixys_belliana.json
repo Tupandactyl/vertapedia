@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464002601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Heyerly, some rights reserved (CC BY-NC), uploaded by Anne Heyerly",
+   "photo": 464002601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172275162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) George Armistead/Hillstar Nature, some rights reserved (CC BY-NC), uploaded by George Armistead/Hillstar Nature",
+   "photo": 172275162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148914066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 148914066
+  }
+ ]
 }

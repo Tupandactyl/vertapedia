@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167424428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anna_parkhaeva, some rights reserved (CC BY-NC), uploaded by anna_parkhaeva",
+   "photo": 167424428
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11219296/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bengt Nyman, some rights reserved (CC BY)",
+   "photo": 11219296
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32933786/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Марина Горбунова-Ëлкина, some rights reserved (CC BY-NC), uploaded by Марина Горбунова-Ëлкина",
+   "photo": 32933786
+  }
+ ]
 }

@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84309/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Maris Pukitis, some rights reserved (CC BY-NC-SA)",
+   "photo": 84309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46470568/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arman Moreno, some rights reserved (CC BY-NC), uploaded by Arman Moreno",
+   "photo": 46470568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31618846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 31618846
+  }
+ ]
 }

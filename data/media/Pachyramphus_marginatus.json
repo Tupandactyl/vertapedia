@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310841310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Amaral, some rights reserved (CC BY-NC), uploaded by Antonio Amaral",
+   "photo": 310841310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11969852/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Instituto Últimos Refúgios, some rights reserved (CC BY-NC), uploaded by Instituto Últimos Refúgios",
+   "photo": 11969852
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254190481/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anderson Sandro, some rights reserved (CC BY-NC), uploaded by Anderson Sandro",
+   "photo": 254190481
+  }
+ ]
 }

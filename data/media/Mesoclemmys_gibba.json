@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56492923/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Rafael Bernhard, some rights reserved (CC BY), uploaded by Rafael Bernhard",
+   "photo": 56492923
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252390099/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC), uploaded by Laurent Barthe",
+   "photo": 252390099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12792547/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andrew J. Crawford",
+   "photo": 12792547
+  }
+ ]
 }

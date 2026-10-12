@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95200254/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 95200254
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95200255/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 95200255
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116471351/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) George Armistead/Hillstar Nature, some rights reserved (CC BY-NC), uploaded by George Armistead/Hillstar Nature",
+   "photo": 116471351
+  }
+ ]
 }

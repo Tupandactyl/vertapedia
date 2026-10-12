@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117303151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig K. Hunt, some rights reserved (CC BY-NC), uploaded by Craig K. Hunt",
+   "photo": 117303151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293074271/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) KF, some rights reserved (CC BY-NC), uploaded by KF",
+   "photo": 293074271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255075587/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY-SA), uploaded by Judy Gallagher",
+   "photo": 255075587
+  }
+ ]
 }

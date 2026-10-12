@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606114054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 606114054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127415351/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Nikonorova, some rights reserved (CC BY-NC), uploaded by Marina Nikonorova",
+   "photo": 127415351
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5718386/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Carles Pastor, some rights reserved (CC BY-SA), uploaded by Carles Pastor",
+   "photo": 5718386
+  }
+ ]
 }

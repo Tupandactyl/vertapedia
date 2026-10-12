@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352172847/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jarbas Mattos, some rights reserved (CC BY-NC), uploaded by Jarbas Mattos",
+   "photo": 352172847
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2019545/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gustavo Lazarini Forreque, some rights reserved (CC BY)",
+   "photo": 2019545
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459928199/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+   "photo": 459928199
+  }
+ ]
 }

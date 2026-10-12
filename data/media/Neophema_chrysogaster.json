@@ -208,5 +208,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/494555886/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt",
+   "photo": 494555886
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6138751/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison (jjharrison89@facebook.com), some rights reserved (CC BY-SA)",
+   "photo": 6138751
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28566227/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 28566227
+  }
+ ]
 }

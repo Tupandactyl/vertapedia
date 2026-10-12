@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41539458/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 41539458
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332553767/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vdeboutte, some rights reserved (CC BY-NC)",
+   "photo": 332553767
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41539464/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 41539464
+  }
+ ]
 }

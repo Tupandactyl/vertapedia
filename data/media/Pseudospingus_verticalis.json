@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5692621/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Félix Uribe, some rights reserved (CC BY)",
+   "photo": 5692621
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5692622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gunnar Engblom, some rights reserved (CC BY-NC)",
+   "photo": 5692622
+  }
+ ]
 }

@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10516301/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Yates, some rights reserved (CC BY-NC), uploaded by Adam Yates",
+   "photo": 10516301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2658335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 2658335
+  }
+ ]
 }

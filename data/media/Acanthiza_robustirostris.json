@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428360557/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darcy Whittaker, some rights reserved (CC BY-NC), uploaded by Darcy Whittaker",
+   "photo": 428360557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1342160/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Christopher Watson (http://www.comebirdwatching.blogspot.com/), some rights reserved (CC BY-SA)",
+   "photo": 1342160
+  }
+ ]
 }

@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32256265/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jo De Pauw, some rights reserved (CC BY-NC), uploaded by Jo De Pauw",
+   "photo": 32256265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370008419/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pkondrashov, some rights reserved (CC BY-NC)",
+   "photo": 370008419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3547010/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+   "photo": 3547010
+  }
+ ]
 }

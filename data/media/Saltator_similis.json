@@ -139,5 +139,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1164205/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 1164205
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102158323/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Norton Santos, some rights reserved (CC BY-NC), uploaded by Norton Santos",
+   "photo": 102158323
+  }
+ ]
 }

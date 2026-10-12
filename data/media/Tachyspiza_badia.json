@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26286/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Muzaffar Bukhari, some rights reserved (CC BY-NC-SA)",
+   "photo": 26286
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83775466/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Melvin Jaison, some rights reserved (CC BY-NC), uploaded by Melvin Jaison",
+   "photo": 83775466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26285/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Willem Steffelaar, some rights reserved (CC BY)",
+   "photo": 26285
+  }
+ ]
 }

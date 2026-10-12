@@ -185,5 +185,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380100207/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY), uploaded by Connor Margetts",
+   "photo": 380100207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455798386/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antoni Camozzato, some rights reserved (CC BY-NC), uploaded by Antoni Camozzato",
+   "photo": 455798386
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459400782/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James D Reeves, some rights reserved (CC BY-NC), uploaded by James D Reeves",
+   "photo": 459400782
+  }
+ ]
 }

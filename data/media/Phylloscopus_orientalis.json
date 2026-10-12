@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138544214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johanna Beam, some rights reserved (CC BY-NC), uploaded by Johanna Beam",
+   "photo": 138544214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120654903/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 120654903
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192804436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+   "photo": 192804436
+  }
+ ]
 }

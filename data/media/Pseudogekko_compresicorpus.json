@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80639049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC), uploaded by Albert Kang",
+   "photo": 80639049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222627174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC), uploaded by Albert Kang",
+   "photo": 222627174
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345355202/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 345355202
+  }
+ ]
 }

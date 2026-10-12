@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25570664/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giuliano Gava, some rights reserved (CC BY-NC), uploaded by Giuliano Gava",
+   "photo": 25570664
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28339396/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Gava Just, some rights reserved (CC BY-NC), uploaded by João Gava Just",
+   "photo": 28339396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28364893/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Gava Just, some rights reserved (CC BY-NC), uploaded by João Gava Just",
+   "photo": 28364893
+  }
+ ]
 }

@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56906049/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 56906049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40891611/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 40891611
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) muzzanese, some rights reserved (CC BY-NC)",
+   "photo": 76488
+  }
+ ]
 }

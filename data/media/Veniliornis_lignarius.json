@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516273204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Espinoza Tapia, some rights reserved (CC BY-NC), uploaded by Carlos Espinoza Tapia",
+   "photo": 516273204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33114907/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 33114907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17752/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Necochea, some rights reserved (CC BY-NC)",
+   "photo": 17752
+  }
+ ]
 }

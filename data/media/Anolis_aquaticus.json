@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284851774/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mason Salem, some rights reserved (CC BY-NC), uploaded by Mason Salem",
+   "photo": 284851774
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61319211/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford",
+   "photo": 61319211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197252362/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) francoismordant, some rights reserved (CC BY-NC)",
+   "photo": 197252362
+  }
+ ]
 }

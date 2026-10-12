@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168812870/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Frank Thomas Sautter",
+   "photo": 168812870
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29416259/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karina Avila, some rights reserved (CC BY-NC), uploaded by Karina Avila",
+   "photo": 29416259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398678/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 398678
+  }
+ ]
 }

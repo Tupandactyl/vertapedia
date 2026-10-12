@@ -157,5 +157,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6855049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 6855049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135786/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Muchaxo, some rights reserved (CC BY-SA)",
+   "photo": 135786
+  }
+ ]
 }

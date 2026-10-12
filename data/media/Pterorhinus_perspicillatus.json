@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren, some rights reserved (CC BY-NC)",
+   "photo": 555195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555196/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Charles Lam, some rights reserved (CC BY-SA)",
+   "photo": 555196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19242408/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
+   "photo": 19242408
+  }
+ ]
 }

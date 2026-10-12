@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194964946/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Keith Martin-Smith, some rights reserved (CC BY-NC-SA), uploaded by Keith Martin-Smith",
+   "photo": 194964946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180211332/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 180211332
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194964971/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Keith Martin-Smith, some rights reserved (CC BY-NC-SA), uploaded by Keith Martin-Smith",
+   "photo": 194964971
+  }
+ ]
 }

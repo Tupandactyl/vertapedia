@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45212756/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Calzada Arciniega, some rights reserved (CC BY-NC), uploaded by Alejandro Calzada Arciniega",
+   "photo": 45212756
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18094686/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Manuel de Jesús Hernández Ancheita, some rights reserved (CC BY-NC-SA), uploaded by Manuel de Jesús Hernández Ancheita",
+   "photo": 18094686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33937769/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Pineda Vera, some rights reserved (CC BY), uploaded by Daniel Pineda Vera",
+   "photo": 33937769
+  }
+ ]
 }

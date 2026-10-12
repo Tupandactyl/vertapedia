@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36451629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jamesaparicio, some rights reserved (CC BY-NC)",
+   "photo": 36451629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37399396/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) silvia_gallegos, some rights reserved (CC BY-NC)",
+   "photo": 37399396
+  }
+ ]
 }

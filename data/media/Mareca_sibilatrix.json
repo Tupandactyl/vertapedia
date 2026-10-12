@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149748108/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+   "photo": 149748108
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595670974/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Butler, some rights reserved (CC BY-NC), uploaded by Ken Butler",
+   "photo": 595670974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423986285/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pkondrashov, some rights reserved (CC BY-NC)",
+   "photo": 423986285
+  }
+ ]
 }

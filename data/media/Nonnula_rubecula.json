@@ -157,5 +157,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31285216/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcelo_allende, some rights reserved (CC BY-NC), uploaded by marcelo_allende",
+   "photo": 31285216
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50202223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 50202223
+  }
+ ]
 }

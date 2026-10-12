@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620371179/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Anthony Batista, some rights reserved (CC BY), uploaded by Anthony Batista",
+   "photo": 620371179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335247149/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) Daniel Dias, some rights reserved (CC BY-SA), uploaded by Daniel Dias",
+   "photo": 335247149
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1984718/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1984718
+  }
+ ]
 }

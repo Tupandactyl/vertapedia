@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145786372/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nat Panda, some rights reserved (CC BY-NC-SA), uploaded by Nat Panda",
+   "photo": 145786372
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555201/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 老爷子@中国鸟类图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 555201
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201816164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xiaogang Zhou, some rights reserved (CC BY-NC), uploaded by Xiaogang Zhou",
+   "photo": 201816164
+  }
+ ]
 }

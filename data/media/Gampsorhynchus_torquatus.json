@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200712290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, algunos derechos reservados (CC BY-NC), subido por Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 200712290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9853591/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robbythai, algunos derechos reservados (CC BY-NC)",
+   "photo": 9853591
+  }
+ ]
 }

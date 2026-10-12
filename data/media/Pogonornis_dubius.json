@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63127/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Leszek Leszczynski, some rights reserved (CC BY)",
+   "photo": 63127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89884127/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abubakar S. Ringim, some rights reserved (CC BY-NC), uploaded by Abubakar S. Ringim",
+   "photo": 89884127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17355883/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robin_de_bear, some rights reserved (CC BY-NC)",
+   "photo": 17355883
+  }
+ ]
 }

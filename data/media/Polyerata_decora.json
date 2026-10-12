@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44657045/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44657045
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102952726/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
+   "photo": 102952726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44657036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44657036
+  }
+ ]
 }

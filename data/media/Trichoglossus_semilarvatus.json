@@ -49,5 +49,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046442/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Quartl, some rights reserved (CC BY-SA)",
+   "photo": 159046442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132954/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Isaac Hsieh, some rights reserved (CC BY-NC-SA)",
+   "photo": 132954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046443/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Leon Mitchell, some rights reserved (CC BY-SA)",
+   "photo": 159046443
+  }
+ ]
 }

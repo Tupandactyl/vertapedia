@@ -54,5 +54,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144604314/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) william van Niekerk, some rights reserved (CC BY-NC), uploaded by william van Niekerk",
+   "photo": 144604314
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3323324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Willems, some rights reserved (CC BY-NC), uploaded by Frank Willems",
+   "photo": 3323324
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3323322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Willems, some rights reserved (CC BY-NC), uploaded by Frank Willems",
+   "photo": 3323322
+  }
+ ]
 }

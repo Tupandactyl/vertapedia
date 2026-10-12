@@ -158,5 +158,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125845828/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) franzschuler, some rights reserved (CC BY-NC)",
+   "photo": 125845828
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53251432/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Diogo Luiz, some rights reserved (CC BY), uploaded by Diogo Luiz",
+   "photo": 53251432
+  }
+ ]
 }

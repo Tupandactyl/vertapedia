@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31343700/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angel_castillo_birdingtours, some rights reserved (CC BY-NC), uploaded by angel_castillo_birdingtours",
+   "photo": 31343700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2733076/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 2733076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222354/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 222354
+  }
+ ]
 }

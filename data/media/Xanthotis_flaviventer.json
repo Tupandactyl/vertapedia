@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350188415/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura Keene, some rights reserved (CC BY-NC), uploaded by Laura Keene",
+   "photo": 350188415
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127696213/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cemone Hedges, some rights reserved (CC BY-NC), uploaded by Cemone Hedges",
+   "photo": 127696213
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344900471/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 344900471
+  }
+ ]
 }

@@ -204,5 +204,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103446096/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+   "photo": 103446096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270119612/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Li Jianong, some rights reserved (CC BY-NC), uploaded by Li Jianong",
+   "photo": 270119612
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249685564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) @joseluisrivasmartin, some rights reserved (CC BY-NC), uploaded by @joseluisrivasmartin",
+   "photo": 249685564
+  }
+ ]
 }

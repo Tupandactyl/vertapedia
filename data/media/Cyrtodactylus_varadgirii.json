@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207648982/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Birdman S Chakrabarty, some rights reserved (CC BY-NC), uploaded by Birdman S Chakrabarty",
+   "photo": 207648982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8415392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) empowerfoundation, some rights reserved (CC BY-NC)",
+   "photo": 8415392
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35721300/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rajesh Sanap, some rights reserved (CC BY-NC), uploaded by Rajesh Sanap",
+   "photo": 35721300
+  }
+ ]
 }

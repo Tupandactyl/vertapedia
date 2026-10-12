@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48103/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 48103
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48104/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee Yap, some rights reserved (CC BY-SA)",
+   "photo": 48104
+  }
+ ]
 }

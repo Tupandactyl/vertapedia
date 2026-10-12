@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/985420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Helen Sung, some rights reserved (CC BY-NC), uploaded by Helen Sung",
+   "photo": 985420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6703276/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rebecca Pry, some rights reserved (CC BY-NC), uploaded by Rebecca Pry",
+   "photo": 6703276
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5274772/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenzakabar, some rights reserved (CC BY-NC), uploaded by kenzakabar",
+   "photo": 5274772
+  }
+ ]
 }

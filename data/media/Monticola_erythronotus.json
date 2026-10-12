@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314360738/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joanpessa, some rights reserved (CC BY-NC)",
+   "photo": 314360738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25123653/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Boyle, some rights reserved (CC BY-NC), uploaded by Phil Boyle",
+   "photo": 25123653
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5366071/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dennis-mada, some rights reserved (CC BY-NC), uploaded by dennis-mada",
+   "photo": 5366071
+  }
+ ]
 }

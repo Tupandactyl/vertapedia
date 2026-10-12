@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49244714/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Asimakis Patitsas, some rights reserved (CC BY-NC), uploaded by Asimakis Patitsas",
+   "photo": 49244714
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108312025/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Connor Margetts, some rights reserved (CC BY), uploaded by Connor Margetts",
+   "photo": 108312025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152163868/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Max Tibby",
+   "photo": 152163868
+  }
+ ]
 }

@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/515533825/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), uploaded by Saryu Mae 前 朝琉",
+   "photo": 515533825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4264853/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clinton Duffy, some rights reserved (CC BY-NC), uploaded by Clinton Duffy",
+   "photo": 4264853
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145096350/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Oscar Dove, some rights reserved (CC BY), uploaded by Oscar Dove",
+   "photo": 145096350
+  }
+ ]
 }

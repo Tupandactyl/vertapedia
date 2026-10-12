@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90543/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tude e João, some rights reserved (CC BY-NC-SA)",
+   "photo": 90543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58684357/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Lupton, some rights reserved (CC BY-NC), uploaded by Peter Lupton",
+   "photo": 58684357
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90546/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 90546
+  }
+ ]
 }

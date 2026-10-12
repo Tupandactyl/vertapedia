@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462345575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 462345575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1791200/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aviceda, some rights reserved (CC BY-SA)",
+   "photo": 1791200
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70910359/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 70910359
+  }
+ ]
 }

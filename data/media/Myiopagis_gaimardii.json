@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104931240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jhonathan Miranda, some rights reserved (CC BY-NC), uploaded by Jhonathan Miranda",
+   "photo": 104931240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301686194/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pkondrashov, some rights reserved (CC BY-NC)",
+   "photo": 301686194
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5543342/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 5543342
+  }
+ ]
 }

@@ -46,5 +46,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1381586/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Pineda Vera, some rights reserved (CC BY), uploaded by Daniel Pineda Vera",
+   "photo": 1381586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86706817/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Humberto Castañón González, some rights reserved (CC BY-NC), uploaded by José Humberto Castañón González",
+   "photo": 86706817
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14324592/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Neptalí Ramírez Marcial, some rights reserved (CC BY), uploaded by Neptalí Ramírez Marcial",
+   "photo": 14324592
+  }
+ ]
 }

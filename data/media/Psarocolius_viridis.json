@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9003920/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vincent A. Vos, some rights reserved (CC BY), uploaded by Vincent A. Vos",
+   "photo": 9003920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96766802/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jéssica Martins, some rights reserved (CC BY-NC-SA), uploaded by Jéssica Martins",
+   "photo": 96766802
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120063692/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Milazzo, some rights reserved (CC BY-NC-SA)",
+   "photo": 120063692
+  }
+ ]
 }

@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500551435/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий Дякин, some rights reserved (CC BY-NC), uploaded by Геннадий Дякин",
+   "photo": 500551435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387854450/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий Дякин, some rights reserved (CC BY-NC), uploaded by Геннадий Дякин",
+   "photo": 387854450
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132569111/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 132569111
+  }
+ ]
 }

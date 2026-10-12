@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336260434/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 336260434
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182062128/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 182062128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163883571/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Graham Armstrong, some rights reserved (CC BY-NC), uploaded by Graham Armstrong",
+   "photo": 163883571
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30695698/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 30695698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182835305/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) a_calabrese, some rights reserved (CC BY-NC)",
+   "photo": 182835305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566022044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) entomolovro, some rights reserved (CC BY-NC)",
+   "photo": 566022044
+  }
+ ]
 }

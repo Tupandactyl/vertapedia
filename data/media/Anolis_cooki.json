@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9280784/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) ritirene, some rights reserved (CC BY), uploaded by ritirene",
+   "photo": 9280784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209132371/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Asa Conover, some rights reserved (CC BY-NC), uploaded by Asa Conover",
+   "photo": 209132371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209132406/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Asa Conover, some rights reserved (CC BY-NC), uploaded by Asa Conover",
+   "photo": 209132406
+  }
+ ]
 }

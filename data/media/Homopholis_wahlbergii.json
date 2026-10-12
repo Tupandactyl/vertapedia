@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211993115/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 211993115
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501641479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sabine Lydia Müller, some rights reserved (CC BY-NC), uploaded by Sabine Lydia Müller",
+   "photo": 501641479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59167250/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 59167250
+  }
+ ]
 }

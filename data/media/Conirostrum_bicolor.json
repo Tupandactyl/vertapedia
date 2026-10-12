@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95534/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ingeborg van Leeuwen, some rights reserved (CC BY)",
+   "photo": 95534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10992735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carol McDougall, some rights reserved (CC BY-NC), uploaded by Carol McDougall",
+   "photo": 10992735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10579568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Instituto Últimos Refúgios, some rights reserved (CC BY-NC), uploaded by Instituto Últimos Refúgios",
+   "photo": 10579568
+  }
+ ]
 }

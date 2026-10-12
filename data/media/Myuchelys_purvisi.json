@@ -62,5 +62,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53033680/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brett Vercoe, some rights reserved (CC BY-NC), uploaded by Brett Vercoe",
+   "photo": 53033680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12681758/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Thomson, some rights reserved (CC BY-NC), uploaded by Scott Thomson",
+   "photo": 12681758
+  }
+ ]
 }

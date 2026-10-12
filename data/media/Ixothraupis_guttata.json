@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726083260/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+   "photo": 726083260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6414633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, some rights reserved (CC BY-NC), uploaded by Heather Pickard",
+   "photo": 6414633
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44719161/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44719161
+  }
+ ]
 }

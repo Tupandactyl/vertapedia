@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44565565/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Calzada Arciniega, some rights reserved (CC BY-NC), uploaded by Alejandro Calzada Arciniega",
+   "photo": 44565565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116462022/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anibal Díaz de la Vega, some rights reserved (CC BY-NC), uploaded by Anibal Díaz de la Vega",
+   "photo": 116462022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445474090/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 445474090
+  }
+ ]
 }

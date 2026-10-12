@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418150908/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tomvanderhulst, some rights reserved (CC BY-NC)",
+   "photo": 418150908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46892435/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gail Stovall, some rights reserved (CC BY-NC), uploaded by Gail Stovall",
+   "photo": 46892435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235377716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 235377716
+  }
+ ]
 }

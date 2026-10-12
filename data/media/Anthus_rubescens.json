@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610531/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 610531
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193729/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 193729
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4891753/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Fyn Kynd, some rights reserved (CC BY-SA), uploaded by Fyn Kynd",
+   "photo": 4891753
+  }
+ ]
 }

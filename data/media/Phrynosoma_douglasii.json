@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134431664/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert M. Mutch Jr., some rights reserved (CC BY-NC), uploaded by Robert M. Mutch Jr.",
+   "photo": 134431664
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60797945/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) herper47, some rights reserved (CC BY-NC)",
+   "photo": 60797945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134730714/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mbstevens, some rights reserved (CC BY-NC), uploaded by mbstevens",
+   "photo": 134730714
+  }
+ ]
 }

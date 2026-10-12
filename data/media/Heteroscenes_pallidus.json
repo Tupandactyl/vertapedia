@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445101571/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Greg Miles, some rights reserved (CC BY-SA)",
+   "photo": 445101571
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6915652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julius Simonelli, some rights reserved (CC BY-NC), uploaded by Julius Simonelli",
+   "photo": 6915652
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3034518/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 3034518
+  }
+ ]
 }

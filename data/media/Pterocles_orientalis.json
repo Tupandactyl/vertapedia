@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480944894/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BEKKOUCHE Abdelkader, some rights reserved (CC BY-NC), uploaded by BEKKOUCHE Abdelkader",
+   "photo": 480944894
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171599008/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Marcelo Cabrera, some rights reserved (CC BY), uploaded by Marcelo Cabrera",
+   "photo": 171599008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171599028/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Marcelo Cabrera, some rights reserved (CC BY), uploaded by Marcelo Cabrera",
+   "photo": 171599028
+  }
+ ]
 }

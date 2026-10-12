@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84788113/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Ketebengang, some rights reserved (CC BY-NC), uploaded by Heather Ketebengang",
+   "photo": 84788113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39944120/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 39944120
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11167339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sarah Wyatt, some rights reserved (CC BY-NC), uploaded by Sarah Wyatt",
+   "photo": 11167339
+  }
+ ]
 }

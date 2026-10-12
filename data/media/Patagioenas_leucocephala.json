@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190473694/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Riley-Brendan Walsh, some rights reserved (CC BY-NC), uploaded by Riley-Brendan Walsh",
+   "photo": 190473694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46986874/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46986874
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338475208/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sequoia Janirella Wrens, some rights reserved (CC BY-NC), uploaded by Sequoia Janirella Wrens",
+   "photo": 338475208
+  }
+ ]
 }

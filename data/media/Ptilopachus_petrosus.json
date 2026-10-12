@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2442066/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Liki Fumei, some rights reserved (CC BY-SA)",
+   "photo": 2442066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5659690/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Yvonne A. de Jong, some rights reserved (CC BY-NC-SA), uploaded by Yvonne A. de Jong",
+   "photo": 5659690
+  }
+ ]
 }

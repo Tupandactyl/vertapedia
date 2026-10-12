@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612519569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sage Ono, some rights reserved (CC BY-NC), uploaded by Sage Ono",
+   "photo": 612519569
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348392948/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xavier0821, some rights reserved (CC BY-NC)",
+   "photo": 348392948
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356024804/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard Gagnon, some rights reserved (CC BY-SA)",
+   "photo": 356024804
+  }
+ ]
 }

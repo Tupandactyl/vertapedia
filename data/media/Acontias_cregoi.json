@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91673099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vaughan Jessnitz, some rights reserved (CC BY-NC), uploaded by Vaughan Jessnitz",
+   "photo": 91673099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73526860/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 73526860
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91673068/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vaughan Jessnitz, some rights reserved (CC BY-NC), uploaded by Vaughan Jessnitz",
+   "photo": 91673068
+  }
+ ]
 }

@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122009942/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Trinidad Ahumada Carrillo, some rights reserved (CC BY-NC), uploaded by Iván Trinidad Ahumada Carrillo",
+   "photo": 122009942
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127885015/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Meza, some rights reserved (CC BY-NC), uploaded by Kevin Meza",
+   "photo": 127885015
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25716834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) josepineda, some rights reserved (CC BY-NC)",
+   "photo": 25716834
+  }
+ ]
 }

@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33483955/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 33483955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33601316/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 33601316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94899248/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 94899248
+  }
+ ]
 }

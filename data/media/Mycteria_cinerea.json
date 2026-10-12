@@ -217,5 +217,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181076647/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Minder Singh, some rights reserved (CC BY-NC), uploaded by Minder Singh",
+   "photo": 181076647
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3927671/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Farits Alhadi, some rights reserved (CC BY-NC), uploaded by Farits Alhadi",
+   "photo": 3927671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10361625/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 10361625
+  }
+ ]
 }

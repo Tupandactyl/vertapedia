@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171007754/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gustavo Fernando Durán, some rights reserved (CC BY-NC-SA), uploaded by Gustavo Fernando Durán",
+   "photo": 171007754
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17765/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Edwin Harvey, some rights reserved (CC BY-NC-SA)",
+   "photo": 17765
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164092041/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) RAP, some rights reserved (CC BY), uploaded by RAP",
+   "photo": 164092041
+  }
+ ]
 }

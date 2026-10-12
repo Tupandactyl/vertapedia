@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171359680/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trenton Voytko, some rights reserved (CC BY-NC), uploaded by Trenton Voytko",
+   "photo": 171359680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171359574/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trenton Voytko, some rights reserved (CC BY-NC), uploaded by Trenton Voytko",
+   "photo": 171359574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171360228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trenton Voytko, some rights reserved (CC BY-NC), uploaded by Trenton Voytko",
+   "photo": 171360228
+  }
+ ]
 }

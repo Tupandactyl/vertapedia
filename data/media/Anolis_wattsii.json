@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148902/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Josh Noseworthy, some rights reserved (CC BY)",
+   "photo": 148902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2235546/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Flaxington, some rights reserved (CC BY-NC), uploaded by Will Flaxington",
+   "photo": 2235546
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33064790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lafondn, some rights reserved (CC BY-NC), uploaded by lafondn",
+   "photo": 33064790
+  }
+ ]
 }

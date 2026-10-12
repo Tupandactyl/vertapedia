@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2290477/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Devonpike, some rights reserved (CC BY)",
+   "photo": 2290477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451963209/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Ueda, some rights reserved (CC BY-NC), uploaded by Julien Ueda",
+   "photo": 451963209
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429927375/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Schlögl, some rights reserved (CC BY-NC), uploaded by Erik Schlögl",
+   "photo": 429927375
+  }
+ ]
 }

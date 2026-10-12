@@ -145,5 +145,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23728971/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Phuentsho, some rights reserved (CC BY-NC-SA), uploaded by Phuentsho",
+   "photo": 23728971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465310821/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault",
+   "photo": 465310821
+  }
+ ]
 }

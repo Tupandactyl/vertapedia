@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261324575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 261324575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616891232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Dolejsek, some rights reserved (CC BY-NC), uploaded by Petr Dolejsek",
+   "photo": 616891232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13114838/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maritzasouthafrica, some rights reserved (CC BY-NC), uploaded by maritzasouthafrica",
+   "photo": 13114838
+  }
+ ]
 }

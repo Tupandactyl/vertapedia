@@ -130,5 +130,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163355299/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sean Werle, some rights reserved (CC BY-NC), uploaded by Sean Werle",
+   "photo": 163355299
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149654506/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) manatok, some rights reserved (CC BY-NC), uploaded by manatok",
+   "photo": 149654506
+  }
+ ]
 }

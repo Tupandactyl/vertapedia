@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157826775/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Diego Torres Silvestre, some rights reserved (CC BY)",
+   "photo": 157826775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117321468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 117321468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57081893/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik",
+   "photo": 57081893
+  }
+ ]
 }

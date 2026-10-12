@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581440670/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Enéas V. Gouvêa Junior, some rights reserved (CC BY-SA), uploaded by Enéas V. Gouvêa Junior",
+   "photo": 581440670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14171554/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) João Vitor Andriola, some rights reserved (CC BY-NC), uploaded by João Vitor Andriola",
+   "photo": 14171554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466844499/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) André Perez, some rights reserved (CC BY-NC), uploaded by André Perez",
+   "photo": 466844499
+  }
+ ]
 }

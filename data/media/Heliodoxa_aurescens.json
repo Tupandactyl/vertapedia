@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329536840/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerold Morrison, some rights reserved (CC BY-NC), uploaded by Gerold Morrison",
+   "photo": 329536840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399875/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 399875
+  }
+ ]
 }

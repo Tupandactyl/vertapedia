@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468209644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+   "photo": 468209644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490453147/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 490453147
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469241951/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), uploaded by Saryu Mae 前 朝琉",
+   "photo": 469241951
+  }
+ ]
 }

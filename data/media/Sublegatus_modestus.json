@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141178062/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Breno Farias, some rights reserved (CC BY-NC), uploaded by Breno Farias",
+   "photo": 141178062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328371759/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Antunez, some rights reserved (CC BY-NC), uploaded by Adrian Antunez",
+   "photo": 328371759
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174446743/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Facundo Chieffo, some rights reserved (CC BY), uploaded by Facundo Chieffo",
+   "photo": 174446743
+  }
+ ]
 }

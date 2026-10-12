@@ -206,5 +206,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3784873/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 3784873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447846792/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pahk, some rights reserved (CC BY-NC)",
+   "photo": 447846792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445350428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadzrun, some rights reserved (CC BY-NC), uploaded by Fadzrun",
+   "photo": 445350428
+  }
+ ]
 }

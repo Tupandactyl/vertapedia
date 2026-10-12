@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1718628/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1718628
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245972083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wagner d'Oliveira Alvim, some rights reserved (CC BY-NC), uploaded by Wagner d'Oliveira Alvim",
+   "photo": 245972083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250643342/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrícia Nicoloso, some rights reserved (CC BY-NC), uploaded by Patrícia Nicoloso",
+   "photo": 250643342
+  }
+ ]
 }

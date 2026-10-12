@@ -138,5 +138,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28732750/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Boyle, some rights reserved (CC BY-NC), uploaded by Phil Boyle",
+   "photo": 28732750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27403614/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephane Philizot, some rights reserved (CC BY-NC), uploaded by Stephane Philizot",
+   "photo": 27403614
+  }
+ ]
 }

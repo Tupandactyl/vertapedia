@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10443133/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shoko noiman, some rights reserved (CC BY-NC), uploaded by shoko noiman",
+   "photo": 10443133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537886702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyan Russell, some rights reserved (CC BY-NC), uploaded by Kyan Russell",
+   "photo": 537886702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613213550/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stevecarter27, some rights reserved (CC BY-NC)",
+   "photo": 613213550
+  }
+ ]
 }

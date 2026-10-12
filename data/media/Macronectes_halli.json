@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55697238/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrien Mauss, some rights reserved (CC BY-NC), uploaded by Adrien Mauss",
+   "photo": 55697238
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1181468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC)",
+   "photo": 1181468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59654619/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Christopher Stephens, some rights reserved (CC BY-SA), uploaded by Christopher Stephens",
+   "photo": 59654619
+  }
+ ]
 }

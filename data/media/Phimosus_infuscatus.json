@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417897827/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 417897827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29870628/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+   "photo": 29870628
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9260302/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augur, some rights reserved (CC BY-NC)",
+   "photo": 9260302
+  }
+ ]
 }

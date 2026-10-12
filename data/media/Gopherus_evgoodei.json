@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56998932/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Hough, some rights reserved (CC BY-NC), uploaded by Eric Hough",
+   "photo": 56998932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56998857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Hough, some rights reserved (CC BY-NC), uploaded by Eric Hough",
+   "photo": 56998857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56998963/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Hough, some rights reserved (CC BY-NC), uploaded by Eric Hough",
+   "photo": 56998963
+  }
+ ]
 }

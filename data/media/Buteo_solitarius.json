@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308010713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 308010713
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658938272/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) scutcomb, some rights reserved (CC BY-NC)",
+   "photo": 658938272
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334869712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Reynolds, some rights reserved (CC BY-NC), uploaded by Christian Reynolds",
+   "photo": 334869712
+  }
+ ]
 }

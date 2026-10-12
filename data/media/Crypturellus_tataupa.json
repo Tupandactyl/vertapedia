@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173079358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeanne Martins Nascimento, some rights reserved (CC BY-NC), uploaded by Jeanne Martins Nascimento",
+   "photo": 173079358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86359715/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Diego Döke, some rights reserved (CC BY-NC), uploaded by Juan Diego Döke",
+   "photo": 86359715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119019471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 119019471
+  }
+ ]
 }

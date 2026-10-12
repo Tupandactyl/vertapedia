@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1965950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1965950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57777/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Juan Manuel Cardona Granda, some rights reserved (CC BY)",
+   "photo": 57777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62187168/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC), uploaded by David Ruíz Domínguez",
+   "photo": 62187168
+  }
+ ]
 }

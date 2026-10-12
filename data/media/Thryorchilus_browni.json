@@ -142,5 +142,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31966057/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) noahgaines, some rights reserved (CC BY-NC), uploaded by noahgaines",
+   "photo": 31966057
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8488482/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Izaguirre, some rights reserved (CC BY-NC), uploaded by Frank Izaguirre",
+   "photo": 8488482
+  }
+ ]
 }

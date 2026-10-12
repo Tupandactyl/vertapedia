@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141367445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Дмитрий Осипов, some rights reserved (CC BY-NC), uploaded by Дмитрий Осипов",
+   "photo": 141367445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375263196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Kaliss, some rights reserved (CC BY-NC), uploaded by David Kaliss",
+   "photo": 375263196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373967586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) samara_a, some rights reserved (CC BY-NC)",
+   "photo": 373967586
+  }
+ ]
 }

@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/553928240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 553928240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276470406/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 276470406
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504329212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Ow, some rights reserved (CC BY-NC), uploaded by Sebastian Ow",
+   "photo": 504329212
+  }
+ ]
 }

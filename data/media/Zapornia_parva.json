@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323059744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 323059744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59614419/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
+   "photo": 59614419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59613960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
+   "photo": 59613960
+  }
+ ]
 }

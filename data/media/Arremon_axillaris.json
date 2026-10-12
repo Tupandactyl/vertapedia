@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345458669/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+   "photo": 345458669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29702468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jhon Velasquez, some rights reserved (CC BY-NC), uploaded by Jhon Velasquez",
+   "photo": 29702468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445902009/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
+   "photo": 445902009
+  }
+ ]
 }

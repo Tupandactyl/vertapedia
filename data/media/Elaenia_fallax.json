@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484219277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cheryl Rosenfeld, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Cheryl Rosenfeld",
+   "photo": 484219277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289094804/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Hjalmarson, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Emily Hjalmarson",
+   "photo": 289094804
+  }
+ ]
 }

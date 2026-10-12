@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82631780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Gross, some rights reserved (CC BY-NC), uploaded by Javier Gross",
+   "photo": 82631780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146219916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rigoberto Yáñez, some rights reserved (CC BY-NC), uploaded by Rigoberto Yáñez",
+   "photo": 146219916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147995231/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonella Parra Garrido, some rights reserved (CC BY-NC), uploaded by Antonella Parra Garrido",
+   "photo": 147995231
+  }
+ ]
 }

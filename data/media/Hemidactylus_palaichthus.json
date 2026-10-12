@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335228393/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC), uploaded by Saifudeen Muhammad",
+   "photo": 335228393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114094580/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joshua LaPergola, some rights reserved (CC BY-NC-SA), uploaded by Joshua LaPergola",
+   "photo": 114094580
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1107095/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor Ros, some rights reserved (CC BY-NC), uploaded by Victor Ros",
+   "photo": 1107095
+  }
+ ]
 }

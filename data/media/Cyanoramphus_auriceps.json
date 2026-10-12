@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57107378/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Weatherley, some rights reserved (CC BY-NC), uploaded by Ben Weatherley",
+   "photo": 57107378
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71892276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emma &amp; Tom, some rights reserved (CC BY-NC), uploaded by Emma &amp; Tom",
+   "photo": 71892276
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176166078/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Sutton, some rights reserved (CC BY-NC), uploaded by Luke Sutton",
+   "photo": 176166078
+  }
+ ]
 }

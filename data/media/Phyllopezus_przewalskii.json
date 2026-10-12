@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101512941/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 101512941
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163143977/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique C. Costa, some rights reserved (CC BY-NC), uploaded by Henrique C. Costa",
+   "photo": 163143977
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106837120/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo Menéndez, some rights reserved (CC BY-NC), uploaded by Guillermo Menéndez",
+   "photo": 106837120
+  }
+ ]
 }

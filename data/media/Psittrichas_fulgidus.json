@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449330094/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault",
+   "photo": 449330094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64903573/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jean, some rights reserved (CC BY)",
+   "photo": 64903573
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99364446/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rüdiger Stehn, some rights reserved (CC BY-SA)",
+   "photo": 99364446
+  }
+ ]
 }

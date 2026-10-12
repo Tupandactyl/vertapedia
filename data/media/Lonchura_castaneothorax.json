@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70461814/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Ayers, some rights reserved (CC BY-NC), uploaded by Mark Ayers",
+   "photo": 70461814
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39750930/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Anna Lanigan, some rights reserved (CC BY-NC-SA), uploaded by Anna Lanigan",
+   "photo": 39750930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26385079/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Nicholas, some rights reserved (CC BY-NC), uploaded by Simon Nicholas",
+   "photo": 26385079
+  }
+ ]
 }

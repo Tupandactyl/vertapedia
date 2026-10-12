@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47190674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Harbula, some rights reserved (CC BY-NC), uploaded by Steve Harbula",
+   "photo": 47190674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259383431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Coin, some rights reserved (CC BY-NC)",
+   "photo": 259383431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381898061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Carpio, some rights reserved (CC BY-NC), uploaded by Andrea Carpio",
+   "photo": 381898061
+  }
+ ]
 }

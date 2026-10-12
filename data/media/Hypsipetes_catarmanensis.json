@@ -81,5 +81,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27441223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Frédéric Desmoulins",
+   "photo": 27441223
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29276487/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, osa oikeuksista pidätetään (CC BY), lähettänyt Forest Botial-Jarvis",
+   "photo": 29276487
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429771441/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gauvain_saucy, osa oikeuksista pidätetään (CC BY-NC), lähettänyt gauvain_saucy",
+   "photo": 429771441
+  }
+ ]
 }

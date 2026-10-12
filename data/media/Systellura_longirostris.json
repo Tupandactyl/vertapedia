@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61727101/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) André Adeodato, some rights reserved (CC BY-NC), uploaded by André Adeodato",
+   "photo": 61727101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130526170/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo Menéndez, some rights reserved (CC BY-NC), uploaded by Guillermo Menéndez",
+   "photo": 130526170
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61669971/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-NC), uploaded by Michael Woodruff",
+   "photo": 61669971
+  }
+ ]
 }

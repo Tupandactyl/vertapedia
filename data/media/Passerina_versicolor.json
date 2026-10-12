@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256413406/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniele Gualdoni, some rights reserved (CC BY-NC), uploaded by Daniele Gualdoni",
+   "photo": 256413406
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38052908/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Héctor García, some rights reserved (CC BY-NC), uploaded by Héctor García",
+   "photo": 38052908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73598029/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 73598029
+  }
+ ]
 }

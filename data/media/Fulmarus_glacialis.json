@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197412/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC)",
+   "photo": 197412
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579817450/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Long, some rights reserved (CC BY-NC), uploaded by Michael Long",
+   "photo": 579817450
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248578694/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonny Andrews, some rights reserved (CC BY-NC), uploaded by Jonny Andrews",
+   "photo": 248578694
+  }
+ ]
 }

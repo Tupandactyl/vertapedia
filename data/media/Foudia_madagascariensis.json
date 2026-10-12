@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476759493/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 476759493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56280652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Klaus Bohn, some rights reserved (CC BY-NC), uploaded by Klaus Bohn",
+   "photo": 56280652
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232568538/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Caseirito, some rights reserved (CC BY-NC), uploaded by Paulo Caseirito",
+   "photo": 232568538
+  }
+ ]
 }

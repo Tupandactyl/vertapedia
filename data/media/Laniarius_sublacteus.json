@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190405468/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 190405468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27200532/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) frasergear, some rights reserved (CC BY-NC), uploaded by frasergear",
+   "photo": 27200532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86772441/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 86772441
+  }
+ ]
 }

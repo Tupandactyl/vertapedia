@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349687844/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ludu57, some rights reserved (CC BY-NC)",
+   "photo": 349687844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249867078/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 249867078
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163958122/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 163958122
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/888198/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) monarca, some rights reserved (CC BY-NC-SA), uploaded by monarca",
+   "photo": 888198
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1879638/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gonzalo Zepeda Martínez, some rights reserved (CC BY-SA), uploaded by Gonzalo Zepeda Martínez",
+   "photo": 1879638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602400/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Carlos Pérez Magaña, some rights reserved (CC BY-NC), uploaded by Juan Carlos Pérez Magaña",
+   "photo": 602400
+  }
+ ]
 }

@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13276160/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Albinjacob, some rights reserved (CC BY-SA)",
+   "photo": 13276160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49003100/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 49003100
+  }
+ ]
 }

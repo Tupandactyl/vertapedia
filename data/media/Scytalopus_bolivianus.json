@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225158210/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 225158210
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225158226/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 225158226
+  }
+ ]
 }

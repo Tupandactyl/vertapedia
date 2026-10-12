@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30818274/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 30818274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1294951/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patricia Simpson, some rights reserved (CC BY-NC), uploaded by Patricia Simpson",
+   "photo": 1294951
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2373007/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2373007
+  }
+ ]
 }

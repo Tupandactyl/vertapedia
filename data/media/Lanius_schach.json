@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349298427/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) D.A. Ostiarius, some rights reserved (CC BY-NC), uploaded by D.A. Ostiarius",
+   "photo": 349298427
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61948012/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan, some rights reserved (CC BY-NC), uploaded by Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan",
+   "photo": 61948012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57704518/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Seth Miller, some rights reserved (CC BY-NC), uploaded by Seth Miller",
+   "photo": 57704518
+  }
+ ]
 }

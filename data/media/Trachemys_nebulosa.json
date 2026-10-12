@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27250415/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2",
+   "photo": 27250415
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8248710/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JESÚS ALFREDO CARRILLO GARCÍA, some rights reserved (CC BY-NC), uploaded by JESÚS ALFREDO CARRILLO GARCÍA",
+   "photo": 8248710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8248705/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JESÚS ALFREDO CARRILLO GARCÍA, some rights reserved (CC BY-NC), uploaded by JESÚS ALFREDO CARRILLO GARCÍA",
+   "photo": 8248705
+  }
+ ]
 }

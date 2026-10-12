@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8157386/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 8157386
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63991481/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joseph Heymans, some rights reserved (CC BY-NC), uploaded by Joseph Heymans",
+   "photo": 63991481
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/549247558/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Szymon Bzoma, some rights reserved (CC BY-NC), uploaded by Szymon Bzoma",
+   "photo": 549247558
+  }
+ ]
 }

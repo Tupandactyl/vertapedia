@@ -142,5 +142,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32526528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduarditea, some rights reserved (CC BY-NC), uploaded by eduarditea",
+   "photo": 32526528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1041116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gaboreed, some rights reserved (CC BY-NC), uploaded by gaboreed",
+   "photo": 1041116
+  }
+ ]
 }

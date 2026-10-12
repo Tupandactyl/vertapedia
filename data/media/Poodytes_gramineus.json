@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217176678/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 217176678
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182276/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Glen Fergus, some rights reserved (CC BY)",
+   "photo": 182276
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217176772/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 217176772
+  }
+ ]
 }

@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103005253/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel Arribas, some rights reserved (CC BY-NC), uploaded by Miguel Arribas",
+   "photo": 103005253
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121317645/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 121317645
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21690081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 21690081
+  }
+ ]
 }

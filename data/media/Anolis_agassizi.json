@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18998613/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Maria del Rosario Castaneda, some rights reserved (CC BY-NC-SA)",
+   "photo": 18998613
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8847554/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC)",
+   "photo": 8847554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17623594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 17623594
+  }
+ ]
 }

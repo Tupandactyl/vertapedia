@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109182646/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sunčana Bradley, some rights reserved (CC BY), uploaded by Sunčana Bradley",
+   "photo": 109182646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249308111/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 249308111
+  }
+ ]
 }

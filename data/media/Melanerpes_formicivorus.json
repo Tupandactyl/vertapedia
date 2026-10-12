@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3085/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dmitry Mozzherin, some rights reserved (CC BY)",
+   "photo": 3085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730583081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William Proebsting, some rights reserved (CC BY-NC), uploaded by William Proebsting",
+   "photo": 730583081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610893/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Julie Wittmann, some rights reserved (CC BY-SA), uploaded by Julie Wittmann",
+   "photo": 610893
+  }
+ ]
 }

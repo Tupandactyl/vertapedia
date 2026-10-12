@@ -38,5 +38,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29869281/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Pope, some rights reserved (CC BY-NC), uploaded by Robin Pope",
+   "photo": 29869281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347746282/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Penny English, some rights reserved (CC BY-NC), uploaded by Penny English",
+   "photo": 347746282
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29869291/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Pope, some rights reserved (CC BY-NC), uploaded by Robin Pope",
+   "photo": 29869291
+  }
+ ]
 }

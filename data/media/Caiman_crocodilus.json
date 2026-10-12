@@ -179,5 +179,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/717577514/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno R. Möller, some rights reserved (CC BY-NC), uploaded by Bruno R. Möller",
+   "photo": 717577514
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21785069/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rich Kostecke, some rights reserved (CC BY-NC), uploaded by Rich Kostecke",
+   "photo": 21785069
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71773676/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) gailhampshire, some rights reserved (CC BY)",
+   "photo": 71773676
+  }
+ ]
 }

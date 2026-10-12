@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363443609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Hartmann, some rights reserved (CC BY-NC), uploaded by Frank Hartmann",
+   "photo": 363443609
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44659786/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Greg, some rights reserved (CC BY)",
+   "photo": 44659786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31689830/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) raboul, some rights reserved (CC BY-NC), uploaded by raboul",
+   "photo": 31689830
+  }
+ ]
 }

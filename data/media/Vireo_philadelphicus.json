@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158198976/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vtjohn, some rights reserved (CC BY-NC)",
+   "photo": 158198976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133506320/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Lindsey, some rights reserved (CC BY-NC), uploaded by Christopher Lindsey",
+   "photo": 133506320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92719621/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janet Hill, some rights reserved (CC BY-NC), uploaded by Janet Hill",
+   "photo": 92719621
+  }
+ ]
 }

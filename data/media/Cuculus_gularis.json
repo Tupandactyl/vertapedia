@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1567759/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 1567759
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15125923/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerhard Diedericks, some rights reserved (CC BY-NC), uploaded by Gerhard Diedericks",
+   "photo": 15125923
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1410689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Celesta, some rights reserved (CC BY-NC), uploaded by Celesta",
+   "photo": 1410689
+  }
+ ]
 }

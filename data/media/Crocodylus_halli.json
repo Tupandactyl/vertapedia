@@ -112,5 +112,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223027767/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cliffdorse, some rights reserved (CC BY-NC), uploaded by cliffdorse",
+   "photo": 223027767
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233099214/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Midori, some rights reserved (CC BY)",
+   "photo": 233099214
+  }
+ ]
 }

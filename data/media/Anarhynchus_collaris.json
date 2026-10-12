@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37910349/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pedro vargas, some rights reserved (CC BY-NC), uploaded by pedro vargas",
+   "photo": 37910349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476112575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 476112575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23635/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) ClÃ¡udio Dias Timm, some rights reserved (CC BY-SA)",
+   "photo": 23635
+  }
+ ]
 }

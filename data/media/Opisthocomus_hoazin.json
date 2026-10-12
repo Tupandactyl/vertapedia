@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335722298/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Philipp Hoenle",
+   "photo": 335722298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13371672/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Carine06, some rights reserved (CC BY-SA)",
+   "photo": 13371672
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1952779/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joan Septembre, some rights reserved (CC BY-NC), uploaded by Joan Septembre",
+   "photo": 1952779
+  }
+ ]
 }

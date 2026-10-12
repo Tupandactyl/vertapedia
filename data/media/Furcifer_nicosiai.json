@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25688/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 25688
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399952920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) globalherping, some rights reserved (CC BY-NC), uploaded by globalherping",
+   "photo": 399952920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328747571/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederic Griesbaum, some rights reserved (CC BY-NC), uploaded by Frederic Griesbaum",
+   "photo": 328747571
+  }
+ ]
 }

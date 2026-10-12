@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12113090/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nico, some rights reserved (CC BY-NC), uploaded by Nico",
+   "photo": 12113090
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188366487/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Rodolfo Lillo Lobos, some rights reserved (CC BY-NC), uploaded by Juan Rodolfo Lillo Lobos",
+   "photo": 188366487
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201699947/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ezequiel Racker, some rights reserved (CC BY), uploaded by Ezequiel Racker",
+   "photo": 201699947
+  }
+ ]
 }

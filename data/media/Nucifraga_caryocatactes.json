@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28580558/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alpsdake, some rights reserved (CC BY-SA)",
+   "photo": 28580558
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28461524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 28461524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629072/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vitalii Khustochka, some rights reserved (CC BY-NC)",
+   "photo": 1629072
+  }
+ ]
 }

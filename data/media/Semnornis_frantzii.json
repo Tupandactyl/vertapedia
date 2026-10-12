@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2208349/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY), uploaded by Annika Lindqvist",
+   "photo": 2208349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180255077/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) N.R. Jenzen-Jones, some rights reserved (CC BY-NC-SA), uploaded by N.R. Jenzen-Jones",
+   "photo": 180255077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67157/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Clickor, some rights reserved (CC BY)",
+   "photo": 67157
+  }
+ ]
 }

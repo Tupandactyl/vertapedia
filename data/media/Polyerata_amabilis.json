@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352076784/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris G Earley, some rights reserved (CC BY-NC), uploaded by Chris G Earley",
+   "photo": 352076784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2605738/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2605738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304247625/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Shoop, some rights reserved (CC BY-NC), uploaded by Michael Shoop",
+   "photo": 304247625
+  }
+ ]
 }

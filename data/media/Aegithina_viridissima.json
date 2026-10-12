@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448011371/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Chrissy McClarren and Andy Reago",
+   "photo": 448011371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447294973/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) usaviah, some rights reserved (CC BY-NC)",
+   "photo": 447294973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555913622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pandu Ilmi Prastyanto, some rights reserved (CC BY-NC), uploaded by Pandu Ilmi Prastyanto",
+   "photo": 555913622
+  }
+ ]
 }

@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2898077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, einige Rechte vorbehalten (CC BY-NC)",
+   "photo": 2898077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2898062/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, einige Rechte vorbehalten (CC BY-NC)",
+   "photo": 2898062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12933286/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, einige Rechte vorbehalten (CC BY-SA), hochgeladen von Thibaud Aronson",
+   "photo": 12933286
+  }
+ ]
 }

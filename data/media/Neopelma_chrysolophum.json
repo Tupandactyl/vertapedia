@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1814254/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Carlos Henrique Luz Nunes de Almeida, some rights reserved (CC BY)",
+   "photo": 1814254
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1814255/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 1814255
+  }
+ ]
 }

@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688611539/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 688611539
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208762079/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Henry, some rights reserved (CC BY-NC), uploaded by Jacob Henry",
+   "photo": 208762079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441757004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC), uploaded by Heinrich Human",
+   "photo": 441757004
+  }
+ ]
 }

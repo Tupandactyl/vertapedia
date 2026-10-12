@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231450677/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-SA)",
+   "photo": 231450677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80987935/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Виктор, some rights reserved (CC BY), uploaded by Виктор",
+   "photo": 80987935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67415859/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bernardo Cecchi, some rights reserved (CC BY-NC), uploaded by Bernardo Cecchi",
+   "photo": 67415859
+  }
+ ]
 }

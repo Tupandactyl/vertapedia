@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279378598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) reinaldogibin, some rights reserved (CC BY-NC)",
+   "photo": 279378598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143999/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) 2011 Carlos Henrique Luz Nunes de Almeida, some rights reserved (CC BY)",
+   "photo": 143999
+  }
+ ]
 }

@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332062812/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 332062812
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181860080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven McGrath, some rights reserved (CC BY-NC), uploaded by Steven McGrath",
+   "photo": 181860080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182294380/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt Goff, some rights reserved (CC BY-NC-SA), uploaded by Matt Goff",
+   "photo": 182294380
+  }
+ ]
 }

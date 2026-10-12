@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61848280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 61848280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27337770/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Boyle, some rights reserved (CC BY-NC), uploaded by Phil Boyle",
+   "photo": 27337770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451268083/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 451268083
+  }
+ ]
 }

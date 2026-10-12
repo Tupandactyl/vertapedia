@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340532583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Neville Hudson, some rights reserved (CC BY-NC), uploaded by Neville Hudson",
+   "photo": 340532583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292895770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Palliser, some rights reserved (CC BY-NC), uploaded by Tony Palliser",
+   "photo": 292895770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54774359/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carolyn Stewart, some rights reserved (CC BY-NC), uploaded by Carolyn Stewart",
+   "photo": 54774359
+  }
+ ]
 }

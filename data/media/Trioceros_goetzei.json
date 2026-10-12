@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349124192/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 349124192
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349122480/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 349122480
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2171316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michelemenegon, some rights reserved (CC BY-NC), uploaded by michelemenegon",
+   "photo": 2171316
+  }
+ ]
 }

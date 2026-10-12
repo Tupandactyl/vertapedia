@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6160/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+   "photo": 6160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324743/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryant Olsen, some rights reserved (CC BY-NC)",
+   "photo": 324743
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107092449/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Maizlish, some rights reserved (CC BY-NC)",
+   "photo": 107092449
+  }
+ ]
 }

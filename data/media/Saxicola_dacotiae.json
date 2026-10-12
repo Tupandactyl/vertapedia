@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179542388/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thijs Valkenburg, some rights reserved (CC BY-NC), uploaded by Thijs Valkenburg",
+   "photo": 179542388
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183123586/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 183123586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183123521/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 183123521
+  }
+ ]
 }

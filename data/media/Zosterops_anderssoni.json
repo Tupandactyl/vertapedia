@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/694764433/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Bruin, some rights reserved (CC BY-NC), uploaded by John Bruin",
+   "photo": 694764433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571349840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GLENN STOCKIL, some rights reserved (CC BY-NC), uploaded by GLENN STOCKIL",
+   "photo": 571349840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32472949/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carol McDougall, some rights reserved (CC BY-NC), uploaded by Carol McDougall",
+   "photo": 32472949
+  }
+ ]
 }

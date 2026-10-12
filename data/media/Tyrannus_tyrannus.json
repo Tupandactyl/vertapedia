@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4080/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Michael, some rights reserved (CC BY-NC-SA)",
+   "photo": 4080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169584365/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David M. Gascoigne, some rights reserved (CC BY-NC), uploaded by David M. Gascoigne",
+   "photo": 169584365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73290/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dmitry Mozzherin, some rights reserved (CC BY-NC-SA)",
+   "photo": 73290
+  }
+ ]
 }

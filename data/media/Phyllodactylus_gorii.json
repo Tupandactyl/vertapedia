@@ -46,5 +46,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11354692/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eva G., some rights reserved (CC BY-NC), uploaded by Eva G.",
+   "photo": 11354692
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57811161/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebas Ramos, some rights reserved (CC BY-NC), uploaded by Sebas Ramos",
+   "photo": 57811161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460068622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mateusz Ciechanowski, some rights reserved (CC BY-NC), uploaded by Mateusz Ciechanowski",
+   "photo": 460068622
+  }
+ ]
 }

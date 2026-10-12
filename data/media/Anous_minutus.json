@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60534938/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY), uploaded by Thomas Mesaglio",
+   "photo": 60534938
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1598515/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Rolle, some rights reserved (CC BY-NC-SA)",
+   "photo": 1598515
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1598516/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Adrien Cretin, some rights reserved (CC BY-NC-SA)",
+   "photo": 1598516
+  }
+ ]
 }

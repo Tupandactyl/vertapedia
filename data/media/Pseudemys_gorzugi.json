@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350260369/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 350260369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51585310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) texasturtles, some rights reserved (CC BY-NC), uploaded by texasturtles",
+   "photo": 51585310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65050346/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) texasturtles, some rights reserved (CC BY-NC), uploaded by texasturtles",
+   "photo": 65050346
+  }
+ ]
 }

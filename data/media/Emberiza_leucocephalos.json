@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55747329/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexdersu, some rights reserved (CC BY-NC)",
+   "photo": 55747329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113106630/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Андреенков Олег Владимирович, some rights reserved (CC BY-NC), uploaded by Андреенков Олег Владимирович",
+   "photo": 113106630
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136903095/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 136903095
+  }
+ ]
 }

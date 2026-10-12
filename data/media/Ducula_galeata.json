@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395654959/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395654959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72651827/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Samuel Etienne, some rights reserved (CC BY-SA)",
+   "photo": 72651827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160178888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterodekerken, some rights reserved (CC BY-NC)",
+   "photo": 160178888
+  }
+ ]
 }

@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56648532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maritzasouthafrica, some rights reserved (CC BY-NC), uploaded by maritzasouthafrica",
+   "photo": 56648532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244054731/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GLENN STOCKIL, some rights reserved (CC BY-NC), uploaded by GLENN STOCKIL",
+   "photo": 244054731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304542751/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashleigh Miller, some rights reserved (CC BY-NC), uploaded by Ashleigh Miller",
+   "photo": 304542751
+  }
+ ]
 }

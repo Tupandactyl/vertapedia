@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13128755/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) obscurus, some rights reserved (CC BY-NC), uploaded by obscurus",
+   "photo": 13128755
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14830293/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Warren Chinn, some rights reserved (CC BY-NC), uploaded by Warren Chinn",
+   "photo": 14830293
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2269721/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Peter de Lange",
+   "photo": 2269721
+  }
+ ]
 }

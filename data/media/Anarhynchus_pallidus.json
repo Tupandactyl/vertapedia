@@ -204,5 +204,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23632/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gavin Goodhart, some rights reserved (CC BY-NC-SA)",
+   "photo": 23632
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23633/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC-SA)",
+   "photo": 23633
+  }
+ ]
 }

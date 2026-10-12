@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43977647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 43977647
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5078996/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sunphlo, some rights reserved (CC BY-NC)",
+   "photo": 5078996
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43977616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 43977616
+  }
+ ]
 }

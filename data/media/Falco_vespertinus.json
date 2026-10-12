@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341181801/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+   "photo": 341181801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122154683/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
+   "photo": 122154683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108297665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fotis-samaritakis, some rights reserved (CC BY-NC), uploaded by fotis-samaritakis",
+   "photo": 108297665
+  }
+ ]
 }

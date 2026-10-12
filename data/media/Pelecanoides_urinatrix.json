@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461796328/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ou.wildlife, some rights reserved (CC BY-NC), uploaded by ou.wildlife",
+   "photo": 461796328
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243481579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 243481579
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392190132/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 392190132
+  }
+ ]
 }

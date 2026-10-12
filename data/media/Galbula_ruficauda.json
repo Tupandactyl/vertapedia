@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456313837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eric gofreed, some rights reserved (CC BY-NC), uploaded by eric gofreed",
+   "photo": 456313837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609078954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Scott de Marcos, some rights reserved (CC BY-NC), uploaded by Lucas Scott de Marcos",
+   "photo": 609078954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19279826/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Manuel de Jesús Hernández Ancheita, some rights reserved (CC BY-NC-SA), uploaded by Manuel de Jesús Hernández Ancheita",
+   "photo": 19279826
+  }
+ ]
 }

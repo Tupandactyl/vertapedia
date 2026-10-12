@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40662164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marion Maclean, some rights reserved (CC BY-NC), uploaded by Marion Maclean",
+   "photo": 40662164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165825062/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kevin Murray, some rights reserved (CC BY), uploaded by Kevin Murray",
+   "photo": 165825062
+  }
+ ]
 }

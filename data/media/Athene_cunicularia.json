@@ -209,5 +209,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157256609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maria Roc, some rights reserved (CC BY-NC), uploaded by Maria Roc",
+   "photo": 157256609
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533657312/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Poole, some rights reserved (CC BY-NC), uploaded by Matt Poole",
+   "photo": 533657312
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175887968/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Lynch, some rights reserved (CC BY-NC), uploaded by Michael Lynch",
+   "photo": 175887968
+  }
+ ]
 }

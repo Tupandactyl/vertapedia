@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349986645/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 349986645
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195697617/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY), uploaded by Kseniia Marianna Prondzynska",
+   "photo": 195697617
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426309671/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 426309671
+  }
+ ]
 }

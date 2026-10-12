@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1935751/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1935751
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613009867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Максим Мисюра, some rights reserved (CC BY-NC), uploaded by Максим Мисюра",
+   "photo": 613009867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/326614087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 326614087
+  }
+ ]
 }

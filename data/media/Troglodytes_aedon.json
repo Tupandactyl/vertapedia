@@ -73,5 +73,25 @@
    "date": "2022-05-28"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41512670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 41512670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12607408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 12607408
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12607412/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 12607412
+  }
+ ]
 }

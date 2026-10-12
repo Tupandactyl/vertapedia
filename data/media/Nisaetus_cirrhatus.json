@@ -174,5 +174,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48245091/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chathuri Jayatissa, some rights reserved (CC BY-NC), uploaded by Chathuri Jayatissa",
+   "photo": 48245091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188989363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amelia Choon, some rights reserved (CC BY-NC), uploaded by Amelia Choon",
+   "photo": 188989363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50020410/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Prashanth N S, some rights reserved (CC BY), uploaded by Prashanth N S",
+   "photo": 50020410
+  }
+ ]
 }

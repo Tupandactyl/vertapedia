@@ -221,5 +221,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487650635/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+   "photo": 487650635
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC)",
+   "photo": 232408
+  }
+ ]
 }

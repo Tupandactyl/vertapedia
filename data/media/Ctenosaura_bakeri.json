@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74626/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gavin Schaefer, some rights reserved (CC BY)",
+   "photo": 74626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13615594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan G, some rights reserved (CC BY-NC), uploaded by Dan G",
+   "photo": 13615594
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48082968/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric van den Berghe, some rights reserved (CC BY-NC), uploaded by Eric van den Berghe",
+   "photo": 48082968
+  }
+ ]
 }

@@ -190,5 +190,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208845148/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cheryl Rosenfeld, some rights reserved (CC BY-NC), uploaded by Cheryl Rosenfeld",
+   "photo": 208845148
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23240688/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) harshithjv, some rights reserved (CC BY-NC-SA), uploaded by harshithjv",
+   "photo": 23240688
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91945434/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 91945434
+  }
+ ]
 }

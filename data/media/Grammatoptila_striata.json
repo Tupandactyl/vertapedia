@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555206/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 兴趣@中国鸟类图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 555206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48911697/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nina Lester Finley, some rights reserved (CC BY-NC), uploaded by Nina Lester Finley",
+   "photo": 48911697
+  }
+ ]
 }

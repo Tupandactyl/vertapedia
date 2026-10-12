@@ -170,5 +170,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27296095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 27296095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86876658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Norton Santos, some rights reserved (CC BY-NC), uploaded by Norton Santos",
+   "photo": 86876658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69160317/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ramiro Dário Melinski, some rights reserved (CC BY-NC), uploaded by Ramiro Dário Melinski",
+   "photo": 69160317
+  }
+ ]
 }

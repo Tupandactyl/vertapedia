@@ -178,5 +178,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1504485/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1504485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87635592/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmanriqueb, some rights reserved (CC BY-NC)",
+   "photo": 87635592
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90377364/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Moreno Vallejos, some rights reserved (CC BY-NC), uploaded by Pablo Moreno Vallejos",
+   "photo": 90377364
+  }
+ ]
 }

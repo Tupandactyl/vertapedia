@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4316465/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fredy Ruiz, some rights reserved (CC BY-NC), uploaded by Fredy Ruiz",
+   "photo": 4316465
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10071584/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henry Abreu Dominguez, some rights reserved (CC BY-NC), uploaded by Henry Abreu Dominguez",
+   "photo": 10071584
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20208554/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henry Abreu Dominguez, some rights reserved (CC BY-NC), uploaded by Henry Abreu Dominguez",
+   "photo": 20208554
+  }
+ ]
 }

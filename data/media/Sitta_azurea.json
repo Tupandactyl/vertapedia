@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221099193/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 221099193
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338996354/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gideon Lam, some rights reserved (CC BY-NC), uploaded by Gideon Lam",
+   "photo": 338996354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7481854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zach DuFran, some rights reserved (CC BY-NC), uploaded by Zach DuFran",
+   "photo": 7481854
+  }
+ ]
 }

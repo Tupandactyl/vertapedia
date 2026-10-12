@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61710429/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ravisara Jayamanna, some rights reserved (CC BY-NC), uploaded by Ravisara Jayamanna",
+   "photo": 61710429
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263294976/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thiyagu Selvaraj, some rights reserved (CC BY-NC), uploaded by Thiyagu Selvaraj",
+   "photo": 263294976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9944350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saurabh Agrawal, some rights reserved (CC BY-NC), uploaded by Saurabh Agrawal",
+   "photo": 9944350
+  }
+ ]
 }

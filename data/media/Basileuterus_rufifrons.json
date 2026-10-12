@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30448702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rociobritogarcia, some rights reserved (CC BY-NC), uploaded by rociobritogarcia",
+   "photo": 30448702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464143905/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Connor Cochrane, some rights reserved (CC BY-NC), uploaded by Connor Cochrane",
+   "photo": 464143905
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/551811/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Elvis Herrera, some rights reserved (CC BY-NC-SA), uploaded by Elvis Herrera",
+   "photo": 551811
+  }
+ ]
 }

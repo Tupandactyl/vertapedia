@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453082543/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault",
+   "photo": 453082543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103692658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Howard Laidlaw, some rights reserved (CC BY-NC), uploaded by Howard Laidlaw",
+   "photo": 103692658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411398181/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) tomas_kay, some rights reserved (CC BY)",
+   "photo": 411398181
+  }
+ ]
 }

@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58602679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 58602679
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256107529/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ariel Gallego, some rights reserved (CC BY), uploaded by Ariel Gallego",
+   "photo": 256107529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30584550/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 30584550
+  }
+ ]
 }

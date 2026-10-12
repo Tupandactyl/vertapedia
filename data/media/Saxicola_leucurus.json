@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13544849/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tzmyanmar1, some rights reserved (CC BY-NC)",
+   "photo": 13544849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13544403/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tzmyanmar1, some rights reserved (CC BY-NC)",
+   "photo": 13544403
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4890225/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dinesh Singh Pundir, some rights reserved (CC BY-NC), uploaded by Dinesh Singh Pundir",
+   "photo": 4890225
+  }
+ ]
 }

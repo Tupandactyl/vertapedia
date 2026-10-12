@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535894219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dhruva Punde, some rights reserved (CC BY-NC), uploaded by Dhruva Punde",
+   "photo": 535894219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58971413/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Munim Zabidi, some rights reserved (CC BY-NC), uploaded by Munim Zabidi",
+   "photo": 58971413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160986004/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) VarmaX, some rights reserved (CC BY-NC-SA), uploaded by VarmaX",
+   "photo": 160986004
+  }
+ ]
 }

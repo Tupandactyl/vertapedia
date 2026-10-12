@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507241/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 1507241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507233/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 1507233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4118036/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flavio Durão, some rights reserved (CC BY-NC), uploaded by Flavio Durão",
+   "photo": 4118036
+  }
+ ]
 }

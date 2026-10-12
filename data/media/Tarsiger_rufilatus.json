@@ -94,5 +94,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278708/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison ([mailto:jjharrison89@facebook.com jjharrison89@facebook.com]), some rights reserved (CC BY-SA)",
+   "photo": 278708
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278622/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pete, some rights reserved (CC BY-NC-SA)",
+   "photo": 278622
+  }
+ ]
 }

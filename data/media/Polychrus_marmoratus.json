@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595930830/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Inacio Oliveira, some rights reserved (CC BY), uploaded by Inacio Oliveira",
+   "photo": 595930830
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487004372/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valentina L., some rights reserved (CC BY-NC), uploaded by Valentina L.",
+   "photo": 487004372
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309203139/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liuba Cubillos Rodríguez, some rights reserved (CC BY-NC), uploaded by Liuba Cubillos Rodríguez",
+   "photo": 309203139
+  }
+ ]
 }

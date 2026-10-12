@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2951884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 2951884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6625552/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob McDougall, some rights reserved (CC BY-NC), uploaded by Bob McDougall",
+   "photo": 6625552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64970409/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+   "photo": 64970409
+  }
+ ]
 }

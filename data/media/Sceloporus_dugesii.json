@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2487908/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Daniel Graf Pérez, some rights reserved (CC BY-NC), uploaded by José Daniel Graf Pérez",
+   "photo": 2487908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581675/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Galindo-Leal, some rights reserved (CC BY-NC), uploaded by Carlos Galindo-Leal",
+   "photo": 581675
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/868328/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Báez, some rights reserved (CC BY-NC), uploaded by Oscar Báez",
+   "photo": 868328
+  }
+ ]
 }

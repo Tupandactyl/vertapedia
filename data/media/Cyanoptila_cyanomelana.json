@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98935926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 98935926
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23999339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 23999339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464122360/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andrey19780619, some rights reserved (CC BY-NC)",
+   "photo": 464122360
+  }
+ ]
 }

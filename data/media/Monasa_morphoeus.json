@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17996462/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+   "photo": 17996462
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17508/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 17508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52799417/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Alberto Conejo Garcia, some rights reserved (CC BY-NC), uploaded by José Alberto Conejo Garcia",
+   "photo": 52799417
+  }
+ ]
 }

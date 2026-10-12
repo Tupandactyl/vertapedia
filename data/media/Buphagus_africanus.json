@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35664926/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 35664926
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1939882
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91377/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) 116916927065934112165, some rights reserved (CC BY), uploaded by 116916927065934112165",
+   "photo": 91377
+  }
+ ]
 }

@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1535186/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1535186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/372754/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Filip Trnka, some rights reserved (CC BY-NC)",
+   "photo": 372754
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/372755/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) RickP 19:22, 13 May 2006 (UTC), some rights reserved (CC BY-SA)",
+   "photo": 372755
+  }
+ ]
 }

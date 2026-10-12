@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17002523/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Eugene Popov, some rights reserved (CC BY), uploaded by Eugene Popov",
+   "photo": 17002523
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17000141/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Eugene Popov, some rights reserved (CC BY), uploaded by Eugene Popov",
+   "photo": 17000141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42200934/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nikita Sevastianov, some rights reserved (CC BY-NC), uploaded by Nikita Sevastianov",
+   "photo": 42200934
+  }
+ ]
 }

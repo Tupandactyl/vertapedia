@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321797424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 321797424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15929514/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernest Porter, some rights reserved (CC BY-NC), uploaded by Ernest Porter",
+   "photo": 15929514
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15195638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael McSweeney, some rights reserved (CC BY-NC), uploaded by Michael McSweeney",
+   "photo": 15195638
+  }
+ ]
 }

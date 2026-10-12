@@ -126,5 +126,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67444195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sergiocanobbio, some rights reserved (CC BY-NC), uploaded by sergiocanobbio",
+   "photo": 67444195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030782/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Geir Drange, some rights reserved (CC BY-NC), uploaded by Geir Drange",
+   "photo": 60030782
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148222642/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Alberto Solís Sarmiento, some rights reserved (CC BY-NC), uploaded by Carlos Alberto Solís Sarmiento",
+   "photo": 148222642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667119/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 667119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44966766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 44966766
+  }
+ ]
 }

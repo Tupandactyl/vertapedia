@@ -38,5 +38,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31189549/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) greenline, some rights reserved (CC BY), uploaded by greenline",
+   "photo": 31189549
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183245471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 183245471
+  }
+ ]
 }

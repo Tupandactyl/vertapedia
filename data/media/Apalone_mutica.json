@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474445282/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Peter Paplanus, some rights reserved (CC BY)",
+   "photo": 474445282
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60933144/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Peter Paplanus, some rights reserved (CC BY)",
+   "photo": 60933144
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134179731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) comrpc, some rights reserved (CC BY-NC)",
+   "photo": 134179731
+  }
+ ]
 }

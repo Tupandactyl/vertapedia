@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401858871/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Manuel Carmona, some rights reserved (CC BY-NC), uploaded by Juan Manuel Carmona",
+   "photo": 401858871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323656126/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Manuel Carmona, some rights reserved (CC BY-NC), uploaded by Juan Manuel Carmona",
+   "photo": 323656126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172993/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 172993
+  }
+ ]
 }

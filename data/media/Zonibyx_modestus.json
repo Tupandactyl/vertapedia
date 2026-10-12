@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69663212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marta_hernandez, some rights reserved (CC BY-NC), uploaded by marta_hernandez",
+   "photo": 69663212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72356360/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Leo Lagos, some rights reserved (CC BY), uploaded by Leo Lagos",
+   "photo": 72356360
+  }
+ ]
 }

@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57885578/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford",
+   "photo": 57885578
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56619659/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY), uploaded by Cullen Hanks",
+   "photo": 56619659
+  }
+ ]
 }

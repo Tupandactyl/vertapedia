@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262067607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabi Rusu, some rights reserved (CC BY-NC), uploaded by Gabi Rusu",
+   "photo": 262067607
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375026197/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Муртаза Снегирёв, some rights reserved (CC BY-NC), uploaded by Муртаза Снегирёв",
+   "photo": 375026197
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3225658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 3225658
+  }
+ ]
 }

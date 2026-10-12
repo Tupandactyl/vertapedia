@@ -181,5 +181,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333378715/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 蔡志偉, some rights reserved (CC BY-NC), uploaded by 蔡志偉",
+   "photo": 333378715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170303378/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 170303378
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531138699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rakesh Dhareshwar, some rights reserved (CC BY-NC), uploaded by Rakesh Dhareshwar",
+   "photo": 531138699
+  }
+ ]
 }

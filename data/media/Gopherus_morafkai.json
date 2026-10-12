@@ -264,5 +264,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347251466/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 347251466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9469151/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) A, some rights reserved (CC BY-NC), uploaded by A",
+   "photo": 9469151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9469152/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) A, some rights reserved (CC BY-NC), uploaded by A",
+   "photo": 9469152
+  }
+ ]
 }

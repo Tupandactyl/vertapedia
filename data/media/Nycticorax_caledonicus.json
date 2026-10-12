@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29852321/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
+   "photo": 29852321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353900584/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pdubbin, some rights reserved (CC BY-NC)",
+   "photo": 353900584
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29852324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
+   "photo": 29852324
+  }
+ ]
 }

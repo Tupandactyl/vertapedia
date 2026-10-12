@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33263064/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Boris Delahaie, some rights reserved (CC BY-NC), uploaded by Boris Delahaie",
+   "photo": 33263064
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98572896/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 98572896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98572998/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 98572998
+  }
+ ]
 }

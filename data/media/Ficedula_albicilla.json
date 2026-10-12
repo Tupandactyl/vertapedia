@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58317668/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Dickson, some rights reserved (CC BY-NC), uploaded by Paul Dickson",
+   "photo": 58317668
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63254921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sahana M, some rights reserved (CC BY-NC), uploaded by Sahana M",
+   "photo": 63254921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73714429/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Анна Васильченко, some rights reserved (CC BY), uploaded by Анна Васильченко",
+   "photo": 73714429
+  }
+ ]
 }

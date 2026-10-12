@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353787029/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maksymilian Wojtkiewicz, some rights reserved (CC BY-NC), uploaded by Maksymilian Wojtkiewicz",
+   "photo": 353787029
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254165134/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 254165134
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522057377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Инна, some rights reserved (CC BY-NC), uploaded by Инна",
+   "photo": 522057377
+  }
+ ]
 }

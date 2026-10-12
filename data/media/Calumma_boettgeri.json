@@ -128,5 +128,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443822324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+   "photo": 443822324
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301641262/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Schenker, some rights reserved (CC BY-NC), uploaded by Sam Schenker",
+   "photo": 301641262
+  }
+ ]
 }

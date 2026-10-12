@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2235823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Flaxington, some rights reserved (CC BY-NC), uploaded by Will Flaxington",
+   "photo": 2235823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2235825/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Flaxington, some rights reserved (CC BY-NC), uploaded by Will Flaxington",
+   "photo": 2235825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2235824/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Flaxington, some rights reserved (CC BY-NC), uploaded by Will Flaxington",
+   "photo": 2235824
+  }
+ ]
 }

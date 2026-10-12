@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8956/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Roberts, some rights reserved (CC BY-NC)",
+   "photo": 8956
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97508320/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Вячеслав Юсупов, some rights reserved (CC BY), uploaded by Вячеслав Юсупов",
+   "photo": 97508320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8955/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mark Kilner, some rights reserved (CC BY-NC-SA)",
+   "photo": 8955
+  }
+ ]
 }

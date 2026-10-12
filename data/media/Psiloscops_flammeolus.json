@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73787227/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 73787227
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2779484/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leticia Soriano Flores, some rights reserved (CC BY-NC), uploaded by Leticia Soriano Flores",
+   "photo": 2779484
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83659476/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephanie Stragier, some rights reserved (CC BY-NC), uploaded by Stephanie Stragier",
+   "photo": 83659476
+  }
+ ]
 }

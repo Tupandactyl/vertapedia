@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120651643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Fuhrmann, some rights reserved (CC BY-NC), uploaded by Thomas Fuhrmann",
+   "photo": 120651643
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128832028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergio R Porto, some rights reserved (CC BY-NC), uploaded by Sergio R Porto",
+   "photo": 128832028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27921158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
+   "photo": 27921158
+  }
+ ]
 }

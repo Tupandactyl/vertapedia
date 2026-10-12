@@ -310,5 +310,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244918310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) azure27014, some rights reserved (CC BY-NC)",
+   "photo": 244918310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109118806/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro D. Vernet P., some rights reserved (CC BY-NC), uploaded by Pedro D. Vernet P.",
+   "photo": 109118806
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337795652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) azure27014, some rights reserved (CC BY-NC)",
+   "photo": 337795652
+  }
+ ]
 }

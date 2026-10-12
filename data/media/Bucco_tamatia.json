@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15932721/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clodoaldo Costa Junior, some rights reserved (CC BY-NC), uploaded by Clodoaldo Costa Junior",
+   "photo": 15932721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61650319/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gerry van Tonder, some rights reserved (CC BY), uploaded by Gerry van Tonder",
+   "photo": 61650319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366355/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 366355
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12760884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryan Maltais, some rights reserved (CC BY-NC), uploaded by Bryan Maltais",
+   "photo": 12760884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31793433/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brandon_dietrich, some rights reserved (CC BY-NC), uploaded by brandon_dietrich",
+   "photo": 31793433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55804495/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alex Slavenko, some rights reserved (CC BY-NC-SA)",
+   "photo": 55804495
+  }
+ ]
 }

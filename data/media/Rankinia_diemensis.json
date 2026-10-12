@@ -103,5 +103,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39892581/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
+   "photo": 39892581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69158/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nuytsia@Tas, some rights reserved (CC BY-NC-SA)",
+   "photo": 69158
+  }
+ ]
 }

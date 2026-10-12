@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450221410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+   "photo": 450221410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461617549/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tano Caperna, some rights reserved (CC BY-NC), uploaded by Tano Caperna",
+   "photo": 461617549
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93021442/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
+   "photo": 93021442
+  }
+ ]
 }

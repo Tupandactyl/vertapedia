@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60771336/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY-NC), uploaded by Trevor Van Loon",
+   "photo": 60771336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1487211/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 1487211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117090142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Glenda Pozo, some rights reserved (CC BY-NC), uploaded by Glenda Pozo",
+   "photo": 117090142
+  }
+ ]
 }

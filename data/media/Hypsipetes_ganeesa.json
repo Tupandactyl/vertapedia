@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8759530/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jacky Judas, some rights reserved (CC BY), uploaded by Jacky Judas",
+   "photo": 8759530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59806964/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Pieter Prins, some rights reserved (CC BY-SA), uploaded by Pieter Prins",
+   "photo": 59806964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265413853/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 265413853
+  }
+ ]
 }

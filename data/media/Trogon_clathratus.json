@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646041/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt MacGillivray from Toronto, Canada, some rights reserved (CC BY)",
+   "photo": 646041
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65437/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-SA)",
+   "photo": 65437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518225502/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rosamiragliotta, some rights reserved (CC BY-NC), uploaded by rosamiragliotta",
+   "photo": 518225502
+  }
+ ]
 }

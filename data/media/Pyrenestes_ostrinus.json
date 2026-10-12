@@ -158,5 +158,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338830965/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tinus Odendaal, some rights reserved (CC BY-NC), uploaded by Tinus Odendaal",
+   "photo": 338830965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105857310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 105857310
+  }
+ ]
 }

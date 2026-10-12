@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59722330/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Nikonorova, some rights reserved (CC BY-NC), uploaded by Marina Nikonorova",
+   "photo": 59722330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412234/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 412234
+  }
+ ]
 }

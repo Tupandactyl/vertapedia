@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110163529/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hough, some rights reserved (CC BY-NC), uploaded by Sam Hough",
+   "photo": 110163529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46568931/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chuck Gates, some rights reserved (CC BY-NC), uploaded by Chuck Gates",
+   "photo": 46568931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21367066/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Luca Fornasari, some rights reserved (CC BY), uploaded by Luca Fornasari",
+   "photo": 21367066
+  }
+ ]
 }

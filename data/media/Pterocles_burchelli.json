@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238722660/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dewald du Plessis, some rights reserved (CC BY-NC), uploaded by Dewald du Plessis",
+   "photo": 238722660
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248090766/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 248090766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122211593/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christiaan Viljoen, some rights reserved (CC BY), uploaded by Christiaan Viljoen",
+   "photo": 122211593
+  }
+ ]
 }

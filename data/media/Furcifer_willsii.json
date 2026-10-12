@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396521164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) globalherping, some rights reserved (CC BY-NC), uploaded by globalherping",
+   "photo": 396521164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401020/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 401020
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730634/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 730634
+  }
+ ]
 }

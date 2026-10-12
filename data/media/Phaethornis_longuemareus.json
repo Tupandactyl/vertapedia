@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169747334/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dabs, some rights reserved (CC BY-NC)",
+   "photo": 169747334
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311762319/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Jeffrey Ringer, some rights reserved (CC BY-NC), uploaded by David Jeffrey Ringer",
+   "photo": 311762319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209160/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 209160
+  }
+ ]
 }

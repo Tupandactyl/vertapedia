@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722041417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jason Leifester, some rights reserved (CC BY-NC), uploaded by Jason Leifester",
+   "photo": 722041417
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459171598/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dbeeke, some rights reserved (CC BY-NC)",
+   "photo": 459171598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146014705/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 146014705
+  }
+ ]
 }

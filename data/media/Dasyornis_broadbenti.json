@@ -158,5 +158,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5808749/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 5808749
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5808750/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) sunphlo from South Australia, some rights reserved (CC BY-SA)",
+   "photo": 5808750
+  }
+ ]
 }

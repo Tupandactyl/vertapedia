@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185142281/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Decourt Théo, some rights reserved (CC BY-NC), uploaded by Decourt Théo",
+   "photo": 185142281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39679744/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 39679744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2867994/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 2867994
+  }
+ ]
 }

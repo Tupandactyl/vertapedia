@@ -139,5 +139,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12993281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andres Cuervo, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Andres Cuervo",
+   "photo": 12993281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248477004/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Royle Safaris",
+   "photo": 248477004
+  }
+ ]
 }

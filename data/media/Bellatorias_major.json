@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10402157/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roxanne Lazarus, some rights reserved (CC BY-NC), uploaded by Roxanne Lazarus",
+   "photo": 10402157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33179939/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Calabretta, some rights reserved (CC BY-NC), uploaded by Mark Calabretta",
+   "photo": 33179939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10402159/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roxanne Lazarus, some rights reserved (CC BY-NC), uploaded by Roxanne Lazarus",
+   "photo": 10402159
+  }
+ ]
 }

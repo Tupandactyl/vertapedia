@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 233696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204912838/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cheryl Rosenfeld, some rights reserved (CC BY-NC), uploaded by Cheryl Rosenfeld",
+   "photo": 204912838
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34629908/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Adrianh M. Orozco, some rights reserved (CC BY), uploaded by Adrianh M. Orozco",
+   "photo": 34629908
+  }
+ ]
 }

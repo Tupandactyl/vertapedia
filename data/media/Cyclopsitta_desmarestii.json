@@ -120,5 +120,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223722645/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yuvalofek, some rights reserved (CC BY-NC)",
+   "photo": 223722645
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178545300/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 178545300
+  }
+ ]
 }

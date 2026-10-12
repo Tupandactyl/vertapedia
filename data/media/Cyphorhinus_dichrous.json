@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119740219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, osa oikeuksista pidätetään (CC BY-NC), lähettänyt David Monroy R",
+   "photo": 119740219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132890948/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Edwin Múnera Chavarría",
+   "photo": 132890948
+  }
+ ]
 }

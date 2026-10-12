@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5279993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC), uploaded by Martin Grimm",
+   "photo": 5279993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56088202/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mwangi wa Gitau, some rights reserved (CC BY-NC), uploaded by Mwangi wa Gitau",
+   "photo": 56088202
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5366435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC), uploaded by Martin Grimm",
+   "photo": 5366435
+  }
+ ]
 }

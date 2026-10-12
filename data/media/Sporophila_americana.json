@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12604371/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Westfall, some rights reserved (CC BY-NC), uploaded by Jim Westfall",
+   "photo": 12604371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368706946/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rosario Douglas, some rights reserved (CC BY), uploaded by Rosario Douglas",
+   "photo": 368706946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75218805/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 75218805
+  }
+ ]
 }

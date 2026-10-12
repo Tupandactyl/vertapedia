@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15477032/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 15477032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341195374/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ana Mireya Guerrero G., some rights reserved (CC BY-NC-SA), uploaded by Ana Mireya Guerrero G.",
+   "photo": 341195374
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258670928/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jackson Frost, some rights reserved (CC BY-NC), uploaded by Jackson Frost",
+   "photo": 258670928
+  }
+ ]
 }

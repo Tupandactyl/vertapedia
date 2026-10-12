@@ -45,5 +45,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595295209/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Arnaud Aury",
+   "photo": 595295209
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419307052/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, osa oikeuksista pidätetään (CC BY-NC-SA), lähettänyt Sergio Rivero Beneitez",
+   "photo": 419307052
+  }
+ ]
 }

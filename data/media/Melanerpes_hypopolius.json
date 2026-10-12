@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46879085/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) GeRa_MaChaDo, some rights reserved (CC BY-NC), uploaded by GeRa_MaChaDo",
+   "photo": 46879085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651855/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) platypus, some rights reserved (CC BY-NC)",
+   "photo": 651855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1644253/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steffanie Hernandez Avila, some rights reserved (CC BY-NC-SA), uploaded by Steffanie Hernandez Avila",
+   "photo": 1644253
+  }
+ ]
 }

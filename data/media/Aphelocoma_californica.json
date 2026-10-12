@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52796822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt K, some rights reserved (CC BY-NC), uploaded by Matt K",
+   "photo": 52796822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121020674/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dawn Beattie, some rights reserved (CC BY)",
+   "photo": 121020674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111094901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Mills, some rights reserved (CC BY-NC), uploaded by Tom Mills",
+   "photo": 111094901
+  }
+ ]
 }

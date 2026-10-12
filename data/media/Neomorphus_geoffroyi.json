@@ -170,5 +170,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437856739/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 437856739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344007996/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto Almeida, some rights reserved (CC BY-NC), uploaded by Roberto Almeida",
+   "photo": 344007996
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366659001/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alonso Garcia, some rights reserved (CC BY-NC), uploaded by Alonso Garcia",
+   "photo": 366659001
+  }
+ ]
 }

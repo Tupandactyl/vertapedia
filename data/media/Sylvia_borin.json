@@ -205,5 +205,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150949826/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) STŁ, some rights reserved (CC BY-NC), uploaded by STŁ",
+   "photo": 150949826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243136745/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC), uploaded by Константин Самодуров",
+   "photo": 243136745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3608435/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Ani Sarkisyan, some rights reserved (CC BY), uploaded by Ani Sarkisyan",
+   "photo": 3608435
+  }
+ ]
 }

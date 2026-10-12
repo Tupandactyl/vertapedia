@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42649395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andy Lazere, some rights reserved (CC BY-NC), uploaded by Andy Lazere",
+   "photo": 42649395
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169714260/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 汪俊良, some rights reserved (CC BY-NC), uploaded by 汪俊良",
+   "photo": 169714260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30989888/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 張子見, some rights reserved (CC BY-NC), uploaded by 張子見",
+   "photo": 30989888
+  }
+ ]
 }

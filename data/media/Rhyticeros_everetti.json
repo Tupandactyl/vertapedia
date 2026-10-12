@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653453164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, bazı hakları saklıdır (CC BY-NC), yükleyen: Peter Ericsson",
+   "photo": 653453164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25580337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, bazı hakları saklıdır (CC BY-NC), yükleyen: Lorenzo Vinciguerra",
+   "photo": 25580337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255637316/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Muhammad Soleh K505, bazı hakları saklıdır (CC BY-SA)",
+   "photo": 255637316
+  }
+ ]
 }

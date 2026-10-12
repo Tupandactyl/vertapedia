@@ -153,5 +153,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330283176/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 330283176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461272517/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Dietze, some rights reserved (CC BY), uploaded by Frank Dietze",
+   "photo": 461272517
+  }
+ ]
 }

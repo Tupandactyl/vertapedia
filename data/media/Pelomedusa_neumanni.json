@@ -73,5 +73,25 @@
    "date": "2024-03-31"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580878268/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) javilangonzalez, some rights reserved (CC BY-NC)",
+   "photo": 580878268
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2465680/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Yvonne A. de Jong, some rights reserved (CC BY-NC-SA), uploaded by Yvonne A. de Jong",
+   "photo": 2465680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238699120/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Teresa Shaefer Randall, some rights reserved (CC BY-NC), uploaded by Teresa Shaefer Randall",
+   "photo": 238699120
+  }
+ ]
 }

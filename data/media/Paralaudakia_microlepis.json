@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76382738/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) emoq, some rights reserved (CC BY-NC), uploaded by emoq",
+   "photo": 76382738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157499660/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 157499660
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12265534/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abbas M.Nezhad, some rights reserved (CC BY-NC), uploaded by Abbas M.Nezhad",
+   "photo": 12265534
+  }
+ ]
 }

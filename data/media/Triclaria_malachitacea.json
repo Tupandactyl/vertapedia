@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159008429/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 159008429
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159008430/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Brendan Ryan, some rights reserved (CC BY-NC-SA)",
+   "photo": 159008430
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159008428/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Henrique, some rights reserved (CC BY-NC)",
+   "photo": 159008428
+  }
+ ]
 }

@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65580533/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) delmer jonathan, some rights reserved (CC BY-NC), uploaded by delmer jonathan",
+   "photo": 65580533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11065806/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mariana González-Ramon, some rights reserved (CC BY-NC), uploaded by Mariana González-Ramon",
+   "photo": 11065806
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8006853/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) La Mancha en Movimiento, some rights reserved (CC BY-NC), uploaded by La Mancha en Movimiento",
+   "photo": 8006853
+  }
+ ]
 }

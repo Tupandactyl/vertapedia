@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3072814/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan Bou Riquer, some rights reserved (CC BY-NC-SA), uploaded by Juan Bou Riquer",
+   "photo": 3072814
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483072980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 483072980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 209151
+  }
+ ]
 }

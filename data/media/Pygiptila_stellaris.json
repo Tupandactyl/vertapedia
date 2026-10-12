@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189441519/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 189441519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38243253/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Harding, some rights reserved (CC BY-NC), uploaded by Jeff Harding",
+   "photo": 38243253
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116313737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 116313737
+  }
+ ]
 }

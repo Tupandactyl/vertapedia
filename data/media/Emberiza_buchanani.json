@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101886708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel König, some rights reserved (CC BY-NC), uploaded by Daniel König",
+   "photo": 101886708
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205731264/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 205731264
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101886715/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel König, some rights reserved (CC BY-NC), uploaded by Daniel König",
+   "photo": 101886715
+  }
+ ]
 }

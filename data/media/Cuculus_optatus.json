@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4873279/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Durand, some rights reserved (CC BY-NC), uploaded by Bruno Durand",
+   "photo": 4873279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152874183/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Игорь Васильевич Фадеев, some rights reserved (CC BY-NC), uploaded by Игорь Васильевич Фадеев",
+   "photo": 152874183
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39014460/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tatsutomo Chin, some rights reserved (CC BY), uploaded by Tatsutomo Chin",
+   "photo": 39014460
+  }
+ ]
 }

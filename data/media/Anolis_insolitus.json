@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421278654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ramón Joel Espinal Acevedo, some rights reserved (CC BY-NC), uploaded by Ramón Joel Espinal Acevedo",
+   "photo": 421278654
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421650908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ramón Joel Espinal Acevedo, some rights reserved (CC BY-NC), uploaded by Ramón Joel Espinal Acevedo",
+   "photo": 421650908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351451/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 351451
+  }
+ ]
 }

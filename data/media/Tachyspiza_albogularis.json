@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484043070/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 484043070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609428476/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Euan Moore, some rights reserved (CC BY), uploaded by Euan Moore",
+   "photo": 609428476
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1380988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+   "photo": 1380988
+  }
+ ]
 }

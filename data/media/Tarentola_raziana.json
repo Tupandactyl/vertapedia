@@ -28,5 +28,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608145808/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustofaustino, some rights reserved (CC BY-NC)",
+   "photo": 608145808
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607929742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustofaustino, some rights reserved (CC BY-NC)",
+   "photo": 607929742
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607929737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustofaustino, some rights reserved (CC BY-NC)",
+   "photo": 607929737
+  }
+ ]
 }

@@ -123,5 +123,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53858000/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaozi Chen, some rights reserved (CC BY-NC), uploaded by Gaozi Chen",
+   "photo": 53858000
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37569217/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 37569217
+  }
+ ]
 }

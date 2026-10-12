@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7623123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7623123
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468362872/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liam Wolff, some rights reserved (CC BY-NC), uploaded by Liam Wolff",
+   "photo": 468362872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73616/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marie Cerda, some rights reserved (CC BY)",
+   "photo": 73616
+  }
+ ]
 }

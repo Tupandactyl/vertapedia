@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348834750/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 348834750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348835100/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 348835100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250470788/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Patrick",
+   "photo": 250470788
+  }
+ ]
 }

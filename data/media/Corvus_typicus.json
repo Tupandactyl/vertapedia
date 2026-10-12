@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13409031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13409031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39477/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 39477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151755/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bc999 (Black crow), some rights reserved (CC BY-SA)",
+   "photo": 151755
+  }
+ ]
 }

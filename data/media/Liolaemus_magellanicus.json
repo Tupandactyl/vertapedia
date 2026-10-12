@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52469769/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vicente Valdes Guzman, some rights reserved (CC BY-NC), uploaded by Vicente Valdes Guzman",
+   "photo": 52469769
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112467632/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudio Reyes-Olivares, some rights reserved (CC BY-NC), uploaded by Claudio Reyes-Olivares",
+   "photo": 112467632
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114818205/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Gutiérrez Maier, some rights reserved (CC BY-NC), uploaded by Pablo Gutiérrez Maier",
+   "photo": 114818205
+  }
+ ]
 }

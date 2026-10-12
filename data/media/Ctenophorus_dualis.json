@@ -73,5 +73,25 @@
    "date": "2025-10-17"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/505527180/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) pimelea, some rights reserved (CC BY), uploaded by pimelea",
+   "photo": 505527180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163369024/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jolanda Keeble, some rights reserved (CC BY-NC), uploaded by Jolanda Keeble",
+   "photo": 163369024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573705454/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alfredhidi, some rights reserved (CC BY-NC)",
+   "photo": 573705454
+  }
+ ]
 }

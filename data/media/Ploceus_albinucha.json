@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/539475777/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Bradfield, some rights reserved (CC BY-NC), uploaded by Simon Bradfield",
+   "photo": 539475777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344643047/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 344643047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108334262/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wimvz, some rights reserved (CC BY-NC), uploaded by wimvz",
+   "photo": 108334262
+  }
+ ]
 }

@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/779498/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JerryFriedman, some rights reserved (CC BY-SA)",
+   "photo": 779498
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/779499/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nevit Dilmen, some rights reserved (CC BY-SA)",
+   "photo": 779499
+  }
+ ]
 }

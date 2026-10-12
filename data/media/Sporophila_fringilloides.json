@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89941417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 89941417
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29837471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Leite, some rights reserved (CC BY-NC), uploaded by Gabriel Leite",
+   "photo": 29837471
+  }
+ ]
 }

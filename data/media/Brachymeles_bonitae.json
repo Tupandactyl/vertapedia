@@ -51,5 +51,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50506387/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 50506387
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347752980/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 347752980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347752972/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 347752972
+  }
+ ]
 }

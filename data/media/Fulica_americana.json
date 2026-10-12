@@ -249,5 +249,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344000000/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierce Louderback, some rights reserved (CC BY-NC), uploaded by Pierce Louderback",
+   "photo": 344000000
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4676531/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) DigiBirdTrek, some rights reserved (CC BY-NC-SA), uploaded by DigiBirdTrek",
+   "photo": 4676531
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44294664/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 44294664
+  }
+ ]
 }

@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4867575/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nathan Velasco, some rights reserved (CC BY-NC-SA), uploaded by Nathan Velasco",
+   "photo": 4867575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102882293/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Emmanuel Guevara Lazcano, some rights reserved (CC BY-NC-SA), uploaded by Emmanuel Guevara Lazcano",
+   "photo": 102882293
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4867582/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nathan Velasco, some rights reserved (CC BY-NC-SA), uploaded by Nathan Velasco",
+   "photo": 4867582
+  }
+ ]
 }

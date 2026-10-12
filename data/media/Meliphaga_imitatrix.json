@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51983724/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 51983724
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67417114/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kerrycoleman, some rights reserved (CC BY-NC), uploaded by kerrycoleman",
+   "photo": 67417114
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70482507/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Ayers, some rights reserved (CC BY-NC), uploaded by Mark Ayers",
+   "photo": 70482507
+  }
+ ]
 }

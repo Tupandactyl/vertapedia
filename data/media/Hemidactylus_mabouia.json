@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148226455/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Torres, some rights reserved (CC BY-NC), uploaded by David Torres",
+   "photo": 148226455
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70887775/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alexandre Roux, some rights reserved (CC BY-NC-SA)",
+   "photo": 70887775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339999630/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 339999630
+  }
+ ]
 }

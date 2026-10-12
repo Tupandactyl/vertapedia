@@ -47,5 +47,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/603687062/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC), uploaded by peter maaskant",
+   "photo": 603687062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537715014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pgkaestner, some rights reserved (CC BY-NC), uploaded by pgkaestner",
+   "photo": 537715014
+  }
+ ]
 }

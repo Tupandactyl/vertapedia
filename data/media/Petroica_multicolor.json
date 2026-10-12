@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445011643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juliesarna, some rights reserved (CC BY-NC), uploaded by juliesarna",
+   "photo": 445011643
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237075123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francesco Martoni, some rights reserved (CC BY-NC), uploaded by Francesco Martoni",
+   "photo": 237075123
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120404403/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diana_shang, some rights reserved (CC BY-NC)",
+   "photo": 120404403
+  }
+ ]
 }

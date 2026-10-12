@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104817340/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) auntie_uncle, some rights reserved (CC BY-NC), uploaded by auntie_uncle",
+   "photo": 104817340
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240940/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Herman Mays, some rights reserved (CC BY-NC-SA)",
+   "photo": 240940
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60369535/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Julia Moning, some rights reserved (CC BY), uploaded by Julia Moning",
+   "photo": 60369535
+  }
+ ]
 }

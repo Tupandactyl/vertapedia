@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444374366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+   "photo": 444374366
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54691426/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Love, some rights reserved (CC BY-NC), uploaded by Anne Love",
+   "photo": 54691426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441173226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 441173226
+  }
+ ]
 }

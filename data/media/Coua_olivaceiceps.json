@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3776579/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, osa oikeuksista pidätetään (CC BY)",
+   "photo": 3776579
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48148125/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cin-Ty Lee, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Cin-Ty Lee",
+   "photo": 48148125
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60586147/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, osa oikeuksista pidätetään (CC BY), lähettänyt William Stephens",
+   "photo": 60586147
+  }
+ ]
 }

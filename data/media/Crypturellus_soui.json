@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582371550/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santi MD, some rights reserved (CC BY-NC), uploaded by Santi MD",
+   "photo": 582371550
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113416478/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría",
+   "photo": 113416478
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252194764/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gary L.Clark, some rights reserved (CC BY-SA)",
+   "photo": 252194764
+  }
+ ]
 }

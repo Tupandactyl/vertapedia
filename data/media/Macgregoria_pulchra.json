@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34623861/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 34623861
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3074286/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3074286
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34623893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 34623893
+  }
+ ]
 }

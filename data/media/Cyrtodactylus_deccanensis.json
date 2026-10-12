@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30511381/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mayuresh Kulkarni, some rights reserved (CC BY-NC), uploaded by Mayuresh Kulkarni",
+   "photo": 30511381
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329167989/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 329167989
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248715552/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hardeep Gazdar, some rights reserved (CC BY-NC), uploaded by Hardeep Gazdar",
+   "photo": 248715552
+  }
+ ]
 }

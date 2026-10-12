@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6674965/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tun Pin ONG, some rights reserved (CC BY-SA)",
+   "photo": 6674965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90580680/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MSH Sourav, some rights reserved (CC BY-NC), uploaded by MSH Sourav",
+   "photo": 90580680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467516577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 467516577
+  }
+ ]
 }

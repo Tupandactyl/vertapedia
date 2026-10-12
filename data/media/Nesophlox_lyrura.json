@@ -124,5 +124,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465597004/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) M.R. Perry, osa oikeuksista pidätetään (CC BY), lähettänyt M.R. Perry",
+   "photo": 465597004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460333850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Johnson, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Brian Johnson",
+   "photo": 460333850
+  }
+ ]
 }

@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337787986/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 337787986
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306243996/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gould, 1838, some rights reserved (CC BY-SA)",
+   "photo": 306243996
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306244008/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rawpixel, some rights reserved (CC BY-SA)",
+   "photo": 306244008
+  }
+ ]
 }

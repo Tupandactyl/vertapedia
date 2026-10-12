@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340093049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC), uploaded by Luke Verburgt",
+   "photo": 340093049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15616035/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 15616035
+  }
+ ]
 }

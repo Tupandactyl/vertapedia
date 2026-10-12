@@ -262,5 +262,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365307657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Manzur, some rights reserved (CC BY-NC), uploaded by Daniel Manzur",
+   "photo": 365307657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12255959/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY-SA), uploaded by Judy Gallagher",
+   "photo": 12255959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382760285/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomaz de Carvalho Callado, some rights reserved (CC BY), uploaded by Thomaz de Carvalho Callado",
+   "photo": 382760285
+  }
+ ]
 }

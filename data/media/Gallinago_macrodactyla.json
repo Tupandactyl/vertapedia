@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455072712/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 455072712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243840285/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lappuggla, some rights reserved (CC BY-NC)",
+   "photo": 243840285
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14163901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 14163901
+  }
+ ]
 }

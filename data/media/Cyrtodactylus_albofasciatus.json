@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229498084/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bala Subramanian, some rights reserved (CC BY-SA), uploaded by Bala Subramanian",
+   "photo": 229498084
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49253610/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anil Kumar Verma, some rights reserved (CC BY-NC), uploaded by Anil Kumar Verma",
+   "photo": 49253610
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27862074/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) harshithjv, some rights reserved (CC BY-NC-SA), uploaded by harshithjv",
+   "photo": 27862074
+  }
+ ]
 }

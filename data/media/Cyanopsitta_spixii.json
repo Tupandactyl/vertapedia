@@ -200,5 +200,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157825506/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Etna 1984, some rights reserved (CC BY-SA)",
+   "photo": 157825506
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64083200/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rüdiger Stehn, some rights reserved (CC BY-SA)",
+   "photo": 64083200
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166298552/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Evan Centanni, some rights reserved (CC BY-SA)",
+   "photo": 166298552
+  }
+ ]
 }

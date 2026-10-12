@@ -46,5 +46,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180508361/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 180508361
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81339574/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY), uploaded by Kseniia Marianna Prondzynska",
+   "photo": 81339574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204120176/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY), uploaded by Kseniia Marianna Prondzynska",
+   "photo": 204120176
+  }
+ ]
 }

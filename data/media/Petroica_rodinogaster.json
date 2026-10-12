@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402362902/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Allen, some rights reserved (CC BY), uploaded by Andrew Allen",
+   "photo": 402362902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363090580/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) toohey-forest-wildlife, some rights reserved (CC BY-NC), uploaded by toohey-forest-wildlife",
+   "photo": 363090580
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343749551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Solic, some rights reserved (CC BY-NC), uploaded by Rob Solic",
+   "photo": 343749551
+  }
+ ]
 }

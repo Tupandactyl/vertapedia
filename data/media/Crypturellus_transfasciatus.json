@@ -136,5 +136,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252195017/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) TonyCastro, some rights reserved (CC BY-SA)",
+   "photo": 252195017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/940273/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 940273
+  }
+ ]
 }

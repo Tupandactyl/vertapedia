@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369948970/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rollinkansas, some rights reserved (CC BY-NC)",
+   "photo": 369948970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336986260/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Morgan Heinz, some rights reserved (CC BY-NC), uploaded by Morgan Heinz",
+   "photo": 336986260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590187327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sociedad por la Biodiversidad de la Costa, some rights reserved (CC BY-NC), uploaded by Sociedad por la Biodiversidad de la Costa",
+   "photo": 590187327
+  }
+ ]
 }

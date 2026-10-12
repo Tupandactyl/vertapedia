@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336780320/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 336780320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357037790/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 357037790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460125993/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zfrinan, some rights reserved (CC BY-NC)",
+   "photo": 460125993
+  }
+ ]
 }

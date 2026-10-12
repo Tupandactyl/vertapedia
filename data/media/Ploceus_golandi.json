@@ -42,5 +42,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1789376/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 1789376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598833937/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin HW Jackson, some rights reserved (CC BY-NC), uploaded by Colin HW Jackson",
+   "photo": 598833937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1789377/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 1789377
+  }
+ ]
 }

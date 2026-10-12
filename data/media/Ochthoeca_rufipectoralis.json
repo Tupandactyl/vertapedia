@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71781309/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 71781309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76910993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Finca Suasie, some rights reserved (CC BY-NC), uploaded by Finca Suasie",
+   "photo": 76910993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58832514/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Harding, some rights reserved (CC BY-NC), uploaded by Jeff Harding",
+   "photo": 58832514
+  }
+ ]
 }

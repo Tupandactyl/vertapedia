@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99912919/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 99912919
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99912752/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 99912752
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25578502/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robert_s, some rights reserved (CC BY-NC), uploaded by robert_s",
+   "photo": 25578502
+  }
+ ]
 }

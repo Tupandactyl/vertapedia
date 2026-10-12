@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69482001/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Blair Dudeck, some rights reserved (CC BY), uploaded by Blair Dudeck",
+   "photo": 69482001
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8469306/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Eugenio Padilla, some rights reserved (CC BY-SA), uploaded by Eugenio Padilla",
+   "photo": 8469306
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144836425/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uriel, some rights reserved (CC BY-NC), uploaded by Uriel",
+   "photo": 144836425
+  }
+ ]
 }

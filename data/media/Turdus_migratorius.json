@@ -194,5 +194,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34859026/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+   "photo": 34859026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111891996/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY)",
+   "photo": 111891996
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111891993/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY)",
+   "photo": 111891993
+  }
+ ]
 }

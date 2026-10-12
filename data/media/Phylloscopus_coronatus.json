@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224009/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Hiyashi Haka, some rights reserved (CC BY-NC-SA)",
+   "photo": 224009
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24401331/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andriy, some rights reserved (CC BY-NC), uploaded by andriy",
+   "photo": 24401331
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24401351/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andriy, some rights reserved (CC BY-NC), uploaded by andriy",
+   "photo": 24401351
+  }
+ ]
 }

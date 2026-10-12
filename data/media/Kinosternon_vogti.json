@@ -48,5 +48,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52893791/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Cuevas, some rights reserved (CC BY-NC), uploaded by Pablo Cuevas",
+   "photo": 52893791
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90090052/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) biologotorres, some rights reserved (CC BY-NC)",
+   "photo": 90090052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90090036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) biologotorres, some rights reserved (CC BY-NC)",
+   "photo": 90090036
+  }
+ ]
 }

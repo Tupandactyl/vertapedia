@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21569387/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Fred Hochstaedter, some rights reserved (CC BY-NC-SA)",
+   "photo": 21569387
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504510244/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) C. Stewart, some rights reserved (CC BY-NC), uploaded by C. Stewart",
+   "photo": 504510244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/497809644/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jef-B, some rights reserved (CC BY-NC), uploaded by Jef-B",
+   "photo": 497809644
+  }
+ ]
 }

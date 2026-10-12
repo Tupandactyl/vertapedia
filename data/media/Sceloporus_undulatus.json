@@ -73,5 +73,25 @@
    "date": "2026-06-03"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448207427/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) redhat, some rights reserved (CC BY-NC), uploaded by redhat",
+   "photo": 448207427
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195152486/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) apistoriver, some rights reserved (CC BY-NC), uploaded by apistoriver",
+   "photo": 195152486
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254395826/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philip Kline, some rights reserved (CC BY-NC), uploaded by Philip Kline",
+   "photo": 254395826
+  }
+ ]
 }

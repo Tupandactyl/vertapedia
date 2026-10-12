@@ -261,5 +261,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91218862/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 91218862
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53183971/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC), uploaded by Илья Сухов",
+   "photo": 53183971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9291699/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+   "photo": 9291699
+  }
+ ]
 }

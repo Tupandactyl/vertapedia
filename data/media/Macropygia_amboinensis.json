@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5134872/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 5134872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387344802/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fiona L, some rights reserved (CC BY-NC), uploaded by Fiona L",
+   "photo": 387344802
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369243182/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rtsy, some rights reserved (CC BY-NC)",
+   "photo": 369243182
+  }
+ ]
 }

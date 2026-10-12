@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32095733/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Estrada, some rights reserved (CC BY-NC), uploaded by Eduardo Estrada",
+   "photo": 32095733
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8277505/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+   "photo": 8277505
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7617229/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7617229
+  }
+ ]
 }

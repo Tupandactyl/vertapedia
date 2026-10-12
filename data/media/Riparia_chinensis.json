@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336299303/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stanley Chan, some rights reserved (CC BY-NC), uploaded by Stanley Chan",
+   "photo": 336299303
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2872920/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 2872920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1731222/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tamsin Carlisle, some rights reserved (CC BY-NC-SA)",
+   "photo": 1731222
+  }
+ ]
 }

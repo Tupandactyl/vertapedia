@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416569232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valter Medeiros, some rights reserved (CC BY-NC), uploaded by Valter Medeiros",
+   "photo": 416569232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219400128/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jonas Kraft, some rights reserved (CC BY), uploaded by Jonas Kraft",
+   "photo": 219400128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219400173/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jonas Kraft, some rights reserved (CC BY), uploaded by Jonas Kraft",
+   "photo": 219400173
+  }
+ ]
 }

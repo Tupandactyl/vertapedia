@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23383445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaime R Briseño, some rights reserved (CC BY-NC), uploaded by Jaime R Briseño",
+   "photo": 23383445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46613795/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) proservi, some rights reserved (CC BY-NC), uploaded by proservi",
+   "photo": 46613795
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73616241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel Francisco Enriquez Galaz, some rights reserved (CC BY-NC), uploaded by Miguel Francisco Enriquez Galaz",
+   "photo": 73616241
+  }
+ ]
 }

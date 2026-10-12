@@ -432,5 +432,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446571555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sandiwheeler, some rights reserved (CC BY-NC), uploaded by sandiwheeler",
+   "photo": 446571555
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482931168/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josiah Smith, some rights reserved (CC BY-NC), uploaded by Josiah Smith",
+   "photo": 482931168
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118644502/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cathy Bester, some rights reserved (CC BY-NC), uploaded by Cathy Bester",
+   "photo": 118644502
+  }
+ ]
 }

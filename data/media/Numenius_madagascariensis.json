@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422481739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grace Bryant, some rights reserved (CC BY-NC), uploaded by Grace Bryant",
+   "photo": 422481739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103370569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 103370569
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174505418/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joel Poyitt, some rights reserved (CC BY-NC), uploaded by Joel Poyitt",
+   "photo": 174505418
+  }
+ ]
 }

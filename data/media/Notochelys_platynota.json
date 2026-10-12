@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109870849/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jan Vršovský, some rights reserved (CC BY-SA), uploaded by Jan Vršovský",
+   "photo": 109870849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144177766/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Philipp",
+   "photo": 144177766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172489744/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mohamad Jakaria, some rights reserved (CC BY-NC), uploaded by Mohamad Jakaria",
+   "photo": 172489744
+  }
+ ]
 }

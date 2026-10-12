@@ -216,5 +216,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92960397/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 92960397
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44306267/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Karim Haddad, some rights reserved (CC BY), uploaded by Karim Haddad",
+   "photo": 44306267
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44304795/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Karim Haddad, some rights reserved (CC BY), uploaded by Karim Haddad",
+   "photo": 44304795
+  }
+ ]
 }

@@ -131,5 +131,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39999837/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergey Pisarevskiy, some rights reserved (CC BY-NC-SA)",
+   "photo": 39999837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4353776/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 4353776
+  }
+ ]
 }

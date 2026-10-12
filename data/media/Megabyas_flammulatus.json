@@ -128,5 +128,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8176559/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergey Pisarevskiy, some rights reserved (CC BY-NC-SA)",
+   "photo": 8176559
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8176560/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 8176560
+  }
+ ]
 }

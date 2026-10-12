@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625387117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan C. Sánchez-Nivicela, some rights reserved (CC BY-NC), uploaded by Juan C. Sánchez-Nivicela",
+   "photo": 625387117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297832501/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jaime Fajardo Torres, some rights reserved (CC BY-NC-SA), uploaded by Jaime Fajardo Torres",
+   "photo": 297832501
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102172600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Green Jewel, some rights reserved (CC BY-NC), uploaded by Green Jewel",
+   "photo": 102172600
+  }
+ ]
 }

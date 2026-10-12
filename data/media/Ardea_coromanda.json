@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77613552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 77613552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272276299/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by John Cull",
+   "photo": 272276299
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5625114/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor W Fazio III, some rights reserved (CC BY-NC), uploaded by Victor W Fazio III",
+   "photo": 5625114
+  }
+ ]
 }

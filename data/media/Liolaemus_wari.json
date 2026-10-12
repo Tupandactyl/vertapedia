@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275724085/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Museo de Insectos Ayacucho MIYA Waylis",
+   "photo": 275724085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275723873/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Museo de Insectos Ayacucho MIYA Waylis",
+   "photo": 275723873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306188329/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nAguilar C, Wood Jr P, Cusi J, Guzmán A, Huari F, Lundberg M, Mortensen E, Ramírez C, Robles D, Suárez J, Ticona A, Vargas V, Venegas P, Sites Jr J, some rights reserved (CC BY)",
+   "photo": 306188329
+  }
+ ]
 }

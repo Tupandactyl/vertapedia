@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92370587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Guillermo, some rights reserved (CC BY-NC), uploaded by Luis Guillermo",
+   "photo": 92370587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92370840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Guillermo, some rights reserved (CC BY-NC), uploaded by Luis Guillermo",
+   "photo": 92370840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115327897/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raúl Trujillo Tovar, some rights reserved (CC BY-NC), uploaded by Raúl Trujillo Tovar",
+   "photo": 115327897
+  }
+ ]
 }

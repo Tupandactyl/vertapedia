@@ -174,5 +174,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344678876/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY), uploaded by Juan Cruzado Cortés",
+   "photo": 344678876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230212815/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Hoekman, some rights reserved (CC BY), uploaded by Paul Hoekman",
+   "photo": 230212815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229340308/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jachatata, some rights reserved (CC BY-NC), uploaded by jachatata",
+   "photo": 229340308
+  }
+ ]
 }

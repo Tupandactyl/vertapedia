@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107803786/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, osa oikeuksista pidätetään (CC BY), lähettänyt Christoph Moning",
+   "photo": 107803786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13409490/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Scott Bowers",
+   "photo": 13409490
+  }
+ ]
 }

@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5824/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 5824
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248928692/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liam Huber, some rights reserved (CC BY-NC), uploaded by Liam Huber",
+   "photo": 248928692
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325352565/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Martin, some rights reserved (CC BY-NC), uploaded by David Martin",
+   "photo": 325352565
+  }
+ ]
 }

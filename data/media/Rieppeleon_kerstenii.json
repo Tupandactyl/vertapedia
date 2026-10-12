@@ -145,5 +145,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91829046/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zarek Cockar, some rights reserved (CC BY-NC), uploaded by Zarek Cockar",
+   "photo": 91829046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC), uploaded by Vlada Trailin",
+   "photo": 363463
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11402822/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Warren Dunlop, some rights reserved (CC BY-NC), uploaded by Warren Dunlop",
+   "photo": 11402822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60763/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) EOL Turtle Curator, some rights reserved (CC BY-NC-SA)",
+   "photo": 60763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12434553/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Prior, some rights reserved (CC BY), uploaded by Paul Prior",
+   "photo": 12434553
+  }
+ ]
 }

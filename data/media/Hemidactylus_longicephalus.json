@@ -38,5 +38,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544340758/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC), uploaded by Luke Kemp",
+   "photo": 544340758
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13261237/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard, some rights reserved (CC BY-NC), uploaded by Richard",
+   "photo": 13261237
+  }
+ ]
 }

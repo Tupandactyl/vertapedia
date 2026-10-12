@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554887341/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Moynan, some rights reserved (CC BY-NC), uploaded by Sam Moynan",
+   "photo": 554887341
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57991609/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Weatherley, some rights reserved (CC BY-NC), uploaded by Ben Weatherley",
+   "photo": 57991609
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393742567/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel A Mejias, PhD., some rights reserved (CC BY-NC), uploaded by Miguel A Mejias, PhD.",
+   "photo": 393742567
+  }
+ ]
 }

@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32277964/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sharma BC, some rights reserved (CC BY-NC), uploaded by Sharma BC",
+   "photo": 32277964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617702750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phuwarin Suchartbunmak, some rights reserved (CC BY-NC), uploaded by Phuwarin Suchartbunmak",
+   "photo": 617702750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635884515/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samantha Poh, some rights reserved (CC BY-NC), uploaded by Samantha Poh",
+   "photo": 635884515
+  }
+ ]
 }

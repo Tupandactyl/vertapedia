@@ -80,5 +80,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339945639/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 339945639
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18871510/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 18871510
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18871514/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 18871514
+  }
+ ]
 }

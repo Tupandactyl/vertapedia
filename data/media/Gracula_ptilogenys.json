@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360518881/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 360518881
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32118257/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shanelle Wikramanayake, some rights reserved (CC BY-NC), uploaded by Shanelle Wikramanayake",
+   "photo": 32118257
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47593854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chathuri Jayatissa, some rights reserved (CC BY-NC), uploaded by Chathuri Jayatissa",
+   "photo": 47593854
+  }
+ ]
 }

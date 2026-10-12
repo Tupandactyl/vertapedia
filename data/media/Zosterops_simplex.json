@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20010236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
+   "photo": 20010236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178194383/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wangleeping, some rights reserved (CC BY-NC), uploaded by wangleeping",
+   "photo": 178194383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113869917/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by 葉子",
+   "photo": 113869917
+  }
+ ]
 }

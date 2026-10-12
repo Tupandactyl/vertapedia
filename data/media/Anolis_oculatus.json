@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353044159/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emmanuel GIFFARD, some rights reserved (CC BY-NC), uploaded by Emmanuel GIFFARD",
+   "photo": 353044159
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15661304/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ColinDJones, some rights reserved (CC BY-NC), uploaded by ColinDJones",
+   "photo": 15661304
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11899059/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hans Holbrook, some rights reserved (CC BY-NC), uploaded by Hans Holbrook",
+   "photo": 11899059
+  }
+ ]
 }

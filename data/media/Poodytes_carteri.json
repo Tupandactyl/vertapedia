@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350267469/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lachlan Copeland, some rights reserved (CC BY-SA), uploaded by Lachlan Copeland",
+   "photo": 350267469
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358093383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ptrbyrnes, some rights reserved (CC BY-NC), uploaded by ptrbyrnes",
+   "photo": 358093383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304105896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 304105896
+  }
+ ]
 }

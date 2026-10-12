@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457213647/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC), uploaded by peter maaskant",
+   "photo": 457213647
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23318770/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mark O'Brien, some rights reserved (CC BY), uploaded by Mark O'Brien",
+   "photo": 23318770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23318774/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark O'Brien, some rights reserved (CC BY-NC), uploaded by Mark O'Brien",
+   "photo": 23318774
+  }
+ ]
 }

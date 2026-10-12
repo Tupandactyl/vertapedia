@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169766035/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) methlog, some rights reserved (CC BY-NC)",
+   "photo": 169766035
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189254756/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
+   "photo": 189254756
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450420378/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Barrera Ocampo, some rights reserved (CC BY-NC), uploaded by Felipe Barrera Ocampo",
+   "photo": 450420378
+  }
+ ]
 }

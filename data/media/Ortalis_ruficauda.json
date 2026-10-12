@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105770976/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel A. Pérez R., some rights reserved (CC BY-NC), uploaded by Manuel A. Pérez R.",
+   "photo": 105770976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105770518/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel A. Pérez R., some rights reserved (CC BY-NC), uploaded by Manuel A. Pérez R.",
+   "photo": 105770518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42943545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paula_owl, some rights reserved (CC BY-NC)",
+   "photo": 42943545
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8050013/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt Goff, some rights reserved (CC BY-NC-SA), uploaded by Matt Goff",
+   "photo": 8050013
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175487686/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "photo": 175487686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11832486/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC), uploaded by Paul Tavares",
+   "photo": 11832486
+  }
+ ]
 }

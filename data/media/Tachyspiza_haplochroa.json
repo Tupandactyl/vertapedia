@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61259354/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erland Refling Nielsen, some rights reserved (CC BY-NC)",
+   "photo": 61259354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42080477/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 42080477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315709077/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valentin Nemia, some rights reserved (CC BY-NC), uploaded by Valentin Nemia",
+   "photo": 315709077
+  }
+ ]
 }

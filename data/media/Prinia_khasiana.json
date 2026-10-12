@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30249530/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Mikael Bauer",
+   "photo": 30249530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234861291/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Von Fabian B, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Von Fabian B",
+   "photo": 234861291
+  }
+ ]
 }

@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172053736/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 172053736
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64468212/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clayton H. Ziemke, some rights reserved (CC BY-NC), uploaded by Clayton H. Ziemke",
+   "photo": 64468212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185511317/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dick Culbert, some rights reserved (CC BY)",
+   "photo": 185511317
+  }
+ ]
 }

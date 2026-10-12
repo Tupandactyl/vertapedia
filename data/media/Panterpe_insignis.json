@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147535775/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Castelein, some rights reserved (CC BY-NC), uploaded by Alex Castelein",
+   "photo": 147535775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7749988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7749988
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351311565/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) heidyshapiro, some rights reserved (CC BY-NC)",
+   "photo": 351311565
+  }
+ ]
 }

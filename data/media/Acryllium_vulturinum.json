@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74709526/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joni Overbosch, some rights reserved (CC BY-NC), uploaded by Joni Overbosch",
+   "photo": 74709526
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331188629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Burak Doğansoysal, some rights reserved (CC BY-NC), uploaded by Burak Doğansoysal",
+   "photo": 331188629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67442286/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 67442286
+  }
+ ]
 }

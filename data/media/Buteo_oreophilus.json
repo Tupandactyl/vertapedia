@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208740031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gregg Darling, some rights reserved (CC BY-NC), uploaded by Gregg Darling",
+   "photo": 208740031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246417309/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 246417309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89338128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Martin, some rights reserved (CC BY-NC), uploaded by David Martin",
+   "photo": 89338128
+  }
+ ]
 }

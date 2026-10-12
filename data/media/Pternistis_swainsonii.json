@@ -101,5 +101,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5635667/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 5635667
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61564038/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) trot, some rights reserved (CC BY-NC-SA), uploaded by trot",
+   "photo": 61564038
+  }
+ ]
 }

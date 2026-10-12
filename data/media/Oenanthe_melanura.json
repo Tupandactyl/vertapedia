@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11582997/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Vijay Barve",
+   "photo": 11582997
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649543/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) PsJeremy, some rights reserved (CC BY)",
+   "photo": 649543
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319477589/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Slavenko, some rights reserved (CC BY-NC), uploaded by Alex Slavenko",
+   "photo": 319477589
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88171938/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Caballero, some rights reserved (CC BY-NC), uploaded by Diego Caballero",
+   "photo": 88171938
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68180/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 68180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473685/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francisco Severo Neto, some rights reserved (CC BY-NC), uploaded by Francisco Severo Neto",
+   "photo": 473685
+  }
+ ]
 }

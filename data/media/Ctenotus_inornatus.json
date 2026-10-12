@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341408462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 341408462
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1150773/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Travis W. Reeder, some rights reserved (CC BY-NC), uploaded by Travis W. Reeder",
+   "photo": 1150773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295893352/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 295893352
+  }
+ ]
 }

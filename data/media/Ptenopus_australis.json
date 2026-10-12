@@ -33,5 +33,25 @@
    "date": "2017-03-05"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11779598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 11779598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11779590/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 11779590
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11779515/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 11779515
+  }
+ ]
 }

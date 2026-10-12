@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117778243/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 117778243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266780041/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Crocombe, some rights reserved (CC BY-NC), uploaded by Jeff Crocombe",
+   "photo": 266780041
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266780045/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Crocombe, some rights reserved (CC BY-NC), uploaded by Jeff Crocombe",
+   "photo": 266780045
+  }
+ ]
 }

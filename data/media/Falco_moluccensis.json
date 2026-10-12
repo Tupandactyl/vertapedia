@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10195620/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut",
+   "photo": 10195620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64408829/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 64408829
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95819804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 95819804
+  }
+ ]
 }

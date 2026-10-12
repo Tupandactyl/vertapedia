@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447978161/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joseluisblazquez, some rights reserved (CC BY-NC)",
+   "photo": 447978161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42261908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guille Ivan Spajic, some rights reserved (CC BY-NC), uploaded by Guille Ivan Spajic",
+   "photo": 42261908
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202653367/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silvia Mallet, some rights reserved (CC BY-NC), uploaded by Silvia Mallet",
+   "photo": 202653367
+  }
+ ]
 }

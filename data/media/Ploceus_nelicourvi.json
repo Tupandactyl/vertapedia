@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3613400/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3613400
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444446370/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grace Bryant, some rights reserved (CC BY-NC), uploaded by Grace Bryant",
+   "photo": 444446370
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12364994/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 12364994
+  }
+ ]
 }

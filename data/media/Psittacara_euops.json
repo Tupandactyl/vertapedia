@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367776828/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ydielveunes, some rights reserved (CC BY-NC)",
+   "photo": 367776828
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104131021/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 104131021
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75912769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ALAN SANKEY, some rights reserved (CC BY-NC), uploaded by ALAN SANKEY",
+   "photo": 75912769
+  }
+ ]
 }

@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63395224/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Nikonorova, some rights reserved (CC BY-NC), uploaded by Marina Nikonorova",
+   "photo": 63395224
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63395213/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Nikonorova, some rights reserved (CC BY-NC), uploaded by Marina Nikonorova",
+   "photo": 63395213
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62545876/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 62545876
+  }
+ ]
 }

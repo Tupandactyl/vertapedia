@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35800662/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo Menéndez, some rights reserved (CC BY-NC), uploaded by Guillermo Menéndez",
+   "photo": 35800662
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29796380/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Leite, some rights reserved (CC BY-NC), uploaded by Gabriel Leite",
+   "photo": 29796380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26689851/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26689851
+  }
+ ]
 }

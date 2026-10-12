@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619673392/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon",
+   "photo": 619673392
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250797025/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Prior, some rights reserved (CC BY), uploaded by Paul Prior",
+   "photo": 250797025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31112777/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Zygy",
+   "photo": 31112777
+  }
+ ]
 }

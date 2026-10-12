@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253989713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jakeh2022, some rights reserved (CC BY-NC)",
+   "photo": 253989713
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253989398/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jakeh2022, some rights reserved (CC BY-NC)",
+   "photo": 253989398
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237575497/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kris Bernard, some rights reserved (CC BY-NC), uploaded by Kris Bernard",
+   "photo": 237575497
+  }
+ ]
 }

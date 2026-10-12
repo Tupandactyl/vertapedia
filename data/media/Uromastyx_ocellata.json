@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1769545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC), uploaded by Vlada Trailin",
+   "photo": 1769545
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86348664/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexandre H. Leitão, some rights reserved (CC BY-NC), uploaded by Alexandre H. Leitão",
+   "photo": 86348664
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17025100/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smisek, some rights reserved (CC BY-NC)",
+   "photo": 17025100
+  }
+ ]
 }

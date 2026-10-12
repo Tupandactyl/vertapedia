@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27578025/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Valério G. Escrig, some rights reserved (CC BY-NC), uploaded by José Valério G. Escrig",
+   "photo": 27578025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13118410/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA), uploaded by Rich Hoyer",
+   "photo": 13118410
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13118423/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA), uploaded by Rich Hoyer",
+   "photo": 13118423
+  }
+ ]
 }

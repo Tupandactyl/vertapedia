@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1335551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 1335551
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157393557/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Matt Goff, some rights reserved (CC BY-NC-SA), uploaded by Matt Goff",
+   "photo": 157393557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51445324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 51445324
+  }
+ ]
 }

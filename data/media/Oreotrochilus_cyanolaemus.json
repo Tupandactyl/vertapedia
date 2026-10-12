@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557710288/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Vickers, osa oikeuksista pidätetään (CC BY), lähettänyt Dan Vickers",
+   "photo": 557710288
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86465225/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, osa oikeuksista pidätetään (CC BY-NC), lähettänyt abcdefgewing",
+   "photo": 86465225
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154163911/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) byronpuglla, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 154163911
+  }
+ ]
 }

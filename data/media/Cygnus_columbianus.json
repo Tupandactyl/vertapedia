@@ -180,5 +180,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183205026/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andy Wilson",
+   "photo": 183205026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255978712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brian stahls, some rights reserved (CC BY-NC), uploaded by brian stahls",
+   "photo": 255978712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243154820/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Treadwell, some rights reserved (CC BY-NC), uploaded by Dan Treadwell",
+   "photo": 243154820
+  }
+ ]
 }

@@ -171,5 +171,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18301606/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) FRANCISCO MIGUEL FARRIOLS ESTRADA, some rights reserved (CC BY-NC), uploaded by FRANCISCO MIGUEL FARRIOLS ESTRADA",
+   "photo": 18301606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5354685/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Skrentny, some rights reserved (CC BY-NC), uploaded by Jeff Skrentny",
+   "photo": 5354685
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63257242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pantthera, some rights reserved (CC BY-NC), uploaded by Pantthera",
+   "photo": 63257242
+  }
+ ]
 }

@@ -73,5 +73,25 @@
    "date": "2026-03-11"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188598500/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 188598500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72449034/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dai Herbert, some rights reserved (CC BY-NC), uploaded by Dai Herbert",
+   "photo": 72449034
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2951515/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cédric de Foucault, some rights reserved (CC BY-NC-SA), uploaded by Cédric de Foucault",
+   "photo": 2951515
+  }
+ ]
 }

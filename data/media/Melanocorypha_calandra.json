@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235499993/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Татьяна Меньшикова, some rights reserved (CC BY-NC), uploaded by Татьяна Меньшикова",
+   "photo": 235499993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163381336/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr David Doolittle, some rights reserved (CC BY-NC), uploaded by Dr David Doolittle",
+   "photo": 163381336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55359935/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC), uploaded by Илья Сухов",
+   "photo": 55359935
+  }
+ ]
 }

@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66364877/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Matěj Baťha, some rights reserved (CC BY-SA)",
+   "photo": 66364877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265626857/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Matěj \"Dědek\" Baťha, some rights reserved (CC BY-SA)",
+   "photo": 265626857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265626683/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Doug Janson, some rights reserved (CC BY-SA)",
+   "photo": 265626683
+  }
+ ]
 }

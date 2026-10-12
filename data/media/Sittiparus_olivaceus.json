@@ -72,5 +72,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388122349/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nina, some rights reserved (CC BY-NC), uploaded by Nina",
+   "photo": 388122349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533308202/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC), uploaded by Hiroki Shudo",
+   "photo": 533308202
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2086787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2086787
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9426265/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shawn Billerman, some rights reserved (CC BY-NC), uploaded by Shawn Billerman",
+   "photo": 9426265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3070014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Klotz, some rights reserved (CC BY-NC)",
+   "photo": 3070014
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46813446/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46813446
+  }
+ ]
 }

@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590487750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lucapassalacqua, some rights reserved (CC BY-NC)",
+   "photo": 590487750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580086208/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Callum Carpenter, some rights reserved (CC BY-NC), uploaded by Callum Carpenter",
+   "photo": 580086208
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247486266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Rodero Henández, some rights reserved (CC BY-NC), uploaded by Ricardo Rodero Henández",
+   "photo": 247486266
+  }
+ ]
 }

@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15217880/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marion Maclean, some rights reserved (CC BY-NC), uploaded by Marion Maclean",
+   "photo": 15217880
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15792205/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael McSweeney, some rights reserved (CC BY-NC), uploaded by Michael McSweeney",
+   "photo": 15792205
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15434445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 15434445
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 438103
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288456329/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tobias Westmeier, some rights reserved (CC BY-NC), uploaded by Tobias Westmeier",
+   "photo": 288456329
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583156042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leo Di Vita Morris, some rights reserved (CC BY-NC), uploaded by Leo Di Vita Morris",
+   "photo": 583156042
+  }
+ ]
 }

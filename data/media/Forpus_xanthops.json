@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319904482/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Manuel Roncal",
+   "photo": 319904482
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158904574/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 158904574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101973638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Nunes, some rights reserved (CC BY-NC), uploaded by Christian Nunes",
+   "photo": 101973638
+  }
+ ]
 }

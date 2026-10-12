@@ -156,5 +156,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616046530/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo Sun, some rights reserved (CC BY-NC), uploaded by Hugo Sun",
+   "photo": 616046530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106799811/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rawpixel, some rights reserved (CC BY-SA)",
+   "photo": 106799811
+  }
+ ]
 }

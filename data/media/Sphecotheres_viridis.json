@@ -84,5 +84,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164088227/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 164088227
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164088232/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lip Kee, some rights reserved (CC BY-SA)",
+   "photo": 164088232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164088243/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 164088243
+  }
+ ]
 }

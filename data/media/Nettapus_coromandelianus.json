@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485417961/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) annotate, some rights reserved (CC BY-NC)",
+   "photo": 485417961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485419488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) annotate, some rights reserved (CC BY-NC)",
+   "photo": 485419488
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215617368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly",
+   "photo": 215617368
+  }
+ ]
 }

@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50902078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Fenwick, some rights reserved (CC BY-NC), uploaded by Paul Fenwick",
+   "photo": 50902078
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340275618/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 340275618
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241680727/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) DiegoH, some rights reserved (CC BY), uploaded by DiegoH",
+   "photo": 241680727
+  }
+ ]
 }

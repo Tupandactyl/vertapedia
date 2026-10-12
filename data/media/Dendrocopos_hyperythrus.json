@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5459467/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abhay Kewat, some rights reserved (CC BY-NC), uploaded by Abhay Kewat",
+   "photo": 5459467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218332/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 218332
+  }
+ ]
 }

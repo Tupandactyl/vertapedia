@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60682677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bradford, some rights reserved (CC BY-NC), uploaded by David Bradford",
+   "photo": 60682677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1184/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pete, some rights reserved (CC BY-NC-SA)",
+   "photo": 1184
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55147307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren Kirby, some rights reserved (CC BY-NC), uploaded by Darren Kirby",
+   "photo": 55147307
+  }
+ ]
 }

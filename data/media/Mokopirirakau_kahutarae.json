@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165455004/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Carey_Knox_Southern_Scales",
+   "photo": 165455004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1237996/{size}.",
+   "license": "cc-by-nc",
+   "attribution": "(c) gailtv, some rights reserved (CC BY-NC), uploaded by gailtv",
+   "photo": 1237996
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30348659/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Possums' End, some rights reserved (CC BY), uploaded by Possums' End",
+   "photo": 30348659
+  }
+ ]
 }

@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/701243559/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wild___max, some rights reserved (CC BY-NC)",
+   "photo": 701243559
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60595858/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) greensxm, some rights reserved (CC BY-NC), uploaded by greensxm",
+   "photo": 60595858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60595848/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) greensxm, some rights reserved (CC BY-NC), uploaded by greensxm",
+   "photo": 60595848
+  }
+ ]
 }

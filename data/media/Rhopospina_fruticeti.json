@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17558/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vince Smith, some rights reserved (CC BY-NC-SA)",
+   "photo": 17558
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1920744/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bastian Riveros Flores, some rights reserved (CC BY-NC), uploaded by Bastian Riveros Flores",
+   "photo": 1920744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/647128/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Steamer, some rights reserved (CC BY-NC), uploaded by James Steamer",
+   "photo": 647128
+  }
+ ]
 }

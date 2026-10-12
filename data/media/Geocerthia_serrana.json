@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224846110/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 224846110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70902771/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mickaël Villemagne, some rights reserved (CC BY-NC), uploaded by Mickaël Villemagne",
+   "photo": 70902771
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73062554/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Westerduijn, some rights reserved (CC BY-NC), uploaded by Rob Westerduijn",
+   "photo": 73062554
+  }
+ ]
 }

@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472925396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Germán Ortiz, some rights reserved (CC BY-NC), uploaded by Germán Ortiz",
+   "photo": 472925396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55788498/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 55788498
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476135102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simón Pla García, some rights reserved (CC BY-NC), uploaded by Simón Pla García",
+   "photo": 476135102
+  }
+ ]
 }

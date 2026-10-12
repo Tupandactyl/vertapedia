@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315965351/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Usman, some rights reserved (CC BY-NC), uploaded by Usman",
+   "photo": 315965351
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257855408/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 257855408
+  }
+ ]
 }

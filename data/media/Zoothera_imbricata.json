@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63119363/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, osa oikeuksista pidätetään (CC BY), lähettänyt William Stephens",
+   "photo": 63119363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1054974/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thimindu Goonatillake, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 1054974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92423649/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, osa oikeuksista pidätetään (CC BY), lähettänyt Christoph Moning",
+   "photo": 92423649
+  }
+ ]
 }

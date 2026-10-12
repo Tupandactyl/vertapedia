@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1840631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7618600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7618600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64967769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric van den Berghe, some rights reserved (CC BY-NC), uploaded by Eric van den Berghe",
+   "photo": 64967769
+  }
+ ]
 }

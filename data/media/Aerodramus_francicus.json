@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/987008/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kévin Le Pape, some rights reserved (CC BY-SA)",
+   "photo": 987008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333978451/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenz Seebauer, some rights reserved (CC BY-NC), uploaded by Lorenz Seebauer",
+   "photo": 333978451
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57348596/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Bowyer, some rights reserved (CC BY-NC), uploaded by Paul Bowyer",
+   "photo": 57348596
+  }
+ ]
 }

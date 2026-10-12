@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96766738/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jéssica Martins, some rights reserved (CC BY-NC-SA), uploaded by Jéssica Martins",
+   "photo": 96766738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4315909/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 4315909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141066485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias Appel, some rights reserved (CC BY-NC)",
+   "photo": 141066485
+  }
+ ]
 }

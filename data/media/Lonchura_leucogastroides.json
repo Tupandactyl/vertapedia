@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476995789/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jade Neo GC, some rights reserved (CC BY-NC), uploaded by Jade Neo GC",
+   "photo": 476995789
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195544536/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Carman Chew, some rights reserved (CC BY), uploaded by Carman Chew",
+   "photo": 195544536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1520218/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Pierre Tellier, some rights reserved (CC BY), uploaded by Pierre Tellier",
+   "photo": 1520218
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268239884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Marc Henrion",
+   "photo": 268239884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13966835/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) markusgmeiner, einige Rechte vorbehalten (CC BY-NC), hochgeladen von markusgmeiner",
+   "photo": 13966835
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446500217/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, einige Rechte vorbehalten (CC BY), hochgeladen von William Stephens",
+   "photo": 446500217
+  }
+ ]
 }

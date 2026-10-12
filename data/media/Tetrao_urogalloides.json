@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1095587/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Русский:, some rights reserved (CC BY-SA)",
+   "photo": 1095587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77743381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Альбина Фатеева, some rights reserved (CC BY-NC), uploaded by Альбина Фатеева",
+   "photo": 77743381
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59328952/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ольга Курякова, some rights reserved (CC BY-NC), uploaded by Ольга Курякова",
+   "photo": 59328952
+  }
+ ]
 }

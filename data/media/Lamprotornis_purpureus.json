@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102379810/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Bradfield, some rights reserved (CC BY-NC), uploaded by Simon Bradfield",
+   "photo": 102379810
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53266036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Schulting, some rights reserved (CC BY-NC), uploaded by Steven Schulting",
+   "photo": 53266036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53266031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Schulting, some rights reserved (CC BY-NC), uploaded by Steven Schulting",
+   "photo": 53266031
+  }
+ ]
 }

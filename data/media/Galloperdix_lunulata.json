@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24314959/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sharma BC, some rights reserved (CC BY-NC), uploaded by Sharma BC",
+   "photo": 24314959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17509077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dushenkov, some rights reserved (CC BY-NC)",
+   "photo": 17509077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136001/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pete, some rights reserved (CC BY-NC-SA)",
+   "photo": 136001
+  }
+ ]
 }

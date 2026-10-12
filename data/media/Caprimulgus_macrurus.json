@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472867542/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jade Neo GC, some rights reserved (CC BY-NC), uploaded by Jade Neo GC",
+   "photo": 472867542
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117577720/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dipika n Bhupesh Kurade, some rights reserved (CC BY-NC), uploaded by Dipika n Bhupesh Kurade",
+   "photo": 117577720
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2008230/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC)",
+   "photo": 2008230
+  }
+ ]
 }

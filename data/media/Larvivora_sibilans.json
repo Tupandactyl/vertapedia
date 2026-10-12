@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163039333/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chester Yip, some rights reserved (CC BY-NC), uploaded by Chester Yip",
+   "photo": 163039333
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146535/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Lin, some rights reserved (CC BY-NC-SA)",
+   "photo": 146535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108674998/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+   "photo": 108674998
+  }
+ ]
 }

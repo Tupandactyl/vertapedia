@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13889149/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 13889149
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546873089/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Bradfield, some rights reserved (CC BY-NC), uploaded by Simon Bradfield",
+   "photo": 546873089
+  }
+ ]
 }

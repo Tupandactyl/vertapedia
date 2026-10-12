@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101579504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edward Perry IV, some rights reserved (CC BY-NC), uploaded by Edward Perry IV",
+   "photo": 101579504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150348960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 150348960
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5477244/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) NHMLA Community Science Program, some rights reserved (CC BY-NC), uploaded by NHMLA Community Science Program",
+   "photo": 5477244
+  }
+ ]
 }

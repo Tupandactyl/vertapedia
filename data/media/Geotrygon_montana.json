@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257226707/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brennan Moore, some rights reserved (CC BY-NC), uploaded by Brennan Moore",
+   "photo": 257226707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12688367/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 12688367
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 208607
+  }
+ ]
 }

@@ -38,5 +38,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/964747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Fisher, some rights reserved (CC BY-NC), uploaded by Mike Fisher",
+   "photo": 964747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185054910/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John Lyakurwa, some rights reserved (CC BY), uploaded by John Lyakurwa",
+   "photo": 185054910
+  }
+ ]
 }

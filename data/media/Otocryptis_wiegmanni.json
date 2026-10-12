@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96250287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thilina Hettiarachchi, some rights reserved (CC BY-NC), uploaded by Thilina Hettiarachchi",
+   "photo": 96250287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85949066/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 85949066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119516518/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC), uploaded by Pasindu Dilshan Abegunawaradhana",
+   "photo": 119516518
+  }
+ ]
 }

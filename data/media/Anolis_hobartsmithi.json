@@ -74,5 +74,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361049083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alberto G. Nadal, some rights reserved (CC BY-NC), uploaded by Alberto G. Nadal",
+   "photo": 361049083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321680251/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alberto G. Nadal, some rights reserved (CC BY-NC), uploaded by Alberto G. Nadal",
+   "photo": 321680251
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361048831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alberto G. Nadal, some rights reserved (CC BY-NC), uploaded by Alberto G. Nadal",
+   "photo": 361048831
+  }
+ ]
 }

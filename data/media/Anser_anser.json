@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61334030/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "photo": 61334030
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61333942/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Imran Shah, some rights reserved (CC BY-SA)",
+   "photo": 61333942
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61334131/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bengt Nyman, some rights reserved (CC BY)",
+   "photo": 61334131
+  }
+ ]
 }

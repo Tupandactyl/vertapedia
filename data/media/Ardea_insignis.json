@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250997705/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC), uploaded by Thet Zaw Naing",
+   "photo": 250997705
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33938617/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cupag_kelley, some rights reserved (CC BY-NC), uploaded by cupag_kelley",
+   "photo": 33938617
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38227703/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) connk, some rights reserved (CC BY-NC), uploaded by connk",
+   "photo": 38227703
+  }
+ ]
 }

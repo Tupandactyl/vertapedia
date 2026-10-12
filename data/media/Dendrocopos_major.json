@@ -190,5 +190,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259132621/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elio Giacone, some rights reserved (CC BY-NC), uploaded by Elio Giacone",
+   "photo": 259132621
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247355086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Li Jianong, some rights reserved (CC BY-NC), uploaded by Li Jianong",
+   "photo": 247355086
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3152163/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 3152163
+  }
+ ]
 }

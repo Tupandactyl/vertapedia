@@ -173,5 +173,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60724208/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 60724208
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4575263/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Karges, some rights reserved (CC BY-NC), uploaded by John Karges",
+   "photo": 4575263
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47286271/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaiah Nugent, some rights reserved (CC BY-NC), uploaded by Isaiah Nugent",
+   "photo": 47286271
+  }
+ ]
 }

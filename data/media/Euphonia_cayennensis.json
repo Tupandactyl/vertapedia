@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13121126/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sean McCann, some rights reserved (CC BY-NC-SA)",
+   "photo": 13121126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115710781/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC), uploaded by Sébastien SANT",
+   "photo": 115710781
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43678698/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Carlos Silva Moraes, some rights reserved (CC BY-NC), uploaded by Antonio Carlos Silva Moraes",
+   "photo": 43678698
+  }
+ ]
 }

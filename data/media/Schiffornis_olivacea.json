@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338446067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hbottai, some rights reserved (CC BY-NC)",
+   "photo": 338446067
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249794350/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 249794350
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289111055/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+   "photo": 289111055
+  }
+ ]
 }

@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483635021/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Jacobo Castillo @jcastillo.ph, some rights reserved (CC BY-NC), uploaded by Juan Jacobo Castillo @jcastillo.ph",
+   "photo": 483635021
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624489202/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Marent, some rights reserved (CC BY-NC), uploaded by Thomas Marent",
+   "photo": 624489202
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624488849/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Marent, some rights reserved (CC BY-NC), uploaded by Thomas Marent",
+   "photo": 624488849
+  }
+ ]
 }

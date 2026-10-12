@@ -183,5 +183,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278764160/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Алексей Сизов, some rights reserved (CC BY-NC), uploaded by Алексей Сизов",
+   "photo": 278764160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15915344/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 15915344
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470085232/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Vickers, some rights reserved (CC BY), uploaded by Dan Vickers",
+   "photo": 470085232
+  }
+ ]
 }

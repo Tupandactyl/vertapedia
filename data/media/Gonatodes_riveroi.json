@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223657909/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge L. Peña, some rights reserved (CC BY-NC), uploaded by Jorge L. Peña",
+   "photo": 223657909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234000122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilson Lombana Riaño, some rights reserved (CC BY-NC), uploaded by Wilson Lombana Riaño",
+   "photo": 234000122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167826800/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilson Lombana Riaño, some rights reserved (CC BY-NC), uploaded by Wilson Lombana Riaño",
+   "photo": 167826800
+  }
+ ]
 }

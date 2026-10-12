@@ -73,5 +73,25 @@
    "date": "2022-04-30"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370313557/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) RAP, some rights reserved (CC BY), uploaded by RAP",
+   "photo": 370313557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109404519/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Schmidtutz, some rights reserved (CC BY-NC), uploaded by Carlos Schmidtutz",
+   "photo": 109404519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59228276/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 59228276
+  }
+ ]
 }

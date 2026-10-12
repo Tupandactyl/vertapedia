@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104355461/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philippe Lécuyer, some rights reserved (CC BY-NC), uploaded by Philippe Lécuyer",
+   "photo": 104355461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70326293/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Justin Ponder, some rights reserved (CC BY), uploaded by Justin Ponder",
+   "photo": 70326293
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739245/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) 116916927065934112165, some rights reserved (CC BY), uploaded by 116916927065934112165",
+   "photo": 739245
+  }
+ ]
 }

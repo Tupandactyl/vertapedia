@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339308243/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) SandyCole, some rights reserved (CC BY-SA)",
+   "photo": 339308243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13814849/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nori Almeida, some rights reserved (CC BY)",
+   "photo": 13814849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252423973/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nBS Thurner Hof, some rights reserved (CC BY-SA)",
+   "photo": 252423973
+  }
+ ]
 }

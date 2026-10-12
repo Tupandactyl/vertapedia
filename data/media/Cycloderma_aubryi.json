@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153772165/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lucy Keith-Diagne, some rights reserved (CC BY), uploaded by Lucy Keith-Diagne",
+   "photo": 153772165
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148001826/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Laudisoit, some rights reserved (CC BY-NC), uploaded by Anne Laudisoit",
+   "photo": 148001826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102996024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kizkizito, some rights reserved (CC BY-NC)",
+   "photo": 102996024
+  }
+ ]
 }

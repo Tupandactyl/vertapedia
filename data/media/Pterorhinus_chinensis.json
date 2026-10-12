@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62088288/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nat Panda, some rights reserved (CC BY-NC-SA), uploaded by Nat Panda",
+   "photo": 62088288
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61634533/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Tam, some rights reserved (CC BY-NC), uploaded by Thomas Tam",
+   "photo": 61634533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62024267/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) albertkwok20, some rights reserved (CC BY-NC), uploaded by albertkwok20",
+   "photo": 62024267
+  }
+ ]
 }

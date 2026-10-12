@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105023706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Harris, algunos derechos reservados (CC BY-NC), subido por Bert Harris",
+   "photo": 105023706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83638655/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, algunos derechos reservados (CC BY-NC), subido por Attila Steiner",
+   "photo": 83638655
+  }
+ ]
 }

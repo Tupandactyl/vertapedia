@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502568319/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guille Ivan Spajic, some rights reserved (CC BY-NC), uploaded by Guille Ivan Spajic",
+   "photo": 502568319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397393850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Quentin Vandemoortele, some rights reserved (CC BY-NC), uploaded by Quentin Vandemoortele",
+   "photo": 397393850
+  }
+ ]
 }

@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616890162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Dolejsek, some rights reserved (CC BY-NC), uploaded by Petr Dolejsek",
+   "photo": 616890162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398971503/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) drraath, some rights reserved (CC BY-NC)",
+   "photo": 398971503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15226437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christine Sydes, some rights reserved (CC BY-NC), uploaded by Christine Sydes",
+   "photo": 15226437
+  }
+ ]
 }

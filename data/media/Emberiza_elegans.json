@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119429801/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 119429801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61709148/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 茶棚, some rights reserved (CC BY-NC), uploaded by 茶棚",
+   "photo": 61709148
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142920896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 142920896
+  }
+ ]
 }

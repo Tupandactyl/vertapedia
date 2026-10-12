@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466424122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) poli782003, some rights reserved (CC BY-NC)",
+   "photo": 466424122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57506509/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gera Guzman, some rights reserved (CC BY-NC), uploaded by Gera Guzman",
+   "photo": 57506509
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8565784/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+   "photo": 8565784
+  }
+ ]
 }

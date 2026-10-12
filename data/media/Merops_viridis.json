@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85045627/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benjamynweil, bazı hakları saklıdır (CC BY-NC), yükleyen: benjamynweil",
+   "photo": 85045627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596775634/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Evan Hessels, bazı hakları saklıdır (CC BY-NC), yükleyen: Evan Hessels",
+   "photo": 596775634
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366291181/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phakawat Kittikhunodom, bazı hakları saklıdır (CC BY-NC), yükleyen: Phakawat Kittikhunodom",
+   "photo": 366291181
+  }
+ ]
 }

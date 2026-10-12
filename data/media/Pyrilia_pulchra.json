@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258468968/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Chrissy McClarren and Andy Reago",
+   "photo": 258468968
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53928142/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ricardoalvarezzamora, some rights reserved (CC BY-NC), uploaded by ricardoalvarezzamora",
+   "photo": 53928142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359207328/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Martin, some rights reserved (CC BY-NC), uploaded by David Martin",
+   "photo": 359207328
+  }
+ ]
 }

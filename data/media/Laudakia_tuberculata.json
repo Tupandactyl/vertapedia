@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679706/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 679706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221684997/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Prajjwal Ray, some rights reserved (CC BY-NC), uploaded by Prajjwal Ray",
+   "photo": 221684997
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268761519/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jagdish Singh Negi, some rights reserved (CC BY), uploaded by Jagdish Singh Negi",
+   "photo": 268761519
+  }
+ ]
 }

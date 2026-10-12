@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337951525/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC), uploaded by David Ruíz Domínguez",
+   "photo": 337951525
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4942847/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Erick Alexander Pinilla, some rights reserved (CC BY-NC-SA), uploaded by Erick Alexander Pinilla",
+   "photo": 4942847
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209035/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 209035
+  }
+ ]
 }

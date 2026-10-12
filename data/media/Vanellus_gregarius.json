@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320127133/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shlomi Levi, some rights reserved (CC BY-NC), uploaded by Shlomi Levi",
+   "photo": 320127133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170847232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 170847232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1864956/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) TheNatureWeb.Net, some rights reserved (CC BY-NC), uploaded by TheNatureWeb.Net",
+   "photo": 1864956
+  }
+ ]
 }

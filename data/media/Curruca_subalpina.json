@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65423602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto Ghiglia, some rights reserved (CC BY-NC), uploaded by Roberto Ghiglia",
+   "photo": 65423602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285178868/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mirko Tomasi, some rights reserved (CC BY-NC), uploaded by Mirko Tomasi",
+   "photo": 285178868
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160248580/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 160248580
+  }
+ ]
 }

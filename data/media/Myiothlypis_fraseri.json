@@ -150,5 +150,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1435542/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 1435542
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21248253/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mack Bowlsby, some rights reserved (CC BY-NC), uploaded by Mack Bowlsby",
+   "photo": 21248253
+  }
+ ]
 }

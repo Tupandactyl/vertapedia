@@ -63,5 +63,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77982265/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jay VanderGaast, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Jay VanderGaast",
+   "photo": 77982265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302383769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jay VanderGaast, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Jay VanderGaast",
+   "photo": 302383769
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334851172/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jay Pruett, osa oikeuksista pidätetään (CC BY), lähettänyt Jay Pruett",
+   "photo": 334851172
+  }
+ ]
 }

@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374131859/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cheo Mompala, some rights reserved (CC BY-NC), uploaded by Cheo Mompala",
+   "photo": 374131859
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693570/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 693570
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88751669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC), uploaded by David Ruíz Domínguez",
+   "photo": 88751669
+  }
+ ]
 }

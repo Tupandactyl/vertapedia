@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459658606/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmmteixeira, some rights reserved (CC BY-NC), uploaded by cmmteixeira",
+   "photo": 459658606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15287652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 15287652
+  }
+ ]
 }

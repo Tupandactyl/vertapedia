@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44733534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44733534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31365857/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tristan Jobin, some rights reserved (CC BY), uploaded by Tristan Jobin",
+   "photo": 31365857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59474725/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julius Simonelli, some rights reserved (CC BY), uploaded by Julius Simonelli",
+   "photo": 59474725
+  }
+ ]
 }

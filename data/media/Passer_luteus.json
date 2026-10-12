@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66111675/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Karim Haddad, some rights reserved (CC BY), uploaded by Karim Haddad",
+   "photo": 66111675
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1769843/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 1769843
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66111558/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Karim Haddad, some rights reserved (CC BY), uploaded by Karim Haddad",
+   "photo": 66111558
+  }
+ ]
 }

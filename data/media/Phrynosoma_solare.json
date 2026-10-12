@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379572821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+   "photo": 379572821
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379572843/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+   "photo": 379572843
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352513538/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 352513538
+  }
+ ]
 }

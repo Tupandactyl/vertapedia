@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183154211/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 183154211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138520266/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Louis Beney, some rights reserved (CC BY-NC), uploaded by Louis Beney",
+   "photo": 138520266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146548674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop",
+   "photo": 146548674
+  }
+ ]
 }

@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518819540/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) krkzv, some rights reserved (CC BY-NC), uploaded by krkzv",
+   "photo": 518819540
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712293/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) chibinhi, some rights reserved (CC BY-NC)",
+   "photo": 712293
+  }
+ ]
 }

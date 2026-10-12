@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1813443/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 1813443
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1168982/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 1168982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2086126/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 2086126
+  }
+ ]
 }

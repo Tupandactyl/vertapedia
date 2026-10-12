@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72586539/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ignacio_hernandez, nogle rettigheder forbeholdes (CC BY-NC), uploadet af ignacio_hernandez",
+   "photo": 72586539
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6830991/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Leonel Roget, nogle rettigheder forbeholdes (CC BY), uploadet af Leonel Roget",
+   "photo": 6830991
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84053490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan L. F. Magalhaes, nogle rettigheder forbeholdes (CC BY-NC), uploadet af Ivan L. F. Magalhaes",
+   "photo": 84053490
+  }
+ ]
 }

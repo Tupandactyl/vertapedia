@@ -230,5 +230,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223675967/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Pierce, some rights reserved (CC BY-NC), uploaded by Simon Pierce",
+   "photo": 223675967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624423142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC), uploaded by leekelai",
+   "photo": 624423142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233480351/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) trevor_l, some rights reserved (CC BY-NC), uploaded by trevor_l",
+   "photo": 233480351
+  }
+ ]
 }

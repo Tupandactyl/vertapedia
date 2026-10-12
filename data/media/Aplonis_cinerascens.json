@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260327988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ria Vogels, some rights reserved (CC BY-NC), uploaded by Ria Vogels",
+   "photo": 260327988
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22839369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Wood, some rights reserved (CC BY-NC), uploaded by Tony Wood",
+   "photo": 22839369
+  }
+ ]
 }

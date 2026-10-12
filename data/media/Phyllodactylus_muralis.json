@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62844014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erwin López Osorio, some rights reserved (CC BY-NC), uploaded by Erwin López Osorio",
+   "photo": 62844014
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21723683/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Marshal Hedin, some rights reserved (CC BY-NC-SA), uploaded by Marshal Hedin",
+   "photo": 21723683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8267121/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karl Halla Garcia, some rights reserved (CC BY-NC), uploaded by Karl Halla Garcia",
+   "photo": 8267121
+  }
+ ]
 }

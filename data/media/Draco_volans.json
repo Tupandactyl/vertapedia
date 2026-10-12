@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219672582/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bali Wildlife, some rights reserved (CC BY-NC), uploaded by Bali Wildlife",
+   "photo": 219672582
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53175177/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 53175177
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170945214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi",
+   "photo": 170945214
+  }
+ ]
 }

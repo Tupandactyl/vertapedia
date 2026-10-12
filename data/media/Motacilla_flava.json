@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393839170/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 393839170
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245127016/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fabrizio Gottardi, some rights reserved (CC BY-NC), uploaded by Fabrizio Gottardi",
+   "photo": 245127016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340816063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) saschaj, some rights reserved (CC BY-NC)",
+   "photo": 340816063
+  }
+ ]
 }

@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/671462301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+   "photo": 671462301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20990894/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 20990894
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122330296/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) whale_nerd, some rights reserved (CC BY-NC), uploaded by whale_nerd",
+   "photo": 122330296
+  }
+ ]
 }

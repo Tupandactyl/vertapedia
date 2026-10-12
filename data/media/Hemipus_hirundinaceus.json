@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106894196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Munim Zabidi, some rights reserved (CC BY-NC), uploaded by Munim Zabidi",
+   "photo": 106894196
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4162434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Schwarz, some rights reserved (CC BY-NC), uploaded by Christian Schwarz",
+   "photo": 4162434
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311389/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 311389
+  }
+ ]
 }

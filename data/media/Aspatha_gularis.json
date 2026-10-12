@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270462061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nestor Herrera, some rights reserved (CC BY-NC), uploaded by Nestor Herrera",
+   "photo": 270462061
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148626054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) smartforest, some rights reserved (CC BY-NC)",
+   "photo": 148626054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257895570/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2",
+   "photo": 257895570
+  }
+ ]
 }

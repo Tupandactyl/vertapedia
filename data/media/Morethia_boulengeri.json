@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162588884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cinclosoma, some rights reserved (CC BY-NC), uploaded by cinclosoma",
+   "photo": 162588884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51574738/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ellura Sanctuary, some rights reserved (CC BY-NC), uploaded by Ellura Sanctuary",
+   "photo": 51574738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165732/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Donald Hobern, some rights reserved (CC BY)",
+   "photo": 165732
+  }
+ ]
 }

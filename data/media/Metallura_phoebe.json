@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70653289/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mickaël Villemagne, some rights reserved (CC BY-NC), uploaded by Mickaël Villemagne",
+   "photo": 70653289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66245088/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Westerduijn, some rights reserved (CC BY-NC), uploaded by Rob Westerduijn",
+   "photo": 66245088
+  }
+ ]
 }

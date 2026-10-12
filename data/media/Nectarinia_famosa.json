@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25812/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-SA)",
+   "photo": 25812
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29371726/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 29371726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37529758/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tom2gates, some rights reserved (CC BY-NC)",
+   "photo": 37529758
+  }
+ ]
 }

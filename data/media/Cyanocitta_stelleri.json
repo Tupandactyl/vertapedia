@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462234787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Atlee Hargis, some rights reserved (CC BY-NC), uploaded by Atlee Hargis",
+   "photo": 462234787
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324594834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC), uploaded by Dave Drum",
+   "photo": 324594834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203380602/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC), uploaded by Dave Drum",
+   "photo": 203380602
+  }
+ ]
 }

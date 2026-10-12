@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360494557/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hamas Fathani, some rights reserved (CC BY-SA), uploaded by Hamas Fathani",
+   "photo": 360494557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359775244/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 359775244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477729957/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) achmadjaelani, some rights reserved (CC BY-NC)",
+   "photo": 477729957
+  }
+ ]
 }

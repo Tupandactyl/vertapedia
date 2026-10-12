@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255424975/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Willianderson Lima, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Willianderson Lima",
+   "photo": 255424975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89922251/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Frederico Acaz Sonntag",
+   "photo": 89922251
+  }
+ ]
 }

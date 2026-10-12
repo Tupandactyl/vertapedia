@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29341978/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ericson Cernawsky Igual, some rights reserved (CC BY-SA), uploaded by Ericson Cernawsky Igual",
+   "photo": 29341978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230324831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 230324831
+  }
+ ]
 }

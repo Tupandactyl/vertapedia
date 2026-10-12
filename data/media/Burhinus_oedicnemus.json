@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208423163/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kudaibergen Amirekul, some rights reserved (CC BY-SA), uploaded by Kudaibergen Amirekul",
+   "photo": 208423163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207686/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alain Fossé, some rights reserved (CC BY), uploaded by Alain Fossé",
+   "photo": 207686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235775038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maryse, some rights reserved (CC BY-NC), uploaded by Maryse",
+   "photo": 235775038
+  }
+ ]
 }

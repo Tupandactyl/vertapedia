@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67003315/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paddy Kemner, some rights reserved (CC BY-NC), uploaded by Paddy Kemner",
+   "photo": 67003315
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94421090/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jackson W.F. Chu, some rights reserved (CC BY-NC-SA), uploaded by Jackson W.F. Chu",
+   "photo": 94421090
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248704/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sterling Sheehy, some rights reserved (CC BY), uploaded by Sterling Sheehy",
+   "photo": 248704
+  }
+ ]
 }

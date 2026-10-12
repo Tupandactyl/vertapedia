@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428079416/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Piolain, some rights reserved (CC BY-NC), uploaded by Julien Piolain",
+   "photo": 428079416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365485116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) remycou, some rights reserved (CC BY-NC)",
+   "photo": 365485116
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428079434/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Piolain, some rights reserved (CC BY-NC), uploaded by Julien Piolain",
+   "photo": 428079434
+  }
+ ]
 }

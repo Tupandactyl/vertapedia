@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271411725/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Ma Contortrix, some rights reserved (CC BY-NC), uploaded by Juan Ma Contortrix",
+   "photo": 271411725
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95667047/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 95667047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245226/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristiina, some rights reserved (CC BY), uploaded by Kristiina",
+   "photo": 245226
+  }
+ ]
 }

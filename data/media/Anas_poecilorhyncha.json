@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4569448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sanjaydate, some rights reserved (CC BY-NC)",
+   "photo": 4569448
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1365460/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 1365460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275858277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuwaraj Gurjar, some rights reserved (CC BY-NC), uploaded by Yuwaraj Gurjar",
+   "photo": 275858277
+  }
+ ]
 }

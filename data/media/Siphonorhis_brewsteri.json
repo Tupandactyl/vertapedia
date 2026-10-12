@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207394480/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Sangiovanni, some rights reserved (CC BY-NC), uploaded by Juan Sangiovanni",
+   "photo": 207394480
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220032689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guenther Eichhorn, some rights reserved (CC BY-NC), uploaded by Guenther Eichhorn",
+   "photo": 220032689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132909352/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jgomz, some rights reserved (CC BY-NC)",
+   "photo": 132909352
+  }
+ ]
 }

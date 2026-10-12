@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63779689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Fraire, some rights reserved (CC BY-NC), uploaded by Pablo Fraire",
+   "photo": 63779689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67199/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rocketjohn, some rights reserved (CC BY-NC)",
+   "photo": 67199
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102788220/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto Vargas, some rights reserved (CC BY-NC), uploaded by Roberto Vargas",
+   "photo": 102788220
+  }
+ ]
 }

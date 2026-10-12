@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313615542/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tareq's Photography, some rights reserved (CC BY-SA)",
+   "photo": 313615542
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354492880/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Helmut Wipplinger, some rights reserved (CC BY-NC), uploaded by Helmut Wipplinger",
+   "photo": 354492880
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313615537/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kirkamon Guapo Cabello , some rights reserved (CC BY-SA)",
+   "photo": 313615537
+  }
+ ]
 }

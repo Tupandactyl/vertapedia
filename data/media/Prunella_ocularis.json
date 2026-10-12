@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180753827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ksondas, some rights reserved (CC BY-NC), uploaded by ksondas",
+   "photo": 180753827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215002031/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katia Setrinen, some rights reserved (CC BY-NC), uploaded by Katia Setrinen",
+   "photo": 215002031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215001674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katia Setrinen, some rights reserved (CC BY-NC), uploaded by Katia Setrinen",
+   "photo": 215001674
+  }
+ ]
 }

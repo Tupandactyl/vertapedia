@@ -63,5 +63,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478802606/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Field, some rights reserved (CC BY), uploaded by Tom Field",
+   "photo": 478802606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6806382/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 6806382
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478795247/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Field, some rights reserved (CC BY), uploaded by Tom Field",
+   "photo": 478795247
+  }
+ ]
 }

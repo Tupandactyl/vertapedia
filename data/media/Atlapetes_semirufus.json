@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167652892/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hugo Bernal Hernández, some rights reserved (CC BY), uploaded by Hugo Bernal Hernández",
+   "photo": 167652892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237093796/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 237093796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182703569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 182703569
+  }
+ ]
 }

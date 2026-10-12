@@ -98,5 +98,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519599605/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tisha Mukherjee, some rights reserved (CC BY-SA)",
+   "photo": 519599605
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16892/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) K.C. Hung, some rights reserved (CC BY-NC-SA)",
+   "photo": 16892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16893/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) K.C. Hung, some rights reserved (CC BY-NC-SA)",
+   "photo": 16893
+  }
+ ]
 }

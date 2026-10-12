@@ -118,5 +118,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170560153/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 170560153
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64397709/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kirsten, some rights reserved (CC BY), uploaded by Kirsten",
+   "photo": 64397709
+  }
+ ]
 }

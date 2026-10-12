@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7042594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sara Smerdon, some rights reserved (CC BY-NC), uploaded by Sara Smerdon",
+   "photo": 7042594
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167320531/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Weatherley, some rights reserved (CC BY-NC), uploaded by Ben Weatherley",
+   "photo": 167320531
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2486595/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jack Warden, some rights reserved (CC BY-NC), uploaded by Jack Warden",
+   "photo": 2486595
+  }
+ ]
 }

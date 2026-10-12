@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26372074/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26372074
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153896/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tim Hirsch, some rights reserved (CC BY)",
+   "photo": 153896
+  }
+ ]
 }

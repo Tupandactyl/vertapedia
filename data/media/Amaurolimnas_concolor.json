@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211211511/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rich Kostecke, some rights reserved (CC BY-NC), uploaded by Rich Kostecke",
+   "photo": 211211511
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231119953/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maryse, some rights reserved (CC BY-NC), uploaded by Maryse",
+   "photo": 231119953
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179369426/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andreas Berger, some rights reserved (CC BY-NC), uploaded by Andreas Berger",
+   "photo": 179369426
+  }
+ ]
 }

@@ -210,5 +210,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179535470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Westerduijn, some rights reserved (CC BY-NC), uploaded by Rob Westerduijn",
+   "photo": 179535470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208546733/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Hualpa, some rights reserved (CC BY-NC), uploaded by Daniel Hualpa",
+   "photo": 208546733
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6921609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Flanagan, some rights reserved (CC BY-NC), uploaded by Jeremy Flanagan",
+   "photo": 6921609
+  }
+ ]
 }

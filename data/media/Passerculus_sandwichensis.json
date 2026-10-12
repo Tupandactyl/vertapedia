@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166152/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Leveille, some rights reserved (CC BY-NC), uploaded by Mike Leveille",
+   "photo": 45166152
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188664302/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kate Pfeilschiefter, some rights reserved (CC BY-NC), uploaded by Kate Pfeilschiefter",
+   "photo": 188664302
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2466309/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roy pilcher, some rights reserved (CC BY-NC), uploaded by roy pilcher",
+   "photo": 2466309
+  }
+ ]
 }

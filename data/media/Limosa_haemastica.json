@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32324974/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gustavo Masuzzo, some rights reserved (CC BY)",
+   "photo": 32324974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23981371/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Quinten Wiegersma, some rights reserved (CC BY), uploaded by Quinten Wiegersma",
+   "photo": 23981371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103492926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Tansley, some rights reserved (CC BY-NC), uploaded by Kyle Tansley",
+   "photo": 103492926
+  }
+ ]
 }

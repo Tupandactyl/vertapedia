@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151156821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandra de Swardt, some rights reserved (CC BY-NC), uploaded by Sandra de Swardt",
+   "photo": 151156821
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15577186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stuart Shearer, some rights reserved (CC BY-NC), uploaded by Stuart Shearer",
+   "photo": 15577186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183240281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg de Klerk, some rights reserved (CC BY-NC), uploaded by Greg de Klerk",
+   "photo": 183240281
+  }
+ ]
 }

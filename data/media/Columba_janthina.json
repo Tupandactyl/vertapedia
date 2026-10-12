@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397918067/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nhm_ex, some rights reserved (CC BY-NC), uploaded by nhm_ex",
+   "photo": 397918067
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362818542/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chong Yan Kai, some rights reserved (CC BY-NC), uploaded by Chong Yan Kai",
+   "photo": 362818542
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492566/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Columba_janthina.JPG, some rights reserved (CC BY-SA)",
+   "photo": 492566
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57579351/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Green Jewel, some rights reserved (CC BY-NC), uploaded by Green Jewel",
+   "photo": 57579351
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104986818/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Vicente Riofrio, some rights reserved (CC BY-NC), uploaded by Michael Vicente Riofrio",
+   "photo": 104986818
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104986821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Vicente Riofrio, some rights reserved (CC BY-NC), uploaded by Michael Vicente Riofrio",
+   "photo": 104986821
+  }
+ ]
 }

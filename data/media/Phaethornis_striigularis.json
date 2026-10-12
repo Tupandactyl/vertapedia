@@ -106,5 +106,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304300846/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jack Cochran, some rights reserved (CC BY-NC), uploaded by Jack Cochran",
+   "photo": 304300846
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174628850/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+   "photo": 174628850
+  }
+ ]
 }

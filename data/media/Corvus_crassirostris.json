@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719099786/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Tibbitt-Eggleton, some rights reserved (CC BY-NC), uploaded by Rob Tibbitt-Eggleton",
+   "photo": 719099786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15595319/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yvonne A. de Jong, some rights reserved (CC BY-NC), uploaded by Yvonne A. de Jong",
+   "photo": 15595319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35100/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Stefan Geens, some rights reserved (CC BY-NC-SA)",
+   "photo": 35100
+  }
+ ]
 }

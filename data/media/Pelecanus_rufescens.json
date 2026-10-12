@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178394364/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Metcalf, some rights reserved (CC BY-NC), uploaded by Kevin Metcalf",
+   "photo": 178394364
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261799819/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 261799819
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176687485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 176687485
+  }
+ ]
 }

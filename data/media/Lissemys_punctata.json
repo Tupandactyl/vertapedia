@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474241836/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Davidvraju, some rights reserved (CC BY-SA)",
+   "photo": 474241836
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258363346/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 258363346
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147686302/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Liepack, some rights reserved (CC BY-NC), uploaded by Daniel Liepack",
+   "photo": 147686302
+  }
+ ]
 }

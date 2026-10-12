@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533207888/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, some rights reserved (CC BY-SA), uploaded by Sidnei Dantas",
+   "photo": 533207888
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108182186/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, some rights reserved (CC BY-SA), uploaded by Sidnei Dantas",
+   "photo": 108182186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550913975/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jpj9425, some rights reserved (CC BY-NC)",
+   "photo": 550913975
+  }
+ ]
 }

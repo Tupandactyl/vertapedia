@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27851070/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vetfred, some rights reserved (CC BY-NC)",
+   "photo": 27851070
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91452379/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC), uploaded by Andrew Thompson",
+   "photo": 91452379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20722/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) payayita, some rights reserved (CC BY-SA)",
+   "photo": 20722
+  }
+ ]
 }

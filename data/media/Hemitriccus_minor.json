@@ -153,5 +153,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118430547/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 118430547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169153034/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, some rights reserved (CC BY-SA), uploaded by Sidnei Dantas",
+   "photo": 169153034
+  }
+ ]
 }

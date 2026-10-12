@@ -52,5 +52,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67553820/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Serge Melki, some rights reserved (CC BY)",
+   "photo": 67553820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12509428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut",
+   "photo": 12509428
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67553821/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ltshears, some rights reserved (CC BY-SA)",
+   "photo": 67553821
+  }
+ ]
 }

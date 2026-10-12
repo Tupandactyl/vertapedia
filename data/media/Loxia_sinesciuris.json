@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46557276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46557276
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86770462/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) melieraxbrock, some rights reserved (CC BY-NC), uploaded by melieraxbrock",
+   "photo": 86770462
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26341419/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sharon Forsyth, some rights reserved (CC BY-NC), uploaded by Sharon Forsyth",
+   "photo": 26341419
+  }
+ ]
 }

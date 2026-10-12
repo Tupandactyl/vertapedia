@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399407153/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafi Amar, some rights reserved (CC BY-NC), uploaded by Rafi Amar",
+   "photo": 399407153
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776871/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 776871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420857960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafi Amar, some rights reserved (CC BY-NC), uploaded by Rafi Amar",
+   "photo": 420857960
+  }
+ ]
 }

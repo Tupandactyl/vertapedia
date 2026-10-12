@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54130/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Hans Zwitzer, some rights reserved (CC BY-NC-SA)",
+   "photo": 54130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54131/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominic Sherony, some rights reserved (CC BY-SA)",
+   "photo": 54131
+  }
+ ]
 }

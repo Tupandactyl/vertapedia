@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109309608/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 109309608
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313977211/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edouard Veuillet, some rights reserved (CC BY-NC), uploaded by Edouard Veuillet",
+   "photo": 313977211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39823917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nielsbuuspedersen, some rights reserved (CC BY-NC), uploaded by nielsbuuspedersen",
+   "photo": 39823917
+  }
+ ]
 }

@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26431312/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Phuentsho, some rights reserved (CC BY-NC-SA), uploaded by Phuentsho",
+   "photo": 26431312
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10090041/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robbythai, some rights reserved (CC BY-NC)",
+   "photo": 10090041
+  }
+ ]
 }

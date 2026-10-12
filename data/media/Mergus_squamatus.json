@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384741637/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chester Cheng, some rights reserved (CC BY-NC), uploaded by Chester Cheng",
+   "photo": 384741637
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13173093/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels, some rights reserved (CC BY-SA)",
+   "photo": 13173093
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104447462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) auntie_uncle, some rights reserved (CC BY-NC), uploaded by auntie_uncle",
+   "photo": 104447462
+  }
+ ]
 }

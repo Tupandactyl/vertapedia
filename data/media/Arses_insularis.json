@@ -70,5 +70,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19358911/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Katerina Tvardikova, some rights reserved (CC BY-NC-SA)",
+   "photo": 19358911
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3195816/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3195816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19358910/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Katerina Tvardikova, some rights reserved (CC BY-NC-SA)",
+   "photo": 19358910
+  }
+ ]
 }

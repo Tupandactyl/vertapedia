@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397033133/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) globalherping, some rights reserved (CC BY-NC), uploaded by globalherping",
+   "photo": 397033133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336276414/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andy Tonge, some rights reserved (CC BY-NC), uploaded by Andy Tonge",
+   "photo": 336276414
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126648414/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Harris EntSocVic, some rights reserved (CC BY-NC), uploaded by Ken Harris EntSocVic",
+   "photo": 126648414
+  }
+ ]
 }

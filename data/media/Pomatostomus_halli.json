@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193479943/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rivendel, some rights reserved (CC BY-NC)",
+   "photo": 193479943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 182240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213583208/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Geoff Walker, some rights reserved (CC BY-NC), uploaded by Geoff Walker",
+   "photo": 213583208
+  }
+ ]
 }

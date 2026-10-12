@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246710060/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Filemyr, some rights reserved (CC BY-NC), uploaded by Bert Filemyr",
+   "photo": 246710060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423461232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christoph Nissen, some rights reserved (CC BY-NC), uploaded by Christoph Nissen",
+   "photo": 423461232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2415244/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 2415244
+  }
+ ]
 }

@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105628759/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Nelson Apolo",
+   "photo": 105628759
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59253806/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Ellis, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Mike Ellis",
+   "photo": 59253806
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612663693/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jerry Oldenettel, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 612663693
+  }
+ ]
 }

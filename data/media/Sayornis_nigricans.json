@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308317582/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Channel City Camera Club, some rights reserved (CC BY)",
+   "photo": 308317582
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308317597/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Don Faulkner, some rights reserved (CC BY-SA)",
+   "photo": 308317597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1616632/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) julian londono, some rights reserved (CC BY-SA)",
+   "photo": 1616632
+  }
+ ]
 }

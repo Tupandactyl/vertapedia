@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67333810/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Erb, some rights reserved (CC BY-NC), uploaded by Peter Erb",
+   "photo": 67333810
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320852/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 320852
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105483876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 105483876
+  }
+ ]
 }

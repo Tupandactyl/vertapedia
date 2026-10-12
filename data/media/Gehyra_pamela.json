@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48739606/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Mata, some rights reserved (CC BY-NC), uploaded by Luis Mata",
+   "photo": 48739606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131643731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Clarey, some rights reserved (CC BY-NC), uploaded by Isaac Clarey",
+   "photo": 131643731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232527157/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Clarey, some rights reserved (CC BY-NC), uploaded by Isaac Clarey",
+   "photo": 232527157
+  }
+ ]
 }

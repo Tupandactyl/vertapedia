@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143658416/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernesto Octavio Guzman Tapia, some rights reserved (CC BY-NC), uploaded by Ernesto Octavio Guzman Tapia",
+   "photo": 143658416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2463671/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Manuel Vicente Miranda del Solar, some rights reserved (CC BY), uploaded by Manuel Vicente Miranda del Solar",
+   "photo": 2463671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12945797/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenn Megyesi, some rights reserved (CC BY-NC), uploaded by Jenn Megyesi",
+   "photo": 12945797
+  }
+ ]
 }

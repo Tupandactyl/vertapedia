@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2069153/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2069153
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13492423/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Instituto Últimos Refúgios, some rights reserved (CC BY-NC), uploaded by Instituto Últimos Refúgios",
+   "photo": 13492423
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13247579/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 13247579
+  }
+ ]
 }

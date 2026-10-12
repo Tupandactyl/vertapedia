@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/603366621/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ana Laura Campioto, some rights reserved (CC BY-NC), uploaded by Ana Laura Campioto",
+   "photo": 603366621
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3328126/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 3328126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/701785417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stephenhunter6, some rights reserved (CC BY-NC)",
+   "photo": 701785417
+  }
+ ]
 }

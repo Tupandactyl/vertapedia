@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424754578/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) edu aguilera, some rights reserved (CC BY-NC)",
+   "photo": 424754578
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387748694/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jakob Horz, some rights reserved (CC BY), uploaded by Jakob Horz",
+   "photo": 387748694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60554653/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC), uploaded by Matthieu Gauvain",
+   "photo": 60554653
+  }
+ ]
 }

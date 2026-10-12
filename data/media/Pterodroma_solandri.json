@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59410459/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Toby Hudson, some rights reserved (CC BY-SA)",
+   "photo": 59410459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59410460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Department of Environment & Primary Industries, some rights reserved (CC BY-NC)",
+   "photo": 59410460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59410461/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 59410461
+  }
+ ]
 }

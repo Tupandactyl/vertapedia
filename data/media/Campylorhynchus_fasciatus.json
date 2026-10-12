@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273857716/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Manuel Roncal",
+   "photo": 273857716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99750/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 99750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267193422/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 267193422
+  }
+ ]
 }

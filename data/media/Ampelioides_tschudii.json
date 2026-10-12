@@ -128,5 +128,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28264016/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Wendelken, some rights reserved (CC BY-NC), uploaded by Dave Wendelken",
+   "photo": 28264016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87205091/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) westerntanager, some rights reserved (CC BY-NC)",
+   "photo": 87205091
+  }
+ ]
 }

@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51918956/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alto de San Miguel, some rights reserved (CC BY-NC), uploaded by Alto de San Miguel",
+   "photo": 51918956
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212405661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 212405661
+  }
+ ]
 }

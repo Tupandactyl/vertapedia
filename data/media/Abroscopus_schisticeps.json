@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583660765/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Devaraju.NK, some rights reserved (CC BY-NC), uploaded by Devaraju.NK",
+   "photo": 583660765
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629655/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Umeshsrinivasan, some rights reserved (CC BY-SA)",
+   "photo": 629655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629654/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) lwei@中国鸟类图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 629654
+  }
+ ]
 }

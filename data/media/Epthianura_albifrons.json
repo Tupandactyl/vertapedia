@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163060608/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Rode, some rights reserved (CC BY-NC), uploaded by Chris Rode",
+   "photo": 163060608
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256306300/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phillip Goodman, some rights reserved (CC BY-NC), uploaded by Phillip Goodman",
+   "photo": 256306300
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144331288/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darcy Whittaker, some rights reserved (CC BY-NC), uploaded by Darcy Whittaker",
+   "photo": 144331288
+  }
+ ]
 }

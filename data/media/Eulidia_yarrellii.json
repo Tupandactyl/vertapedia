@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619041575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Muñoz Orellana, some rights reserved (CC BY-NC), uploaded by Eduardo Muñoz Orellana",
+   "photo": 619041575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199100452/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tamara Catalán Bermudez, some rights reserved (CC BY-NC), uploaded by Tamara Catalán Bermudez",
+   "photo": 199100452
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619042775/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Muñoz Orellana, some rights reserved (CC BY-NC), uploaded by Eduardo Muñoz Orellana",
+   "photo": 619042775
+  }
+ ]
 }

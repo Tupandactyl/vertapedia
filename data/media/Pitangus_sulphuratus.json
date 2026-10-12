@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1766279/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 1766279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254053451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dirk Feldhaus Marquard, some rights reserved (CC BY-NC), uploaded by Dirk Feldhaus Marquard",
+   "photo": 254053451
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1766283/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gregory \"Slobirdr\" Smith, some rights reserved (CC BY-SA)",
+   "photo": 1766283
+  }
+ ]
 }

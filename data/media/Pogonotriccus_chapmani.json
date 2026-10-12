@@ -101,5 +101,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482698313/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jérémie Lapèze, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Jérémie Lapèze",
+   "photo": 482698313
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323635278/{size}.gif",
+   "license": "cc-by-nc",
+   "attribution": "(c) Savimbo, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Savimbo",
+   "photo": 323635278
+  }
+ ]
 }

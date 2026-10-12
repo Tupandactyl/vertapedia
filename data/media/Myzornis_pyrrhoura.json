@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116970327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Udaya Kumar, some rights reserved (CC BY-NC), uploaded by Udaya Kumar",
+   "photo": 116970327
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149084575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leealloway, some rights reserved (CC BY-NC)",
+   "photo": 149084575
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2683259/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 张果老@中国鸟类图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 2683259
+  }
+ ]
 }

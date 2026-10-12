@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21506/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Blake, some rights reserved (CC BY-NC-SA)",
+   "photo": 21506
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21507/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thom Haslam, some rights reserved (CC BY)",
+   "photo": 21507
+  }
+ ]
 }

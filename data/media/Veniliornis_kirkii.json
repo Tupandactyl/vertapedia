@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83278008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
+   "photo": 83278008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17763/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) CristÃ³bal Alvarado Minic, some rights reserved (CC BY)",
+   "photo": 17763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51491434/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo O., some rights reserved (CC BY-NC), uploaded by Guillermo O.",
+   "photo": 51491434
+  }
+ ]
 }

@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471280746/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Wells, some rights reserved (CC BY-NC), uploaded by Alan Wells",
+   "photo": 471280746
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6307928/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 6307928
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191902825/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blythe Nilson, some rights reserved (CC BY-NC), uploaded by Blythe Nilson",
+   "photo": 191902825
+  }
+ ]
 }

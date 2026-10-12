@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270664521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC), uploaded by Tim Forrester",
+   "photo": 270664521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20603296/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 20603296
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264950083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC), uploaded by Tim Forrester",
+   "photo": 264950083
+  }
+ ]
 }

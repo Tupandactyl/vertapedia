@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257852707/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uday Agashe, alguns direitos reservados (CC BY-NC), carregado por Uday Agashe",
+   "photo": 257852707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170560014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, alguns direitos reservados (CC BY-NC), carregado por Avinash Bhagat",
+   "photo": 170560014
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1423244/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) porag, alguns direitos reservados (CC BY-NC)",
+   "photo": 1423244
+  }
+ ]
 }

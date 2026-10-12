@@ -249,5 +249,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31353610/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt K, some rights reserved (CC BY-NC), uploaded by Matt K",
+   "photo": 31353610
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114655826/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Judy Gallagher, some rights reserved (CC BY)",
+   "photo": 114655826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Per Verdonk, some rights reserved (CC BY-NC)",
+   "photo": 863
+  }
+ ]
 }

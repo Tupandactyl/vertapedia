@@ -128,5 +128,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210402416/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 210402416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139008/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Katja Schulz, some rights reserved (CC BY)",
+   "photo": 139008
+  }
+ ]
 }

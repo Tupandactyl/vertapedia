@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6584005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, some rights reserved (CC BY-NC), uploaded by Heather Pickard",
+   "photo": 6584005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6584003/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, some rights reserved (CC BY-NC), uploaded by Heather Pickard",
+   "photo": 6584003
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50274725/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Norman Salazar Arguedas, some rights reserved (CC BY-SA), uploaded by Norman Salazar Arguedas",
+   "photo": 50274725
+  }
+ ]
 }

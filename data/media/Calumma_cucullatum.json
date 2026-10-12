@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/403471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 403471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/529609329/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) llahijani, some rights reserved (CC BY-NC)",
+   "photo": 529609329
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578713666/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rofikul Islam, some rights reserved (CC BY-NC), uploaded by Rofikul Islam",
+   "photo": 578713666
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513370480/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wang.QG, some rights reserved (CC BY), uploaded by Wang.QG",
+   "photo": 513370480
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108532146/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 108532146
+  }
+ ]
 }

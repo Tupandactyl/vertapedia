@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/505107092/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) evilynlee, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 505107092
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644837558/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Peter Ericsson",
+   "photo": 644837558
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3886993/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, osa oikeuksista pidätetään (CC BY), lähettänyt Julien Renoult",
+   "photo": 3886993
+  }
+ ]
 }

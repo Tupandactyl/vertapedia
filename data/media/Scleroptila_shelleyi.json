@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2905697/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alandmanson, some rights reserved (CC BY-SA)",
+   "photo": 2905697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52929357/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Russ Hoverman, some rights reserved (CC BY-NC), uploaded by Russ Hoverman",
+   "photo": 52929357
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15957491/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andrew Deacon",
+   "photo": 15957491
+  }
+ ]
 }

@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339747224/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 339747224
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592625066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jess_odie, some rights reserved (CC BY-NC)",
+   "photo": 592625066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531837898/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC), uploaded by Bobby Bok",
+   "photo": 531837898
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376537118/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alas y Escamas, some rights reserved (CC BY-NC), uploaded by Alas y Escamas",
+   "photo": 376537118
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8129382/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diego1987, some rights reserved (CC BY-NC), uploaded by diego1987",
+   "photo": 8129382
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356024943/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nVladlen Henríquez, some rights reserved (CC BY-SA)",
+   "photo": 356024943
+  }
+ ]
 }

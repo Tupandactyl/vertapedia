@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441173203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 441173203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94174851/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bernd Dietrich, some rights reserved (CC BY-NC), uploaded by Bernd Dietrich",
+   "photo": 94174851
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230129506/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) imogenisunderwater, some rights reserved (CC BY-NC), uploaded by imogenisunderwater",
+   "photo": 230129506
+  }
+ ]
 }

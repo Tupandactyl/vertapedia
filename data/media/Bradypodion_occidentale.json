@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102719541/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 102719541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29277039/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Willem Van Zyl, some rights reserved (CC BY-NC), uploaded by Willem Van Zyl",
+   "photo": 29277039
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82904819/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hanlie Vorster, some rights reserved (CC BY-NC), uploaded by Hanlie Vorster",
+   "photo": 82904819
+  }
+ ]
 }

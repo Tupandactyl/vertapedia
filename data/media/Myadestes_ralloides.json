@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572072864/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rastor, some rights reserved (CC BY-NC)",
+   "photo": 572072864
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117251004/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Guerra, some rights reserved (CC BY-NC), uploaded by Kevin Guerra",
+   "photo": 117251004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100588/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 100588
+  }
+ ]
 }

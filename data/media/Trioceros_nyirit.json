@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/552114284/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Hinkle, some rights reserved (CC BY-NC), uploaded by Adrian Hinkle",
+   "photo": 552114284
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110190959/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pádraic Flood, some rights reserved (CC BY-NC-SA), uploaded by Pádraic Flood",
+   "photo": 110190959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110190950/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Pádraic Flood, some rights reserved (CC BY-NC-SA), uploaded by Pádraic Flood",
+   "photo": 110190950
+  }
+ ]
 }

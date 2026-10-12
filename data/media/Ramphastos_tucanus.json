@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35755618/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicola Flanagan, some rights reserved (CC BY-NC), uploaded by Nicola Flanagan",
+   "photo": 35755618
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56615689/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gerry van Tonder, some rights reserved (CC BY), uploaded by Gerry van Tonder",
+   "photo": 56615689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75640256/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Quispe Salcedo, some rights reserved (CC BY-NC), uploaded by Eduardo Quispe Salcedo",
+   "photo": 75640256
+  }
+ ]
 }

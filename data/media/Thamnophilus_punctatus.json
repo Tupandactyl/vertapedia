@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23412646/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 23412646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384372600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IPBio - Reserva Jutuarana, some rights reserved (CC BY-NC), uploaded by IPBio - Reserva Jutuarana",
+   "photo": 384372600
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265595835/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tales Alves Jr., some rights reserved (CC BY-NC), uploaded by Tales Alves Jr.",
+   "photo": 265595835
+  }
+ ]
 }

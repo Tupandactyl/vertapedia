@@ -202,5 +202,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1305538/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) OwenMartin12, some rights reserved (CC BY-NC)",
+   "photo": 1305538
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168207470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amalik, some rights reserved (CC BY-NC), uploaded by amalik",
+   "photo": 168207470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142496414/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ethan Dropkin, some rights reserved (CC BY-NC), uploaded by Ethan Dropkin",
+   "photo": 142496414
+  }
+ ]
 }

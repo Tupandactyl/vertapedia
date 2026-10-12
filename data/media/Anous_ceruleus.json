@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173273219/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Letnic, some rights reserved (CC BY-NC), uploaded by Mike Letnic",
+   "photo": 173273219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408874477/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IanLJones, some rights reserved (CC BY-NC), uploaded by IanLJones",
+   "photo": 408874477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408874445/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IanLJones, some rights reserved (CC BY-NC), uploaded by IanLJones",
+   "photo": 408874445
+  }
+ ]
 }

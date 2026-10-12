@@ -179,5 +179,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452428306/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Tervo, some rights reserved (CC BY-NC), uploaded by Michael Tervo",
+   "photo": 452428306
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340204528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Owen Gale, some rights reserved (CC BY-NC), uploaded by Owen Gale",
+   "photo": 340204528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157124338/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) glyall, some rights reserved (CC BY-NC)",
+   "photo": 157124338
+  }
+ ]
 }

@@ -30,5 +30,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212257/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 212257
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33255756/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea T. Valdés, some rights reserved (CC BY-NC), uploaded by Andrea T. Valdés",
+   "photo": 33255756
+  }
+ ]
 }

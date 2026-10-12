@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338428104/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Jean-Paul Boerekamps",
+   "photo": 338428104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365527459/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joachim Bertrands, some rights reserved (CC BY-NC), uploaded by Joachim Bertrands",
+   "photo": 365527459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120040091/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 120040091
+  }
+ ]
 }

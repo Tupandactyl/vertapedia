@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460674413/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tomas Sobota, some rights reserved (CC BY-NC), uploaded by Tomas Sobota",
+   "photo": 460674413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111875182/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 111875182
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111875003/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 111875003
+  }
+ ]
 }

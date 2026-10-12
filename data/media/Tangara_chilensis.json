@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52936237/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
+   "photo": 52936237
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59150581/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yantza Farm, Zamora-Chinchipe, Ecuador, some rights reserved (CC BY-NC), uploaded by Yantza Farm, Zamora-Chinchipe, Ecuador",
+   "photo": 59150581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93351998/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 93351998
+  }
+ ]
 }

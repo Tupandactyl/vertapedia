@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378238/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel Ángel Sicilia, some rights reserved (CC BY-NC), uploaded by Miguel Ángel Sicilia",
+   "photo": 378238
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7694865/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marv Elliott, some rights reserved (CC BY-NC), uploaded by Marv Elliott",
+   "photo": 7694865
+  }
+ ]
 }

@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151191449/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Lescano, some rights reserved (CC BY-NC), uploaded by Sebastián Lescano",
+   "photo": 151191449
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12549808/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jeff Young, some rights reserved (CC BY), uploaded by Jeff Young",
+   "photo": 12549808
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179832250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 179832250
+  }
+ ]
 }

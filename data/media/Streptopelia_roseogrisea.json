@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23786220/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Cauldwell, some rights reserved (CC BY-NC), uploaded by Andrew Cauldwell",
+   "photo": 23786220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334995377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Hernandez, some rights reserved (CC BY-NC), uploaded by Ariel Hernandez",
+   "photo": 334995377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51556264/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) A Emmerson, some rights reserved (CC BY-NC), uploaded by A Emmerson",
+   "photo": 51556264
+  }
+ ]
 }

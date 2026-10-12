@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172295470/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 172295470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43817476/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Lescano, some rights reserved (CC BY-NC), uploaded by Sebastián Lescano",
+   "photo": 43817476
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259272018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Christian, some rights reserved (CC BY-NC), uploaded by Emily Christian",
+   "photo": 259272018
+  }
+ ]
 }

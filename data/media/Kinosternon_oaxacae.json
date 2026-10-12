@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19752324/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vicente Mata-Silva, some rights reserved (CC BY)",
+   "photo": 19752324
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37472214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Azul, some rights reserved (CC BY-NC), uploaded by Azul",
+   "photo": 37472214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429141/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) 2012 Vicente Mata-Silva, some rights reserved (CC BY)",
+   "photo": 429141
+  }
+ ]
 }

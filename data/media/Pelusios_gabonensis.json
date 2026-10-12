@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81348194/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 81348194
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81355113/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 81355113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408877699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bureaubenjamin, some rights reserved (CC BY-NC)",
+   "photo": 408877699
+  }
+ ]
 }

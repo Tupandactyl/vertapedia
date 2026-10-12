@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121255185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katherine Sanhueza Bravo, some rights reserved (CC BY-NC), uploaded by Katherine Sanhueza Bravo",
+   "photo": 121255185
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54730172/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Celedon, some rights reserved (CC BY-NC), uploaded by Gabriel Celedon",
+   "photo": 54730172
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54590007/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Romi Galeota Lencina, some rights reserved (CC BY), uploaded by Romi Galeota Lencina",
+   "photo": 54590007
+  }
+ ]
 }

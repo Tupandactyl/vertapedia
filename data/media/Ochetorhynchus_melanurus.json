@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80157783/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francisco Castro Carmona, some rights reserved (CC BY-NC), uploaded by Francisco Castro Carmona",
+   "photo": 80157783
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12114620/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nico, some rights reserved (CC BY-NC), uploaded by Nico",
+   "photo": 12114620
+  }
+ ]
 }

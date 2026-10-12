@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6567260/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Martin Mecnarowski, some rights reserved (CC BY-SA)",
+   "photo": 6567260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954492/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1954492
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605600926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gianfranco Scagnetti, some rights reserved (CC BY-NC), uploaded by Gianfranco Scagnetti",
+   "photo": 605600926
+  }
+ ]
 }

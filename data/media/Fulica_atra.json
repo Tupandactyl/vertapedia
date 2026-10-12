@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123574818/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wei Li Jiang, some rights reserved (CC BY-NC), uploaded by Wei Li Jiang",
+   "photo": 123574818
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441173091/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 441173091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44844641/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kholodnyak Svetlana, some rights reserved (CC BY-NC), uploaded by Kholodnyak Svetlana",
+   "photo": 44844641
+  }
+ ]
 }

@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/505144760/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) evilynlee, some rights reserved (CC BY-NC)",
+   "photo": 505144760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310881110/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dixon Lau, some rights reserved (CC BY-NC), uploaded by Dixon Lau",
+   "photo": 310881110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382835526/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinpearce, some rights reserved (CC BY-NC)",
+   "photo": 382835526
+  }
+ ]
 }

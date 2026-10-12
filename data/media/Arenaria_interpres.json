@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179638917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Etienne Gaillard, some rights reserved (CC BY-NC), uploaded by Etienne Gaillard",
+   "photo": 179638917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128254691/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michell Romero, some rights reserved (CC BY-NC), uploaded by Michell Romero",
+   "photo": 128254691
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184206327/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Eichler, some rights reserved (CC BY-NC), uploaded by John Eichler",
+   "photo": 184206327
+  }
+ ]
 }

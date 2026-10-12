@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14039955/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Josh van der Meulen, some rights reserved (CC BY), uploaded by Josh van der Meulen",
+   "photo": 14039955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106248152/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 106248152
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106138739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 106138739
+  }
+ ]
 }

@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196768651/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Breytenbach, some rights reserved (CC BY-NC), uploaded by Jonathan Breytenbach",
+   "photo": 196768651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196771089/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Breytenbach, some rights reserved (CC BY-NC), uploaded by Jonathan Breytenbach",
+   "photo": 196771089
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196771051/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Breytenbach, some rights reserved (CC BY-NC), uploaded by Jonathan Breytenbach",
+   "photo": 196771051
+  }
+ ]
 }

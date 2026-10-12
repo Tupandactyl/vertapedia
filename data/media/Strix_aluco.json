@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451350360/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "photo": 451350360
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31660213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+   "photo": 31660213
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40675990/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 40675990
+  }
+ ]
 }

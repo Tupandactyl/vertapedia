@@ -45,5 +45,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504008694/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Whaldener Endo",
+   "photo": 504008694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255138337/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Richard Avery, some rights reserved (CC BY-SA)",
+   "photo": 255138337
+  }
+ ]
 }

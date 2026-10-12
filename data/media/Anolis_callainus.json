@@ -73,5 +73,25 @@
    "date": "2022-05-24"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408013538/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Manuel de Roux, some rights reserved (CC BY-NC), uploaded by Juan Manuel de Roux",
+   "photo": 408013538
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101559480/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raul Urgelles, some rights reserved (CC BY-NC), uploaded by Raul Urgelles",
+   "photo": 101559480
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474638737/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Anthony Batista, some rights reserved (CC BY), uploaded by Anthony Batista",
+   "photo": 474638737
+  }
+ ]
 }

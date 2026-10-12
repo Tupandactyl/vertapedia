@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103695544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andria E. Hernandez, some rights reserved (CC BY-NC), uploaded by Andria E. Hernandez",
+   "photo": 103695544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462243608/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jon McIntyre, some rights reserved (CC BY-NC), uploaded by Jon McIntyre",
+   "photo": 462243608
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566023544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joe Paquin, some rights reserved (CC BY-NC), uploaded by Joe Paquin",
+   "photo": 566023544
+  }
+ ]
 }

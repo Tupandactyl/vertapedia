@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29393895/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Brodie Cass Talbott, some rights reserved (CC BY), uploaded by Brodie Cass Talbott",
+   "photo": 29393895
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53053101/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) rohanmenzies, some rights reserved (CC BY), uploaded by rohanmenzies",
+   "photo": 53053101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151737/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 寰尘@中国野鸟图库, some rights reserved (CC BY-NC-SA)",
+   "photo": 151737
+  }
+ ]
 }

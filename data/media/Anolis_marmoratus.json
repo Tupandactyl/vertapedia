@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186734104/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jérémy Delolme, some rights reserved (CC BY-NC), uploaded by Jérémy Delolme",
+   "photo": 186734104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362222490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franck Curk, some rights reserved (CC BY-NC), uploaded by Franck Curk",
+   "photo": 362222490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354526540/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Kimr, some rights reserved (CC BY-NC), uploaded by David Kimr",
+   "photo": 354526540
+  }
+ ]
 }

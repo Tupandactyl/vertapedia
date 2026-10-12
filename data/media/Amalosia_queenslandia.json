@@ -73,5 +73,25 @@
    "date": "2012-10-20"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596422130/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomson Hill, some rights reserved (CC BY-NC), uploaded by Thomson Hill",
+   "photo": 596422130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333666677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alec Karcz, some rights reserved (CC BY-NC), uploaded by Alec Karcz",
+   "photo": 333666677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14636842/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Eipper, some rights reserved (CC BY-NC), uploaded by Scott Eipper",
+   "photo": 14636842
+  }
+ ]
 }

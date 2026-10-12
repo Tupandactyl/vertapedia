@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200627644/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Rash, some rights reserved (CC BY-NC), uploaded by Ryan Rash",
+   "photo": 200627644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123739386/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valeria Huerta, some rights reserved (CC BY-NC), uploaded by Valeria Huerta",
+   "photo": 123739386
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474362687/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by steve b",
+   "photo": 474362687
+  }
+ ]
 }

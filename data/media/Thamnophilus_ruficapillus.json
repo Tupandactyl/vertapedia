@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11210811/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fabiomanfredini, some rights reserved (CC BY-NC), uploaded by fabiomanfredini",
+   "photo": 11210811
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448417857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Kenzo Aoyagui, some rights reserved (CC BY-NC), uploaded by Felipe Kenzo Aoyagui",
+   "photo": 448417857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348358432/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Gonçalves Carvalho, some rights reserved (CC BY-NC), uploaded by Paulo Gonçalves Carvalho",
+   "photo": 348358432
+  }
+ ]
 }

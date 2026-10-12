@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192396793/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rociomar, some rights reserved (CC BY-NC)",
+   "photo": 192396793
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2065036/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Philippe Macquet, some rights reserved (CC BY-NC-SA)",
+   "photo": 2065036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69588829/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rino Di Noto, some rights reserved (CC BY-NC), uploaded by Rino Di Noto",
+   "photo": 69588829
+  }
+ ]
 }

@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6045376/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Birding Weto, some rights reserved (CC BY-SA)",
+   "photo": 6045376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6045381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 6045381
+  }
+ ]
 }

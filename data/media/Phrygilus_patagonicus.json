@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17551/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nestor Galina, some rights reserved (CC BY)",
+   "photo": 17551
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113119980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marineflo, some rights reserved (CC BY-NC)",
+   "photo": 113119980
+  }
+ ]
 }

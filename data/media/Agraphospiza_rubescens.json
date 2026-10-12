@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532342298/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wang.QG, some rights reserved (CC BY), uploaded by Wang.QG",
+   "photo": 532342298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532342309/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wang.QG, some rights reserved (CC BY), uploaded by Wang.QG",
+   "photo": 532342309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609400886/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelly Hu, some rights reserved (CC BY-NC), uploaded by Kelly Hu",
+   "photo": 609400886
+  }
+ ]
 }

@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176773163/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Egon Fink, some rights reserved (CC BY)",
+   "photo": 176773163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176773167/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Luiz Carlos  Rocha, some rights reserved (CC BY-SA)",
+   "photo": 176773167
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17518/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 17518
+  }
+ ]
 }

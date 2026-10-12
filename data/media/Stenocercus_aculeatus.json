@@ -42,5 +42,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270045796/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://doi.org/10.3897/evolsyst.4.57578, some rights reserved (CC BY)",
+   "photo": 270045796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270045798/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://doi.org/10.3897/evolsyst.4.57578, some rights reserved (CC BY)",
+   "photo": 270045798
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270045787/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) https://doi.org/10.3897/evolsyst.4.57578, some rights reserved (CC BY)",
+   "photo": 270045787
+  }
+ ]
 }

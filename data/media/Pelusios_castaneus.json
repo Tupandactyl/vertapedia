@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113983100/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr Anh Galat-Luong, some rights reserved (CC BY-NC), uploaded by Dr Anh Galat-Luong",
+   "photo": 113983100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113979816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr Anh Galat-Luong, some rights reserved (CC BY-NC), uploaded by Dr Anh Galat-Luong",
+   "photo": 113979816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52079928/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jazz (aka turtlehelper), some rights reserved (CC BY-NC), uploaded by Jazz (aka turtlehelper)",
+   "photo": 52079928
+  }
+ ]
 }

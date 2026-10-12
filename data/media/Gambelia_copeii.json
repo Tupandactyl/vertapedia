@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124557/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2004 Chris Brown, USGS, some rights reserved (CC BY-NC)",
+   "photo": 124557
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8181477/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James M. Maley, some rights reserved (CC BY), uploaded by James M. Maley",
+   "photo": 8181477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5637463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 5637463
+  }
+ ]
 }

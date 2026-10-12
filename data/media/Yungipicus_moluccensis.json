@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179016856/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ignatius_augustine, some rights reserved (CC BY-NC)",
+   "photo": 179016856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59032566/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) prakashbr, some rights reserved (CC BY-NC)",
+   "photo": 59032566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17177063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
+   "photo": 17177063
+  }
+ ]
 }

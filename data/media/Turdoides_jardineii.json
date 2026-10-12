@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447881591/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY), uploaded by Alan Manson",
+   "photo": 447881591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29341431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Torsten Sonne Petersen, some rights reserved (CC BY-NC), uploaded by Torsten Sonne Petersen",
+   "photo": 29341431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47270/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 47270
+  }
+ ]
 }

@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713060631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lance_robinson, some rights reserved (CC BY-NC)",
+   "photo": 713060631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532253424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 532253424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3820246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 3820246
+  }
+ ]
 }

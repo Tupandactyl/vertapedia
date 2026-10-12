@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89333274/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nBruno Conjeaud, osa oikeuksista pidätetään (CC BY)",
+   "photo": 89333274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89333275/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) Zieger M, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 89333275
+  }
+ ]
 }

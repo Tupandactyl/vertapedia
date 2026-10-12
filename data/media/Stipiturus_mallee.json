@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231810976/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt",
+   "photo": 231810976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13797604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 13797604
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296657368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Owen Lishmund, some rights reserved (CC BY-NC), uploaded by Owen Lishmund",
+   "photo": 296657368
+  }
+ ]
 }

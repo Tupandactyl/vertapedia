@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194570525/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
+   "photo": 194570525
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111525580/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) camallard, some rights reserved (CC BY-NC), uploaded by camallard",
+   "photo": 111525580
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54499543/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mary Keim, some rights reserved (CC BY-NC-SA)",
+   "photo": 54499543
+  }
+ ]
 }

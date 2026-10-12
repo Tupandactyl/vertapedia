@@ -218,5 +218,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54742562/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John C., some rights reserved (CC BY-NC), uploaded by John C.",
+   "photo": 54742562
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13445379/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Simon Tonge",
+   "photo": 13445379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47064077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janet Wright, some rights reserved (CC BY-NC), uploaded by Janet Wright",
+   "photo": 47064077
+  }
+ ]
 }

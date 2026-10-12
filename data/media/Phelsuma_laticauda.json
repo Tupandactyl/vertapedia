@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335822232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dougal Townsend, some rights reserved (CC BY-NC), uploaded by Dougal Townsend",
+   "photo": 335822232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265432855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Nikas, some rights reserved (CC BY-NC), uploaded by Mark Nikas",
+   "photo": 265432855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4845970/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kate Turner, some rights reserved (CC BY-NC), uploaded by Kate Turner",
+   "photo": 4845970
+  }
+ ]
 }

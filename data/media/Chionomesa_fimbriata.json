@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607307706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jessica Launay, some rights reserved (CC BY-NC), uploaded by Jessica Launay",
+   "photo": 607307706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17496/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 17496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26314704/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26314704
+  }
+ ]
 }

@@ -54,5 +54,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45799027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leahleahleah, some rights reserved (CC BY-NC), uploaded by leahleahleah",
+   "photo": 45799027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36141/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kerry Matz, some rights reserved (CC BY-NC-SA)",
+   "photo": 36141
+  }
+ ]
 }

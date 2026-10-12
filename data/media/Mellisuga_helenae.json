@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162743552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sean Werle, some rights reserved (CC BY-NC), uploaded by Sean Werle",
+   "photo": 162743552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12282572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 12282572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20389869/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Conboy, some rights reserved (CC BY-NC), uploaded by Mark Conboy",
+   "photo": 20389869
+  }
+ ]
 }

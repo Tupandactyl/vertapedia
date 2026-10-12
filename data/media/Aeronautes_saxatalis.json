@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345683365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Mills, some rights reserved (CC BY-NC), uploaded by Tom Mills",
+   "photo": 345683365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191456656/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sean P. Miller, some rights reserved (CC BY-NC), uploaded by Sean P. Miller",
+   "photo": 191456656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14412696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Schwarz, some rights reserved (CC BY-NC), uploaded by Christian Schwarz",
+   "photo": 14412696
+  }
+ ]
 }

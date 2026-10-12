@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213337059/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 213337059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155243214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Foss, some rights reserved (CC BY-NC), uploaded by Steve Foss",
+   "photo": 155243214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213337042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 213337042
+  }
+ ]
 }

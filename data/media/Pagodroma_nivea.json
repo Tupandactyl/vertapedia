@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175847822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noah Strycker, some rights reserved (CC BY-NC), uploaded by Noah Strycker",
+   "photo": 175847822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183979527/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Serguei Ponomarenko, some rights reserved (CC BY-NC), uploaded by Serguei Ponomarenko",
+   "photo": 183979527
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251700196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Meyer, some rights reserved (CC BY-NC), uploaded by Xavier Meyer",
+   "photo": 251700196
+  }
+ ]
 }

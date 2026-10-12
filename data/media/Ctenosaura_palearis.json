@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6015780/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Christoph Lorse, some rights reserved (CC BY-NC-SA)",
+   "photo": 6015780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159635547/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AndreCast, some rights reserved (CC BY-NC), uploaded by AndreCast",
+   "photo": 159635547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159635505/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AndreCast, some rights reserved (CC BY-NC), uploaded by AndreCast",
+   "photo": 159635505
+  }
+ ]
 }

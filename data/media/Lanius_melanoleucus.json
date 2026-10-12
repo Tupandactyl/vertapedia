@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27973238/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maritzasouthafrica, some rights reserved (CC BY-NC), uploaded by maritzasouthafrica",
+   "photo": 27973238
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ian, some rights reserved (CC BY-NC)",
+   "photo": 8042
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8043/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arno Meintjes, some rights reserved (CC BY-NC)",
+   "photo": 8043
+  }
+ ]
 }

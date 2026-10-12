@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54313636/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 54313636
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4843904/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Laurie, some rights reserved (CC BY-NC), uploaded by David Laurie",
+   "photo": 4843904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55955948/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Geoffrey Cox, some rights reserved (CC BY-NC), uploaded by Geoffrey Cox",
+   "photo": 55955948
+  }
+ ]
 }

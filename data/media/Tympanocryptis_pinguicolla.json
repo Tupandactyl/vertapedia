@@ -53,5 +53,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294379862/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) CSIRO, some rights reserved (CC BY)",
+   "photo": 294379862
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294379874/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Michael Mulvaney, some rights reserved (CC BY)",
+   "photo": 294379874
+  }
+ ]
 }

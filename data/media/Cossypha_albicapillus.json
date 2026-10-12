@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7453444/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 7453444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2788034/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundación Tierra Ibérica, some rights reserved (CC BY-NC), uploaded by Fundación Tierra Ibérica",
+   "photo": 2788034
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30267059/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Barth, some rights reserved (CC BY-NC), uploaded by Michael Barth",
+   "photo": 30267059
+  }
+ ]
 }

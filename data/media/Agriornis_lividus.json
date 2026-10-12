@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202242399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Rodolfo Lillo Lobos, some rights reserved (CC BY-NC), uploaded by Juan Rodolfo Lillo Lobos",
+   "photo": 202242399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312327025/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fabián Silva, some rights reserved (CC BY-NC), uploaded by Fabián Silva",
+   "photo": 312327025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2745903/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bastian Riveros Flores, some rights reserved (CC BY-NC), uploaded by Bastian Riveros Flores",
+   "photo": 2745903
+  }
+ ]
 }

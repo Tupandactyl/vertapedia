@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116807683/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Vander Pluym, some rights reserved (CC BY-NC), uploaded by David Vander Pluym",
+   "photo": 116807683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465764701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) docsharpe, some rights reserved (CC BY-NC), uploaded by docsharpe",
+   "photo": 465764701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18472261/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rüdiger Stehn, some rights reserved (CC BY-SA)",
+   "photo": 18472261
+  }
+ ]
 }

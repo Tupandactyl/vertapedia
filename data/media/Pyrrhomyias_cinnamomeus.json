@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380248657/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Croftylock, some rights reserved (CC BY-NC), uploaded by Croftylock",
+   "photo": 380248657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477269494/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 477269494
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61898081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) max_hof_mann, some rights reserved (CC BY-NC), uploaded by max_hof_mann",
+   "photo": 61898081
+  }
+ ]
 }

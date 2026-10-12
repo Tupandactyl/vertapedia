@@ -193,5 +193,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111805682/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johnal Palahniuk, some rights reserved (CC BY-NC), uploaded by Johnal Palahniuk",
+   "photo": 111805682
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vitalii Khustochka, some rights reserved (CC BY-NC)",
+   "photo": 1629164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116410560/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher J. Earle, some rights reserved (CC BY-NC), uploaded by Christopher J. Earle",
+   "photo": 116410560
+  }
+ ]
 }

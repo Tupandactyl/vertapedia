@@ -177,5 +177,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76608368/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 76608368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26953807/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mateo Giraldo Tamayo, some rights reserved (CC BY-NC), uploaded by Mateo Giraldo Tamayo",
+   "photo": 26953807
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73636271/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pablo puebla, some rights reserved (CC BY-NC), uploaded by pablo puebla",
+   "photo": 73636271
+  }
+ ]
 }

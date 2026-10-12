@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250736094/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) ....Christopher Borges...., some rights reserved (CC BY-SA), uploaded by ....Christopher Borges....",
+   "photo": 250736094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474659190/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Glauko Corrêa || Proaves Rondoni, some rights reserved (CC BY-NC), uploaded by Glauko Corrêa || Proaves Rondoni",
+   "photo": 474659190
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250500966/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) ....Christopher Borges...., some rights reserved (CC BY-SA), uploaded by ....Christopher Borges....",
+   "photo": 250500966
+  }
+ ]
 }

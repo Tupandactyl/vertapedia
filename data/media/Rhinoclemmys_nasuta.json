@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38060040/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 38060040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201977026/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Camilo Ernesto Echeverri Garcia, some rights reserved (CC BY-NC), uploaded by Camilo Ernesto Echeverri Garcia",
+   "photo": 201977026
+  }
+ ]
 }

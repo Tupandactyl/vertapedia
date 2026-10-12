@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2778405/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gregory \"Slobirdr\" Smith, some rights reserved (CC BY-SA)",
+   "photo": 2778405
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66975772/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 66975772
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226472921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Finn McGhee, some rights reserved (CC BY-NC), uploaded by Finn McGhee",
+   "photo": 226472921
+  }
+ ]
 }

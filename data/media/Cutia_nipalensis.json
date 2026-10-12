@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138103033/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 138103033
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293945922/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benjamin Koh, some rights reserved (CC BY-NC), uploaded by Benjamin Koh",
+   "photo": 293945922
+  }
+ ]
 }

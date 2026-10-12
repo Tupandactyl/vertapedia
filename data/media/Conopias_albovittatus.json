@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358303479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) courtjcam, some rights reserved (CC BY-NC)",
+   "photo": 358303479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128862047/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría",
+   "photo": 128862047
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484612721/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anders Dahl, some rights reserved (CC BY-NC), uploaded by Anders Dahl",
+   "photo": 484612721
+  }
+ ]
 }

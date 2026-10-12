@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602423921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 602423921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658989146/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Crisp, some rights reserved (CC BY-NC), uploaded by Jacob Crisp",
+   "photo": 658989146
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203081654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Morris, some rights reserved (CC BY-NC)",
+   "photo": 203081654
+  }
+ ]
 }

@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119164722/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan van den Heever, some rights reserved (CC BY-NC), uploaded by Juan van den Heever",
+   "photo": 119164722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597447343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruce Wedderburn, some rights reserved (CC BY-NC), uploaded by Bruce Wedderburn",
+   "photo": 597447343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729911/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 729911
+  }
+ ]
 }

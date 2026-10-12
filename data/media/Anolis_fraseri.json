@@ -128,5 +128,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79543232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric DeFonso, some rights reserved (CC BY-NC), uploaded by Eric DeFonso",
+   "photo": 79543232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171760740/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 171760740
+  }
+ ]
 }

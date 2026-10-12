@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67275024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Garwood, some rights reserved (CC BY-NC), uploaded by Justin Garwood",
+   "photo": 67275024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383306656/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rayyan Syed Ibrahim, some rights reserved (CC BY-NC), uploaded by Rayyan Syed Ibrahim",
+   "photo": 383306656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147298825/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Garwood, some rights reserved (CC BY-NC), uploaded by Justin Garwood",
+   "photo": 147298825
+  }
+ ]
 }

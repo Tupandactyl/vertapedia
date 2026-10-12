@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159017163/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) bob|P-&-S, some rights reserved (CC BY-NC-SA)",
+   "photo": 159017163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159017162/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Quine, some rights reserved (CC BY)",
+   "photo": 159017162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180896188/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 180896188
+  }
+ ]
 }

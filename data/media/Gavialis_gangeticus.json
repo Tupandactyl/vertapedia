@@ -267,5 +267,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518604067/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Charles Sharp, some rights reserved (CC BY-NC-SA)",
+   "photo": 518604067
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518604084/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ryan Somma, some rights reserved (CC BY-SA)",
+   "photo": 518604084
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73811667/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Fábio Olmos, some rights reserved (CC BY), uploaded by Fábio Olmos",
+   "photo": 73811667
+  }
+ ]
 }

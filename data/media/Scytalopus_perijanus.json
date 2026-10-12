@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29061966/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Andres Cuervo, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 29061966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29061967/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andres Cuervo, osa oikeuksista pidätetään (CC BY)",
+   "photo": 29061967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29061968/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andres Cuervo, osa oikeuksista pidätetään (CC BY)",
+   "photo": 29061968
+  }
+ ]
 }

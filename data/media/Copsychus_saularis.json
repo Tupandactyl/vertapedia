@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192125281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 192125281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204842025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 204842025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90739488/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC), uploaded by Albert Kang",
+   "photo": 90739488
+  }
+ ]
 }

@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433680366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 433680366
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337295944/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, some rights reserved (CC BY-SA), uploaded by Joseph Morlan",
+   "photo": 337295944
+  }
+ ]
 }

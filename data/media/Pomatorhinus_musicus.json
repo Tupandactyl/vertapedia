@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50821080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shang-Kwei Wang, some rights reserved (CC BY-NC), uploaded by Shang-Kwei Wang",
+   "photo": 50821080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353555880/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lava_chen, some rights reserved (CC BY-NC)",
+   "photo": 353555880
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33134794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sunmr, some rights reserved (CC BY-NC)",
+   "photo": 33134794
+  }
+ ]
 }

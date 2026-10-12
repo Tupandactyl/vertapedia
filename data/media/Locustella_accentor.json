@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336935990/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Bottinelli, some rights reserved (CC BY-NC), uploaded by Julien Bottinelli",
+   "photo": 336935990
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312129689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benjamynweil, some rights reserved (CC BY-NC), uploaded by benjamynweil",
+   "photo": 312129689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312129669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benjamynweil, some rights reserved (CC BY-NC), uploaded by benjamynweil",
+   "photo": 312129669
+  }
+ ]
 }

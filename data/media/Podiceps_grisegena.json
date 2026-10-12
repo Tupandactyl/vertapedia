@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653469754/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 653469754
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80344424/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Wood, some rights reserved (CC BY-NC), uploaded by Tony Wood",
+   "photo": 80344424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472338796/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) - Laure Wilson Neish, some rights reserved (CC BY-NC), uploaded by - Laure Wilson Neish",
+   "photo": 472338796
+  }
+ ]
 }

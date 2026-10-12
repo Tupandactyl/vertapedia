@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26406838/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 26406838
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31380921/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 31380921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24551470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Adrián LEIVA, some rights reserved (CC BY-NC), uploaded by Leonardo Adrián LEIVA",
+   "photo": 24551470
+  }
+ ]
 }

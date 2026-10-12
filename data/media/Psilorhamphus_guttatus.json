@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64824379/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel Angelo Biz, some rights reserved (CC BY-NC), uploaded by Miguel Angelo Biz",
+   "photo": 64824379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11549760/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 11549760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85696416/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cotinga, some rights reserved (CC BY-NC), uploaded by cotinga",
+   "photo": 85696416
+  }
+ ]
 }

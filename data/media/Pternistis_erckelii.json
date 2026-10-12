@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2971144/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 2971144
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5381515/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Melissa McMasters, some rights reserved (CC BY)",
+   "photo": 5381515
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28810315/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Dudones, some rights reserved (CC BY-NC), uploaded by Tom Dudones",
+   "photo": 28810315
+  }
+ ]
 }

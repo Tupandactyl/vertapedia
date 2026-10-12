@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59783681/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kai Squires, some rights reserved (CC BY), uploaded by Kai Squires",
+   "photo": 59783681
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599294/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sabine's Sunbird, some rights reserved (CC BY-SA)",
+   "photo": 599294
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17837453/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 17837453
+  }
+ ]
 }

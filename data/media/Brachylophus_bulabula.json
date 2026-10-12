@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336591090/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nasiko, some rights reserved (CC BY-NC)",
+   "photo": 336591090
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3321006/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Saarblitz (Offline for a few days), some rights reserved (CC BY-NC-SA)",
+   "photo": 3321006
+  }
+ ]
 }

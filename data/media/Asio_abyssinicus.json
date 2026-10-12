@@ -109,5 +109,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609459085/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC), uploaded by leekelai",
+   "photo": 609459085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23861224/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 23861224
+  }
+ ]
 }

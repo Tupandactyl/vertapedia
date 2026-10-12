@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614186969/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fermont Photography, some rights reserved (CC BY-NC), uploaded by Fermont Photography",
+   "photo": 614186969
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58092872/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC), uploaded by David Bygott",
+   "photo": 58092872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554854552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Riccardo Boris, some rights reserved (CC BY-NC), uploaded by Riccardo Boris",
+   "photo": 554854552
+  }
+ ]
 }

@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30762424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dushenkov, some rights reserved (CC BY-NC)",
+   "photo": 30762424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51866000/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, some rights reserved (CC BY-NC), uploaded by Nelson Apolo",
+   "photo": 51866000
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226864469/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mschneider, some rights reserved (CC BY-NC)",
+   "photo": 226864469
+  }
+ ]
 }

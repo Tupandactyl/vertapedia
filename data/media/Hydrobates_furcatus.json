@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23832642/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 23832642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689864619/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Михаил Голомысов, some rights reserved (CC BY), uploaded by Михаил Голомысов",
+   "photo": 689864619
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23832632/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 23832632
+  }
+ ]
 }

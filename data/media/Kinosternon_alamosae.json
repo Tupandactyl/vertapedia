@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12378831/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ojeda, some rights reserved (CC BY-NC), uploaded by Ojeda",
+   "photo": 12378831
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48162723/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) adrian santaella, some rights reserved (CC BY-NC), uploaded by adrian santaella",
+   "photo": 48162723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8841574/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JESÚS ALFREDO CARRILLO GARCÍA, some rights reserved (CC BY-NC), uploaded by JESÚS ALFREDO CARRILLO GARCÍA",
+   "photo": 8841574
+  }
+ ]
 }

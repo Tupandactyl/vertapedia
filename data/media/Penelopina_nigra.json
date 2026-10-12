@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6603207/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) jmmaes, some rights reserved (CC BY-SA), uploaded by jmmaes",
+   "photo": 6603207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13360867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sally Kneidel, some rights reserved (CC BY-NC), uploaded by Sally Kneidel",
+   "photo": 13360867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19118951/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Manzano Méndez, some rights reserved (CC BY-NC), uploaded by Diego Manzano Méndez",
+   "photo": 19118951
+  }
+ ]
 }

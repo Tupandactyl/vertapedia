@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616509235/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Adam Jackson",
+   "photo": 616509235
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216042218/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+   "photo": 216042218
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6731817/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sarah Wyatt, some rights reserved (CC BY-NC), uploaded by Sarah Wyatt",
+   "photo": 6731817
+  }
+ ]
 }

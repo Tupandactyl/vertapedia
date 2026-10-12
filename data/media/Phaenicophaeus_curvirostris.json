@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90191301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Munim Zabidi, some rights reserved (CC BY-NC), uploaded by Munim Zabidi",
+   "photo": 90191301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230631508/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pierce, some rights reserved (CC BY-NC), uploaded by Andrew Pierce",
+   "photo": 230631508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6617117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldman19510, some rights reserved (CC BY-NC), uploaded by oldman19510",
+   "photo": 6617117
+  }
+ ]
 }

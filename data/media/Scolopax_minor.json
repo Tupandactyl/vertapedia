@@ -196,5 +196,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472349793/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alphipps, some rights reserved (CC BY-NC)",
+   "photo": 472349793
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161333892/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joe Girgente, some rights reserved (CC BY-NC), uploaded by Joe Girgente",
+   "photo": 161333892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27633370/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Owen Strickland, some rights reserved (CC BY), uploaded by Owen Strickland",
+   "photo": 27633370
+  }
+ ]
 }

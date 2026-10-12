@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 182116
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196954028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Humpage, some rights reserved (CC BY-NC), uploaded by Andrew Humpage",
+   "photo": 196954028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169459798/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Wilson, some rights reserved (CC BY-NC), uploaded by Doug Wilson",
+   "photo": 169459798
+  }
+ ]
 }

@@ -135,5 +135,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1465719/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2009 Frank Teigler, some rights reserved (CC BY-NC)",
+   "photo": 1465719
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1465717/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 2009 Frank Teigler, some rights reserved (CC BY-NC)",
+   "photo": 1465717
+  }
+ ]
 }

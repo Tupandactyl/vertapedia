@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389369334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fachrynurmallojr, some rights reserved (CC BY-NC)",
+   "photo": 389369334
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13403896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13403896
+  }
+ ]
 }

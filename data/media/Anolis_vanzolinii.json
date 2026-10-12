@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586212724/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lozano-Cabrera, C.E., some rights reserved (CC BY-NC), uploaded by Lozano-Cabrera, C.E.",
+   "photo": 586212724
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582623385/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "photo": 582623385
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582623363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "photo": 582623363
+  }
+ ]
 }

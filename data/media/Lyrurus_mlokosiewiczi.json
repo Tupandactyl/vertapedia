@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67094858/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY), uploaded by Andrew Bazdyrev",
+   "photo": 67094858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67094840/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY), uploaded by Andrew Bazdyrev",
+   "photo": 67094840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1002806/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) IUCNweb, some rights reserved (CC BY-NC-SA)",
+   "photo": 1002806
+  }
+ ]
 }

@@ -185,5 +185,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86267736/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 86267736
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106482788/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura Keene, some rights reserved (CC BY-NC), uploaded by Laura Keene",
+   "photo": 106482788
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2994213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 2994213
+  }
+ ]
 }

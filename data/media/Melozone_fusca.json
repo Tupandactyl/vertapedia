@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52588417/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gera Guzman, some rights reserved (CC BY-NC), uploaded by Gera Guzman",
+   "photo": 52588417
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249956/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Leautaud, some rights reserved (CC BY-NC)",
+   "photo": 249956
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/715867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marv Elliott, some rights reserved (CC BY-NC), uploaded by Marv Elliott",
+   "photo": 715867
+  }
+ ]
 }

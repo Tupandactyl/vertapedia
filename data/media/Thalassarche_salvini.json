@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177485862/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian K. Herzog, some rights reserved (CC BY-NC), uploaded by Sebastian K. Herzog",
+   "photo": 177485862
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418683310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 418683310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20009/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
+   "photo": 20009
+  }
+ ]
 }

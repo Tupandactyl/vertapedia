@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178382206/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen Taylor, some rights reserved (CC BY-NC), uploaded by Stephen Taylor",
+   "photo": 178382206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107992898/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by David Bird",
+   "photo": 107992898
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169894103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 169894103
+  }
+ ]
 }

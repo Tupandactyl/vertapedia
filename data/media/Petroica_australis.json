@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358190180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samuel Amaris, some rights reserved (CC BY-NC), uploaded by Samuel Amaris",
+   "photo": 358190180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12692223/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bradley_birdsnz, some rights reserved (CC BY-NC), uploaded by bradley_birdsnz",
+   "photo": 12692223
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213288697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ryaninnz, some rights reserved (CC BY-NC)",
+   "photo": 213288697
+  }
+ ]
 }

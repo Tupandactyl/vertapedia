@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626053929/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ikbal H. Babu, some rights reserved (CC BY-NC), uploaded by Ikbal H. Babu",
+   "photo": 626053929
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604329691/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) allanmichaud, some rights reserved (CC BY-NC)",
+   "photo": 604329691
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477757876/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC), uploaded by peter maaskant",
+   "photo": 477757876
+  }
+ ]
 }

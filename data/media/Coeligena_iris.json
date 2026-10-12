@@ -163,5 +163,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43727474/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 43727474
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380995300/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Manuel Roncal",
+   "photo": 380995300
+  }
+ ]
 }

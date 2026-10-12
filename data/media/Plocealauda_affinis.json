@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8759939/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jacky Judas, some rights reserved (CC BY), uploaded by Jacky Judas",
+   "photo": 8759939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104552445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rich Kostecke, some rights reserved (CC BY-NC), uploaded by Rich Kostecke",
+   "photo": 104552445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71305876/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Nikonorova, some rights reserved (CC BY-NC), uploaded by Marina Nikonorova",
+   "photo": 71305876
+  }
+ ]
 }

@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8519117/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Hall, some rights reserved (CC BY-NC), uploaded by Martin Hall",
+   "photo": 8519117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/371800739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jbpeters, some rights reserved (CC BY-NC)",
+   "photo": 371800739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306761867/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jennifer Linde, some rights reserved (CC BY-NC), uploaded by Jennifer Linde",
+   "photo": 306761867
+  }
+ ]
 }

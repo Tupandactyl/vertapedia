@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182076045/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 182076045
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27783973/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik",
+   "photo": 27783973
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182076038/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Adry, some rights reserved (CC BY-NC-SA)",
+   "photo": 182076038
+  }
+ ]
 }

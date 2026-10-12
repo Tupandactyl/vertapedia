@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592140430/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 592140430
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3245838/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3245838
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343356621/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, some rights reserved (CC BY-SA), uploaded by Joseph Morlan",
+   "photo": 343356621
+  }
+ ]
 }

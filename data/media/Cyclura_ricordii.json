@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne, some rights reserved (CC BY-NC)",
+   "photo": 165876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12943722/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 12943722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584426794/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sirhikesalot, some rights reserved (CC BY-NC), uploaded by sirhikesalot",
+   "photo": 584426794
+  }
+ ]
 }

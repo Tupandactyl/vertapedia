@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358587212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 358587212
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228872261/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Roland Godon, some rights reserved (CC BY), uploaded by Roland Godon",
+   "photo": 228872261
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337149377/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, some rights reserved (CC BY-SA), uploaded by Joseph Morlan",
+   "photo": 337149377
+  }
+ ]
 }

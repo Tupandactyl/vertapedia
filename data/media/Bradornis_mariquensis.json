@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709157143/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Verna Connan, some rights reserved (CC BY-NC), uploaded by Verna Connan",
+   "photo": 709157143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18922333/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan",
+   "photo": 18922333
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/676438443/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 676438443
+  }
+ ]
 }

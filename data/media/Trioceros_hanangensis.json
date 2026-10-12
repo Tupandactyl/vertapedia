@@ -70,5 +70,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128324572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Insect Spotlight Project - Garrison W. Piel, some rights reserved (CC BY-NC), uploaded by Insect Spotlight Project - Garrison W. Piel",
+   "photo": 128324572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54297199/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) torunitadori, some rights reserved (CC BY-NC), uploaded by torunitadori",
+   "photo": 54297199
+  }
+ ]
 }

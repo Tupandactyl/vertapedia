@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337828801/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jefta Natanael, some rights reserved (CC BY-NC), uploaded by Jefta Natanael",
+   "photo": 337828801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/673638711/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) César Rodríguez del Castillo, some rights reserved (CC BY-NC), uploaded by César Rodríguez del Castillo",
+   "photo": 673638711
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463590389/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maria Dunlavey, some rights reserved (CC BY-NC), uploaded by Maria Dunlavey",
+   "photo": 463590389
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419827917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mikeburchett, some rights reserved (CC BY-NC)",
+   "photo": 419827917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572931661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jairo Moya Vargas, some rights reserved (CC BY-NC), uploaded by Jairo Moya Vargas",
+   "photo": 572931661
+  }
+ ]
 }

@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57559180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ambikab, some rights reserved (CC BY-NC)",
+   "photo": 57559180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343558241/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Bell, some rights reserved (CC BY), uploaded by Alan Bell",
+   "photo": 343558241
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257103318/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 257103318
+  }
+ ]
 }

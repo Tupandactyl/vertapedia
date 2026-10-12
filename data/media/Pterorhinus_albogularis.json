@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331426540/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) P. S. Sivaprasad, some rights reserved (CC BY-NC), uploaded by P. S. Sivaprasad",
+   "photo": 331426540
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1731259/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tamsin Carlisle, some rights reserved (CC BY-NC-SA)",
+   "photo": 1731259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100648442/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) devayani khare, some rights reserved (CC BY-NC-SA), uploaded by devayani khare",
+   "photo": 100648442
+  }
+ ]
 }

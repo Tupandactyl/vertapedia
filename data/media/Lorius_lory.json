@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242616808/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pankaj Nirale, some rights reserved (CC BY-NC), uploaded by Pankaj Nirale",
+   "photo": 242616808
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3241849/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3241849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351930999/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 351930999
+  }
+ ]
 }

@@ -166,5 +166,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176974820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 176974820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443356955/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) estaiano, some rights reserved (CC BY-NC)",
+   "photo": 443356955
+  }
+ ]
 }

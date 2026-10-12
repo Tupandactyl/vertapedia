@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261189722/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 261189722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458663909/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 458663909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566202266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Bierbaumer, some rights reserved (CC BY-NC), uploaded by Michael Bierbaumer",
+   "photo": 566202266
+  }
+ ]
 }

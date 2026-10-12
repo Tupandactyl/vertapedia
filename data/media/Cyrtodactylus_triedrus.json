@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38645657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) See Gomen, some rights reserved (CC BY-NC), uploaded by See Gomen",
+   "photo": 38645657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91494029/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 91494029
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44887158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 44887158
+  }
+ ]
 }

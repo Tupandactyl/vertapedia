@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152141005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jess Morton, some rights reserved (CC BY-NC), uploaded by Jess Morton",
+   "photo": 152141005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71548187/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Eric Gropp, some rights reserved (CC BY)",
+   "photo": 71548187
+  }
+ ]
 }

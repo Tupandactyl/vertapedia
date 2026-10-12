@@ -238,5 +238,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349231658/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cassiia, some rights reserved (CC BY-NC), uploaded by cassiia",
+   "photo": 349231658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498922599/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+   "photo": 498922599
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59615301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Greenfield, some rights reserved (CC BY-NC), uploaded by Jim Greenfield",
+   "photo": 59615301
+  }
+ ]
 }

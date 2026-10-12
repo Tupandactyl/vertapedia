@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458515851/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+   "photo": 458515851
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191519324/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michel NOEL, some rights reserved (CC BY-NC), uploaded by Michel NOEL",
+   "photo": 191519324
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458515830/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+   "photo": 458515830
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517545225/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Carter, some rights reserved (CC BY-NC), uploaded by Paul Carter",
+   "photo": 517545225
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656467/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Daniele Colombo, some rights reserved (CC BY-NC-SA)",
+   "photo": 656467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58691365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC), uploaded by Dérozier Violette",
+   "photo": 58691365
+  }
+ ]
 }

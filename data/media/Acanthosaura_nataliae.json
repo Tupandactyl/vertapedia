@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234760597/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuzefovich Alexander, some rights reserved (CC BY-NC), uploaded by Yuzefovich Alexander",
+   "photo": 234760597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339694228/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+   "photo": 339694228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507760/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Tilker, some rights reserved (CC BY-NC), uploaded by Andrew Tilker",
+   "photo": 507760
+  }
+ ]
 }

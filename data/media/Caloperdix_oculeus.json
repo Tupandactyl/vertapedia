@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33595691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Howes, some rights reserved (CC BY-NC), uploaded by John Howes",
+   "photo": 33595691
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417092624/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 417092624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47160135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gregory Greene, some rights reserved (CC BY-NC), uploaded by Gregory Greene",
+   "photo": 47160135
+  }
+ ]
 }

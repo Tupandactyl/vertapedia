@@ -208,5 +208,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733978162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Bates, some rights reserved (CC BY-NC), uploaded by Peter Bates",
+   "photo": 733978162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249331496/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ursina Gringer, some rights reserved (CC BY), uploaded by Ursina Gringer",
+   "photo": 249331496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513878270/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janne Kearney, some rights reserved (CC BY-NC), uploaded by Janne Kearney",
+   "photo": 513878270
+  }
+ ]
 }

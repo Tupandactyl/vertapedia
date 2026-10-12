@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350477972/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) bureaubenjamin, some rights reserved (CC BY)",
+   "photo": 350477972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282124790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+   "photo": 282124790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159810878/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) koenbetjes, some rights reserved (CC BY-NC), uploaded by koenbetjes",
+   "photo": 159810878
+  }
+ ]
 }

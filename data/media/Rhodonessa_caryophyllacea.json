@@ -64,5 +64,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252423655/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Latham, 1790, some rights reserved (CC BY-SA)",
+   "photo": 252423655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143761701/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Austin R. Kelly, some rights reserved (CC BY-NC), uploaded by Austin R. Kelly",
+   "photo": 143761701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519795551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa",
+   "photo": 519795551
+  }
+ ]
 }

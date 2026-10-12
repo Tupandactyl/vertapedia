@@ -70,5 +70,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67359276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 67359276
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53613166/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bizimana, some rights reserved (CC BY-NC), uploaded by bizimana",
+   "photo": 53613166
+  }
+ ]
 }

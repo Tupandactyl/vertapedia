@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7474897/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fatahabib92, some rights reserved (CC BY-NC), uploaded by fatahabib92",
+   "photo": 7474897
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6295583/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 6295583
+  }
+ ]
 }

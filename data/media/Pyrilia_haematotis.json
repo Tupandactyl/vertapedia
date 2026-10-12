@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64607161/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anneke Jonker, some rights reserved (CC BY-NC), uploaded by Anneke Jonker",
+   "photo": 64607161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653375/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Steamer, some rights reserved (CC BY-NC), uploaded by James Steamer",
+   "photo": 653375
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30793398/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 30793398
+  }
+ ]
 }

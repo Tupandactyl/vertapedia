@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208932185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yingyod Lapwong, some rights reserved (CC BY-NC), uploaded by Yingyod Lapwong",
+   "photo": 208932185
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174382947/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) knotsnake, some rights reserved (CC BY-NC)",
+   "photo": 174382947
+  }
+ ]
 }

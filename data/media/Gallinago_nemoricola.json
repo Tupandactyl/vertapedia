@@ -72,5 +72,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258006270/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pierce, some rights reserved (CC BY-NC), uploaded by Andrew Pierce",
+   "photo": 258006270
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395651338/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395651338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395651344/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395651344
+  }
+ ]
 }

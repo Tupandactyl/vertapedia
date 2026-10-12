@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13380776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, osa oikeuksista pidätetään (CC BY-NC), lähettänyt copper",
+   "photo": 13380776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5204202/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Martin Grimm",
+   "photo": 5204202
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9409765/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Colin Ralston",
+   "photo": 9409765
+  }
+ ]
 }

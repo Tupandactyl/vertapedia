@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44657124/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44657124
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221952626/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Serrao, some rights reserved (CC BY-NC), uploaded by John Serrao",
+   "photo": 221952626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11536097/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-SA)",
+   "photo": 11536097
+  }
+ ]
 }

@@ -104,5 +104,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99097188/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC), uploaded by Andrew Thompson",
+   "photo": 99097188
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243928375/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Lietz-Finkel, some rights reserved (CC BY-NC), uploaded by Mario Lietz-Finkel",
+   "photo": 243928375
+  }
+ ]
 }

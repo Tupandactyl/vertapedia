@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237484813/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Paulo Mascaretti",
+   "photo": 237484813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438038087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Brito Costa, some rights reserved (CC BY-NC), uploaded by Rafael Brito Costa",
+   "photo": 438038087
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210728214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto De Oliveira Silva, some rights reserved (CC BY-NC), uploaded by Roberto De Oliveira Silva",
+   "photo": 210728214
+  }
+ ]
 }

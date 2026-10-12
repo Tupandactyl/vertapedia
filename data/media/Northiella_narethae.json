@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96432358/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden",
+   "photo": 96432358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96432351/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden",
+   "photo": 96432351
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43489988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 43489988
+  }
+ ]
 }

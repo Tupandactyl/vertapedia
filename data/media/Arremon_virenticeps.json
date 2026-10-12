@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408712103/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vidal_prado, some rights reserved (CC BY-NC)",
+   "photo": 408712103
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602957/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Carlos Pérez Magaña, some rights reserved (CC BY-NC), uploaded by Juan Carlos Pérez Magaña",
+   "photo": 602957
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2345672/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2345672
+  }
+ ]
 }

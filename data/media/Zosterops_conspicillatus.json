@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77452756/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Henderson, some rights reserved (CC BY-NC)",
+   "photo": 77452756
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121738/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Peter, some rights reserved (CC BY-SA)",
+   "photo": 121738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359160106/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Henderson, some rights reserved (CC BY-NC)",
+   "photo": 359160106
+  }
+ ]
 }

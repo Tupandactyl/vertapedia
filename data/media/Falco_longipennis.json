@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554144697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janne Kearney, some rights reserved (CC BY-NC), uploaded by Janne Kearney",
+   "photo": 554144697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172538056/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jens Sommer-Knudsen, some rights reserved (CC BY-NC), uploaded by Jens Sommer-Knudsen",
+   "photo": 172538056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468734549/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lawrence Hylton, some rights reserved (CC BY), uploaded by Lawrence Hylton",
+   "photo": 468734549
+  }
+ ]
 }

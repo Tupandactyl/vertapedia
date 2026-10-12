@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2664755/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 2664755
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202042755/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Harris EntSocVic, some rights reserved (CC BY-NC), uploaded by Ken Harris EntSocVic",
+   "photo": 202042755
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426189241/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) spl_1, some rights reserved (CC BY-NC), uploaded by spl_1",
+   "photo": 426189241
+  }
+ ]
 }

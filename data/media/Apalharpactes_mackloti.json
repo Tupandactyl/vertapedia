@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262513785/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kaitlyn, some rights reserved (CC BY-NC), uploaded by Kaitlyn",
+   "photo": 262513785
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319349209/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 319349209
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257545043/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC), uploaded by Wild Sumatra",
+   "photo": 257545043
+  }
+ ]
 }

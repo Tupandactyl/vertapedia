@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376663737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mauro_fioretto, some rights reserved (CC BY-NC)",
+   "photo": 376663737
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358418243/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Omar Bariffi, some rights reserved (CC BY)",
+   "photo": 358418243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253656227/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Flavio Valcanover, some rights reserved (CC BY-NC), uploaded by Flavio Valcanover",
+   "photo": 253656227
+  }
+ ]
 }

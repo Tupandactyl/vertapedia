@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51972607/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santi MD, some rights reserved (CC BY-NC), uploaded by Santi MD",
+   "photo": 51972607
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26668107/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Harding, some rights reserved (CC BY-NC), uploaded by Jeff Harding",
+   "photo": 26668107
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18023279/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+   "photo": 18023279
+  }
+ ]
 }

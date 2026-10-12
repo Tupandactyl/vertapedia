@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28549386/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ana Laura, some rights reserved (CC BY-NC), uploaded by Ana Laura",
+   "photo": 28549386
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14133581/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leticia Soriano Flores, some rights reserved (CC BY-NC), uploaded by Leticia Soriano Flores",
+   "photo": 14133581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2872220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) montessori, some rights reserved (CC BY-NC), uploaded by montessori",
+   "photo": 2872220
+  }
+ ]
 }

@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32472483/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nina Lester Finley, some rights reserved (CC BY-NC), uploaded by Nina Lester Finley",
+   "photo": 32472483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4162210/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Schwarz, some rights reserved (CC BY-NC), uploaded by Christian Schwarz",
+   "photo": 4162210
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311467/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 311467
+  }
+ ]
 }

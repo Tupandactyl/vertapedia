@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25807093/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 25807093
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115037763/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Beat Akeret, some rights reserved (CC BY-NC), uploaded by Beat Akeret",
+   "photo": 115037763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25806567/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 25806567
+  }
+ ]
 }

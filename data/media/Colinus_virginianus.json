@@ -250,5 +250,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188718574/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Andrej Chudý, some rights reserved (CC BY-NC-SA)",
+   "photo": 188718574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27586648/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) El Chivizcoyo, some rights reserved (CC BY-NC), uploaded by El Chivizcoyo",
+   "photo": 27586648
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359288893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Araks Ohanyan, some rights reserved (CC BY-NC), uploaded by Araks Ohanyan",
+   "photo": 359288893
+  }
+ ]
 }

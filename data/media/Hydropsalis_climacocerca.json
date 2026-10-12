@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8248670/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vincent A. Vos, some rights reserved (CC BY), uploaded by Vincent A. Vos",
+   "photo": 8248670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35268240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 35268240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386919/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 386919
+  }
+ ]
 }

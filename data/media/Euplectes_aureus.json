@@ -94,5 +94,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611178165/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vasco Valadares, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Vasco Valadares",
+   "photo": 611178165
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606606113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Niall Perrins",
+   "photo": 606606113
+  }
+ ]
 }

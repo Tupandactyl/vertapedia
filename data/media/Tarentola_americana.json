@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64948919/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, algunos derechos reservados (CC BY-NC), subido por Wayne Fidler",
+   "photo": 64948919
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18105258/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, algunos derechos reservados (CC BY-NC), subido por Wayne Fidler",
+   "photo": 18105258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290708816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, algunos derechos reservados (CC BY-NC), subido por Alexis Felipe",
+   "photo": 290708816
+  }
+ ]
 }

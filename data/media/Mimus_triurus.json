@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1913375/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Schlemmer, some rights reserved (CC BY-NC), uploaded by Jorge Schlemmer",
+   "photo": 1913375
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28058844/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guille Ivan Spajic, some rights reserved (CC BY-NC), uploaded by Guille Ivan Spajic",
+   "photo": 28058844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67861/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Gustavo Durán, some rights reserved (CC BY-NC-SA)",
+   "photo": 67861
+  }
+ ]
 }

@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2804162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 2804162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300617464/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christine Jacobs, some rights reserved (CC BY-NC), uploaded by Christine Jacobs",
+   "photo": 300617464
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83485110/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Barbin, some rights reserved (CC BY-NC), uploaded by Thomas Barbin",
+   "photo": 83485110
+  }
+ ]
 }

@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519197629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elmar van Rooyen, some rights reserved (CC BY-NC), uploaded by Elmar van Rooyen",
+   "photo": 519197629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14685199/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominique Filippi, some rights reserved (CC BY-SA)",
+   "photo": 14685199
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621224906/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benjamin Viola, some rights reserved (CC BY-NC), uploaded by Benjamin Viola",
+   "photo": 621224906
+  }
+ ]
 }

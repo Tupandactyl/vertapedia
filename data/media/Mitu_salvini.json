@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159912813/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Abby Darrah, some rights reserved (CC BY), uploaded by Abby Darrah",
+   "photo": 159912813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8928822/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremiah Leach, some rights reserved (CC BY-NC), uploaded by Jeremiah Leach",
+   "photo": 8928822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33235560/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felipe Campos, some rights reserved (CC BY-NC), uploaded by Felipe Campos",
+   "photo": 33235560
+  }
+ ]
 }

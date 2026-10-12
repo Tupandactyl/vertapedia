@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123797856/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) David F. Belmonte, osa oikeuksista pidätetään (CC BY), lähettänyt David F. Belmonte",
+   "photo": 123797856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249214240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) javatru, osa oikeuksista pidätetään (CC BY-NC), lähettänyt javatru",
+   "photo": 249214240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158921276/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Floro Ortiz Contreras, osa oikeuksista pidätetään (CC BY), lähettänyt Floro Ortiz Contreras",
+   "photo": 158921276
+  }
+ ]
 }

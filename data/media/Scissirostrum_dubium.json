@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506577483/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan Neo, some rights reserved (CC BY-NC), uploaded by Ivan Neo",
+   "photo": 506577483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6537995/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldman19510, some rights reserved (CC BY-NC), uploaded by oldman19510",
+   "photo": 6537995
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112440366/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jonathan Leung, some rights reserved (CC BY-SA)",
+   "photo": 112440366
+  }
+ ]
 }

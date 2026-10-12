@@ -85,5 +85,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/660541519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JunjleboiB, some rights reserved (CC BY-NC), uploaded by JunjleboiB",
+   "photo": 660541519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339946521/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 339946521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248347361/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo",
+   "photo": 248347361
+  }
+ ]
 }

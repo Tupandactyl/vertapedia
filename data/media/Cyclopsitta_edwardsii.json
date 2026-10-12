@@ -75,5 +75,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141356624/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) http://www.birdphotos.com, some rights reserved (CC BY)",
+   "photo": 141356624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300690259/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lisa_James, some rights reserved (CC BY-NC), uploaded by Lisa_James",
+   "photo": 300690259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295566193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lisa_James, some rights reserved (CC BY-NC), uploaded by Lisa_James",
+   "photo": 295566193
+  }
+ ]
 }

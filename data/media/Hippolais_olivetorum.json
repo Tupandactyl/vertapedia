@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107499/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 28107499
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107500/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 28107500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194233308/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+   "photo": 194233308
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135196305/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jonathan Juan Chancasana Villacorta, some rights reserved (CC BY), uploaded by Jonathan Juan Chancasana Villacorta",
+   "photo": 135196305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202292214/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 202292214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249868406/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Cueva, some rights reserved (CC BY-NC), uploaded by Diego Cueva",
+   "photo": 249868406
+  }
+ ]
 }

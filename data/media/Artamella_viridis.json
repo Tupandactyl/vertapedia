@@ -98,5 +98,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211921660/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric LEVIEZ, some rights reserved (CC BY-NC), uploaded by Frédéric LEVIEZ",
+   "photo": 211921660
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340787309/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thehousebunting, some rights reserved (CC BY-NC)",
+   "photo": 340787309
+  }
+ ]
 }

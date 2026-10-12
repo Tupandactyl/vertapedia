@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7570534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julius Simonelli, some rights reserved (CC BY-NC), uploaded by Julius Simonelli",
+   "photo": 7570534
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10215442/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor W Fazio III, some rights reserved (CC BY-NC), uploaded by Victor W Fazio III",
+   "photo": 10215442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235274810/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KDendle, some rights reserved (CC BY-NC), uploaded by KDendle",
+   "photo": 235274810
+  }
+ ]
 }

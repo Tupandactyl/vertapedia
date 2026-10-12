@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135287597/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+   "photo": 135287597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5206008/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Laura Gooch, some rights reserved (CC BY-NC-SA)",
+   "photo": 5206008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2489854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 2489854
+  }
+ ]
 }

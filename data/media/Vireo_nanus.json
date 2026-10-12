@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58199583/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY), uploaded by Adrian Braidotti",
+   "photo": 58199583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252133541/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas H. Fink, some rights reserved (CC BY-NC), uploaded by Lucas H. Fink",
+   "photo": 252133541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105685194/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Gaell Mainguy, some rights reserved (CC BY), uploaded by Gaell Mainguy",
+   "photo": 105685194
+  }
+ ]
 }

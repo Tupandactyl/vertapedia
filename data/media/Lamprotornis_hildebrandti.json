@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110411856/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Jean-Paul Boerekamps",
+   "photo": 110411856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3645459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 3645459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7715444/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 7715444
+  }
+ ]
 }

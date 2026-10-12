@@ -73,5 +73,25 @@
    "date": "2024-11-21"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585933930/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC), uploaded by Luke Kemp",
+   "photo": 585933930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213586127/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 213586127
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585933918/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC), uploaded by Luke Kemp",
+   "photo": 585933918
+  }
+ ]
 }

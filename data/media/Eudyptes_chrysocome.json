@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112102893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+   "photo": 112102893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106794932/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Brendan Ryan, some rights reserved (CC BY-NC-SA)",
+   "photo": 106794932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279147961/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 279147961
+  }
+ ]
 }

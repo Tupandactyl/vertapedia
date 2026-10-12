@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/825308/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) freddy, some rights reserved (CC BY-NC)",
+   "photo": 825308
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126122653/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SILVIA FERNANDA CARDENAS GOMEZ, some rights reserved (CC BY-NC), uploaded by SILVIA FERNANDA CARDENAS GOMEZ",
+   "photo": 126122653
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567123921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erika Verdugo, some rights reserved (CC BY-NC), uploaded by Erika Verdugo",
+   "photo": 567123921
+  }
+ ]
 }

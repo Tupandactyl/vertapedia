@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315713757/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benjamin Schwartz, some rights reserved (CC BY-NC), uploaded by Benjamin Schwartz",
+   "photo": 315713757
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269711054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brad Yee, some rights reserved (CC BY-NC), uploaded by Brad Yee",
+   "photo": 269711054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443881002/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren Jew, some rights reserved (CC BY-NC), uploaded by Darren Jew",
+   "photo": 443881002
+  }
+ ]
 }

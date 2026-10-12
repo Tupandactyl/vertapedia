@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3084594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ketan Aloni, some rights reserved (CC BY-NC), uploaded by Ketan Aloni",
+   "photo": 3084594
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60771208/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
+   "photo": 60771208
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1816015/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr Caesar Sengupta, some rights reserved (CC BY-NC), uploaded by Dr Caesar Sengupta",
+   "photo": 1816015
+  }
+ ]
 }

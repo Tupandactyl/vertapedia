@@ -103,5 +103,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166083801/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 166083801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78694698/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Kuria NDUNG’U, some rights reserved (CC BY-NC), uploaded by James Kuria NDUNG’U",
+   "photo": 78694698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80127835/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 80127835
+  }
+ ]
 }

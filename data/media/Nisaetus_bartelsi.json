@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604147881/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michal Slaný, some rights reserved (CC BY-NC), uploaded by Michal Slaný",
+   "photo": 604147881
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338755221/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gideon Lam, some rights reserved (CC BY-NC), uploaded by Gideon Lam",
+   "photo": 338755221
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/670895850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abdu347, some rights reserved (CC BY-NC)",
+   "photo": 670895850
+  }
+ ]
 }

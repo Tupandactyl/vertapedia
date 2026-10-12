@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618453990/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leandro Rezende, some rights reserved (CC BY-NC), uploaded by Leandro Rezende",
+   "photo": 618453990
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572346916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura Keene, some rights reserved (CC BY-NC), uploaded by Laura Keene",
+   "photo": 572346916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/745418613/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 745418613
+  }
+ ]
 }

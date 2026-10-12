@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260875377/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 260875377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596808446/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Nicolau, some rights reserved (CC BY-NC), uploaded by Pedro Nicolau",
+   "photo": 596808446
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596808448/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Nicolau, some rights reserved (CC BY-NC), uploaded by Pedro Nicolau",
+   "photo": 596808448
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92366948/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 92366948
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350267744/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lachlan Copeland, some rights reserved (CC BY-SA), uploaded by Lachlan Copeland",
+   "photo": 350267744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607911570/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tropicalaussie, some rights reserved (CC BY-NC), uploaded by tropicalaussie",
+   "photo": 607911570
+  }
+ ]
 }

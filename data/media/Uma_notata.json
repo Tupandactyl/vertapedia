@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134192032/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 134192032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110737533/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 110737533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61973860/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fred Melgert / Carla Hoegen, some rights reserved (CC BY-NC), uploaded by Fred Melgert / Carla Hoegen",
+   "photo": 61973860
+  }
+ ]
 }

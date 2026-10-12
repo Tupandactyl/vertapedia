@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291899584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Herrington, some rights reserved (CC BY-NC), uploaded by Doug Herrington",
+   "photo": 291899584
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177763344/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Herrington, some rights reserved (CC BY-NC), uploaded by Doug Herrington",
+   "photo": 177763344
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350977314/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 350977314
+  }
+ ]
 }

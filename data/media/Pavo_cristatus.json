@@ -197,5 +197,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407381945/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sarah Stierch, some rights reserved (CC BY)",
+   "photo": 407381945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407381941/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Shino jacob koottanad, some rights reserved (CC BY-SA)",
+   "photo": 407381941
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103477206/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juliamarkey, some rights reserved (CC BY-NC), uploaded by juliamarkey",
+   "photo": 103477206
+  }
+ ]
 }

@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461593111/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dr jishnu, some rights reserved (CC BY-SA)",
+   "photo": 461593111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550799127/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jigu, some rights reserved (CC BY), uploaded by Jigu",
+   "photo": 550799127
+  }
+ ]
 }

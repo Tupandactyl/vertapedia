@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/717877062/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cin-Ty Lee, some rights reserved (CC BY-NC), uploaded by Cin-Ty Lee",
+   "photo": 717877062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264240395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 264240395
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338731567/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 338731567
+  }
+ ]
 }

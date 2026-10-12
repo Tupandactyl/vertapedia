@@ -138,5 +138,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60207071/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Doug Taron, some rights reserved (CC BY-NC), uploaded by Doug Taron",
+   "photo": 60207071
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12257518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ignacio Díaz Caqueo, some rights reserved (CC BY-NC), uploaded by Ignacio Díaz Caqueo",
+   "photo": 12257518
+  }
+ ]
 }

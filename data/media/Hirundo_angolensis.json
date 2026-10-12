@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78202885/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Kuria NDUNG’U, some rights reserved (CC BY-NC), uploaded by James Kuria NDUNG’U",
+   "photo": 78202885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5677720/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Birding Weto, some rights reserved (CC BY-SA)",
+   "photo": 5677720
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5677722/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Harper, some rights reserved (CC BY-NC)",
+   "photo": 5677722
+  }
+ ]
 }

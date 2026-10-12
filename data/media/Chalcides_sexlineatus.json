@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/623923788/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joseph Grosse, some rights reserved (CC BY-NC), uploaded by Joseph Grosse",
+   "photo": 623923788
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/552810083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joseph Grosse, some rights reserved (CC BY-NC), uploaded by Joseph Grosse",
+   "photo": 552810083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63168327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Siegfried Troidl, some rights reserved (CC BY-NC), uploaded by Siegfried Troidl",
+   "photo": 63168327
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992309/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Michael Hurben, some rights reserved (CC BY-SA)",
+   "photo": 158992309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240589409/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 240589409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247881064/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Célio Moura Neto, some rights reserved (CC BY-NC), uploaded by Célio Moura Neto",
+   "photo": 247881064
+  }
+ ]
 }

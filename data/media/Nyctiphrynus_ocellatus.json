@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648133/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 648133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182555976/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lilian Tomazelli, some rights reserved (CC BY-NC), uploaded by Lilian Tomazelli",
+   "photo": 182555976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121015337/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 121015337
+  }
+ ]
 }

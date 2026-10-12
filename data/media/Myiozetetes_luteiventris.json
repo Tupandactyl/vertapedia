@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381932337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ronaldo Garcia, some rights reserved (CC BY-NC), uploaded by Ronaldo Garcia",
+   "photo": 381932337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6991602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+   "photo": 6991602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57410413/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Pedroza Guimarães, some rights reserved (CC BY-NC), uploaded by David Pedroza Guimarães",
+   "photo": 57410413
+  }
+ ]
 }

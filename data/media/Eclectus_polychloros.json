@@ -113,5 +113,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253840423/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Solic, some rights reserved (CC BY-NC), uploaded by Rob Solic",
+   "photo": 253840423
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55394608/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 55394608
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179245821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 179245821
+  }
+ ]
 }

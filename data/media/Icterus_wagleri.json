@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13191045/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Stuart, some rights reserved (CC BY-NC), uploaded by Will Stuart",
+   "photo": 13191045
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28963877/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIRUKI EDUCACIÓN AMBIENTAL A.C., some rights reserved (CC BY-NC), uploaded by SIRUKI EDUCACIÓN AMBIENTAL A.C.",
+   "photo": 28963877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3226750/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Carlos López Domínguez, some rights reserved (CC BY-NC), uploaded by Juan Carlos López Domínguez",
+   "photo": 3226750
+  }
+ ]
 }

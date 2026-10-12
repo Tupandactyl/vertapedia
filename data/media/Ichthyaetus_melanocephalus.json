@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vitaliy Khustochka, some rights reserved (CC BY-NC)",
+   "photo": 65316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58917760/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 58917760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260403661/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jon J. Laysell, some rights reserved (CC BY-NC), uploaded by Jon J. Laysell",
+   "photo": 260403661
+  }
+ ]
 }

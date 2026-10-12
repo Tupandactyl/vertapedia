@@ -133,5 +133,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460413471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jarbas Mattos, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Jarbas Mattos",
+   "photo": 460413471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150363149/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, einige Rechte vorbehalten (CC BY-SA), hochgeladen von Sidnei Dantas",
+   "photo": 150363149
+  }
+ ]
 }

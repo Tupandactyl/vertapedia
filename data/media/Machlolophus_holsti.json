@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621694434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeff-lin, some rights reserved (CC BY-NC), uploaded by jeff-lin",
+   "photo": 621694434
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/623245077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vasong, some rights reserved (CC BY-NC)",
+   "photo": 623245077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348993495/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Yue Wah Chan, some rights reserved (CC BY-NC), uploaded by Ryan Yue Wah Chan",
+   "photo": 348993495
+  }
+ ]
 }

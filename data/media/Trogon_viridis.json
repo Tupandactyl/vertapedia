@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350920243/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AXEL ANTOINE - FEILL S., some rights reserved (CC BY-NC), uploaded by AXEL ANTOINE - FEILL S.",
+   "photo": 350920243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61110536/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allen Chartier, some rights reserved (CC BY-NC), uploaded by Allen Chartier",
+   "photo": 61110536
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160797633/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 160797633
+  }
+ ]
 }

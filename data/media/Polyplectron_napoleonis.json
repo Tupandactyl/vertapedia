@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504739303/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Ow, some rights reserved (CC BY-NC), uploaded by Sebastian Ow",
+   "photo": 504739303
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66140885/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Chriest, some rights reserved (CC BY-NC-SA)",
+   "photo": 66140885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246633914/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 246633914
+  }
+ ]
 }

@@ -195,5 +195,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35605055/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Filemyr, some rights reserved (CC BY-NC), uploaded by Bert Filemyr",
+   "photo": 35605055
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659821704/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silas Wareham, some rights reserved (CC BY-NC), uploaded by Silas Wareham",
+   "photo": 659821704
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46842840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco",
+   "photo": 46842840
+  }
+ ]
 }

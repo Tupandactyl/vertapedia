@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332237797/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pkondrashov, some rights reserved (CC BY-NC)",
+   "photo": 332237797
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306918762/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonino Gonçalves Medina, some rights reserved (CC BY-NC), uploaded by Antonino Gonçalves Medina",
+   "photo": 306918762
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485270508/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor Beccari, some rights reserved (CC BY-NC), uploaded by Victor Beccari",
+   "photo": 485270508
+  }
+ ]
 }

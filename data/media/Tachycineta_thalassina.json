@@ -231,5 +231,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79233627/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 79233627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202584955/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC), uploaded by Dave Drum",
+   "photo": 202584955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254242790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) whiteizzy, some rights reserved (CC BY-NC)",
+   "photo": 254242790
+  }
+ ]
 }

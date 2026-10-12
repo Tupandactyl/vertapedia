@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1865717/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tatiana Bulyonkova, some rights reserved (CC BY-NC-SA)",
+   "photo": 1865717
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1865718/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-SA)",
+   "photo": 1865718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10980873/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Ganse, some rights reserved (CC BY-NC), uploaded by Alexander Ganse",
+   "photo": 10980873
+  }
+ ]
 }

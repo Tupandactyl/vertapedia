@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442727881/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 442727881
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430647715/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) angelinbotanico, some rights reserved (CC BY-NC)",
+   "photo": 430647715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93545308/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 93545308
+  }
+ ]
 }

@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21127689/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) redwolf, some rights reserved (CC BY-NC), uploaded by redwolf",
+   "photo": 21127689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288096385/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Mallon, some rights reserved (CC BY-NC), uploaded by Adam Mallon",
+   "photo": 288096385
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110118235/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franco Colnago, some rights reserved (CC BY-NC), uploaded by Franco Colnago",
+   "photo": 110118235
+  }
+ ]
 }

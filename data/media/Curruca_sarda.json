@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432278800/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ulysse_lafond, some rights reserved (CC BY-NC), uploaded by ulysse_lafond",
+   "photo": 432278800
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/950433/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 950433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88158908/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 88158908
+  }
+ ]
 }

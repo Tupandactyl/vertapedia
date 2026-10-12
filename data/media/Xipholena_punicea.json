@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11535698/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Nortondefeis, some rights reserved (CC BY-SA)",
+   "photo": 11535698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106698700/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olivier Fortune - Isabelle Delafosse, some rights reserved (CC BY-NC), uploaded by Olivier Fortune - Isabelle Delafosse",
+   "photo": 106698700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89941459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 89941459
+  }
+ ]
 }

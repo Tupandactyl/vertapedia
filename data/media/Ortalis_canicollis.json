@@ -141,5 +141,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107669572/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Demaio, some rights reserved (CC BY-NC), uploaded by Pablo Demaio",
+   "photo": 107669572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131806655/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joao Valadao, some rights reserved (CC BY-NC), uploaded by Joao Valadao",
+   "photo": 131806655
+  }
+ ]
 }

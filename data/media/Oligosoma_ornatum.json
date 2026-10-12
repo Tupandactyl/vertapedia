@@ -123,5 +123,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258505272/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Hanwell, some rights reserved (CC BY-NC), uploaded by Jenny Hanwell",
+   "photo": 258505272
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226781256/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Lavery, some rights reserved (CC BY-NC), uploaded by Michael Lavery",
+   "photo": 226781256
+  }
+ ]
 }

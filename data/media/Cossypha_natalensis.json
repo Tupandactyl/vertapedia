@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85084673/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) magdastlucia, some rights reserved (CC BY-NC), uploaded by magdastlucia",
+   "photo": 85084673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11429571/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 11429571
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15218720/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wynand Uys, some rights reserved (CC BY), uploaded by Wynand Uys",
+   "photo": 15218720
+  }
+ ]
 }

@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5366071/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dennis-mada, some rights reserved (CC BY-NC), uploaded by dennis-mada",
+   "photo": 5366071
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1940858/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 1940858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1940859/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 1940859
+  }
+ ]
 }

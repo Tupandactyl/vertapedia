@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255538840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnmeikle, some rights reserved (CC BY-NC), uploaded by johnmeikle",
+   "photo": 255538840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83704766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
+   "photo": 83704766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43725893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 43725893
+  }
+ ]
 }

@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3666853/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Harper, some rights reserved (CC BY-NC)",
+   "photo": 3666853
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3666854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alan Harper, some rights reserved (CC BY-NC)",
+   "photo": 3666854
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3666855/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 3666855
+  }
+ ]
 }

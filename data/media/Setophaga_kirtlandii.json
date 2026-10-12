@@ -247,5 +247,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534078490/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Smilor, some rights reserved (CC BY-NC), uploaded by Alex Smilor",
+   "photo": 534078490
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161886756/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Frye, some rights reserved (CC BY-NC), uploaded by Tim Frye",
+   "photo": 161886756
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19956044/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 19956044
+  }
+ ]
 }

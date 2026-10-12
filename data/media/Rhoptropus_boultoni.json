@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54486815/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mhairi McFarlane, some rights reserved (CC BY-NC), uploaded by Mhairi McFarlane",
+   "photo": 54486815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15118103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 15118103
+  }
+ ]
 }

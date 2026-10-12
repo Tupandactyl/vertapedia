@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170977267/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 170977267
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235501796/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Татьяна Меньшикова, some rights reserved (CC BY-NC), uploaded by Татьяна Меньшикова",
+   "photo": 235501796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1961995/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1961995
+  }
+ ]
 }

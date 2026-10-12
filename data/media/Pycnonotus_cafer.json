@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29321136/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+   "photo": 29321136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92485533/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ryanmac895, some rights reserved (CC BY-NC)",
+   "photo": 92485533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/531783410/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dhruva Punde, some rights reserved (CC BY-NC), uploaded by Dhruva Punde",
+   "photo": 531783410
+  }
+ ]
 }

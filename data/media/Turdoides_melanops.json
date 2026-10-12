@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311241258/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, some rights reserved (CC BY-SA), uploaded by Joseph Morlan",
+   "photo": 311241258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251643953/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Woodall, some rights reserved (CC BY-NC), uploaded by Pete Woodall",
+   "photo": 251643953
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3086818/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 3086818
+  }
+ ]
 }

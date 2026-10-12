@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544681210/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Alexander, some rights reserved (CC BY), uploaded by Jason Alexander",
+   "photo": 544681210
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/542203250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gregg Darling, some rights reserved (CC BY-NC), uploaded by Gregg Darling",
+   "photo": 542203250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410166704/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) emskakoon, some rights reserved (CC BY-NC), uploaded by emskakoon",
+   "photo": 410166704
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369257741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) damienesquerre2, some rights reserved (CC BY-NC)",
+   "photo": 369257741
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70543723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jiri Hodecek, some rights reserved (CC BY-NC), uploaded by Jiri Hodecek",
+   "photo": 70543723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115786823/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elvia Castellanos, some rights reserved (CC BY-NC), uploaded by Elvia Castellanos",
+   "photo": 115786823
+  }
+ ]
 }

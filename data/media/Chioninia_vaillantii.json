@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176393780/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aloys PICHARD, some rights reserved (CC BY-NC), uploaded by Aloys PICHARD",
+   "photo": 176393780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426855479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Merlin, some rights reserved (CC BY-NC), uploaded by Merlin",
+   "photo": 426855479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342448166/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dougiewainwright, some rights reserved (CC BY-NC)",
+   "photo": 342448166
+  }
+ ]
 }

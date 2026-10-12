@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456502724/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alcedo77, some rights reserved (CC BY-NC)",
+   "photo": 456502724
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38049342/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Hulme, some rights reserved (CC BY-NC), uploaded by Mark Hulme",
+   "photo": 38049342
+  }
+ ]
 }

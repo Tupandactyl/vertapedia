@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442904931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC), uploaded by 昆虫学liuye",
+   "photo": 442904931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315305568/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Madhuka Sandun Kahapalaarachchi, some rights reserved (CC BY-NC), uploaded by Madhuka Sandun Kahapalaarachchi",
+   "photo": 315305568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236064578/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shaveen Madushka, some rights reserved (CC BY-NC), uploaded by Shaveen Madushka",
+   "photo": 236064578
+  }
+ ]
 }

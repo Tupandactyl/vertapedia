@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261767909/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jules Farquhar, some rights reserved (CC BY-NC), uploaded by Jules Farquhar",
+   "photo": 261767909
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175115305/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Keagan Porter, some rights reserved (CC BY-NC), uploaded by Keagan Porter",
+   "photo": 175115305
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245779085/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darcy Whittaker, some rights reserved (CC BY-NC), uploaded by Darcy Whittaker",
+   "photo": 245779085
+  }
+ ]
 }

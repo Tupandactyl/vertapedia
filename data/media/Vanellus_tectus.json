@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1936383/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1936383
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336447133/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AMADOU BAHLEMAN FARID, some rights reserved (CC BY-NC), uploaded by AMADOU BAHLEMAN FARID",
+   "photo": 336447133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575017540/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mohamed Salah, some rights reserved (CC BY-NC), uploaded by Mohamed Salah",
+   "photo": 575017540
+  }
+ ]
 }

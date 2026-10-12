@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
+   "photo": 149865822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91472207/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 91472207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/548480978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elan Zucchetti, some rights reserved (CC BY-NC), uploaded by Elan Zucchetti",
+   "photo": 548480978
+  }
+ ]
 }

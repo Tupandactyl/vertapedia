@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21702504/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rejoice Gassah, some rights reserved (CC BY-NC), uploaded by Rejoice Gassah",
+   "photo": 21702504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136796/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Calame, some rights reserved (CC BY-NC), uploaded by Thomas Calame",
+   "photo": 136796
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26223924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jack Christie, some rights reserved (CC BY-NC), uploaded by Jack Christie",
+   "photo": 26223924
+  }
+ ]
 }

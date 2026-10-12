@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27294496/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 27294496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11979320/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Luis G Restrepo, some rights reserved (CC BY), uploaded by Luis G Restrepo",
+   "photo": 11979320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55740613/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johan Mauricio Penagos Barrios, some rights reserved (CC BY-NC), uploaded by Johan Mauricio Penagos Barrios",
+   "photo": 55740613
+  }
+ ]
 }

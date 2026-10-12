@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210204427/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joseluisblazquez, some rights reserved (CC BY-NC)",
+   "photo": 210204427
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71393630/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Coronel Varela, some rights reserved (CC BY-NC), uploaded by Martin Coronel Varela",
+   "photo": 71393630
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241044875/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 241044875
+  }
+ ]
 }

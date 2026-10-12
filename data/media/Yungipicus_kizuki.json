@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30519214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Viduetsky, some rights reserved (CC BY-NC), uploaded by Alexander Viduetsky",
+   "photo": 30519214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26175623/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Yakovlev, some rights reserved (CC BY-NC), uploaded by Alexander Yakovlev",
+   "photo": 26175623
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29302042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 29302042
+  }
+ ]
 }

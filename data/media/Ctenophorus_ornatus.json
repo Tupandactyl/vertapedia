@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1413587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ry Beaver, some rights reserved (CC BY-NC), uploaded by Ry Beaver",
+   "photo": 1413587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90883242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ray Turnbull, some rights reserved (CC BY-NC), uploaded by Ray Turnbull",
+   "photo": 90883242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59216070/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benjamynweil, some rights reserved (CC BY-NC), uploaded by benjamynweil",
+   "photo": 59216070
+  }
+ ]
 }

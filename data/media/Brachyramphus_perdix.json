@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458463269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Ha, some rights reserved (CC BY-NC), uploaded by Paul Ha",
+   "photo": 458463269
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460882320/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Ha, some rights reserved (CC BY-NC), uploaded by Paul Ha",
+   "photo": 460882320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458463288/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Ha, some rights reserved (CC BY-NC), uploaded by Paul Ha",
+   "photo": 458463288
+  }
+ ]
 }

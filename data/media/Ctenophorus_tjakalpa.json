@@ -65,5 +65,25 @@
    "date": "2025-09-27"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575354319/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sam Gordon, some rights reserved (CC BY-NC-SA), uploaded by Sam Gordon",
+   "photo": 575354319
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322336721/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Humpage, some rights reserved (CC BY-NC), uploaded by Andrew Humpage",
+   "photo": 322336721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322336676/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Humpage, some rights reserved (CC BY-NC), uploaded by Andrew Humpage",
+   "photo": 322336676
+  }
+ ]
 }

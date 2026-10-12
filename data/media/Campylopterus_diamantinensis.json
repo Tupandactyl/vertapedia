@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458969149/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris G Earley, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Chris G Earley",
+   "photo": 458969149
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233219885/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nathan Ruser, osa oikeuksista pidätetään (CC BY), lähettänyt Nathan Ruser",
+   "photo": 233219885
+  }
+ ]
 }

@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180023080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) grafmarina, some rights reserved (CC BY-NC)",
+   "photo": 180023080
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374953972/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 374953972
+  }
+ ]
 }

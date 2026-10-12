@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26186993/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dorriesfield, some rights reserved (CC BY-NC), uploaded by Mark Dorriesfield",
+   "photo": 26186993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420878/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 420878
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9515194/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Fellows, some rights reserved (CC BY-NC), uploaded by Sam Fellows",
+   "photo": 9515194
+  }
+ ]
 }

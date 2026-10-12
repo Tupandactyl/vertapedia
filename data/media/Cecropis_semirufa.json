@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70546140/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 70546140
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70546081/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY)",
+   "photo": 70546081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27971988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maritzasouthafrica, some rights reserved (CC BY-NC), uploaded by maritzasouthafrica",
+   "photo": 27971988
+  }
+ ]
 }

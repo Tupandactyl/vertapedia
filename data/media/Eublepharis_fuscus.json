@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89546228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
+   "photo": 89546228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1678204/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ashahar alias Krishna Khan, some rights reserved (CC BY-SA)",
+   "photo": 1678204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30511424/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mayuresh Kulkarni, some rights reserved (CC BY-NC), uploaded by Mayuresh Kulkarni",
+   "photo": 30511424
+  }
+ ]
 }

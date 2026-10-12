@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353619975/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Lyle Bedard, some rights reserved (CC BY), uploaded by Ben Lyle Bedard",
+   "photo": 353619975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32519803/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) RAP, some rights reserved (CC BY), uploaded by RAP",
+   "photo": 32519803
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247574/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 247574
+  }
+ ]
 }

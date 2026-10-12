@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2336778/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 2336778
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117231270/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) diego Hernan Perez, some rights reserved (CC BY), uploaded by diego Hernan Perez",
+   "photo": 117231270
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238483477/{size}.png",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 238483477
+  }
+ ]
 }

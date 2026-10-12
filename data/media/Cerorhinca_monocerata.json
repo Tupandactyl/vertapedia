@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327539801/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Kyle Bowman",
+   "photo": 327539801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509796494/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Steph Brulot-Sawchyn",
+   "photo": 509796494
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571786170/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anastasiia Merkulova, some rights reserved (CC BY-NC), uploaded by Anastasiia Merkulova",
+   "photo": 571786170
+  }
+ ]
 }

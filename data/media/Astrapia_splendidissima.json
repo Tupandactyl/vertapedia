@@ -165,5 +165,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247356/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) EOL Learning and Education Group, some rights reserved (CC BY)",
+   "photo": 247356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250546406/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guybroome, some rights reserved (CC BY-NC)",
+   "photo": 250546406
+  }
+ ]
 }

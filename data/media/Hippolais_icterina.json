@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100390771/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Radovan Václav, some rights reserved (CC BY-NC)",
+   "photo": 100390771
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148946172/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Александр, some rights reserved (CC BY-NC-SA), uploaded by Александр",
+   "photo": 148946172
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210630048/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jullius Fajman, some rights reserved (CC BY-NC), uploaded by Jullius Fajman",
+   "photo": 210630048
+  }
+ ]
 }

@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3689876/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 3689876
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258455/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alastair Rae, some rights reserved (CC BY-SA)",
+   "photo": 258455
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16159199/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Rebelo, some rights reserved (CC BY-SA), uploaded by Tony Rebelo",
+   "photo": 16159199
+  }
+ ]
 }

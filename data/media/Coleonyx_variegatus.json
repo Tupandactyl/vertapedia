@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121611970/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Marshal Hedin, some rights reserved (CC BY-NC-SA), uploaded by Marshal Hedin",
+   "photo": 121611970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265752947/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rachel Romine, some rights reserved (CC BY-NC), uploaded by Rachel Romine",
+   "photo": 265752947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255261914/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sophia, some rights reserved (CC BY-NC-SA), uploaded by Sophia",
+   "photo": 255261914
+  }
+ ]
 }

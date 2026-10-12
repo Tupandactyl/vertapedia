@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315497959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) markc666, some rights reserved (CC BY-NC)",
+   "photo": 315497959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375301608/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Schwartz, some rights reserved (CC BY-NC), uploaded by Pete Schwartz",
+   "photo": 375301608
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124559/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) USFWS Endangered Species, some rights reserved (CC BY)",
+   "photo": 124559
+  }
+ ]
 }

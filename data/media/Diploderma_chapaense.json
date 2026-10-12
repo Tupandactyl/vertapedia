@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393665413/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zhang Ziheng, some rights reserved (CC BY-NC), uploaded by Zhang Ziheng",
+   "photo": 393665413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437495690/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 夜星槎, some rights reserved (CC BY-NC), uploaded by 夜星槎",
+   "photo": 437495690
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383775828/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yunnanlist, some rights reserved (CC BY-NC), uploaded by Yunnanlist",
+   "photo": 383775828
+  }
+ ]
 }

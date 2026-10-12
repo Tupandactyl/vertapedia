@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262728068/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 262728068
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488700763/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) donnamareetomkinson, some rights reserved (CC BY-NC), uploaded by donnamareetomkinson",
+   "photo": 488700763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51962997/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot",
+   "photo": 51962997
+  }
+ ]
 }

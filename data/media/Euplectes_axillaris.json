@@ -105,5 +105,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/782551/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) *derivative work: JerryFriedman . *Euplectes_axillaris1.jpg: Stig Nygaard, some rights reserved (CC BY)",
+   "photo": 782551
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8919827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) janaohrner, some rights reserved (CC BY-NC), uploaded by janaohrner",
+   "photo": 8919827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/782543/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 782543
+  }
+ ]
 }

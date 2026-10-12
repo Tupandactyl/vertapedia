@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367124765/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC-SA), uploaded by brian fisher",
+   "photo": 367124765
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205399544/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aniltripathi, some rights reserved (CC BY-NC)",
+   "photo": 205399544
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10329221/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saurabh Agrawal, some rights reserved (CC BY-NC), uploaded by Saurabh Agrawal",
+   "photo": 10329221
+  }
+ ]
 }

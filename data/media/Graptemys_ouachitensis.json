@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98229839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Kondratzky, some rights reserved (CC BY-NC), uploaded by Diego Kondratzky",
+   "photo": 98229839
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182870623/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Agustín Silgado, some rights reserved (CC BY-NC), uploaded by Agustín Silgado",
+   "photo": 182870623
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303483859/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC-SA), uploaded by brian fisher",
+   "photo": 303483859
+  }
+ ]
 }

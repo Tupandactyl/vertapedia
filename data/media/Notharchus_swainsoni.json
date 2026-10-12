@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29237573/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karina Avila, some rights reserved (CC BY-NC), uploaded by Karina Avila",
+   "photo": 29237573
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2507236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Lima, some rights reserved (CC BY-NC), uploaded by Bruno Lima",
+   "photo": 2507236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1169120/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 1169120
+  }
+ ]
 }

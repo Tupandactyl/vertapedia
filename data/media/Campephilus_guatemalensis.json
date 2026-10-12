@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172564356/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+   "photo": 172564356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4129309/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) reddemonitoreocomunitariomayanjays, some rights reserved (CC BY-NC), uploaded by reddemonitoreocomunitariomayanjays",
+   "photo": 4129309
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/781754/{size}.JPG",
+   "license": "cc-by",
+   "attribution": "(c) Francisco Farriols Sarabia, some rights reserved (CC BY), uploaded by Francisco Farriols Sarabia",
+   "photo": 781754
+  }
+ ]
 }

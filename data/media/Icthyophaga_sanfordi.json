@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43279665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) devonderaad, algunos derechos reservados (CC BY-NC), subido por devonderaad",
+   "photo": 43279665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609629141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, algunos derechos reservados (CC BY-NC), subido por Hyongchan Kim",
+   "photo": 609629141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472438192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guillaumecalcagni, algunos derechos reservados (CC BY-NC)",
+   "photo": 472438192
+  }
+ ]
 }

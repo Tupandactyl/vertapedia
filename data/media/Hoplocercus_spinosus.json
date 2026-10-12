@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167190644/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sidnei Dantas, some rights reserved (CC BY-SA), uploaded by Sidnei Dantas",
+   "photo": 167190644
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131963335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isac Menezes, some rights reserved (CC BY-NC), uploaded by Isac Menezes",
+   "photo": 131963335
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243187303/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA), uploaded by Rich Hoyer",
+   "photo": 243187303
+  }
+ ]
 }

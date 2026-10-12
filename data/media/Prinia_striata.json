@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36122856/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) breeze-lin, some rights reserved (CC BY-NC), uploaded by breeze-lin",
+   "photo": 36122856
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32371189/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 大肚魚, some rights reserved (CC BY-NC), uploaded by 大肚魚",
+   "photo": 32371189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12865162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood",
+   "photo": 12865162
+  }
+ ]
 }

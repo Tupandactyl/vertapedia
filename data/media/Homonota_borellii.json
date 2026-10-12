@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67073058/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Godoy, some rights reserved (CC BY-NC), uploaded by Manuel Godoy",
+   "photo": 67073058
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289757813/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Candela Muñoz Sosa, some rights reserved (CC BY-NC), uploaded by Candela Muñoz Sosa",
+   "photo": 289757813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272462802/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) florcatanav, some rights reserved (CC BY-NC)",
+   "photo": 272462802
+  }
+ ]
 }

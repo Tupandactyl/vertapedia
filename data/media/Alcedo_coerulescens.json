@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347335401/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison, some rights reserved (CC BY-SA)",
+   "photo": 347335401
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347336524/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dwi Agung Sulistyo, some rights reserved (CC BY-SA)",
+   "photo": 347336524
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286474521/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shalahuddin Averroes Supartha, some rights reserved (CC BY-NC), uploaded by Shalahuddin Averroes Supartha",
+   "photo": 286474521
+  }
+ ]
 }

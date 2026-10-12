@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224661380/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roy Holtzkampf, some rights reserved (CC BY-NC), uploaded by Roy Holtzkampf",
+   "photo": 224661380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29908268/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mikeloomis, some rights reserved (CC BY-NC), uploaded by mikeloomis",
+   "photo": 29908268
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245309232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) (c) Jorrie Jordaan, some rights reserved (CC BY-NC), uploaded by (c) Jorrie Jordaan",
+   "photo": 245309232
+  }
+ ]
 }

@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mark Kilner, some rights reserved (CC BY-NC-SA)",
+   "photo": 61266631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33183952/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
+   "photo": 33183952
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332559894/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 332559894
+  }
+ ]
 }

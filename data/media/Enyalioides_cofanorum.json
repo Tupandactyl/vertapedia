@@ -96,5 +96,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67112826/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC), uploaded by Mario Humberto Yánez-Muñoz",
+   "photo": 67112826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110742325/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Diego Tirira, some rights reserved (CC BY-SA)",
+   "photo": 110742325
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110742326/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Diego Tirira, some rights reserved (CC BY-SA)",
+   "photo": 110742326
+  }
+ ]
 }

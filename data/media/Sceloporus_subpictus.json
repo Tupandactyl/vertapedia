@@ -62,5 +62,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64752201/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 64752201
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148170942/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Luis Mendoza Betanzos, some rights reserved (CC BY-NC), uploaded by José Luis Mendoza Betanzos",
+   "photo": 148170942
+  }
+ ]
 }

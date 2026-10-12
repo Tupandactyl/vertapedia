@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110097347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) soarexcursions, some rights reserved (CC BY-NC)",
+   "photo": 110097347
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348836808/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) kalyanvarma, some rights reserved (CC BY)",
+   "photo": 348836808
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348836803/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) kalyanvarma, some rights reserved (CC BY)",
+   "photo": 348836803
+  }
+ ]
 }

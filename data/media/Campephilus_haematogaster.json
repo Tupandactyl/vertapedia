@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105815195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alcedo77, some rights reserved (CC BY-NC)",
+   "photo": 105815195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115631729/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 115631729
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55739889/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johan Mauricio Penagos Barrios, some rights reserved (CC BY-NC), uploaded by Johan Mauricio Penagos Barrios",
+   "photo": 55739889
+  }
+ ]
 }

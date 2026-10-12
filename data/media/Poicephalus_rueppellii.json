@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984676/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Charles J. Sharp\n, some rights reserved (CC BY-SA)",
+   "photo": 158984676
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984675/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ragnhild&Neil Crawford, some rights reserved (CC BY-SA)",
+   "photo": 158984675
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52004467/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Erb, some rights reserved (CC BY-NC), uploaded by Peter Erb",
+   "photo": 52004467
+  }
+ ]
 }

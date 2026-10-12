@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79152451/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reuber Brandão, some rights reserved (CC BY-NC), uploaded by Reuber Brandão",
+   "photo": 79152451
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106266672/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Ellis, some rights reserved (CC BY-NC), uploaded by Mike Ellis",
+   "photo": 106266672
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5217859/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 5217859
+  }
+ ]
 }

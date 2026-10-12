@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468072891/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Axel Hochkirch, some rights reserved (CC BY-NC), uploaded by Axel Hochkirch",
+   "photo": 468072891
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267043332/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex R, some rights reserved (CC BY-NC), uploaded by Alex R",
+   "photo": 267043332
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63402303/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Justin Ponder, some rights reserved (CC BY), uploaded by Justin Ponder",
+   "photo": 63402303
+  }
+ ]
 }

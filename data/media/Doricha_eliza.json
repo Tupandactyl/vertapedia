@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348846106/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tobin Brown, some rights reserved (CC BY-NC), uploaded by Tobin Brown",
+   "photo": 348846106
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109753692/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Adrianh M. Orozco, some rights reserved (CC BY), uploaded by Adrianh M. Orozco",
+   "photo": 109753692
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35378478/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 35378478
+  }
+ ]
 }

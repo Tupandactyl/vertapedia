@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321137589/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, bazı hakları saklıdır (CC BY-NC), yükleyen: Pedro Genaro Rodriguez",
+   "photo": 321137589
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3223390/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rafy Rodriguez, bazı hakları saklıdır (CC BY-NC-SA)",
+   "photo": 3223390
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6119579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, bazı hakları saklıdır (CC BY-NC), yükleyen: Heather Pickard",
+   "photo": 6119579
+  }
+ ]
 }

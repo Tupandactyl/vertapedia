@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176608835/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Shienok, some rights reserved (CC BY-NC), uploaded by Alexander Shienok",
+   "photo": 176608835
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48791680/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Игорь Двуреков, some rights reserved (CC BY-NC), uploaded by Игорь Двуреков",
+   "photo": 48791680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347756369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 347756369
+  }
+ ]
 }

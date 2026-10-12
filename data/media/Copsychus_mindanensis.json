@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500489083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kaeliswift, some rights reserved (CC BY-NC)",
+   "photo": 500489083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516521479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matt Vincent Leonoras, some rights reserved (CC BY-NC), uploaded by Matt Vincent Leonoras",
+   "photo": 516521479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401395385/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinpearce, some rights reserved (CC BY-NC)",
+   "photo": 401395385
+  }
+ ]
 }

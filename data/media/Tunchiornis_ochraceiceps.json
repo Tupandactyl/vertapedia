@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27952310/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan Bou Riquer, einige Rechte vorbehalten (CC BY-NC-SA), hochgeladen von Juan Bou Riquer",
+   "photo": 27952310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44656935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Ryan Andrews",
+   "photo": 44656935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187321113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will Richardson, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Will Richardson",
+   "photo": 187321113
+  }
+ ]
 }

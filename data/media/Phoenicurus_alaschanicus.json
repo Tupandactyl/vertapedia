@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/493628501/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yc_he, some rights reserved (CC BY-NC)",
+   "photo": 493628501
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348248978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC), uploaded by Mengshuai Ge",
+   "photo": 348248978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130419995/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC), uploaded by Phil Benstead",
+   "photo": 130419995
+  }
+ ]
 }

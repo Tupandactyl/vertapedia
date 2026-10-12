@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121474178/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mande010, some rights reserved (CC BY-NC)",
+   "photo": 121474178
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58171391/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Takaaki Hattori, some rights reserved (CC BY), uploaded by Takaaki Hattori",
+   "photo": 58171391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49333980/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Takaaki Hattori, some rights reserved (CC BY), uploaded by Takaaki Hattori",
+   "photo": 49333980
+  }
+ ]
 }

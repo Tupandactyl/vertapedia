@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470629823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Szymon Bzoma, some rights reserved (CC BY-NC), uploaded by Szymon Bzoma",
+   "photo": 470629823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15441723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) riana60, some rights reserved (CC BY-NC), uploaded by riana60",
+   "photo": 15441723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15441727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) riana60, some rights reserved (CC BY-NC), uploaded by riana60",
+   "photo": 15441727
+  }
+ ]
 }

@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6622253/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Garima Bhatia, some rights reserved (CC BY-SA)",
+   "photo": 6622253
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6622251/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Garima Bhatia, some rights reserved (CC BY-SA)",
+   "photo": 6622251
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349723294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maryse, some rights reserved (CC BY-NC), uploaded by Maryse",
+   "photo": 349723294
+  }
+ ]
 }

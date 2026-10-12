@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109157931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ignacio_hernandez, some rights reserved (CC BY-NC), uploaded by ignacio_hernandez",
+   "photo": 109157931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149778023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Francisco Tapia, some rights reserved (CC BY-NC), uploaded by Juan Francisco Tapia",
+   "photo": 149778023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195454646/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 195454646
+  }
+ ]
 }

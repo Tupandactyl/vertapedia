@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113752650/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Owen Lishmund, some rights reserved (CC BY-SA), uploaded by Owen Lishmund",
+   "photo": 113752650
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132886434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC), uploaded by Laurent Barthe",
+   "photo": 132886434
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132886363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC), uploaded by Laurent Barthe",
+   "photo": 132886363
+  }
+ ]
 }

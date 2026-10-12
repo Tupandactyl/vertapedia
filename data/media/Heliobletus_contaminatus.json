@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11541085/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 11541085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234161950/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Vescia da Rosa, some rights reserved (CC BY-NC), uploaded by Luis Vescia da Rosa",
+   "photo": 234161950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95630240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juliano Marques, some rights reserved (CC BY-NC), uploaded by Juliano Marques",
+   "photo": 95630240
+  }
+ ]
 }

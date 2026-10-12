@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439441421/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James G. Graham, some rights reserved (CC BY-NC), uploaded by James G. Graham",
+   "photo": 439441421
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112029943/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 112029943
+  }
+ ]
 }

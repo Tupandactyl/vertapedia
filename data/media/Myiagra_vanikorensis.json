@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235871/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tom Tarrant, some rights reserved (CC BY-NC-SA)",
+   "photo": 235871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83496757/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA), uploaded by Arthur Chapman",
+   "photo": 83496757
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132799422/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 132799422
+  }
+ ]
 }

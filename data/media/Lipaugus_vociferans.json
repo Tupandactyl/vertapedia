@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405214933/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Max Wolf Breshears, some rights reserved (CC BY-NC), uploaded by Max Wolf Breshears",
+   "photo": 405214933
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46111503/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) D.F.Silva, some rights reserved (CC BY-NC), uploaded by D.F.Silva",
+   "photo": 46111503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63906796/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric van den Berghe, some rights reserved (CC BY-NC), uploaded by Eric van den Berghe",
+   "photo": 63906796
+  }
+ ]
 }

@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6350075/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tamsin Carlisle, some rights reserved (CC BY-NC-SA)",
+   "photo": 6350075
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6931082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
+   "photo": 6931082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11653835/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
+   "photo": 11653835
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16142462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joseph Ott, some rights reserved (CC BY-NC), uploaded by Joseph Ott",
+   "photo": 16142462
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17451393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 17451393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1720275/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 1720275
+  }
+ ]
 }

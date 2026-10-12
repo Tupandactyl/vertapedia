@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361803672/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Snow Dennis, some rights reserved (CC BY-NC), uploaded by Snow Dennis",
+   "photo": 361803672
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143307744/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pdubbin, some rights reserved (CC BY-NC)",
+   "photo": 143307744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210296638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nealed, some rights reserved (CC BY-NC), uploaded by nealed",
+   "photo": 210296638
+  }
+ ]
 }

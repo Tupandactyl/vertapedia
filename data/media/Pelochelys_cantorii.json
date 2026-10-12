@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222174369/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) User:Shailendra Singh, some rights reserved (CC BY)",
+   "photo": 222174369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17580522/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dementia, some rights reserved (CC BY-SA)",
+   "photo": 17580522
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84173083/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) \nBrown R, Siler C, Oliveros C, Welton L, Rock A, Swab J, Van Weerd M, van Beijnen J, Rodriguez D, Jose E, Diesmos A, some rights reserved (CC BY)",
+   "photo": 84173083
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473062626/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ethan currens, some rights reserved (CC BY-NC), uploaded by ethan currens",
+   "photo": 473062626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473062518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ethan currens, some rights reserved (CC BY-NC), uploaded by ethan currens",
+   "photo": 473062518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32391462/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 32391462
+  }
+ ]
 }

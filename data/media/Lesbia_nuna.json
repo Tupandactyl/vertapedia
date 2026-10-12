@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1893051/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gustavo Morejon Jaramillo, some rights reserved (CC BY-NC), uploaded by Gustavo Morejon Jaramillo",
+   "photo": 1893051
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31570890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
+   "photo": 31570890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57969186/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 57969186
+  }
+ ]
 }

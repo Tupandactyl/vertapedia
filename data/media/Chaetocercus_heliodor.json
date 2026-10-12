@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82141879/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alejandro Lopez, some rights reserved (CC BY-NC-SA), uploaded by Alejandro Lopez",
+   "photo": 82141879
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71784048/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 71784048
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53889800/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Harris, some rights reserved (CC BY-NC), uploaded by Bert Harris",
+   "photo": 53889800
+  }
+ ]
 }

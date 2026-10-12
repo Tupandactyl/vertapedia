@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63830435/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michi1, some rights reserved (CC BY-NC), uploaded by michi1",
+   "photo": 63830435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2289040/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cabo Verde 2008, some rights reserved (CC BY-NC-SA)",
+   "photo": 2289040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/570992225/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Georges Olioso, some rights reserved (CC BY-NC), uploaded by Georges Olioso",
+   "photo": 570992225
+  }
+ ]
 }

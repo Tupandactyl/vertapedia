@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252099854/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC), uploaded by Lorenzo Vinciguerra",
+   "photo": 252099854
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679753763/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Ropero Cahilig, some rights reserved (CC BY-NC), uploaded by Richard Ropero Cahilig",
+   "photo": 679753763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236415120/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 236415120
+  }
+ ]
 }

@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410935985/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 大鹅Goose, some rights reserved (CC BY-NC), uploaded by 大鹅Goose",
+   "photo": 410935985
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218331/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 218331
+  }
+ ]
 }

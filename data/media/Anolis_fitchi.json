@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169948598/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+   "photo": 169948598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66815256/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC), uploaded by Mario Humberto Yánez-Muñoz",
+   "photo": 66815256
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616021188/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin_herping, some rights reserved (CC BY-NC), uploaded by Edwin_herping",
+   "photo": 616021188
+  }
+ ]
 }

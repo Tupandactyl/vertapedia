@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188769513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jose Manuel, some rights reserved (CC BY-NC), uploaded by Jose Manuel",
+   "photo": 188769513
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57882622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 57882622
+  }
+ ]
 }

@@ -81,5 +81,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15827363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pfaucher, some rights reserved (CC BY-NC), uploaded by pfaucher",
+   "photo": 15827363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18998864/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 18998864
+  }
+ ]
 }

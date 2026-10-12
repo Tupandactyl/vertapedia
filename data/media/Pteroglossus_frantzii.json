@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264894610/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 264894610
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63525725/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Rob Foster, some rights reserved (CC BY), uploaded by Rob Foster",
+   "photo": 63525725
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244100948/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martha, some rights reserved (CC BY-NC), uploaded by Martha",
+   "photo": 244100948
+  }
+ ]
 }

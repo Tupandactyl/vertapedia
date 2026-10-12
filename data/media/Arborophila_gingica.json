@@ -125,5 +125,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399380578/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) p_concolor, some rights reserved (CC BY-NC)",
+   "photo": 399380578
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456645612/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) apple98, some rights reserved (CC BY-NC)",
+   "photo": 456645612
+  }
+ ]
 }

@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457442054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnlerond, some rights reserved (CC BY-NC)",
+   "photo": 457442054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41732718/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC), uploaded by Константин Самодуров",
+   "photo": 41732718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26318501/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "photo": 26318501
+  }
+ ]
 }

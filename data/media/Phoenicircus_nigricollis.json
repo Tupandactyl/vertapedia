@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71708528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Glenda Pozo, some rights reserved (CC BY-NC), uploaded by Glenda Pozo",
+   "photo": 71708528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3479296/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 3479296
+  }
+ ]
 }

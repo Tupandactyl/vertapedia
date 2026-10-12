@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128900603/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría",
+   "photo": 128900603
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118501081/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paula Peña-Amaya, some rights reserved (CC BY-NC), uploaded by Paula Peña-Amaya",
+   "photo": 118501081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68080727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herb Yeates, some rights reserved (CC BY-NC), uploaded by Herb Yeates",
+   "photo": 68080727
+  }
+ ]
 }

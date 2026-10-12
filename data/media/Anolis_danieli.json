@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87139163/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khristian Venegas Valencia, some rights reserved (CC BY-NC), uploaded by Khristian Venegas Valencia",
+   "photo": 87139163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269992186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bioexploradores Farallones, some rights reserved (CC BY-NC), uploaded by Bioexploradores Farallones",
+   "photo": 269992186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60639718/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Daniel Bocanumenth E., some rights reserved (CC BY-NC-SA), uploaded by Daniel Bocanumenth E.",
+   "photo": 60639718
+  }
+ ]
 }

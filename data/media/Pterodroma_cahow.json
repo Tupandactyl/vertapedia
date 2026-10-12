@@ -164,5 +164,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88051380/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joe Bourget, some rights reserved (CC BY-NC), uploaded by Joe Bourget",
+   "photo": 88051380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8119649/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Depotgrl, some rights reserved (CC BY-SA)",
+   "photo": 8119649
+  }
+ ]
 }

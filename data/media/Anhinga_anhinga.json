@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195512943/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Shiva Shenoy, some rights reserved (CC BY), uploaded by Shiva Shenoy",
+   "photo": 195512943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248520585/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Amaral, some rights reserved (CC BY-NC), uploaded by Antonio Amaral",
+   "photo": 248520585
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10701303/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justina Martelli, some rights reserved (CC BY-NC), uploaded by Justina Martelli",
+   "photo": 10701303
+  }
+ ]
 }

@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111210858/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Trillo, some rights reserved (CC BY-NC), uploaded by Diego Trillo",
+   "photo": 111210858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3444/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) ClÃ¡udio Dias Timm, some rights reserved (CC BY)",
+   "photo": 3444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30370301/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) María Fernanda Alarcón, some rights reserved (CC BY-NC), uploaded by María Fernanda Alarcón",
+   "photo": 30370301
+  }
+ ]
 }

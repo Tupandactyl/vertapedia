@@ -82,5 +82,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282578649/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Henri Fabre, some rights reserved (CC BY-NC), uploaded by Pierre-Henri Fabre",
+   "photo": 282578649
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282578844/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Henri Fabre, some rights reserved (CC BY-NC), uploaded by Pierre-Henri Fabre",
+   "photo": 282578844
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228149557/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sofya, some rights reserved (CC BY-NC-SA), uploaded by Sofya",
+   "photo": 228149557
+  }
+ ]
 }

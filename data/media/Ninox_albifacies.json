@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163155690/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gray, G.R., 1844, some rights reserved (CC BY-SA)",
+   "photo": 163155690
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163155705/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rawpixel Ltd, some rights reserved (CC BY)",
+   "photo": 163155705
+  }
+ ]
 }

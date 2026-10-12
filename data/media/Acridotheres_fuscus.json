@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644229/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 644229
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230640/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 230640
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4287695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David R, some rights reserved (CC BY-NC)",
+   "photo": 4287695
+  }
+ ]
 }

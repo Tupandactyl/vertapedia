@@ -38,5 +38,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114090083/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alex Krohn, some rights reserved (CC BY-NC-SA), uploaded by Alex Krohn",
+   "photo": 114090083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10059531/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Broadhead, some rights reserved (CC BY-NC), uploaded by Jordan Broadhead",
+   "photo": 10059531
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10059537/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Broadhead, some rights reserved (CC BY-NC), uploaded by Jordan Broadhead",
+   "photo": 10059537
+  }
+ ]
 }

@@ -73,5 +73,25 @@
    "date": "2021-04-09"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1299752/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Graham Armstrong, some rights reserved (CC BY-NC), uploaded by Graham Armstrong",
+   "photo": 1299752
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40761315/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) geofflot, some rights reserved (CC BY-NC-SA)",
+   "photo": 40761315
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65865921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damon Tighe, some rights reserved (CC BY-NC), uploaded by Damon Tighe",
+   "photo": 65865921
+  }
+ ]
 }

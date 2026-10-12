@@ -38,5 +38,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348582243/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+   "photo": 348582243
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335506396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 335506396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62848840/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lukasz Madrzynski 孟巨石, some rights reserved (CC BY-NC), uploaded by Lukasz Madrzynski 孟巨石",
+   "photo": 62848840
+  }
+ ]
 }

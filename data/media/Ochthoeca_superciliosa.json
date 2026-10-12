@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487658218/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel A. Pérez R., osa oikeuksista pidätetään (CC BY-NC), lähettänyt Manuel A. Pérez R.",
+   "photo": 487658218
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344553389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Oswaldo Hernández",
+   "photo": 344553389
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344553348/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Oswaldo Hernández",
+   "photo": 344553348
+  }
+ ]
 }

@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377082044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vincent Rufray, some rights reserved (CC BY-NC), uploaded by Vincent Rufray",
+   "photo": 377082044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567190789/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jérémie Février, some rights reserved (CC BY-NC), uploaded by Jérémie Février",
+   "photo": 567190789
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656441006/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edouard Veuillet, some rights reserved (CC BY-NC), uploaded by Edouard Veuillet",
+   "photo": 656441006
+  }
+ ]
 }

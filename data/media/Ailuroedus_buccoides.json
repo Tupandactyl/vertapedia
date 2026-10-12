@@ -31,5 +31,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11978368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
+   "photo": 11978368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60034476/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) to.wi, some rights reserved (CC BY-NC-SA)",
+   "photo": 60034476
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60034477/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) to.wi, some rights reserved (CC BY-NC-SA)",
+   "photo": 60034477
+  }
+ ]
 }

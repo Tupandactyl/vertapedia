@@ -92,5 +92,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101503365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fredy Ruiz, some rights reserved (CC BY-NC), uploaded by Fredy Ruiz",
+   "photo": 101503365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49426209/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Kristof Zyskowski, some rights reserved (CC BY), uploaded by Kristof Zyskowski",
+   "photo": 49426209
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659771/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ron Savage, some rights reserved (CC BY-NC-SA), uploaded by Ron Savage",
+   "photo": 659771
+  }
+ ]
 }

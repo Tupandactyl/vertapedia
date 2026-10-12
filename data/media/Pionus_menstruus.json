@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64477914/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arman Moreno, some rights reserved (CC BY-NC), uploaded by Arman Moreno",
+   "photo": 64477914
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37981123/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) axca, some rights reserved (CC BY-NC), uploaded by axca",
+   "photo": 37981123
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12401526/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Luis G Restrepo, some rights reserved (CC BY), uploaded by Luis G Restrepo",
+   "photo": 12401526
+  }
+ ]
 }

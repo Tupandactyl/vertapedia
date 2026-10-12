@@ -43,5 +43,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172974/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Fritz Geller-Grimm, some rights reserved (CC BY-SA)",
+   "photo": 172974
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67159919/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James St. John, some rights reserved (CC BY)",
+   "photo": 67159919
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67159920/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) James St. John, some rights reserved (CC BY)",
+   "photo": 67159920
+  }
+ ]
 }

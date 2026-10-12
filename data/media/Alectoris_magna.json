@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554591358/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 管牧山, some rights reserved (CC BY-NC), uploaded by 管牧山",
+   "photo": 554591358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595065345/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden",
+   "photo": 595065345
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205465235/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Zhuofei Lu, some rights reserved (CC BY-NC-SA), uploaded by Zhuofei Lu",
+   "photo": 205465235
+  }
+ ]
 }

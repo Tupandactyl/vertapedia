@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472712008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cmmteixeira, some rights reserved (CC BY-NC), uploaded by cmmteixeira",
+   "photo": 472712008
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730677958/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 730677958
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83811497/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 83811497
+  }
+ ]
 }

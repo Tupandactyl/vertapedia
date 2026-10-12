@@ -391,5 +391,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Patrick Randall, some rights reserved (CC BY-NC-SA)",
+   "photo": 150549757
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jacob Truetken, some rights reserved (CC BY-NC), uploaded by Jacob Truetken",
+   "photo": 597055401
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175457294/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+   "photo": 175457294
+  }
+ ]
 }

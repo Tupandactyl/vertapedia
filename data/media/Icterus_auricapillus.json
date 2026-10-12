@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247217125/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Cajá-manga, some rights reserved (CC BY), uploaded by Cajá-manga",
+   "photo": 247217125
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143499453/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alejandro Lopez, some rights reserved (CC BY-NC-SA), uploaded by Alejandro Lopez",
+   "photo": 143499453
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122077111/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cyanicollis, some rights reserved (CC BY-NC)",
+   "photo": 122077111
+  }
+ ]
 }

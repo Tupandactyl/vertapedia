@@ -73,5 +73,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91530638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 91530638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177938907/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nDominique Schreckling, some rights reserved (CC BY-SA)",
+   "photo": 177938907
+  }
+ ]
 }

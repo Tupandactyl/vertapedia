@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11627853/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 11627853
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622483/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 622483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622484/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Jeppestown, some rights reserved (CC BY-SA)",
+   "photo": 622484
+  }
+ ]
 }

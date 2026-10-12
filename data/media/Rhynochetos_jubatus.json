@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27485701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27485701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114599399/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isabelle JOLLIT, some rights reserved (CC BY-NC), uploaded by Isabelle JOLLIT",
+   "photo": 114599399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225347352/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roger Le Guen, some rights reserved (CC BY-NC), uploaded by Roger Le Guen",
+   "photo": 225347352
+  }
+ ]
 }

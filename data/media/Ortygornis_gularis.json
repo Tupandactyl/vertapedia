@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110996574/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaurab Talukdar, some rights reserved (CC BY-NC), uploaded by Gaurab Talukdar",
+   "photo": 110996574
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46393665/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sebastian Doak, some rights reserved (CC BY), uploaded by Sebastian Doak",
+   "photo": 46393665
+  }
+ ]
 }

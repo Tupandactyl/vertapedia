@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521869862/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by steve b",
+   "photo": 521869862
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103608120/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 103608120
+  }
+ ]
 }

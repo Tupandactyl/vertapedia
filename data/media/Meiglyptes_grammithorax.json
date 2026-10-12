@@ -124,5 +124,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447486240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chen Zhiyang, some rights reserved (CC BY-NC), uploaded by Chen Zhiyang",
+   "photo": 447486240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183901296/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 183901296
+  }
+ ]
 }

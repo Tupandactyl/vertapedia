@@ -109,5 +109,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7565712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wildlife Fred25, some rights reserved (CC BY-NC)",
+   "photo": 7565712
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91937467/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 91937467
+  }
+ ]
 }

@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141299/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dario Sanches, some rights reserved (CC BY-SA)",
+   "photo": 141299
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312922629/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alex S. Rosa, some rights reserved (CC BY-SA), uploaded by Alex S. Rosa",
+   "photo": 312922629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178825438/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) claudio roberto azevedo de souza, some rights reserved (CC BY-NC), uploaded by claudio roberto azevedo de souza",
+   "photo": 178825438
+  }
+ ]
 }

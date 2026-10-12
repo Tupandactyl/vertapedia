@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377898587/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Keegan Tinsel, some rights reserved (CC BY-NC), uploaded by Keegan Tinsel",
+   "photo": 377898587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49647778/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shanti Morgan, some rights reserved (CC BY-NC), uploaded by Shanti Morgan",
+   "photo": 49647778
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350253763/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kim Bannister, some rights reserved (CC BY-NC), uploaded by Kim Bannister",
+   "photo": 350253763
+  }
+ ]
 }

@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308649363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nepal Bird Watching, some rights reserved (CC BY-NC), uploaded by Nepal Bird Watching",
+   "photo": 308649363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597416280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jespermm, some rights reserved (CC BY-NC)",
+   "photo": 597416280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178252166/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) quiltedquetzal, some rights reserved (CC BY-NC), uploaded by quiltedquetzal",
+   "photo": 178252166
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362200591/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darcy Whittaker, some rights reserved (CC BY-NC), uploaded by Darcy Whittaker",
+   "photo": 362200591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50235916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 50235916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385924007/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dawnborchardt, some rights reserved (CC BY-NC)",
+   "photo": 385924007
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45165845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "photo": 45165845
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158990211/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 158990211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158990212/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) ProAves Colombia, some rights reserved (CC BY-NC-SA)",
+   "photo": 158990212
+  }
+ ]
 }

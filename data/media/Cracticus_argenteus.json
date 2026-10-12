@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39407646/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sarah macdonald, some rights reserved (CC BY-NC), uploaded by sarah macdonald",
+   "photo": 39407646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232077214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Shepherd, some rights reserved (CC BY-NC), uploaded by Rob Shepherd",
+   "photo": 232077214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148662364/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Schakelaar, some rights reserved (CC BY-NC), uploaded by Donna Schakelaar",
+   "photo": 148662364
+  }
+ ]
 }

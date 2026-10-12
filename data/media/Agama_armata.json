@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15664902/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 15664902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10866337/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rémi Cardinael, some rights reserved (CC BY-NC), uploaded by Rémi Cardinael",
+   "photo": 10866337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15665070/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 15665070
+  }
+ ]
 }

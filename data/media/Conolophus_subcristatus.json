@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33297210/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Arias Bermeo, some rights reserved (CC BY-NC), uploaded by Juan Arias Bermeo",
+   "photo": 33297210
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57950517/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Arias Bermeo, some rights reserved (CC BY-NC), uploaded by Juan Arias Bermeo",
+   "photo": 57950517
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42407419/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maggiestogner, some rights reserved (CC BY-NC)",
+   "photo": 42407419
+  }
+ ]
 }

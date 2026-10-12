@@ -73,5 +73,25 @@
    "date": "2023-10-14"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666563/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alan Manson, some rights reserved (CC BY-SA)",
+   "photo": 666563
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13665834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 13665834
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251439230/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timmcclurg, some rights reserved (CC BY-NC)",
+   "photo": 251439230
+  }
+ ]
 }

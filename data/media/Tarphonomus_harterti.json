@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217570024/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) avocat, some rights reserved (CC BY), uploaded by avocat",
+   "photo": 217570024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112475624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Walter Gómez Umpierrez, some rights reserved (CC BY-NC), uploaded by Walter Gómez Umpierrez",
+   "photo": 112475624
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/274167902/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Ebanks, some rights reserved (CC BY-NC), uploaded by Nick Ebanks",
+   "photo": 274167902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/274165012/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Ebanks, some rights reserved (CC BY-NC), uploaded by Nick Ebanks",
+   "photo": 274165012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73144357/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by TheMongrelKoi",
+   "photo": 73144357
+  }
+ ]
 }

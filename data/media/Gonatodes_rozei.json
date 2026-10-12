@@ -66,5 +66,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150670666/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, algunos derechos reservados (CC BY-NC), subido por Oswaldo Hernández",
+   "photo": 150670666
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738656186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francisco Russo, algunos derechos reservados (CC BY-NC), subido por Francisco Russo",
+   "photo": 738656186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202920932/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julio Rod., algunos derechos reservados (CC BY-NC), subido por Julio Rod.",
+   "photo": 202920932
+  }
+ ]
 }

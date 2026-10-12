@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/540364739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC), uploaded by Luke Kemp",
+   "photo": 540364739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67085968/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Courtney Hundermark, some rights reserved (CC BY-NC), uploaded by Courtney Hundermark",
+   "photo": 67085968
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18608396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 18608396
+  }
+ ]
 }

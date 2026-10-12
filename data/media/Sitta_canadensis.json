@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117331702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erika Mitchell, some rights reserved (CC BY-NC), uploaded by Erika Mitchell",
+   "photo": 117331702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260790031/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC), uploaded by Dave Drum",
+   "photo": 260790031
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468561506/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rebecca Reader-Lee, some rights reserved (CC BY-NC), uploaded by Rebecca Reader-Lee",
+   "photo": 468561506
+  }
+ ]
 }

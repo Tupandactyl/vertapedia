@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38382141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Janson Jones, some rights reserved (CC BY-NC), uploaded by Janson Jones",
+   "photo": 38382141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148650891/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Cayman Lanzone, some rights reserved (CC BY), uploaded by Cayman Lanzone",
+   "photo": 148650891
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343738717/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carl May, some rights reserved (CC BY-NC), uploaded by Carl May",
+   "photo": 343738717
+  }
+ ]
 }

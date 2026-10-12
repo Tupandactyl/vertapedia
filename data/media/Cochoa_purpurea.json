@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162121660/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rozan Dhungel, some rights reserved (CC BY-NC), uploaded by Rozan Dhungel",
+   "photo": 162121660
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162121696/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rozan Dhungel, some rights reserved (CC BY-NC), uploaded by Rozan Dhungel",
+   "photo": 162121696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162121615/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rozan Dhungel, some rights reserved (CC BY-NC), uploaded by Rozan Dhungel",
+   "photo": 162121615
+  }
+ ]
 }

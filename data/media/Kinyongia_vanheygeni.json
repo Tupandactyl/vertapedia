@@ -60,5 +60,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621525286/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 621525286
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573806100/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 573806100
+  }
+ ]
 }

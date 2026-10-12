@@ -80,5 +80,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29276539/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 29276539
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236188294/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 236188294
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109663214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrey Vlasenko, some rights reserved (CC BY-NC), uploaded by Andrey Vlasenko",
+   "photo": 109663214
+  }
+ ]
 }

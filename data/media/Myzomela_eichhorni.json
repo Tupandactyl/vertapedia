@@ -47,5 +47,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43749683/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Rush, some rights reserved (CC BY-NC), uploaded by Isaac Rush",
+   "photo": 43749683
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43749705/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Rush, some rights reserved (CC BY-NC), uploaded by Isaac Rush",
+   "photo": 43749705
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43749661/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Rush, some rights reserved (CC BY-NC), uploaded by Isaac Rush",
+   "photo": 43749661
+  }
+ ]
 }

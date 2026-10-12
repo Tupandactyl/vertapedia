@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325088551/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Griha Hasanov, some rights reserved (CC BY), uploaded by Griha Hasanov",
+   "photo": 325088551
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610678521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bluebottle77, some rights reserved (CC BY-NC)",
+   "photo": 610678521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1964061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bhanukiran, some rights reserved (CC BY-NC)",
+   "photo": 1964061
+  }
+ ]
 }

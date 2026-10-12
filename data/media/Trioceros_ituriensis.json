@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158587782/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SeekingWilderness.be, some rights reserved (CC BY-NC), uploaded by SeekingWilderness.be",
+   "photo": 158587782
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359252487/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) elodiefreymann, some rights reserved (CC BY-NC)",
+   "photo": 359252487
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154348952/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Alempijevic, some rights reserved (CC BY-NC), uploaded by Daniel Alempijevic",
+   "photo": 154348952
+  }
+ ]
 }

@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2465348/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kent McFarland, some rights reserved (CC BY-NC)",
+   "photo": 2465348
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19598221/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joannerusso, some rights reserved (CC BY-NC), uploaded by joannerusso",
+   "photo": 19598221
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51776391/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nathaniel Sharp, some rights reserved (CC BY-NC), uploaded by Nathaniel Sharp",
+   "photo": 51776391
+  }
+ ]
 }

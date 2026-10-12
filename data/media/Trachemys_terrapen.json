@@ -135,5 +135,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454274/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) James F. Parham, some rights reserved (CC BY-NC-SA)",
+   "photo": 454274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27679233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) colleencraig, some rights reserved (CC BY-NC), uploaded by colleencraig",
+   "photo": 27679233
+  }
+ ]
 }

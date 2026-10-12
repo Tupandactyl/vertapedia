@@ -132,5 +132,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229349431/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael McSweeney, some rights reserved (CC BY-NC), uploaded by Michael McSweeney",
+   "photo": 229349431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3707753/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) michael clarke stuff, some rights reserved (CC BY-SA)",
+   "photo": 3707753
+  }
+ ]
 }

@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64411629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Norbert Sauberer, some rights reserved (CC BY-NC), uploaded by Norbert Sauberer",
+   "photo": 64411629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1897963/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Massimiliano Finzi, some rights reserved (CC BY-NC), uploaded by Massimiliano Finzi",
+   "photo": 1897963
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114405877/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) praposo, some rights reserved (CC BY-NC), uploaded by praposo",
+   "photo": 114405877
+  }
+ ]
 }

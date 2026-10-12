@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455064119/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 455064119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468603860/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gauvain_saucy, some rights reserved (CC BY-NC), uploaded by gauvain_saucy",
+   "photo": 468603860
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2090544/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 2090544
+  }
+ ]
 }

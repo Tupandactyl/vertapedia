@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60173896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 60173896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2968407/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint",
+   "photo": 2968407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468480329/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Spencer, some rights reserved (CC BY), uploaded by Derek Spencer",
+   "photo": 468480329
+  }
+ ]
 }

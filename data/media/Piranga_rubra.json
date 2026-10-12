@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255951686/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Arredondo T., some rights reserved (CC BY-NC), uploaded by Ricardo Arredondo T.",
+   "photo": 255951686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17864655/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) TVASQUEZ, some rights reserved (CC BY-NC), uploaded by TVASQUEZ",
+   "photo": 17864655
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68047817/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rachel Hall, some rights reserved (CC BY-NC), uploaded by Rachel Hall",
+   "photo": 68047817
+  }
+ ]
 }

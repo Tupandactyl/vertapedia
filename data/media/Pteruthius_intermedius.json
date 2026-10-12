@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71883923/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) scaup, some rights reserved (CC BY)",
+   "photo": 71883923
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175908691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC), uploaded by Thet Zaw Naing",
+   "photo": 175908691
+  }
+ ]
 }

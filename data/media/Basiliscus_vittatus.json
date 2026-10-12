@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62397915/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nick Tobler (Cowturtle), some rights reserved (CC BY), uploaded by Nick Tobler (Cowturtle)",
+   "photo": 62397915
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271233855/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel Romero, some rights reserved (CC BY-NC), uploaded by Miguel Romero",
+   "photo": 271233855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414823981/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Enrique Rosas Córdova, some rights reserved (CC BY-NC), uploaded by Enrique Rosas Córdova",
+   "photo": 414823981
+  }
+ ]
 }

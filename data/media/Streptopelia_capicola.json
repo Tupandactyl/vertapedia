@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22114928/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 22114928
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56145833/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Pockat, some rights reserved (CC BY-NC), uploaded by Richard Pockat",
+   "photo": 56145833
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464502661/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
+   "photo": 464502661
+  }
+ ]
 }

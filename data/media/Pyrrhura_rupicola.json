@@ -171,5 +171,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206662658/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 206662658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3271410/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) phylocode, some rights reserved (CC BY-NC)",
+   "photo": 3271410
+  }
+ ]
 }

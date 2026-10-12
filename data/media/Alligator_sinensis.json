@@ -232,5 +232,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567675962/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Logan Fu, some rights reserved (CC BY-NC), uploaded by Logan Fu",
+   "photo": 567675962
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619167409/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Logan Fu, some rights reserved (CC BY-NC), uploaded by Logan Fu",
+   "photo": 619167409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619168196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Logan Fu, some rights reserved (CC BY-NC), uploaded by Logan Fu",
+   "photo": 619168196
+  }
+ ]
 }

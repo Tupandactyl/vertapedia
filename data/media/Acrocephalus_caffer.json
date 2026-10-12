@@ -80,5 +80,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344964052/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Enot Poluskuns, some rights reserved (CC BY-NC), uploaded by Enot Poluskuns",
+   "photo": 344964052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250135/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC)",
+   "photo": 250135
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471524891/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Adam Z. Lendvai, some rights reserved (CC BY), uploaded by Adam Z. Lendvai",
+   "photo": 471524891
+  }
+ ]
 }

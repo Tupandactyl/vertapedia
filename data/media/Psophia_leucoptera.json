@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97799039/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julien Rouard - Dreamtime Nature Photography, some rights reserved (CC BY-NC), uploaded by Julien Rouard - Dreamtime Nature Photography",
+   "photo": 97799039
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41665686/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+   "photo": 41665686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85911968/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
+   "photo": 85911968
+  }
+ ]
 }

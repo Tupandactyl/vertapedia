@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537950094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Pozo, some rights reserved (CC BY-NC), uploaded by Pablo Pozo",
+   "photo": 537950094
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3177627/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 3177627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255363390/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) m.vogel, some rights reserved (CC BY-NC), uploaded by m.vogel",
+   "photo": 255363390
+  }
+ ]
 }

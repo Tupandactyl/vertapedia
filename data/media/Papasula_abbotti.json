@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342347559/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kaylene77, algunos derechos reservados (CC BY-NC)",
+   "photo": 342347559
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154859572/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Christina Lipka, algunos derechos reservados (CC BY-SA)",
+   "photo": 154859572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333482864/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eddy Smith, algunos derechos reservados (CC BY-NC), subido por Eddy Smith",
+   "photo": 333482864
+  }
+ ]
 }

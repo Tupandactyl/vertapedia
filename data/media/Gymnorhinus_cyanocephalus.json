@@ -243,5 +243,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629062/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 1629062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22581782/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 22581782
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151764/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Richard Johnson, some rights reserved (CC BY-NC-SA)",
+   "photo": 151764
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210734029/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto De Oliveira Silva, some rights reserved (CC BY-NC), uploaded by Roberto De Oliveira Silva",
+   "photo": 210734029
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262108716/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Amaral, some rights reserved (CC BY-NC), uploaded by Antonio Amaral",
+   "photo": 262108716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85508647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cotinga, some rights reserved (CC BY-NC), uploaded by cotinga",
+   "photo": 85508647
+  }
+ ]
 }

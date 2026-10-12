@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1725240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Soham Dixit, some rights reserved (CC BY-NC), uploaded by Soham Dixit",
+   "photo": 1725240
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2004952/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC)",
+   "photo": 2004952
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32506179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Tan, some rights reserved (CC BY-NC), uploaded by David Tan",
+   "photo": 32506179
+  }
+ ]
 }

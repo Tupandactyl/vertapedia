@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27265694/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Charlotte Kirchner, some rights reserved (CC BY), uploaded by Charlotte Kirchner",
+   "photo": 27265694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616132/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 616132
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86647503/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 86647503
+  }
+ ]
 }

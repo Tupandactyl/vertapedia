@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290327890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Kimr, some rights reserved (CC BY-NC), uploaded by David Kimr",
+   "photo": 290327890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302032122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 302032122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135828/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) DickDaniels  (http://carolinabirds.org/), some rights reserved (CC BY-SA)",
+   "photo": 135828
+  }
+ ]
 }

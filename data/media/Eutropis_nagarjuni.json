@@ -63,5 +63,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19741375/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laxmi Narayana, some rights reserved (CC BY-NC), uploaded by Laxmi Narayana",
+   "photo": 19741375
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456978602/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Davidvraju, some rights reserved (CC BY-SA)",
+   "photo": 456978602
+  }
+ ]
 }

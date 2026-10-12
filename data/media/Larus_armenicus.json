@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211807500/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ilya Burylov, some rights reserved (CC BY-NC), uploaded by Ilya Burylov",
+   "photo": 211807500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93097111/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 93097111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46596629/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mikhail Nevsky, some rights reserved (CC BY), uploaded by Mikhail Nevsky",
+   "photo": 46596629
+  }
+ ]
 }

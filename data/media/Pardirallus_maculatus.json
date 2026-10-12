@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/409308281/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yve Morrell, some rights reserved (CC BY-NC), uploaded by Yve Morrell",
+   "photo": 409308281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451342281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Antunez, some rights reserved (CC BY-NC), uploaded by Adrian Antunez",
+   "photo": 451342281
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90545036/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 90545036
+  }
+ ]
 }

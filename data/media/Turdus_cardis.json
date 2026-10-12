@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249085378/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jiro Iguchi, some rights reserved (CC BY), uploaded by Jiro Iguchi",
+   "photo": 249085378
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242155670/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) akw123, some rights reserved (CC BY-NC)",
+   "photo": 242155670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248471827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 何秋, some rights reserved (CC BY-NC), uploaded by 何秋",
+   "photo": 248471827
+  }
+ ]
 }

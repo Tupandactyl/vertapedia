@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442589325/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) m_sato, some rights reserved (CC BY-NC)",
+   "photo": 442589325
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57493179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Yakovlev, some rights reserved (CC BY-NC), uploaded by Alexander Yakovlev",
+   "photo": 57493179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289501540/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) zinogre, some rights reserved (CC BY-SA)",
+   "photo": 289501540
+  }
+ ]
 }

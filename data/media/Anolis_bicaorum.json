@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195747978/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) COLOMBO Raphaël, some rights reserved (CC BY-NC), uploaded by COLOMBO Raphaël",
+   "photo": 195747978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132663976/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josue Ramos Galdamez, some rights reserved (CC BY-NC), uploaded by Josue Ramos Galdamez",
+   "photo": 132663976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30607760/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) nilsw, some rights reserved (CC BY-SA), uploaded by nilsw",
+   "photo": 30607760
+  }
+ ]
 }

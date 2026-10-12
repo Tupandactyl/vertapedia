@@ -25,5 +25,25 @@
    "date": "2023-02-11"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255789553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Vallotton, some rights reserved (CC BY-NC), uploaded by Laurent Vallotton",
+   "photo": 255789553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353259091/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roman Burkardt, some rights reserved (CC BY-NC), uploaded by Roman Burkardt",
+   "photo": 353259091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255789519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Vallotton, some rights reserved (CC BY-NC), uploaded by Laurent Vallotton",
+   "photo": 255789519
+  }
+ ]
 }

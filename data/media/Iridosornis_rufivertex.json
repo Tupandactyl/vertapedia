@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1346812/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 1346812
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571952/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+   "photo": 571952
+  }
+ ]
 }

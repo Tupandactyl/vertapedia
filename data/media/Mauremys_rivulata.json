@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12596407/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Katya, niektóre prawa zastrzeżone (CC BY), przesłane przez użytkownika Katya",
+   "photo": 12596407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1867519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Paul Cools",
+   "photo": 1867519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29864189/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paolo Mazzei, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Paolo Mazzei",
+   "photo": 29864189
+  }
+ ]
 }

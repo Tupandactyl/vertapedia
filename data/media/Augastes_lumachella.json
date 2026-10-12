@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30061326/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Joao Quental, some rights reserved (CC BY)",
+   "photo": 30061326
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352440878/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jarbas Mattos, some rights reserved (CC BY-NC), uploaded by Jarbas Mattos",
+   "photo": 352440878
+  }
+ ]
 }

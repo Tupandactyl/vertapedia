@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56032553/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Daniel Lane, some rights reserved (CC BY-SA)",
+   "photo": 56032553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56032554/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Daniel Lane, some rights reserved (CC BY-SA)",
+   "photo": 56032554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56032555/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Daniel Lane, some rights reserved (CC BY-SA)",
+   "photo": 56032555
+  }
+ ]
 }

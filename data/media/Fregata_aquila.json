@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620899503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simon Plat, algunos derechos reservados (CC BY-NC), subido por Simon Plat",
+   "photo": 620899503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361224623/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anogramma2009, algunos derechos reservados (CC BY-NC)",
+   "photo": 361224623
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361224621/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anogramma2009, algunos derechos reservados (CC BY-NC)",
+   "photo": 361224621
+  }
+ ]
 }

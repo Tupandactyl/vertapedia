@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/918387/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)",
+   "photo": 918387
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14585622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Huda Wiradarma, some rights reserved (CC BY-NC), uploaded by Huda Wiradarma",
+   "photo": 14585622
+  }
+ ]
 }

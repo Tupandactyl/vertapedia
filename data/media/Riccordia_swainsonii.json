@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251450242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Pedro Genaro Rodriguez",
+   "photo": 251450242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469598619/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, osa oikeuksista pidätetään (CC BY-NC), lähettänyt René Durocher",
+   "photo": 469598619
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519544923/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franklin Howley-Dumit Serulle, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Franklin Howley-Dumit Serulle",
+   "photo": 519544923
+  }
+ ]
 }

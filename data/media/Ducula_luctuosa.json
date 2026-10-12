@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13409220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13409220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171313827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC), uploaded by Phil Benstead",
+   "photo": 171313827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2532695/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Biodiversity Heritage Library, some rights reserved (CC BY)",
+   "photo": 2532695
+  }
+ ]
 }

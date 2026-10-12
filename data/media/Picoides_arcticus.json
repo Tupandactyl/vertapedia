@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341198318/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Olsoy, some rights reserved (CC BY-NC), uploaded by Peter Olsoy",
+   "photo": 341198318
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175249050/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) edporopat, some rights reserved (CC BY-NC), uploaded by edporopat",
+   "photo": 175249050
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29455135/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Norma Malinowski, some rights reserved (CC BY), uploaded by Norma Malinowski",
+   "photo": 29455135
+  }
+ ]
 }

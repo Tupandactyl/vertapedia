@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6800696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 6800696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161736701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Arango López, some rights reserved (CC BY-NC), uploaded by Robert Arango López",
+   "photo": 161736701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95326488/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 95326488
+  }
+ ]
 }

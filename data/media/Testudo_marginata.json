@@ -201,5 +201,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53064007/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Massimo Finizio, some rights reserved (CC BY-SA)",
+   "photo": 53064007
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86508731/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 86508731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/717380/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 717380
+  }
+ ]
 }

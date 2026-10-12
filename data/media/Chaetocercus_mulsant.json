@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567467/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph C Boone, some rights reserved (CC BY-SA)",
+   "photo": 567467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567468/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph C Boone, some rights reserved (CC BY-SA)",
+   "photo": 567468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17490/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 17490
+  }
+ ]
 }

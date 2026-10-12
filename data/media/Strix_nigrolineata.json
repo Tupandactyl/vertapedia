@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38448265/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 38448265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7698729/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7698729
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239503921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hervin-Barrios, some rights reserved (CC BY-NC), uploaded by Hervin-Barrios",
+   "photo": 239503921
+  }
+ ]
 }

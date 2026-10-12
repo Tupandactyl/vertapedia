@@ -179,5 +179,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503929142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 503929142
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127764891/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 127764891
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76627270/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Emmanuel Escobar, some rights reserved (CC BY-NC), uploaded by Jorge Emmanuel Escobar",
+   "photo": 76627270
+  }
+ ]
 }

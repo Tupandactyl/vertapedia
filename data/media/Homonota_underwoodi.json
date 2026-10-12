@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426554252/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tomás Carranza Perales, some rights reserved (CC BY), uploaded by Tomás Carranza Perales",
+   "photo": 426554252
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68192862/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ignacio_hernandez, some rights reserved (CC BY-NC), uploaded by ignacio_hernandez",
+   "photo": 68192862
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114167714/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damián Ganime, some rights reserved (CC BY-NC), uploaded by Damián Ganime",
+   "photo": 114167714
+  }
+ ]
 }

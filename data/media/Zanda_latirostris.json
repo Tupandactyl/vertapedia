@@ -172,5 +172,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287180277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Bromilow, some rights reserved (CC BY-NC), uploaded by John Bromilow",
+   "photo": 287180277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33056625/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob McDougall, some rights reserved (CC BY-NC), uploaded by Bob McDougall",
+   "photo": 33056625
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11371269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dorperdave, some rights reserved (CC BY-NC)",
+   "photo": 11371269
+  }
+ ]
 }

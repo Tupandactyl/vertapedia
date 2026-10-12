@@ -171,5 +171,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366518731/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ульяна Лалак, some rights reserved (CC BY), uploaded by Ульяна Лалак",
+   "photo": 366518731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100391479/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+   "photo": 100391479
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115794396/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 115794396
+  }
+ ]
 }

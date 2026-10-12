@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123081254/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sonia E. Galván Dávila, some rights reserved (CC BY-NC), uploaded by Sonia E. Galván Dávila",
+   "photo": 123081254
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88751647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC), uploaded by David Ruíz Domínguez",
+   "photo": 88751647
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178038284/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+   "photo": 178038284
+  }
+ ]
 }

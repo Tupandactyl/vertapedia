@@ -180,5 +180,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178251484/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) quiltedquetzal, some rights reserved (CC BY-NC), uploaded by quiltedquetzal",
+   "photo": 178251484
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65069036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 65069036
+  }
+ ]
 }

@@ -140,5 +140,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289189131/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rajan Rao, some rights reserved (CC BY), uploaded by Rajan Rao",
+   "photo": 289189131
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135107987/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Garrigues, some rights reserved (CC BY-NC), uploaded by David Garrigues",
+   "photo": 135107987
+  }
+ ]
 }

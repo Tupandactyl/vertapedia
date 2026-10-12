@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17537/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Edwin Harvey, some rights reserved (CC BY-NC-SA)",
+   "photo": 17537
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64237341/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 64237341
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171601856/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Pablo H Capovilla, some rights reserved (CC BY), uploaded by Pablo H Capovilla",
+   "photo": 171601856
+  }
+ ]
 }

@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71885155/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY-NC), uploaded by Trevor Van Loon",
+   "photo": 71885155
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5117815/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Barbin, some rights reserved (CC BY-NC), uploaded by Thomas Barbin",
+   "photo": 5117815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63601334/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ian Cruickshank, some rights reserved (CC BY-NC), uploaded by Ian Cruickshank",
+   "photo": 63601334
+  }
+ ]
 }

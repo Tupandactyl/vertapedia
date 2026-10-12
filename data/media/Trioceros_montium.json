@@ -100,5 +100,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22703529/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 22703529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29997731/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexanderpraedel, some rights reserved (CC BY-NC)",
+   "photo": 29997731
+  }
+ ]
 }

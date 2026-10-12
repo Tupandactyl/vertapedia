@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699123839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emma Navazesh, some rights reserved (CC BY-NC), uploaded by Emma Navazesh",
+   "photo": 699123839
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215362302/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon",
+   "photo": 215362302
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92054787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 92054787
+  }
+ ]
 }

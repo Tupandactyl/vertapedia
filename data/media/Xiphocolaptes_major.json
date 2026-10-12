@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565453/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 565453
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582486386/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santiago Mailhos, some rights reserved (CC BY-NC), uploaded by Santiago Mailhos",
+   "photo": 582486386
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376388307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tadeusz Kawecki, some rights reserved (CC BY-NC), uploaded by Tadeusz Kawecki",
+   "photo": 376388307
+  }
+ ]
 }

@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394707588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Clarke, some rights reserved (CC BY-NC), uploaded by Chris Clarke",
+   "photo": 394707588
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310679993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Clarke, some rights reserved (CC BY-NC), uploaded by Chris Clarke",
+   "photo": 310679993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22138523/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut",
+   "photo": 22138523
+  }
+ ]
 }

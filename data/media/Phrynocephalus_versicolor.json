@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44049478/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Donald Hampton, some rights reserved (CC BY-SA), uploaded by Donald Hampton",
+   "photo": 44049478
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116980236/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 116980236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57067322/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vandandorj, some rights reserved (CC BY-NC), uploaded by vandandorj",
+   "photo": 57067322
+  }
+ ]
 }

@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169415462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Garin Taylor, some rights reserved (CC BY-NC), uploaded by Garin Taylor",
+   "photo": 169415462
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573699369/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hdnaturalist99, some rights reserved (CC BY-NC), uploaded by hdnaturalist99",
+   "photo": 573699369
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177652536/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Heath Hunter, some rights reserved (CC BY), uploaded by Heath Hunter",
+   "photo": 177652536
+  }
+ ]
 }

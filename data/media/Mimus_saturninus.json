@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197389027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Quentin Vandemoortele, some rights reserved (CC BY-NC), uploaded by Quentin Vandemoortele",
+   "photo": 197389027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118118298/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Caballero, some rights reserved (CC BY-NC), uploaded by Diego Caballero",
+   "photo": 118118298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17854010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Evandro, some rights reserved (CC BY-NC), uploaded by Evandro",
+   "photo": 17854010
+  }
+ ]
 }

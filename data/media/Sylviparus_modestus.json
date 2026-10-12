@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519729916/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 519729916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449929784/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 449929784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122932885/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Himanshu Pandav, some rights reserved (CC BY-NC), uploaded by Himanshu Pandav",
+   "photo": 122932885
+  }
+ ]
 }

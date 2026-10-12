@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163462642/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Gorbunov, some rights reserved (CC BY-NC), uploaded by Pavel Gorbunov",
+   "photo": 163462642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290198475/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kudaibergen Amirekul, some rights reserved (CC BY-SA), uploaded by Kudaibergen Amirekul",
+   "photo": 290198475
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311771696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+   "photo": 311771696
+  }
+ ]
 }

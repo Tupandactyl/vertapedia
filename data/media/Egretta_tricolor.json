@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149734404/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Followill, some rights reserved (CC BY-NC), uploaded by Pete Followill",
+   "photo": 149734404
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441757423/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon",
+   "photo": 441757423
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111893459/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Andrej Chudý, some rights reserved (CC BY-NC-SA)",
+   "photo": 111893459
+  }
+ ]
 }

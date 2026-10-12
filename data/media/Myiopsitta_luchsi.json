@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76303269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eppsa, some rights reserved (CC BY-NC), uploaded by eppsa",
+   "photo": 76303269
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80649424/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) La Campana, Yotala, some rights reserved (CC BY-NC), uploaded by La Campana, Yotala",
+   "photo": 80649424
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75690383/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eppsa, some rights reserved (CC BY-NC), uploaded by eppsa",
+   "photo": 75690383
+  }
+ ]
 }

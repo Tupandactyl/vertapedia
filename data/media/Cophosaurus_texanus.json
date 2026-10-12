@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405516737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+   "photo": 405516737
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138967447/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 138967447
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49700960/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Renoult, some rights reserved (CC BY-NC), uploaded by David Renoult",
+   "photo": 49700960
+  }
+ ]
 }

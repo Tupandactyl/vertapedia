@@ -105,5 +105,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211767804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lilian Tomazelli, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Lilian Tomazelli",
+   "photo": 211767804
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13426586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Filho Manfredini, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Filho Manfredini",
+   "photo": 13426586
+  }
+ ]
 }

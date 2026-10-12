@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203334290/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jose Hugo Martínez Guerrero, some rights reserved (CC BY-NC), uploaded by Jose Hugo Martínez Guerrero",
+   "photo": 203334290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44660452/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 44660452
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2410818/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeanmichel_moisant, some rights reserved (CC BY-NC), uploaded by jeanmichel_moisant",
+   "photo": 2410818
+  }
+ ]
 }

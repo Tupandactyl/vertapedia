@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27440633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27440633
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27440579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27440579
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2858469/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roger Le Guen, some rights reserved (CC BY-NC-SA)",
+   "photo": 2858469
+  }
+ ]
 }

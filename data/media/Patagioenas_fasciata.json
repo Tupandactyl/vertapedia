@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4610902/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Fenwick, some rights reserved (CC BY-NC), uploaded by Paul Fenwick",
+   "photo": 4610902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76640111/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kathleen L. Ryan, some rights reserved (CC BY-NC), uploaded by Kathleen L. Ryan",
+   "photo": 76640111
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193254986/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 193254986
+  }
+ ]
 }

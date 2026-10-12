@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228333576/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 228333576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228333884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+   "photo": 228333884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6277945/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan Bou Riquer, some rights reserved (CC BY-NC-SA), uploaded by Juan Bou Riquer",
+   "photo": 6277945
+  }
+ ]
 }

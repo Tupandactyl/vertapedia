@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5581/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maggie.Smith, some rights reserved (CC BY-NC)",
+   "photo": 5581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10782091/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Don Loarie, some rights reserved (CC BY), uploaded by Don Loarie",
+   "photo": 10782091
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maggie.Smith, some rights reserved (CC BY-NC)",
+   "photo": 34353
+  }
+ ]
 }

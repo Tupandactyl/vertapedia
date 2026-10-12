@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521541054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 521541054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137606/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Don Faulkner, some rights reserved (CC BY-SA)",
+   "photo": 137606
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416282910/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Adam Jackson",
+   "photo": 416282910
+  }
+ ]
 }

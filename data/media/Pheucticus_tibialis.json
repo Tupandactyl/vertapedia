@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33555396/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 33555396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80224292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Ramírez, some rights reserved (CC BY-NC), uploaded by Diego Ramírez",
+   "photo": 80224292
+  }
+ ]
 }

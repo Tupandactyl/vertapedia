@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29313394/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Krishna Bhusal, some rights reserved (CC BY-NC), uploaded by Krishna Bhusal",
+   "photo": 29313394
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316313889/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nepal Bird Watching, some rights reserved (CC BY-NC), uploaded by Nepal Bird Watching",
+   "photo": 316313889
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/677338903/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Barry Stewart, some rights reserved (CC BY), uploaded by Barry Stewart",
+   "photo": 677338903
+  }
+ ]
 }

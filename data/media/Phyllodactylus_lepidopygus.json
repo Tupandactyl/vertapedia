@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121082863/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) capacoscar, some rights reserved (CC BY), uploaded by capacoscar",
+   "photo": 121082863
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/274600696/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) capacoscar, some rights reserved (CC BY), uploaded by capacoscar",
+   "photo": 274600696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76813125/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Quispe Salcedo, some rights reserved (CC BY-NC), uploaded by Eduardo Quispe Salcedo",
+   "photo": 76813125
+  }
+ ]
 }

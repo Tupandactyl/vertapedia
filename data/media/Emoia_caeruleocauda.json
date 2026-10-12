@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118680638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) cap1096, some rights reserved (CC BY-NC), uploaded by cap1096",
+   "photo": 118680638
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53125/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
+   "photo": 53125
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314983/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 314983
+  }
+ ]
 }

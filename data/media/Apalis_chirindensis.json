@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484460915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Corné Rautenbach, some rights reserved (CC BY-NC), uploaded by Corné Rautenbach",
+   "photo": 484460915
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575564532/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) alanbedfordshaw, some rights reserved (CC BY-SA)",
+   "photo": 575564532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631517387/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Corrie du Toit, some rights reserved (CC BY-NC), uploaded by Corrie du Toit",
+   "photo": 631517387
+  }
+ ]
 }

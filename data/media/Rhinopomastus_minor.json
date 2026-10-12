@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13372159/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Collins, some rights reserved (CC BY-NC), uploaded by Tim Collins",
+   "photo": 13372159
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852103/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1852103
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776784/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 776784
+  }
+ ]
 }

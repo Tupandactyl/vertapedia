@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123738907/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ignacio Torres-García, some rights reserved (CC BY-NC), uploaded by Ignacio Torres-García",
+   "photo": 123738907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8562062/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ignacio Torres-García, some rights reserved (CC BY-NC), uploaded by Ignacio Torres-García",
+   "photo": 8562062
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137353887/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ignacio Torres-García, some rights reserved (CC BY-NC), uploaded by Ignacio Torres-García",
+   "photo": 137353887
+  }
+ ]
 }

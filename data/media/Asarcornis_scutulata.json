@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98380423/{size}.png",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ashley Coates, some rights reserved (CC BY-NC-SA)",
+   "photo": 98380423
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247498950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) whywhywild, some rights reserved (CC BY-NC)",
+   "photo": 247498950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418826958/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ปิยภูมิ ช่องฉิมพลี, some rights reserved (CC BY-NC), uploaded by ปิยภูมิ ช่องฉิมพลี",
+   "photo": 418826958
+  }
+ ]
 }

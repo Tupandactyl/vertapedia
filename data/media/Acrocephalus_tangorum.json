@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133528335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ingkayut Sa-ar, some rights reserved (CC BY-NC), uploaded by Ingkayut Sa-ar",
+   "photo": 133528335
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5567500/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 5567500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200281802/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roman, some rights reserved (CC BY-NC), uploaded by Roman",
+   "photo": 200281802
+  }
+ ]
 }

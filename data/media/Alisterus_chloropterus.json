@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180644829/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC), uploaded by David Barros Cardona",
+   "photo": 180644829
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91950938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 91950938
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159013641/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Peter Tan, some rights reserved (CC BY)",
+   "photo": 159013641
+  }
+ ]
 }

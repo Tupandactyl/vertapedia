@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32171211/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2",
+   "photo": 32171211
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62673532/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riskin, some rights reserved (CC BY), uploaded by Dan Riskin",
+   "photo": 62673532
+  }
+ ]
 }

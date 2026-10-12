@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55124708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Viduetsky, some rights reserved (CC BY-NC), uploaded by Alexander Viduetsky",
+   "photo": 55124708
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59165298/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tjeerd, some rights reserved (CC BY-NC), uploaded by tjeerd",
+   "photo": 59165298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108705025/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) carlbodenstaff, some rights reserved (CC BY-NC), uploaded by carlbodenstaff",
+   "photo": 108705025
+  }
+ ]
 }

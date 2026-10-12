@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602438441/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "photo": 602438441
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115611043/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tetsuro Sato, some rights reserved (CC BY-NC), uploaded by Tetsuro Sato",
+   "photo": 115611043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401524603/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rimma Gerasimenko, some rights reserved (CC BY-NC), uploaded by Rimma Gerasimenko",
+   "photo": 401524603
+  }
+ ]
 }

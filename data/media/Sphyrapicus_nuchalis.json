@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26994711/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+   "photo": 26994711
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713311/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roy pilcher, some rights reserved (CC BY-NC), uploaded by roy pilcher",
+   "photo": 713311
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2388726/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 2388726
+  }
+ ]
 }

@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178379831/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Luciano Bernardes",
+   "photo": 178379831
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11153586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) A Lamberts, osa oikeuksista pidätetään (CC BY-NC), lähettänyt A Lamberts",
+   "photo": 11153586
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178379730/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Luciano Bernardes",
+   "photo": 178379730
+  }
+ ]
 }

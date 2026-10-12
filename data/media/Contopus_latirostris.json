@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216042642/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+   "photo": 216042642
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165903366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+   "photo": 165903366
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216042702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+   "photo": 216042702
+  }
+ ]
 }

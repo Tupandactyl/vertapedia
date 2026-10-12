@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58193613/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Braden J. Judson",
+   "photo": 58193613
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7427189/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lee, some rights reserved (CC BY-NC), uploaded by Lee",
+   "photo": 7427189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160208/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dave Govoni, some rights reserved (CC BY-NC-SA), uploaded by Dave Govoni",
+   "photo": 160208
+  }
+ ]
 }

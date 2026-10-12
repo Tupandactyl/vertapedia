@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638567773/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wild___max, some rights reserved (CC BY-NC)",
+   "photo": 638567773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99786541/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC), uploaded by Albert Kang",
+   "photo": 99786541
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58670748/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Pineda, some rights reserved (CC BY-NC), uploaded by Gabriel Pineda",
+   "photo": 58670748
+  }
+ ]
 }

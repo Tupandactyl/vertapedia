@@ -129,5 +129,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47594102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) macrhybopsis, some rights reserved (CC BY-NC)",
+   "photo": 47594102
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447749/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jose, some rights reserved (CC BY-NC), uploaded by Jose",
+   "photo": 447749
+  }
+ ]
 }

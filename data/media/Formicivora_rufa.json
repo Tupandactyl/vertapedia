@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254176873/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivo Carlos Zecchin, some rights reserved (CC BY-NC), uploaded by Ivo Carlos Zecchin",
+   "photo": 254176873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344131370/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 344131370
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362172/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 362172
+  }
+ ]
 }

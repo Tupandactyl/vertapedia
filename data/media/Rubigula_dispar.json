@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6353937/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldman19510, some rights reserved (CC BY-NC), uploaded by oldman19510",
+   "photo": 6353937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53175198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 53175198
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27337426/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Durand, some rights reserved (CC BY-NC), uploaded by Bruno Durand",
+   "photo": 27337426
+  }
+ ]
 }

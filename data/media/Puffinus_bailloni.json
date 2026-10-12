@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327930988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shachar_alterman, some rights reserved (CC BY-NC)",
+   "photo": 327930988
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245338786/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard Hasegawa, some rights reserved (CC BY-NC), uploaded by Richard Hasegawa",
+   "photo": 245338786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115209222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ila France, some rights reserved (CC BY-NC), uploaded by Ila France",
+   "photo": 115209222
+  }
+ ]
 }

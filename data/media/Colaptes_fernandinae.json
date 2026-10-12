@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29729334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Fortin, some rights reserved (CC BY-NC), uploaded by Daniel Fortin",
+   "photo": 29729334
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17767/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Darrin OBrien, some rights reserved (CC BY-NC-SA)",
+   "photo": 17767
+  }
+ ]
 }

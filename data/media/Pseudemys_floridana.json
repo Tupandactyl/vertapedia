@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362482/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) bathyporeia, some rights reserved (CC BY-NC-SA)",
+   "photo": 362482
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28308750/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) mfeaver, some rights reserved (CC BY), uploaded by mfeaver",
+   "photo": 28308750
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29484299/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Jessen, some rights reserved (CC BY-NC), uploaded by Peter Jessen",
+   "photo": 29484299
+  }
+ ]
 }

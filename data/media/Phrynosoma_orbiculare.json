@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8390346/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Castañeda, some rights reserved (CC BY-NC), uploaded by Mario Castañeda",
+   "photo": 8390346
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/980594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robby Deans, some rights reserved (CC BY-NC), uploaded by Robby Deans",
+   "photo": 980594
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2941836/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) amado_fdez, some rights reserved (CC BY-NC)",
+   "photo": 2941836
+  }
+ ]
 }

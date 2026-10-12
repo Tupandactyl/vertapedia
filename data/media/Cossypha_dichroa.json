@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229684657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonie Twentyman Jones, some rights reserved (CC BY-NC), uploaded by Leonie Twentyman Jones",
+   "photo": 229684657
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90433841/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 90433841
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199688233/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC), uploaded by Colin Ralston",
+   "photo": 199688233
+  }
+ ]
 }

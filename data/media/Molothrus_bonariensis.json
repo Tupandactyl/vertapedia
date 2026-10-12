@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158695164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 158695164
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/708094271/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Becky Matsubara, some rights reserved (CC BY)",
+   "photo": 708094271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169148636/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 169148636
+  }
+ ]
 }

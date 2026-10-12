@@ -169,5 +169,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656636/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rohan Uddin Fahad, some rights reserved (CC BY-SA)",
+   "photo": 656636
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17579621/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mar11, some rights reserved (CC BY)",
+   "photo": 17579621
+  }
+ ]
 }

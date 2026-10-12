@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682043193/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samay Srivastava, some rights reserved (CC BY-NC), uploaded by Samay Srivastava",
+   "photo": 682043193
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225252961/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Langur Eco Travels, some rights reserved (CC BY-NC), uploaded by Langur Eco Travels",
+   "photo": 225252961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8988293/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) porag, some rights reserved (CC BY-NC)",
+   "photo": 8988293
+  }
+ ]
 }

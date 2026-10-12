@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10771391/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 10771391
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15232040/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
+   "photo": 15232040
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7494237/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldman19510, some rights reserved (CC BY-NC), uploaded by oldman19510",
+   "photo": 7494237
+  }
+ ]
 }

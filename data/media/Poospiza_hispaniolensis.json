@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128621254/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 128621254
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51307615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) osoandino, some rights reserved (CC BY-NC), uploaded by osoandino",
+   "photo": 51307615
+  }
+ ]
 }

@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jef-B, some rights reserved (CC BY-NC), uploaded by Jef-B",
+   "photo": 486575200
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5603774/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan Bou Riquer, some rights reserved (CC BY-NC-SA), uploaded by Juan Bou Riquer",
+   "photo": 5603774
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5603776/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Juan Bou Riquer, some rights reserved (CC BY-NC-SA), uploaded by Juan Bou Riquer",
+   "photo": 5603776
+  }
+ ]
 }

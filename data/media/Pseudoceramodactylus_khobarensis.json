@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204189/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "photo": 204189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204190/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "photo": 204190
+  }
+ ]
 }

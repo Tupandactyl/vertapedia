@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206987601/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Наталия, some rights reserved (CC BY-NC), uploaded by Наталия",
+   "photo": 206987601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173320152/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dssh, some rights reserved (CC BY-NC)",
+   "photo": 173320152
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8362810/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ani Sarkisyan, some rights reserved (CC BY), uploaded by Ani Sarkisyan",
+   "photo": 8362810
+  }
+ ]
 }

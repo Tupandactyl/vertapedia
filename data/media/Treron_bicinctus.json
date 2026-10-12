@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522783822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Burak Doğansoysal, some rights reserved (CC BY-NC), uploaded by Burak Doğansoysal",
+   "photo": 522783822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546733426/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY), uploaded by Ian Dugdale",
+   "photo": 546733426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26045/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 26045
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712505327/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison, some rights reserved (CC BY-SA)",
+   "photo": 712505327
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27394698/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27394698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2866377/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Papier K, some rights reserved (CC BY-SA)",
+   "photo": 2866377
+  }
+ ]
 }

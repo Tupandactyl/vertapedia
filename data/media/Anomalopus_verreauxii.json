@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116925027/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kerry peters, some rights reserved (CC BY-NC), uploaded by kerry peters",
+   "photo": 116925027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167334020/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Norman P Farmer, some rights reserved (CC BY-NC), uploaded by Norman P Farmer",
+   "photo": 167334020
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173797788/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren Fielder, some rights reserved (CC BY-NC), uploaded by Darren Fielder",
+   "photo": 173797788
+  }
+ ]
 }

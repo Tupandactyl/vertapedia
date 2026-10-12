@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60397719/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+   "photo": 60397719
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112753610/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aviceda, some rights reserved (CC BY-SA)",
+   "photo": 112753610
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104308860/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 104308860
+  }
+ ]
 }

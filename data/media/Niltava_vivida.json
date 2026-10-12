@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176734099/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Lin, some rights reserved (CC BY-NC), uploaded by Frank Lin",
+   "photo": 176734099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88811161/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 洪廷維, some rights reserved (CC BY-NC), uploaded by 洪廷維",
+   "photo": 88811161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453501360/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 曾郁哲, some rights reserved (CC BY-NC), uploaded by 曾郁哲",
+   "photo": 453501360
+  }
+ ]
 }

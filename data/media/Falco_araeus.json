@@ -110,5 +110,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47222591/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saïd, some rights reserved (CC BY-NC), uploaded by Saïd",
+   "photo": 47222591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232189266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Caseirito, some rights reserved (CC BY-NC), uploaded by Paulo Caseirito",
+   "photo": 232189266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2288456/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Maureen Leong-Kee from Boca Raton, FL, United States, some rights reserved (CC BY-SA)",
+   "photo": 2288456
+  }
+ ]
 }

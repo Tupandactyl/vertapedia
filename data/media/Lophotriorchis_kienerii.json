@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595795800/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shalahuddin Averroes Supartha, some rights reserved (CC BY-NC), uploaded by Shalahuddin Averroes Supartha",
+   "photo": 595795800
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592754889/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) IHS_Flora_Fauna, some rights reserved (CC BY-NC), uploaded by IHS_Flora_Fauna",
+   "photo": 592754889
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218264330/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karim Imran, some rights reserved (CC BY-NC), uploaded by Karim Imran",
+   "photo": 218264330
+  }
+ ]
 }

@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59084849/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) herpetomaps, some rights reserved (CC BY-NC), uploaded by herpetomaps",
+   "photo": 59084849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60075096/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claudio Reyes-Olivares, some rights reserved (CC BY-NC), uploaded by Claudio Reyes-Olivares",
+   "photo": 60075096
+  }
+ ]
 }

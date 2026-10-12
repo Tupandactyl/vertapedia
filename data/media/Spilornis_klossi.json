@@ -31,5 +31,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6776985/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Shreeram M V, algunos derechos reservados (CC BY-SA)",
+   "photo": 6776985
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574235111/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) srinivasd, algunos derechos reservados (CC BY-NC)",
+   "photo": 574235111
+  }
+ ]
 }

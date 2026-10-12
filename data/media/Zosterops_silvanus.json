@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53983429/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Gino Brignoli, osa oikeuksista pidätetään (CC BY), lähettänyt Gino Brignoli",
+   "photo": 53983429
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48299124/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Martin Jung, osa oikeuksista pidätetään (CC BY), lähettänyt Martin Jung",
+   "photo": 48299124
+  }
+ ]
 }

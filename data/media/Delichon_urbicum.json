@@ -174,5 +174,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323621902/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 323621902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370662349/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 370662349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129415579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto Brembilla, some rights reserved (CC BY-NC), uploaded by Roberto Brembilla",
+   "photo": 129415579
+  }
+ ]
 }

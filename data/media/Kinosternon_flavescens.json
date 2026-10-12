@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684437/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Eric Osmundson, some rights reserved (CC BY-NC-SA)",
+   "photo": 684437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3877921/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo de la Rosa (La Coma), some rights reserved (CC BY-NC), uploaded by Hugo de la Rosa (La Coma)",
+   "photo": 3877921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3877918/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo de la Rosa (La Coma), some rights reserved (CC BY-NC), uploaded by Hugo de la Rosa (La Coma)",
+   "photo": 3877918
+  }
+ ]
 }

@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212723513/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon",
+   "photo": 212723513
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199243770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 199243770
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36003/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Larry Meade, some rights reserved (CC BY-NC-SA)",
+   "photo": 36003
+  }
+ ]
 }

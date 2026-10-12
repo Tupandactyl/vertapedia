@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164386122/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Beres, some rights reserved (CC BY-NC), uploaded by Frank Beres",
+   "photo": 164386122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317700376/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 317700376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marv Elliott, some rights reserved (CC BY-NC), uploaded by Marv Elliott",
+   "photo": 684521
+  }
+ ]
 }

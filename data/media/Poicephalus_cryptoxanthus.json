@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410668181/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lance_robinson, some rights reserved (CC BY-NC)",
+   "photo": 410668181
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249665502/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Noeleen du Toit, some rights reserved (CC BY-SA), uploaded by Noeleen du Toit",
+   "photo": 249665502
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158983840/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 158983840
+  }
+ ]
 }

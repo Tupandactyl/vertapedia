@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64986855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paddy Kemner, some rights reserved (CC BY-NC), uploaded by Paddy Kemner",
+   "photo": 64986855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51575443/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ellura Sanctuary, some rights reserved (CC BY-NC), uploaded by Ellura Sanctuary",
+   "photo": 51575443
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167395213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Clarey, some rights reserved (CC BY-NC), uploaded by Isaac Clarey",
+   "photo": 167395213
+  }
+ ]
 }

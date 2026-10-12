@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62947/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ariel Matias, some rights reserved (CC BY)",
+   "photo": 62947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2677170/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 2677170
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9111365/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liam O'Brien, some rights reserved (CC BY-NC), uploaded by Liam O'Brien",
+   "photo": 9111365
+  }
+ ]
 }

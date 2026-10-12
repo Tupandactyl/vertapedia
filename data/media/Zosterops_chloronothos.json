@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1988718/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Eliane Küpfer, some rights reserved (CC BY-SA)",
+   "photo": 1988718
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451275869/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 451275869
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57348562/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Bowyer, some rights reserved (CC BY-NC), uploaded by Paul Bowyer",
+   "photo": 57348562
+  }
+ ]
 }

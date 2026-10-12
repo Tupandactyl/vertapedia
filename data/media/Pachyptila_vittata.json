@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20990885/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 20990885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1494223/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) matt-walters, some rights reserved (CC BY-NC), uploaded by matt-walters",
+   "photo": 1494223
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2255051/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Peter de Lange",
+   "photo": 2255051
+  }
+ ]
 }

@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37780407/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luca tringali, some rights reserved (CC BY-NC), uploaded by luca tringali",
+   "photo": 37780407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38683955/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Lees, some rights reserved (CC BY-NC), uploaded by Alexander Lees",
+   "photo": 38683955
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18061655/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luca tringali, some rights reserved (CC BY-NC), uploaded by luca tringali",
+   "photo": 18061655
+  }
+ ]
 }

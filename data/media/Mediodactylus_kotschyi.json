@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533004014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stamatis Kalogiannis, some rights reserved (CC BY-NC), uploaded by Stamatis Kalogiannis",
+   "photo": 533004014
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447042933/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC), uploaded by Laurent Barthe",
+   "photo": 447042933
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270541155/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Standa Pavouk, some rights reserved (CC BY-NC), uploaded by Standa Pavouk",
+   "photo": 270541155
+  }
+ ]
 }

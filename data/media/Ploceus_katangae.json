@@ -66,5 +66,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9819266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard de cauwer, some rights reserved (CC BY-NC), uploaded by Richard de cauwer",
+   "photo": 9819266
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316662582/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 316662582
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9777643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard de cauwer, some rights reserved (CC BY-NC), uploaded by Richard de cauwer",
+   "photo": 9777643
+  }
+ ]
 }

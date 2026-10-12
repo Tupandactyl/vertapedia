@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1609407/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Yvonne A. de Jong, some rights reserved (CC BY-NC-SA), uploaded by Yvonne A. de Jong",
+   "photo": 1609407
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/789421/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Butterblume in Afrika, some rights reserved (CC BY-NC), uploaded by Butterblume in Afrika",
+   "photo": 789421
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/789422/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Butterblume in Afrika, some rights reserved (CC BY-NC), uploaded by Butterblume in Afrika",
+   "photo": 789422
+  }
+ ]
 }

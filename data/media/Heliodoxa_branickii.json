@@ -99,5 +99,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441837275/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James G. Graham, some rights reserved (CC BY-NC), uploaded by James G. Graham",
+   "photo": 441837275
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441838074/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James G. Graham, some rights reserved (CC BY-NC), uploaded by James G. Graham",
+   "photo": 441838074
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441798871/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James G. Graham",
+   "photo": 441798871
+  }
+ ]
 }

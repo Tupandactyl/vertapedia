@@ -179,5 +179,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233350330/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew Patchett, some rights reserved (CC BY-NC), uploaded by Matthew Patchett",
+   "photo": 233350330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624458795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Turner Cambridge, some rights reserved (CC BY-NC), uploaded by John Turner Cambridge",
+   "photo": 624458795
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30793273/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+   "photo": 30793273
+  }
+ ]
 }

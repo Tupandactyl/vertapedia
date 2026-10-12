@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422950311/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ganjar Cahyo Aprianto, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyo Aprianto",
+   "photo": 422950311
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30656940/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut",
+   "photo": 30656940
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398283628/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinpearce, some rights reserved (CC BY-NC)",
+   "photo": 398283628
+  }
+ ]
 }

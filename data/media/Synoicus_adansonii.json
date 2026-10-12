@@ -73,5 +73,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/514384376/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tom Field, some rights reserved (CC BY), uploaded by Tom Field",
+   "photo": 514384376
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605643686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC), uploaded by Heinrich Human",
+   "photo": 605643686
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1479141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 1479141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8998059/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Marroquin Perez, some rights reserved (CC BY-NC), uploaded by David Marroquin Perez",
+   "photo": 8998059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2114098/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gonzalo Zepeda Martínez, some rights reserved (CC BY-SA), uploaded by Gonzalo Zepeda Martínez",
+   "photo": 2114098
+  }
+ ]
 }

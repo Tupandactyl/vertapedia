@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56939382/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut",
+   "photo": 56939382
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172034715/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mitch Rose, some rights reserved (CC BY-NC), uploaded by Mitch Rose",
+   "photo": 172034715
+  }
+ ]
 }

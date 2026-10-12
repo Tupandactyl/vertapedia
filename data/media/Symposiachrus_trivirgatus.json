@@ -106,5 +106,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222060026/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Serrao, some rights reserved (CC BY-NC), uploaded by John Serrao",
+   "photo": 222060026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118896612/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Melvaine, some rights reserved (CC BY-NC), uploaded by Jeff Melvaine",
+   "photo": 118896612
+  }
+ ]
 }

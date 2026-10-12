@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184107710/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Newman, some rights reserved (CC BY-NC), uploaded by Jonathan Newman",
+   "photo": 184107710
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184107702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Newman, some rights reserved (CC BY-NC), uploaded by Jonathan Newman",
+   "photo": 184107702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184107732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Newman, some rights reserved (CC BY-NC), uploaded by Jonathan Newman",
+   "photo": 184107732
+  }
+ ]
 }

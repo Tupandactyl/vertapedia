@@ -104,5 +104,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7799627/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sandeep Das, some rights reserved (CC BY-SA)",
+   "photo": 7799627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17584839/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) T. R. Shankar Raman, some rights reserved (CC BY-SA)",
+   "photo": 17584839
+  }
+ ]
 }

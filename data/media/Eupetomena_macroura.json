@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586765879/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Mauricio Mercadante, some rights reserved (CC BY-NC-SA), uploaded by Mauricio Mercadante",
+   "photo": 586765879
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28098272/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Diana Fuentes, some rights reserved (CC BY-SA), uploaded by Diana Fuentes",
+   "photo": 28098272
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31029380/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcelo_allende, some rights reserved (CC BY-NC), uploaded by marcelo_allende",
+   "photo": 31029380
+  }
+ ]
 }

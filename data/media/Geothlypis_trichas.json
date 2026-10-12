@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35803961/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bwood708, some rights reserved (CC BY-NC), uploaded by bwood708",
+   "photo": 35803961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79301180/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by David Bird",
+   "photo": 79301180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17524612/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Arredondo T., some rights reserved (CC BY-NC), uploaded by Ricardo Arredondo T.",
+   "photo": 17524612
+  }
+ ]
 }

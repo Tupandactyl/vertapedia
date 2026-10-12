@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102998116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Mills, some rights reserved (CC BY-NC), uploaded by Tom Mills",
+   "photo": 102998116
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256396542/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniele Gualdoni, some rights reserved (CC BY-NC), uploaded by Daniele Gualdoni",
+   "photo": 256396542
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99993731/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) uzun, some rights reserved (CC BY-NC), uploaded by uzun",
+   "photo": 99993731
+  }
+ ]
 }

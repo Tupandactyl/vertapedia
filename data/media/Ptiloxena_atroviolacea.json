@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5486692/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ekaterina Chernetsova (Papchinskaya), some rights reserved (CC BY)",
+   "photo": 5486692
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134275737/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) amantedarmanin, some rights reserved (CC BY)",
+   "photo": 134275737
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14935397/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne Fidler, some rights reserved (CC BY-NC), uploaded by Wayne Fidler",
+   "photo": 14935397
+  }
+ ]
 }

@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345066189/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benjamin Schwartz, some rights reserved (CC BY-NC), uploaded by Benjamin Schwartz",
+   "photo": 345066189
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138702121/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Ayers, some rights reserved (CC BY-NC), uploaded by Mark Ayers",
+   "photo": 138702121
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168561985/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nigel Marsh, some rights reserved (CC BY-NC), uploaded by Nigel Marsh",
+   "photo": 168561985
+  }
+ ]
 }

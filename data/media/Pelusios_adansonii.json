@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605424675/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Bacuez, some rights reserved (CC BY-NC), uploaded by Frédéric Bacuez",
+   "photo": 605424675
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605435946/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Bacuez, some rights reserved (CC BY-NC), uploaded by Frédéric Bacuez",
+   "photo": 605435946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429646019/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Majak Mangar, some rights reserved (CC BY-NC), uploaded by Majak Mangar",
+   "photo": 429646019
+  }
+ ]
 }

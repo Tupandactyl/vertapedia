@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248740322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+   "photo": 248740322
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333397141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Burak Doğansoysal, some rights reserved (CC BY-NC), uploaded by Burak Doğansoysal",
+   "photo": 333397141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626067575/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 626067575
+  }
+ ]
 }

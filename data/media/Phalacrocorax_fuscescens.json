@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60524104/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Fenwick, some rights reserved (CC BY-NC), uploaded by Paul Fenwick",
+   "photo": 60524104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143039059/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Harris EntSocVic, some rights reserved (CC BY-NC), uploaded by Ken Harris EntSocVic",
+   "photo": 143039059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189602091/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lrathbone, some rights reserved (CC BY-NC)",
+   "photo": 189602091
+  }
+ ]
 }

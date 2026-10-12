@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/515669119/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Libi Rivero, some rights reserved (CC BY-NC), uploaded by Libi Rivero",
+   "photo": 515669119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/515667767/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Libi Rivero, some rights reserved (CC BY-NC), uploaded by Libi Rivero",
+   "photo": 515667767
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/515669290/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Libi Rivero, some rights reserved (CC BY-NC), uploaded by Libi Rivero",
+   "photo": 515669290
+  }
+ ]
 }

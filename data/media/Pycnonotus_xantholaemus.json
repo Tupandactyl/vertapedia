@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199836/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) anonymous, some rights reserved (CC BY-SA)",
+   "photo": 199836
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40949473/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Vijay Vanaparthy, some rights reserved (CC BY), uploaded by Vijay Vanaparthy",
+   "photo": 40949473
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9886002/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bijoy Venugopal, some rights reserved (CC BY-NC), uploaded by Bijoy Venugopal",
+   "photo": 9886002
+  }
+ ]
 }

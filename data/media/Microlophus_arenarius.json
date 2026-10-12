@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21320130/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Lees, some rights reserved (CC BY-NC), uploaded by Alexander Lees",
+   "photo": 21320130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121309565/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ronald Mori, some rights reserved (CC BY-NC), uploaded by Ronald Mori",
+   "photo": 121309565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58543175/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Harding, some rights reserved (CC BY-NC), uploaded by Jeff Harding",
+   "photo": 58543175
+  }
+ ]
 }

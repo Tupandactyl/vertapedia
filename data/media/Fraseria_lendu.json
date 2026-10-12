@@ -80,5 +80,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13559927/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Mochoge, algunos derechos reservados (CC BY-SA)",
+   "photo": 13559927
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2436285/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, algunos derechos reservados (CC BY-NC), subido por Nik Borrow",
+   "photo": 2436285
+  }
+ ]
 }

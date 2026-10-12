@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32019292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+   "photo": 32019292
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63349917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto Ghiglia, some rights reserved (CC BY-NC), uploaded by Roberto Ghiglia",
+   "photo": 63349917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/529771432/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+   "photo": 529771432
+  }
+ ]
 }

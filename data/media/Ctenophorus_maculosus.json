@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66471395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) margot_oorebeek, some rights reserved (CC BY-NC), uploaded by margot_oorebeek",
+   "photo": 66471395
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156831820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) martin caon, some rights reserved (CC BY-NC), uploaded by martin caon",
+   "photo": 156831820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156831695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) martin caon, some rights reserved (CC BY-NC), uploaded by martin caon",
+   "photo": 156831695
+  }
+ ]
 }

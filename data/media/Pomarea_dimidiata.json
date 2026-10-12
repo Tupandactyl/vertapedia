@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577180510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Judah G, some rights reserved (CC BY-NC), uploaded by Judah G",
+   "photo": 577180510
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165256855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rldock, some rights reserved (CC BY-NC)",
+   "photo": 165256855
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521735494/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Bowie, some rights reserved (CC BY), uploaded by Mike Bowie",
+   "photo": 521735494
+  }
+ ]
 }

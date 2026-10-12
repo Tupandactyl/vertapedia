@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319833545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philip Griffin, some rights reserved (CC BY-NC), uploaded by Philip Griffin",
+   "photo": 319833545
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131643784/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Clarey, some rights reserved (CC BY-NC), uploaded by Isaac Clarey",
+   "photo": 131643784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105710940/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 105710940
+  }
+ ]
 }

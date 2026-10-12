@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55471686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rocio Roman, some rights reserved (CC BY-NC), uploaded by Rocio Roman",
+   "photo": 55471686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7516732/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ramonjoya, some rights reserved (CC BY-NC), uploaded by ramonjoya",
+   "photo": 7516732
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22460985/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexpacheco, some rights reserved (CC BY-NC), uploaded by alexpacheco",
+   "photo": 22460985
+  }
+ ]
 }

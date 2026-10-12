@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645870/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alastair Rae, some rights reserved (CC BY-SA)",
+   "photo": 645870
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645871/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 645871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645872/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 645872
+  }
+ ]
 }

@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638344200/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) viweedguy, some rights reserved (CC BY-NC)",
+   "photo": 638344200
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616526076/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Adam Jackson",
+   "photo": 616526076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639528642/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) viweedguy, some rights reserved (CC BY-NC)",
+   "photo": 639528642
+  }
+ ]
 }

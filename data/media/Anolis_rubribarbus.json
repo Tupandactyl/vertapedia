@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51089810/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, some rights reserved (CC BY-NC), uploaded by Alexis Felipe",
+   "photo": 51089810
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51084222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexis Felipe, some rights reserved (CC BY-NC), uploaded by Alexis Felipe",
+   "photo": 51084222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12273585/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) djhiker, some rights reserved (CC BY-NC), uploaded by djhiker",
+   "photo": 12273585
+  }
+ ]
 }

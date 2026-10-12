@@ -110,5 +110,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330271626/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salman Baloch, some rights reserved (CC BY-NC), uploaded by Salman Baloch",
+   "photo": 330271626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245954404/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Irina Kalashnikova, some rights reserved (CC BY-NC), uploaded by Irina Kalashnikova",
+   "photo": 245954404
+  }
+ ]
 }

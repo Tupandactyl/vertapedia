@@ -30,5 +30,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376122679/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noam Markus, some rights reserved (CC BY-NC), uploaded by Noam Markus",
+   "photo": 376122679
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376125116/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Noam Markus, some rights reserved (CC BY), uploaded by Noam Markus",
+   "photo": 376125116
+  }
+ ]
 }

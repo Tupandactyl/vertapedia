@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168123244/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Aurelie Laurent, some rights reserved (CC BY-NC-SA), uploaded by Aurelie Laurent",
+   "photo": 168123244
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332559960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 332559960
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1935764/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1935764
+  }
+ ]
 }

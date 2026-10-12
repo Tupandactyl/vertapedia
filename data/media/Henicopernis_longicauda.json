@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344833665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, algunos derechos reservados (CC BY-NC), subido por Eric Carpenter",
+   "photo": 344833665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340095133/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ahmad Yasin Chumaedi, algunos derechos reservados (CC BY-NC), subido por Ahmad Yasin Chumaedi",
+   "photo": 340095133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109950773/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, algunos derechos reservados (CC BY-NC), subido por Mikael Bauer",
+   "photo": 109950773
+  }
+ ]
 }

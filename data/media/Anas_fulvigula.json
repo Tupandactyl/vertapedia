@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174399837/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andy Wilson",
+   "photo": 174399837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197179/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 197179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378816103/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tia Offner, some rights reserved (CC BY), uploaded by Tia Offner",
+   "photo": 378816103
+  }
+ ]
 }

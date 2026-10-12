@@ -184,5 +184,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83716583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Yue Wah Chan, some rights reserved (CC BY-NC), uploaded by Ryan Yue Wah Chan",
+   "photo": 83716583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395718448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadzrun, some rights reserved (CC BY-NC), uploaded by Fadzrun",
+   "photo": 395718448
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59374816/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allan Lugg, some rights reserved (CC BY-NC), uploaded by Allan Lugg",
+   "photo": 59374816
+  }
+ ]
 }

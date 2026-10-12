@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60041131/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dash Huang, some rights reserved (CC BY-NC-SA)",
+   "photo": 60041131
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5097158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Ville, some rights reserved (CC BY-NC), uploaded by Alex Ville",
+   "photo": 5097158
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59875266/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davidwmnelson, some rights reserved (CC BY-NC)",
+   "photo": 59875266
+  }
+ ]
 }

@@ -98,5 +98,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440532169/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 440532169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33483571/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 33483571
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40426210/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 40426210
+  }
+ ]
 }

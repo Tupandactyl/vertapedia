@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32371363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anja Cervencl, some rights reserved (CC BY-NC), uploaded by Anja Cervencl",
+   "photo": 32371363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173538814/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hiporame, some rights reserved (CC BY-NC), uploaded by hiporame",
+   "photo": 173538814
+  }
+ ]
 }

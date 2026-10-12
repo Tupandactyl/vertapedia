@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579363721/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, algunos derechos reservados (CC BY-NC), subido por Ad Konings",
+   "photo": 579363721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10177716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Renoult, algunos derechos reservados (CC BY-NC), subido por David Renoult",
+   "photo": 10177716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/495112827/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maggie Mackenzie, algunos derechos reservados (CC BY-NC), subido por Maggie Mackenzie",
+   "photo": 495112827
+  }
+ ]
 }

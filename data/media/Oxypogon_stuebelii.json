@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65700653/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Simpson, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Rob Simpson",
+   "photo": 65700653
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104634883/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Justyn Stahl",
+   "photo": 104634883
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2252774/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pipe Salcedo Henao, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Pipe Salcedo Henao",
+   "photo": 2252774
+  }
+ ]
 }

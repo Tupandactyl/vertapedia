@@ -223,5 +223,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436423112/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mnaturalistss, some rights reserved (CC BY-NC)",
+   "photo": 436423112
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34868639/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 34868639
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39928387/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 39928387
+  }
+ ]
 }

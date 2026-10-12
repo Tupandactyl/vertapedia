@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584706868/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Haami Pukehika, some rights reserved (CC BY-NC), uploaded by Haami Pukehika",
+   "photo": 584706868
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61486233/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sarah macdonald, some rights reserved (CC BY-NC), uploaded by sarah macdonald",
+   "photo": 61486233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61492312/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sarah macdonald, some rights reserved (CC BY-NC), uploaded by sarah macdonald",
+   "photo": 61492312
+  }
+ ]
 }

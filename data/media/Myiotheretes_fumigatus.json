@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70654789/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mickaël Villemagne, some rights reserved (CC BY-NC), uploaded by Mickaël Villemagne",
+   "photo": 70654789
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26298819/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 26298819
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12801899/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Clara Cortes Heredia, some rights reserved (CC BY-NC), uploaded by Clara Cortes Heredia",
+   "photo": 12801899
+  }
+ ]
 }

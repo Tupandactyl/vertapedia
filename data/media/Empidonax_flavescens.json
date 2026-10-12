@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77944/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 77944
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191147228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Annette, some rights reserved (CC BY-NC), uploaded by Annette",
+   "photo": 191147228
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199921546/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric LEVIEZ, some rights reserved (CC BY-NC), uploaded by Frédéric LEVIEZ",
+   "photo": 199921546
+  }
+ ]
 }

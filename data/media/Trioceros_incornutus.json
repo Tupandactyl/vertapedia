@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454166766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC), uploaded by Ruben Foquet",
+   "photo": 454166766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2168289/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michelemenegon, some rights reserved (CC BY-NC), uploaded by michelemenegon",
+   "photo": 2168289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455278684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC), uploaded by Ruben Foquet",
+   "photo": 455278684
+  }
+ ]
 }

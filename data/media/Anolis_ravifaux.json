@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407175262/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Manuel de Roux, some rights reserved (CC BY-NC), uploaded by Juan Manuel de Roux",
+   "photo": 407175262
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59775820/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tyson Victor, some rights reserved (CC BY-NC), uploaded by Tyson Victor",
+   "photo": 59775820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407196691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Manuel de Roux, some rights reserved (CC BY-NC), uploaded by Juan Manuel de Roux",
+   "photo": 407196691
+  }
+ ]
 }

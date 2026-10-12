@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1927431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1927431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53903773/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Schulting, some rights reserved (CC BY-NC), uploaded by Steven Schulting",
+   "photo": 53903773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112596790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Reed, some rights reserved (CC BY-NC), uploaded by Grant Reed",
+   "photo": 112596790
+  }
+ ]
 }

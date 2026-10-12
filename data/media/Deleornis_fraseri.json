@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67086893/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 67086893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112936/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA)",
+   "photo": 112936
+  }
+ ]
 }

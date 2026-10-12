@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488405061/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 488405061
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232934901/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo B R, some rights reserved (CC BY-NC), uploaded by Paulo B R",
+   "photo": 232934901
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373322048/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Henggang Cui",
+   "photo": 373322048
+  }
+ ]
 }

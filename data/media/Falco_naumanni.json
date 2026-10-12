@@ -111,5 +111,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294564709/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий Дякин, some rights reserved (CC BY-NC), uploaded by Геннадий Дякин",
+   "photo": 294564709
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260766056/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 260766056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327162445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Птицы Челябинской области, some rights reserved (CC BY-NC), uploaded by Птицы Челябинской области",
+   "photo": 327162445
+  }
+ ]
 }

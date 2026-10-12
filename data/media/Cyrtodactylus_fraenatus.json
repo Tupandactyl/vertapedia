@@ -115,5 +115,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30645921/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 30645921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12568105/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Alex Krohn, some rights reserved (CC BY-NC-SA), uploaded by Alex Krohn",
+   "photo": 12568105
+  }
+ ]
 }

@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500650931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 500650931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186538846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mscaus, some rights reserved (CC BY-NC)",
+   "photo": 186538846
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74491089/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) outsidefourwalls, some rights reserved (CC BY), uploaded by outsidefourwalls",
+   "photo": 74491089
+  }
+ ]
 }

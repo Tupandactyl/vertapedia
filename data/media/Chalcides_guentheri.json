@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664016161/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) omermeshulam, some rights reserved (CC BY-NC)",
+   "photo": 664016161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411307390/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 411307390
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397201881/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafi Amar, some rights reserved (CC BY-NC), uploaded by Rafi Amar",
+   "photo": 397201881
+  }
+ ]
 }

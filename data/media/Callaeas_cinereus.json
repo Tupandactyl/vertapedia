@@ -53,5 +53,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179912314/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Auckland Museum  Collections, some rights reserved (CC BY)",
+   "photo": 179912314
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349617788/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Auckland Museum, some rights reserved (CC BY)",
+   "photo": 349617788
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349617792/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Auckland Museum, some rights reserved (CC BY)",
+   "photo": 349617792
+  }
+ ]
 }

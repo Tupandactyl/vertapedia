@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51873/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC-SA)",
+   "photo": 51873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24933470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicholas Hess, some rights reserved (CC BY-NC), uploaded by Nicholas Hess",
+   "photo": 24933470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51874/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC-SA)",
+   "photo": 51874
+  }
+ ]
 }

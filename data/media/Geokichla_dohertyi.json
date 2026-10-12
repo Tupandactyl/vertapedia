@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4114852/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Simon J. Tonge, some rights reserved (CC BY)",
+   "photo": 4114852
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257719529/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) 林孫鋒(Lin Sun Fong), some rights reserved (CC BY-SA), uploaded by 林孫鋒(Lin Sun Fong)",
+   "photo": 257719529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288947820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maryse, some rights reserved (CC BY-NC), uploaded by Maryse",
+   "photo": 288947820
+  }
+ ]
 }

@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445309830/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zoelj, some rights reserved (CC BY-NC)",
+   "photo": 445309830
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227838255/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
+   "photo": 227838255
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190397847/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Timothy Whitehead, some rights reserved (CC BY), uploaded by Timothy Whitehead",
+   "photo": 190397847
+  }
+ ]
 }

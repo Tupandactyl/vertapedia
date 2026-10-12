@@ -79,5 +79,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484043043/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 484043043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446196746/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 446196746
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446196753/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kenny_well, some rights reserved (CC BY-NC)",
+   "photo": 446196753
+  }
+ ]
 }

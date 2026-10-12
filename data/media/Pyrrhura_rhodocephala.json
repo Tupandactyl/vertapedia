@@ -82,5 +82,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730614168/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, algunos derechos reservados (CC BY-NC-SA), subido por Sergio Rivero Beneitez",
+   "photo": 730614168
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473282527/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) http://www.birdphotos.com, algunos derechos reservados (CC BY)",
+   "photo": 473282527
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411388985/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, algunos derechos reservados (CC BY-NC), subido por Oswaldo Hernández",
+   "photo": 411388985
+  }
+ ]
 }

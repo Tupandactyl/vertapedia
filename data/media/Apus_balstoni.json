@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627939921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 627939921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555566320/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrianiaina Angelo, some rights reserved (CC BY-NC), uploaded by Andrianiaina Angelo",
+   "photo": 555566320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396124661/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) globalherping, some rights reserved (CC BY-NC), uploaded by globalherping",
+   "photo": 396124661
+  }
+ ]
 }

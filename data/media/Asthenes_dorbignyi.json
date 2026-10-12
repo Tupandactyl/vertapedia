@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335492749/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herb Wilson, some rights reserved (CC BY-NC), uploaded by Herb Wilson",
+   "photo": 335492749
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58760665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 58760665
+  }
+ ]
 }

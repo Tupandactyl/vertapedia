@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83503/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ken Schneider, some rights reserved (CC BY-NC-SA)",
+   "photo": 83503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/686458700/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Михаил Голомысов, some rights reserved (CC BY), uploaded by Михаил Голомысов",
+   "photo": 686458700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28543823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vladimir Yu. Arkhipov, some rights reserved (CC BY-NC), uploaded by Vladimir Yu. Arkhipov",
+   "photo": 28543823
+  }
+ ]
 }

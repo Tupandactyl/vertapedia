@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315675055/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ethanfoye, some rights reserved (CC BY-NC)",
+   "photo": 315675055
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41887310/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lauren Helton, some rights reserved (CC BY-NC), uploaded by Lauren Helton",
+   "photo": 41887310
+  }
+ ]
 }

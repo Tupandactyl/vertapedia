@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64026043/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
+   "photo": 64026043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296481255/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) RenatKorotkov, some rights reserved (CC BY-NC), uploaded by RenatKorotkov",
+   "photo": 296481255
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426242765/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) flavioziretti, some rights reserved (CC BY-NC)",
+   "photo": 426242765
+  }
+ ]
 }

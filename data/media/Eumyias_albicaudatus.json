@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1895257/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antonygrossy, some rights reserved (CC BY-NC), uploaded by antonygrossy",
+   "photo": 1895257
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208256/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) PrasadBasavaraj, some rights reserved (CC BY)",
+   "photo": 208256
+  }
+ ]
 }

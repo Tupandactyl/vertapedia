@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338135945/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Darmstadt, some rights reserved (CC BY-NC), uploaded by Sam Darmstadt",
+   "photo": 338135945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338135946/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Darmstadt, some rights reserved (CC BY-NC), uploaded by Sam Darmstadt",
+   "photo": 338135946
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320954157/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marcelo Schmidt Roberti, some rights reserved (CC BY-NC), uploaded by Marcelo Schmidt Roberti",
+   "photo": 320954157
+  }
+ ]
 }

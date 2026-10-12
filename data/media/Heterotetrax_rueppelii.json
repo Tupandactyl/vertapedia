@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/673649330/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 673649330
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226452068/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jan Przybylo, some rights reserved (CC BY-NC), uploaded by Jan Przybylo",
+   "photo": 226452068
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/673649427/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 673649427
+  }
+ ]
 }

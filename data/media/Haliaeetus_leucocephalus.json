@@ -301,5 +301,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28935620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joe Zigmont, some rights reserved (CC BY-NC), uploaded by Joe Zigmont",
+   "photo": 28935620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45158823/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jason Headley, some rights reserved (CC BY-NC), uploaded by Jason Headley",
+   "photo": 45158823
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6149726/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryan Pfeiffer, some rights reserved (CC BY-NC), uploaded by Bryan Pfeiffer",
+   "photo": 6149726
+  }
+ ]
 }

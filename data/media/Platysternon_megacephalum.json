@@ -132,5 +132,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349541686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) H.T.Cheng, some rights reserved (CC BY-NC), uploaded by H.T.Cheng",
+   "photo": 349541686
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79559981/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tse Chung Yi, some rights reserved (CC BY-NC), uploaded by Tse Chung Yi",
+   "photo": 79559981
+  }
+ ]
 }

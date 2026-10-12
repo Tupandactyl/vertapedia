@@ -131,5 +131,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795508/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) frank wouters, some rights reserved (CC BY)",
+   "photo": 157795508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795509/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Steve Wilson, some rights reserved (CC BY)",
+   "photo": 157795509
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231285397/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Abad Lozano, some rights reserved (CC BY-NC), uploaded by Jorge Abad Lozano",
+   "photo": 231285397
+  }
+ ]
 }

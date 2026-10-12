@@ -102,5 +102,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308351836/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 大鹅Goose, some rights reserved (CC BY-NC), uploaded by 大鹅Goose",
+   "photo": 308351836
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24919614/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allen Lyu, some rights reserved (CC BY-NC), uploaded by Allen Lyu",
+   "photo": 24919614
+  }
+ ]
 }

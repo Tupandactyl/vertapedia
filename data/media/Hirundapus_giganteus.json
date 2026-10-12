@@ -91,5 +91,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146381082/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijayalakshmi, some rights reserved (CC BY-NC), uploaded by Vijayalakshmi",
+   "photo": 146381082
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79457250/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khemthong Tonsakulrungruang, some rights reserved (CC BY-NC), uploaded by Khemthong Tonsakulrungruang",
+   "photo": 79457250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246383353/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "photo": 246383353
+  }
+ ]
 }

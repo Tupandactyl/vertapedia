@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172076738/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "photo": 172076738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6825744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 6825744
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417910527/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Charlie Jackson, some rights reserved (CC BY)",
+   "photo": 417910527
+  }
+ ]
 }

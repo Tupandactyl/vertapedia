@@ -176,5 +176,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40574453/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antoni Camozzato, some rights reserved (CC BY-NC), uploaded by Antoni Camozzato",
+   "photo": 40574453
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71116095/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Benchill, some rights reserved (CC BY)",
+   "photo": 71116095
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9520761/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ralph Foster, some rights reserved (CC BY-NC), uploaded by Ralph Foster",
+   "photo": 9520761
+  }
+ ]
 }

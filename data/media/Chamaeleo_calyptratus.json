@@ -233,5 +233,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473857256/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC), uploaded by Bobby Bok",
+   "photo": 473857256
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346796283/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 346796283
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443466636/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dirius, some rights reserved (CC BY-NC)",
+   "photo": 443466636
+  }
+ ]
 }

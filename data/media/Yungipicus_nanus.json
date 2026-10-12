@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136093/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Antony Grossy, some rights reserved (CC BY)",
+   "photo": 136093
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331134778/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) srinivasd, some rights reserved (CC BY-NC)",
+   "photo": 331134778
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482417829/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Linda, some rights reserved (CC BY-NC), uploaded by Linda",
+   "photo": 482417829
+  }
+ ]
 }

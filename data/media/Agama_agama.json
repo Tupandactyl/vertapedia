@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34161622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Paixão, some rights reserved (CC BY-NC), uploaded by Paulo Paixão",
+   "photo": 34161622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1052004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adedotun Ajibade, some rights reserved (CC BY-NC)",
+   "photo": 1052004
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24315/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+   "photo": 24315
+  }
+ ]
 }

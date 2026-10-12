@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34677757/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Claudio Maureira, some rights reserved (CC BY-NC-SA), uploaded by Claudio Maureira",
+   "photo": 34677757
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34677784/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Claudio Maureira, some rights reserved (CC BY-NC-SA), uploaded by Claudio Maureira",
+   "photo": 34677784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181237855/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) valeguzmansalazar, some rights reserved (CC BY-NC)",
+   "photo": 181237855
+  }
+ ]
 }

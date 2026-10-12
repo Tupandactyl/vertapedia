@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7600753/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Easley, some rights reserved (CC BY-NC), uploaded by Steven Easley",
+   "photo": 7600753
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253894677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robert Meehan, some rights reserved (CC BY-NC), uploaded by Robert Meehan",
+   "photo": 253894677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305430371/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel S. Katz, some rights reserved (CC BY), uploaded by Daniel S. Katz",
+   "photo": 305430371
+  }
+ ]
 }

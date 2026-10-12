@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101452354/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Helio Lourencini, some rights reserved (CC BY), uploaded by Helio Lourencini",
+   "photo": 101452354
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98147/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) guilherme jofili, some rights reserved (CC BY)",
+   "photo": 98147
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86674800/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 86674800
+  }
+ ]
 }

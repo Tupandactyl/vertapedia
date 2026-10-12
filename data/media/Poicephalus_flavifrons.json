@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 158984005
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91114282/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 91114282
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78030709/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Kuria NDUNG’U, some rights reserved (CC BY-NC), uploaded by James Kuria NDUNG’U",
+   "photo": 78030709
+  }
+ ]
 }

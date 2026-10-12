@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192348471/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Esteban Villa Restrepo, some rights reserved (CC BY-SA), uploaded by Esteban Villa Restrepo",
+   "photo": 192348471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173528995/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Edison Díaz, some rights reserved (CC BY-NC-SA), uploaded by Edison Díaz",
+   "photo": 173528995
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15284580/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 15284580
+  }
+ ]
 }

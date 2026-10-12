@@ -107,5 +107,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188231680/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olivia S, some rights reserved (CC BY-NC), uploaded by Olivia S",
+   "photo": 188231680
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92688115/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+   "photo": 92688115
+  }
+ ]
 }

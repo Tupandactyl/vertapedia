@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185927970/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) spinomaly, some rights reserved (CC BY-NC)",
+   "photo": 185927970
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122197431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gracie Catanzaro, some rights reserved (CC BY-NC), uploaded by Gracie Catanzaro",
+   "photo": 122197431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659097637/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter May, some rights reserved (CC BY-NC), uploaded by Peter May",
+   "photo": 659097637
+  }
+ ]
 }

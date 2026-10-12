@@ -274,5 +274,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205288597/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrea Carpio, some rights reserved (CC BY-NC), uploaded by Andrea Carpio",
+   "photo": 205288597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379144959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) christrent, some rights reserved (CC BY-NC)",
+   "photo": 379144959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3277453/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+   "photo": 3277453
+  }
+ ]
 }

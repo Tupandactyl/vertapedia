@@ -184,5 +184,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605984485/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Mayo, some rights reserved (CC BY-NC), uploaded by Steve Mayo",
+   "photo": 605984485
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22929245/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Morrison, some rights reserved (CC BY-NC), uploaded by Paul Morrison",
+   "photo": 22929245
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191776754/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) klaaslindasteyn, some rights reserved (CC BY-NC), uploaded by klaaslindasteyn",
+   "photo": 191776754
+  }
+ ]
 }

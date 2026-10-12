@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61287530/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) herper47, some rights reserved (CC BY-NC)",
+   "photo": 61287530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95907519/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dwight Bohlmeyer, some rights reserved (CC BY-NC), uploaded by Dwight Bohlmeyer",
+   "photo": 95907519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61518929/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ola10birder, some rights reserved (CC BY-NC), uploaded by ola10birder",
+   "photo": 61518929
+  }
+ ]
 }

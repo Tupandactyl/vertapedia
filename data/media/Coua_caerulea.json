@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455218/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Olaf Oliviero Riemer, some rights reserved (CC BY-SA)",
+   "photo": 455218
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455219/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Olaf Oliviero Riemer, some rights reserved (CC BY-SA)",
+   "photo": 455219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455220/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Olaf Oliviero Riemer, some rights reserved (CC BY-SA)",
+   "photo": 455220
+  }
+ ]
 }

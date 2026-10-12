@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18472175/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 18472175
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100565/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vince Smith, some rights reserved (CC BY-NC-SA)",
+   "photo": 100565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18472176/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Vince Smith, some rights reserved (CC BY)",
+   "photo": 18472176
+  }
+ ]
 }

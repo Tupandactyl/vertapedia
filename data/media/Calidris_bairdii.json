@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jamie Chavez, some rights reserved (CC BY-NC)",
+   "photo": 5787
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21800246/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Schenck, some rights reserved (CC BY), uploaded by Matt Schenck",
+   "photo": 21800246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50151581/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 50151581
+  }
+ ]
 }

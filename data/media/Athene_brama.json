@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89909173/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ananya Mondal, some rights reserved (CC BY-SA), uploaded by Ananya Mondal",
+   "photo": 89909173
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26051893/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jageshwerverma, some rights reserved (CC BY-NC), uploaded by jageshwerverma",
+   "photo": 26051893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207943686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 207943686
+  }
+ ]
 }

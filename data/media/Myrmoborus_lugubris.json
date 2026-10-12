@@ -159,5 +159,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729142585/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Moore (Maryland), some rights reserved (CC BY-NC), uploaded by Jim Moore (Maryland)",
+   "photo": 729142585
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32171561/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2",
+   "photo": 32171561
+  }
+ ]
 }

@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530587133/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) olliesaunders, some rights reserved (CC BY-NC)",
+   "photo": 530587133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530316681/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) olliesaunders, some rights reserved (CC BY-NC)",
+   "photo": 530316681
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293606986/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) JR Ferrer-Paris, some rights reserved (CC BY), uploaded by JR Ferrer-Paris",
+   "photo": 293606986
+  }
+ ]
 }

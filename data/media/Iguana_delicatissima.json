@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194123258/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo",
+   "photo": 194123258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244791032/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY)",
+   "photo": 244791032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244791038/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Postdlf, some rights reserved (CC BY-SA)",
+   "photo": 244791038
+  }
+ ]
 }

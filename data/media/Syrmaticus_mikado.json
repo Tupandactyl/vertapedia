@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89192741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 洪廷維, some rights reserved (CC BY-NC), uploaded by 洪廷維",
+   "photo": 89192741
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89192726/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 洪廷維, some rights reserved (CC BY-NC), uploaded by 洪廷維",
+   "photo": 89192726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189175119/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jacy Chen, some rights reserved (CC BY), uploaded by Jacy Chen",
+   "photo": 189175119
+  }
+ ]
 }

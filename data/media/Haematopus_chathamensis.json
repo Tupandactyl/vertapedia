@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586928708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) greghadley1, some rights reserved (CC BY-NC)",
+   "photo": 586928708
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340342535/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eamon Riordan-Short, some rights reserved (CC BY-NC), uploaded by Eamon Riordan-Short",
+   "photo": 340342535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14682415/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Houston, some rights reserved (CC BY-NC), uploaded by Dave Houston",
+   "photo": 14682415
+  }
+ ]
 }

@@ -54,5 +54,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395654815/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no hay derechos reservados, subido por James Eaton",
+   "photo": 395654815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339101114/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Orban.Balazs, algunos derechos reservados (CC BY-SA)",
+   "photo": 339101114
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339101121/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Orban.Balazs, algunos derechos reservados (CC BY-SA)",
+   "photo": 339101121
+  }
+ ]
 }

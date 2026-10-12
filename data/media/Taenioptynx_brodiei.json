@@ -170,5 +170,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110503572/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Morten Ross, some rights reserved (CC BY), uploaded by Morten Ross",
+   "photo": 110503572
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8988311/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) porag, some rights reserved (CC BY-NC)",
+   "photo": 8988311
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267060149/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) atain, some rights reserved (CC BY-NC)",
+   "photo": 267060149
+  }
+ ]
 }

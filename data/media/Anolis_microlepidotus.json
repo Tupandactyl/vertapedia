@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17606848/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Leonardo Chavez Torres, some rights reserved (CC BY-NC), uploaded by Oscar Leonardo Chavez Torres",
+   "photo": 17606848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110792669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Manuel Morales, some rights reserved (CC BY-NC), uploaded by José Manuel Morales",
+   "photo": 110792669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110792711/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Manuel Morales, some rights reserved (CC BY-NC), uploaded by José Manuel Morales",
+   "photo": 110792711
+  }
+ ]
 }

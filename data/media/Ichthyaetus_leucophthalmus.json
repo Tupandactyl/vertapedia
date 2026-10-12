@@ -102,5 +102,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617506436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tomasz Wilk, some rights reserved (CC BY-NC), uploaded by Tomasz Wilk",
+   "photo": 617506436
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53954151/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alexander Vasenin, some rights reserved (CC BY-SA)",
+   "photo": 53954151
+  }
+ ]
 }

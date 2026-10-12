@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138355731/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC), uploaded by Richard D Reams",
+   "photo": 138355731
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1123237/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 1123237
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40568832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob Stone, some rights reserved (CC BY-NC), uploaded by Rob Stone",
+   "photo": 40568832
+  }
+ ]
 }

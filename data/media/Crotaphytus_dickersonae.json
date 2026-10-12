@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18386967/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Perez, some rights reserved (CC BY-NC), uploaded by Daniel Perez",
+   "photo": 18386967
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5568107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jpgalvan, some rights reserved (CC BY-NC), uploaded by jpgalvan",
+   "photo": 5568107
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5566744/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jpgalvan, some rights reserved (CC BY-NC), uploaded by jpgalvan",
+   "photo": 5566744
+  }
+ ]
 }

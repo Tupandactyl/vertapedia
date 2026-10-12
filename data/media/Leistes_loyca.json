@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27347/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nestor Galina, some rights reserved (CC BY)",
+   "photo": 27347
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2336774/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Schlemmer, some rights reserved (CC BY-NC), uploaded by Jorge Schlemmer",
+   "photo": 2336774
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1164457/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 1164457
+  }
+ ]
 }

@@ -143,5 +143,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11745813/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arno Meintjes, some rights reserved (CC BY-NC-SA)",
+   "photo": 11745813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6880586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 6880586
+  }
+ ]
 }

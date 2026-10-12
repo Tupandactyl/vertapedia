@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31626/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 31626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8438/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Clifton, some rights reserved (CC BY-NC)",
+   "photo": 8438
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31627/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vince Smith, some rights reserved (CC BY-NC-SA)",
+   "photo": 31627
+  }
+ ]
 }

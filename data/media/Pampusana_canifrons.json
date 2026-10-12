@@ -81,5 +81,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39850461/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 39850461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460518296/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kalin Antonio Ocaña, some rights reserved (CC BY-NC), uploaded by Kalin Antonio Ocaña",
+   "photo": 460518296
+  }
+ ]
 }

@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462612163/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Terry Townshend, some rights reserved (CC BY-NC), uploaded by Terry Townshend",
+   "photo": 462612163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/636017085/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 陳中興, some rights reserved (CC BY-NC), uploaded by 陳中興",
+   "photo": 636017085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573701576/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 김대환, 이선미, some rights reserved (CC BY-NC), uploaded by 김대환, 이선미",
+   "photo": 573701576
+  }
+ ]
 }

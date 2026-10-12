@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406684/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Don Faulkner, some rights reserved (CC BY-SA)",
+   "photo": 406684
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406688/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Don Faulkner, some rights reserved (CC BY-SA)",
+   "photo": 406688
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77898/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-SA)",
+   "photo": 77898
+  }
+ ]
 }

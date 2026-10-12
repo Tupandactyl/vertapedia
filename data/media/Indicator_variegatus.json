@@ -164,5 +164,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28159526/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+   "photo": 28159526
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15617444/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kate Braun, some rights reserved (CC BY-NC), uploaded by Kate Braun",
+   "photo": 15617444
+  }
+ ]
 }

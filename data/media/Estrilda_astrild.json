@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397446858/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC), uploaded by David Barros Cardona",
+   "photo": 397446858
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170317454/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+   "photo": 170317454
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65585950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rodneya63, some rights reserved (CC BY-NC), uploaded by rodneya63",
+   "photo": 65585950
+  }
+ ]
 }

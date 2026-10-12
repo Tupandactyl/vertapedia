@@ -171,5 +171,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438477143/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caleb Villar, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Caleb Villar",
+   "photo": 438477143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111765351/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Rodríguez Brito, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Rafael Rodríguez Brito",
+   "photo": 111765351
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432905522/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Davis Provan, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Davis Provan",
+   "photo": 432905522
+  }
+ ]
 }

@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73734621/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) scaup, some rights reserved (CC BY)",
+   "photo": 73734621
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240606017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) winnaing-oo, some rights reserved (CC BY-NC)",
+   "photo": 240606017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682044431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samay Srivastava, some rights reserved (CC BY-NC), uploaded by Samay Srivastava",
+   "photo": 682044431
+  }
+ ]
 }

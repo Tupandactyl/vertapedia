@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5179527/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-SA)",
+   "photo": 5179527
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339158251/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gideon Lam, some rights reserved (CC BY-NC), uploaded by Gideon Lam",
+   "photo": 339158251
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460153438/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) György Bujárszki, some rights reserved (CC BY-NC), uploaded by György Bujárszki",
+   "photo": 460153438
+  }
+ ]
 }

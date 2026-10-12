@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118702889/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) donnamareetomkinson, some rights reserved (CC BY-NC), uploaded by donnamareetomkinson",
+   "photo": 118702889
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87580104/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shanna Bignell, some rights reserved (CC BY-NC), uploaded by Shanna Bignell",
+   "photo": 87580104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72734609/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) torley, some rights reserved (CC BY-NC)",
+   "photo": 72734609
+  }
+ ]
 }

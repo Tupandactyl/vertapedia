@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110395172/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mauriciofreitas, some rights reserved (CC BY-NC), uploaded by mauriciofreitas",
+   "photo": 110395172
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339922790/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo Andreo, some rights reserved (CC BY-NC), uploaded by Guillermo Andreo",
+   "photo": 339922790
+  }
+ ]
 }

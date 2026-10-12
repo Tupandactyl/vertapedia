@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5663763/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Arias-Cruzatty, some rights reserved (CC BY-NC), uploaded by Daniel Arias-Cruzatty",
+   "photo": 5663763
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62037407/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) danplant, some rights reserved (CC BY-NC), uploaded by danplant",
+   "photo": 62037407
+  }
+ ]
 }

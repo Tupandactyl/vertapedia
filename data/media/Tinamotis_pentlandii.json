@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243717027/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Smith, some rights reserved (CC BY-NC), uploaded by Kyle Smith",
+   "photo": 243717027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243717018/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Smith, some rights reserved (CC BY-NC), uploaded by Kyle Smith",
+   "photo": 243717018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243717036/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Smith, some rights reserved (CC BY-NC), uploaded by Kyle Smith",
+   "photo": 243717036
+  }
+ ]
 }

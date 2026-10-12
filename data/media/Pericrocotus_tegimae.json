@@ -95,5 +95,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111118598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allen Lyu, some rights reserved (CC BY-NC), uploaded by Allen Lyu",
+   "photo": 111118598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111187227/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Yi-fan翊凡",
+   "photo": 111187227
+  }
+ ]
 }

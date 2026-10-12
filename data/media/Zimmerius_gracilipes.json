@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116283818/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) G. VIGO, some rights reserved (CC BY-NC), uploaded by G. VIGO",
+   "photo": 116283818
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419658259/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, some rights reserved (CC BY-NC-SA), uploaded by Sergio Rivero Beneitez",
+   "photo": 419658259
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/697376/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 697376
+  }
+ ]
 }

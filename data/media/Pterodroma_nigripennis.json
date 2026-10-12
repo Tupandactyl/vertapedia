@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299451224/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mscaus, some rights reserved (CC BY-NC)",
+   "photo": 299451224
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95833554/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Halpin, some rights reserved (CC BY-NC), uploaded by Luke Halpin",
+   "photo": 95833554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13517142/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Houston, some rights reserved (CC BY-NC)",
+   "photo": 13517142
+  }
+ ]
 }

@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32282100/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Wendelken, some rights reserved (CC BY-NC), uploaded by Dave Wendelken",
+   "photo": 32282100
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110884426/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+   "photo": 110884426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642701332/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gabriel Lobo Gusson, some rights reserved (CC BY-SA), uploaded by Gabriel Lobo Gusson",
+   "photo": 642701332
+  }
+ ]
 }

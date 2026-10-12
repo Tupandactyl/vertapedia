@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463882032/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bstewie3333, some rights reserved (CC BY-NC)",
+   "photo": 463882032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24141554/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karla Treinen Crespo, some rights reserved (CC BY-NC), uploaded by Karla Treinen Crespo",
+   "photo": 24141554
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285867070/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michelbourque, some rights reserved (CC BY-NC)",
+   "photo": 285867070
+  }
+ ]
 }

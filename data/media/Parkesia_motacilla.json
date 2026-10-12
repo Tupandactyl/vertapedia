@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275643110/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) William H. Majoros, some rights reserved (CC BY-SA)",
+   "photo": 275643110
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363627147/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+   "photo": 363627147
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121015/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ken Schneider, some rights reserved (CC BY-NC-SA)",
+   "photo": 121015
+  }
+ ]
 }

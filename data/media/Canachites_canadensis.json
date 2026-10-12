@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129917066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Blair Dudeck, some rights reserved (CC BY-NC), uploaded by Blair Dudeck",
+   "photo": 129917066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12824018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rich Stevenson, some rights reserved (CC BY-NC), uploaded by Rich Stevenson",
+   "photo": 12824018
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28928283/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Olivier, some rights reserved (CC BY-NC), uploaded by Mark Olivier",
+   "photo": 28928283
+  }
+ ]
 }

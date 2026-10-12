@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107109274/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riley, einige Rechte vorbehalten (CC BY), hochgeladen von Dan Riley",
+   "photo": 107109274
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567063/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, einige Rechte vorbehalten (CC BY)",
+   "photo": 567063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13448477/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andres Cuervo, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Andres Cuervo",
+   "photo": 13448477
+  }
+ ]
 }

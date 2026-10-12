@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85475654/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 85475654
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85474953/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 85474953
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91614029/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aravinth, some rights reserved (CC BY), uploaded by Aravinth",
+   "photo": 91614029
+  }
+ ]
 }

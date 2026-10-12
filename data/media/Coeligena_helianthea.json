@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462361945/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brennan Moore, some rights reserved (CC BY-NC), uploaded by Brennan Moore",
+   "photo": 462361945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32825038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 32825038
+  }
+ ]
 }

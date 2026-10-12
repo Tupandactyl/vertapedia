@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175723204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Norton Santos, some rights reserved (CC BY-NC), uploaded by Norton Santos",
+   "photo": 175723204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122058132/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Pedro Henrique Maloso Ramos, some rights reserved (CC BY), uploaded by Pedro Henrique Maloso Ramos",
+   "photo": 122058132
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444216405/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MarcosHalemFelix, some rights reserved (CC BY-NC), uploaded by MarcosHalemFelix",
+   "photo": 444216405
+  }
+ ]
 }

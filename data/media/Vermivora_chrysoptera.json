@@ -154,5 +154,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31029053/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Casey Weissburg, some rights reserved (CC BY-NC), uploaded by Casey Weissburg",
+   "photo": 31029053
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379882430/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leo Weiskittel, some rights reserved (CC BY-NC), uploaded by Leo Weiskittel",
+   "photo": 379882430
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5470679/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 5470679
+  }
+ ]
 }

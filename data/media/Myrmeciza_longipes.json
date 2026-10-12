@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65621540/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastián Pardo, some rights reserved (CC BY-NC), uploaded by Sebastián Pardo",
+   "photo": 65621540
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262343321/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC), uploaded by Tim Forrester",
+   "photo": 262343321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158730584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 158730584
+  }
+ ]
 }

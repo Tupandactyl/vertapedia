@@ -182,5 +182,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648640419/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 648640419
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648639076/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 648639076
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213732614/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Deb Whitecotton, some rights reserved (CC BY-NC), uploaded by Deb Whitecotton",
+   "photo": 213732614
+  }
+ ]
 }

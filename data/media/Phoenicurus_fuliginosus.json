@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133101052/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 133101052
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340411117/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA), uploaded by Kuan-Chieh (Chuck) Hung",
+   "photo": 340411117
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146540/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Lin, some rights reserved (CC BY-NC-SA)",
+   "photo": 146540
+  }
+ ]
 }

@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313298161/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dixon Lau, some rights reserved (CC BY-NC), uploaded by Dixon Lau",
+   "photo": 313298161
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313299533/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dixon Lau, some rights reserved (CC BY-NC), uploaded by Dixon Lau",
+   "photo": 313299533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601649/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 601649
+  }
+ ]
 }

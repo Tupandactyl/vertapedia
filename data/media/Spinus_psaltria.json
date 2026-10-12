@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117426725/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Gatten, some rights reserved (CC BY-NC), uploaded by Jeremy Gatten",
+   "photo": 117426725
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149173043/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angela Brierly, some rights reserved (CC BY-NC), uploaded by Angela Brierly",
+   "photo": 149173043
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113951191/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 113951191
+  }
+ ]
 }

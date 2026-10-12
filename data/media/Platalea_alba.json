@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9841826/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tanhk, some rights reserved (CC BY-NC), uploaded by tanhk",
+   "photo": 9841826
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35270965/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Turner, some rights reserved (CC BY-NC), uploaded by Ken Turner",
+   "photo": 35270965
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16191393/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gigi Laidler, some rights reserved (CC BY-NC), uploaded by Gigi Laidler",
+   "photo": 16191393
+  }
+ ]
 }

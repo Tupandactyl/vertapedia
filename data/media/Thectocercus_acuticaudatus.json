@@ -130,5 +130,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3931867/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Keim, some rights reserved (CC BY)",
+   "photo": 3931867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159005939/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Pedro N. Ramalho, some rights reserved (CC BY)",
+   "photo": 159005939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16400488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lindsay Willrick, some rights reserved (CC BY-NC), uploaded by Lindsay Willrick",
+   "photo": 16400488
+  }
+ ]
 }

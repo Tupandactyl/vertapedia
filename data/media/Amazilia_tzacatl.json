@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626343845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+   "photo": 626343845
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332438022/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 332438022
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419403362/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brewmaster, some rights reserved (CC BY-NC), uploaded by brewmaster",
+   "photo": 419403362
+  }
+ ]
 }

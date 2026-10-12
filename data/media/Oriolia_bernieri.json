@@ -70,5 +70,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3923504/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 3923504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616801400/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) StuElsom, some rights reserved (CC BY-NC), uploaded by StuElsom",
+   "photo": 616801400
+  }
+ ]
 }

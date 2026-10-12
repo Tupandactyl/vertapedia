@@ -235,5 +235,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119680222/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ted Nanninga, some rights reserved (CC BY-NC), uploaded by Ted Nanninga",
+   "photo": 119680222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349103633/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Вотинцевы Елена и Сергей, some rights reserved (CC BY-NC), uploaded by Вотинцевы Елена и Сергей",
+   "photo": 349103633
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92104246/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 92104246
+  }
+ ]
 }

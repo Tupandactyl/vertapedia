@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355853936/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) egorbirder, osa oikeuksista pidätetään (CC BY)",
+   "photo": 355853936
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644678345/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob and Geraldine, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Rob and Geraldine",
+   "photo": 644678345
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/525515065/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) quy_hoang, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 525515065
+  }
+ ]
 }

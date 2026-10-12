@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258851963/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giovany Ladino, some rights reserved (CC BY-NC), uploaded by Giovany Ladino",
+   "photo": 258851963
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104718764/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebas Arango, some rights reserved (CC BY-NC), uploaded by Sebas Arango",
+   "photo": 104718764
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259068660/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giovany Ladino, some rights reserved (CC BY-NC), uploaded by Giovany Ladino",
+   "photo": 259068660
+  }
+ ]
 }

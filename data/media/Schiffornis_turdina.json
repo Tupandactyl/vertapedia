@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89595820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 89595820
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226884350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Castelein, some rights reserved (CC BY-NC), uploaded by Alex Castelein",
+   "photo": 226884350
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598608998/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Miguel, some rights reserved (CC BY-SA), uploaded by Miguel",
+   "photo": 598608998
+  }
+ ]
 }

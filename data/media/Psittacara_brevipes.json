@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39350698/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) world_lineage, osa oikeuksista pidätetään (CC BY-NC), lähettänyt world_lineage",
+   "photo": 39350698
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172117896/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerardo Marrón, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Gerardo Marrón",
+   "photo": 172117896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7543881/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Vince Scheidt",
+   "photo": 7543881
+  }
+ ]
 }

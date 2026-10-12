@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65585951/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rodneya63, some rights reserved (CC BY-NC), uploaded by rodneya63",
+   "photo": 65585951
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335109517/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+   "photo": 335109517
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376130410/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterchristiaen, some rights reserved (CC BY-NC)",
+   "photo": 376130410
+  }
+ ]
 }

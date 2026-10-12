@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101409321/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Eppler, some rights reserved (CC BY-NC), uploaded by John Eppler",
+   "photo": 101409321
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22336365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+   "photo": 22336365
+  }
+ ]
 }

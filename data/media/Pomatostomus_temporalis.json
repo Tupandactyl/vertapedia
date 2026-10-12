@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233704779/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "photo": 233704779
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10153801/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 10153801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9934518/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC), uploaded by Reiner Richter",
+   "photo": 9934518
+  }
+ ]
 }

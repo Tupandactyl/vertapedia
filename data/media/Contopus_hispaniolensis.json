@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627904154/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 627904154
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656799847/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ari Rice, some rights reserved (CC BY-NC), uploaded by Ari Rice",
+   "photo": 656799847
+  }
+ ]
 }

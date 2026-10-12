@@ -193,5 +193,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628414178/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tommy Osborne, some rights reserved (CC BY-NC), uploaded by Tommy Osborne",
+   "photo": 628414178
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536389225/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) India I’Anson, some rights reserved (CC BY-NC), uploaded by India I’Anson",
+   "photo": 536389225
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126846883/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charles Dove, some rights reserved (CC BY-NC), uploaded by Charles Dove",
+   "photo": 126846883
+  }
+ ]
 }

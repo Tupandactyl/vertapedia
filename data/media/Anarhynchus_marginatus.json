@@ -205,5 +205,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/695980877/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 695980877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19353986/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC), uploaded by Peter Vos",
+   "photo": 19353986
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/695980957/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "photo": 695980957
+  }
+ ]
 }

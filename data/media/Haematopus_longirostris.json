@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254500230/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "photo": 254500230
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240519801/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Bromilow, some rights reserved (CC BY-NC), uploaded by John Bromilow",
+   "photo": 240519801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8406247/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC)",
+   "photo": 8406247
+  }
+ ]
 }

@@ -90,5 +90,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395654956/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 395654956
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390741/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) kerry_young, some rights reserved (CC BY-NC)",
+   "photo": 390741
+  }
+ ]
 }

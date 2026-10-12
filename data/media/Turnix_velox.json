@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466906478/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antoni Camozzato, some rights reserved (CC BY-NC), uploaded by Antoni Camozzato",
+   "photo": 466906478
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40860983/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Eales, some rights reserved (CC BY-SA), uploaded by Tony Eales",
+   "photo": 40860983
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40368803/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Eales, some rights reserved (CC BY-SA), uploaded by Tony Eales",
+   "photo": 40368803
+  }
+ ]
 }

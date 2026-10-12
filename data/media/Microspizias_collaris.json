@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50673504/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion Madre Yumbo, some rights reserved (CC BY-NC), uploaded by Fundacion Madre Yumbo",
+   "photo": 50673504
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43724176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 43724176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76272611/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gina Genduso, some rights reserved (CC BY-NC), uploaded by Gina Genduso",
+   "photo": 76272611
+  }
+ ]
 }

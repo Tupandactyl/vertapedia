@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363294596/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 363294596
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2532737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Alves, some rights reserved (CC BY-NC)",
+   "photo": 2532737
+  }
+ ]
 }

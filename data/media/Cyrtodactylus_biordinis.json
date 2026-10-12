@@ -38,5 +38,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86400487/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC), uploaded by jqrichmond",
+   "photo": 86400487
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313108913/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) guydutson, some rights reserved (CC BY-NC)",
+   "photo": 313108913
+  }
+ ]
 }

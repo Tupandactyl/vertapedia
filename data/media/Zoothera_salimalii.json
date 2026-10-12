@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13807568/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Craig Brelsford, osa oikeuksista pidätetään (CC BY)",
+   "photo": 13807568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13807567/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aparajita Datta, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 13807567
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13807569/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Aparajita Datta, osa oikeuksista pidätetään (CC BY-SA)",
+   "photo": 13807569
+  }
+ ]
 }

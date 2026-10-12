@@ -129,5 +129,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2197206/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2197206
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12001721/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liam O'Brien, some rights reserved (CC BY-NC), uploaded by Liam O'Brien",
+   "photo": 12001721
+  }
+ ]
 }

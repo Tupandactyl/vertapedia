@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249898139/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "keine Rechte vorbehalten, hochgeladen von Dario Taraborelli",
+   "photo": 249898139
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39114493/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wladimirpatino, einige Rechte vorbehalten (CC BY-NC), hochgeladen von wladimirpatino",
+   "photo": 39114493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235347149/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, einige Rechte vorbehalten (CC BY), hochgeladen von Christoph Moning",
+   "photo": 235347149
+  }
+ ]
 }

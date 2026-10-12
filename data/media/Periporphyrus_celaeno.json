@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132500609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sonia E. Galván Dávila, some rights reserved (CC BY-NC), uploaded by Sonia E. Galván Dávila",
+   "photo": 132500609
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61524938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martín Eliseo Olvera Ortiz, some rights reserved (CC BY-NC), uploaded by Martín Eliseo Olvera Ortiz",
+   "photo": 61524938
+  }
+ ]
 }

@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656119/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mroberts, some rights reserved (CC BY-NC)",
+   "photo": 656119
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4748191/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew Friant, some rights reserved (CC BY-NC), uploaded by Matthew Friant",
+   "photo": 4748191
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252386474/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yvonne A. de Jong, some rights reserved (CC BY-NC), uploaded by Yvonne A. de Jong",
+   "photo": 252386474
+  }
+ ]
 }

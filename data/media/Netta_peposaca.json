@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602507637/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Johannes S., some rights reserved (CC BY), uploaded by Johannes S.",
+   "photo": 602507637
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53158627/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) RAP, some rights reserved (CC BY), uploaded by RAP",
+   "photo": 53158627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231371997/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gustavo Fernando Brahamian, some rights reserved (CC BY-NC), uploaded by Gustavo Fernando Brahamian",
+   "photo": 231371997
+  }
+ ]
 }

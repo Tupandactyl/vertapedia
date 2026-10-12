@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3086790/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
+   "photo": 3086790
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597176907/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lance_robinson, some rights reserved (CC BY-NC)",
+   "photo": 597176907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453520069/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Dreyer, some rights reserved (CC BY-NC), uploaded by Alex Dreyer",
+   "photo": 453520069
+  }
+ ]
 }

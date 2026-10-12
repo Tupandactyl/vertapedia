@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93459045/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) sylvere corre, some rights reserved (CC BY-NC-SA)",
+   "photo": 93459045
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69133017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rino Di Noto, some rights reserved (CC BY-NC), uploaded by Rino Di Noto",
+   "photo": 69133017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141316/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Laura Gooch, some rights reserved (CC BY-NC-SA)",
+   "photo": 141316
+  }
+ ]
 }

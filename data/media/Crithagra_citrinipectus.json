@@ -129,5 +129,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10171736/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Birding Weto, some rights reserved (CC BY-SA)",
+   "photo": 10171736
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10171737/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 10171737
+  }
+ ]
 }

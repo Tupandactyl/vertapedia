@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46532647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jason Headley, some rights reserved (CC BY-NC), uploaded by Jason Headley",
+   "photo": 46532647
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237870932/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Knarr Gallery, some rights reserved (CC BY-NC), uploaded by Knarr Gallery",
+   "photo": 237870932
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105693471/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jennifer Linde, some rights reserved (CC BY-NC), uploaded by Jennifer Linde",
+   "photo": 105693471
+  }
+ ]
 }

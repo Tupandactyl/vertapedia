@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473167289/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) sunnyjosef, osa oikeuksista pidätetään (CC BY), lähettänyt sunnyjosef",
+   "photo": 473167289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97698687/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel V Raju, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Daniel V Raju",
+   "photo": 97698687
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/678763577/{size}.jpg",
+   "license": "cc0",
+   "attribution": "Oikeuksia ei pidätetä",
+   "photo": 678763577
+  }
+ ]
 }

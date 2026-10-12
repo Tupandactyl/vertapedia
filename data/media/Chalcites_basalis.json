@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177316964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dennis Hocking, some rights reserved (CC BY-NC), uploaded by Dennis Hocking",
+   "photo": 177316964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2004438/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC)",
+   "photo": 2004438
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6927803/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 6927803
+  }
+ ]
 }

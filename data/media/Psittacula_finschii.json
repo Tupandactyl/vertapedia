@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156483873/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cole Gaerber, some rights reserved (CC BY-NC), uploaded by Cole Gaerber",
+   "photo": 156483873
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159252666/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 159252666
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195026/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 195026
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110651287/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+   "photo": 110651287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113507777/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 113507777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244237023/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Rodolfo Lillo Lobos, some rights reserved (CC BY-NC), uploaded by Juan Rodolfo Lillo Lobos",
+   "photo": 244237023
+  }
+ ]
 }

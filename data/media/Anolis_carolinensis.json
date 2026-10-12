@@ -195,5 +195,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2626904/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto R. Calderón, some rights reserved (CC BY-NC), uploaded by Roberto R. Calderón",
+   "photo": 2626904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44877514/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tommy Farquhar, some rights reserved (CC BY-NC), uploaded by Tommy Farquhar",
+   "photo": 44877514
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579038211/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Livan, some rights reserved (CC BY-NC), uploaded by Livan",
+   "photo": 579038211
+  }
+ ]
 }

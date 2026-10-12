@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/561953598/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Oscar Alejandro Morales Juárez, some rights reserved (CC BY-SA), uploaded by Oscar Alejandro Morales Juárez",
+   "photo": 561953598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210951621/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joseluisblazquez, some rights reserved (CC BY-NC)",
+   "photo": 210951621
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189750266/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dwain Holmes, some rights reserved (CC BY-NC), uploaded by Dwain Holmes",
+   "photo": 189750266
+  }
+ ]
 }

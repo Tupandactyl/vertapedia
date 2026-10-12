@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2077595/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2077595
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80721176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Rodríguez Brito, some rights reserved (CC BY-NC), uploaded by Rafael Rodríguez Brito",
+   "photo": 80721176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458913798/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Vickers, some rights reserved (CC BY), uploaded by Dan Vickers",
+   "photo": 458913798
+  }
+ ]
 }

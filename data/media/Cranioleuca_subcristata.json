@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108905347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Oswaldo Hernández",
+   "photo": 108905347
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108905086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Oswaldo Hernández",
+   "photo": 108905086
+  }
+ ]
 }

@@ -101,5 +101,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182199489/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 182199489
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83394769/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Utain Pummarin, some rights reserved (CC BY), uploaded by Utain Pummarin",
+   "photo": 83394769
+  }
+ ]
 }

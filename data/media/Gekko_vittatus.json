@@ -116,5 +116,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22668267/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 22668267
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23318702/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark O'Brien, some rights reserved (CC BY-NC), uploaded by Mark O'Brien",
+   "photo": 23318702
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23318691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark O'Brien, some rights reserved (CC BY-NC), uploaded by Mark O'Brien",
+   "photo": 23318691
+  }
+ ]
 }

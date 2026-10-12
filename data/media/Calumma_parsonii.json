@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12621034/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bjarne Amstrup, some rights reserved (CC BY-NC), uploaded by Bjarne Amstrup",
+   "photo": 12621034
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/548179/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 548179
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/548180/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 548180
+  }
+ ]
 }

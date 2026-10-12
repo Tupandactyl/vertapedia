@@ -100,5 +100,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95790518/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Sawby, some rights reserved (CC BY-NC), uploaded by Ryan Sawby",
+   "photo": 95790518
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143457308/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 143457308
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143457140/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 143457140
+  }
+ ]
 }

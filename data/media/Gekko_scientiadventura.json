@@ -78,5 +78,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425591645/{size}.png",
+   "license": "cc-by",
+   "attribution": "(c) James Hunt, some rights reserved (CC BY), uploaded by James Hunt",
+   "photo": 425591645
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411843750/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuzefovich Alexander, some rights reserved (CC BY-NC), uploaded by Yuzefovich Alexander",
+   "photo": 411843750
+  }
+ ]
 }

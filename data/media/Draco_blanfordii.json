@@ -137,5 +137,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317014695/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) knotsnake, some rights reserved (CC BY-NC)",
+   "photo": 317014695
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146300134/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Woraphot Bunkhwamdi, some rights reserved (CC BY-NC), uploaded by Woraphot Bunkhwamdi",
+   "photo": 146300134
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41911092/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alanpople, some rights reserved (CC BY-NC), uploaded by alanpople",
+   "photo": 41911092
+  }
+ ]
 }

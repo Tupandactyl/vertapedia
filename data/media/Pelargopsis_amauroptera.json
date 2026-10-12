@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731159/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bikash Das, osa oikeuksista pidätetään (CC BY), lähettänyt Bikash Das",
+   "photo": 731159
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90416769/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Uday Agashe, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Uday Agashe",
+   "photo": 90416769
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2035409/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Darren, osa oikeuksista pidätetään (CC BY-NC)",
+   "photo": 2035409
+  }
+ ]
 }

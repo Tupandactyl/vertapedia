@@ -83,5 +83,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387855822/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nPetr Hamerník, some rights reserved (CC BY-SA)",
+   "photo": 387855822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387855831/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) \nPetr Hamerník, some rights reserved (CC BY-SA)",
+   "photo": 387855831
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180896181/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+   "photo": 180896181
+  }
+ ]
 }

@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4901168/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Daniele Colombo, some rights reserved (CC BY-NC-SA)",
+   "photo": 4901168
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27166619/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Diego Carús",
+   "photo": 27166619
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557372214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Zoat, some rights reserved (CC BY-NC), uploaded by Leonardo Zoat",
+   "photo": 557372214
+  }
+ ]
 }

@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241898339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vaibhav Dwivedi, some rights reserved (CC BY-NC), uploaded by Vaibhav Dwivedi",
+   "photo": 241898339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247817614/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+   "photo": 247817614
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59769177/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal",
+   "photo": 59769177
+  }
+ ]
 }

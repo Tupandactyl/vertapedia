@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260887463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Irons, some rights reserved (CC BY-NC), uploaded by Jonathan Irons",
+   "photo": 260887463
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222174972/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kent Ross, some rights reserved (CC BY-NC), uploaded by Kent Ross",
+   "photo": 222174972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260887420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Irons, some rights reserved (CC BY-NC), uploaded by Jonathan Irons",
+   "photo": 260887420
+  }
+ ]
 }

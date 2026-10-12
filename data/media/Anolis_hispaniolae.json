@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59244821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franklin Howley-Dumit Serulle, some rights reserved (CC BY-NC), uploaded by Franklin Howley-Dumit Serulle",
+   "photo": 59244821
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130080867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 130080867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116803095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 116803095
+  }
+ ]
 }

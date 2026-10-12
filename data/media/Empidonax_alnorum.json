@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14906697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
+   "photo": 14906697
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53401919/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Aitor, some rights reserved (CC BY), uploaded by Aitor",
+   "photo": 53401919
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43365081/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allan MacMillan, some rights reserved (CC BY-NC), uploaded by Allan MacMillan",
+   "photo": 43365081
+  }
+ ]
 }

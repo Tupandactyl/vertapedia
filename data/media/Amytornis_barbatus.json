@@ -175,5 +175,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5078933/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 5078933
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96186867/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Lambert, some rights reserved (CC BY-NC-SA), uploaded by Nick Lambert",
+   "photo": 96186867
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48142950/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant",
+   "photo": 48142950
+  }
+ ]
 }

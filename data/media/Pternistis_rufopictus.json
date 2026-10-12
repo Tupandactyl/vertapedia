@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2630859/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Yathin S Krishnappa, some rights reserved (CC BY-SA)",
+   "photo": 2630859
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2630861/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Daniele Colombo, some rights reserved (CC BY-NC-SA)",
+   "photo": 2630861
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2630862/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Bygott, some rights reserved (CC BY-NC-SA)",
+   "photo": 2630862
+  }
+ ]
 }

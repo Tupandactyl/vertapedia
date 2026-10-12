@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69136735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Ayers, some rights reserved (CC BY-NC), uploaded by Mark Ayers",
+   "photo": 69136735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476373310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Snow Dennis, some rights reserved (CC BY-NC), uploaded by Snow Dennis",
+   "photo": 476373310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10151974/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 10151974
+  }
+ ]
 }

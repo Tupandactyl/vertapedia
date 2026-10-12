@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535662538/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerold Morrison, some rights reserved (CC BY-NC), uploaded by Gerold Morrison",
+   "photo": 535662538
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56558339/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 56558339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101317735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandy Horne, some rights reserved (CC BY-NC), uploaded by Sandy Horne",
+   "photo": 101317735
+  }
+ ]
 }

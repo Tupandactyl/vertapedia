@@ -62,5 +62,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336618157/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ardgard Essau, some rights reserved (CC BY-NC), uploaded by Ardgard Essau",
+   "photo": 336618157
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336618503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ardgard Essau, some rights reserved (CC BY-NC), uploaded by Ardgard Essau",
+   "photo": 336618503
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352228712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andreaudzungwa, some rights reserved (CC BY-NC)",
+   "photo": 352228712
+  }
+ ]
 }

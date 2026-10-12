@@ -93,5 +93,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17373735/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike G. Rutherford, some rights reserved (CC BY-NC), uploaded by Mike G. Rutherford",
+   "photo": 17373735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5856593/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Cardoso, some rights reserved (CC BY-NC), uploaded by Bruno Cardoso",
+   "photo": 5856593
+  }
+ ]
 }

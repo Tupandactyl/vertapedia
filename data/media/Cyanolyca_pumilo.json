@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84303/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Dominic Sherony, some rights reserved (CC BY-SA)",
+   "photo": 84303
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26977565/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Guillermo, some rights reserved (CC BY-NC), uploaded by Luis Guillermo",
+   "photo": 26977565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23317983/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) El Chivizcoyo, some rights reserved (CC BY-NC), uploaded by El Chivizcoyo",
+   "photo": 23317983
+  }
+ ]
 }

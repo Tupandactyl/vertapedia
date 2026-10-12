@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/491792/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Dominik Hofer, some rights reserved (CC BY-NC-SA)",
+   "photo": 491792
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/491793/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Lindsay McCoy, some rights reserved (CC BY-NC-SA)",
+   "photo": 491793
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/491794/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Maris Pukitis, some rights reserved (CC BY-NC-SA)",
+   "photo": 491794
+  }
+ ]
 }

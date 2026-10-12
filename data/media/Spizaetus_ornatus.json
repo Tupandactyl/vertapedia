@@ -224,5 +224,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44732172/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44732172
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584095727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Hediger, some rights reserved (CC BY-NC), uploaded by Daniel Hediger",
+   "photo": 584095727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44732300/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44732300
+  }
+ ]
 }

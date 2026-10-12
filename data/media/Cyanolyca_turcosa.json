@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62514673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jen Cross, some rights reserved (CC BY-NC), uploaded by Jen Cross",
+   "photo": 62514673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533193923/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rosario Douglas, some rights reserved (CC BY), uploaded by Rosario Douglas",
+   "photo": 533193923
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13382666/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC), uploaded by Scott Bowers",
+   "photo": 13382666
+  }
+ ]
 }

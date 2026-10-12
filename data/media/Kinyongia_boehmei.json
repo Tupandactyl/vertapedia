@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625767975/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC), uploaded by Ruben Foquet",
+   "photo": 625767975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442858056/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chemp, some rights reserved (CC BY-NC), uploaded by chemp",
+   "photo": 442858056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254688962/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonhard Schlimm-Koppe, some rights reserved (CC BY-NC), uploaded by Leonhard Schlimm-Koppe",
+   "photo": 254688962
+  }
+ ]
 }

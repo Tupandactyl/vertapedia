@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5209625/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Carmelo López Abad",
+   "photo": 5209625
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325994073/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ahmad Yasin Chumaedi, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Ahmad Yasin Chumaedi",
+   "photo": 325994073
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336226234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lisa_James, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Lisa_James",
+   "photo": 336226234
+  }
+ ]
 }

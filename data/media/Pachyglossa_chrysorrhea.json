@@ -73,5 +73,25 @@
    "date": "2022-03-30"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483446445/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dosdewaforesttrail, some rights reserved (CC BY-NC), uploaded by Dosdewaforesttrail",
+   "photo": 483446445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700650/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)",
+   "photo": 700650
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173462093/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 173462093
+  }
+ ]
 }

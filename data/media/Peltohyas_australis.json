@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423273487/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 423273487
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624813904/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike Letnic, some rights reserved (CC BY-NC), uploaded by Mike Letnic",
+   "photo": 624813904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243987640/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerry Vickers, some rights reserved (CC BY-NC), uploaded by Kerry Vickers",
+   "photo": 243987640
+  }
+ ]
 }

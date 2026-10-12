@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316323060/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Slavenko, some rights reserved (CC BY-NC), uploaded by Alex Slavenko",
+   "photo": 316323060
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459476776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wvclarke, some rights reserved (CC BY-NC)",
+   "photo": 459476776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83963471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank-Roland Fließ, some rights reserved (CC BY-NC), uploaded by Frank-Roland Fließ",
+   "photo": 83963471
+  }
+ ]
 }

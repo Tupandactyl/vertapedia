@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164183277/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Devika M B, some rights reserved (CC BY), uploaded by Devika M B",
+   "photo": 164183277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176220413/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Prajwal J Ullal, some rights reserved (CC BY-NC), uploaded by Prajwal J Ullal",
+   "photo": 176220413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275287022/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sagarika Gupta, some rights reserved (CC BY-NC), uploaded by Sagarika Gupta",
+   "photo": 275287022
+  }
+ ]
 }

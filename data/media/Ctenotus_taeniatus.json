@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141082433/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yingyod Lapwong, some rights reserved (CC BY-NC), uploaded by Yingyod Lapwong",
+   "photo": 141082433
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168549416/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Clarey, some rights reserved (CC BY-NC), uploaded by Isaac Clarey",
+   "photo": 168549416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88978838/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY), uploaded by dhfischer",
+   "photo": 88978838
+  }
+ ]
 }

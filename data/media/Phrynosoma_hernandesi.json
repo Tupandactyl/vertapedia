@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1036755/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks",
+   "photo": 1036755
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347249633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+   "photo": 347249633
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42777497/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wasatch_hunter, some rights reserved (CC BY-NC), uploaded by wasatch_hunter",
+   "photo": 42777497
+  }
+ ]
 }

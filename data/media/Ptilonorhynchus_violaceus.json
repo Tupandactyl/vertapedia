@@ -143,5 +143,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127644371/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charles Dove, some rights reserved (CC BY-NC), uploaded by Charles Dove",
+   "photo": 127644371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177229777/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maureen Gubbels, some rights reserved (CC BY-NC), uploaded by Maureen Gubbels",
+   "photo": 177229777
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108581891/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andrewpavlov, some rights reserved (CC BY-NC), uploaded by andrewpavlov",
+   "photo": 108581891
+  }
+ ]
 }

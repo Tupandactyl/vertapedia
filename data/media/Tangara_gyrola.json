@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454996403/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David Kidwell, some rights reserved (CC BY-NC-SA), uploaded by David Kidwell",
+   "photo": 454996403
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48923521/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) janetejohnston, some rights reserved (CC BY-NC)",
+   "photo": 48923521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15292505/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+   "photo": 15292505
+  }
+ ]
 }

@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16365431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaime R Briseño, some rights reserved (CC BY-NC), uploaded by Jaime R Briseño",
+   "photo": 16365431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2760780/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Herrera, some rights reserved (CC BY-NC), uploaded by Gerson Herrera",
+   "photo": 2760780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16366001/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaime R Briseño, some rights reserved (CC BY-NC), uploaded by Jaime R Briseño",
+   "photo": 16366001
+  }
+ ]
 }

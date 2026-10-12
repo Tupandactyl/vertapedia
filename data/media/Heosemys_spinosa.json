@@ -138,5 +138,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129282539/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Green Hill - Bukit Lawang (Andrea Molyneaux), some rights reserved (CC BY-NC), uploaded by Green Hill - Bukit Lawang (Andrea Molyneaux)",
+   "photo": 129282539
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105256892/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nadège Lanau, some rights reserved (CC BY-NC), uploaded by Nadège Lanau",
+   "photo": 105256892
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94989666/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi",
+   "photo": 94989666
+  }
+ ]
 }

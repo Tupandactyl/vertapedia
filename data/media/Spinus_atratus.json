@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224976745/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 224976745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224976230/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
+   "photo": 224976230
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122292592/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) María Belén Dri, some rights reserved (CC BY-NC), uploaded by María Belén Dri",
+   "photo": 122292592
+  }
+ ]
 }

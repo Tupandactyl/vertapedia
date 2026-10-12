@@ -163,5 +163,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182186101/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Лариса Артемьева",
+   "photo": 182186101
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297082914/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 297082914
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468035497/{size}.png",
+   "license": "cc-by-sa",
+   "attribution": "(c) 林孫鋒(Lin Sun Fong), some rights reserved (CC BY-SA), uploaded by 林孫鋒(Lin Sun Fong)",
+   "photo": 468035497
+  }
+ ]
 }

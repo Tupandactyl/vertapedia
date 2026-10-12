@@ -166,5 +166,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420459393/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Donna, some rights reserved (CC BY-NC), uploaded by Donna",
+   "photo": 420459393
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118624220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+   "photo": 118624220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107924093/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 107924093
+  }
+ ]
 }

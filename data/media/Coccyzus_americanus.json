@@ -145,5 +145,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33263626/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) kirk gardner, some rights reserved (CC BY), uploaded by kirk gardner",
+   "photo": 33263626
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100938597/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny, some rights reserved (CC BY-NC), uploaded by Jenny",
+   "photo": 100938597
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161893839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott",
+   "photo": 161893839
+  }
+ ]
 }

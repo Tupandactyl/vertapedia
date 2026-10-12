@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91385183/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Lambert, some rights reserved (CC BY-NC-SA), uploaded by Nick Lambert",
+   "photo": 91385183
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478244339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 478244339
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383232327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Indra Bone, some rights reserved (CC BY-NC), uploaded by Indra Bone",
+   "photo": 383232327
+  }
+ ]
 }

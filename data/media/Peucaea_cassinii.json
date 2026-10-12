@@ -159,5 +159,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58299512/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto González, some rights reserved (CC BY-NC), uploaded by Roberto González",
+   "photo": 58299512
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58299591/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto González, some rights reserved (CC BY-NC), uploaded by Roberto González",
+   "photo": 58299591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65646450/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Goolsbygirl, some rights reserved (CC BY-NC), uploaded by Goolsbygirl",
+   "photo": 65646450
+  }
+ ]
 }

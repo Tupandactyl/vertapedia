@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29556287/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Gutiérrez Maier, some rights reserved (CC BY-NC), uploaded by Pablo Gutiérrez Maier",
+   "photo": 29556287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1067374/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Archiverde, some rights reserved (CC BY-NC), uploaded by Archiverde",
+   "photo": 1067374
+  }
+ ]
 }

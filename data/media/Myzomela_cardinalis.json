@@ -102,5 +102,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60018959/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 60018959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609629624/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 609629624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610353228/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC), uploaded by Hyongchan Kim",
+   "photo": 610353228
+  }
+ ]
 }

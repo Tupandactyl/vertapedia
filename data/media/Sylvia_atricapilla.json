@@ -227,5 +227,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187041112/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marina Ribeiro, some rights reserved (CC BY-NC), uploaded by Marina Ribeiro",
+   "photo": 187041112
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121860337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) albissers_grund, some rights reserved (CC BY-NC), uploaded by albissers_grund",
+   "photo": 121860337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277522385/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lrathbone, some rights reserved (CC BY-NC)",
+   "photo": 277522385
+  }
+ ]
 }

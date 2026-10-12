@@ -90,5 +90,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5616665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Babajide Agboola, some rights reserved (CC BY-NC), uploaded by Babajide Agboola",
+   "photo": 5616665
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13924568/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Babajide Agboola, some rights reserved (CC BY-NC), uploaded by Babajide Agboola",
+   "photo": 13924568
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2914534/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 2914534
+  }
+ ]
 }

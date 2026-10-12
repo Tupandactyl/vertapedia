@@ -164,5 +164,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77959/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 77959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442272/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ronald Navarrete, some rights reserved (CC BY-NC), uploaded by Ronald Navarrete",
+   "photo": 442272
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82330050/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ángel-Vasco, some rights reserved (CC BY-NC), uploaded by David Ángel-Vasco",
+   "photo": 82330050
+  }
+ ]
 }

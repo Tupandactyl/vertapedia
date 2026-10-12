@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608052395/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Hsishu, some rights reserved (CC BY-NC-SA), uploaded by Hsishu",
+   "photo": 608052395
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295674046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vladimir Sklyarenko, some rights reserved (CC BY-NC), uploaded by Vladimir Sklyarenko",
+   "photo": 295674046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450285490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) petr_hajduk, some rights reserved (CC BY-NC), uploaded by petr_hajduk",
+   "photo": 450285490
+  }
+ ]
 }

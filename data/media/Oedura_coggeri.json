@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57729875/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 57729875
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128523470/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dancg, some rights reserved (CC BY-NC)",
+   "photo": 128523470
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138214200/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC), uploaded by Richard D Reams",
+   "photo": 138214200
+  }
+ ]
 }

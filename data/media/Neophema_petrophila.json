@@ -157,5 +157,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278320126/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt",
+   "photo": 278320126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387145883/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Keith Morris, some rights reserved (CC BY-NC), uploaded by Keith Morris",
+   "photo": 387145883
+  }
+ ]
 }

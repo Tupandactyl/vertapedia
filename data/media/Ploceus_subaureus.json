@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/776700/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Steward, some rights reserved (CC BY-NC)",
+   "photo": 776700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310933023/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) moxcalvitiumtorgos, some rights reserved (CC BY-NC), uploaded by moxcalvitiumtorgos",
+   "photo": 310933023
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102989098/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dave Brown",
+   "photo": 102989098
+  }
+ ]
 }

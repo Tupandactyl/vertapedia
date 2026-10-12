@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465901169/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) richardchong0560, some rights reserved (CC BY-NC)",
+   "photo": 465901169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431986181/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 431986181
+  }
+ ]
 }

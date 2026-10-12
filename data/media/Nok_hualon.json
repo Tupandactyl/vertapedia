@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602410408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sila Viriyautsahakul, some rights reserved (CC BY-NC), uploaded by Sila Viriyautsahakul",
+   "photo": 602410408
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353960646/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thibaut_ferraille, some rights reserved (CC BY-NC)",
+   "photo": 353960646
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341606904/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+   "photo": 341606904
+  }
+ ]
 }

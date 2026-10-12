@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92030135/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Giovanni Bermúdez Bohórquez, some rights reserved (CC BY), uploaded by Giovanni Bermúdez Bohórquez",
+   "photo": 92030135
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444300771/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Iwane, some rights reserved (CC BY-NC), uploaded by Tony Iwane",
+   "photo": 444300771
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60859770/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 60859770
+  }
+ ]
 }

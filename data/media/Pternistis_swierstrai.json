@@ -55,5 +55,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581009985/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Irene",
+   "photo": 581009985
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588298533/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+   "photo": 588298533
+  }
+ ]
 }

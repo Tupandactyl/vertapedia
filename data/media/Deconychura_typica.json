@@ -156,5 +156,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44649837/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Andrews, some rights reserved (CC BY-NC), uploaded by Ryan Andrews",
+   "photo": 44649837
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138498772/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Garrigues, some rights reserved (CC BY-NC), uploaded by David Garrigues",
+   "photo": 138498772
+  }
+ ]
 }

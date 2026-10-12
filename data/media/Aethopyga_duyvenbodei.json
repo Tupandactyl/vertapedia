@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380771320/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fachrynurmallojr, some rights reserved (CC BY-NC)",
+   "photo": 380771320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213287449/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Moch. Fadrin A. Indo, some rights reserved (CC BY-NC), uploaded by Moch. Fadrin A. Indo",
+   "photo": 213287449
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380771036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fachrynurmallojr, some rights reserved (CC BY-NC)",
+   "photo": 380771036
+  }
+ ]
 }

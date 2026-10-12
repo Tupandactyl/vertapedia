@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133941924/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Lindsey, some rights reserved (CC BY-NC), uploaded by Christopher Lindsey",
+   "photo": 133941924
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112549991/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaby Torres, some rights reserved (CC BY-NC), uploaded by Gaby Torres",
+   "photo": 112549991
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157596616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bertrand, some rights reserved (CC BY-NC)",
+   "photo": 157596616
+  }
+ ]
 }

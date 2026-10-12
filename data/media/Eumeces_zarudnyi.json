@@ -53,5 +53,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311766671/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+   "photo": 311766671
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311766670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+   "photo": 311766670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260678560/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eisapourdoust, some rights reserved (CC BY-NC)",
+   "photo": 260678560
+  }
+ ]
 }

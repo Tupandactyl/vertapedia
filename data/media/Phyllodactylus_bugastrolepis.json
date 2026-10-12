@@ -78,5 +78,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28564395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradford Hollingsworth, some rights reserved (CC BY-NC), uploaded by Bradford Hollingsworth",
+   "photo": 28564395
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62128097/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC), uploaded by Jesus Gordolomi Butterball RC",
+   "photo": 62128097
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28564400/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradford Hollingsworth, some rights reserved (CC BY-NC), uploaded by Bradford Hollingsworth",
+   "photo": 28564400
+  }
+ ]
 }

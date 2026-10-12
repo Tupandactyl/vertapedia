@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8460677/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik",
+   "photo": 8460677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16232819/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arthurjorgensenfilho, some rights reserved (CC BY-NC), uploaded by arthurjorgensenfilho",
+   "photo": 16232819
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11383887/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik",
+   "photo": 11383887
+  }
+ ]
 }

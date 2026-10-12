@@ -122,5 +122,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53865877/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rodrigo Y Castro, some rights reserved (CC BY-NC), uploaded by Rodrigo Y Castro",
+   "photo": 53865877
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140294383/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 140294383
+  }
+ ]
 }

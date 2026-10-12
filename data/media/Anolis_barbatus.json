@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338287833/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Radovan Víta, some rights reserved (CC BY-NC), uploaded by Radovan Víta",
+   "photo": 338287833
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322320/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) anonymous, some rights reserved (CC BY-SA)",
+   "photo": 322320
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232356879/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 232356879
+  }
+ ]
 }

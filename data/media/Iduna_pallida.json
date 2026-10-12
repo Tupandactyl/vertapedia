@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1358151/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ján Svetlík, some rights reserved (CC BY-NC-SA)",
+   "photo": 1358151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135005294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Umut Güngör, some rights reserved (CC BY-NC), uploaded by Umut Güngör",
+   "photo": 135005294
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133747008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maykinn, some rights reserved (CC BY-NC)",
+   "photo": 133747008
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366452463/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC), uploaded by Fundacion ProAves",
+   "photo": 366452463
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3115917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint",
+   "photo": 3115917
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107263466/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riley, some rights reserved (CC BY), uploaded by Dan Riley",
+   "photo": 107263466
+  }
+ ]
 }

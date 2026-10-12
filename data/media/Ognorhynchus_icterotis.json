@@ -152,5 +152,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981456/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jei Pov, some rights reserved (CC BY-NC-SA)",
+   "photo": 158981456
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981457/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Félix Uribe, some rights reserved (CC BY-SA)",
+   "photo": 158981457
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981458/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Actividad Cultural Banco de la República, some rights reserved (CC BY-SA)",
+   "photo": 158981458
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104266113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 104266113
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575541301/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nathan Jackson, some rights reserved (CC BY-NC), uploaded by Nathan Jackson",
+   "photo": 575541301
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574768913/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mohamed Mousaid, some rights reserved (CC BY-NC), uploaded by Mohamed Mousaid",
+   "photo": 574768913
+  }
+ ]
 }

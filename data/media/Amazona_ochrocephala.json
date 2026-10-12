@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461043006/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Franco Palandri, some rights reserved (CC BY-NC), uploaded by Franco Palandri",
+   "photo": 461043006
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157588192/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Alejandro  Bayer Tamayo, some rights reserved (CC BY-SA)",
+   "photo": 157588192
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80540772/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Raphael D Mazor, some rights reserved (CC BY-NC), uploaded by Raphael D Mazor",
+   "photo": 80540772
+  }
+ ]
 }

@@ -273,5 +273,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8811/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) PÃ©tur Gauti Valgeirsson, some rights reserved (CC BY-NC-SA)",
+   "photo": 8811
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411599065/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leo Weiskittel, some rights reserved (CC BY-NC), uploaded by Leo Weiskittel",
+   "photo": 411599065
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234385469/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) François Libert, some rights reserved (CC BY-NC-SA), uploaded by François Libert",
+   "photo": 234385469
+  }
+ ]
 }

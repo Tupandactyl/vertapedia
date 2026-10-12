@@ -104,5 +104,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424654232/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rajan Rao, some rights reserved (CC BY), uploaded by Rajan Rao",
+   "photo": 424654232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119474486/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 119474486
+  }
+ ]
 }

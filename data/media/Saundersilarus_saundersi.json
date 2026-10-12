@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221546/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 台灣水鳥研究群 彰化海岸保育行動聯盟, some rights reserved (CC BY-NC-SA)",
+   "photo": 221546
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128792502/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tristan Scholze, some rights reserved (CC BY-NC), uploaded by Tristan Scholze",
+   "photo": 128792502
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654261340/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 维生素, some rights reserved (CC BY-NC), uploaded by 维生素",
+   "photo": 654261340
+  }
+ ]
 }

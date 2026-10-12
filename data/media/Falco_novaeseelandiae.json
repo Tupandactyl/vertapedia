@@ -206,5 +206,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/630666910/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Moynan, some rights reserved (CC BY-NC), uploaded by Sam Moynan",
+   "photo": 630666910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170505136/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Murray Dawson, some rights reserved (CC BY)",
+   "photo": 170505136
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626491594/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Moynan, some rights reserved (CC BY-NC), uploaded by Sam Moynan",
+   "photo": 626491594
+  }
+ ]
 }

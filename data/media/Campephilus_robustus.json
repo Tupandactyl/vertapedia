@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75959/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 75959
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118312176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Fuhrmann, some rights reserved (CC BY-NC), uploaded by Thomas Fuhrmann",
+   "photo": 118312176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101479230/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leo Pires, some rights reserved (CC BY-NC), uploaded by Leo Pires",
+   "photo": 101479230
+  }
+ ]
 }

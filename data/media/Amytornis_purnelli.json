@@ -191,5 +191,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5078924/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Peter Jacobs, some rights reserved (CC BY-SA)",
+   "photo": 5078924
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213605083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Rowland, some rights reserved (CC BY-NC), uploaded by Peter Rowland",
+   "photo": 213605083
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239283376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Aquilina, some rights reserved (CC BY-NC), uploaded by Jordan Aquilina",
+   "photo": 239283376
+  }
+ ]
 }

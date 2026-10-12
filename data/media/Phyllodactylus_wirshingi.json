@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215635466/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC), uploaded by Zachary Lange",
+   "photo": 215635466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134192079/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alcides L. Morales-Pérez, some rights reserved (CC BY-NC), uploaded by Alcides L. Morales-Pérez",
+   "photo": 134192079
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9768405/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) ritirene, some rights reserved (CC BY), uploaded by ritirene",
+   "photo": 9768405
+  }
+ ]
 }

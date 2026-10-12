@@ -109,5 +109,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367800246/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 367800246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367800225/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 367800225
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627610741/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuxuan Liu, some rights reserved (CC BY-NC), uploaded by Yuxuan Liu",
+   "photo": 627610741
+  }
+ ]
 }

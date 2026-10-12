@@ -87,5 +87,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245886290/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 245886290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117479464/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bradley Davis, some rights reserved (CC BY-NC), uploaded by Bradley Davis",
+   "photo": 117479464
+  }
+ ]
 }

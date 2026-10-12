@@ -97,5 +97,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84659151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Ketebengang, some rights reserved (CC BY-NC), uploaded by Heather Ketebengang",
+   "photo": 84659151
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1906160/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Devonpike, some rights reserved (CC BY)",
+   "photo": 1906160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1906159/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Devonpike, some rights reserved (CC BY)",
+   "photo": 1906159
+  }
+ ]
 }

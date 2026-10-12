@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558846365/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Lansley, some rights reserved (CC BY-NC), uploaded by Tom Lansley",
+   "photo": 558846365
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483838768/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC), uploaded by Lorenzo Vinciguerra",
+   "photo": 483838768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188746322/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gregg Darling, some rights reserved (CC BY-NC), uploaded by Gregg Darling",
+   "photo": 188746322
+  }
+ ]
 }

@@ -114,5 +114,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1280409/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Lindner, some rights reserved (CC BY-NC), uploaded by Nick Lindner",
+   "photo": 1280409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322623/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole F. Angeli, some rights reserved (CC BY-NC), uploaded by Nicole F. Angeli",
+   "photo": 322623
+  }
+ ]
 }

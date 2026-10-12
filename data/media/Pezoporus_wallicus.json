@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165072133/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gavin Goodyear, some rights reserved (CC BY-NC), uploaded by Gavin Goodyear",
+   "photo": 165072133
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159065615/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) PotMart186, some rights reserved (CC BY-SA)",
+   "photo": 159065615
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100618718/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joyce, some rights reserved (CC BY-NC), uploaded by Joyce",
+   "photo": 100618718
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581251271/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andreaudzungwa, some rights reserved (CC BY-NC)",
+   "photo": 581251271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458393813/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John Lyakurwa, some rights reserved (CC BY), uploaded by John Lyakurwa",
+   "photo": 458393813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602426186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) antoine_baglan, some rights reserved (CC BY-NC)",
+   "photo": 602426186
+  }
+ ]
 }

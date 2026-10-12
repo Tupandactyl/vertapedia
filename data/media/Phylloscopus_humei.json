@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170310402/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 170310402
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5559203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 5559203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "photo": 1852220
+  }
+ ]
 }

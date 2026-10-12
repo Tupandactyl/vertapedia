@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397260/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Lee Elliott, some rights reserved (CC BY-NC-SA), uploaded by Lee Elliott",
+   "photo": 397260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176889/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Mokele, some rights reserved (CC BY-SA)",
+   "photo": 176889
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29381896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Austin Bohannon, some rights reserved (CC BY-NC), uploaded by Austin Bohannon",
+   "photo": 29381896
+  }
+ ]
 }

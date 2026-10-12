@@ -119,5 +119,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379965573/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fachrynurmallojr, some rights reserved (CC BY-NC)",
+   "photo": 379965573
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12678501/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Chaon, some rights reserved (CC BY-NC), uploaded by Phil Chaon",
+   "photo": 12678501
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24069900/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bert Harris, some rights reserved (CC BY-NC), uploaded by Bert Harris",
+   "photo": 24069900
+  }
+ ]
 }

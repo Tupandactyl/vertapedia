@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555224/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Patty McGann, some rights reserved (CC BY)",
+   "photo": 555224
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263769996/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William Hull, some rights reserved (CC BY-NC), uploaded by William Hull",
+   "photo": 263769996
+  }
+ ]
 }

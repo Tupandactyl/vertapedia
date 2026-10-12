@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13523882/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 13523882
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577289083/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Léa Maria Steffen S. Fernandes, some rights reserved (CC BY-NC), uploaded by Léa Maria Steffen S. Fernandes",
+   "photo": 577289083
+  }
+ ]
 }

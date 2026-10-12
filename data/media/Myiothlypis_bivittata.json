@@ -155,5 +155,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171479870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Kondratzky, some rights reserved (CC BY-NC), uploaded by Diego Kondratzky",
+   "photo": 171479870
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58549331/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adrian Braidotti, some rights reserved (CC BY-NC), uploaded by Adrian Braidotti",
+   "photo": 58549331
+  }
+ ]
 }

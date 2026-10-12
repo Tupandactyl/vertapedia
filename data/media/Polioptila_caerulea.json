@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2649343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 2649343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30245884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edward Perry IV, some rights reserved (CC BY-NC), uploaded by Edward Perry IV",
+   "photo": 30245884
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9903/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
+   "photo": 9903
+  }
+ ]
 }

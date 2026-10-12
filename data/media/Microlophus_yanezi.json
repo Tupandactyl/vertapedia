@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55782601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "photo": 55782601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58707780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vicente Pantoja, some rights reserved (CC BY-NC), uploaded by Vicente Pantoja",
+   "photo": 58707780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12257573/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ignacio Díaz Caqueo, some rights reserved (CC BY-NC), uploaded by Ignacio Díaz Caqueo",
+   "photo": 12257573
+  }
+ ]
 }

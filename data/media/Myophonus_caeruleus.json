@@ -123,5 +123,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57945325/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manoj Samuel Grg, some rights reserved (CC BY-NC), uploaded by Manoj Samuel Grg",
+   "photo": 57945325
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11498904/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ckelkar, some rights reserved (CC BY-NC)",
+   "photo": 11498904
+  }
+ ]
 }

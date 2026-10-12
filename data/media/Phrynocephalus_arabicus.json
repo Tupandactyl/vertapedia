@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431239242/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Arabella Willing, some rights reserved (CC BY), uploaded by Arabella Willing",
+   "photo": 431239242
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350827872/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 350827872
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215229666/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 215229666
+  }
+ ]
 }

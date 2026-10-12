@@ -136,5 +136,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38291/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leo, some rights reserved (CC BY-NC-SA)",
+   "photo": 38291
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111549529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+   "photo": 111549529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38574/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Duncan, some rights reserved (CC BY-SA)",
+   "photo": 38574
+  }
+ ]
 }

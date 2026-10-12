@@ -101,5 +101,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377058160/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noam Markus, some rights reserved (CC BY-NC), uploaded by Noam Markus",
+   "photo": 377058160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455362776/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sabine Templeton, some rights reserved (CC BY-NC), uploaded by Sabine Templeton",
+   "photo": 455362776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179964841/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mark Dumont, some rights reserved (CC BY)",
+   "photo": 179964841
+  }
+ ]
 }

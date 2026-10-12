@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618878384/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vivekaocherik, some rights reserved (CC BY-NC)",
+   "photo": 618878384
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260980817/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob McDougall, some rights reserved (CC BY-NC), uploaded by Bob McDougall",
+   "photo": 260980817
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411203856/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) cello caruso-turiello, some rights reserved (CC BY), uploaded by cello caruso-turiello",
+   "photo": 411203856
+  }
+ ]
 }

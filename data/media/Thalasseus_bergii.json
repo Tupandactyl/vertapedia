@@ -160,5 +160,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111484687/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jens Sommer-Knudsen, some rights reserved (CC BY-NC), uploaded by Jens Sommer-Knudsen",
+   "photo": 111484687
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446195118/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 446195118
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446195086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+   "photo": 446195086
+  }
+ ]
 }

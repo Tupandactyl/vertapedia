@@ -182,5 +182,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65060931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Roach, some rights reserved (CC BY-NC), uploaded by Dan Roach",
+   "photo": 65060931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305196303/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob Oswald, some rights reserved (CC BY-NC), uploaded by Bob Oswald",
+   "photo": 305196303
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255838966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kitemongoose, some rights reserved (CC BY-NC)",
+   "photo": 255838966
+  }
+ ]
 }

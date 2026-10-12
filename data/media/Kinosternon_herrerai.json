@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1392279/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arturo Hernandez, some rights reserved (CC BY-NC), uploaded by Arturo Hernandez",
+   "photo": 1392279
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3509265/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) JaguarGozandoSelva, some rights reserved (CC BY-NC), uploaded by JaguarGozandoSelva",
+   "photo": 3509265
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1392288/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arturo Hernandez, some rights reserved (CC BY-NC), uploaded by Arturo Hernandez",
+   "photo": 1392288
+  }
+ ]
 }

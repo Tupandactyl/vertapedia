@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119744460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ronaldo Garcia, some rights reserved (CC BY-NC), uploaded by Ronaldo Garcia",
+   "photo": 119744460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11342287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 11342287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11342371/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 11342371
+  }
+ ]
 }

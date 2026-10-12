@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177108982/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alexis Williams, some rights reserved (CC BY), uploaded by Alexis Williams",
+   "photo": 177108982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402494560/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig K. Hunt, some rights reserved (CC BY-NC), uploaded by Craig K. Hunt",
+   "photo": 402494560
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355593223/{size}.gif",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Shahan, some rights reserved (CC BY-NC), uploaded by Thomas Shahan",
+   "photo": 355593223
+  }
+ ]
 }

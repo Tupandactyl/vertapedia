@@ -59,5 +59,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698637/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Charles Lam, some rights reserved (CC BY-SA)",
+   "photo": 698637
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12428902/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Ganse, some rights reserved (CC BY-NC), uploaded by Alexander Ganse",
+   "photo": 12428902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14185541/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Smileypuffin, some rights reserved (CC BY-NC), uploaded by Smileypuffin",
+   "photo": 14185541
+  }
+ ]
 }

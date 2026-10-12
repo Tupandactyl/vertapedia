@@ -122,5 +122,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178109007/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paulmathi Vinod, some rights reserved (CC BY), uploaded by Paulmathi Vinod",
+   "photo": 178109007
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226639773/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) harshithjv, some rights reserved (CC BY-NC-SA), uploaded by harshithjv",
+   "photo": 226639773
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273267686/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anoop Nair, some rights reserved (CC BY-NC), uploaded by Anoop Nair",
+   "photo": 273267686
+  }
+ ]
 }

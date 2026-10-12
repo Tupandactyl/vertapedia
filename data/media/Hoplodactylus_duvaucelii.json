@@ -149,5 +149,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69915030/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charlotte Crummack, some rights reserved (CC BY-NC), uploaded by Charlotte Crummack",
+   "photo": 69915030
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38702910/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jennifer Moore, some rights reserved (CC BY)",
+   "photo": 38702910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2259851/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+   "photo": 2259851
+  }
+ ]
 }

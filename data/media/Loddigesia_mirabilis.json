@@ -156,5 +156,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1387558/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole LaRoche, some rights reserved (CC BY-NC), uploaded by Nicole LaRoche",
+   "photo": 1387558
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7358/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 7358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7357/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+   "photo": 7357
+  }
+ ]
 }

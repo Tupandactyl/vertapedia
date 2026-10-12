@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417262928/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC), uploaded by congonaturalist",
+   "photo": 417262928
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97249978/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Desloges, some rights reserved (CC BY-NC), uploaded by Thomas Desloges",
+   "photo": 97249978
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41437170/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC), uploaded by Gert Jan Verspui",
+   "photo": 41437170
+  }
+ ]
 }

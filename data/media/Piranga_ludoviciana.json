@@ -190,5 +190,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289912656/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jim Gain, some rights reserved (CC BY-NC), uploaded by Jim Gain",
+   "photo": 289912656
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300416/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 300416
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139350607/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Andrej Chudý, some rights reserved (CC BY-NC-SA)",
+   "photo": 139350607
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504351585/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MAURICIO GIRALDO RIOS, some rights reserved (CC BY-NC), uploaded by MAURICIO GIRALDO RIOS",
+   "photo": 504351585
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642659453/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeanhampson, some rights reserved (CC BY-NC)",
+   "photo": 642659453
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204479203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luismedina11, some rights reserved (CC BY-NC)",
+   "photo": 204479203
+  }
+ ]
 }

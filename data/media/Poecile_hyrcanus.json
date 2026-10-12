@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104633297/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuzefovich Alexander, some rights reserved (CC BY-NC), uploaded by Yuzefovich Alexander",
+   "photo": 104633297
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10927019/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+   "photo": 10927019
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61265176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) annabutrim, some rights reserved (CC BY-NC), uploaded by annabutrim",
+   "photo": 61265176
+  }
+ ]
 }

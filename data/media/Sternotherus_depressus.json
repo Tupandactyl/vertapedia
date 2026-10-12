@@ -138,5 +138,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10037861/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John P Friel, some rights reserved (CC BY), uploaded by John P Friel",
+   "photo": 10037861
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350110700/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 350110700
+  }
+ ]
 }

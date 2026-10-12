@@ -142,5 +142,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100470056/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abelardomendesjr, some rights reserved (CC BY-NC), uploaded by abelardomendesjr",
+   "photo": 100470056
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246535396/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Marujo, some rights reserved (CC BY-NC), uploaded by Leonardo Marujo",
+   "photo": 246535396
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95824/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "photo": 95824
+  }
+ ]
 }

@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26765220/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ben Hayden, some rights reserved (CC BY), uploaded by Ben Hayden",
+   "photo": 26765220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31307277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC), uploaded by Justyn Stahl",
+   "photo": 31307277
+  }
+ ]
 }

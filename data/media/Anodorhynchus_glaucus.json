@@ -36,5 +36,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157592801/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rama, some rights reserved (CC BY-SA)",
+   "photo": 157592801
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157592802/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Etemenanki3, some rights reserved (CC BY-SA)",
+   "photo": 157592802
+  }
+ ]
 }

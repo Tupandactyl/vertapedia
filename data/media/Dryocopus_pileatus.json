@@ -162,5 +162,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168915535/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joshlaymon, some rights reserved (CC BY-SA)",
+   "photo": 168915535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4264024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) liveinparadise, some rights reserved (CC BY-NC)",
+   "photo": 4264024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122503745/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 122503745
+  }
+ ]
 }

@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619996059/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) cello caruso-turiello, some rights reserved (CC BY), uploaded by cello caruso-turiello",
+   "photo": 619996059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253298467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto González, some rights reserved (CC BY-NC), uploaded by Roberto González",
+   "photo": 253298467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2985929/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos G Velazco-Macias, some rights reserved (CC BY-NC), uploaded by Carlos G Velazco-Macias",
+   "photo": 2985929
+  }
+ ]
 }

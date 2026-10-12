@@ -38,5 +38,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358967145/{size}.jpg",
+   "license": "cc0",
+   "attribution": "Sem direitos reservados, carregado por James Eaton",
+   "photo": 358967145
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498648096/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jiao Sun (孙娇), alguns direitos reservados (CC BY), carregado por Jiao Sun (孙娇)",
+   "photo": 498648096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358966840/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "Sem direitos reservados, carregado por James Eaton",
+   "photo": 358966840
+  }
+ ]
 }

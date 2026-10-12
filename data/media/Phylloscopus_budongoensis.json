@@ -56,5 +56,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215359907/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) usavalli, some rights reserved (CC BY-NC)",
+   "photo": 215359907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81438720/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-NC-SA)",
+   "photo": 81438720
+  }
+ ]
 }

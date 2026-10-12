@@ -132,5 +132,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472286950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Уколов, some rights reserved (CC BY-NC), uploaded by Илья Уколов",
+   "photo": 472286950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228144204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 228144204
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30259532/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) 尹若宇, some rights reserved (CC BY-SA), uploaded by 尹若宇",
+   "photo": 30259532
+  }
+ ]
 }

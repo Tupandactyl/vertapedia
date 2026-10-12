@@ -212,5 +212,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2331533/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC), uploaded by BJ Stacey",
+   "photo": 2331533
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316811011/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 316811011
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 318870
+  }
+ ]
 }

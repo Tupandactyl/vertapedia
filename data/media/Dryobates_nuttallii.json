@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1273/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Baird, some rights reserved (CC BY)",
+   "photo": 1273
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2102277/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Melanie Schuchart, some rights reserved (CC BY-NC), uploaded by Melanie Schuchart",
+   "photo": 2102277
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5781689/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bairstow, some rights reserved (CC BY-NC), uploaded by Alex Bairstow",
+   "photo": 5781689
+  }
+ ]
 }

@@ -86,5 +86,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250856038/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Zani (born @ 325 ppm), some rights reserved (CC BY-NC), uploaded by Pete Zani (born @ 325 ppm)",
+   "photo": 250856038
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178026247/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 178026247
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81313795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fernando Ayala-Varela, some rights reserved (CC BY-NC), uploaded by Fernando Ayala-Varela",
+   "photo": 81313795
+  }
+ ]
 }

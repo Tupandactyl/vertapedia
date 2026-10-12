@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408874944/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Duncan Henderson, some rights reserved (CC BY-NC), uploaded by Duncan Henderson",
+   "photo": 408874944
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588654255/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) EcoNeighbour_, some rights reserved (CC BY-NC), uploaded by EcoNeighbour_",
+   "photo": 588654255
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597462123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) EcoNeighbour_, some rights reserved (CC BY-NC), uploaded by EcoNeighbour_",
+   "photo": 597462123
+  }
+ ]
 }

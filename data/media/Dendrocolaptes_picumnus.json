@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77100431/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian K. Herzog, some rights reserved (CC BY-NC), uploaded by Sebastian K. Herzog",
+   "photo": 77100431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116529222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 116529222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84297/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Hans Zwitzer, some rights reserved (CC BY-NC-SA)",
+   "photo": 84297
+  }
+ ]
 }

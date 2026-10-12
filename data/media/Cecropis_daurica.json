@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4461456/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) a-giau, some rights reserved (CC BY-NC-SA)",
+   "photo": 4461456
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13510684/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
+   "photo": 13510684
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30327584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kdonbo, some rights reserved (CC BY-NC)",
+   "photo": 30327584
+  }
+ ]
 }

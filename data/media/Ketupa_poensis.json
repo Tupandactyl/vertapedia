@@ -73,5 +73,25 @@
    "date": "2026-08-07"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152381816/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA), uploaded by Ewout Knoester",
+   "photo": 152381816
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7566761/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "photo": 7566761
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354207638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Gentil, some rights reserved (CC BY-NC), uploaded by Claire Gentil",
+   "photo": 354207638
+  }
+ ]
 }

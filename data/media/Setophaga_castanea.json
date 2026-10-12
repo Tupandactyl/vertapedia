@@ -134,5 +134,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103956046/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Emmanuel Escobar, some rights reserved (CC BY-NC), uploaded by Jorge Emmanuel Escobar",
+   "photo": 103956046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129163532/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) matthew_wills, some rights reserved (CC BY-NC), uploaded by matthew_wills",
+   "photo": 129163532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200091769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ed O'Connor, some rights reserved (CC BY-NC), uploaded by Ed O'Connor",
+   "photo": 200091769
+  }
+ ]
 }

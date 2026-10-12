@@ -132,5 +132,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98808096/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Nunes, some rights reserved (CC BY-NC), uploaded by Christian Nunes",
+   "photo": 98808096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67549216/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gustavo Gonsioroski, some rights reserved (CC BY-NC), uploaded by Gustavo Gonsioroski",
+   "photo": 67549216
+  }
+ ]
 }

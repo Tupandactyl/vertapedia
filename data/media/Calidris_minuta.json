@@ -118,5 +118,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29188802/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Данилова Валерия, some rights reserved (CC BY-NC), uploaded by Данилова Валерия",
+   "photo": 29188802
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61212026/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Imran Shah, some rights reserved (CC BY-SA)",
+   "photo": 61212026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61212029/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Imran Shah, some rights reserved (CC BY-SA)",
+   "photo": 61212029
+  }
+ ]
 }

@@ -104,5 +104,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1563507/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Greg Miles, some rights reserved (CC BY-SA)",
+   "photo": 1563507
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381742426/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iain Campbell, some rights reserved (CC BY-NC), uploaded by Iain Campbell",
+   "photo": 381742426
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350977276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 350977276
+  }
+ ]
 }

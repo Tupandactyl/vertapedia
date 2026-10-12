@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246152437/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 246152437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255462448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Willianderson Lima, some rights reserved (CC BY-NC), uploaded by Willianderson Lima",
+   "photo": 255462448
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352441171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
+   "photo": 352441171
+  }
+ ]
 }

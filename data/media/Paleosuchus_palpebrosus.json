@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18607447/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vincent A. Vos, some rights reserved (CC BY), uploaded by Vincent A. Vos",
+   "photo": 18607447
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87453868/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederico Acaz Sonntag, some rights reserved (CC BY-NC), uploaded by Frederico Acaz Sonntag",
+   "photo": 87453868
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251580337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Javier Caicedo Moncada, some rights reserved (CC BY-NC), uploaded by Javier Caicedo Moncada",
+   "photo": 251580337
+  }
+ ]
 }

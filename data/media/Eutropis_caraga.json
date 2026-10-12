@@ -78,5 +78,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387243907/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Александра Ивушкина, some rights reserved (CC BY-NC), uploaded by Александра Ивушкина",
+   "photo": 387243907
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/673635/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 673635
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443988715/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+   "photo": 443988715
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338135931/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Darmstadt, some rights reserved (CC BY-NC), uploaded by Sam Darmstadt",
+   "photo": 338135931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17674423/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leithallb, some rights reserved (CC BY-NC), uploaded by leithallb",
+   "photo": 17674423
+  }
+ ]
 }

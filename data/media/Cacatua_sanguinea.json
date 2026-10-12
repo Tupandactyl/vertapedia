@@ -161,5 +161,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594571379/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victoria, some rights reserved (CC BY-NC), uploaded by Victoria",
+   "photo": 594571379
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/417667448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Sonter, some rights reserved (CC BY-NC), uploaded by Emily Sonter",
+   "photo": 417667448
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194683553/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) george_seagull, some rights reserved (CC BY-NC)",
+   "photo": 194683553
+  }
+ ]
 }

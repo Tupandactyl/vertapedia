@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242305012/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yinzixu03, some rights reserved (CC BY-NC), uploaded by yinzixu03",
+   "photo": 242305012
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242931860/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yinzixu03, some rights reserved (CC BY-NC), uploaded by yinzixu03",
+   "photo": 242931860
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185319231/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 185319231
+  }
+ ]
 }

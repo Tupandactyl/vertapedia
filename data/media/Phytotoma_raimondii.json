@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3793654/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 3793654
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6904131/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Flanagan, some rights reserved (CC BY-NC), uploaded by Jeremy Flanagan",
+   "photo": 6904131
+  }
+ ]
 }

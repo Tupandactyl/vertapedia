@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507236/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 1507236
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252396442/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ericson Cernawsky Igual, some rights reserved (CC BY-SA), uploaded by Ericson Cernawsky Igual",
+   "photo": 252396442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209954395/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roberto_c_richard, some rights reserved (CC BY-NC), uploaded by roberto_c_richard",
+   "photo": 209954395
+  }
+ ]
 }

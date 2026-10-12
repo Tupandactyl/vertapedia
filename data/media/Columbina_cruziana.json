@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337007380/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alma Espinoza, some rights reserved (CC BY-NC), uploaded by Alma Espinoza",
+   "photo": 337007380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376471930/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Hernandez, some rights reserved (CC BY-NC), uploaded by Ariel Hernandez",
+   "photo": 376471930
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349887822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ariel Hernandez, some rights reserved (CC BY-NC), uploaded by Ariel Hernandez",
+   "photo": 349887822
+  }
+ ]
 }

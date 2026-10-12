@@ -151,5 +151,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8003653/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marvtorrez, some rights reserved (CC BY-NC), uploaded by marvtorrez",
+   "photo": 8003653
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411121377/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) cello caruso-turiello, some rights reserved (CC BY), uploaded by cello caruso-turiello",
+   "photo": 411121377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269310001/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 269310001
+  }
+ ]
 }

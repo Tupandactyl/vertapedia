@@ -73,5 +73,25 @@
    "date": "2021-11-14"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59055343/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Edson Luis Fabro Gasperin, some rights reserved (CC BY-SA), uploaded by Edson Luis Fabro Gasperin",
+   "photo": 59055343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639624577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alyssa, some rights reserved (CC BY-NC), uploaded by Alyssa",
+   "photo": 639624577
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166285190/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Deonir Geolvane Zimmermann",
+   "photo": 166285190
+  }
+ ]
 }

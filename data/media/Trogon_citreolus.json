@@ -126,5 +126,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71196049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rodrigo Arrazola, some rights reserved (CC BY-NC), uploaded by Rodrigo Arrazola",
+   "photo": 71196049
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2240976/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
+   "photo": 2240976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2077598/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "photo": 2077598
+  }
+ ]
 }

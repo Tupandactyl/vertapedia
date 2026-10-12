@@ -169,5 +169,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464252459/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Bell, some rights reserved (CC BY), uploaded by Alan Bell",
+   "photo": 464252459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335538981/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alan Bell, some rights reserved (CC BY), uploaded by Alan Bell",
+   "photo": 335538981
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1513834/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+   "photo": 1513834
+  }
+ ]
 }

@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451560716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Deepa Mohan, some rights reserved (CC BY-NC), uploaded by Deepa Mohan",
+   "photo": 451560716
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6467370/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 6467370
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304976/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) raman, some rights reserved (CC BY-NC-SA)",
+   "photo": 304976
+  }
+ ]
 }

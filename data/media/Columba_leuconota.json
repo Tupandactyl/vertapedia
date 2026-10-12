@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171191/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Francesco Veronesi, some rights reserved (CC BY-NC-SA)",
+   "photo": 171191
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103613414/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 103613414
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330155969/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Anirban Datta-Roy, some rights reserved (CC BY), uploaded by Anirban Datta-Roy",
+   "photo": 330155969
+  }
+ ]
 }

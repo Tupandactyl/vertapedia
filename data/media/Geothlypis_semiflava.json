@@ -155,5 +155,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30658921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) K Schneider, some rights reserved (CC BY-NC), uploaded by K Schneider",
+   "photo": 30658921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137612/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Don Faulkner, some rights reserved (CC BY-SA)",
+   "photo": 137612
+  }
+ ]
 }

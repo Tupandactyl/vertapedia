@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29610495/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Philipp Pavelka, some rights reserved (CC BY), uploaded by Philipp Pavelka",
+   "photo": 29610495
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202015832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rdsage, some rights reserved (CC BY-NC), uploaded by rdsage",
+   "photo": 202015832
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67859/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nestor Galina, some rights reserved (CC BY)",
+   "photo": 67859
+  }
+ ]
 }

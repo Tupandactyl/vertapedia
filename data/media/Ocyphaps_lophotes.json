@@ -124,5 +124,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53253035/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison, some rights reserved (CC BY-SA)",
+   "photo": 53253035
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53253036/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Jefferies, some rights reserved (CC BY-NC)",
+   "photo": 53253036
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6287874/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sear, some rights reserved (CC BY-NC), uploaded by John Sear",
+   "photo": 6287874
+  }
+ ]
 }

@@ -228,5 +228,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178279576/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kent Ross, some rights reserved (CC BY-NC), uploaded by Kent Ross",
+   "photo": 178279576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62065921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Tepper, some rights reserved (CC BY-NC), uploaded by Nick Tepper",
+   "photo": 62065921
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244577292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "photo": 244577292
+  }
+ ]
 }

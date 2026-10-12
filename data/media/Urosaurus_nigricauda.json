@@ -93,5 +93,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16037860/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 16037860
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606460/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerardo Marrón, some rights reserved (CC BY-NC), uploaded by Gerardo Marrón",
+   "photo": 606460
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16037862/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 16037862
+  }
+ ]
 }

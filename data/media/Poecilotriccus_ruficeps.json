@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173198337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 173198337
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78619176/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) davidgomez2327, some rights reserved (CC BY-NC)",
+   "photo": 78619176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22173673/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebas Arango, some rights reserved (CC BY-NC), uploaded by Sebas Arango",
+   "photo": 22173673
+  }
+ ]
 }

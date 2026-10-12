@@ -162,5 +162,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64228833/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jorgevalenzuelae, some rights reserved (CC BY-NC)",
+   "photo": 64228833
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48374382/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Rodolfo Lillo Lobos, some rights reserved (CC BY-NC), uploaded by Juan Rodolfo Lillo Lobos",
+   "photo": 48374382
+  }
+ ]
 }

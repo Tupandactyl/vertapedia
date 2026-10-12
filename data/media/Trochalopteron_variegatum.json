@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621954674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rajeev Ahal, some rights reserved (CC BY-NC), uploaded by Rajeev Ahal",
+   "photo": 621954674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13726851/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amol Pendharkar, some rights reserved (CC BY-NC), uploaded by Amol Pendharkar",
+   "photo": 13726851
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343658091/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rajendra Koranga, some rights reserved (CC BY-NC), uploaded by Rajendra Koranga",
+   "photo": 343658091
+  }
+ ]
 }

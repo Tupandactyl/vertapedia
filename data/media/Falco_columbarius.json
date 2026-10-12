@@ -188,5 +188,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349349598/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aleksandr Berdnikov, some rights reserved (CC BY-NC), uploaded by Aleksandr Berdnikov",
+   "photo": 349349598
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6225246/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 6225246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324285453/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Kathlin Simpkins",
+   "photo": 324285453
+  }
+ ]
 }

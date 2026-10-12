@@ -264,5 +264,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52720939/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Chen, some rights reserved (CC BY-NC), uploaded by Kevin Chen",
+   "photo": 52720939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67557722/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tyson Victor, some rights reserved (CC BY-NC), uploaded by Tyson Victor",
+   "photo": 67557722
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420524/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jess, some rights reserved (CC BY-NC), uploaded by Jess",
+   "photo": 420524
+  }
+ ]
 }

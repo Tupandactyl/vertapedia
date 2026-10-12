@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53551783/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pdubbin, some rights reserved (CC BY-NC)",
+   "photo": 53551783
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96605444/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Lambert, some rights reserved (CC BY-NC-SA), uploaded by Nick Lambert",
+   "photo": 96605444
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222444054/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Whitington, some rights reserved (CC BY), uploaded by Paul Whitington",
+   "photo": 222444054
+  }
+ ]
 }

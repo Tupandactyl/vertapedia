@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38794223/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) El Chivizcoyo, some rights reserved (CC BY-NC), uploaded by El Chivizcoyo",
+   "photo": 38794223
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29223601/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Oscar Marín, some rights reserved (CC BY-SA), uploaded by Oscar Marín",
+   "photo": 29223601
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29223639/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Oscar Marín, some rights reserved (CC BY-SA), uploaded by Oscar Marín",
+   "photo": 29223639
+  }
+ ]
 }

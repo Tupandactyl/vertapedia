@@ -186,5 +186,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442635860/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas de Fraipont, some rights reserved (CC BY-NC), uploaded by Thomas de Fraipont",
+   "photo": 442635860
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6217102/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY), uploaded by Sam Kieschnick",
+   "photo": 6217102
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7371013/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Folds, some rights reserved (CC BY-NC), uploaded by Daniel Folds",
+   "photo": 7371013
+  }
+ ]
 }

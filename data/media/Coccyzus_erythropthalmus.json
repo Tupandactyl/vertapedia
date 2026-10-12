@@ -158,5 +158,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45689937/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Terry Sohl, some rights reserved (CC BY-NC), uploaded by Terry Sohl",
+   "photo": 45689937
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199160677/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maplhgr, some rights reserved (CC BY-NC)",
+   "photo": 199160677
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208390187/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) owlice, some rights reserved (CC BY-NC)",
+   "photo": 208390187
+  }
+ ]
 }

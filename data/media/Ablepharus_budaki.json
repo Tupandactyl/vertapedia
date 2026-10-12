@@ -128,5 +128,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196836553/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) TOUROULT Julien, some rights reserved (CC BY), uploaded by TOUROULT Julien",
+   "photo": 196836553
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64495769/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Ville, some rights reserved (CC BY-NC), uploaded by Alex Ville",
+   "photo": 64495769
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18391239/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bart, some rights reserved (CC BY), uploaded by Bart",
+   "photo": 18391239
+  }
+ ]
 }

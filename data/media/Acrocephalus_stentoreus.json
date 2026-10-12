@@ -120,5 +120,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118354163/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashit Gandhi, some rights reserved (CC BY-NC), uploaded by Ashit Gandhi",
+   "photo": 118354163
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31087445/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) clicque, some rights reserved (CC BY-NC), uploaded by clicque",
+   "photo": 31087445
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61892865/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+   "photo": 61892865
+  }
+ ]
 }

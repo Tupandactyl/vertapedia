@@ -42,5 +42,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60492587/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) David  Eickhoff, some rights reserved (CC BY-NC-SA)",
+   "photo": 60492587
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447821141/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gmelin, 1788, some rights reserved (CC BY-SA)",
+   "photo": 447821141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447821149/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Gmelin, 1788, some rights reserved (CC BY-SA)",
+   "photo": 447821149
+  }
+ ]
 }

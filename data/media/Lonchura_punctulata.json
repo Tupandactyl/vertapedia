@@ -211,5 +211,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161725682/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Raposo, some rights reserved (CC BY-NC), uploaded by Daniel Raposo",
+   "photo": 161725682
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10248033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Catalina Tong, some rights reserved (CC BY-NC), uploaded by Catalina Tong",
+   "photo": 10248033
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80296657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sharma BC, some rights reserved (CC BY-NC), uploaded by Sharma BC",
+   "photo": 80296657
+  }
+ ]
 }

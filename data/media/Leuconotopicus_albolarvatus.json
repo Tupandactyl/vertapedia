@@ -107,5 +107,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430921766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jtajax, some rights reserved (CC BY-NC)",
+   "photo": 430921766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606055294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Long, some rights reserved (CC BY-NC), uploaded by Michael Long",
+   "photo": 606055294
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38922399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Iwane, some rights reserved (CC BY-NC), uploaded by Tony Iwane",
+   "photo": 38922399
+  }
+ ]
 }

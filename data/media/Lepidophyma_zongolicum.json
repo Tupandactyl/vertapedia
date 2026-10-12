@@ -57,5 +57,25 @@
    "date": "2024-08-07"
   }
  ],
- "wiki": null
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272546920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Ma Contortrix, some rights reserved (CC BY-NC), uploaded by Juan Ma Contortrix",
+   "photo": 272546920
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27126402/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA), uploaded by Esaú Valdenegro-Brito",
+   "photo": 27126402
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151894279/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) María Eugenia Mendiola González, some rights reserved (CC BY-NC-SA), uploaded by María Eugenia Mendiola González",
+   "photo": 151894279
+  }
+ ]
 }

@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222644904/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+   "photo": 222644904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85695234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pau Lo, some rights reserved (CC BY-NC), uploaded by Pau Lo",
+   "photo": 85695234
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290087247/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simón Pla García, some rights reserved (CC BY-NC), uploaded by Simón Pla García",
+   "photo": 290087247
+  }
+ ]
 }

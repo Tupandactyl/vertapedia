@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293391900/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Quentin Vandemoortele, some rights reserved (CC BY-NC), uploaded by Quentin Vandemoortele",
+   "photo": 293391900
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340537660/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermina Rappi, some rights reserved (CC BY-NC), uploaded by Guillermina Rappi",
+   "photo": 340537660
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334809039/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Ripoll Castro, some rights reserved (CC BY-NC), uploaded by Antonio Ripoll Castro",
+   "photo": 334809039
+  }
+ ]
 }

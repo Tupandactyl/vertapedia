@@ -144,5 +144,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1755841/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
+   "photo": 1755841
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249037827/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+   "photo": 249037827
+  }
+ ]
 }

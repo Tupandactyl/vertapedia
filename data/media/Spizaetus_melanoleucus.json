@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29853207/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juanflores, some rights reserved (CC BY-NC), uploaded by juanflores",
+   "photo": 29853207
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168976355/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Estación Biológica Las Guacamayas, some rights reserved (CC BY-NC), uploaded by Estación Biológica Las Guacamayas",
+   "photo": 168976355
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137707454/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by NINA WENÓLI",
+   "photo": 137707454
+  }
+ ]
 }

@@ -135,5 +135,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/569645/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+   "photo": 569645
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567246/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "photo": 567246
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/570711/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+   "photo": 570711
+  }
+ ]
 }

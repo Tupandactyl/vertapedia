@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/549708523/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Margaret Alcorn, some rights reserved (CC BY-NC), uploaded by Margaret Alcorn",
+   "photo": 549708523
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315447333/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Owen Lishmund, some rights reserved (CC BY-NC), uploaded by Owen Lishmund",
+   "photo": 315447333
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530023305/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sam Gordon, some rights reserved (CC BY-NC-SA), uploaded by Sam Gordon",
+   "photo": 530023305
+  }
+ ]
 }

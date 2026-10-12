@@ -150,5 +150,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56148989/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+   "photo": 56148989
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178294223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kye Turnbull, some rights reserved (CC BY-NC), uploaded by Kye Turnbull",
+   "photo": 178294223
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96192600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Liana, some rights reserved (CC BY-NC), uploaded by Liana",
+   "photo": 96192600
+  }
+ ]
 }

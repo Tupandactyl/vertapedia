@@ -117,5 +117,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498538813/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) annotate, some rights reserved (CC BY-NC)",
+   "photo": 498538813
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60927592/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Dew, some rights reserved (CC BY-NC), uploaded by Steve Dew",
+   "photo": 60927592
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8453005/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Donald Hobern, some rights reserved (CC BY)",
+   "photo": 8453005
+  }
+ ]
 }

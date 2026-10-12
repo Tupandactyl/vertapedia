@@ -81,5 +81,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225067522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Langur Eco Travels, some rights reserved (CC BY-NC), uploaded by Langur Eco Travels",
+   "photo": 225067522
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181103871/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chintan sheth, some rights reserved (CC BY-NC), uploaded by chintan sheth",
+   "photo": 181103871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113603273/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Sunil Dete, some rights reserved (CC BY-SA)",
+   "photo": 113603273
+  }
+ ]
 }

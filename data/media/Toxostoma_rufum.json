@@ -167,5 +167,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186561540/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Chrissy McClarren and Andy Reago",
+   "photo": 186561540
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327758776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maria Andreina Pacheco, some rights reserved (CC BY-NC), uploaded by Maria Andreina Pacheco",
+   "photo": 327758776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29510488/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
+   "photo": 29510488
+  }
+ ]
 }

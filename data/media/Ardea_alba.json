@@ -168,5 +168,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56653891/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) daverowe, some rights reserved (CC BY-NC)",
+   "photo": 56653891
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50369455/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Tansley, some rights reserved (CC BY-NC), uploaded by Kyle Tansley",
+   "photo": 50369455
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359167878/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Baird, some rights reserved (CC BY)",
+   "photo": 359167878
+  }
+ ]
 }

@@ -165,5 +165,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62133610/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
+   "photo": 62133610
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97209449/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, some rights reserved (CC BY-NC), uploaded by Nelson Apolo",
+   "photo": 97209449
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106988437/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) roam4birds, some rights reserved (CC BY-NC), uploaded by roam4birds",
+   "photo": 106988437
+  }
+ ]
 }

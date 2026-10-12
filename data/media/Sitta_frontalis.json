@@ -139,5 +139,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176738850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zen2020, some rights reserved (CC BY-NC)",
+   "photo": 176738850
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58187219/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chathuri Jayatissa, some rights reserved (CC BY-NC), uploaded by Chathuri Jayatissa",
+   "photo": 58187219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118501373/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC), uploaded by Albert Kang",
+   "photo": 118501373
+  }
+ ]
 }

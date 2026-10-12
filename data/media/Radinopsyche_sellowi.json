@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30430861/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Eamon Corbett, some rights reserved (CC BY), uploaded by Eamon Corbett",
+   "photo": 30430861
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187729760/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+   "photo": 187729760
+  }
+ ]
 }

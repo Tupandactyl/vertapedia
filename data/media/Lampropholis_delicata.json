@@ -186,5 +186,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387159640/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), uploaded by Saryu Mae 前 朝琉",
+   "photo": 387159640
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254655651/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wedgie_eagle, some rights reserved (CC BY-NC), uploaded by wedgie_eagle",
+   "photo": 254655651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28070615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Neville Hudson, some rights reserved (CC BY-NC), uploaded by Neville Hudson",
+   "photo": 28070615
+  }
+ ]
 }

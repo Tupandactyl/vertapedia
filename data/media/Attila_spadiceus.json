@@ -141,5 +141,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176409496/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY), uploaded by Trevor Van Loon",
+   "photo": 176409496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22105906/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Sergio Rivero Beneitez, some rights reserved (CC BY-NC-SA), uploaded by Sergio Rivero Beneitez",
+   "photo": 22105906
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117378143/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 117378143
+  }
+ ]
 }

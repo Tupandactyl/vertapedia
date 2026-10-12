@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285451989/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ramesh Shenai, some rights reserved (CC BY), uploaded by Ramesh Shenai",
+   "photo": 285451989
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248183073/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diegoreggianti, some rights reserved (CC BY-NC), uploaded by diegoreggianti",
+   "photo": 248183073
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82656868/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roshan Shetty, some rights reserved (CC BY-NC), uploaded by Roshan Shetty",
+   "photo": 82656868
+  }
+ ]
 }

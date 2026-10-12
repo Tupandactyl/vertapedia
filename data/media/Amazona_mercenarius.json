@@ -146,5 +146,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363897343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+   "photo": 363897343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157587740/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Félix Uribe, some rights reserved (CC BY-SA)",
+   "photo": 157587740
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61667794/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Woodruff, some rights reserved (CC BY-NC), uploaded by Michael Woodruff",
+   "photo": 61667794
+  }
+ ]
 }

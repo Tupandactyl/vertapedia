@@ -88,5 +88,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198653695/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 198653695
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614475017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pandu Ilmi Prastyanto, some rights reserved (CC BY-NC), uploaded by Pandu Ilmi Prastyanto",
+   "photo": 614475017
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185308620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sam Hambly, some rights reserved (CC BY-NC), uploaded by Sam Hambly",
+   "photo": 185308620
+  }
+ ]
 }

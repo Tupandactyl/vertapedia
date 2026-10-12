@@ -133,5 +133,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351027991/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+   "photo": 351027991
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182221/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Malcolm Tattersall, some rights reserved (CC BY-NC-SA)",
+   "photo": 182221
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70483326/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Ayers, some rights reserved (CC BY-NC), uploaded by Mark Ayers",
+   "photo": 70483326
+  }
+ ]
 }

@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124195535/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 124195535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7572282/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Totodu74, some rights reserved (CC BY-SA)",
+   "photo": 7572282
+  }
+ ]
 }

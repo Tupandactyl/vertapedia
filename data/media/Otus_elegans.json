@@ -106,5 +106,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104619954/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "photo": 104619954
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98701662/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ben Tsai蔡維哲, some rights reserved (CC BY-NC), uploaded by Ben Tsai蔡維哲",
+   "photo": 98701662
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2085906/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 莊 扁扁, some rights reserved (CC BY-NC-SA)",
+   "photo": 2085906
+  }
+ ]
 }

@@ -115,5 +115,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27395234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins،  بعض الحقوق محفوظة (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27395234
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28817413/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tunpin.ong،  بعض الحقوق محفوظة (CC BY-SA)",
+   "photo": 28817413
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87581223/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan M،  بعض الحقوق محفوظة (CC BY-NC), uploaded by Jonathan M",
+   "photo": 87581223
+  }
+ ]
 }

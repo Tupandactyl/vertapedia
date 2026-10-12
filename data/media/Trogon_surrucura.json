@@ -147,5 +147,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11763234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+   "photo": 11763234
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96159118/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eliara Solange Müller, some rights reserved (CC BY-NC), uploaded by Eliara Solange Müller",
+   "photo": 96159118
+  }
+ ]
 }

@@ -89,5 +89,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578330614/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) miss varanus, some rights reserved (CC BY-NC), uploaded by miss varanus",
+   "photo": 578330614
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20758143/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Trainor, some rights reserved (CC BY-NC), uploaded by Colin Trainor",
+   "photo": 20758143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20758208/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Colin Trainor, some rights reserved (CC BY-NC), uploaded by Colin Trainor",
+   "photo": 20758208
+  }
+ ]
 }

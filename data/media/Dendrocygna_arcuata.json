@@ -121,5 +121,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25925/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marj Kibby, some rights reserved (CC BY-NC)",
+   "photo": 25925
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marj Kibby, some rights reserved (CC BY-NC)",
+   "photo": 25926
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320515785/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dixon Lau, some rights reserved (CC BY-NC), uploaded by Dixon Lau",
+   "photo": 320515785
+  }
+ ]
 }

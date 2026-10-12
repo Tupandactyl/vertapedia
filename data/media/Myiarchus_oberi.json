@@ -153,5 +153,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14395694/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 14395694
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5109832/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heather Pickard, some rights reserved (CC BY-NC), uploaded by Heather Pickard",
+   "photo": 5109832
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118493948/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anthonycarole, some rights reserved (CC BY-NC), uploaded by anthonycarole",
+   "photo": 118493948
+  }
+ ]
 }

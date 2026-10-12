@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232993896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) javatru, osa oikeuksista pidätetään (CC BY-NC), lähettänyt javatru",
+   "photo": 232993896
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116531493/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, osa oikeuksista pidätetään (CC BY), lähettänyt Jan Ebr &amp; Ivana Ebrová",
+   "photo": 116531493
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116531808/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, osa oikeuksista pidätetään (CC BY), lähettänyt Jan Ebr &amp; Ivana Ebrová",
+   "photo": 116531808
+  }
+ ]
 }

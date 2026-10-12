@@ -127,5 +127,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2971055/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 2971055
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145255377/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Valeria Ostos, some rights reserved (CC BY-NC), uploaded by Valeria Ostos",
+   "photo": 145255377
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40297430/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Meza, some rights reserved (CC BY-NC), uploaded by Kevin Meza",
+   "photo": 40297430
+  }
+ ]
 }

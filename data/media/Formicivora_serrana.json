@@ -157,5 +157,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224116477/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Gonçalves Carvalho, some rights reserved (CC BY-NC), uploaded by Paulo Gonçalves Carvalho",
+   "photo": 224116477
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216211487/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roberto De Oliveira Silva, some rights reserved (CC BY-NC), uploaded by Roberto De Oliveira Silva",
+   "photo": 216211487
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13159643/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Hector Bottai, some rights reserved (CC BY-SA)",
+   "photo": 13159643
+  }
+ ]
 }

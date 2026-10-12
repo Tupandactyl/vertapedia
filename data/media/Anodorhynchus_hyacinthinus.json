@@ -196,5 +196,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144156185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+   "photo": 144156185
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216053787/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Barth, some rights reserved (CC BY-NC), uploaded by Michael Barth",
+   "photo": 216053787
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331508133/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) cello caruso-turiello, some rights reserved (CC BY), uploaded by cello caruso-turiello",
+   "photo": 331508133
+  }
+ ]
 }

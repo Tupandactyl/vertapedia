@@ -148,5 +148,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218273627/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique Seigarro Moutinho, some rights reserved (CC BY-NC), uploaded by Henrique Seigarro Moutinho",
+   "photo": 218273627
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258386821/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Matthew Berigan",
+   "photo": 258386821
+  }
+ ]
 }

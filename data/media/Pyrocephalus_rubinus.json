@@ -187,5 +187,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255088514/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) photogo, some rights reserved (CC BY-NC)",
+   "photo": 255088514
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97234766/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+   "photo": 97234766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18709953/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Viduetsky, some rights reserved (CC BY-NC), uploaded by Alexander Viduetsky",
+   "photo": 18709953
+  }
+ ]
 }

@@ -295,5 +295,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197457958/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MARC MARTIN SOLA, some rights reserved (CC BY-NC), uploaded by MARC MARTIN SOLA",
+   "photo": 197457958
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/675226735/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+   "photo": 675226735
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248337518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+   "photo": 248337518
+  }
+ ]
 }

@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340688141/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brendan Murtha, some rights reserved (CC BY-NC), uploaded by Brendan Murtha",
+   "photo": 340688141
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631221435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Milan Sojitra, some rights reserved (CC BY-NC), uploaded by Milan Sojitra",
+   "photo": 631221435
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631221559/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Milan Sojitra, some rights reserved (CC BY-NC), uploaded by Milan Sojitra",
+   "photo": 631221559
+  }
+ ]
 }

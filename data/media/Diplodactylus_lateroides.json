@@ -88,5 +88,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11490198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC), uploaded by Felix Fleck",
+   "photo": 11490198
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5861972/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ry Beaver, some rights reserved (CC BY-NC), uploaded by Ry Beaver",
+   "photo": 5861972
+  }
+ ]
 }

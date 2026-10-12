@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620723669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Asep Burhanudin, some rights reserved (CC BY-NC), uploaded by Asep Burhanudin",
+   "photo": 620723669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337295929/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Joseph Morlan, some rights reserved (CC BY-SA), uploaded by Joseph Morlan",
+   "photo": 337295929
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433676164/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 433676164
+  }
+ ]
 }

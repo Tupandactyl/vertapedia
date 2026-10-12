@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339055046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nereston (Nelinho) Camargo, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Nereston (Nelinho) Camargo",
+   "photo": 339055046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443559046/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, einige Rechte vorbehalten (CC BY), hochgeladen von Christoph Moning",
+   "photo": 443559046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65918066/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anderson Sandro, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Anderson Sandro",
+   "photo": 65918066
+  }
+ ]
 }

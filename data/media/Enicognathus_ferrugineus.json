@@ -148,5 +148,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198371508/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik",
+   "photo": 198371508
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61456075/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham",
+   "photo": 61456075
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402673815/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Fernández Reza, some rights reserved (CC BY-NC), uploaded by Eduardo Fernández Reza",
+   "photo": 402673815
+  }
+ ]
 }

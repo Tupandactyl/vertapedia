@@ -123,5 +123,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5887229/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thesoulflowers, some rights reserved (CC BY-NC)",
+   "photo": 5887229
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75304714/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kabir Singh Waraich, some rights reserved (CC BY-NC), uploaded by Kabir Singh Waraich",
+   "photo": 75304714
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75304733/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kabir Singh Waraich, some rights reserved (CC BY-NC), uploaded by Kabir Singh Waraich",
+   "photo": 75304733
+  }
+ ]
 }

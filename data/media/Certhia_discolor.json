@@ -89,5 +89,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137318614/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)",
+   "photo": 137318614
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39886657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) connk, some rights reserved (CC BY-NC), uploaded by connk",
+   "photo": 39886657
+  }
+ ]
 }

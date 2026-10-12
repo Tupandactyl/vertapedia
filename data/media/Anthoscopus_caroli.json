@@ -106,5 +106,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41977203/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jennifer Rycenga, some rights reserved (CC BY-NC), uploaded by Jennifer Rycenga",
+   "photo": 41977203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153116606/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Andrew Deacon",
+   "photo": 153116606
+  }
+ ]
 }

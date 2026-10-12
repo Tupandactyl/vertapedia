@@ -144,5 +144,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "photo": 52766331
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347059861/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) In Memoriam: Mark Kilner, some rights reserved (CC BY-NC-SA)",
+   "photo": 347059861
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347059863/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Luiz Lapa, some rights reserved (CC BY)",
+   "photo": 347059863
+  }
+ ]
 }

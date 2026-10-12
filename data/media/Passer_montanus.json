@@ -194,5 +194,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Дмитрий Осипов, some rights reserved (CC BY-NC), uploaded by Дмитрий Осипов",
+   "photo": 165351252
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473342977/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 莲子, some rights reserved (CC BY-NC), uploaded by 莲子",
+   "photo": 473342977
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188286629/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ксения Соварцева, some rights reserved (CC BY-NC), uploaded by Ксения Соварцева",
+   "photo": 188286629
+  }
+ ]
 }

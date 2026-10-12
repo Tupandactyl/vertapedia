@@ -238,5 +238,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339460964/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Cliff Watkinson, some rights reserved (CC BY-SA)",
+   "photo": 339460964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340630943/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) gailhampshire, some rights reserved (CC BY)",
+   "photo": 340630943
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100995222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Konstantin Danilov, some rights reserved (CC BY-NC), uploaded by Konstantin Danilov",
+   "photo": 100995222
+  }
+ ]
 }

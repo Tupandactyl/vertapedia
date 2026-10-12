@@ -112,5 +112,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176747676/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaurab Talukdar, some rights reserved (CC BY-NC), uploaded by Gaurab Talukdar",
+   "photo": 176747676
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353235134/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Walk A Long, some rights reserved (CC BY-NC), uploaded by Walk A Long",
+   "photo": 353235134
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10130555/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+   "photo": 10130555
+  }
+ ]
 }

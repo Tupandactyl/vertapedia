@@ -95,5 +95,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180295966/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehd Halaouate, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Mehd Halaouate",
+   "photo": 180295966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3026231/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, osa oikeuksista pidätetään (CC BY)",
+   "photo": 3026231
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117967327/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Benoît Segerer",
+   "photo": 117967327
+  }
+ ]
 }

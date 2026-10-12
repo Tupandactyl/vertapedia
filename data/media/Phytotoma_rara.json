@@ -108,5 +108,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252294307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) m-polzin, some rights reserved (CC BY-NC)",
+   "photo": 252294307
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419767499/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ernesto Octavio Guzman Tapia, some rights reserved (CC BY-NC), uploaded by Ernesto Octavio Guzman Tapia",
+   "photo": 419767499
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122882708/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+   "photo": 122882708
+  }
+ ]
 }

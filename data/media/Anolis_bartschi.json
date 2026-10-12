@@ -121,5 +121,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7385420/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Hollinger, some rights reserved (CC BY-NC), uploaded by Peter Hollinger",
+   "photo": 7385420
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10419856/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) clmalone, some rights reserved (CC BY-NC), uploaded by clmalone",
+   "photo": 10419856
+  }
+ ]
 }

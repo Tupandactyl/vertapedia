@@ -129,5 +129,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12874547/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) GrrlScientist, some rights reserved (CC BY-SA)",
+   "photo": 12874547
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29548847/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mikael Bauer, some rights reserved (CC BY-NC), uploaded by Mikael Bauer",
+   "photo": 29548847
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67920402/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) GrrlScientist, some rights reserved (CC BY-SA)",
+   "photo": 67920402
+  }
+ ]
 }

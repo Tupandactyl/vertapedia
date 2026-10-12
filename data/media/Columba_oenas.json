@@ -125,5 +125,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119807269/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paul Lewis, some rights reserved (CC BY), uploaded by Paul Lewis",
+   "photo": 119807269
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352640506/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC), uploaded by Andrew Thompson",
+   "photo": 352640506
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5718408/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Carles Pastor, some rights reserved (CC BY-SA), uploaded by Carles Pastor",
+   "photo": 5718408
+  }
+ ]
 }

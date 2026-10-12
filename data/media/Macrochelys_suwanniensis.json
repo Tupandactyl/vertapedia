@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201716567/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenny Smith, some rights reserved (CC BY-NC), uploaded by Jenny Smith",
+   "photo": 201716567
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46829332/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giff Beaton, some rights reserved (CC BY-NC), uploaded by Giff Beaton",
+   "photo": 46829332
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27987178/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tyler Brock, some rights reserved (CC BY-NC), uploaded by Tyler Brock",
+   "photo": 27987178
+  }
+ ]
 }

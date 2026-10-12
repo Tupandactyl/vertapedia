@@ -94,5 +94,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328077174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+   "photo": 328077174
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96412028/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Dave Brown",
+   "photo": 96412028
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297376347/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abbas Razaghpanah, some rights reserved (CC BY-NC), uploaded by Abbas Razaghpanah",
+   "photo": 297376347
+  }
+ ]
 }

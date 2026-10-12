@@ -147,5 +147,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54389847/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Pedroza Guimarães, some rights reserved (CC BY-NC), uploaded by David Pedroza Guimarães",
+   "photo": 54389847
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54567526/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Pedroza Guimarães, some rights reserved (CC BY-NC), uploaded by David Pedroza Guimarães",
+   "photo": 54567526
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3473637/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+   "photo": 3473637
+  }
+ ]
 }

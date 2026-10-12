@@ -87,5 +87,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/623840613/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Vickers, some rights reserved (CC BY), uploaded by Dan Vickers",
+   "photo": 623840613
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352589165/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peterchristiaen, some rights reserved (CC BY-NC)",
+   "photo": 352589165
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94316928/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 94316928
+  }
+ ]
 }

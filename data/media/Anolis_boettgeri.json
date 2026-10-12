@@ -114,5 +114,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396069126/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joernkoehler, some rights reserved (CC BY-NC)",
+   "photo": 396069126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335513939/{size}.png",
+   "license": "cc-by",
+   "attribution": "(c) Unknown author, some rights reserved (CC BY)",
+   "photo": 335513939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335677641/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andes2amazonexpeditions, some rights reserved (CC BY-NC), uploaded by andes2amazonexpeditions",
+   "photo": 335677641
+  }
+ ]
 }

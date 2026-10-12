@@ -140,5 +140,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/648138/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John Ester, some rights reserved (CC BY)",
+   "photo": 648138
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23026902/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Vincent A. Vos, some rights reserved (CC BY), uploaded by Vincent A. Vos",
+   "photo": 23026902
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60219081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY-NC), uploaded by Trevor Van Loon",
+   "photo": 60219081
+  }
+ ]
 }

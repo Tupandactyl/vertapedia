@@ -68,5 +68,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398561939/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 398561939
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398561931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 398561931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398561690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 398561690
+  }
+ ]
 }

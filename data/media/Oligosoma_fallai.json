@@ -73,5 +73,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2259897/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+   "photo": 2259897
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67989144/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Auckland War Memorial Museum, some rights reserved (CC BY), uploaded by Auckland War Memorial Museum",
+   "photo": 67989144
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67989793/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Auckland War Memorial Museum, some rights reserved (CC BY), uploaded by Auckland War Memorial Museum",
+   "photo": 67989793
+  }
+ ]
 }

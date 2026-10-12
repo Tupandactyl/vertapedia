@@ -53,5 +53,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180958833/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Guiñazu, nogle rettigheder forbeholdes (CC BY-NC), uploadet af Alexander Guiñazu",
+   "photo": 180958833
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60072688/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Guillermo Debandi, nogle rettigheder forbeholdes (CC BY), uploadet af Guillermo Debandi",
+   "photo": 60072688
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60072699/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Guillermo Debandi, nogle rettigheder forbeholdes (CC BY), uploadet af Guillermo Debandi",
+   "photo": 60072699
+  }
+ ]
 }

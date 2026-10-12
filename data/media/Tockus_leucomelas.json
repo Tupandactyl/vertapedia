@@ -155,5 +155,25 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/687083936/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alexja_coetzee, some rights reserved (CC BY-NC)",
+   "photo": 687083936
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201939126/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) entomor, some rights reserved (CC BY-NC)",
+   "photo": 201939126
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699452590/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) afivewave, some rights reserved (CC BY-NC)",
+   "photo": 699452590
+  }
+ ]
 }

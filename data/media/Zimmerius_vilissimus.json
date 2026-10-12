@@ -149,5 +149,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63213721/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) William Stephens, einige Rechte vorbehalten (CC BY), hochgeladen von William Stephens",
+   "photo": 63213721
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3532417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Antonio Linage Espinosa, einige Rechte vorbehalten (CC BY-NC), hochgeladen von José Antonio Linage Espinosa",
+   "photo": 3532417
+  }
+ ]
 }

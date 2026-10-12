@@ -86,5 +86,19 @@
     ]
    }
   ]
- }
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622833250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gus Benson, some rights reserved (CC BY-NC), uploaded by Gus Benson",
+   "photo": 622833250
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328137198/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vaughan Jessnitz, some rights reserved (CC BY-NC), uploaded by Vaughan Jessnitz",
+   "photo": 328137198
+  }
+ ]
 }
