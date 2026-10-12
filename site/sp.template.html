@@ -155,8 +155,8 @@ function render(d){
   if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
   if(d.review)chips.push(`<span class="chip info">${esc(d.review)}</span>`);
   const ph=d.photos||[];
-  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/observations/${p.obs}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
-    <p class="galnote">사진: iNaturalist 연구등급 관찰 가운데 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). 사진을 누르면 원래 관찰 기록으로 갑니다.</p>`
+  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
+    <p class="galnote">사진: iNaturalist에서 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). ${ph[0].cover?'첫 사진은 iNaturalist 큐레이터가 고른 이 종의 대표 사진입니다. ':''}사진을 누르면 원래 기록으로 갑니다.</p>`
     :`<div class="nophoto">${d.fetched?'재사용이 허락된 iNaturalist 사진이 아직 없습니다.':'사진을 아직 받지 않은 종입니다. 한국 출현종부터 차례로 받고 있습니다.'}</div>`;
   const w=d.wiki;
   const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${para(p,d.sci)}</p>`).join('')).join('')

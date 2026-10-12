@@ -51,6 +51,8 @@ jobs:
           fi
       - name: iNaturalist 사진·위키백과 본문
         run: python scripts/fetch_media.py --scope "${{ steps.scope.outputs.scope }}" --limit "${{ steps.scope.outputs.limit }}"
+      - name: 대표 사진(큐레이터 선정)이 빠진 종 채우기
+        run: python scripts/fetch_media.py --covers
       - name: 저장소에 올리기
         run: |
           git config user.name "github-actions[bot]"

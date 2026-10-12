@@ -6,6 +6,7 @@
 
     python scripts/fetch_media.py                 # 국명이 있는 한국 출현종 (--scope named/unnamed/all)
     python scripts/fetch_media.py --limit 200     # 이번에 새로 받을 최대 종 수
+    python scripts/fetch_media.py --covers        # 이미 받은 종에 대표 사진(큐레이터 선정)만 채우기
 """
 import argparse
 import json
@@ -90,6 +91,43 @@ def inat_photos(taxon_id):
     return out
 
 
+def curated(taxon_photos, n=3):
+    """iNaturalist 큐레이터가 고른 분류군 대표 사진(재사용 허락된 것만). 대표 사진은 여기서 고른다."""
+    ok = set(LICENSES.split(","))
+    out = []
+    for tp in taxon_photos or []:
+        p = tp.get("photo") or {}
+        if (p.get("license_code") or "") in ok:
+            out.append(dict(url=re.sub(r"/square\.", "/{size}.", p["url"]), license=p["license_code"],
+                            attribution=p.get("attribution"), photo=p["id"]))
+        if len(out) >= n:
+            break
+    return out
+
+
+def inat_curated_many(ids):
+    """여러 분류군을 한 번에(30개씩) 불러 대표 사진을 얻는다 → {id: [사진]}"""
+    d = get("https://api.inaturalist.org/v1/taxa/" + ",".join(map(str, ids)))
+    return {t["id"]: curated(t.get("taxon_photos")) for t in (d or {}).get("results", [])}
+
+
+def backfill_covers():
+    """이미 받은 자료에 대표 사진이 없으면 채운다(분류군 30개씩 묶어 부르므로 빠르다)."""
+    todo = []
+    for f in sorted(OUT.glob("*.json")):
+        m = json.loads(f.read_text(encoding="utf-8"))
+        if m.get("inat") and "curated" not in m:
+            todo.append((f, m))
+    for k in range(0, len(todo), 30):
+        chunk = todo[k:k + 30]
+        got = inat_curated_many([m["inat"]["id"] for _, m in chunk])
+        for f, m in chunk:
+            m["curated"] = got.get(m["inat"]["id"], [])
+            f.write_text(json.dumps(m, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"대표 사진 {min(k + 30, len(todo))}/{len(todo)}", flush=True)
+    print("대표 사진 채운 종:", len(todo))
+
+
 SKIP_SECTIONS = {"references", "external links", "see also", "further reading", "notes", "sources",
                  "bibliography", "gallery", "footnotes", "citations", "cited sources", "works cited"}
 
@@ -149,8 +187,11 @@ def main():
     ap.add_argument("--max-age", type=int, default=60, help="이보다 오래된 자료만 다시 받는다(일)")
     ap.add_argument("--scope", choices=["korean", "named", "unnamed", "all"], default="korean")
     ap.add_argument("--all-named", action="store_true", help="--scope named 와 같다(예전 이름)")
+    ap.add_argument("--covers", action="store_true", help="이미 받은 종의 대표 사진만 채운다")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
+    if a.covers:
+        return backfill_covers()
     cutoff = (date.today() - timedelta(days=a.max_age)).isoformat()
     done = 0
     for t in targets("named" if a.all_named else a.scope):
@@ -174,6 +215,7 @@ def main():
             rec["inat"] = dict(id=tx["id"], name=tx["name"], observations=tx.get("observations_count"),
                                wikipedia_url=tx.get("wikipedia_url"))
             rec["photos"] = inat_photos(tx["id"])
+            rec["curated"] = inat_curated_many([tx["id"]]).get(tx["id"], [])
             rec["wiki"] = wiki_full(tx.get("wikipedia_url"))
         f.write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
         done += 1

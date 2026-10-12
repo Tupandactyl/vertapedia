@@ -47,7 +47,17 @@ orders, families, genera = first_by("order", "suborder"), first_by("family"), fi
 subfamilies = [t for t in names if t["rank"] == "subfamily"]
 species = [t for t in names if t["rank"] == "species"]
 linker = Linker(names)
-has_pic = lambda sci: bool(media.get(sci, {}).get("photos"))
+
+
+def pics(m):
+    """대표 사진(iNaturalist 큐레이터 선정) 하나를 맨 앞에, 그 뒤로 관찰 사진. 같은 사진은 한 번만."""
+    cover = [dict(c, cover=1) for c in (m.get("curated") or [])[:1]]
+    pid = lambda p: p["url"].split("/photos/")[-1].split("/")[0]
+    seen = {pid(c) for c in cover}
+    return cover + [p for p in m.get("photos", []) if pid(p) not in seen]
+
+
+has_pic = lambda sci: bool(media.get(sci, {}).get("photos") or media.get(sci, {}).get("curated"))
 dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 fname = lambda sci: sci.replace(" ", "_") + ".json"
 
@@ -136,7 +146,7 @@ for g, lst in seq.items():
             refs=dict(official=t.get("official") if t["status"] != "official" else None,
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
-            inat=m.get("inat"), photos=m.get("photos", []), wiki=linker.wiki(m.get("wiki")), fetched=m.get("fetched"),
+            inat=m.get("inat"), photos=pics(m), wiki=linker.wiki(m.get("wiki")), fetched=m.get("fetched"),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")
