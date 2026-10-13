@@ -141,7 +141,7 @@ for g, lst in seq.items():
             review=t.get("review"), synonyms=t.get("synonyms"),
             order=taxon(orders, g, o), suborder=taxon(orders, g, so),
             family=taxon(families, g, t.get("family")), genus=taxon(genera, g, t["sci"].split()[0]),
-            subspecies=[s for s in t.get("subspecies", []) if s.get("ko")],
+            subspecies=[s for s in t.get("subspecies", []) if s.get("ko") or t["group"] == "REPTILIA"],
             kos=dict(category=t["kos"].get("category")) if t.get("kos") else None,
             refs=dict(official=t.get("official") if t["status"] != "official" else None,
                       moe=t.get("moe"), trade=t.get("trade")),

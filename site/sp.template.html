@@ -169,7 +169,7 @@ function render(d){
   if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
   if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 유통명',d.refs.trade]);
   if(d.synonyms&&d.synonyms.length)refs.push(['이명',d.synonyms.map(s=>`<i>${esc(s)}</i>`).join(', ')]);
-  const ssp=d.subspecies&&d.subspecies.length?`<div class="card"><h3>아종</h3><ul class="ssp">${d.subspecies.map(s=>`<li><i>${esc(s.sci)}</i> ${esc(s.ko)}${s.note?` <span class="src">(${esc(s.note.split(' · ')[0])})</span>`:''}</li>`).join('')}</ul></div>`:'';
+  const ssp=d.subspecies&&d.subspecies.length?`<div class="card"><h3>아종</h3><ul class="ssp">${d.subspecies.map(s=>`<li><i>${esc(s.sci)}</i>${s.author?` <span class="src">${esc(s.author)}</span>`:''} ${esc(s.ko)}${s.note?` <span class="src">(${esc(s.note.split(' · ')[0])})</span>`:''}</li>`).join('')}</ul></div>`:'';
   const [g,e]=d.sci.split(' ');
   const links=[];
   if(d.ebird){links.push(`<li><a href="https://ebird.org/species/${d.ebird}" target="_blank" rel="noopener">eBird 종 정보 ↗</a><small>분포 지도, 관찰 기록</small></li>`);

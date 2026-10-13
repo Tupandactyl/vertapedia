@@ -3,6 +3,7 @@
 - 국가생물종목록 Ⅱ (2019) PDF → 공식 국명
 - 한국조류목록 2025 (한국조류학회) → 조류 국명 보충
 - 조류·파충류 구글 시트(xlsx 내보내기) → 학명 체계, 합의본·개인 제안·명칭 근거
+- Reptile Database 종 목록(data/rdb_checklist.xlsx) → 파충류 학명·아종의 기준 (scripts/rdb.py)
 - data/overrides.json → 편집자가 직접 정한 대응
 
 결과: data/names.json, data/report.txt
@@ -14,10 +15,13 @@ from pathlib import Path
 import openpyxl
 import pypdf
 
+import rdb
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 PDF = Path(sys.argv[1]) if len(sys.argv) > 1 else None
 
+RDB_LABEL = "Reptile Database 2026-06"
 RANKS = ["class", "order", "suborder", "family", "subfamily", "genus"]
 
 
@@ -295,6 +299,7 @@ def main():
     kos = parse_kos(DATA / "kos2025.xlsx")
 
     sheet = parse_birds(DATA / "birds.xlsx") + parse_reptiles(DATA / "reptiles.xlsx", ov)
+    rdb_log = rdb.apply(sheet, DATA, RDB_LABEL)
     # 과 머리줄이 없는 조류 탭(코뿔새목 등): eBird 분류표의 종 → 과로 채운다. 속 행은 그 속 종의 과를 따른다.
     fam_of = json.loads((DATA / "ebird_family_of.json").read_text(encoding="utf-8")) \
         if (DATA / "ebird_family_of.json").exists() else {}
@@ -368,7 +373,9 @@ def main():
             if kind == "link":
                 t = by_key[(o["group"], m["sci"])]
                 t.update(official=o["ko"], nibr_sci=o["sci"], review=f"학명 불일치: 국가생물종목록 {o['sci']}")
-                rec.update(sheet_sci=t["sci"], result="편집자 지정", how="학명 직접 지정")
+                if o["sci"] not in t.setdefault("synonyms", []):
+                    t["synonyms"].append(o["sci"])
+                rec.update(sheet_sci=t["sci"], result="편집자 지정", how=m.get("note") or "학명 직접 지정")
             elif kind == "keep":
                 repl = by_key.pop((o["group"], m["replaces"]), None) if m.get("replaces") else None
                 t = dict(group=o["group"], rank="species", sci=o["sci"],
@@ -521,6 +528,7 @@ def main():
     kos_used = [r for r in kos_rows if r["sheet_sci"] and not r.get("official") and not r["held"]
                 and by_key.get(("AVES", r["sheet_sci"]), {}).get("status") == "kos"]
     kos_unlinked = [r for r in kos_rows if not r["sheet_sci"]]
+    (DATA / "rdb.json").write_text(json.dumps(rdb_log, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "names.json").write_text(json.dumps(sheet, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "review.json").write_text(json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -533,6 +541,11 @@ def main():
     rep.append(f"국명 차이 {len(conflicts)}건 (분류 변경 {sum(1 for c in conflicts if len(c['moved_to']) == 1)})")
     rep.append(f"한국조류목록 2025: 연결 {len(kos_rows) - len(kos_unlinked)} / 못 이음 {len(kos_unlinked)} · "
                f"국가생물종목록과 국명 다름 {len(kos_diff)} · 빈 국명 채움 {len(kos_used)}")
+    rep.append(f"{RDB_LABEL}: 학명 변경 {len(rdb_log['renamed'])} · 통합 {len(rdb_log['merged'])} · "
+               f"목록에 없음 {len(rdb_log['dropped'])} · 새로 넣음 {len(rdb_log['added'])} · 과 배정 {len(rdb_log.get('placed', []))}")
+    rep += [f"  변경: {r['old']} → {r['new']} ({r['how']})" for r in rdb_log["renamed"]]
+    rep += [f"  통합: {r['old']} → {r['into']} {r['ssp'] or ''} ({r['how']}) {r['name'] or ''}" for r in rdb_log["merged"]]
+    rep += [f"  없음: {r['sci']} ({r['family']}) {r['name'] or ''}" for r in rdb_log["dropped"]]
     rep += [f"  못 이음: {r['kos_sci']} {r['ko']} 후보 {r['candidates'][:4]}" for r in kos_unlinked]
     (DATA / "report.txt").write_text("\n".join(rep), encoding="utf-8")
     print("\n".join(rep))

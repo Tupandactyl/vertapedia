@@ -1,12 +1,12 @@
 {
   "_설명": "자동 대조로 풀리지 않는 것을 편집자가 직접 정한 것(2026-10-08).",
   "link": [
-    {"group": "AVES", "nibr_sci": "Hieraaetus fasciatus", "sci": "Aquila fasciata"}
+    {"group": "AVES", "nibr_sci": "Hieraaetus fasciatus", "sci": "Aquila fasciata"},
+    {"group": "REPTILIA", "nibr_sci": "Gloydius saxatilis", "sci": "Gloydius intermedius", "note": "Reptile Database 2026-06: G. saxatilis는 G. intermedius의 이명"},
+    {"group": "REPTILIA", "nibr_sci": "Pelamis platura", "sci": "Hydrophis platurus", "note": "Reptile Database 2026-06: Pelamis platura는 Hydrophis platurus의 이명"}
   ],
   "keep": [
-    {"group": "AVES", "nibr_sci": "Cisticola juncidis", "note": "시트에 없음 · 국가생물종목록 학명과 국명을 따름"},
-    {"group": "REPTILIA", "nibr_sci": "Gloydius saxatilis", "note": "시트에 없음 · 국가생물종목록 학명과 국명을 따름"},
-    {"group": "REPTILIA", "nibr_sci": "Pelamis platura", "replaces": "Hydrophis platurus", "note": "국가생물종목록 학명을 따름 · Reptile Database 표기는 Hydrophis platurus"}
+    {"group": "AVES", "nibr_sci": "Cisticola juncidis", "note": "시트에 없음 · 국가생물종목록 학명과 국명을 따름"}
   ],
   "subspecies": [
     {"group": "AVES", "nibr_sci": "Anas carolinensis", "sci": "Anas crecca carolinensis", "parent": "Anas crecca", "note": "아종 단위 통합"},
@@ -16,7 +16,8 @@
   "_파충류_목": "시트 과단위 번역의 Order 열 값 → [목, 아목]. 도마뱀·뱀은 유린목 아래 아목으로 둔다.",
   "reptile_orders": {
     "Lizards": ["Squamata", "Lacertilia"],
-    "Serpentes": ["Squamata", "Serpentes"]
+    "Serpentes": ["Squamata", "Serpentes"],
+    "Sauria": ["Squamata", "Lacertilia"]
   },
   "_과_철자": "시트 과단위 번역 탭의 과 학명 오타를 종 탭 표기로 맞춘다.",
   "family_alias": {
