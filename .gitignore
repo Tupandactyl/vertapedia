@@ -23,3 +23,9 @@ site/data/
 data/media_fetch.log
 __pycache__/
 .claude/
+
+# 구글 서비스 계정 키 등 비밀 파일: 절대 올리지 않는다
+.secrets/
+data/sheet_sync_preview.csv
+data/common.log
+data/covers.log

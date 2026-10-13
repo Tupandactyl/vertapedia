@@ -31,6 +31,10 @@ media = {}
 for f in (DATA / "media").glob("*.json"):
     m = json.loads(f.read_text(encoding="utf-8"))
     media[m["sci"]] = m
+# 파충류는 시트에 영명이 없으면 iNaturalist 영명을 쓴다
+for t in names:
+    if t["group"] == "REPTILIA" and t["rank"] == "species" and not t.get("en"):
+        t["en"] = ((media.get(t["sci"]) or {}).get("inat") or {}).get("common")
 G = {"AVES": "A", "REPTILIA": "R"}
 NOFAM = "(과 미정)"
 

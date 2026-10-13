@@ -190,7 +190,8 @@ def parse_reptiles(path, ov):
             continue
         if ws.title in ("통합목록", "지정관리종목록") or "명칭 제안" not in h:
             continue
-        ix = {k: h.index(k) for k in ("학명", "환경부 지정명", "국내 통용/유통명", "명칭 제안", "명칭 근거", "Author") if k in h}
+        ix = {k: h.index(k) for k in ("학명", "환경부 지정명", "국내 통용/유통명", "명칭 제안", "명칭 근거", "Author", "영명")
+              if k in h}
         family = None
         for r in rows[1:]:
             sci = clean(cell(r, ix["학명"]))
@@ -204,7 +205,7 @@ def parse_reptiles(path, ov):
             hint = unplaced.get(ws.title.strip())
             taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, family=alias.get(family, family),
                              order_hint=hint[0] if hint else None, suborder_hint=hint[1] if hint else None,
-                             author=clean(cell(r, ix.get("Author"))),
+                             author=clean(cell(r, ix.get("Author"))), en=clean(cell(r, ix.get("영명"))),
                              moe=clean(cell(r, ix.get("환경부 지정명"))),
                              trade=clean(cell(r, ix.get("국내 통용/유통명"))),
                              consensus=clean(cell(r, ix["명칭 제안"])), proposals={},

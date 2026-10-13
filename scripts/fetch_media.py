@@ -105,10 +105,30 @@ def curated(taxon_photos, n=3):
     return out
 
 
-def inat_curated_many(ids):
-    """여러 분류군을 한 번에(30개씩) 불러 대표 사진을 얻는다 → {id: [사진]}"""
-    d = get("https://api.inaturalist.org/v1/taxa/" + ",".join(map(str, ids)))
-    return {t["id"]: curated(t.get("taxon_photos")) for t in (d or {}).get("results", [])}
+def inat_curated_many(ids, with_common=False):
+    """여러 분류군을 한 번에(30개씩) 불러 대표 사진을 얻는다 → {id: [사진]} (with_common 이면 {id: (사진, 영명)})"""
+    d = get("https://api.inaturalist.org/v1/taxa/" + ",".join(map(str, ids)), dict(locale="en"))
+    res = (d or {}).get("results", [])
+    if with_common:
+        return {t["id"]: (curated(t.get("taxon_photos")), t.get("preferred_common_name")) for t in res}
+    return {t["id"]: curated(t.get("taxon_photos")) for t in res}
+
+
+def backfill_common():
+    """iNaturalist 영명(preferred_common_name)을 inat.common 에 채운다(30개씩 묶어 부른다)."""
+    todo = []
+    for f in sorted(OUT.glob("*.json")):
+        m = json.loads(f.read_text(encoding="utf-8"))
+        if m.get("inat") and "common" not in m["inat"]:
+            todo.append((f, m))
+    for k in range(0, len(todo), 30):
+        chunk = todo[k:k + 30]
+        got = inat_curated_many([m["inat"]["id"] for _, m in chunk], with_common=True)
+        for f, m in chunk:
+            m["inat"]["common"] = (got.get(m["inat"]["id"]) or (None, None))[1]
+            f.write_text(json.dumps(m, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"영명 {min(k + 30, len(todo))}/{len(todo)}", flush=True)
+    print("영명 채운 종:", len(todo))
 
 
 def backfill_covers():
@@ -188,10 +208,13 @@ def main():
     ap.add_argument("--scope", choices=["korean", "named", "unnamed", "all"], default="korean")
     ap.add_argument("--all-named", action="store_true", help="--scope named 와 같다(예전 이름)")
     ap.add_argument("--covers", action="store_true", help="이미 받은 종의 대표 사진만 채운다")
+    ap.add_argument("--common", action="store_true", help="이미 받은 종의 iNaturalist 영명만 채운다")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     if a.covers:
         return backfill_covers()
+    if a.common:
+        return backfill_common()
     cutoff = (date.today() - timedelta(days=a.max_age)).isoformat()
     done = 0
     for t in targets("named" if a.all_named else a.scope):
@@ -215,6 +238,7 @@ def main():
             rec["inat"] = dict(id=tx["id"], name=tx["name"], observations=tx.get("observations_count"),
                                wikipedia_url=tx.get("wikipedia_url"))
             rec["photos"] = inat_photos(tx["id"])
+            rec["inat"]["common"] = tx.get("preferred_common_name")
             rec["curated"] = inat_curated_many([tx["id"]]).get(tx["id"], [])
             rec["wiki"] = wiki_full(tx.get("wikipedia_url"))
         f.write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
