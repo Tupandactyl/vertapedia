@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 PDF = Path(sys.argv[1]) if len(sys.argv) > 1 else None
 
-RDB_LABEL = "Reptile Database 2026-06"
+RDB_LABEL = "Reptile Database"
 RANKS = ["class", "order", "suborder", "family", "subfamily", "genus"]
 
 
@@ -543,6 +543,7 @@ def main():
                f"국가생물종목록과 국명 다름 {len(kos_diff)} · 빈 국명 채움 {len(kos_used)}")
     rep.append(f"{RDB_LABEL}: 학명 변경 {len(rdb_log['renamed'])} · 통합 {len(rdb_log['merged'])} · "
                f"목록에 없음 {len(rdb_log['dropped'])} · 새로 넣음 {len(rdb_log['added'])} · 과 배정 {len(rdb_log.get('placed', []))}")
+    rep.append(f"  웹에서 빠진 checklist 종(통합 추정) {len(rdb_log['web_lumped'])}: " + ", ".join(rdb_log["web_lumped"]))
     rep += [f"  변경: {r['old']} → {r['new']} ({r['how']})" for r in rdb_log["renamed"]]
     rep += [f"  통합: {r['old']} → {r['into']} {r['ssp'] or ''} ({r['how']}) {r['name'] or ''}" for r in rdb_log["merged"]]
     rep += [f"  없음: {r['sci']} ({r['family']}) {r['name'] or ''}" for r in rdb_log["dropped"]]

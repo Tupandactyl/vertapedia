@@ -9,7 +9,7 @@
 | | 학명 | 국명 |
 |---|---|---|
 | 조류 | 조류 시트(eBird/Clements·AviList) | 한국조류목록 2025 → 국가생물종목록 2019 → 시트 합의본 → 개인 제안(모두 같을 때) |
-| 파충류 | Reptile Database 최신 종 목록(`data/rdb_checklist.xlsx`, `scripts/fetch_rdb.py`로 갱신). 시트 종은 이 목록에 맞춰 학명 변경·아종 통합 | 국가생물종목록 2019 → 시트 합의본 |
+| 파충류 | Reptile Database 웹사이트의 현재 종 목록(`data/rdb_live.json`)이 기준, 과·아종은 checklist(`data/rdb_checklist.xlsx`). 둘 다 `scripts/fetch_rdb.py`로 갱신. 시트 종은 이 목록에 맞춰 학명 변경·아종 통합 | 국가생물종목록 2019 → 시트 합의본 |
 
 - 국명이 없으면 영명을 표시한다.
 - 개인 제안 국명이 다른 종과 겹치면 쓰지 않는다.

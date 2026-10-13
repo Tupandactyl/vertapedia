@@ -1,7 +1,9 @@
-"""Reptile Database 종 목록(checklist)을 파충류 학명의 기준으로 삼는다.
+"""Reptile Database 종 목록을 파충류 학명의 기준으로 삼는다.
 
-- data/rdb_checklist.xlsx : 최신 종 목록(scripts/fetch_rdb.py 로 받는다)
+- data/rdb_live.json      : 웹사이트의 현재 전체 종 목록 → 어떤 학명이 유효한 종인지(기준)
+- data/rdb_checklist.xlsx : 내려받는 checklist → 과·목·아종 (웹에서 속을 옮긴 종은 종소명으로 이어 받는다)
 - data/rdb_synonyms.xlsx  : 이명 → 현재 학명 (Reptile Database가 따로 내는 이명 목록)
+(모두 scripts/fetch_rdb.py 로 받는다)
 
 시트 종을 목록에 맞춘다.
   1. 학명이 같으면 그대로
@@ -14,7 +16,9 @@
 목록에만 있는 종은 시트 순서에서 같은 속(없으면 같은 과) 마지막 종 뒤에 넣는다.
 """
 import difflib
-from collections import defaultdict
+import json
+import re
+from collections import Counter, defaultdict
 
 import openpyxl
 
@@ -26,6 +30,11 @@ def stem(ep):
         if ep.endswith(end) and len(ep) - len(end) >= 3:
             return ep[: -len(end)]
     return ep
+
+
+def same_author(a, b):
+    first = lambda x: (re.findall(r"[A-ZÀ-Þ][A-Za-zÀ-ÿ'\-]+", (x or "").upper()) or [""])[0]
+    return bool(a and b) and first(a) == first(b)
 
 
 def parse_checklist(path):
@@ -47,6 +56,42 @@ def parse_checklist(path):
     return out
 
 
+def current_list(data_dir):
+    """웹 목록의 종마다 checklist의 과·목·아종을 붙인다. 웹에서 속을 옮긴 종은 같은 종소명의 옛 학명에서 이어 받는다."""
+    ck = parse_checklist(data_dir / "rdb_checklist.xlsx")
+    raw = json.loads((data_dir / "rdb_live.json").read_text(encoding="utf-8"))
+    live, higher = raw["species"], raw.get("higher", {})
+    gone = {s: v for s, v in ck.items() if s not in live}
+    fresh = [s for s in live if s not in ck]
+    by_ep = defaultdict(list)
+    for s in gone:
+        by_ep[stem(s.split()[1])].append(s)
+    out, moved = {}, {}
+    for s in live:
+        if s in ck:
+            out[s] = dict(ck[s], author=live[s])
+    genus_info = {}
+    for v in out.values():
+        genus_info.setdefault(v["sci"].split()[0], (v["order"], v["family"]))
+    # 같은 종소명(어간)이고, 옮겨 간 속이 이미 있는 속이면 과가 같아야 한다
+    cands = {f: [g for g in by_ep.get(stem(f.split()[1]), [])
+                 if f.split()[0] not in genus_info or genus_info[f.split()[0]][1] == gone[g]["family"]] for f in fresh}
+    votes = Counter((g.split()[0], f.split()[0]) for f, cs in cands.items() for g in cs)
+    for f in fresh:
+        cs = sorted(cands[f], key=lambda g: -votes[(g.split()[0], f.split()[0])])
+        g = cs[0] if cs and (len(cs) == 1 or votes[(cs[0].split()[0], f.split()[0])] > votes[(cs[1].split()[0], f.split()[0])]) else None
+        if g and g not in moved:
+            old = gone[g]
+            moved[g] = f
+            out[f] = dict(old, sci=f, author=live[f], changes=f"웹에서 학명 변경 (checklist: {g})",
+                          subspecies=[dict(x, sci=" ".join([f.split()[0], f.split()[1]] + x["sci"].split()[2:]))
+                                      for x in old["subspecies"]])
+        else:
+            order, fam = genus_info.get(f.split()[0]) or (higher.get(f.split()[0], {}).get("order"), higher.get(f.split()[0], {}).get("family"))
+            out[f] = dict(sci=f, author=live[f], order=order, family=fam, changes="웹에 새로 오름", subspecies=[])
+    return out, moved, [g for g in gone if g not in moved]
+
+
 def parse_synonyms(path):
     syn = defaultdict(set)
     for a, b in list(openpyxl.load_workbook(path, read_only=True).worksheets[0].iter_rows(values_only=True))[1:]:
@@ -57,14 +102,16 @@ def parse_synonyms(path):
 
 def apply(sheet, data_dir, label):
     """sheet(파충류+조류 분류군 목록)을 고친다. 바뀐 내역을 돌려준다."""
-    rdb = parse_checklist(data_dir / "rdb_checklist.xlsx")
+    rdb, moved, lumped = current_list(data_dir)
     syn = parse_synonyms(data_dir / "rdb_synonyms.xlsx")
+    for g, f in moved.items():  # checklist 이후 웹에서 바뀐 학명도 이명으로 따라가게
+        syn[g].add(f)
     sp = [t for t in sheet if t["group"] == "REPTILIA" and t["rank"] == "species"]
     have = {t["sci"] for t in sp}
     free = {s for s in rdb if s not in have}  # 목록에만 있는 학명(아직 시트 종이 차지하지 않음)
     ssp_of = {" ".join(s["sci"].split()[::2]): (v["sci"], s["sci"]) for v in rdb.values() for s in v["subspecies"]}
     by_key = {t["sci"]: t for t in sp}
-    log = dict(renamed=[], merged=[], dropped=[], added=[])
+    log = dict(renamed=[], merged=[], dropped=[], added=[], web_lumped=lumped)
 
     def rename(t, new, how):
         log["renamed"].append(dict(old=t["sci"], new=new, how=how, name=t.get("consensus")))
@@ -100,7 +147,8 @@ def apply(sheet, data_dir, label):
         if near:
             rename(t, f"{g} {near[0]}", "철자")
             continue
-        other = [x for x in free if x.split()[1] == e]
+        # 속을 옮긴 것으로 보려면 명명자(첫 성)도 같아야 한다 — 종소명만 같은 남의 종으로 가지 않게
+        other = [x for x in free if x.split()[1] == e and same_author(t.get("author"), rdb[x]["author"])]
         if len(other) > 1:  # 같은 종소명이 여럿이면 같은 과 쪽
             other = [x for x in other if rdb[x]["family"] == t.get("family")]
         if len(other) == 1:
@@ -152,7 +200,7 @@ def apply(sheet, data_dir, label):
         r = rdb[s]
         g = s.split()[0]
         order, sub = ORDER.get(r["order"], (r["order"], None))
-        fam = genus_fam[g] if g in genus_fam else (r["family"] if r["family"] in fam_rows or r["family"].endswith("idae") else None)
+        fam = genus_fam[g] if g in genus_fam else (r["family"] if r["family"] in fam_rows or (r["family"] or "").endswith("idae") else None)
         if fam and fam not in fam_rows:
             fam_rows[fam] = dict(group="REPTILIA", rank="family", sci=fam, en=None, consensus=None, order=order,
                                  suborder=sub, proposals={}, rationale=None, sheet=label)
