@@ -1,0 +1,85 @@
+{
+ "sci": "Polemon notatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116551,
+  "name": "Polemon notatus",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Polemon_notatus",
+  "common": "Cameroon Snake-Eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234907942/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gwili Gibbon, some rights reserved (CC BY-NC)",
+   "obs": 137530953,
+   "place": "Odzala-Kokoua National Park, Cuvette-Ouest, CG",
+   "date": "2022-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344979505/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tatiana Thomas, some rights reserved (CC BY-NC)",
+   "obs": 196008986,
+   "place": "Ouesso, Republic of the Congo",
+   "date": "2023-02-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88310905/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 55458509,
+   "place": "Madingo-Kayes, CG-KO, CG",
+   "date": "2011-05-16"
+  }
+ ],
+ "wiki": {
+  "title": "Polemon notatus",
+  "url": "https://en.wikipedia.org/wiki/Polemon_notatus",
+  "revision": 1165112061,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Polemon notatus is a species of mildly venomous rear-fanged snake in the family Atractaspididae. It is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in Cameroon, Central African Republic, Democratic Republic of the Congo, and Gabon."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsally pale brown, with two series of round black spots, which may be light-edged. Dorsal surface of head black, nuchal collar black, and dorsal surface of tail black. Ventrals white, subcaudals white, and terminal caudal scale white.",
+     "Adults may attain a total length of 317 mm (12+1⁄2 in), with a tail 29 mm (1+1⁄8 in) long.",
+     "Dorsal scales smooth, without apical pits, arranged in 15 rows. Ventrals 181–200; anal plate divided; subcaudals 14–18, also divided.",
+     "Diameter of eye about half its distance from the mouth. Internasals as long as or slightly shorter than the prefrontals. Frontal a little longer than broad, much shorter than the parietals. Nasal divided, in contact with the preocular. One preocular. One or two postoculars. Temporals 1+1. Seven upper labials, the second in contact with the preocular, third and fourth entering the eye. First lower labial forming a suture with its fellow behind the mental. Three lower labials in contact with the anterior chin shield. Two pairs of chin shields, the anterior pair slightly longer than the posterior pair."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognized including the nominate race.",
+     "Polemon notatus aemulans (F. Werner, 1902)",
+     "Polemon notatus notatus (Peters, 1882)"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88310905/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 88310905
+  }
+ ]
+}

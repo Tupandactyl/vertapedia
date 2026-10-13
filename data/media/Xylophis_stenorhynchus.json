@@ -1,0 +1,58 @@
+{
+ "sci": "Xylophis stenorhynchus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 28005,
+  "name": "Xylophis stenorhynchus",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Xylophis_stenorhynchus",
+  "common": "Günther's Mountain Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315318487/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC)",
+   "obs": 180968362,
+   "place": "Munnar, Kerala 685612, India",
+   "date": "2023-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234222034/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vikrant Kumar, some rights reserved (CC BY-NC)",
+   "obs": 137187667,
+   "place": "Munnar, Kerala 685612, India",
+   "date": "2022-09-28"
+  }
+ ],
+ "wiki": {
+  "title": "Xylophis stenorhynchus",
+  "url": "https://en.wikipedia.org/wiki/Xylophis_stenorhynchus",
+  "revision": 1341278852,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xylophis stenorhynchus (Günther's mountain snake) is a non-venomous species of snake found in the Western Ghats of India.",
+     "The status of Xylophis indicus as a junior synonym of X. stenorhynchus is tentative as it is only known from one specimen collected more than a century ago. However, there has been a tentative recent sighting from the Meghamalai Wildlife Sanctuary."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234222034/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Vikrant Kumar, некоторые права защищены (CC BY-NC), загрузил Vikrant Kumar",
+   "photo": 234222034
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234222345/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Vikrant Kumar, некоторые права защищены (CC BY-NC), загрузил Vikrant Kumar",
+   "photo": 234222345
+  }
+ ]
+}

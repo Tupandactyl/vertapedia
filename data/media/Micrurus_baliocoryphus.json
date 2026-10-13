@@ -1,0 +1,87 @@
+{
+ "sci": "Micrurus baliocoryphus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30566,
+  "name": "Micrurus baliocoryphus",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Micrurus_baliocoryphus",
+  "common": "Mesopotamian Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59018692/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Hermann, some rights reserved (CC BY-NC)",
+   "obs": 37248805,
+   "place": "Paraná, Entre Ríos, Argentina",
+   "date": "2009-05-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165219113/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oscar_galli_merino, some rights reserved (CC BY-NC)",
+   "obs": 99147961,
+   "place": "San Cosme, Corrientes, Argentina",
+   "date": "2021-10-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263774174/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nora Celeste Frank, some rights reserved (CC BY-NC)",
+   "obs": 152775243,
+   "place": "Corrientes, Argentina",
+   "date": "2023-03-29"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus baliocoryphus",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_baliocoryphus",
+  "revision": 1358545839,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus baliocoryphus, also known commonly as the Mesopotamian coral snake, is a species of coral snake in the family Elapidae. Like the other members of its family, it is venomous. It is native to central South America."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Micrurus baliocoryphus is found between the Paraná River and the Uruguay River, in Argentina and Paraguay."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Micrurus baliocoryphus is found in variety of habitats, including forest, savanna, shrubland, and grassland, at elevations from sea level to 200 m (660 ft)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Micrurus baliocoryphus is terrestrial, foraging in leaf litter."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Micrurus baliocoryphus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513071/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Paul V.F. Barradas, some rights reserved (CC BY)",
+   "photo": 513071
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "sci": "Dasypeltis congolensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1250225,
+  "name": "Dasypeltis congolensis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dasypeltis_congolensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486649406/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lucystofberg, some rights reserved (CC BY-NC)",
+   "obs": 270588815,
+   "place": "Odzala-Kokoua National Park, Cuvette-Ouest, CG",
+   "date": "2022-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625990535/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yorick Van Hoef, some rights reserved (CC BY-NC)",
+   "obs": 343626721,
+   "place": "Madingo-Kayes, Conkouati, CG-KO, CG",
+   "date": "2026-03-16"
+  }
+ ],
+ "wiki": {
+  "title": "Dasypeltis congolensis",
+  "url": "https://en.wikipedia.org/wiki/Dasypeltis_congolensis",
+  "revision": 1376707858,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dasypeltis congolensis is a species of  non-venomous snake in the family Colubridae. The species is found in the Republic of Congo, Democratic Republic of Congo, Gabon, Angola, and Zambia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625990535/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yorick Van Hoef, some rights reserved (CC BY-NC), uploaded by Yorick Van Hoef",
+   "photo": 625990535
+  }
+ ]
+}

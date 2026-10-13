@@ -1,0 +1,71 @@
+{
+ "sci": "Dipsadoboa brevirostris",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 26541,
+  "name": "Dipsadoboa brevirostris",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsadoboa_brevirostris",
+  "common": "Shorthead Rear-fanged Tree Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/540208727/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 299841862,
+   "place": "Dugbe River, Liberia",
+   "date": "2021-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466215658/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 259686531,
+   "place": "Silver Hills Concession",
+   "date": "2021-07-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639289708/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 350380685,
+   "place": "39VP+2M Diatodie, Liberia",
+   "date": "2021-10-29"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsadoboa brevirostris",
+  "url": "https://en.wikipedia.org/wiki/Dipsadoboa_brevirostris",
+  "revision": 1355163558,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsadoboa brevirostris is a species of  non-venomous snake in the family Colubridae. The species is found in Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Nigeria, and Cameroon."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466215658/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 466215658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466216124/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 466216124
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466216081/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 466216081
+  }
+ ]
+}

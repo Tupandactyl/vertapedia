@@ -1,0 +1,46 @@
+{
+ "sci": "Myrrophis dakkrongensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1570742,
+  "name": "Myrrophis dakkrongensis",
+  "observations": 5,
+  "wikipedia_url": null,
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211442193/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Chris Oldnall, some rights reserved (CC BY-SA)",
+   "obs": 124729697,
+   "place": "Lộc Bảo, Gia Nghia, Lâm Đồng, Vietnam",
+   "date": "2022-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425386428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phan Vũ Phúc Lân, some rights reserved (CC BY-NC)",
+   "obs": 238896488,
+   "place": "Lâm Đồng, VN",
+   "date": "2024-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468524142/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ntxkhanh, some rights reserved (CC BY-NC)",
+   "obs": 260853525,
+   "place": "X. Lộc Bắc, H. Bảo Lâm, Lâm Đồng, VN",
+   "date": "2025-01-24"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425386428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phan Vũ Phúc Lân, some rights reserved (CC BY-NC), uploaded by Phan Vũ Phúc Lân",
+   "photo": 425386428
+  }
+ ]
+}

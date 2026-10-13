@@ -1,0 +1,50 @@
+{
+ "sci": "Teretrurus hewstoni",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1403062,
+  "name": "Teretrurus hewstoni",
+  "observations": 2,
+  "wikipedia_url": null,
+  "common": "Hewston's Earth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288773556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) avrajjal, some rights reserved (CC BY-NC)",
+   "obs": 166740093,
+   "place": "Community Agrobiodiversity Centre Puthoorvayal, P.O, Meppadi, Kerala 673577, India",
+   "date": "2016-08-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46128961/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ashwin Viswanathan, some rights reserved (CC BY)",
+   "obs": 29556417,
+   "place": "Hudikeri",
+   "date": "2014-07-04"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288773556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) avrajjal, some rights reserved (CC BY-NC), uploaded by avrajjal",
+   "photo": 288773556
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46128961/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ashwin Viswanathan, some rights reserved (CC BY), uploaded by Ashwin Viswanathan",
+   "photo": 46128961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46128946/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ashwin Viswanathan, some rights reserved (CC BY), uploaded by Ashwin Viswanathan",
+   "photo": 46128946
+  }
+ ]
+}

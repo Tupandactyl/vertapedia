@@ -1,0 +1,52 @@
+{
+ "sci": "Uropeltis bicatenata",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 114812,
+  "name": "Uropeltis bicatenata",
+  "observations": 8,
+  "wikipedia_url": null,
+  "common": "Bicatenate Uropeltis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226288252/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rajiv Thanawala, some rights reserved (CC BY-NC)",
+   "obs": 132897698,
+   "place": "Maharashtra, IN",
+   "date": "2022-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25843219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mayuresh Kulkarni, some rights reserved (CC BY-NC)",
+   "obs": 17074743,
+   "place": "Maharashtra, IN",
+   "date": "2018-08-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226170320/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuwaraj Gurjar, some rights reserved (CC BY-NC)",
+   "obs": 132835703,
+   "place": "Maharashtra, IN",
+   "date": "2022-08-27"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25843219/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mayuresh Kulkarni, some rights reserved (CC BY-NC), uploaded by Mayuresh Kulkarni",
+   "photo": 25843219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226288252/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rajiv Thanawala, some rights reserved (CC BY-NC), uploaded by Rajiv Thanawala",
+   "photo": 226288252
+  }
+ ]
+}

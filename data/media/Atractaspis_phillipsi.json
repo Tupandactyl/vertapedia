@@ -1,0 +1,51 @@
+{
+ "sci": "Atractaspis phillipsi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 145961,
+  "name": "Atractaspis phillipsi",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractaspis_phillipsi",
+  "common": "Phillips' Burrowing Asp"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646305919/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rania Baleela, some rights reserved (CC BY-NC)",
+   "obs": 354269338,
+   "place": "Al Manaqil, Sudan",
+   "date": "2025-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355226475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rania Baleela, some rights reserved (CC BY-NC)",
+   "obs": 201250450,
+   "place": "Sennar, Sudan",
+   "date": "2023-10-24"
+  }
+ ],
+ "wiki": {
+  "title": "Atractaspis phillipsi",
+  "url": "https://en.wikipedia.org/wiki/Atractaspis_phillipsi",
+  "revision": 1368647090,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractaspis phillipsi, the Phillips' burrowing asp or the Phillips erdviper, is a species of snake from the Atractaspis genus native to Sudan and South Sudan. The species was described in by Barbour in 1913."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355226475/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rania Baleela, some rights reserved (CC BY-NC), uploaded by Rania Baleela",
+   "photo": 355226475
+  }
+ ]
+}

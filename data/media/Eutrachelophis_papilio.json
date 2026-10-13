@@ -1,0 +1,51 @@
+{
+ "sci": "Eutrachelophis papilio",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1119950,
+  "name": "Eutrachelophis papilio",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eutrachelophis_papilio",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8153363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Ivo, some rights reserved (CC BY-NC)",
+   "obs": 6451636,
+   "place": "Near Cachoeira de Teotônio, left bank of the Madeira River, Porto Velho, Rondônia",
+   "date": "2010-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/603625102/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lucas Botelho, some rights reserved (CC BY-NC)",
+   "obs": 332590314,
+   "place": "Parque Nacional Nascentes do Lago Jari, Amazonas, Brasil",
+   "date": "2024-02-16"
+  }
+ ],
+ "wiki": {
+  "title": "Eutrachelophis papilio",
+  "url": "https://en.wikipedia.org/wiki/Eutrachelophis_papilio",
+  "revision": 1376026973,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eutrachelophis papilio is a species of snake in the family Colubridae. The species is found in Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8153363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Ivo, some rights reserved (CC BY-NC), uploaded by Pedro Ivo",
+   "photo": 8153363
+  }
+ ]
+}

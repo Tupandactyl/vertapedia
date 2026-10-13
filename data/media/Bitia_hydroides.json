@@ -1,0 +1,57 @@
+{
+ "sci": "Bitia hydroides",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27744,
+  "name": "Bitia hydroides",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Keel-bellied_water_snake",
+  "common": "Keel-bellied Water Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216809542/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC)",
+   "obs": 127692442,
+   "place": "Mawlamyine, Myanmar (Burma)",
+   "date": "2009-01-01"
+  }
+ ],
+ "wiki": {
+  "title": "Keel-bellied water snake",
+  "url": "https://en.wikipedia.org/wiki/Keel-bellied_water_snake",
+  "revision": 1369647507,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The keel-bellied water snake (Bitia hydroides)  is a marine homalopsine snake. It belongs to the monotypic genus Bitia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in Malaysia."
+    ]
+   },
+   {
+    "h": "Dentition",
+    "level": 2,
+    "paras": [
+     "Bitia hydroides is noted for its unusual dentition. In all other snakes, any enlarged teeth are located on the dentary or maxilla, with the inner, palatine teeth of the upper jaw being smaller. In Bitia hydroides, the palatine teeth are greatly enlarged. Not enough is known about this animal's feeding behavior or ecology to attempt to infer a function of this peculiar arrangement."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216809542/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thet Zaw Naing, some rights reserved (CC BY-NC), uploaded by Thet Zaw Naing",
+   "photo": 216809542
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "sci": "Hydrophis fasciatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 103044,
+  "name": "Hydrophis fasciatus",
+  "observations": 15,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_fasciatus",
+  "common": "Striped Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625295950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) V.Arun, some rights reserved (CC BY-NC)",
+   "obs": 343284670,
+   "place": "Srinivasa Puram, Chennai, Tamil Nadu 600028, India",
+   "date": "2026-03-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460377888/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexius, some rights reserved (CC BY-NC)",
+   "obs": 256732294,
+   "place": "Penang",
+   "date": "2024-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38479476/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fhadlikennedi, some rights reserved (CC BY-NC)",
+   "obs": 24876878,
+   "place": "Unnamed Road, Batukaras, Cijulang, Pangandaran, Jawa Barat 46394, Indonesia",
+   "date": "2019-05-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105236293/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mayur Fulmali, some rights reserved (CC BY-NC)",
+   "obs": 65388455,
+   "place": "Chandrabai Nagar, Juhu, Mumbai, Maharashtra 400049, India",
+   "date": "2019-12-22"
+  }
+ ],
+ "wiki": {
+  "title": "Hydrophis fasciatus",
+  "url": "https://en.wikipedia.org/wiki/Hydrophis_fasciatus",
+  "revision": 1342321182,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydrophis fasciatus, commonly known as the striped sea snake, is a species of venomous sea snake in the family Elapidae (Hydrophiinae)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Hydrophis fasciatus has a small head, long body and is slender anteriorly. The scales on thickest part of body are subquadrangular or hexagonal in shape, juxtaposed or slightly imbricate. It has 5-6 maxillary (upper jaw bone) teeth behind fangs and 2 anterior temporals.",
+     "Body scales in 28-33 rows around the neck, 47-58 around midbody (increase in number of rows from neck to midbody 20–27); ventral scales 414-514 (average 460).",
+     "Anterior part of body including head and neck dark olive to black with pale oval yellowish spots on sides, sometimes connected as crossbars; posterior, grayish; below whitish; dark rhomboidal spots may extend down the sides of the body and form complete annuli in young.",
+     "Total length males 1100 mm, females 990 mm; tail length males 100 mm, females 75 mm."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Indian Ocean (coasts of Bangladesh, Pakistan, India, Myanmar, Thailand, Malaysia).",
+     "Coasts of Indonesia (Sumatra, Java, Borneo).",
+     "Coasts of Australia, Philippines, New Guinea.",
+     "Coasts of Guangxi, Guangdong, Hainan, Fujian (China)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18648658/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gaurav Patil, some rights reserved (CC BY-NC), uploaded by Gaurav Patil",
+   "photo": 18648658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11606137/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yogesh Patel, some rights reserved (CC BY-NC), uploaded by Yogesh Patel",
+   "photo": 11606137
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11606134/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yogesh Patel, some rights reserved (CC BY-NC), uploaded by Yogesh Patel",
+   "photo": 11606134
+  }
+ ]
+}

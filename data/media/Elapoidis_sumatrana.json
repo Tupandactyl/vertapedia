@@ -1,0 +1,44 @@
+{
+ "sci": "Elapoidis sumatrana",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 797664,
+  "name": "Elapoidis sumatrana",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elapoidis_sumatrana",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/660090140/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin Sample, some rights reserved (CC BY-NC)",
+   "obs": 361680063,
+   "place": "Sumatera Utara, ID",
+   "date": "2026-04-23"
+  }
+ ],
+ "wiki": {
+  "title": "Elapoidis sumatrana",
+  "url": "https://en.wikipedia.org/wiki/Elapoidis_sumatrana",
+  "revision": 1355389505,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Elapoidis sumatrana is a species of snake of the family Colubridae.",
+     "The snake is found in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173293960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gadjah Mada Fmipa, some rights reserved (CC BY-NC), uploaded by Gadjah Mada Fmipa",
+   "photo": 173293960
+  }
+ ]
+}

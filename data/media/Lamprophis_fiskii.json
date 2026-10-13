@@ -1,0 +1,80 @@
+{
+ "sci": "Lamprophis fiskii",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29766,
+  "name": "Lamprophis fiskii",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fisk's_house_snake",
+  "common": "Fisk's House Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308869528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Gaude, some rights reserved (CC BY-NC)",
+   "obs": 177473938,
+   "place": "Namakwa, ZA-NC, ZA",
+   "date": "2023-08-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263669748/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 152717595,
+   "place": "Central Karoo, ZA-WC, ZA",
+   "date": "2015-12-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225293621/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Gaude, some rights reserved (CC BY-NC)",
+   "obs": 132251666,
+   "place": "Namakwa, ZA-NC, ZA",
+   "date": "2022-08-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/643827817/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marik Orrin, some rights reserved (CC BY-NC)",
+   "obs": 352808986,
+   "place": "Sarah Baartman District Municipality, South Africa",
+   "date": "2026-02-02"
+  }
+ ],
+ "wiki": {
+  "title": "Fisk's house snake",
+  "url": "https://en.wikipedia.org/wiki/Fisk%27s_house_snake",
+  "revision": 1350415502,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Fisk's house snake (Lamprophis fiskii) is a species of snake in the family Lamprophiidae.",
+     "It is endemic to South Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308869528/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Gaude, some rights reserved (CC BY-NC), uploaded by Frank Gaude",
+   "photo": 308869528
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310899652/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank Gaude, some rights reserved (CC BY-NC), uploaded by Frank Gaude",
+   "photo": 310899652
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263669772/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Martyn Drabik-Hamshare",
+   "photo": 263669772
+  }
+ ]
+}

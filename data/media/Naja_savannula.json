@@ -1,0 +1,126 @@
+{
+ "sci": "Naja savannula",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 797732,
+  "name": "Naja savannula",
+  "observations": 49,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/West_African_banded_cobra",
+  "common": "West African Banded Cobra"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29906289/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gwwarbler, some rights reserved (CC BY-NC)",
+   "obs": 19440034,
+   "place": "Tambacounda, Senegal",
+   "date": "2018-12-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295163064/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benjamin German, MD, some rights reserved (CC BY-NC)",
+   "obs": 170199625,
+   "place": "Kindia, Kindia, GN",
+   "date": "2023-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577675524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) christiaandevries, some rights reserved (CC BY-NC)",
+   "obs": 319571499,
+   "place": "Niani, Gambia",
+   "date": "2025-01-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34636240/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwatts, some rights reserved (CC BY-NC)",
+   "obs": 22362809,
+   "place": "Siguiri Prefecture, Guinea",
+   "date": "2013-08-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612784196/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maksymilian Wojtkiewicz, some rights reserved (CC BY-NC)",
+   "obs": 337127713,
+   "place": "Kombo East, Gambia",
+   "date": "2026-01-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482135058/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean, some rights reserved (CC BY-NC)",
+   "obs": 268239163,
+   "place": "Missira, Senegal",
+   "date": "2025-03-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31479440/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ONG OeBenin, some rights reserved (CC BY-NC)",
+   "obs": 20385181,
+   "place": "Tanguiéta, BJ-AK, BJ",
+   "date": "2019-02-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29906287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gwwarbler, some rights reserved (CC BY-NC)",
+   "obs": 19440033,
+   "place": "Tambacounda, Senegal",
+   "date": "2018-12-27"
+  }
+ ],
+ "wiki": {
+  "title": "West African banded cobra",
+  "url": "https://en.wikipedia.org/wiki/West_African_banded_cobra",
+  "revision": 1376707334,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The West African banded cobra (Naja savannula) is a species of cobra in the genus Naja that is found in West Africa.",
+     "This species was previously thought to be identical to the forest cobra (Naja melanoleuca), but morphological and genetic differences have led to its recognition as a separate species. It differs from Naja melanoleuca and other forest cobras in having a series of 3–8 broad, semi-divided light bands across the anterior body."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Brownish black or black dorsally, with a series of 3–8 broad, cream-coloured crossbands, each partly divided by a narrow black crossband. Midbody dorsal scale rows 19, Ventrals 211–226, subcaudals 67–73. Maximum recorded length 223 cm"
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "West Africa: primarily gallery forests in West African savannas and savanna woodlands; recorded from Senegal, Gambia, Guinea, Mali, Burkina Faso, Ivory Coast, Ghana, Togo, Benin, Niger, Nigeria, northern Cameroon and southern Chad."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29906289/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gwwarbler, some rights reserved (CC BY-NC)",
+   "photo": 29906289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29906287/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gwwarbler, some rights reserved (CC BY-NC)",
+   "photo": 29906287
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66294712/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Benjamin, some rights reserved (CC BY-NC), uploaded by Jordan Benjamin",
+   "photo": 66294712
+  }
+ ]
+}

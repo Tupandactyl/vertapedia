@@ -1,0 +1,66 @@
+{
+ "sci": "Aspidomorphus schlegelii",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 418259,
+  "name": "Aspidomorphus schlegelii",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aspidomorphus_schlegelii",
+  "common": "Schlegel’s Crown Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614971914/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC)",
+   "obs": 338196661,
+   "place": "Manokwari, Manokwari Barat, Manokwari Regency, West Papua, Indonesia",
+   "date": "2026-02-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118322371/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC)",
+   "obs": 72593724,
+   "place": "Jayapura, Papouasie, Indonésie",
+   "date": "2017-10-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458673152/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Varhan Rifka Ibrahim, some rights reserved (CC BY-NC)",
+   "obs": 255889124,
+   "place": "Sorong Regency, West Papua, Indonesia",
+   "date": "2024-12-22"
+  }
+ ],
+ "wiki": {
+  "title": "Aspidomorphus schlegelii",
+  "url": "https://en.wikipedia.org/wiki/Aspidomorphus_schlegelii",
+  "revision": 1355389624,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aspidomorphus schlegelii, Schlegel's crown snake, is a species of snake of the family Elapidae.",
+     "The snake is found in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118322382/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 118322382
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118322371/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 118322371
+  }
+ ]
+}

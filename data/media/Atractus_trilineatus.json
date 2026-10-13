@@ -1,0 +1,146 @@
+{
+ "sci": "Atractus trilineatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27760,
+  "name": "Atractus trilineatus",
+  "observations": 106,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Atractus_trilineatus",
+  "common": "Three-lined Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246869616/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Stephanie Tran, some rights reserved (CC BY)",
+   "obs": 143906881,
+   "place": "ERIC",
+   "date": "2022-12-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105172056/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kester Dass, some rights reserved (CC BY-NC)",
+   "obs": 65353525,
+   "place": "Guaracara Tabaquite Road, Trinidad and Tobago, TT",
+   "date": "2020-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207585172/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC)",
+   "obs": 122595066,
+   "place": "Chaguanas, TT",
+   "date": "2022-06-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211015228/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC)",
+   "obs": 124492012,
+   "place": "#4 Muntaz Avenue, Endeavour, Endeavour, Trinidad and Tobago",
+   "date": "2022-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375936030/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amy Deacon, some rights reserved (CC BY-NC)",
+   "obs": 212732367,
+   "place": "St Augustine, Trinidad and Tobago",
+   "date": "2024-05-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90115684/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amy Deacon, some rights reserved (CC BY-NC)",
+   "obs": 56544647,
+   "place": "St Augustine, Trinidad and Tobago",
+   "date": "2020-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13531568/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mike G. Rutherford, some rights reserved (CC BY-NC)",
+   "obs": 9874361,
+   "place": "St Augustine, Trinidad and Tobago",
+   "date": "2011-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363189749/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Zani (born @ 325 ppm), some rights reserved (CC BY-NC)",
+   "obs": 205407948,
+   "place": "Caracaraí - State of Roraima, 69360-000, Brazil",
+   "date": "1993-06-30"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus trilineatus",
+  "url": "https://en.wikipedia.org/wiki/Atractus_trilineatus",
+  "revision": 1354923321,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus trilineatus, commonly known as the three-lined ground snake, is a species of small burrowing snake in the family Colubridae. The species is native to South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. trilineatus is found in northern South America, including the Caribbean island of Trinidad."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of A. trilineatus is forest and savanna, at altitudes from sea level to 500 m (1,600 ft), but it has also been found in agricultural and horticultural areas."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "A. trilineatus may attain a total length of 225 mm (8+3⁄4 in), including a short tail of 15 mm (1⁄2 in). Dorsally, it is brown with three or four darker longitudinal stripes; ventrally it is either uniform white, or has a few brown dots. The smooth dorsal scales are in 15 rows, and the anal plate is entire. The ventrals number 125–150, and subcaudals only 11–19."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "A. trilineatus is believed to prey upon soft-bodied insects and earthworms, as well as fish and tadpoles."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. trilineatus is oviparous. Eggs are laid in March, May and August, and clutch size is three to five eggs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196958409/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC), uploaded by Saifudeen Muhammad",
+   "photo": 196958409
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200673848/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC), uploaded by Saifudeen Muhammad",
+   "photo": 200673848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90115684/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amy Deacon, some rights reserved (CC BY-NC), uploaded by Amy Deacon",
+   "photo": 90115684
+  }
+ ]
+}

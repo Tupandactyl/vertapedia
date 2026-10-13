@@ -1,0 +1,80 @@
+{
+ "sci": "Hebius inas",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539780,
+  "name": "Hebius inas",
+  "observations": 20,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hebius_inas",
+  "common": "Gunung Inas Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/683395021/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Broek, some rights reserved (CC BY-NC)",
+   "obs": 373920760,
+   "place": "Malaysia",
+   "date": "2026-02-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253734761/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC)",
+   "obs": 147455940,
+   "place": "Pahang, Malaysia",
+   "date": "2016-01-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363956739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC)",
+   "obs": 205813316,
+   "place": "Malaysia",
+   "date": "2024-03-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/683394614/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Broek, some rights reserved (CC BY-NC)",
+   "obs": 373920742,
+   "place": "Malaysia",
+   "date": "2026-02-21"
+  }
+ ],
+ "wiki": {
+  "title": "Hebius inas",
+  "url": "https://en.wikipedia.org/wiki/Hebius_inas",
+  "revision": 1355353966,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hebius inas, commonly known as the Malayan mountain keelback or Gunung Inas keelback, is a species of snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Peninsular Malaysia, Sumatra (Indonesia), and Thailand."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363956739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC), uploaded by Nick Volpe",
+   "photo": 363956739
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253734761/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laurent Barthe, some rights reserved (CC BY-NC), uploaded by Laurent Barthe",
+   "photo": 253734761
+  }
+ ]
+}

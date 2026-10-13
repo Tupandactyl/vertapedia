@@ -1,0 +1,63 @@
+{
+ "sci": "Hydrophis pacificus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35213,
+  "name": "Hydrophis pacificus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Large-headed_sea_snake",
+  "common": "Large-headed Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305015938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cemone Hedges, some rights reserved (CC BY-NC)",
+   "obs": 175503058,
+   "place": "Arafura Sea, Mapoon, QLD, AU",
+   "date": "2023-07-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513196870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC)",
+   "obs": 285317717,
+   "place": "Albatross Bay, Mission River, QLD, AU",
+   "date": "2025-05-30"
+  }
+ ],
+ "wiki": {
+  "title": "Large-headed sea snake",
+  "url": "https://en.wikipedia.org/wiki/Large-headed_sea_snake",
+  "revision": 1171174188,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The large-headed sea snake (Hydrophis pacificus) is sea snake in the family Elapidae native to waters off northern Australia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513196836/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 513196836
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513196870/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 513196870
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305015938/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cemone Hedges, some rights reserved (CC BY-NC), uploaded by Cemone Hedges",
+   "photo": 305015938
+  }
+ ]
+}

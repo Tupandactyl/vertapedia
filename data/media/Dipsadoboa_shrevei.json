@@ -1,0 +1,87 @@
+{
+ "sci": "Dipsadoboa shrevei",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 26523,
+  "name": "Dipsadoboa shrevei",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsadoboa_shrevei",
+  "common": "Shreve's Tree Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351101570/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC)",
+   "obs": 199123466,
+   "place": "Mwinilunga, Zambia",
+   "date": "2023-11-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589134425/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aibhlín, some rights reserved (CC BY-NC)",
+   "obs": 325412318,
+   "place": "Kasanka National Park, a, Zambia",
+   "date": "2014-01-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35555920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC)",
+   "obs": 22938012,
+   "place": "District de Mkushi, Zambie",
+   "date": "2019-01-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1501304/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "obs": 1188559,
+   "place": "Katanga Province, Democratic Republic of Congo",
+   "date": "2014-11-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1476458/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC)",
+   "obs": 1170259,
+   "place": "Kasanka National Park",
+   "date": "2014-12-13"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsadoboa shrevei",
+  "url": "https://en.wikipedia.org/wiki/Dipsadoboa_shrevei",
+  "revision": 1355163594,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsadoboa shrevei, Shreve's tree snake, is a species of non-venomous snake in the family Colubridae. The species is found in Angola, the Democratic Republic of the Congo, Republic of the Congo, Zambia, Burundi, and Rwanda."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1476458/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 1476458
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1476459/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 1476459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1476457/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 1476457
+  }
+ ]
+}

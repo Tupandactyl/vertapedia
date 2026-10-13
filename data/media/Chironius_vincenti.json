@@ -1,0 +1,77 @@
+{
+ "sci": "Chironius vincenti",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 73715,
+  "name": "Chironius vincenti",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saint_Vincent_blacksnake",
+  "common": "Saint Vincent Sipo"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517318510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vince929, some rights reserved (CC BY-NC)",
+   "obs": 287702482,
+   "place": null,
+   "date": "2020-03-02"
+  }
+ ],
+ "wiki": {
+  "title": "Saint Vincent blacksnake",
+  "url": "https://en.wikipedia.org/wiki/Saint_Vincent_blacksnake",
+  "revision": 1354936691,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Saint Vincent blacksnake (Chironius vincenti), also commonly known as the Saint Vincent coachwhip, the San Vincent racer, and Vincent's sipo, is a species of snake in the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. vincenti is endemic to Saint Vincent, an island in the Caribbean Lesser Antilles that is part of Saint Vincent and the Grenadines."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, vincenti, refers to the island of Saint Vincent."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "C. vincenti can grow to lengths in excess of a meter (40 inches). It is slate black, with a paler mouth and ventral surface."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of C. vincenti is forest, at elevations of 275–600 m (902–1,969 ft)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517320081/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vince929, some rights reserved (CC BY-NC)",
+   "photo": 517320081
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517318510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vince929, some rights reserved (CC BY-NC)",
+   "photo": 517318510
+  }
+ ]
+}

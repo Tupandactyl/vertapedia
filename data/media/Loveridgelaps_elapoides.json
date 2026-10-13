@@ -1,0 +1,58 @@
+{
+ "sci": "Loveridgelaps elapoides",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35192,
+  "name": "Loveridgelaps elapoides",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Loveridgelaps",
+  "common": "Solomons Small-eyed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84102143/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC)",
+   "obs": 52894094,
+   "place": "Guadalcanal, SB",
+   "date": "2015-10-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601977568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC)",
+   "obs": 331790112,
+   "place": "Choiseul, SB",
+   "date": "2025-10-29"
+  }
+ ],
+ "wiki": {
+  "title": "Loveridgelaps",
+  "url": "https://en.wikipedia.org/wiki/Loveridgelaps",
+  "revision": 1350416469,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Loveridgelaps is a genus of snake in the family Elapidae. It contains a single species, Loveridgelaps elapoides, commonly known as the Solomons small-eyed snake.",
+     "It is found in the Solomon Islands archipelago."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84102143/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC), uploaded by jqrichmond",
+   "photo": 84102143
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84106151/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC), uploaded by jqrichmond",
+   "photo": 84106151
+  }
+ ]
+}

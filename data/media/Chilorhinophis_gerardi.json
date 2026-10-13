@@ -1,0 +1,135 @@
+{
+ "sci": "Chilorhinophis gerardi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116521,
+  "name": "Chilorhinophis gerardi",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chilorhinophis_gerardi",
+  "common": "Congo Two-headed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169215985/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) justinehelenbrown, some rights reserved (CC BY-NC)",
+   "obs": 101332613,
+   "place": "Hurungwe, ZW",
+   "date": "2021-11-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596067216/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) julietq1, some rights reserved (CC BY-NC)",
+   "obs": 328889485,
+   "place": "Hurungwe, ZW-MW, ZW",
+   "date": "2025-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349826499/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robburrett, some rights reserved (CC BY-NC)",
+   "obs": 198472993,
+   "place": "Shamva, Zimbabwe",
+   "date": "2011-04-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610144848/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) foxt2, some rights reserved (CC BY-NC)",
+   "obs": 335820433,
+   "place": "Hurungwe, ZW-MW, ZW",
+   "date": "2025-11-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532860896/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Hancock, some rights reserved (CC BY-NC)",
+   "obs": 295962344,
+   "place": "Lower Zambezi, National Park, Chiawa, Zambia",
+   "date": "2014-05-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517576742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nyaradzo Hoto, some rights reserved (CC BY-NC)",
+   "obs": 287834590,
+   "place": "Hurungwe, Zimbabwe",
+   "date": "2025-03-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664891639/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rudomidzi, some rights reserved (CC BY-NC)",
+   "obs": 364215709,
+   "place": "Hurungwe, Zimbabwe",
+   "date": "2026-05-23"
+  }
+ ],
+ "wiki": {
+  "title": "Chilorhinophis gerardi",
+  "url": "https://en.wikipedia.org/wiki/Chilorhinophis_gerardi",
+  "revision": 1354658353,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Chilorhinophis gerardi, commonly known as the Congo two-headed snake, Gerard's black and yellow burrowing snake, and Gerard's two-headed snake, is a species of mildly venomous snake in the family Atractaspididae. The species is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, gerardi, is in honor of Belgian physician and naturalist Pol Gérard (1886-1961) who collected the type specimen."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. gerardi is found in southern Democratic Republic of the Congo (formerly known as Zaire), Tanzania, Zambia, and Zimbabwe."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of C. gerardi is savanna, at altitudes up to 920 m (3,020 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. gerardi is oviparous."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies of C. gerardi are recognized as being valid, including the nominotypical subspecies.",
+     "Chilorhinophis gerardi gerardi (Boulenger, 1913)",
+     "Chilorhinophis gerardi tanganyikae Loveridge, 1951",
+     "Nota bene: A trinomial authority in parentheses indicates that the subspecies was originally described in a genus other than Chilorhinophis."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169215985/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) justinehelenbrown, some rights reserved (CC BY-NC)",
+   "photo": 169215985
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169215569/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) justinehelenbrown, some rights reserved (CC BY-NC)",
+   "photo": 169215569
+  }
+ ]
+}

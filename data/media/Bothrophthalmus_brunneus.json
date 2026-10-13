@@ -1,0 +1,52 @@
+{
+ "sci": "Bothrophthalmus brunneus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 95911,
+  "name": "Bothrophthalmus brunneus",
+  "observations": 4,
+  "wikipedia_url": null,
+  "common": "Brown Loreal Pitted Wolf Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183045602/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 108689418,
+   "place": "Madingo-Kayes, Conkouati, CG-KO, CG",
+   "date": "2012-07-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187722812/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 111217523,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2013-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318501682/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) gecko_eb, some rights reserved (CC BY-NC)",
+   "obs": 182654448,
+   "place": "Boumi-Louetsi, Gabon",
+   "date": "2023-09-10"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183045602/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 183045602
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183045660/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 183045660
+  }
+ ]
+}

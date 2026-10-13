@@ -1,0 +1,79 @@
+{
+ "sci": "Polemon ater",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 889753,
+  "name": "Polemon ater",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Polemon_ater",
+  "common": "Black Snake-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393557651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gbmalawi, some rights reserved (CC BY-NC)",
+   "obs": 222187716,
+   "place": "Mzimba, Malawi",
+   "date": "2023-05-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485509320/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gbmalawi, some rights reserved (CC BY-NC)",
+   "obs": 269994652,
+   "place": "Stable Mzimba, Malawi",
+   "date": "2025-04-12"
+  }
+ ],
+ "wiki": {
+  "title": "Polemon ater",
+  "url": "https://en.wikipedia.org/wiki/Polemon_ater",
+  "revision": 1355137093,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Polemon ater, also known commonly as the black snake-eater, is a species of mildly rear-fanged venomous snake in the subfamily Aparallactinae of the family Atractaspididae. The species is native to central Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Polemon ater is known with certainty from the southeastern portion of the Democratic Republic of the Congo (formerly called Zaire), but is likely also found in adjacent Tanzania and Zambia based on literary records."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "P. ater was grouped under P. christyi until genetic analyses indicated that it was a distinct species. It is the first species in the genus Polemon to be described in over 70 years."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Polemon ater preys exclusively upon snakes (ophiophagy), including those three-quarters it size, like Afrotyphlops schmidti."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The mode of reproduction of P. ater is unknown."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393557651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gbmalawi, some rights reserved (CC BY-NC)",
+   "photo": 393557651
+  }
+ ]
+}

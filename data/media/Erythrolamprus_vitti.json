@@ -1,0 +1,111 @@
+{
+ "sci": "Erythrolamprus vitti",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539706,
+  "name": "Erythrolamprus vitti",
+  "observations": 15,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Erythrolamprus_vitti",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112917745/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bill Hagan, some rights reserved (CC BY-NC)",
+   "obs": 69573671,
+   "place": "Ibarra, Imbabura, EC",
+   "date": "2021-02-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258767195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ross Maynard, some rights reserved (CC BY-NC)",
+   "obs": 150107509,
+   "place": "Tulcan, Ecuador",
+   "date": "2021-08-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224807739/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amcuervo, some rights reserved (CC BY-NC)",
+   "obs": 132046040,
+   "place": "Ricaurte, Nariño, CO",
+   "date": "2022-08-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100861797/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Micanquer, some rights reserved (CC BY-NC)",
+   "obs": 62900372,
+   "place": "MALDONADOTulcan, Ecuador",
+   "date": "2020-10-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179849065/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mateoan, some rights reserved (CC BY-NC)",
+   "obs": 106986790,
+   "place": "Mira, Ecuador",
+   "date": "2019-06-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315764541/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ©Yuleidy E. Castro L., some rights reserved (CC BY-NC)",
+   "obs": 181198048,
+   "place": "El Goaltal, Ecuador",
+   "date": "2023-08-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232044123/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cuyai Arias, some rights reserved (CC BY-NC)",
+   "obs": 135998388,
+   "place": "Ricaurte, Nariño, Colombia",
+   "date": "2021-08-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93690511/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bill Hagan, some rights reserved (CC BY-NC)",
+   "obs": 58675138,
+   "place": "Ibarra Canton, Ecuador",
+   "date": "2020-09-05"
+  }
+ ],
+ "wiki": {
+  "title": "Erythrolamprus vitti",
+  "url": "https://en.wikipedia.org/wiki/Erythrolamprus_vitti",
+  "revision": 1355160142,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Erythrolamprus vitti is a species of snake in the family Colubridae. The species is found in Ecuador and Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258767195/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ross Maynard, some rights reserved (CC BY-NC), uploaded by Ross Maynard",
+   "photo": 258767195
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232044123/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Cuyai Arias, some rights reserved (CC BY-NC), uploaded by Cuyai Arias",
+   "photo": 232044123
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179849065/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mateoan, some rights reserved (CC BY-NC), uploaded by mateoan",
+   "photo": 179849065
+  }
+ ]
+}

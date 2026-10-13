@@ -1,0 +1,44 @@
+{
+ "sci": "Lycodonomorphus whytii",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29533,
+  "name": "Lycodonomorphus whytii",
+  "observations": 5,
+  "wikipedia_url": null,
+  "common": "Whyte's Water Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585519815/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "obs": 323580981,
+   "place": "Ludewa, TZ-NJ, TZ",
+   "date": "2024-11-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45027350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BenJee, some rights reserved (CC BY-NC)",
+   "obs": 28868956,
+   "place": "Mufindi, Tanzania",
+   "date": "2019-07-11"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585519815/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b，保留部分权利（CC BY-NC）",
+   "photo": 585519815
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34662542/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra，保留部分权利（CC BY-NC）, 由 Lorenzo Vinciguerra 上传",
+   "photo": 34662542
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "sci": "Atractus melas",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27859,
+  "name": "Atractus melas",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_melas",
+  "common": "Dark Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42170199/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC)",
+   "obs": 17585296,
+   "place": "Chocó, CO",
+   "date": "2018-10-14"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus melas",
+  "url": "https://en.wikipedia.org/wiki/Atractus_melas",
+  "revision": 1329570414,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus melas, the dark ground snake,  is a species of snake in the family Colubridae. The species can be found in Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42170199/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Vásquez-Restrepo, some rights reserved (CC BY-NC), uploaded by Daniel Vásquez-Restrepo",
+   "photo": 42170199
+  }
+ ]
+}

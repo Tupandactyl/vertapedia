@@ -1,0 +1,91 @@
+{
+ "sci": "Vermicella vermiformis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35070,
+  "name": "Vermicella vermiformis",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vermicella_vermiformis",
+  "common": "Centralian Bandy Bandy"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410036248/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Volpe, some rights reserved (CC BY-NC)",
+   "obs": 230910191,
+   "place": "Tanami, AU-NT, AU",
+   "date": "2018-11-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10516275/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Yates, some rights reserved (CC BY-NC)",
+   "obs": 7959445,
+   "place": "Hugh NT 0872, Australia",
+   "date": "2015-12-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578319524/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) miss varanus, some rights reserved (CC BY-NC)",
+   "obs": 319899627,
+   "place": "Burt Plain, NT, AU",
+   "date": "2018-10-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639866981/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) maddz2508, some rights reserved (CC BY-NC)",
+   "obs": 350676201,
+   "place": "Kings Canyon, Petermann, NT, AU",
+   "date": "2026-04-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492929869/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aidan Jackson-Kightly, some rights reserved (CC BY-NC)",
+   "obs": 274164829,
+   "place": "Watarrka National Park, Petermann, NT, AU",
+   "date": "2025-02-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375336519/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Donna Belder, some rights reserved (CC BY)",
+   "obs": 212389845,
+   "place": "Tjoritja/West MacDonnell National Park, Mount Zeil, NT, AU",
+   "date": "2021-09-16"
+  }
+ ],
+ "wiki": {
+  "title": "Vermicella vermiformis",
+  "url": "https://en.wikipedia.org/wiki/Vermicella_vermiformis",
+  "revision": 1370525951,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Vermicella vermiformis, commonly known as the Centralian bandy-bandy, is a species of snake in the family Elapidae.",
+     "It is endemic to Australia."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "It is found in the Northern Territory."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10516275/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Adam Yates, some rights reserved (CC BY-NC), uploaded by Adam Yates",
+   "photo": 10516275
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "sci": "Laticauda crockeri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35242,
+  "name": "Laticauda crockeri",
+  "observations": 16,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crocker's_sea_snake",
+  "common": "Rennell Island Sea Krait"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84027088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC)",
+   "obs": 52846460,
+   "place": "Solomon Islands",
+   "date": "2018-10-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602044220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC)",
+   "obs": 331822635,
+   "place": "Solomon Islands",
+   "date": "2025-12-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23387865/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark O'Brien, some rights reserved (CC BY-NC)",
+   "obs": 15665492,
+   "place": "Solomon Islands",
+   "date": "2018-08-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602042747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC)",
+   "obs": 331822628,
+   "place": "Solomon Islands",
+   "date": "2025-12-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534779388/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC)",
+   "obs": 296965305,
+   "place": "Solomon Islands",
+   "date": "2025-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533123657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hyongchan Kim, some rights reserved (CC BY-NC)",
+   "obs": 296099954,
+   "place": "Solomon Islands",
+   "date": "2025-07-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577131953/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paddy-ryan, some rights reserved (CC BY-NC)",
+   "obs": 319280971,
+   "place": "Solomon Islands",
+   "date": "1998-11-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577131950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paddy-ryan, some rights reserved (CC BY-NC)",
+   "obs": 319280970,
+   "place": "Solomon Islands",
+   "date": "1998-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Crocker's sea snake",
+  "url": "https://en.wikipedia.org/wiki/Crocker%27s_sea_snake",
+  "revision": 1354936833,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crocker's sea snake (Laticauda crockeri) is a species of venomous snake in the subfamily Laticaudinae of the family Elapidae. The species is native to Oceania."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, crockeri, is in honor of American railroad magnate Charles Templeton Crocker (1885-1948), who allowed the California Academy of Sciences to use his yacht, the Zaca, for scientific expeditions."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "L. crockeri is endemic to Lake Tegano, a brackish lake on Rennell Island in the Solomon Islands."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "L. crockeri is sexually dimorphic, with females growing to be longer and heavier than males. Females may attain a snout-to-vent length (SVL) of 80 cm (31 in), but males may attain only 62 cm (24 in) in SVL. Maximum tail length is about 9 cm (3.5 in) in both sexes."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "L. crockeri is currently listed as \"Vulnerable\" by the International Union for Conservation of Nature (IUCN) due to the extremely limited distribution of the species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602045077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC), uploaded by Guillaume Tessereau",
+   "photo": 602045077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84027088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jqrichmond, some rights reserved (CC BY-NC), uploaded by jqrichmond",
+   "photo": 84027088
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577131950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paddy-ryan, some rights reserved (CC BY-NC)",
+   "photo": 577131950
+  }
+ ]
+}

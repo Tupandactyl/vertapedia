@@ -1,0 +1,52 @@
+{
+ "sci": "Cylindrophis burmanus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539532,
+  "name": "Cylindrophis burmanus",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cylindrophis_burmanus",
+  "common": "Burmese pipe snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41398495/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thinpyie, some rights reserved (CC BY-NC)",
+   "obs": 26652693,
+   "place": "Mandalay, , Mandalay, MM",
+   "date": "2018-09-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442527760/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Danielle, some rights reserved (CC BY-NC)",
+   "obs": 247736300,
+   "place": "Mahaaungmyay, Mandalay, Myanmar (Burma)",
+   "date": "2024-10-16"
+  }
+ ],
+ "wiki": {
+  "title": "Cylindrophis burmanus",
+  "url": "https://en.wikipedia.org/wiki/Cylindrophis_burmanus",
+  "revision": 1355389527,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cylindrophis burmanus, the Burmese pipe snake, is a species of snake of the family Cylindrophiidae.",
+     "The snake is found in Myanmar."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41398495/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thinpyie, some rights reserved (CC BY-NC)",
+   "photo": 41398495
+  }
+ ]
+}

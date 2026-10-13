@@ -1,0 +1,85 @@
+{
+ "sci": "Calamaria andersoni",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 797603,
+  "name": "Calamaria andersoni",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Calamaria_andersoni",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627068240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hlwammoeaung, some rights reserved (CC BY-NC)",
+   "obs": 344171859,
+   "place": "Myanmar",
+   "date": "2022-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664696038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) haifeng Tang, some rights reserved (CC BY-NC)",
+   "obs": 364026243,
+   "place": "Yunnan, CN",
+   "date": "2026-05-20"
+  }
+ ],
+ "wiki": {
+  "title": "Calamaria andersoni",
+  "url": "https://en.wikipedia.org/wiki/Calamaria_andersoni",
+  "revision": 1379051109,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calamaria andersoni, also known commonly as Anderson's reed snake, is a species of snake in the subfamily Calamariinae of the family Colubridae. The species is endemic to China."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, andersoni, is in honor of Scottish zoologist John Anderson (1833–1900)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsally, Calamaria andersoni is brown, with indistinct narrow black stripes on the flanks. Underside of the head possess a light yellow coloration with brownish flecks on the infra-labials and chin shields. It has four upper labials, the second and third touching the eye. It has one preocular. The mental is not in contact with the anterior chin shields. The dorsal scales are arranged in 13 rows throughout the length of the body. The holotype, a male, has 171 ventrals, and 23 subcaudals."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Calamaria andersoni is found in Yunnan province, China."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Calamaria andersoni is terrestrial and fossorial."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664696038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) haifeng Tang，保留部分权利（CC BY-NC）, 由 haifeng Tang 上传",
+   "photo": 664696038
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627068240/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hlwammoeaung，保留部分权利（CC BY-NC）",
+   "photo": 627068240
+  }
+ ]
+}

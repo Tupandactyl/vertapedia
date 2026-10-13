@@ -1,0 +1,111 @@
+{
+ "sci": "Atractus sanguineus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27784,
+  "name": "Atractus sanguineus",
+  "observations": 23,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_sanguineus",
+  "common": "Bloody Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430163624/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olmedo Sierra Suárez, some rights reserved (CC BY-NC)",
+   "obs": 241368833,
+   "place": "Providencia, Anorí, Antioquia, CO",
+   "date": "2024-09-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709780220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuliana, some rights reserved (CC BY-NC)",
+   "obs": 387601684,
+   "place": "CH3R+HW, Barbosa, Antioquia, Colombia",
+   "date": "2026-08-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/694385732/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AnaPao, some rights reserved (CC BY-NC)",
+   "obs": 379601153,
+   "place": "Yarumal, Antioquia, CO",
+   "date": "2026-07-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24768219/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Luis G Restrepo, some rights reserved (CC BY)",
+   "obs": 16457920,
+   "place": "Barbosa, Antioquia, Colombia",
+   "date": "2018-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11507713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor Quiroz, some rights reserved (CC BY-NC)",
+   "obs": 8605256,
+   "place": "Unnamed Road, Remedios, Antioquia, Colombia",
+   "date": "2017-10-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330620981/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Moreno, some rights reserved (CC BY-NC)",
+   "obs": 188834322,
+   "place": "Anorí, Antioquia, Colombia",
+   "date": "2023-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261605852/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Daniel Bocanumenth E., some rights reserved (CC BY-NC-SA)",
+   "obs": 151572820,
+   "place": "Antioquia, CO",
+   "date": "2023-03-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560727041/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Escobar, some rights reserved (CC BY-NC)",
+   "obs": 310669668,
+   "place": "San Diego, Girardota, Antioquia, Colombia",
+   "date": "2025-07-20"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus sanguineus",
+  "url": "https://en.wikipedia.org/wiki/Atractus_sanguineus",
+  "revision": 1329570617,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus sanguineus, the bloody ground snake,  is a species of snake in the family Colubridae. The species can be found in Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330620981/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Moreno, some rights reserved (CC BY-NC), uploaded by Carlos Moreno",
+   "photo": 330620981
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24768219/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Luis G Restrepo, some rights reserved (CC BY), uploaded by Luis G Restrepo",
+   "photo": 24768219
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11507713/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Victor Quiroz, some rights reserved (CC BY-NC), uploaded by Victor Quiroz",
+   "photo": 11507713
+  }
+ ]
+}

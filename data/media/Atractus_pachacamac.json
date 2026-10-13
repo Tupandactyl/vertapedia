@@ -1,0 +1,66 @@
+{
+ "sci": "Atractus pachacamac",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1250251,
+  "name": "Atractus pachacamac",
+  "observations": 13,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_pachacamac",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477710949/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nelson Apolo, some rights reserved (CC BY-NC)",
+   "obs": 265909089,
+   "place": "Lodge Loop, Archidona, Napo, EC",
+   "date": "2025-03-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594951272/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Jurgen Beckers, some rights reserved (CC BY-NC-SA)",
+   "obs": 328338717,
+   "place": "RN La Isla Escondida",
+   "date": "2025-11-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445423873/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Benjamin Hidalgo, some rights reserved (CC BY)",
+   "obs": 249101572,
+   "place": "Sardinas, Ecuador",
+   "date": "2024-10-25"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus pachacamac",
+  "url": "https://en.wikipedia.org/wiki/Atractus_pachacamac",
+  "revision": 1376026937,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus pachacamac, also known commonly as the Pachacamac ground snake, is a species of snake in the family Colubridae. The species can be found in Ecuador, Peru, and Colombia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, pachacamac, is from the Quechua word for the Incan creator of the earth."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445423873/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Benjamin Hidalgo, some rights reserved (CC BY), uploaded by Benjamin Hidalgo",
+   "photo": 445423873
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "sci": "Xylophis chenkaruppan",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1648243,
+  "name": "Xylophis chenkaruppan",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xylophis_chenkaruppan",
+  "common": "Wayanad Narrow-headed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544942087/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) RENJITH RV, some rights reserved (CC BY-NC)",
+   "obs": 302376886,
+   "place": "P33M+79J, Wayanad, Kerala 673122, India",
+   "date": "2025-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613256368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) avrajjal, some rights reserved (CC BY-NC)",
+   "obs": 337359572,
+   "place": "Vellarimala, Kerala, India",
+   "date": "2015-10-08"
+  }
+ ],
+ "wiki": {
+  "title": "Xylophis chenkaruppan",
+  "url": "https://en.wikipedia.org/wiki/Xylophis_chenkaruppan",
+  "revision": 1375355426,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xylophis chenkaruppan is a species of snake, found in the Wayanad District of Kerala, India, specifically in the Vellarimalla Hills."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The snake is described as having 13 rows of dorsal scales along its midbody and relatively long prefrontals, which differs from the other species of its genera (such as, X. stenorhynchus, X. captaini, and X. deepaki), as they possess 15 rows of such scales and shorter prefrontals. Furthermore, the snake differs from X. perroteti, in that its posterior pair of genial scales make contact with the midline, whereas in X. perroteti, these scales are separated. Morphologically, the pattern of head scalation more closely resembles that of X. mosaicus, than to X. perroteti. X. chenkaruppan also has 126-131 ventral scales, with 26-38 subcaudal scales, which is less than those found on X. mosaicus."
+    ]
+   },
+   {
+    "h": "Coloration",
+    "level": 3,
+    "paras": [
+     "X. chenkaruppan adults display reddish ventral markings and have a reddish-dun dorsum with black mottling, along with a reddish ventrum. Younger individuals are darker in coloration."
+    ]
+   },
+   {
+    "h": "Phylogeny",
+    "level": 2,
+    "paras": [
+     "Xylophis chenkaruppan is genetically similar to Xylophis perroteti from the Nilgiri Hills."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613257063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) avrajjal, some rights reserved (CC BY-NC), uploaded by avrajjal",
+   "photo": 613257063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613256368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) avrajjal, some rights reserved (CC BY-NC), uploaded by avrajjal",
+   "photo": 613256368
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544942087/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) RENJITH RV, some rights reserved (CC BY-NC), uploaded by RENJITH RV",
+   "photo": 544942087
+  }
+ ]
+}

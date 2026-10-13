@@ -1,0 +1,71 @@
+{
+ "sci": "Vermicella multifasciata",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35072,
+  "name": "Vermicella multifasciata",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vermicella_multifasciata",
+  "common": "Northern Bandy Bandy"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182830760/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) allira89, some rights reserved (CC BY-NC)",
+   "obs": 108574508,
+   "place": "Judbarra / Gregory National Park, Gregory, NT, AU",
+   "date": "2021-04-29"
+  }
+ ],
+ "wiki": {
+  "title": "Vermicella multifasciata",
+  "url": "https://en.wikipedia.org/wiki/Vermicella_multifasciata",
+  "revision": 1132897672,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Northern bandy bandy (Vermicella multifasciata) is a species of snake in the family Elapidae.",
+     "It is endemic to Australia."
+    ]
+   },
+   {
+    "h": "Ecology and behaviour",
+    "level": 2,
+    "paras": [
+     "It is found in far northeastern Western Australia to the topmost western end of the Northern Territory, including the Tiwi Islands. It is fossorial and is found in seasonally dry tropical woodlands and open eucalypt forests.",
+     "The species feeds almost exclusively on blind snakes."
+    ]
+   },
+   {
+    "h": "Status in the wild",
+    "level": 2,
+    "paras": [
+     "The species has been assessed as least concern by the IUCN, although little is known about its population."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182830780/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) allira89, some rights reserved (CC BY-NC), uploaded by allira89",
+   "photo": 182830780
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182830760/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) allira89, some rights reserved (CC BY-NC), uploaded by allira89",
+   "photo": 182830760
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182830803/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) allira89, some rights reserved (CC BY-NC), uploaded by allira89",
+   "photo": 182830803
+  }
+ ]
+}

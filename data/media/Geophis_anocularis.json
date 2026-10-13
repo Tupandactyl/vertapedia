@@ -1,0 +1,51 @@
+{
+ "sci": "Geophis anocularis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30040,
+  "name": "Geophis anocularis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_anocularis",
+  "common": "Sierra Mije Earth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32901724/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aldo López Velázquez, some rights reserved (CC BY-NC)",
+   "obs": 21278930,
+   "place": "Oaxaca, MX",
+   "date": "2018-10-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32901708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aldo López Velázquez, some rights reserved (CC BY-NC)",
+   "obs": 21278929,
+   "place": "Totontepec Villa de Morelos, Oax., México",
+   "date": "2018-10-02"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis anocularis",
+  "url": "https://en.wikipedia.org/wiki/Geophis_anocularis",
+  "revision": 1353565061,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis anocularis, also known as the Sierra Mije earth snake, is a snake of the colubrid family. It is endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32901708/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aldo López Velázquez, some rights reserved (CC BY-NC), uploaded by Aldo López Velázquez",
+   "photo": 32901708
+  }
+ ]
+}

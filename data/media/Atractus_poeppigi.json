@@ -1,0 +1,51 @@
+{
+ "sci": "Atractus poeppigi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27827,
+  "name": "Atractus poeppigi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_poeppigi",
+  "common": "Basin Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558733077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thiago Carvalho, some rights reserved (CC BY-NC)",
+   "obs": 309620284,
+   "place": "Terminal - Jardim Botânico - Jorge Teixeira, Manaus - AM, 69099, Brasil",
+   "date": "2016-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178026621/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 106024603,
+   "place": "Moiobamba, Beruri - AM, Brasil",
+   "date": "2010-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus poeppigi",
+  "url": "https://en.wikipedia.org/wiki/Atractus_poeppigi",
+  "revision": 1329570572,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus poeppigi, the basin ground snake, is a species of snake in the family Colubridae. The species can be found in Colombia, Brazil, and Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178026621/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 178026621
+  }
+ ]
+}

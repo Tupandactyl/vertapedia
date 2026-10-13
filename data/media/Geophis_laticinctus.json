@@ -1,0 +1,51 @@
+{
+ "sci": "Geophis laticinctus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 73814,
+  "name": "Geophis laticinctus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_laticinctus",
+  "common": "Mesa Central Earth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25042587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Drymarchon Simón, some rights reserved (CC BY-NC)",
+   "obs": 16617224,
+   "place": "Algun lugar en Oaxaca",
+   "date": "2018-08-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62153175/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Diana Fuentes, some rights reserved (CC BY-SA)",
+   "obs": 39197018,
+   "place": "Naha",
+   "date": "2018-07-19"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis laticinctus",
+  "url": "https://en.wikipedia.org/wiki/Geophis_laticinctus",
+  "revision": 1366451156,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis laticinctus, also known as the Mesa Central  earth snake, is a snake of the colubrid family. It is found in Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25042587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Drymarchon Simón, some rights reserved (CC BY-NC), uploaded by Drymarchon Simón",
+   "photo": 25042587
+  }
+ ]
+}

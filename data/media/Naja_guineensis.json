@@ -1,0 +1,120 @@
+{
+ "sci": "Naja guineensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 797731,
+  "name": "Naja guineensis",
+  "observations": 20,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black_forest_cobra",
+  "common": "Black Forest Cobra"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541279300/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 300415830,
+   "place": "Jaedae, Liberia",
+   "date": "2021-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464175158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 258679778,
+   "place": "Ray, Liberia",
+   "date": "2024-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162938521/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlanguy, some rights reserved (CC BY-NC)",
+   "obs": 97925068,
+   "place": "Yarmein, Liberia",
+   "date": "2021-10-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368089058/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom JAMONNEAU, some rights reserved (CC BY-NC)",
+   "obs": 208059311,
+   "place": "GHWF+3QQ, Akouaba, Côte d'Ivoire",
+   "date": "2024-04-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215553750/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marat Makenov, some rights reserved (CC BY-NC)",
+   "obs": 127000719,
+   "place": "Префектюр де Гекэду, Гвинея",
+   "date": "2022-06-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639279639/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 350378249,
+   "place": "3FMJ+X9 Dobloke, Liberia",
+   "date": "2021-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462858317/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 258016334,
+   "place": "Matambo Concession, Incidental location",
+   "date": "2021-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123492357/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlanguy, some rights reserved (CC BY-NC)",
+   "obs": 75480193,
+   "place": "Fendell Campus",
+   "date": "2021-04-25"
+  }
+ ],
+ "wiki": {
+  "title": "Black forest cobra",
+  "url": "https://en.wikipedia.org/wiki/Black_forest_cobra",
+  "revision": 1376707208,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The black forest cobra (Naja guineensis) is a species of cobra in the genus Naja that is found in West Africa.",
+     "This species was long thought to be identical to the forest cobra (Naja melanoleuca), but morphological and genetic differences have led to its recognition as a separate species. It differs from Naja melanoleuca in often having 17 rather than 19 midbody dorsal scale rows, a reduced number of dark ventral bands, and a tendency towards ontogenetic melanism."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults are uniformly brownish black or black dorsally, or may display faint variegated lighter markings. Juveniles have much more pronounced light speckling or variegated banding. Ventrally, the throat is light, and is followed by several alternating dark and light bands (usually 2-3 discrete dark bands), the remainder of the ventral side is uniformly black. In adults, the light ventral bands often become heavily suffused with dark mottling and may become indistinguishable. The labial region and the underside of the head are cream, and the edges of the labials are heavily outlined in black. In adults, the labial region may become almost entirely suffused with dark mottling. Ventrals 203-221, subcaudals 60-70. Maximum recorded length 264 cm"
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The species occurs in West Africa, and is documented from the Upper Guinea forests of Togo, Ghana, Ivory Coast, Sierra Leone, Liberia, Guinea, and Guinea-Bissau."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162938521/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy",
+   "photo": 162938521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123492368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy",
+   "photo": 123492368
+  }
+ ]
+}

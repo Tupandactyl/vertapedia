@@ -1,0 +1,59 @@
+{
+ "sci": "Geophis occabus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 146131,
+  "name": "Geophis occabus",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_occabus",
+  "common": "El Molote Earth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105496761/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 65535035,
+   "place": "Atoyac de Álvarez, Guerrero, Mexico",
+   "date": "2019-06-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/542303073/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo M. Martínez-Campos, some rights reserved (CC BY-NC)",
+   "obs": 300962464,
+   "place": "Guerrero, MX",
+   "date": "2025-07-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/539818232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 299632055,
+   "place": "Chilpancingo de los Bravo, Gro., MX",
+   "date": "2025-07-19"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis occabus",
+  "url": "https://en.wikipedia.org/wiki/Geophis_occabus",
+  "revision": 1374906452,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis occabus is a snake of the colubrid family endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105496761/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 105496761
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "sci": "Micrurus albicinctus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 105865,
+  "name": "Micrurus albicinctus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Micrurus_albicinctus",
+  "common": "White-banded Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200735725/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Salles Masseli, some rights reserved (CC BY-NC)",
+   "obs": 118786337,
+   "place": "Rodovia BR-174 (Manaus-Presidente Figueiredo), Km 38. Ramal, Pres. Figueiredo, Manaus - AM, Brasil",
+   "date": "2016-01-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310708127/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rhegmatorhina, some rights reserved (CC BY-NC)",
+   "obs": 178547003,
+   "place": "Machadinho d'Oeste - State of Rondônia, 76868-000, Brazil",
+   "date": "2016-07-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237704033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Henrique Bonavigo, some rights reserved (CC BY-NC)",
+   "obs": 139024222,
+   "place": "Humaitá - AM, 69800-000, Brasil",
+   "date": "2006-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356988826/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Henrique Bonavigo, some rights reserved (CC BY-NC)",
+   "obs": 202159327,
+   "place": "Humaitá - AM, 69800-000, Brasil",
+   "date": "2010-01-15"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus albicinctus",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_albicinctus",
+  "revision": 1358544711,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus albicinctus, also known commonly as the white-banded coral snake, is a species of venomous snake in the family Elapidae. The species is native to northwestern South America."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Unlike most species in its genus, Micrurus albicintus has no red in its color pattern. It is black, with narrow white rings. Dorsally, each white ring appears as a series of spots, but ventrally the rings are uninterrupted."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Micrurus albicinctus is found in northwestern Brazil, southeastern Colombia, and northeastern Peru."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Micrurus albicinctus is forest."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Micrurus albicinctus is ophiophagous, preying exclusively on snakes."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Micrurus albicinctus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200735725/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriel Salles Masseli, some rights reserved (CC BY-NC), uploaded by Gabriel Salles Masseli",
+   "photo": 200735725
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237704033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Henrique Bonavigo, some rights reserved (CC BY-NC), uploaded by Paulo Henrique Bonavigo",
+   "photo": 237704033
+  }
+ ]
+}

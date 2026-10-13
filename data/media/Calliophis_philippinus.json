@@ -1,0 +1,66 @@
+{
+ "sci": "Calliophis philippinus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1223354,
+  "name": "Calliophis philippinus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Calliophis_philippinus",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410926442/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jay Paul Mantuon, some rights reserved (CC BY-NC)",
+   "obs": 231368203,
+   "place": "33CG+F23 Pasonanca Natural Park(Asean Heritage Park), Zamboanga, Zamboanga del Sur, Philippines",
+   "date": "2024-07-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104932816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mossambica, some rights reserved (CC BY-NC)",
+   "obs": 65217385,
+   "place": "Carmen, Bohol, Philippines",
+   "date": "2009-02-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689629210/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Nielbert Raner, some rights reserved (CC BY)",
+   "obs": 377139332,
+   "place": "Tamayong Road, Davao City, Davao, PH",
+   "date": "2026-07-01"
+  }
+ ],
+ "wiki": {
+  "title": "Calliophis philippinus",
+  "url": "https://en.wikipedia.org/wiki/Calliophis_philippinus",
+  "revision": 1355389657,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calliophis philippinus, the Philippine coral snake, is a species of snake of the family Elapidae.",
+     "The snake is found in  the Philippines."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410926442/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jay Paul Mantuon, some rights reserved (CC BY-NC), uploaded by Jay Paul Mantuon",
+   "photo": 410926442
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104932816/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mossambica, some rights reserved (CC BY-NC), uploaded by mossambica",
+   "photo": 104932816
+  }
+ ]
+}

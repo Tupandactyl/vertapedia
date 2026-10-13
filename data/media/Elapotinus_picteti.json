@@ -1,0 +1,87 @@
+{
+ "sci": "Elapotinus picteti",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116522,
+  "name": "Elapotinus picteti",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Elapotinus",
+  "common": "Jan's Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10075705/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Broadhead, some rights reserved (CC BY-NC)",
+   "obs": 7690353,
+   "place": "Alaotra-Mangoro, Madagascar",
+   "date": "2016-12-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87570292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charley Hesse, some rights reserved (CC BY-NC)",
+   "obs": 55012473,
+   "place": "Andasibe-Mantadia",
+   "date": "2000-01-01"
+  }
+ ],
+ "wiki": {
+  "title": "Elapotinus",
+  "url": "https://en.wikipedia.org/wiki/Elapotinus",
+  "revision": 1370516123,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Elapotinus is a monotypic genus created for the rear-fanged snake species, Elapotinus picteti. The species is endemic to Madagascar. It is also known commonly as Jan's snake in honor of Italian herpetologist Giorgio Jan. There are no subspecies that are recognized as being valid."
+    ]
+   },
+   {
+    "h": "Description (diagnosis) of genus",
+    "level": 2,
+    "paras": [
+     "Maxillary very short, with five teeth gradually increasing in size and followed, after an interspace, by a large grooved fang situated below the eye. Mandibular teeth decreasing in size posteriorly. Head small, not distinct from neck. Eye minute, with round pupil. Nostril between two nasals. No loreal. Body cylindrical; tail short. Dorsal scales smooth, without pits, in 17 rows. Ventrals rounded; subcaudals in two rows."
+    ]
+   },
+   {
+    "h": "Description of species",
+    "level": 2,
+    "paras": [
+     "Dorsally Elapotinus picteti is blackish, with a white upper lip and a white occipital collar. It has a white lateral line on either side. Ventrally it is brown, with the outer ends of the ventrals and adjacent first row of dorsal scales white.",
+     "It is known to attain a total length of 29 cm (11+3⁄8 in), with a tail 4 cm (1+1⁄2 in) long.",
+     "Dorsal scales in 17 rows. Ventrals 175; anal plate divided; subcaudals 36, also divided.",
+     "Rostral broader than deep, just visible from above. Internasals as long as broad, shorter than the prefrontals. Frontal 1½ times as long as broad, as long as its distance from the end of the snout, shorter than the parietals. Supraocular nearly as broad as long. Preocular minute. A small postocular. Temporals 1+2. Seven upper labials, third in contact with the prefrontal, third and fourth entering the eye. Four lower labials in contact with the anterior chin shield. Anterior chin shields a little longer than the posterior chin shields."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name or epithet, picteti, is in honor of François Jules Pictet de la Rive, a Swiss zoologist and palaeontologist."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10075705/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jordan Broadhead, some rights reserved (CC BY-NC), uploaded by Jordan Broadhead",
+   "photo": 10075705
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113974945/{size}.png",
+   "license": "cc-by",
+   "attribution": "(c) \nKucharzewski, Christoph & Raselimanana, Achille Philippe & Wang-Claypool, Cynthia & Glaw, Frank, some rights reserved (CC BY)",
+   "photo": 113974945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87570292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charley Hesse, some rights reserved (CC BY-NC), uploaded by Charley Hesse",
+   "photo": 87570292
+  }
+ ]
+}

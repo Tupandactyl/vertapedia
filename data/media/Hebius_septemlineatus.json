@@ -1,0 +1,80 @@
+{
+ "sci": "Hebius septemlineatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1304783,
+  "name": "Hebius septemlineatus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hebius_septemlineatus",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748182586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 一只黑麂, some rights reserved (CC BY-NC)",
+   "obs": 407171041,
+   "place": "Yunnan, CN",
+   "date": "2020-07-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739600792/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zawminthu, some rights reserved (CC BY-NC)",
+   "obs": 287296039,
+   "place": "Sadung",
+   "date": "2020-07-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545753066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Coffee Travel, some rights reserved (CC BY-NC)",
+   "obs": 302816351,
+   "place": "云南省德宏傣族景颇族自治州盈江县苏典傈僳族乡黄草坝",
+   "date": "2025-07-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568456863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC)",
+   "obs": 314733923,
+   "place": "Dehong Dai and Jingpo, CN-YN, CN",
+   "date": "2025-05-04"
+  }
+ ],
+ "wiki": {
+  "title": "Hebius septemlineatus",
+  "url": "https://en.wikipedia.org/wiki/Hebius_septemlineatus",
+  "revision": 1355381615,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hebius septemlineatus, the Tengchong keelback snake, is a species of snake of the family Colubridae. It is endemic to western Yunnan, China. The vernacular name refers to its type locality, Tengchong.",
+     "Males measure 198–520 mm (7.8–20.5 in) and females 316–408 mm (12.4–16.1 in) in snout–vent length. The tail is 66–177 mm (2.6–7.0 in) and 94–142 mm (3.7–5.6 in) in males and females, respectively."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568456863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 568456863
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545753066/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Coffee Travel, some rights reserved (CC BY-NC), uploaded by Coffee Travel",
+   "photo": 545753066
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185890907/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 185890907
+  }
+ ]
+}

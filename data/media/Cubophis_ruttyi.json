@@ -1,0 +1,79 @@
+{
+ "sci": "Cubophis ruttyi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 98786,
+  "name": "Cubophis ruttyi",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cubophis_ruttyi",
+  "common": "Little Cayman Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389464721/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jgerbracht, some rights reserved (CC BY-NC)",
+   "obs": 220005714,
+   "place": "Sister Islands, Cayman Islands",
+   "date": "2024-05-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341943104/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerry Lewis, some rights reserved (CC BY-NC)",
+   "obs": 194520129,
+   "place": "Little Cayman, Cayman Islands",
+   "date": "2022-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415692221/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jessica Peters, some rights reserved (CC BY-NC)",
+   "obs": 233874948,
+   "place": "Little Cayman, Sister Islands, KY",
+   "date": "2024-01-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612641588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jack Roney, some rights reserved (CC BY-NC)",
+   "obs": 337057675,
+   "place": "North Coast Road East, Sister Islands, KY",
+   "date": "2023-02-26"
+  }
+ ],
+ "wiki": {
+  "title": "Cubophis ruttyi",
+  "url": "https://en.wikipedia.org/wiki/Cubophis_ruttyi",
+  "revision": 1355159090,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cubophis ruttyi, the  Little Cayman racer, is a species of snake in the family Colubridae. The species is native to Little Cayman Island."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341943104/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kerry Lewis, some rights reserved (CC BY-NC), uploaded by Kerry Lewis",
+   "photo": 341943104
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415692221/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jessica Peters, some rights reserved (CC BY-NC), uploaded by Jessica Peters",
+   "photo": 415692221
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415692184/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jessica Peters, some rights reserved (CC BY-NC), uploaded by Jessica Peters",
+   "photo": 415692184
+  }
+ ]
+}

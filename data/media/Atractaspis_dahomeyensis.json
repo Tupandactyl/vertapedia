@@ -1,0 +1,62 @@
+{
+ "sci": "Atractaspis dahomeyensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116501,
+  "name": "Atractaspis dahomeyensis",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Atractaspis_dahomeyensis",
+  "common": "Dahomey Burrowing Asp"
+ },
+ "photos": [],
+ "wiki": {
+  "title": "Atractaspis dahomeyensis",
+  "url": "https://en.wikipedia.org/wiki/Atractaspis_dahomeyensis",
+  "revision": 1010386751,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractaspis dahomeyensis, or the Dahomey burrowing asp, is a species of venomous snake in the Atractaspididae family."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Atractaspis dahomeyensis is black dorsally. It is brown ventrally, and the ventral scales are edged with lighter brown.",
+     "Snout prominent and cuneiform. Dorsal scales arranged in 31 rows. Ventrals 240; anal entire; subcaudals 24, partly entire, partly divided.",
+     "Total length 49 cm (19+1⁄4 in); tail 32 mm (1+1⁄4 in)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7361749/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 7361749
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7361747/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 7361747
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7361748/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Museum of Comparative Zoology, Harvard University, some rights reserved (CC BY-NC-SA)",
+   "photo": 7361748
+  }
+ ]
+}

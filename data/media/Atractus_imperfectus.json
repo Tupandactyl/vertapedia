@@ -1,0 +1,43 @@
+{
+ "sci": "Atractus imperfectus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 94866,
+  "name": "Atractus imperfectus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_imperfectus",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167201233/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Melquiades Castillo, some rights reserved (CC BY-NC)",
+   "obs": 100199945,
+   "place": "Donoso, Panamá",
+   "date": "2020-11-01"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus imperfectus",
+  "url": "https://en.wikipedia.org/wiki/Atractus_imperfectus",
+  "revision": 1374900901,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus imperfectus is a species of snake in the family Colubridae. The species can be found in Panama."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167201233/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Melquiades Castillo, some rights reserved (CC BY-NC), uploaded by Melquiades Castillo",
+   "photo": 167201233
+  }
+ ]
+}

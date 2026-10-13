@@ -1,0 +1,80 @@
+{
+ "sci": "Calamodontophis paucidens",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27425,
+  "name": "Calamodontophis paucidens",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Calamodontophis_paucidens",
+  "common": "Tropical Forest Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47948259/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Pablo G. Fernández, some rights reserved (CC BY)",
+   "obs": 30683744,
+   "place": "Rocha, UY",
+   "date": "2019-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424875928/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bastih, some rights reserved (CC BY-NC)",
+   "obs": 238636252,
+   "place": "Rocha, UY",
+   "date": "2019-02-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359330588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iker Aparicio, some rights reserved (CC BY-NC)",
+   "obs": 203382481,
+   "place": "Lavalleja, UY",
+   "date": "2024-03-21"
+  }
+ ],
+ "wiki": {
+  "title": "Calamodontophis paucidens",
+  "url": "https://en.wikipedia.org/wiki/Calamodontophis_paucidens",
+  "revision": 1368526899,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calamodontophis paucidens, the tropical forest snake, is a species of snakes in the family Colubridae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. paucidens is found in Brazil and Uruguay."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The natural habitat of C. paucidens is subtropical or tropical dry lowland grassland."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "C. paucidens is threatened by habitat loss."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47948260/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Pablo G. Fernández, some rights reserved (CC BY), uploaded by Pablo G. Fernández",
+   "photo": 47948260
+  }
+ ]
+}

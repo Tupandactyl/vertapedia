@@ -1,0 +1,86 @@
+{
+ "sci": "Polemon collaris",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116544,
+  "name": "Polemon collaris",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Polemon_collaris",
+  "common": "Collared Snake-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332694925/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard McKibbin, some rights reserved (CC BY-NC)",
+   "obs": 189859593,
+   "place": "Mwinilunga, North-Western, Zambia",
+   "date": "2023-10-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112479733/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 69326719,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2013-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41434157/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC)",
+   "obs": 26675071,
+   "place": "Kabarole, Uganda",
+   "date": "2018-05-04"
+  }
+ ],
+ "wiki": {
+  "title": "Polemon collaris",
+  "url": "https://en.wikipedia.org/wiki/Polemon_collaris",
+  "revision": 1197575624,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Polemon collaris, or the collared snake-eater, is a species of mildly venomous rear-fanged snake in the family Atractaspididae. It is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in Angola, Burundi, Cameroon, Central African Republic, Democratic Republic of the Congo, Equatorial Guinea, Gabon, Nigeria, Rwanda, and Uganda."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Polemon collaris is blackish dorsally down to the outer ends of the ventrals and subcaudals. The head and the nape of the neck are pale brown, with some black blotches on the crown and below the eye. Ventrally it is white. The entire terminal caudal shield is white.",
+     "Adults are about 55 cm (21+5⁄8 in) in total length, which includes a tail about 32 mm (1+1⁄4 in) long.",
+     "Dorsal scales smooth, without apical pits, arranged in 15 rows. Ventrals 201–208; anal plate divided; subcaudals 16–22, also divided.",
+     "Diameter of eye about three fifths its distance from the mouth. Rostral broader than high, barely visible from above. Internasals considerably shorter than the prefrontals. Frontal slightly broader than the supraocular, 1½ times as long as broad, as long as its distance from the rostral, much shorter than the parietals. Nasal divided, in contact with the preocular. Usually two postoculars. Temporals 1+1 or 1+2. Seven upper labials, third and fourth entering the eye. First lower labial forming a suture with its fellow behind the mental. Four or five lower labials in contact with the anterior chin shield. Two pairs of chin shields, the anterior pair longer than the posterior pair."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Three subspecies are recognized including the nominate race.",
+     "Polemon collaris brevior (de Witte & Laurent, 1947)",
+     "Polemon collaris collaris (Peters, 1881)",
+     "Polemon collaris longior (de Witte & Laurent, 1947)"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41434157/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC), uploaded by Gert Jan Verspui",
+   "photo": 41434157
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "sci": "Madatyphlops microcephalus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539958,
+  "name": "Madatyphlops microcephalus",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184836394/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 109646427,
+   "place": "Amber Mountain National Park, Madagascar",
+   "date": "2005-10-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59831910/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC)",
+   "obs": 37706998,
+   "place": "Hell-Ville, Madagascar",
+   "date": "2020-01-04"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184836387/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 184836387
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59831910/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CORDENOS Thierry, some rights reserved (CC BY-NC), uploaded by CORDENOS Thierry",
+   "photo": 59831910
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184836394/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 184836394
+  }
+ ]
+}

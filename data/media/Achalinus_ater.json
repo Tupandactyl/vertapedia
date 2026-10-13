@@ -1,0 +1,50 @@
+{
+ "sci": "Achalinus ater",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 93082,
+  "name": "Achalinus ater",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Achalinus_ater",
+  "common": "Bourret's Odd-scaled Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304688470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simba, some rights reserved (CC BY-NC)",
+   "obs": 175326891,
+   "place": "贵州省黔南布依族苗族自治州都匀市高寨",
+   "date": "2023-07-16"
+  }
+ ],
+ "wiki": {
+  "title": "Achalinus ater",
+  "url": "https://en.wikipedia.org/wiki/Achalinus_ater",
+  "revision": 1314228589,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Achalinus ater, commonly known as Bourret's odd-scaled snake, is a species of snake in the family Xenodermatidae."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The species is found in northern Vietnam and China in Guizhou and Guangxi. An individual found in Hecheng District, Huaihua during early May 2013 was originally reported as the first known occurrence of the species in Hunan Province. However, molecular analysis has found this specimen to be a separate species named Achalinus hunanensis in 2023, and A. ater is no longer believed to range into Hunan."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304688470/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba",
+   "photo": 304688470
+  }
+ ]
+}

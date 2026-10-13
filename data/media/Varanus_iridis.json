@@ -1,0 +1,59 @@
+{
+ "sci": "Varanus iridis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1690029,
+  "name": "Varanus iridis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Varanus_iridis",
+  "common": "Rainbow rock monitor"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615380684/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt B, some rights reserved (CC BY)",
+   "obs": 338392335,
+   "place": "Etheridge, AU-QL, AU",
+   "date": "2025-04-19"
+  }
+ ],
+ "wiki": {
+  "title": "Varanus iridis",
+  "url": "https://en.wikipedia.org/wiki/Varanus_iridis",
+  "revision": 1366669978,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Varanus iridis, commonly known as the rainbow rock monitor, is a species of small-bodied, rock-adapted monitor lizard endemic to Far North Queensland. It was formally described in 2026 along with its close relatives Varanus phosphoros and Varanus umbra. The three species form part of a clade which diverged from other Odatrian monitor lizards around 7 million years ago."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The specific name 'iridis' is the genitive form of the Latin 'iris', meaning rainbow, in reference to its colour transitions."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The holotype was collected in 2024 from the type locality of Springfield. The species is known to inhabit the area north and west of Mount Surprise, in habitat made up of granite boulders and outcrops, in open savanna woodland dominated by Eucalypt trees.",
+     "It can be distinguished by the remarkable colour transitions across the dorsum, spanning from yellow on the head, tones of blue on the nape and red on the body. The dark dorsal reticulum forms a continuous pattern of well-defined, lightly-coloured ocelli, which becomes increasingly irregular on the ventrum. The pattern of ocelli typically begin to fade on the tail.",
+     "Like other Odatrian monitors it is small, active and secretive. It was previously unknown to science before being described, living in an underpopulated area that is difficult to access by road and unsuitable for cattle grazing."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615380684/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Matt B, some rights reserved (CC BY), uploaded by Matt B",
+   "photo": 615380684
+  }
+ ]
+}

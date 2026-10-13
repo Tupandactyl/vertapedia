@@ -1,0 +1,81 @@
+{
+ "sci": "Micrurus anibal",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1630589,
+  "name": "Micrurus anibal",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Micrurus_anibal",
+  "common": "Rio de Janeiro Coral Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618747389/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) veroneseigor, some rights reserved (CC BY-NC)",
+   "obs": 340057324,
+   "place": "Centro, Saquarema - RJ, Brasil",
+   "date": "2026-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452441891/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joao_bezerra, some rights reserved (CC BY-NC)",
+   "obs": 252719984,
+   "place": "Atlantico, Araruama - RJ, 28970-000, Brasil",
+   "date": "2024-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189905018/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique Seigarro Moutinho, some rights reserved (CC BY-NC)",
+   "obs": 112435667,
+   "place": "Ubas, Iguaba Grande - RJ, 28960-000, Brasil",
+   "date": "2022-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748981277/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jiri Prasil, some rights reserved (CC BY-NC)",
+   "obs": 407558035,
+   "place": "2XWP+4R, Arraial do Cabo - Rio de Janeiro, 28930-000, Brazil",
+   "date": "2026-06-14"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus anibal",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_anibal",
+  "revision": 1369501248,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus anibal is a species of coral snake, a venomous snake in the family Elapidae. The species is endemic to Brazil, where it has been recorded from the Brazilian states of Rio de Janeiro and Paraná. The species was described in 2024 from specimens formerly identified as other species in the Micrurus ibiboboca species complex."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Micrurus anibal was described by Lywouty R. S. Nascimento, Roberta Graboski, Nelson J. Silva Jr. and Ana L. C. Prudente in 2024. The holotype is an adult male, MNRJ 18191, from Iguaba Grande, Rio de Janeiro, Brazil."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific epithet, anibal, is a noun in apposition referring to Anibal Rafael Melgarejo Gimenez, a Uruguayan-born herpetologist and toxicologist based in Brazil who contributed to the study of Brazilian snakes, including coral snakes."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452441891/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joao_bezerra, some rights reserved (CC BY-NC), uploaded by joao_bezerra",
+   "photo": 452441891
+  }
+ ]
+}

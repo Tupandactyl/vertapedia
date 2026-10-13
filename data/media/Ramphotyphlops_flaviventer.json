@@ -1,0 +1,43 @@
+{
+ "sci": "Ramphotyphlops flaviventer",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32784,
+  "name": "Ramphotyphlops flaviventer",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ramphotyphlops_flaviventer",
+  "common": "Yellowbellied blindsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103433744/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Iman Akbar, some rights reserved (CC BY-NC-SA)",
+   "obs": 64346197,
+   "place": "Prapakanda, Botang Lomang, Kabupaten Halmahera Selatan, Maluku Utara, Indonesia",
+   "date": "2015-08-08"
+  }
+ ],
+ "wiki": {
+  "title": "Yellow-bellied blind snake",
+  "url": "https://en.wikipedia.org/wiki/Yellow-bellied_blind_snake",
+  "revision": 1315344537,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The yellow-bellied blind snake (Ramphotyphlops flaviventer) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103433744/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Iman Akbar, some rights reserved (CC BY-NC-SA), uploaded by Iman Akbar",
+   "photo": 103433744
+  }
+ ]
+}

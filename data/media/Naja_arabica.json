@@ -1,0 +1,126 @@
+{
+ "sci": "Naja arabica",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30480,
+  "name": "Naja arabica",
+  "observations": 30,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Arabian_cobra",
+  "common": "Arabian Cobra"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132531120/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hunter 1776, some rights reserved (CC BY-NC)",
+   "obs": 80836459,
+   "place": "Dhofar Governorate, Oman",
+   "date": "2021-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356985007/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ldbruyn, some rights reserved (CC BY-NC)",
+   "obs": 202157417,
+   "place": "Dhofar Governorate, Oman",
+   "date": "2024-02-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352581033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Waldhauser, some rights reserved (CC BY-NC)",
+   "obs": 199894781,
+   "place": "Al-Raith Saúdská Arábie",
+   "date": "2022-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517152269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JP, some rights reserved (CC BY-NC)",
+   "obs": 287611446,
+   "place": "5P49+QR سد وادي ثراد 65764, Saudi Arabia",
+   "date": "2025-06-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591532891/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robertocabo, some rights reserved (CC BY-NC)",
+   "obs": 326594953,
+   "place": "Dhofar, Oman",
+   "date": "2025-10-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488733368/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Florian Olivier, some rights reserved (CC BY-NC)",
+   "obs": 271689596,
+   "place": "Dhofar, Oman",
+   "date": "2025-03-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244134650/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mikee84, some rights reserved (CC BY-NC)",
+   "obs": 142407288,
+   "place": "Hajjah Governorate, Yemen",
+   "date": "1984-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358162252/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) water4wes, some rights reserved (CC BY-NC)",
+   "obs": 202770856,
+   "place": "Rabigh, Mecca, SA",
+   "date": "2024-03-16"
+  }
+ ],
+ "wiki": {
+  "title": "Arabian cobra",
+  "url": "https://en.wikipedia.org/wiki/Arabian_cobra",
+  "revision": 1354871865,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Arabian cobra (Naja arabica) is a species of venomous snake in the family Elapidae. The species is endemic to the Arabian Peninsula."
+    ]
+   },
+   {
+    "h": "Etymology and Taxonomy",
+    "level": 2,
+    "paras": [
+     "Naja arabica is classified under the genus Naja of the family Elapidae. It was first described by an Italian herpetologist,  Giuseppe Scortecci in 1932. The generic name Naja is a Latinisation of the Sanskrit word nāgá (नाग), meaning \"cobra\". The specific epithet arabica means \"of Arabia\" or \"Arabic\".",
+     "This species, Naja arabica, had long been considered a subspecies of the Egyptian cobra (Naja haje), but morphological and genetic differences have led to its recognition as a separate species."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The Arabian cobra is found in western Oman, southwestern Saudi Arabia, and throughout Yemen."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6683025/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) jack_246, some rights reserved (CC BY-NC-SA)",
+   "photo": 6683025
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6683026/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) jack_246, some rights reserved (CC BY-NC-SA)",
+   "photo": 6683026
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6683027/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Christoph Lorse, some rights reserved (CC BY-NC-SA)",
+   "photo": 6683027
+  }
+ ]
+}

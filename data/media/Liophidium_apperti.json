@@ -1,0 +1,42 @@
+{
+ "sci": "Liophidium apperti",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29666,
+  "name": "Liophidium apperti",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Befandriana Smooth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114902905/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "obs": 70654919,
+   "place": "Réserve de Berenty, Amboasary Sud, Madagascar",
+   "date": "1998-11-01"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2019280/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 2019280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2019282/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 2019282
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2019281/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+   "photo": 2019281
+  }
+ ]
+}

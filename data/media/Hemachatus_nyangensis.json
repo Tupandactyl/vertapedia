@@ -1,0 +1,44 @@
+{
+ "sci": "Hemachatus nyangensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1545887,
+  "name": "Hemachatus nyangensis",
+  "observations": 2,
+  "wikipedia_url": null,
+  "common": "Nyanga Rinkhals"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635141901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dee Hulton-Smith, some rights reserved (CC BY-NC)",
+   "obs": 348269870,
+   "place": null,
+   "date": "2026-04-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635152658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dee Hulton-Smith, some rights reserved (CC BY-NC)",
+   "obs": 348275124,
+   "place": null,
+   "date": "2026-04-08"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635152658/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dee Hulton-Smith, some rights reserved (CC BY-NC), uploaded by Dee Hulton-Smith",
+   "photo": 635152658
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635141901/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dee Hulton-Smith, some rights reserved (CC BY-NC), uploaded by Dee Hulton-Smith",
+   "photo": 635141901
+  }
+ ]
+}

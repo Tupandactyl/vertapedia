@@ -1,0 +1,81 @@
+{
+ "sci": "Amblyodipsas katangensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 26486,
+  "name": "Amblyodipsas katangensis",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Amblyodipsas_katangensis",
+  "common": "Katanga Purple-glossed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722232652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 393990759,
+   "place": "Cabo Delgado",
+   "date": "2013-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722240520/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 393995215,
+   "place": "Cabo Delgado",
+   "date": "2013-12-05"
+  }
+ ],
+ "wiki": {
+  "title": "Amblyodipsas katangensis",
+  "url": "https://en.wikipedia.org/wiki/Amblyodipsas_katangensis",
+  "revision": 1355031122,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Amblyodipsas katangensis, or the Katanga purple-glossed snake, is a species of rear-fanged mildly venomous snake in the family Lamprophiidae. The species is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognized as being valid, including the nominotypical subspecies.",
+     "Amblyodipsas katangensis ionidesi Loveridge, 1951",
+     "Amblyodipsas katangensis katangensis de Witte & Laurent, 1942"
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. katangensis katangensis is found in the Democratic Republic of the Congo and Zambia. A. katangensis ionidesi is found in Tanzania."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The subspecific name, ionidesi, is in honor of British game warden Constantine John Philip Ionides (1901–1968), who was known as the \"Snake Man of British East Africa\"."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. katangensis is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722232652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC), uploaded by Luke Verburgt",
+   "photo": 722232652
+  }
+ ]
+}

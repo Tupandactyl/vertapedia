@@ -1,0 +1,49 @@
+{
+ "sci": "Atractus indistinctus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27887,
+  "name": "Atractus indistinctus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_indistinctus",
+  "common": "Indistinct Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39988996/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Francisco Comas, some rights reserved (CC BY-NC)",
+   "obs": 25793000,
+   "place": "Convención, Norte de Santander, Colombia",
+   "date": "2019-04-18"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus indistinctus",
+  "url": "https://en.wikipedia.org/wiki/Atractus_indistinctus",
+  "revision": 1329570300,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus indistinctus, the indistinct ground snake,  is a species of snake in the family Colubridae. The species can be found in Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107960502/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Francisco Comas, some rights reserved (CC BY-NC), uploaded by Rafael Francisco Comas",
+   "photo": 107960502
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39988996/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Francisco Comas, some rights reserved (CC BY-NC), uploaded by Rafael Francisco Comas",
+   "photo": 39988996
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "sci": "Xenophidion schaeferi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32293,
+  "name": "Xenophidion schaeferi",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xenophidion_schaeferi",
+  "common": "Malayan Spinejaw Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602095468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rupert Grassby-Lewis, some rights reserved (CC BY-NC)",
+   "obs": 331847438,
+   "place": "Pahang, MY",
+   "date": "2025-12-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/740826089/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hasgoh94, some rights reserved (CC BY-NC)",
+   "obs": 403480558,
+   "place": "Fraser's Hill, Pahang, Malaysia",
+   "date": "2026-09-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739771112/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ajak King, some rights reserved (CC BY-NC)",
+   "obs": 402944236,
+   "place": "Raub District, Pahang, Malaysia",
+   "date": "2026-09-18"
+  }
+ ],
+ "wiki": {
+  "title": "Xenophidion schaeferi",
+  "url": "https://en.wikipedia.org/wiki/Xenophidion_schaeferi",
+  "revision": 1374685776,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xenophidion schaeferi, also known commonly as the Malayan spinejaw snake or Schäfer's spiny-jawed snake, is a species of snake in the monotypic family Xenophidiidae. The species is endemic to Malaysia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schaeferi is in honor of German herpetologist Christian Schäfer who collected the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "X. schaeferi is found in the Malaysian state of Selangor, in western Peninsular Malaysia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of X. schaeferi is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "X. schaeferi is oviparous."
+    ]
+   },
+   {
+    "h": "DNA sequence divergence of sibling species",
+    "level": 2,
+    "paras": [
+     "In the genus Xenophidion, there is one sister species, X. acanthognathus. Molecular analyses of a new specimen of X. acanthognathus reveal that it only differs from the holotype of X. schaeferi by a minimum sequence divergence of 0.27%."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602095468/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rupert Grassby-Lewis, some rights reserved (CC BY-NC), uploaded by Rupert Grassby-Lewis",
+   "photo": 602095468
+  }
+ ]
+}

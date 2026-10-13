@@ -1,0 +1,65 @@
+{
+ "sci": "Eryx elegans",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32231,
+  "name": "Eryx elegans",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eryx_elegans",
+  "common": "Elegant Sand Boa"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52947887/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlo, some rights reserved (CC BY-NC)",
+   "obs": 33694120,
+   "place": "préfecture de Shahrud, Province de Semnan, Iran",
+   "date": "2017-05-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424712817/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hidayatws, some rights reserved (CC BY-NC)",
+   "obs": 238564061,
+   "place": "Yakawlang, Afghanistan",
+   "date": "2023-07-21"
+  }
+ ],
+ "wiki": {
+  "title": "Eryx elegans",
+  "url": "https://en.wikipedia.org/wiki/Eryx_elegans",
+  "revision": 1338217053,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eryx elegans (Central Asian sand boa, elegant sand boa) is a boa species endemic to western Central Asia. Like all other boas, it is not venomous. No subspecies are recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Not well-known in the wild or in captivity, this is a small species, reaching about 15 inches (38 cm) in total length (including tail). The dorsal scales are small and slightly keeled.  Coloration is very drab, consisting of a light olive-brown background, with small, irregular, darker brown blotches with black edges running along the back.  There are also brown blotches on the ventral surface."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Eryx elegans is found in southern Turkmenistan, northern Iran (the Kopet Dag mountains in the north-east and the Azerbaijan region in the north-west), and Afghanistan. The type locality given is \"Afghanistan.\""
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52948051/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlo, some rights reserved (CC BY-NC), uploaded by Carlo",
+   "photo": 52948051
+  }
+ ]
+}

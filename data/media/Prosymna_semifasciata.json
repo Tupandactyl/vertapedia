@@ -1,0 +1,60 @@
+{
+ "sci": "Prosymna semifasciata",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29012,
+  "name": "Prosymna semifasciata",
+  "observations": 6,
+  "wikipedia_url": null,
+  "common": "Banded shovel-snout"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152916469/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC)",
+   "obs": 92359601,
+   "place": "Longo-Mwagandi Forest",
+   "date": "2015-09-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484418390/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) josephmboya, some rights reserved (CC BY-NC)",
+   "obs": 269418473,
+   "place": "Muheza, Tanzania",
+   "date": "2025-01-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585487720/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "obs": 323565125,
+   "place": "Morogoro Rural, TZ-MO, TZ",
+   "date": "2024-11-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672085958/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC)",
+   "obs": 367997412,
+   "place": "Shimba Hills National Reserve, Kasemeni sinango rd Shimba Hills National Reserve, Kenya",
+   "date": "2015-02-09"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585487720/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "photo": 585487720
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152916469/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patrick Kinyatta Malonza, some rights reserved (CC BY-NC), uploaded by Patrick Kinyatta Malonza",
+   "photo": 152916469
+  }
+ ]
+}

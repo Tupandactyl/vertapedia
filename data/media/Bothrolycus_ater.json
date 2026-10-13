@@ -1,0 +1,75 @@
+{
+ "sci": "Bothrolycus ater",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27612,
+  "name": "Bothrolycus ater",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Günther's_black_snake",
+  "common": "Günther's Black Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96323294/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 60251635,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2012-10-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318502270/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) gecko_eb, some rights reserved (CC BY-NC)",
+   "obs": 182654449,
+   "place": "Boumi-Louetsi, Gabon",
+   "date": "2023-09-10"
+  }
+ ],
+ "wiki": {
+  "title": "Günther's black snake",
+  "url": "https://en.wikipedia.org/wiki/G%C3%BCnther%27s_black_snake",
+  "revision": 1312398048,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Günther's black snake (Bothrolycus ater) is a species of poorly known lamprophiid snake endemic to central Africa. It is the only member of the genus, Bothrolycus.  This snake is notable as one of the few snakes with notable sexual dimorphism (males have 17 scale rows, females have 19), as well as possessing a small pit anterior to the eye.  While superficially similar to the thermal pits of vipers, its function remains unknown."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in Cameroon, Equatorial Guinea, Gabon, and the Democratic Republic of Congo (Zaire)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The 20 maxillary teeth form a continuous series, with the six anterior teeth strongly enlarged. The anterior mandibular teeth are strongly enlarged. The head is distinct from the neck, and the eyes are rather small, with round pupils. The loreal region is deeply concave, with the pit entering the eye. Its body is short and cylindrical, and the tail is very short. The dorsal scales are smooth, without apical pits, in 19 [or 17] rows. Ventral scales are rounded; the subcaudals occur in two rows. The vertebral column has hypapophyses developed throughout.",
+     "Dorsally, this snake is blackish-brown, with a paler head. The lips and chin have a few whitish, black-edged dots. Ventrally, it is pale brown, with whitish dots or short streaks.",
+     "Adult females may attain a total length of 46 cm (18 in), with a tail 4 cm (1.5 in) long. Their dorsal scales are smooth, arranged in 19 rows. Ventral scales are 147–148 in number; the anal plate is entire. The 18–22 subcaudals are divided.",
+     "Males have smooth dorsal scales in 17 rows. The anal plate entire, and the subcaudals are divided.",
+     "The snout is projecting and obliquely truncated; the loreal region is vertical. The rostral is slightly broader than high, and not visible from above. The internasals are much shorter than the prefrontals. The frontal is about 1.5 times as long as broad, and as long as its distance from the end of the snout, and as the parietals. The loreal is elongated, entering the eye. Two postoculars are present, and the temporals are 1+2. Seven upper labials are present, with the third, fourth, and fifth entering the eye. Four lower labials are in contact with the anterior chin shield. For its two pairs of chin shields, the anterior pair as long as or slightly longer than the posterior pair."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96323180/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 96323180
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96323294/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 96323294
+  }
+ ]
+}

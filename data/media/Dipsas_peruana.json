@@ -1,0 +1,43 @@
+{
+ "sci": "Dipsas peruana",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30380,
+  "name": "Dipsas peruana",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsas_peruana",
+  "common": "Peruvian Thirst Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160332622/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Line Juul Nielsen, some rights reserved (CC BY)",
+   "obs": 96491543,
+   "place": "Departamento de Cusco, PE",
+   "date": "2021-09-28"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsas peruana",
+  "url": "https://en.wikipedia.org/wiki/Dipsas_peruana",
+  "revision": 1179409470,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsas peruana, the Peruvian snail-eater or Peru snail-eater,  is a non-venomous snake found in Peru, Venezuela, and Colombia, Ecuador, and Bolivia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66818599/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC), uploaded by Mario Humberto Yánez-Muñoz",
+   "photo": 66818599
+  }
+ ]
+}

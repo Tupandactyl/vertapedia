@@ -1,0 +1,64 @@
+{
+ "sci": "Micrurus boicora",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 797724,
+  "name": "Micrurus boicora",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Micrurus_boicora",
+  "common": "Boicorá Coral Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469205101/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261196028,
+   "place": "Juína",
+   "date": "2021-12-28"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus boicora",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_boicora",
+  "revision": 1358847672,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus boicora is a species of venomous snake in the family Elapidae. The species is endemic to Brazil."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Micrurus boicora is known from southern Rondônia and northern Mato Grosso, Brazil."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Micrurus boicora is a member of the Micrurus hemprichii species complex."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Micrurus boicora can be distinguished from its congeners by its dark dorsal coloration, thin white rings, a reddish ring around the neck, and bright orange-red on the tail. Its ventral coloration is dark with white splotches and a reddish gular area."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469205101/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC), uploaded by Herpetonautas",
+   "photo": 469205101
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "sci": "Elapsoidea laticincta",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30666,
+  "name": "Elapsoidea laticincta",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Elapsoidea_laticincta",
+  "common": "Werner's Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550106057/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) thierry_aebischer_chinko, some rights reserved (CC BY-NC)",
+   "obs": 305118623,
+   "place": "Rafai, Central African Republic",
+   "date": "2020-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86295777/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Laudisoit, some rights reserved (CC BY-NC)",
+   "obs": 54239474,
+   "place": "Nwoya, Uganda",
+   "date": "2020-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86295789/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Laudisoit, some rights reserved (CC BY-NC)",
+   "obs": 54239478,
+   "place": "Nwoya, Uganda",
+   "date": "2020-05-22"
+  }
+ ],
+ "wiki": {
+  "title": "Elapsoidea laticincta",
+  "url": "https://en.wikipedia.org/wiki/Elapsoidea_laticincta",
+  "revision": 1355389702,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Elapsoidea laticincta, Werner's garter snake, is a species of snake of the family Elapidae.",
+     "The snake is found in central Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86295777/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anne Laudisoit, some rights reserved (CC BY-NC), uploaded by Anne Laudisoit",
+   "photo": 86295777
+  }
+ ]
+}

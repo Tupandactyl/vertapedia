@@ -1,0 +1,52 @@
+{
+ "sci": "Achalinus zugorum",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1160550,
+  "name": "Achalinus zugorum",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Achalinus_zugorum",
+  "common": "Ha Giang Odd-scaled Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725661263/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gao XiaoYan, some rights reserved (CC BY-NC)",
+   "obs": 395739064,
+   "place": "云南省文山壮族苗族自治州麻栗坡县下金厂乡茨五段",
+   "date": "2026-08-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253065804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 147105055,
+   "place": "Nam Mẫu, Ba Bể, Bắc Kạn, Vietnam",
+   "date": "2018-04-23"
+  }
+ ],
+ "wiki": {
+  "title": "Achalinus zugorum",
+  "url": "https://en.wikipedia.org/wiki/Achalinus_zugorum",
+  "revision": 1376030906,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Achalinus zugorum is a species of snake in the family Xenodermidae. The species, which was described in 2020 from Ha Giang Province, Vietnam, was discovered by Aryeh H. Miller. It is dark in color or iridescent, with scales morphing from blues to greens. It is named for George R. and Patricia B. Zug. Accordingly, the common name Zugs' odd-scaled snake has been coined for this species.",
+     "The holotype, an adult male, measures 353 mm (13.9 in) in snout-to-vent length (SVL) and 458 mm (18.0 in) in total length (including tail). A. zugorum is characterized by its odd non-overlapping scale pattern that differentiates its genus from all other snakes. It can be distinguished by the formation of its elliptical-looking dorsal scales, and the absence of everted labial scales."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253065804/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC), uploaded by Vojtěch Víta",
+   "photo": 253065804
+  }
+ ]
+}

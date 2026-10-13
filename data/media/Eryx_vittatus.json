@@ -1,0 +1,65 @@
+{
+ "sci": "Eryx vittatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1220166,
+  "name": "Eryx vittatus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eryx_vittatus",
+  "common": "Eastern Sand Boa"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290647132/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, some rights reserved (CC BY-NC)",
+   "obs": 167756699,
+   "place": "Данғара, Таджикистан",
+   "date": "2023-06-13"
+  }
+ ],
+ "wiki": {
+  "title": "Eryx vittatus",
+  "url": "https://en.wikipedia.org/wiki/Eryx_vittatus",
+  "revision": 1355156054,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eryx vittatus is a species of sand boa in the family Boidae. The common feeding methods of these snakes include constriction, swallowing of prey whole, and restriction around other objects."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "E. vittatus was previously identified as a subspecies of Eryx tataricus (Tartar Sand Boa). Some sources, however, still refer to E. vittatus as a subspecies of E. tataricus.",
+     "The classification of Eryx tataricus vittatus was described by S. A. Chernov in 1950. This classification is a synonym to an earlier binomial name, Boa tartarica, by M. H. C. Lichtenstein in 1823."
+    ]
+   },
+   {
+    "h": "Physical traits",
+    "level": 2,
+    "paras": [
+     "E. vittatus deviates from others within the genus due to differences in body measurements and number of scales. For example, one study found that the species had a generally greater range of number of infralabial scales (around 14 to 23) when compared to other Eryx snakes. They also had a greater amount of interocular scales (around 6 to 9). The species has a long and narrow snout. It also commonly has reddish spots visible on its dorsal side."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Fossil research concerning species of Eryx have determined past distribution around the Mediterranean and Black Sea during the Neogene period. Currently, this genus of snakes have been found throughout areas of Africa, Asia, and India. Concerning the range of this species, E. vittatus is endemic to Tajikistan. They can be found within desert, plain, and forest environments."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290647132/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonid A. Neymark, some rights reserved (CC BY-NC), uploaded by Leonid A. Neymark",
+   "photo": 290647132
+  }
+ ]
+}

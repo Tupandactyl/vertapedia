@@ -1,0 +1,88 @@
+{
+ "sci": "Psammophylax multisquamis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 540138,
+  "name": "Psammophylax multisquamis",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Psammophylax_multisquamis",
+  "common": "Kenyan Striped Skaapsteker"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543964002/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Chapman, some rights reserved (CC BY-NC)",
+   "obs": 301855015,
+   "place": "Nairobi National Park, Nairobi, Kenya",
+   "date": "2025-07-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609695556/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gwili Gibbon, some rights reserved (CC BY-NC)",
+   "obs": 335600573,
+   "place": "Loitokitok, Kenya",
+   "date": "2009-02-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14801572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC)",
+   "obs": 10612968,
+   "place": "Borena, Etiopie",
+   "date": "2014-11-19"
+  }
+ ],
+ "wiki": {
+  "title": "Psammophylax multisquamis",
+  "url": "https://en.wikipedia.org/wiki/Psammophylax_multisquamis",
+  "revision": 1374650656,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Psammophylax multisquamis is a species of snake belonging to the family Psammophiidae. It is commonly known as the Kenyan striped staapsteker and is found in various parts of eastern Africa, including Kenya, Ethiopia, Tanzania, and Rwanda. It typically resides in sandy, rocky, and grassy terrains with plenty of places to hide."
+    ]
+   },
+   {
+    "h": "Nomenclature",
+    "level": 2,
+    "paras": [
+     "The species was first described as Trimerorhinus tritaeniatus multisquamis by Arthur Loveridge in 1932 and transferred to Psammophylax by Laurent in 1956.",
+     "The genus name, Psammophylax, is derived from Greek, meaning \"sand guard\", while the species name, multisquamis, translates to \"many scales.\""
+    ]
+   },
+   {
+    "h": "Venom",
+    "level": 2,
+    "paras": [
+     "The Kenyan striped skaapsteker possesses a very mild venom that poses little threat to humans. Bites from this species are rare and typically result in minimal symptoms, such as mild swelling."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The Kenyan striped skaapsteker is a slender snake that can grow up to 1.4 meters in length. Its dark brown coloration typically includes darker longitudinal stripes running along its body, which aid in camouflage within its natural habitat."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "The Kenyan striped skaapsteker is a fast moving snake that will avoid people and hide if provoked. It does not usually bite, even as a last resort."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14801572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC), uploaded by Vlada Trailin",
+   "photo": 14801572
+  }
+ ]
+}

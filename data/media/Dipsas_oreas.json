@@ -1,0 +1,71 @@
+{
+ "sci": "Dipsas oreas",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30370,
+  "name": "Dipsas oreas",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsas_oreas",
+  "common": "Ecuador Snail-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11190990/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC)",
+   "obs": 8409134,
+   "place": "Ecuador",
+   "date": "2016-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108736571/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) María Cristina Córdova, some rights reserved (CC BY-NC)",
+   "obs": 67318661,
+   "place": "Ecuador",
+   "date": "2020-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308895157/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edgar Segovia, some rights reserved (CC BY-NC)",
+   "obs": 177592239,
+   "place": "Morona, EC-MS, EC",
+   "date": "2011-01-23"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsas oreas",
+  "url": "https://en.wikipedia.org/wiki/Dipsas_oreas",
+  "revision": 1357833238,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Ecuador snail-eater (Dipsas oreas) is a non-venomous snake found in Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11190993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC), uploaded by Felix Fleck",
+   "photo": 11190993
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11190999/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC), uploaded by Felix Fleck",
+   "photo": 11190999
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11190990/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Felix Fleck, some rights reserved (CC BY-NC), uploaded by Felix Fleck",
+   "photo": 11190990
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "sci": "Chlorosoma dunupyana",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1161464,
+  "name": "Chlorosoma dunupyana",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chlorosoma_dunupyana",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596507995/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 329110971,
+   "place": "Porto Acre, AC, 69921-000, Brasil",
+   "date": "2025-11-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14895654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC)",
+   "obs": 10670336,
+   "place": "Rodovia BR 364, Km 04, s/n - Distrito Industrial, Rio Branco - AC, 69920-900, Brasil",
+   "date": "2014-05-28"
+  }
+ ],
+ "wiki": {
+  "title": "Chlorosoma dunupyana",
+  "url": "https://en.wikipedia.org/wiki/Chlorosoma_dunupyana",
+  "revision": 1375989627,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Chlorosoma dunupyana is a species of venomous snake of the family Colubridae from Brazil. It is endemic the state of Acre."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14895654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme",
+   "photo": 14895654
+  }
+ ]
+}

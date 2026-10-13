@@ -1,0 +1,95 @@
+{
+ "sci": "Eirenis occidentalis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539636,
+  "name": "Eirenis occidentalis",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eirenis_occidentalis",
+  "common": "Western Dwarf Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172889740/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) durzan, some rights reserved (CC BY-NC)",
+   "obs": 103318600,
+   "place": "Bismil/Diyarbakır, Türkiye",
+   "date": "2021-06-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177378197/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 105685304,
+   "place": null,
+   "date": "2011-05-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309200669/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Danial Nayeri, some rights reserved (CC BY-NC)",
+   "obs": 177757428,
+   "place": "Chin Kalagh, Iran",
+   "date": "2015-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177477977/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 105736684,
+   "place": null,
+   "date": "2012-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189887687/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) shauheen, some rights reserved (CC BY-NC)",
+   "obs": 112424055,
+   "place": "Tehran, IR",
+   "date": "2022-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226360348/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvand Mohammadalizadegan, some rights reserved (CC BY-NC)",
+   "obs": 132935862,
+   "place": "Shahriyar, Alborz, Iran",
+   "date": "2021-04-30"
+  }
+ ],
+ "wiki": {
+  "title": "Eirenis occidentalis",
+  "url": "https://en.wikipedia.org/wiki/Eirenis_occidentalis",
+  "revision": 1355163810,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eirenis occidentalis is a species of  non-venomous snake in the family Colubridae. The species is found in Turkey through Iran."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177477977/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, certains droits réservés (CC BY-NC-SA), publiées par Roberto Sindaco",
+   "photo": 177477977
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172889740/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) durzan, certains droits réservés (CC BY-NC)",
+   "photo": 172889740
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177378197/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, certains droits réservés (CC BY-NC-SA), publiées par Roberto Sindaco",
+   "photo": 177378197
+  }
+ ]
+}

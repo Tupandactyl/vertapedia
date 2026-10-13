@@ -1,0 +1,121 @@
+{
+ "sci": "Cemophora coccinea",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27376,
+  "name": "Cemophora coccinea",
+  "observations": 2724,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cemophora",
+  "common": "Scarletsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192511654/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Irons, some rights reserved (CC BY-NC)",
+   "obs": 113979200,
+   "place": "Maryland, US",
+   "date": "2022-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60054568/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC)",
+   "obs": 37832880,
+   "place": "Miami-Dade County, FL, USA",
+   "date": "2017-08-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121561040/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) reanna_carico, some rights reserved (CC BY-NC)",
+   "obs": 74382317,
+   "place": "First Landing State Park, Virginia Beach, VA, US",
+   "date": "2021-04-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339773664/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leroycluke, some rights reserved (CC BY-NC)",
+   "obs": 193419706,
+   "place": "North Carolina, US",
+   "date": "2017-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221004953/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Serrao, some rights reserved (CC BY-NC)",
+   "obs": 130023254,
+   "place": "Tiger Bay State Forest, Indian lake, Volusia County, FL, USA",
+   "date": "2012-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170694539/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steve Hromada, some rights reserved (CC BY-NC)",
+   "obs": 102146693,
+   "place": "Rushing Creek Rd, Dover, TN, US",
+   "date": "2017-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392237754/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) birdacus, some rights reserved (CC BY-NC)",
+   "obs": 221484702,
+   "place": "Georgia, US",
+   "date": "2024-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59880214/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC)",
+   "obs": 37735639,
+   "place": "Miami-Dade County, FL, USA",
+   "date": "2009-11-07"
+  }
+ ],
+ "wiki": {
+  "title": "Cemophora",
+  "url": "https://en.wikipedia.org/wiki/Cemophora",
+  "revision": 1354681332,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cemophora is a genus of harmless snakes, also known commonly as scarlet snakes, in the subfamily Colubrinae of the family Colubridae. The genus contains two species, which are endemic to the United States."
+    ]
+   },
+   {
+    "h": "Species",
+    "level": 2,
+    "paras": [
+     "Cemophora coccinea (Blumenbach, 1788)",
+     "Cemophora coccinea coccinea (Blumenbach, 1788) – Florida scarlet snake",
+     "Cemophora coccinea copei Jan, 1863 – northern scarlet snake",
+     "Cemophora lineri (K.L. Williams, B.C. Brown, & L.D. Wilson, 1966) – Texas scarlet snake"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423159145/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Peter Paplanus, some rights reserved (CC BY)",
+   "photo": 423159145
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1981280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnwilliams, some rights reserved (CC BY-NC), uploaded by johnwilliams",
+   "photo": 1981280
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128709592/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tilman78, some rights reserved (CC BY-NC), uploaded by tilman78",
+   "photo": 128709592
+  }
+ ]
+}

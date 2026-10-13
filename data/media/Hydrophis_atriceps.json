@@ -1,0 +1,51 @@
+{
+ "sci": "Hydrophis atriceps",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35228,
+  "name": "Hydrophis atriceps",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black-headed_sea_snake",
+  "common": "Black-headed Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608661503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) victorcid, some rights reserved (CC BY-NC)",
+   "obs": 335084350,
+   "place": "Kota Belud, MY-SA, MY",
+   "date": "2026-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473053148/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rosario Douglas, some rights reserved (CC BY)",
+   "obs": 263332838,
+   "place": "Java Sea, East Java, ID",
+   "date": "2025-02-27"
+  }
+ ],
+ "wiki": {
+  "title": "Black-headed sea snake",
+  "url": "https://en.wikipedia.org/wiki/Black-headed_sea_snake",
+  "revision": 1314231872,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The black-headed sea snake (Hydrophis atriceps) is a marine snake native to waters around Thailand, Vietnam, Singapore, Indonesia, the Philippines and northern Australia, and New Guinea."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473053148/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rosario, some rights reserved (CC BY), uploaded by Rosario",
+   "photo": 473053148
+  }
+ ]
+}

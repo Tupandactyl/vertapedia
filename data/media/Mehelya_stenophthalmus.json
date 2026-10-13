@@ -1,0 +1,74 @@
+{
+ "sci": "Mehelya stenophthalmus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 964798,
+  "name": "Mehelya stenophthalmus",
+  "observations": 8,
+  "wikipedia_url": null,
+  "common": "Small-eyed File Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541470292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) RUFRAY Maël, some rights reserved (CC BY-NC)",
+   "obs": 300513109,
+   "place": "Agome, Togo",
+   "date": "2025-07-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425425461/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 238916934,
+   "place": "Lekoko, Gabon",
+   "date": "2022-06-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81367027/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 51221416,
+   "place": "Loandjili, CG-KO, CG",
+   "date": "2014-04-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87191262/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 54784360,
+   "place": "Loandjili, CG-KO, CG",
+   "date": "2014-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341614988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elena Reljic, some rights reserved (CC BY-NC)",
+   "obs": 194355497,
+   "place": "Bo, SL-SO, SL",
+   "date": "2023-10-18"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87191311/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 87191311
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81367027/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 81367027
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81367075/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 81367075
+  }
+ ]
+}

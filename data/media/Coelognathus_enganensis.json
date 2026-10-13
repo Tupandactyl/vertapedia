@@ -1,0 +1,43 @@
+{
+ "sci": "Coelognathus enganensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 145754,
+  "name": "Coelognathus enganensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Coelognathus_enganensis",
+  "common": "Enggano Rat Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6504243/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hamidy, some rights reserved (CC BY-NC)",
+   "obs": 5256100,
+   "place": null,
+   "date": "2015-04-24"
+  }
+ ],
+ "wiki": {
+  "title": "Coelognathus enganensis",
+  "url": "https://en.wikipedia.org/wiki/Coelognathus_enganensis",
+  "revision": 1355163142,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Coelognathus enganensis, the Enggano rat snake, is a species of nonvenomous snake in the family Colubridae. The species is found in Enggano Island, Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6504243/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hamidy, some rights reserved (CC BY-NC), uploaded by hamidy",
+   "photo": 6504243
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "sci": "Paroplocephalus atriceps",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 318742,
+  "name": "Paroplocephalus atriceps",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Paroplocephalus",
+  "common": "Lake Cronin Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485083552/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 269766789,
+   "place": "Esperance, AU-WA, AU",
+   "date": "2025-03-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242455123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jari_cornelis, some rights reserved (CC BY-NC)",
+   "obs": 141513175,
+   "place": "Western Australia, AU",
+   "date": "2021-12-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580344339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bjstubbs, some rights reserved (CC BY-NC)",
+   "obs": 320937206,
+   "place": "Western Australia, AU",
+   "date": "2025-10-14"
+  }
+ ],
+ "wiki": {
+  "title": "Paroplocephalus",
+  "url": "https://en.wikipedia.org/wiki/Paroplocephalus",
+  "revision": 1376671882,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Paroplocephalus is a genus of venomous snake in the family Elapidae. The genus is monotypic, containing only the species Paroplocephalus atriceps, the Lake Cronin snake. The species is endemic to western Australia.",
+     "A poorly known species, its diet includes lizards. It is active during the night and day, and is possibly arboreal. The largest specimen is recorded as 60 cm (24 in) in total length (including tail), 48 cm (19 in) from snout to vent. The head is dull black, the eyes large, and the lower lip white-barred. The body is brown to dark brown dorsally, a lighter reddish brown beneath, and has non-shiny scales.",
+     "A common name derives from the type locality, Lake Cronin, an inland body of water in Western Australia. It is endemic to the wheatbelt region, the few specimens being recorded at this locality and another 145 kilometres (90 miles) east at Peak Eleanora."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Paroplocephalus atriceps is known from only five specimens, all collected from the vicinity of Lake Cronin. Its taxonomic history is extremely confused. When first described by Glen Milton Storr in 1980, it was placed in the genus Brachyaspis, but only tentatively, because Storr recognised an urgent need for taxonomic revision of the Australian elapids. By this time it had been realised that Brachyaspis was not an available genus name because it had previously been published as the name of a genus of trilobite; plus in fact another name, Echiopsis, had priority. However Storr regarded Echiopsis as a nomen oblitum, a disused name so archaic that it was not worth reinstating. He therefore persisted with Brachyaspis in the short term. In 1982 he transferred the genus into Notechis, but explicitly excluded B. atriceps from consideration because its affinities were then so uncertain. The following year the species was included in the Zoological Catalogue of Australia under the name Echiopsis atriceps, and the year after that Storr transferred it into Denisonia. Storr's circumscription of Denisonia included several species that were traditionally placed in Suta, and in 1993 Philippe Golay took the logical next step and transferred all of these, including D. atriceps, into Suta.",
+     "In 2000, a phylogenetic analysis of Australian elapids rejected all previous taxonomic arrangements for this species, instead finding strong support for placement as a sister group to Hoplocephalus, within the \"tiger snake lineage\" comprising Notechis, Austrelaps, Tropidechis and Hoplocephalus. It would have been taxonomically consistent with this finding to transfer atriceps into Hoplocephalus, but Hoplocephalus was then morphologically well-defined and it would have been difficult to redefine it to encompass the extra species. The option of merging other sister groups into a single large genus was also rejected, leaving the only option the recognition of atriceps as a monotypic genus. The genus name chosen was Paroplocephalus, from the Greek para (\"beside\") and -plocephalus referring to the sister genus Hoplocephalus. Thus the genus name recognised \"the close relationship and morphological similarity between the two genera\". According to the Australian Faunal Directory, this remains the accepted name for the genus."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485083552/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Connor Margetts",
+   "photo": 485083552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485083581/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Connor Margetts",
+   "photo": 485083581
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485083580/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Connor Margetts",
+   "photo": 485083580
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "sci": "Adelphicos sargii",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27400,
+  "name": "Adelphicos sargii",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Adelphicos_sargii",
+  "common": "Sargi's earth snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47373168/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Osbin Aron De León Lux, some rights reserved (CC BY-NC)",
+   "obs": 30327605,
+   "place": "Guatemala",
+   "date": "2019-07-30"
+  }
+ ],
+ "wiki": {
+  "title": "Adelphicos sargii",
+  "url": "https://en.wikipedia.org/wiki/Adelphicos_sargii",
+  "revision": 1347561562,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Adelphicos sargii, Sargi's earth snake, is a colubrid snake found in Mexico and Guatemala."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47373168/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Osbin Aron De León Lux, some rights reserved (CC BY-NC), uploaded by Osbin Aron De León Lux",
+   "photo": 47373168
+  }
+ ]
+}

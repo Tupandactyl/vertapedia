@@ -1,0 +1,71 @@
+{
+ "sci": "Thamnosophis stumpffi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 68432,
+  "name": "Thamnosophis stumpffi",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thamnosophis_stumpffi",
+  "common": "Yellow-striped Water Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26456722/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY)",
+   "obs": 17411963,
+   "place": "Diana, MG-AS, MG",
+   "date": "2016-03-14"
+  }
+ ],
+ "wiki": {
+  "title": "Thamnosophis stumpffi",
+  "url": "https://en.wikipedia.org/wiki/Thamnosophis_stumpffi",
+  "revision": 1355128958,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Thamnosophis stumpffi, commonly known as the yellow-striped water snake, is a species of snake in the subfamily Pseudoxyrhophiinae of the family Pseudoxyrhophiidae. The species is endemic to Madagascar."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, stumpffi, is in honor of Anton Stumpff who collected the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. stumpffi is found in northwestern Madagascar, including the island Nosy Be."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of T. stumpffi is forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. stumpffi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26456722/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 26456722
+  }
+ ]
+}

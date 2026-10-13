@@ -1,0 +1,84 @@
+{
+ "sci": "Baliodryas steinbachi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1119984,
+  "name": "Baliodryas steinbachi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baliodryas",
+  "common": "Steinbach's Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13927848/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ramon and Suzanne Vargas, some rights reserved (CC BY-SA)",
+   "obs": 10104904,
+   "place": "Ichilo, Bolivia",
+   "date": "2018-03-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89915351/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 56422701,
+   "place": "Florida, BO-SC, BO",
+   "date": "2018-09-11"
+  }
+ ],
+ "wiki": {
+  "title": "Baliodryas",
+  "url": "https://en.wikipedia.org/wiki/Baliodryas",
+  "revision": 1355143991,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Baliodryas is a genus  of snakes in the family Colubridae. It is monotypic, being represented by the single species, Baliodryas steinbachi. It is endemic to South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, steinbachi is in honor of Dr. Jose Steinbach (1856–1929), who collected biological specimens in South America."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "B. steinbachi is found in Bolivia and Brazil. The preferred natural habitat is forest at an altitude of 250 m (820 ft)."
+    ]
+   },
+   {
+    "h": "Biology",
+    "level": 2,
+    "paras": [
+     "B. steinbachi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13927848/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ramon and Suzanne Vargas, some rights reserved (CC BY-SA), uploaded by Ramon and Suzanne Vargas",
+   "photo": 13927848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13928032/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ramon and Suzanne Vargas, some rights reserved (CC BY-SA), uploaded by Ramon and Suzanne Vargas",
+   "photo": 13928032
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13928050/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ramon and Suzanne Vargas, some rights reserved (CC BY-SA), uploaded by Ramon and Suzanne Vargas",
+   "photo": 13928050
+  }
+ ]
+}

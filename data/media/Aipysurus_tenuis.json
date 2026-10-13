@@ -1,0 +1,72 @@
+{
+ "sci": "Aipysurus tenuis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35258,
+  "name": "Aipysurus tenuis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aipysurus_tenuis",
+  "common": "Brown-lined Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390648812/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sandac59, some rights reserved (CC BY-NC)",
+   "obs": 220630326,
+   "place": "Eighty Mile Beach, Eighty Mile Beach, WA, AU",
+   "date": "2024-06-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/561176010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fmksandy, some rights reserved (CC BY-NC)",
+   "obs": 310905131,
+   "place": "Broome, AU-WA, AU",
+   "date": "2025-09-02"
+  }
+ ],
+ "wiki": {
+  "title": "Aipysurus tenuis",
+  "url": "https://en.wikipedia.org/wiki/Aipysurus_tenuis",
+  "revision": 1355376667,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aipysurus tenuis, also known as the Arafura sea snake, Mjoberg's sea snake, or brown-lined sea snake, is a species of venomous snake in the family Elapidae that is native to Australia. The specific epithet tenuis (\"slender\") refers to the snake's appearance."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The species grows to an average of about 130 cm in length. It is long and slim, with a small, brown head and a pale body."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "The species is viviparous."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The snake is found in marine waters off the north-west coast of Western Australia, from near Dampier to Broome, and in the Arafura Sea. The type locality is Cape Jaubert, near Broome."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390648812/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sandac59, some rights reserved (CC BY-NC)",
+   "photo": 390648812
+  }
+ ]
+}

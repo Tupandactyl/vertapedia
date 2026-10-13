@@ -1,0 +1,46 @@
+{
+ "sci": "Psammophylax ocellatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1031647,
+  "name": "Psammophylax ocellatus",
+  "observations": 4,
+  "wikipedia_url": null,
+  "common": "Angolan skaapsteker"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155807072/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC)",
+   "obs": 93962742,
+   "place": "Lubango, Angola",
+   "date": "2018-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452973226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Cronje, some rights reserved (CC BY-NC)",
+   "obs": 253020037,
+   "place": "Lubango, AO-HL, AO",
+   "date": "2024-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445043981/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Cronje, some rights reserved (CC BY-NC)",
+   "obs": 249008657,
+   "place": "Bibala, Namibe, AO",
+   "date": "2024-10-22"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155807072/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 155807072
+  }
+ ]
+}

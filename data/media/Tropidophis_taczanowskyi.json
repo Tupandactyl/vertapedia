@@ -1,0 +1,106 @@
+{
+ "sci": "Tropidophis taczanowskyi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32303,
+  "name": "Tropidophis taczanowskyi",
+  "observations": 11,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tropidophis_taczanowskyi",
+  "common": "Taczanowsky's Dwarf Boa"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11619825/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristof & Yulia, some rights reserved (CC BY)",
+   "obs": 8673231,
+   "place": "Zamora Chinchipe, EC",
+   "date": "2004-11-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585077169/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fredy Ramón C., some rights reserved (CC BY-NC)",
+   "obs": 323355784,
+   "place": "Zamora Chinchipe, EC",
+   "date": "2025-10-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439760321/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fredy Ramón C., some rights reserved (CC BY-NC)",
+   "obs": 246343136,
+   "place": "Zamora Chinchipe, EC",
+   "date": "2024-10-08"
+  }
+ ],
+ "wiki": {
+  "title": "Tropidophis taczanowskyi",
+  "url": "https://en.wikipedia.org/wiki/Tropidophis_taczanowskyi",
+  "revision": 1371600750,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tropidophis taczanowskyi, also known commonly as Taczanowski's dwarf boa, is a species of snake in the family Tropidophiidae. The species is native to northern South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "Both the specific name, taczanowskyi, and the common name, Taczanowski's dwarf boa, are in honor of Polish zoologist Władysław Taczanowski."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. taczanowskyi is found in Ecuador and Peru."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of T. taczanowskyi is forest, at altitudes of 823–2,900 m (2,700–9,514 ft)."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Taczanowski's dwarf boa preys upon frogs."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. taczanowskyi is viviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11619825/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristof & Yulia, some rights reserved (CC BY), uploaded by Kristof & Yulia",
+   "photo": 11619825
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11619827/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristof & Yulia, some rights reserved (CC BY), uploaded by Kristof & Yulia",
+   "photo": 11619827
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11619828/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kristof & Yulia, some rights reserved (CC BY), uploaded by Kristof & Yulia",
+   "photo": 11619828
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "sci": "Madatyphlops domerguei",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539956,
+  "name": "Madatyphlops domerguei",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Madatyphlops_domerguei",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12893982/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY)",
+   "obs": 9474808,
+   "place": "Vatovavy-Fitovinany, Madagaskar",
+   "date": "2007-12-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12893424/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY)",
+   "obs": 9474625,
+   "place": "Vatovavy-Fitovinany, Madagaskar",
+   "date": "2007-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615947479/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY-NC)",
+   "obs": 338673639,
+   "place": "Vatovavy Fitovinany, MG-FI, MG",
+   "date": "2026-02-14"
+  }
+ ],
+ "wiki": {
+  "title": "Madatyphlops domerguei",
+  "url": "https://en.wikipedia.org/wiki/Madatyphlops_domerguei",
+  "revision": 1355036812,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Madatyphlops domerguei is a species of snake in the family Typhlopidae. The species is endemic to Madagascar."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, domerguei, is in honor of French herpetologist Charles Domergue."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "M. domerguei is found in southeastern Madagascar."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of M. domerguei is forest, at low and medium elevations."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "M. domerguei is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12893982/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 12893982
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12893424/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Julien Renoult, some rights reserved (CC BY), uploaded by Julien Renoult",
+   "photo": 12893424
+  }
+ ]
+}

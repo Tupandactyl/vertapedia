@@ -1,0 +1,65 @@
+{
+ "sci": "Apostolepis ambiniger",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 145911,
+  "name": "Apostolepis ambiniger",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Apostolepis_ambiniger",
+  "common": "Paraguayan Blackhead"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/745344700/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Contato CGE, some rights reserved (CC BY-NC)",
+   "obs": 405753142,
+   "place": "Q3FM+57 - Rochedinho, Campo Grande - MS, Brasil",
+   "date": "2026-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136579400/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kapiuna, some rights reserved (CC BY-NC)",
+   "obs": 83172620,
+   "place": "Central Department, PY",
+   "date": "2021-06-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156183188/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amanda_duarte, some rights reserved (CC BY-NC)",
+   "obs": 94170662,
+   "place": "HGHR+2CV, Yvyraro, Paraguay",
+   "date": "2021-04-17"
+  }
+ ],
+ "wiki": {
+  "title": "Apostolepis ambiniger",
+  "url": "https://en.wikipedia.org/wiki/Apostolepis_ambiniger",
+  "revision": 1314151687,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Apostolepis ambiniger, the Paraguayan blackhead, is a species of snake in the family Colubridae. It is found in Brazil, Bolivia, and Paraguay."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136579430/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kapiuna, some rights reserved (CC BY-NC)",
+   "photo": 136579430
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136579400/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kapiuna, some rights reserved (CC BY-NC)",
+   "photo": 136579400
+  }
+ ]
+}

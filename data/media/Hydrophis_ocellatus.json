@@ -1,0 +1,111 @@
+{
+ "sci": "Hydrophis ocellatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35207,
+  "name": "Hydrophis ocellatus",
+  "observations": 31,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spotted_sea_snake",
+  "common": "Spotted Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435618888/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paulmc001, some rights reserved (CC BY-NC)",
+   "obs": 244224114,
+   "place": "Trinity Bay, Wangetti, QLD, AU",
+   "date": "2024-09-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498561743/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) caleb_yates, some rights reserved (CC BY-NC)",
+   "obs": 277660548,
+   "place": "Arafura Sea, Mission River, QLD, AU",
+   "date": "2024-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732382697/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mark Clarke, some rights reserved (CC BY)",
+   "obs": 399196968,
+   "place": "Old Burleigh Rd at Queensland Avenue, Broadbeach QLD 4218, Australia",
+   "date": "2026-09-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481758052/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin Anderson, some rights reserved (CC BY-NC)",
+   "obs": 268040124,
+   "place": "Exmouth, G3, WA, Australia",
+   "date": "2025-03-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156644294/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) glyall, some rights reserved (CC BY-NC)",
+   "obs": 94430384,
+   "place": "Indian Ocean, AU",
+   "date": "2021-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171948350/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) glyall, some rights reserved (CC BY-NC)",
+   "obs": 102812931,
+   "place": "Indian Ocean, Mardie, WA, AU",
+   "date": "2021-12-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680606002/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) drkennyt, some rights reserved (CC BY-NC)",
+   "obs": 372460307,
+   "place": "Barrow Island, WA, AU",
+   "date": "2026-06-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363373439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) neri_, some rights reserved (CC BY-NC)",
+   "obs": 205500942,
+   "place": "Indian Ocean, Cape Range National Park, WA, AU",
+   "date": "2024-04-05"
+  }
+ ],
+ "wiki": {
+  "title": "Spotted sea snake",
+  "url": "https://en.wikipedia.org/wiki/Spotted_sea_snake",
+  "revision": 1315255099,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The spotted sea snake (Hydrophis ocellatus) is a species of marine snake native to the waters off northern Australia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363373439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) neri_, some rights reserved (CC BY-NC)",
+   "photo": 363373439
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171948363/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) glyall, some rights reserved (CC BY-NC)",
+   "photo": 171948363
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157123007/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) glyall, some rights reserved (CC BY-NC)",
+   "photo": 157123007
+  }
+ ]
+}

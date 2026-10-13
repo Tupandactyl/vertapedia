@@ -1,0 +1,43 @@
+{
+ "sci": "Gerrhopilus ceylonicus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 121144,
+  "name": "Gerrhopilus ceylonicus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gerrhopilus_ceylonicus",
+  "common": "Sri Lanka worm snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44887608/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC)",
+   "obs": 28780589,
+   "place": "Gannoruwa, Sri Lanka",
+   "date": "2019-07-13"
+  }
+ ],
+ "wiki": {
+  "title": "Gerrhopilus ceylonicus",
+  "url": "https://en.wikipedia.org/wiki/Gerrhopilus_ceylonicus",
+  "revision": 1328145199,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Gerrhopilus ceylonicus, also known as the Sri Lanka worm snake, is a species of snake in the family of Gerrhopilidae. It is endemic to Sri Lanka."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44887608/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 44887608
+  }
+ ]
+}

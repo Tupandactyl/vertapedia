@@ -1,0 +1,77 @@
+{
+ "sci": "Platyplectrurus trilineatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32398,
+  "name": "Platyplectrurus trilineatus",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Platyplectrurus_trilineatus",
+  "common": "Three-lined Shieldtail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580013203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 320774996,
+   "place": "India",
+   "date": "2025-10-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580012915/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 320774930,
+   "place": "India",
+   "date": "2025-10-04"
+  }
+ ],
+ "wiki": {
+  "title": "Platyplectrurus trilineatus",
+  "url": "https://en.wikipedia.org/wiki/Platyplectrurus_trilineatus",
+  "revision": 1341282110,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Platyplectrurus trilineatus, commonly known as the tri-striped shield-tail snake or the lined thorntail snake, is a species of uropeltid snake endemic to the Western Ghats of Southern India. Like most other shieldtail snakes, it is presumed to be a nocturnal, fossorial snake inhabiting evergreen forests. A very rare snake, about which nothing is known in terms of live colouration and natural history."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in southern India in the southern Western Ghats in the Anamalai Hills of Kerala and Tamil Nadu states.",
+     "Type locality of Plectrurus trilineatus: \"Anamally forests; elevation 4,000 feet\".",
+     "Type locality of Platyplectrurus bilineatus: \"Madura Hills\"."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults are reddish brown or brick-red dorsally, with three black stripes, which may be either continuous or interrupted.",
+     "The young are dark brown or black dorsally, with two or more narrow yellowish stripes, yellowish ventrally, with a brown dot on each ventral scale. Juveniles also have yellowish transverse markings behind the shielded part of the head, which may resemble an incomplete collar.",
+     "Adults may attain a total length of 40 cm (15+3⁄4 in).",
+     "Dorsal scales arranged in 15 rows at midbody (in 17 rows behind the head). Ventrals 163-175; subcaudals 8-16.",
+     "Snout broadly rounded. Rostral small, but visible from above. Frontal longer than broad. Supraocular much larger than the eye, longer than the prefrontal. One elongated temporal, which is 2/3 or 3/5 the length of the parietal. Ventrals nearly two times as broad as the contiguous scales. Dorsal scales of the tail smooth or a few of the terminal ones weakly bicarinate or tricarinate. Terminal scute with a transverse ridge which is less distinct in females."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580013203/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 580013203
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580012915/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 580012915
+  }
+ ]
+}

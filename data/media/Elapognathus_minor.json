@@ -1,0 +1,79 @@
+{
+ "sci": "Elapognathus minor",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35267,
+  "name": "Elapognathus minor",
+  "observations": 34,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Short-nosed_snake",
+  "common": "Short-nosed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153829759/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC)",
+   "obs": 92865838,
+   "place": "Albany, AU-WA, AU",
+   "date": "2021-08-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68637727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC)",
+   "obs": 43246453,
+   "place": "Albany, AU-WA, AU",
+   "date": "2020-04-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175230931/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Em Lamond, some rights reserved (CC BY)",
+   "obs": 104562776,
+   "place": "Western Australia, AU",
+   "date": "2022-01-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347598917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Forrest He, some rights reserved (CC BY-NC)",
+   "obs": 197370065,
+   "place": "Manjimup, AU-WA, AU",
+   "date": "2023-11-09"
+  }
+ ],
+ "wiki": {
+  "title": "Short-nosed snake",
+  "url": "https://en.wikipedia.org/wiki/Short-nosed_snake",
+  "revision": 1354936817,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The short-nosed snake (Elapognathus minor) is a species of venomous snake in the family Elapidae. The species is endemic to Australia. Short-nosed snakes are endemic to swamplands and coastlands in the southwest of Western Australia, where they shelter in nests of stick ants (Iridomyrmex conifer), as well as dense rushes and reed tussocks. Short-nosed snakes are known to prey on small skinks mainly from the skink genus hemiergis, and small species of frogs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68637727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 68637727
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88826450/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 88826450
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88826488/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 88826488
+  }
+ ]
+}

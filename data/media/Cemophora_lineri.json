@@ -1,0 +1,146 @@
+{
+ "sci": "Cemophora lineri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 606460,
+  "name": "Cemophora lineri",
+  "observations": 22,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Texas_scarlet_snake",
+  "common": "Texas Scarletsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369349660/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Walker, some rights reserved (CC BY-NC)",
+   "obs": 208738609,
+   "place": "Texas, US",
+   "date": "2024-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393969888/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Laura Bonneau, some rights reserved (CC BY-NC)",
+   "obs": 222406234,
+   "place": "Texas, US",
+   "date": "2024-06-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369121/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Duran, some rights reserved (CC BY)",
+   "obs": 298133,
+   "place": "Texas, US",
+   "date": "2005-06-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1705167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig McIntyre, some rights reserved (CC BY-NC)",
+   "obs": 1379953,
+   "place": "Texas, US",
+   "date": "2015-04-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414065/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC)",
+   "obs": 331829,
+   "place": "Texas, US",
+   "date": "2006-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68077586/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) crotrox, some rights reserved (CC BY-NC)",
+   "obs": 42870882,
+   "place": "Texas, US",
+   "date": "2017-04-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369113/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Duran, some rights reserved (CC BY)",
+   "obs": 298127,
+   "place": "Texas, US",
+   "date": "2002-08-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37300536/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig McIntyre, some rights reserved (CC BY-NC)",
+   "obs": 24122121,
+   "place": "Texas, US",
+   "date": "2019-04-29"
+  }
+ ],
+ "wiki": {
+  "title": "Texas scarlet snake",
+  "url": "https://en.wikipedia.org/wiki/Texas_scarlet_snake",
+  "revision": 1377446557,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Texas scarlet snake (Cemophora lineri) is a species of nonvenomous snake in the subfamily Colubrinae of the family Colubridae. The species is native to the South Central United States. It was previously considered a subspecies of Cemophora coccinea."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name or epithet, lineri, is in honor of American herpetologist Ernest A. Liner (1925–2010), who collected the first specimen in 1963."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. lineri is found in southern Texas. Its range does not overlap with the other species of scarlet snake."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The Texas scarlet snake is the larger of the two scarlet snake species, and is capable of growing to a total length (including tail) of 66 cm (26 inches). It has a gray or white background color, with distinct red blotches that have black borders. Unlike the other species, the black borders do not join on the sides. Its belly is a solid white or gray."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Like all scarlet snakes (genus Cemophora), the Texas scarlet snake is a secretive burrower, spending most of its time under ground. It prefers sandy thicket habitats along the Gulf of Mexico coastline."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "The preferred diet of C. lineri is the eggs of other reptiles, but it will also eat small rodents and lizards."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1705167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Craig McIntyre, some rights reserved (CC BY-NC), uploaded by Craig McIntyre",
+   "photo": 1705167
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369122/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mike Duran, some rights reserved (CC BY), uploaded by Mike Duran",
+   "photo": 369122
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414065/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC), uploaded by Chris Harrison",
+   "photo": 414065
+  }
+ ]
+}

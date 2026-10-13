@@ -1,0 +1,51 @@
+{
+ "sci": "Gerrhopilus ater",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32703,
+  "name": "Gerrhopilus ater",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gerrhopilus_ater",
+  "common": "Black blindsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175247763/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel-silvius, some rights reserved (CC BY-NC)",
+   "obs": 104570434,
+   "place": "Bogor, Biotrop, Tajur, Bogor City, West Java, Indonesia",
+   "date": "2022-01-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700183370/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jalaludin Fuad, some rights reserved (CC BY-NC)",
+   "obs": 382600815,
+   "place": "Tumpang Rejo, Ngenep, Kec. Karang Ploso, Kabupaten Malang, Jawa Timur, Indonesia",
+   "date": "2026-05-14"
+  }
+ ],
+ "wiki": {
+  "title": "Gerrhopilus ater",
+  "url": "https://en.wikipedia.org/wiki/Gerrhopilus_ater",
+  "revision": 1376368413,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Gerrhopilus ater, also known as the black blind snake,  is a species of snake in the Gerrhopilidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175247763/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel-silvius, some rights reserved (CC BY-NC)",
+   "photo": 175247763
+  }
+ ]
+}

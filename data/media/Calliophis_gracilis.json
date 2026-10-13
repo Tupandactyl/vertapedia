@@ -1,0 +1,55 @@
+{
+ "sci": "Calliophis gracilis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30424,
+  "name": "Calliophis gracilis",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Calliophis_gracilis",
+  "common": "Grey Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175085298/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-SA)",
+   "obs": 104486269,
+   "place": "Tanjung Bungah, Penang, Malaysia",
+   "date": "2022-01-06"
+  }
+ ],
+ "wiki": {
+  "title": "Calliophis gracilis",
+  "url": "https://en.wikipedia.org/wiki/Calliophis_gracilis",
+  "revision": 1327802097,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calliophis gracilis, is a species of coral snake in the family Elapidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175085349/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-SA), uploaded by Albert Kang",
+   "photo": 175085349
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175085298/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-SA), uploaded by Albert Kang",
+   "photo": 175085298
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175085292/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Albert Kang, some rights reserved (CC BY-SA), uploaded by Albert Kang",
+   "photo": 175085292
+  }
+ ]
+}

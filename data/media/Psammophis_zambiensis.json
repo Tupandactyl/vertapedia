@@ -1,0 +1,66 @@
+{
+ "sci": "Psammophis zambiensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 28996,
+  "name": "Psammophis zambiensis",
+  "observations": 7,
+  "wikipedia_url": null,
+  "common": "Zambian Whip Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17890915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 12410716,
+   "place": "Moxico, AO-MX, AO",
+   "date": "2018-04-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393547902/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gbmalawi, some rights reserved (CC BY-NC)",
+   "obs": 222183398,
+   "place": "Mzimba, MW",
+   "date": "2015-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393550479/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gbmalawi, some rights reserved (CC BY-NC)",
+   "obs": 222184145,
+   "place": "Mzimba, MW",
+   "date": "2015-04-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/691992212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gareth Fee, some rights reserved (CC BY-NC)",
+   "obs": 378362550,
+   "place": "Moxico, AO",
+   "date": "2026-06-30"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17890989/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 17890989
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17890915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 17890915
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17890922/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 17890922
+  }
+ ]
+}

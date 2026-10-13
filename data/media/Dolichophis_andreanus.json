@@ -1,0 +1,91 @@
+{
+ "sci": "Dolichophis andreanus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1127941,
+  "name": "Dolichophis andreanus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Andreas's_racer",
+  "common": "Andreas’ Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147215925/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Meisam, some rights reserved (CC BY-NC)",
+   "obs": 89165484,
+   "place": "Arak Markazi province Iran Middle East Asia",
+   "date": "2007-05-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339531359/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kaeferkurdi, some rights reserved (CC BY-NC)",
+   "obs": 193290325,
+   "place": "Sulaymaniyah, Sulaymaniyah Governorate, Irak",
+   "date": "2014-05-08"
+  }
+ ],
+ "wiki": {
+  "title": "Andreas's racer",
+  "url": "https://en.wikipedia.org/wiki/Andreas%27s_racer",
+  "revision": 1355105213,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Andreas's racer (Hierophis andreanus) is a species of snake in the family Colubridae. The species is native to the Middle East."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, andreanus, is in honor of \"Herr Prof. Andreas \" (Professor Andreas) who collected natural history specimens in Persia (now Iran) in 1905."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "D. andreanus is found in the southern Zagros Mountains and their foothills, in Fars province, Iran, and in Iraq."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of D. andreanus are grassland and rocky areas, at altitudes of 100–3,000 m (330–9,840 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "D. andreanus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339531359/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kaeferkurdi, algunos derechos reservados (CC BY-NC)",
+   "photo": 339531359
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147215925/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Meisam, algunos derechos reservados (CC BY-NC), subido por Meisam",
+   "photo": 147215925
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203554/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Smithsonian Institution, National Museum of Natural History, Department of Vertebrate Zoology, Division of Amphibians & Reptiles, algunos derechos reservados (CC BY-NC-SA)",
+   "photo": 203554
+  }
+ ]
+}

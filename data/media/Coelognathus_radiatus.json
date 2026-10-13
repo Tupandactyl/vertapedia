@@ -1,0 +1,154 @@
+{
+ "sci": "Coelognathus radiatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30235,
+  "name": "Coelognathus radiatus",
+  "observations": 1241,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Radiated_ratsnake",
+  "common": "Copperhead Rat Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2335054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sankar Das, some rights reserved (CC BY-NC)",
+   "obs": 1912267,
+   "place": "Koch Bihar, IN-WB, IN",
+   "date": "2015-08-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210272612/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Arzha Ali Rahmat, some rights reserved (CC BY-NC-SA)",
+   "obs": 124077734,
+   "place": "Kaligowong",
+   "date": "2022-06-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208615702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ajak King, some rights reserved (CC BY-NC)",
+   "obs": 123163089,
+   "place": "Muar, Johor, MY",
+   "date": "2022-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41038356/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hokoonwong, some rights reserved (CC BY-NC)",
+   "obs": 26428438,
+   "place": "荃錦公路, 荃灣, 新界, HK",
+   "date": "2019-06-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233064190/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Liepack, some rights reserved (CC BY-NC)",
+   "obs": 136547144,
+   "place": "C345+XRX, Jamoliwala, Bhagwant Pur, Punkal Gaon, Uttarakhand 248141, Indien",
+   "date": "2022-09-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341475452/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ajak King, some rights reserved (CC BY-NC)",
+   "obs": 194287678,
+   "place": "Taman Sri Tanjung, 84000 Muar, Johor, Malaysia",
+   "date": "2023-12-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250125020/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ioannis Magouras, some rights reserved (CC BY)",
+   "obs": 145599378,
+   "place": "Mu Si, Pak Chong District, Nakhon Ratchasima 30130, Thailand",
+   "date": "2022-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394250365/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Hansen, some rights reserved (CC BY-NC)",
+   "obs": 222557327,
+   "place": "FXFV+R8M Bumi Perkemahan Pura Srijong, Antap, Kec. Selemadeg, Kabupaten Tabanan, Bali 82162, Indonesia",
+   "date": "2024-06-12"
+  }
+ ],
+ "wiki": {
+  "title": "Radiated ratsnake",
+  "url": "https://en.wikipedia.org/wiki/Radiated_ratsnake",
+  "revision": 1368688995,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Coelognathus radiatus, commonly known as the radiated ratsnake, copperhead rat snake, or copper-headed trinket snake, is a nonvenomous species of colubrid snake."
+    ]
+   },
+   {
+    "h": "Temperament",
+    "level": 2,
+    "paras": [
+     "These snakes are usually defensive in nature which makes it hard to catch or control them."
+    ]
+   },
+   {
+    "h": "Common names",
+    "level": 2,
+    "paras": [
+     "German: Strahlennatter",
+     "English:",
+     "Copperhead racer",
+     "Copperhead rat snake",
+     "Radiated rat snake",
+     "Copper-headed trinket snake",
+     "Thai: งูทางมะพร้าว, ngu taang mapao",
+     "Myanmar: ငန်းစောင်း",
+     "Laos:ງູສາ",
+     "Malay: Ular Rusuk Kerbau",
+     "Bengali (Bangladesh): দুধরাজ (Dudhraj), আরবালি সাপ (Arbali sap)",
+     "Vietnamese: rắn sọc dưa, rắn hổ ngựa"
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Indonesia (Sumatra, Bangka, Borneo/Kalimantan, Java), Bali",
+     "Malaysia and Brunei (Malaya and East Malaysia); Borneo,",
+     "Singapore Island,",
+     "Burma (Myanmar),",
+     "Thailand (including Phuket), Koh Phangan",
+     "Laos, Cambodia, Vietnam,",
+     "Japan (Ryukyu Islands),",
+     "India (Assam, Arunachal Pradesh (Miao - Changlang district, Chessa, Chimpu, Itanagar - Papum Pare district) [A. Captain, pers. comm.]),",
+     "Bangladesh, Nepal,",
+     "South China (Fujian, Yunnan, Guangxi, Guangdong, Hong Kong),",
+     "Nepal",
+     "Type locality: Java"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341460857/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Howes, some rights reserved (CC BY-NC), uploaded by John Howes",
+   "photo": 341460857
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2335054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sankar Das, some rights reserved (CC BY-NC), uploaded by Sankar Das",
+   "photo": 2335054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41038356/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hokoonwong, some rights reserved (CC BY-NC), uploaded by hokoonwong",
+   "photo": 41038356
+  }
+ ]
+}

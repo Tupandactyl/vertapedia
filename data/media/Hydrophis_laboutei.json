@@ -1,0 +1,78 @@
+{
+ "sci": "Hydrophis laboutei",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35229,
+  "name": "Hydrophis laboutei",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrophis_laboutei",
+  "common": "Laboute's sea snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/743026281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Goiran, some rights reserved (CC BY-NC)",
+   "obs": 404589468,
+   "place": "Nouvelle-Calédonie",
+   "date": "2008-05-01"
+  }
+ ],
+ "wiki": {
+  "title": "Hydrophis laboutei",
+  "url": "https://en.wikipedia.org/wiki/Hydrophis_laboutei",
+  "revision": 1355147355,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydrophis laboutei, also known commonly as Laboute's sea snake, is a species of venomous sea snake in the subfamily Hydrophiinae of the family Elapidae. The species is native to New Caledonia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific epithet, laboutei, honours Pierre Laboute, a French researcher at the IRD station in Nouméa, who collected the holotype."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "H. laboutei has 44–46 rows of dorsal scales at midbody, and it has 186–187 vertebrae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "H. laboutei is found in the marine waters of New Caledonia. The type locality is the Chesterfield Islands in the Coral Sea."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Other than being marine, the precise habitat of H. laboutei is unknown. The holotype was collected with a trawl at a depth of 62 m (203 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "H. laboutei is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/743026281/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Goiran, some rights reserved (CC BY-NC), uploaded by Claire Goiran",
+   "photo": 743026281
+  }
+ ]
+}

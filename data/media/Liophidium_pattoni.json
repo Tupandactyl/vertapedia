@@ -1,0 +1,105 @@
+{
+ "sci": "Liophidium pattoni",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 104695,
+  "name": "Liophidium pattoni",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Liophidium_pattoni",
+  "common": "Red-striped Smooth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91537613/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "obs": 57392230,
+   "place": "Madagascar",
+   "date": "2004-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335905736/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) samhyderoberts, some rights reserved (CC BY-NC)",
+   "obs": 191470720,
+   "place": "Sava, MG-AS, MG",
+   "date": "2015-03-23"
+  }
+ ],
+ "wiki": {
+  "title": "Liophidium pattoni",
+  "url": "https://en.wikipedia.org/wiki/Liophidium_pattoni",
+  "revision": 1377653681,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Liophidium pattoni is a species of snake in the subfamily Pseudoxyrhophiinae of the family Pseudoxyrhophiidae. The species is endemic to Madagascar. Little is known about the snake as it was recently described in 2010, although its existence had been known for some decades (one was pictured in a 1996 guidebook) before a specimen could be caught for detailed study."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, pattoni, is in honor of American mammalogist James L. Patton."
+    ]
+   },
+   {
+    "h": "Geographic range and habitat",
+    "level": 2,
+    "paras": [
+     "Liophidium pattoni is known to occur in two sites in Madagascar, the Masoala peninsula and the Makira Plateau. It has been found in primary rainforest vegetation at elevations up to 1,000 m (3,300 ft)."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Originally described in 2010, Liophidium pattoni is a member of the pseudoxyrhophiine genus Liophidium, which is a genus of lamprophiid snakes. Which means that Liophidium pattoni is harmless to humans. Previously, nine species of Liophidium from Madagascar had been formally described. Molecular evidence indicates that the closest sister taxon to L. pattoni is Liophidium rhodogaster (Schlegel, 1837)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Liophidium pattoni can easily be distinguished from other members of the genus Liophidium by its unique color pattern. This species is most similar in external morphology to Liophidium torquatum (Boulenger, 1888). L. pattoni is a thin-bodied snake with a black dorsum with discontinuous pink stripes that fade to blue-gray and white towards the posterior. The ventral coloration is bright yellow with a pink-red ventral tail region. An adult male can be 417 mm (16.4 in) in total length (tail included), with a snout-to-vent length (SVL) of 329 mm (13.0 in), and a head length of 12.4 mm (0.49 in)."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Liophidium pattoni is a terrestrial hunter, and while its diet is largely unknown, the holotype was collected with a Malagasy ground skink (Madascincus melanopleura) in its stomach, suggesting that it feeds on small terrestrial rainforest fauna."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Liophidium pattoni is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91537950/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 91537950
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91537961/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 91537961
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91537613/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 91537613
+  }
+ ]
+}

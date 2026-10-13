@@ -1,0 +1,88 @@
+{
+ "sci": "Apographon orestes",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1439524,
+  "name": "Apographon orestes",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Apographon",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251987736/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 146555446,
+   "place": "Tunari, BO-CB, BO",
+   "date": "2007-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502339932/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KennyUre_Wildlife, some rights reserved (CC BY-NC)",
+   "obs": 279728713,
+   "place": "Tarija, BO",
+   "date": "2023-01-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519808941/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KennyUre_Wildlife, some rights reserved (CC BY-NC)",
+   "obs": 289022563,
+   "place": "Tarija, BO",
+   "date": "2021-05-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57813994/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jhulializo, some rights reserved (CC BY-NC)",
+   "obs": 36563983,
+   "place": "Chuquisaca, BO",
+   "date": "2018-12-25"
+  }
+ ],
+ "wiki": {
+  "title": "Apographon",
+  "url": "https://en.wikipedia.org/wiki/Apographon",
+  "revision": 1370205371,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Apographon is a monotypic genus of snake in the subfamily Dipsadinae of the family Colubridae. The genus contains the sole species Apographon orestes, which is native to central and southern South America."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Apographon orestes is found in Argentina and Bolivia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of Apographon orestes are forest, shrubland, and grassland, at elevations of 1,300–3,400 m (4,300–11,200 ft), and it has also been found in disturbed areas such as roadsides and pastures."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Apographon orestes is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57813994/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jhulializo, some rights reserved (CC BY-NC)",
+   "photo": 57813994
+  }
+ ]
+}

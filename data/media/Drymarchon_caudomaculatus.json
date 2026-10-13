@@ -1,0 +1,73 @@
+{
+ "sci": "Drymarchon caudomaculatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30342,
+  "name": "Drymarchon caudomaculatus",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Falcon_indigo_snake",
+  "common": "Falcon indigo snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223614159/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge L. Peña, some rights reserved (CC BY-NC)",
+   "obs": 131404281,
+   "place": "Chiriguana, Cesar, Colombia",
+   "date": "2021-02-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432403493/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) DAVILA REYES DANIEL, some rights reserved (CC BY-NC)",
+   "obs": 242549649,
+   "place": "Becerril, Becerril, Cesar, CO",
+   "date": "2024-09-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183388975/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) DAVILA REYES DANIEL, some rights reserved (CC BY-NC)",
+   "obs": 108871454,
+   "place": "Barrancas, La Guajira, Colombia",
+   "date": "2022-02-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723090919/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovandry Pushaina, some rights reserved (CC BY-NC)",
+   "obs": 394426340,
+   "place": "Maicao, La Guajira, Colombia",
+   "date": "2026-08-25"
+  }
+ ],
+ "wiki": {
+  "title": "Falcon indigo snake",
+  "url": "https://en.wikipedia.org/wiki/Falcon_indigo_snake",
+  "revision": 1357078441,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The falcon indigo snake our Auril (Drymarchon caudomaculatus) is a species of nonvenomous snake in the family Colubridae. The species is found in Venezuela and Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223614130/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge L. Peña, some rights reserved (CC BY-NC), uploaded by Jorge L. Peña",
+   "photo": 223614130
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223614159/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge L. Peña, some rights reserved (CC BY-NC), uploaded by Jorge L. Peña",
+   "photo": 223614159
+  }
+ ]
+}

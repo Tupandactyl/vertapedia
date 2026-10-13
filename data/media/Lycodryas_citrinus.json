@@ -1,0 +1,63 @@
+{
+ "sci": "Lycodryas citrinus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 28593,
+  "name": "Lycodryas citrinus",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodryas_citrinus",
+  "common": "Yellow-and-black Tree Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72451200/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dai Herbert, some rights reserved (CC BY-NC)",
+   "obs": 45684007,
+   "place": "Melaky, MG-MA, MG",
+   "date": "2006-10-03"
+  }
+ ],
+ "wiki": {
+  "title": "Lycodryas citrinus",
+  "url": "https://en.wikipedia.org/wiki/Lycodryas_citrinus",
+  "revision": 1369399487,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lycodryas citrinus is a species of snake of the family Pseudoxyrhophiidae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Madagascar."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The snake is bright yellow with black spots on its back."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72451399/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dai Herbert, some rights reserved (CC BY-NC), uploaded by Dai Herbert",
+   "photo": 72451399
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72451200/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dai Herbert, some rights reserved (CC BY-NC), uploaded by Dai Herbert",
+   "photo": 72451200
+  }
+ ]
+}

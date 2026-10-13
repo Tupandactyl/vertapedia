@@ -1,0 +1,55 @@
+{
+ "sci": "Dendrelaphis gastrostictus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 26690,
+  "name": "Dendrelaphis gastrostictus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dendrelaphis_gastrostictus",
+  "common": "Montane treesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351931194/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC)",
+   "obs": 199552323,
+   "place": "Sorong Regency, West Papua, Indonesia",
+   "date": "2023-11-02"
+  }
+ ],
+ "wiki": {
+  "title": "Dendrelaphis gastrostictus",
+  "url": "https://en.wikipedia.org/wiki/Dendrelaphis_gastrostictus",
+  "revision": 1355162807,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dendrelaphis gastrostictus, the montane tree snake, is a species of snake in the family Colubridae. The species is found in Papua New Guinea and  Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351931194/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 351931194
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351930848/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 351930848
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351931166/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 351931166
+  }
+ ]
+}

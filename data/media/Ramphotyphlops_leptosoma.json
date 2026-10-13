@@ -1,0 +1,65 @@
+{
+ "sci": "Ramphotyphlops leptosoma",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539283,
+  "name": "Anilios leptosoma",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Murchison_blind_snake",
+  "common": "Murchison Blind Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404557162/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC)",
+   "obs": 228008333,
+   "place": "Northampton, AU-WA, AU",
+   "date": "2024-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121713107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Cairns, some rights reserved (CC BY-NC)",
+   "obs": 74469721,
+   "place": "Kalbarri, WA, Australia",
+   "date": "2009-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/538896474/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lake8, some rights reserved (CC BY-NC)",
+   "obs": 299126481,
+   "place": "Northampton Ward, Eurardy, WA, AU",
+   "date": "2025-07-19"
+  }
+ ],
+ "wiki": {
+  "title": "Murchison blind snake",
+  "url": "https://en.wikipedia.org/wiki/Murchison_blind_snake",
+  "revision": 1314582297,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Murchison blind snake (Anilios leptosoma) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404557162/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bryce van der Heide, some rights reserved (CC BY-NC), uploaded by Bryce van der Heide",
+   "photo": 404557162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369533599/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Cairns, some rights reserved (CC BY-NC), uploaded by Nick Cairns",
+   "photo": 369533599
+  }
+ ]
+}

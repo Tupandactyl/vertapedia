@@ -1,0 +1,51 @@
+{
+ "sci": "Atractus natans",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27948,
+  "name": "Atractus natans",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_natans",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204541726/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 120904252,
+   "place": "Carauari - AM, 69500-000, Brasil",
+   "date": "2007-12-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414693708/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wildlife Tours Peru, Christoph Meyer, some rights reserved (CC BY-NC)",
+   "obs": 233348987,
+   "place": "Maynas, PE-LO, PE",
+   "date": "2024-08-02"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus natans",
+  "url": "https://en.wikipedia.org/wiki/Atractus_natans",
+  "revision": 1376026918,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus natans is a species of snake in the family Colubridae. The species can be found in Brazil and Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204541726/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by w_endo",
+   "photo": 204541726
+  }
+ ]
+}

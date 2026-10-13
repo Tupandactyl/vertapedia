@@ -1,0 +1,50 @@
+{
+ "sci": "Crotaphopeltis hippocrepis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 82809,
+  "name": "Crotaphopeltis hippocrepis",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crotaphopeltis_hippocrepis",
+  "common": "Ghana Herald Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279066360/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Gren, some rights reserved (CC BY-NC)",
+   "obs": 161452710,
+   "place": "Kindia, Kindia, GN",
+   "date": "2023-05-11"
+  }
+ ],
+ "wiki": {
+  "title": "Crotaphopeltis hippocrepis",
+  "url": "https://en.wikipedia.org/wiki/Crotaphopeltis_hippocrepis",
+  "revision": 1355353761,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotaphopeltis hippocrepis is a species of snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Sub-Saharan Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279066360/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric Gren, some rights reserved (CC BY-NC), uploaded by Eric Gren",
+   "photo": 279066360
+  }
+ ]
+}

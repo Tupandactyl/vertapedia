@@ -1,0 +1,51 @@
+{
+ "sci": "Brachyorrhos gastrotaenius",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 318639,
+  "name": "Brachyorrhos gastrotaenius",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brachyorrhos_gastrotaenius",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596722588/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M Walsh, some rights reserved (CC BY-NC)",
+   "obs": 329219607,
+   "place": "Buru Regency, Maluku, Indonesia",
+   "date": "2025-11-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484961592/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 269705729,
+   "place": "Wamlana, Teluk Kaiely, Buru Regency, Maluku, Indonesia",
+   "date": "2025-04-10"
+  }
+ ],
+ "wiki": {
+  "title": "Brachyorrhos gastrotaenius",
+  "url": "https://en.wikipedia.org/wiki/Brachyorrhos_gastrotaenius",
+  "revision": 1355489540,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Brachyorrhos gastrotaenius, commonly known as the Buru short-tailed snake, is a non-venomous, fangless species of homalopsid snake endemic to the island of Buru in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484961592/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 484961592
+  }
+ ]
+}

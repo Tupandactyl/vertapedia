@@ -1,0 +1,93 @@
+{
+ "sci": "Ahaetulla fronticincta",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30193,
+  "name": "Ahaetulla fronticincta",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_fronticincta",
+  "common": "Burmese Vine Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/525584988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khant Ye Yint ( Lord Khanevyr ov Mandralyx), some rights reserved (CC BY-NC)",
+   "obs": 292083494,
+   "place": "Ayeyarwady, MM",
+   "date": "2024-07-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440030508/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Khant Ye Yint ( Lord Khanevyr ov Mandralyx), some rights reserved (CC BY-NC)",
+   "obs": 246477832,
+   "place": "Ayeyarwady, MM",
+   "date": "2024-09-08"
+  }
+ ],
+ "wiki": {
+  "title": "Ahaetulla fronticincta",
+  "url": "https://en.wikipedia.org/wiki/Ahaetulla_fronticincta",
+  "revision": 1341062876,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ahaetulla fronticincta, commonly known as Günther's whipsnake, the Burmese vine snake or the river vine snake, is a species of fish-eating vine snake found in Southeast Asia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "It belongs to the genus Ahaetulla, one of five genera within the subfamily Ahaetuliinae. The relationships of Ahaetulla fronticincta to some other Ahaetulla species, and to the other genera within Ahaetuliinae, can be shown in the cladogram below, with possible paraphyletic species noted:"
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "It is found in bushes and other low vegetation along tidal rivers and mangrove in coastal parts of Myanmar (Burma). There are also old records from neighbouring northeastern India (Assam and Darjeeling), but these are considered questionable and it has not been located there during recent surveys. It is generally common in appropriate habitats within its known range."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It is slender, up to about 1 m (3 ft) long, and either green or brownish with a paler underside.",
+     "The snout is pointed and projected, measuring approximately twice the size of the eye. It usually has two pairs of loreal scales; two pre-oculars, the upper one in contact with the frontal; two post-oculars; temporals 2+2 or 2+3; supralabials 7 or 8 with the 5th or 6th in contact with the eye. Ventral scales 183-195, subcaudals 115-151, anal scales divided. The holotype was 82 cm long."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "This diurnal, mildly venomous snake feeds only on fish. It strikes at a fish in water while maintaining half of its body wrapped around a branch or twig. The mild venom of this snake renders the fish immobile.",
+     "It is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65194316/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Stan Shebs, some rights reserved (CC BY-SA)",
+   "photo": 65194316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65194318/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Stan Shebs, some rights reserved (CC BY-SA)",
+   "photo": 65194318
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65194319/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Stan Shebs, some rights reserved (CC BY-SA)",
+   "photo": 65194319
+  }
+ ]
+}

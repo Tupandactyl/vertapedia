@@ -1,0 +1,44 @@
+{
+ "sci": "Hydrophis bituberculatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 121088,
+  "name": "Hydrophis bituberculatus",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_bituberculatus",
+  "common": "Peters' Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596364123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nitiroj Boonsai, some rights reserved (CC BY-NC)",
+   "obs": 329038811,
+   "place": "V73G+9MW, Bang Muang, Takua Pa District, Phang Nga 82190 ประเทศไทย",
+   "date": "2025-12-01"
+  }
+ ],
+ "wiki": {
+  "title": "Hydrophis bituberculatus",
+  "url": "https://en.wikipedia.org/wiki/Hydrophis_bituberculatus",
+  "revision": 1315030147,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydrophis bituberculatus, commonly known as Peters's sea snake, is a species of venomous elapid.",
+     "It is found in the Indian Ocean (Sri Lanka, Thailand)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596364123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nitiroj Boonsai, some rights reserved (CC BY-NC), uploaded by Nitiroj Boonsai",
+   "photo": 596364123
+  }
+ ]
+}

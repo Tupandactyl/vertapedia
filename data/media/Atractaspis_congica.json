@@ -1,0 +1,68 @@
+{
+ "sci": "Atractaspis congica",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116499,
+  "name": "Atractaspis congica",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Atractaspis_congica",
+  "common": "Congo Burrowing Asp"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621392364/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bart Wursten, some rights reserved (CC BY-NC)",
+   "obs": 341349743,
+   "place": "Cacolo, Angola",
+   "date": "2026-02-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115642317/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mahomed Desai, some rights reserved (CC BY)",
+   "obs": 71077896,
+   "place": "Mufulira, Zambia",
+   "date": "2021-03-06"
+  }
+ ],
+ "wiki": {
+  "title": "Atractaspis congica",
+  "url": "https://en.wikipedia.org/wiki/Atractaspis_congica",
+  "revision": 1069023686,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractaspis congica, commonly known as the Congo burrowing asp, is a species of venomous snake in the family Atractaspididae. It is found in Africa."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Uniformly dark brown or black both dorsally and ventrally. Snout very short and rounded. Portion of rostral visible from above about half as long as its distance from the frontal. Smooth dorsal scales in 19 or 23 rows. Ventrals 200–230; anal divided; subcaudals 19–23, a few of the anterior entire, the remainder in two rows. Adults may attain a total length of 45 cm (17+3⁄4 in), with a tail 3.5 cm (1+3⁄8 in) long."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Three subspecies are recognized.",
+     "Atractaspis congica congica W. Peters, 1877",
+     "Atractaspis congica leleupi Laurent, 1950",
+     "Atractaspis congica orientalis Laurent, 1945"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115642317/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mahomed Desai, some rights reserved (CC BY), uploaded by Mahomed Desai",
+   "photo": 115642317
+  }
+ ]
+}

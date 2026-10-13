@@ -1,0 +1,85 @@
+{
+ "sci": "Typhlops cubae",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 114720,
+  "name": "Typhlops lumbricalis",
+  "observations": 11,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Typhlops_lumbricalis",
+  "common": "Earthworm Blind Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32636087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Powell, some rights reserved (CC BY-NC)",
+   "obs": 21052242,
+   "place": "Unnamed Road, Port Royal, The Bahamas",
+   "date": "2019-03-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245610233/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kristin A. Bakkegard, some rights reserved (CC BY-NC)",
+   "obs": 143229523,
+   "place": "North Andros, The Bahamas",
+   "date": "2022-11-28"
+  }
+ ],
+ "wiki": {
+  "title": "Earthworm blind snake",
+  "url": "https://en.wikipedia.org/wiki/Earthworm_blind_snake",
+  "revision": 1363503905,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Typhlops lumbricalis, commonly known as the earthworm blindsnake, is a species of snake in the family Typhlopidae that is endemic to the Bahamas."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Typhlops lumbricalis is a small, slender non-venomous blindsnake characterized by a brown grayish color. Individuals of this species can typically reach 119 to 162 mm long (mean 135 mm). They have a middorsal scale count between 256 and 271. The species can be distinguished from other closely related taxa by a thin and elongated oval rostral scale with a weakly divergent postnasal pattern. The ocular structures are reduced or absent which results in the name \"blind snake\"."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. lumbricalis is distributed throughout much of the northern and central Bahamas. The primary range includes the Bimini Islands, specifically South Bimini Island, Abaco Island and Eleuthera Island. Records from the southern Bahamas, Cuba, and other Caribbean islands are now understood as T. cubae, T. oxyrhinus or T. biminiensis."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "This species typically live in subterranean environments usually in moist soil, leaf litter and decomposing wood. Such habitats not only provide conditions for survival but also match the cryptic coloration of this snake, allowing for T. lumbricalis to blend effectively into its surroundings."
+    ]
+   },
+   {
+    "h": "Behavior and diet",
+    "level": 2,
+    "paras": [
+     "Like other blindsnakes, T. lumbricalis eat ants and termite eggs and larvae. The species has a specialized jaw that allows them to extract prey from insect nests."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32636087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emily Powell, some rights reserved (CC BY-NC), uploaded by Emily Powell",
+   "photo": 32636087
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29225208/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC), uploaded by Paul Pratt",
+   "photo": 29225208
+  }
+ ]
+}

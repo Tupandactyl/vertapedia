@@ -1,0 +1,46 @@
+{
+ "sci": "Lycophidion jacksoni",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1304754,
+  "name": "Lycophidion jacksoni",
+  "observations": 5,
+  "wikipedia_url": null,
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466025875/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Stephanie Dolrenry, some rights reserved (CC BY-SA)",
+   "obs": 259593837,
+   "place": "Loitokitok, Kenya",
+   "date": "2015-09-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666393157/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Francisco J. Serrano Eizaguerri, some rights reserved (CC BY-NC)",
+   "obs": 365015825,
+   "place": "Mfangano, Kenia",
+   "date": "2017-11-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672153996/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nathaniel Ndighila, some rights reserved (CC BY-NC)",
+   "obs": 368029058,
+   "place": "Mwarungu, Kenya",
+   "date": "2026-06-03"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20875947/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michelemenegon, some rights reserved (CC BY-NC), uploaded by michelemenegon",
+   "photo": 20875947
+  }
+ ]
+}

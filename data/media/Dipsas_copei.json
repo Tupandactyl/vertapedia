@@ -1,0 +1,81 @@
+{
+ "sci": "Dipsas copei",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30394,
+  "name": "Dipsas copei",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsas_copei",
+  "common": "Cope's Snail-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335987258/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 191511064,
+   "place": "Roura 97352, Guyane française",
+   "date": "2023-11-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594869343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Wilms, some rights reserved (CC BY-NC)",
+   "obs": 328297787,
+   "place": "Brokopondo, SR",
+   "date": "2025-11-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348872966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 197998330,
+   "place": "Saül 97314, Guyane française",
+   "date": "2024-01-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387736042/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC)",
+   "obs": 219019939,
+   "place": "Mont ItoupÃ© (Station 600 m)",
+   "date": "2010-03-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700391931/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vincent Rufray, some rights reserved (CC BY-NC)",
+   "obs": 382711438,
+   "place": "Sinnamary 97315, Guyane française",
+   "date": "1997-07-04"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsas copei",
+  "url": "https://en.wikipedia.org/wiki/Dipsas_copei",
+  "revision": 1283266975,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsas copei is a non-venomous snake found in Guyana, Suriname, French Guiana, and Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348872966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "photo": 348872966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387736042/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 387736042
+  }
+ ]
+}

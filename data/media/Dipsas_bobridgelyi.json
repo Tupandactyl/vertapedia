@@ -1,0 +1,43 @@
+{
+ "sci": "Dipsas bobridgelyi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 738091,
+  "name": "Dipsas bobridgelyi",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsas_bobridgelyi",
+  "common": "El Oro Snail Eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584070234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan C. Sánchez-Nivicela, some rights reserved (CC BY-NC)",
+   "obs": 322829169,
+   "place": "Pucara, Ecuador",
+   "date": "2025-07-05"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsas bobridgelyi",
+  "url": "https://en.wikipedia.org/wiki/Dipsas_bobridgelyi",
+  "revision": 1377462283,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsas bobridgelyi, Bob Ridgely's snail-eater, is a non-venomous snake found in Ecuador and Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168630063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC), uploaded by Eric",
+   "photo": 168630063
+  }
+ ]
+}

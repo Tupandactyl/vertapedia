@@ -1,0 +1,57 @@
+{
+ "sci": "Naja senegalensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 106449,
+  "name": "Naja senegalensis",
+  "observations": 0,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Senegalese_cobra",
+  "common": "Senegalese Cobra"
+ },
+ "photos": [],
+ "wiki": {
+  "title": "Senegalese cobra",
+  "url": "https://en.wikipedia.org/wiki/Senegalese_cobra",
+  "revision": 1376707324,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Senegalese cobra (Naja senegalensis) is a species of cobra in the genus Naja that is found in West Africa.",
+     "This species was long thought to be identical to the Egyptian cobra (Naja haje), but morphological and genetic differences have led to its recognition as a separate species. It differs from Naja haje in normally having more than 23 dorsal scale rows around the neck and a uniformly dark head without any obvious pattern on the supralabial scales. This species does not spit venom."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults are uniformly dark grey-brown dorsally, with slightly lighter lower flanks. The throat is also dark brown with occasional lighter individual ventral scales, whereas the rest of the ventral side is cream with dark grey-brown mottling. The head is dark grey-brown. Juveniles are grey with a black head and neck, and often carry a light blotch on the back of the hood. This normally disappears in adults, although a few specimens retain this marking into adulthood.",
+     "Size: a large, robust cobra, maximum recorded total length 245 cm."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "West Africa: documented from Senegal, Guinea, Mali, Burkina Faso, Ghana, Benin, Niger and Nigeria."
+    ]
+   },
+   {
+    "h": "Venom",
+    "level": 2,
+    "paras": [
+     "The venom of this species is rich in long chain αlpha-neurotoxins. The intravenous injection murine LD50 is 0.39 mg/kg."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541791/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lies Van Rompaey, some rights reserved (CC BY)",
+   "photo": 541791
+  }
+ ]
+}

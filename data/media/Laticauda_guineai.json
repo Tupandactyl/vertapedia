@@ -1,0 +1,71 @@
+{
+ "sci": "Laticauda guineai",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 104108,
+  "name": "Laticauda guineai",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Laticauda_guineai",
+  "common": "Flat-tailed Sea Krait"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286385316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Schlögl, some rights reserved (CC BY-NC)",
+   "obs": 165441146,
+   "place": null,
+   "date": "2010-09-30"
+  }
+ ],
+ "wiki": {
+  "title": "Laticauda guineai",
+  "url": "https://en.wikipedia.org/wiki/Laticauda_guineai",
+  "revision": 1369194485,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Laticauda guineai is a species of venomous sea snake in the family Elapidae. The species, which was first described by Heatwole, Busack and Cogger in 2005, is native to waters off southern New Guinea."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, guineai, is in honor of Australian zoologist Michael Leonard Guinea."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of L. guineai is shallow tropical seas and coral reefs, to a depth of 10 m (33 ft)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "L. guineai is amphibious, often leaving the water to come onto land."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. guineai is oviparous. The eggs are laid on land."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286385316/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Schlögl, some rights reserved (CC BY-NC), uploaded by Erik Schlögl",
+   "photo": 286385316
+  }
+ ]
+}

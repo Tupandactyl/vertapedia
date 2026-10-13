@@ -1,0 +1,59 @@
+{
+ "sci": "Dipsas cisticeps",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 606380,
+  "name": "Dipsas cisticeps",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsas_cisticeps",
+  "common": "Neotropical Snail-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352107431/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) timoteo_b, some rights reserved (CC BY-NC)",
+   "obs": 199643198,
+   "place": "Abel Iturralde, BO-LP, BO",
+   "date": "2024-01-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350170541/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 198652008,
+   "place": "Iturralde, Bolivia",
+   "date": "2024-01-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455773409/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pauly, some rights reserved (CC BY-NC)",
+   "obs": 254452442,
+   "place": "Santa Cruz, BO",
+   "date": "2024-11-27"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsas cisticeps",
+  "url": "https://en.wikipedia.org/wiki/Dipsas_cisticeps",
+  "revision": 1179408694,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsas cisticeps, the neotropical snail-eater,  is a non-venomous snake found in Bolivia, Argentina, and Paraguay."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60616890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryne Rutherford, some rights reserved (CC BY-NC), uploaded by Ryne Rutherford",
+   "photo": 60616890
+  }
+ ]
+}

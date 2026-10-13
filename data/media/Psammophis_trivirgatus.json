@@ -1,0 +1,60 @@
+{
+ "sci": "Psammophis trivirgatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 28972,
+  "name": "Psammophis punctulatus trivirgatus",
+  "observations": 6,
+  "wikipedia_url": null,
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59496529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michelemenegon, some rights reserved (CC BY-NC)",
+   "obs": 37521125,
+   "place": "Arusha, TZ",
+   "date": "2020-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81925572/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mwct, some rights reserved (CC BY-NC)",
+   "obs": 51558639,
+   "place": "Loitokitok, Kenya",
+   "date": "2020-06-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37362652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nelson_crocuta, some rights reserved (CC BY-NC)",
+   "obs": 24159937,
+   "place": "Isiolo County, Kenya",
+   "date": "2017-11-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37362665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nelson_crocuta, some rights reserved (CC BY-NC)",
+   "obs": 24159939,
+   "place": "Isiolo County, Kenya",
+   "date": "2017-11-15"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59496529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) michelemenegon, some rights reserved (CC BY-NC), uploaded by michelemenegon",
+   "photo": 59496529
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37362665/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nelson_crocuta, some rights reserved (CC BY-NC), uploaded by nelson_crocuta",
+   "photo": 37362665
+  }
+ ]
+}

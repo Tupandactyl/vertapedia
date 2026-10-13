@@ -1,0 +1,59 @@
+{
+ "sci": "Geophis cancellatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30035,
+  "name": "Geophis cancellatus",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_cancellatus",
+  "common": "Chiapas Earth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105499201/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 65536439,
+   "place": "Huixtla, Chiapas, Mexico",
+   "date": "2013-08-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/307204326/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA)",
+   "obs": 176686651,
+   "place": "San Rafael Pie de la Cuesta, Guatemala",
+   "date": "2023-07-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329266989/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) FINCA VILLA ALICIA, some rights reserved (CC BY-NC)",
+   "obs": 188175421,
+   "place": "San Rafael Pie de la Cuesta San Rafael Pie de la Cuesta. San Marcos. Guatemala. C.A, San Rafael Pie de la Cuesta, Guatemala",
+   "date": "2023-10-19"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis cancellatus",
+  "url": "https://en.wikipedia.org/wiki/Geophis_cancellatus",
+  "revision": 1366451251,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis cancellatus, also known as the Chiapas earth snake, is a snake of the colubrid family. It is endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105499304/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Chris Gruenwald Herp.mx, некоторые права защищены (CC BY-NC), загрузил Chris Gruenwald Herp.mx",
+   "photo": 105499304
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "sci": "Rhinophis lineatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 111719,
+  "name": "Rhinophis lineatus",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rhinophis_lineatus",
+  "common": "Striped Rhinophis"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233526908/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC)",
+   "obs": 136796905,
+   "place": "Harasbedda, Sri Lanka",
+   "date": "2022-09-14"
+  }
+ ],
+ "wiki": {
+  "title": "Rhinophis lineatus",
+  "url": "https://en.wikipedia.org/wiki/Rhinophis_lineatus",
+  "revision": 1370204660,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhinophis lineatus, or striped earth snake or striped rhinophis, is a recently described fossorial species of snake in the family Uropeltidae. It is endemic to Sri Lanka and only known from its type locality, Harasbedda near Ragala, Central Province."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Males measure 218–285 mm (8.6–11.2 in) and females, based on only two specimens, 262–286 mm (10.3–11.3 in) total length, including a short tail (5–9 mm (0.20–0.35 in), although one of the unsexed specimens had tail as long as 13 mm (0.51 in)). The head is small with pointed snout. The body is subcylindrical to slightly dorsoventrally compressed. Ventral scales number 180–195. There are regular, narrow, longitudinal pale/dark stripes around and along almost the entire body. The colouration of live specimens is known from a photograph, showing orange-brown background body colour and dark longitudinal stripes, though in another reproduction of the same the photograph background body colour appears a paler and less reddish brown."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The type locality is the wet zone of the central hills of Sri Lanka at an elevations of 1,460 m (4,790 ft) above sea level. All known specimens are believed to have been collected from soils in agricultural habitats."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233526908/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 233526908
+  }
+ ]
+}

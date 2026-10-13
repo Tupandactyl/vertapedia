@@ -1,0 +1,78 @@
+{
+ "sci": "Atractaspis corpulenta",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116500,
+  "name": "Atractaspis corpulenta",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Atractaspis_corpulenta",
+  "common": "Fat Burrowing Asp"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182966885/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 108646135,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2013-11-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/640671223/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 351101417,
+   "place": "2FG8+5Q Beka Beka, Gabon",
+   "date": "2022-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424774984/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 238581404,
+   "place": "Mpassa, Gabon",
+   "date": "2022-10-04"
+  }
+ ],
+ "wiki": {
+  "title": "Atractaspis corpulenta",
+  "url": "https://en.wikipedia.org/wiki/Atractaspis_corpulenta",
+  "revision": 1370200451,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractaspis corpulenta, or the fat burrowing asp, is a species of snake in the Atractaspididae family. It is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Blackish brown above and below; tail sometimes white. Snout strongly projecting, cuneiform. Rostral large, upper portion as long as its distance from the frontal. Dorsal scales in 23, 25, or 27 rows. Ventrals 178–193; anal entire; subcaudals 23–27, all entire or only a few divided. Total length 34.5 cm (13+1⁄2 in); tail 33 mm (1+1⁄4 in)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182966885/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182966885
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182966999/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182966999
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182966980/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182966980
+  }
+ ]
+}

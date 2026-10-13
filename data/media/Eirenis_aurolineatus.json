@@ -1,0 +1,49 @@
+{
+ "sci": "Eirenis aurolineatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30314,
+  "name": "Eirenis aurolineatus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eirenis_aurolineatus",
+  "common": "Golden-striped Dwarf Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177465601/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 105729963,
+   "place": null,
+   "date": "2012-05-21"
+  }
+ ],
+ "wiki": {
+  "title": "Eirenis aurolineatus",
+  "url": "https://en.wikipedia.org/wiki/Eirenis_aurolineatus",
+  "revision": 1355163780,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Eirenis aurolineatus is a species of  non-venomous snake in the family Colubridae. The species is found in Turkey."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177471653/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 177471653
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177465601/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 177465601
+  }
+ ]
+}

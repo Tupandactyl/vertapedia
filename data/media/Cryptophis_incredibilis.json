@@ -1,0 +1,64 @@
+{
+ "sci": "Cryptophis incredibilis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 318661,
+  "name": "Cryptophis incredibilis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptophis_incredibilis",
+  "common": "Pink Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481677241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jakobbruce, some rights reserved (CC BY-NC)",
+   "obs": 267998056,
+   "place": "Muralug Island / Prince Of Wales Island, Prince of Wales, QLD, AU",
+   "date": "2025-03-28"
+  }
+ ],
+ "wiki": {
+  "title": "Cryptophis incredibilis",
+  "url": "https://en.wikipedia.org/wiki/Cryptophis_incredibilis",
+  "revision": 1314488368,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cryptophis incredibilis, also known as the pink snake, is a species of venomous snake that is endemic to Australia. The specific epithet incredibilis (\"incredible\") is presumed to refer to its unusual colouration."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The upper body of the snake is a uniform pink, with a white belly. It is a slender snake which grows to an average of about 40 cm in length."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "The snake is viviparous."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The species' distribution is limited to Prince of Wales Island, in Torres Strait, in the far north of Queensland, where it inhabits woodland on sandy soils."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481677241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jakobbruce, some rights reserved (CC BY-NC)",
+   "photo": 481677241
+  }
+ ]
+}

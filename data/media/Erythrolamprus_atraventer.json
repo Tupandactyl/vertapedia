@@ -1,0 +1,93 @@
+{
+ "sci": "Erythrolamprus atraventer",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539673,
+  "name": "Erythrolamprus atraventer",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dixon's_ground_snake",
+  "common": "Dixon's Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469229095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261207180,
+   "place": "São Paulo, BR",
+   "date": "2025-01-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178253118/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC)",
+   "obs": 106143031,
+   "place": "Serra do Mar, BR-SP, BR",
+   "date": "2011-11-01"
+  }
+ ],
+ "wiki": {
+  "title": "Dixon's ground snake",
+  "url": "https://en.wikipedia.org/wiki/Dixon%27s_ground_snake",
+  "revision": 1354649933,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dixon's ground snake (Erythrolamprus atraventer) is a species of snake in the family Colubridae. The species is endemic to Southeastern Brazil."
+    ]
+   },
+   {
+    "h": "Classification",
+    "level": 2,
+    "paras": [
+     "Erythrolamprus atraventer belongs to the genus Erythrolamprus, which contains over 50 species. The genus Erythrolamprus belongs to the subfamily Dipsadinae, which is sometimes referred to as the family Dipsadidae. The relationships of Erythrolamprus species located in northern South America can be shown in the cladogram below, based on molecular DNA analysis:"
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "E. atraventer is found in the Brazilian states of Rio de Janeiro and São Paulo."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "E. atraventer occurs in the upland areas of the Atlantic Forest, forest edges, in wet areas, and in both forested and open areas. It is terrestrial and diurnal."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The holotype, a male, measures 505 mm (19.9 in) in total length, which includes 108 mm (4.3 in) tail. Female topotypes had relatively shorter tails. The belly is black, as indicated by its specific name (from Latin atra (=black) and venter (=belly)). Later studies indicate a maximum length of 800 mm (31 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "E. atraventer is oviparous."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The IUCN did not identify any overt threats affecting E. atraventer, and lists the species as \"Least Concern\". It is locally common, e.g., in the Serra do Mar State Park."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178253118/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Aurelio de Sena, some rights reserved (CC BY-NC), uploaded by Marco Aurelio de Sena",
+   "photo": 178253118
+  }
+ ]
+}

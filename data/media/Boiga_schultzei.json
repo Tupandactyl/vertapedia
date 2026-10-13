@@ -1,0 +1,97 @@
+{
+ "sci": "Boiga schultzei",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 73704,
+  "name": "Boiga schultzei",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_schultzei",
+  "common": "White-spotted Cat Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597722625/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kase, some rights reserved (CC BY-NC)",
+   "obs": 329715328,
+   "place": "Palawan, PH",
+   "date": "2025-11-15"
+  }
+ ],
+ "wiki": {
+  "title": "Boiga schultzei",
+  "url": "https://en.wikipedia.org/wiki/Boiga_schultzei",
+  "revision": 1355106122,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Boiga schultzei, commonly known as the Schultze's blunt-headed tree snake, is a species of snake in the family Colubridae. The species is endemic to the Philippines."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schultzei, is in honor of Willie Schultze in whose private collection E.H. Taylor found the specimen which would become the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "B. schultzei is found on the island of Palawan, Philippines."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of B. schultzei is forest, at altitudes from sea level to 200 m (660 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "B. schultzei may attain a snout-to-vent length (SVL) of 1.04 m (3.4 ft), plus a tail 0.37 m (1.2 ft) long."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "B. schultzei preys upon lizards, such as the gecko Gehyra mutilata."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "B. schultzei is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38050466/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Brown, some rights reserved (CC BY)",
+   "photo": 38050466
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38050467/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Brown, some rights reserved (CC BY)",
+   "photo": 38050467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38050468/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Thomas Brown, some rights reserved (CC BY)",
+   "photo": 38050468
+  }
+ ]
+}

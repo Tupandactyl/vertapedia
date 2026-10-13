@@ -1,0 +1,104 @@
+{
+ "sci": "Atractaspis boulengeri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116497,
+  "name": "Atractaspis boulengeri",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Atractaspis_boulengeri",
+  "common": "Boulenger's Burrowing Asp"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182963945/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 108644366,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2012-10-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250821197/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Tony King, some rights reserved (CC BY)",
+   "obs": 145955343,
+   "place": "Lesio-Louna Reserve - Iboubikro, Republic of the Congo",
+   "date": "2006-04-15"
+  }
+ ],
+ "wiki": {
+  "title": "Atractaspis boulengeri",
+  "url": "https://en.wikipedia.org/wiki/Atractaspis_boulengeri",
+  "revision": 1374827085,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractaspis boulengeri, also known commonly as Boulenger's mole viper, the Central African burrowing asp, and simply the mole viper, is a species of venomous snake in the subfamily Atractaspidinae of the family Lamprophiidae. The species is endemic to Africa. There are six recognized subspecies."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "A. boulengeri is found in Angola, Cameroon, Central African Republic, Republic of the Congo, Democratic Republic of the Congo, and Gabon."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of A. boulengeri are forest and freshwater wetlands, at altitudes of 10–1,000 m (33–3,281 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "A. boulengeri is oviparous."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "The following six subspecies, including the nominotypical subspecies, are recognized as being valid.",
+     "Atractaspis boulengeri boulengeri Mocquard, 1897",
+     "Atractaspis boulengeri matschiensis F. Werner, 1897",
+     "Atractaspis boulengeri mixta Laurent, 1945",
+     "Atractaspis boulengeri schmidti Laurent, 1945",
+     "Atractaspis boulengeri schultzei Sternfeld, 1917",
+     "Atractaspis boulengeri vanderborghti Laurent, 1956"
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific epithet, boulengeri, is in honor of Belgian-British herpetologist George Albert Boulenger."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182963945/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182963945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182963963/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182963963
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182963955/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182963955
+  }
+ ]
+}

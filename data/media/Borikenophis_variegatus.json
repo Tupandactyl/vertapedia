@@ -1,0 +1,49 @@
+{
+ "sci": "Borikenophis variegatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30122,
+  "name": "Borikenophis variegatus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Borikenophis_variegatus",
+  "common": "Mona Island Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20300851/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilfredo Falcon, some rights reserved (CC BY-NC)",
+   "obs": 13768944,
+   "place": null,
+   "date": "2018-05-30"
+  }
+ ],
+ "wiki": {
+  "title": "Borikenophis variegatus",
+  "url": "https://en.wikipedia.org/wiki/Borikenophis_variegatus",
+  "revision": 1376370976,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The  Mona racer (Borikenophis variegatus) is a species of snake in the family Colubridae that is endemic to Isla de Mona in Puerto Rico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20300888/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilfredo Falcon, some rights reserved (CC BY-NC), uploaded by Wilfredo Falcon",
+   "photo": 20300888
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20300851/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wilfredo Falcon, some rights reserved (CC BY-NC), uploaded by Wilfredo Falcon",
+   "photo": 20300851
+  }
+ ]
+}

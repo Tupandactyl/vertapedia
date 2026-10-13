@@ -1,0 +1,91 @@
+{
+ "sci": "Fowlea sanctijohannis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 966801,
+  "name": "Fowlea sanctijohannis",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/St._John's_keelback",
+  "common": "St. John's Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445269912/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jignasu Dolia, some rights reserved (CC BY-NC)",
+   "obs": 249123000,
+   "place": "Uttarakhand, IN",
+   "date": "2008-11-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255469834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC)",
+   "obs": 148364670,
+   "place": "9G4H+9XQ, Sattal Rd, Sattal, Uttarakhand 263136, India",
+   "date": "2014-09-14"
+  }
+ ],
+ "wiki": {
+  "title": "St. John's keelback",
+  "url": "https://en.wikipedia.org/wiki/St._John%27s_keelback",
+  "revision": 1354925091,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "St. John's keelback (Fowlea sanctijohannis) is a species of snake in the subfamily Natricinae of the family Colubridae. The species is endemic to Asia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, sanctijohannis, is in honor of British naturalist Oliver Beauchamp Coventry St. John."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "F. sanctijohannis is found in Bhutan, northern India (Himachal Pradesh, Jammu and Kashmir), northern Myanmar, Nepal, and Pakistan."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of F. sanctijohannis is freshwater wetlands, at altitudes of 960–2,200 m (3,150–7,220 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "F. sanctijohannis is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445269912/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jignasu Dolia, some rights reserved (CC BY-NC), uploaded by Jignasu Dolia",
+   "photo": 445269912
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255469840/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 255469840
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255469834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonathan Hakim, some rights reserved (CC BY-NC), uploaded by Jonathan Hakim",
+   "photo": 255469834
+  }
+ ]
+}

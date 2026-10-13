@@ -1,0 +1,101 @@
+{
+ "sci": "Micrurus stewarti",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30510,
+  "name": "Micrurus stewarti",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Micrurus_stewarti",
+  "common": "Panamenian Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101143878/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angel Sosa Bartuano, some rights reserved (CC BY-NC)",
+   "obs": 63060827,
+   "place": "Altos de Campana, PA-PN-CA, PA-PO, PA",
+   "date": "2019-01-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60414167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Roy, some rights reserved (CC BY-NC)",
+   "obs": 38048572,
+   "place": "Cocobolo Nature Reserve",
+   "date": "2020-01-27"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus stewarti",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_stewarti",
+  "revision": 1371246939,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus stewarti, also known commonly as the Panamanian coral snake, the Panamenian coral snake, and coral panameña in New World Spanish, is a species of venomous snake in the family Elapidae. The species is endemic to Panama."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, stewarti, is in honor of Thomas H. Stewart Jr., United States Army Medical Corps, who collected the holotype.",
+     "The specific name of the synonym, schmidti, is in honor of American herpetoogist Karl Patterson Schmidt, who had a special interest in coral snakes."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Micrurus stewarti is medium-sized for its genus. Adults usually have a total length (tail included) of 50–70 cm (20–28 in). The maximum recorded total length is 83 cm (33 in).",
+     "M. stewarti is a bi-colored New World coral snake. Its color pattern consists of only red and black rings. There are no yellow or white rings present. The black rings are usually unequal in width, alternating wider and narrower. The red rings are 2–4 dorsals and 3–6 ventrals wide. The wider black rings are 8–14 dorsals and 7–12 ventrals wide, and the narrower black rings are 5–11 dorsals wide. There are 13–25 black rings on the body.",
+     "Males have 200–207 ventrals and 50–55 subcaudals, and have supraanal tubercles. Females have 224–228 ventrals and 36–40 subcaudals, and have small supraanal tubercles or weak keels."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Micrurus stewarti, is forest, at elevations of 20–850 m (66–2,789 ft)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Micrurus stewarti is terrestrial and semi-fossorial."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Micrurus stewarti is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101143891/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Angel Sosa Bartuano, some rights reserved (CC BY-NC), uploaded by Angel Sosa Bartuano",
+   "photo": 101143891
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60414169/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Roy, some rights reserved (CC BY-NC), uploaded by Michael Roy",
+   "photo": 60414169
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60414167/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michael Roy, some rights reserved (CC BY-NC), uploaded by Michael Roy",
+   "photo": 60414167
+  }
+ ]
+}

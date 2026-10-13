@@ -1,0 +1,59 @@
+{
+ "sci": "Hydrophis zweifeli",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 200400,
+  "name": "Hydrophis zweifeli",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrophis_zweifeli",
+  "common": "Australian Beaked Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581921095/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC)",
+   "obs": 321747755,
+   "place": "Pine River Bay, Mission River, QLD, AU",
+   "date": "2025-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528400924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC)",
+   "obs": 293579699,
+   "place": "Albatross Bay, Mission River, QLD, AU",
+   "date": "2025-06-28"
+  }
+ ],
+ "wiki": {
+  "title": "Hydrophis zweifeli",
+  "url": "https://en.wikipedia.org/wiki/Hydrophis_zweifeli",
+  "revision": 1314564445,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydrophis zweifeli is a species of snakes found from New Guinea to Australia (Northern Territory and Queensland). In the past they were thought to be Hydrophis schistosus, but after DNA testing are now provisionally identified as Hydrophis zweifeli. DNA test have shown they are not related to Hydrophis schistosus.",
+     "Hydrophis zweifeli are commonly known as the Sepik beaked sea snake or Zweifel's beaked sea snake.  Hydrophis zweifeli is a highly venomous species of sea snake.",
+     "Studied Hydrophis zweifeli have been near the mouth of Sepik River of  New Guinea."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/372586561/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) cnzdenek, some rights reserved (CC BY-NC), uploaded by cnzdenek",
+   "photo": 372586561
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528400924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 528400924
+  }
+ ]
+}

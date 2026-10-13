@@ -1,0 +1,108 @@
+{
+ "sci": "Bamanophis dorri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27131,
+  "name": "Bamanophis dorri",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bamanophis",
+  "common": "Dorr's Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665138/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC)",
+   "obs": 522292,
+   "place": "Pics de Sindou",
+   "date": "2009-02-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411713332/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marat Makenov, some rights reserved (CC BY-NC)",
+   "obs": 231783797,
+   "place": "Префектюр де Туге, Гвинея",
+   "date": "2024-07-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452203145/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mikeadams_13, some rights reserved (CC BY-NC)",
+   "obs": 252592930,
+   "place": "Kéniéba, Kéniéba, Kayes, ML",
+   "date": "2024-11-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25404364/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mattia Menchetti, some rights reserved (CC BY)",
+   "obs": 16822801,
+   "place": "Boucle de la Pendjari, BJ-AK-TA, BJ-AK, BJ",
+   "date": "2018-09-18"
+  }
+ ],
+ "wiki": {
+  "title": "Bamanophis",
+  "url": "https://en.wikipedia.org/wiki/Bamanophis",
+  "revision": 1376706001,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bamanophis is a genus of snake in the family Colubridae. The genus contains the sole species Bamanophis dorri, which is native to West Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, dorri,  is in honor of French military officer Emile Dorr (1857–1907), who collected the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "B. dorri is found in northern Benin, Burkina Faso, northern Ghana, Guinea, Mali, Mauritania, Senegal, and northern Togo."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of B. dorri is rocky areas in savanna."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsally, B. dorri is gray or reddish, with a series of X-shaped dark spots. Ventrally, it is yellowish white. Adults may attain a total length (including tail) of 73.5 cm (28.9 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "B. dorri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665138/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 665138
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665137/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "photo": 665137
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "sci": "Atractus pamplonensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27815,
+  "name": "Atractus pamplonensis",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_pamplonensis",
+  "common": "Pamplona Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631394518/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Chacon Arias, some rights reserved (CC BY-NC)",
+   "obs": 346382138,
+   "place": "98QX+3R, Pamplona, Norte de Santander, Colombia",
+   "date": "2026-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568200/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arley O. Gallardo, some rights reserved (CC BY-NC)",
+   "obs": 450584,
+   "place": "Toledo, Norte de Santander",
+   "date": "2013-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus pamplonensis",
+  "url": "https://en.wikipedia.org/wiki/Atractus_pamplonensis",
+  "revision": 1329570531,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus pamplonensis, the Pamplona ground snake, is a species of snake in the family Colubridae. The species can be found in Colombia and Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568214/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arley O. Gallardo, some rights reserved (CC BY-NC), uploaded by Arley O. Gallardo",
+   "photo": 568214
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568213/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arley O. Gallardo, some rights reserved (CC BY-NC), uploaded by Arley O. Gallardo",
+   "photo": 568213
+  }
+ ]
+}

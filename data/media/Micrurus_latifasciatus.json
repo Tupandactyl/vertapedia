@@ -1,0 +1,94 @@
+{
+ "sci": "Micrurus latifasciatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30554,
+  "name": "Micrurus latifasciatus",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Micrurus_latifasciatus",
+  "common": "Broad-ringed Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345244310/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Silvino de Jesús López Hernández, some rights reserved (CC BY-NC)",
+   "obs": 196142881,
+   "place": "Tuzantán, Chis., México",
+   "date": "2023-10-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120547940/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel angel Ramos Vazquez, some rights reserved (CC BY-NC)",
+   "obs": 73806462,
+   "place": "1ra, 70175 San Francisco Ixhuatán, Oax., México",
+   "date": "2020-11-20"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus latifasciatus",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_latifasciatus",
+  "revision": 1363627192,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus latifasciatus, also known commonly as the long-banded coral snake, the broad-ringed coral snake, and el coralillo de bandas largas in local Spanish, is a species of venomous snake in the family Elapidae. The species is native to southern Mexico and Guatemala. There are no recognized subspecies."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Micrurus latifasciatus is a medium to large species of coral snake. Adults usually have a total length of 60–90 cm (24–35 in). The maximum recorded total length is 114 cm (45 in).",
+     "The color pattern of M. latifasciatus consists of a combination of red, black, and yellow (or white) rings. The red rings are very wide, 15–35 dorsal scales. The black rings are 4–9 dorsal scales wide, and are not arranged in triads. The yellow (or white) rings are 1–4 dorsal scales wide."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Micrurus latifasciatus is found in southeastern Oaxaca and Chiapas, Mexico, and southwestern Guatemala."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Micrurus latifasciatus is forest, at elevations of 300–1,280 m (980–4,200 ft)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Micrurus latifasciatus is terrestrial."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Micrurus latifasciatus preys upon caecilians, including Dermophis mexicanus, and colubrid snakes, including Adelphicos quadrivirgatum, Geophis nasalis, and Ninia sebae."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Micrurus latifasciatus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120547940/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Miguel angel Ramos Vazquez, some rights reserved (CC BY-NC), uploaded by Miguel angel Ramos Vazquez",
+   "photo": 120547940
+  }
+ ]
+}

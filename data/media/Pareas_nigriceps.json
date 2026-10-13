@@ -1,0 +1,57 @@
+{
+ "sci": "Pareas nigriceps",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 108755,
+  "name": "Pareas nigriceps",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pareas_nigriceps",
+  "common": "Xiaoheishan Slug-eater Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422506232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC)",
+   "obs": 237411443,
+   "place": "中国云南省德宏傣族景颇族自治州盈江县",
+   "date": "2024-08-21"
+  }
+ ],
+ "wiki": {
+  "title": "Pareas nigriceps",
+  "url": "https://en.wikipedia.org/wiki/Pareas_nigriceps",
+  "revision": 1315097235,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pareas nigriceps, also known as the Xiaoheishan slug-eater snake, is a small, harmless snake native to Yunnan, China- particularly the Gaoligong Mountains."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "P. nigriceps is easily distinguished from others in Pareas by the large, black oval on the top of its head, as well as the two rounded black spots on each side of the head. The head spots are separated from the nuchal band."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The species name nigriceps refers to the large black spot on top of the head."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422506232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 通通, some rights reserved (CC BY-NC), uploaded by 通通",
+   "photo": 422506232
+  }
+ ]
+}

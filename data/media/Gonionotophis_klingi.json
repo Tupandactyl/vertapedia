@@ -1,0 +1,66 @@
+{
+ "sci": "Gonionotophis klingi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29999,
+  "name": "Gonionotophis klingi",
+  "observations": 6,
+  "wikipedia_url": null,
+  "common": "Matschie's African Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651346408/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 357136910,
+   "place": "3CH3+MM Koakpo, Liberia",
+   "date": "2021-10-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462723517/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 257932741,
+   "place": "Silver Hills Concession, Night 8",
+   "date": "2021-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739342067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Max Schmitt, some rights reserved (CC BY-NC)",
+   "obs": 402725388,
+   "place": "Cavally, Côte d'Ivoire",
+   "date": "2021-09-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/740300921/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Max Schmitt, some rights reserved (CC BY-NC)",
+   "obs": 403217831,
+   "place": "Cavally, Côte d'Ivoire",
+   "date": "2021-09-20"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462723565/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 462723565
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462723517/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 462723517
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462723673/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 462723673
+  }
+ ]
+}

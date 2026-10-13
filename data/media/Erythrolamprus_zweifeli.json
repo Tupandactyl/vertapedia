@@ -1,0 +1,134 @@
+{
+ "sci": "Erythrolamprus zweifeli",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539708,
+  "name": "Erythrolamprus zweifeli",
+  "observations": 39,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Erythrolamprus_zweifeli",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172180186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hukaymah Ali, some rights reserved (CC BY-NC)",
+   "obs": 102938097,
+   "place": "Trinidad, Trinidad and Tobago, TT",
+   "date": "2021-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384970855/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos E. Perez S.L., some rights reserved (CC BY-NC)",
+   "obs": 217602708,
+   "place": "Mario Briceño Iragorry, 2105, Aragua, Venezuela",
+   "date": "2024-05-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380314087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC)",
+   "obs": 215129184,
+   "place": "Sangre Grande Regional Corporation, Trinidad and Tobago",
+   "date": "2024-05-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464413425/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Gianni-Zurita, some rights reserved (CC BY-NC)",
+   "obs": 258796217,
+   "place": "Centro de Ecologia, IVIC, Altos de Pipe, municipio Los Salias, Miranda, Venezuela",
+   "date": "2025-01-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/657854166/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saifudeen Muhammad, some rights reserved (CC BY-NC)",
+   "obs": 360522681,
+   "place": "Tunapuna/Piarco Regional Corporation, Trinidad and Tobago",
+   "date": "2026-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/673654352/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Samcard, some rights reserved (CC BY-NC)",
+   "obs": 368815119,
+   "place": "88X8+R6W, El Limón 2105, Aragua, Venezuela",
+   "date": "2026-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9615687/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Durso, some rights reserved (CC BY)",
+   "obs": 7404558,
+   "place": "Asa Wright Nature Center, Arima, Trinidad and Tobago",
+   "date": "2002-07-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473983757/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) celugoa, some rights reserved (CC BY-NC)",
+   "obs": 263805732,
+   "place": "8W93+2R7, El Tigrito 1201, Miranda, Venezuela",
+   "date": "2025-03-03"
+  }
+ ],
+ "wiki": {
+  "title": "Erythrolamprus zweifeli",
+  "url": "https://en.wikipedia.org/wiki/Erythrolamprus_zweifeli",
+  "revision": 1354689626,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Erythrolamprus zweifeli, the braided ground snake or Zweifel's ground snake, is a species of snake in the family Colubridae. The species is found in Venezuela and Trinidad."
+    ]
+   },
+   {
+    "h": "Classification",
+    "level": 2,
+    "paras": [
+     "Erythrolamprus zweifeli belongs to the genus Erythrolamprus, which contains over 50 species. The genus Erythrolamprus belongs to the subfamily Dipsadinae, which is sometimes referred to as the family Dipsadidae.",
+     "Erythrolamprus zweifeli was previously considered to be a subspecies of Erythrolamprus reginae and called Erythrolamprus reginae zweifeli. However, based on notable differences in coloration and scale counts, it is now considered to be a separate species. This close relationship to Erythrolamprus reginae, as well as the relationships of Erythrolamprus species located in northern South America, can be shown in the cladogram below, based on molecular DNA analysis:"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Erythrolamprus zweifeli has either a salt-and-pepper dorsal pattern or a more uniform olive-green or olive-brown pattern, with a red or black belly. It has a black postocular stripe, and lacks apical pits in its scales."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "It lives in Venezuela and the island of Trinidad, within montane forests, often associated with stream-edges."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Erythrolamprus zweifeli likely hunts along forested stream-edges, feeding on Mannophryne stream frogs, hylid frogs, Leptodactylus validus (Windward ditch frog), salamanders, Ameiva lizards, and small birds."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172180186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hukaymah Ali, some rights reserved (CC BY-NC), uploaded by Hukaymah Ali",
+   "photo": 172180186
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9615687/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Andrew Durso, some rights reserved (CC BY), uploaded by Andrew Durso",
+   "photo": 9615687
+  }
+ ]
+}

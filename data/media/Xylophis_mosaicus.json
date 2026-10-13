@@ -1,0 +1,58 @@
+{
+ "sci": "Xylophis mosaicus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1119871,
+  "name": "Xylophis mosaicus",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xylophis_mosaicus",
+  "common": "Anamalai Wood Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96739357/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ansil B.R., some rights reserved (CC BY)",
+   "obs": 60494127,
+   "place": "Idukki, Kerala 685561, India",
+   "date": "2013-09-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/559943625/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hareesha A S, some rights reserved (CC BY-NC)",
+   "obs": 310263276,
+   "place": "Adukkam, Tamil Nadu, India",
+   "date": "2024-09-30"
+  }
+ ],
+ "wiki": {
+  "title": "Xylophis mosaicus",
+  "url": "https://en.wikipedia.org/wiki/Xylophis_mosaicus",
+  "revision": 1369500016,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xylophis mosaicus, the Anamalai wood snake, is a species of snake in the family Pareidae. The species is non-venomous and is endemic to the Western Ghats of India."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "X. mosaicus is found in the Anamalai region of the Western Ghats in the Indian states of Kerala and Tamil Nadu."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96739357/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ansil B.R., some rights reserved (CC BY), uploaded by Ansil B.R.",
+   "photo": 96739357
+  }
+ ]
+}

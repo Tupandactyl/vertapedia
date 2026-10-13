@@ -1,0 +1,64 @@
+{
+ "sci": "Typhlops schwartzi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32597,
+  "name": "Typhlops schwartzi",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Typhlops_schwartzi",
+  "common": "Schwartz' Worm Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71509781/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joshua LaPergola, some rights reserved (CC BY-NC-SA)",
+   "obs": 45104963,
+   "place": "Dominican Republic",
+   "date": "2014-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31555857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Reith, some rights reserved (CC BY-NC)",
+   "obs": 20438920,
+   "place": null,
+   "date": "2018-05-06"
+  }
+ ],
+ "wiki": {
+  "title": "Schwartz's worm snake",
+  "url": "https://en.wikipedia.org/wiki/Schwartz%27s_worm_snake",
+  "revision": 1376701717,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Schwartz's worm snake (Typhlops schwartzi) is a species of snake in the family Typhlopidae. The species is endemic to the Dominican Republic."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, schwartzi, is in honor of American herpetologist Albert Schwartz."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71509781/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Joshua LaPergola, some rights reserved (CC BY-NC-SA), uploaded by Joshua LaPergola",
+   "photo": 71509781
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31555857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Reith, some rights reserved (CC BY-NC), uploaded by Martin Reith",
+   "photo": 31555857
+  }
+ ]
+}

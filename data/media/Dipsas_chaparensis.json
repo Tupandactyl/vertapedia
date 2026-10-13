@@ -1,0 +1,43 @@
+{
+ "sci": "Dipsas chaparensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30393,
+  "name": "Dipsas chaparensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dipsas_chaparensis",
+  "common": "Chapare Snail-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60616890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC)",
+   "obs": 38165843,
+   "place": "Cotapata, BO-LP-MR, BO-LP, BO",
+   "date": "2011-02-06"
+  }
+ ],
+ "wiki": {
+  "title": "Dipsas chaparensis",
+  "url": "https://en.wikipedia.org/wiki/Dipsas_chaparensis",
+  "revision": 1179408521,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dipsas chaparensis is a non-venomous snake found in Bolivia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60616890/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryne Rutherford, some rights reserved (CC BY-NC), uploaded by Ryne Rutherford",
+   "photo": 60616890
+  }
+ ]
+}

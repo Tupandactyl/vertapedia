@@ -1,0 +1,43 @@
+{
+ "sci": "Calamaria abstrusa",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 96403,
+  "name": "Calamaria abstrusa",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Calamaria_abstrusa",
+  "common": "Padang Reed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/630539407/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brechtheusequin, some rights reserved (CC BY-NC)",
+   "obs": 345950636,
+   "place": "Sumatera Utara, ID",
+   "date": "2025-11-08"
+  }
+ ],
+ "wiki": {
+  "title": "Calamaria abstrusa",
+  "url": "https://en.wikipedia.org/wiki/Calamaria_abstrusa",
+  "revision": 1379051017,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calamaria abstrusa, the Padang reed snake, is a species of snake in the family, Colubridae. It is found in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/630539407/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brechtheusequin, some rights reserved (CC BY-NC)",
+   "photo": 630539407
+  }
+ ]
+}

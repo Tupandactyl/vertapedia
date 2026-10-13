@@ -1,0 +1,79 @@
+{
+ "sci": "Calamaria pfefferi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 68345,
+  "name": "Calamaria pfefferi",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pfeffer's_reed_snake",
+  "common": "Pfeffer's Reed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567213078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) C.B.Robin, some rights reserved (CC BY-NC)",
+   "obs": 314057954,
+   "place": "Okinawa, JP",
+   "date": "2025-03-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/741040466/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) asimov0803, some rights reserved (CC BY-NC)",
+   "obs": 403593036,
+   "place": "Okinawa, JP",
+   "date": "2026-09-20"
+  }
+ ],
+ "wiki": {
+  "title": "Pfeffer's reed snake",
+  "url": "https://en.wikipedia.org/wiki/Pfeffer%27s_reed_snake",
+  "revision": 1354936669,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pfeffer's reed snake (Calamaria pfefferi) is a species of dwarf snake in the family Colubridae. The species is  endemic to Japan."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, pfefferi, is in honor of German zoologist Georg Johann Pfeffer."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. pfefferi is found on Miyako-jima and Irabu-jima in the Ryukyu Islands of Japan."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitats of C. pfefferi are grassland and forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. pfefferi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567213078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) C.B.Robin, some rights reserved (CC BY-NC), uploaded by C.B.Robin",
+   "photo": 567213078
+  }
+ ]
+}

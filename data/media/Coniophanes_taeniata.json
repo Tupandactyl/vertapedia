@@ -1,0 +1,59 @@
+{
+ "sci": "Coniophanes taeniata",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1119970,
+  "name": "Coniophanes taeniata",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Coniophanes_taeniata",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572544770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) keirg_, some rights reserved (CC BY-NC)",
+   "obs": 316874308,
+   "place": "Avenida Manlio Fabio Altamirano, Comapa, Ver., MX",
+   "date": "2025-04-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574927513/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ismael Jauregui Bulbarela, some rights reserved (CC BY-NC)",
+   "obs": 318128567,
+   "place": "Comapa, Ver., México",
+   "date": "2025-08-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1838525/{size}.JPG",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA)",
+   "obs": 1483087,
+   "place": "Gomez Farías, El Cielo; Tamaulipas",
+   "date": "2014-08-09"
+  }
+ ],
+ "wiki": {
+  "title": "Coniophanes taeniata",
+  "url": "https://en.wikipedia.org/wiki/Coniophanes_taeniata",
+  "revision": 1355159037,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Coniophanes taeniata, Cope's black-striped snake, is a species of snake in the family Colubridae. The species is native to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1838525/{size}.JPG",
+   "license": "cc-by-sa",
+   "attribution": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+   "photo": 1838525
+  }
+ ]
+}

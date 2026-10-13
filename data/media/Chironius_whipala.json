@@ -1,0 +1,38 @@
+{
+ "sci": "Chironius whipala",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1652266,
+  "name": "Chironius whipala",
+  "observations": 2,
+  "wikipedia_url": null,
+  "common": "Whipala Sipo"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653903090/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lev Frid, some rights reserved (CC BY-NC)",
+   "obs": 358450579,
+   "place": "CU-113, Cuzco, PE",
+   "date": "2026-05-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239345580/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 139884114,
+   "place": "Manu Road 1550m elevation, Peru",
+   "date": "2022-10-02"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653903090/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lev Frid, some rights reserved (CC BY-NC), uploaded by Lev Frid",
+   "photo": 653903090
+  }
+ ]
+}

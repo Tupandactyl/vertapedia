@@ -1,0 +1,43 @@
+{
+ "sci": "Demansia flagellatio",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 99175,
+  "name": "Demansia flagellatio",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Long-tailed_whipsnake",
+  "common": "Carpentarian Whipsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21487681/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rene, some rights reserved (CC BY-NC)",
+   "obs": 14438521,
+   "place": "Lawn Hill QLD 4825, Australia",
+   "date": "2018-07-14"
+  }
+ ],
+ "wiki": {
+  "title": "Long-tailed whipsnake",
+  "url": "https://en.wikipedia.org/wiki/Long-tailed_whipsnake",
+  "revision": 1377275178,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The long-tailed whip snake (Demansia flagellatio), also known as the Carpentarian whipsnake, is a species of venomous snake in the family Elapidae."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21487681/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rene, some rights reserved (CC BY-NC), uploaded by Rene",
+   "photo": 21487681
+  }
+ ]
+}

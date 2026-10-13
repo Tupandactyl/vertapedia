@@ -1,0 +1,66 @@
+{
+ "sci": "Lycodryas cococola",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 200407,
+  "name": "Lycodryas cococola",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lycodryas_cococola",
+  "common": "Western Comoran Tree Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75995232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank-Roland Fließ, some rights reserved (CC BY-NC)",
+   "obs": 47908426,
+   "place": "Ivoini, Komoren",
+   "date": "2020-02-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258930450/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA)",
+   "obs": 150192471,
+   "place": "Grande Comore, Comoros, KM",
+   "date": "2023-03-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258930354/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Ewout Knoester, some rights reserved (CC BY-SA)",
+   "obs": 150192404,
+   "place": "Grande Comore, Comoros, KM",
+   "date": "2023-03-02"
+  }
+ ],
+ "wiki": {
+  "title": "Lycodryas cococola",
+  "url": "https://en.wikipedia.org/wiki/Lycodryas_cococola",
+  "revision": 1377213828,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lycodryas cococola is a species of snakes of the family Pseudoxyrhophiidae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Harmless to humans, the snake is found in Comoros."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75995232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frank-Roland Fließ, some rights reserved (CC BY-NC), uploaded by Frank-Roland Fließ",
+   "photo": 75995232
+  }
+ ]
+}

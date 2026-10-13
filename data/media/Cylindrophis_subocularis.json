@@ -1,0 +1,44 @@
+{
+ "sci": "Cylindrophis subocularis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539535,
+  "name": "Cylindrophis subocularis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cylindrophis_subocularis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260283275/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M Nur Yahya, some rights reserved (CC BY-NC)",
+   "obs": 150899070,
+   "place": "Jawa Tengah, ID",
+   "date": "2018-04-29"
+  }
+ ],
+ "wiki": {
+  "title": "Cylindrophis subocularis",
+  "url": "https://en.wikipedia.org/wiki/Cylindrophis_subocularis",
+  "revision": 1355389570,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Cylindrophis subocularis is a species of snake of the family Cylindrophiidae.",
+     "The snake is found in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260283275/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M Nur Yahya, some rights reserved (CC BY-NC), uploaded by M Nur Yahya",
+   "photo": 260283275
+  }
+ ]
+}

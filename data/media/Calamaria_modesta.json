@@ -1,0 +1,73 @@
+{
+ "sci": "Calamaria modesta",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 96419,
+  "name": "Calamaria modesta",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Calamaria_modesta",
+  "common": "Yellow-spotted Reed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38101525/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC)",
+   "obs": 24641094,
+   "place": "Jalan Raya Puncak, Tugu Selatan, Cisarua, Tugu Sel., Cisarua, Bogor, Jawa Barat 16750, Indonesien",
+   "date": "2019-05-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56992833/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fajar Kaprawi, some rights reserved (CC BY-NC)",
+   "obs": 36083130,
+   "place": "Unnamed Road, Patengan, Kec. Rancabali, Bandung, Jawa Barat 40973, Indonesia",
+   "date": "2019-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596664305/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfiah Maula SB, some rights reserved (CC BY-NC)",
+   "obs": 329189633,
+   "place": "Kabupaten Brebes, Jawa Tengah, Indonesia",
+   "date": "2025-11-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33070816/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fhadlikennedi, some rights reserved (CC BY-NC)",
+   "obs": 21379335,
+   "place": null,
+   "date": "2019-03-14"
+  }
+ ],
+ "wiki": {
+  "title": "Calamaria modesta",
+  "url": "https://en.wikipedia.org/wiki/Calamaria_modesta",
+  "revision": 1379089258,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calamaria modesta is a dwarf snake species in the genus Calamaria found in Java."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56992833/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fajar Kaprawi, some rights reserved (CC BY-NC), uploaded by Fajar Kaprawi",
+   "photo": 56992833
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33070816/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fhadlikennedi, some rights reserved (CC BY-NC), uploaded by fhadlikennedi",
+   "photo": 33070816
+  }
+ ]
+}

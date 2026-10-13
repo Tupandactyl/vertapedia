@@ -1,0 +1,49 @@
+{
+ "sci": "Dendrelaphis flavescens",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 146079,
+  "name": "Dendrelaphis flavescens",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dendrelaphis_flavescens",
+  "common": "Sulu bronzeback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305534538/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fauriza Saddari, some rights reserved (CC BY-NC)",
+   "obs": 175788419,
+   "place": "Lakit Lakit ,Bongao ,Tawi-Tawi",
+   "date": "2023-07-10"
+  }
+ ],
+ "wiki": {
+  "title": "Dendrelaphis flavescens",
+  "url": "https://en.wikipedia.org/wiki/Dendrelaphis_flavescens",
+  "revision": 1374512310,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dendrelaphis flavescens, the Sulu bronzeback, is a species of snake in the family Colubridae. The species is found in the Philippines."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305534538/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fauriza Saddari, some rights reserved (CC BY-NC), uploaded by Fauriza Saddari",
+   "photo": 305534538
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305534582/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fauriza Saddari, some rights reserved (CC BY-NC), uploaded by Fauriza Saddari",
+   "photo": 305534582
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "sci": "Rhinophis gunasekarai",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1129106,
+  "name": "Rhinophis gunasekarai",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhinophis_gunasekarai",
+  "common": "Matale Shieldtail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233517096/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC)",
+   "obs": 136791451,
+   "place": "Matale, Sri Lanka",
+   "date": "2022-09-22"
+  }
+ ],
+ "wiki": {
+  "title": "Rhinophis gunasekarai",
+  "url": "https://en.wikipedia.org/wiki/Rhinophis_gunasekarai",
+  "revision": 1377442912,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhinophis gunasekarai, also known commonly as Gunasekara's shield-tail snake, is a species of snake in the family Uropeltidae. The species is endemic to Sri Lanka, where it was discovered in the Matale District, Central Province. It was first described in 2020 by Sri Lankan herpetologist, Mendis Wickramasinghe."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "R. gunasekarai is easily distinguished from other shieldtails by having a smaller and less protuberant tail shield."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233517096/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC), uploaded by Sanjaya Kanishka",
+   "photo": 233517096
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "sci": "Anguiculus rappii",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1639344,
+  "name": "Anguiculus rappii",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Himalayan Stripe-necked Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200406220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jigme Tshelthrim Wangyal, some rights reserved (CC BY-NC)",
+   "obs": 118602494,
+   "place": "Wangdue Phodrang, Bhutan",
+   "date": "2016-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193174346/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jigme Tshelthrim Wangyal, some rights reserved (CC BY-NC)",
+   "obs": 114394770,
+   "place": "Tsirang, Bhutan",
+   "date": "2022-04-04"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200406220/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jigme Tshelthrim Wangyal, some rights reserved (CC BY-NC), uploaded by Jigme Tshelthrim Wangyal",
+   "photo": 200406220
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193174346/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jigme Tshelthrim Wangyal, some rights reserved (CC BY-NC), uploaded by Jigme Tshelthrim Wangyal",
+   "photo": 193174346
+  }
+ ]
+}

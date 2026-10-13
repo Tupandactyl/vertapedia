@@ -1,0 +1,63 @@
+{
+ "sci": "Tropidophis canus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32336,
+  "name": "Tropidophis canus",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bahamian_pygmy_boa_constrictor",
+  "common": "Bahama Wood Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52443846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Griffing, some rights reserved (CC BY-NC)",
+   "obs": 33393794,
+   "place": null,
+   "date": "2015-07-20"
+  }
+ ],
+ "wiki": {
+  "title": "Bahamian pygmy boa constrictor",
+  "url": "https://en.wikipedia.org/wiki/Bahamian_pygmy_boa_constrictor",
+  "revision": 1370452560,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Bahamian pygmy boa constrictor (Tropidophis canus), also known as the Inagua trope or Bahama wood snake, is a species of nonvenomous snake in the family Tropidophiidae. The species is endemic to Great Inagua Island in the Bahamas."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Like all species of pygmy boas the Bahamian pygmy boa is a rather small snake averaging between 30 cm (12 in) and 60 cm (24 in) in total length. The snake has the ability to change color through the movement of its dark pigment granules.  Depending on the time of the day, a light or dark color may provide better camouflage. The Bahamian pygmy boa has a yellow-orange tail tip, which is likely used to lure unsuspecting prey."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "The Bahamian pygmy boa is mostly inactive during daytime hours, usually coming out at night. Most dwarf boas are terrestrial, meaning they live and breathe on earth, and rest underground or in vegetation. A few have adapted to being arboreal. Young boas live in trees and shrubs and feed mostly on anole lizards. Adult boas feed on frogs, birds and rats. If threatened, the snake has been observed to coil up into a tight ball similar to that of a ball python. On Andros Island the species is known as the \"shame snake\" because of this defensive tactic. It also has the ability to voluntarily bleed from its eyes, mouth, and nostrils."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52443846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Griffing, some rights reserved (CC BY-NC), uploaded by Aaron Griffing",
+   "photo": 52443846
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75978216/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) ryanpotts, some rights reserved (CC BY-SA)",
+   "photo": 75978216
+  }
+ ]
+}

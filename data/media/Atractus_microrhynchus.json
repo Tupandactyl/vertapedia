@@ -1,0 +1,71 @@
+{
+ "sci": "Atractus microrhynchus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27861,
+  "name": "Atractus microrhynchus",
+  "observations": 18,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_microrhynchus",
+  "common": "Short-nosed Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149744887/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC)",
+   "obs": 90596036,
+   "place": "Ecuador",
+   "date": "2021-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288093315/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mywildbackyard, some rights reserved (CC BY-NC)",
+   "obs": 166365446,
+   "place": "Guayas, EC",
+   "date": "2023-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463149863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC)",
+   "obs": 258166515,
+   "place": "Ecuador",
+   "date": "2021-08-03"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus microrhynchus",
+  "url": "https://en.wikipedia.org/wiki/Atractus_microrhynchus",
+  "revision": 1329570430,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus microrhynchus is a species of snake in the family Colubridae. The species can be found in Ecuador and Peru. It was described in 1868 by Edward Drinker Cope, an American zoologist."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469426455/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Unknown author, some rights reserved (CC BY)",
+   "photo": 469426455
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149744887/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 149744887
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463149863/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Weaver, some rights reserved (CC BY-NC), uploaded by David Weaver",
+   "photo": 463149863
+  }
+ ]
+}

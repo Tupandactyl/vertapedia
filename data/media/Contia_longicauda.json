@@ -1,0 +1,132 @@
+{
+ "sci": "Contia longicauda",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 98351,
+  "name": "Contia longicauda",
+  "observations": 520,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Forest_sharp-tailed_snake",
+  "common": "Forest Sharp-tailed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12881689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) TomV, some rights reserved (CC BY-NC)",
+   "obs": 9467089,
+   "place": "Mendocino County, CA, USA",
+   "date": "2017-12-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60832916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) herper47, some rights reserved (CC BY-NC)",
+   "obs": 38289939,
+   "place": "Douglas County, OR, USA",
+   "date": "1985-04-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188669431/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Maughn, some rights reserved (CC BY-NC)",
+   "obs": 111740660,
+   "place": "California, US",
+   "date": "2022-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82252872/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Maughn, some rights reserved (CC BY-NC)",
+   "obs": 51758988,
+   "place": "California, US",
+   "date": "2020-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461125414/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ryansikola, some rights reserved (CC BY-NC)",
+   "obs": 257095752,
+   "place": "California, US",
+   "date": "2019-01-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446932082/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) calfirecap, some rights reserved (CC BY-NC)",
+   "obs": 249960169,
+   "place": "Santa Cruz County, US-CA, US",
+   "date": "2024-07-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483987333/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jasmine Magallanes, some rights reserved (CC BY-NC)",
+   "obs": 269197982,
+   "place": "UC Santa Cruz, Santa Cruz, CA, US",
+   "date": "2025-04-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/640555125/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nyguy, some rights reserved (CC BY-NC)",
+   "obs": 351037923,
+   "place": "University of California, Santa Cruz, Santa Cruz, CA, US",
+   "date": "2026-04-18"
+  }
+ ],
+ "wiki": {
+  "title": "Forest sharp-tailed snake",
+  "url": "https://en.wikipedia.org/wiki/Forest_sharp-tailed_snake",
+  "revision": 1355062294,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The forest sharp-tailed snake (Contia longicaudae) is a species of snake in the family Colubridae. The species is endemic to the western coast of the United States."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. longicaudae is found in northern California and southern Oregon."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The forest sharp-tailed snake is not as widespread as its relative Contia tenuis (the sharp-tailed snake). The forest sharp-tailed snake is found in shaded wet forests along the western coast of the United States. The forest sharp-tailed snake went unnoticed for a long time due to its vast similarities to C. tenuis, the secretive nature of both species of sharp-tailed snakes, and their seasonally limited amount of activity."
+    ]
+   },
+   {
+    "h": "Identification",
+    "level": 2,
+    "paras": [
+     "The easiest way to set the two species apart is by looking at the tail length and the subcaudal scales. The forest sharp-tailed snake has a longer tail than Contia tenuis and more subcaudal scales. Specifically, the forest sharp-tailed snake has 43 to 58 subcaudal scales, whereas Contia tenuis has 24 to 42."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60623437/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC), uploaded by J.D. Willson",
+   "photo": 60623437
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60832916/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) herper47, some rights reserved (CC BY-NC)",
+   "photo": 60832916
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30905090/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) spencer_riffle, some rights reserved (CC BY-NC), uploaded by spencer_riffle",
+   "photo": 30905090
+  }
+ ]
+}

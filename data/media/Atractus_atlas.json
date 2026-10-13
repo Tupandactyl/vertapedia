@@ -1,0 +1,59 @@
+{
+ "sci": "Atractus atlas",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 738067,
+  "name": "Atractus atlas",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_atlas",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30629063/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jorgebrito, some rights reserved (CC BY-NC)",
+   "obs": 19864331,
+   "place": "Paquisha, Ecuador",
+   "date": "2011-07-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368926746/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nolan Exe, some rights reserved (CC BY)",
+   "obs": 208521257,
+   "place": "Ecuador",
+   "date": "2024-01-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622691337/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Salagaje, some rights reserved (CC BY-NC)",
+   "obs": 341990119,
+   "place": null,
+   "date": "2026-03-08"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus atlas",
+  "url": "https://en.wikipedia.org/wiki/Atractus_atlas",
+  "revision": 1375989493,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus atlas, the atlas ground snake, is a species of snake in the family Colubridae. The species can be found in Ecuador. It probably eats earthworms and slugs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30629063/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jorgebrito, some rights reserved (CC BY-NC), uploaded by jorgebrito",
+   "photo": 30629063
+  }
+ ]
+}

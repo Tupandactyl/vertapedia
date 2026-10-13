@@ -1,0 +1,71 @@
+{
+ "sci": "Hydrophis donaldi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 340518,
+  "name": "Hydrophis donaldi",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_donaldi",
+  "common": "rough-scaled sea snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581907976/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC)",
+   "obs": 321741378,
+   "place": "Pine River Bay, Mission River, QLD, AU",
+   "date": "2025-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/512816935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC)",
+   "obs": 285303404,
+   "place": "Albatross Bay, Mission River, QLD, AU",
+   "date": "2025-05-30"
+  }
+ ],
+ "wiki": {
+  "title": "Hydrophis donaldi",
+  "url": "https://en.wikipedia.org/wiki/Hydrophis_donaldi",
+  "revision": 1348817624,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydrophis donaldi, or the rough-scaled sea snake is a unique species of sea snake from Australia's Gulf of Carpentaria first described in 2012. It is a yellow to brown, striped snake that reaches up to a meter in length. It gives live birth and is venomous enough to be dangerous to humans. The primary distinguishing trait of the rough-scaled sea snake is the presence of a single spine on every scale covering the snake's body. The snake's tough, spiny scales may protect it from being buffeted against the rocks of its stony estuary habitats by the action of the waves and currents. Other less spectacular traits distinguishing it from other members of the genus Hydrophis include the lack of a groove running through the scales underlying its abdomen, a larger and rounder skull, differing numbers of scales  around the circumference of different bodily regions, and a larger number of stripes than many sea snakes have."
+    ]
+   },
+   {
+    "h": "Discovery",
+    "level": 2,
+    "paras": [
+     "The 2012 formal scientific description of the rough-scaled sea snake was not published until 12 years after Bryan Fry of Queensland University originally discovered the snake in 2000. The specific epithet was chosen to honor Dave Donald, the skipper of the boat used during the expedition that discovered the snake. The scientists attributed their discovery to Donald's hard work and familiarity with the local waters of Australia's Gulf of Carpentaria. The discovery and scientific documentation of the rough-scaled sea snake was delayed by many factors. The presence of many dangerous predators like bull sharks and saltwater crocodiles makes surveying the local environment hazardous. Compounding on the danger of the predators is the presence of venomous life, like box jellyfish. In an interview with National Geographic, Fry joked that a diver in the Bay of Carpentaria has a life expectancy \"measured in minutes\".",
+     "One of the most important factors was the extreme rarity of this species. In more than a decade of local sea snake research only 9 rough-scaled sea snakes have ever been found. Meanwhile, the same researchers had encountered some 10,000 individuals of other sea snake species in the same time period. Even if a rough-scaled sea snake was nearby it would likely be difficult to see due to the low visibility of its murky habitat. The rough-scaled sea snake had managed to avoid being serendipitously discovered by local fishermen trawling for prawns the way many other sea snake species are commonly caught. This can likely be attributed to the snakes' preference for the shallow rocky waters of local estuaries that are not fished for prawns."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513184620/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 513184620
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/512816935/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 512816935
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513195185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Rethus, some rights reserved (CC BY-NC), uploaded by Gary Rethus",
+   "photo": 513195185
+  }
+ ]
+}

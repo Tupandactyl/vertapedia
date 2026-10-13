@@ -1,0 +1,73 @@
+{
+ "sci": "Geophis zeledoni",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30018,
+  "name": "Geophis zeledoni",
+  "observations": 15,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_zeledoni",
+  "common": "Dark-bellied Worm Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109052751/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruce Young, some rights reserved (CC BY-NC)",
+   "obs": 67490256,
+   "place": "126, Heredia, CR",
+   "date": "2021-01-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590122579/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emmanuel Rodríguez Rojas, some rights reserved (CC BY-NC)",
+   "obs": 325888219,
+   "place": "Provincia de Alajuela, Zarcero, Costa Rica",
+   "date": "2025-11-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/660163545/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rehnberg, some rights reserved (CC BY-NC)",
+   "obs": 361720743,
+   "place": "Calle Montecito, San Rafael, Heredia, CR",
+   "date": "2026-05-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612706681/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emmanuel Rodríguez Rojas, some rights reserved (CC BY-NC)",
+   "obs": 337089379,
+   "place": "Provincia de Alajuela, Zarcero, Costa Rica",
+   "date": "2026-01-31"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis zeledoni",
+  "url": "https://en.wikipedia.org/wiki/Geophis_zeledoni",
+  "revision": 1366450937,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis zeledoni is a snake of the colubrid family. It is endemic to Costa Rica."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257831745/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anthony Ramírez Murillo, some rights reserved (CC BY-NC), uploaded by Anthony Ramírez Murillo",
+   "photo": 257831745
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109052751/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruce Young, some rights reserved (CC BY-NC), uploaded by Bruce Young",
+   "photo": 109052751
+  }
+ ]
+}

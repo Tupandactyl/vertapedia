@@ -1,0 +1,102 @@
+{
+ "sci": "Achalinus hunanensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1499868,
+  "name": "Achalinus hunanensis",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Achalinus_hunanensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127267909/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ong-siau-kun, some rights reserved (CC BY-NC)",
+   "obs": 77801699,
+   "place": "China",
+   "date": "2021-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/705008236/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) isiofu, some rights reserved (CC BY-NC)",
+   "obs": 385105859,
+   "place": "Huaihua, CN-HN, CN",
+   "date": "2026-07-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518742553/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) camellia_l, some rights reserved (CC BY)",
+   "obs": 288451440,
+   "place": null,
+   "date": "2025-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719138549/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mollitile, some rights reserved (CC BY-NC)",
+   "obs": 392411149,
+   "place": "Qiannan Buyei and Miao, CN-GZ, CN",
+   "date": "2026-08-11"
+  }
+ ],
+ "wiki": {
+  "title": "Achalinus hunanensis",
+  "url": "https://en.wikipedia.org/wiki/Achalinus_hunanensis",
+  "revision": 1375544419,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Achalinus hunanensis, also known as the Hunan odd-scaled snake or Hunan burrowing snake, is a species of snake in the family Xenodermatidae. It is endemic to the province of Hunan in China."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "A. hunanensis is known from two specimens were collected during field work in Hunan. The holotype, collected in early May 2013, was initially reported as the first known occurrence of Achalinus ater in Hunan, but this placement is now known to be a misidentification, and A. ater is no longer believed to range into Hunan. Morphological and molecular analyses found that the two specimens were distinct from other known species of Achalinus, and thus they were described in 2023 as a new species. The specific name refers to Hunan Province, where the species is believed to be endemic."
+    ]
+   },
+   {
+    "h": "Phylogeny and evolution",
+    "level": 3,
+    "paras": [
+     "Molecular analysis suggests the closest living relative of Achalinus hunanensis is Achalinus ningshanensis, though the two groups already show a genetic differentiation. The ranges of the two species do not overlap and are separated by the Three Gorges of the Yangtze River. The two species are estimated to have diverged approximately 0.48 Mya, broadly coinciding with the formation of the Three Gorges (0.30 ~ 0.12 Mya), suggesting the Gorges drove the allopatric speciation of these snakes."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The Hunan odd-scaled snake reaches a total length of 329 mm, with a SVL of 255 mm. It has a slender, cylindrical body with 23 rows of lanceolate, strongly keeled dorsal scales. The head is slightly distinct from the neck, with small eyes and 23 small, curved maxillary teeth of equal size. The dorsal surface is a dark, slightly metallic color in living individuals, with a yellowish patch on the head occipital. Preserved specimens are mostly brown in color."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "This species is believed to be endemic to Hunan province. It is currently known from two specimens: the holotype was found near a mountain stream with shrubs under subtropical evergreen broadleaved forest in Huangyan Village, Hecheng District, Huaihua, and the paratype was discovered in Wazizhai, Ningxiang County, Changsha."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "The holotype specimen was discovered moving from leaf litter to a stream at night, suggesting the species may be nocturnal. Earthworms are speculated to be prey for this species based on their presence in the same location as the holotype and the dietary habits of related species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518742553/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) camellia_l, some rights reserved (CC BY), uploaded by camellia_l",
+   "photo": 518742553
+  }
+ ]
+}

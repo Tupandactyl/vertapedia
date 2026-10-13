@@ -1,0 +1,95 @@
+{
+ "sci": "Enhydris chanardi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 99982,
+  "name": "Enhydris chanardi",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sind_River_Snake",
+  "common": "Chanard's Mud Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543230701/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)",
+   "obs": 301466730,
+   "place": "Kaeng Hang Maeo, Kaeng Hang Maeo District, Chanthaburi 22160, Thailand",
+   "date": "2022-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719515153/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Gregory Mason, some rights reserved (CC BY-NC)",
+   "obs": 392601089,
+   "place": "Thailand",
+   "date": "2021-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/676770954/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jbvangoethem, some rights reserved (CC BY-NC)",
+   "obs": 370465787,
+   "place": "Sa Kaew, Thailand",
+   "date": "2025-11-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103312300/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC)",
+   "obs": 64277257,
+   "place": "Ko Khwang, Mueang Chanthaburi District, Chanthaburi 22000, Thailand",
+   "date": "2020-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Sind River snake",
+  "url": "https://en.wikipedia.org/wiki/Sind_River_snake",
+  "revision": 1354952684,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Sind River snake (Enhydris chanardi), also known commonly as Chanard's mud snake and Chan-ard's water snake, is a species of mildly venomous, rear-fanged snake in the family Homalopsidae. The species is endemic to Thailand."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The specific name, chanardi, is in honour of Thai herpetologist (Mr.) Tanya Chan-ard."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "E. chanardi is found near or around Bangkok, Thailand. The preferred natural habitat of E. chanardi is freshwater wetlands."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "E. chanardi is crepuscular or nocturnal. E. chanardi preys upon fishes and frogs. E. chanardi is viviparous. Little else is known about the biology of this species."
+    ]
+   },
+   {
+    "h": "Threats",
+    "level": 2,
+    "paras": [
+     "E. chanardi is listed as \"Data Deficient\" by the International Union for Conservation of Nature (IUCN)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103312300/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY-NC), uploaded by Wich’yanan (Jay) Limparungpatthanakij",
+   "photo": 103312300
+  }
+ ]
+}

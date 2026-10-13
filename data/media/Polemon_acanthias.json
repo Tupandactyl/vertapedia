@@ -1,0 +1,68 @@
+{
+ "sci": "Polemon acanthias",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 116540,
+  "name": "Polemon acanthias",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Polemon_acanthias",
+  "common": "Reinhardt's Snake-eater"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171792011/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 102732318,
+   "place": "Jomoro, Ghana",
+   "date": "2021-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105761693/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC)",
+   "obs": 65685242,
+   "place": "Amou, Togo",
+   "date": "2020-11-27"
+  }
+ ],
+ "wiki": {
+  "title": "Polemon acanthias",
+  "url": "https://en.wikipedia.org/wiki/Polemon_acanthias",
+  "revision": 1376052582,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Polemon acanthias, or Reinhardt's snake-eater, is a species of mildly venomous rear-fanged snake in the family Atractaspididae. It is endemic to Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in Ghana, Guinea, Ivory Coast, Liberia, Sierra Leone, and Togo."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsally, Reinhardt's snake-eater is whitish or pale reddish, with five black stripes. The median stripe is the widest, being one plus two half dorsal scale rows wide. The outermost stripes are on the second and third dorsal scale rows on each side of the body. The top of the head is black, with a whitish occipital bar, which is edged posteriorly with black. The end of the snout, the upper lip, and the tip of the tail are white. Ventrally it is white.",
+     "Adults may attain a total length of 55 cm (21+5⁄8 in), with a tail 3 cm (1+1⁄8 in) long.",
+     "Ventrals 190–216; anal plate entire; subcaudals divided.",
+     "Diameter of the eye less than its distance from the mouth. Rostral wider than high, barely visible from above. Internasals shorter than the prefrontals. Frontal 1+1⁄2 times as broad as the supraocular, 1+1⁄2 to 1+2⁄3 times as long as broad, as long as its distance from the end of the snout, shorter than the parietals. Nasal vertically divided. One preocular, in contact with the posterior nasal. One or two postoculars. Temporals 1+1. Seven upper labials, third and fourth entering the eye. First lower labial forming a suture with its fellow behind the mental. Four lower labials in contact with the anterior chin shield. Two pairs of chin shields, the anterior pair longer than the posterior pair."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105761693/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Eric, некоторые права защищены (CC BY-NC), загрузил Eric",
+   "photo": 105761693
+  }
+ ]
+}

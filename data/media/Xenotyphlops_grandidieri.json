@@ -1,0 +1,79 @@
+{
+ "sci": "Xenotyphlops grandidieri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32557,
+  "name": "Xenotyphlops grandidieri",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Xenotyphlops_grandidieri",
+  "common": "Madagascar blindsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453039433/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joernkoehler, some rights reserved (CC BY-NC)",
+   "obs": 253053758,
+   "place": "Diana, MG-AS, MG",
+   "date": "2007-02-25"
+  }
+ ],
+ "wiki": {
+  "title": "Xenotyphlops grandidieri",
+  "url": "https://en.wikipedia.org/wiki/Xenotyphlops_grandidieri",
+  "revision": 1374827065,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Xenotyphlops grandidieri is a species of blind snake in the family Xenotyphlopidae. The species is endemic to Madagascar. There are no subspecies that are recognized as being valid."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "In addition to having no subspecies, X. grandidieri is the only species in the genus Xenotyphlops, which is the only genus in the family Xenotyphlopidae. Therefore, X. grandidieri is a monotypic species in a monotypic genus in a monotypic family."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, grandidieri, is in honor of French naturalist Alfred Grandidier."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "X. grandidieri is found in northern Madagascar.",
+     "For over 100 years X. grandidieri was known only from the type specimens and the vague type locality \"Madagascar\"."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of X. grandidieri is shrubland or forest on sand dunes or with sandy soil, at altitudes from sea level to 50 m (160 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "X. grandidieri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453039433/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joernkoehler, some rights reserved (CC BY-NC)",
+   "photo": 453039433
+  }
+ ]
+}

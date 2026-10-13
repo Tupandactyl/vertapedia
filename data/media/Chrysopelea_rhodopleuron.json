@@ -1,0 +1,74 @@
+{
+ "sci": "Chrysopelea rhodopleuron",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27220,
+  "name": "Chrysopelea rhodopleuron",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chrysopelea_rhodopleuron",
+  "common": "Moluccan Flying Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61823126/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Guido Bohne, some rights reserved (CC BY-SA)",
+   "obs": 38876420,
+   "place": "Maluku, ID",
+   "date": "2010-03-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631276612/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mfathni, some rights reserved (CC BY-NC)",
+   "obs": 346320443,
+   "place": "Indonesia",
+   "date": "2025-07-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/666949720/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tangxing, some rights reserved (CC BY-NC)",
+   "obs": 365304859,
+   "place": "Maluku, ID",
+   "date": "2026-01-31"
+  }
+ ],
+ "wiki": {
+  "title": "Chrysopelea rhodopleuron",
+  "url": "https://en.wikipedia.org/wiki/Chrysopelea_rhodopleuron",
+  "revision": 1355368122,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Chrysopelea rhodopleuron, commonly known as the Moluccan flying snake, is a species of gliding snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The snake is endemic to the Indonesian islands of Ambon and Sulawesi."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Chrysopelea rhodopleuron rhodopleuron Boie, 1827",
+     "Chrysopelea rhodopleuron viridis Fischer, 1880"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61823126/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Guido Bohne, some rights reserved (CC BY-SA), uploaded by Guido Bohne",
+   "photo": 61823126
+  }
+ ]
+}

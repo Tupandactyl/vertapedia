@@ -1,0 +1,80 @@
+{
+ "sci": "Simalia nauta",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 540203,
+  "name": "Simalia nauta",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Morelia_clastolepis",
+  "common": "Tanimbar Python"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118900622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amir Hamidy, some rights reserved (CC BY-NC)",
+   "obs": 72875196,
+   "place": "Kabiarat Raya, South Tanimbar, West Maluku Tenggara Regency, Maluku, Indonesia",
+   "date": "2018-04-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595890353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gary Nunn, some rights reserved (CC BY-NC)",
+   "obs": 328803170,
+   "place": "Maluku Tenggara Barat, ID-MA, ID",
+   "date": "2025-11-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63313698/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Entol Afnan, some rights reserved (CC BY-NC-SA)",
+   "obs": 39878520,
+   "place": "Maluku Tenggara Barat, ID-MA, ID",
+   "date": "2020-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735061993/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ccgfh, some rights reserved (CC BY-NC)",
+   "obs": 400550312,
+   "place": "Yamdena Island, Kabupaten Kepulauan Tanimbar, Maluku, ID",
+   "date": "2026-08-13"
+  }
+ ],
+ "wiki": {
+  "title": "Simalia clastolepis",
+  "url": "https://en.wikipedia.org/wiki/Simalia_clastolepis",
+  "revision": 1370205502,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Simalia clastolepis, also known as the Moluccan python or yellow python, is a species of python found in Indonesia in dense forests of the islands on Ambon and Seram in Maluku. They can grow to be 8–9 feet in length."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "As hatchlings they have a red in color, which then turns from brown to yellow, then as adults, will get black along their spine. They can also be patternless or striped."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118900622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amir Hamidy, some rights reserved (CC BY-NC), uploaded by Amir Hamidy",
+   "photo": 118900622
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17623679/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tigerpython, some rights reserved (CC BY-SA)",
+   "photo": 17623679
+  }
+ ]
+}

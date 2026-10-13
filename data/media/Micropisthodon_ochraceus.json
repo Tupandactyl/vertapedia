@@ -1,0 +1,66 @@
+{
+ "sci": "Micropisthodon ochraceus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29370,
+  "name": "Micropisthodon ochraceus",
+  "observations": 9,
+  "wikipedia_url": null,
+  "common": "Chevron Necked Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22704972/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY)",
+   "obs": 15182089,
+   "place": "Perinet Gare 514, Andasibe, Madagascar, Madagaskar",
+   "date": "2016-02-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600882818/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrianiaina Angelo, some rights reserved (CC BY-NC)",
+   "obs": 331256817,
+   "place": "Moramanga, Madagascar",
+   "date": "2017-05-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335739823/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) samhyderoberts, some rights reserved (CC BY-NC)",
+   "obs": 191388544,
+   "place": "Anosy, MG-TL, MG",
+   "date": "2012-02-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602680248/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Samuel GUIRAUDOU, some rights reserved (CC BY)",
+   "obs": 332132698,
+   "place": "Moramanga, Madagascar",
+   "date": "2025-11-23"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22704972/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 22704972
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22722822/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 22722822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22722823/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+   "photo": 22722823
+  }
+ ]
+}

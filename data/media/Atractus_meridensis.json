@@ -1,0 +1,43 @@
+{
+ "sci": "Atractus meridensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 94873,
+  "name": "Atractus meridensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_meridensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58431706/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lucho Msrtínez, some rights reserved (CC BY-SA)",
+   "obs": 36914200,
+   "place": "Mérida, Mérida, VE",
+   "date": "2019-12-24"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus meridensis",
+  "url": "https://en.wikipedia.org/wiki/Atractus_meridensis",
+  "revision": 1374539664,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus meridensis is a species of snake in the family Colubridae. The species can be found in Venezuela."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58431706/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lucho Msrtínez, some rights reserved (CC BY-SA), uploaded by Lucho Msrtínez",
+   "photo": 58431706
+  }
+ ]
+}

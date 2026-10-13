@@ -1,0 +1,61 @@
+{
+ "sci": "Plectrurus aureus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32394,
+  "name": "Plectrurus aureus",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plectrurus_aureus",
+  "common": "Kerala Burrowing Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236299688/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Raju, some rights reserved (CC BY-NC)",
+   "obs": 138269266,
+   "place": "Wayanad, Kerala, India",
+   "date": "2022-10-06"
+  }
+ ],
+ "wiki": {
+  "title": "Plectrurus aureus",
+  "url": "https://en.wikipedia.org/wiki/Plectrurus_aureus",
+  "revision": 1341465863,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Plectrurus aureus, commonly known as the Kerala burrowing snake or Kerala shield-tail snake, is a species of uropeltid snake endemic to India."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in southwestern India in the Western Ghats.",
+     "Type locality: \"Chambra mountain in Wynad, near Kalpatty - one under an old rotten log at 6,000 feet elevation, the other under a large stone at 4,500 feet, both in heavy evergreen forest\"."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsum gold-colored, the scales edged with violet; a few irregular narrow violet-black crossbars may be present. Ventrum brighter gold-colored, with violet-black crossbands or alternating spots.",
+     "Adults may attain a total length of 40 cm (15+3⁄4 in).",
+     "Ventrals 164–177; subcaudals 8–12.",
+     "Scalation very similar to Plectrurus guentheri, except the ventrals are two times as broad as the contiguous scales. Diameter of body 39 to 44 times in the total length."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236299688/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Raju, some rights reserved (CC BY-NC), uploaded by David Raju",
+   "photo": 236299688
+  }
+ ]
+}

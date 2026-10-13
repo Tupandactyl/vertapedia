@@ -1,0 +1,95 @@
+{
+ "sci": "Aspidura desilvai",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 889700,
+  "name": "Aspidura desilvai",
+  "observations": 13,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Aspidura_desilvai",
+  "common": "De Silva's Rough-sided Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193716031/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanjaya Kanishka, some rights reserved (CC BY-NC)",
+   "obs": 114738550,
+   "place": "Sri Lanka",
+   "date": "2022-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458418333/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vinolperera, some rights reserved (CC BY-NC)",
+   "obs": 255761686,
+   "place": "Sri Lanka",
+   "date": "2024-12-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622876671/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gowrawa gunawardane, some rights reserved (CC BY-NC)",
+   "obs": 342081565,
+   "place": "Sri Lanka",
+   "date": "2026-03-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51429148/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 32776081,
+   "place": "Sri Lanka",
+   "date": "2019-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680940841/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gowrawa gunawardane, some rights reserved (CC BY-NC)",
+   "obs": 372633315,
+   "place": "Sri Lanka",
+   "date": "2026-05-18"
+  }
+ ],
+ "wiki": {
+  "title": "Aspidura desilvai",
+  "url": "https://en.wikipedia.org/wiki/Aspidura_desilvai",
+  "revision": 1347563292,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Aspidura desilvai, commonly known as De Silva's rough-sided snake, is a species of snake in the family Colubridae. The species is endemic to Sri Lanka."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, desilvai, is in honor of Pilippu Hewa Don Hemasiri de Silva, the former director of the National Museums of Sri Lanka from 1965 to 1981 and also the author of the book Snake Fauna of Sri Lanka: with special reference to skull, dentition and venom in snakes."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The species is endemic to the Knuckles Mountain Range in the Matale District of Sri Lanka."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51430849/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 51430849
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51429148/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 51429148
+  }
+ ]
+}

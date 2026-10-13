@@ -1,0 +1,59 @@
+{
+ "sci": "Calamaria leucogaster",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 96414,
+  "name": "Calamaria leucogaster",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Calamaria_leucogaster",
+  "common": "Ampat Lawang Dwarf Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254007787/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bob Zakaria, some rights reserved (CC BY-NC)",
+   "obs": 147598418,
+   "place": "Sarawak, MY",
+   "date": "2023-01-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633581212/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sotiris Kountouras, some rights reserved (CC BY-NC)",
+   "obs": 347482657,
+   "place": "Kabupaten Deli Serdang, North Sumatra, ID",
+   "date": "2026-04-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146744654/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shivaram Rasu, some rights reserved (CC BY-NC)",
+   "obs": 88901579,
+   "place": "Kubah National Park",
+   "date": "2019-12-23"
+  }
+ ],
+ "wiki": {
+  "title": "Calamaria leucogaster",
+  "url": "https://en.wikipedia.org/wiki/Calamaria_leucogaster",
+  "revision": 1379054991,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Calamaria leucogaster, the Ampat Lawang dwarf snake, is a species of snake in the family, Colubridae. It is found in Indonesia and Malaysia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146744654/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shivaram Rasu, some rights reserved (CC BY-NC), uploaded by Shivaram Rasu",
+   "photo": 146744654
+  }
+ ]
+}

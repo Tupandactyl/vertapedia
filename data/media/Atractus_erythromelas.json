@@ -1,0 +1,67 @@
+{
+ "sci": "Atractus erythromelas",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27873,
+  "name": "Atractus erythromelas",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_erythromelas",
+  "common": "Red-black Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/539133573/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) José Vicente Medina, some rights reserved (CC BY-NC)",
+   "obs": 299258557,
+   "place": "Entrada Jardín Botánico",
+   "date": "2023-06-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605958308/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Fernando Martínez Andrade, some rights reserved (CC BY-NC)",
+   "obs": 333761407,
+   "place": "JR2W+2X5, Mérida 5101, Mérida, Venezuela",
+   "date": "2026-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605961714/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Billy Fernández, some rights reserved (CC BY-NC)",
+   "obs": 333762924,
+   "place": "JR2W+2X5, Mérida 5101, Mérida, Venezuela",
+   "date": "2026-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/749377121/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrés Chacín, some rights reserved (CC BY-NC)",
+   "obs": 407749961,
+   "place": "HVWM+PR8, Mérida 5101, Mérida, Venezuela",
+   "date": "2026-08-24"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus erythromelas",
+  "url": "https://en.wikipedia.org/wiki/Atractus_erythromelas",
+  "revision": 1329570202,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus erythromelas, the red-black ground snake,  is a species of snake in the family Colubridae. The species can be found in Venezuela and Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/539133573/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) José Vicente Medina, некоторые права защищены (CC BY-NC), загрузил José Vicente Medina",
+   "photo": 539133573
+  }
+ ]
+}

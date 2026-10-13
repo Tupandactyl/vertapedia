@@ -1,0 +1,73 @@
+{
+ "sci": "Typhlops rostellatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32603,
+  "name": "Typhlops rostellatus",
+  "observations": 16,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Typhlops_rostellatus",
+  "common": "Puerto Rican Worm Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626921898/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Sara Lovotti, some rights reserved (CC BY)",
+   "obs": 344097739,
+   "place": "Isabel II, Vieques, 00765, Puerto Rico",
+   "date": "2026-03-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46636490/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jav84, some rights reserved (CC BY-NC)",
+   "obs": 29867577,
+   "place": "Caguas, PR",
+   "date": "2017-09-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5005678/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) feliadasme, some rights reserved (CC BY-NC)",
+   "obs": 4200231,
+   "place": "1009 Cll Georgetown, San Juan, 00927, Puerto Rico",
+   "date": "2016-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68029416/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) viejosanjuan, some rights reserved (CC BY-NC)",
+   "obs": 42837249,
+   "place": "Puerto Rico, Cayey, PR, US",
+   "date": "2020-04-22"
+  }
+ ],
+ "wiki": {
+  "title": "Puerto Rican worm snake",
+  "url": "https://en.wikipedia.org/wiki/Puerto_Rican_worm_snake",
+  "revision": 1314649081,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Puerto Rican worm snake (Typhlops rostellatus) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5005678/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) feliadasme, some rights reserved (CC BY-NC)",
+   "photo": 5005678
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9330831/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) mirella_rivera, some rights reserved (CC BY-NC)",
+   "photo": 9330831
+  }
+ ]
+}

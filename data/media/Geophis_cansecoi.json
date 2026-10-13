@@ -1,0 +1,51 @@
+{
+ "sci": "Geophis cansecoi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1403124,
+  "name": "Geophis cansecoi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_cansecoi",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503827691/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Fragoso, some rights reserved (CC BY-NC)",
+   "obs": 280517754,
+   "place": "Veracruz, MX",
+   "date": "2025-05-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/497903489/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 277285608,
+   "place": "Yecuatla, Ver., Mexiko",
+   "date": "2025-03-04"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis cansecoi",
+  "url": "https://en.wikipedia.org/wiki/Geophis_cansecoi",
+  "revision": 1366451247,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis cansecoi is a snake of the colubrid family. It is endemic to Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/497903489/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC), uploaded by Vojtěch Víta",
+   "photo": 497903489
+  }
+ ]
+}

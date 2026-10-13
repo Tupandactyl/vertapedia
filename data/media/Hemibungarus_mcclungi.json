@@ -1,0 +1,70 @@
+{
+ "sci": "Hemibungarus mcclungi",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1031620,
+  "name": "Hemibungarus mcclungi",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hemibungarus_mcclungi",
+  "common": "McClung's Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709316024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Anadeo Tamayo, some rights reserved (CC BY-NC)",
+   "obs": 387361148,
+   "place": "Philippines",
+   "date": "2026-07-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544278067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Anadeo Tamayo, some rights reserved (CC BY-NC)",
+   "obs": 302018332,
+   "place": "Philippines",
+   "date": "2025-01-03"
+  }
+ ],
+ "wiki": {
+  "title": "Hemibungarus mcclungi",
+  "url": "https://en.wikipedia.org/wiki/Hemibungarus_mcclungi",
+  "revision": 1328131151,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hemibungarus mcclungi is a species of venomous elapid snake, commonly known as McClung's Philippine coral snake."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "This species is endemic to the Philippines."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709316024/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Anadeo Tamayo, some rights reserved (CC BY-NC), uploaded by Kyle Anadeo Tamayo",
+   "photo": 709316024
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709316055/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Anadeo Tamayo, some rights reserved (CC BY-NC), uploaded by Kyle Anadeo Tamayo",
+   "photo": 709316055
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544278067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Anadeo Tamayo, some rights reserved (CC BY-NC), uploaded by Kyle Anadeo Tamayo",
+   "photo": 544278067
+  }
+ ]
+}

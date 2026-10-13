@@ -1,0 +1,94 @@
+{
+ "sci": "Naja katiensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30490,
+  "name": "Naja katiensis",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mali_cobra",
+  "common": "Katian Spitting Cobra"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166820451/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AMADOU BAHLEMAN FARID, some rights reserved (CC BY-NC)",
+   "obs": 99992388,
+   "place": "Kandi, Bénin",
+   "date": "2021-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452382696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MSTour, some rights reserved (CC BY-NC)",
+   "obs": 252690015,
+   "place": "Siguiri Prefecture, Guinea",
+   "date": "2013-03-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452382653/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MSTour, some rights reserved (CC BY-NC)",
+   "obs": 252690014,
+   "place": "Siguiri Prefecture, Guinea",
+   "date": "2013-02-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338620571/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr Anh Galat-Luong, some rights reserved (CC BY-NC)",
+   "obs": 192839554,
+   "place": "Maro, Burkina Faso",
+   "date": "2003-11-13"
+  }
+ ],
+ "wiki": {
+  "title": "Mali cobra",
+  "url": "https://en.wikipedia.org/wiki/Mali_cobra",
+  "revision": 1368561566,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Mali cobra (Naja katiensis), also called the Katian spitting cobra or West African brown spitting cobra, is a species of spitting cobra found in West Africa."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The Mali cobra occurs in both tropical and subtropical grasslands, open forests, savannas, and shrublands. This species geographic range's from Senegal to Cameroon, with recorded sightings in Gambia, Guinea-Bissau, far northern Guinea, Southern Mali, Ivory Coast, Burkina Faso, Northern Ghana, Togo, Southwestern Niger and Nigeria."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "This species can be active both at day and night, although juveniles are only active during daytime. However, it is predominantly diurnal and terrestrial, but will often climb into small bushes. Mali cobras will take shelter under logs, rocks or in holes when inactive. If disturbed it will escape to cover with haste, but if cornered, will rear up and spread its small, narrow hood. If further provoked it will spit its venom. These snakes will bite if handled or accidentally stepped on."
+    ]
+   },
+   {
+    "h": "Venom",
+    "level": 2,
+    "paras": [
+     "\"This species has venom that it spits towards its opponents. The venom consists of postsynaptic neurotoxins and cardiotoxins that cause cytotoxic activity.\""
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452382696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MSTour, some rights reserved (CC BY-NC), uploaded by MSTour",
+   "photo": 452382696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166820451/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AMADOU BAHLEMAN FARID, some rights reserved (CC BY-NC), uploaded by AMADOU BAHLEMAN FARID",
+   "photo": 166820451
+  }
+ ]
+}

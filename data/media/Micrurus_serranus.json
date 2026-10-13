@@ -1,0 +1,101 @@
+{
+ "sci": "Micrurus serranus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 105873,
+  "name": "Micrurus serranus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Micrurus_serranus",
+  "common": "Bolivian Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174945049/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA)",
+   "obs": 104411930,
+   "place": "Toro Toro, Charcas, Potosí, Bolivia",
+   "date": "2005-03-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645530321/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ALEJANDRA ANTONIA CAMACHO COLQUE, some rights reserved (CC BY-NC)",
+   "obs": 353825998,
+   "place": "CCF9+XRF, Vacas, Bolivia",
+   "date": "2026-02-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518927584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) KennyUre_Wildlife, some rights reserved (CC BY-NC)",
+   "obs": 288552079,
+   "place": "San Lorenzo, Bolivia",
+   "date": "2021-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Micrurus serranus",
+  "url": "https://en.wikipedia.org/wiki/Micrurus_serranus",
+  "revision": 1370205443,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrurus serranus, also known commonly as the Bolivian coral snake, is a species of venomous snake in the family Elapidae. The species is endemic to Bolivia."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Small for its genus, Micrurus serranus may attain a maximum total length (tail included) of 82 cm (32 in), but most adults are shorter.",
+     "Like many New World coral snakes, the color pattern consists of red, white, and black rings, with the black rings arranged in triads. The first triad is complete, and there are 10–14 triads on the body. The dorsal scales of the white rings are heavily edged and tipped with black."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Micrurus serranus is found in the Bolivian departments of Cochabamba, Potosí, and Santa Cruz."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of Micrurus serranus is forest, at elevations of 1,200–2,750 m (3,940–9,020 ft), but it has also been found in disturbed areas, including villages."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Micrurus serranus is terrestrial, living on the forest floor and in rocky areas of forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Micrurus serranus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93064258/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY)",
+   "photo": 93064258
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93064259/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Rich Hoyer, some rights reserved (CC BY)",
+   "photo": 93064259
+  }
+ ]
+}

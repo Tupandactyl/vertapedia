@@ -1,0 +1,95 @@
+{
+ "sci": "Cylindrophis opisthorhodus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32277,
+  "name": "Cylindrophis opisthorhodus",
+  "observations": 17,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Island_pipe_snake",
+  "common": "Island Pipe Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14141882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Schellekens, some rights reserved (CC BY-NC)",
+   "obs": 10229714,
+   "place": "Regentschap Ende, Oost-Nusa Tenggara, Indonesië",
+   "date": "2005-08-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346801926/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maria Bernadeth Tukan (Ona Tukan), some rights reserved (CC BY-NC)",
+   "obs": 196971985,
+   "place": "Wulanggitang, East Flores Regency, East Nusa Tenggara, Indonesia",
+   "date": "2024-01-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4302670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) feri razali, some rights reserved (CC BY-NC)",
+   "obs": 3705418,
+   "place": "West Manggarai Regency, East Nusa Tenggara, Indonesia",
+   "date": "2012-05-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167092217/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yudiiiiii, some rights reserved (CC BY-NC)",
+   "obs": 100137266,
+   "place": "Dusun Kebun Baru, Desa Jeruk Manis, Kembang Kuning, Sikur, Kabupaten Lombok Timur, Nusa Tenggara Bar. 83662, Indonesia",
+   "date": "2021-11-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167854562/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hsc_unram, some rights reserved (CC BY-NC)",
+   "obs": 100559528,
+   "place": "Kembang Kuning, Sikur, East Lombok Regency, West Nusa Tenggara 83662, Indonesia",
+   "date": "2021-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Island pipe snake",
+  "url": "https://en.wikipedia.org/wiki/Island_pipe_snake",
+  "revision": 1314544493,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The island pipe snake (Cylindrophis opisthorhodus) is a species of snake in the Cylindrophiidae family endemic to Indonesia."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsally, it is pale brown or buff, with small black spots irregularly disposed. The head is yellowish, much spotted with black. Ventrally, it is white, with continuous or broken and alternating black crossbars, which are connected on the sides by a black, uninterrupted stripe running from behind the head to the base of the tail; a much interrupted black stripe occurs along the middle of the belly. The anal region is black. The lower surface of the tail is bright pink (to which the specific epithet, opisthorhodus, meaning \"rose posteriorly\", refers).",
+     "The dorsal scales occur in 23 rows, and the ventrals, only slightly larger than the adjacent scales, are 184–187 in number; the anal scale is divided; it has six or seven subcaudal scales."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4302670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) feri razali, some rights reserved (CC BY-NC), uploaded by feri razali",
+   "photo": 4302670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14141882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mark Schellekens, some rights reserved (CC BY-NC), uploaded by Mark Schellekens",
+   "photo": 14141882
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167854562/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hsc_unram, some rights reserved (CC BY-NC)",
+   "photo": 167854562
+  }
+ ]
+}

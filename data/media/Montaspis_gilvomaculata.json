@@ -1,0 +1,44 @@
+{
+ "sci": "Montaspis gilvomaculata",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29365,
+  "name": "Montaspis gilvomaculata",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cream-spotted_mountain_snake",
+  "common": "Cream-spotted Mountain Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184503249/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tarik Lalla, some rights reserved (CC BY-NC)",
+   "obs": 109467555,
+   "place": "Maluti-a-Phofung Local Municipality, South Africa",
+   "date": "2022-01-31"
+  }
+ ],
+ "wiki": {
+  "title": "Cream-spotted mountain snake",
+  "url": "https://en.wikipedia.org/wiki/Cream-spotted_mountain_snake",
+  "revision": 1314201224,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The cream-spotted mountain snake (Montaspis gilvomaculata) is a snake in the family Lamprophiidae .",
+     "It is found in South Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184503249/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tarik Lalla, some rights reserved (CC BY-NC), uploaded by Tarik Lalla",
+   "photo": 184503249
+  }
+ ]
+}

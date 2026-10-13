@@ -1,0 +1,65 @@
+{
+ "sci": "Atractus touzeti",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539387,
+  "name": "Atractus touzeti",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_touzeti",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164571145/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Díaz, some rights reserved (CC BY-NC)",
+   "obs": 98796810,
+   "place": "Mera, EC-PA, EC",
+   "date": "2021-09-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2904927/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaime Camacho, some rights reserved (CC BY-NC)",
+   "obs": 2601314,
+   "place": "Cascabel, Napo, Ecuador",
+   "date": "2005-05-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66819306/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC)",
+   "obs": 42098132,
+   "place": "Faldas del Reventador, Provincia de Sucumbíos, Ecuador",
+   "date": "2014-12-13"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus touzeti",
+  "url": "https://en.wikipedia.org/wiki/Atractus_touzeti",
+  "revision": 1376366370,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus touzeti is a species of snake in the family Colubridae. The species can be found in Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66819306/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC), uploaded by Mario Humberto Yánez-Muñoz",
+   "photo": 66819306
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2904927/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jaime Camacho, some rights reserved (CC BY-NC), uploaded by Jaime Camacho",
+   "photo": 2904927
+  }
+ ]
+}

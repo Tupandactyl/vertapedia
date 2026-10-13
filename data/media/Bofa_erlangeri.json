@@ -1,0 +1,106 @@
+{
+ "sci": "Bofa erlangeri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1439489,
+  "name": "Bofa erlangeri",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bofa_erlangeri",
+  "common": "Ethiopian House Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC)",
+   "obs": 292220,
+   "place": "Keffa, ET-SN, ET",
+   "date": "2012-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48608477/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC)",
+   "obs": 31081271,
+   "place": "Keffy, Äthiopien",
+   "date": "2019-08-05"
+  }
+ ],
+ "wiki": {
+  "title": "Bofa erlangeri",
+  "url": "https://en.wikipedia.org/wiki/Bofa_erlangeri",
+  "revision": 1377049018,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bofa erlangeri, also known commonly as the Ethiopian house snake, is a species of snake in the family Lamprophiidae. The species is endemic to Ethiopia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Bofa erlangeri is the only species in the genus Bofa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, erlangeri, is in honor of German ornithologist Carlo von Erlanger, who was one of the collectors of the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Bofa erlangeri is found in the central plateau of Ethiopia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of B. erlangeri is forest, at altitudes of 800–2,800 m (2,600–9,200 ft), and it has also been found in farmland."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Bofa erlangeri may attain a total length (including tail) of 1.2 m (3.9 ft)."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Bofa erlangeri preys upon rodents."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Bofa erlangeri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vlada Trailin, some rights reserved (CC BY-NC), uploaded by Vlada Trailin",
+   "photo": 361766
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48608477/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tom Kirschey, some rights reserved (CC BY-NC), uploaded by Tom Kirschey",
+   "photo": 48608477
+  }
+ ]
+}

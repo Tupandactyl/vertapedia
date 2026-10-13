@@ -1,0 +1,153 @@
+{
+ "sci": "Hoplocephalus bitorquatus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35235,
+  "name": "Hoplocephalus bitorquatus",
+  "observations": 136,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pale-headed_snake",
+  "common": "Pale-headed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319288947/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 183051840,
+   "place": "Bohena Creek NSW 2390, Australia",
+   "date": "2023-09-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109343947/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) garywwilson, some rights reserved (CC BY)",
+   "obs": 67645565,
+   "place": "Lyndhurst QLD 4820, Australia",
+   "date": "2016-11-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600734127/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brother-nature, some rights reserved (CC BY-NC)",
+   "obs": 331183151,
+   "place": "Bimblebox Nature Refuge, Alpha QLD 4724, Australia",
+   "date": "2021-10-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139644871/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC)",
+   "obs": 84925512,
+   "place": "Murweh, AU-QL, AU",
+   "date": "2012-11-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453278196/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) will-hunt, some rights reserved (CC BY-NC)",
+   "obs": 253176872,
+   "place": "Broadwater Rd, Ducklo, QLD, AU",
+   "date": "2024-02-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479555009/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar, some rights reserved (CC BY-NC)",
+   "obs": 266887197,
+   "place": "Southwood QLD 4406, Australia",
+   "date": "2025-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56361158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruce McLennan, some rights reserved (CC BY-NC)",
+   "obs": 35721134,
+   "place": "Yuleba North QLD 4427, Australia",
+   "date": "2018-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374971570/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Donna Belder, some rights reserved (CC BY)",
+   "obs": 212178604,
+   "place": "Bohena Creek, NSW, AU",
+   "date": "2020-03-24"
+  }
+ ],
+ "wiki": {
+  "title": "Pale-headed snake",
+  "url": "https://en.wikipedia.org/wiki/Pale-headed_snake",
+  "revision": 1359111864,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The pale-headed snake (Hoplocephalus bitorquatus) is a species of venomous snake in the family Elapidae. The species is endemic to Australia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The species was originally described as Alecto bitorquata by Giorgio Jan in 1859."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "H. bitorquatus may attain a total length of 90 cm (35 in), which includes a tail 9.5 cm (3.7 in) long. The top of the head is pale olive, with a bright yellow occipital blotch, which is edged with black. The body is dark olive dorsally, and may have a darker vertebral streak. Ventrally, it is greyish olive or brown."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "H. bitorquatus is found on the eastern coast of Australia, from Cape York Peninsula in Queensland to Gosford in New South Wales. The preferred natural habitat of H. bitorquatus is forest."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "H. bitorquatus is arboreal."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "H. bitorquatus preys predominantly upon tree frogs, but also eats small lizards and small mammals."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "H. bitorquatus is viviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109343947/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) garywwilson, some rights reserved (CC BY), uploaded by garywwilson",
+   "photo": 109343947
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139644871/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Richard D Reams, some rights reserved (CC BY-NC), uploaded by Richard D Reams",
+   "photo": 139644871
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6655659/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew Taylor, some rights reserved (CC BY-NC), uploaded by Matthew Taylor",
+   "photo": 6655659
+  }
+ ]
+}

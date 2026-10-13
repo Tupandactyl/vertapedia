@@ -1,0 +1,105 @@
+{
+ "sci": "Calliophis beddomei",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30429,
+  "name": "Calliophis beddomei",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Beddome's_coral_snake",
+  "common": "Beddome's Coralsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401226583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kartik Sundar, some rights reserved (CC BY-NC)",
+   "obs": 226249593,
+   "place": "Tamil Nadu, IN",
+   "date": "2024-06-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414529292/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santhosh A, some rights reserved (CC BY-NC)",
+   "obs": 233261068,
+   "place": "Manjavadi R.F., Tamil Nadu, India",
+   "date": "2024-07-25"
+  }
+ ],
+ "wiki": {
+  "title": "Beddome's coral snake",
+  "url": "https://en.wikipedia.org/wiki/Beddome%27s_coral_snake",
+  "revision": 1354925134,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Beddome's coral snake (Calliophis beddomei) is a species of venomous snake in the family Elapidae. The species is endemic to hills of peninsular India."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "C. beddomei is named after Richard Henry Beddome (1830-1911), British army officer and naturalist."
+    ]
+   },
+   {
+    "h": "Geographic range and habitat",
+    "level": 2,
+    "paras": [
+     "Beddome's coral snake is found in semi-evergreen and tropical dry deciduous hills in the Eastern Ghats and the Western Ghats of India, at altitudes of 550–1,100 m (1,800–3,610 ft). Being first described from the Shevaroy Hills or Yercaud, this species was later known from other parts of the Western Ghats. It is only known from three localities, Koppa, Nilgiri Mountains, and Shevaroy."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "C. beddomei may attain a snout-to-vent length (SVL) of 50 cm (20 in), with a tail length of 6.5 cm (2.6 in)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "C. beddomei is terrestrial."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. beddomei is oviparous."
+    ]
+   },
+   {
+    "h": "Threats and conservation",
+    "level": 2,
+    "paras": [
+     "C. beddomei is not considered to be used for commercial use and is not known from any protected areas. However, it is listed in Schedule IV of Wildlife Protection Act, 1972."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414529310/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santhosh A, some rights reserved (CC BY-NC), uploaded by Santhosh A",
+   "photo": 414529310
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414529353/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Santhosh A, some rights reserved (CC BY-NC), uploaded by Santhosh A",
+   "photo": 414529353
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401226638/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kartik Sundar, some rights reserved (CC BY-NC), uploaded by Kartik Sundar",
+   "photo": 401226638
+  }
+ ]
+}

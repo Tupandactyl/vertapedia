@@ -1,0 +1,75 @@
+{
+ "sci": "Atractus multicinctus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 27865,
+  "name": "Atractus multicinctus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_multicinctus",
+  "common": "Banded Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651178231/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) savetheparadise, some rights reserved (CC BY-NC)",
+   "obs": 357050193,
+   "place": "Muisne, Esmeraldas, EC",
+   "date": "2026-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/548392747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frederic Griesbaum, some rights reserved (CC BY-NC)",
+   "obs": 304215038,
+   "place": "Eloy Alfaro, Ecuador",
+   "date": "2023-03-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65505547/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC)",
+   "obs": 41300780,
+   "place": "Cerro Zapallo, Esmeraldas, Ecuador",
+   "date": "2017-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522635221/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leighton Reid, some rights reserved (CC BY-NC)",
+   "obs": 290518291,
+   "place": "Cube, Ecuador",
+   "date": "2025-06-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29825074/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC)",
+   "obs": 19391913,
+   "place": "Pichincha, Ecuador",
+   "date": "2009-02-12"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus multicinctus",
+  "url": "https://en.wikipedia.org/wiki/Atractus_multicinctus",
+  "revision": 1329570444,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus multicinctus, the banded ground snake, is a species of snake in the family Colubridae. The species can be found in Ecuador and Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29825074/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Pratt, some rights reserved (CC BY-NC), uploaded by Paul Pratt",
+   "photo": 29825074
+  }
+ ]
+}

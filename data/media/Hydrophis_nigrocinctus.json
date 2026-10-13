@@ -1,0 +1,51 @@
+{
+ "sci": "Hydrophis nigrocinctus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 35276,
+  "name": "Hydrophis nigrocinctus",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_nigrocinctus",
+  "common": "Daudin's Sea Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736366105/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashis Datta, some rights reserved (CC BY-NC)",
+   "obs": 401208756,
+   "place": "Bangladesh",
+   "date": "2026-09-18"
+  }
+ ],
+ "wiki": {
+  "title": "Hydrophis nigrocinctus",
+  "url": "https://en.wikipedia.org/wiki/Hydrophis_nigrocinctus",
+  "revision": 1327798929,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydrophis nigrocinctus, or the black-banded sea snake, is a species of marine venomous snakes in the family Elapidae. There have only been three specimens discovered. The first was described in 1803, and was collected in the Bay of Bengal, Sundarbans, near Kolkata. The second specimen was caught in the Malay Archipelago, in 1896. Over a century later, the third specimen was rediscovered in February 2015, and described in 2024. This also marked a century since black-banded sea snakes had been sighted in Bangladesh. The third specimen was found in the Sundarbans of Bangladesh, namely, the island Dublar Char."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "This species is found in the Indian Ocean and Bay of Bengal: Bangladesh, India, Malaysia, Myanmar (Burma), Sri Lanka and  Thailand.",
+     "Type locality: Sundarbans, Bengal."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736366105/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ashis Datta, some rights reserved (CC BY-NC), uploaded by Ashis Datta",
+   "photo": 736366105
+  }
+ ]
+}

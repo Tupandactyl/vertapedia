@@ -1,0 +1,50 @@
+{
+ "sci": "Trachischium hmuifang",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1666453,
+  "name": "Trachischium hmuifang",
+  "observations": 2,
+  "wikipedia_url": null,
+  "common": "Mizoram Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339853530/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC)",
+   "obs": 193463328,
+   "place": "Phawngpui National Park, Cheural, Mizoram 796810, India",
+   "date": "2023-12-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339553375/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kedar, some rights reserved (CC BY-NC)",
+   "obs": 193301526,
+   "place": "Cheural, Mizoram 796810, India",
+   "date": "2023-12-06"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339553375/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kedar, some rights reserved (CC BY-NC), uploaded by Kedar",
+   "photo": 339553375
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339853530/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 339853530
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339853675/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+   "photo": 339853675
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "sci": "Corallus cookii",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 98399,
+  "name": "Corallus cookii",
+  "observations": 14,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Corallus_cookii",
+  "common": "Cook's Tree Boa"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306174627/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC)",
+   "obs": 176134146,
+   "place": null,
+   "date": "2023-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306176628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC)",
+   "obs": 176134151,
+   "place": null,
+   "date": "2023-03-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472861469/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Zika, some rights reserved (CC BY-NC)",
+   "obs": 263236497,
+   "place": null,
+   "date": "2025-02-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/703406065/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gonzalo Giribet, some rights reserved (CC BY-NC)",
+   "obs": 384275000,
+   "place": null,
+   "date": "2024-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346024840/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pooja A. Anilkumar, some rights reserved (CC BY-NC)",
+   "obs": 196546925,
+   "place": null,
+   "date": "2024-01-11"
+  }
+ ],
+ "wiki": {
+  "title": "Corallus cookii",
+  "url": "https://en.wikipedia.org/wiki/Corallus_cookii",
+  "revision": 1374815822,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Corallus cookii, also known as Cook's tree boa, Cooke's tree boa or , Saint Vincent Treeboa, is a species of nonvenomous snake in the family Boidae. The species is endemic to the island of St. Vincent in the Caribbean. There are no recognized subspecies."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, cookii, is in honor of English artist and naturalist Edward William Cooke."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "C. cookii is similar to C. hortulana and C. grenadensis, only smaller, with adults reaching a total length (including tail) of 5 feet (152 cm), and being mainly gray or brown in color. Not more than a few specimens exist in captivity. The taxonomy of the Corallus hortulanaus complex has undergone a number of revisions. The main morphological differences between C. cookii and C. hortulana are coloration and scale count. \"Corallus cooki is most easily distinguished from other members of the C. hortulanus complex by its color pattern. It lacks the color variation (pale yellow, orange, red, many shades of brown) found in C. hortulanus and C. grenadensis. Likewise, the main element of the dorsal pattern is relatively constant, and it rarely occurs in populations outside of St. Vincent. The diamond-shape pattern characteristic of C. ruschenbergerii does not occur in this species. Corallus cooki is distinguishable from C. hortulanus by maximum number of dorsal scale rows: invariably less than 50 in C. cooki (39–48; x = 43.9 +/- 0.34) and almost always more than 50 in C. hortulanus (47– 63; x = 55.0 +/- 0.17; specimens with less than 50 occur occasionally in Guyana, Suriname, Bolivia, and Peru).\""
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "C. cookii is oviviparous."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Endemic to the island of St. Vincent in the Caribbean, C. cookii is known only from a few locations on the island. The type locality given is \"West Indies\", which was restricted to \"St. Vincent\" by Henderson (1997)."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of C. cooki is forest, but it is also abundant in urban areas. It is found from sea level to an altitude of 500 m (1,600 ft)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306176628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC), uploaded by Guillaume Tessereau",
+   "photo": 306176628
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306178307/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC), uploaded by Guillaume Tessereau",
+   "photo": 306178307
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306174692/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillaume Tessereau, some rights reserved (CC BY-NC), uploaded by Guillaume Tessereau",
+   "photo": 306174692
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "sci": "Erythrolamprus epinephelus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539680,
+  "name": "Erythrolamprus epinephalus",
+  "observations": 859,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Erythrolamprus_epinephelus",
+  "common": "Fire-bellied Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140256918/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Antonio Eliseo Silva Castro, some rights reserved (CC BY-NC)",
+   "obs": 85275056,
+   "place": "Usme, Bogotá, Colombia",
+   "date": "2021-06-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40449452/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lupisulloa, some rights reserved (CC BY-NC)",
+   "obs": 26071238,
+   "place": "Bogotá, Colombia",
+   "date": "2019-05-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47833491/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC)",
+   "obs": 30612128,
+   "place": "Puntarenas, Costa Rica",
+   "date": "2019-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626494702/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 343880934,
+   "place": "Santa Marta, Magdalena, Colombia",
+   "date": "2026-03-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90698340/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Julián Alberto Ríos-Soto, some rights reserved (CC BY-NC)",
+   "obs": 56892241,
+   "place": "Filandia, Quindío, Colombia",
+   "date": "2019-02-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253380873/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Camilo Muñoz, some rights reserved (CC BY-NC)",
+   "obs": 147269833,
+   "place": "Bosa, Bogotá, Colombia",
+   "date": "2015-05-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482468583/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jakob Dulisse, some rights reserved (CC BY-NC)",
+   "obs": 268413940,
+   "place": "Manaure, Cesar, Colombia",
+   "date": "2025-03-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105592738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Matallana, some rights reserved (CC BY-NC)",
+   "obs": 65588497,
+   "place": "La República, Tabio, Cundinamarca, Colombia",
+   "date": "2011-08-13"
+  }
+ ],
+ "wiki": {
+  "title": "Erythrolamprus epinephalus",
+  "url": "https://en.wikipedia.org/wiki/Erythrolamprus_epinephalus",
+  "revision": 1313933786,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Erythrolamprus epinephalus, the Fire-bellied snake, is a species of snake in the Colubridae family. It is found in Costa Rica, Panama, Colombia, Venezuela, Ecuador, and Peru. The snake, which was described by Edward Drinker Cope in 1862, is notable for its apparent immunity to the toxic skin of the golden poison dart frog, which it preys upon."
+    ]
+   },
+   {
+    "h": "Classification",
+    "level": 2,
+    "paras": [
+     "Erythrolamprus epinephalus belongs to the genus Erythrolamprus, which contains over 50 species. The genus Erythrolamprus belongs to the subfamily Dipsadinae, which is sometimes referred to as the family Dipsadidae.",
+     "Recent phylogenetic analysis of morphological and molecular DNA evidence has shown that Erythrolamprus epinephalus is now likely paraphyletic, with respect to Erythrolamprus pseudoreginae of Tobago, named in 2019.",
+     "The relationships of Erythrolamprus species located in northern South America can be shown in the cladogram below:"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47833491/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC), uploaded by Gert Jan Verspui",
+   "photo": 47833491
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40449452/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lupisulloa, some rights reserved (CC BY-NC), uploaded by lupisulloa",
+   "photo": 40449452
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13223349/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wildlife-naturalists, some rights reserved (CC BY-NC), uploaded by wildlife-naturalists",
+   "photo": 13223349
+  }
+ ]
+}

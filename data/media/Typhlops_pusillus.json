@@ -1,0 +1,67 @@
+{
+ "sci": "Typhlops pusillus",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 32609,
+  "name": "Typhlops pusillus",
+  "observations": 13,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Typhlops_pusillus",
+  "common": "Hispaniola Worm Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5183129/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patricia Torres Pineda, some rights reserved (CC BY-NC)",
+   "obs": 4313449,
+   "place": "Caseta La Azufrada Lago Enriquillo  ",
+   "date": "2014-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5576902/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patricia Torres Pineda, some rights reserved (CC BY-NC)",
+   "obs": 4610754,
+   "place": "Los Cacicazgos, Santo Domingo, Dominican Republic",
+   "date": "2016-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613668934/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) arigomes, some rights reserved (CC BY-NC)",
+   "obs": 337559653,
+   "place": "La Española, La Otra Banda (D.M.), Región Yuma, DO",
+   "date": "2026-02-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327760390/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Loucks, some rights reserved (CC BY-NC)",
+   "obs": 187422841,
+   "place": "PQF5+Q35, Cap-Haitien, Haiti",
+   "date": "2023-10-13"
+  }
+ ],
+ "wiki": {
+  "title": "Hispaniola worm snake",
+  "url": "https://en.wikipedia.org/wiki/Hispaniola_worm_snake",
+  "revision": 1368647115,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Hispaniola worm snake (Typhlops pusillus) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5576902/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Patricia Torres Pineda, some rights reserved (CC BY-NC), uploaded by Patricia Torres Pineda",
+   "photo": 5576902
+  }
+ ]
+}

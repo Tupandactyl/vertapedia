@@ -1,0 +1,67 @@
+{
+ "sci": "Dibernardia persimilis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1439464,
+  "name": "Dibernardia persimilis",
+  "observations": 11,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dibernardia_persimilis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467890264/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Léo, some rights reserved (CC BY-NC)",
+   "obs": 260530598,
+   "place": "Independência, Petrópolis - RJ, Brasil",
+   "date": "2025-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333624116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rogerio Dias, some rights reserved (CC BY-NC)",
+   "obs": 190330183,
+   "place": "Alto da Boa Vista, Rio de Janeiro - RJ, Brasil",
+   "date": "2023-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543676759/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Rafael Rosa, some rights reserved (CC BY-SA)",
+   "obs": 301701755,
+   "place": "Ilhabela - State of São Paulo, Brazil",
+   "date": "2025-07-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336198475/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Léo, some rights reserved (CC BY-NC)",
+   "obs": 191618473,
+   "place": "Condomio Portão Azul, Guapimirim - RJ, 25940-000, Brasil",
+   "date": "2023-11-15"
+  }
+ ],
+ "wiki": {
+  "title": "Dibernardia persimilis",
+  "url": "https://en.wikipedia.org/wiki/Dibernardia_persimilis",
+  "revision": 1366508898,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Dibernardia persimilis is a species of snake in the family Colubridae. The species is native to Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333624116/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rogerio Dias, some rights reserved (CC BY-NC), uploaded by Rogerio Dias",
+   "photo": 333624116
+  }
+ ]
+}

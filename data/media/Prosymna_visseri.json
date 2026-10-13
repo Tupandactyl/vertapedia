@@ -1,0 +1,38 @@
+{
+ "sci": "Prosymna visseri",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 29006,
+  "name": "Prosymna visseri",
+  "observations": 2,
+  "wikipedia_url": null,
+  "common": "Visser’s Shovel-snout"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30809603/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Andrew Hankey, some rights reserved (CC BY-SA)",
+   "obs": 19966070,
+   "place": "Espinhiera Angola",
+   "date": "2009-01-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619067171/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) reptiguy, some rights reserved (CC BY-NC)",
+   "obs": 340210512,
+   "place": "Kunene, NA",
+   "date": "2026-02-25"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30809603/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Andrew Hankey, some rights reserved (CC BY-SA), uploaded by Andrew Hankey",
+   "photo": 30809603
+  }
+ ]
+}

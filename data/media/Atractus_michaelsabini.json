@@ -1,0 +1,51 @@
+{
+ "sci": "Atractus michaelsabini",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1439521,
+  "name": "Atractus michaelsabini",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atractus_michaelsabini",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352999389/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holger Sanchez, some rights reserved (CC BY-NC)",
+   "obs": 200112759,
+   "place": "Piñas, Ecuador",
+   "date": "2020-04-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719584884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion Jocotoco, some rights reserved (CC BY-NC)",
+   "obs": 392637242,
+   "place": "Santa Isabel, EC-AZ, EC",
+   "date": "2026-08-13"
+  }
+ ],
+ "wiki": {
+  "title": "Atractus michaelsabini",
+  "url": "https://en.wikipedia.org/wiki/Atractus_michaelsabini",
+  "revision": 1368565880,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atractus michaelsabini is a species of snake in the family Colubridae. The species can be found in Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352999389/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Holger Sanchez, some rights reserved (CC BY-NC), uploaded by Holger Sanchez",
+   "photo": 352999389
+  }
+ ]
+}

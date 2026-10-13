@@ -1,0 +1,113 @@
+{
+ "sci": "Alsophis sibonius",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30139,
+  "name": "Alsophis sibonius",
+  "observations": 70,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Antilles_racer",
+  "common": "Dominican Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209307009/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Nicholas, some rights reserved (CC BY)",
+   "obs": 123452563,
+   "place": null,
+   "date": "2022-06-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7471882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jobenz, some rights reserved (CC BY-NC)",
+   "obs": 5977656,
+   "place": "Saint Joseph Parish",
+   "date": "2016-03-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/307049823/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kieran Richardson, some rights reserved (CC BY-NC)",
+   "obs": 176600292,
+   "place": "Cabrits Cruise Ship Berth, Dominica",
+   "date": "2023-07-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170886415/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Roland Godon, some rights reserved (CC BY)",
+   "obs": 102255909,
+   "place": "Saint-John, Dominique",
+   "date": "2011-08-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519938028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zoologistollie, some rights reserved (CC BY-NC)",
+   "obs": 289094101,
+   "place": "Saint John Parish, Dominica",
+   "date": "2025-06-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600644054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) curtis691, some rights reserved (CC BY-NC)",
+   "obs": 331138699,
+   "place": "Cabrits National Park, Dominica, DM",
+   "date": "2025-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1556790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nicholas Pollock, some rights reserved (CC BY-NC)",
+   "obs": 1236626,
+   "place": "Dominica",
+   "date": "2006-03-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119293586/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Beat Akeret, some rights reserved (CC BY-NC)",
+   "obs": 73096026,
+   "place": "Saint John, Dominica",
+   "date": "1996-10-17"
+  }
+ ],
+ "wiki": {
+  "title": "Antilles racer",
+  "url": "https://en.wikipedia.org/wiki/Antilles_racer",
+  "revision": 1111906301,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "There are two species of snake named Antilles racer:",
+     "Alsophis antillensis, endemic to the Caribbean island of Guadeloupe",
+     "Alsophis sibonius, endemic to the Caribbean island of Dominica"
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479351664/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC), uploaded by Maël Dewynter",
+   "photo": 479351664
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/202298431/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) petekleinhenz, some rights reserved (CC BY-NC), uploaded by petekleinhenz",
+   "photo": 202298431
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119293586/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Beat Akeret, some rights reserved (CC BY-NC), uploaded by Beat Akeret",
+   "photo": 119293586
+  }
+ ]
+}

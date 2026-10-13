@@ -1,0 +1,43 @@
+{
+ "sci": "Ramphotyphlops troglodytes",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 539301,
+  "name": "Anilios troglodytes",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sandamara_blind_snake",
+  "common": "Sandamara Blind Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/496626835/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen Zozaya, some rights reserved (CC BY-NC)",
+   "obs": 276554262,
+   "place": "Derby-West Kimberley, AU-WA, AU",
+   "date": "2022-10-14"
+  }
+ ],
+ "wiki": {
+  "title": "Sandamara blind snake",
+  "url": "https://en.wikipedia.org/wiki/Sandamara_blind_snake",
+  "revision": 1376672010,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Sandamara blind snake (Anilios troglodytes) is a species of snake in the Typhlopidae family."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/496626835/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen Zozaya, some rights reserved (CC BY-NC), uploaded by Stephen Zozaya",
+   "photo": 496626835
+  }
+ ]
+}

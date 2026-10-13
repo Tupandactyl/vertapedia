@@ -1,0 +1,57 @@
+{
+ "sci": "Geophis pyburni",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 30024,
+  "name": "Geophis pyburni",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geophis_pyburni",
+  "common": "Pyburn's Earth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105497227/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 65535240,
+   "place": "Tolimán, Jal., Mexico",
+   "date": "2019-09-03"
+  }
+ ],
+ "wiki": {
+  "title": "Geophis pyburni",
+  "url": "https://en.wikipedia.org/wiki/Geophis_pyburni",
+  "revision": 1366451106,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Geophis pyburni, also known as Pyburn's earth snake, is a species of snake in the colubrid family. It is endemic to Mexico. It is only known from its type locality, Rancho La Pastilla in the Sierra de Coalcoman, Michoacan."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, pyburni, is in honor of American herpetologist William Frank \"Billy\" Pyburn (1927–2007)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Geophis pyburni measure 24.7–29.9 cm (9.7–11.8 in) in total length. Tail makes 13–16 % of the total length. The dorsum is dark brown, becoming lighter laterally."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105497227/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 105497227
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "sci": "Hebius chapaensis",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 797684,
+  "name": "Hebius chapaensis",
+  "observations": 9,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Vietnam_water_snake",
+  "common": "Vietnam Water Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523823572/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY-NC)",
+   "obs": 286997212,
+   "place": "Laos",
+   "date": "2025-06-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330167529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 小游, some rights reserved (CC BY-NC)",
+   "obs": 188612918,
+   "place": "Honghe Hani and Yi, CN-YN, CN",
+   "date": "2023-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292464912/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ong-siau-kun, some rights reserved (CC BY-NC)",
+   "obs": 168735735,
+   "place": "Honghe Hani and Yi, CN-YN, CN",
+   "date": "2023-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693951872/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 赛级纯血云南人, some rights reserved (CC BY-NC)",
+   "obs": 379375859,
+   "place": "中国 云南省普洱市墨江哈尼族自治县 文武镇大山",
+   "date": "2026-07-08"
+  }
+ ],
+ "wiki": {
+  "title": "Vietnam water snake",
+  "url": "https://en.wikipedia.org/wiki/Vietnam_water_snake",
+  "revision": 1315374059,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Vietnam water snake or Chapa flat-nosed snake (Hebius chapaensis) is a species of colubrid snake. It is found in northern Vietnam and Yunnan, southern China."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292465106/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ong-siau-kun, some rights reserved (CC BY-NC), uploaded by ong-siau-kun",
+   "photo": 292465106
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "sci": "Chironius dracomaris",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 1545904,
+  "name": "Chironius dracomaris",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Baturité Sipo"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218062663/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John A. Andrade, some rights reserved (CC BY-NC)",
+   "obs": 128382405,
+   "place": "Pacoti, CE, 62770-000, Brazil",
+   "date": "2022-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369973999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elendil Cocchi, some rights reserved (CC BY-NC)",
+   "obs": 209076943,
+   "place": "Guaramiranga - Ceará, Brésil",
+   "date": "2023-08-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713366063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Lucas Oliver, some rights reserved (CC BY-NC)",
+   "obs": 389443516,
+   "place": "Guaramiranga - CE, Brasil",
+   "date": "2026-08-05"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218062663/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John A. Andrade, some rights reserved (CC BY-NC), uploaded by John A. Andrade",
+   "photo": 218062663
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218062629/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John A. Andrade, some rights reserved (CC BY-NC), uploaded by John A. Andrade",
+   "photo": 218062629
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369973999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elendil Cocchi, some rights reserved (CC BY-NC), uploaded by Elendil Cocchi",
+   "photo": 369973999
+  }
+ ]
+}

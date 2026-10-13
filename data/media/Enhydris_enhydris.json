@@ -1,0 +1,119 @@
+{
+ "sci": "Enhydris enhydris",
+ "fetched": "2026-10-13",
+ "inat": {
+  "id": 26770,
+  "name": "Enhydris enhydris",
+  "observations": 587,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rainbow_water_snake",
+  "common": "Rainbow Mud Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448753805/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nguyễn Minh Phú, some rights reserved (CC BY-NC)",
+   "obs": 250864750,
+   "place": "Long Nguyên, Thành phố Bến Cát, Bình Dương, Vietnam",
+   "date": "2024-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/326565662/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BioM_Akekachoke.B, some rights reserved (CC BY-NC)",
+   "obs": 186820061,
+   "place": "Muang Pattani, TH-PI, TH",
+   "date": "2023-10-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321262504/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ramdani, some rights reserved (CC BY-NC)",
+   "obs": 184078718,
+   "place": "Sepauhan Jaya, Tumbang Titi, Ketapang Regency, West Kalimantan, Indonesia",
+   "date": "2023-09-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574925769/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ngôn Lâm Quang, some rights reserved (CC BY-NC)",
+   "obs": 318127326,
+   "place": "Mỹ Phước, Mỹ Tú, Sóc Trăng, Việt Nam",
+   "date": "2018-07-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22776471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aswad andriyanto, some rights reserved (CC BY-NC)",
+   "obs": 15222492,
+   "place": "Depok, Kota Depok, Jawa Barat, Indonesia",
+   "date": "2018-08-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/695181059/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hajima, some rights reserved (CC BY-NC)",
+   "obs": 380012230,
+   "place": "Suan Luang, Bangkok, 태국",
+   "date": "2026-07-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250814295/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Zakqary Roy, some rights reserved (CC BY)",
+   "obs": 145950985,
+   "place": "Malaysia",
+   "date": "2023-01-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/674203584/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Floyd E. Hayes, some rights reserved (CC BY-NC)",
+   "obs": 369109554,
+   "place": "Khum Pongro, Cambodia",
+   "date": "2026-03-26"
+  }
+ ],
+ "wiki": {
+  "title": "Rainbow water snake",
+  "url": "https://en.wikipedia.org/wiki/Rainbow_water_snake",
+  "revision": 1376464741,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The rainbow water snake (Enhydris enhydris) is a species of mildly venomous, rear-fanged, colubrid snake, endemic to Asia."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "E. enhydris is found in southeastern China, Indonesia (Bangka, Belitung, Java, Kalimantan, Sulawesi, Sumatra, We), Bangladesh, Cambodia, central and eastern India, Laos, Malaysia (Malaya and East Malaysia, Borneo, Pulau Tioman), Myanmar (Burma), Nepal, Pakistan, Singapore (?), Sri Lanka, Pulau Bangka, Thailand, and Vietnam.",
+     "Type locality: \"Indiae orientalis\""
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162041069/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) knotsnake, some rights reserved (CC BY-NC)",
+   "photo": 162041069
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22776471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aswad andriyanto, some rights reserved (CC BY-NC), uploaded by aswad andriyanto",
+   "photo": 22776471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448753805/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nguyễn Minh Phú, some rights reserved (CC BY-NC), uploaded by Nguyễn Minh Phú",
+   "photo": 448753805
+  }
+ ]
+}
