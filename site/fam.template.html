@@ -57,7 +57,7 @@ h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;ma
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 18px}
 .chip{font-size:12px;padding:2px 10px;border-radius:999px;background:var(--moss-soft);color:var(--moss);font-weight:500}
 .st{font-size:11.5px;padding:1px 9px;border-radius:999px;white-space:nowrap;font-weight:500}
-.st.kos,.st.official{background:var(--ok-bg);color:var(--ok)}
+.st.kos,.st.kshr,.st.official{background:var(--ok-bg);color:var(--ok)}
 .st.consensus,.st.proposal{background:var(--info-bg);color:var(--info)}
 .st.none,.st.split,.st.kos_held{background:var(--warn-bg);color:var(--warn)}
 section{margin-top:22px}
@@ -100,7 +100,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
-const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
+const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
 const nm=x=>x&&x.name?`${esc(x.name)} ${esc(x.sci)}`:x?esc(x.sci):'';
 const link=(page,x)=>`${page}.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
 function pn(d){

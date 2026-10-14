@@ -81,7 +81,7 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 .card h3{font-size:17px}
 .big{font-family:var(--display);font-size:22px;font-weight:700}
 .st{font-size:11.5px;padding:1px 9px;border-radius:999px;white-space:nowrap;font-weight:500}
-.st.kos,.st.official{background:var(--ok-bg);color:var(--ok)}
+.st.kos,.st.kshr,.st.official{background:var(--ok-bg);color:var(--ok)}
 .st.consensus,.st.proposal{background:var(--info-bg);color:var(--info)}
 .st.none,.st.split,.st.kos_held{background:var(--warn-bg);color:var(--warn)}
 .why{font-size:13px;margin:10px 0 0}
@@ -121,7 +121,7 @@ function nmHtml(x,self){
   return `<span class="nm" title="${esc(orig)}">${k}${first?`<span class="notranslate" translate="no"> (<span lang="en">${o}</span>)</span>`:''}</span>`;
 }
 const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
-const ST={kos:'한국조류목록 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
+const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
 const credit=p=>{const m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(p.attribution||'');return `© ${m?m[1]:(p.attribution||'')} · ${LIC[p.license]||p.license}`};

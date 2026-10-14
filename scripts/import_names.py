@@ -2,6 +2,7 @@
 
 - 국가생물종목록 Ⅱ (2019) PDF → 공식 국명
 - 한국조류목록 2025 (한국조류학회) → 조류 국명 보충
+- 한국양서파충류학회 파충류 종 목록 2025 (data/kshr2025.json, scripts/parse_kshr.py) → 파충류 국명 우선
 - 조류·파충류 구글 시트(xlsx 내보내기) → 학명 체계, 합의본·개인 제안·명칭 근거
 - Reptile Database 종 목록(data/rdb_checklist.xlsx) → 파충류 학명·아종의 기준 (scripts/rdb.py)
 - data/overrides.json → 편집자가 직접 정한 대응
@@ -275,9 +276,12 @@ class Linker:
 
 
 def pick_name(t):
-    """국명 우선순위: 한국조류목록 2025 > 국가생물종목록 > 시트 합의본 > 일치하는 개인 제안 > 없음(영명)."""
+    """국명 우선순위: 한국조류목록 2025(조류)·한국양서파충류학회 2025(파충류) > 국가생물종목록 > 시트 합의본
+    > 일치하는 개인 제안 > 없음(영명)."""
     if t.get("kos") and not t["kos"].get("held"):
         return t["kos"]["ko"], "kos"
+    if t.get("kshr"):
+        return t["kshr"]["ko"], "kshr"
     if t.get("official"):
         return t["official"], "official"
     if t.get("consensus"):
@@ -493,14 +497,49 @@ def main():
         for s in t.get("subspecies", []):
             s.setdefault("source", "한국조류목록 2025")
 
+    # --- 한국양서파충류학회 파충류 종 목록 2025 → 시트 (파충류만, 국명은 국가생물종목록보다 먼저) ---
+    kshr_rows = []
+    kshr_f = DATA / "kshr2025.json"
+    for k in (json.loads(kshr_f.read_text(encoding="utf-8"))["species"] if kshr_f.exists() else []):
+        if k["superseded"]:
+            continue
+        words = k["sci"].split()
+        sp_sci = " ".join(words[:2])
+        t = by_key.get(("REPTILIA", sp_sci))
+        how = "학명 일치"
+        if t is None:  # Reptile Database 학명으로 바뀐 종: 이명으로 찾고, 없으면 종소명 등으로
+            t = next((x for x in sheet if x["group"] == "REPTILIA" and x["rank"] == "species"
+                      and sp_sci in (x.get("synonyms") or [])), None)
+            how = "이명"
+        if t is None:
+            t, how, _ = linker.link("REPTILIA", sp_sci, k["ko"])
+        kshr_rows.append(dict(kshr_sci=k["sci"], ko=k["ko"], sheet_sci=t["sci"] if t else None, how=how))
+        if t is None:
+            continue
+        if len(words) == 3:  # 아종으로 실린 종(붉은귀거북 = T. scripta elegans): 아종 국명 + 종 국내 기록
+            entry = next((x for x in t.get("subspecies", []) if x["sci"] == k["sci"]), None)
+            if entry is None:
+                entry = dict(sci=k["sci"])
+                t.setdefault("subspecies", []).append(entry)
+            entry.update(ko=k["ko"], source="한국양서파충류학회 2025")
+            t["kshr_ssp"] = dict(k)
+            continue
+        t["kshr"] = dict(sci=k["sci"], ko=k["ko"], en=k["en"], north=k["north"])
+        if k["sci"] != t["sci"]:
+            t.setdefault("synonyms", [])
+            if k["sci"] not in t["synonyms"]:
+                t["synonyms"].append(k["sci"])
+
     # --- 국명 확정 ---
     stat = Counter()
     # 다른 분류군의 공식 국명과 겹치면 한국조류목록 이름으로 채우지 않는다(종 분할 뒤 중복 방지)
     # 한국조류목록 2025 국명이 다른 분류군에 이미 쓰였으면, 그 국가생물종목록 국명은 쓰지 않는다
+    # 한국양서파충류학회 국명도 같다(예: 유혈목이 → R. lateralis 이므로 R. tigrinus 의 국가생물종목록 국명은 쓰지 않음)
     kos_taken = {(t["group"], norm(t["kos"]["ko"])): t["sci"] for t in sheet if t.get("kos") and not t["kos"].get("held")}
+    kos_taken.update({(t["group"], norm(t["kshr"]["ko"])): t["sci"] for t in sheet if t.get("kshr")})
     for t in sheet:
         o = t.get("official")
-        if o and not t.get("kos") and kos_taken.get((t["group"], norm(o)), t["sci"]) != t["sci"]:
+        if o and not t.get("kos") and not t.get("kshr") and kos_taken.get((t["group"], norm(o)), t["sci"]) != t["sci"]:
             t["official_ref"] = o
             t["official"] = None
         t["name"], t["status"] = pick_name(t)
@@ -519,9 +558,14 @@ def main():
             sheet.insert(0, t)
             by_key[(o["group"], o["sci"])] = t
         t.update(name=o["name"], status="consensus", rationale=o.get("note"))
-    # 파충류 국내 기록: 국가생물종목록에 실린 종(들여온 종은 overrides.json reptile_kr)
+    # 파충류 국내 기록: 한국양서파충류학회 목록(없으면 국가생물종목록)에 실린 종. 들여온 종은 overrides.json reptile_kr
     for t in sheet:
-        if t["group"] == "REPTILIA" and t["rank"] == "species" and (t.get("official") or t.get("nibr_sci")):
+        if t["group"] != "REPTILIA" or t["rank"] != "species":
+            continue
+        if t.get("kshr") or t.get("kshr_ssp"):
+            north = (t.get("kshr") or t["kshr_ssp"]).get("north")
+            t["kr"] = ov.get("reptile_kr", {}).get(t["sci"], "북한 기록종" if north else "한국 기록종")
+        elif (t.get("official") or t.get("nibr_sci")) and not kshr_rows:
             t["kr"] = ov.get("reptile_kr", {}).get(t["sci"], "한국 기록종")
     for t in sheet:
         stat[(t["group"], t["rank"], t["status"])] += 1
@@ -535,6 +579,7 @@ def main():
     kos_used = [r for r in kos_rows if r["sheet_sci"] and not r.get("official") and not r["held"]
                 and by_key.get(("AVES", r["sheet_sci"]), {}).get("status") == "kos"]
     kos_unlinked = [r for r in kos_rows if not r["sheet_sci"]]
+    (DATA / "kshr.json").write_text(json.dumps(kshr_rows, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "rdb.json").write_text(json.dumps(rdb_log, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "names.json").write_text(json.dumps(sheet, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "review.json").write_text(json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -548,6 +593,8 @@ def main():
     rep.append(f"국명 차이 {len(conflicts)}건 (분류 변경 {sum(1 for c in conflicts if len(c['moved_to']) == 1)})")
     rep.append(f"한국조류목록 2025: 연결 {len(kos_rows) - len(kos_unlinked)} / 못 이음 {len(kos_unlinked)} · "
                f"국가생물종목록과 국명 다름 {len(kos_diff)} · 빈 국명 채움 {len(kos_used)}")
+    rep.append(f"한국양서파충류학회 2025: {len(kshr_rows)}종 · 못 이음 {sum(1 for r in kshr_rows if not r['sheet_sci'])}")
+    rep += [f"  {r['kshr_sci']} {r['ko']} → {r['sheet_sci']} ({r['how']})" for r in kshr_rows if r["sheet_sci"] != r["kshr_sci"]]
     rep.append(f"{RDB_LABEL}: 학명 변경 {len(rdb_log['renamed'])} · 통합 {len(rdb_log['merged'])} · "
                f"목록에 없음 {len(rdb_log['dropped'])} · 새로 넣음 {len(rdb_log['added'])} · 과 배정 {len(rdb_log.get('placed', []))}")
     rep.append(f"  웹에서 빠진 checklist 종(통합 추정) {len(rdb_log['web_lumped'])}: " + ", ".join(rdb_log["web_lumped"]))

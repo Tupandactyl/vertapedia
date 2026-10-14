@@ -1,0 +1,435 @@
+{
+ "source": "한국양서파충류학회 우리나라 파충류 종 목록 (5차 개정, 2025년 4월)",
+ "species": [
+  {
+   "no": 1,
+   "revised": false,
+   "sci": "Chelonia mydas",
+   "author": "Linnaeus, 1758",
+   "ko": "푸른바다거북",
+   "en": "Green Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 2,
+   "revised": false,
+   "sci": "Caretta caretta",
+   "author": "Linnaeus, 1758",
+   "ko": "붉은바다거북",
+   "en": "Loggerhead Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 3,
+   "revised": false,
+   "sci": "Eretmochelys imbricata",
+   "author": "Linnaeus, 1766",
+   "ko": "매부리바다거북",
+   "en": "Hawksbill Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 4,
+   "revised": false,
+   "sci": "Dermochelys coriacea",
+   "author": "Vandelli, 1761",
+   "ko": "장수거북",
+   "en": "Leatherback Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 5,
+   "revised": true,
+   "sci": "Lepidochelys olivacea",
+   "author": "Eschscholtz, 1829",
+   "ko": "올리브바다거북",
+   "en": "Olive Ridley Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 5,
+   "revised": false,
+   "sci": "Pelodiscus maackii",
+   "author": "Brandt, 1858",
+   "ko": "자라",
+   "en": "Amur Soft-shelled Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 6,
+   "revised": false,
+   "sci": "Pelodiscus sinensis",
+   "author": "Wiegmamm, 1835",
+   "ko": "중국자라",
+   "en": "Chinese Soft-shelled Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 7,
+   "revised": false,
+   "sci": "Mauremys reevesii",
+   "author": "Gray, 1931",
+   "ko": "남생이",
+   "en": "Reeves’ Turtle",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 8,
+   "revised": false,
+   "sci": "Trachemys scripta elegans",
+   "author": "Wied, 1838",
+   "ko": "붉은귀거북",
+   "en": "Red-eared Slider",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 9,
+   "revised": false,
+   "sci": "Pseudemys concinna",
+   "author": "LeConte, 1830",
+   "ko": "리버쿠터",
+   "en": "River Cooter",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 10,
+   "revised": false,
+   "sci": "Pseudemys nelsoni",
+   "author": "Carr, 1938",
+   "ko": "플로리다붉은배거북",
+   "en": "Florida Red-bellied Cooter",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 11,
+   "revised": false,
+   "sci": "Gekko japonicus",
+   "author": "Schlegel, 1836",
+   "ko": "도마뱀부치",
+   "en": "Schlegel‘s Japanese Gecko",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 12,
+   "revised": false,
+   "sci": "Scincella vandenburghi",
+   "author": "Schmidt, 1927",
+   "ko": "도마뱀",
+   "en": "Tsushima Smooth Skink",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 13,
+   "revised": false,
+   "sci": "Scincella huanrenensis",
+   "author": "Zhao & Huang, 1982",
+   "ko": "북도마뱀",
+   "en": "Liaoning Smooth Skink",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 14,
+   "revised": false,
+   "sci": "Plestiodon coreensis",
+   "author": "Doi & Kamita, 1937",
+   "ko": "장수도마뱀",
+   "en": "Smith's Skink",
+   "north": true,
+   "superseded": false
+  },
+  {
+   "no": 15,
+   "revised": false,
+   "sci": "Takydromus amurensis",
+   "author": "Peters, 1881",
+   "ko": "아무르장지뱀",
+   "en": "Amur Grass Lizard",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 16,
+   "revised": false,
+   "sci": "Takydromus wolteri",
+   "author": "Fischer, 1885",
+   "ko": "줄장지뱀",
+   "en": "Mountain Grass Lizard",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 17,
+   "revised": false,
+   "sci": "Eremias argus",
+   "author": "Peters, 1869",
+   "ko": "표범장지뱀",
+   "en": "Mongolia Racerunner",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 18,
+   "revised": false,
+   "sci": "Elaphe dione",
+   "author": "Pallas, 1773",
+   "ko": "누룩뱀",
+   "en": "Steppes Rat snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 19,
+   "revised": false,
+   "sci": "Elaphe schrenckii",
+   "author": "Strauch, 1873",
+   "ko": "구렁이",
+   "en": "Amur Rat snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 20,
+   "revised": false,
+   "sci": "Elaphe davidi",
+   "author": "Sauvage, 1884",
+   "ko": "세줄무늬뱀",
+   "en": "Pere David's Rat Snake",
+   "north": true,
+   "superseded": false
+  },
+  {
+   "no": 21,
+   "revised": false,
+   "sci": "Orthriophis taeniura",
+   "author": "Cope, 1861",
+   "ko": "줄꼬리뱀",
+   "en": "Beauty Snake",
+   "north": true,
+   "superseded": false
+  },
+  {
+   "no": 22,
+   "revised": false,
+   "sci": "Oocatochus rufodorsatus",
+   "author": "Cantor, 1842",
+   "ko": "무자치",
+   "en": "Frog-eating Rat snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 23,
+   "revised": false,
+   "sci": "Rhabdophis tigrinus",
+   "author": "Boie, 1826",
+   "ko": "유혈목이",
+   "en": "Tiger Keelback",
+   "north": false,
+   "superseded": true
+  },
+  {
+   "no": 23,
+   "revised": true,
+   "sci": "Rhabdophis lateralis",
+   "author": "Berthold, 1859",
+   "ko": "유혈목이",
+   "en": "Tiger Keelback",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 24,
+   "revised": false,
+   "sci": "Amphiesma vibakari",
+   "author": "Boie, 1826",
+   "ko": "대륙유혈목이",
+   "en": "Japanese Keelback",
+   "north": false,
+   "superseded": true
+  },
+  {
+   "no": 24,
+   "revised": true,
+   "sci": "Hebius vibakari",
+   "author": "Boie, 1826",
+   "ko": "대륙유혈목이",
+   "en": "Japanese Keelback",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 25,
+   "revised": false,
+   "sci": "Dinodon rufozonatum",
+   "author": "Cantor, 1842",
+   "ko": "능구렁이",
+   "en": "Red-banded Snake",
+   "north": false,
+   "superseded": true
+  },
+  {
+   "no": 25,
+   "revised": true,
+   "sci": "Lycodon rufozonatus",
+   "author": "Fitzinger, 1826",
+   "ko": "능구렁이",
+   "en": "Red-banded Snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 26,
+   "revised": false,
+   "sci": "Hierophis spinalis",
+   "author": "Peters, 1866",
+   "ko": "실뱀",
+   "en": "Slender Racer",
+   "north": false,
+   "superseded": true
+  },
+  {
+   "no": 26,
+   "revised": true,
+   "sci": "Orientocoluber spinalis",
+   "author": "Peters, 1866",
+   "ko": "실뱀",
+   "en": "Slender Racer",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 27,
+   "revised": false,
+   "sci": "Sibynophis chinensis",
+   "author": "Günther, 1889",
+   "ko": "비바리뱀",
+   "en": "Chinese Many-tooth Snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 28,
+   "revised": false,
+   "sci": "Gloydius ussuriensis",
+   "author": "Emelianov, 1929",
+   "ko": "쇠살모사",
+   "en": "Ussuri Pit Viper",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 29,
+   "revised": false,
+   "sci": "Gloydius brevicaudus",
+   "author": "Stejneger, 1907",
+   "ko": "살모사",
+   "en": "Short-tailed Pit Viper",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 30,
+   "revised": false,
+   "sci": "Gloydius saxatilis",
+   "author": "Emelianov, 1937",
+   "ko": "까치살모사",
+   "en": "Central Asian Pit Viper",
+   "north": false,
+   "superseded": true
+  },
+  {
+   "no": 30,
+   "revised": true,
+   "sci": "Gloydius intermedius",
+   "author": "Strauch, 1868",
+   "ko": "까치살모사",
+   "en": "Central Asian Pit Viper",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 31,
+   "revised": false,
+   "sci": "Vipera berus",
+   "author": "Linnaeus, 1758",
+   "ko": "북살모사",
+   "en": "Northern Viper",
+   "north": true,
+   "superseded": false
+  },
+  {
+   "no": 32,
+   "revised": false,
+   "sci": "Hydrophis cyanocinctus",
+   "author": "Daudin, 1803",
+   "ko": "얼룩바다뱀",
+   "en": "Annulated Sea Snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 33,
+   "revised": false,
+   "sci": "Hydrophis melanocephalus",
+   "author": "Gray, 1849",
+   "ko": "먹대가리바다뱀",
+   "en": "Slender-necked Sea Snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 35,
+   "revised": false,
+   "sci": "Pelamis platura",
+   "author": "Linnaeus, 1766",
+   "ko": "바다뱀",
+   "en": "Yellow-bellied Sea Snake",
+   "north": false,
+   "superseded": true
+  },
+  {
+   "no": 34,
+   "revised": true,
+   "sci": "Hydrophis platurus",
+   "author": "Linnaeus, 1766",
+   "ko": "바다뱀",
+   "en": "Yellow-bellied Sea Snake",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 36,
+   "revised": false,
+   "sci": "Laticauda laticaudata",
+   "author": "Linnaeus, 1758",
+   "ko": "좁은띠큰바다뱀",
+   "en": "Blue-banded Sea Krait",
+   "north": false,
+   "superseded": false
+  },
+  {
+   "no": 37,
+   "revised": false,
+   "sci": "Laticauda semifasciata",
+   "author": "Reinwardt in Schlegel, 1837",
+   "ko": "넓은띠큰바다뱀",
+   "en": "Chinese Sea Krait",
+   "north": false,
+   "superseded": false
+  }
+ ]
+}
