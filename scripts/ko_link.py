@@ -11,6 +11,10 @@ WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*")
 ENGLISH = set("and or but the a an is are was were be been has have had in of on at to from by with as for "
               "which that who whose its it this these those than then also not only into include includes "
               "including contains contain comprises species genus genera family".split())
+# 영명 앞에 붙으면 다른 종 이름이 되는 수식어(크기·방위·색·서식지 등)
+NAME_MODS = set("""northern southern eastern western central greater lesser little great giant common dwarf pygmy
+black white red grey gray brown yellow green blue golden spotted striped barred mountain forest desert island arctic
+hoary mealy rufous olive dusky pale dark large small""".split())
 THE = re.compile(r"(?:(?<=\W)|^)(?:[Tt]he|[Aa]n?) $")
 # 흔한 영어 낱말·사람 이름과 겹치는 한 단어 영명은 바꾸지 않는다
 AMBIGUOUS = {"merlin", "rook", "redhead", "whitehead", "hardhead", "ruff", "ou", "rifleman", "yellowhead",
@@ -27,9 +31,15 @@ class Linker:
         self.en, self.sci, self.genus = {}, {}, {}
         for t in names:
             ko = t.get("name")
-            if not ko:
-                continue
             rk = t["rank"]
+            if not ko:
+                # 국명 없는 종의 영명·학명도 넣어 둔다: 더 긴 이름이 그 종이면 통째로 영어로 두고, 그 안의 짧은 이름을 잘못 잡지 않게
+                if rk == "species":
+                    self.sci.setdefault(tuple(t["sci"].split()), (None, "S", t["sci"]))
+                    en = (t.get("en") or "").strip()
+                    if en and " " in en:
+                        self.en.setdefault(tuple(_norm(w) for w in WORD.findall(en)), (None, "s", t["sci"]))
+                continue
             if rk == "species":
                 self.sci.setdefault(tuple(t["sci"].split()), (ko, "S", t["sci"]))  # 학명은 그대로 두고 링크만
                 en = (t.get("en") or "").strip()
@@ -67,6 +77,20 @@ class Linker:
                 return i + 1, g
         return None
 
+    @staticmethod
+    def _modified(text, toks, i):
+        """영명 바로 앞에 이름을 이루는 수식어가 붙어 있나(예: Madagascar Black Bulbul, lesser redpoll).
+        그러면 대조표에 없는 더 긴 이름일 수 있으니 바꾸지 않는다."""
+        if i == 0 or text[toks[i - 1].end():toks[i].start()] != " ":
+            return False
+        prev = toks[i - 1].group()
+        if _norm(prev) in NAME_MODS:
+            return True
+        if prev[0].isupper() and prev not in ("The", "A", "An"):
+            before = text[:toks[i - 1].start()].rstrip()
+            return bool(before) and before[-1] not in ".!?:;(\"'“‘"  # 문장 첫 단어는 제외
+        return False
+
     def paragraph(self, text, seen):
         toks = list(WORD.finditer(text))
         out, pos, i = [], 0, 0
@@ -76,6 +100,9 @@ class Linker:
                 i += 1
                 continue
             j, (ko, rk, sci) = m
+            if ko is None or (rk == "s" and self._modified(text, toks, i)):
+                i = j  # 국명 없는 종이거나 더 긴 다른 이름의 일부 → 영어 그대로
+                continue
             a, b = toks[i].start(), toks[j - 1].end()
             before = text[pos:a]
             if rk != "S":  # 국명 앞 관사(the·a·an)는 뺀다 — 남겨 두면 번역기가 "the ○○"를 "그만큼" 따위로 옮긴다
