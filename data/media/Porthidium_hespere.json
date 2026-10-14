@@ -1,0 +1,109 @@
+{
+ "sci": "Porthidium hespere",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 31013,
+  "name": "Porthidium hespere",
+  "observations": 12,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Porthidium_hespere",
+  "common": "Western Hognose Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45072800/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA)",
+   "obs": 28901520,
+   "place": "Zihuatanejo de Azueta, Gro., México",
+   "date": "2018-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45073152/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA)",
+   "obs": 28901521,
+   "place": "Zihuatanejo de Azueta, Gro., México",
+   "date": "2018-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248838373/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eddie_rivera, some rights reserved (CC BY-NC)",
+   "obs": 144922046,
+   "place": "San Francisco De Los Ranchos, San Francisco de los Ranchos, Michoacán, MX",
+   "date": "2022-12-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64756003/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 40847088,
+   "place": "Zihuatanejo de Azueta, Guerrero, Mexico",
+   "date": "2019-07-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248874221/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eddie_rivera, some rights reserved (CC BY-NC)",
+   "obs": 144939098,
+   "place": "San Francisco De Los Ranchos, San Francisco de los Ranchos, Michoacán, MX",
+   "date": "2018-08-07"
+  }
+ ],
+ "wiki": {
+  "title": "Porthidium hespere",
+  "url": "https://en.wikipedia.org/wiki/Porthidium_hespere",
+  "revision": 1368725936,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: Colima hognosed pit viper.",
+     "Porthidium hespere is a pit viper species found in western Mexico. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Known from only four specimens: two females with locality data and two other specimens without. The former were moderately stout and were 31.5 and 57.9 cm (12+1⁄2 and 22+3⁄4 in) in total length. The snout is unelevated to only slightly elevated."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Found in western Mexico (Colima). The type locality given is \"on a west-facing slope of the foothills ca. 12 airline km NE of Tecomán, Municipio de Ixlahuacán [= Ixtlahuacán], Colima, Mexico, ... at an elevation of approximately 300 m.\""
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "This species is classified as Data Deficient (DD) on the IUCN Red List of Threatened Species (v3.1, 2001). Species are listed as such when there is inadequate information to make a direct, or indirect, assessment of its risk of extinction based on its distribution and/or population status. It may be well studied, and its biology well known, but appropriate data on abundance and/or distribution are lacking. Data Deficient is therefore not a category of threat. Listing of taxa in this category indicates that more information is required and acknowledges the possibility that future research will show that threatened classification is appropriate. It is important to make positive use of whatever data are available. In many cases great care should be exercised in choosing between DD and a threatened status. If the range of a taxon is suspected to be relatively circumscribed, and a considerable period of time has elapsed since the last record of the taxon, threatened status may well be justified. The population trend is unknown. Year assessed: 2007."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45072800/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA), uploaded by Esaú Valdenegro-Brito",
+   "photo": 45072800
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45073152/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA), uploaded by Esaú Valdenegro-Brito",
+   "photo": 45073152
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64756003/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 64756003
+  }
+ ]
+}

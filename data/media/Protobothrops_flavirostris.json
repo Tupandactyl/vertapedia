@@ -1,0 +1,114 @@
+{
+ "sci": "Protobothrops flavirostris",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1639380,
+  "name": "Protobothrops flavirostris",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Protobothrops_flavirostris",
+  "common": "Vang Vieng lance-headed pit viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592202797/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rupert Grassby-Lewis, some rights reserved (CC BY-NC)",
+   "obs": 326931118,
+   "place": "Vientiane, LA",
+   "date": "2025-11-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592201693/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rupert Grassby-Lewis, some rights reserved (CC BY-NC)",
+   "obs": 326930870,
+   "place": "Vientiane, LA",
+   "date": "2024-10-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275046784/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC)",
+   "obs": 159203732,
+   "place": "Province de Vientiane, Laos",
+   "date": "2023-05-01"
+  }
+ ],
+ "wiki": {
+  "title": "Protobothrops flavirostris",
+  "url": "https://en.wikipedia.org/wiki/Protobothrops_flavirostris",
+  "revision": 1329128473,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Protobothrops flavirostris, also known as the Vang Viang pit viper, is a species of viper that is endemic to Laos."
+    ]
+   },
+   {
+    "h": "Discovery and naming",
+    "level": 2,
+    "paras": [
+     "Protobothrops flavirostris was first sighted in May 2023 in the Khan Kham caves, being misidentified as the three-horned scaled pit viper. Later in October 2024, an adult female was collected near the Khan Kham caves and designated as the holotype being NUOL R.2024.89.",
+     "The specific epithet of Protobothrops flavirostris is derived from the Latin words flāvus meaning 'yellow' and rostris meaning 'snout', alluding to the species' distinctive yellow snout."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Phylogenetic analysis of Protobothrops flavirotris showed it to be the sister taxon to Protobothrops kelomohy."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "Protobothrops flavirostris is a species endemic to the Vang Viang district, Vientiane, Laos. It has been found at attitudes of 200–400 metres (660–1,310 ft). It is known from limestone caves and limestone karst valleys."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Protobothrops flavirostris can be differentiated from other species in the genus Protobothrops with characteristics such as 23–21–17 dorsal scale rows, all the scales being keeled, 215 ventral scales, 79 subcaudal scales, with all of them being paired, 7–8 supralabials, 10 infralabials, and a lack of a horn like protrusion on the supraocular. In terms of colouration, Protobothrops flavirostris is uniquely known for its yellow snout and tail; there are also three dull stripes on the head, and the body is brown to greyish brown with reddish brown cross-shaped blotches."
+    ]
+   },
+   {
+    "h": "Natural history",
+    "level": 2,
+    "paras": [
+     "Protobothrops flavirostris seems to be nocturnal, as the holotype was found during the night, and it seems to inhabit caves during the day. It also seems to be specialized in climbing, as the observed individual was quite agile. The diet of this species is unknown, but it may feed on bats and bent-toed geckos in the region."
+    ]
+   },
+   {
+    "h": "Threats",
+    "level": 2,
+    "paras": [
+     "Protobothrops flavirostris has an incredibly limited range, which makes it vulnerable to habitat loss. Other threats include potential poaching for the pet trade and the hunting of bats, resulting in a loss of food. Talking with the Hmong people has also shown a decrease in sightings, being more common around 10–15 years ago."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592201693/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rupert Grassby-Lewis, some rights reserved (CC BY-NC), uploaded by Rupert Grassby-Lewis",
+   "photo": 592201693
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592202797/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rupert Grassby-Lewis, some rights reserved (CC BY-NC), uploaded by Rupert Grassby-Lewis",
+   "photo": 592202797
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275046784/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC), uploaded by Pierre-Louis Stenger",
+   "photo": 275046784
+  }
+ ]
+}

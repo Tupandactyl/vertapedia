@@ -1,0 +1,72 @@
+{
+ "sci": "Trimeresurus truongsonensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30973,
+  "name": "Trimeresurus truongsonensis",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_truongsonensis",
+  "common": "Quang Binh Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118128920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parinya Pawangkhanant, some rights reserved (CC BY-NC)",
+   "obs": 72452229,
+   "place": "Laos",
+   "date": "2019-07-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523044869/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phong, some rights reserved (CC BY-NC)",
+   "obs": 290739689,
+   "place": "Laos",
+   "date": "2022-02-08"
+  }
+ ],
+ "wiki": {
+  "title": "Trimeresurus truongsonensis",
+  "url": "https://en.wikipedia.org/wiki/Trimeresurus_truongsonensis",
+  "revision": 1378294538,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trimeresurus truongsonensis is a venomous pitviper species endemic to Vietnam. Its common names are Truong Son pit viper and Quang Binh pitviper."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "This species is known with certainty only from the Phong Nha-Ke Bang National Park, Quang Binh province, in the Annamite Mountains of central Vietnam."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "This species is found in evergreen tropical forests at elevations of 500–600 m (1,600–2,000 ft) above sea level. These secretive snakes are mostly seen when basking following strong rains."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Trimeresurus truongsonensis is viviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118128920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parinya Pawangkhanant, some rights reserved (CC BY-NC), uploaded by Parinya Pawangkhanant",
+   "photo": 118128920
+  }
+ ]
+}

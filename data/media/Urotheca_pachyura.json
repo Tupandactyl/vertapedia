@@ -1,0 +1,81 @@
+{
+ "sci": "Urotheca pachyura",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28119,
+  "name": "Urotheca pachyura",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Urotheca_pachyura",
+  "common": "Costa Rican Glasstail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605039436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eva Paulus, some rights reserved (CC BY-NC)",
+   "obs": 333283673,
+   "place": "Limón Province, Pococí, Costa Rica",
+   "date": "2015-06-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) canopalma, some rights reserved (CC BY-NC)",
+   "obs": 566798,
+   "place": "caño palma costa rica",
+   "date": "2014-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111173588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC)",
+   "obs": 68627872,
+   "place": "Limón Province, Pococí, Costa Rica",
+   "date": "2005-03-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348014085/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Diego Ramírez, some rights reserved (CC BY-NC)",
+   "obs": 197571565,
+   "place": "P2RR+R58, San José, Desamparados, Vara de Roble, Costa Rica",
+   "date": "2024-01-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189859368/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Collister, some rights reserved (CC BY-NC)",
+   "obs": 112406809,
+   "place": "San Carlos, Alajuela, CR",
+   "date": "2022-04-19"
+  }
+ ],
+ "wiki": {
+  "title": "Urotheca pachyura",
+  "url": "https://en.wikipedia.org/wiki/Urotheca_pachyura",
+  "revision": 1355161884,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Urotheca pachyura is a species of snake in the family, Colubridae. It is found in Costa Rica, Panama, Nicaragua, and Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111173588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J.D. Willson, some rights reserved (CC BY-NC), uploaded by J.D. Willson",
+   "photo": 111173588
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720568/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) canopalma, some rights reserved (CC BY-NC)",
+   "photo": 720568
+  }
+ ]
+}

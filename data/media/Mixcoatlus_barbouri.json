@@ -1,0 +1,89 @@
+{
+ "sci": "Mixcoatlus barbouri",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 145776,
+  "name": "Mixcoatlus barbouri",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mixcoatlus_barbouri",
+  "common": "Barbour's Montane Pit Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105534130/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 65555937,
+   "place": "General Heliodoro Castillo, Guerrero, Mexico",
+   "date": "2015-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105534529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 65556072,
+   "place": "Unnamed Road, Guerrero, Mexico",
+   "date": "2015-09-03"
+  }
+ ],
+ "wiki": {
+  "title": "Mixcoatlus barbouri",
+  "url": "https://en.wikipedia.org/wiki/Mixcoatlus_barbouri",
+  "revision": 1351248513,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: Barbour's montane pit viper, Barbour's pit viper",
+     "Mixcoatlus barbouri is a pit viper species endemic to Mexico. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, barbouri, is in honor of American herpetologist Thomas Barbour."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of M. barbouri generally grow to 30–40 cm (11¾-15¾ inches) in total length (including tail), with a maximum recorded total length of 51.0 cm (20 in). The species is terrestrial and moderately stout.",
+     "The color pattern consists of a blackish ground color, overlaid with a vague dorsal zig-zag stripe that extends down the flanks, which looks like a series of triangular markings. The skin between the scales is rust-colored, as are the sides of the head."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Mixcoatlus barbouri is found in the highlands of the Sierra Madre del Sur in the state of Guerrero, Mexico.",
+     "The type locality given is \"Omilteme [or Omiltemi], Guerrero, Mexico\"."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitats of M. barbouri are mountain areas at some 9,000 feet (2,740 m) elevation in rocky pine forests and clearings with bunch grass."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The species M. barbouri is classified as Endangered (EN) on the IUCN Red List of Threatened Species with the following criteria: B1ab(iii) (v3.1, 2001). A species is listed as such when the best available evidence indicates that the geographic range, in the form of extent of occurrence, is estimated to be less than 5,000 km² (1,930 mi²), estimates indicate the population is severely fragmented or known to exist at no more than five locations, and a continuing decline has been observed, inferred or projected in the area, extent and/or quality of habitat. It is therefore considered to be facing a very high risk of extinction in the wild. The population trend is down. Year assessed: 2007."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105534529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 105534529
+  }
+ ]
+}

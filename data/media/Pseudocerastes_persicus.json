@@ -1,0 +1,120 @@
+{
+ "sci": "Pseudocerastes persicus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30992,
+  "name": "Pseudocerastes persicus",
+  "observations": 60,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pseudocerastes",
+  "common": "Persian Horned Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226322600/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shahrzad Fattahi, some rights reserved (CC BY-NC)",
+   "obs": 132915229,
+   "place": "Garmsar, Semnan Province, Iran",
+   "date": "2014-05-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5359654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gtonen, some rights reserved (CC BY-NC)",
+   "obs": 4449579,
+   "place": "Ras Al Khaymah, AE",
+   "date": "2016-10-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5284977/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gtonen, some rights reserved (CC BY-NC)",
+   "obs": 4401005,
+   "place": "Ras Al Khaymah, AE",
+   "date": "2016-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65323525/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paige Duvenage, some rights reserved (CC BY-NC)",
+   "obs": 41192142,
+   "place": "Wadi Shahah, Ras Al Khaimah, Ras al-Khaimah, AE",
+   "date": "2019-08-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243504789/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alvand Mohammadalizadegan, some rights reserved (CC BY-NC)",
+   "obs": 142066638,
+   "place": "Tabas, IR-YA, IR",
+   "date": "2022-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211558147/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mohammad Amin Ghaffari, some rights reserved (CC BY)",
+   "obs": 124795448,
+   "place": "شهربابک، استان کرمان، ایران",
+   "date": "2022-06-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210052778/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Faezeh Fatemizadeh, some rights reserved (CC BY-NC)",
+   "obs": 123957080,
+   "place": "Sistan and Baluchistan",
+   "date": "2021-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30809588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC)",
+   "obs": 19965987,
+   "place": "Ardakan, Yazd, Iran",
+   "date": "2018-10-03"
+  }
+ ],
+ "wiki": {
+  "title": "Pseudocerastes",
+  "url": "https://en.wikipedia.org/wiki/Pseudocerastes",
+  "revision": 1146134573,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pseudocerastes is a genus of vipers endemic to the Middle East and Asia. It was originally created as a monotypic genus in 1896 by Boulenger for the species Pseudocerastes persicus, but three species are now recognised: the spider-tailed horned viper (P. urarachnoides); Persian horned viper (P. persicus) and Field's horned viper (P.  fieldi). Like all other vipers, the members of this genus are venomous.",
+     "Pseudocerastes are often referred to as false-horned vipers because of the horn-like structures above their eyes that are made up of numerous small scales. This is in contrast to the \"true\" horned viper, Cerastes cerastes, which has similar supraorbital \"horns\", each consisting of a single elongated scale."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "In 2006, Bostanchi, Anderson, Kami and Papenfuss described a new species: P. urarachnoides. It is found in the Zagros Mountains of western Iran and is described as having the most elaborate tail ornamentation of any snake yet described, save for the rattlesnakes, Crotalus and Sistrurus.",
+     "P. fieldi and P. persicus were once regarded as two subspecies of the same species, but further studies on the snakes'  morphology, molecular structure and toxicology determined that they are in fact separate species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224763890/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 224763890
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143210035/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 143210035
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224764794/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hossein_nabizadeh, some rights reserved (CC BY-NC)",
+   "photo": 224764794
+  }
+ ]
+}

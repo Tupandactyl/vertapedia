@@ -1,0 +1,65 @@
+{
+ "sci": "Ialtris dorsalis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30063,
+  "name": "Ialtris dorsalis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ialtris_dorsalis",
+  "common": "Brown Fanged Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112538029/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC)",
+   "obs": 69371352,
+   "place": null,
+   "date": "2012-09-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254256787/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Suhei Castro, some rights reserved (CC BY)",
+   "obs": 147730255,
+   "place": "Dominican Republic",
+   "date": "2023-01-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181909094/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henry Abreu Dominguez, some rights reserved (CC BY-NC)",
+   "obs": 108084196,
+   "place": null,
+   "date": "2021-10-02"
+  }
+ ],
+ "wiki": {
+  "title": "Ialtris dorsalis",
+  "url": "https://en.wikipedia.org/wiki/Ialtris_dorsalis",
+  "revision": 1355160491,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ialtris dorsalis, the Hispaniolan W-headed racer or brown fanged snake, is a species of snake in the family Colubridae.  The species is native to the Dominican Republic."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112538029/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez",
+   "photo": 112538029
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181909094/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henry Abreu Dominguez, some rights reserved (CC BY-NC), uploaded by Henry Abreu Dominguez",
+   "photo": 181909094
+  }
+ ]
+}

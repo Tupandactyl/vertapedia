@@ -1,0 +1,58 @@
+{
+ "sci": "Protobothrops trungkhanhensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 110674,
+  "name": "Protobothrops trungkhanhensis",
+  "observations": 8,
+  "wikipedia_url": null,
+  "common": "Trungkhanh Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200489192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yoshitaka Tahara, some rights reserved (CC BY-NC)",
+   "obs": 118648873,
+   "place": "Vietnam",
+   "date": "2022-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578383789/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mạnh Hùng, some rights reserved (CC BY-NC)",
+   "obs": 319933015,
+   "place": "Vietnam",
+   "date": "2025-10-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573858700/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC)",
+   "obs": 317571649,
+   "place": "Chongzuo, CN-GX, CN",
+   "date": "2025-09-24"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200490625/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yoshitaka Tahara, some rights reserved (CC BY-NC), uploaded by Yoshitaka Tahara",
+   "photo": 200490625
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200490700/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yoshitaka Tahara, some rights reserved (CC BY-NC), uploaded by Yoshitaka Tahara",
+   "photo": 200490700
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200489192/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yoshitaka Tahara, some rights reserved (CC BY-NC), uploaded by Yoshitaka Tahara",
+   "photo": 200489192
+  }
+ ]
+}

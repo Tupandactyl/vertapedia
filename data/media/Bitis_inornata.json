@@ -1,0 +1,90 @@
+{
+ "sci": "Bitis inornata",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 73701,
+  "name": "Bitis inornata",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bitis_inornata",
+  "common": "Plain Mountain Adder"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385443785/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) saindigenous, some rights reserved (CC BY-NC)",
+   "obs": 217849599,
+   "place": "Eastern Cape, ZA",
+   "date": "2021-04-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256477497/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bionerds, some rights reserved (CC BY-NC)",
+   "obs": 148889084,
+   "place": null,
+   "date": "2018-09-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463564873/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Kemp, some rights reserved (CC BY-NC)",
+   "obs": 258381700,
+   "place": "Eastern Cape, ZA",
+   "date": "2022-03-18"
+  }
+ ],
+ "wiki": {
+  "title": "Bitis inornata",
+  "url": "https://en.wikipedia.org/wiki/Bitis_inornata",
+  "revision": 1323279121,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bitis inornata is a venomous viper species found only in Cape Province, South Africa. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Common names",
+    "level": 2,
+    "paras": [
+     "Common names for this species include plain mountain adder, hornless adder, and Cape puff adder."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of Bitis inornata average 25–40 cm (9.8–15.7 in) in total length (including tail), with a maximum recorded total length of 45 cm (18 in)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Bitis inornata is endemic to Cape Province, South Africa.",
+     "An isolated population exists on the Sneeuberg, eastern Cape Province, South Africa.",
+     "The type locality is listed as \"Sneeuwbergen, or Snow Mountains, ... immediately behind the village of Graaff Raynet\" (Eastern Cape Province, South Africa).",
+     "Spawls and Branch (1995) described it as known only from two isolated populations in southern Cape Province in South Africa: the first in the east, limited to the montane grassland of the Sneeuberge, from north of Graaff-Reinet to Cradock. A second population was discovered relatively recently on the upper slopes of the Cederberg in the west."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The species Bitis inornata is classified as least concern on the IUCN Red List."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256477497/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bionerds, some rights reserved (CC BY-NC), uploaded by Bionerds",
+   "photo": 256477497
+  }
+ ]
+}

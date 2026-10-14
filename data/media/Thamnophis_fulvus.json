@@ -1,0 +1,111 @@
+{
+ "sci": "Thamnophis fulvus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 73968,
+  "name": "Thamnophis fulvus",
+  "observations": 74,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Highland_garter_snake",
+  "common": "Highland Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87326987/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jparrivillaga, some rights reserved (CC BY-NC)",
+   "obs": 54867373,
+   "place": "Guatemala",
+   "date": "2020-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728173727/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) restevez, some rights reserved (CC BY-NC)",
+   "obs": 397042811,
+   "place": "San Marcos, Ocotepeque, Honduras",
+   "date": "2025-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333034685/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) animals_gt, some rights reserved (CC BY-NC)",
+   "obs": 190032214,
+   "place": "Santa Catarina Pinula, Guatemala",
+   "date": "2023-10-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319531084/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pablo Reyes, some rights reserved (CC BY-NC)",
+   "obs": 183175584,
+   "place": "29316 Chis., México",
+   "date": "2023-09-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115769578/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josue Ramos Galdamez, some rights reserved (CC BY-NC)",
+   "obs": 71142354,
+   "place": "Distrito Central, Honduras",
+   "date": "2014-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4945204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Paredes Montesinos, some rights reserved (CC BY-NC)",
+   "obs": 4152613,
+   "place": "San Cristóbal de las Casas, Chis., México",
+   "date": "2016-09-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669094122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejandro Jiménez, some rights reserved (CC BY-NC)",
+   "obs": 366439500,
+   "place": "San Cristóbal de Las Casas, Chis., México",
+   "date": "2026-05-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71503147/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Danny, some rights reserved (CC BY-NC)",
+   "obs": 45092086,
+   "place": "Guajiquiro, HN-LP, HN",
+   "date": "2020-05-06"
+  }
+ ],
+ "wiki": {
+  "title": "Highland garter snake",
+  "url": "https://en.wikipedia.org/wiki/Highland_garter_snake",
+  "revision": 1355353616,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The highland garter snake (Thamnophis fulvus) is a species of snake of the family Colubridae. It is found in Mexico, Guatemala, Honduras and El Salvador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115769578/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josue Ramos Galdamez, some rights reserved (CC BY-NC), uploaded by Josue Ramos Galdamez",
+   "photo": 115769578
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4945239/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Paredes Montesinos, some rights reserved (CC BY-NC), uploaded by Rafael Paredes Montesinos",
+   "photo": 4945239
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4945204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rafael Paredes Montesinos, some rights reserved (CC BY-NC), uploaded by Rafael Paredes Montesinos",
+   "photo": 4945204
+  }
+ ]
+}

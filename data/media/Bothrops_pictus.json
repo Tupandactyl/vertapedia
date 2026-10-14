@@ -1,0 +1,121 @@
+{
+ "sci": "Bothrops pictus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30768,
+  "name": "Bothrops pictus",
+  "observations": 27,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bothrops_pictus",
+  "common": "Desert Lancehead"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114240981/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Quispe Salcedo, some rights reserved (CC BY-NC)",
+   "obs": 70292278,
+   "place": "Ica, Perú",
+   "date": "2021-02-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350738330/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandon Ortiz Arenas, some rights reserved (CC BY-NC)",
+   "obs": 198945914,
+   "place": "Lima, PE-LP, PE",
+   "date": "2024-02-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68041053/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josh Allen, some rights reserved (CC BY-NC)",
+   "obs": 42845253,
+   "place": "Lima",
+   "date": "2015-04-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183055482/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandon Ortiz Arenas, some rights reserved (CC BY-NC)",
+   "obs": 108694967,
+   "place": "Lima, PE",
+   "date": "2021-10-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/371878591/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Angel Cruz, some rights reserved (CC BY)",
+   "obs": 210231589,
+   "place": "Urb. Ollantay, Lima 15806, Perú",
+   "date": "2024-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185924536/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MaTe, some rights reserved (CC BY-NC)",
+   "obs": 110235578,
+   "place": "Distrito de Pachacamac, Perú",
+   "date": "2022-04-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487925885/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aroon Estrada, some rights reserved (CC BY-NC)",
+   "obs": 271264027,
+   "place": "Lomas de Margareth, Huaral, Lima",
+   "date": "2021-07-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584306817/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean Marcos Capcha Cantalicio, some rights reserved (CC BY-NC)",
+   "obs": 322948299,
+   "place": "Huaura, PE-LR, PE",
+   "date": "2025-10-25"
+  }
+ ],
+ "wiki": {
+  "title": "Bothrops pictus",
+  "url": "https://en.wikipedia.org/wiki/Bothrops_pictus",
+  "revision": 1355030739,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bothrops pictus, commonly known in English as the desert lancehead, is a species of venomous snake in the family Viperidae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "B. pictus is found along the coast of Peru, at altitudes from sea level to 1,800 m (5,900 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults of B. pictus may attain a total length of 31 cm (12 in), which includes a tail 4.3 cm (1.7 in) long.",
+     "Dorsally, B. pictus has a pale brown ground color, overlaid with a series of large brown black-edged squarish blotches, which may merge to form a thick wavy or zig zag stripe.  On each flank is a series of smaller roundish blotches of the same color as the dorsal blotches.  There is a dark streak from behind the eye to the corner of the mouth. Ventrally, it is yellowish with brown dots or spots.",
+     "The strongly keeled dorsal scales are arranged in 21 to 23 rows at midbody. Ventrals 157–172; anal plate undivided; subcaudals divided, 40-74 pairs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114240981/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eduardo Quispe Salcedo, some rights reserved (CC BY-NC), uploaded by Eduardo Quispe Salcedo",
+   "photo": 114240981
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183055482/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandon Ortiz Arenas, some rights reserved (CC BY-NC), uploaded by Brandon Ortiz Arenas",
+   "photo": 183055482
+  }
+ ]
+}

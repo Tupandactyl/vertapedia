@@ -1,0 +1,43 @@
+{
+ "sci": "Oxyrhopus marcapatae",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29161,
+  "name": "Oxyrhopus marcapatae",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oxyrhopus_marcapatae",
+  "common": "Boulenger's False Coral Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169509652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jmoulton44, some rights reserved (CC BY-NC)",
+   "obs": 101492519,
+   "place": "Cuzco, PE",
+   "date": "2021-11-17"
+  }
+ ],
+ "wiki": {
+  "title": "Oxyrhopus marcapatae",
+  "url": "https://en.wikipedia.org/wiki/Oxyrhopus_marcapatae",
+  "revision": 1355160925,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oxyrhopus marcapatae, Boulenger's false coral snake, is a species of snake in the family Colubridae.  The species is native to  Peru."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169509652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jmoulton44, some rights reserved (CC BY-NC)",
+   "photo": 169509652
+  }
+ ]
+}

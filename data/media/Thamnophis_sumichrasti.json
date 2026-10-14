@@ -1,0 +1,139 @@
+{
+ "sci": "Thamnophis sumichrasti",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28356,
+  "name": "Thamnophis sumichrasti",
+  "observations": 81,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sumichrast's_garter_snake",
+  "common": "Sumichrast's Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180183343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo H. Sosa-Tovar, some rights reserved (CC BY-NC)",
+   "obs": 107238308,
+   "place": "Tlatlauquitepec, Pue., México",
+   "date": "2020-05-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518454403/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yael_arce, some rights reserved (CC BY-NC)",
+   "obs": 288303420,
+   "place": "79900 Xilitla, S.L.P., México",
+   "date": "2025-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720861638/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mónica Aguilar Gallardo, some rights reserved (CC BY-NC)",
+   "obs": 393292512,
+   "place": "79927 S.L.P., México",
+   "date": "2026-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266402063/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 154194444,
+   "place": "San Andrés Tenejapan, VER, MX",
+   "date": "2017-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423184516/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) huaxteca, some rights reserved (CC BY-NC)",
+   "obs": 237759713,
+   "place": "Xilitla, S.L.P., MX",
+   "date": "2024-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244689467/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joel Erick Nava Doctor, some rights reserved (CC BY-NC)",
+   "obs": 142786946,
+   "place": "73120 Honey, Pue., México",
+   "date": "2022-04-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170158907/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jesus_ortega_esquinca, some rights reserved (CC BY-NC)",
+   "obs": 101858530,
+   "place": "Hueyapan, Pue., México",
+   "date": "2014-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203102975/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) irving_wild, some rights reserved (CC BY-NC)",
+   "obs": 120103870,
+   "place": "Nogales, Ver., México",
+   "date": "2022-06-03"
+  }
+ ],
+ "wiki": {
+  "title": "Sumichrast's garter snake",
+  "url": "https://en.wikipedia.org/wiki/Sumichrast%27s_garter_snake",
+  "revision": 1355106480,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sumichrast's garter snake (Thamnophis sumichrasti) is a species of snake in the family Colubridae. The species is endemic to Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name sumichrasti is in honor of the Swiss-born Mexican naturalist Adrien Jean Louis François Sumichrast (1828–1882)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Thamnophis sumichrasti is found in the Mexican states of Chiapas, Hidalgo, Oaxaca, Puebla, Querétaro, San Luis Potosí, Tabasco, and Veracruz."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitats of T. sumichrasti are freshwater wetlands and forest."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. sumichrasti is viviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180183343/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guillermo H. Sosa-Tovar, some rights reserved (CC BY-NC), uploaded by Guillermo H. Sosa-Tovar",
+   "photo": 180183343
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3087670/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Karl Hawkman Drakulfeith, some rights reserved (CC BY-NC), uploaded by Karl Hawkman Drakulfeith",
+   "photo": 3087670
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114536146/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) German Flora Polo, some rights reserved (CC BY-NC), uploaded by German Flora Polo",
+   "photo": 114536146
+  }
+ ]
+}

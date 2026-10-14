@@ -1,0 +1,49 @@
+{
+ "sci": "Lycodon ferroni",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29568,
+  "name": "Lycodon ferroni",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lycodon_ferroni",
+  "common": "Samar Island Wolf Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28189893/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeffweinell, some rights reserved (CC BY-NC)",
+   "obs": 18439570,
+   "place": "Hinabangan, Samar, Philippines",
+   "date": "2018-08-06"
+  }
+ ],
+ "wiki": {
+  "title": "Lycodon ferroni",
+  "url": "https://en.wikipedia.org/wiki/Lycodon_ferroni",
+  "revision": 1374541359,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ferron's Asian wolf snake (Lycodon ferroni)  is a species of snake in the family colubridae. It is found in the Philippines."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28189893/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeffweinell, some rights reserved (CC BY-NC), uploaded by jeffweinell",
+   "photo": 28189893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28189899/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jeffweinell, some rights reserved (CC BY-NC), uploaded by jeffweinell",
+   "photo": 28189899
+  }
+ ]
+}

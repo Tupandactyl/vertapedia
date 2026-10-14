@@ -1,0 +1,111 @@
+{
+ "sci": "Lampropeltis gentilis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 515414,
+  "name": "Lampropeltis gentilis",
+  "observations": 2304,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lampropeltis_gentilis",
+  "common": "Western Milksnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296609366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Long, some rights reserved (CC BY-NC)",
+   "obs": 170965742,
+   "place": "Colorado, US",
+   "date": "2023-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502106567/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) travisjmay, some rights reserved (CC BY-NC)",
+   "obs": 279603029,
+   "place": "Yellowstone County, US-MT, US",
+   "date": "2025-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157970747/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Che Rodgers, some rights reserved (CC BY-NC)",
+   "obs": 95175604,
+   "place": "Colorado, US",
+   "date": "2021-09-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530226647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jessgiff, some rights reserved (CC BY-NC)",
+   "obs": 294573459,
+   "place": "Park County, US-WY, US",
+   "date": "2025-05-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49224265/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) DKN, some rights reserved (CC BY-NC)",
+   "obs": 31451452,
+   "place": "Боулдер, Колорадо, США",
+   "date": "2019-04-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181102501/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) evangrimes, some rights reserved (CC BY)",
+   "obs": 107651958,
+   "place": null,
+   "date": "2022-02-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16849113/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bobbyfingers, some rights reserved (CC BY-NC)",
+   "obs": 11781567,
+   "place": "Powder River County, MT, USA",
+   "date": "1993-08-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43906756/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Petrizzo, some rights reserved (CC BY-NC)",
+   "obs": 28177123,
+   "place": "Broomfield, CO, USA",
+   "date": "2019-07-04"
+  }
+ ],
+ "wiki": {
+  "title": "Lampropeltis gentilis",
+  "url": "https://en.wikipedia.org/wiki/Lampropeltis_gentilis",
+  "revision": 1366440820,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lampropeltis gentilis, commonly known as the western milksnake, Central Plains milksnake, pale milksnake, Utah milksnake, or New Mexico milksnake, is a species of nonvenomous snake in the family Colubridae. It is found in the United States."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181102501/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) evangrimes, some rights reserved (CC BY), uploaded by evangrimes",
+   "photo": 181102501
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42776948/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wasatch_hunter, some rights reserved (CC BY-NC), uploaded by wasatch_hunter",
+   "photo": 42776948
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104435791/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Grinter, some rights reserved (CC BY-NC), uploaded by Chris Grinter",
+   "photo": 104435791
+  }
+ ]
+}

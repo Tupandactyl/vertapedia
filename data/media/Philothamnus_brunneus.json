@@ -1,0 +1,56 @@
+{
+ "sci": "Philothamnus brunneus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1367333,
+  "name": "Philothamnus brunneus",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philothamnus_brunneus",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224715292/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 131995872,
+   "place": "Cavally, Côte d'Ivoire",
+   "date": "2022-08-13"
+  }
+ ],
+ "wiki": {
+  "title": "Philothamnus brunneus",
+  "url": "https://en.wikipedia.org/wiki/Philothamnus_brunneus",
+  "revision": 1376707888,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philothamnus brunneus is a species of snake in the family Colubridae.",
+     "The snake is found in Guinea."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224715336/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Justin Philbois",
+   "photo": 224715336
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224715380/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Justin Philbois",
+   "photo": 224715380
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224715284/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Justin Philbois",
+   "photo": 224715284
+  }
+ ]
+}

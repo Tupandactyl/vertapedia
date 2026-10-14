@@ -1,0 +1,102 @@
+{
+ "sci": "Telescopus variegatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28444,
+  "name": "Telescopus variegatus",
+  "observations": 11,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Variable_cat_snake",
+  "common": "West African Cat Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685168353/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abubakar S. Ringim, some rights reserved (CC BY-NC)",
+   "obs": 374832243,
+   "place": "Karnaya 720212, Jigawa, Nigeria",
+   "date": "2026-05-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165312714/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AMADOU BAHLEMAN FARID, some rights reserved (CC BY-NC)",
+   "obs": 99196533,
+   "place": "V7QQ+2JX Zone Cynégétique de la Pendjari, Bénin",
+   "date": "2021-09-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404914143/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Smith, some rights reserved (CC BY-NC)",
+   "obs": 228193861,
+   "place": "Gambia",
+   "date": "2024-07-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52398742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC)",
+   "obs": 33364772,
+   "place": "Kpendjal, Togo",
+   "date": "2019-09-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450866792/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Chiara, some rights reserved (CC BY)",
+   "obs": 251924906,
+   "place": "Mayo-Binder, Chad",
+   "date": "2024-11-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400380912/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sulaiman Inuwa Muhammad, some rights reserved (CC BY-NC)",
+   "obs": 225801037,
+   "place": "Yankari Game Reserve, Alkaleri, Bauchi, NG",
+   "date": "2024-06-28"
+  }
+ ],
+ "wiki": {
+  "title": "Variable cat snake",
+  "url": "https://en.wikipedia.org/wiki/Variable_cat_snake",
+  "revision": 1355353924,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The variable cat snake (Telescopus variegatus) is a species of snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52398742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC), uploaded by Eric",
+   "photo": 52398742
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165312893/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AMADOU BAHLEMAN FARID, some rights reserved (CC BY-NC), uploaded by AMADOU BAHLEMAN FARID",
+   "photo": 165312893
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165312714/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) AMADOU BAHLEMAN FARID, some rights reserved (CC BY-NC), uploaded by AMADOU BAHLEMAN FARID",
+   "photo": 165312714
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "sci": "Synophis bogerti",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540235,
+  "name": "Synophis bogerti",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Synophis_bogerti",
+  "common": "Bogert's Shadow Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105049850/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC)",
+   "obs": 65285445,
+   "place": "Mera, EC-PA, EC",
+   "date": "2020-11-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410077072/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jason Love, some rights reserved (CC BY-NC)",
+   "obs": 230923187,
+   "place": "Archidona, Napo, EC",
+   "date": "2024-07-21"
+  }
+ ],
+ "wiki": {
+  "title": "Synophis bogerti",
+  "url": "https://en.wikipedia.org/wiki/Synophis_bogerti",
+  "revision": 1376703786,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Synophis bogerti, known commonly as Bogert's fishing snake or Bogert's shadow snake, is a species of snake in the family Colubridae. The species is endemic to northwestern South America."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, bogerti, is in honor of American herpetologist Charles Mitchill Bogert."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "S. bogerti is found in Napo Province, Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105049862/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Bentley, some rights reserved (CC BY-NC), uploaded by Alex Bentley",
+   "photo": 105049862
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "sci": "Tantilla lempira",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28503,
+  "name": "Tantilla lempira",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tantilla_lempira",
+  "common": "Mena's Centipede Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67953338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) delmer jonathan, some rights reserved (CC BY-NC)",
+   "obs": 42796555,
+   "place": "Francisco Morazán, HN",
+   "date": "2015-07-01"
+  }
+ ],
+ "wiki": {
+  "title": "Tantilla lempira",
+  "url": "https://en.wikipedia.org/wiki/Tantilla_lempira",
+  "revision": 1355388963,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tantilla lempira,  Mena's centipede snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Honduras."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67953338/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) delmer jonathan, some rights reserved (CC BY-NC), uploaded by delmer jonathan",
+   "photo": 67953338
+  }
+ ]
+}

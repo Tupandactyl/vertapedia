@@ -1,0 +1,120 @@
+{
+ "sci": "Trimeresurus andersonii",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30958,
+  "name": "Trimeresurus andersonii",
+  "observations": 73,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_purpureomaculatus_andersoni",
+  "common": "Andaman Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347622804/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Prathamesh Khedwan, some rights reserved (CC BY)",
+   "obs": 197379090,
+   "place": null,
+   "date": "2023-12-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620477532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lixina, some rights reserved (CC BY-NC)",
+   "obs": 340907492,
+   "place": "NH 4, South Andaman, Andaman and Nicobar Islands, IN",
+   "date": "2026-03-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424508831/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Necas, some rights reserved (CC BY-NC)",
+   "obs": 238443331,
+   "place": "Swaraj Dweep, South Andaman, AN, IN",
+   "date": "2020-12-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85472404/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Rohit Chakravarty, some rights reserved (CC BY-NC-SA)",
+   "obs": 53731953,
+   "place": "Rutland Island, Andaman and Nicobar Islands",
+   "date": "2013-12-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140040233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) user811, some rights reserved (CC BY-NC)",
+   "obs": 85143239,
+   "place": "South Andaman, Andaman and Nicobar Islands, India",
+   "date": "2018-03-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450272236/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aditya Gadkari, some rights reserved (CC BY-NC)",
+   "obs": 251627931,
+   "place": "R2RC+9F4, Lakshmanpur, Andaman and Nicobar Islands 744104, India",
+   "date": "2024-11-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502830466/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hrishu Aravind, some rights reserved (CC BY-NC)",
+   "obs": 279993791,
+   "place": "Chidiyatapu, Andaman and Nicobar Islands, India ",
+   "date": "2024-12-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263846657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aarohamalagi, some rights reserved (CC BY-NC)",
+   "obs": 152812754,
+   "place": "North Wandoor, South Andaman,, JJ89+4MG, Port Blair, Andaman and Nicobar Islands 744103, India",
+   "date": "2023-02-09"
+  }
+ ],
+ "wiki": {
+  "title": "Trimeresurus andersonii",
+  "url": "https://en.wikipedia.org/wiki/Trimeresurus_andersonii",
+  "revision": 1350318737,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trimeresurus andersonii is a venomous pitviper species endemic to the Andaman Islands of India.",
+     "Common names include: Nicobar mangrove pit viper, Anderson's pitviper, and Andaman pit viper."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, andersonii, is in honor of Scottish zoologist John Anderson, who worked in India 1864-1886 and was the first curator of the Indian Museum in Calcutta (now called Kolkata)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. andersonii is found only in the Andaman Islands of India. The type locality given by Theobald (1868) is \"No record\", which was restricted to \"Andaman Islands\" by Regenass and Kramer (1981)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140040233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) user811, some rights reserved (CC BY-NC)",
+   "photo": 140040233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263846657/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) aarohamalagi, some rights reserved (CC BY-NC)",
+   "photo": 263846657
+  }
+ ]
+}

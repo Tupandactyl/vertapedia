@@ -1,0 +1,114 @@
+{
+ "sci": "Platyceps brevis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 27156,
+  "name": "Platyceps brevis",
+  "observations": 11,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Short_racer",
+  "common": "Short Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34657859/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC)",
+   "obs": 22377471,
+   "place": "Moshi Rural, Tansania",
+   "date": "2002-12-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37355241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nelson_crocuta, some rights reserved (CC BY-NC)",
+   "obs": 24155054,
+   "place": "Samburu National Reserve, Samburu, Rift Valley, KE",
+   "date": "2019-04-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80228596/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Thomas Becker, some rights reserved (CC BY-NC-SA)",
+   "obs": 50525900,
+   "place": "Lake Chala, Tansania",
+   "date": "2020-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718086801/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hassan Yusuf Kaariye, some rights reserved (CC BY-NC)",
+   "obs": 391874842,
+   "place": "Magaalo Cusub, Ethiopia",
+   "date": "2024-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667264/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 523968,
+   "place": "Central island",
+   "date": "2005-01-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53550374/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) glorysummay, some rights reserved (CC BY-NC)",
+   "obs": 34054602,
+   "place": "Mkomazi National Park, Tanzania",
+   "date": "2018-05-15"
+  }
+ ],
+ "wiki": {
+  "title": "Short racer",
+  "url": "https://en.wikipedia.org/wiki/Short_racer",
+  "revision": 1354674538,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The short racer (Platyceps brevis), is a species of snake in the family Colubridae. The species is endemic to northeastern Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. brevis is found in Ethiopia, Kenya, Somalia, and Tanzania."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "Two subspecies are recognized as being valid, including the nominotypical subspecies.",
+     "Platyceps brevis brevis (Boulenger, 1895)",
+     "Playceps brevis smithi (Boulenger, 1895)",
+     "Nota bene: A trinomial authority in parentheses indicates that the subspecies was originally described in a genus other than Platyceps."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "P. brevis is oviparous."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The subspecific name, smithi, is in honor of American physician Arthur Donaldson Smith."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667264/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 667264
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "sci": "Simophis rhinostoma",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28665,
+  "name": "Simophis rhinostoma",
+  "observations": 16,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Simophis",
+  "common": "São Paulo False Coral Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469197139/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261191997,
+   "place": "Amambai, State of Mato Grosso do Sul, 79990-000, Brazil",
+   "date": "2024-02-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469193973/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261190736,
+   "place": "Jaú, State of São Paulo, 17202, Brazil",
+   "date": "2024-04-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335597635/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fabitubino, some rights reserved (CC BY-NC)",
+   "obs": 191317871,
+   "place": "Bragança Paulista, SP, BR",
+   "date": "2023-10-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107065276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique C. Costa, some rights reserved (CC BY-NC)",
+   "obs": 66416876,
+   "place": "Viçosa, MG, 36570-000, Brasil",
+   "date": "2011-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733521882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan Sazima, some rights reserved (CC BY-NC)",
+   "obs": 399784618,
+   "place": "Cidade Universitária Zeferino Vaz - Barão Geraldo, Campinas - SP, 13083-970, Brazil",
+   "date": "1988-10-06"
+  }
+ ],
+ "wiki": {
+  "title": "Simophis",
+  "url": "https://en.wikipedia.org/wiki/Simophis",
+  "revision": 1315363695,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Simophis is a genus of snake in the family Colubridae  that contains the sole species Simophis rhinostoma. It is commonly known as the São Paulo false coral snake.",
+     "It is distributed in eastern Paraguay, and in Brazil it occurs in the western, southeastern and central regions, with its distribution range extended into the northeastern region. This species is found in Atlantic Forest and Cerrado areas."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107065276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Henrique C. Costa, some rights reserved (CC BY-NC), uploaded by Henrique C. Costa",
+   "photo": 107065276
+  }
+ ]
+}

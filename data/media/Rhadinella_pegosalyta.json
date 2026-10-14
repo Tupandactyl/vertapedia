@@ -1,0 +1,87 @@
+{
+ "sci": "Rhadinella pegosalyta",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 111619,
+  "name": "Rhadinella pegosalyta",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhadinella_pegosalyta",
+  "common": "Cusuco Graceful Brown Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23112973/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 15415886,
+   "place": "Honduras",
+   "date": "2018-06-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321875619/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Josue Ramos Galdamez, some rights reserved (CC BY-NC)",
+   "obs": 184400914,
+   "place": "Honduras",
+   "date": "2023-07-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541287288/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC)",
+   "obs": 300416003,
+   "place": "Honduras",
+   "date": "2025-07-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22920873/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Marina, some rights reserved (CC BY)",
+   "obs": 15310004,
+   "place": "Honduras",
+   "date": "2018-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30106278/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruno Araújo, some rights reserved (CC BY-NC)",
+   "obs": 19559570,
+   "place": "Honduras",
+   "date": "2017-07-17"
+  }
+ ],
+ "wiki": {
+  "title": "Rhadinella pegosalyta",
+  "url": "https://en.wikipedia.org/wiki/Rhadinella_pegosalyta",
+  "revision": 1362931273,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhadinella pegosalyta is a species of snake in the family Colubridae. It is found in Honduras."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23113003/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 23113003
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23113069/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 23113069
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541287272/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 541287272
+  }
+ ]
+}

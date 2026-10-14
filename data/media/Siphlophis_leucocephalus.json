@@ -1,0 +1,81 @@
+{
+ "sci": "Siphlophis leucocephalus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28653,
+  "name": "Siphlophis leucocephalus",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Siphlophis_leucocephalus",
+  "common": "Common Spotted Night Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469220591/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261203398,
+   "place": "Caetité",
+   "date": "2021-11-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611331864/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Samuel Martins, some rights reserved (CC BY)",
+   "obs": 336416818,
+   "place": "Universidade, Vitória da Conquista - BA, Brasil",
+   "date": "2026-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473513872/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vitoriaalves, some rights reserved (CC BY-NC)",
+   "obs": 263566841,
+   "place": "Uibaí, BA, 44950-000, Brasil",
+   "date": "2025-02-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469133331/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261160234,
+   "place": "Carbonita",
+   "date": "2023-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473513866/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) vitoriaalves, some rights reserved (CC BY-NC)",
+   "obs": 263566842,
+   "place": "Uibaí, BA, 44950-000, Brasil",
+   "date": "2025-02-25"
+  }
+ ],
+ "wiki": {
+  "title": "Siphlophis leucocephalus",
+  "url": "https://en.wikipedia.org/wiki/Siphlophis_leucocephalus",
+  "revision": 1355353594,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Siphlophis leucocephalus, commonly known as the common spotted night snake, is a species of snake of the family Colubridae. It is endemic to southeastern Brazil and known from Bahia, Goiás, and Minas Gerais states."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258715746/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Volpe, some rights reserved (CC BY-NC), uploaded by Volpe",
+   "photo": 258715746
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258715779/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Volpe, some rights reserved (CC BY-NC), uploaded by Volpe",
+   "photo": 258715779
+  }
+ ]
+}

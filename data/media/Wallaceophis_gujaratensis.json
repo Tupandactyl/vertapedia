@@ -1,0 +1,93 @@
+{
+ "sci": "Wallaceophis gujaratensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540322,
+  "name": "Wallaceophis gujaratensis",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wallaceophis",
+  "common": "Wallace's striped snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121745630/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Viral joshi, some rights reserved (CC BY)",
+   "obs": 74487414,
+   "place": "Saldi, Gujarat, India",
+   "date": "2015-08-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142070332/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Hopeland, some rights reserved (CC BY)",
+   "obs": 86257417,
+   "place": null,
+   "date": "2015-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126282824/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Viral joshi, some rights reserved (CC BY)",
+   "obs": 77224550,
+   "place": "Saldi, Gujarat, India",
+   "date": "2010-09-15"
+  }
+ ],
+ "wiki": {
+  "title": "Wallaceophis",
+  "url": "https://en.wikipedia.org/wiki/Wallaceophis",
+  "revision": 1374741931,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Wallaceophis is a genus of snake in the family Colubridae. It was first described in 2016. The sole species is Wallaceophis gujaratensis which is found in the Indian state of Gujarat. Wallaceophis gujaratenisis is presently known from just seven localities of Gujarat and virtually nothing is known about its biology. Common names Wallace's striped snake and Wallace's racer has been suggested for it."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The genus has been named Wallaceophis in honour of the legendary 19th century British naturalist Alfred Russel Wallace (1823–1913), considered the father of biogeography. The specific name gujaratenisis commemorates the western Indian state where it was discovered."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Wallaceophis is a medium-sized snake in relation to members of the family, measuring 250–930 mm (9.8–36.6 in) in snout–vent length. The holotype measured 501 mm (19.7 in) in SVL and had 61 mm (2.4 in) long tail. A 3–4 dorsal scale row wide black longitudinal stripe runs from the post nasal to the tail tip on each side on a wheat colored dorsum."
+    ]
+   },
+   {
+    "h": "Diagnosis",
+    "level": 2,
+    "paras": [
+     "The genus differs from most colubrid genera in lacking hypapophyses on posterior dorsal vertebrae and in bearing nine maxillary teeth (the posterior-most teeth are subequal) and nine palatine teeth. Dorsal scale reduction is characterized by vertebral reductions, increase of scale rows posterior to neck, a single lateral reduction at midbody, and regular vertebral reductions in posterior half of the body. The rostral scale is not visible from above; a small presubocular scale is present. There are eight supralabials, the fourth and fifth ones are in contact with the orbit. The anal scale is undivided. There are 215–216 ventral scales and 51–54 subcaudal scales. The hemipenis is subcylindrical and spinose throughout.",
+     "Wallaceophis may be distinguished from most members of the family Colubridae by its lack of hypapophyses on posterior dorsal vertebrae. This condition is present in racers and whip snakes of the genera Platyceps, Hemorrhois, Spalerosophis, Hemerophis, Dolichophis, Hierophis, Eirenis, Orientocoluber, Coluber, Macroprotodon, Bamanophis, and Lytorhynchus. Wallaceophis differs from these genera in bearing unique vertebral dorsal scale reductions (vs. lateral reductions in Platyceps, Hemorrhois, Hemerophis, Dolichophis, Hierophis, Eirenis, Orientocoluber, Coluber, Macroprotodon, Bamanophis, and Lytorhynchus); nine maxillary teeth (vs. 15–17 in Spalerosophis, 14–19 in Platyceps, 13–16 in Hemorrhois, 17–20 in Hemerophis, 16–18 in Hierophis, 16–26 in Eirenis, 15–19 in Bamanophis); presubocular present (vs. absent in Macroprotodon, Orientocoluber, Bamanophis). The genus is closely related to the genus Lytorhynchus based on ~3047bp of nuclear and mitochondrial gene sequences. However, it differs from that genus in having vertebral dorsal scale reduction (vs. lateral in Lytorhynchus) and in having nine palatine teeth (vs. 3–5 in Lytorhynchus)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126284726/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Viral joshi, some rights reserved (CC BY), uploaded by Viral joshi",
+   "photo": 126284726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126283940/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Viral joshi, some rights reserved (CC BY), uploaded by Viral joshi",
+   "photo": 126283940
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126284874/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Viral joshi, some rights reserved (CC BY), uploaded by Viral joshi",
+   "photo": 126284874
+  }
+ ]
+}

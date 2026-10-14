@@ -1,0 +1,148 @@
+{
+ "sci": "Vipera eriwanensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 73998,
+  "name": "Vipera eriwanensis",
+  "observations": 85,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vipera_eriwanensis",
+  "common": "Alburzi Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594926690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lennart Schmid, some rights reserved (CC BY-NC)",
+   "obs": 328327176,
+   "place": "Shida Kartli, GE",
+   "date": "2021-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313485848/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) irene_vertua, some rights reserved (CC BY-NC)",
+   "obs": 180009831,
+   "place": "Armenia",
+   "date": "2023-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243759699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Farshid Jafarzadeh.D, some rights reserved (CC BY-NC)",
+   "obs": 142200850,
+   "place": "Mazandaran, IR",
+   "date": "2010-09-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406133276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Moosa, some rights reserved (CC BY-NC)",
+   "obs": 228838091,
+   "place": "Iran",
+   "date": "2017-10-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/538924001/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kseniia Marianna Prondzynska, some rights reserved (CC BY)",
+   "obs": 299144930,
+   "place": "Armenia",
+   "date": "2025-07-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101710766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naeimophio, some rights reserved (CC BY-NC)",
+   "obs": 63382665,
+   "place": "Mazandaran, IR",
+   "date": "2020-10-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1530733/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 582961,
+   "place": "Armenia",
+   "date": "2007-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200450587/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lennart Schmid, some rights reserved (CC BY-NC)",
+   "obs": 118626271,
+   "place": null,
+   "date": "2021-05-26"
+  }
+ ],
+ "wiki": {
+  "title": "Vipera eriwanensis",
+  "url": "https://en.wikipedia.org/wiki/Vipera_eriwanensis",
+  "revision": 1355123358,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Vipera eriwanensis, commonly known as the Alburzi viper or the Armenian steppe viper, is a species of venomous snake in the family Viperidae. The species is native to western Asia. There are two recognized subspecies."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "There are two subspecies which are recognized as being valid.",
+     "Vipera eriwanensis ebneri Knoepffler & Sochurek, 1955",
+     "Vipera eriwanensis eriwanensis (Reuss, 1933)"
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "V. eriwanensis is found in Armenia, northwestern Iran, and northeastern Turkey."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of V. eriwanensis is rocky areas of grassland, at altitudes of 1,000–3,000 m (3,300–9,800 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "V. eriwanensis is ovoviviparous. Litter size may be as large as ten."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The subspecific name, ebneri, is in honor of Austrian entomologist Richard Ebner."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255639016/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lennart Schmid, some rights reserved (CC BY-NC), uploaded by Lennart Schmid",
+   "photo": 255639016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1530738/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1530738
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101710766/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) naeimophio, some rights reserved (CC BY-NC)",
+   "photo": 101710766
+  }
+ ]
+}

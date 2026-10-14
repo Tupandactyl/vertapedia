@@ -1,0 +1,52 @@
+{
+ "sci": "Trimeresurus ayeyarwadyensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1545843,
+  "name": "Trimeresurus ayeyarwadyensis",
+  "observations": 8,
+  "wikipedia_url": null,
+  "common": "Ayeyarwady Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369222362/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "obs": 208665900,
+   "place": "Yangon, MM",
+   "date": "2024-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369219673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "obs": 208664444,
+   "place": "Sae Myaung Road, Yangon, Yangon, MM",
+   "date": "2023-12-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233306417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Htet Arkar Aung, some rights reserved (CC BY-NC)",
+   "obs": 136677847,
+   "place": "Rakhine, MM",
+   "date": "2022-09-09"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369219673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "photo": 369219673
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369219687/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "photo": 369219687
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "sci": "Bothrops marajoensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30785,
+  "name": "Bothrops marajoensis",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bothrops_marajoensis",
+  "common": "Marajó Lancehead"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469134555/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261160779,
+   "place": "Abaetetuba",
+   "date": "2023-03-11"
+  }
+ ],
+ "wiki": {
+  "title": "Bothrops marajoensis",
+  "url": "https://en.wikipedia.org/wiki/Bothrops_marajoensis",
+  "revision": 1349491702,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bothrops marajoensis, or the Marajó lancehead, is a species of venomous snake in the  family Viperidae. It is endemic to Brazil."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in Brazil in the state of Pará.",
+     "The type locality is Severino, Marajó Island, Pará, Brazil."
+    ]
+   }
+  ]
+ },
+ "curated": []
+}

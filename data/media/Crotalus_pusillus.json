@@ -1,0 +1,139 @@
+{
+ "sci": "Crotalus pusillus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30760,
+  "name": "Crotalus pusillus",
+  "observations": 31,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crotalus_pusillus",
+  "common": "Tancitaran Dusky Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112316500/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David G. Barker, some rights reserved (CC BY-NC)",
+   "obs": 69243054,
+   "place": "Aguililla, Michoacán, Mexico",
+   "date": "1973-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264848857/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 153350077,
+   "place": "Tuxpan, JAL, MX",
+   "date": "2023-04-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594497813/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandon Gabriel, some rights reserved (CC BY-NC)",
+   "obs": 328112894,
+   "place": "2 de Mayo, 60013 Uruapan, Mich., México",
+   "date": "2025-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81662004/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jimeneza, some rights reserved (CC BY-NC)",
+   "obs": 51400867,
+   "place": "Cuauhtémoc, COL, MX",
+   "date": "2020-06-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4650468/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ma. Rocio Gama Hernández, some rights reserved (CC BY-NC)",
+   "obs": 3947550,
+   "place": "Michoacán, MX",
+   "date": "2016-08-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76012234/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oveth Fuentes, some rights reserved (CC BY-NC)",
+   "obs": 47918860,
+   "place": "Cuauhtémoc, MX-CL, MX",
+   "date": "2020-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659775932/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 361518726,
+   "place": "49744 Jal., México",
+   "date": "2026-05-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263071252/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 152394510,
+   "place": "Tuxpan, JAL, MX",
+   "date": "2022-10-01"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus pusillus",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_pusillus",
+  "revision": 1374507958,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus pusillus, or the Tancitaran Dusky Rattlesnake, is a venomous pit viper species found in west-central Mexico. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adult males may grow to more than 50 cm (20 in) in length, while females are smaller. The largest recorded length for a specimen was 68.2 cm (26.9 in)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Campbell and Lamar (2004) found this species only to be active during the day. Within its range, night temperatures are low and seem to restrict its activity."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in west-central Mexico in the Sierra de Coalcomán of southwestern Michoacán, the Transverse Volcanic Cordillera of west-central Michoacán, and in adjacent Jalisco. It is probably also found in northeastern Colima. Its type locality is reported as \"Tancítaro, Michoacán, Mexico, altitude 5,000 ft\" (5,000 ft = 1,524 m). It occurs at elevations between 1,525 and 2,380 metres (5,003 and 7,808 ft)."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "This species is classified as Endangered on the IUCN Red List of Threatened Species. The population trend was unknown when assessed in 2007."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112316500/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David G. Barker, some rights reserved (CC BY-NC), uploaded by David G. Barker",
+   "photo": 112316500
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4650468/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ma. Rocio Gama Hernández, some rights reserved (CC BY-NC), uploaded by Ma. Rocio Gama Hernández",
+   "photo": 4650468
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5653163/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Nuñez, some rights reserved (CC BY-NC), uploaded by Aaron Nuñez",
+   "photo": 5653163
+  }
+ ]
+}

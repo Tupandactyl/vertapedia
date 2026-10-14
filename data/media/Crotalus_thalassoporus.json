@@ -1,0 +1,66 @@
+{
+ "sci": "Crotalus thalassoporus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 734598,
+  "name": "Crotalus thalassoporus",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Crotalus_thalassoporus",
+  "common": "Isla Piojo Speckled Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103404540/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tania Pérez Fiol, some rights reserved (CC BY-NC)",
+   "obs": 64329596,
+   "place": null,
+   "date": "2019-09-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330412090/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ana Gatica Colima, some rights reserved (CC BY-NC)",
+   "obs": 188732529,
+   "place": "I. El Piojo, San Quintín, B.C., México",
+   "date": "2023-10-18"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus thalassoporus",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_thalassoporus",
+  "revision": 1364472905,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus thalassoporus, or the Louse Island speckled rattlesnake, is a species of rattlesnake from Piojo Island, Baja California, Mexico. The specific name thalassoporus is derived from the Greek θαλασσοπορών (thalassoporón), meaning 'seafaring', in reference to an assumed overseas dispersal from Piojo Island to Smith Island. As with all rattlesnakes, it is venomous.",
+     "Only separated from mainland species by rising oceans within the past 10 thousand years, C. thalassoporus displays rapid dwarfism of its species from when it was split off."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Crotalus thalassoporus can be distinguished from other similar snakes, such as C. mitchellii, C. pyrrhus, C. angelensis and C. polisi, by its specific scale and scale row counts as well as its beige/pink colouration, 27–40 rusty blotches, faint speckling, 3–5 tail bands and generally smaller size."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Crotalus thalassoporus is known to be viviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103404540/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tania Pérez Fiol, some rights reserved (CC BY-NC), uploaded by Tania Pérez Fiol",
+   "photo": 103404540
+  }
+ ]
+}

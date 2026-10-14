@@ -1,0 +1,99 @@
+{
+ "sci": "Crotalus angelensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30739,
+  "name": "Crotalus angelensis",
+  "observations": 9,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crotalus_mitchellii_angelensis",
+  "common": "Angel de la Guarda Island Speckled Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280212867/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brandon_dietrich, some rights reserved (CC BY-NC)",
+   "obs": 162076995,
+   "place": "Mexicali, MX-BN, MX",
+   "date": "2022-05-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280213643/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brandon_dietrich, some rights reserved (CC BY-NC)",
+   "obs": 162077371,
+   "place": "Mexicali, MX-BN, MX",
+   "date": "2022-05-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95211037/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saruhén Avila Moreno, some rights reserved (CC BY-NC)",
+   "obs": 59581707,
+   "place": "Isla Ángel de la Guarda, Baja California, México",
+   "date": "2020-09-11"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus angelensis",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_angelensis",
+  "revision": 1294998530,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus angelensis, or the Ángel de la Guarda Island speckled rattlesnake, is a pit viper species endemic to Isla Ángel de la Guarda in the Gulf of California, Mexico. Like all other pitvipers, it is venomous. It is sometimes treated as a subspecies of Crotalus mitchellii."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Grows to a maximum size of 137 centimetres (4 ft 6 in)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Found only on Isla Ángel de la Guarda in the Gulf of California, Mexico. The type locality given is \"about 4 miles [6 km] southeast of Refugio Bay, at 1,500 feet [460 m] elevation, Isla Ángel de la Guarda, Gulf of California, Mexico (near 29°29½'N, 113°33'W)\"."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Gravelly beaches along the shore; rocky arroyos, washes, and on the hillsides of the island's interior, from sea-level up to 500 m."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "This species is classified as \"Least Concern\" (LC) on the IUCN Red List of Threatened Species. It occurs in a protected area and is very abundant within its small range."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280213706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brandon_dietrich, some rights reserved (CC BY-NC), uploaded by brandon_dietrich",
+   "photo": 280213706
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280212945/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) brandon_dietrich, some rights reserved (CC BY-NC), uploaded by brandon_dietrich",
+   "photo": 280212945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95211037/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Saruhén Avila Moreno, some rights reserved (CC BY-NC), uploaded by Saruhén Avila Moreno",
+   "photo": 95211037
+  }
+ ]
+}

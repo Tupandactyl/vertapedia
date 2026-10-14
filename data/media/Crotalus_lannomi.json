@@ -1,0 +1,114 @@
+{
+ "sci": "Crotalus lannomi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30763,
+  "name": "Crotalus lannomi",
+  "observations": 10,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crotalus_lannomi",
+  "common": "Manantlán Long-tailed Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180310971/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 107218786,
+   "place": "Mexico",
+   "date": "2021-09-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133696139/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 81505568,
+   "place": "Mexico",
+   "date": "2013-12-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299587137/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 172274414,
+   "place": "Mexico",
+   "date": "2023-07-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667201558/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nathan J. Kutok, some rights reserved (CC BY-NC)",
+   "obs": 365436830,
+   "place": null,
+   "date": "2025-08-06"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus lannomi",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_lannomi",
+  "revision": 1371239825,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus lannomi, known commonly as the Autlán rattlesnake, is a species of venomous snake, a pit viper in the family Viperidae. The species is endemic to southwestern Mexico. There are no subspecies that are recognized as being valid."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, lannomi, is in honor of Joseph R. Lannom, Jr., who collected the type specimen."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "C. lannomi was described from a single specimen, a female 63.8 cm (25.1 in) in total length (including tail), presumed to have been an adult. The presence of some larger scales on top of its head and a longer tail are the traits Tanner (1966) suggested are primitive. Mostly on this basis, his opinion was that this species is most closely related to C. stejnegeri, though its head and body are not as slender as those of C. stejnegeri."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. lannomi is found in western Mexico in the Mexican states of Colima and Jalisco. The type locality is \"1.8 miles west of the pass, Puerto Los Mazos, or 22 miles west by road from the Río Tuxcacuesco, a branch of the Río América on Mexican Highway No. 80, Jalisco, Mexico\"."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The species C. lannomi is classified as Data Deficient on the IUCN Red List (v3.1, 2001). Species] are listed as such when information is inadequate to make a direct, or indirect, assessment of its risk of extinction based on its distribution and/or population status. It may be well studied, and its biology well known, but appropriate data on abundance and/or distribution are lacking. Data Deficient is therefore not a category of threat. Listing of taxa in this category indicates more information is required and acknowledges the possibility that future research will show a threatened classification is appropriate. It is important to make positive use of whatever data are available. In many cases great care should be exercised in choosing between DD and a threatened status. If the range of a taxon is suspected to be relatively circumscribed, and a considerable period of time has elapsed since the last record of the taxon, threatened status may well be justified. The population trend was unknown when assessed in 2007."
+    ]
+   },
+   {
+    "h": "Rediscovery",
+    "level": 2,
+    "paras": [
+     "In July 2008, the Autlán rattlesnake was rediscovered in the foothills of Colima, Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133696342/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 133696342
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180310971/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by adel-fridus",
+   "photo": 180310971
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180311039/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by adel-fridus",
+   "photo": 180311039
+  }
+ ]
+}

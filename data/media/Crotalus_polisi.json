@@ -1,0 +1,66 @@
+{
+ "sci": "Crotalus polisi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 734597,
+  "name": "Crotalus polisi",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Crotalus_polisi",
+  "common": "Horsehead Island Speckled Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103404964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tania Pérez Fiol, some rights reserved (CC BY-NC)",
+   "obs": 64329796,
+   "place": null,
+   "date": "2019-10-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330372665/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ana Gatica Colima, some rights reserved (CC BY-NC)",
+   "obs": 188713714,
+   "place": "Ensenada, MX-BN, MX",
+   "date": "2023-10-21"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus polisi",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_polisi",
+  "revision": 1292630004,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus polisi, or the Horsehead Island speckled rattlesnake, is a species of rattlesnake from Isla Cabeza de Caballo, Baja California, Mexico. The species is named after the late Gary Allan Polis, an arachnologist and desert food-web ecologist from the University of California after his death in the capsizing of his research vessel in 2000. As with all rattlesnakes, it is venomous.",
+     "While a young species, C. polisi shows rapid divergence from its sister species, possibly relating to its dwarfism."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Crotalus polisi is distinguished from most similar species by its nasorostral scales, except Crotalus mitchellii which shares them. The species is distinguished from C. mitchelli by its generally higher number of tail bands and dorsal blotches, as well as its fewer counts of some specific scale types, shorter ultimate supralabial scale and generally smaller body size.",
+     "C. polisi has a pattern mostly consisting of slate or charcoal grey with indistinct dorsal blotches."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103404964/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tania Pérez Fiol, some rights reserved (CC BY-NC), uploaded by Tania Pérez Fiol",
+   "photo": 103404964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103405011/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tania Pérez Fiol, some rights reserved (CC BY-NC), uploaded by Tania Pérez Fiol",
+   "photo": 103405011
+  }
+ ]
+}

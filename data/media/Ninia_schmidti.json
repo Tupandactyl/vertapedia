@@ -1,0 +1,58 @@
+{
+ "sci": "Ninia schmidti",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1545869,
+  "name": "Ninia schmidti",
+  "observations": 6,
+  "wikipedia_url": null,
+  "common": "Schmidt’s Coffee-Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168629770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC)",
+   "obs": 101001143,
+   "place": "El Oro, Ecuador",
+   "date": "2020-06-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598665172/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY)",
+   "obs": 330264994,
+   "place": "Ecuador",
+   "date": "2025-11-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67357873/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) miguel_urgiles, some rights reserved (CC BY-NC)",
+   "obs": 42423308,
+   "place": "Guayabo, Santa Rosa, Ecuador",
+   "date": "2018-11-09"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168629775/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC), uploaded by Eric",
+   "photo": 168629775
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590214371/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "photo": 590214371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168629770/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric, some rights reserved (CC BY-NC), uploaded by Eric",
+   "photo": 168629770
+  }
+ ]
+}

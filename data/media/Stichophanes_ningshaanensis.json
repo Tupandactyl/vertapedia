@@ -1,0 +1,60 @@
+{
+ "sci": "Stichophanes ningshaanensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540230,
+  "name": "Stichophanes ningshaanensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stichophanes",
+  "common": "Ningshaan Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292613954/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ghost_a, some rights reserved (CC BY-NC)",
+   "obs": 168780836,
+   "place": "湖北省神农架林区红坪镇画廊路",
+   "date": "2023-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292599615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hilyshao, some rights reserved (CC BY-NC)",
+   "obs": 168807184,
+   "place": "中国湖北省神农架林区",
+   "date": "2023-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590956599/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 云鸮, some rights reserved (CC BY-NC)",
+   "obs": 326307149,
+   "place": "中国湖北省神农架林区红坪镇 邮政编码: 442416",
+   "date": "2023-06-22"
+  }
+ ],
+ "wiki": {
+  "title": "Stichophanes",
+  "url": "https://en.wikipedia.org/wiki/Stichophanes",
+  "revision": 1377713874,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Stichophanes is a genus of snake in the family Colubridae  that contains the sole species Stichophanes ningshaanensis. It is commonly known as the Ningshaan kukri snake or Ningshan line-shaped snake.",
+     "It is found in Asia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292599615/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hilyshao, some rights reserved (CC BY-NC), uploaded by hilyshao",
+   "photo": 292599615
+  }
+ ]
+}

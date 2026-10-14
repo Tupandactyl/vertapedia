@@ -1,0 +1,163 @@
+{
+ "sci": "Thamnophis cyrtopsis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28345,
+  "name": "Thamnophis cyrtopsis",
+  "observations": 4805,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blackneck_garter_snake",
+  "common": "Black-necked Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312102108/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jared Shorma, some rights reserved (CC BY)",
+   "obs": 179281454,
+   "place": "Santa Cruz County, AZ, USA",
+   "date": "2023-08-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541329900/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Harrison, some rights reserved (CC BY-NC)",
+   "obs": 300439568,
+   "place": "Jeff Davis County, TX, USA",
+   "date": "2015-07-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12197231/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ruíz Domínguez, some rights reserved (CC BY-NC)",
+   "obs": 9039923,
+   "place": "Morelia, Mich., México",
+   "date": "2017-12-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192601679/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris, some rights reserved (CC BY-NC)",
+   "obs": 114032879,
+   "place": "Colorado, US",
+   "date": "2022-04-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84891634/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) amandafoust, some rights reserved (CC BY-NC)",
+   "obs": 53376484,
+   "place": "Utah, US",
+   "date": "2020-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592031491/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Collister, some rights reserved (CC BY-NC)",
+   "obs": 326845991,
+   "place": "Texas, US",
+   "date": "2025-11-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/538755395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Briana Paxton, some rights reserved (CC BY-NC)",
+   "obs": 299058356,
+   "place": "United States",
+   "date": "2025-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2765643/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robby Deans, some rights reserved (CC BY-NC)",
+   "obs": 2470762,
+   "place": "brackenridge field laboratory",
+   "date": "2015-12-10"
+  }
+ ],
+ "wiki": {
+  "title": "Blackneck garter snake",
+  "url": "https://en.wikipedia.org/wiki/Blackneck_garter_snake",
+  "revision": 1317394530,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: blackneck garter snake, black-neck garter snake",
+     "Thamnophis cyrtopsis, the blackneck garter snake, is a species of garter snake of the genus Thamnophis. It is native to the southwestern United States, Mexico and Guatemala, and can be found in a wide range of different habitats, often near water sources."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "There are three recognized subspecies of the blackneck garter snake, two of which, Thamnophis cyrtopsis cyrtopsis and Thamnophis cyrtopsis ocellatus, are described below."
+    ]
+   },
+   {
+    "h": "Western blackneck garter snake",
+    "level": 3,
+    "paras": [
+     "Thamnophis cyrtopsis cyrtopsis (Kennicott, 1860)",
+     "The western blackneck garter snake may attain 107 cm (42 inches) in total length. The snake is colored dark olive with an orange-yellow stripe that is displayed on the middle of the body from the top while the underside is usually a cream or light shade of gray. The western blackneck is a water snake that lives near rivers, swims, and eats small fish and tadpoles."
+    ]
+   },
+   {
+    "h": "Eastern blackneck garter snake",
+    "level": 3,
+    "paras": [
+     "Thamnophis cyrtopsis ocellatus (Cope, 1880)",
+     "The eastern blackneck garter snake is smaller than the western blackneck garter snake, with an average total length of less than 51 cm (20 inches). It is frequently found on dry land near a water source rather than in water. It displays three light stripes on a dark-colored body with uniform orange and orange-yellow spreading throughout."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The blackneck garter snake can be found in southeastern and central Arizona, parts of the southwestern United States, Mexico and Guatemala."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Found near water in desertscrub, grasslands, chaparral, woodland environments."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "It is active during the day and during twilight activities, and occasionally at night, hibernating from late fall to winter and mating in late spring or summer."
+    ]
+   },
+   {
+    "h": "Feeding",
+    "level": 2,
+    "paras": [
+     "Hunts in rivers for small fish, amphibians, other snakes, and invertebrates, such as earthworms."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485764232/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "photo": 485764232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/312102096/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Jared Shorma, some rights reserved (CC BY), uploaded by Jared Shorma",
+   "photo": 312102096
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2765643/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Robby Deans, some rights reserved (CC BY-NC), uploaded by Robby Deans",
+   "photo": 2765643
+  }
+ ]
+}

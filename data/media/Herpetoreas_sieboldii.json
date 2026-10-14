@@ -1,0 +1,72 @@
+{
+ "sci": "Herpetoreas sieboldii",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 539830,
+  "name": "Herpetoreas sieboldii",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sikkim_keelback",
+  "common": "Sikkim Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366586062/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC)",
+   "obs": 207271843,
+   "place": "West Kameng, IN-AR, IN",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3549678/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) porag, some rights reserved (CC BY-NC)",
+   "obs": 3078696,
+   "place": "Mandala, Arunachal Pradesh, India",
+   "date": "2015-04-16"
+  }
+ ],
+ "wiki": {
+  "title": "Sikkim keelback",
+  "url": "https://en.wikipedia.org/wiki/Sikkim_keelback",
+  "revision": 1354924692,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Sikkim keelback (Herpetoreas sieboldii) is a species of grass snake in the family Colubridae. The species is endemic to South Asia and Myanmar. It is closely related to the Himalayan keelback, and some treat this species as a synonym (Tillack 2003)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "H. sieboldii is found in Bangladesh, Bhutan, India (Punjab, Sikkim, Uttar Pradesh), Myanmar (formerly called Burma), Nepal, and Pakistan."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, sieboldii, is in honor of German zoologist Karl Theodor Ernst von Siebold."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "H. sieboldii is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3549678/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) porag, some rights reserved (CC BY-NC)",
+   "photo": 3549678
+  }
+ ]
+}

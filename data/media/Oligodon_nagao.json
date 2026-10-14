@@ -1,0 +1,73 @@
+{
+ "sci": "Oligodon nagao",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 200589,
+  "name": "Oligodon nagao",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_nagao",
+  "common": "Nagao Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/676453806/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mạnh Hùng, some rights reserved (CC BY-NC)",
+   "obs": 370286761,
+   "place": "5P67+9XF Đỉnh Yên Tử, 5P67+9X8, Yên Tử, Nam Mẫu, Yên Tử, Quảng Ninh 207900, Vietnam",
+   "date": "2026-06-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236766670/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC)",
+   "obs": 138514868,
+   "place": "Cuc Phuong, Ninh Binh, Vietnam",
+   "date": "2020-10-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365664130/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC)",
+   "obs": 206767788,
+   "place": "Hạ Long, Quảng Ninh, Vietnam",
+   "date": "2023-06-07"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon nagao",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_nagao",
+  "revision": 1370517621,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon nagao, the Nagao kukri snake, is a species of snakes in the family Colubridae. Specimens have been collected from Lang Son and Cao Bang in northern Vietnam, Guangxi Autonomous Region in southern People's Republic of China, and from Khammouane Province in central Laos PDR."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It has 15 or 17 dorsal scale rows at its mid-body, a short tail which can be up to 107 mm and a body up to 680 mm in length."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "Vietnam, Laos, China."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236766670/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC), uploaded by SIFASV from Vietnam_Nguyen Van Tan",
+   "photo": 236766670
+  }
+ ]
+}

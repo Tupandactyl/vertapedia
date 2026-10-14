@@ -1,0 +1,76 @@
+{
+ "sci": "Gloydius monticola",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 31060,
+  "name": "Gloydius monticola",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Gloydius_monticola",
+  "common": "Likiang Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/681522201/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mlango, some rights reserved (CC BY-NC)",
+   "obs": 372941275,
+   "place": "云南省丽江市玉龙纳西族自治县白沙镇旅游环线玉龙雪山国家级风景名胜区",
+   "date": "2026-06-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748978276/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xx2023, some rights reserved (CC BY-NC)",
+   "obs": 380233608,
+   "place": "Lijiang, CN-YN, CN",
+   "date": "2026-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114863075/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ed_shaw, some rights reserved (CC BY-NC)",
+   "obs": 70633078,
+   "place": "Yulong Naxi Autonomous County, Lijiang, Yunnan, China",
+   "date": "2016-06-14"
+  }
+ ],
+ "wiki": {
+  "title": "Gloydius monticola",
+  "url": "https://en.wikipedia.org/wiki/Gloydius_monticola",
+  "revision": 1377292313,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: Likiang pit viper, Likiang pitviper.",
+     "Gloydius monticola is a venomous pitviper species endemic to southern China. A small and darkly colored snake with no visible color pattern, it is found high in the mountains of northern Yunnan province. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Gloyd and Conant (1990) state that the only male they examined was 37.4 cm (14.7 in) long with a 5.4 cm (2.1 in) tail. The largest female was 49.8 cm (19.6 in) in length with a tail of 5.9 cm (2.3 in). The body is relatively slender, although adult females are more stout. The snout is rounded, while the head is not markedly wider than the neck.",
+     "Scalation includes 6 supralabial scales, 19 rows of keeled dorsal scales at midbody, 140 ventral scales, a single anal scale, and 32 paired subcaudal scales.",
+     "The coloration consists of a black, dark brown, or dark gray ground color, with almost no discernible pattern. Exceptions to this rule may have labial scales with a whitish border along the line of the mouth, a few whitish subcaudal scales at the tail tip, or a faint hint of a dorsal pattern."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Found in southern China in the mountains of northern Yunnan at elevations of 3,600–4,000 m (11,800–13,100 ft) The type locality given is \"Yao-Schan bei Lidjiang, NW-Yünnan, 3600 m.\" [Yaoshan, near Lijiang, northwestern Yunnan, China, 3,600 m (11,800 ft)]."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114863089/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ed_shaw, some rights reserved (CC BY-NC)",
+   "photo": 114863089
+  }
+ ]
+}

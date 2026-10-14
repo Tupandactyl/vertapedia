@@ -1,0 +1,51 @@
+{
+ "sci": "Oligodon kampucheaensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 146310,
+  "name": "Oligodon kampucheaensis",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_kampucheaensis",
+  "common": "Kampuchea Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107578373/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Winney, some rights reserved (CC BY-NC)",
+   "obs": 66696428,
+   "place": "Saen Monourom, Cambodia",
+   "date": "2020-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61720808/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Pirataber, some rights reserved (CC BY)",
+   "obs": 38799032,
+   "place": "Ratanakiri Province",
+   "date": "2017-08-22"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon kampucheaensis",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_kampucheaensis",
+  "revision": 1374904777,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon kampucheaensis is a species of snakes in the subfamily Colubrinae. It is found in Cambodia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107578373/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kyle Winney, some rights reserved (CC BY-NC), uploaded by Kyle Winney",
+   "photo": 107578373
+  }
+ ]
+}

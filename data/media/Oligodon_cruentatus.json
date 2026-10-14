@@ -1,0 +1,64 @@
+{
+ "sci": "Oligodon cruentatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29265,
+  "name": "Oligodon cruentatus",
+  "observations": 6,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_cruentatus",
+  "common": "Pegu Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332315564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) myomyintthu, some rights reserved (CC BY-NC)",
+   "obs": 189664969,
+   "place": "Yangon, MM",
+   "date": "2023-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348225583/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "obs": 197651391,
+   "place": "Ah Myan Lan, Yangon, MM",
+   "date": "2024-01-26"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon cruentatus",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_cruentatus",
+  "revision": 1355353870,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Pegu kukri snake (Oligodon cruentatus) is a species of snake of the family Colubridae. It is endemic to Myanmar."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Myanmar between 16° and 24° north."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348225583/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "photo": 348225583
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332315564/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) myomyintthu, some rights reserved (CC BY-NC)",
+   "photo": 332315564
+  }
+ ]
+}

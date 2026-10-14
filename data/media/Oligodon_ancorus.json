@@ -1,0 +1,146 @@
+{
+ "sci": "Oligodon ancorus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 73877,
+  "name": "Oligodon ancorus",
+  "observations": 29,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_ancorus",
+  "common": "Northern Short-headed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655291940/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) astronorm, some rights reserved (CC BY-NC)",
+   "obs": 359171982,
+   "place": "Philippines",
+   "date": "2026-05-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564863151/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) gery-dupas, some rights reserved (CC BY-SA)",
+   "obs": 312830645,
+   "place": "Quezon, PH",
+   "date": "2025-07-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139203827/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pauleng, some rights reserved (CC BY-NC)",
+   "obs": 84679841,
+   "place": "Philippines",
+   "date": "2021-06-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332530889/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anders Dahl, some rights reserved (CC BY-NC)",
+   "obs": 189771130,
+   "place": "Philippines",
+   "date": "1999-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537265686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Boccia, some rights reserved (CC BY-NC)",
+   "obs": 298282529,
+   "place": "Philippines",
+   "date": "2019-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563199209/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ralpylovesbirds, some rights reserved (CC BY-NC)",
+   "obs": 311964715,
+   "place": null,
+   "date": "2025-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/630498759/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) patrick mangalili, some rights reserved (CC BY-NC)",
+   "obs": 345928467,
+   "place": "Philippines",
+   "date": "2025-04-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16364382/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Pauline Carmel Joy Eje, some rights reserved (CC BY)",
+   "obs": 11467850,
+   "place": "Philippines",
+   "date": "2018-04-26"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon ancorus",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_ancorus",
+  "revision": 1371425329,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon ancorus, commonly known as the northern short-headed snake, is a species of colubrid snake found on the islands of Luzon and Mindoro in the Philippines, as well as the island of Sumatra in Indonesia. However, whether the populations from Sumatra, described as Oligodon rhombifer, belong to this species has been contested."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The taxonomic status of Oligodon ancorus has been a matter of dispute. It was declared to be the same species as Oligodon rhombifer in 2008, but was revised to a different species in 2013, when a study found that O. rhombifer existed in Sumatra, where O. ancorus was not found."
+    ]
+   },
+   {
+    "h": "Phylogeny",
+    "level": 2,
+    "paras": [
+     "Oligodon ancorus is a member of the genus Oligodon, a genus common throughout central and tropical Asia. The genus belongs to the snake family Colubridae, the largest snake family, with member species being found on every continent except Antarctica."
+    ]
+   },
+   {
+    "h": "Habitat and ecology",
+    "level": 2,
+    "paras": [
+     "Oligodon ancorus is a lowland species, found between sea level and 600 meters above sea level. It is terrestrial, being found in coastal forests and mid-montane tropical forests. It has also been found in secondary growth."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "The snake is endemic to the Philippines, being found on Mindoro and Luzon islands."
+    ]
+   },
+   {
+    "h": "Conservation",
+    "level": 2,
+    "paras": [
+     "The range of O. ancorus' overlaps with some protected regions on Luzon island. However, it has never been a very abundant species, and its population is threatened by deforestation, which has consumed most of its coastal habitat in the last 100 year. Its population is severely fragmented. The International Union for Conservation of Nature lists it as \"Near threatened.\""
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16364382/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Pauline Carmel Joy Eje, some rights reserved (CC BY), uploaded by Pauline Carmel Joy Eje",
+   "photo": 16364382
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16364371/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Pauline Carmel Joy Eje, some rights reserved (CC BY), uploaded by Pauline Carmel Joy Eje",
+   "photo": 16364371
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537265706/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christopher Boccia, some rights reserved (CC BY-NC), uploaded by Christopher Boccia",
+   "photo": 537265706
+  }
+ ]
+}

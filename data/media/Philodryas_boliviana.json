@@ -1,0 +1,66 @@
+{
+ "sci": "Philodryas boliviana",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540057,
+  "name": "Philodryas boliviana",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philodryas_boliviana",
+  "common": "Bolivian Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373086537/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Omar Miranda B., some rights reserved (CC BY-NC)",
+   "obs": 210984995,
+   "place": "La Paz, BO",
+   "date": "2024-04-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194543905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sandraandrade005, some rights reserved (CC BY-NC)",
+   "obs": 115253007,
+   "place": "Murillo, Bolivia",
+   "date": "2022-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23286452/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
+   "obs": 15568688,
+   "place": "Bolivia - Dpto. La Paz",
+   "date": "2015-11-05"
+  }
+ ],
+ "wiki": {
+  "title": "Philodryas boliviana",
+  "url": "https://en.wikipedia.org/wiki/Philodryas_boliviana",
+  "revision": 1355386485,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philodryas boliviana, the Bolivian racer, is a species of snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Bolivia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194543905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sandraandrade005, some rights reserved (CC BY-NC)",
+   "photo": 194543905
+  }
+ ]
+}

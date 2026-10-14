@@ -1,0 +1,52 @@
+{
+ "sci": "Philothamnus ruandae",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29087,
+  "name": "Philothamnus ruandae",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philothamnus_ruandae",
+  "common": "Ruanda Emerald Green Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432318727/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Calvin Harris, some rights reserved (CC BY-NC-SA)",
+   "obs": 242504056,
+   "place": "Ruhija, Uganda",
+   "date": "2024-09-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216032757/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) biancazoletto, some rights reserved (CC BY-NC)",
+   "obs": 127262888,
+   "place": "Kabale, Uganda",
+   "date": "2022-07-14"
+  }
+ ],
+ "wiki": {
+  "title": "Philothamnus ruandae",
+  "url": "https://en.wikipedia.org/wiki/Philothamnus_ruandae",
+  "revision": 1360268907,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philothamnus ruandae, the Ruanda emerald green snake or  Rwanda forest green snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Rwanda, Republic of the Congo, and Uganda."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216032757/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) biancazoletto, some rights reserved (CC BY-NC)",
+   "photo": 216032757
+  }
+ ]
+}

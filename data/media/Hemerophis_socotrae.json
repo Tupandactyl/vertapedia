@@ -1,0 +1,74 @@
+{
+ "sci": "Hemerophis socotrae",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29964,
+  "name": "Hemerophis socotrae",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hemerophis",
+  "common": "Socotran Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1802029/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1453892,
+   "place": null,
+   "date": "2008-01-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/774996/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) prasadkotian, some rights reserved (CC BY-NC)",
+   "obs": 614640,
+   "place": null,
+   "date": "2014-02-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359062894/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) James Bailey, some rights reserved (CC BY-NC)",
+   "obs": 199187234,
+   "place": "Hadramawt, YE",
+   "date": "2024-02-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464363895/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) stpah, some rights reserved (CC BY-NC)",
+   "obs": 258771927,
+   "place": "Hadramawt, YE",
+   "date": "2025-01-08"
+  }
+ ],
+ "wiki": {
+  "title": "Hemerophis",
+  "url": "https://en.wikipedia.org/wiki/Hemerophis",
+  "revision": 1349490705,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hemerophis is a genus of snake in the family Colubridae  that contains the sole species Hemerophis socotrae. It is commonly known as the Socotran racer.",
+     "It is found in Yemen."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1802029/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1802029
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1802030/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1802030
+  }
+ ]
+}

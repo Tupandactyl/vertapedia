@@ -1,0 +1,88 @@
+{
+ "sci": "Rhinocheilus etheridgei",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28763,
+  "name": "Rhinocheilus etheridgei",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhinocheilus_etheridgei",
+  "common": "Isla Cerralvo Long-nosed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 95076067,
+   "place": "Jacques Cousteau Island, BCS, MX",
+   "date": "2018-10-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447100033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "obs": 250044349,
+   "place": "Baja California Sur, MX",
+   "date": "2024-10-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238561429/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "obs": 139475370,
+   "place": "Jacques Cousteau Island, La Paz, BCS, MX",
+   "date": "2022-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/582618199/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bajapelagica, some rights reserved (CC BY-NC)",
+   "obs": 322098471,
+   "place": "Baja California Sur, MX",
+   "date": "2025-10-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425183243/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bajapelagica, some rights reserved (CC BY-NC)",
+   "obs": 238791399,
+   "place": "La Paz, B.C.S., México",
+   "date": "2023-11-03"
+  }
+ ],
+ "wiki": {
+  "title": "Rhinocheilus etheridgei",
+  "url": "https://en.wikipedia.org/wiki/Rhinocheilus_etheridgei",
+  "revision": 1355388325,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhinocheilus etheridgei,  Etheridge's longnose snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 157795723
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795762/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 157795762
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795749/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 157795749
+  }
+ ]
+}

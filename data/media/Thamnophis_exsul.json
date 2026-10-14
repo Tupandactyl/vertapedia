@@ -1,0 +1,55 @@
+{
+ "sci": "Thamnophis exsul",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28397,
+  "name": "Thamnophis exsul",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Montane_garter_snake",
+  "common": "Montane Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430421607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) crotrox, some rights reserved (CC BY-NC)",
+   "obs": 241503074,
+   "place": "Tamaulipas, MX",
+   "date": "2024-08-23"
+  }
+ ],
+ "wiki": {
+  "title": "Montane garter snake",
+  "url": "https://en.wikipedia.org/wiki/Montane_garter_snake",
+  "revision": 1355353610,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The montane garter snake (Thamnophis exsul) is a species of snake of the family Colubridae. It is found in Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430421607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) crotrox, some rights reserved (CC BY-NC), uploaded by crotrox",
+   "photo": 430421607
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601492/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Smithsonian Institution, National Museum of Natural History, Department of Vertebrate Zoology, Division of Amphibians & Reptiles, some rights reserved (CC BY-NC-SA)",
+   "photo": 601492
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601493/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Smithsonian Institution, National Museum of Natural History, Department of Vertebrate Zoology, Division of Amphibians & Reptiles, some rights reserved (CC BY-NC-SA)",
+   "photo": 601493
+  }
+ ]
+}

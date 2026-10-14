@@ -1,0 +1,52 @@
+{
+ "sci": "Oligodon propinquus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540009,
+  "name": "Oligodon propinquus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_propinquus",
+  "common": "Javanese Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43310242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Seth Wollney, some rights reserved (CC BY-NC)",
+   "obs": 27810426,
+   "place": "Tomohon, Minahasa, North Sulawesi, ID",
+   "date": "2019-06-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566200898/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yovie Jehabut, some rights reserved (CC BY-NC)",
+   "obs": 312178652,
+   "place": "Rurukan, Tomohon Timur, Tomohon City, North Sulawesi, Indonesia",
+   "date": "2025-08-22"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon propinquus",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_propinquus",
+  "revision": 1355387598,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon propinquus, Bleeker's kukri snake or Javanese kukri snake, is a species of snake of the family Colubridae.",
+     "The snake is found on Java in Indonesia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43310242/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Seth Wollney, some rights reserved (CC BY-NC), uploaded by Seth Wollney",
+   "photo": 43310242
+  }
+ ]
+}

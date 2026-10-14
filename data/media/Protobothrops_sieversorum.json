@@ -1,0 +1,130 @@
+{
+ "sci": "Protobothrops sieversorum",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30978,
+  "name": "Protobothrops sieversorum",
+  "observations": 19,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Protobothrops_sieversorum",
+  "common": "Three horned-scaled pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293389/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Johannes Lundberg, some rights reserved (CC BY-NC-SA)",
+   "obs": 233425,
+   "place": "Khammouan, Laos",
+   "date": "2012-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104012461/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC)",
+   "obs": 64675577,
+   "place": "Khammouane Province, Laos",
+   "date": "2012-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532981033/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Chris Oldnall, some rights reserved (CC BY-SA)",
+   "obs": 296026948,
+   "place": "H7JM+F3, Phong Nha, Bố Trạch District, Quảng Bình, Vietnam",
+   "date": "2025-07-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217743395/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Neil Balchan, some rights reserved (CC BY-NC)",
+   "obs": 128204333,
+   "place": "Laos",
+   "date": "2022-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Calame, some rights reserved (CC BY-NC)",
+   "obs": 96308,
+   "place": "Khammouan, LA",
+   "date": "2010-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104317781/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC)",
+   "obs": 64846078,
+   "place": "Khammouane Province, Laos",
+   "date": "2012-05-08"
+  }
+ ],
+ "wiki": {
+  "title": "Protobothrops sieversorum",
+  "url": "https://en.wikipedia.org/wiki/Protobothrops_sieversorum",
+  "revision": 1378294331,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Protobothrops sieversorum, commonly known as the three horned-scaled pit viper or the three-horn-scaled pit viper, is a species of pit viper in the family Viperidae. The species is endemic to Vietnam and Laos."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Protobothrops sieversorum was originally placed in the monotypic genus Triceratolepidophis. Guo et al. (2007) synonymised this genus with the genus Protobothrops, based on evidence that it is phylogenetically nested within the existing species of that genus."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, sieversorum (masculine, genitive, plural), is in honor of the Sievers family, father Dr. J.-H. Sievers and sons Julian Sievers and Moritz Sievers, for their support of nature conservation and zoological research."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. sieversorum is indigenous to the Annamite Mountains of Laos and Vietnam where it has been found in Phong Nha-Ke Bang National Park and the Hin Namno National Biodiversity Conservation Area."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of P. sieversorum is forest, at altitudes of 200–600 m (660–1,970 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "P. sieversorum is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104012461/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "photo": 104012461
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140176/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Calame, some rights reserved (CC BY-NC)",
+   "photo": 140176
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293389/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Johannes Lundberg, some rights reserved (CC BY-NC-SA)",
+   "photo": 293389
+  }
+ ]
+}

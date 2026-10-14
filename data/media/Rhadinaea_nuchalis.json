@@ -1,0 +1,73 @@
+{
+ "sci": "Rhadinaea nuchalis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 797752,
+  "name": "Rhadinaea nuchalis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhadinaea_nuchalis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64754768/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 40846330,
+   "place": "Tecpán de Galeana, Guerrero, Mexico",
+   "date": "2019-07-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612341194/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Abigail Sarmiento, some rights reserved (CC BY-NC)",
+   "obs": 336910938,
+   "place": "40996 Gro., México",
+   "date": "2026-01-31"
+  }
+ ],
+ "wiki": {
+  "title": "Rhadinaea nuchalis",
+  "url": "https://en.wikipedia.org/wiki/Rhadinaea_nuchalis",
+  "revision": 1357019279,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhadinaea nuchalis is a species of snake in the family Colubridae. It was formally described in 2020 and is named after the large nuchal blotches on its neck. A Mexican endemic, it is known only at intermediate elevations from the vicinity of El Molote in the western portion of the Sierra Madre del Sur of Guerrero."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Rhadinaea nuchalis was formally described in 2018 based on an adult male specimen collected from the municipality of Atoyac de Álvarez in the state of Guerrero, Mexico. The specific epithet is derived from the Latin word nucha and means \"nape\". It refers to the large nuchal blotches present in the species."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The head is ochre dorsally. There is a postocular pale marking, consisting of a nearly horizontal, black-bordered, cream line. The black-bordered lateral stripe is dark brown, while the underside below this line is white with pink between the scales. There are two brownish-orange nuchal blotches. There is a dark brown line running down the middle of the back. The dorsolateral stripe is ochre. The flanks dark ochre, a color that extends ventrally onto the lateral portions of the ventrals and subcaudals. The remainder of the ventrals and subcaudals is pink-hued white speckled with little dots.",
+     "Rhadinaea nuchalis can be distinguished from the rest of its genus by a combination of characters. It has eight supralabials scales, 149–151 ventral scale rows in males, and 63–77 subcaudals in males. Combined with the scalation, the two large pale nuchal blotches, pale postocular line, and the fact that the ground color of the flanks extends to the lateral portion of the ventrals serve to identify this species."
+    ]
+   },
+   {
+    "h": "Distribution and ecology",
+    "level": 2,
+    "paras": [
+     "Rhadinaea nuchalis is known only at intermediate elevations from the vicinity of El Molote in the western portion of the Sierra Madre del Sur of Guerrero. This region of El Molote is characterized by rugged topography and the presence of numerous permanent streams that flow into the Atoyac and Coyuca rivers. The native vegetation of the region is dense and tall cloud forest with the canopy reaching 25–30 m in height. However, most of the original cloud forest has been replaced by coffee plantations."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30389631/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Uri Omar García-Vázquez, Carlos J. Pavón-Vázquez, Jean Cristian Blancas-Hernández, Epifanio Blancas-Calva, Eric Centenero-Alcalá, some rights reserved (CC BY)",
+   "photo": 30389631
+  }
+ ]
+}

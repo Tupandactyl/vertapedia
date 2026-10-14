@@ -1,0 +1,116 @@
+{
+ "sci": "Trimetopon barbouri",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28280,
+  "name": "Trimetopon barbouri",
+  "observations": 10,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trimetopon_barbouri",
+  "common": "Barbour's Tropical Ground Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93605463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC)",
+   "obs": 58622087,
+   "place": "Acandi, Choco, CO",
+   "date": "2014-08-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229745960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jawn, some rights reserved (CC BY-NC)",
+   "obs": 134754937,
+   "place": "Panama",
+   "date": "2012-01-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593378025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eyvett Franco, some rights reserved (CC BY-NC)",
+   "obs": 327521364,
+   "place": "C6RW+8X6 Quebrada Bellatriz, María chiquita, río piedras, Provincia de Colón, Panamá",
+   "date": "2025-11-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605965738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeisson Figueroa Sandi, some rights reserved (CC BY-NC)",
+   "obs": 333765227,
+   "place": "Estación Biológica Las Cruces",
+   "date": "2026-01-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449861461/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oasispanama, some rights reserved (CC BY-NC)",
+   "obs": 251419018,
+   "place": "oasispanama.kml",
+   "date": "2017-12-17"
+  }
+ ],
+ "wiki": {
+  "title": "Trimetopon barbouri",
+  "url": "https://en.wikipedia.org/wiki/Trimetopon_barbouri",
+  "revision": 1354669969,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Barbour's tropical ground snake (Trimetopon barbouri), also known commonly as Barbour's pygmy snake, is a species of snake in the family Colubridae. The species is endemic to Panama."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, barbouri, is in honor of American herpetologist Thomas Barbour."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. barbouri is endemic to the western region of Panama, and occasionally is found on Barro Colorado Island."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of T. barbouri is forest, at altitudes of 20–800 m (66–2,625 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "T. barbouri has two normal prefrontals, unlike other species of its genus which have the prefrontals fused. The holotype, a male, measures 26 cm (10 in) in total length, which includes a tail 6.5 cm (2.6 in) long."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. barbouri is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229745960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jawn, some rights reserved (CC BY-NC)",
+   "photo": 229745960
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93605463/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Zachary Lange, some rights reserved (CC BY-NC), uploaded by Zachary Lange",
+   "photo": 93605463
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "sci": "Zamenis lineatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 74008,
+  "name": "Zamenis lineatus",
+  "observations": 194,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Italian_Aesculapian_snake",
+  "common": "Italian Aesculapian Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612128607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvatore Russotto, some rights reserved (CC BY-NC)",
+   "obs": 336806555,
+   "place": "Libero consorzio comunale di Agrigento, Italia",
+   "date": "2020-09-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/707094446/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Teresa Mazzotta, some rights reserved (CC BY-NC)",
+   "obs": 386199842,
+   "place": "87035 Lago CS, Italia",
+   "date": "2026-07-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612128652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvatore Russotto, some rights reserved (CC BY-NC)",
+   "obs": 336806570,
+   "place": "Libero consorzio comunale di Agrigento, Italia",
+   "date": "2022-04-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24330364/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alessandromercogliano, some rights reserved (CC BY-NC)",
+   "obs": 16215537,
+   "place": "Provincia di Cosenza, Italia",
+   "date": "2018-07-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633583484/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sh257, some rights reserved (CC BY-NC)",
+   "obs": 347483861,
+   "place": "Giardini La Mortella, Forio, Kampanien, IT",
+   "date": "2026-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30826470/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paolo Mazzei, some rights reserved (CC BY-NC)",
+   "obs": 19975442,
+   "place": "Punta Cetarola, Sperlonga (Latina), Italia",
+   "date": "2008-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111874298/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) giovannilullo, some rights reserved (CC BY-NC)",
+   "obs": 69005434,
+   "place": "Oliveto Citra",
+   "date": "2020-06-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275803681/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marco Pecoraro, some rights reserved (CC BY-NC)",
+   "obs": 159618380,
+   "place": "91020 Poggioreale TP, Italia",
+   "date": "2023-05-04"
+  }
+ ],
+ "wiki": {
+  "title": "Italian Aesculapian snake",
+  "url": "https://en.wikipedia.org/wiki/Italian_Aesculapian_snake",
+  "revision": 1354936801,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Italian Aesculapian snake (Zamenis lineatus) is a species of snake in the subfamily Colubrinae of the family Colubridae. The species is native to parts of Italy."
+    ]
+   },
+   {
+    "h": "Geographic distribution",
+    "level": 2,
+    "paras": [
+     "Zamenis lineatus is native to southern Italy and Sicily. The northern limit of its geographical range is the Province of Caserta in the west and the Province of Foggia in the east. It is absent from the Salentine Peninsula (Salento), which is the \"heel\" of the \"boot\" of Italy.",
+     "The type locality is Naples."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The Italian Aesculapian snake is a medium to large snake that reaches a maximum total length (tail included) of 2 m (6+1⁄2 ft). Dorsally, it is yellowish brown and may have four dark brown stripes. If present, the stripes are of equal width and equidistant. The dorsal scales are smooth. The iris of the eye is red, giving it the common name in Italian of saettone occhirossi (red-eyed racer)."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The natural habitats of Zamenis lineatus are temperate forests, temperate shrubland, Mediterranean-type shrubby vegetation, arable land, pastureland, rural gardens, and urban areas, at altitudes from sea level to 1,600 m (5,200 ft)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Zamenis lineatus is partly arboreal."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "The Italian Aesculapian snake feeds on lizards, small mammals, and eggs."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Zamenis lineatus is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612128607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvatore Russotto, some rights reserved (CC BY-NC), uploaded by Salvatore Russotto",
+   "photo": 612128607
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30826496/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paolo Mazzei, some rights reserved (CC BY-NC), uploaded by Paolo Mazzei",
+   "photo": 30826496
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612128647/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Salvatore Russotto, some rights reserved (CC BY-NC), uploaded by Salvatore Russotto",
+   "photo": 612128647
+  }
+ ]
+}

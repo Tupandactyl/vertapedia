@@ -1,0 +1,44 @@
+{
+ "sci": "Oligodon perkinsi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29235,
+  "name": "Oligodon perkinsi",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_perkinsi",
+  "common": "Perkin's Short-headed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85808448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Supsup, some rights reserved (CC BY-NC)",
+   "obs": 53941590,
+   "place": "Palawan, PH",
+   "date": "2019-08-11"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon perkinsi",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_perkinsi",
+  "revision": 1355378618,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon perkinsi, also known as Perkin's short-headed snake, is a species of snake of the family Colubridae.",
+     "The snake is endemic to the Philippines, where it is known to live on the islands of Culion, Palawan, Calauit and Busuanga."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85808448/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Supsup, some rights reserved (CC BY-NC), uploaded by Christian Supsup",
+   "photo": 85808448
+  }
+ ]
+}

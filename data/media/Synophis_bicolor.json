@@ -1,0 +1,101 @@
+{
+ "sci": "Synophis bicolor",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28549,
+  "name": "Synophis bicolor",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Synophis_bicolor",
+  "common": "Two-colored Fishing Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71706366/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC)",
+   "obs": 45225952,
+   "place": "Esmeraldas, EC",
+   "date": "2004-09-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67149202/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC)",
+   "obs": 42295002,
+   "place": "Ecuador",
+   "date": "2004-05-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432470464/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rollinkansas, some rights reserved (CC BY-NC)",
+   "obs": 242585363,
+   "place": "Esmeraldas, EC",
+   "date": "2023-11-15"
+  }
+ ],
+ "wiki": {
+  "title": "Synophis bicolor",
+  "url": "https://en.wikipedia.org/wiki/Synophis_bicolor",
+  "revision": 1355105165,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Synophis bicolor, known commonly as the bicolored shadow snake or the two-colored fishing snake, is a species of snake in the family Colubridae. The species is endemic to northwestern South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "S. bicolor is found in Colombia and Ecuador."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitats of S. bicolor are lowland rainforest and Andean cloud forest, where it is found in leaf litter and bushes."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "S. bicolor is nocturnal, terrestrial, and semiarboreal."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Dorsally, S. bicolor is uniformly brown, lighter on the sides. Ventrally, it is yellowish white. The upper lip is also yellowish white. The dorsal scales are keeled, in 19 rows at midbody, and without apical pits."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "The diet of S. bicolor is unknown. Even though one of its common names alludes to fishing, there is no evidence that this species eats fish."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "S. bicolor is oviparous. Clutch size varies from two to eight eggs."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67149202/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mario Humberto Yánez-Muñoz, some rights reserved (CC BY-NC), uploaded by Mario Humberto Yánez-Muñoz",
+   "photo": 67149202
+  }
+ ]
+}

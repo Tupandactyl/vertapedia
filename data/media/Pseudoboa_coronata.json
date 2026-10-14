@@ -1,0 +1,125 @@
+{
+ "sci": "Pseudoboa coronata",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28944,
+  "name": "Pseudoboa coronata",
+  "observations": 303,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crowned_false_boa",
+  "common": "Crowned False Boa"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97723227/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY)",
+   "obs": 61089441,
+   "place": "Madre Selva Biological Station, Maynas Province, Peru",
+   "date": "2010-01-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114622164/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) a_f_r, some rights reserved (CC BY-NC)",
+   "obs": 70499482,
+   "place": "Oriximiná, BR-PA, BR",
+   "date": "2006-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42773288/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wasatch_hunter, some rights reserved (CC BY-NC)",
+   "obs": 27486562,
+   "place": "Sucumbíos Province, Ecuador",
+   "date": "2015-12-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485267124/{size}.png",
+   "license": "cc-by-nc",
+   "attribution": "(c) themufflab, some rights reserved (CC BY-NC)",
+   "obs": 269864971,
+   "place": "Meerzorg, Suriname",
+   "date": "2025-03-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347289149/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wildlife Tours Peru, Christoph Meyer, some rights reserved (CC BY-NC)",
+   "obs": 197213528,
+   "place": "Maynas, PE-LO, PE",
+   "date": "2024-01-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479836315/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC)",
+   "obs": 267034112,
+   "place": "Matoury 97351, Guyane française",
+   "date": "2016-03-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321949085/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sarah Helfand, some rights reserved (CC BY-NC)",
+   "obs": 184439432,
+   "place": "São Félix Do Xingu, PA, BR",
+   "date": "2023-09-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84714955/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Will, some rights reserved (CC BY-NC)",
+   "obs": 53268757,
+   "place": "Peru",
+   "date": "2017-09-19"
+  }
+ ],
+ "wiki": {
+  "title": "Crowned false boa",
+  "url": "https://en.wikipedia.org/wiki/Crowned_false_boa",
+  "revision": 1355105279,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The crowned false boa (Pseudoboa coronata) is a species of snake in the family Colubridae. The species is endemic to South America."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "P. coronata is found in Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Peru, Suriname, and Venezuela."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "P. coronata is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97723227/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) dhfischer, some rights reserved (CC BY), uploaded by dhfischer",
+   "photo": 97723227
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3122651/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 3122651
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168510318/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC), uploaded by Sébastien SANT",
+   "photo": 168510318
+  }
+ ]
+}

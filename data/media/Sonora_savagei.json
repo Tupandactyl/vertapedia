@@ -1,0 +1,99 @@
+{
+ "sci": "Sonora savagei",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1424676,
+  "name": "Sonora savagei",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sonora_savagei",
+  "common": "Savage's Sand Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447098572/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "obs": 250043701,
+   "place": "Jacques Cousteau Island, La Paz, B.C.S., MX",
+   "date": "2024-10-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2445604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mstepek, some rights reserved (CC BY-NC)",
+   "obs": 2008860,
+   "place": "Océano Pacífico, , BCS, MX",
+   "date": "2015-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439013217/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "obs": 245966799,
+   "place": "Jacques Cousteau Island, La Paz, B.C.S., MX",
+   "date": "2023-05-09"
+  }
+ ],
+ "wiki": {
+  "title": "Sonora savagei",
+  "url": "https://en.wikipedia.org/wiki/Sonora_savagei",
+  "revision": 1355165834,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sonora savagei, also known commonly as Savage's ground snake, Savage's sand snake, and arenera de Isla Cerralvo in Mexican Spanish, is a species of snake in the subfamily Colubrinae of the family Colubridae. The species is endemic to Jacques Cousteau Island (formerly called Isla Cerralvo), Baja California Sur, Mexico."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, savagei, is in honor of American herpetologist Jay M. Savage."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The coloration of S. savagei consists of alternating dark and pale rings, with no dark spots within the pale rings."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of S. savagei is dessert."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "S. savagei is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2445604/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mstepek, some rights reserved (CC BY-NC), uploaded by mstepek",
+   "photo": 2445604
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238560356/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "photo": 238560356
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238560371/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "photo": 238560371
+  }
+ ]
+}

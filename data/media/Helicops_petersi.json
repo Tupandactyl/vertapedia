@@ -1,0 +1,67 @@
+{
+ "sci": "Helicops petersi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29971,
+  "name": "Helicops petersi",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Helicops_petersi",
+  "common": "Spiral Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302656832/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 174224742,
+   "place": "San José del Guaviare, CO-GV, CO",
+   "date": "2023-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464187011/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christine Rand, some rights reserved (CC BY-NC)",
+   "obs": 258687077,
+   "place": "Ecuador",
+   "date": "2007-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360781790/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) narumk07, some rights reserved (CC BY-NC)",
+   "obs": 204138017,
+   "place": "Ecuador",
+   "date": "2024-03-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36853714/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Elvia Vásquez, some rights reserved (CC BY-NC)",
+   "obs": 23817366,
+   "place": "Ecuador",
+   "date": "2019-04-28"
+  }
+ ],
+ "wiki": {
+  "title": "Helicops petersi",
+  "url": "https://en.wikipedia.org/wiki/Helicops_petersi",
+  "revision": 1347026673,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Helicops petersi, the spiral keelback, is a species of snake in the family Colubridae. It is found in Ecuador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464187011/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Christine Rand, некоторые права защищены (CC BY-NC), загрузил Christine Rand",
+   "photo": 464187011
+  }
+ ]
+}

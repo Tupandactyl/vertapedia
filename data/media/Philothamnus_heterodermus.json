@@ -1,0 +1,80 @@
+{
+ "sci": "Philothamnus heterodermus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29086,
+  "name": "Philothamnus heterodermus",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philothamnus_heterodermus",
+  "common": "Emerald Green Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183186400/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 108763794,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2012-09-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122078637/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Georges Codjo Hèdégbètan., some rights reserved (CC BY-NC)",
+   "obs": 74677979,
+   "place": "Zinvié, Bénin",
+   "date": "2021-03-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585331107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 323485482,
+   "place": "Ottawa Plantation",
+   "date": "2025-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588733067/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gbolahan Oladoja, some rights reserved (CC BY-NC)",
+   "obs": 325189956,
+   "place": "Lekki Penninsula II, Lagos 106104, Lagos, Nigeria",
+   "date": "2025-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Philothamnus heterodermus",
+  "url": "https://en.wikipedia.org/wiki/Philothamnus_heterodermus",
+  "revision": 1355387915,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philothamnus heterodermus, the emerald green snake or variable green snake, is a species of snake of the family Colubridae.",
+     "The snake is found in central Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55167188/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 55167188
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183186400/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 183186400
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183186431/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 183186431
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "sci": "Echis borkini",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 146105,
+  "name": "Echis borkini",
+  "observations": 8,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Echis_borkini",
+  "common": "Borkin's Carpet Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465269334/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Hopeland, some rights reserved (CC BY)",
+   "obs": 259216602,
+   "place": "Jizan, SA",
+   "date": "2025-01-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466897625/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Hopeland, some rights reserved (CC BY)",
+   "obs": 260031482,
+   "place": "Jizan, SA",
+   "date": "2025-01-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/747387554/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Manca Alič, some rights reserved (CC BY)",
+   "obs": 406763436,
+   "place": "87639, الريث, Jazan Region, SA",
+   "date": "2026-08-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619976822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean-Léonard Stör, some rights reserved (CC BY-NC)",
+   "obs": 340663041,
+   "place": "RQ5H+R3W Farasan Island Marine Sanctuary, Sair Saudi-Arabien",
+   "date": "2026-03-01"
+  }
+ ],
+ "wiki": {
+  "title": "Echis borkini",
+  "url": "https://en.wikipedia.org/wiki/Echis_borkini",
+  "revision": 1314445005,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Echis borkini is a species of viper. Like all vipers, it is venomous. It was originally described as subspecies of Echis varius."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in southwestern Saudi Arabia and western Yemen."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619976822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jean-Léonard Stör, some rights reserved (CC BY-NC), uploaded by Jean-Léonard Stör",
+   "photo": 619976822
+  }
+ ]
+}

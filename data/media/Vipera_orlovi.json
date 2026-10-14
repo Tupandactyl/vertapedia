@@ -1,0 +1,122 @@
+{
+ "sci": "Vipera orlovi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30913,
+  "name": "Vipera orlovi",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Vipera_orlovi",
+  "common": "Orlov's Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97829458/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roman_Terentev, some rights reserved (CC BY-NC)",
+   "obs": 61153338,
+   "place": "Krasnodar, RU",
+   "date": "2019-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97705946/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nikolay Zhulikov, some rights reserved (CC BY-NC)",
+   "obs": 61079167,
+   "place": "Krasnodar, RU",
+   "date": "2020-09-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113845500/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tigran Tadevosyan, some rights reserved (CC BY)",
+   "obs": 70072056,
+   "place": null,
+   "date": "2004-05-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/512977910/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Федор Кондрачук, some rights reserved (CC BY-NC)",
+   "obs": 285394039,
+   "place": "Gelendzhik gorsovet, RU-KD, RU",
+   "date": "2025-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574659333/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Mityakov DA, some rights reserved (CC BY)",
+   "obs": 317989890,
+   "place": "Gelendzhik gorsovet, RU-KD, RU",
+   "date": "2025-05-28"
+  }
+ ],
+ "wiki": {
+  "title": "Vipera orlovi",
+  "url": "https://en.wikipedia.org/wiki/Vipera_orlovi",
+  "revision": 1354944935,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Vipera orlovi is a species of venomous snake in the subfamily Viperinae of the family Viperidae. The species is endemic to Russia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Vipera orlovi was described as a species new to science by Boris S. Tuniyev and Sergei V. Ostrovskikh in 2001."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, orlovi, is in honor of Russian herpetologist Nikolai Liutsianovich Orlov (born 1952)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Vipera orlovi is found in the Caucasus area of Russia."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred habitats of Vipera orlovi are forest, grassland, and shrubland at altitudes of 200–950 m (660–3,120 ft)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "Vipera orlovi is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65194521/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Venom Tales, certains droits réservés (CC BY-NC-SA)",
+   "photo": 65194521
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97829458/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roman_Terentev, certains droits réservés (CC BY-NC), publiées par Roman_Terentev",
+   "photo": 97829458
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65194520/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Venom Tales, certains droits réservés (CC BY-NC-SA)",
+   "photo": 65194520
+  }
+ ]
+}

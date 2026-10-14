@@ -1,0 +1,136 @@
+{
+ "sci": "Rhamnophis batesii",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28779,
+  "name": "Rhamnophis batesii",
+  "observations": 9,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spotted_dagger-tooth_tree_snake",
+  "common": "Spotted Dagger-tooth Tree Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91266466/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "obs": 57228843,
+   "place": "Mundemba, Sud-Ouest, Cameroun",
+   "date": "2005-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573454434/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) seanbrogan, some rights reserved (CC BY-NC)",
+   "obs": 317360291,
+   "place": "Ouesso, Republic of the Congo",
+   "date": "2021-12-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91266483/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "obs": 57228862,
+   "place": "Mundemba, Sud-Ouest, Cameroun",
+   "date": "2005-01-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698944813/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gonzalo Giribet, some rights reserved (CC BY-NC)",
+   "obs": 381958575,
+   "place": "Mefou et Akono, Centre, Cameroon",
+   "date": "2009-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47052607/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bitty A. Roy, some rights reserved (CC BY-NC)",
+   "obs": 30129370,
+   "place": "Etimboue, (Rabi) Gabon",
+   "date": "2014-09-22"
+  }
+ ],
+ "wiki": {
+  "title": "Spotted dagger-tooth tree snake",
+  "url": "https://en.wikipedia.org/wiki/Spotted_dagger-tooth_tree_snake",
+  "revision": 1355105221,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The spotted dagger-tooth tree snake (Rhamnophis batesii) is a species of venomous snake in the family Colubridae. The species is indigenous to Middle Africa."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, batesii, is in honor of American ornithologist George Latimer Bates."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "R. batesii is found in Cameroon, Central African Republic, Congo, Democratic Republic of Congo, Equatorial Guinea, and Gabon."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of R. batesii is forest, at altitudes from sea level to 1,300 m (4,300 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The holotype of R. batesii has a total length (including tail) of 1.8 m (5.9 ft). The smooth dorsal scales are arranged in 13 rows at midbody, and the vertebral row is enlarged."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "R. batesii is arboreal."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "R. batesii is oviparous."
+    ]
+   },
+   {
+    "h": "Venom",
+    "level": 2,
+    "paras": [
+     "R. batesii is a rear-fanged colubrid, i.e., it has venom, which it may be able to inoculate by biting. Because very little is known about this species and its venom, it is necessary to be very cautious when working with it. This species has an almost identical defence mechanism to the boomslang (Dispholidus typus) and twig snakes (genus Thelotornis) as they also inflate their throat to make themselves look bigger. It is believed that the species of the genus Rhamnophis evolved between the boomslang and the species of the genus Thrasops in terms of their fangs and means of envenomation."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91266473/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 91266473
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91266483/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "photo": 91266483
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47052614/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bitty A. Roy, some rights reserved (CC BY-NC), uploaded by Bitty A. Roy",
+   "photo": 47052614
+  }
+ ]
+}

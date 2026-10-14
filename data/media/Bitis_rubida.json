@@ -1,0 +1,133 @@
+{
+ "sci": "Bitis rubida",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30858,
+  "name": "Bitis rubida",
+  "observations": 138,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bitis_rubida",
+  "common": "Red Adder"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151472701/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Rebelo, some rights reserved (CC BY-SA)",
+   "obs": 91568853,
+   "place": "Cedarberg Shale Band, Sneeukop Hut to Welbedacht, Cedarberg Wilderness Area",
+   "date": "2021-04-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554746138/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Collette Hurt, some rights reserved (CC BY-NC)",
+   "obs": 307547825,
+   "place": "Western Cape, ZA",
+   "date": "2025-08-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215220887/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Matthew Sephton, some rights reserved (CC BY-NC)",
+   "obs": 126818571,
+   "place": "Western District, South Africa",
+   "date": "2018-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87575085/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 55014858,
+   "place": "Central Karoo, ZA-WC, ZA",
+   "date": "2018-01-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178667478/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Campbell Fleming, some rights reserved (CC BY-NC)",
+   "obs": 106365868,
+   "place": "Middelberg guest farm",
+   "date": "2022-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224790428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mish, some rights reserved (CC BY-NC)",
+   "obs": 132036601,
+   "place": "Central Karoo, ZA-WC, ZA",
+   "date": "2022-08-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31210698/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kevinjolliffe, some rights reserved (CC BY-NC)",
+   "obs": 20219330,
+   "place": "Drie Kuilen",
+   "date": "2016-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219967367/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Johan Huisamen, some rights reserved (CC BY-NC)",
+   "obs": 129439205,
+   "place": "West Coast DC, South Africa",
+   "date": "2021-10-27"
+  }
+ ],
+ "wiki": {
+  "title": "Red adder",
+  "url": "https://en.wikipedia.org/wiki/Red_adder",
+  "revision": 1350412472,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The red adder (Bitis rubida) is a viper species found only in Western Cape Province, South Africa. No subspecies are currently recognised. Like all other vipers, it is venomous."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Bitis rubida was described as a new species in 1997 by William Roy \"Bill\" Branch. Prior to that time, specimens of this snake had been identified as belonging to several other species and subspecies of the genus Bitis (see \"Synonyms\" in \"Taxobox\"). The type locality given is \"Jeep track above Farm Driehoek, Cederberg Mountains, Western Cape Province, South Africa; 32°25'44\"S, 19°12'30\"E, alt. 1380 m [4,528 ft]; 3219AC.\"",
+     "The common name is \"red adder\"."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Maximum recorded total lengths (body + tail) are 41.9 cm (16.5 in) for females and 37.7 cm (14.8 in) for males."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "Several isolated populations are found in the northern Cape Fold Mountains and inland escarpment in Western Cape Province, South Africa."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87575085/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 87575085
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15806471/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 15806471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151472734/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Tony Rebelo, some rights reserved (CC BY-SA), uploaded by Tony Rebelo",
+   "photo": 151472734
+  }
+ ]
+}

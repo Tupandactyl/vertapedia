@@ -1,0 +1,43 @@
+{
+ "sci": "Oligodon condaoensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540007,
+  "name": "Oligodon condaoensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_condaoensis",
+  "common": "Con Dao Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249085381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rwillett1378, some rights reserved (CC BY-NC)",
+   "obs": 145048299,
+   "place": "Côn Đảo, Bà Rịa - Vũng Tàu, Vietnam",
+   "date": "2022-12-25"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon condaoensis",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_condaoensis",
+  "revision": 1351724957,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon condaoensis is a species of snakes in the subfamily Colubrinae. It is found in Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249085381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rwillett1378, some rights reserved (CC BY-NC)",
+   "photo": 249085381
+  }
+ ]
+}

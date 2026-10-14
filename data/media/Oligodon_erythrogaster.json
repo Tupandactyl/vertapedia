@@ -1,0 +1,51 @@
+{
+ "sci": "Oligodon erythrogaster",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29259,
+  "name": "Oligodon erythrogaster",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_erythrogaster",
+  "common": "Nagarkot Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81952917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rohit Giri, some rights reserved (CC BY-NC)",
+   "obs": 51574916,
+   "place": "Pokhara, Nepal",
+   "date": "2020-06-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518741721/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Patricia Rose, some rights reserved (CC BY)",
+   "obs": 288449991,
+   "place": "GM55+WJX, Narchyang 33200, Nepal",
+   "date": "2025-06-10"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon erythrogaster",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_erythrogaster",
+  "revision": 1351724985,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon erythrogaster, the Nagarkot kukri snake, is a species of snake found in India and Nepal."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81952917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rohit Giri, some rights reserved (CC BY-NC), uploaded by Rohit Giri",
+   "photo": 81952917
+  }
+ ]
+}

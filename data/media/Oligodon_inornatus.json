@@ -1,0 +1,55 @@
+{
+ "sci": "Oligodon inornatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29255,
+  "name": "Oligodon inornatus",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_inornatus",
+  "common": "Inornate Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402873215/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ayuwat, some rights reserved (CC BY-NC)",
+   "obs": 225897495,
+   "place": "Kao Hua Mot, Umphang, Tak, TH",
+   "date": "2024-06-29"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon inornatus",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_inornatus",
+  "revision": 1327797961,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon inornatus, the inornate kukri snake or unicolored kukri snake, is a species of snakes in the subfamily Colubrinae. It is found in Thailand, Cambodia, and Laos."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402873231/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ayuwat, some rights reserved (CC BY-NC)",
+   "photo": 402873231
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402873215/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ayuwat, some rights reserved (CC BY-NC)",
+   "photo": 402873215
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402873222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ayuwat, some rights reserved (CC BY-NC)",
+   "photo": 402873222
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "sci": "Ialtris haetianus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 26740,
+  "name": "Ialtris haetianus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ialtris_haetianus",
+  "common": "Haitian Groundsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98121077/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC)",
+   "obs": 61325885,
+   "place": "Haiti",
+   "date": "2020-09-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260423654/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC)",
+   "obs": 150974829,
+   "place": "Haiti",
+   "date": "2022-07-30"
+  }
+ ],
+ "wiki": {
+  "title": "Ialtris haetianus",
+  "url": "https://en.wikipedia.org/wiki/Ialtris_haetianus",
+  "revision": 1369193943,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Ialtris haetianus, the Hispaniolan upland racer or Haitian ground snake, is a species of snake in the family Colubridae.  The species is native to Haiti and the Dominican Republic."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98121077/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) René Durocher, some rights reserved (CC BY-NC), uploaded by René Durocher",
+   "photo": 98121077
+  }
+ ]
+}

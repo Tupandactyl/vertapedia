@@ -1,0 +1,57 @@
+{
+ "sci": "Thamnophis mendax",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28388,
+  "name": "Thamnophis mendax",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tamaulipan_montane_garter_snake",
+  "common": "Tamaulipan Montane Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9502689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juliocesar28, some rights reserved (CC BY-NC)",
+   "obs": 7334156,
+   "place": "Gómez Farías, Tamps., México",
+   "date": "2017-07-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27950846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) o3javo, some rights reserved (CC BY-NC)",
+   "obs": 18294762,
+   "place": "Jaumave, Jaumave, TAMPS, MX",
+   "date": "2018-08-03"
+  }
+ ],
+ "wiki": {
+  "title": "Tamaulipan montane garter snake",
+  "url": "https://en.wikipedia.org/wiki/Tamaulipan_montane_garter_snake",
+  "revision": 1355353639,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Tamaulipan montane garter snake (Thamnophis mendax) is a species of snake of the family Colubridae. It is endemic to the Sierra Madre Oriental of Tamaulipas, Mexico, where it has been found between 1,100 and 1,600 meters elevation."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9502689/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) juliocesar28, some rights reserved (CC BY-NC), uploaded by juliocesar28",
+   "photo": 9502689
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27950846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) o3javo, some rights reserved (CC BY-NC)",
+   "photo": 27950846
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "sci": "Protobothrops dabieshanensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 200595,
+  "name": "Protobothrops dabieshanensis",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Protobothrops_dabieshanensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432350591/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)",
+   "obs": 242521725,
+   "place": "Anqing, CN-AH, CN",
+   "date": "2024-09-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/636308269/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mingyafeng, some rights reserved (CC BY-NC)",
+   "obs": 348857253,
+   "place": "Anhui, CN",
+   "date": "2026-04-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/623464717/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)",
+   "obs": 342553861,
+   "place": "Lu'an, CN-AH, CN",
+   "date": "2025-04-25"
+  }
+ ],
+ "wiki": {
+  "title": "Protobothrops dabieshanensis",
+  "url": "https://en.wikipedia.org/wiki/Protobothrops_dabieshanensis",
+  "revision": 1371822559,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Protobothrops dabieshanensis, also known as the Dabie Mountains pit viper, is an endangered species of lance headed pit viper which is endemic to the Anhui Province of China. Like all pit vipers, P. dabieshanensis is venomous. It is thought to be in the top 30 most endangered viper species."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "The Dabie Mountains pitviper is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432350674/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 张艺言, some rights reserved (CC BY-NC), uploaded by 张艺言",
+   "photo": 432350674
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432350591/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 张艺言, some rights reserved (CC BY-NC), uploaded by 张艺言",
+   "photo": 432350591
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432350705/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 张艺言, some rights reserved (CC BY-NC), uploaded by 张艺言",
+   "photo": 432350705
+  }
+ ]
+}

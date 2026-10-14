@@ -1,0 +1,141 @@
+{
+ "sci": "Platyceps thomasi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540114,
+  "name": "Platyceps thomasi",
+  "observations": 10,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Platyceps",
+  "common": "Thomas' Semi-banded Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3303627/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) daveshowler, some rights reserved (CC BY-NC)",
+   "obs": 2889684,
+   "place": "Wadi Mararah, Yemen",
+   "date": "1993-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248709829/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 144853950,
+   "place": "منطقة عيون، Omán",
+   "date": "2018-11-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66293705/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Joey Bom, some rights reserved (CC BY)",
+   "obs": 41782248,
+   "place": "Wadi Hanna, Oman",
+   "date": "2020-02-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458837551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) christophriegler, some rights reserved (CC BY-NC)",
+   "obs": 255975526,
+   "place": "Dhofar, Oman",
+   "date": "2019-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699707788/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Broek, some rights reserved (CC BY-NC)",
+   "obs": 382533560,
+   "place": "Salalah, OM-JA, OM",
+   "date": "2022-10-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541853161/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Florian Olivier, some rights reserved (CC BY-NC)",
+   "obs": 300722210,
+   "place": "Dhofar, Oman",
+   "date": "2025-03-22"
+  }
+ ],
+ "wiki": {
+  "title": "Platyceps",
+  "url": "https://en.wikipedia.org/wiki/Platyceps",
+  "revision": 1355101452,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Platyceps is a genus of snakes of the family Colubridae endemic to Eurasia."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The genus was erected in 1860 by Edward Blyth, allying species previously described.",
+     "The genus name Platyceps was inadvertently used for a fossil species in 1877, now recognised as Platycepsion wilkinsoni."
+    ]
+   },
+   {
+    "h": "Species",
+    "level": 2,
+    "paras": [
+     "The following 30 species are recognized as being valid.",
+     "Platyceps afarensis Schätti & Ineich, 2004 - Afar racer",
+     "Platyceps atayevi (Tuniyev & Shammakov, 1993)",
+     "Platyceps bholanathi (Sharma, 1976) - Sharma's racer, Nagarjunasagar racer",
+     "Platyceps brevis (Boulenger, 1895) - short racer",
+     "Platyceps collaris (F. Müller, 1878) - red whip snake, collared dwarf racer",
+     "Platyceps elegantissimus (Günther, 1878) - elegant racer",
+     "Platyceps florulentus (I. Geoffroy Saint-Hilaire, 1827) - flowered racer, Geoffroy's racer",
+     "Platyceps gracilis (Günther, 1862) - graceful racer, slender racer",
+     "Platyceps insulanus (Mertens, 1965) - Sarso Island racer",
+     "Platyceps josephi Deepak, Narayanan, Mohapatra, Dutta, Melvinselvan, Khan, Mahlow & Tillack, 2021 -Joseph’s racer",
+     "Platyceps karelini (Brandt, 1838) - spotted desert racer",
+     "Platyceps ladacensis (Anderson, 1871) - braid snake, Jan's cliff racer",
+     "Platyceps largeni (Schätti, 2001) - Dahlak racer",
+     "Platyceps messanai (Schätti & Lanza, 1989) - Schätti's racer",
+     "Platyceps najadum (Eichwald, 1831) - Dahl's whip snake, the slender whip snake",
+     "Platyceps noeli Schätti, Tillack & Kucharzewski, 2014 - Brahui racer",
+     "Platyceps plinii (Merrem, 1820)",
+     "Platyceps rhodorachis (Jan, 1865) - common cliff racer, Wadi racer, desert racer, braid snake, Jan’s cliff racer",
+     "Platyceps rogersi (Anderson, 1893) - Rogers's racer",
+     "Platyceps saharicus Schätti & McCarthy, 2004",
+     "Platyceps schmidtleri (Schätti & McCarthy, 2001)",
+     "Platyceps scortecci (Lanza, 1963)",
+     "Platyceps sinai (Schmidt & Marx, 1956) - Sinai racer, Sinai banded racer",
+     "Platyceps sindhensis Schätti, Tillack & Kucharzewski, 2014 - Sindh racer",
+     "Platyceps somalicus (Boulenger, 1896) - Ogaden racer, Audo racer",
+     "Platyceps taylori (Parker, 1949) - Taylor's racer",
+     "Platyceps thomasi (Parker, 1931) - Thomas's semi-banded racer",
+     "Platyceps variabilis (Boulenger, 1905) - variable snake, variable racer",
+     "Platyceps ventromaculatus (Gray, 1834) - Hardwicke's rat snake, glossy-bellied racer, Gray's rat snake, spotted bellied snake",
+     "Platyceps vittacaudatus (Blyth, 1854) - striped-tailed racer",
+     "Nota bene: A binomial authority in parentheses indicates that the species was originally described in a genus other than Platyceps."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248709829/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, certains droits réservés (CC BY-NC), publiées par Vojtěch Víta",
+   "photo": 248709829
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12872441/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gomard, certains droits réservés (CC BY-NC)",
+   "photo": 12872441
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699707809/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Broek, certains droits réservés (CC BY-NC), publiées par David Broek",
+   "photo": 699707809
+  }
+ ]
+}

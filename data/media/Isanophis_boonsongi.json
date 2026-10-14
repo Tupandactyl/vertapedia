@@ -1,0 +1,79 @@
+{
+ "sci": "Isanophis boonsongi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 539865,
+  "name": "Isanophis boonsongi",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Boomsong’s_stream_snake",
+  "common": "Boonsong's Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445995280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pierce, some rights reserved (CC BY-NC)",
+   "obs": 249490606,
+   "place": "Thailand",
+   "date": "2024-10-22"
+  }
+ ],
+ "wiki": {
+  "title": "Boonsong's stream snake",
+  "url": "https://en.wikipedia.org/wiki/Boonsong%27s_stream_snake",
+  "revision": 1377215474,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Boonsong's stream snake (Isanophis boonsongi), also known as Boonsong's keelback and commonly misspelled as Boomsong, is a species of snake in the family Colubridae, subfamily Natricinae (keelbacks). It is monotypic in the genus Isanophis. The species is endemic to Thailand."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Boonsong's stream snake is a rare snake only known from three specimens. It was originally described as Parahelicops boonsongi in 1958 on the basis of a single specimen and has since been argued by different authors to fall within either Parahelicops or Opisthotropis. Most recently, a 2015 study described a new genus, Isanophis, to accommodate this species on the basis of morphological differences in the teeth size, eye size and placement, pupil shape, keel shape, gross body morphology, and presence of a single prefrontal scale.",
+     "Higher taxonomy of Isanophis is variable, with some authors recognizing Natricidae as its own family and others treating it as a subfamily (Natricinae) of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "I. boonsongi is known only from Loei Province in northeastern Thailand although it may occur in Laos, southern China, and Vietnam."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "As it is only known from three specimens, I. boonsongi is treated as Data Deficient in The IUCN Red List of Threatened Species."
+    ]
+   },
+   {
+    "h": "Biology",
+    "level": 2,
+    "paras": [
+     "I. boonsongi is a nocturnal snake found in sub-montane forests and may be aquatic or semi-aquatic, feeding on frogs and fishes."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The genus name Isanophis refers to Isan, a northeastern region of Thailand where it has been found, and ophis (Greek), meaning snake. The specific name, boonsongi, commemorates Thai zoologist and conservationist Dr. Boonsong Lekagul."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445995280/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Andrew Pierce, some rights reserved (CC BY-NC), uploaded by Andrew Pierce",
+   "photo": 445995280
+  }
+ ]
+}

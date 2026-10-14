@@ -1,0 +1,88 @@
+{
+ "sci": "Protobothrops xiangchengensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30995,
+  "name": "Protobothrops xiangchengensis",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Protobothrops_xiangchengensis",
+  "common": "Sichuan Lancehead"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4825628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Thomas, some rights reserved (CC BY-NC)",
+   "obs": 4070688,
+   "place": "River valley ca. 50 km W of Danba (Sichuan) on road towards Luhuo",
+   "date": "2016-07-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227526742/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) luzhuoyu, some rights reserved (CC BY-NC)",
+   "obs": 133568455,
+   "place": "Garzê Tibetan, CN-SC, CN",
+   "date": "2019-07-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669305129/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xinprotobothrops, some rights reserved (CC BY-NC)",
+   "obs": 366540495,
+   "place": "中国四川省甘孜藏族自治州乡城县",
+   "date": "2022-11-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/668787942/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xinprotobothrops, some rights reserved (CC BY-NC)",
+   "obs": 366267837,
+   "place": "中国西藏自治区昌都市芒康县",
+   "date": "2022-06-15"
+  }
+ ],
+ "wiki": {
+  "title": "Protobothrops xiangchengensis",
+  "url": "https://en.wikipedia.org/wiki/Protobothrops_xiangchengensis",
+  "revision": 1370519327,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Protobothrops xiangchengensis, commonly known as the Szechwan pit viper, Kham Plateau pit viper, or Sichuan lancehead, is a pit viper species endemic to the Hengduan Mountains in south-central China. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Originally described as a member of the genus Trimeresurus, it was later reassigned to Protobothrops."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Scalation includes 25 (23, 24) rows of dorsal scales at midbody, 175–194/181–194 ventral scales in males/females, 54–66/44–62 subcaudal scales and 7–8 (9 or 10) supralabial scales."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Protobothrops xiangchengensis is endemic to the Hengduan Mountains in the provinces of Yunnan and western Sichuan, China. According to David & Tong (1997), the type locality given is \"Sichuan Province, Xiangcheng, altitude 3100 m [10,200 ft]\"."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4825628/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Thomas, some rights reserved (CC BY-NC), uploaded by David Thomas",
+   "photo": 4825628
+  }
+ ]
+}

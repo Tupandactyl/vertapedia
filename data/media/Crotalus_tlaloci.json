@@ -1,0 +1,125 @@
+{
+ "sci": "Crotalus tlaloci",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 539509,
+  "name": "Crotalus tlaloci",
+  "observations": 55,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Crotalus_tlaloci",
+  "common": "Tlaloc's Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10125459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo J. Plata, some rights reserved (CC BY-NC)",
+   "obs": 7719460,
+   "place": "Valle de Bravo, Méx., México",
+   "date": "2014-07-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331459103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Efraín Octavio Aguilar Pérez, some rights reserved (CC BY-NC)",
+   "obs": 189255949,
+   "place": "Tetipac, Gro., México",
+   "date": "2023-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138699862/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nerdenthal, some rights reserved (CC BY-NC)",
+   "obs": 84391873,
+   "place": "Valle de Bravo, Edomex, MX",
+   "date": "2021-03-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60691933/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tumgc, some rights reserved (CC BY-NC)",
+   "obs": 38208647,
+   "place": "La Goleta, Méx., México",
+   "date": "2018-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513369145/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Damian Berra Alanis, some rights reserved (CC BY-NC)",
+   "obs": 285605135,
+   "place": "61240 Mich., México",
+   "date": "2025-05-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641439566/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Ponce, some rights reserved (CC BY-NC)",
+   "obs": 351491779,
+   "place": "México, MX",
+   "date": "2026-04-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/549046662/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eusebio Roldán Félix, some rights reserved (CC BY-NC)",
+   "obs": 304556648,
+   "place": "Amanalco, Méx., México",
+   "date": "2025-08-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654401095/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emiliano Sosa, some rights reserved (CC BY-NC)",
+   "obs": 358709542,
+   "place": "Valle de Bravo, Edo. Méx., MX",
+   "date": "2026-05-05"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus tlaloci",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_tlaloci",
+  "revision": 1268013867,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus tlaloci is a species of rattlesnake from Mexico. The species is named after Tláloc, the Aztec god of rain. As with all rattlesnakes, it is venomous."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Crotalus tlaloci can be distinguished from similar species of snakes, such as C. triseriatus, by specific scale counts, a proportionately smaller rattle, and a proportionally longer tail. It can also be told apart by a dark narrowing marking near its eye."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Crotalus tlaloci is known to inhabit open areas in cloud forests and humid oak-pine forests. Usually it inhabits areas with broad-leaf oaks and dense undergrowth."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10125459/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hugo J. Plata, some rights reserved (CC BY-NC), uploaded by Hugo J. Plata",
+   "photo": 10125459
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641439566/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Leonardo Ponce, some rights reserved (CC BY-NC), uploaded by Leonardo Ponce",
+   "photo": 641439566
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654401095/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Emiliano Sosa, some rights reserved (CC BY-NC), uploaded by Emiliano Sosa",
+   "photo": 654401095
+  }
+ ]
+}

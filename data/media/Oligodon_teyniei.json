@@ -1,0 +1,44 @@
+{
+ "sci": "Oligodon teyniei",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1403107,
+  "name": "Oligodon teyniei",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_teyniei",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226329634/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pphunphoem, some rights reserved (CC BY-NC)",
+   "obs": 132918873,
+   "place": "221, อำเภอกันทรลักษ์, จ.ศรีสะเกษ, TH",
+   "date": "2022-08-18"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon teyniei",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_teyniei",
+  "revision": 1377215602,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon teyniei, Teynié's kukri snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Laos."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226329634/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pphunphoem, some rights reserved (CC BY-NC)",
+   "photo": 226329634
+  }
+ ]
+}

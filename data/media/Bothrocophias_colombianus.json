@@ -1,0 +1,65 @@
+{
+ "sci": "Bothrocophias colombianus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30797,
+  "name": "Bothrocophias colombianus",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bothrops_colombianus",
+  "common": "Colombian Toadheaded Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252467061/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC)",
+   "obs": 146797164,
+   "place": "Reserva ProAves Las Tangaras",
+   "date": "2020-11-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596429523/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rollinkansas, some rights reserved (CC BY-NC)",
+   "obs": 329071545,
+   "place": "El Carmen de Atrato, El Carmen de Atrato, Chocó, CO",
+   "date": "2025-12-01"
+  }
+ ],
+ "wiki": {
+  "title": "Bothrocophias colombianus",
+  "url": "https://en.wikipedia.org/wiki/Bothrocophias_colombianus",
+  "revision": 1328140622,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bothrocophias colombianus, commonly known as the Colombian toad-headed pitviper, is a species of venomous snake in the  family Viperidae. It is endemic to South America."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in western Colombia in the departments of Antioquia and Cauca."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "In coloration and pattern Bothrocophias colombianus closely resembles its North American \"cousin\" Agkistrodon contortrix mokasen, commonly known as the northern copperhead."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252467061/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fundacion ProAves, some rights reserved (CC BY-NC), uploaded by Fundacion ProAves",
+   "photo": 252467061
+  }
+ ]
+}

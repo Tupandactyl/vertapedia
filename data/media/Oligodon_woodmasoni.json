@@ -1,0 +1,66 @@
+{
+ "sci": "Oligodon woodmasoni",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29213,
+  "name": "Oligodon woodmasoni",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_woodmasoni",
+  "common": "Andaman Black Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5685632/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Snehaa Sundaram, some rights reserved (CC BY-NC)",
+   "obs": 4683306,
+   "place": "Andaman and Nicobar, IN",
+   "date": "2016-08-03"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon woodmasoni",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_woodmasoni",
+  "revision": 1354924879,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon woodmasoni, the yellow-striped kukri snake, is a species of snake in the family Colubridae. The species is endemic to the Nicobar Islands of India."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, woodmasoni, is in honor of English zoologist James Wood-Mason."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "M.A. Smith reported that the holotype of this species was missing from the ZSI Kolkata collections. The species was rediscovered in 2002 and a new specimen was deposited at the ZSI.",
+     "The details of the specimen, ZSI25503 are as follows:",
+     "Snout-to-vent length: 440 mm (17 in). Tail length: 80 mm (3.1 in). Dorsal scale rows: at neck 18; at midbody 17. Ventrals: 185. Subcaudals: 46. Supralabials: 6 (4th in contact with the eye). Infralabials: 7."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "O. woodmasoni is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5685632/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Snehaa Sundaram, some rights reserved (CC BY-NC), uploaded by Snehaa Sundaram",
+   "photo": 5685632
+  }
+ ]
+}

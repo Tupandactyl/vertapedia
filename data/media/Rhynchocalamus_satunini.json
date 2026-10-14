@@ -1,0 +1,82 @@
+{
+ "sci": "Rhynchocalamus satunini",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 518215,
+  "name": "Rhynchocalamus satunini",
+  "observations": 15,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhynchocalamus_satunini",
+  "common": "Palestine Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89469/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tigran Tadevosyan, some rights reserved (CC BY)",
+   "obs": 53484,
+   "place": "Armenia",
+   "date": "2002-05-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659688078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rik-vanek, some rights reserved (CC BY-NC)",
+   "obs": 361474835,
+   "place": "Armenia",
+   "date": "2026-05-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279793770/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Елена Астахова, some rights reserved (CC BY)",
+   "obs": 161852204,
+   "place": "Урцадзор, Армения, AM",
+   "date": "2023-05-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145326186/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Igor Martynenko, some rights reserved (CC BY-NC)",
+   "obs": 88102329,
+   "place": "Арарат, Армения",
+   "date": "2018-06-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157353577/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Morfeus, some rights reserved (CC BY-NC)",
+   "obs": 94830206,
+   "place": "Հացավան",
+   "date": "2014-06-13"
+  }
+ ],
+ "wiki": {
+  "title": "Rhynchocalamus satunini",
+  "url": "https://en.wikipedia.org/wiki/Rhynchocalamus_satunini",
+  "revision": 1355388361,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhynchocalamus satunini, the Palestine kukri snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Turkey, Armenia, Iraq, Iran, and Azerbaijan."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89469/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Tigran Tadevosyan, some rights reserved (CC BY), uploaded by Tigran Tadevosyan",
+   "photo": 89469
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157353577/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Morfeus, some rights reserved (CC BY-NC), uploaded by Morfeus",
+   "photo": 157353577
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "sci": "Gloydius rubromaculatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 734617,
+  "name": "Gloydius rubromaculatus",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gloydius_rubromaculatus",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619165622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Logan Fu, some rights reserved (CC BY-NC)",
+   "obs": 340258831,
+   "place": "中国青海省玉树藏族自治州",
+   "date": "2020-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619166199/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Logan Fu, some rights reserved (CC BY-NC)",
+   "obs": 340258985,
+   "place": "中国青海省玉树藏族自治州",
+   "date": "2020-08-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724156471/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wang.QG, some rights reserved (CC BY)",
+   "obs": 394969903,
+   "place": "Gyêgu Tibetan, Qinghai, China",
+   "date": "2026-08-27"
+  }
+ ],
+ "wiki": {
+  "title": "Gloydius rubromaculatus",
+  "url": "https://en.wikipedia.org/wiki/Gloydius_rubromaculatus",
+  "revision": 1327795606,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Gloydius rubromaculatus, the red-spotted alpine pit viper or the Tongtianhe pit viper, is a species of Asian moccasin from China, named after its red markings. As with all pit vipers, it is venomous."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "A smaller snake, Gloydius rubromaculatus is distinguishable from other asian moccasins by its glossy dorsal scales and its domed, oval head, both irregular for assian moccasins. It also has a distinct pattern, with small black spots on its head as well as the red-orange markings along its sides, on a khaki base colouring."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Analysis of fecal material from collected specimens revealed the contents to be exclusively moth debris. This suggests the species to be an insectivore, possibly specializing on moths. Juveniles in captivity were observed to feed on moths as well as baby mice."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619165622/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Logan Fu, some rights reserved (CC BY-NC), uploaded by Logan Fu",
+   "photo": 619165622
+  }
+ ]
+}

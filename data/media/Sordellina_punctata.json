@@ -1,0 +1,87 @@
+{
+ "sci": "Sordellina punctata",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28643,
+  "name": "Sordellina punctata",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dotted_brown_snake",
+  "common": "Dotted Brown Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469159947/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261173743,
+   "place": "Anhembi",
+   "date": "2023-01-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469339123/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261262556,
+   "place": "Jardim Silvia, Embu das Artes - SP, 06804, Brazil",
+   "date": "2024-12-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622965609/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Reserva Natural Salto Morato, some rights reserved (CC BY-NC)",
+   "obs": 342126596,
+   "place": "Reserva Natural Salto Morato",
+   "date": "2022-02-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151389669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) registroscomunitariosdobrasil, some rights reserved (CC BY-NC)",
+   "obs": 91514111,
+   "place": "Reserva Bicudinho-do-brejo",
+   "date": "2015-08-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54066372/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ODAIR@, some rights reserved (CC BY-NC)",
+   "obs": 34359324,
+   "place": "Forquilhas, São José - SC, 88107, Brasil",
+   "date": "2019-10-14"
+  }
+ ],
+ "wiki": {
+  "title": "Dotted brown snake",
+  "url": "https://en.wikipedia.org/wiki/Dotted_brown_snake",
+  "revision": 1369048814,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The dotted brown snake (Sordellina punctata)  is a genus of the Colubridae family of snakes. It is monotypic in the genus Sordellina. It is endemic to Brazil. The snake is not considered to be venomous and is currently regarded as a species of least concern."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54066372/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) ODAIR@, некоторые права защищены (CC BY-NC), загрузил ODAIR@",
+   "photo": 54066372
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287748519/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(с) Volpe, некоторые права защищены (CC BY-NC), загрузил Volpe",
+   "photo": 287748519
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151389669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) registroscomunitariosdobrasil, некоторые права защищены (CC BY-NC)",
+   "photo": 151389669
+  }
+ ]
+}

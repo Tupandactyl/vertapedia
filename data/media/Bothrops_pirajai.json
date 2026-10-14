@@ -1,0 +1,86 @@
+{
+ "sci": "Bothrops pirajai",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30769,
+  "name": "Bothrops pirajai",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bothrops_pirajai",
+  "common": "Piraja's Lancehead"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180467966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Paixão, some rights reserved (CC BY-NC)",
+   "obs": 107315983,
+   "place": "Bahia, BR",
+   "date": "2019-02-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114889038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bird_person, some rights reserved (CC BY-NC)",
+   "obs": 70644578,
+   "place": "Bahia, BR",
+   "date": "2020-01-08"
+  }
+ ],
+ "wiki": {
+  "title": "Bothrops pirajai",
+  "url": "https://en.wikipedia.org/wiki/Bothrops_pirajai",
+  "revision": 1368526892,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bothrops pirajai, commonly known as Piraja's lancehead, is a species of venomous snake, a pit viper in the subfamily Crotalinae of the family Viperidae. The species is endemic to Brazil. There are no subspecies that are recognized as being valid."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, pirajai, is in honor of Brazilian parasitologist Pirajá da Silva, who in 1923 was director of the Bahia branch of the Instituto Butantan."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The maximum total length (including tail) recorded for B. pirajai  is 137 cm (54 in). It is stocky and terrestrial."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Bothrops pirajai is found in Brazil in central and southern Bahia. Possibly, it may also occur in Minas Gerais. The type locality given is \"Ilheos, Bahia, Brazil\"."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "The species B. pirajai is classified as endangered on the IUCN Red List for the following criteria: A1c (v2.3, 1994). This means that it is facing a high risk of extinction in the wild in the medium-term future due to population reduction in the form of an observed, estimated, inferred or suspected reduction of at least 20% over the last 10 years or three generations, whichever is the longer, based on a decline in area of occupancy, extent of occurrence and/or quality of habitat.",
+     "The rainforest inhabited by this species is unfortunately decreasing in area and quality, while becoming increasingly fragmented through deforestation. The areas that have been cleared are mainly being used for cocoa plantations."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180467966/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo Paixão, some rights reserved (CC BY-NC), uploaded by Paulo Paixão",
+   "photo": 180467966
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114889038/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) bird_person, some rights reserved (CC BY-NC), uploaded by bird_person",
+   "photo": 114889038
+  }
+ ]
+}

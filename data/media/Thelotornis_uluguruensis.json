@@ -1,0 +1,44 @@
+{
+ "sci": "Thelotornis uluguruensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1714208,
+  "name": "Thelotornis uluguruensis",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Dagger-tooth Vine Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34656197/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC)",
+   "obs": 22376323,
+   "place": "Morogoro, Tansania",
+   "date": "2002-12-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/409917399/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Petr Necas, some rights reserved (CC BY-NC)",
+   "obs": 230841510,
+   "place": "Mvomero, TZ",
+   "date": "2020-12-23"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34656443/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC), uploaded by Lorenzo Vinciguerra",
+   "photo": 34656443
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34656197/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC), uploaded by Lorenzo Vinciguerra",
+   "photo": 34656197
+  }
+ ]
+}

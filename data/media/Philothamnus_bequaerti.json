@@ -1,0 +1,70 @@
+{
+ "sci": "Philothamnus bequaerti",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29092,
+  "name": "Philothamnus bequaerti",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philothamnus_bequaerti",
+  "common": "Bequaert's Green Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339749275/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 193405735,
+   "place": "Mt Kei Forest Reserve -N2, Koboko district",
+   "date": "2023-03-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339749358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 193405780,
+   "place": "Mt Kei Forest Reserve -random, Koboko district",
+   "date": "2023-03-12"
+  }
+ ],
+ "wiki": {
+  "title": "Philothamnus bequaerti",
+  "url": "https://en.wikipedia.org/wiki/Philothamnus_bequaerti",
+  "revision": 1355165225,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philothamnus bequaerti, commonly known as Bequaert's green snake, is a species of snake in the subfamily Colubrinae of the family Colubridae. The species is native to central Africa."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "P. bequaerti is found in Cameroon, Central African Republic, Democratic Republic of the Congo, Ethiopia, South Sudan, Sudan, and Uganda."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339749358/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 339749358
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339749441/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 339749441
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339749485/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "photo": 339749485
+  }
+ ]
+}

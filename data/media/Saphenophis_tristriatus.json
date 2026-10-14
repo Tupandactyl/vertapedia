@@ -1,0 +1,81 @@
+{
+ "sci": "Saphenophis tristriatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29631,
+  "name": "Saphenophis tristriatus",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Saphenophis_tristriatus",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26089069/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Aguilera, some rights reserved (CC BY-NC)",
+   "obs": 17209522,
+   "place": "Salento, Quindío, Colombia",
+   "date": "2018-06-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31981296/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gonzalo Diaz, some rights reserved (CC BY-NC)",
+   "obs": 20742299,
+   "place": "Km 11 Vía al Valle del Cocora Salento, Salento, Quindío, Colombia",
+   "date": "2019-01-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442127144/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) anitaposada, some rights reserved (CC BY-NC)",
+   "obs": 247539309,
+   "place": "Marsella, Marsella, Risaralda, CO",
+   "date": "2024-10-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28671180/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alexander Montoya, some rights reserved (CC BY-NC)",
+   "obs": 18725587,
+   "place": "La Pastora, Pereira, Risaralda, Colombia",
+   "date": "2018-10-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621246406/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katy, some rights reserved (CC BY-NC)",
+   "obs": 341281741,
+   "place": "Salento, Quindio, Colombia",
+   "date": "2026-03-04"
+  }
+ ],
+ "wiki": {
+  "title": "Saphenophis tristriatus",
+  "url": "https://en.wikipedia.org/wiki/Saphenophis_tristriatus",
+  "revision": 1362814363,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Saphenophis tristriatus  is a species of snake in the family Colubridae. It is found in Colombia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31981507/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gonzalo Diaz, some rights reserved (CC BY-NC), uploaded by Gonzalo Diaz",
+   "photo": 31981507
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31981296/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gonzalo Diaz, some rights reserved (CC BY-NC), uploaded by Gonzalo Diaz",
+   "photo": 31981296
+  }
+ ]
+}

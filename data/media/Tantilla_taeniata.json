@@ -1,0 +1,44 @@
+{
+ "sci": "Tantilla taeniata",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 113772,
+  "name": "Tantilla taeniata",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tantilla_taeniata",
+  "common": "Central American Centipede Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262275839/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Carlos Funes, some rights reserved (CC BY)",
+   "obs": 151962441,
+   "place": "Usulután, El Salvador",
+   "date": "2010-04-09"
+  }
+ ],
+ "wiki": {
+  "title": "Tantilla taeniata",
+  "url": "https://en.wikipedia.org/wiki/Tantilla_taeniata",
+  "revision": 1355389133,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tantilla taeniata, the Central American centipede snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Guatemala, Honduras, Nicaragua, and El Salvador."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30793910/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hermes Vega, some rights reserved (CC BY-NC), uploaded by Hermes Vega",
+   "photo": 30793910
+  }
+ ]
+}

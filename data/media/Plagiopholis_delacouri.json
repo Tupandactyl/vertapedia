@@ -1,0 +1,59 @@
+{
+ "sci": "Plagiopholis delacouri",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29032,
+  "name": "Plagiopholis delacouri",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plagiopholis_delacouri",
+  "common": "Delacour's Mountain Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/740893003/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mạnh Hùng, some rights reserved (CC BY-NC)",
+   "obs": 403515947,
+   "place": "Lao Chai village, Trinh Tuong, Lao Cai, Vietnam",
+   "date": "2023-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565772426/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mạnh Hùng, some rights reserved (CC BY-NC)",
+   "obs": 250082018,
+   "place": "Jade Hill resort, Sapa, Lao Cai, Viet Nam",
+   "date": "2022-06-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292460670/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ong-siau-kun, some rights reserved (CC BY-NC)",
+   "obs": 168733609,
+   "place": "Yunnan, CN",
+   "date": "2023-06-02"
+  }
+ ],
+ "wiki": {
+  "title": "Plagiopholis delacouri",
+  "url": "https://en.wikipedia.org/wiki/Plagiopholis_delacouri",
+  "revision": 1355156412,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Plagiopholis delacouri is a species of snake in the family Colubridae. The species is found in Laos and Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565772426/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mạnh Hùng, some rights reserved (CC BY-NC), uploaded by Mạnh Hùng",
+   "photo": 565772426
+  }
+ ]
+}

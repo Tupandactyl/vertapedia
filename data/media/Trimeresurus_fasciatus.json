@@ -1,0 +1,55 @@
+{
+ "sci": "Trimeresurus fasciatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30967,
+  "name": "Trimeresurus fasciatus",
+  "observations": 0,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_fasciatus",
+  "common": "Banded Pit Viper"
+ },
+ "photos": [],
+ "wiki": {
+  "title": "Trimeresurus fasciatus",
+  "url": "https://en.wikipedia.org/wiki/Trimeresurus_fasciatus",
+  "revision": 1350415876,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trimeresurus fasciatus is a venomous pit viper species endemic to Djampea Island, Indonesia. No subspecies are currently recognized. Common names include: banded pitviper and banded tree viper."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Scalation includes 21 rows of dorsal scales at midbody, 158-160/159-163 ventral scales in males/females, 63-65/61 subcaudal scales, and 9 or 10 (less frequently 11) supralabial scales.",
+     "The type specimen is 45.5 cm (17.9 in) in total length, which includes a tail 8 cm (3.1 in) long."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found only on Djampea Island, Indonesia. The type locality given is \"Jampea Island\" (Djampea, Indonesia). The catalogue entry at the British Museum of Natural History lists the type locality as \"Jampea Id., between Celebes and Flores\"."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474227859/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Olle Albinsson, some rights reserved (CC BY-NC-SA)",
+   "photo": 474227859
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474227865/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Olle Albinsson, some rights reserved (CC BY-NC-SA)",
+   "photo": 474227865
+  }
+ ]
+}

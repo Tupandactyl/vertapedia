@@ -1,0 +1,57 @@
+{
+ "sci": "Gloydius angusticeps",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 797680,
+  "name": "Gloydius angusticeps",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gloydius_angusticeps",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688238292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yucui10, some rights reserved (CC BY-NC)",
+   "obs": 376420408,
+   "place": "中国四川省阿坝藏族羌族自治州马尔康市",
+   "date": "2024-08-17"
+  }
+ ],
+ "wiki": {
+  "title": "Gloydius angusticeps",
+  "url": "https://en.wikipedia.org/wiki/Gloydius_angusticeps",
+  "revision": 1378294112,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Gloydius angusticeps, the Zoige pit viper, is a species of venomous snake in the genus Gloydius found in China, specifically in the provinces of Sichuan, Qinghai, and Gansu."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, angusticeps, is derived from the Latin words \"angusti-\" meaning \"long and narrow\" and \"-ceps\" meaning \"headed\", indicating that this species has a longer and narrower head compared to other members of the Gloydius strauchi complex."
+    ]
+   },
+   {
+    "h": "Geographical range",
+    "level": 2,
+    "paras": [
+     "The Zoige pit viper is found in China, specifically in the provinces of Sichuan, Qinghai, and Gansu. This species inhabits high-altitude regions, typically ranging from 3150 to 3653 meters above sea level."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688238292/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yucui10, some rights reserved (CC BY-NC)",
+   "photo": 688238292
+  }
+ ]
+}

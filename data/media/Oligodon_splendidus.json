@@ -1,0 +1,68 @@
+{
+ "sci": "Oligodon splendidus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29225,
+  "name": "Oligodon splendidus",
+  "observations": 7,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_splendidus",
+  "common": "Splendid Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41399131/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kegorator, some rights reserved (CC BY-NC)",
+   "obs": 26653186,
+   "place": "Undefined location",
+   "date": "2019-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29802412/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pswiszczorowski, some rights reserved (CC BY-NC)",
+   "obs": 19378275,
+   "place": "Nyaung-U, Mjanma (Birma)",
+   "date": "2018-11-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598422510/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hlwammoeaung, some rights reserved (CC BY-NC)",
+   "obs": 330016906,
+   "place": "nyaungu",
+   "date": "2025-04-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365611522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC)",
+   "obs": 206738630,
+   "place": "Taunggyi, Myanmar (Burma)",
+   "date": "2024-01-13"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon splendidus",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_splendidus",
+  "revision": 1355378638,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon splendidus, commonly known as the splendid kukri snake, is a species of snake of the family Colubridae.",
+     "The species, belonging to the genus Oligodon, is endemic to Myanmar. It was first described by Albert Günther in 1875 as Simotes splendidus."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29802412/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) pswiszczorowski, some rights reserved (CC BY-NC), uploaded by pswiszczorowski",
+   "photo": 29802412
+  }
+ ]
+}

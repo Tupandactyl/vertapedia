@@ -1,0 +1,79 @@
+{
+ "sci": "Hydraethiops melanogaster",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29955,
+  "name": "Hydraethiops melanogaster",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hydraethiops_melanogaster",
+  "common": "Blackbelly Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182961680/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 108643341,
+   "place": "Mayoko, CG-NI, CG",
+   "date": "2012-10-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182916792/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 108620971,
+   "place": "Madingo-Kayes, Conkouati, CG-KO, CG",
+   "date": "2012-07-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426803898/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY)",
+   "obs": 239622544,
+   "place": "Lekoko, Gabon",
+   "date": "2022-10-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354218253/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Gentil, some rights reserved (CC BY-NC)",
+   "obs": 200739158,
+   "place": "Ogooué-Ivindo, GA",
+   "date": "2024-01-30"
+  }
+ ],
+ "wiki": {
+  "title": "Hydraethiops melanogaster",
+  "url": "https://en.wikipedia.org/wiki/Hydraethiops_melanogaster",
+  "revision": 1314587630,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Hydraethiops melanogaster, the blackbelly snake,  is a species of natricine snake found in Gabon, the Democratic Republic of the Congo, the Republic of the Congo, the Central African Republic, Cameroon, and South Sudan."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182961713/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182961713
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426803707/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Ryan van Huyssteen, some rights reserved (CC BY), uploaded by Ryan van Huyssteen",
+   "photo": 426803707
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182916792/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 182916792
+  }
+ ]
+}

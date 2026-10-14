@@ -1,0 +1,69 @@
+{
+ "sci": "Pseudalsophis biserialis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 59935,
+  "name": "Pseudalsophis biserialis",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Galapagos_racer",
+  "common": "Floreana Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7704532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Ortiz-Catedral, some rights reserved (CC BY-NC)",
+   "obs": 6147288,
+   "place": "Ecuador",
+   "date": "2017-01-08"
+  }
+ ],
+ "wiki": {
+  "title": "Galapagos racer",
+  "url": "https://en.wikipedia.org/wiki/Galapagos_racer",
+  "revision": 1370747343,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Galápagos racer (Pseudalsophis biserialis) is a colubrid snake in the genus Pseudalsophis that is endemic to the Galápagos Islands. It is a mildly venomous constrictor but it is not considered aggressive or harmful to humans. The two subspecies are the eastern and western racers, the latter being larger, longer, and darker than the former. The western subspecies specializes in hunting fish, while both subspecies eat small reptiles, eggs, rodents, and bird hatchlings. The Galapagos racer is near threatened due to recently introduced species that feed on snake eggs, including pigs, rats, mice, and cats. It is one of only three species of snakes on the Galápagos Islands, and it was first described in 1860. In November 2016, a video clip from the BBC series Planet Earth II showing a group of Galápagos racers hunting marine iguana hatchlings became a viral trend."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The snake is the only snake that occurs in the islets around the Floreana Island in Galápagos. The average sizes of males and females are respectively 129 and 126 cm. The snake is mildly venomous, with venom impacting the snake's small prey, but without effect on humans. Their diet includes small lizards, invertebrates, and birds."
+    ]
+   },
+   {
+    "h": "Taxonomy and etymology",
+    "level": 2,
+    "paras": [
+     "Originally classified as Herpetodryas biserialis by Albert Günther in 1860, this species has been renamed numerous times since then. The generic names have included Dromicus, Orpheomorphus, and Oraphis."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7704532/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Ortiz-Catedral, some rights reserved (CC BY-NC), uploaded by Luis Ortiz-Catedral",
+   "photo": 7704532
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57811934/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebas Ramos, some rights reserved (CC BY-NC), uploaded by Sebas Ramos",
+   "photo": 57811934
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57811675/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebas Ramos, some rights reserved (CC BY-NC), uploaded by Sebas Ramos",
+   "photo": 57811675
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "sci": "Platyceps sinai",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 194117,
+  "name": "Platyceps sinai",
+  "observations": 4,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Platyceps_sinai",
+  "common": "Sinai Racer"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299848994/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Theodore, some rights reserved (CC BY-NC)",
+   "obs": 172709531,
+   "place": "Israel",
+   "date": "2023-07-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1531784/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 1213447,
+   "place": "Quaira, JO-AQ, JO",
+   "date": "1994-05-03"
+  }
+ ],
+ "wiki": {
+  "title": "Platyceps sinai",
+  "url": "https://en.wikipedia.org/wiki/Platyceps_sinai",
+  "revision": 1376371050,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Platyceps sinai is a species of snake of the family Colubridae. It is commonly known as the Sinai racer or Sinai banded racer."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in the Middle East, along the south Israel-Jordan border from the Dead Sea to the Gulf of Aqaba, including the Arava Valley. Its range extends to the Sinai Peninsula and the western border of Jordan and Saudi Arabia."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1531784/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1531784
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1543539/{size}.JPG",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 1543539
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "sci": "Oligodon culaochamensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 606506,
+  "name": "Oligodon culaochamensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_culaochamensis",
+  "common": "Cu Lao Cham Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543843904/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel_deventer, some rights reserved (CC BY-NC)",
+   "obs": 301783981,
+   "place": "Cham Isle, Hoi An, Quang Nam, VN",
+   "date": "2025-07-28"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon culaochamensis",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_culaochamensis",
+  "revision": 1370517603,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon culaochamensis is a species of snakes in the subfamily Colubrinae. It is found in Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543843904/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel_deventer, some rights reserved (CC BY-NC)",
+   "photo": 543843904
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543845408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel_deventer, some rights reserved (CC BY-NC)",
+   "photo": 543845408
+  }
+ ]
+}

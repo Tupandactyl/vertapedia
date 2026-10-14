@@ -1,0 +1,81 @@
+{
+ "sci": "Protobothrops tokarensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 31004,
+  "name": "Protobothrops tokarensis",
+  "observations": 27,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_tokarensis",
+  "common": "Tokara Habu"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121244650/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) asimov0803, some rights reserved (CC BY-NC)",
+   "obs": 74201141,
+   "place": "Toshima, JP-KS, JP",
+   "date": "2017-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545324478/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) taisha568, some rights reserved (CC BY-NC)",
+   "obs": 302584246,
+   "place": "Toshima, JP-KS, JP",
+   "date": "2025-07-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121241796/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) asimov0803, some rights reserved (CC BY-NC)",
+   "obs": 74199645,
+   "place": "Toshima, JP-KS, JP",
+   "date": "2017-04-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/740679839/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) an2mc, some rights reserved (CC BY-NC)",
+   "obs": 403408632,
+   "place": "Toshima, JP-KS, JP",
+   "date": "2026-09-22"
+  }
+ ],
+ "wiki": {
+  "title": "Tokara habu",
+  "url": "https://en.wikipedia.org/wiki/Tokara_habu",
+  "revision": 1349894494,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Tokara habu (Protobothrops tokarensis) is a pit viper species endemic to the Tokara Islands of Japan. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Scalation includes 31 (31-33) rows of dorsal scales at midbody, 199-210 ventral scales, 72-84 subcaudal scales, and 8 (7-9) supralabial scales."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Found in Japan on the islands of Takara-jima and Kotakara-jima. According to Golay et al. (1993), the type locality is \"Takara-jima, province of Kagoshima, Ryukyu Islands\"."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121244650/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) asimov0803, some rights reserved (CC BY-NC)",
+   "photo": 121244650
+  }
+ ]
+}

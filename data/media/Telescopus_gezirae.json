@@ -1,0 +1,52 @@
+{
+ "sci": "Telescopus gezirae",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28454,
+  "name": "Telescopus gezirae",
+  "observations": 15,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Telescopus_gezirae",
+  "common": "Blue Nile Cat Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325747046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rania Baleela, some rights reserved (CC BY-NC)",
+   "obs": 186402023,
+   "place": "Sudan Sinnar State",
+   "date": "2023-09-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646290417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rania Baleela, some rights reserved (CC BY-NC)",
+   "obs": 354259896,
+   "place": "Sennar, Sudan",
+   "date": "2026-02-25"
+  }
+ ],
+ "wiki": {
+  "title": "Telescopus gezirae",
+  "url": "https://en.wikipedia.org/wiki/Telescopus_gezirae",
+  "revision": 1355389301,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Telescopus gezirae, the Blue Nile cat snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Sudan."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325747046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rania Baleela, some rights reserved (CC BY-NC), uploaded by Rania Baleela",
+   "photo": 325747046
+  }
+ ]
+}

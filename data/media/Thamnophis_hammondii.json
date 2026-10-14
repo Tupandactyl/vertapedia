@@ -1,0 +1,139 @@
+{
+ "sci": "Thamnophis hammondii",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28396,
+  "name": "Thamnophis hammondii",
+  "observations": 3354,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Two-striped_garter_snake",
+  "common": "Two-striped Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366679709/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dan Hayes, some rights reserved (CC BY-NC)",
+   "obs": 207309722,
+   "place": "San Diego County, US-CA, US",
+   "date": "2024-04-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62177571/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Noah M. Morales, some rights reserved (CC BY-NC)",
+   "obs": 39211114,
+   "place": "Santa Barbara County, US-CA, US",
+   "date": "2020-02-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318805922/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hsug1747, some rights reserved (CC BY-NC)",
+   "obs": 182806194,
+   "place": "California, US",
+   "date": "2023-09-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318805334/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hsug1747, some rights reserved (CC BY-NC)",
+   "obs": 182805937,
+   "place": "California, US",
+   "date": "2023-09-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100816552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kevin Chen, some rights reserved (CC BY-NC)",
+   "obs": 62875522,
+   "place": "Los Angeles County, US-CA, US",
+   "date": "2020-10-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390481862/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Singer, some rights reserved (CC BY-NC)",
+   "obs": 220544207,
+   "place": "California, US",
+   "date": "2024-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266905258/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) MarvalPhotography19, some rights reserved (CC BY)",
+   "obs": 154469254,
+   "place": "Mulegé, B.C.S., México",
+   "date": "2023-04-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500335560/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) california_every_reptile, some rights reserved (CC BY-NC)",
+   "obs": 278645499,
+   "place": "California, US",
+   "date": "2025-04-21"
+  }
+ ],
+ "wiki": {
+  "title": "Two-striped garter snake",
+  "url": "https://en.wikipedia.org/wiki/Two-striped_garter_snake",
+  "revision": 1354936787,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The two-striped garter snake (Thamnophis hammondii) is a species of aquatic snake in the subfamily Natricinae of the family Colubridae. The species is endemic to western North America."
+    ]
+   },
+   {
+    "h": "Taxonomy and etymology",
+    "level": 2,
+    "paras": [
+     "The specific name hammondii is in honor of William A. Hammond, the U.S. Army surgeon who collected the first specimens."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "T. hammondii is a medium-sized snake, 18–30 in (46–76 cm) in total length (including tail), with a head barely wider than the neck. Two common color variations occur in the wild, a striped variant and a checkered variant. The striped variant has a yellowish lateral stripe on each side, and a fairly uniform dorsal coloring. The checkered variant lacks the lateral stripes and has two rows of small dark spots on each side."
+    ]
+   },
+   {
+    "h": "Geographic range, habitat, and diet",
+    "level": 2,
+    "paras": [
+     "The two-striped garter snake is found in western North America, ranging from central California to Baja California, Mexico. It is a highly aquatic species, and prefers habitat adjacent to permanent or semi-permanent bodies of water. This species feeds primarily on fishes and amphibians."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. hammondii is ovoviviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23206374/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Travis W. Reeder, some rights reserved (CC BY-NC), uploaded by Travis W. Reeder",
+   "photo": 23206374
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9123512/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Paul G. Johnson, some rights reserved (CC BY-NC-SA), uploaded by Paul G. Johnson",
+   "photo": 9123512
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56659/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC)",
+   "photo": 56659
+  }
+ ]
+}

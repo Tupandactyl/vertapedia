@@ -1,0 +1,102 @@
+{
+ "sci": "Ophryacus sphenophrys",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 540012,
+  "name": "Ophryacus sphenophrys",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ophryacus_sphenophrys",
+  "common": "Broad-horned Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183731917/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 109055483,
+   "place": "Oaxaca, MX",
+   "date": "2021-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236900335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Drymarchon Simón, some rights reserved (CC BY-NC)",
+   "obs": 138585173,
+   "place": "San Marcial Ozolotepec, Oax., México",
+   "date": "2020-04-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620569394/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) MarkEOlson, some rights reserved (CC BY-NC)",
+   "obs": 340952734,
+   "place": "Candelaria Loxicha, Oax., MX",
+   "date": "2024-12-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346810046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC)",
+   "obs": 196976424,
+   "place": "Oaxaca, MX",
+   "date": "2022-10-14"
+  }
+ ],
+ "wiki": {
+  "title": "Ophryacus sphenophrys",
+  "url": "https://en.wikipedia.org/wiki/Ophryacus_sphenophrys",
+  "revision": 1351248536,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: Broad-horned pitviper.",
+     "Ophryacus sphenophrys is a venomous pitviper species endemic to the mountains of eastern Mexico. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "No rattle. Head wide with a pointed snout. Broad supraocular horn present, which is in contact with upper preocular. Horn shape is wider than tall. Internasal shape slightly keeled. Canth is pointed then fused with horn. 10 supralabials, 3 interoculabials, 10–12 intersupraoculars, 33 interrictals, 171 ventrals. There is a short and straight tail spine. Palatine teeth absent.",
+     "Body bright yellow with black stippling and reticulations all over the dorsum. There are 40 dark blotches, which are outlined in black. In mid dorsal region, it forms an undulating dark stripe. Head also bright yellow in color and contains black stippling. On the parietal portion of the head, there is a distinctive dark blotch in the shape of the letter “M”. Ventral surface yellow and flecked with small black spots. Tail darker olive-green with pale yellow banding. Scales of head speckled with green. There is a faint pale gray-green postocular stripe."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in south-central Oaxaca. Habitats include montane cloud forest, humid pine–oak woodland and pine forest with secondary vegetation."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "Terrestrial and less arboreal."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346810046/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Durán Arceo, some rights reserved (CC BY-NC), uploaded by Daniel Durán Arceo",
+   "photo": 346810046
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236900335/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Drymarchon Simón, some rights reserved (CC BY-NC), uploaded by Drymarchon Simón",
+   "photo": 236900335
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183731926/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 183731926
+  }
+ ]
+}

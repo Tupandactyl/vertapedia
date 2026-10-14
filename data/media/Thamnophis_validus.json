@@ -1,0 +1,144 @@
+{
+ "sci": "Thamnophis validus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 541517,
+  "name": "Thamnophis validus",
+  "observations": 366,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/West_Coast_garter_snake",
+  "common": "West Coast Garter Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10183187/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC)",
+   "obs": 7757554,
+   "place": "Sonora, MX",
+   "date": "2017-08-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12803745/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeff Goddard, some rights reserved (CC BY-NC)",
+   "obs": 9422026,
+   "place": "Matancitas, Baja California Sur, Mexico",
+   "date": "2017-12-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61555171/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 38705809,
+   "place": "Los Cabos, Baja California Sur, Mexico",
+   "date": "2018-02-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6242622/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) J. Fernando Pío León, some rights reserved (CC BY-NC)",
+   "obs": 5083000,
+   "place": "Los Cabos, B.C.S., México",
+   "date": "2015-05-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575983717/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) chancetologist, some rights reserved (CC BY-NC)",
+   "obs": 318679868,
+   "place": "Baja California Sur, MX",
+   "date": "2025-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277142940/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) david_rivas_ico_3a, some rights reserved (CC BY-NC)",
+   "obs": 160389960,
+   "place": "Av. Leonismo Internacional s/n, Tellería, 82017 Mazatlán, Sin., México",
+   "date": "2023-05-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233018646/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sainz Meza, some rights reserved (CC BY-NC)",
+   "obs": 136526584,
+   "place": "Tabachines, Puerto Vallarta, Jal., México",
+   "date": "2022-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26522759/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Osiel Flores, some rights reserved (CC BY-NC)",
+   "obs": 17447988,
+   "place": "San dionisio, B.C.S., México",
+   "date": "2018-10-11"
+  }
+ ],
+ "wiki": {
+  "title": "West Coast garter snake",
+  "url": "https://en.wikipedia.org/wiki/West_Coast_garter_snake",
+  "revision": 1354674441,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The West Coast garter snake (Thamnophis validus), also known commonly as Kennicott's water snake, is a species of snake in the subfamily Natricinae of the family Colubridae. The species is endemic to Mexico. Four subspecies are recognized."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "T. validus is found in the Mexican states of Baja California Sur, Chihuahua, Guerrero, Jalisco, and Sonora."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "T. validus is viviparous."
+    ]
+   },
+   {
+    "h": "Subspecies",
+    "level": 2,
+    "paras": [
+     "There are four subspecies of T. validus which are recognized as being valid, including the nominate subspecies.",
+     "T. v. celaeno (Cope, 1861) – cape garter snake, Mexican Pacific lowlands garter snake",
+     "T. v. isabelleae (Conant, 1953)",
+     "T. v. thamnophisoides (Conant, 1961)",
+     "T. v. validus (Kennicott, 1860)",
+     "Nota bene: A trinomial authority in parentheses indicates that the subspecies was originally described in a genus other than Thamnophis."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The subspecific name isabelleae is in honor of the American wildlife artist Isabelle Hunt Conant, the wife of the American herpetologist Roger Conant."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10183187/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+   "photo": 10183187
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196926128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) flore_boituzat, some rights reserved (CC BY-NC)",
+   "photo": 196926128
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30887066/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
+   "photo": 30887066
+  }
+ ]
+}

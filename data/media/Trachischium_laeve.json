@@ -1,0 +1,72 @@
+{
+ "sci": "Trachischium laeve",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28299,
+  "name": "Trachischium laeve",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trachischium_laeve",
+  "common": "Olive Oriental Slender Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432730267/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ramnarayan K, some rights reserved (CC BY)",
+   "obs": 242728023,
+   "place": "Pithoragarh, IN-UT, IN",
+   "date": "2024-09-19"
+  }
+ ],
+ "wiki": {
+  "title": "Trachischium laeve",
+  "url": "https://en.wikipedia.org/wiki/Trachischium_laeve",
+  "revision": 1347563998,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Trachischium laeve, also known as the olive oriental slender snake, is a species of colubrid snake found in Nepal and Indian Himalaya."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in India (western Himalayas) and Nepal."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The dorsum is uniform grayish brown. The throat, belly, underside of tail, and first row of dorsal scales are yellowish.",
+     "One preocular; one postocular; temporals 1+1.5 upper labials, 3rd and 4th entering the orbit. Dorsal scales very smooth, shiny, without apical pits, in 13 rows. The male does not have any keels on the dorsal scales in the anal/basicaudal region. Ventrals 147–149; anal divided; subcaudals divided 33–39.",
+     "There are 17 maxillary teeth in a continuous series, the posterior slightly shorter than the anterior. The mandibular teeth are all the same length.",
+     "The measurements of the type specimens are as follows: a male, 337 mm (13 inches) SVL (Snout to Vent Length), tail 53 mm (2 inches); a female, 502 mm (193⁄4 inches) SVL, tail 70 mm (23⁄4 inches)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432730314/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ramnarayan K, some rights reserved (CC BY), uploaded by Ramnarayan K",
+   "photo": 432730314
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432730748/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ramnarayan K, some rights reserved (CC BY), uploaded by Ramnarayan K",
+   "photo": 432730748
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432730961/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ramnarayan K, some rights reserved (CC BY), uploaded by Ramnarayan K",
+   "photo": 432730961
+  }
+ ]
+}

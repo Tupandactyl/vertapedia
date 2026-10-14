@@ -1,0 +1,58 @@
+{
+ "sci": "Philothamnus mayombensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1367332,
+  "name": "Philothamnus mayombensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philothamnus_mayombensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230611409/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 135226326,
+   "place": "5 km NE of Mengo, about 16 km SW of Hinda, Republic of the Congo",
+   "date": "2014-06-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230608515/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 135224919,
+   "place": "5 km NE of Mengo, about 16 km SW of Hinda, Republic of the Congo",
+   "date": "2014-05-03"
+  }
+ ],
+ "wiki": {
+  "title": "Philothamnus mayombensis",
+  "url": "https://en.wikipedia.org/wiki/Philothamnus_mayombensis",
+  "revision": 1380115363,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Philothamnus mayombensis, the Mayombe bush snake, is a species of snake of the family Colubridae.",
+     "The snake is found in the Democratic Republic of Congo."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230608515/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 230608515
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230608508/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Marius Burger",
+   "photo": 230608508
+  }
+ ]
+}

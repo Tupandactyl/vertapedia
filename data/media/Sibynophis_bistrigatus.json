@@ -1,0 +1,51 @@
+{
+ "sci": "Sibynophis bistrigatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28676,
+  "name": "Sibynophis bistrigatus",
+  "observations": 7,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sibynophis_bistrigatus",
+  "common": "Günther's Many-tooth Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446209033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benben192, some rights reserved (CC BY-NC)",
+   "obs": 249596382,
+   "place": "Ayeyarwady, MM",
+   "date": "2024-10-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242214621/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) junehmone, some rights reserved (CC BY-NC)",
+   "obs": 141391268,
+   "place": "Ayeyarwady, MM",
+   "date": "2022-11-08"
+  }
+ ],
+ "wiki": {
+  "title": "Sibynophis bistrigatus",
+  "url": "https://en.wikipedia.org/wiki/Sibynophis_bistrigatus",
+  "revision": 1341278711,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Sibynophis bistrigatus, commonly known as Günther's many-toothed snake, is a species of nonvenomous colubrid snake found in Myanmar (formerly called Burma) and India (Nicobar Islands), but snakes collected in Myanmar and the Nicobar Islands might actually not refer to the same species. This rare snake is known from tropical dry forests."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242214621/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(с) junehmone, некоторые права защищены (CC BY-NC)",
+   "photo": 242214621
+  }
+ ]
+}

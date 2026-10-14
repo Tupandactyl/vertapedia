@@ -1,0 +1,51 @@
+{
+ "sci": "Tantilla tritaeniata",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 28472,
+  "name": "Tantilla tritaeniata",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tantilla_tritaeniata",
+  "common": "Three-banded Centipede Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215711820/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roland Rumm, some rights reserved (CC BY-NC)",
+   "obs": 127085390,
+   "place": "Honduras",
+   "date": "2022-07-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9309106/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roland Rumm, some rights reserved (CC BY-NC)",
+   "obs": 7214159,
+   "place": "Honduras",
+   "date": "2017-07-25"
+  }
+ ],
+ "wiki": {
+  "title": "Tantilla tritaeniata",
+  "url": "https://en.wikipedia.org/wiki/Tantilla_tritaeniata",
+  "revision": 1351546762,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tantilla tritaeniata, commonly known as the three-banded centipede snake, is a species of small colubrid snake. The species is endemic to Guanaja Island of Honduras."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9309106/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roland Rumm, some rights reserved (CC BY-NC), uploaded by Roland Rumm",
+   "photo": 9309106
+  }
+ ]
+}

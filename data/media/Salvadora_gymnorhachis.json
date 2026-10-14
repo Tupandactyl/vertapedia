@@ -1,0 +1,65 @@
+{
+ "sci": "Salvadora gymnorhachis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 965988,
+  "name": "Salvadora gymnorhachis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Salvadora_gymnorhachis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233390707/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ranulfo Vasquez Vargas, some rights reserved (CC BY-NC)",
+   "obs": 136724504,
+   "place": "Santa María Tlahuitoltepec, Oax., México",
+   "date": "2019-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589918255/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gutierrez jimenez Ismael José, some rights reserved (CC BY-NC)",
+   "obs": 325786568,
+   "place": "70265 Santa María Tlahuitoltepec, Oax., México",
+   "date": "2025-11-09"
+  }
+ ],
+ "wiki": {
+  "title": "Salvadora gymnorhachis",
+  "url": "https://en.wikipedia.org/wiki/Salvadora_gymnorhachis",
+  "revision": 1368726891,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Salvadora gymnorhachis is a species of snake in the subfamily Colubrinae of the family Colubridae. The species is endemic to Mexico."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "S. gymnorhachis is found in the Mexican state of Oaxaca."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "S. gymnorhachis differs from all other species of Salvadora by having the pale vertebral stripe absent, and the dorsolateral stripes confined to the anterior portion of the body."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233390707/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ranulfo Vasquez Vargas, some rights reserved (CC BY-NC), uploaded by Ranulfo Vasquez Vargas",
+   "photo": 233390707
+  }
+ ]
+}

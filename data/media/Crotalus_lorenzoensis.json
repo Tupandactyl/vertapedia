@@ -1,0 +1,91 @@
+{
+ "sci": "Crotalus lorenzoensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30728,
+  "name": "Crotalus lorenzoensis",
+  "observations": 2,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crotalus_lorenzoensis",
+  "common": "San Lorenzo Island Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62127077/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC)",
+   "obs": 39184272,
+   "place": "Isla San Lorenzo, B.C., México",
+   "date": "2011-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62126980/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC)",
+   "obs": 39184268,
+   "place": "Isla San Lorenzo, B.C., México",
+   "date": "2011-04-14"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus lorenzoensis",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_lorenzoensis",
+  "revision": 1350413995,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Crotalus lorenzoensis  is a species of pit viper."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "These vipers are usually smaller than their counterparts on the mainland."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "C. lorenzoensis is only known from the type locality, which is San Lorenzo Island, thus making it an endemic species."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The snakes live mainly in rocky areas and arroyo bottoms, sometimes in dunes near the coast and in cavities formed by adjacent boulders."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "This species is classified as \"Least Concern\" (LC) on the IUCN Red List of Threatened Species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62127077/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC), uploaded by Jesus Gordolomi Butterball RC",
+   "photo": 62127077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62126980/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jesus Gordolomi Butterball RC, some rights reserved (CC BY-NC), uploaded by Jesus Gordolomi Butterball RC",
+   "photo": 62126980
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/505376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) acorbit, some rights reserved (CC BY-NC)",
+   "photo": 505376
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "sci": "Oligodon booliati",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29274,
+  "name": "Oligodon booliati",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_booliati",
+  "common": "Boo-Liat's kukri snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721568103/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) joseanko, some rights reserved (CC BY-NC)",
+   "obs": 393550901,
+   "place": "Malaysia",
+   "date": "2026-08-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108992087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC)",
+   "obs": 67458642,
+   "place": "Malaysia",
+   "date": "2014-07-25"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon booliati",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_booliati",
+  "revision": 1355353842,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon booliati, also known as the Boo-Liat's kukri snake, is a species of snake of the family Colubridae. It is endemic to the Tioman Island, Malaysia. The snake was named for Malaysian zoologist Lim Boo Liat."
+    ]
+   },
+   {
+    "h": "Habitat and conservation",
+    "level": 2,
+    "paras": [
+     "Oligodon booliati is a fossorial species that is found on leaf litter in lowland forest. Its range is restricted to the forested area of the Tioman Island, which is suffering from deforestation and could see the remaining forest disappearing in the near future."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108992087/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 108992087
+  }
+ ]
+}

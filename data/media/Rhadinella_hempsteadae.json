@@ -1,0 +1,92 @@
+{
+ "sci": "Rhadinella hempsteadae",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 111618,
+  "name": "Rhadinella hempsteadae",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhadinella_hempsteadae",
+  "common": "Hempstead's Pine Woods Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61830945/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 38889686,
+   "place": "Guatemala",
+   "date": "2017-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61830866/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY)",
+   "obs": 38889621,
+   "place": "Guatemala",
+   "date": "2017-08-31"
+  }
+ ],
+ "wiki": {
+  "title": "Rhadinella hempsteadae",
+  "url": "https://en.wikipedia.org/wiki/Rhadinella_hempsteadae",
+  "revision": 1362926959,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhadinella hempsteadae, also known commonly as Hempstead's pine woods snake, is a species of snake in the subfamily Dipsadinae of the family Colubridae. The species is endemic to  Guatemala."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, hempsteadae, is in honor of Guatemalan coffee planter Maria Luisa Hempstead."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of R. hempsteadae is forest, at altitudes of 1,600–2,600 m (5,200–8,500 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The holotype of R. hempsteadae, an adult male, has a snout-to-vent length (SVL) of 266 mm (10.5 in), plus a tail length of 128 mm (5.0 in)."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "R. hempsteadae is terrestrial and fossorial."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "R. hempsteadae is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61830945/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 61830945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61830866/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wouter Beukema, some rights reserved (CC BY), uploaded by Wouter Beukema",
+   "photo": 61830866
+  }
+ ]
+}

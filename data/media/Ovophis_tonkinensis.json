@@ -1,0 +1,128 @@
+{
+ "sci": "Ovophis tonkinensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 108066,
+  "name": "Ovophis tonkinensis",
+  "observations": 237,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ovophis",
+  "common": "Tonkin Pit Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612176107/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 羅益旻, some rights reserved (CC BY-NC)",
+   "obs": 336829352,
+   "place": "香港大帽山",
+   "date": "2026-01-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509038771/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) diligentherper, some rights reserved (CC BY-NC)",
+   "obs": 283299052,
+   "place": "大帽山郊野公園, 大帽山, 新界, HK",
+   "date": "2024-11-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177141378/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yui Hong Chiu, some rights reserved (CC BY-NC)",
+   "obs": 103374764,
+   "place": null,
+   "date": "2021-12-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633803576/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 红膝, some rights reserved (CC BY-NC)",
+   "obs": 347600240,
+   "place": "香港大帽山",
+   "date": "2025-02-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573229284/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jorge Abad, some rights reserved (CC BY-NC)",
+   "obs": 317239059,
+   "place": null,
+   "date": "2025-07-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/408998507/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Timmy, some rights reserved (CC BY-NC)",
+   "obs": 230353314,
+   "place": "Tai Mo Shan, Hong Kong",
+   "date": "2024-02-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67973326/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) dimensionsky, some rights reserved (CC BY-NC)",
+   "obs": 42802180,
+   "place": "水库新村, 深圳市, 广东省, CN",
+   "date": "2020-04-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471336325/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Marco Chan, some rights reserved (CC BY)",
+   "obs": 262358927,
+   "place": null,
+   "date": "2025-02-14"
+  }
+ ],
+ "wiki": {
+  "title": "Ovophis",
+  "url": "https://en.wikipedia.org/wiki/Ovophis",
+  "revision": 1351248548,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: mountain pit vipers.",
+     "Ovophis is a genus of pit vipers found in Asia. Seven species are currently recognized."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Found in Asia in Nepal and Seven Sisters (Assam), India, eastward through Myanmar, Cambodia, Thailand, Laos, Vietnam, China, West Malaysia, Taiwan, Okinawa, Sumatra and Borneo."
+    ]
+   },
+   {
+    "h": "Species",
+    "level": 2,
+    "paras": [
+     "*) Not including the nominate subspecies.",
+     "T) Type species."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "Species placed in this group have long been associated with the genus Trimeresurus. One other species that is included in some other taxonomies is O. tonkinensis (Bourret, 1934). It is commonly called the Tonkin pit viper and is found in Vietnam and China."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245965059/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) randall_f, some rights reserved (CC BY-NC)",
+   "photo": 245965059
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177141378/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yui Hong Chiu, some rights reserved (CC BY-NC), uploaded by Yui Hong Chiu",
+   "photo": 177141378
+  }
+ ]
+}

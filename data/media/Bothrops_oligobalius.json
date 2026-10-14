@@ -1,0 +1,132 @@
+{
+ "sci": "Bothrops oligobalius",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1250247,
+  "name": "Bothrops oligobalius",
+  "observations": 44,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bothrops_oligobalius",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74938701/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) marcel-silvius, some rights reserved (CC BY-NC)",
+   "obs": 47252140,
+   "place": "Tartarugalzinho - State of Amapá, 68990-000, Brazil",
+   "date": "2011-07-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77654776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isabella Monedero Rodríguez, some rights reserved (CC BY-NC)",
+   "obs": 48927528,
+   "place": "La Chorrera",
+   "date": "2019-12-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638265462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herping Amazonia, some rights reserved (CC BY-NC)",
+   "obs": 349858755,
+   "place": "Pedra Branca do Amapari - AP, 68945-000, Brasil",
+   "date": "2026-04-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470620105/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) augustinbussac, some rights reserved (CC BY-NC)",
+   "obs": 261911255,
+   "place": "Saül 97314, Guyane française",
+   "date": "2024-01-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458876756/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Arnaud Aury, some rights reserved (CC BY-NC)",
+   "obs": 255996204,
+   "place": "Saül 97314, Guyane française",
+   "date": "2024-12-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388539944/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maël Dewynter, some rights reserved (CC BY-NC)",
+   "obs": 219019970,
+   "place": "Borne 4 - camp mission 2012",
+   "date": "2012-06-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469366416/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Herpetonautas, some rights reserved (CC BY-NC)",
+   "obs": 261276520,
+   "place": "Pedra Branca do Amaparí, Pedra Branca do Amapari - AP, 68945-000, Brasil",
+   "date": "2025-02-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157157537/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC)",
+   "obs": 94718290,
+   "place": "Saül, Guyane française, sentier Grand Boeuf Mort, Parc Amazonien de Guyane.",
+   "date": "2017-04-28"
+  }
+ ],
+ "wiki": {
+  "title": "Bothrops oligobalius",
+  "url": "https://en.wikipedia.org/wiki/Bothrops_oligobalius",
+  "revision": 1376208151,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bothrops oligobalius is a species of pit viper from Amapá, Brazil. It has been sighted in the Apaporis River, on the boundary between Brazil and Colombia."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Bothrops oligobalius has a robust body, with a snout-vent length of 24.5 - 80.5 cm and a tail length of 3.5 - 11.3 cm. Their pattern consists of 9 - 13 trapezoidal marks on each side and a checkered pattern on their underside."
+    ]
+   },
+   {
+    "h": "Sexual dimorphism",
+    "level": 2,
+    "paras": [
+     "Bothrops oligobalius exhibits sexual dimorphism through scale count, with females generally having more ventral scales than males, and males generally having more subcaudal scales than females."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The name 'oligobalius' derives from 'oligos', the Greek word for 'few', and 'balios', the Greek word for 'spotted' or 'dappled'. The combination, meaning 'few spots', references the fact that B. oligobalius displays less markings than B. brazili."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77654776/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isabella Monedero Rodríguez, some rights reserved (CC BY-NC), uploaded by Isabella Monedero Rodríguez",
+   "photo": 77654776
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73723824/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Fábio Olmos, some rights reserved (CC BY), uploaded by Fábio Olmos",
+   "photo": 73723824
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75415359/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sébastien SANT, some rights reserved (CC BY-NC), uploaded by Sébastien SANT",
+   "photo": 75415359
+  }
+ ]
+}

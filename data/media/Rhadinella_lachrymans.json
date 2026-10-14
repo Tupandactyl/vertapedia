@@ -1,0 +1,73 @@
+{
+ "sci": "Rhadinella lachrymans",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 145797,
+  "name": "Rhadinella lachrymans",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhadinella_lachrymans",
+  "common": "Tearful Pine-Oak Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292679156/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Trinidad Ahumada Carrillo, some rights reserved (CC BY-NC)",
+   "obs": 168852455,
+   "place": "Tuzantán, Chis., México",
+   "date": "2017-07-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363800882/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Roland Rumm, some rights reserved (CC BY-NC)",
+   "obs": 205730994,
+   "place": "Esquipulas Palo Gordo, San Marcos, GT",
+   "date": "2024-04-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685270093/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Broek, some rights reserved (CC BY-NC)",
+   "obs": 374885613,
+   "place": "San Marcos, GT",
+   "date": "2025-07-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268120292/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC)",
+   "obs": 155133442,
+   "place": "Zunil, Guatemala",
+   "date": "2016-01-29"
+  }
+ ],
+ "wiki": {
+  "title": "Rhadinella lachrymans",
+  "url": "https://en.wikipedia.org/wiki/Rhadinella_lachrymans",
+  "revision": 1315258726,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhadinella lachrymans, the tearful pine-oak snake, is a species of snake in the family Colubridae. It is found in Mexico, Guatemala, and Honduras."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292679156/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Trinidad Ahumada Carrillo, some rights reserved (CC BY-NC), uploaded by Iván Trinidad Ahumada Carrillo",
+   "photo": 292679156
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268120292/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vojtěch Víta, some rights reserved (CC BY-NC), uploaded by Vojtěch Víta",
+   "photo": 268120292
+  }
+ ]
+}

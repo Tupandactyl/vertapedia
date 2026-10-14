@@ -1,0 +1,125 @@
+{
+ "sci": "Trimorphodon biscutatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 114417,
+  "name": "Trimorphodon biscutatus",
+  "observations": 510,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Trimorphodon_biscutatus",
+  "common": "Western Lyre Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463648059/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+   "obs": 258424557,
+   "place": "Santa María Huatulco, Oax., Mexico",
+   "date": "2024-12-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77439017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) EfraFlores, some rights reserved (CC BY-NC)",
+   "obs": 48794051,
+   "place": "La Huerta, JAL, MX",
+   "date": "2020-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203286589/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) geomamba, some rights reserved (CC BY-NC)",
+   "obs": 120210338,
+   "place": "Oaxaca, MX",
+   "date": "2022-05-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338567623/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rene Villanueva, some rights reserved (CC BY-NC)",
+   "obs": 192812430,
+   "place": "30549 Chis., México",
+   "date": "2023-11-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234969/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Montes de Oca Cacheux, some rights reserved (CC BY-NC)",
+   "obs": 179711,
+   "place": "Totolapam, Oaxaca",
+   "date": "2012-11-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682935980/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Armando Toscano viurquez, some rights reserved (CC BY-NC)",
+   "obs": 373681832,
+   "place": "Manzanillo, Col., MX",
+   "date": "2026-06-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2145289/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY)",
+   "obs": 1773345,
+   "place": "Chamela",
+   "date": "2009-08-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/687070527/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luisa Fernanda López Arambarri, some rights reserved (CC BY-NC)",
+   "obs": 375808679,
+   "place": "Puebla, MX",
+   "date": "2026-06-26"
+  }
+ ],
+ "wiki": {
+  "title": "Trimorphodon biscutatus",
+  "url": "https://en.wikipedia.org/wiki/Trimorphodon_biscutatus",
+  "revision": 1379596240,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The western lyre snake (Trimorphodon biscutatus) is a mildly venomous colubrid snake native to Mexico and Guatemala."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "They are a moderately sized snake, attaining lengths of approximately 1 meter at adult size. They are generally a brown,  tan or grey in color with dark brown blotching down the back. They have large eyes with vertical pupils."
+    ]
+   },
+   {
+    "h": "Behavior",
+    "level": 2,
+    "paras": [
+     "They are nocturnal and secretive, spending most of their time in rock crevices, and other areas difficult for potential predators to access. Their diet consists of lizards, small rodents, frogs, and bats. Their venom is not considered to be harmful to humans."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2145289/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY), uploaded by Jorge Armín Escalante-Pasos",
+   "photo": 2145289
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8727215/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
+   "photo": 8727215
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67152435/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jorge Armín Escalante-Pasos, some rights reserved (CC BY), uploaded by Jorge Armín Escalante-Pasos",
+   "photo": 67152435
+  }
+ ]
+}

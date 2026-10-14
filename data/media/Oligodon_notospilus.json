@@ -1,0 +1,70 @@
+{
+ "sci": "Oligodon notospilus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 146311,
+  "name": "Oligodon notospilus",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_notospilus",
+  "common": "Palawan Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679398489/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jay Paroline, some rights reserved (CC BY)",
+   "obs": 371832435,
+   "place": "Palawan, PH",
+   "date": "2026-06-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607972990/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niels Poul Dreyer, some rights reserved (CC BY-NC)",
+   "obs": 334751523,
+   "place": "Herping site Santa Lucia, Puerto Princesa City, Palawan, Philippines",
+   "date": "2025-12-15"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon notospilus",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_notospilus",
+  "revision": 1360615734,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon notospilus, the Palawan kukri snake or Palawan short-headed snake, is a species of snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake species is endemic to the Philippines. It is found in Palawan, in the Calamian Islands, Balabac and Mindanao."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679399987/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jay Paroline, some rights reserved (CC BY), uploaded by Jay Paroline",
+   "photo": 679399987
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679401648/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jay Paroline, some rights reserved (CC BY), uploaded by Jay Paroline",
+   "photo": 679401648
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679401690/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jay Paroline, some rights reserved (CC BY), uploaded by Jay Paroline",
+   "photo": 679401690
+  }
+ ]
+}

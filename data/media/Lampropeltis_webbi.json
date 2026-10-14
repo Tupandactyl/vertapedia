@@ -1,0 +1,85 @@
+{
+ "sci": "Lampropeltis webbi",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 73843,
+  "name": "Lampropeltis webbi",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lampropeltis_webbi",
+  "common": "Webb's Kingsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92195406/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 57781477,
+   "place": "San Dimas Municipality, Durango, Mexico",
+   "date": "2005-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230966462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 135421702,
+   "place": "El Salto-Villa Unión, Pueblo Nuevo, Durango, MX",
+   "date": "2022-09-06"
+  }
+ ],
+ "wiki": {
+  "title": "Lampropeltis webbi",
+  "url": "https://en.wikipedia.org/wiki/Lampropeltis_webbi",
+  "revision": 1355099833,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lampropeltis webbi is a species of king snake in the family Colubridae. The species is endemic to Mexico. Currently, there are only five known specimens, with one being a live snake."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, webbi, is in honor of American herpetologist Robert G. Webb."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Due to the few number of specimens, there is limited knowledge of the range of L. webbi appearances. Known specimens have a pattern of grey with broad red saddles bordered by black striping. The largest specimen has a length of 75 cm, with specimens having a ventral scale count ranging 216–221 ventral scales. The head is slightly distinct from the neck, with brown eyes slightly protruding from the head."
+    ]
+   },
+   {
+    "h": "Habitat and geographic range",
+    "level": 2,
+    "paras": [
+     "Lampropeltis webbi has been found in rugged montane pine–oak forest in the Sierra Madre Occidental, near the border between the Mexican states of Durango and Sinaloa. It has been found only on a small stretch of a single highway in this region, with most of the specimens being found dead on the road."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "L. webbi is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92195406/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 92195406
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92345530/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 92345530
+  }
+ ]
+}

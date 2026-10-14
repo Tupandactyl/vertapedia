@@ -1,0 +1,54 @@
+{
+ "sci": "Oligodon speleoserpens",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1630507,
+  "name": "Oligodon speleoserpens",
+  "observations": 5,
+  "wikipedia_url": null,
+  "common": "Cave Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543230669/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)",
+   "obs": 301466727,
+   "place": "Palm Phatthana, Manang District, Satun, Thailand",
+   "date": "2025-07-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471139841/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parinya Pawangkhanant, some rights reserved (CC BY-NC)",
+   "obs": 262242138,
+   "place": "ม.7 ตำบล ทุ่งหว้า อำเภอ ทุ่งหว้า สตูล 91120, Thailand",
+   "date": "2022-09-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720382417/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Holland, some rights reserved (CC BY-NC)",
+   "obs": 393051933,
+   "place": "Thailand",
+   "date": "2025-07-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720393093/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Holland, some rights reserved (CC BY-NC)",
+   "obs": 393059568,
+   "place": "Trang, TH",
+   "date": "2025-07-24"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471139841/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Parinya Pawangkhanant, some rights reserved (CC BY-NC), uploaded by Parinya Pawangkhanant",
+   "photo": 471139841
+  }
+ ]
+}

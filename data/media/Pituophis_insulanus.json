@@ -1,0 +1,80 @@
+{
+ "sci": "Pituophis insulanus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29047,
+  "name": "Pituophis insulanus",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pituophis_insulanus",
+  "common": "Cedros Gopher Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2358981/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC)",
+   "obs": 1928529,
+   "place": "Mexico",
+   "date": "2015-04-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3641699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC)",
+   "obs": 3150646,
+   "place": "Mexico",
+   "date": "2016-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431792603/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) crotrox, some rights reserved (CC BY-NC)",
+   "obs": 242212691,
+   "place": "Mexico",
+   "date": "2024-04-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576900/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charlie de la Rosa, some rights reserved (CC BY-NC)",
+   "obs": 457280,
+   "place": "Arroyo de la lobera, Isla Cedros, Baja California, Mex",
+   "date": "2013-03-03"
+  }
+ ],
+ "wiki": {
+  "title": "Pituophis insulanus",
+  "url": "https://en.wikipedia.org/wiki/Pituophis_insulanus",
+  "revision": 1374507991,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Pituophis insulanus, the Cedros Island gopher snake, is a species of snake of the family Colubridae.",
+     "The snake is found in Mexico."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3641699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 3641699
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2358981/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 2358981
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576900/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charlie de la Rosa, some rights reserved (CC BY-NC), uploaded by Charlie de la Rosa",
+   "photo": 576900
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "sci": "Limnophis bangweolicus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29683,
+  "name": "Limnophis bangweolicus",
+  "observations": 12,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Limnophis_bangweolicus",
+  "common": "Bangweulu Water Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12109233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Weakley, some rights reserved (CC BY-NC)",
+   "obs": 8978437,
+   "place": "Botswana",
+   "date": "2015-10-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112685704/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Reed, some rights reserved (CC BY-NC)",
+   "obs": 69449535,
+   "place": "Ngamiland East, Botswana",
+   "date": "2021-02-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180949077/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) justinehelenbrown, some rights reserved (CC BY-NC)",
+   "obs": 107572431,
+   "place": "Okavango Delta, North-West, BW",
+   "date": "2022-02-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53262263/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Wilderness Safaris Botswana - Conservation Team, some rights reserved (CC BY)",
+   "obs": 33881079,
+   "place": "Zambezi Region, Namibia",
+   "date": "2019-08-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90067401/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Reed, some rights reserved (CC BY-NC)",
+   "obs": 56514251,
+   "place": "Ngamiland North, Botswana",
+   "date": "2015-06-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51202389/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Wilderness Safaris Botswana - Conservation Team, some rights reserved (CC BY)",
+   "obs": 32634914,
+   "place": "Zambezi Region, Namibia",
+   "date": "2019-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144169011/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Fuhrmann, some rights reserved (CC BY-NC)",
+   "obs": 87448559,
+   "place": "Okavango Delta, Botsuana",
+   "date": "2013-09-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649322060/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tarrybutcher, some rights reserved (CC BY-NC)",
+   "obs": 356064776,
+   "place": "North West, BW",
+   "date": "2026-04-27"
+  }
+ ],
+ "wiki": {
+  "title": "Limnophis bangweolicus",
+  "url": "https://en.wikipedia.org/wiki/Limnophis_bangweolicus",
+  "revision": 1344732524,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Limnophis bangweolicus, the eastern striped swamp snake or Bangweulu water snake, is a species of natricine snake found in Zambia, the Democratic Republic of the Congo, Angola, and Botswana."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112685704/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grant Reed, some rights reserved (CC BY-NC), uploaded by Grant Reed",
+   "photo": 112685704
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12109233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Weakley, some rights reserved (CC BY-NC), uploaded by Ryan Weakley",
+   "photo": 12109233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144169011/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thomas Fuhrmann, some rights reserved (CC BY-NC), uploaded by Thomas Fuhrmann",
+   "photo": 144169011
+  }
+ ]
+}

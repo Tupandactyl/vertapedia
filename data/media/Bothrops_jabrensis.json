@@ -1,0 +1,79 @@
+{
+ "sci": "Bothrops jabrensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1403163,
+  "name": "Bothrops jabrensis",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bothrops_jabrensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422787707/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alison Guedes, some rights reserved (CC BY)",
+   "obs": 237552436,
+   "place": "Solidão - PE, 56795-000, Brasil",
+   "date": "2024-07-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381562576/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alison Guedes, some rights reserved (CC BY)",
+   "obs": 215792789,
+   "place": "Solidão - PE, 56795-000, Brasil",
+   "date": "2024-05-14"
+  }
+ ],
+ "wiki": {
+  "title": "Bothrops jabrensis",
+  "url": "https://en.wikipedia.org/wiki/Bothrops_jabrensis",
+  "revision": 1236845171,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Bothrops jabrensis, also known as Jabre's Lancehead or jararaca-do-jabre in Portuguese, is a species of Brazilian pit viper from the state of Paraíba. It is named after the area in which it was first discovered, Pico do Jabre, in 2022."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Bothrops jabrensis is a relatively small snake compared to others in the Bothrops genus. Its underside is mainly white, grey and/or brown and it displays narrow brown stripes with white borders on its back.",
+     "Bothrops jabrensis resembles B. jararaca, but it is distinct and has been independently evolving for over eight million years. It can be distinguished from B. jararaca by its lower number of ventral scales and dorsal scales. It can also be distinguished from B. alcatraz, B. insularis and B. otavioi by the lower number of dorsals, from B. sazimai by its lower number of subcaudal scales, from B. neuwiedi, B. lutzi and B. insularis again by its colouring and from B. erythromelas by its higher number of dorsals, ventrals and subcaudals."
+    ]
+   },
+   {
+    "h": "Sexual dimorphism",
+    "level": 2,
+    "paras": [
+     "Bothrops jabrensis displays sexual dimorphism mostly through scale count. Females may have up to one more anterior dorsal scale than males, two more midbody dorsal scales than males, two more posterior scales than males and five more ventral scales than males. Males may also have up to four more subcaudal scales than females."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Bothrops jabrensis has only been found in the Caatinga moist-forest enclave of Pico do Jabre. The majority of specimens have been found on trees or shrubs, and all have been from altitudes above 1,000 m (3,300 ft)."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381562576/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alison Guedes, some rights reserved (CC BY), uploaded by Alison Guedes",
+   "photo": 381562576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381562639/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Alison Guedes, some rights reserved (CC BY), uploaded by Alison Guedes",
+   "photo": 381562639
+  }
+ ]
+}

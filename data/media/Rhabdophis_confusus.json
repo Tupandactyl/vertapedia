@@ -1,0 +1,95 @@
+{
+ "sci": "Rhabdophis confusus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 1337913,
+  "name": "Rhabdophis confusus",
+  "observations": 6,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhabdophis_confusus",
+  "common": "Hainan Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672631232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldfears, some rights reserved (CC BY-NC)",
+   "obs": 368277061,
+   "place": "白沙黎族自治县, 海南省, CN",
+   "date": "2026-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564074738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yihan_chen_ss, some rights reserved (CC BY-NC)",
+   "obs": 312423885,
+   "place": "中国海南省三亚市吉阳区",
+   "date": "2025-09-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607200654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) JIN Pin-Tsen, some rights reserved (CC BY-NC)",
+   "obs": 334368580,
+   "place": "Hainan, CN-HA, CN",
+   "date": "2026-01-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575836128/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alfuil, some rights reserved (CC BY-NC)",
+   "obs": 318600051,
+   "place": "临春岭森林公园, 三亚市, 海南省, CN",
+   "date": "2025-09-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/676410637/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 夜星槎, some rights reserved (CC BY-NC)",
+   "obs": 370263308,
+   "place": "Hainan, CN",
+   "date": "2026-06-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642473467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mingyafeng, some rights reserved (CC BY-NC)",
+   "obs": 352024490,
+   "place": "白沙黎族自治县, 海南省, CN",
+   "date": "2026-04-23"
+  }
+ ],
+ "wiki": {
+  "title": "Rhabdophis confusus",
+  "url": "https://en.wikipedia.org/wiki/Rhabdophis_confusus",
+  "revision": 1377215940,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhabdophis confusus is a keelback snake in the family Colubridae found in China."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642473467/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mingyafeng, some rights reserved (CC BY-NC)",
+   "photo": 642473467
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672631232/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) oldfears, some rights reserved (CC BY-NC), uploaded by oldfears",
+   "photo": 672631232
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564074738/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) yihan_chen_ss, some rights reserved (CC BY-NC)",
+   "photo": 564074738
+  }
+ ]
+}

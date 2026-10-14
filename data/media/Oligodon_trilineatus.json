@@ -1,0 +1,62 @@
+{
+ "sci": "Oligodon trilineatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29218,
+  "name": "Oligodon trilineatus",
+  "observations": 3,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Three-lined_kukri_snake",
+  "common": "Three-lined Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252538157/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY)",
+   "obs": 146833304,
+   "place": "Ketambe, Gunung Leuser NP, Aceh, Sumatra, INDONESIA",
+   "date": "2003-04-01"
+  }
+ ],
+ "wiki": {
+  "title": "Three-lined kukri snake",
+  "url": "https://en.wikipedia.org/wiki/Three-lined_kukri_snake",
+  "revision": 1355354132,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The three-lined kukri snake (Oligodon trilineatus) is a species of snake of the family Colubridae."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "The snake is found in Indonesia. Specifically, it is widespread in the mainland and islands of Sumatra."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634852/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 634852
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634853/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 634853
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634854/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Bernard DUPONT, some rights reserved (CC BY-NC-SA)",
+   "photo": 634854
+  }
+ ]
+}

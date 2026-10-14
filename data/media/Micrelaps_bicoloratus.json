@@ -1,0 +1,43 @@
+{
+ "sci": "Micrelaps bicoloratus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 116533,
+  "name": "Micrelaps bicoloratus",
+  "observations": 1,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Micrelaps_bicoloratus",
+  "common": "Kenya Two-headed Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34663227/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Lorenzo Vinciguerra, some rights reserved (CC BY-NC)",
+   "obs": 22380853,
+   "place": "Arumeru, Tansania",
+   "date": "1995-07-08"
+  }
+ ],
+ "wiki": {
+  "title": "Micrelaps bicoloratus",
+  "url": "https://en.wikipedia.org/wiki/Micrelaps_bicoloratus",
+  "revision": 1376671507,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Micrelaps bicoloratus, or the Kenya two-headed snake, is a species of mildly venomous opisthoglyphous (rear-fanged) snake in the family Micrelapidae. It is endemic to Kenya."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1499662/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(с) David Bygott, некоторые права защищены (CC BY-NC-SA)",
+   "photo": 1499662
+  }
+ ]
+}

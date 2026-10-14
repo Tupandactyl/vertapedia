@@ -1,0 +1,133 @@
+{
+ "sci": "Montivipera bulgardaghica",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 121105,
+  "name": "Montivipera bulgardaghica",
+  "observations": 13,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Vipera_bulgardaghica",
+  "common": "Mount Bulgar viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402390551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC)",
+   "obs": 226860395,
+   "place": "Turkey",
+   "date": "2024-06-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251830880/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehmet Çelik, some rights reserved (CC BY-NC)",
+   "obs": 146473107,
+   "place": "Sumbas/Osmaniye, Türkiye",
+   "date": "2021-06-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3288267/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) daveshowler, some rights reserved (CC BY-NC)",
+   "obs": 2879000,
+   "place": "Syria",
+   "date": "2002-10-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651492381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bobby Bok, some rights reserved (CC BY-NC)",
+   "obs": 357214645,
+   "place": "Türkiye",
+   "date": "2022-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144630716/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) M. Salimeh, some rights reserved (CC BY-NC)",
+   "obs": 87705747,
+   "place": "Syria",
+   "date": "2021-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41416634/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC)",
+   "obs": 26663731,
+   "place": "Pozantı/Adana, Turkije",
+   "date": "2019-04-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41419293/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC)",
+   "obs": 26665495,
+   "place": "Pozantı/Adana, Turkije",
+   "date": "2019-04-28"
+  }
+ ],
+ "wiki": {
+  "title": "Mount Bulgar viper",
+  "url": "https://en.wikipedia.org/wiki/Mount_Bulgar_viper",
+  "revision": 1349901807,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Mount Bulgar viper (Montivipera bulgardaghica), also called the Bulgardagh viper is a viper species endemic to the mountains of southern Turkey. Like all other vipers, it is venomous. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It grows to a maximum total length (body + tail) of about 78 cm (31 in)."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in the Bulgar Dagh (Bolkar Dagi) mountains, Nigde Province, south central Anatolia, Turkey. It is a rarely seen animal.",
+     "The type locality given is \"Cilician Taurus (Kar Boghaz, Bulgar Dagh, 2500 m) province Nigde\" (= Karbogaz, Bolkar dagi Ulukişla, 8,200 ft), south central Anatolia, Turkey."
+    ]
+   },
+   {
+    "h": "Conservation status",
+    "level": 2,
+    "paras": [
+     "This species is classified as Least Concern according to the IUCN Red List of Threatened Species.",
+     "It is also listed as a protected species (Appendix III) under the Berne Convention."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "This species was considered by Golay et al. (1993) to be a subspecies of M. xanthina, and was subsequently moved to the genus Montivipera by Nilson et al. (1999), who considered it to be a synonym of Montivipera xanthina."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402390551/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Otto Bylén Claesson, some rights reserved (CC BY-NC), uploaded by Otto Bylén Claesson",
+   "photo": 402390551
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41419293/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gert Jan Verspui, some rights reserved (CC BY-NC), uploaded by Gert Jan Verspui",
+   "photo": 41419293
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251830880/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mehmet Çelik, some rights reserved (CC BY-NC), uploaded by Mehmet Çelik",
+   "photo": 251830880
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "sci": "Atheris mabuensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 94806,
+  "name": "Atheris mabuensis",
+  "observations": 5,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Atheris_mabuensis",
+  "common": "Mount Mabu Forest Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398562222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 224846475,
+   "place": "Zambezia, MZ",
+   "date": "2024-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399788791/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC)",
+   "obs": 225498349,
+   "place": "Zambezia, MZ",
+   "date": "2024-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398562134/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC)",
+   "obs": 224846469,
+   "place": "Zambezia, MZ",
+   "date": "2024-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399802654/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ruben Foquet, some rights reserved (CC BY-NC)",
+   "obs": 225498376,
+   "place": "Zambezia, MZ",
+   "date": "2024-06-06"
+  }
+ ],
+ "wiki": {
+  "title": "Atheris mabuensis",
+  "url": "https://en.wikipedia.org/wiki/Atheris_mabuensis",
+  "revision": 1354658377,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Atheris mabuensis, the Mount Mabu forest viper, is a species of venomous snake in the family Viperidae. The species is endemic to Mozambique."
+    ]
+   },
+   {
+    "h": "Discovery",
+    "level": 2,
+    "paras": [
+     "During his second reconnaissance visit to Mount Mabu (23–26 January 2006) Dr. Julian Bayliss found a very young forest viper in leaf litter on the floor of closed-canopy wet forest on Mount Mabu at approximately 1,000 m (3,300 ft). On examination in the Port Elizabeth Museum (BayWorld, acronym PEM) herpetological collection by Prof. Bill Branch, the specimen was identified as a member of the genus Atheris, which had never previously been recorded from Mozambique and which, moreover, represented a substantial southern range extension for the genus."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398562222/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 398562222
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398562134/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 398562134
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398562122/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Brammer, some rights reserved (CC BY-NC), uploaded by Tim Brammer",
+   "photo": 398562122
+  }
+ ]
+}

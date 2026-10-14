@@ -1,0 +1,140 @@
+{
+ "sci": "Sistrurus catenatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 520469,
+  "name": "Sistrurus catenatus",
+  "observations": 5611,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Massasauga",
+  "common": "Eastern Massasauga"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/547750435/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Allanah Vokes, some rights reserved (CC BY-NC)",
+   "obs": 303877210,
+   "place": "Ontario, CA",
+   "date": "2025-06-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21484218/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Neil Balchan, some rights reserved (CC BY-NC)",
+   "obs": 14436740,
+   "place": "Ontario, CA",
+   "date": "2018-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65424682/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) teresap, some rights reserved (CC BY-NC)",
+   "obs": 41252331,
+   "place": "Michigan, US",
+   "date": "2020-04-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88005435/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brandie Dunn, some rights reserved (CC BY-NC)",
+   "obs": 55220085,
+   "place": "Michigan, US",
+   "date": "2020-08-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30828241/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) parkerryan, some rights reserved (CC BY-NC)",
+   "obs": 19976440,
+   "place": "Michigan, US",
+   "date": "2018-10-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120294348/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Baker, some rights reserved (CC BY-NC)",
+   "obs": 73672636,
+   "place": "Bruce, CA-ON, CA",
+   "date": "2016-05-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201318335/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) William K, some rights reserved (CC BY-NC)",
+   "obs": 119112350,
+   "place": "Michigan, US",
+   "date": "2022-05-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504076927/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kim, some rights reserved (CC BY)",
+   "obs": 280651282,
+   "place": "United States",
+   "date": "2025-05-12"
+  }
+ ],
+ "wiki": {
+  "title": "Sistrurus",
+  "url": "https://en.wikipedia.org/wiki/Sistrurus",
+  "revision": 1380171158,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common names: ground rattlesnakes, pygmy rattlesnakes, massasaugas",
+     "Sistrurus is a genus of pit vipers in the subfamily Crotalinae of the family Viperidae. The genus is endemic to Canada, the United States, and Mexico. Its name comes from the romanized forms of the Greek words for \"rattle\" (σείστρον, seistron) and \"tail\" (οὐρά, ora). It shares its root with the ancient Egyptian musical instrument, the sistrum, a type of rattle. Three species are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Sistrurus species differ from the larger rattlesnakes of the genus Crotalus in a number of ways. They are smaller in size, but also their scalation is different: Sistrurus species have nine large head plates (same as Agkistrodon), whereas in Crotalus (and almost all other viperids), the head is mostly covered with a large number of smaller scales. Sistrurus species have a relatively small rattle that produces more of a high-pitched, buzzing sound than does a larger rattle, like that of Crotalus."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Species of Sistrurus are found in Canada, the Western, Southern, and Midwestern United States, and isolated populations in southern and eastern Mexico."
+    ]
+   },
+   {
+    "h": "Venom",
+    "level": 2,
+    "paras": [
+     "Although bites from Sistrurus species are regarded as less dangerous to humans than those from Crotalus rattlesnakes, primarily due to their lower venom yield, every venomous snake bite should be considered serious, and prompt medical treatment should always be sought."
+    ]
+   },
+   {
+    "h": "Species",
+    "level": 2,
+    "paras": [
+     "T) Type species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313875418/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hannahdodington, some rights reserved (CC BY-NC), uploaded by hannahdodington",
+   "photo": 313875418
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313517044/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) hannahdodington, some rights reserved (CC BY-NC), uploaded by hannahdodington",
+   "photo": 313517044
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303393450/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Graves, some rights reserved (CC BY-NC), uploaded by Jeremy Graves",
+   "photo": 303393450
+  }
+ ]
+}

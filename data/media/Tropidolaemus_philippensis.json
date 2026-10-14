@@ -1,0 +1,64 @@
+{
+ "sci": "Tropidolaemus philippensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 114567,
+  "name": "Tropidolaemus philippensis",
+  "observations": 4,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tropidolaemus_philippensis",
+  "common": "South Philippine Temple Pitviper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13384162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Santos, some rights reserved (CC BY-NC)",
+   "obs": 9774257,
+   "place": "Philippines",
+   "date": "2014-01-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391123211/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jay Paul Mantuon, some rights reserved (CC BY-NC)",
+   "obs": 220888318,
+   "place": "Zamboanga, Philippines",
+   "date": "2023-10-25"
+  }
+ ],
+ "wiki": {
+  "title": "Tropidolaemus philippensis",
+  "url": "https://en.wikipedia.org/wiki/Tropidolaemus_philippensis",
+  "revision": 1351248623,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Tropidolaemus philippensis is a species of venomous snake in the subfamily Crotalinae, the pit vipers. It is endemic to western Mindanao and some portions of western Leyte, the Philippines. Its common name is South Philippine temple pit viper.",
+     "Tropidolaemus philippensis is viviparous. Males have a greenish-turquoise body background coloration, whereas females are seemingly more green. There is a black or rarely white postocular stripe. Body has dorsal blotches that are black with unfilled dorsal scales, giving raise so degree of net-like pattern. Tail is moderate."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13385669/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Santos, some rights reserved (CC BY-NC), uploaded by Brian Santos",
+   "photo": 13385669
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13384162/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Santos, some rights reserved (CC BY-NC), uploaded by Brian Santos",
+   "photo": 13384162
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13385666/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Brian Santos, some rights reserved (CC BY-NC), uploaded by Brian Santos",
+   "photo": 13385666
+  }
+ ]
+}

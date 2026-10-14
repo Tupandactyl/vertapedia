@@ -1,0 +1,52 @@
+{
+ "sci": "Rhynchocalamus levitoni",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 606526,
+  "name": "Rhynchocalamus levitoni",
+  "observations": 3,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rhynchocalamus_levitoni",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/491580381/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) andrey_sokurenko, some rights reserved (CC BY-NC)",
+   "obs": 273319451,
+   "place": null,
+   "date": "2025-04-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488407339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anastasiia Merkulova, some rights reserved (CC BY-NC)",
+   "obs": 271519042,
+   "place": "Khuzestan, IR",
+   "date": "2025-04-19"
+  }
+ ],
+ "wiki": {
+  "title": "Rhynchocalamus levitoni",
+  "url": "https://en.wikipedia.org/wiki/Rhynchocalamus_levitoni",
+  "revision": 1355388353,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Rhynchocalamus levitoni is a species of snake of the family Colubridae.",
+     "The snake is found in Iran."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488407339/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Anastasiia Merkulova, some rights reserved (CC BY-NC), uploaded by Anastasiia Merkulova",
+   "photo": 488407339
+  }
+ ]
+}

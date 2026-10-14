@@ -1,0 +1,140 @@
+{
+ "sci": "Crotalus totonacus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 30694,
+  "name": "Crotalus totonacus",
+  "observations": 112,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crotalus_totonacus",
+  "common": "Totonacan Rattlesnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18122931/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Humberto Velez H., some rights reserved (CC BY-NC)",
+   "obs": 12546670,
+   "place": "Victoria, Tamps., México",
+   "date": "2012-08-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339230/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) CARLOS VELAZCO, some rights reserved (CC BY-NC)",
+   "obs": 274284,
+   "place": "Nuevo Leon, Mexico",
+   "date": "2004-05-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/853088/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sadot Edgardo Ortiz Hernández, some rights reserved (CC BY-NC)",
+   "obs": 677228,
+   "place": "México",
+   "date": "2007-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98053804/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rancho Las Guacamayas, some rights reserved (CC BY-NC)",
+   "obs": 61285468,
+   "place": "RANCHO LAS GUACAMAYAS",
+   "date": "2020-09-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392128632/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) zackgrasso, some rights reserved (CC BY-NC)",
+   "obs": 221330219,
+   "place": "Monumento Natural Cerro de la Silla, Guadalupe, N.L., MX",
+   "date": "2024-06-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122003439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Trinidad Ahumada Carrillo, some rights reserved (CC BY-NC)",
+   "obs": 74634188,
+   "place": "Tula, Tamps., México",
+   "date": "2016-10-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1599646/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Ron Savage, some rights reserved (CC BY-NC-SA)",
+   "obs": 1275133,
+   "place": "Jalpan, Queretaro, Mexico",
+   "date": "2006-09-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42553991/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos G Velazco-Macias, some rights reserved (CC BY-NC)",
+   "obs": 27356671,
+   "place": "Allende, N.L., Mexico",
+   "date": "2019-04-20"
+  }
+ ],
+ "wiki": {
+  "title": "Crotalus totonacus",
+  "url": "https://en.wikipedia.org/wiki/Crotalus_totonacus",
+  "revision": 1369498081,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Common name: Totonacan rattlesnake",
+     "Crotalus totonacus is a venomous pit viper species found in northeastern Mexico. No subspecies are currently recognized."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Adults frequently grow to more than 150 cm (4 ft 11 in) in length. The largest recorded specimen was 166.5 cm (5 ft 5+1⁄2 in) in length."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "It is found in northeastern Mexico from central Nuevo León through southern Tamaulipas, northern Veracruz, eastern San Luis Potosí and northern Querétaro. The type locality given is \"Panaco Island, about 75 miles [120 km] south of Tampico, Veracruz, Mexico, 12 miles [19 km] inland from Cabo Rojo\"."
+    ]
+   },
+   {
+    "h": "Diet",
+    "level": 2,
+    "paras": [
+     "Crotalus totonacus is known to prey on small mammals and birds. In addition to mammal hair and bird feathers found in stomachs, specific prey items include cave rats (Neotoma sp.), Allen's tree squirrels (Sciurus alleni), and rock squirrels (Spermophilus [Otospermophilus] variegatus)."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "This species was previously considered a subspecies of C. durissus."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122003439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Iván Trinidad Ahumada Carrillo, some rights reserved (CC BY-NC), uploaded by Iván Trinidad Ahumada Carrillo",
+   "photo": 122003439
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18122931/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luis Humberto Velez H., some rights reserved (CC BY-NC), uploaded by Luis Humberto Velez H.",
+   "photo": 18122931
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154851418/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Martín Márquez, some rights reserved (CC BY), uploaded by Martín Márquez",
+   "photo": 154851418
+  }
+ ]
+}

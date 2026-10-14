@@ -1,0 +1,72 @@
+{
+ "sci": "Lycodon paucifasciatus",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29560,
+  "name": "Lycodon paucifasciatus",
+  "observations": 9,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lycodon_paucifasciatus",
+  "common": "Rendahl's Wolf Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346827082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC)",
+   "obs": 196984365,
+   "place": "Vietnam",
+   "date": "2024-01-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342514900/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yuzefovich Alexander, some rights reserved (CC BY-NC)",
+   "obs": 194798125,
+   "place": "Vietnam",
+   "date": "2023-05-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353057891/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC)",
+   "obs": 200142912,
+   "place": "Vietnam",
+   "date": "2023-05-09"
+  }
+ ],
+ "wiki": {
+  "title": "Lycodon paucifasciatus",
+  "url": "https://en.wikipedia.org/wiki/Lycodon_paucifasciatus",
+  "revision": 1328133209,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lycodon paucifasciatus , Rendahl's wolf snake,  is a species of snake in the family Colubridae."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "It is found in Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442181696/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC), uploaded by SIFASV from Vietnam_Nguyen Van Tan",
+   "photo": 442181696
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346827082/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) SIFASV from Vietnam_Nguyen Van Tan, some rights reserved (CC BY-NC), uploaded by SIFASV from Vietnam_Nguyen Van Tan",
+   "photo": 346827082
+  }
+ ]
+}

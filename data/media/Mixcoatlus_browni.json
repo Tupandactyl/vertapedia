@@ -1,0 +1,88 @@
+{
+ "sci": "Mixcoatlus browni",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 146291,
+  "name": "Mixcoatlus browni",
+  "observations": 8,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mixcoatlus_browni",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151496799/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Joel Galván, some rights reserved (CC BY-NC)",
+   "obs": 91573745,
+   "place": "Gral Heliodoro Castillo, Gro., México",
+   "date": "2021-08-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32689363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vazquez -Arroyo, E., some rights reserved (CC BY-NC)",
+   "obs": 21146570,
+   "place": null,
+   "date": "2019-03-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239741692/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Katiya (Yekaterina Pavlova), some rights reserved (CC BY-NC)",
+   "obs": 140090146,
+   "place": "Guerrero, MX",
+   "date": "2022-10-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105534845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC)",
+   "obs": 65556252,
+   "place": "Atoyac de Álvarez, Guerrero, Mexico",
+   "date": "2015-06-22"
+  }
+ ],
+ "wiki": {
+  "title": "Mixcoatlus browni",
+  "url": "https://en.wikipedia.org/wiki/Mixcoatlus_browni",
+  "revision": 1351248515,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Mixcoatlus browni (commonly known as Brown's montane pit viper, sometimes Mexican montane pitviper) is a species of pit viper found at high elevations in Guerrero, Mexico. This species was previously placed in the genus Agkistrodon, where it was considered to be a junior synonym of Cerrophidion barbouri. Molecular evidence has since demonstrated that M. browni is a distinct species and the genus name was subsequently changed.",
+     "The genus Mixcoatlus is derived from the Nahuatl word Mixcoatl or \"cloud serpent\", a deity of the Aztec and several other Mesoamerica civilizations. This name also refers to the geographic restriction of this clade to elevations above 2,000 metres (6,600 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Not much is known about this species. This species is diurnal and it is usually found basking or moving throughout the day. This species has been seen by researchers to have more of a prehensile tail than other species in this genus. There is currently no evidence to suggest that M. browni is arboreal, although it does climb low vegetation."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "Mixcoatlus browni is constricted to the cloud forests of western Sierra Madre del Sur in Guerrero, Mexico. They been recorded at elevations up to 3,296 metres (10,814 ft) above sea level."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105534845/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chris Gruenwald Herp.mx, some rights reserved (CC BY-NC), uploaded by Chris Gruenwald Herp.mx",
+   "photo": 105534845
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32689363/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vazquez -Arroyo, E., some rights reserved (CC BY-NC), uploaded by Vazquez -Arroyo, E.",
+   "photo": 32689363
+  }
+ ]
+}

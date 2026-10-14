@@ -1,0 +1,78 @@
+{
+ "sci": "Oligodon hamptoni",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 29254,
+  "name": "Oligodon hamptoni",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Oligodon_hamptoni",
+  "common": "Hampton's Kukri Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110075440/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Lee, some rights reserved (CC BY-NC)",
+   "obs": 68037252,
+   "place": "Baoshan, CN-YN, CN",
+   "date": "2020-07-08"
+  }
+ ],
+ "wiki": {
+  "title": "Oligodon hamptoni",
+  "url": "https://en.wikipedia.org/wiki/Oligodon_hamptoni",
+  "revision": 1355164858,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Oligodon hamptoni, also known commonly as Hampton's kukri snake, is a species of snake in the subfamily Colubrinae of the family Colubridae. The species is native to southern Asia."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The specific name, hamptoni, is in honor of Herbert Hampton, collector of the holotype."
+    ]
+   },
+   {
+    "h": "Geographic range",
+    "level": 2,
+    "paras": [
+     "O. hamptoni is found in southwestern China (Yunnan), and in northern Myanmar."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "The preferred natural habitat of O. hamptoni is forest, at elevations of 300–1,925 m (984–6,316 ft)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "O. hamptoni is strikingly colored. Dorsally, it is striped with yellow, reddish brown, bluish gray, and black. Ventrally, it is red with black bars on the body, and uniformly red on the tail. The holotype has a total length of 54 cm (21 in), which includes a tail length of 7 cm (2.8 in)."
+    ]
+   },
+   {
+    "h": "Reproduction",
+    "level": 2,
+    "paras": [
+     "O. hamptoni is oviparous."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110075440/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justin Lee, some rights reserved (CC BY-NC), uploaded by Justin Lee",
+   "photo": 110075440
+  }
+ ]
+}

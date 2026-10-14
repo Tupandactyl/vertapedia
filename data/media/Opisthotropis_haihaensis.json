@@ -1,0 +1,43 @@
+{
+ "sci": "Opisthotropis haihaensis",
+ "fetched": "2026-10-14",
+ "inat": {
+  "id": 965977,
+  "name": "Opisthotropis haihaensis",
+  "observations": 1,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Opisthotropis_haihaensis",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217578439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ong-siau-kun, some rights reserved (CC BY-NC)",
+   "obs": 128111180,
+   "place": "Guangxi, CN",
+   "date": "2022-05-28"
+  }
+ ],
+ "wiki": {
+  "title": "Opisthotropis haihaensis",
+  "url": "https://en.wikipedia.org/wiki/Opisthotropis_haihaensis",
+  "revision": 1351009222,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Opisthotropis haihaensis, the Hai Ha mountain stream keelback,  is a species of natricine snake found in China and Vietnam."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217578439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ong-siau-kun, some rights reserved (CC BY-NC), uploaded by ong-siau-kun",
+   "photo": 217578439
+  }
+ ]
+}
