@@ -22,7 +22,7 @@ from collections import Counter, defaultdict
 
 import openpyxl
 
-ORDER = {"Sauria": ("Squamata", "Lacertilia"), "Serpentes": ("Squamata", "Serpentes")}
+ORDER = {"Sauria": ("Squamata", None), "Serpentes": ("Squamata", "Serpentes")}  # 도마뱀아목은 두지 않음(측계통군)
 
 
 def stem(ep):
