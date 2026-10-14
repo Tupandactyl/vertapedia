@@ -185,6 +185,8 @@ def parse_reptiles(path, ov):
                     taxa.append(dict(group="REPTILIA", rank="family", sci=fam, en=en, consensus=ko, order=order,
                                      suborder=suborder, proposals={}, rationale=why, sheet=ws.title))
                 elif sub and sub != "-":
+                    sub = sub[:1].upper() + sub[1:]  # natricinae → Natricinae
+                    sub = ov.get("subfamily_alias", {}).get(sub, sub)
                     taxa.append(dict(group="REPTILIA", rank="subfamily", sci=sub, en=en, consensus=ko,
                                      family=cur_fam, order=order, proposals={}, rationale=why, sheet=ws.title))
             continue
