@@ -69,8 +69,10 @@ def main(apply):
     dropped = {r["sci"] for r in log["dropped"]}
     plan, cells, rows_at = [], [], []  # rows_at: (탭, 시트id, 이 행 뒤에, [행 값], 학명)
 
+    undated = lambda x: re.sub(r"^\d{4}-\d{2}-\d{2} ", "", (x or "").strip())
+
     def put(tab, r, c, old, new, why):
-        if (old or "") == (new or ""):
+        if (old or "") == (new or "") or undated(old) == undated(new):  # 비고는 날짜만 다르면 그대로 둔다
             return
         cells.append(dict(range=f"'{tab}'!{col_letter(c)}{r + 1}", values=[[new]]))
         plan.append(dict(tab=tab, row=r + 1, col=col_letter(c), old=old, new=new, why=why))
