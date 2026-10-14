@@ -148,10 +148,11 @@ function render(d){
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
   const title=d.name?`<h1>${esc(d.name)}</h1>`:`<h1 class="en">${esc(d.en||d.sci)}</h1>`;
   const famLink=d.family&&d.family.name!==undefined?`<a href="fam.html#${encodeURIComponent(d.family.sci)}">${nm(d.family)}</a>`:d.family?nm(d.family):null;
-  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,famLink,d.genus?nm(d.genus):null].filter(Boolean);
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,famLink,d.subfamily&&d.subfamily.sci?nm(d.subfamily):null,d.genus?nm(d.genus):null].filter(Boolean);
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
+  if(d.kr)chips.push(`<span class="chip" title="국가생물종목록 수록">${esc(d.kr)}</span>`);
   if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
   if(d.review)chips.push(`<span class="chip info">${esc(d.review)}</span>`);
   const ph=d.photos||[];

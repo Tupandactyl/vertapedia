@@ -29,5 +29,10 @@
   },
   "names": [
     {"group": "REPTILIA", "rank": "order", "sci": "Squamata", "name": "유린목", "note": "편집자 결정: 도마뱀아목과 뱀아목을 유린목 하나로 묶음"}
-  ]
+  ],
+  "_파충류_국내": "국가생물종목록에 실린 파충류는 '한국 기록종'으로 표시한다. 들여온 종은 여기서 따로 정한다.",
+  "reptile_kr": {
+    "Trachemys scripta": "도입종",
+    "Pelodiscus sinensis": "도입종"
+  }
 }

@@ -85,6 +85,7 @@ section>h2{font-family:var(--display);font-size:21px;margin:0 0 10px}
 .pic{color:var(--ok);font-size:9px;margin-left:4px;vertical-align:middle}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
 button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+.sfh{font-size:15px;margin:22px 0 8px;display:flex;gap:8px;align-items:baseline}.sfh span{font-weight:400;color:var(--muted)}.sfh small{margin-left:auto;color:var(--muted);font-weight:400}
 </style>
 <body>
 <header class="top"><div class="top-in">
@@ -128,11 +129,16 @@ function render(d){
   const why=`<div class="why">${d.rationale?esc(d.rationale):`<span class="none">${d.status==='kos'||d.status==='official'?`${ST[d.status]}에 실린 국명을 그대로 씁니다.`:'명칭 근거가 아직 적히지 않았습니다. 시트의 과단위 번역 탭에 적으면 반영됩니다.'}</span>`}
     ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('')}</dl>`:''}</div>`;
   const subf=d.subfamilies.length?`<section><h2>아과</h2><ul class="subf">${d.subfamilies.map(s=>`<li>${s.name?`<b>${esc(s.name)}</b> `:''}${esc(s.sci)}${s.en?` · ${esc(s.en)}`:''}${s.rationale?`<small>${esc(s.rationale)}</small>`:''}</li>`).join('')}</ul></section>`:'';
-  const gens=d.genera.map(g=>`<article class="genus">
+  const genCard=g=>`<article class="genus">
       <header><b>${esc(g.name||g.sci)}</b>${g.name?`<i>${esc(g.sci)}</i>`:''}<span class="n">${g.species.length}종</span></header>
       ${g.rationale?`<p>${esc(g.rationale)}</p>`:''}
       <ul>${g.species.map(s=>`<li><a href="${link('sp',{sci:s[0]})}"><span class="ko${s[1]?'':' en'}">${esc(s[1]||s[2]||s[0])}${s[4]?'<span class="pic" title="사진 있음">●</span>':''}</span><span class="st ${s[3]}">${ST[s[3]]||s[3]}</span>${s[1]||s[2]?`<span class="s"><i>${esc(s[0])}</i>${s[1]&&s[2]?` · ${esc(s[2])}`:''}</span>`:''}</a></li>`).join('')}</ul>
-    </article>`).join('');
+    </article>`;
+  // 아과가 정해진 속이 있으면 아과별로 묶는다(처음 나온 순서)
+  const sfName=Object.fromEntries(d.subfamilies.map(s=>[s.sci,s.name]));
+  const groups=[];
+  d.genera.forEach(g=>{const k=g.subfamily||'';let x=groups.find(y=>y.k===k);if(!x)groups.push(x={k,list:[]});x.list.push(g)});
+  const gens=groups.length>1||groups[0]&&groups[0].k?groups.map(x=>`<h3 class="sfh">${x.k?`${sfName[x.k]?`${esc(sfName[x.k])} `:''}<span>${esc(x.k)}</span>`:'아과 미정'}<small>${x.list.length}속</small></h3>${x.list.map(genCard).join('')}`).join(''):d.genera.map(genCard).join('');
   document.getElementById('main').innerHTML=`
     ${pn(d)}
     <div class="crumb">${crumb.map(c=>`<span>${c}</span>`).join('')}</div>

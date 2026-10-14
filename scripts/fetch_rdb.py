@@ -6,6 +6,7 @@
 
     python scripts/fetch_rdb.py            # 둘 다
     python scripts/fetch_rdb.py --live     # 웹 목록만
+    python scripts/fetch_rdb.py --subfamilies  # 속 → 아과 (data/rdb_subfamily.json)
 """
 import html
 import json
@@ -60,6 +61,33 @@ def higher_taxa(genera):
     return out
 
 
+def fetch_subfamilies():
+    """아과가 있는 과의 속마다 종 문서 하나의 Higher Taxa 「Colubridae (Natricinae)」에서 아과를 읽는다 → data/rdb_subfamily.json"""
+    names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
+    fams = {t["family"] for t in names if t["group"] == "REPTILIA" and t["rank"] == "subfamily"}
+    rep = {}
+    for t in names:
+        if t["group"] == "REPTILIA" and t["rank"] == "species" and t.get("family") in fams:
+            rep.setdefault(t["sci"].split()[0], t["sci"])
+    out_f = DATA / "rdb_subfamily.json"
+    out = json.loads(out_f.read_text(encoding="utf-8")) if out_f.exists() else {}
+    for n, (genus, s) in enumerate(sorted(rep.items()), 1):
+        if genus in out:
+            continue
+        g, e = s.split()[:2]
+        text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", get(f"https://reptile-database.reptarium.cz/species?genus={g}&species={e}")))
+        # 「Colubridae (Natricinae), …」 또는 「Scincidae, Eugongylinae (Eugongylini), …」
+        m = re.search(r"Higher Taxa (.{0,160})", html.unescape(text))
+        sub = re.findall(r"\b([A-Z][a-z]+inae)\b", m.group(1).split("Subspecies")[0]) if m else []
+        out[genus] = sub[0] if sub else None
+        if n % 20 == 0:
+            out_f.write_text(json.dumps(out, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+            print(f"아과 {n}/{len(rep)}", flush=True)
+        time.sleep(1)
+    out_f.write_text(json.dumps(out, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    print("아과 받은 속:", len(out))
+
+
 def fetch_live():
     page = get(LIVE)
     total = int(re.search(r"Species found: (\d+)", page).group(1))
@@ -75,6 +103,8 @@ def fetch_live():
 
 
 def main():
+    if "--subfamilies" in sys.argv:
+        return fetch_subfamilies()
     fetch_live()
     if "--live" in sys.argv:
         return

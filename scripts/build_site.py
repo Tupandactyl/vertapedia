@@ -1,7 +1,7 @@
 """data/names.json·data/media 에서 사이트 자료를 만든다.
 
 - site/data/names.min.json : 검색용 가벼운 목록
-- site/data/tree.json      : 목 > (아목) > 과 > 속 > 종 분류군 (시트 순서)
+- site/data/tree.json      : 목 > (아목) > 과 > (아과) > 속 > 종 분류군 (시트 순서)
 - site/data/random.json    : 첫 화면에서 고를 종 (국명과 사진이 있는 종)
 - site/sp/<학명>.json      : 종 문서 (시트 기준 이전·다음 종 포함)
 - site/fam/<학명>.json     : 과 문서 — 명칭 근거와 포함 속·종 목록
@@ -48,6 +48,9 @@ def first_by(*ranks):
 
 
 orders, families, genera = first_by("order", "suborder"), first_by("family"), first_by("genus")
+subfams = first_by("subfamily")
+# 파충류 속 → 아과 (Reptile Database 종 문서의 Higher Taxa, scripts/fetch_rdb.py --subfamilies)
+sub_of = {("REPTILIA", g): sf for g, sf in load("rdb_subfamily.json", {}).items() if sf}
 subfamilies = [t for t in names if t["rank"] == "subfamily"]
 species = [t for t in names if t["rank"] == "species"]
 linker = Linker(names)
@@ -88,8 +91,8 @@ tree = {}
 for t in species:
     g = t["group"]
     o, so = lineage(t)
-    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + [("f", t.get("family") or NOFAM),
-                                                                     ("g", t["sci"].split()[0])]
+    sf = sub_of.get((g, t["sci"].split()[0]))
+    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])]
     node = tree.setdefault(g, {})
     for key in path:
         node = node.setdefault(key, {})
@@ -102,7 +105,7 @@ def emit(g, d):
         if key == "_sp":
             continue
         rank, sci = key
-        src = {"o": orders, "u": orders, "f": families, "g": genera}[rank]
+        src = {"o": orders, "u": orders, "f": families, "s": subfams, "g": genera}[rank]
         x = src.get((g, sci))
         kids = [[s["sci"], s.get("name"), s.get("en"), 1 if has_pic(s["sci"]) else 0] for s in child["_sp"]] \
             if rank == "g" else emit(g, child)
@@ -145,8 +148,9 @@ for g, lst in seq.items():
             review=t.get("review"), synonyms=t.get("synonyms"),
             order=taxon(orders, g, o), suborder=taxon(orders, g, so),
             family=taxon(families, g, t.get("family")), genus=taxon(genera, g, t["sci"].split()[0]),
+            subfamily=taxon(subfams, g, sub_of.get((g, t["sci"].split()[0]))),
             subspecies=[s for s in t.get("subspecies", []) if s.get("ko") or t["group"] == "REPTILIA"],
-            kos=dict(category=t["kos"].get("category")) if t.get("kos") else None,
+            kos=dict(category=t["kos"].get("category")) if t.get("kos") else None, kr=t.get("kr"),
             refs=dict(official=t.get("official") if t["status"] != "official" else None,
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
@@ -179,7 +183,7 @@ for g, lst in fam_seq.items():
             order=taxon(orders, g, o), suborder=taxon(orders, g, so),
             subfamilies=[dict(sci=x["sci"], name=x.get("name"), en=x.get("en"), rationale=x.get("rationale"))
                          for x in subfamilies if x["group"] == g and x.get("family") == f["sci"]],
-            genera=[dict(sci=ge, name=(genera.get((g, ge)) or {}).get("name"),
+            genera=[dict(sci=ge, name=(genera.get((g, ge)) or {}).get("name"), subfamily=sub_of.get((g, ge)),
                          status=(genera.get((g, ge)) or {}).get("status"),
                          rationale=(genera.get((g, ge)) or {}).get("rationale"),
                          species=[[s["sci"], s.get("name"), s.get("en"), s["status"], 1 if has_pic(s["sci"]) else 0]

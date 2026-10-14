@@ -1,6 +1,6 @@
-// 분류군: 목 > (아목) > 과 > 속 > 종. Wegener's Dream 의 환경 목록처럼 ▸/▾ 로 접고 편다.
+// 분류군: 목 > (아목) > 과 > (아과) > 속 > 종. Wegener's Dream 의 환경 목록처럼 ▸/▾ 로 접고 편다.
 // 자료는 data/tree.json — { A: [...], R: [...] }
-//   마디 = [계급(o 목·u 아목·f 과·g 속), 학명, 국명, 자식들]
+//   마디 = [계급(o 목·u 아목·f 과·s 아과·g 속), 학명, 국명, 자식들]
 //   종   = [학명, 국명, 영명, 사진있음]
 // 아래 단계는 펼칠 때 그린다(종이 2만 개가 넘는다). 과 이름은 과 문서로 가는 링크다.
 (function () {
@@ -9,7 +9,7 @@
       return { "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;" }[c];
     });
   };
-  var RANK = { o: "목", u: "아목", f: "과", g: "속" };
+  var RANK = { o: "목", u: "아목", f: "과", s: "아과", g: "속" };
   var GROUP = { A: "조류", R: "파충류" };
   var isLeaf = function (n) { return !Array.isArray(n[3]); };
   var href = function (page, sci) { return page + ".html#" + encodeURIComponent(sci.replace(/ /g, "_")); };

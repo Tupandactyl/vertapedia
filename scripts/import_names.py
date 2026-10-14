@@ -517,6 +517,10 @@ def main():
             sheet.insert(0, t)
             by_key[(o["group"], o["sci"])] = t
         t.update(name=o["name"], status="consensus", rationale=o.get("note"))
+    # 파충류 국내 기록: 국가생물종목록에 실린 종(들여온 종은 overrides.json reptile_kr)
+    for t in sheet:
+        if t["group"] == "REPTILIA" and t["rank"] == "species" and (t.get("official") or t.get("nibr_sci")):
+            t["kr"] = ov.get("reptile_kr", {}).get(t["sci"], "한국 기록종")
     for t in sheet:
         stat[(t["group"], t["rank"], t["status"])] += 1
     # 아종: 한국조류목록 2025 이름이 있으면 그것을 먼저
