@@ -204,7 +204,7 @@ def parse_reptiles(path, ov):
             if m:
                 family = m.group(1)
                 continue
-            rank = "genus" if len(sci.split()) == 1 else "species"
+            rank = {1: "genus", 2: "species"}.get(len(sci.split()), "subspecies")  # 세 단어 = 아종 행
             hint = unplaced.get(ws.title.strip())
             taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, family=alias.get(family, family),
                              order_hint=hint[0] if hint else None, suborder_hint=hint[1] if hint else None,
@@ -306,7 +306,30 @@ def main():
     kos = parse_kos(DATA / "kos2025.xlsx")
 
     sheet = parse_birds(DATA / "birds.xlsx") + parse_reptiles(DATA / "reptiles.xlsx", ov)
+    # 같은 학명의 종 행이 또 나오면(시트 입력 실수) 첫 행만 쓴다
+    seen_sp, dup_rows = set(), []
+    for t in list(sheet):
+        if t["rank"] == "species":
+            k = (t["group"], t["sci"])
+            if k in seen_sp:
+                sheet.remove(t)
+                dup_rows.append(f"{t['sci']} ({t['sheet']})")
+            seen_sp.add(k)
     rdb_log = rdb.apply(sheet, DATA, RDB_LABEL)
+    # 파충류 시트의 아종 행(예: Trachemys scripta elegans 붉은귀거북) → 그 종의 아종 칸에 국명을 붙인다
+    rep_sp = {t["sci"]: t for t in sheet if t["group"] == "REPTILIA" and t["rank"] == "species"}
+    for t in [t for t in sheet if t["group"] == "REPTILIA" and t["rank"] == "subspecies"]:
+        parent = rep_sp.get(" ".join(t["sci"].split()[:2]))
+        sheet.remove(t)
+        if parent is None:
+            continue
+        entry = next((x for x in parent.get("subspecies", []) if x["sci"] == t["sci"]), None)
+        if entry is None:
+            entry = dict(sci=t["sci"])
+            parent.setdefault("subspecies", []).append(entry)
+        ko = t.get("consensus")
+        if ko:
+            entry.update(ko=ko, source="시트", rationale=t.get("rationale"))
     # 과 머리줄이 없는 조류 탭(코뿔새목 등): eBird 분류표의 종 → 과로 채운다. 속 행은 그 속 종의 과를 따른다.
     fam_of = json.loads((DATA / "ebird_family_of.json").read_text(encoding="utf-8")) \
         if (DATA / "ebird_family_of.json").exists() else {}
@@ -587,7 +610,9 @@ def main():
     (DATA / "kos.json").write_text(json.dumps(dict(diff=kos_diff, used=kos_used, unlinked=kos_unlinked),
                                               ensure_ascii=False, indent=1), encoding="utf-8")
 
-    rep = ["== 계급·상태별 개수 =="] + [f"{k[0]:9} {k[1]:10} {k[2]:10} {stat[k]}" for k in sorted(stat)]
+    rep = ["== 계급·상태별 개수 =="]
+    if dup_rows:
+        rep.insert(0, "시트에 같은 학명 종 행이 두 번: " + ", ".join(dup_rows)) + [f"{k[0]:9} {k[1]:10} {k[2]:10} {stat[k]}" for k in sorted(stat)]
     rc = Counter(r["result"] for r in review)
     rep.append(f"\n학명 불일치 {len(review)}건: " + ", ".join(f"{k} {v}" for k, v in rc.items()))
     rep.append(f"국명 차이 {len(conflicts)}건 (분류 변경 {sum(1 for c in conflicts if len(c['moved_to']) == 1)})")
