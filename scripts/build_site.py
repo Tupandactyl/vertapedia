@@ -51,6 +51,18 @@ orders, families, genera = first_by("order", "suborder"), first_by("family"), fi
 subfams = first_by("subfamily")
 # 파충류 속 → 아과 (Reptile Database 종 문서의 Higher Taxa, scripts/fetch_rdb.py --subfamilies)
 sub_of = {("REPTILIA", g): sf for g, sf in load("rdb_subfamily.json", {}).items() if sf}
+# 한 과의 모든 속이 같은 아과 하나뿐이면 과와 겹치는 단계라 뺀다
+# (시트는 보아과를 여러 과로 나누는데 Reptile Database는 그들을 Boidae의 아과로 둔다: Erycidae → Erycinae 등)
+_fam_of_genus = {}
+for t in names:
+    if t["group"] == "REPTILIA" and t["rank"] == "species":
+        _fam_of_genus.setdefault(t["sci"].split()[0], t.get("family"))
+_subs_in_fam = {}
+for g, f in _fam_of_genus.items():
+    _subs_in_fam.setdefault(f, set()).add(sub_of.get(("REPTILIA", g)))
+for g, f in _fam_of_genus.items():
+    if len(_subs_in_fam[f]) == 1:
+        sub_of.pop(("REPTILIA", g), None)
 subfamilies = [t for t in names if t["rank"] == "subfamily"]
 species = [t for t in names if t["rank"] == "species"]
 linker = Linker(names)

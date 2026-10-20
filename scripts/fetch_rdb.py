@@ -62,12 +62,11 @@ def higher_taxa(genera):
 
 
 def fetch_subfamilies():
-    """아과가 있는 과의 속마다 종 문서 하나의 Higher Taxa 「Colubridae (Natricinae)」에서 아과를 읽는다 → data/rdb_subfamily.json"""
+    """파충류 속마다 종 문서 하나의 Higher Taxa 「Colubridae (Natricinae)」에서 아과를 읽는다 → data/rdb_subfamily.json"""
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
-    fams = {t["family"] for t in names if t["group"] == "REPTILIA" and t["rank"] == "subfamily"}
-    rep = {}
+    rep = {}  # 파충류 모든 속(시트에 아과 행이 없는 과도 Reptile Database에는 아과가 있을 수 있다)
     for t in names:
-        if t["group"] == "REPTILIA" and t["rank"] == "species" and t.get("family") in fams:
+        if t["group"] == "REPTILIA" and t["rank"] == "species":
             rep.setdefault(t["sci"].split()[0], t["sci"])
     out_f = DATA / "rdb_subfamily.json"
     out = json.loads(out_f.read_text(encoding="utf-8")) if out_f.exists() else {}
