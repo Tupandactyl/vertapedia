@@ -86,11 +86,16 @@ section>h2{font-family:var(--display);font-size:21px;margin:0 0 10px}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
 button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
 .sfh{font-size:15px;margin:22px 0 8px;display:flex;gap:8px;align-items:baseline}.sfh span{font-weight:400;color:var(--muted)}.sfh small{margin-left:auto;color:var(--muted);font-weight:400}
+.hs{flex:1;max-width:320px;margin:0 12px}.hs input{width:100%;box-sizing:border-box;padding:7px 12px;border-radius:8px;border:1px solid var(--line,#3a4a40);background:transparent;color:inherit;font:inherit;font-size:14px}
+@media (max-width:640px){.top-in{flex-wrap:wrap}.hs{order:3;flex-basis:100%;max-width:none;margin:8px 0 0}}
+.genus header a{color:inherit;text-decoration:none}.genus header a:hover b{text-decoration:underline}
+.tsp{font-size:11px;padding:1px 6px;border-radius:999px;background:var(--ok-bg,#24382c);color:var(--ok,#8cc4a5);margin-left:6px}
 </style>
 <body>
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
-  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">이름 찾기</a><a href="review.html">국명 검토</a></nav>
+  <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 검토</a></nav>
 </div></header>
 <div class="page">
   <aside class="navtree" aria-label="분류군"><button type="button" class="paneltog" id="paneltog" aria-expanded="false" aria-controls="tree"><span class="arr">▸</span> 분류군</button><div id="tree" hidden></div></aside>
@@ -107,7 +112,7 @@ function pn(d){
   const side=(x,cls,label)=>x?`<a class="${cls}" href="${link('fam',x)}"><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
   return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 과')}<span class="pos">${d.pos[0]} / ${d.pos[1]}</span>${side(d.next,'nx','다음 과 ›')}</nav>`;
 }
-let CUR=null,TREE=null,OPEN=false;
+let CUR=null,TREE=null,OPEN=false,TREE_LOADING=0;
 // 분류군 창: 기본은 접힘. 펼친 상태는 이 브라우저에 기억한다.
 try{OPEN=localStorage.getItem('vp-panel')==='open'}catch(e){}
 function setPanel(on){
@@ -115,6 +120,7 @@ function setPanel(on){
   document.getElementById('tree').hidden=!on;
   const b=document.getElementById('paneltog');b.setAttribute('aria-expanded',String(on));b.querySelector('.arr').textContent=on?'▾':'▸';
   try{localStorage.setItem('vp-panel',on?'open':'closed')}catch(e){}
+  if(on&&!TREE&&!TREE_LOADING){TREE_LOADING=1;fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()})}
   drawTree();
 }
 document.getElementById('paneltog').onclick=()=>setPanel(!OPEN);
@@ -130,9 +136,9 @@ function render(d){
     ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('')}</dl>`:''}</div>`;
   const subf=d.subfamilies.length?`<section><h2>아과</h2><ul class="subf">${d.subfamilies.map(s=>`<li>${s.name?`<b>${esc(s.name)}</b> `:''}${esc(s.sci)}${s.en?` · ${esc(s.en)}`:''}${s.rationale?`<small>${esc(s.rationale)}</small>`:''}</li>`).join('')}</ul></section>`:'';
   const genCard=g=>`<article class="genus">
-      <header><b>${esc(g.name||g.sci)}</b>${g.name?`<i>${esc(g.sci)}</i>`:''}<span class="n">${g.species.length}종</span></header>
+      <header>${g.type?`<a href="${link('sp',{sci:g.type})}" title="모식종: ${esc(g.type)}">`:''}<b>${esc(g.name||g.sci)}</b>${g.name?`<i>${esc(g.sci)}</i>`:''}${g.type?'</a>':''}<span class="n">${g.species.length}종</span></header>
       ${g.rationale?`<p>${esc(g.rationale)}</p>`:''}
-      <ul>${g.species.map(s=>`<li><a href="${link('sp',{sci:s[0]})}"><span class="ko${s[1]?'':' en'}">${esc(s[1]||s[2]||s[0])}${s[4]?'<span class="pic" title="사진 있음">●</span>':''}</span><span class="st ${s[3]}">${ST[s[3]]||s[3]}</span>${s[1]||s[2]?`<span class="s"><i>${esc(s[0])}</i>${s[1]&&s[2]?` · ${esc(s[2])}`:''}</span>`:''}</a></li>`).join('')}</ul>
+      <ul>${g.species.map(s=>`<li><a href="${link('sp',{sci:s[0]})}"><span class="ko${s[1]?'':' en'}">${esc(s[1]||s[2]||s[0])}${s[4]?'<span class="pic" title="사진 있음">●</span>':''}${g.type===s[0]?'<span class="tsp">모식종</span>':''}</span><span class="st ${s[3]}">${ST[s[3]]||s[3]}</span>${s[1]||s[2]?`<span class="s"><i>${esc(s[0])}</i>${s[1]&&s[2]?` · ${esc(s[2])}`:''}</span>`:''}</a></li>`).join('')}</ul>
     </article>`;
   // 아과가 정해진 속이 있으면 아과별로 묶는다(처음 나온 순서)
   const sfName=Object.fromEntries(d.subfamilies.map(s=>[s.sci,s.name]));
@@ -160,7 +166,7 @@ function load(){
 }
 setPanel(OPEN);
 addEventListener('hashchange',load);load();
-fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()});
+
 addEventListener('keydown',e=>{
   if(!CUR||e.altKey||e.ctrlKey||e.metaKey||/input|textarea|select/i.test(e.target.tagName))return;
   const x=e.key==='ArrowLeft'?CUR.prev:e.key==='ArrowRight'?CUR.next:null;

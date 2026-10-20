@@ -1,8 +1,8 @@
 // 분류군: 목 > (아목) > 과 > (아과) > 속 > 종. Wegener's Dream 의 환경 목록처럼 ▸/▾ 로 접고 편다.
 // 자료는 data/tree.json — { A: [...], R: [...] }
-//   마디 = [계급(o 목·u 아목·f 과·s 아과·g 속), 학명, 국명, 자식들]
+//   마디 = [계급(o 목·u 아목·f 과·s 아과·g 속), 학명, 국명, 자식들, (속이면) 모식종 학명]
 //   종   = [학명, 국명, 영명, 사진있음]
-// 아래 단계는 펼칠 때 그린다(종이 2만 개가 넘는다). 과 이름은 과 문서로 가는 링크다.
+// 아래 단계는 펼칠 때 그린다(종이 2만 개가 넘는다). 과 이름은 과 문서, 속 이름은 모식종 문서로 가는 링크다.
 (function () {
   var esc = function (t) {
     return String(t == null ? "" : t).replace(/[<>&"]/g, function (c) {
@@ -40,11 +40,15 @@
     var italic = rank === "g", isCur = rank === "f" && sci === current;
     var label = '<span class="tname">' + esc(ko || sci) + "</span> " +
       (ko ? '<span class="torig">' + (italic ? "<i>" + esc(sci) + "</i>" : esc(sci)) + "</span>" : "");
-    var linked = rank === "f" && sci.charAt(0) !== "(";
+    // 과 이름 → 과 문서, 속 이름 → 그 속의 모식종 문서(n[4])
+    var typeSp = rank === "g" ? n[4] : null;
+    var linked = (rank === "f" && sci.charAt(0) !== "(") || !!typeSp;
+    var to = typeSp ? href("sp", typeSp) : href("fam", sci);
     el.innerHTML = '<div class="trow' + (isCur ? " current" : "") + '">' +
       '<button type="button" class="ttog" aria-expanded="false" aria-label="펼치기">▸</button>' +
       '<span class="trank">' + RANK[rank] + "</span>" +
-      (linked ? '<a href="' + href("fam", sci) + '"' + (isCur ? ' aria-current="page"' : "") + ">" + label + "</a>" : label) +
+      (linked ? '<a href="' + to + '"' + (typeSp ? ' title="모식종: ' + esc(typeSp) + '"' : "") +
+        (isCur ? ' aria-current="page"' : "") + ">" + label + "</a>" : label) +
       '<small class="tn">' + count(n).toLocaleString() + "</small></div>" +
       '<div class="tkids" hidden></div>';
     var tog = el.querySelector(".ttog"), kids = el.querySelector(".tkids");

@@ -546,12 +546,36 @@ def main():
                 t.setdefault("subspecies", []).append(entry)
             entry.update(ko=k["ko"], source="한국양서파충류학회 2025")
             t["kshr_ssp"] = dict(k)
+            if norm(t.get("official") or t.get("consensus") or "") == norm(k["ko"]):  # 종 국명도 같은 이름이면 출처를 학회 목록으로
+                t.setdefault("kshr", dict(sci=k["sci"], ko=k["ko"], en=k["en"], north=k["north"]))
             continue
         t["kshr"] = dict(sci=k["sci"], ko=k["ko"], en=k["en"], north=k["north"])
         if k["sci"] != t["sci"]:
             t.setdefault("synonyms", [])
             if k["sci"] not in t["synonyms"]:
                 t["synonyms"].append(k["sci"])
+
+    # 학회 목록의 목·아목·과·속 국명: ☆(수정의견) 줄이 같은 국명·같은 학명의 다른 줄을 대체한다.
+    # 속은 그 속에 실린 학회 목록 종이 지금 어느 속에 있는지로 잇는다(예: Lycodon 능구렁이속 → Dinodon).
+    kshr_all = json.loads(kshr_f.read_text(encoding="utf-8")) if kshr_f.exists() else {}
+    higher = kshr_all.get("higher", [])
+    star_ko = {(h["rank"], h["ko"]) for h in higher if h["revised"]}
+    star_sci = {(h["rank"], h["sci"]) for h in higher if h["revised"]}
+    now_genus = {}
+    for r in kshr_rows:
+        if r["sheet_sci"]:
+            now_genus.setdefault(r["kshr_sci"].split()[0], r["sheet_sci"].split()[0])
+    live_higher = [h for h in higher
+                   if h["revised"] or ((h["rank"], h["ko"]) not in star_ko and (h["rank"], h["sci"]) not in star_sci)]
+    for mapped in (False, True):  # 학명이 그대로 맞는 줄 먼저, 속을 옮겨 이은 줄은 빈 자리에만
+        for h in live_higher:
+            moved = h["rank"] == "genus" and now_genus.get(h["sci"], h["sci"]) != h["sci"]
+            if moved != mapped:  # 학회 목록 종이 다른 속으로 옮겨 간 속 줄은 옮겨 간 속에만
+                continue
+            sci = now_genus[h["sci"]] if moved else {"Testudinata": "Testudines"}.get(h["sci"], h["sci"])
+            t = by_key.get(("REPTILIA", sci))
+            if t is not None and t["rank"] == h["rank"] and not t.get("kshr"):
+                t["kshr"] = dict(sci=h["sci"], ko=h["ko"])
 
     # --- 국명 확정 ---
     stat = Counter()

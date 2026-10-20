@@ -96,11 +96,15 @@ ul.links small{display:block;color:var(--muted);font-size:11.5px}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
 button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
 .nm a{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}.nm b{font-weight:600}
+.hs{flex:1;max-width:320px;margin:0 12px}.hs input{width:100%;box-sizing:border-box;padding:7px 12px;border-radius:8px;border:1px solid var(--line,#3a4a40);background:transparent;color:inherit;font:inherit;font-size:14px}
+@media (max-width:640px){.top-in{flex-wrap:wrap}.hs{order:3;flex-basis:100%;max-width:none;margin:8px 0 0}}
+.memo{font-size:13px;color:var(--muted)}
 </style>
 <body>
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
-  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">이름 찾기</a><a href="review.html">국명 검토</a></nav>
+  <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 검토</a></nav>
 </div></header>
 <div class="page">
   <aside class="navtree" aria-label="분류군"><button type="button" class="paneltog" id="paneltog" aria-expanded="false" aria-controls="tree"><span class="arr">▸</span> 분류군</button><div id="tree" hidden></div></aside>
@@ -124,14 +128,28 @@ const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
-const credit=p=>{const m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(p.attribution||'');return `© ${m?m[1]:(p.attribution||'')} · ${LIC[p.license]||p.license}`};
+const credit=p=>{
+  const a=p.attribution||'',m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(a);
+  const who=m?m[1]:/no rights reserved/i.test(a)?(/^(.*?),?\s*no rights reserved/i.exec(a)||[])[1]||'':a;
+  return p.license==='cc0'?`${who?who+' · ':''}CC0 (저작권 없음)`:`© ${who} · ${LIC[p.license]||p.license}`};
+// 검토용 메모를 읽기 쉬운 문장으로
+function memo(t){
+  let m;
+  if(m=/^학명 불일치: 국가생물종목록 (.+)$/.exec(t))return `국가생물종목록에는 <i>${esc(m[1])}</i>(으)로 실려 있습니다.`;
+  if(m=/^분류 변경: 국가생물종목록에서는 (.+)$/.exec(t))return `국가생물종목록에서는 이 국명이 <i>${esc(m[1])}</i>에 붙어 있었으나, 분류가 나뉘어 이 종으로 옮겼습니다.`;
+  if(m=/^분류 변경: 국가생물종목록 국명 (\S+) → (.+)$/.exec(t))return `국가생물종목록의 국명 ${esc(m[1])}은(는) 분류가 나뉘어 <i>${esc(m[2])}</i>에 붙였습니다.`;
+  if(m=/^분류 변경: 한국조류목록 2025에서는 (.+)$/.exec(t))return `한국조류목록 2025에서는 <i>${esc(m[1])}</i>(으)로 실려 있습니다.`;
+  if(m=/^분류 변경: 한국조류목록 2025 국명 (\S+) → (.+)$/.exec(t))return `한국조류목록 2025의 국명 ${esc(m[1])}은(는) <i>${esc(m[2])}</i>에 붙였습니다.`;
+  if(m=/^학명 변경: 시트 (.+?) → .*? (\S+ \S+)$/.exec(t))return `이전 학명 <i>${esc(m[1])}</i>에서 바뀌었습니다(Reptile Database 기준).`;
+  return esc(t);
+}
 const nm=x=>x&&x.name?`${esc(x.name)} <i>${esc(x.sci)}</i>`:x?`<i>${esc(x.sci)}</i>`:'';
 const link=x=>`sp.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
 function pn(d){
   const side=(x,cls,label)=>x?`<a class="${cls}" href="${link(x)}" ${cls==='pv'?'rel="prev"':'rel="next"'}><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
   return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 종')}<span class="pos">${d.pos[0].toLocaleString()} / ${d.pos[1].toLocaleString()}</span>${side(d.next,'nx','다음 종 ›')}</nav>`;
 }
-let CUR=null,TREE=null,OPEN=false;
+let CUR=null,TREE=null,OPEN=false,TREE_LOADING=0;
 // 분류군 창: 기본은 접힘. 펼친 상태는 이 브라우저에 기억한다.
 try{OPEN=localStorage.getItem('vp-panel')==='open'}catch(e){}
 function setPanel(on){
@@ -139,6 +157,7 @@ function setPanel(on){
   document.getElementById('tree').hidden=!on;
   const b=document.getElementById('paneltog');b.setAttribute('aria-expanded',String(on));b.querySelector('.arr').textContent=on?'▾':'▸';
   try{localStorage.setItem('vp-panel',on?'open':'closed')}catch(e){}
+  if(on&&!TREE&&!TREE_LOADING){TREE_LOADING=1;fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()})}
   drawTree();
 }
 document.getElementById('paneltog').onclick=()=>setPanel(!OPEN);
@@ -148,13 +167,13 @@ function render(d){
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
   const title=d.name?`<h1>${esc(d.name)}</h1>`:`<h1 class="en">${esc(d.en||d.sci)}</h1>`;
   const famLink=d.family&&d.family.name!==undefined?`<a href="fam.html#${encodeURIComponent(d.family.sci)}">${nm(d.family)}</a>`:d.family?nm(d.family):null;
-  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,famLink,d.subfamily&&d.subfamily.sci?nm(d.subfamily):null,d.genus?nm(d.genus):null].filter(Boolean);
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,famLink,d.subfamily&&d.subfamily.sci?nm(d.subfamily):null,d.genus?(d.genus.type&&d.genus.type!==d.sci?`<a href="${link({sci:d.genus.type})}" title="모식종: ${esc(d.genus.type)}">${nm(d.genus)}</a>`:nm(d.genus)):null].filter(Boolean);
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
   if(d.kr)chips.push(`<span class="chip" title="국가생물종목록 수록">${esc(d.kr)}</span>`);
   if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
-  if(d.review)chips.push(`<span class="chip info">${esc(d.review)}</span>`);
+  if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);
   const ph=d.photos||[];
   const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
     <p class="galnote">사진: iNaturalist에서 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). ${ph[0].cover?'첫 사진은 iNaturalist 큐레이터가 고른 이 종의 대표 사진입니다. ':''}사진을 누르면 원래 기록으로 갑니다.</p>`
@@ -162,7 +181,7 @@ function render(d){
   const w=d.wiki;
   const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${para(p,d.sci)}</p>`).join('')).join('')
     :w&&w.extract?`<p lang="en">${esc(w.extract)}</p>`:'';
-  const desc=body?`<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).'+(w.ko_linked?' 생물 이름은 버타피디아 국명으로 바꿨고, 처음 나올 때 원래 이름을 괄호에 함께 적었습니다. 이름을 누르면 해당 문서로 갑니다.':''):'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
+  const desc=body?`${w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:''}<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).'+(w.ko_linked?' 생물 이름은 버타피디아 국명으로 바꿨고, 처음 나올 때 원래 이름을 괄호에 함께 적었습니다. 이름을 누르면 해당 문서로 갑니다.':''):'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
     :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
@@ -170,6 +189,7 @@ function render(d){
   if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
   if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 유통명',d.refs.trade]);
   if(d.synonyms&&d.synonyms.length)refs.push(['이명',d.synonyms.map(s=>`<i>${esc(s)}</i>`).join(', ')]);
+  if(d.review)refs.push(['명칭 메모',`<span class="memo">${memo(d.review)}</span>`]);
   const ssp=d.subspecies&&d.subspecies.length?`<div class="card"><h3>아종</h3><ul class="ssp">${d.subspecies.map(s=>`<li><i>${esc(s.sci)}</i>${s.author?` <span class="src">${esc(s.author)}</span>`:''} ${esc(s.ko)}${s.note?` <span class="src">(${esc(s.note.split(' · ')[0])})</span>`:''}</li>`).join('')}</ul></div>`:'';
   const [g,e]=d.sci.split(' ');
   const links=[];
@@ -203,14 +223,13 @@ function render(d){
 }
 function load(){
   const sci=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');
-  if(!sci){document.getElementById('main').innerHTML='<p class="empty">종을 고르지 않았습니다. <a href="./">이름 찾기</a>에서 골라 주세요.</p>';return}
+  if(!sci){document.getElementById('main').innerHTML='<p class="empty">종을 고르지 않았습니다. <a href="find.html">이름 찾기</a>에서 골라 주세요.</p>';return}
   fetch(`sp/${encodeURIComponent(sci)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
-    .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci.replace(/_/g,' '))}” 종을 찾지 못했습니다. <a href="./">이름 찾기</a>로 돌아가기</p>`});
+    .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci.replace(/_/g,' '))}” 종을 찾지 못했습니다. <a href="find.html">이름 찾기</a>로 돌아가기</p>`});
   scrollTo(0,0);
 }
 setPanel(OPEN);
 addEventListener('hashchange',load);load();
-fetch('data/tree.json').then(r=>r.json()).then(t=>{TREE=t;drawTree()});
 // ← → 로 시트 순서의 이전·다음 종
 addEventListener('keydown',e=>{
   if(!CUR||e.altKey||e.ctrlKey||e.metaKey||/input|textarea|select/i.test(e.target.tagName))return;

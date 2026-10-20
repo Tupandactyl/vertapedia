@@ -15,6 +15,7 @@ ENGLISH = set("and or but the a an is are was were be been has have had in of on
 NAME_MODS = set("""northern southern eastern western central greater lesser little great giant common dwarf pygmy
 black white red grey gray brown yellow green blue golden spotted striped barred mountain forest desert island arctic
 hoary mealy rufous olive dusky pale dark large small""".split())
+LATIN = re.compile(r"(us|um|a|ae|is|i|ii|orum|arum|ensis|ense|oides|ops|x|es)$")
 THE = re.compile(r"(?:(?<=\W)|^)(?:[Tt]he|[Aa]n?) $")
 # 흔한 영어 낱말·사람 이름과 겹치는 한 단어 영명은 바꾸지 않는다
 AMBIGUOUS = {"merlin", "rook", "redhead", "whitehead", "hardhead", "ruff", "ou", "rifleman", "yellowhead",
@@ -71,8 +72,10 @@ class Linker:
         g = self.genus.get(toks[i].group())
         if g:
             nxt = toks[i + 1] if i + 1 < len(toks) else None
-            epithet = nxt and text[toks[i].end():nxt.start()] == " " and nxt.group().islower() \
-                and nxt.group() not in ENGLISH
+            word = nxt.group() if nxt and text[toks[i].end():nxt.start()] == " " else ""
+            # 뒤 낱말이 종소명인지: 목록의 학명이거나, 라틴어 어미이면서 흔한 영어 낱말이 아닐 때만
+            epithet = word.islower() and ((toks[i].group(), word) in self.sci
+                                          or (word not in ENGLISH and LATIN.search(word) is not None))
             if not epithet:
                 return i + 1, g
         return None

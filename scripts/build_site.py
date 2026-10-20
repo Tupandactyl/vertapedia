@@ -65,6 +65,20 @@ def pics(m):
 
 
 has_pic = lambda sci: bool(media.get(sci, {}).get("photos") or media.get(sci, {}).get("curated"))
+# 속 → 모식종: 파충류는 Reptile Database 표시, 조류(와 표시 없는 파충류 속)는 data/type_species.json (AviList 등)
+type_of = {(t["group"], t["sci"].split()[0]): t["sci"] for t in names if t["rank"] == "species" and t.get("type_species")}
+_sp_group = {t["sci"]: t["group"] for t in names if t["rank"] == "species"}
+for gname, tsci in load("type_species.json", {}).items():
+    if tsci and not gname.startswith("_") and tsci in _sp_group:
+        type_of.setdefault((_sp_group[tsci], gname), tsci)
+
+
+def wiki_of(t, m):
+    """위키 문서가 종이 아니라 속 문서이면 표시해 둔다(iNaturalist가 속 문서를 걸어 둔 경우)."""
+    w = linker.wiki(m.get("wiki"))
+    if w and len(w.get("title", "").split()) == 1:
+        w = dict(w, genus_doc=True)
+    return w
 dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 fname = lambda sci: sci.replace(" ", "_") + ".json"
 
@@ -109,7 +123,7 @@ def emit(g, d):
         x = src.get((g, sci))
         kids = [[s["sci"], s.get("name"), s.get("en"), 1 if has_pic(s["sci"]) else 0] for s in child["_sp"]] \
             if rank == "g" else emit(g, child)
-        out.append([rank, sci, x.get("name") if x else None, kids])
+        out.append([rank, sci, x.get("name") if x else None, kids] + ([type_of[(g, sci)]] if rank == "g" and (g, sci) in type_of else []))
     return out
 
 
@@ -147,14 +161,16 @@ for g, lst in seq.items():
             rationale=t.get("rationale") if t["status"] in ("consensus", "proposal") else None,
             review=t.get("review"), synonyms=t.get("synonyms"),
             order=taxon(orders, g, o), suborder=taxon(orders, g, so),
-            family=taxon(families, g, t.get("family")), genus=taxon(genera, g, t["sci"].split()[0]),
+            family=taxon(families, g, t.get("family")),
+            genus=dict(taxon(genera, g, t["sci"].split()[0]), type=type_of.get((g, t["sci"].split()[0]))),
+            type_species=type_of.get((g, t["sci"].split()[0])) == t["sci"],
             subfamily=taxon(subfams, g, sub_of.get((g, t["sci"].split()[0]))),
             subspecies=[s for s in t.get("subspecies", []) if s.get("ko") or t["group"] == "REPTILIA"],
             kos=dict(category=t["kos"].get("category")) if t.get("kos") else None, kr=t.get("kr"),
             refs=dict(official=t.get("official") if t["status"] != "official" else None,
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
-            inat=m.get("inat"), photos=pics(m), wiki=linker.wiki(m.get("wiki")), fetched=m.get("fetched"),
+            inat=m.get("inat"), photos=pics(m), wiki=wiki_of(t, m), fetched=m.get("fetched"),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")
@@ -184,6 +200,7 @@ for g, lst in fam_seq.items():
             subfamilies=[dict(sci=x["sci"], name=x.get("name"), en=x.get("en"), rationale=x.get("rationale"))
                          for x in subfamilies if x["group"] == g and x.get("family") == f["sci"]],
             genera=[dict(sci=ge, name=(genera.get((g, ge)) or {}).get("name"), subfamily=sub_of.get((g, ge)),
+                         type=type_of.get((g, ge)),
                          status=(genera.get((g, ge)) or {}).get("status"),
                          rationale=(genera.get((g, ge)) or {}).get("rationale"),
                          species=[[s["sci"], s.get("name"), s.get("en"), s["status"], 1 if has_pic(s["sci"]) else 0]

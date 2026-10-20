@@ -40,7 +40,7 @@ def same_author(a, b):
 def parse_checklist(path):
     rows = list(openpyxl.load_workbook(path, read_only=True)["Checklist"].iter_rows(values_only=True))
     h = [str(c).strip() if c else "" for c in rows[0]]
-    ix = {k: h.index(k) for k in ("Species", "Author", "Subspecies", "order", "Family", "changes")}
+    ix = {k: h.index(k) for k in ("Species", "Author", "Subspecies", "order", "Family", "changes", "type_species")}
     out = {}
     for r in rows[1:]:
         sci = (r[ix["Species"]] or "").strip()
@@ -52,6 +52,7 @@ def parse_checklist(path):
             if len(w) >= 3:
                 ssp.append(dict(sci=" ".join(w[:3]), author=" ".join(w[3:]) or None))
         out[sci] = dict(sci=sci, author=r[ix["Author"]], order=r[ix["order"]], family=r[ix["Family"]],
+                        type_species=str(r[ix["type_species"]] or "").strip().startswith("x"),
                         changes=r[ix["changes"]], subspecies=ssp)
     return out
 
@@ -84,6 +85,7 @@ def current_list(data_dir):
             old = gone[g]
             moved[g] = f
             out[f] = dict(old, sci=f, author=live[f], changes=f"웹에서 학명 변경 (checklist: {g})",
+                          type_species=old.get("type_species") and g.split()[0] == f.split()[0],
                           subspecies=[dict(x, sci=" ".join([f.split()[0], f.split()[1]] + x["sci"].split()[2:]))
                                       for x in old["subspecies"]])
         else:
@@ -162,6 +164,7 @@ def apply(sheet, data_dir, label):
         r = rdb.get(t["sci"])
         if r:
             t["author"] = r["author"] or t.get("author")
+            t["type_species"] = bool(r.get("type_species"))
             t["subspecies"] = [dict(x) for x in r["subspecies"]]
             if r["changes"]:
                 t["rdb_change"] = r["changes"]

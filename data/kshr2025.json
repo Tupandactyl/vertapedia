@@ -431,5 +431,277 @@
    "north": false,
    "superseded": false
   }
+ ],
+ "higher": [
+  {
+   "rank": "order",
+   "sci": "Testudinata",
+   "ko": "거북목",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Cheloniidae",
+   "ko": "바다거북과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Chelonia",
+   "ko": "푸른바다거북속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Caretta",
+   "ko": "붉은바다거북속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Eretmochelys",
+   "ko": "대모속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Dermochelyidae",
+   "ko": "장수거북과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Dermochelys",
+   "ko": "장수거북속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Lepidochelys",
+   "ko": "올리브바다거북속",
+   "revised": true
+  },
+  {
+   "rank": "family",
+   "sci": "Trionychidae",
+   "ko": "자라과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Pelodiscus",
+   "ko": "자라속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Geoemydidae",
+   "ko": "남생이과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Mauremys",
+   "ko": "남생이속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Emydidae",
+   "ko": "늪거북과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Trachemys",
+   "ko": "붉은귀거북속",
+   "revised": false
+  },
+  {
+   "rank": "order",
+   "sci": "Squamata",
+   "ko": "뱀목",
+   "revised": false
+  },
+  {
+   "rank": "suborder",
+   "sci": "Sauria",
+   "ko": "도마뱀아목",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Gekkonidae",
+   "ko": "도마뱀부치과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Gekko",
+   "ko": "도마뱀부치속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Scincidae",
+   "ko": "도마뱀과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Scincella",
+   "ko": "도마뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Plestiodon",
+   "ko": "장수도마뱀속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Lacertidae",
+   "ko": "장지뱀과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Takydromus",
+   "ko": "장지뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Eremias",
+   "ko": "표범장지뱀속",
+   "revised": false
+  },
+  {
+   "rank": "suborder",
+   "sci": "Serpentes",
+   "ko": "뱀아목",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Colubridae",
+   "ko": "뱀과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Elaphe",
+   "ko": "뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Orthriophis",
+   "ko": "줄꼬리뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Oocatochus",
+   "ko": "무자치속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Rhabdophis",
+   "ko": "유혈목이속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Amphiesma",
+   "ko": "대륙유혈목이속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Hebius",
+   "ko": "대륙유혈목이속",
+   "revised": true
+  },
+  {
+   "rank": "genus",
+   "sci": "Dinodon",
+   "ko": "능구렁이속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Lycodon",
+   "ko": "능구렁이속",
+   "revised": true
+  },
+  {
+   "rank": "genus",
+   "sci": "Hierophis",
+   "ko": "실뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Orientocoluber",
+   "ko": "실뱀속",
+   "revised": true
+  },
+  {
+   "rank": "genus",
+   "sci": "Sibynophis",
+   "ko": "비바리뱀속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Viperidae",
+   "ko": "살모사과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Gloydius",
+   "ko": "살모사속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Vipera",
+   "ko": "북살모사속",
+   "revised": false
+  },
+  {
+   "rank": "family",
+   "sci": "Elapidae",
+   "ko": "코브라과",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Hydrophis",
+   "ko": "얼룩바다뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Pelamis",
+   "ko": "바다뱀속",
+   "revised": false
+  },
+  {
+   "rank": "genus",
+   "sci": "Hydrophis",
+   "ko": "바다뱀속",
+   "revised": true
+  },
+  {
+   "rank": "genus",
+   "sci": "Laticauda",
+   "ko": "큰바다뱀속",
+   "revised": false
+  }
  ]
 }
