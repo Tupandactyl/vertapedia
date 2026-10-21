@@ -99,7 +99,8 @@ let rows=[],g='',q='',limit=60,TREE=null;
 const s=META.stats;
 document.getElementById('stats').innerHTML=`<span>조류 <b>${s.AVES.total.toLocaleString()}</b>종 · 국명 <b>${s.AVES.named.toLocaleString()}</b> · 사진 <b>${s.AVES.photos.toLocaleString()}</b></span><span>파충류 <b>${s.REPTILIA.total.toLocaleString()}</b>종 · 국명 <b>${s.REPTILIA.named.toLocaleString()}</b> · 사진 <b>${s.REPTILIA.photos.toLocaleString()}</b></span>`;
 document.getElementById('built').textContent=`마지막 갱신: ${META.built}`;
-const key=t=>(t||'').toLowerCase().replace(/\s+/g,'');
+// 공백·하이픈·아포스트로피·마침표 등을 지우고 비교한다: red tailed = red-tailed = redtailed, Blyth's = Blyths
+const key=t=>(t||'').toLowerCase().replace(/[\s\-‐-―'’.,()]+/g,'');
 // 초성: 까치 → ㄲㅊ
 const CHO='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ';
 const cho=t=>[...(t||'')].map(c=>{const n=c.charCodeAt(0)-0xAC00;return n>=0&&n<11172?CHO[Math.floor(n/588)]:c}).join('');

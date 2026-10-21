@@ -51,6 +51,7 @@ orders, families, genera = first_by("order", "suborder"), first_by("family"), fi
 subfams = first_by("subfamily")
 # 참새목 아목·상과 (data/bird_higher.json). 국명은 모식과 국명의 '과'를 '아목'·'상과'로 바꿔 만든다.
 BH = load("bird_higher.json", {})
+bird_auth = load("bird_authority.json", {})  # 조류 명명자·연도 (AviList v2025, scripts/fetch_avilist.py)
 _ranks = {}
 for _f, (_so, _sp) in BH.get("family", {}).items():
     _ranks[_so] = "suborder"
@@ -187,7 +188,7 @@ for g, lst in seq.items():
         nb = lambda j: short(lst[j]) if 0 <= j < len(lst) else None
         rec = dict(
             group=g, sci=t["sci"], name=t.get("name"), status=t["status"], en=t.get("en"),
-            author=t.get("author"),
+            author=t.get("author") or (bird_auth.get(t["sci"]) if g == "AVES" else None),
             rationale=t.get("rationale") if t["status"] in ("consensus", "proposal") else None,
             review=t.get("review") if "국가생물종목록" not in (t.get("review") or "") else None,
             synonyms=t.get("synonyms"),
