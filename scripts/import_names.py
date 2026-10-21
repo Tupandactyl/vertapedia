@@ -472,7 +472,7 @@ def main():
     kos_rows = []
     for k in kos:
         if k["rank"] in ("family", "order"):
-            t = by_key.get(("AVES", k["sci"]))
+            t = by_key.get(("AVES", ov.get("kos_fix", {}).get(k["sci"], k["sci"])))
             if t and k["ko"] and not k["held"]:
                 t["kos"] = dict(sci=k["sci"], ko=k["ko"], category=None, held=False)
             continue
@@ -507,7 +507,7 @@ def main():
     kos_ssp = defaultdict(list)
     for k in kos:
         if k["rank"] in ("family", "order"):
-            t = by_key.get(("AVES", k["sci"]))
+            t = by_key.get(("AVES", ov.get("kos_fix", {}).get(k["sci"], k["sci"])))
             if t and k["ko"] and not k["held"]:
                 t["kos"] = dict(sci=k["sci"], ko=k["ko"], category=None, held=False)
             continue
@@ -601,9 +601,10 @@ def main():
             t["official"] = None
         t["name"], t["status"] = pick_name(t)
     # 개인 제안 국명이 다른 종과 겹치면 그 제안은 국명으로 쓰지 않는다(영명 표시)
-    used = Counter((t["group"], norm(t["name"])) for t in sheet if t["name"] and t["rank"] == "species")
+    # (종뿐 아니라 속·과 등 같은 계급끼리도)
+    used = Counter((t["group"], t["rank"], norm(t["name"])) for t in sheet if t["name"])
     for t in sheet:
-        if t["status"] in ("proposal", "kos_held") and t["rank"] == "species" and used[(t["group"], norm(t["name"]))] > 1:
+        if t["status"] in ("proposal", "kos_held") and used[(t["group"], t["rank"], norm(t["name"]))] > 1:
             t["name"], t["status"] = None, "none"
             t["proposals_hidden"] = True
     # 편집자가 직접 정한 이름(overrides.json names) — 다른 모든 출처보다 먼저
