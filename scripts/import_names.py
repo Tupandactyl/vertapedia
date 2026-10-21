@@ -1,6 +1,6 @@
 """국명 자료를 하나로 모은다.
 
-- 국가생물종목록 Ⅱ (2019) PDF → 공식 국명
+- (국가생물종목록 Ⅱ (2019) PDF → 지금은 쓰지 않음: USE_NIBR)
 - 한국조류목록 2025 (한국조류학회) → 조류 국명 보충
 - 한국양서파충류학회 파충류 종 목록 2025 (data/kshr2025.json, scripts/parse_kshr.py) → 파충류 국명 우선
 - 조류·파충류 구글 시트(xlsx 내보내기) → 학명 체계, 합의본·개인 제안·명칭 근거
@@ -23,6 +23,7 @@ DATA = ROOT / "data"
 PDF = Path(sys.argv[1]) if len(sys.argv) > 1 else None
 
 RDB_LABEL = "Reptile Database"
+USE_NIBR = False  # 국가생물종목록 Ⅱ(2019): 2026-10-21 편집진 결정으로 국명 출처에서 뺐다
 RANKS = ["class", "order", "suborder", "family", "subfamily", "genus"]
 
 
@@ -276,13 +277,13 @@ class Linker:
 
 
 def pick_name(t):
-    """국명 우선순위: 한국조류목록 2025(조류)·한국양서파충류학회 2025(파충류) > 국가생물종목록 > 시트 합의본
-    > 일치하는 개인 제안 > 없음(영명)."""
+    """국명 우선순위: 한국조류목록 2025(조류)·한국양서파충류학회 2025(파충류) > 시트 합의본
+    > 일치하는 개인 제안 > 없음(영명). 국가생물종목록은 USE_NIBR 일 때만(지금은 쓰지 않음)."""
     if t.get("kos") and not t["kos"].get("held"):
         return t["kos"]["ko"], "kos"
     if t.get("kshr"):
         return t["kshr"]["ko"], "kshr"
-    if t.get("official"):
+    if USE_NIBR and t.get("official"):
         return t["official"], "official"
     if t.get("consensus"):
         return norm(t["consensus"]) or t["consensus"], "consensus"
@@ -302,6 +303,8 @@ def main():
         nibr = parse_nibr(PDF)
         nibr_path.write_text(json.dumps(nibr, ensure_ascii=False, indent=1), encoding="utf-8")
     nibr = json.loads(nibr_path.read_text(encoding="utf-8"))
+    if not USE_NIBR:  # 국명 근거를 한국조류목록 2025·한국양서파충류학회 2025로 옮겼으므로 국가생물종목록은 쓰지 않는다
+        nibr = []
     ov = json.loads((DATA / "overrides.json").read_text(encoding="utf-8"))
     kos = parse_kos(DATA / "kos2025.xlsx")
 
@@ -377,8 +380,15 @@ def main():
             lst.append(entry)
         return True
 
-    # 시트 과들이 가리키는 목인데 목 행이 없으면 국가생물종목록의 목·아목 이름으로 채운다(예: 뱀아목)
+    # 시트 과들이 가리키는 목·아목인데 그 행이 없으면 빈 분류군을 만들어 둔다(국명은 학회 목록 등에서 붙는다: 뱀아목)
     used_orders = {(t["group"], t.get(k)) for t in sheet if t["rank"] == "family" for k in ("order", "suborder") if t.get(k)}
+    for t in [t for t in sheet if t["rank"] == "family"]:
+        for k, rk in (("order", "order"), ("suborder", "suborder")):
+            key = (t["group"], t.get(k))
+            if t.get(k) and key not in by_key:
+                by_key[key] = dict(group=t["group"], rank=rk, sci=t[k], en=None, consensus=None, proposals={},
+                                   rationale=None, sheet="상위 분류군")
+                sheet.insert(0, by_key[key])
     for o in nibr:
         k = (o["group"], o["sci"])
         if o["rank"] in ("order", "suborder") and k in used_orders and k not in by_key:
@@ -612,7 +622,7 @@ def main():
         if t.get("kshr") or t.get("kshr_ssp"):
             north = (t.get("kshr") or t["kshr_ssp"]).get("north")
             t["kr"] = ov.get("reptile_kr", {}).get(t["sci"], "북한 기록종" if north else "한국 기록종")
-        elif (t.get("official") or t.get("nibr_sci")) and not kshr_rows:
+        elif USE_NIBR and (t.get("official") or t.get("nibr_sci")) and not kshr_rows:
             t["kr"] = ov.get("reptile_kr", {}).get(t["sci"], "한국 기록종")
     for t in sheet:
         stat[(t["group"], t["rank"], t["status"])] += 1
@@ -634,9 +644,9 @@ def main():
     (DATA / "kos.json").write_text(json.dumps(dict(diff=kos_diff, used=kos_used, unlinked=kos_unlinked),
                                               ensure_ascii=False, indent=1), encoding="utf-8")
 
-    rep = ["== 계급·상태별 개수 =="]
+    rep = ["== 계급·상태별 개수 =="] + [f"{k[0]:9} {k[1]:10} {k[2]:10} {stat[k]}" for k in sorted(stat)]
     if dup_rows:
-        rep.insert(0, "시트에 같은 학명 종 행이 두 번: " + ", ".join(dup_rows)) + [f"{k[0]:9} {k[1]:10} {k[2]:10} {stat[k]}" for k in sorted(stat)]
+        rep.insert(0, "시트에 같은 학명 종 행이 두 번: " + ", ".join(dup_rows))
     rc = Counter(r["result"] for r in review)
     rep.append(f"\n학명 불일치 {len(review)}건: " + ", ".join(f"{k} {v}" for k, v in rc.items()))
     rep.append(f"국명 차이 {len(conflicts)}건 (분류 변경 {sum(1 for c in conflicts if len(c['moved_to']) == 1)})")

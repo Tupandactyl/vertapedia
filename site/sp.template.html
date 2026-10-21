@@ -125,7 +125,7 @@ function nmHtml(x,self){
   return `<span class="nm" title="${esc(orig)}">${k}${first?`<span class="notranslate" translate="no"> (<span lang="en">${o}</span>)</span>`:''}</span>`;
 }
 const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
-const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
+const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
 const credit=p=>{
@@ -135,9 +135,6 @@ const credit=p=>{
 // 검토용 메모를 읽기 쉬운 문장으로
 function memo(t){
   let m;
-  if(m=/^학명 불일치: 국가생물종목록 (.+)$/.exec(t))return `국가생물종목록에는 <i>${esc(m[1])}</i>(으)로 실려 있습니다.`;
-  if(m=/^분류 변경: 국가생물종목록에서는 (.+)$/.exec(t))return `국가생물종목록에서는 이 국명이 <i>${esc(m[1])}</i>에 붙어 있었으나, 분류가 나뉘어 이 종으로 옮겼습니다.`;
-  if(m=/^분류 변경: 국가생물종목록 국명 (\S+) → (.+)$/.exec(t))return `국가생물종목록의 국명 ${esc(m[1])}은(는) 분류가 나뉘어 <i>${esc(m[2])}</i>에 붙였습니다.`;
   if(m=/^분류 변경: 한국조류목록 2025에서는 (.+)$/.exec(t))return `한국조류목록 2025에서는 <i>${esc(m[1])}</i>(으)로 실려 있습니다.`;
   if(m=/^분류 변경: 한국조류목록 2025 국명 (\S+) → (.+)$/.exec(t))return `한국조류목록 2025의 국명 ${esc(m[1])}은(는) <i>${esc(m[2])}</i>에 붙였습니다.`;
   if(m=/^학명 변경: 시트 (.+?) → .*? (\S+ \S+)$/.exec(t))return `이전 학명 <i>${esc(m[1])}</i>에서 바뀌었습니다(Reptile Database 기준).`;
@@ -171,7 +168,7 @@ function render(d){
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
-  if(d.kr)chips.push(`<span class="chip" title="국가생물종목록 수록">${esc(d.kr)}</span>`);
+  if(d.kr)chips.push(`<span class="chip" title="한국양서파충류학회 2025 수록">${esc(d.kr)}</span>`);
   if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
   if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);
   const ph=d.photos||[];
@@ -185,7 +182,6 @@ function render(d){
     :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
-  if(d.refs.official&&d.refs.official!==d.name)refs.push(['국가생물종목록',d.refs.official]);
   if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
   if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 유통명',d.refs.trade]);
   if(d.synonyms&&d.synonyms.length)refs.push(['이명',d.synonyms.map(s=>`<i>${esc(s)}</i>`).join(', ')]);

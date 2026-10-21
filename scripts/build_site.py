@@ -189,7 +189,8 @@ for g, lst in seq.items():
             group=g, sci=t["sci"], name=t.get("name"), status=t["status"], en=t.get("en"),
             author=t.get("author"),
             rationale=t.get("rationale") if t["status"] in ("consensus", "proposal") else None,
-            review=t.get("review"), synonyms=t.get("synonyms"),
+            review=t.get("review") if "국가생물종목록" not in (t.get("review") or "") else None,
+            synonyms=t.get("synonyms"),
             order=taxon(orders, g, o), suborder=taxon(orders, g, so), superfamily=taxon(orders, g, sup),
             family=taxon(families, g, t.get("family")),
             genus=dict(taxon(genera, g, t["sci"].split()[0]), type=type_of.get((g, t["sci"].split()[0]))),
@@ -197,7 +198,7 @@ for g, lst in seq.items():
             subfamily=taxon(subfams, g, sub_of.get((g, t["sci"].split()[0]))),
             subspecies=[s for s in t.get("subspecies", []) if s.get("ko") or t["group"] == "REPTILIA"],
             kos=dict(category=t["kos"].get("category")) if t.get("kos") else None, kr=t.get("kr"),
-            refs=dict(official=t.get("official") if t["status"] != "official" else None,
+            refs=dict(official=None,  # 국가생물종목록은 쓰지 않는다
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
             inat=m.get("inat"), photos=pics(m), wiki=wiki_of(t, m), fetched=m.get("fetched"),
@@ -224,7 +225,7 @@ for g, lst in fam_seq.items():
         rec = dict(
             group=g, sci=f["sci"], name=f.get("name"), status=f["status"], en=f.get("en"),
             rationale=f.get("rationale"),
-            refs=dict(official=f.get("official") if f["status"] != "official" else None,
+            refs=dict(official=None,
                       kos=(f.get("kos") or {}).get("ko") if f["status"] != "kos" else None),
             order=taxon(orders, g, o), suborder=taxon(orders, g, so), superfamily=taxon(orders, g, sup),
             subfamilies=[dict(sci=x["sci"], name=x.get("name"), en=x.get("en"), rationale=x.get("rationale"))

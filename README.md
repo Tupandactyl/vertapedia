@@ -8,8 +8,8 @@
 
 | | 학명 | 국명 |
 |---|---|---|
-| 조류 | 조류 시트(eBird/Clements·AviList) | 한국조류목록 2025 → 국가생물종목록 2019 → 시트 합의본 → 개인 제안(모두 같을 때) |
-| 파충류 | Reptile Database 웹사이트의 현재 종 목록(`data/rdb_live.json`)이 기준, 과·아종은 checklist(`data/rdb_checklist.xlsx`). 둘 다 `scripts/fetch_rdb.py`로 갱신. 시트 종은 이 목록에 맞춰 학명 변경·아종 통합 | 국가생물종목록 2019 → 시트 합의본 |
+| 조류 | 조류 시트(eBird/Clements·AviList) | 한국조류목록 2025 → 시트 합의본 → 개인 제안(모두 같을 때) |
+| 파충류 | Reptile Database 웹사이트의 현재 종 목록(`data/rdb_live.json`)이 기준, 과·아종은 checklist(`data/rdb_checklist.xlsx`). 둘 다 `scripts/fetch_rdb.py`로 갱신. 시트 종은 이 목록에 맞춰 학명 변경·아종 통합 | 한국양서파충류학회 파충류 종 목록 2025 → 시트 합의본 |
 
 - 국명이 없으면 영명을 표시한다.
 - 개인 제안 국명이 다른 종과 겹치면 쓰지 않는다.
@@ -20,7 +20,7 @@
 
 | 파일 | 내용 |
 |---|---|
-| `data/nibr.json` | 국가생물종목록 Ⅱ(2019) PDF에서 뽑은 파충강·조강 학명과 국명 |
+| `data/nibr.json` | 국가생물종목록 Ⅱ(2019)에서 뽑은 자료. 2026-10-21부터 국명 출처로 쓰지 않음(`USE_NIBR`) |
 | `data/kos2025.xlsx` | 한국조류학회 한국조류목록 개정판 v2.1(2025) |
 | `data/overrides.json` | 편집자가 직접 정한 학명 대응 |
 | `data/references.json` | 참고문헌 |
