@@ -1,7 +1,7 @@
 """data/names.json·data/media 에서 사이트 자료를 만든다.
 
 - site/data/names.min.json : 검색용 가벼운 목록
-- site/data/tree.json      : 목 > (아목) > 과 > (아과) > 속 > 종 분류군 (시트 순서)
+- site/data/tree.json      : 목 > (아목) > (상과) > 과 > (아과) > 속 > 종 분류군 (시트 순서)
 - site/data/random.json    : 첫 화면에서 고를 종 (국명과 사진이 있는 종)
 - site/sp/<학명>.json      : 종 문서 (시트 기준 이전·다음 종 포함)
 - site/fam/<학명>.json     : 과 문서 — 명칭 근거와 포함 속·종 목록
@@ -49,6 +49,20 @@ def first_by(*ranks):
 
 orders, families, genera = first_by("order", "suborder"), first_by("family"), first_by("genus")
 subfams = first_by("subfamily")
+# 참새목 아목·상과 (data/bird_higher.json). 국명은 모식과 국명의 '과'를 '아목'·'상과'로 바꿔 만든다.
+BH = load("bird_higher.json", {})
+_ranks = {}
+for _f, (_so, _sp) in BH.get("family", {}).items():
+    _ranks[_so] = "suborder"
+    if _sp:
+        _ranks[_sp] = "superfamily"
+for _sci, _rk in _ranks.items():
+    _tf = families.get(("AVES", BH.get("type_family", {}).get(_sci)), {})
+    _ko = BH.get("names", {}).get(_sci)
+    if not _ko and (_tf.get("name") or "").endswith("과"):
+        _ko = _tf["name"][:-1] + ("아목" if _rk == "suborder" else "상과")
+    orders.setdefault(("AVES", _sci), dict(group="AVES", rank=_rk, sci=_sci, name=_ko,
+                                         status="derived" if _ko and _sci not in BH.get("names", {}) else ("consensus" if _ko else "none")))
 # 파충류 속 → 아과 (Reptile Database 종 문서의 Higher Taxa, scripts/fetch_rdb.py --subfamilies)
 sub_of = {("REPTILIA", g): sf for g, sf in load("rdb_subfamily.json", {}).items() if sf}
 # 한 과의 모든 속이 같은 아과 하나뿐이면 과와 겹치는 단계라 뺀다
@@ -100,11 +114,15 @@ def short(t):
 
 
 def lineage(t):
-    """(목, 아목) — 과 행에 적힌 것, 없으면 eBird 과 → 목, 분류미정 탭이면 그 탭의 목·아목"""
+    """(목, 아목, 상과) — 과 행에 적힌 것, 없으면 eBird 과 → 목, 분류미정 탭이면 그 탭의 목·아목.
+    조류 참새목은 data/bird_higher.json 의 아목·상과."""
     fam = families.get((t["group"], t.get("family"))) or {}
     o = fam.get("order") or t.get("order_hint") or (ebird_ord.get(t.get("family")) if t["group"] == "AVES" else None)
     so = fam.get("suborder") or t.get("suborder_hint")
-    return o, so
+    sp = None
+    if t["group"] == "AVES" and t.get("family") in BH.get("family", {}):
+        so, sp = BH["family"][t["family"]]
+    return o, so, sp
 
 
 def taxon(rank_map, g, sci):
@@ -116,9 +134,9 @@ def taxon(rank_map, g, sci):
 tree = {}
 for t in species:
     g = t["group"]
-    o, so = lineage(t)
+    o, so, sup = lineage(t)
     sf = sub_of.get((g, t["sci"].split()[0]))
-    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])]
+    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + ([("p", sup)] if sup else []) +         [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])]
     node = tree.setdefault(g, {})
     for key in path:
         node = node.setdefault(key, {})
@@ -131,7 +149,7 @@ def emit(g, d):
         if key == "_sp":
             continue
         rank, sci = key
-        src = {"o": orders, "u": orders, "f": families, "s": subfams, "g": genera}[rank]
+        src = {"o": orders, "u": orders, "p": orders, "f": families, "s": subfams, "g": genera}[rank]
         x = src.get((g, sci))
         kids = [[s["sci"], s.get("name"), s.get("en"), 1 if has_pic(s["sci"]) else 0] for s in child["_sp"]] \
             if rank == "g" else emit(g, child)
@@ -164,7 +182,7 @@ shutil.rmtree(SITE / "sp", ignore_errors=True)
 seq = {g: [t for t in species if t["group"] == g] for g in G}
 for g, lst in seq.items():
     for i, t in enumerate(lst):
-        o, so = lineage(t)
+        o, so, sup = lineage(t)
         m = media.get(t["sci"], {})
         nb = lambda j: short(lst[j]) if 0 <= j < len(lst) else None
         rec = dict(
@@ -172,7 +190,7 @@ for g, lst in seq.items():
             author=t.get("author"),
             rationale=t.get("rationale") if t["status"] in ("consensus", "proposal") else None,
             review=t.get("review"), synonyms=t.get("synonyms"),
-            order=taxon(orders, g, o), suborder=taxon(orders, g, so),
+            order=taxon(orders, g, o), suborder=taxon(orders, g, so), superfamily=taxon(orders, g, sup),
             family=taxon(families, g, t.get("family")),
             genus=dict(taxon(genera, g, t["sci"].split()[0]), type=type_of.get((g, t["sci"].split()[0]))),
             type_species=type_of.get((g, t["sci"].split()[0])) == t["sci"],
@@ -201,14 +219,14 @@ for g, lst in fam_seq.items():
         gens = {}
         for s in sps:
             gens.setdefault(s["sci"].split()[0], []).append(s)
-        o, so = lineage(sps[0])
+        o, so, sup = lineage(sps[0])
         nb = lambda j: short(lst[j]) if 0 <= j < len(lst) else None
         rec = dict(
             group=g, sci=f["sci"], name=f.get("name"), status=f["status"], en=f.get("en"),
             rationale=f.get("rationale"),
             refs=dict(official=f.get("official") if f["status"] != "official" else None,
                       kos=(f.get("kos") or {}).get("ko") if f["status"] != "kos" else None),
-            order=taxon(orders, g, o), suborder=taxon(orders, g, so),
+            order=taxon(orders, g, o), suborder=taxon(orders, g, so), superfamily=taxon(orders, g, sup),
             subfamilies=[dict(sci=x["sci"], name=x.get("name"), en=x.get("en"), rationale=x.get("rationale"))
                          for x in subfamilies if x["group"] == g and x.get("family") == f["sci"]],
             genera=[dict(sci=ge, name=(genera.get((g, ge)) or {}).get("name"), subfamily=sub_of.get((g, ge)),

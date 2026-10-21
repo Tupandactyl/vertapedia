@@ -105,7 +105,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
-const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명'};
+const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',official:'국가생물종목록',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
 const nm=x=>x&&x.name?`${esc(x.name)} ${esc(x.sci)}`:x?esc(x.sci):'';
 const link=(page,x)=>`${page}.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
 function pn(d){
@@ -128,7 +128,7 @@ function drawTree(){if(OPEN&&TREE&&CUR)VTree(document.getElementById('tree'),TRE
 function render(d){
   CUR=d;drawTree();
   document.title=`${d.name||d.sci} · Vertapedia`;
-  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null].filter(Boolean);
+  const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,d.superfamily&&d.superfamily.sci?nm(d.superfamily):null].filter(Boolean);
   const refs=[];
   if(d.refs.kos)refs.push(['한국조류목록 2025',d.refs.kos]);
   if(d.refs.official)refs.push(['국가생물종목록',d.refs.official]);
