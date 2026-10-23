@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <meta charset="utf-8">
+<script src="theme.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vertapedia</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
@@ -118,12 +119,25 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .distbox,.more{display:flex;flex-direction:column;gap:14px}
 @media (max-width:900px){.cols{grid-template-columns:minmax(0,1fr);grid-template-areas:"dist" "prose" "name" "more";grid-template-rows:auto}}
 @media (max-width:640px){.gallery .ph:nth-child(n+4){display:none}}
-.iucncard{display:flex;align-items:center;gap:12px;padding:12px 16px}
-.iucncard .iucn{font-size:15px;min-width:44px;justify-content:center;padding:6px 10px;border-radius:8px}
-.iucncard b{display:block;font-size:15px}.iucncard small{color:var(--muted);font-size:12px}
 .distcard .obs{margin:8px 0 0;font-size:13.5px}.distcard .obs a{color:var(--moss)}
 .distcard .range{margin:10px 0 0;font-size:13px;line-height:1.55}
 .distcard .range span:first-child{display:block;font-size:11.5px;color:var(--muted);margin-bottom:2px}
+.iucncard{display:block;padding:14px 16px}
+.card .iucnh{font-size:12px;letter-spacing:.06em;color:var(--muted);margin:0 0 10px;font-weight:600;font-family:inherit}
+.iucnh span{text-transform:uppercase;font-weight:500;margin-left:4px;opacity:.8}
+.iucnscale{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.iucnscale .lv{font-size:11px;font-weight:700;text-align:center;padding:7px 0;border-radius:5px;color:rgba(40,40,40,.45);opacity:.55}
+.iucnscale .lv.on{opacity:1;color:#fff;transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.25);outline:2px solid rgba(0,0,0,.08)}
+.lv-LC{background:#5b7f2f}.lv-NT{background:#b5b85a}.lv-VU{background:#e0b452}.lv-EN{background:#d97f4a}
+.lv-CR{background:#bf4a3f}.lv-EW{background:#6e5f57}.lv-EX{background:#3d3d3b}.lv-DD{background:#8a8f8c}.lv-NE{background:#b4b8b5}
+.iucnscale .lv:not(.on){color:rgba(30,30,30,.55)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .iucnscale .lv:not(.on){color:rgba(255,255,255,.6)}}
+:root[data-theme="dark"] .iucnscale .lv:not(.on){color:rgba(255,255,255,.6)}
+.iucnname{margin:12px 0 2px;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.iucnname .dot{width:11px;height:11px;border-radius:50%;display:inline-block;align-self:center}
+.iucnname b{font-size:15px}.iucnname i{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:16px}
+.iucnoff{font-size:12px;color:var(--muted);margin:8px 0 0}
+.iucnsrc{color:var(--muted);font-size:11.5px}
 </style>
 <body>
 <header class="top"><div class="top-in">
@@ -207,13 +221,19 @@ async function drawDist(d){
     box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.name)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
   }catch(e){box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
 }
-// IUCN 적색목록: 작은 별도 칸
+// IUCN 적색목록: LC~EX 일곱 칸 가운데 해당 등급만 진하게, 아래에 등급 이름
+const IUCN_EN={EX:'Extinct',EW:'Extinct in the Wild',CR:'Critically Endangered',EN:'Endangered',VU:'Vulnerable',NT:'Near Threatened',LC:'Least Concern',DD:'Data Deficient',NE:'Not Evaluated'};
 function iucnCard(d){
   if(!d.iucn)return '';
   const c=d.iucn.split(' ')[0],pe=/PEW?\)/.exec(d.iucn);
   if(!IUCN[c])return '';
-  return `<div class="card iucncard"><span class="iucn i-${c}">${esc(c)}</span><div><b>${IUCN[c]}${pe?(pe[0].startsWith('PEW')?' (야생절멸 가능성)':' (절멸 가능성)'):''}</b>
-    <small>IUCN 적색목록 · ${d.group==='AVES'?'BirdLife (AviList v2026)':'GBIF'}</small></div></div>`;
+  const scale=['LC','NT','VU','EN','CR','EW','EX'];
+  const peTxt=pe?(pe[0].startsWith('PEW')?' · 야생절멸 가능성':' · 절멸 가능성'):'';
+  return `<div class="card iucncard"><h3 class="iucnh">보전 현황 <span>Conservation status</span></h3>
+    <div class="iucnscale" role="img" aria-label="IUCN 적색목록 ${esc(d.iucn)} ${IUCN[c]}">${scale.map(k=>`<span class="lv lv-${k}${k===c?' on':''}" title="${k} · ${IUCN[k]}">${k}</span>`).join('')}</div>
+    ${scale.includes(c)?'':`<p class="iucnoff">${esc(c)} — 등급 칸 밖(평가 자료 부족)</p>`}
+    <p class="iucnname"><span class="dot lv-${c}"></span><b>${IUCN[c]}</b> <i>${IUCN_EN[c]}</i>${peTxt}</p>
+    <small class="iucnsrc">IUCN Red List · ${d.group==='AVES'?'BirdLife (AviList v2026)':'GBIF'}</small></div>`;
 }
 // 분포: 지도(누르면 iNaturalist 관찰 지도) + 관찰 수 + 조류는 AviList 분포 설명
 function distCard(d){
