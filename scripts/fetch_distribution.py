@@ -7,6 +7,7 @@
 
     python scripts/fetch_distribution.py                 # 전부(이어 받기)
     python scripts/fetch_distribution.py --limit 50      # 시험
+    python scripts/fetch_distribution.py --retry         # 못 찾은 종도 다시
 """
 import json
 import sys
@@ -25,7 +26,8 @@ except ImportError:
 DATA = Path(__file__).resolve().parent.parent / "data"
 OUT = DATA / "distribution.json"
 UA = {"User-Agent": "Vertapedia/0.1 (https://github.com/Tupandactyl/vertapedia)"}
-CLASS = {"AVES": "Aves", "REPTILIA": "Reptilia"}
+# GBIF 분류 체계는 파충강을 따로 두지 않고 유린목·거북목·악어목·훼두목을 각각 강으로 다룬다
+CLASS = {"AVES": {"Aves"}, "REPTILIA": {"Reptilia", "Squamata", "Testudines", "Crocodylia", "Sphenodontia", "Rhynchocephalia"}}
 
 
 def get(url, params):
@@ -41,7 +43,7 @@ def get(url, params):
 def one(t):
     sci, grp = t["sci"], t["group"]
     m = get("https://api.gbif.org/v1/species/match", dict(name=sci, kingdom="Animalia", strict="true"))
-    if not m or m.get("matchType") not in ("EXACT", "FUZZY") or m.get("class") != CLASS[grp]:
+    if not m or m.get("matchType") not in ("EXACT", "FUZZY") or m.get("class") not in CLASS[grp]:
         return sci, None
     key = m.get("acceptedUsageKey") or m.get("usageKey")
     d = get("https://api.gbif.org/v1/occurrence/search", dict(
@@ -69,7 +71,8 @@ def main():
             for s, code in zip(old, ex.map(lambda s: iucn(out[s]["key"]), old)):
                 out[s]["iucn"] = code
         print("IUCN 등급 채움:", len(old), flush=True)
-    todo = [t for t in names if t["rank"] == "species" and t["sci"] not in out]
+    retry = "--retry" in sys.argv  # 못 찾은 종(None)도 다시
+    todo = [t for t in names if t["rank"] == "species" and (t["sci"] not in out or (retry and out[t["sci"]] is None))]
     # 국명 있는 종부터
     todo.sort(key=lambda t: (not t.get("name"), t["group"] != "AVES"))
     if limit:
