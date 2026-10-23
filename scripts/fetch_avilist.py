@@ -55,6 +55,14 @@ def main():
     codes = {r[ix["Scientific_name"]]: r[i_code] for r in rows[1:] if i_code is not None and r[i_code]
              and r[ix["Taxon_rank"]] == "species"}
     (DATA / "bird_codes.json").write_text(json.dumps(codes, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    # 분포 설명(RANGE, 영문)
+    try:
+        i_rng = avilist_index(h, ("RANGE",))["RANGE"]
+        rng = {r[ix["Scientific_name"]]: str(r[i_rng]).strip() for r in rows[1:]
+               if r[ix["Taxon_rank"]] == "species" and r[i_rng]}
+        (DATA / "bird_range.json").write_text(json.dumps(rng, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    except ValueError:
+        pass
     # IUCN 적색목록 등급(BirdLife 가 조류 평가를 맡는다; AviList v2026 은 2025년 10월 갱신분)
     try:
         i_iucn = avilist_index(h, ("IUCN RED LIST CATEGORY",))["IUCN RED LIST CATEGORY"]

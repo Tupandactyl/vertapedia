@@ -69,8 +69,6 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 @media (max-width:640px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:120px}.ph:first-child{grid-column:span 2;grid-row:span 2}}
 .nophoto{padding:28px;border:1px dashed var(--line);border-radius:8px;text-align:center;color:var(--muted);font-size:13.5px}
 .galnote{font-size:12px;color:var(--muted);margin:8px 0 0}
-.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;margin-top:28px}
-@media (max-width:900px){.cols{grid-template-columns:minmax(0,1fr)}}
 .prose{max-width:66ch}
 .prose h2,.card h3{font-family:var(--display);font-size:21px;margin:0 0 8px}
 .prose p{margin:0 0 12px}
@@ -114,6 +112,18 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .iucn{display:inline-flex;align-items:center;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:999px;color:#fff;background:#6b7a72}
 .iucn.i-LC{background:#3b8a5a}.iucn.i-NT{background:#7d9a2e}.iucn.i-VU{background:#c79a12;color:#1d1d1d}.iucn.i-EN{background:#d9701c}
 .iucn.i-CR{background:#c8352b}.iucn.i-EW{background:#5e2a6e}.iucn.i-EX{background:#222}.iucn.i-DD{background:#8a8f8c}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:28px;row-gap:14px;margin-top:28px;
+  grid-template-areas:"prose name" "prose dist" "prose more";grid-template-rows:auto auto 1fr;align-items:start}
+.cols>.prose{grid-area:prose}.cols>.namecard{grid-area:name}.cols>.distbox{grid-area:dist}.cols>.more{grid-area:more}
+.distbox,.more{display:flex;flex-direction:column;gap:14px}
+@media (max-width:900px){.cols{grid-template-columns:minmax(0,1fr);grid-template-areas:"dist" "prose" "name" "more";grid-template-rows:auto}}
+@media (max-width:640px){.gallery .ph:nth-child(n+4){display:none}}
+.iucncard{display:flex;align-items:center;gap:12px;padding:12px 16px}
+.iucncard .iucn{font-size:15px;min-width:44px;justify-content:center;padding:6px 10px;border-radius:8px}
+.iucncard b{display:block;font-size:15px}.iucncard small{color:var(--muted);font-size:12px}
+.distcard .obs{margin:8px 0 0;font-size:13.5px}.distcard .obs a{color:var(--moss)}
+.distcard .range{margin:10px 0 0;font-size:13px;line-height:1.55}
+.distcard .range span:first-child{display:block;font-size:11.5px;color:var(--muted);margin-bottom:2px}
 </style>
 <body>
 <header class="top"><div class="top-in">
@@ -197,6 +207,26 @@ async function drawDist(d){
     box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.name)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
   }catch(e){box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
 }
+// IUCN 적색목록: 작은 별도 칸
+function iucnCard(d){
+  if(!d.iucn)return '';
+  const c=d.iucn.split(' ')[0],pe=/PEW?\)/.exec(d.iucn);
+  if(!IUCN[c])return '';
+  return `<div class="card iucncard"><span class="iucn i-${c}">${esc(c)}</span><div><b>${IUCN[c]}${pe?(pe[0].startsWith('PEW')?' (야생절멸 가능성)':' (절멸 가능성)'):''}</b>
+    <small>IUCN 적색목록 · ${d.group==='AVES'?'BirdLife (AviList v2026)':'GBIF'}</small></div></div>`;
+}
+// 분포: 지도(누르면 iNaturalist 관찰 지도) + 관찰 수 + 조류는 AviList 분포 설명
+function distCard(d){
+  if(!d.dist&&!d.range&&!(d.inat&&d.inat.observations))return '';
+  const to=d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:d.dist?`https://www.gbif.org/species/${d.dist.key}`:'';
+  return `<div class="card distcard"><h3>분포</h3>
+    ${d.dist?`<a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a>
+    <p class="distleg"><span class="sw m"></span>주요 기록국 ${d.dist.m.length}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>`:''}
+    ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
+    ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
+    ${d.dist?`<p class="src">지도: GBIF 나라별 출현 기록 ${d.dist.n.toLocaleString()}건(관찰·표본). 동물원·떠돌이 기록이 섞일 수 있습니다.</p>`:''}
+  </div>`;
+}
 function render(d){
   CUR=d;drawTree();
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
@@ -206,10 +236,7 @@ function render(d){
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
-  if(d.iucn){const c=d.iucn.split(' ')[0],pe=/PEW?\)/.exec(d.iucn);
-    if(IUCN[c])chips.push(`<span class="iucn i-${c}" title="IUCN 적색목록 ${esc(d.iucn)}${d.group==='AVES'?' (BirdLife, AviList v2026)':' (GBIF)'}">${esc(d.iucn)} · ${IUCN[c]}${pe?(pe[0].startsWith('PEW')?'(야생절멸 가능성)':'(절멸 가능성)'):''}</span>`)}
   if(d.kr)chips.push(`<span class="chip" title="한국양서파충류학회 2025 수록">${esc(d.kr)}</span>`);
-  if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
   if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);
   const ph=d.photos||[];
   const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
@@ -244,19 +271,14 @@ function render(d){
     ${gal}
     <div class="cols">
       <section class="prose"><h2>설명</h2>${desc}</section>
-      <aside class="side">
-        <div class="card"><h3>국명</h3>
-          <div class="big">${d.name?esc(d.name):'—'}</div>
-          <span class="st ${d.status}">${ST[d.status]||d.status}</span>
-          ${why}
-          ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${r[1].startsWith('<')?r[1]:esc(r[1])}</dd>`).join('')}</dl>`:''}
-        </div>
-        ${d.dist?`<div class="card distcard"><h3>분포</h3><a class="distmap" id="distmap" href="${d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:`https://www.gbif.org/species/${d.dist.key}`}" target="_blank" rel="noopener" title="${d.inat?'iNaturalist 관찰 지도 보기':'GBIF에서 보기'}" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a>
-          <p class="distleg"><span class="sw m"></span>주요 기록국 ${d.dist.m.length}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>
-          <p class="src">GBIF 나라별 출현 기록 ${d.dist.n.toLocaleString()}건 기준(관찰·표본). 동물원·떠돌이 기록이 섞일 수 있습니다. 지도를 누르면 ${d.inat?'iNaturalist':'GBIF'} 기록 지도로 갑니다.</p></div>`:''}
-        ${ssp}
-        <div class="card"><h3>더 보기</h3><ul class="links">${links.join('')}</ul></div>
-      </aside>
+      <div class="card namecard"><h3>국명</h3>
+        <div class="big">${d.name?esc(d.name):'—'}</div>
+        <span class="st ${d.status}">${ST[d.status]||d.status}</span>
+        ${why}
+        ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${r[1].startsWith('<')?r[1]:esc(r[1])}</dd>`).join('')}</dl>`:''}
+      </div>
+      <div class="distbox">${iucnCard(d)}${distCard(d)}</div>
+      <div class="more">${ssp}<div class="card"><h3>더 보기</h3><ul class="links">${links.join('')}</ul></div></div>
     </div>
     <div style="margin-top:28px">${pn(d)}</div>`;
   drawDist(d);
