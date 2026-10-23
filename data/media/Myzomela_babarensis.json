@@ -1,0 +1,84 @@
+{
+ "sci": "Myzomela babarensis",
+ "fetched": "2026-10-23",
+ "inat": {
+  "id": 1686966,
+  "name": "Myzomela babarensis",
+  "observations": 2,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Banda_myzomela",
+  "common": "Babar Myzomela"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594894613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC)",
+   "obs": 328310029,
+   "place": "Kabupaten Maluku Barat Daya, Maluku, ID",
+   "date": "2025-11-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331341784/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 189187590,
+   "place": "Tepa Mainland, Babar, Maluku, Indonesia",
+   "date": "2023-10-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433880425/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 243328846,
+   "place": "Babar Island, Maluku Barat Daya Regency, Maluku, Indonesia",
+   "date": "2011-10-31"
+  }
+ ],
+ "wiki": {
+  "title": "Banda myzomela",
+  "url": "https://en.wikipedia.org/wiki/Banda_myzomela",
+  "revision": 1379223820,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Banda myzomela (Myzomela boiei) is a bird species in the family Meliphagidae. It is endemic to Indonesia, and found in the Banda, Babar and the Tanimbar Islands. The two subspecies usually recognised are separated by 350 km (220 mi) of open sea."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The Banda myzomela was formally described in 1843 by the German naturalist Salomon Müller as Nectarinia (Myzomela) Boiei based on specimens collected on the Banda Islands. The specific epithet boiei was chosen to honour the memory of the German zoologist Heinrich Boie.",
+     "Two subspecies are recognised:",
+     "M. b. boiei (Müller, S, 1843) – found on the Banda Islands (eastern Lesser Sunda Islands)",
+     "M. b. annabellae Sclater, PL, 1883 – found on the islands of Yamdena and Selaru, Tanimbar Islands (eastern Lesser Sunda Islands)",
+     "In 2025, a study proposed that the two subspecies could be raised to the species level because of notable differences in plumage, size and song. The subspecies M. b. annabellae would be elevated to full species (Tanimbar myzomela M. annabellae), with the population on Babar also split as a new species, Babar myzomela Myzomela babarensis."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The species has sexual dimorphism. The male has a distinctive red head, neck, upper breast, and mantle, black eye ring, scapulars, and wings, a distinctive pointed beak and brown legs. The female is primarily brown, with an orange part underneath the also-pointed beak. The juveniles are not described. The subspecies M. b. annabellae differs from subspecies M. b. boiei in that the males have a white chest instead of a black one."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "Its natural habitats are subtropical or tropical moist lowland forests, subtropical or tropical mangrove forests, and subtropical or tropical moist montane forests. It is a possible nomadic species that changes its living place in the region and go foraging in twos (probably pairs), and sometimes in flocks. They have their eggs in September and the chicks fledge at April."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594894613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 594894613
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "sci": "Cyanoramphus hochstetteri",
+ "fetched": "2026-10-23",
+ "inat": {
+  "id": 144561,
+  "name": "Cyanoramphus hochstetteri",
+  "observations": 21,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Reischek's_parakeet",
+  "common": "Reischek's Parakeet"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667253631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 365465021,
+   "place": "Antipodes Island, New Zealand",
+   "date": "2025-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9214226/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Bendle, some rights reserved (CC BY-NC)",
+   "obs": 7154338,
+   "place": "Antipodes Islands",
+   "date": "2016-06-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601580659/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Oscar Thomas, some rights reserved (CC BY-NC)",
+   "obs": 331598357,
+   "place": "Antipodes Islands",
+   "date": "2025-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/413329095/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) photo_bug, some rights reserved (CC BY-NC)",
+   "obs": 232636729,
+   "place": "Antipodes Island, New Zealand",
+   "date": "2022-04-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178242961/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) rempson, some rights reserved (CC BY)",
+   "obs": 106134540,
+   "place": "New Zealand",
+   "date": "2021-12-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129028979/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Christopher Stephens, some rights reserved (CC BY-SA)",
+   "obs": 78819740,
+   "place": "New Zealand",
+   "date": "2021-03-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341157356/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Genevieve Early, some rights reserved (CC BY)",
+   "obs": 194131972,
+   "place": "New Zealand",
+   "date": "2023-12-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129022559/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Christopher Stephens, some rights reserved (CC BY-SA)",
+   "obs": 78819707,
+   "place": "Moutere Mahue / Antipodes Island Marine Reserve, NZ",
+   "date": "2021-03-15"
+  }
+ ],
+ "wiki": {
+  "title": "Reischek's parakeet",
+  "url": "https://en.wikipedia.org/wiki/Reischek%27s_parakeet",
+  "revision": 1269909120,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Reischek's parakeet (Cyanoramphus hochstetteri) is a small green parrot confined to 21 km2 (8.1 mi2) Antipodes Island, one of New Zealand’s subantarctic islands, which it shares with a congener, the larger Antipodes parakeet."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The common name commemorates pioneering naturalist and collector Andreas Reischek, who collected specimens of the parrot in 1888 and who named it Platycercus hochstetteri for the son of his friend, Austrian geologist Ferdinand von Hochstetter, who made a geological survey of New Zealand.",
+     "Reischek’s parakeet was previously considered to be a subspecies of the red-crowned parakeet C. novaezelandiae, which it resembles in appearance, but was later lumped with the Macquarie parakeet from Macquarie Island in a 2001 paper by Wee Ming Boon and others following an examination of the molecular systematics of the genus which found that many of the red-crowned parakeet subspecies should be elevated to full species.  However, subsequently the provenance of Boon et al.’s supposed Macquarie Island material was shown to be mistaken, originating from the Antipodes Islands instead."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Feeding",
+    "level": 3,
+    "paras": [
+     "Reischek’s parakeet feeds on tussock flowers, leaves, seeds, berries as well as invertebrates such as fly larvae in the guano of the penguin colonies.  It also scavenges on the carcasses of petrels and albatrosses."
+    ]
+   },
+   {
+    "h": "Conservation",
+    "level": 2,
+    "paras": [
+     "Though the population of Reischek's parakeet is healthy, its limited distribution makes it potentially vulnerable to events such as the accidental introduction of rodents to its island home.  On the New Zealand Threatened Species classification it is listed as ‘range restricted’."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387302822/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Mark Fraser",
+   "photo": 387302822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250518254/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dave Houston, some rights reserved (CC BY-NC), uploaded by Dave Houston",
+   "photo": 250518254
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9214226/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Bendle, some rights reserved (CC BY-NC), uploaded by Phil Bendle",
+   "photo": 9214226
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "sci": "Rhipidura laguceria",
+ "fetched": "2026-10-23",
+ "inat": {
+  "id": 1686960,
+  "name": "Rhipidura laguceria",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cheerful_fantail",
+  "common": "Cheerful Fantail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337787657/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 192423884,
+   "place": "Babar Island, Maluku Barat Daya Regency, Maluku, Indonesia",
+   "date": "2022-10-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446458577/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Kennewell, some rights reserved (CC BY-NC)",
+   "obs": 249721458,
+   "place": "Tepa, Babar Island, Maluku Barat Daya Regency, Maluku, Indonesia",
+   "date": "2024-10-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331344557/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 189188835,
+   "place": "Tepa Mainland, Babar, Maluku, Indonesia",
+   "date": "2023-10-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446534886/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martin Kennewell, some rights reserved (CC BY-NC)",
+   "obs": 249759816,
+   "place": "Maluku Tenggara Barat, ID-MA, ID",
+   "date": "2024-10-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594896616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC)",
+   "obs": 328310999,
+   "place": "Maluku Tenggara Barat, ID-MA, ID",
+   "date": "2025-11-26"
+  }
+ ],
+ "wiki": {
+  "title": "Cheerful fantail",
+  "url": "https://en.wikipedia.org/wiki/Cheerful_fantail",
+  "revision": 1375967023,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The cheerful fantail (Rhipidura laguceria) is a species of bird in the family Rhipiduridae. This species is one of 61 in the genus Rhipidura. It is endemic to the Babar Islands in the Banda Sea. It was described in 2026."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Rhipidura laguceria is a small fantail characterized by its dark brownish-olive upperparts and warm cinnamon-colored underparts. The forehead, crown, nape, ear-coverts, mantle, and back are uniformly dark brownish-olive, giving the species a darker appearance compared to its close relative, the cinnamon-tailed fantail (R. fuscorufa). A narrow and often inconspicuous white supercilium is present above the eye.",
+     "The throat is white, while the breast is whitish with faint brown scaling created by narrow brown feather margins. The underparts transition into a cinnamon-buff coloration across the belly, flanks, and vent. The wings are dark brownish-olive with cinnamon edging on the inner flight feathers and wing coverts, and the underwing coverts are cinnamon-colored.",
+     "The tail is distinctive, with the central feathers being dark brownish-gray and the outer feathers becoming more cinnamon-colored, with the outermost tail feathers being entirely cinnamon. The species averages approximately 85–87 mm in wing length and 85–93 mm in tail length."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "Rhipidura laguceria is endemic to the Babar Islands in Indonesia. So far the species has only been found on the main island of Babar, however it is possible that it occurs on the satellite islands of Dai, Dawelor, Dawera, Masela, and Wetang.",
+     "The species inhabits a variety of open and semi-open habitats. It is most commonly encountered in forest edges, clearings, glades, scrubland, and other disturbed environments. The species appears tolerant of habitat modification and is frequently found in areas containing scattered taller trees, including mango trees. Unlike many forest-dwelling passerines, it generally avoids closed-canopy forest and may even favor heavily altered habitats."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/594896616/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling",
+   "photo": 594896616
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331344557/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist",
+   "photo": 331344557
+  }
+ ]
+}
