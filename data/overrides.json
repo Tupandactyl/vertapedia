@@ -11,6 +11,7 @@
   "subspecies": [
     {"group": "AVES", "nibr_sci": "Anas carolinensis", "sci": "Anas crecca carolinensis", "parent": "Anas crecca", "note": "아종 단위 통합"},
     {"group": "AVES", "nibr_sci": "Larus heuglini", "sci": "Larus fuscus heuglini", "parent": "Larus fuscus", "note": "아종 단위 통합"},
+    {"group": "AVES", "nibr_sci": "Apus nipalensis", "sci": "Apus affinis nipalensis", "parent": "Apus affinis", "note": "아종 단위 통합 · AviList v2026에서 Apus affinis에 통합"},
     {"group": "AVES", "nibr_sci": "Carduelis hornemanni", "sci": "Acanthis flammea exilipes", "parent": "Acanthis flammea", "note": "아종 단위 통합 · 국내 기록 아종은 한국조류목록 2025 기준 exilipes"}
   ],
   "_파충류_목": "시트 과단위 번역의 Order 열 값 → [목, 아목]. 뱀은 유린목 아래 뱀아목, 도마뱀아목(Sauria·Lacertilia)은 측계통군이라 두지 않고 도마뱀 과들은 유린목 바로 아래에 둔다(편집자 결정 2026-10-15).",

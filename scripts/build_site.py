@@ -26,6 +26,7 @@ def load(name, default=None):
 
 names = load("names.json")
 ebird = load("ebird_codes.json", {})
+ebird.update(load("bird_codes.json", {}))  # AviList v2026 의 eBird 종 코드가 먼저
 ebird_ord = load("ebird_families.json", {})
 media = {}
 for f in (DATA / "media").glob("*.json"):

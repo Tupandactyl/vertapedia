@@ -1,6 +1,6 @@
 """속의 모식종(type species)을 받아 data/type_species.json 에 둔다 → {속: 모식종 학명}
 
-- 조류: AviList v2025 확장판(data/avilist2025.xlsx)의 Type_species_of_genus. 원래 조합(예: Corvus pica)으로
+- 조류: AviList v2026 확장판(data/avilist2026.xlsx)의 Type_species_of_genus. 원래 조합(예: Corvus pica)으로
   적혀 있으므로 종 행의 Protonym 으로 지금 학명(Pica pica)을 찾고, 옛 이명뿐이면 GBIF 학명 대조로 찾는다.
 - 파충류: Reptile Database 종 목록의 type_species 표시를 먼저 쓰고(scripts/rdb.py), 표시가 없는 속만
   1) Wikidata P427, 2) 영문 위키백과 속 문서 분류 상자의 type_species 칸에서 찾는다.
@@ -104,18 +104,27 @@ def main():
           "· 파충류(목록 표시 없는 속):", sum(1 for g in genera if out.get(g)), "/", len(genera))
 
 
-AVILIST = "https://www.avilist.org/wp-content/uploads/2025/06/AviList-v2025-11Jun-extended.xlsx"
+AVILIST = "https://www.avilist.org/wp-content/uploads/2026/10/AviList-v2026-20Oct2026-extended-version.xlsx"
+AVILIST_FILE = "avilist2026.xlsx"
+
+
+def avilist_index(h, keys):
+    """열 이름: v2025 「Taxon_rank·Scientific_name」, v2026 「RANK·SCIENTIFIC NAME」 둘 다 받는다"""
+    norm = lambda x: str(x or "").upper().replace("_", " ").strip()
+    alias = {"TAXON RANK": "RANK"}
+    hn = [norm(x) for x in h]
+    return {k: hn.index(alias.get(norm(k), norm(k))) for k in keys}
 
 
 def avilist_types(have, by_genus, birds):
     import openpyxl
-    f = DATA / "avilist2025.xlsx"
+    f = DATA / AVILIST_FILE
     if not f.exists():  # 저장소에는 올리지 않는다(8.8 MB)
         f.write_bytes(urllib.request.urlopen(urllib.request.Request(
-            AVILIST, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://www.avilist.org/checklist/v2025/"}), timeout=300).read())
-    rows = list(openpyxl.load_workbook(DATA / "avilist2025.xlsx", read_only=True).worksheets[0].iter_rows(values_only=True))
+            AVILIST, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://www.avilist.org/checklist/v2026/"}), timeout=300).read())
+    rows = list(openpyxl.load_workbook(DATA / AVILIST_FILE, read_only=True).worksheets[0].iter_rows(values_only=True))
     h = list(rows[0])
-    ix = {k: h.index(k) for k in ("Taxon_rank", "Scientific_name", "Type_species_of_genus", "Protonym")}
+    ix = avilist_index(h, ("Taxon_rank", "Scientific_name", "Type_species_of_genus", "Protonym"))
     proto = {}  # 원래 조합 → 지금 학명
     for r in rows[1:]:
         if r[ix["Taxon_rank"]] == "species" and r[ix["Protonym"]]:

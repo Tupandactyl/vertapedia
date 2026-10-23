@@ -95,13 +95,50 @@ def parse_nibr(pdf_path, first=155, last=215):
 FAM_RE = re.compile(r"^([A-Z][a-z]+idae)\b\s*(?:\(([^)]*)\))?")
 
 
+def parse_birds_v2026(title, rows):
+    """AviList v2026 형식 탭. 과단위 탭은 order·family 행, 나머지는 family·genus·species 행."""
+    h = [clean(c) for c in rows[0]]
+    col = lambda name: h.index(name) if name in h else None
+    i_rank, i_ord, i_fam = col("RANK"), col("ORDER"), col("FAMILY")
+    i_sci = col("SCIENTIFIC NAME")
+    i_en = col("ENGLISH NAME: AVILIST") if col("ENGLISH NAME: AVILIST") is not None else col("English common name(s)")
+    i_cons, i_why = col("명칭 제안"), col("해설")
+    props = {i: c.replace(" 제안", "") for i, c in enumerate(h) if c and c.endswith("제안") and c != "명칭 제안"}
+    out = []
+    for r in rows[1:]:
+        rank = (clean(cell(r, i_rank)) or "").lower()
+        if rank not in ("order", "family", "genus", "species", "subspecies"):
+            continue
+        sci = clean(cell(r, i_sci)) if i_sci is not None else None
+        if rank == "order":
+            sci = clean(cell(r, i_ord))
+        elif rank == "family" and not sci:
+            sci = clean(cell(r, i_fam))
+        if not sci:
+            continue
+        p = {props[i]: clean(cell(r, i)) for i in props if clean(cell(r, i))}
+        t = dict(group="AVES", rank=rank, sci=sci, en=clean(cell(r, i_en)), consensus=clean(cell(r, i_cons)),
+                 consensus_label="명칭 제안", proposals=p, rationale=clean(cell(r, i_why)), sheet=title)
+        if rank in ("family", "genus", "species", "subspecies"):
+            t["family"] = clean(cell(r, i_fam))
+            t["order"] = clean(cell(r, i_ord))
+        if rank == "family" and i_sci is not None:
+            t["from_header"] = True  # 과단위 탭이 따로 있으면 그쪽 이름을 쓴다
+        out.append(t)
+    return out
+
+
 def parse_birds(path):
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     taxa = []
-    skip = {"남극해 조류 번역", "남극해 조류 스플릿 정리", "캐나다 조류 번역", "상사조과"}
+    skip = {"남극해 조류 번역", "남극해 조류 스플릿 정리", "캐나다 조류 번역", "상사조과", "v2026 변경 대조"}
     for ws in wb.worksheets:
         rows = [r for r in ws.iter_rows(values_only=True) if any(c is not None for c in r)]
         if not rows:
+            continue
+        h0 = [clean(c) for c in rows[0]]
+        if h0 and h0[0] == "RANK":  # AviList v2026 형식(RANK·ORDER·FAMILY·SCIENTIFIC NAME·영명·명칭 제안·…제안·해설)
+            taxa += parse_birds_v2026(ws.title, rows)
             continue
         if ws.title == "과단위 번역":
             # 머리글이 한 칸씩 밀려 있다: 0 목 「Struthioniformes (타조목)」, 1 과 학명, 2 영명, 3 과 국명(합의), 4~ 개인 제안
@@ -152,7 +189,16 @@ def parse_birds(path):
                              en=clean(cell(r, 1)), consensus=clean(cell(r, cons_i)),
                              consensus_label=cons_label, proposals=p,
                              rationale=clean(cell(r, why_i)), sheet=ws.title))
-    return taxa
+    # 종 탭의 과 행(from_header)은 과단위 탭에 같은 과가 있으면 버린다
+    fams = {t["sci"] for t in taxa if t["rank"] == "family" and not t.get("from_header")}
+    seen, out = set(), []
+    for t in taxa:
+        if t["rank"] == "family" and t.get("from_header"):
+            if t["sci"] in fams or t["sci"] in seen:
+                continue
+            seen.add(t["sci"])
+        out.append(t)
+    return out
 
 
 # ---------- 파충류 시트 ----------
@@ -487,7 +533,7 @@ def main():
             continue
         m = manual.get(("AVES", k["sci"]))
         if m and m[0] == "ssp":  # IOC 종이 eBird에서는 아종으로 합쳐진 경우
-            add_ssp(m[1]["parent"], "AVES", dict(sci=m[1]["sci"], kos_ko=k["ko"]))
+            add_ssp(m[1]["parent"], "AVES", dict(sci=m[1]["sci"], kos_ko=k["ko"], note=m[1].get("note")))
             kos_rows.append(dict(kos_sci=k["sci"], ko=k["ko"], category=k["category"], held=k["held"],
                                  sheet_sci=m[1]["sci"], how="아종 단위 통합", candidates=[]))
             continue

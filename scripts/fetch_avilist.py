@@ -1,9 +1,10 @@
-"""AviList v2025 확장판에서 조류 종·속의 명명자와 연도를 뽑아 data/bird_authority.json 에 둔다 → {학명: "Gould, 1845"}
+"""AviList 확장판(v2026)에서 조류 종·속의 명명자와 연도를 뽑아 data/bird_authority.json 에 둔다 → {학명: "Gould, 1845"}
+eBird 종 코드(SPECIES CODE CORNELL LAB)도 data/bird_codes.json 에 둔다(eBird·Macaulay 링크용).
 
 - Authority 「Reichenow, A, 1883」 → 「Reichenow, 1883」 (이름 머리글자는 뺀다)
 - 원래 속에서 옮겨진 종의 괄호 「(Linnaeus, 1758)」는 AviList 표기를 그대로 둔다(국제동물명명규약 관례)
 - 우리 목록(eBird 학명)과 학명이 다르면 같은 속의 종소명(어간)으로 잇는다.
-AviList 원본(data/avilist2025.xlsx)은 저장소에 올리지 않는다(없으면 scripts/fetch_types.py 가 받는다).
+AviList 원본(data/avilist2026.xlsx)은 저장소에 올리지 않는다(없으면 scripts/fetch_types.py 가 받는다).
 
     python scripts/fetch_avilist.py
 """
@@ -13,7 +14,7 @@ from pathlib import Path
 
 import openpyxl
 
-from fetch_types import AVILIST, stem  # noqa: F401  (원본 주소는 fetch_types 와 같이 쓴다)
+from fetch_types import AVILIST, AVILIST_FILE, avilist_index, stem  # noqa: F401  (원본 주소는 fetch_types 와 같이 쓴다)
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 
@@ -44,9 +45,16 @@ def main():
     for s in ours:
         if " " in s:
             by_genus.setdefault(s.split()[0], []).append(s)
-    rows = list(openpyxl.load_workbook(DATA / "avilist2025.xlsx", read_only=True).worksheets[0].iter_rows(values_only=True))
+    rows = list(openpyxl.load_workbook(DATA / AVILIST_FILE, read_only=True).worksheets[0].iter_rows(values_only=True))
     h = list(rows[0])
-    ix = {k: h.index(k) for k in ("Taxon_rank", "Scientific_name", "Authority", "Protonym")}
+    ix = avilist_index(h, ("Taxon_rank", "Scientific_name", "Authority", "Protonym"))
+    try:
+        i_code = avilist_index(h, ("SPECIES CODE CORNELL LAB",))["SPECIES CODE CORNELL LAB"]
+    except ValueError:
+        i_code = None
+    codes = {r[ix["Scientific_name"]]: r[i_code] for r in rows[1:] if i_code is not None and r[i_code]
+             and r[ix["Taxon_rank"]] == "species"}
+    (DATA / "bird_codes.json").write_text(json.dumps(codes, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     out = {}
     for r in rows[1:]:
         rank, sci, auth = r[ix["Taxon_rank"]], r[ix["Scientific_name"]], r[ix["Authority"]]
