@@ -99,6 +99,18 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .hs{flex:1;max-width:320px;margin:0 12px}.hs input{width:100%;box-sizing:border-box;padding:7px 12px;border-radius:8px;border:1px solid var(--line,#3a4a40);background:transparent;color:inherit;font:inherit;font-size:14px}
 @media (max-width:640px){.top-in{flex-wrap:wrap}.hs{order:3;flex-basis:100%;max-width:none;margin:8px 0 0}}
 .memo{font-size:13px;color:var(--muted)}
+.distmap{display:block;cursor:pointer;border-radius:8px;overflow:hidden;background:var(--sea)}
+.distmap svg{display:block;width:100%;height:auto}
+.distmap .land{fill:var(--land);stroke:var(--sea);stroke-width:.3}
+.distmap .land.m{fill:var(--hab)}.distmap .land.r{fill:var(--hab-soft)}
+.distmap .sphere{fill:none;stroke:var(--line);stroke-width:.8}
+.distmap:hover .sphere{stroke:var(--moss);stroke-width:1.5}
+.distleg{font-size:12px;color:var(--muted);margin:8px 0 2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.distleg .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-left:6px}
+.distleg .sw.m{background:var(--hab)}.distleg .sw.r{background:var(--hab-soft)}
+:root{--sea:#dce6ea;--land:#b9c4bd;--hab:#e8a317;--hab-soft:#cfcca8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440}}
+:root[data-theme="dark"]{--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440}
 </style>
 <body>
 <header class="top"><div class="top-in">
@@ -159,6 +171,28 @@ function setPanel(on){
 }
 document.getElementById('paneltog').onclick=()=>setPanel(!OPEN);
 function drawTree(){if(OPEN&&TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
+// 분포 지도: 몰바이데 도법, 동아시아(동경 130°)를 가운데. 라이브러리와 세계지도는 처음 쓸 때 받는다.
+let GEO=null;
+const loadJs=src=>new Promise((ok,no)=>{const x=document.createElement('script');x.src=src;x.onload=ok;x.onerror=no;document.head.appendChild(x)});
+async function geo(){
+  if(GEO)return GEO;
+  if(!window.d3)await loadJs('https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js');
+  if(!d3.geoMollweide)await loadJs('https://cdn.jsdelivr.net/npm/d3-geo-projection@4/dist/d3-geo-projection.min.js');
+  if(!window.topojson)await loadJs('https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js');
+  const [world,iso]=await Promise.all([fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(r=>r.json()),fetch('data/iso2num.json').then(r=>r.json())]);
+  return GEO={land:topojson.feature(world,world.objects.countries).features,iso};
+}
+async function drawDist(d){
+  const box=document.getElementById('distmap');if(!box||!d.dist)return;
+  try{
+    const {land,iso}=await geo();
+    const num=a=>new Set(a.map(c=>String(iso[c]||'').replace(/^0+/,'')));
+    const M=num(d.dist.m),R=num(d.dist.r);
+    const W=360,H=180,proj=d3.geoMollweide().rotate([-130,0]).fitExtent([[2,2],[W-2,H-2]],{type:'Sphere'}),path=d3.geoPath(proj);
+    const id=f=>String(f.id||'').replace(/^0+/,'');
+    box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.name)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
+  }catch(e){box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
+}
 function render(d){
   CUR=d;drawTree();
   document.title=`${d.name||d.en||d.sci} · Vertapedia`;
@@ -211,11 +245,15 @@ function render(d){
           ${why}
           ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${r[1].startsWith('<')?r[1]:esc(r[1])}</dd>`).join('')}</dl>`:''}
         </div>
+        ${d.dist?`<div class="card distcard"><h3>분포</h3><a class="distmap" id="distmap" href="${d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:`https://www.gbif.org/species/${d.dist.key}`}" target="_blank" rel="noopener" title="${d.inat?'iNaturalist 관찰 지도 보기':'GBIF에서 보기'}" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a>
+          <p class="distleg"><span class="sw m"></span>주요 기록국 ${d.dist.m.length}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>
+          <p class="src">GBIF 나라별 출현 기록 ${d.dist.n.toLocaleString()}건 기준(관찰·표본). 동물원·떠돌이 기록이 섞일 수 있습니다. 지도를 누르면 ${d.inat?'iNaturalist':'GBIF'} 기록 지도로 갑니다.</p></div>`:''}
         ${ssp}
         <div class="card"><h3>더 보기</h3><ul class="links">${links.join('')}</ul></div>
       </aside>
     </div>
     <div style="margin-top:28px">${pn(d)}</div>`;
+  drawDist(d);
 }
 function load(){
   const sci=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');

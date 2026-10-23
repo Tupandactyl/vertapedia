@@ -25,6 +25,21 @@ def load(name, default=None):
 
 
 names = load("names.json")
+dist = load("distribution.json", {})  # GBIF 나라별 기록 수 (scripts/fetch_distribution.py)
+
+
+def dist_of(sci):
+    """주요 기록국(전체의 0.2% 이상·3건 이상)과 드문 기록국. ZZ(나라 모름)는 뺀다."""
+    d = dist.get(sci)
+    if not d or not d.get("c"):
+        return None
+    c = {k: v for k, v in d["c"].items() if k != "ZZ"}
+    tot = sum(c.values()) or 1
+    major = sorted(k for k, v in c.items() if v >= 3 and v / tot >= 0.002)
+    rare = sorted(k for k in c if k not in major)
+    return dict(m=major, r=rare, n=tot, key=d.get("key"))
+
+
 ebird = load("ebird_codes.json", {})
 ebird.update(load("bird_codes.json", {}))  # AviList v2026 의 eBird 종 코드가 먼저
 ebird_ord = load("ebird_families.json", {})
@@ -203,6 +218,7 @@ for g, lst in seq.items():
             refs=dict(official=None,  # 국가생물종목록은 쓰지 않는다
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
+            dist=dist_of(t["sci"]),
             inat=m.get("inat"), photos=pics(m), wiki=wiki_of(t, m), fetched=m.get("fetched"),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
@@ -242,6 +258,9 @@ for g, lst in fam_seq.items():
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         (SITE / "fam" / fname(f["sci"])).write_text(dump(rec), encoding="utf-8")
+
+# --- 분포 지도용 나라 코드 표(GBIF 두 글자 → 세계지도 숫자) ---
+shutil.copy(DATA / "iso2num.json", SITE / "data" / "iso2num.json")
 
 # --- 페이지 ---
 stats = {g: dict(total=len(seq[g]), named=sum(1 for t in seq[g] if t.get("name")),
