@@ -111,6 +111,9 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 :root{--sea:#dce6ea;--land:#b9c4bd;--hab:#e8a317;--hab-soft:#cfcca8}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440}}
 :root[data-theme="dark"]{--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440}
+.iucn{display:inline-flex;align-items:center;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:999px;color:#fff;background:#6b7a72}
+.iucn.i-LC{background:#3b8a5a}.iucn.i-NT{background:#7d9a2e}.iucn.i-VU{background:#c79a12;color:#1d1d1d}.iucn.i-EN{background:#d9701c}
+.iucn.i-CR{background:#c8352b}.iucn.i-EW{background:#5e2a6e}.iucn.i-EX{background:#222}.iucn.i-DD{background:#8a8f8c}
 </style>
 <body>
 <header class="top"><div class="top-in">
@@ -138,6 +141,7 @@ function nmHtml(x,self){
 }
 const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
+const IUCN={EX:'절멸',EW:'야생절멸',CR:'위급',EN:'위기',VU:'취약',NT:'준위협',LC:'관심대상',DD:'정보부족',NE:'미평가'};
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
 const credit=p=>{
@@ -202,6 +206,8 @@ function render(d){
   const chips=[];
   if(d.name&&d.en)chips.push(`<span class="chip">${esc(d.en)}</span>`);
   if(d.kos&&d.kos.category)chips.push(`<span class="chip">${esc(KOS[d.kos.category]||d.kos.category)}</span>`);
+  if(d.iucn){const c=d.iucn.split(' ')[0],pe=/PEW?\)/.exec(d.iucn);
+    if(IUCN[c])chips.push(`<span class="iucn i-${c}" title="IUCN 적색목록 ${esc(d.iucn)}${d.group==='AVES'?' (BirdLife, AviList v2026)':' (GBIF)'}">${esc(d.iucn)} · ${IUCN[c]}${pe?(pe[0].startsWith('PEW')?'(야생절멸 가능성)':'(절멸 가능성)'):''}</span>`)}
   if(d.kr)chips.push(`<span class="chip" title="한국양서파충류학회 2025 수록">${esc(d.kr)}</span>`);
   if(d.inat&&d.inat.observations)chips.push(`<span class="chip">iNaturalist 관찰 ${d.inat.observations.toLocaleString()}건</span>`);
   if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);

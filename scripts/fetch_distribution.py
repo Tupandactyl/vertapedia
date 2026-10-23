@@ -1,4 +1,5 @@
-"""종마다 나라별 기록 수를 GBIF에서 받아 data/distribution.json 에 둔다 → {학명: {"key": GBIF키, "n": 전체, "c": {나라코드: 기록 수}}}
+"""종마다 나라별 기록 수를 GBIF에서 받아 data/distribution.json 에 둔다
+→ {학명: {"key": GBIF키, "n": 전체, "c": {나라코드: 기록 수}, "iucn": IUCN 등급}}
 
 - GBIF 학명 대조(species/match, 조강·파충강으로 좁힘)로 키를 찾고, 그 키(하위 아종 포함)의 출현 기록을
   나라별로 센다(occurrence/search facet=country). 조류는 eBird 관찰 자료가 GBIF에 들어가 있어 촘촘하다.
@@ -48,13 +49,26 @@ def one(t):
     if d is None:
         return sci, None
     facets = (d.get("facets") or [{}])[0].get("counts", [])
-    return sci, dict(key=key, n=d.get("count", 0), c={f["name"]: f["count"] for f in facets})
+    return sci, dict(key=key, n=d.get("count", 0), c={f["name"]: f["count"] for f in facets}, iucn=iucn(key))
+
+
+def iucn(key):
+    """GBIF 가 IUCN 적색목록에서 가져온 등급(LC·NT·VU·EN·CR·EW·EX·DD). 없으면 None"""
+    r = get(f"https://api.gbif.org/v1/species/{key}/iucnRedListCategory", {})
+    return (r or {}).get("code")
 
 
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
     out = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    # 예전에 받은 기록에 IUCN 등급이 없으면 등급만 채운다
+    old = [s for s, v in out.items() if v and "iucn" not in v]
+    if old:
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            for s, code in zip(old, ex.map(lambda s: iucn(out[s]["key"]), old)):
+                out[s]["iucn"] = code
+        print("IUCN 등급 채움:", len(old), flush=True)
     todo = [t for t in names if t["rank"] == "species" and t["sci"] not in out]
     # 국명 있는 종부터
     todo.sort(key=lambda t: (not t.get("name"), t["group"] != "AVES"))

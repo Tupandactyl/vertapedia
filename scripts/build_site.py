@@ -25,7 +25,8 @@ def load(name, default=None):
 
 
 names = load("names.json")
-dist = load("distribution.json", {})  # GBIF 나라별 기록 수 (scripts/fetch_distribution.py)
+dist = load("distribution.json", {})
+bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파충류는 distribution.json 의 GBIF 값  # GBIF 나라별 기록 수 (scripts/fetch_distribution.py)
 
 
 def dist_of(sci):
@@ -219,6 +220,7 @@ for g, lst in seq.items():
                       moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
             dist=dist_of(t["sci"]),
+            iucn=(bird_iucn.get(t["sci"]) if g == "AVES" else None) or (dist.get(t["sci"]) or {}).get("iucn"),
             inat=m.get("inat"), photos=pics(m), wiki=wiki_of(t, m), fetched=m.get("fetched"),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
