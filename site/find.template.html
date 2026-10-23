@@ -74,7 +74,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
   <div class="stats" id="stats"></div>
 
   <div class="search">
-    <input id="q" type="search" placeholder="국명·학명·영명·초성 (예: 두견이, ㄲㅊ, Gekko)" autocomplete="off">
+    <input id="q" type="search" placeholder="국명·학명·영명·초성 (예: 두견이, ㄷㄹㅁ, Gekko)" autocomplete="off">
     <div class="seg" role="group" aria-label="동물군">
       <button aria-pressed="true" data-g="">전체</button><button aria-pressed="false" data-g="A">조류</button><button aria-pressed="false" data-g="R">파충류</button>
     </div>
@@ -101,7 +101,7 @@ document.getElementById('stats').innerHTML=`<span>조류 <b>${s.AVES.total.toLoc
 document.getElementById('built').textContent=`마지막 갱신: ${META.built}`;
 // 공백·하이픈·아포스트로피·마침표 등을 지우고 비교한다: red tailed = red-tailed = redtailed, Blyth's = Blyths
 const key=t=>(t||'').toLowerCase().replace(/[\s\-‐-―'’.,()]+/g,'');
-// 초성: 까치 → ㄲㅊ
+// 초성: 두루미 → ㄷㄹㅁ
 const CHO='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ';
 const cho=t=>[...(t||'')].map(c=>{const n=c.charCodeAt(0)-0xAC00;return n>=0&&n<11172?CHO[Math.floor(n/588)]:c}).join('');
 const isCho=t=>/^[ㄱ-ㅎ]+$/.test(t);
@@ -151,7 +151,7 @@ function render(){
       <div class="sci"><span class="rk">${RK[rk]}</span>${esc(sci)}${name&&en?` · <span style="font-style:normal">${esc(en)}</span>`:''}</div>
       ${fam&&rk!=='f'?`<div class="meta">${famKo?esc(famKo)+' ':''}${esc(fam)}</div>`:''}
       ${ssp?`<div class="ssp">${ssp.map(x=>`<span><i>${esc(x[0])}</i> ${esc(x[1])}${x[2]?` (${esc(x[2].split(' · ')[0])})`:''}</span>`).join('')}</div>`:''}</li>`;
-  }).join(''):'<li class="empty">찾는 이름이 없습니다. 학명이나 영명, 초성(예: ㄲㅊ)으로도 찾아보세요.</li>';
+  }).join(''):'<li class="empty">찾는 이름이 없습니다. 학명이나 영명, 초성(예: ㄷㄹㅁ)으로도 찾아보세요.</li>';
   document.getElementById('more').hidden=hits.length<=limit;
 }
 fetch('data/tree.json').then(r=>r.json()).then(d=>{TREE=d;if(!key(q))render()});
