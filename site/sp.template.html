@@ -227,7 +227,7 @@ const IUCN_EN={EX:'Extinct',EW:'Extinct in the Wild',CR:'Critically Endangered',
 function iucnCard(d){
   if(!d.iucn)return '';
   const c=d.iucn.split(' ')[0],pe=/PEW?\)/.exec(d.iucn);
-  if(!IUCN[c])return '';
+  if(!IUCN[c]||c==='NE')return '';  // 미평가는 칸을 띄우지 않는다
   const scale=['LC','NT','VU','EN','CR','EW','EX'];
   const peTxt=pe?(pe[0].startsWith('PEW')?' · 야생절멸 가능성':' · 절멸 가능성'):'';
   return `<div class="card iucncard"><h3 class="iucnh">보전 현황 <span>Conservation status</span></h3>
