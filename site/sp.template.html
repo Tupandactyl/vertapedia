@@ -101,15 +101,15 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .distmap{display:block;cursor:pointer;border-radius:8px;overflow:hidden;background:var(--sea)}
 .distmap svg{display:block;width:100%;height:auto}
 .distmap .land{fill:var(--land);stroke:var(--sea);stroke-width:.3}
-.distmap .land.m{fill:var(--hab)}.distmap .land.r{fill:var(--hab-soft)}
+.distmap .land.m{fill:var(--hab)}.distmap .land.i{fill:var(--intro)}.distmap .land.r{fill:var(--hab-soft)}
 .distmap .sphere{fill:none;stroke:var(--line);stroke-width:.8}
 .distmap:hover .sphere{stroke:var(--moss);stroke-width:1.5}
 .distleg{font-size:12px;color:var(--muted);margin:8px 0 2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .distleg .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-left:6px}
-.distleg .sw.m{background:var(--hab)}.distleg .sw.r{background:var(--hab-soft)}
-:root{--sea:#dce6ea;--land:#b9c4bd;--hab:#e8a317;--hab-soft:#cfcca8}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440}}
-:root[data-theme="dark"]{--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440}
+.distleg .sw.m{background:var(--hab)}.distleg .sw.i{background:var(--intro)}.distleg .sw.r{background:var(--hab-soft)}
+:root{--sea:#dce6ea;--land:#b9c4bd;--hab:#e8a317;--hab-soft:#cfcca8;--intro:#2a9d8f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440;--intro:#4fd1c5}}
+:root[data-theme="dark"]{--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440;--intro:#4fd1c5}
 .iucn{display:inline-flex;align-items:center;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:999px;color:#fff;background:#6b7a72}
 .iucn.i-LC{background:#3b8a5a}.iucn.i-NT{background:#7d9a2e}.iucn.i-VU{background:#c79a12;color:#1d1d1d}.iucn.i-EN{background:#d9701c}
 .iucn.i-CR{background:#c8352b}.iucn.i-EW{background:#5e2a6e}.iucn.i-EX{background:#222}.iucn.i-DD{background:#8a8f8c}
@@ -216,10 +216,10 @@ async function drawDist(d){
   try{
     const {land,iso}=await geo();
     const num=a=>new Set(a.map(c=>String(iso[c]||'').replace(/^0+/,'')));
-    const M=num(d.dist.m),R=num(d.dist.r);
+    const M=num(d.dist.m),I=num(d.dist.i||[]),R=num(d.dist.r);
     const W=360,H=180,proj=d3.geoMollweide().rotate([-130,0]).fitExtent([[2,2],[W-2,H-2]],{type:'Sphere'}),path=d3.geoPath(proj);
     const id=f=>String(f.id||'').replace(/^0+/,'');
-    box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.name)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
+    box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':I.has(id(f))?' i':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.name)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
   }catch(e){box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
 }
 // IUCN 적색목록: LC~EX 일곱 칸 가운데 해당 등급만 진하게, 아래에 등급 이름
@@ -242,10 +242,10 @@ function distCard(d){
   const to=d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:d.dist?`https://www.gbif.org/species/${d.dist.key}`:'';
   return `<div class="card distcard"><h3>분포</h3>
     ${d.dist?`<a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a>
-    <p class="distleg"><span class="sw m"></span>서식국 ${d.dist.m.length}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>`:''}
+    <p class="distleg"><span class="sw m"></span>서식국 ${d.dist.m.length}${d.dist.i&&d.dist.i.length?`<span class="sw i"></span>도입 정착 ${d.dist.i.length}`:''}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>`:''}
     ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
     ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
-    ${d.dist?`<p class="src">지도: GBIF ${d.dist.wild?'야생 기록(eBird·iNaturalist 연구등급·표본)':'나라별 출현 기록'} ${d.dist.n.toLocaleString()}건. 진한 곳은 서식지와 야생에 정착한 도입지, 옅은 곳은 드문 기록(떠돌이·사육·오류)입니다.</p>`:''}
+    ${d.dist?`<p class="src">지도: GBIF ${d.dist.wild?'야생 기록(eBird·iNaturalist 연구등급·표본)':'나라별 출현 기록'} ${d.dist.n.toLocaleString()}건. 노란 곳은 서식지, 청록은 야생에 정착한 도입지(iNaturalist 도입 표시), 옅은 곳은 드문 기록(떠돌이·사육·오류)입니다.</p>`:''}
   </div>`;
 }
 function render(d){

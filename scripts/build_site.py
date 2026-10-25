@@ -45,7 +45,8 @@ bird_range = load("bird_range.json", {})  # 조류 분포 설명(AviList v2026 R
 bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파충류는 distribution.json 의 GBIF 값  # GBIF 나라별 기록 수 (scripts/fetch_distribution.py)
 
 
-GEO = load("geo.json", {"neighbours": {}, "subregion": {}})  # GeoNames 이웃 나라, UN 소지역
+GEO = load("geo.json", {"neighbours": {}, "subregion": {}})
+estab = load("establishment.json", {})  # iNaturalist 나라별 토착/도입 표시 (scripts/fetch_establishment.py)  # GeoNames 이웃 나라, UN 소지역
 
 
 def dist_of(sci):
@@ -75,7 +76,11 @@ def dist_of(sci):
                 major.add(k)
                 grew = True
     rare = sorted(k for k in c if k not in major)
-    return dict(m=sorted(major), r=rare, n=tot, key=d.get("key"), wild=bool(d.get("w")))
+    # 서식국 가운데 iNaturalist 가 도입으로 표시한 나라 = 도입 정착지(다른 색). 기록이 가장 많은 나라는 빼지 않는다
+    intro = set((estab.get(sci) or {}).get("introduced", [])) & major
+    if intro == major:  # 전부 도입이면(표시 오류) 쓰지 않는다
+        intro = set()
+    return dict(m=sorted(major - intro), i=sorted(intro), r=rare, n=tot, key=d.get("key"), wild=bool(d.get("w")))
 
 
 ebird = load("ebird_codes.json", {})
