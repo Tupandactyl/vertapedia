@@ -118,7 +118,9 @@ function near1(a,b){
 function score(r,k){
   const n=r._n,sc=key(r[2]),en=key(r[4]);
   if(n===k||sc===k||en===k)return 0;
+  if(r._a.some(a=>a===k))return 0.5;  // 환경부 지정명·국내 유통명·아종 국명이 정확히 같음
   if(n&&n.startsWith(k))return 1;
+  if(r._a.some(a=>a.startsWith(k)))return 1.5;
   if(sc.startsWith(k)||en.startsWith(k))return 2;
   if(r._w.some(w=>w.startsWith(k)))return 3;
   if(r._k.includes(k))return 4;
@@ -145,11 +147,13 @@ function render(){
   document.getElementById('count').textContent=`${hits.length.toLocaleString()}건`;
   const list=hits.slice(0,limit);
   document.getElementById('res').innerHTML=list.length?list.map(r=>{
-    const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic]=r;
+    const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic,alias]=r;
+    const hitAlias=(alias||[]).filter(x=>key(x[1]).includes(k));
     const label=name?`<span class="nm">${esc(name)}</span>`:`<span class="nm en">${esc(en||sci)}</span>`;
     const title=rk==='s'?`<a class="go" href="sp.html#${esc(sci.replace(/ /g,'_'))}">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:rk==='f'?`<a class="go" href="fam.html#${esc(sci)}">${label}</a>`:label;
     return `<li><div>${title}</div><span class="st ${st}">${ST[st]||st}</span>
       <div class="sci"><span class="rk">${RK[rk]}</span>${esc(sci)}${name&&en?` · <span style="font-style:normal">${esc(en)}</span>`:''}</div>
+      ${hitAlias.length?`<div class="meta">${hitAlias.map(x=>`${x[0]}: <b>${esc(x[1])}</b>`).join(' · ')}</div>`:''}
       ${fam&&rk!=='f'?`<div class="meta">${famKo?esc(famKo)+' ':''}${esc(fam)}</div>`:''}
       ${ssp?`<div class="ssp">${ssp.map(x=>`<span><i>${esc(x[0])}</i> ${esc(x[1])}${x[2]?` (${esc(x[2].split(' · ')[0])})`:''}</span>`).join('')}</div>`:''}</li>`;
   }).join(''):'<li class="empty">찾는 이름이 없습니다. 학명이나 영명, 초성(예: ㄷㄹㅁ)으로도 찾아보세요.</li>';
@@ -158,7 +162,9 @@ function render(){
 fetch('data/tree.json').then(r=>r.json()).then(d=>{TREE=d;if(!key(q))render()});
 fetch('data/names.min.json').then(r=>r.json()).then(d=>{
   rows=d.map(r=>Object.assign(r,{_n:key(r[3]),_k:key([r[3],r[2],r[4]].join(' '))+key((r[7]||[]).map(x=>x[1]+x[0]).join('')),
-    _w:[r[2],r[4]].join(' ').toLowerCase().split(/[\s\-']+/).filter(Boolean),_c:cho(key(r[3]))}));
+    _w:[r[2],r[4]].join(' ').toLowerCase().split(/[\s\-']+/).filter(Boolean),_c:cho(key(r[3])),
+    _a:[...(r[10]||[]).map(x=>key(x[1])),...(r[7]||[]).map(x=>key(x[1]))].filter(Boolean)}));
+  rows.forEach(r=>{r._k+=r._a.join('|');r._c+='|'+(r[10]||[]).map(x=>cho(key(x[1]))).join('|')});
   render();
 }).catch(()=>{document.getElementById('count').textContent='목록을 불러오지 못했습니다. 새로고침해 주세요.'});
 const q0=new URLSearchParams(location.search).get('q');

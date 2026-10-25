@@ -187,8 +187,12 @@ for t in names:
     ssp = [[s["sci"], s.get("ko"), s.get("note")] for s in t.get("subspecies", []) if s.get("ko")]
     fam = families.get((t["group"], t.get("family")))
     rk = "u" if t["rank"] == "suborder" else t["rank"][0]
+    # 별칭: 환경부 지정명·국내 유통명(정식 국명과 다를 때만)
+    alias = [[label, v] for label, v in (("환경부 지정명", t.get("moe")), ("국내 유통명", t.get("trade")))
+             if v and v not in ("-", t.get("name"))]
     rows.append([G[t["group"]], rk, t["sci"], t.get("name"), t.get("en"),
-                 t["status"], t.get("family"), ssp or None, (fam or {}).get("name"), 1 if has_pic(t["sci"]) else 0])
+                 t["status"], t.get("family"), ssp or None, (fam or {}).get("name"), 1 if has_pic(t["sci"]) else 0,
+                 alias or None])
 (SITE / "data" / "names.min.json").write_text(dump(rows), encoding="utf-8")
 
 # --- 첫 화면에 띄울 종 ---
