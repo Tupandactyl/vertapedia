@@ -98,7 +98,7 @@
         var alias = byLabel("국내 유통명").concat(byLabel("환경부 지정명"), (r[7] || []).map(function (x) { return ["아종", x[1]]; }))
           .filter(function (x) { return x[1] && key(x[1]).indexOf(k) >= 0 && key(r[3]).indexOf(k) < 0; })[0];
         return '<li role="option"><a href="' + href(r) + '" data-i="' + i + '"><span class="rk">' + RK[r[1]] + "</span><b>" +
-          esc(r[3] || r[4] || r[2]) + "</b>" + (alias ? '<span class="al">' + esc(alias[0]) + " " + esc(alias[1]) + "</span>" : "") +
+          esc(r[3] || r[4] || r[2]) + "</b>" + (alias ? '<span class="al">' + esc(alias[1]) + "</span>" : "") +
           '<span class="s">' + esc(r[2]) + "</span></a></li>";
       }).join("");
       box.hidden = false;
