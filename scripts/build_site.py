@@ -13,6 +13,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from ko_link import Linker
+import distrule
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -50,37 +51,19 @@ estab = load("establishment.json", {})  # iNaturalist 나라별 토착/도입 �
 
 
 def dist_of(sci):
-    """서식국(진하게)과 드문 기록국(옅게).
-    - 야생 출처(eBird·iNaturalist 연구등급·표본) 나라별 기록 w 가 있으면 그것을 쓴다(동물원 기록 제외)
-    - 출발: 기록이 가장 많은 나라, 그리고 10% 이상이거나 30건·0.5% 이상인 나라(떨어진 정착지 포함)
-    - 넓히기: 서식국과 국경을 맞대거나 같은 소지역이고 0.2% 이상·3건 이상이면 서식국(서식국이 늘면 다시 확인)
-    - 그 밖은 드문 기록(동물원·떠돌이·오류)"""
+    """서식국(노랑)·도입 정착지(청록)·드문 기록(옅게). 판정 규칙은 scripts/distrule.py"""
     d = dist.get(sci)
-    if not d:
+    c = distrule.counts(d)
+    if not c:
         return None
-    c = {k: v for k, v in (d.get("w") or d.get("c") or {}).items() if k != "ZZ" and v > 0}
-    tot = sum(c.values())
-    if not tot:
-        return None
-    nb, sub = GEO["neighbours"], GEO["subregion"]
-    major = {max(c, key=c.get)}
-    near = lambda k: any(k in nb.get(a, []) or a in nb.get(k, []) or (sub.get(k) and sub.get(k) == sub.get(a)) for a in major)
-    share = lambda k: c[k] / tot
-    # 떨어진 곳이라도 아주 많거나(10%) 꽤 많은(30건·0.5%) 곳은 서식지·정착지
-    major |= {k for k in c if share(k) >= 0.10 or (c[k] >= 30 and share(k) >= 0.005)}
-    grew = True
-    while grew:  # 이어진 곳(이웃·같은 소지역)으로 넓힌다
-        grew = False
-        for k in c:
-            if k not in major and c[k] >= 3 and share(k) >= 0.002 and near(k):
-                major.add(k)
-                grew = True
+    major = distrule.habitat(c, GEO)
+    e = estab.get(sci) or {}
+    intro_flag, native_flag = set(e.get("introduced", [])), set(e.get("native", []))
+    home = distrule.home_range(major, c, intro_flag, native_flag, GEO)
+    intro = (major - home) & intro_flag
     rare = sorted(k for k in c if k not in major)
-    # 서식국 가운데 iNaturalist 가 도입으로 표시한 나라 = 도입 정착지(다른 색). 기록이 가장 많은 나라는 빼지 않는다
-    intro = set((estab.get(sci) or {}).get("introduced", [])) & major
-    if intro == major:  # 전부 도입이면(표시 오류) 쓰지 않는다
-        intro = set()
-    return dict(m=sorted(major - intro), i=sorted(intro), r=rare, n=tot, key=d.get("key"), wild=bool(d.get("w")))
+    return dict(m=sorted(major - intro), i=sorted(intro), r=rare, n=sum(c.values()), key=d.get("key"),
+                wild=bool(d.get("w")))
 
 
 ebird = load("ebird_codes.json", {})
