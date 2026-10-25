@@ -1,5 +1,6 @@
 """AviList 확장판(v2026)에서 조류 종·속의 명명자와 연도를 뽑아 data/bird_authority.json 에 둔다 → {학명: "Gould, 1845"}
 eBird 종 코드(SPECIES CODE CORNELL LAB)도 data/bird_codes.json 에 둔다(eBird·Macaulay 링크용).
+아종 목록은 data/bird_subspecies.json, 분포 설명은 bird_range.json, IUCN 등급은 bird_iucn.json.
 
 - Authority 「Reichenow, A, 1883」 → 「Reichenow, 1883」 (이름 머리글자는 뺀다)
 - 원래 속에서 옮겨진 종의 괄호 「(Linnaeus, 1758)」는 AviList 표기를 그대로 둔다(국제동물명명규약 관례)
@@ -55,6 +56,13 @@ def main():
     codes = {r[ix["Scientific_name"]]: r[i_code] for r in rows[1:] if i_code is not None and r[i_code]
              and r[ix["Taxon_rank"]] == "species"}
     (DATA / "bird_codes.json").write_text(json.dumps(codes, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    # 아종 목록 → {종 학명: [[아종 학명, 명명자], …]}
+    ssp = {}
+    for r in rows[1:]:
+        if r[ix["Taxon_rank"]] == "subspecies" and r[ix["Scientific_name"]]:
+            sci = str(r[ix["Scientific_name"]]).strip()
+            ssp.setdefault(" ".join(sci.split()[:2]), []).append([sci, clean_author(r[ix["Authority"]]) if r[ix["Authority"]] else None])
+    (DATA / "bird_subspecies.json").write_text(json.dumps(ssp, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # 분포 설명(RANGE, 영문)
     try:
         i_rng = avilist_index(h, ("RANGE",))["RANGE"]

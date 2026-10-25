@@ -26,6 +26,21 @@ def load(name, default=None):
 
 names = load("names.json")
 dist = load("distribution.json", {})
+bird_ssp = load("bird_subspecies.json", {})  # 조류 아종 목록(AviList v2026)
+
+
+def subspecies_of(t):
+    """아종 목록. 조류는 AviList 아종 전체에 한국조류목록 등의 국명을 붙이고, 국내 도래(국명 있는) 아종을 맨 위에,
+    나머지는 알파벳 순서로 둔다. 파충류는 Reptile Database 아종 목록."""
+    have = {s["sci"]: s for s in t.get("subspecies", [])}
+    if t["group"] != "AVES":
+        return list(t.get("subspecies", []))
+    out = [dict(have.get(sci, {}), sci=sci, author=au or have.get(sci, {}).get("author")) for sci, au in bird_ssp.get(t["sci"], [])]
+    seen = {x["sci"] for x in out}
+    out += [s for s in t.get("subspecies", []) if s["sci"] not in seen and s.get("ko")]  # AviList에 없는 국명 아종(통합 등)
+    return sorted(out, key=lambda x: (not x.get("ko"), x["sci"]))
+
+
 bird_range = load("bird_range.json", {})  # 조류 분포 설명(AviList v2026 RANGE, 영문)
 bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파충류는 distribution.json 의 GBIF 값  # GBIF 나라별 기록 수 (scripts/fetch_distribution.py)
 
@@ -240,7 +255,7 @@ for g, lst in seq.items():
             genus=dict(taxon(genera, g, t["sci"].split()[0]), type=type_of.get((g, t["sci"].split()[0]))),
             type_species=type_of.get((g, t["sci"].split()[0])) == t["sci"],
             subfamily=taxon(subfams, g, sub_of.get((g, t["sci"].split()[0]))),
-            subspecies=[s for s in t.get("subspecies", []) if s.get("ko") or t["group"] == "REPTILIA"],
+            subspecies=subspecies_of(t),
             kos=dict(category=t["kos"].get("category")) if t.get("kos") else None, kr=t.get("kr"),
             refs=dict(official=None,  # 국가생물종목록은 쓰지 않는다
                       moe=t.get("moe"), trade=t.get("trade")),
