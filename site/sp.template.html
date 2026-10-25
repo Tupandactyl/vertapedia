@@ -242,10 +242,10 @@ function distCard(d){
   const to=d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:d.dist?`https://www.gbif.org/species/${d.dist.key}`:'';
   return `<div class="card distcard"><h3>분포</h3>
     ${d.dist?`<a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a>
-    <p class="distleg"><span class="sw m"></span>주요 기록국 ${d.dist.m.length}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>`:''}
+    <p class="distleg"><span class="sw m"></span>서식국 ${d.dist.m.length}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>`:''}
     ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
     ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
-    ${d.dist?`<p class="src">지도: GBIF 나라별 출현 기록 ${d.dist.n.toLocaleString()}건(관찰·표본). 동물원·떠돌이 기록이 섞일 수 있습니다.</p>`:''}
+    ${d.dist?`<p class="src">지도: GBIF ${d.dist.wild?'야생 기록(eBird·iNaturalist 연구등급·표본)':'나라별 출현 기록'} ${d.dist.n.toLocaleString()}건. 진한 곳은 서식지와 야생에 정착한 도입지, 옅은 곳은 드문 기록(떠돌이·사육·오류)입니다.</p>`:''}
   </div>`;
 }
 function render(d){

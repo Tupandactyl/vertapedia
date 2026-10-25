@@ -8,6 +8,7 @@
     python scripts/fetch_distribution.py                 # 전부(이어 받기)
     python scripts/fetch_distribution.py --limit 50      # 시험
     python scripts/fetch_distribution.py --retry         # 못 찾은 종도 다시
+    python scripts/fetch_distribution.py --wild          # 야생 출처(eBird·iNaturalist·표본)만 센 나라별 기록 w 채우기
 """
 import json
 import sys
@@ -54,6 +55,36 @@ def one(t):
     return sci, dict(key=key, n=d.get("count", 0), c={f["name"]: f["count"] for f in facets}, iucn=iucn(key))
 
 
+EBIRD = "4fa7b334-ce0d-4e88-aaae-2e0c138d049e"   # eBird 관찰(야생만)
+INAT = "50c9509d-22c7-4a22-a47d-8c48425ef4a7"    # iNaturalist 연구등급(사육·재배 제외)
+
+
+def wild(key):
+    """야생 출처만 나라별로: eBird·iNaturalist 관찰 + 박물관 표본. 다른 관찰 기록 사이트의 동물원 기록을 뺀다."""
+    base = dict(taxon_key=key, limit=0, facet="country", facetLimit=300, occurrence_status="present")
+    url = "https://api.gbif.org/v1/occurrence/search"
+    obs = get_multi(url, base, [("dataset_key", EBIRD), ("dataset_key", INAT)])
+    spec = get(url, dict(base, basis_of_record="PRESERVED_SPECIMEN"))
+    if obs is None or spec is None:
+        return None
+    out = {}
+    for d in (obs, spec):
+        for f in (d.get("facets") or [{}])[0].get("counts", []):
+            out[f["name"]] = out.get(f["name"], 0) + f["count"]
+    return out
+
+
+def get_multi(url, params, extra):
+    """같은 이름의 매개변수를 여러 번(dataset_key=…&dataset_key=…) 보낸다"""
+    q = urllib.parse.urlencode(list(params.items()) + extra)
+    for attempt in range(5):
+        try:
+            return json.load(urllib.request.urlopen(urllib.request.Request(url + "?" + q, headers=UA), timeout=60))
+        except Exception:
+            time.sleep(5 * (attempt + 1))
+    return None
+
+
 def iucn(key):
     """GBIF 가 IUCN 적색목록에서 가져온 등급(LC·NT·VU·EN·CR·EW·EX·DD). 없으면 None"""
     r = get(f"https://api.gbif.org/v1/species/{key}/iucnRedListCategory", {})
@@ -71,6 +102,20 @@ def main():
             for s, code in zip(old, ex.map(lambda s: iucn(out[s]["key"]), old)):
                 out[s]["iucn"] = code
         print("IUCN 등급 채움:", len(old), flush=True)
+    if "--wild" in sys.argv:  # 받아 둔 종마다 야생 출처 나라별 기록(w)을 채운다
+        todo_w = [s for s, v in out.items() if v and "w" not in v]
+        done = 0
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            for s, w in zip(todo_w, ex.map(lambda s: wild(out[s]["key"]), todo_w)):
+                if w is not None:
+                    out[s]["w"] = w
+                done += 1
+                if done % 500 == 0:
+                    OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+                    print(f"야생 {done}/{len(todo_w)}", flush=True)
+        OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        print("야생 기록 채운 종:", done, flush=True)
+        return
     retry = "--retry" in sys.argv  # 못 찾은 종(None)도 다시
     todo = [t for t in names if t["rank"] == "species" and (t["sci"] not in out or (retry and out[t["sci"]] is None))]
     # 국명 있는 종부터

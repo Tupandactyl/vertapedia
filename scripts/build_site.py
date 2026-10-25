@@ -30,16 +30,37 @@ bird_range = load("bird_range.json", {})  # 조류 분포 설명(AviList v2026 R
 bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파충류는 distribution.json 의 GBIF 값  # GBIF 나라별 기록 수 (scripts/fetch_distribution.py)
 
 
+GEO = load("geo.json", {"neighbours": {}, "subregion": {}})  # GeoNames 이웃 나라, UN 소지역
+
+
 def dist_of(sci):
-    """주요 기록국(전체의 0.2% 이상·3건 이상)과 드문 기록국. ZZ(나라 모름)는 뺀다."""
+    """서식국(진하게)과 드문 기록국(옅게).
+    - 야생 출처(eBird·iNaturalist 연구등급·표본) 나라별 기록 w 가 있으면 그것을 쓴다(동물원 기록 제외)
+    - 출발: 기록이 가장 많은 나라, 그리고 10% 이상이거나 30건·0.5% 이상인 나라(떨어진 정착지 포함)
+    - 넓히기: 서식국과 국경을 맞대거나 같은 소지역이고 0.2% 이상·3건 이상이면 서식국(서식국이 늘면 다시 확인)
+    - 그 밖은 드문 기록(동물원·떠돌이·오류)"""
     d = dist.get(sci)
-    if not d or not d.get("c"):
+    if not d:
         return None
-    c = {k: v for k, v in d["c"].items() if k != "ZZ"}
-    tot = sum(c.values()) or 1
-    major = sorted(k for k, v in c.items() if v >= 3 and v / tot >= 0.002)
+    c = {k: v for k, v in (d.get("w") or d.get("c") or {}).items() if k != "ZZ" and v > 0}
+    tot = sum(c.values())
+    if not tot:
+        return None
+    nb, sub = GEO["neighbours"], GEO["subregion"]
+    major = {max(c, key=c.get)}
+    near = lambda k: any(k in nb.get(a, []) or a in nb.get(k, []) or (sub.get(k) and sub.get(k) == sub.get(a)) for a in major)
+    share = lambda k: c[k] / tot
+    # 떨어진 곳이라도 아주 많거나(10%) 꽤 많은(30건·0.5%) 곳은 서식지·정착지
+    major |= {k for k in c if share(k) >= 0.10 or (c[k] >= 30 and share(k) >= 0.005)}
+    grew = True
+    while grew:  # 이어진 곳(이웃·같은 소지역)으로 넓힌다
+        grew = False
+        for k in c:
+            if k not in major and c[k] >= 3 and share(k) >= 0.002 and near(k):
+                major.add(k)
+                grew = True
     rare = sorted(k for k in c if k not in major)
-    return dict(m=major, r=rare, n=tot, key=d.get("key"))
+    return dict(m=sorted(major), r=rare, n=tot, key=d.get("key"), wild=bool(d.get("w")))
 
 
 ebird = load("ebird_codes.json", {})
