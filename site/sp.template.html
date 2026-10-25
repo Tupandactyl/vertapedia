@@ -207,19 +207,18 @@ async function geo(){
   if(GEO)return GEO;
   if(!window.d3)await loadJs('https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js');
   if(!d3.geoMollweide)await loadJs('https://cdn.jsdelivr.net/npm/d3-geo-projection@4/dist/d3-geo-projection.min.js');
-  if(!window.topojson)await loadJs('https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js');
-  const [world,iso]=await Promise.all([fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(r=>r.json()),fetch('data/iso2num.json').then(r=>r.json())]);
-  return GEO={land:topojson.feature(world,world.objects.countries).features,iso};
+  // 지역을 나눈 세계지도: 하와이·알래스카, 파푸아, 카나리아 등은 따로(properties.c = US-HI 등)
+  const world=await fetch('data/world.json').then(r=>r.json());
+  return GEO={land:world.features};
 }
 async function drawDist(d){
   const box=document.getElementById('distmap');if(!box||!d.dist)return;
   try{
-    const {land,iso}=await geo();
-    const num=a=>new Set(a.map(c=>String(iso[c]||'').replace(/^0+/,'')));
-    const M=num(d.dist.m),I=num(d.dist.i||[]),R=num(d.dist.r);
+    const {land}=await geo();
+    const M=new Set(d.dist.m),I=new Set(d.dist.i||[]),R=new Set(d.dist.r);
     const W=360,H=180,proj=d3.geoMollweide().rotate([-130,0]).fitExtent([[2,2],[W-2,H-2]],{type:'Sphere'}),path=d3.geoPath(proj);
-    const id=f=>String(f.id||'').replace(/^0+/,'');
-    box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':I.has(id(f))?' i':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.name)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
+    const id=f=>f.properties.c;
+    box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':I.has(id(f))?' i':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.n)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
   }catch(e){box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
 }
 // IUCN 적색목록: LC~EX 일곱 칸 가운데 해당 등급만 진하게, 아래에 등급 이름

@@ -47,18 +47,18 @@ bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파
 
 
 GEO = load("geo.json", {"neighbours": {}, "subregion": {}})
+GADM = load("gadm_regions.json", {})  # GBIF 행정구역 → 지역(US-HI 등)
 estab = load("establishment.json", {})  # iNaturalist 나라별 토착/도입 표시 (scripts/fetch_establishment.py)  # GeoNames 이웃 나라, UN 소지역
 
 
 def dist_of(sci):
     """서식국(노랑)·도입 정착지(청록)·드문 기록(옅게). 판정 규칙은 scripts/distrule.py"""
     d = dist.get(sci)
-    c = distrule.counts(d)
+    c = distrule.counts(d, GADM)
     if not c:
         return None
     major = distrule.habitat(c, GEO)
-    e = estab.get(sci) or {}
-    intro_flag, native_flag = set(e.get("introduced", [])), set(e.get("native", []))
+    intro_flag, native_flag = distrule.flags(estab.get(sci), c)
     home = distrule.home_range(major, c, intro_flag, native_flag, GEO)
     intro = (major - home) & intro_flag
     rare = sorted(k for k in c if k not in major)
@@ -290,8 +290,8 @@ for g, lst in fam_seq.items():
         )
         (SITE / "fam" / fname(f["sci"])).write_text(dump(rec), encoding="utf-8")
 
-# --- 분포 지도용 나라 코드 표(GBIF 두 글자 → 세계지도 숫자) ---
-shutil.copy(DATA / "iso2num.json", SITE / "data" / "iso2num.json")
+# --- 분포 지도 ---
+shutil.copy(DATA / "world.geojson", SITE / "data" / "world.json")  # 지역을 나눈 세계지도(scripts/build_world_map.py)
 
 # --- 페이지 ---
 stats = {g: dict(total=len(seq[g]), named=sum(1 for t in seq[g] if t.get("name")),

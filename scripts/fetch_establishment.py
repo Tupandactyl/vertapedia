@@ -9,6 +9,7 @@
     python scripts/fetch_establishment.py
 """
 import json
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -33,6 +34,10 @@ FIX = {"Hong Kong": "HK", "Taiwan": "TW", "Macau": "MO", "Kosovo": "XK", "Saint-
        "Democratic Republic of the Congo": "CD", "Republic of the Congo": "CG", "Ivory Coast": "CI", "Côte d'Ivoire": "CI",
        "Micronesia": "FM", "Palestine": "PS", "Cape Verde": "CV", "East Timor": "TL", "Swaziland": "SZ", "Turkey": "TR"}
 _iso = {}
+# 지도에서 따로 그리는 지역(scripts/build_world_map.py) ↔ iNaturalist 주(admin_level 10) place id
+REGION = {"US-HI": [11], "US-AK": [6], "ES-CN": [80273], "PT-AC": [13197], "PT-MA": [7291], "EC-GAL": [12990],
+          "JP-OKI": [13082], "AU-TAS": [6829], "ID-PAP": [7915, 13042], "IN-AN": [13065]}
+REGION_OF = {pid: k for k, ids in REGION.items() for pid in ids}
 
 
 def iso2(name):
@@ -64,6 +69,8 @@ PLACES = DATA / "inat_places.json"  # 나라코드 → iNaturalist 나라 place 
 def place_id(code, cache):
     if code in cache:
         return cache[code]
+    if "-" in code:  # 지역은 정해 둔 place id(여럿이면 쉼표로)
+        return ",".join(map(str, REGION[code])) if code in REGION else None
     common = {v: k for k, v in FIX.items()}  # KR → South Korea 등 흔히 쓰는 이름 먼저
     c = pycountry.countries.get(alpha_2=code)
     names = [n for n in (common.get(code), getattr(c, "common_name", None), getattr(c, "name", None)) if n]
@@ -78,11 +85,55 @@ def place_id(code, cache):
     return pid
 
 
+def ask_introduced(tid, k, places):
+    """그 나라·지역에 '도입' 표시 관찰이 있는가"""
+    pid = place_id(k, places)
+    if not pid:
+        return False
+    time.sleep(1.05)
+    q = get("https://api.inaturalist.org/v1/observations?" + urllib.parse.urlencode(
+        dict(taxon_id=tid, place_id=pid, introduced="true", per_page=0)))
+    return (q or {}).get("total_results", 0) > 0
+
+
+def regions(dist, geo, gadm, places, out):
+    """이미 받은 종 가운데 서식국에 지역(US-HI 등)이 들어 있으면 지역별 도입 표시를 묻는다(--regions)"""
+    tids = {}
+    for f in (DATA / "media").glob("*.json"):
+        m = json.loads(f.read_text(encoding="utf-8"))
+        if m.get("inat"):
+            tids[m["sci"]] = m["inat"]["id"]
+    todo = []
+    for sci, rec in out.items():
+        c = distrule.counts(dist.get(sci), gadm)
+        major = distrule.habitat(c, geo)
+        ask = [k for k in sorted(major) if k in REGION and k not in rec.get("introduced", []) and k not in rec.get("native", [])
+               and k not in rec.get("asked", [])]
+        if ask and sci in tids:
+            todo.append((sci, ask))
+    print("지역 물을 종:", len(todo), flush=True)
+    for n, (sci, ask) in enumerate(todo, 1):
+        rec = out[sci]
+        for k in ask:
+            if ask_introduced(tids[sci], k, places):
+                rec["introduced"] = sorted(set(rec.get("introduced", [])) | {k})
+            rec["asked"] = sorted(set(rec.get("asked", [])) | {k})
+        if n % 100 == 0:
+            OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+            PLACES.write_text(json.dumps(places, ensure_ascii=False), encoding="utf-8")
+            print(f"지역 {n}/{len(todo)}", flush=True)
+    OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    PLACES.write_text(json.dumps(places, ensure_ascii=False), encoding="utf-8")
+
+
 def main():
     dist = json.loads((DATA / "distribution.json").read_text(encoding="utf-8"))
     geo = json.loads((DATA / "geo.json").read_text(encoding="utf-8"))
     places = json.loads(PLACES.read_text(encoding="utf-8")) if PLACES.exists() else {}
     out = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    gadm = json.loads((DATA / "gadm_regions.json").read_text(encoding="utf-8"))
+    if "--regions" in sys.argv:
+        return regions(dist, geo, gadm, places, out)
     todo = []
     for f in sorted((DATA / "media").glob("*.json")):
         m = json.loads(f.read_text(encoding="utf-8"))
@@ -102,26 +153,26 @@ def main():
         rec = {"introduced": set(), "native": set()}
         for x in lt:
             p = x.get("place") or {}
-            if p.get("admin_level") != 0:
+            lvl = p.get("admin_level")
+            if lvl == 0:
+                k = iso2(p.get("name", ""))
+            elif p.get("id") in REGION_OF:
+                k = REGION_OF[p["id"]]
+            else:
                 continue
             em = (x.get("establishment_means") or "").lower()
-            k = iso2(p.get("name", ""))
             if k and em in ("introduced", "naturalised", "invasive", "managed"):
                 rec["introduced"].add(k)
             elif k and em in ("native", "endemic"):
                 rec["native"].add(k)
         # 원래 서식권과 떨어진 서식국인데 표시가 없으면(목록이 100개에서 잘림) 그 나라에 도입 표시 관찰이 있는지 묻는다
-        c = distrule.counts(dist.get(sci))
+        c = distrule.counts(dist.get(sci), gadm)
         major = distrule.habitat(c, geo)
         home = distrule.home_range(major, c, rec["introduced"], rec["native"], geo) if major else set()
-        for k in sorted(major - home - rec["introduced"] - rec["native"]):
-            pid = place_id(k, places)
-            if not pid:
-                continue
-            time.sleep(1.05)
-            q = get("https://api.inaturalist.org/v1/observations?" + urllib.parse.urlencode(
-                dict(taxon_id=tid, place_id=pid, introduced="true", per_page=0)))
-            if (q or {}).get("total_results", 0) > 0:
+        # 지역(US-HI 등)은 원래 서식권 기준이 되기도 하므로(하와이 동박새) 표시가 없으면 늘 묻는다
+        ask = (major - home) | {k for k in major if k in REGION}
+        for k in sorted(ask - rec["introduced"] - rec["native"]):
+            if ask_introduced(tid, k, places):
                 rec["introduced"].add(k)
         out[sci] = {k: sorted(v) for k, v in rec.items()}
         if n % 200 == 0:

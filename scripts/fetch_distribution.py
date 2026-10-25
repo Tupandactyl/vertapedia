@@ -55,6 +55,7 @@ def one(t):
     return sci, dict(key=key, n=d.get("count", 0), c={f["name"]: f["count"] for f in facets}, iucn=iucn(key))
 
 
+GADM = json.loads((DATA / "gadm_regions.json").read_text(encoding="utf-8")) if (DATA / "gadm_regions.json").exists() else {}
 EBIRD = "4fa7b334-ce0d-4e88-aaae-2e0c138d049e"   # eBird 관찰(야생만)
 INAT = "50c9509d-22c7-4a22-a47d-8c48425ef4a7"    # iNaturalist 연구등급(사육·재배 제외)
 
@@ -63,15 +64,21 @@ def wild(key):
     """야생 출처만 나라별로: eBird·iNaturalist 관찰 + 박물관 표본. 다른 관찰 기록 사이트의 동물원 기록을 뺀다."""
     base = dict(taxon_key=key, limit=0, facet="country", facetLimit=300, occurrence_status="present")
     url = "https://api.gbif.org/v1/occurrence/search"
-    obs = get_multi(url, base, [("dataset_key", EBIRD), ("dataset_key", INAT)])
-    spec = get(url, dict(base, basis_of_record="PRESERVED_SPECIMEN"))
+    # 나눈 나라(US·ID·RU 등)의 지역별 기록을 위해 행정구역(GADM 1단계) 집계도 함께 받는다
+    extra = [("facet", "gadmLevel1Gid"), ("gadmLevel1Gid.facetLimit", 2000)]
+    obs = get_multi(url, base, [("dataset_key", EBIRD), ("dataset_key", INAT)] + extra)
+    spec = get_multi(url, dict(base, basis_of_record="PRESERVED_SPECIMEN"), extra)
     if obs is None or spec is None:
         return None
-    out = {}
+    out, gid = {}, {}
     for d in (obs, spec):
-        for f in (d.get("facets") or [{}])[0].get("counts", []):
-            out[f["name"]] = out.get(f["name"], 0) + f["count"]
-    return out
+        for fac in d.get("facets") or []:
+            tgt = out if fac["field"] == "COUNTRY" else gid
+            for f in fac.get("counts", []):
+                if tgt is gid and f["name"] not in GADM:
+                    continue
+                tgt[f["name"]] = tgt.get(f["name"], 0) + f["count"]
+    return out, gid
 
 
 def get_multi(url, params, extra):
@@ -103,12 +110,12 @@ def main():
                 out[s]["iucn"] = code
         print("IUCN 등급 채움:", len(old), flush=True)
     if "--wild" in sys.argv:  # 받아 둔 종마다 야생 출처 나라별 기록(w)을 채운다
-        todo_w = [s for s, v in out.items() if v and "w" not in v]
+        todo_w = [s for s, v in out.items() if v and "g" not in v]  # 행정구역 집계(g)까지 없는 종
         done = 0
-        with ThreadPoolExecutor(max_workers=4) as ex:
+        with ThreadPoolExecutor(max_workers=2) as ex:  # GBIF 가 429 를 내지 않게 둘씩
             for s, w in zip(todo_w, ex.map(lambda s: wild(out[s]["key"]), todo_w)):
                 if w is not None:
-                    out[s]["w"] = w
+                    out[s]["w"], out[s]["g"] = w
                 done += 1
                 if done % 500 == 0:
                     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

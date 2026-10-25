@@ -9,8 +9,36 @@
 """
 
 
-def counts(d):
-    return {k: v for k, v in ((d or {}).get("w") or (d or {}).get("c") or {}).items() if k != "ZZ" and v > 0}
+def counts(d, gadm=None):
+    """나라별 기록 → 지역별 기록. 행정구역 기록 g 가 있으면 나눈 나라(US·ID·RU 등)를 지역(US-HI 등)으로 쪼갠다:
+    지역별로 행정구역 기록을 더하고, 나머지는 본토(나라 코드 그대로)에 남긴다."""
+    c = {k: v for k, v in ((d or {}).get("w") or (d or {}).get("c") or {}).items() if k != "ZZ" and v > 0}
+    if gadm and (d or {}).get("g"):
+        reg = {}
+        for gid, v in d["g"].items():
+            r = gadm.get(gid)
+            if r and "-" in r:
+                reg[r] = reg.get(r, 0) + v
+        for r, v in reg.items():
+            base = r.split("-")[0]
+            if base in c:
+                c[r] = min(v, c[base])
+                c[base] -= c[r]
+        c = {k: v for k, v in c.items() if v > 0}
+    return c
+
+
+def flags(e, c):
+    """iNaturalist 토착/도입 표시. 지역(US-HI 등)은 제 표시가 없으면 나라 표시를 따른다"""
+    intro, native = set((e or {}).get("introduced", [])), set((e or {}).get("native", []))
+    for k in c:
+        if "-" in k and k not in intro and k not in native:
+            base = k.split("-")[0]
+            if base in intro:
+                intro.add(k)
+            elif base in native:
+                native.add(k)
+    return intro, native
 
 
 def habitat(c, geo):
