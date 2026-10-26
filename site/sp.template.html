@@ -209,6 +209,11 @@ async function geo(){
   if(!d3.geoMollweide)await loadJs('https://cdn.jsdelivr.net/npm/d3-geo-projection@4/dist/d3-geo-projection.min.js');
   // 지역을 나눈 세계지도: 하와이·알래스카, 파푸아, 카나리아 등은 따로(properties.c = US-HI 등)
   const world=await fetch('data/world.json').then(r=>r.json());
+  // 테두리 방향이 거꾸로 된 조각(날짜변경선을 넘는 알래스카 등)은 '지구 전체'로 칠해지므로 뒤집는다
+  for(const f of world.features){
+    const g=f.geometry,polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;
+    for(const p of polys)if(d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI)p.forEach(r=>r.reverse());
+  }
   return GEO={land:world.features};
 }
 async function drawDist(d){

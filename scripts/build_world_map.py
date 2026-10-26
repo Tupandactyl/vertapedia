@@ -19,7 +19,8 @@ import urllib.request
 from pathlib import Path
 
 import shapefile
-from shapely.geometry import mapping, shape
+from shapely.geometry import MultiPolygon, Polygon, mapping, shape
+from shapely.geometry.polygon import orient
 from shapely.ops import unary_union
 
 try:
@@ -93,6 +94,13 @@ def region(iso3, name, lon=None, lat=None):
     return base
 
 
+def clockwise(g):
+    """d3 는 바깥 테두리가 시계 방향이어야 한다(반대면 '그 나라를 뺀 지구 전체'로 칠한다)"""
+    polys = [p for p in (g.geoms if g.geom_type == "MultiPolygon" else [g]) if p.area > 0]
+    polys = [orient(p, sign=-1.0) for p in polys]
+    return MultiPolygon(polys) if len(polys) > 1 else polys[0] if polys else Polygon()
+
+
 def main(adm0_dir, adm1_dir):
     feats = {}
 
@@ -140,8 +148,8 @@ def main(adm0_dir, adm1_dir):
 
     out = {"type": "FeatureCollection", "features": []}
     for code, f in sorted(feats.items()):
-        gj = mapping(f["geom"])
-        gj = json.loads(json.dumps(gj), parse_float=lambda x: round(float(x), 1))
+        gj = json.loads(json.dumps(mapping(f["geom"])), parse_float=lambda x: round(float(x), 1))
+        gj = mapping(clockwise(shape(gj)))
         out["features"].append({"type": "Feature", "properties": {"c": code, "n": f["name"]}, "geometry": gj})
     (DATA / "world.geojson").write_text(json.dumps(out, separators=(",", ":")), encoding="utf-8")
     print("지도 지역", len(out["features"]), "·", round((DATA / "world.geojson").stat().st_size / 1024), "KB")
