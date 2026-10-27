@@ -85,15 +85,20 @@ def place_id(code, cache):
     return pid
 
 
-def ask_introduced(tid, k, places):
-    """그 나라·지역에 '도입' 표시 관찰이 있는가"""
+def ask_introduced(tid, k, places, share=0.0):
+    """그 나라·지역에 '도입' 표시 관찰이 있는가. share 를 주면 도입 표시가 그 곳 관찰의 그 비율 이상이어야 한다
+    (카나리아 고유종 Gallotia galloti 처럼 섬 사이로 옮겨진 몇 마리 때문에 도입으로 잡히지 않게)"""
     pid = place_id(k, places)
     if not pid:
         return False
+    ask = lambda **kw: (get("https://api.inaturalist.org/v1/observations?" + urllib.parse.urlencode(
+        dict(taxon_id=tid, place_id=pid, per_page=0, **kw))) or {}).get("total_results", 0)
     time.sleep(1.05)
-    q = get("https://api.inaturalist.org/v1/observations?" + urllib.parse.urlencode(
-        dict(taxon_id=tid, place_id=pid, introduced="true", per_page=0)))
-    return (q or {}).get("total_results", 0) > 0
+    n = ask(introduced="true")
+    if not n or not share:
+        return n > 0
+    time.sleep(1.05)
+    return n >= share * max(ask(), 1)
 
 
 def regions(dist, geo, gadm, places, out):
@@ -107,17 +112,19 @@ def regions(dist, geo, gadm, places, out):
     for sci, rec in out.items():
         c = distrule.counts(dist.get(sci), gadm)
         major = distrule.habitat(c, geo)
-        ask = [k for k in sorted(major) if k in REGION and k not in rec.get("introduced", []) and k not in rec.get("native", [])
-               and k not in rec.get("asked", [])]
+        ask = [k for k in sorted(major) if k in REGION and k not in rec.get("native", []) and k not in rec.get("rasked", [])
+               and (k not in rec.get("introduced", []) or k in rec.get("asked", []))]
         if ask and sci in tids:
             todo.append((sci, ask))
     print("지역 물을 종:", len(todo), flush=True)
     for n, (sci, ask) in enumerate(todo, 1):
         rec = out[sci]
         for k in ask:
-            if ask_introduced(tids[sci], k, places):
-                rec["introduced"] = sorted(set(rec.get("introduced", [])) | {k})
-            rec["asked"] = sorted(set(rec.get("asked", [])) | {k})
+            intro = set(rec.get("introduced", [])) - {k}
+            if ask_introduced(tids[sci], k, places, share=0.5):
+                intro.add(k)
+            rec["introduced"] = sorted(intro)
+            rec["rasked"] = sorted(set(rec.get("rasked", [])) | {k})
         if n % 100 == 0:
             OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
             PLACES.write_text(json.dumps(places, ensure_ascii=False), encoding="utf-8")
@@ -172,7 +179,7 @@ def main():
         # 지역(US-HI 등)은 원래 서식권 기준이 되기도 하므로(하와이 동박새) 표시가 없으면 늘 묻는다
         ask = (major - home) | {k for k in major if k in REGION}
         for k in sorted(ask - rec["introduced"] - rec["native"]):
-            if ask_introduced(tid, k, places):
+            if ask_introduced(tid, k, places, share=0.5 if k in REGION else 0.0):
                 rec["introduced"].add(k)
         out[sci] = {k: sorted(v) for k, v in rec.items()}
         if n % 200 == 0:

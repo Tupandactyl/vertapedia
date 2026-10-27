@@ -14,16 +14,21 @@ def counts(d, gadm=None):
     지역별로 행정구역 기록을 더하고, 나머지는 본토(나라 코드 그대로)에 남긴다."""
     c = {k: v for k, v in ((d or {}).get("w") or (d or {}).get("c") or {}).items() if k != "ZZ" and v > 0}
     if gadm and (d or {}).get("g"):
-        reg = {}
+        # 나눈 나라마다 행정구역별 기록을 지역으로 모으고, 행정구역이 없는 기록(해안 등)은 그 비율대로 나눈다
+        per = {}
         for gid, v in d["g"].items():
             r = gadm.get(gid)
-            if r and "-" in r:
-                reg[r] = reg.get(r, 0) + v
-        for r, v in reg.items():
-            base = r.split("-")[0]
-            if base in c:
-                c[r] = min(v, c[base])
-                c[base] -= c[r]
+            if r:
+                base = r.split("-")[0]
+                per.setdefault(base, {})
+                per[base][r] = per[base].get(r, 0) + v
+        for base, reg in per.items():
+            tot = sum(reg.values())
+            if base not in c or not tot or all(r == base for r in reg):
+                continue
+            n = c.pop(base)
+            for r, v in reg.items():
+                c[r] = c.get(r, 0) + round(n * v / tot)
         c = {k: v for k, v in c.items() if v > 0}
     return c
 
