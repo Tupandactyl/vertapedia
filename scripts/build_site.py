@@ -48,6 +48,7 @@ bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파
 
 GEO = load("geo.json", {"neighbours": {}, "subregion": {}})
 GADM = load("gadm_regions.json", {})  # GBIF 행정구역 → 지역(US-HI 등)
+REGION_KO = load("region_ko.json", {})  # 나라·지역 코드 → 한국어 이름(scripts/build_region_names.py)
 estab = load("establishment.json", {})  # iNaturalist 나라별 토착/도입 표시 (scripts/fetch_establishment.py)  # GeoNames 이웃 나라, UN 소지역
 
 
@@ -62,8 +63,11 @@ def dist_of(sci):
     home = distrule.home_range(major, c, intro_flag, native_flag, GEO)
     intro = (major - home) & intro_flag
     rare = sorted(k for k in c if k not in major)
-    return dict(m=sorted(major - intro), i=sorted(intro), r=rare, n=sum(c.values()), key=d.get("key"),
-                wild=bool(d.get("w")))
+    native, intro = (sorted(s, key=lambda k: (-c[k], k)) for s in (major - intro, intro))  # 기록 많은 곳부터
+    ko = lambda a: [REGION_KO.get(k, k) for k in a]
+    total = lambda a: sum(c[k] for k in a)
+    return dict(m=native, i=intro, r=rare, n=sum(c.values()), key=d.get("key"), wild=bool(d.get("w")),
+                mk=ko(native), ik=ko(intro), mn=total(native), inn=total(intro), rn=total(rare))
 
 
 ebird = load("ebird_codes.json", {})
@@ -291,7 +295,11 @@ for g, lst in fam_seq.items():
         (SITE / "fam" / fname(f["sci"])).write_text(dump(rec), encoding="utf-8")
 
 # --- 분포 지도 ---
-shutil.copy(DATA / "world.geojson", SITE / "data" / "world.json")  # 지역을 나눈 세계지도(scripts/build_world_map.py)
+# 지역을 나눈 세계지도(scripts/build_world_map.py). 지도에 마우스를 올리면 한국어 이름
+world = load("world.geojson", {"features": []})
+for f in world["features"]:
+    f["properties"]["n"] = REGION_KO.get(f["properties"]["c"], f["properties"]["n"])
+(SITE / "data" / "world.json").write_text(json.dumps(world, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 # --- 페이지 ---
 stats = {g: dict(total=len(seq[g]), named=sum(1 for t in seq[g] if t.get("name")),

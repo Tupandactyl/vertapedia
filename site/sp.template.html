@@ -26,7 +26,7 @@
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65;margin:0}
+body{background:var(--bg);word-break:keep-all;overflow-wrap:break-word;color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65;margin:0}
 a{color:var(--moss)}
 .top{background:var(--panel);border-bottom:1px solid var(--line);padding-inline:16px;padding-block:10px}
 .top-in{max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
@@ -67,7 +67,8 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 .ph img{width:100%;height:100%;object-fit:cover;display:block}
 .ph a{display:block;height:100%}
 .ph figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 8px 5px;font-size:10.5px;line-height:1.35;background:linear-gradient(transparent,var(--shade));color:#fff}
-@media (max-width:640px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:120px}.ph:first-child{grid-column:span 2;grid-row:span 2}}
+/* 모바일: 대표사진은 자르지 않고 원래 비율로(전신이 보이게). 아주 긴 세로 사진만 화면 높이에 맞춘다 */
+@media (max-width:640px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:auto;grid-auto-rows:120px}.ph:first-child{grid-column:span 2;grid-row:auto}.ph:first-child a{height:auto}.ph:first-child img{height:auto;max-height:75vh;object-fit:contain}}
 .nophoto{padding:28px;border:1px dashed var(--line);border-radius:8px;text-align:center;color:var(--muted);font-size:13.5px}
 .galnote{font-size:12px;color:var(--muted);margin:8px 0 0}
 .prose{max-width:66ch}
@@ -104,8 +105,11 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .distmap .land.m{fill:var(--hab)}.distmap .land.i{fill:var(--intro)}.distmap .land.r{fill:var(--hab-soft)}
 .distmap .sphere{fill:none;stroke:var(--line);stroke-width:.8}
 .distmap:hover .sphere{stroke:var(--moss);stroke-width:1.5}
-.distleg{font-size:12px;color:var(--muted);margin:8px 0 2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-.distleg .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-left:6px}
+.card h3 .distnames{display:block;margin-top:3px;font-family:var(--body);font-size:12.5px;font-weight:400;line-height:1.55;color:var(--muted)}
+.distnames .nm{white-space:nowrap}.distnames .in{display:block}
+.distleg{font-size:12px;color:var(--muted);margin:8px 0 2px;display:flex;align-items:center;gap:4px 12px;flex-wrap:wrap}
+.distleg .lg{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.distleg .sw{display:inline-block;width:12px;height:12px;border-radius:3px}
 .distleg .sw.m{background:var(--hab)}.distleg .sw.i{background:var(--intro)}.distleg .sw.r{background:var(--hab-soft)}
 :root{--sea:#dce6ea;--land:#b9c4bd;--hab:#e8a317;--hab-soft:#cfcca8;--intro:#2a9d8f}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sea:#10171c;--land:#38443d;--hab:#ffc94d;--hab-soft:#4d5440;--intro:#4fd1c5}}
@@ -221,7 +225,7 @@ async function drawDist(d){
   try{
     const {land}=await geo();
     const M=new Set(d.dist.m),I=new Set(d.dist.i||[]),R=new Set(d.dist.r);
-    const W=360,H=180,proj=d3.geoMollweide().rotate([-130,0]).fitExtent([[2,2],[W-2,H-2]],{type:'Sphere'}),path=d3.geoPath(proj);
+    const W=360,H=180,proj=d3.geoMollweide().rotate([-146,0]).fitExtent([[2,2],[W-2,H-2]],{type:'Sphere'}),path=d3.geoPath(proj);
     const id=f=>f.properties.c;
     box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img"><path class="sphere-bg" d="${path({type:'Sphere'})}" fill="var(--sea)"/>${land.map(f=>`<path class="land${M.has(id(f))?' m':I.has(id(f))?' i':R.has(id(f))?' r':''}" d="${path(f)}"><title>${esc(f.properties.n)}</title></path>`).join('')}<path class="sphere" d="${path({type:'Sphere'})}"/></svg>`;
   }catch(e){box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
@@ -241,15 +245,21 @@ function iucnCard(d){
     <small class="iucnsrc">IUCN Red List · ${d.group==='AVES'?'BirdLife (AviList v2026)':'GBIF'}</small></div>`;
 }
 // 분포: 지도(누르면 iNaturalist 관찰 지도) + 관찰 수 + 조류는 AviList 분포 설명
+function distNames(g){
+  if(!g||!(g.mk||[]).length&&!(g.ik||[]).length)return '';
+  const list=a=>a.map(n=>`<span class="nm">${esc(n)}</span>`).join(', ');
+  const m=g.mk||[],i=g.ik||[];
+  return `<small class="distnames">${m.length?list(m):''}${i.length?`<span class="in">이입: ${list(i)}</span>`:''}</small>`;
+}
 function distCard(d){
   if(!d.dist&&!d.range&&!(d.inat&&d.inat.observations))return '';
   const to=d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:d.dist?`https://www.gbif.org/species/${d.dist.key}`:'';
-  return `<div class="card distcard"><h3>분포</h3>
+  return `<div class="card distcard"><h3>분포${distNames(d.dist)}</h3>
     ${d.dist?`<a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a>
-    <p class="distleg"><span class="sw m"></span>서식국 ${d.dist.m.length}${d.dist.i&&d.dist.i.length?`<span class="sw i"></span>도입 정착 ${d.dist.i.length}`:''}<span class="sw r"></span>드문 기록 ${d.dist.r.length}</p>`:''}
+    <p class="distleg"><span class="lg"><span class="sw m"></span>서식국가 ${d.dist.mn.toLocaleString()}건</span>${d.dist.inn?`<span class="lg"><span class="sw i"></span>이입국가 ${d.dist.inn.toLocaleString()}건</span>`:''}${d.dist.rn?`<span class="lg"><span class="sw r"></span>소수기록 ${d.dist.rn.toLocaleString()}건</span>`:''}</p>`:''}
     ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
     ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
-    ${d.dist?`<p class="src">지도: GBIF ${d.dist.wild?'야생 기록(eBird·iNaturalist 연구등급·표본)':'나라별 출현 기록'} ${d.dist.n.toLocaleString()}건. 노란 곳은 서식지, 청록은 야생에 정착한 도입지(iNaturalist 도입 표시), 옅은 곳은 드문 기록(떠돌이·사육·오류)입니다.</p>`:''}
+    ${d.dist?`<p class="src">GBIF 기록 ${d.dist.n.toLocaleString()}건</p>`:''}
   </div>`;
 }
 function render(d){
