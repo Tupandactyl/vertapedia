@@ -64,6 +64,30 @@ def habitat(c, geo):
     return major
 
 
+def bird_habitat(c, geo, places, intro=()):
+    """조류: 기록으로 잡은 서식국을 AviList 분포 설명과 대조한다. 칠하려면 언제나 기록이 있어야 한다.
+    - 설명에 이름이 나온 곳(n)은 3건 이상이면 서식국, 도입지로 나온 곳(i)은 10건·0.1% 이상이면 서식국
+    - 이름은 없어도 그 사이에 있는 곳(h, 경유지 포함)은 3건·0.1% 이상이면 서식국. 일부만 걸치는 곳(t)은 이미 서식국이면 남긴다
+    - 설명에도 그 사이에도 없는 곳은 드문 기록으로 내린다. 단 전 세계 분포·바닷새처럼 나라로 다 못 적는 설명(s),
+      iNaturalist 도입 표시가 있고 500건 이상인 곳(설명에 도입지를 다 적지는 않는다. 그보다 적으면 사육 개체일 수 있다),
+      기록의 25% 이상을 차지하는 곳은
+      남긴다. 25% 규칙은 설명의 지명이 기록의 60% 이상을 이미 설명하면 쓰지 않는다(분류가 달라 다른 종 기록이 섞인 경우)"""
+    major = habitat(c, geo)
+    named = set(places.get("n", []))
+    tot = sum(c.values()) or 1
+    said_intro = {k for k in places.get("i", []) if c.get(k, 0) >= 10 and c[k] / tot >= 0.001}
+    out = {k for k in named if c.get(k, 0) >= 3} | said_intro
+    if not named or places.get("s"):
+        return major | out
+    between = set(places.get("h", []))
+    out |= {k for k in between if c.get(k, 0) >= 3 and c[k] / tot >= 0.001}
+    said = named | between | set(places.get("t", [])) | set(places.get("i", []))
+    fits = sum(v for k, v in c.items() if k in said) / tot >= 0.6
+    out |= {k for k in major if k in said or (k in intro and c[k] >= 500)
+            or (not fits and c[k] / tot >= 0.25)}
+    return out or major
+
+
 def linked(a, b, nb, sub):
     return a in nb.get(b, []) or b in nb.get(a, []) or bool(sub.get(a) and sub.get(a) == sub.get(b))
 

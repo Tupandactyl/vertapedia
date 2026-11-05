@@ -35,6 +35,12 @@ a{color:var(--moss)}
 .page{max-width:1320px;margin:0 auto;padding-inline:16px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:28px}
 .wrap{padding-block:16px 64px;min-width:0}
 .navtree{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto;padding-block:12px 40px;font-size:13px}
+/* 제목이 화면 밖으로 나가면 맨 위에 국명·학명 */
+.stickbar{position:fixed;top:0;left:0;right:0;z-index:40;background:var(--panel);border-bottom:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.15);padding:7px 16px;cursor:pointer}
+.stickbar-in{max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 10px}
+.stickbar b{font-family:var(--display);font-size:17px}
+.stickbar i{font-size:13.5px;color:var(--muted)}
+body.stuck .navtree{top:var(--barh,40px);max-height:calc(100vh - var(--barh,40px))}
 .paneltog{font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 12px;cursor:pointer}
 .paneltog:hover{color:var(--ink);border-color:var(--moss)}
 .paneltog .arr{display:inline-block;width:1em}
@@ -106,7 +112,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .distmap .sphere{fill:none;stroke:var(--line);stroke-width:.8}
 .distmap:hover .sphere{stroke:var(--moss);stroke-width:1.5}
 .card h3 .distnames{display:block;margin-top:3px;font-family:var(--body);font-size:12.5px;font-weight:400;line-height:1.55;color:var(--muted)}
-.distnames .nm{white-space:nowrap}.distnames .in{display:block}
+.distnames .nm{white-space:nowrap}.distnames details{display:inline}.distnames summary{display:inline;cursor:pointer;color:var(--moss);margin-left:4px;list-style:none}.distnames summary::-webkit-details-marker{display:none}.distnames details[open] summary{display:none}.distnames .in{display:block}
 .distleg{font-size:12px;color:var(--muted);margin:8px 0 2px;display:flex;align-items:center;gap:4px 12px;flex-wrap:wrap}
 .distleg .lg{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .distleg .sw{display:inline-block;width:12px;height:12px;border-radius:3px}
@@ -149,6 +155,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
   <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
   <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 검토</a></nav>
 </div></header>
+<div class="stickbar" id="stickbar" hidden title="맨 위로"><div class="stickbar-in"></div></div>
 <div class="page">
   <aside class="navtree" aria-label="분류군"><button type="button" class="paneltog" id="paneltog" aria-expanded="false" aria-controls="tree"><span class="arr">▸</span> 분류군</button><div id="tree" hidden></div></aside>
   <main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>
@@ -203,8 +210,21 @@ function setPanel(on){
   drawTree();
 }
 document.getElementById('paneltog').onclick=()=>setPanel(!OPEN);
-function drawTree(){if(OPEN&&TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
-// 분포 지도: 몰바이데 도법, 동아시아(동경 130°)를 가운데. 라이브러리와 세계지도는 처음 쓸 때 받는다.
+function drawTree(){if(!OPEN||!TREE||!CUR)return;const g=CUR.group==='AVES'?['A','R']:['R','A'];VTree(document.getElementById('tree'),TREE,{groups:g,folded:[g[1]],current:CUR.sci})}
+let STICK=null;
+function stickTitle(d){
+  const bar=document.getElementById('stickbar'),h=document.querySelector('#main h1');
+  bar.querySelector('.stickbar-in').innerHTML=`<b>${esc(d.name||d.en||d.sci)}</b><i>${esc(d.sci)}</i>`;
+  bar.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
+  if(STICK)STICK.disconnect();
+  STICK=new IntersectionObserver(([e])=>{
+    const on=!e.isIntersecting&&e.boundingClientRect.top<0;
+    bar.hidden=!on;document.body.classList.toggle('stuck',on);
+    if(on)document.documentElement.style.setProperty('--barh',bar.offsetHeight+'px');
+  });
+  if(h)STICK.observe(h);
+}
+// 분포 지도: 몰바이데 도법, 동아시아(동경 146°, 남아메리카가 잘리지 않는 곳)를 가운데. 라이브러리와 세계지도는 처음 쓸 때 받는다.
 let GEO=null;
 const loadJs=src=>new Promise((ok,no)=>{const x=document.createElement('script');x.src=src;x.onload=ok;x.onerror=no;document.head.appendChild(x)});
 async function geo(){
@@ -248,8 +268,9 @@ function iucnCard(d){
 function distNames(g){
   if(!g||!(g.mk||[]).length&&!(g.ik||[]).length)return '';
   const list=a=>a.map(n=>`<span class="nm">${esc(n)}</span>`).join(', ');
-  const m=g.mk||[],i=g.ik||[];
-  return `<small class="distnames">${m.length?list(m):''}${i.length?`<span class="in">이입: ${list(i)}</span>`:''}</small>`;
+  const m=g.mk||[],i=g.ik||[],FEW=15;  // 많으면 기록 많은 곳만 먼저 보이고 나머지는 접어 둔다
+  const shown=m.length>FEW+3?`${list(m.slice(0,FEW))}<details class="more"><summary>외 ${m.length-FEW}곳</summary>${list(m.slice(FEW))}</details>`:list(m);
+  return `<small class="distnames">${shown}${i.length?`<span class="in">이입: ${list(i)}</span>`:''}</small>`;
 }
 function distCard(d){
   if(!d.dist&&!d.range&&!(d.inat&&d.inat.observations))return '';
@@ -317,6 +338,7 @@ function render(d){
     </div>
     <div style="margin-top:28px">${pn(d)}</div>`;
   drawDist(d);
+  stickTitle(d);
 }
 function load(){
   const sci=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');

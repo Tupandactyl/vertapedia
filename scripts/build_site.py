@@ -48,6 +48,7 @@ bird_iucn = load("bird_iucn.json", {})  # 조류 IUCN 등급(AviList v2026). 파
 
 GEO = load("geo.json", {"neighbours": {}, "subregion": {}})
 GADM = load("gadm_regions.json", {})  # GBIF 행정구역 → 지역(US-HI 등)
+RANGE_PLACES = load("bird_range_places.json", {})  # AviList 분포 설명의 지명(scripts/build_range_places.py)
 REGION_KO = load("region_ko.json", {})  # 나라·지역 코드 → 한국어 이름(scripts/build_region_names.py)
 estab = load("establishment.json", {})  # iNaturalist 나라별 토착/도입 표시 (scripts/fetch_establishment.py)  # GeoNames 이웃 나라, UN 소지역
 
@@ -58,10 +59,13 @@ def dist_of(sci):
     c = distrule.counts(d, GADM)
     if not c:
         return None
-    major = distrule.habitat(c, GEO)
+    places = RANGE_PLACES.get(sci)
     intro_flag, native_flag = distrule.flags(estab.get(sci), c)
+    major = distrule.bird_habitat(c, GEO, places, intro_flag) if places else distrule.habitat(c, GEO)
+    said_native, said_intro = set((places or {}).get("n", [])), set((places or {}).get("i", []))
+    intro_flag, native_flag = (intro_flag - said_native) | said_intro, (native_flag | said_native) - said_intro
     home = distrule.home_range(major, c, intro_flag, native_flag, GEO)
-    intro = (major - home) & intro_flag
+    intro = ((major - home) & intro_flag) | (major & said_intro)
     rare = sorted(k for k in c if k not in major)
     native, intro = (sorted(s, key=lambda k: (-c[k], k)) for s in (major - intro, intro))  # 기록 많은 곳부터
     ko = lambda a: [REGION_KO.get(k, k) for k in a]

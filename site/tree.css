@@ -1,5 +1,5 @@
 /* 분류 나무 — tree.js 와 짝. 색은 페이지의 토큰을 쓴다. */
-.tgroup{padding:10px 4px 4px;font-size:13px;border-bottom:1px solid var(--line);margin-bottom:2px}
+.tgroup{padding:10px 4px 4px;font-size:13px;border-bottom:1px solid var(--line);margin-bottom:2px;cursor:pointer}
 .tgroup .tn{float:none;margin-left:4px}
 .trow{display:flex;align-items:baseline;gap:4px;padding:2px 4px;border-radius:5px;font-size:13.5px;line-height:1.45}
 .trow:hover{background:var(--moss-soft)}

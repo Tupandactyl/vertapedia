@@ -126,7 +126,7 @@ function setPanel(on){
   drawTree();
 }
 document.getElementById('paneltog').onclick=()=>setPanel(!OPEN);
-function drawTree(){if(OPEN&&TREE&&CUR)VTree(document.getElementById('tree'),TREE,{groups:[CUR.group==='AVES'?'A':'R'],current:CUR.sci})}
+function drawTree(){if(!OPEN||!TREE||!CUR)return;const g=CUR.group==='AVES'?['A','R']:['R','A'];VTree(document.getElementById('tree'),TREE,{groups:g,folded:[g[1]],current:CUR.sci})}
 function render(d){
   CUR=d;drawTree();
   document.title=`${d.name||d.sci} · Vertapedia`;

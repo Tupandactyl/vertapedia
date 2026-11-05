@@ -11,6 +11,7 @@
   };
   var RANK = { o: "목", u: "아목", p: "상과", f: "과", s: "아과", g: "속" };
   var GROUP = { A: "조류", R: "파충류" };
+  var OPEN_FIRST = { Squamata: 1 };  // 처음부터 펴 두는 목(유린목)
   var isLeaf = function (n) { return !Array.isArray(n[3]); };
   var href = function (page, sci) { return page + ".html#" + encodeURIComponent(sci.replace(/ /g, "_")); };
 
@@ -80,7 +81,8 @@
     return null;
   }
 
-  // box 에 나무를 그린다. opts.groups: ["A","R"], opts.current: 지금 종 또는 과의 학명(그 경로를 펴 둔다)
+  // box 에 나무를 그린다. opts.groups: ["A","R"](이 순서로), opts.current: 지금 종 또는 과의 학명(그 경로를 펴 둔다),
+  // opts.folded: 처음에 접어 둘 강(펼칠 때 그린다)
   window.VTree = function (box, data, opts) {
     opts = opts || {};
     box.innerHTML = "";
@@ -90,9 +92,32 @@
       var head = document.createElement("div");
       head.className = "tgroup";
       var total = data[g].reduce(function (s, o) { return s + count(o); }, 0);
-      head.innerHTML = "<b>" + GROUP[g] + '</b> <small class="tn">' + total.toLocaleString() + "종</small>";
+      var folded = (opts.folded || []).indexOf(g) >= 0;
+      head.innerHTML = '<button type="button" class="ttog" aria-expanded="' + !folded + '">' + (folded ? "▸" : "▾") + "</button><b>" +
+        GROUP[g] + '</b> <small class="tn">' + total.toLocaleString() + "종</small>";
       box.appendChild(head);
-      var tops = data[g].map(function (o) { var el = branch(o, opts.current); box.appendChild(el); return el; });
+      var body = document.createElement("div");
+      body.hidden = folded;
+      box.appendChild(body);
+      var tops = null;
+      var draw = function () {
+        if (tops) return;
+        tops = data[g].map(function (o) {
+          var el = branch(o, opts.current);
+          body.appendChild(el);
+          if (OPEN_FIRST[o[1]]) el._open(true);
+          return el;
+        });
+      };
+      head.addEventListener("click", function () {
+        draw();
+        body.hidden = !body.hidden;
+        var tog = head.querySelector(".ttog");
+        tog.textContent = body.hidden ? "▸" : "▾";
+        tog.setAttribute("aria-expanded", String(!body.hidden));
+      });
+      if (folded) return;
+      draw();
       var path = opts.current && !opened ? findPath(data[g], opts.current) : null;
       if (!path) return;
       var el = tops[path[0]];
