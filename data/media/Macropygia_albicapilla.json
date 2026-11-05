@@ -1,7 +1,193 @@
 {
  "sci": "Macropygia albicapilla",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1721066,
+  "name": "Macropygia albicapilla",
+  "observations": 169,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sulawesi_cuckoo-dove",
+  "common": "Sulawesi Cuckoo-Dove"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107803786/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY)",
+   "obs": 66818211,
+   "place": "Poso, Zentral-Sulawesi, Indonesien",
+   "date": "2015-09-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223800185/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ptaszkolog, some rights reserved (CC BY-NC)",
+   "obs": 131457259,
+   "place": "Tangkoko Batuangus Nature Reserve, Bitung, North Sulawesi, ID",
+   "date": "2022-08-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265159177/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC)",
+   "obs": 153518230,
+   "place": "Bolaang Mongondow Regency, North Sulawesi, Indonesia",
+   "date": "2018-07-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376121277/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC)",
+   "obs": 212834901,
+   "place": "Tangkoko 1, North Sulawesi, Indonesia",
+   "date": "2024-04-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572618681/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Charley Hesse, some rights reserved (CC BY-NC)",
+   "obs": 316912406,
+   "place": "Tomohon City, North Sulawesi, Indonesia",
+   "date": "2025-09-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/752833316/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 409444037,
+   "place": "Poso Regency, Central Sulawesi, Indonesia",
+   "date": "2026-10-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58581254/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Rob C. H. M. Oudejans, some rights reserved (CC BY-NC)",
+   "obs": 37000268,
+   "place": "Kumelembuay, Tomohon Timur, Tomohon, Noord-Celebes, Indonesië",
+   "date": "2016-09-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229900408/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mitch Rose, some rights reserved (CC BY-NC)",
+   "obs": 134840077,
+   "place": "Gowa Regency, South Sulawesi, Indonesia",
+   "date": "2022-09-06"
+  }
+ ],
+ "wiki": {
+  "title": "Sulawesi cuckoo-dove",
+  "url": "https://en.wikipedia.org/wiki/Sulawesi_cuckoo-dove",
+  "revision": 1382740085,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Sulawesi cuckoo-dove (Macropygia albicapilla) is a dove in the genus Macropygia found on the island of Sulawesi and other nearby islands. It was described by Charles Lucien Bonaparte in 1854. It has four recognised subspecies."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered as conspecific with the Amboyna cuckoo-dove, the Brown cuckoo-dove and the Sultan's cuckoo-dove. The slender-billed cuckoo-dove complex was split in 2016 mainly based on vocal differences. This species was later split from the Sultan's cuckoo-dove also based on vocal differences and response to playback.",
+     "There are four subspecies recognised, each of which inhabits different islands.",
+     "Macropygia albicapilla sanghirensis Salvadori, 1878",
+     "This subspecies is found on the islands of Sangihe, Siau, Tahulandang, Ruang, and Talaud. The holotype was collected by Antonie Augustus Bruijn in September or early October of 1875.",
+     "This subspecies has a pale blue-grey crown and nape, a more barred breast, but an unbarred foreneck, and less chestnut on the undertail coverts. The female is much darker above and below, with a mottled crown.",
+     "Macropygia albicapilla albicapilla Bonaparte, 1854",
+     "This subspecies is found on the islands of Sulawesi, the Banggai Islands, Tukangbesi and other adjacent islands.",
+     "This subspecies has a cream-colored forehead, a heavily barred breast, a gray-tinged crown, and rich chestnut upperparts. The female of this subspecies is paler than that of subspecies sanghirensis, especially on the face and underparts.",
+     "Macropygia albicapilla atrata Ripley, 1941",
+     "This subspecies is endemic to the Togian Islands. The holotype of this species was collected on 3 September 1939 by Johannes J. B. Menden in the locality of \"Oena Oena\".",
+     "This subspecies is similar to subspecies albicapilla, but is darker, larger and lacks white tips to the breast feathers.",
+     "Macropygia albicapilla sedecima Neumann, 1939",
+     "This subspecies is endemic to the Sula Islands. The holotype of this species was collected on 2 October 1938 by Menden.",
+     "This subspecies is very similar to subspecies albicapilla, but has a browner, paler crown; it is more cinnamon above and darker on the underside. The female has a barred hindneck and a uniformly chestnut forecrown."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The genus name Macropygia is a combination of the Latin makros \"deep\" and the Greek πυγη (puge) \"rump\". The specific epithet albicapilla is a combinaion of the Latin albus \"white\" and capillus \"capped\".",
+     "The subspecies name sanghirensis refers to the island of Sangihe. The name atrata comes from Latin, where it means \"clothed in mourning\". The name sedecima is Latin for \"sixteen\"."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This species is similar to other cuckoo-doves. It is a medium-sized dove, about 34-37 cm in length. The upperparts and wings are chestnut-brown in color, and the underparts are paler and barred across the breast. The neck feathers have a green and purplish metallic gloss. The tail is chestnut in color with no white or greyish tail tips. The iris is gray or blue with a yellow or red outer ring. The bill is brown to black in color, and the feet are reddish.",
+     "The male has a cream-colored forehead and a paler, strongly barred breast, while the female is browner with barring on the upperparts."
+    ]
+   },
+   {
+    "h": "Vocalisations",
+    "level": 2,
+    "paras": [
+     "This species gives a series of repeated puk-hooa, puk-hooa, puk-hooa calls, with each of the calls spaced about a second apart. Subspecies atrata gives an upslurred wu-up, with a higher pitched second note. During the bowing display, this species makes a growling call."
+    ]
+   },
+   {
+    "h": "Behaviour and ecology",
+    "level": 2,
+    "paras": [
+     "This species has a fast and direct flight, usually below canopy level."
+    ]
+   },
+   {
+    "h": "Diet and foraging",
+    "level": 3,
+    "paras": [
+     "This species is known to be a canopy feeder. This species feeds on 15 different species of fruits and flowers on Sulawesi, which is a more variable diet than other frugivorous birds on the island."
+    ]
+   },
+   {
+    "h": "Flocks",
+    "level": 3,
+    "paras": [
+     "This species is usually seen singly or in pairs, but can be sighted in groups of eight or more individuals."
+    ]
+   },
+   {
+    "h": "Breeding and displays",
+    "level": 3,
+    "paras": [
+     "This species shows two types of displays- the 'bowing' display and the flight display. The bowing display, which is performed by the male while perched close to a female, involves puffing the chest out, drawing the head backwards, and bowing the head down while giving a growling call.",
+     "The flight display involves the male flying steeply upwards towards the canopy level, loudly clapping the wings and partially spreading the tail before it comes back down in a semi-circular motion with the tail fully spread.",
+     "There are few records of this species breeding, one nest was recorded on the Togian Islands and one on Sulawesi.",
+     "The nest on the Togian Islands was found on 20 December 1999 and contained a single egg. It was recorded in a sugar palm at a height of 0.8 m, and was placed on top of one of the plant's leaves. It was made of twigs and dried branches, and it was embedded on top of the palm leaf.",
+     "The nest on Sulawesi was found on 18 August 2024 and was built inside a rock."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "This species inhabits forest edges, isolated tree groups, forest, and gardens, but it is especially common in primary forest. It occurs from sea level to an altitude of 2000 m in Sulawesi."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107803786/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "photo": 107803786
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/752833316/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Don Wellmann",
+   "photo": 752833316
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352567461/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 352567461
+  }
+ ]
 }

@@ -1,7 +1,52 @@
 {
  "sci": "Ketupa doerriesi",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720893,
+  "name": "Ketupa doerriesi",
+  "observations": 4,
+  "wikipedia_url": null,
+  "common": "Northern Fish-Owl"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251067905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alekseyfaraway, some rights reserved (CC BY-NC)",
+   "obs": 146081149,
+   "place": "Тернейский р-н, Приморский край, Россия",
+   "date": "2016-05-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112192086/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alekseyfaraway, some rights reserved (CC BY-NC)",
+   "obs": 69176653,
+   "place": "Тернейский р-н, Приморский край, Россия",
+   "date": "2011-05-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351047218/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 199096939,
+   "place": "Natsional'nyy Park \"Zov Tigra\", Primorskiy kray, Russia, 692609",
+   "date": "2018-06-11"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251067905/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alekseyfaraway, some rights reserved (CC BY-NC), uploaded by alekseyfaraway",
+   "photo": 251067905
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351047218/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by James Eaton",
+   "photo": 351047218
+  }
+ ]
 }

@@ -1,7 +1,23 @@
 {
  "sci": "Tanysiptera doris",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720126,
+  "name": "Tanysiptera doris",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Morotai Paradise-Kingfisher"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246501837/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 143705874,
+   "place": "Morotai Island 30m, North Maluku, Indonesia",
+   "date": "2022-11-15"
+  }
+ ],
+ "wiki": null,
+ "curated": []
 }

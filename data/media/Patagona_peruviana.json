@@ -1,7 +1,134 @@
 {
  "sci": "Patagona peruviana",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720994,
+  "name": "Patagona peruviana",
+  "observations": 457,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Northern_giant_hummingbird",
+  "common": "Northern Giant-Hummingbird"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27903588/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chuck Gates, some rights reserved (CC BY-NC)",
+   "obs": 18266278,
+   "place": "Pichincha, Ecuador",
+   "date": "2017-03-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444300781/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tony Iwane, some rights reserved (CC BY-NC)",
+   "obs": 248636422,
+   "place": "Metropolitan District of Quito, Ecuador",
+   "date": "2024-10-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/677751627/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paulo B R, some rights reserved (CC BY-NC)",
+   "obs": 370969556,
+   "place": "Quito, Equador",
+   "date": "2026-03-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39030522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gilbertocasarinlima, some rights reserved (CC BY-NC)",
+   "obs": 25213530,
+   "place": "Urubamba, Peru",
+   "date": "2019-05-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85578107/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) willvuyk, some rights reserved (CC BY-NC)",
+   "obs": 53797933,
+   "place": "Ecuador",
+   "date": "2020-01-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365711718/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Martin, some rights reserved (CC BY-NC)",
+   "obs": 206794891,
+   "place": "Metropolitan District of Quito, Ecuador",
+   "date": "2024-03-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29304534/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Lena Struwe, some rights reserved (CC BY-SA)",
+   "obs": 19096309,
+   "place": "Metropolitan District of Quito, Ecuador",
+   "date": "2018-10-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104808199/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY)",
+   "obs": 65141984,
+   "place": "Stadt Quito, Ecuador",
+   "date": "2019-08-18"
+  }
+ ],
+ "wiki": {
+  "title": "Northern giant hummingbird",
+  "url": "https://en.wikipedia.org/wiki/Northern_giant_hummingbird",
+  "revision": 1351855165,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The northern giant hummingbird (Patagona peruviana) is the largest species of hummingbird and one of two species of the genus Patagona."
+    ]
+   },
+   {
+    "h": "Size",
+    "level": 2,
+    "paras": [
+     "Its mass is in the range of 17–31 g (0.60–1.09 oz), making it approximately twice as heavy as the next largest hummingbird. Its wingspan is 21.5 cm (8.5 in), with a body length of 23 cm (9.1 in). The northern giant hummingbird is slightly larger than the southern giant hummingbird, having a longer bill, wings, tail, and body length. Northern males are heavier and with longer wings than northern females."
+    ]
+   },
+   {
+    "h": "Range",
+    "level": 2,
+    "paras": [
+     "The northern giant hummingbird is non-migratory and inhabits the Andes in Chile, Ecuador, and Peru, which differs from the range of the migratory southern giant hummingbird that inhabits Chile, Argentina, and Bolivia."
+    ]
+   },
+   {
+    "h": "Genetic analysis",
+    "level": 2,
+    "paras": [
+     "It and the sympatric southern giant hummingbird (P. gigas) were once considered the same species, i.e., the giant hummingbird, though some researchers had already classified them as different species or subspecies in the past. Genetic analysis supports the separation of the two species which shows that they diverged between 2.1 and 3.4 million years ago, in the late Pliocene.",
+     "The binomial name, Patagona chaski, was attributed to the northern giant hummingbird in 2024, but this taxon was already described as Patagona peruviana by Adolphe Boucard in 1893, making P. chaski a junior synonym of P. peruviana.",
+     "A single F1 male hybrid between the two species has been recorded in a study that collected a sample of 101 individuals, suggesting that hybridization occurs regularly between the species. However, high genome-wide FST between the two species shows that introgression and backcrossing of first generation hybrids occurs very rarely in nature, such that there is no gene flow occurring between the two species."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/751323765/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sean Cozart, some rights reserved (CC BY-NC), uploaded by Sean Cozart",
+   "photo": 751323765
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33437822/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Leandro Alvarez, some rights reserved (CC BY-NC-SA), uploaded by Leandro Alvarez",
+   "photo": 33437822
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39030522/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) gilbertocasarinlima, some rights reserved (CC BY-NC)",
+   "photo": 39030522
+  }
+ ]
 }

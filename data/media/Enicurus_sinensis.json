@@ -1,7 +1,98 @@
 {
  "sci": "Enicurus sinensis",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720651,
+  "name": "Enicurus sinensis",
+  "observations": 573,
+  "wikipedia_url": null,
+  "common": "Northern forktail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466502257/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yanbo Wang, some rights reserved (CC BY-NC)",
+   "obs": 259830287,
+   "place": "Qiyang, Yongzhou, Hunan, CN",
+   "date": "2025-01-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455077721/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) o-o2002, some rights reserved (CC BY-NC)",
+   "obs": 254103039,
+   "place": "Guangdong, CN",
+   "date": "2024-11-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536976168/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) 莲子, some rights reserved (CC BY-NC-SA)",
+   "obs": 298132129,
+   "place": "Hangzhou, CN-ZJ, CN",
+   "date": "2025-07-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127188940/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC)",
+   "obs": 77755112,
+   "place": "Qingchuan County, Guangyuan, Sichuan, China",
+   "date": "2018-10-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290204834/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) llareta, some rights reserved (CC BY-NC)",
+   "obs": 167518565,
+   "place": "中国丽水市龙泉市黄茅尖 邮政编码: 323713",
+   "date": "2023-06-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299755946/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nat Panda, some rights reserved (CC BY-NC-SA)",
+   "obs": 172672292,
+   "place": "宽阔水 Kuankuoshui full area, Suiyang County, Zunyi, Guizhou, China",
+   "date": "2023-06-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249300880/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rhinolin, some rights reserved (CC BY-NC)",
+   "obs": 145157160,
+   "place": "九江永修龙源峡",
+   "date": "2022-12-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179711601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wuyuxuan, some rights reserved (CC BY-NC)",
+   "obs": 106914277,
+   "place": "江湾大道, 上饶市, 江西省, CN",
+   "date": "2022-02-17"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32968054/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+   "photo": 32968054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173464768/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+   "photo": 173464768
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222747603/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niran Anurakpongsathorn, some rights reserved (CC BY-NC), uploaded by Niran Anurakpongsathorn",
+   "photo": 222747603
+  }
+ ]
 }

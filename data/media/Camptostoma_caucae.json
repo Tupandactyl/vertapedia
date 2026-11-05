@@ -1,7 +1,38 @@
 {
  "sci": "Camptostoma caucae",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720151,
+  "name": "Camptostoma caucae",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Cauca Beardless-Tyrannulet"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490858167/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathieu Sannier, some rights reserved (CC BY-NC)",
+   "obs": 272835495,
+   "place": "Santiago de Cali, CO-VC, CO",
+   "date": "2025-04-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759813085/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Garrigues, some rights reserved (CC BY-NC)",
+   "obs": 412893590,
+   "place": "Buga, Guadalajara de Buga, Valle del Cauca, Colombia",
+   "date": "2025-01-09"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490858167/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathieu Sannier, some rights reserved (CC BY-NC), uploaded by Mathieu Sannier",
+   "photo": 490858167
+  }
+ ]
 }

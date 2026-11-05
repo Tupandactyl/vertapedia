@@ -1,7 +1,139 @@
 {
  "sci": "Tanysiptera margarethae",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720127,
+  "name": "Tanysiptera margarethae",
+  "observations": 37,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Halmahera_paradise_kingfisher",
+  "common": "Halmahera Paradise-Kingfisher"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655786956/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yash Bhagwanji, some rights reserved (CC BY-NC)",
+   "obs": 359429132,
+   "place": "North Halmahera Regency, North Maluku, Indonesia",
+   "date": "2026-05-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458568730/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Fadzrun, some rights reserved (CC BY-NC)",
+   "obs": 255839820,
+   "place": "West Halmahera Regency, North Maluku, Indonesia",
+   "date": "2024-11-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373195854/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC)",
+   "obs": 211055697,
+   "place": "PK North Maluku, Indonesia",
+   "date": "2024-03-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/526332919/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Alexander, some rights reserved (CC BY)",
+   "obs": 292518521,
+   "place": "West Halmahera Regency, North Maluku, Indonesia",
+   "date": "2025-01-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464142028/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC)",
+   "obs": 258667917,
+   "place": "印度尼西亚北马鲁古东哈马黑拉县",
+   "date": "2024-05-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719626085/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC)",
+   "obs": 392659422,
+   "place": "subaim, North Maluku, Indonesia",
+   "date": "2026-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463719235/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC)",
+   "obs": 258459835,
+   "place": "印度尼西亚北马鲁古西哈马黑拉县",
+   "date": "2024-05-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684497080/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) emskakoon, some rights reserved (CC BY-NC)",
+   "obs": 374485861,
+   "place": "East Halmahera Regency, North Maluku, Indonesia",
+   "date": "2024-07-30"
+  }
+ ],
+ "wiki": {
+  "title": "Halmahera paradise kingfisher",
+  "url": "https://en.wikipedia.org/wiki/Halmahera_paradise_kingfisher",
+  "revision": 1383369698,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Halmahera paradise kingfisher (Tanysiptera margarethae) is a species of bird in the family Alcedinidae. It is found in the northern Moluccas in Indonesia. It was described by Ferdinand Heine in 1860."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered a subspecies of the common paradise kingfisher but was separated from it along with four other species based on an examination of the calls of the members of the galatea complex.",
+     "Four subspecies are recognised-",
+     "Tanysiptera margarethae browningi Ripley, 1983- Halmahera",
+     "Tanysiptera margarethae brunhildae Jany, 1955- Doi island",
+     "Tanysiptera margarethae margarethae Heine, 1860- Bacan",
+     "Tanysiptera margarethae sabrina Gray, 1861- Kayoa"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Subspecies margarethae is similar to subspecies galatea of the common paradise kingfisher, but it differs from it because of its purple-blue crown and a mainly blue tail. Subspecies brunhildae has a blue tail with white sides, while browningi has a deep blue crown encircled by a narrow line of cobalt-colored feathers. Subspecies sabrina has a white patch in the middle of the back and entirely white outer tail feathers.",
+     "The juvenile is brown with a vertically barred breast and a short tail."
+    ]
+   },
+   {
+    "h": "Habits",
+    "level": 2,
+    "paras": [
+     "The call of this species differs from the rest of the complex by having a descending introductory note followed by another introductory note which is then followed by a trill that gradually increases in pitch.",
+     "This species nests in arboreal termite mounds, mostly in trees of Vitex cofassus, at a distance of 5 m from the ground, from September to January. The clutch size is 2."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363278233/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies",
+   "photo": 363278233
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436991249/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "photo": 436991249
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654674021/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC), uploaded by Peter Ericsson",
+   "photo": 654674021
+  }
+ ]
 }

@@ -1,7 +1,142 @@
 {
  "sci": "Schoeniclus rusticus",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1081583,
+  "name": "Schoeniclus rusticus",
+  "observations": 4708,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rustic_bunting",
+  "common": "Rustic Bunting"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586553216/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ian Cruickshank, some rights reserved (CC BY-NC)",
+   "obs": 324101313,
+   "place": "Skeena-Queen Charlotte, CA-BC, CA",
+   "date": "2025-10-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427140613/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC)",
+   "obs": 239799860,
+   "place": "Noglikskiy rayon, RU-SL, RU",
+   "date": "2024-06-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263023473/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Людмила Алимова, some rights reserved (CC BY)",
+   "obs": 152368082,
+   "place": "Tula, RU",
+   "date": "2023-03-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580103121/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Viktor Björkert, some rights reserved (CC BY-NC)",
+   "obs": 320814185,
+   "place": "Skåne, SE",
+   "date": "2025-10-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335163049/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Лида Онищенко, some rights reserved (CC BY-NC)",
+   "obs": 191100567,
+   "place": "Syktyvdinskiy rayon, RU-KO, RU",
+   "date": "2023-05-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614086237/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) m_sato, some rights reserved (CC BY-NC)",
+   "obs": 337762487,
+   "place": "日本、〒206-0021 東京都多摩市連光寺",
+   "date": "2026-02-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99168298/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC)",
+   "obs": 61934467,
+   "place": "Novosibirskiy rayon, RU-NS, RU",
+   "date": "2020-09-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8562672/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Christian Hagenlocher, some rights reserved (CC BY-NC)",
+   "obs": 6742346,
+   "place": "Aleutians West County, Alaska Maritime National Wildlife Refuge, US-AK, US",
+   "date": "2016-05-21"
+  }
+ ],
+ "wiki": {
+  "title": "Rustic bunting",
+  "url": "https://en.wikipedia.org/wiki/Rustic_bunting",
+  "revision": 1381797180,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The rustic bunting (Schoeniclus rusticus) is a small passerine bird in the Old World bunting family Emberizidae, a group now separated by most modern authors from the finches in the family Fringillidae. It breeds in the northern Palearctic from Scandinavia eastwards to the Kamchatka Peninsula and winters to south-eastern China, southern Japan and the Korean Peninsula."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The rustic bunting was first formally described in 1776 by the Prussian naturalist and explorer Peter Simon Pallas with Dauria in eastern Russia given as the type locality. The specific epithet rusticus is Latin for \"rustic or simple\".",
+     "This species was formerly placed in the genus Emberiza but in 2026 it was moved to the resurrected genus Schoeniclus based on the results of a 2021 molecular genetic study. Within the genus the rustic bunting is sister to the little bunting (S. pusillus)."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This bird is similar in size to a common reed bunting. It has white underparts with reddish flank, pink legs and a pink lower mandible. The summer male has a black head with a white throat and supercilium and a reddish breast band.",
+     "The female has a heavily streaked brown back and brown face with a whitish supercilium. She resembles a female reed bunting, but has the reddish flank streaks, a chestnut nape and a pink, not grey, lower mandible.",
+     "The call is a zit, similar to that of a song thrush (Turdus philomelos), and the song is a melancholic delee-deloo-delee."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "It breeds across the northern Palearctic. It is migratory, wintering in south-east Asia, Japan, Korea, and eastern China. It is a rare wanderer to western Europe."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 2,
+    "paras": [
+     "It breeds in wet coniferous woodland. Four to six eggs are laid in a nest in a bush or on the ground. Its natural food consists of seeds, and when feeding young, insects."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684147649/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "photo": 684147649
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335163327/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Лида Онищенко, some rights reserved (CC BY-NC), uploaded by Лида Онищенко",
+   "photo": 335163327
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2616822/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+   "photo": 2616822
+  }
+ ]
 }

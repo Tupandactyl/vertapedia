@@ -1,7 +1,151 @@
 {
  "sci": "Fringillaria striolata",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720301,
+  "name": "Fringillaria striolata",
+  "observations": 335,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Striolated_bunting",
+  "common": "Striolated Bunting"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/697062690/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dhruva Punde, some rights reserved (CC BY-NC)",
+   "obs": 380983665,
+   "place": "Pune, Maharashtra, India",
+   "date": "2026-07-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436873980/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) congonaturalist, some rights reserved (CC BY-NC)",
+   "obs": 244872682,
+   "place": "Ennedi Ouest, TD-BT-EO, TD",
+   "date": "2024-09-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626261512/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathieu Mahamoud-Issa, some rights reserved (CC BY-NC)",
+   "obs": 343760641,
+   "place": "As Eyla, Djibouti",
+   "date": "2026-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323602520/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Chiranjiv Bhatti, some rights reserved (CC BY-NC)",
+   "obs": 185301690,
+   "place": "Okhamandal, Devbhumi Dwarka, GJ, IN",
+   "date": "2023-09-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/753391821/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Radim J. Vašut, some rights reserved (CC BY-NC)",
+   "obs": 409722700,
+   "place": "Jižní aš-Šarkíja, Omán",
+   "date": "2026-10-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254564348/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) nature_with_krista, some rights reserved (CC BY-NC)",
+   "obs": 147889014,
+   "place": "HaDarom, IL",
+   "date": "2023-01-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723721042/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Shlomi Levi, some rights reserved (CC BY-NC)",
+   "obs": 394751227,
+   "place": "Israel",
+   "date": "2026-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159220723/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sssuresh, some rights reserved (CC BY-NC)",
+   "obs": 95877653,
+   "place": "Az Zahirah, OM",
+   "date": "2019-11-30"
+  }
+ ],
+ "wiki": {
+  "title": "Striolated bunting",
+  "url": "https://en.wikipedia.org/wiki/Striolated_bunting",
+  "revision": 1381725498,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The striolated bunting (Fringillaria striolata) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern authors from the finches, Fringillidae."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The striolated bunting was formerly placed in the genus Emberiza. In 2026 it was moved to the resurrected genus Fringillaria based on the results of a 2021 molecular genetic study.",
+     "Three subspecies are recognised:",
+     "F. s. saturatior Sharpe, 1901 – highlands of central Sudan, southwestern Ethiopia, and northwestern Kenya",
+     "F. s. jebelmarrae Lynes, 1920 – highlands of west-central Sudan (Jebel Marra)",
+     "F. s. striolata (Lichtenstein, 1823) – northeastern Africa to Arabian Peninsula, Iran, Pakistan, and central India"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It is 14 cm (5.5 in) long, similar in size to the house bunting and smaller than the similarly plumaged rock bunting. The breeding male has a chestnut body, and grey head with darker streaking and a white supercilium and moustachial streak. The female's head has a brown tint to the grey, and more diffused streaking.",
+     "The striolated bunting has stronger facial striping and a paler belly than the house bunting, which used to be considered conspecific as the subspecies E. s. sahari. Birds in eastern Chad (F. striolata jebelmarrae) show some evidence of intergradation with the house bunting.",
+     "The song, given from a perch, is similar to but weaker than that of the common chaffinch."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "It is a resident breeder of dry country from Chad, east through south-west Asia to north-western India. and in Africa.",
+     "It breeds in remote wadis (not around human habitation like the related house bunting), usually close to streams, laying two to four eggs in a nest on the ground or in a hole in the ground. Its natural food consists of seeds, or when feeding young, insects."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": []
+   },
+   {
+    "h": "Breeding",
+    "level": 3,
+    "paras": [
+     "The breeding range of the bird in India has been noted in recent times to include more southerly locations such as near Saswad near Pune. The incubation period of the clutch of three eggs is 14 days."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177445552/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
+   "photo": 177445552
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15984/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 15984
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1594062/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
+   "photo": 1594062
+  }
+ ]
 }

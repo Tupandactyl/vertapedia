@@ -1,7 +1,98 @@
 {
  "sci": "Schoeniclus yessoensis",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720330,
+  "name": "Schoeniclus yessoensis",
+  "observations": 307,
+  "wikipedia_url": null,
+  "common": "Ochre-rumped Bunting"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418914964/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC)",
+   "obs": 235542379,
+   "place": "Primor'ye, RU",
+   "date": "2024-05-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748836094/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) leekelai, some rights reserved (CC BY-NC)",
+   "obs": 407484221,
+   "place": "Beijing, Beijing, CN",
+   "date": "2026-10-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447900567/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Aaron Rusak, some rights reserved (CC BY-NC)",
+   "obs": 250438143,
+   "place": "Incheon, KR",
+   "date": "2024-01-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376559093/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) wresy, some rights reserved (CC BY-NC)",
+   "obs": 213078675,
+   "place": "Beijing, Beijing, CN",
+   "date": "2023-10-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436078238/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC)",
+   "obs": 244472695,
+   "place": "Primor'ye, RU",
+   "date": "2024-05-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486953550/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Temnurus, some rights reserved (CC BY-NC)",
+   "obs": 270750077,
+   "place": "Beijing, Beijing, CN",
+   "date": "2025-04-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562288217/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)",
+   "obs": 311488108,
+   "place": "Japan",
+   "date": "2025-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580763602/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ZhenningLiu, some rights reserved (CC BY-NC)",
+   "obs": 321152688,
+   "place": "Beijing, Beijing, CN",
+   "date": "2025-10-16"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554885846/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vyacheslav Luzanov, some rights reserved (CC BY-NC), uploaded by Vyacheslav Luzanov",
+   "photo": 554885846
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2681471/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+   "photo": 2681471
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/967095/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Kisswaynow, some rights reserved (CC BY-SA)",
+   "photo": 967095
+  }
+ ]
 }

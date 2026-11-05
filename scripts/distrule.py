@@ -12,8 +12,13 @@
 def counts(d, gadm=None):
     """나라별 기록 → 지역별 기록. 행정구역 기록 g 가 있으면 나눈 나라(US·ID·RU 등)를 지역(US-HI 등)으로 쪼갠다:
     지역별로 행정구역 기록을 더하고, 나머지는 본토(나라 코드 그대로)에 남긴다."""
-    c = {k: v for k, v in ((d or {}).get("w") or (d or {}).get("c") or {}).items() if k != "ZZ" and v > 0}
-    if gadm and (d or {}).get("g"):
+    d = d or {}
+    src = d.get("w") or d.get("c") or {}
+    # 옛 학명으로 찾은 종은 eBird·iNaturalist 기록이 그 항목에 다 묶이지 않아 야생 출처가 크게 줄어든다 → 전체 기록을 쓴다
+    if d.get("via") and sum(src.values()) * 2 < sum((d.get("c") or {}).values()):
+        src = d["c"]
+    c = {k: v for k, v in src.items() if k != "ZZ" and v > 0}
+    if gadm and d.get("g"):
         # 나눈 나라마다 행정구역별 기록을 지역으로 모으고, 행정구역이 없는 기록(해안 등)은 그 비율대로 나눈다
         per = {}
         for gid, v in d["g"].items():

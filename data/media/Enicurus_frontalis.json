@@ -1,7 +1,98 @@
 {
  "sci": "Enicurus frontalis",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720650,
+  "name": "Enicurus frontalis",
+  "observations": 64,
+  "wikipedia_url": null,
+  "common": "Malayan forktail"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597064440/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Evan Hessels, some rights reserved (CC BY-NC)",
+   "obs": 329390657,
+   "place": "Lahad Datu, Sabah, Malaysia",
+   "date": "2025-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546787571/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)",
+   "obs": 303370858,
+   "place": "Krung Ching, Nopphitam District, Nakhon Si Thammarat 80160, Thailand",
+   "date": "2009-06-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572333566/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Brodie Cass Talbott, some rights reserved (CC BY)",
+   "obs": 316765852,
+   "place": "Lahad Datu, Sabah, Malaysia",
+   "date": "2025-09-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5092628/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC)",
+   "obs": 4256483,
+   "place": "Kutai National Park, Sangata, Kalimantán, Borneo Island, Indonesia.",
+   "date": "2012-10-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522863226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tkp123, some rights reserved (CC BY-NC)",
+   "obs": 290646516,
+   "place": "Sabah, MY",
+   "date": "2025-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700115160/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jiunn Hau Chong, some rights reserved (CC BY-NC)",
+   "obs": 382564012,
+   "place": "Chemor, Perak, MY",
+   "date": "2026-07-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449235498/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) johnharshman, some rights reserved (CC BY-NC)",
+   "obs": 251107172,
+   "place": "Lot 20, Block 3, MDLD 3285, Ground Floor, Fajar Centre Fajar Lorong 9, 91120 Lahad Datu, Sabah, Malaysia",
+   "date": "2024-09-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472439028/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Lawrence Hylton, some rights reserved (CC BY)",
+   "obs": 263035891,
+   "place": "Sabah, MY",
+   "date": "2025-02-16"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693813271/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Glenda Khoo, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Glenda Khoo",
+   "photo": 693813271
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546787576/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Ian Dugdale, niektóre prawa zastrzeżone (CC BY), przesłane przez użytkownika Ian Dugdale",
+   "photo": 546787576
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456173702/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "brak praw zastrzeżonych, przesłane przez użytkownika Chrissy McClarren and Andy Reago",
+   "photo": 456173702
+  }
+ ]
 }

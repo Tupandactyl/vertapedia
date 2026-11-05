@@ -1,7 +1,98 @@
 {
  "sci": "Momotus castaneiceps",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720167,
+  "name": "Momotus castaneiceps",
+  "observations": 19,
+  "wikipedia_url": null,
+  "common": "Guatemalan Motmot"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231580770/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Grete Pasch, some rights reserved (CC BY)",
+   "obs": 135749579,
+   "place": "Res. Heloderma",
+   "date": "2022-09-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140240432/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 85260007,
+   "place": "Teculután, Guatemala",
+   "date": "2021-06-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11828199/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Ariano-Sánchez, some rights reserved (CC BY)",
+   "obs": 8807390,
+   "place": "El Arenal, Guatemala",
+   "date": "2015-12-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31157252/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riley, some rights reserved (CC BY)",
+   "obs": 20188033,
+   "place": "Zacapa Department, Guatemala",
+   "date": "2019-01-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/281397999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Dallies, some rights reserved (CC BY-NC)",
+   "obs": 162732254,
+   "place": "Cabañas, Guatemala",
+   "date": "2023-04-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268644376/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Justyn Stahl, some rights reserved (CC BY-NC)",
+   "obs": 155415148,
+   "place": "Morazán, Guatemala",
+   "date": "2023-02-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360663647/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Dallies, some rights reserved (CC BY-NC)",
+   "obs": 204077846,
+   "place": "Cabañas, Guatemala",
+   "date": "2023-04-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182440196/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC)",
+   "obs": 108370373,
+   "place": "Cabañas, Guatemala",
+   "date": "2022-03-02"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153609245/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
+   "photo": 153609245
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11828199/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Daniel Ariano-Sánchez, some rights reserved (CC BY), uploaded by Daniel Ariano-Sánchez",
+   "photo": 11828199
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360663647/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Claire Dallies, some rights reserved (CC BY-NC), uploaded by Claire Dallies",
+   "photo": 360663647
+  }
+ ]
 }

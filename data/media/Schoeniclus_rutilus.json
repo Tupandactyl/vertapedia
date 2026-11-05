@@ -1,7 +1,98 @@
 {
  "sci": "Schoeniclus rutilus",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720337,
+  "name": "Schoeniclus rutilus",
+  "observations": 548,
+  "wikipedia_url": null,
+  "common": "Chestnut Bunting"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346379989/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Светлана Черепанова, some rights reserved (CC BY-NC)",
+   "obs": 196764838,
+   "place": "г. Нерюнгри, Респ. Саха (Якутия), Россия",
+   "date": "2019-07-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758389029/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) benjamin_petra_schattanek-wiesmair, some rights reserved (CC BY-NC)",
+   "obs": 412183865,
+   "place": "Imst, Österreich",
+   "date": "2023-12-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286126624/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jonghwan Choi, some rights reserved (CC BY-NC)",
+   "obs": 165305268,
+   "place": "대한민국 충청남도 태안군 근흥면",
+   "date": "2023-05-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166119749/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rupperrt78, some rights reserved (CC BY-NC)",
+   "obs": 99626246,
+   "place": "Hong Kong Island, Pok Fu Lam, HK",
+   "date": "2021-10-28"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/744551822/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Haemi Lee, some rights reserved (CC BY-NC)",
+   "obs": 405358219,
+   "place": "Banggok-ri, Chuncheon-si, Gangwon State, KR",
+   "date": "2026-10-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/740367338/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ys Zhang, some rights reserved (CC BY-NC)",
+   "obs": 403249610,
+   "place": "中国北京市昌平区",
+   "date": "2026-09-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232150994/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 136060925,
+   "place": "Ольгинский р-н, Приморский край, Россия",
+   "date": "2022-09-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504725473/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 김대환, 이선미, some rights reserved (CC BY-NC)",
+   "obs": 280989165,
+   "place": "대한민국 전북특별자치도 군산시 옥도면",
+   "date": "2025-05-12"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15975/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Lin, some rights reserved (CC BY-NC-SA)",
+   "photo": 15975
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15976/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Kevin Lin, some rights reserved (CC BY-NC-SA)",
+   "photo": 15976
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2741161/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+   "photo": 2741161
+  }
+ ]
 }

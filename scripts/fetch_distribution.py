@@ -7,14 +7,17 @@
 
     python scripts/fetch_distribution.py                 # 전부(이어 받기)
     python scripts/fetch_distribution.py --limit 50      # 시험
-    python scripts/fetch_distribution.py --retry         # 못 찾은 종도 다시
+    python scripts/fetch_distribution.py --retry         # 못 찾은 종도 다시 (--group AVES 로 강을 좁힐 수 있다)
     python scripts/fetch_distribution.py --wild          # 야생 출처(eBird·iNaturalist·표본)만 센 나라별 기록 w 채우기
 """
 import json
+import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -41,10 +44,63 @@ def get(url, params):
     return None
 
 
+def avilist_aliases():
+    """GBIF 가 아직 모르는 조류 새 학명 → 찾아 볼 다른 학명: AviList v2025 에서 같은 Avibase ID 의 학명
+    (아종이던 종은 그 아종 학명), 원기재 학명. AviList 원본이 없으면 비워 둔다(scripts/fetch_types.py 가 받는다)."""
+    p25, p26 = DATA / "avilist2025.xlsx", DATA / "avilist2026.xlsx"
+    if not (p25.exists() and p26.exists()):
+        return {}
+    import openpyxl
+
+    def rows(path, sheet, want):
+        it = openpyxl.load_workbook(path, read_only=True, data_only=True)[sheet].iter_rows(values_only=True)
+        head = list(next(it))
+        ix = [head.index(w) for w in want]
+        return [[r[i] for i in ix] for r in it]
+
+    def binomial(protonym):
+        """'Polymitra (Fringillaria) cabanisi', 'AEgialitis forbesi' → 속 + 종소명. 대괄호로 줄인 이름은 못 쓴다"""
+        text = unicodedata.normalize("NFKD", re.sub(r"\([^)]*\)|\?", " ", protonym or "")).encode("ascii", "ignore").decode()
+        words = text.split()
+        if len(words) < 2 or not all(w.isalpha() for w in words):
+            return None
+        return f"{words[0].capitalize()} {words[-1].lower()}"
+
+    old = {}
+    for rank, sci, av in rows(p25, "AviList v2025 extended", ("Taxon_rank", "Scientific_name", "AvibaseID")):
+        if av and rank in ("species", "subspecies"):
+            old[av] = sci
+    out = {}
+    for rank, sci, av, prot in rows(p26, "AviList v2026", ("RANK", "SCIENTIFIC NAME", "AVIBASE ID", "PROTONYM")):
+        if rank == "species":
+            names = [n for n in (old.get(av), binomial(prot)) if n and n != sci]
+            if names:
+                out[sci] = list(dict.fromkeys(names))
+    return out
+
+
+ALIASES = {}
+
+
+def gbif_match(name, grp, exact_species=False):
+    """학명 대조 결과(없으면 None). 다른 학명으로 찾을 때는 철자가 정확히 맞는 종·아종만 받는다"""
+    m = get("https://api.gbif.org/v1/species/match", dict(name=name, kingdom="Animalia", strict="true"))
+    if not m or m.get("matchType") not in ("EXACT", "FUZZY") or m.get("class") not in CLASS[grp]:
+        return None
+    if exact_species and (m["matchType"] != "EXACT" or m.get("rank") not in ("SPECIES", "SUBSPECIES")):
+        return None
+    return m
+
+
 def one(t):
     sci, grp = t["sci"], t["group"]
-    m = get("https://api.gbif.org/v1/species/match", dict(name=sci, kingdom="Animalia", strict="true"))
-    if not m or m.get("matchType") not in ("EXACT", "FUZZY") or m.get("class") not in CLASS[grp]:
+    m, via = gbif_match(sci, grp), None
+    for name in ALIASES.get(sci, []) if not m else []:
+        m = gbif_match(name, grp, exact_species=True)
+        if m:
+            via = name
+            break
+    if not m:
         return sci, None
     key = m.get("acceptedUsageKey") or m.get("usageKey")
     d = get("https://api.gbif.org/v1/occurrence/search", dict(
@@ -52,7 +108,10 @@ def one(t):
     if d is None:
         return sci, None
     facets = (d.get("facets") or [{}])[0].get("counts", [])
-    return sci, dict(key=key, n=d.get("count", 0), c={f["name"]: f["count"] for f in facets}, iucn=iucn(key))
+    rec = dict(key=key, n=d.get("count", 0), c={f["name"]: f["count"] for f in facets}, iucn=iucn(key))
+    if via:
+        rec["via"] = via  # GBIF 에서 찾을 때 쓴 다른 학명
+    return sci, rec
 
 
 GADM = json.loads((DATA / "gadm_regions.json").read_text(encoding="utf-8")) if (DATA / "gadm_regions.json").exists() else {}
@@ -127,18 +186,27 @@ def main():
     todo = [t for t in names if t["rank"] == "species" and (t["sci"] not in out or (retry and out[t["sci"]] is None))]
     # 국명 있는 종부터
     todo.sort(key=lambda t: (not t.get("name"), t["group"] != "AVES"))
+    if "--group" in sys.argv:
+        grp = sys.argv[sys.argv.index("--group") + 1]
+        todo = [t for t in todo if t["group"] == grp]
     if limit:
         todo = todo[:limit]
+    ALIASES.update(avilist_aliases())
     done = 0
     with ThreadPoolExecutor(max_workers=4) as ex:
-        for sci, rec in ex.map(one, todo):
-            out[sci] = rec
-            done += 1
-            if done % 200 == 0:
-                OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-                print(f"분포 {done}/{len(todo)}", flush=True)
+        results = list(ex.map(one, todo))
+    # 다른 학명으로 찾았는데 그 GBIF 항목을 다른 종도 쓰면 갈라지기 전 기록이 섞인 것이라 버린다
+    uses = Counter(v["key"] for v in out.values() if v)
+    uses.update(rec["key"] for _, rec in results if rec)
+    dropped = 0
+    for sci, rec in results:
+        if rec and rec.get("via") and uses[rec["key"]] > 1:
+            print("다른 종과 겹쳐 버림:", sci, rec["via"], flush=True)
+            rec, dropped = None, dropped + 1
+        out[sci] = rec
+        done += 1
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print("분포 받은 종:", done, "· 전체", len(out), "· 못 찾음", sum(1 for v in out.values() if not v))
+    print("분포 받은 종:", done, "· 겹쳐 버림", dropped, "· 전체", len(out), "· 못 찾음", sum(1 for v in out.values() if not v))
 
 
 if __name__ == "__main__":

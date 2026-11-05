@@ -1,7 +1,141 @@
 {
  "sci": "Schoeniclus chrysophrys",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720339,
+  "name": "Schoeniclus chrysophrys",
+  "observations": 905,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-browed_bunting",
+  "common": "Yellow-browed Bunting"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195921732/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Seokin Yang, some rights reserved (CC BY-NC)",
+   "obs": 116090249,
+   "place": "대한민국 전라북도 군산시 옥도면",
+   "date": "2022-05-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66912631/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) verdit, some rights reserved (CC BY-NC)",
+   "obs": 42151820,
+   "place": "香港蒲台島",
+   "date": "2020-04-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351230468/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) fattakhova_olga, some rights reserved (CC BY-NC)",
+   "obs": 199187694,
+   "place": "Северобайкальск, Респ. Бурятия, Россия",
+   "date": "2023-05-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471969494/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) ys Zhang, some rights reserved (CC BY-NC)",
+   "obs": 262788541,
+   "place": "中国北京市海淀区",
+   "date": "2025-02-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477282962/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) abujudy, some rights reserved (CC BY-NC)",
+   "obs": 265694221,
+   "place": "Lienkiang (Matsu Islands), Fujian, Taiwan",
+   "date": "2024-11-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664586372/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Barry Stewart, some rights reserved (CC BY)",
+   "obs": 364059159,
+   "place": "Khalzan, MN-SB, MN",
+   "date": "2025-09-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560830256/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) lee_meow, some rights reserved (CC BY-NC)",
+   "obs": 310722120,
+   "place": "山东省淄博市淄川区河洼村",
+   "date": "2025-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358755805/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Yushi Wang, some rights reserved (CC BY-NC)",
+   "obs": 203079833,
+   "place": "中国北京市海淀区",
+   "date": "2024-03-13"
+  }
+ ],
+ "wiki": {
+  "title": "Yellow-browed bunting",
+  "url": "https://en.wikipedia.org/wiki/Yellow-browed_bunting",
+  "revision": 1381765906,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The yellow-browed bunting (Schoeniclus chrysophrys) is a passerine bird in the family Emberizidae, a group now separated by most modern taxonomists from the finches in the family Fringillidae. It breeds in eastern Russia and winters in southern China"
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The specific chrysophrys is from Ancient Greek khrusophrus, \"golden-browed\".",
+     "This species was formerly placed in the genus Emberiza but in 2026 it was moved to the resurrected genus Schoeniclus based on the results of a 2021 molecular genetic study."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This bird is smaller than a common reed bunting, but is relatively large-headed. The upper parts are brown and heavily streaked, and the underparts are white with an orange hue on the flanks and some fine dark streaks. Their stout beaks are pink.",
+     "The breeding male has a black head with white crown and moustachial stripes and throat. There is a bright yellow eyebrow stripe. Females and young birds have a weaker head pattern, with brown instead of black, and can be confused with little buntings; however, there is always some yellow in the eyebrow, as well as at least a hint of a white stripe on the crown."
+    ]
+   },
+   {
+    "h": "Distribution",
+    "level": 2,
+    "paras": [
+     "It breeds in eastern Siberia and is migratory, wintering in central and southern China. It is a very rare wanderer to western Europe."
+    ]
+   },
+   {
+    "h": "Breeding",
+    "level": 2,
+    "paras": [
+     "The yellow-browed bunting breeds in the taiga zone, and lays four eggs in an arboreal nest. In the wild, the adults' diet consists of seeds, but they feed insects to nestlings."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2781641/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+   "photo": 2781641
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26834054/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Amaël Borzée, some rights reserved (CC BY-NC), uploaded by Amaël Borzée",
+   "photo": 26834054
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66913670/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) verdit, some rights reserved (CC BY-NC), uploaded by verdit",
+   "photo": 66913670
+  }
+ ]
 }

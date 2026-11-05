@@ -1,7 +1,140 @@
 {
  "sci": "Ptilinopus holosericeus",
- "fetched": "2026-10-08",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1650591,
+  "name": "Ptilinopus holosericeus",
+  "observations": 69,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cloven-feathered_dove",
+  "common": "Cloven-feathered Dove"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560685631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC)",
+   "obs": 310652397,
+   "place": "Sud, NC",
+   "date": "2025-08-29"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96903439/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC)",
+   "obs": 60592943,
+   "place": "Sud, NC",
+   "date": "2020-09-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292529192/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC)",
+   "obs": 168768507,
+   "place": "Sud, NC",
+   "date": "2023-06-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249646923/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Val George, some rights reserved (CC BY-NC)",
+   "obs": 145352007,
+   "place": "New Caledonia",
+   "date": "2018-01-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/687815020/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "obs": 376199333,
+   "place": "Sud, NC",
+   "date": "2026-01-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58137210/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC)",
+   "obs": 36746801,
+   "place": "Sud, NC",
+   "date": "2019-12-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101532967/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pierre-Louis Stenger, some rights reserved (CC BY-NC)",
+   "obs": 63281844,
+   "place": "Sud, NC",
+   "date": "2020-10-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/756571652/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) alanvannorman, some rights reserved (CC BY-NC)",
+   "obs": 411279841,
+   "place": "Sud, NC",
+   "date": "2025-04-13"
+  }
+ ],
+ "wiki": {
+  "title": "Cloven-feathered dove",
+  "url": "https://en.wikipedia.org/wiki/Cloven-feathered_dove",
+  "revision": 1377255735,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The cloven-feathered dove (Ptilinopus holosericeus) is a species of bird in the family Columbidae. The cloven-feathered dove is endemic to New Caledonia where it is found in forest and Melaleuca savanna at altitudes up to 1,000 m (3,300 ft). This species was formerly placed in the monotypic genus Drepanoptila, but has since been moved to Ptilinopus (fruit doves).",
+     "It is considered near-threatened by the IUCN due to habitat degradation and hunting."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "It is a medium-sized dove, with the males at 32 cm long and 220 g weight slightly larger than the 28 cm, 160 g females. It has short wings, with an unusual feature in the primary feathers being notched at the tip, from which the species' English name is derived. The tail is also very short. It is largely green; males have a yellow-green belly and bright lemon-yellow undertail, while in females, the belly is green and yellow restricted to the undertail. Males have a narrow white and black band at the upper edge of the yellow belly, a white chin stripe, and silvery-green barring on the wings; these are duller and less obvious on females. The legs are covered in fluffy white feathers except for the toes, which are reddish-brown."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The cloven-feathered dove is endemic to the island of New Caledonia where it is commonly found in its forest habitat. It is also found a short distance south of New Caledonia on the Ile des Pins, but not the Loyalty Islands. Research groups in 1998 have estimated that 140,000 total individual birds live throughout its total range."
+    ]
+   },
+   {
+    "h": "Ecology",
+    "level": 2,
+    "paras": [
+     "The cloven-feathered dove is found commonly in primary and secondary moist forests up to 1,000 m (3,300 ft) altitude. It appears to prefer humid forests 400–600 m (1,300–2,000 ft) altitude, especially on the forest edge. It has been observed to eat multiple different fruit and berries, including figs and the berries of various species in the family Araliaceae."
+    ]
+   },
+   {
+    "h": "Threats",
+    "level": 2,
+    "paras": [
+     "This bird is sparsely hunted because of ammunition quotas, making hunters save their ammunition for larger targets. If these quotas are removed, the dove may be hunted more and could decline in population rapidly, even though this bird is protected by law. Other threats include forest fires, deforestation, and mining operations."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712460016/{size}.jpg",
+   "license": "cc-by-sa",
+   "attribution": "(c) JJ Harrison, some rights reserved (CC BY-SA)",
+   "photo": 712460016
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560685631/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton",
+   "photo": 560685631
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27394552/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Frédéric Desmoulins, some rights reserved (CC BY-NC), uploaded by Frédéric Desmoulins",
+   "photo": 27394552
+  }
+ ]
 }

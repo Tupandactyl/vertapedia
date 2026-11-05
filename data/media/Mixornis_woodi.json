@@ -1,7 +1,149 @@
 {
  "sci": "Mixornis woodi",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1721945,
+  "name": "Mixornis woodi",
+  "observations": 27,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palawan_tit-babbler",
+  "common": "Palawan Tit-Babbler"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244618083/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY)",
+   "obs": 142659979,
+   "place": "El Nido, Palawan, Philippines",
+   "date": "2022-10-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608868987/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC)",
+   "obs": 335190252,
+   "place": "Лузвиминда, Пуэрто Принсеса Сити, Палаван, Филиппины",
+   "date": "2025-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365371647/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC)",
+   "obs": 206626442,
+   "place": "Кабаюган, Пуэрто-Принцеса, Палаван, Филиппины",
+   "date": "2024-01-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506599048/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Ow, some rights reserved (CC BY-NC)",
+   "obs": 281990936,
+   "place": "Napsan, Palawan, Philippines",
+   "date": "2025-05-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/698576/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC)",
+   "obs": 547050,
+   "place": "El Nido, Palawan, Philippines.",
+   "date": "2013-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/505704078/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sebastian Ow, some rights reserved (CC BY-NC)",
+   "obs": 281515596,
+   "place": "Irawan, Puerto Princesa, Palawan, Philippines",
+   "date": "2025-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5362956/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC)",
+   "obs": 4451769,
+   "place": "El Nido, Palawan island, Philippines.",
+   "date": "2014-10-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598788758/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex, some rights reserved (CC BY-NC)",
+   "obs": 330240352,
+   "place": "Montible, Puerto Princesa City, Palawan, Philippines",
+   "date": "2025-11-06"
+  }
+ ],
+ "wiki": {
+  "title": "Palawan tit-babbler",
+  "url": "https://en.wikipedia.org/wiki/Palawan_tit-babbler",
+  "revision": 1383795291,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Palawan tit-babbler (Mixornis woodi) is a species of bird in the family Timaliidae. It is found on the islands  of Palawan and Balabac in the Philippines. It was described by Richard Bowdler Sharpe in 1877. It is monotypic."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered a subspecies of the pin-striped tit-babbler, however, it was separated from it based on differences in genomics and plumage, which was supported by differences in the call.",
+     "During the Last Glacial Maximum, the islands of Palawan and its satellites were separated by at least a few kilometres of open water, which might have contributed to its isolation."
+    ]
+   },
+   {
+    "h": "Etymology",
+    "level": 2,
+    "paras": [
+     "The genus name Mixornis comes from the Greek mixis",
+     "(μιξις) \"compound\" and the Greek ornis (ορνις) which is related to ornithos (ορνιθος) \"bird\".",
+     "The specific epithet woodi commemorates the American journalist William Wightman Wood."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This species is similar to the pin-striped tit-babbler, but it has a greyish face, back, mantle and scapulars, and has paler underparts. This species also has little to no streaking on the breast as compared to gularis."
+    ]
+   },
+   {
+    "h": "Habits",
+    "level": 2,
+    "paras": [
+     "This species has a bell-like song, consisting of 5-27 cho or chuh notes, repeated every 1-2 seconds, similar to that of the grey-cheeked tit-babbler and the grey-faced tit-babbler. This species makes its nests in June, although the birds are ready to breed in April and May. The clutch size is 2-3 eggs."
+    ]
+   },
+   {
+    "h": "Habitat",
+    "level": 2,
+    "paras": [
+     "This species occurs in bushes and undergrowth with broadleaf evergreen forest, up to 1525 metres."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608398429/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niels Poul Dreyer, some rights reserved (CC BY-NC), uploaded by Niels Poul Dreyer",
+   "photo": 608398429
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244618097/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis",
+   "photo": 244618097
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5362956/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 5362956
+  }
+ ]
 }

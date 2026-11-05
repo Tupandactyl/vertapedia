@@ -1,7 +1,153 @@
 {
  "sci": "Fringillaria capensis",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720305,
+  "name": "Fringillaria capensis",
+  "observations": 2747,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_bunting",
+  "common": "Cape Bunting"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284225673/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC)",
+   "obs": 164282843,
+   "place": "Machinga, Malawi",
+   "date": "2023-05-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319850354/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Klop, some rights reserved (CC BY-NC)",
+   "obs": 183343222,
+   "place": "West Coast District Municipality, South Africa",
+   "date": "2023-09-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208692643/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jandutoit, some rights reserved (CC BY-NC)",
+   "obs": 123203955,
+   "place": "West Coast DC, South Africa",
+   "date": "2020-01-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58149049/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC)",
+   "obs": 36754960,
+   "place": "Thaba-Tseka, Lesotho",
+   "date": "2017-01-10"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261239709/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Corné Rautenbach, some rights reserved (CC BY-NC)",
+   "obs": 151408726,
+   "place": "Cape Winelands District Municipality, South Africa",
+   "date": "2023-03-14"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328905968/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Noeleen du Toit, some rights reserved (CC BY-SA)",
+   "obs": 187997074,
+   "place": "Namakwa District Municipality, South Africa",
+   "date": "2023-10-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426575640/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC)",
+   "obs": 239509878,
+   "place": "Namakwa, Northern Cape, South Africa",
+   "date": "2024-09-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346684623/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC)",
+   "obs": 196915687,
+   "place": "Zomba, Malawi",
+   "date": "2022-08-10"
+  }
+ ],
+ "wiki": {
+  "title": "Cape bunting",
+  "url": "https://en.wikipedia.org/wiki/Cape_bunting",
+  "revision": 1381722348,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Cape bunting (Fringillaria capensis) is a passerine bird in the bunting family Emberizidae."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "In 1760 the French zoologist Mathurin Jacques Brisson included a description of the Cape bunting in his Ornithologie based on a specimen collected at the Cape of Good Hope. He used the French name L'ortolan du Cap de Bonne Espérance and the Latin Hortulanus capitis bonae spei. Although Brisson coined Latin names, these do not conform to the binomial system and are not recognised by the International Commission on Zoological Nomenclature. When in 1766 the Swedish naturalist Carl Linnaeus updated his Systema Naturae for the twelfth edition, he added 240 species that had been previously described by Brisson. One of these was the Cape bunting. Linnaeus included a brief description, coined the binomial name Emberiza capensis and cited Brisson's work. The specific name capensis is used to denote the Cape of Good Hope.",
+     "In 2026 this species was moved from the genus Emberiza to the resurrected genus Fringillaria based on the results of a 2021 molecular genetic study.",
+     "Eleven subspecies are recognised:",
+     "F. c. nebularum Rudebeck, 1958 – southwestern Angola",
+     "F. c. bradfieldi Roberts, 1928 – northern Namibia (Kaokoveld and highlands of Damaraland)",
+     "F. c. smithersii Plowes, 1951 – mountains on eastern Zimbabwe/Mozambique border",
+     "F. c. plowesi Vincent, 1950 – plateau of southern Zimbabwe and adjacent northeastern Botswana",
+     "F. c. limpopoensis Roberts, 1924 – southeastern Botswana and adjacent South Africa (North West and Limpopo)",
+     "F. c. reidi Shelley, 1902 – northeastern South Africa (eastern Free State to central KwaZulu-Natal), northern Lesotho, and western Eswatini",
+     "F. c. basutoensis Vincent, 1950 – highlands of Lesotho to western KwaZulu-Natal",
+     "F. c. cinnamomea (Lichtenstein, 1842) – central South Africa (southern Northern Cape and Eastern Cape to western Free State)",
+     "F. c. vinacea (Clancey, 1963) – northern Cape Province (Kaap Plateau and northern Asbestos Mountains)",
+     "F. c. capensis (Linnaeus, 1766) – Namibia to southwestern and western Cape Province",
+     "F. c. vincenti Lowe, 1932 – central Malawi to adjacent northern Mozambique and eastern Zambia",
+     "The subspecies differ in plumage, but all have the distinctive head pattern and rufous in the wings. The north-eastern race F. c. vincenti is very dark above, and slaty below. It has reduced chestnut on the wing coverts and has sometimes been raised to species status as Vincent's bunting, Emberiza vincenti."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The Cape bunting is 16 cm long. The adult has a black crown, white supercilium and black-bordered white ear coverts. The upperparts are grey brown with some dark streaks, and the wing coverts are chestnut. The tail is darker chestnut, and the underparts are grey with a pale throat. The sexes are very similar, but females may have a buff tone to the white head markings. Young birds have duller chestnut wings, a less distinct head pattern, and heavier streaking extending on to the breast and flanks. The call is an ascending zzoo-zeh-zee-zee. The song is a loud chirping chup chup chup chup chee chhep chu.  E. c. vincenti has a simple tre-re-ret tre-re-ret song."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The Cape bunting occurs in southern Africa from south-western Angola, eastern Zambia, Zimbabwe and southern Tanzania to the Cape.  Its habitat is rocky slopes and dry weedy scrub, mainly in mountains in the north of its range.  It previously utilized stony arid areas with some short grass, but much of this has been lost to ploughing."
+    ]
+   },
+   {
+    "h": "Behaviour",
+    "level": 2,
+    "paras": [
+     "The Cape bunting is not gregarious, and is normally seen alone, in pairs or family groups. It feeds on the ground on seeds, insects and spiders.  Its lined cup nest is built low in a shrub or tussock.  The two to four eggs are cream and marked with red-brown and lilac."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142969290/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Derek Keats, some rights reserved (CC BY)",
+   "photo": 142969290
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346684624/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC), uploaded by Heinrich Human",
+   "photo": 346684624
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346684623/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Heinrich Human, some rights reserved (CC BY-NC), uploaded by Heinrich Human",
+   "photo": 346684623
+  }
+ ]
 }

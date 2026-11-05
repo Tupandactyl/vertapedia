@@ -1,7 +1,30 @@
 {
  "sci": "Tanysiptera rosseliana",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720131,
+  "name": "Tanysiptera rosseliana",
+  "observations": 1,
+  "wikipedia_url": null,
+  "common": "Rossel Paradise-Kingfisher"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342862255/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, some rights reserved (CC BY-NC)",
+   "obs": 194965609,
+   "place": "Samarai-Murua District, Milne Bay Province, Papua New Guinea",
+   "date": "2023-09-20"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342862255/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) peter maaskant, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika peter maaskant",
+   "photo": 342862255
+  }
+ ]
 }

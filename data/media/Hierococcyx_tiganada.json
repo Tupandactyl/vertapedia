@@ -1,7 +1,137 @@
 {
  "sci": "Hierococcyx tiganada",
- "fetched": "2026-10-25",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720909,
+  "name": "Hierococcyx tiganada",
+  "observations": 35,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Penan_hawk-cuckoo",
+  "common": "Penan Hawk-Cuckoo"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265817014/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC)",
+   "obs": 153873733,
+   "place": "Mt Kinabalu National Park, Kinabalu Park, 89300 Ranau, Sabah, Malaysia",
+   "date": "2019-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427384762/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Bruce Wedderburn, some rights reserved (CC BY-NC)",
+   "obs": 239926439,
+   "place": "Ba'kelalan, Sarawak, Malaysia",
+   "date": "2024-09-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471101577/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Kalin Antonio Ocaña, some rights reserved (CC BY-NC)",
+   "obs": 262219391,
+   "place": "Borneo, Ranau, Sabah, MY",
+   "date": "2024-07-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659464827/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC)",
+   "obs": 361353323,
+   "place": "Ranau, Sabah, Malaysia",
+   "date": "2015-09-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447690984/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) paulsuth, some rights reserved (CC BY-NC)",
+   "obs": 250339295,
+   "place": "Kinabalu Park, Ranau, Sabah, Malaysia",
+   "date": "2024-08-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472461317/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jeremy Loh, some rights reserved (CC BY-NC)",
+   "obs": 263033220,
+   "place": "Sabah, MY",
+   "date": "2025-02-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19972922/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, some rights reserved (CC BY-NC)",
+   "obs": 13580707,
+   "place": "Kinabalu Park, Ranau, Sabah, Malaysia",
+   "date": "2018-06-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270661005/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tim Forrester, some rights reserved (CC BY-NC)",
+   "obs": 156519592,
+   "place": "Mt Kinabalu National Park, Kinabalu Park, 89300 Ranau, Sabah, Malaysia",
+   "date": "2020-05-10"
+  }
+ ],
+ "wiki": {
+  "title": "Penan hawk-cuckoo",
+  "url": "https://en.wikipedia.org/wiki/Penan_hawk-cuckoo",
+  "revision": 1383380653,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Penan hawk-cuckoo (Hierococcyx tiganada) is a species of bird in the family Cuculidae. It is found on the island of Borneo in Indonesia, Malaysia and Brunei. It was described by Frank Rheindt, Gabriel Teo, James Eaton and Elize Ng in 2025. It is monotypic."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered conspecific with the dark hawk-cuckoo but was separated from it based on differences in the call of the Peninsular Malaysian and Bornean populations.",
+     "The specific epithet tiganada is a Malaysian and Indonesian word meaning \"three notes\" referring to the three-toned calls of this species."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This species is similar to the dark hawk-cuckoo and the large hawk-cuckoo.  The adults of this species have a greyer mantle than bocki.",
+     "The crown is mouse-grey in color and turns olive-grey in the auriculars. The upper mantle is like the crown, and it gradually turns seal-brown in color towards the lower mantle, upperwing coverts and rump. The upper retrices are hair-brown with four uneven dark transverse bands. The underside of the retrices is whitish with five to six transverse bands. The upper breast is rich rufous in color and is sharply delimited by the lower breast and belly. The upper chin shows a small amount of mouse-grey color below the lower mandible. The lower breast to the belly and vent is whitish with blackish transverse bands narrowly fringed rufous. The underwing coverts are like the belly, but the barring is narrower."
+    ]
+   },
+   {
+    "h": "Habits",
+    "level": 2,
+    "paras": [
+     "This species has a distinct three-toned call, which separates it from the similar hawk-cuckoos, which have two-toned calls.",
+     "This species is a brood parasite of the mountain leaf warbler."
+    ]
+   },
+   {
+    "h": "Status and distribution",
+    "level": 2,
+    "paras": [
+     "This species is restricted to montane rainforests above 1000 m in elevation. Despite the threats to rainforests across Borneo, this species is probably not threatened as the rainforest in which it resides survives due to its remoteness and inaccessibility to logging companies.",
+     "This species is common in three localities in Malaysian Borneo- Mt. Kinabalu, Trusmadi, and Crocker Range. There are few records from Kalimantan, but it is probably overlooked and is ubiquitous across the area of northern Kalimantan near the Malaysian border."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449675261/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Marc Thibault, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Marc Thibault",
+   "photo": 449675261
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19972924/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Tan Kok Hui, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Tan Kok Hui",
+   "photo": 19972924
+  }
+ ]
 }

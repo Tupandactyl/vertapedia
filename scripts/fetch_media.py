@@ -2,7 +2,8 @@
 
 - 사진은 재사용 가능한 라이선스(CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)만 받는다.
 - iNaturalist 권고에 맞춰 1초에 한 번 이하로 부른다.
-- 이미 받은 종은 --max-age 일이 지나기 전에는 다시 받지 않는다.
+- 이미 받은 종은 --max-age 일이 지나기 전에는 다시 받지 않는다. 못 찾은 종은 RETRY_DAYS 일마다 다시 묻는다
+  (iNaturalist 가 새 학명을 뒤늦게 등록하기 때문이다).
 
     python scripts/fetch_media.py                 # 국명이 있는 한국 출현종 (--scope named/unnamed/all)
     python scripts/fetch_media.py --limit 200     # 이번에 새로 받을 최대 종 수
@@ -18,12 +19,19 @@ import urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 
+try:
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = DATA / "media"
 UA = {"User-Agent": "Vertapedia/0.1 (https://github.com/Tupandactyl/vertapedia)"}
 LICENSES = "cc0,cc-by,cc-by-sa,cc-by-nc,cc-by-nc-sa"
 PER_SPECIES = 8
+RETRY_DAYS = 7
 
 _last = [0.0]
 
@@ -216,11 +224,12 @@ def main():
     if a.common:
         return backfill_common()
     cutoff = (date.today() - timedelta(days=a.max_age)).isoformat()
+    retry_cutoff = (date.today() - timedelta(days=RETRY_DAYS)).isoformat()
     done = 0
     for t in targets("named" if a.all_named else a.scope):
         f = OUT / (t["sci"].replace(" ", "_") + ".json")
         old = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
-        if old and old.get("fetched", "") >= cutoff:
+        if old and old.get("fetched", "") >= (cutoff if old.get("inat") else retry_cutoff):
             # 예전 형식(요약만 있음)이면 위키백과 본문만 새로 받는다
             if old.get("inat") and (old.get("wiki") or {}).get("sections") is None and old["inat"].get("wikipedia_url"):
                 if done >= a.limit:

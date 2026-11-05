@@ -1,7 +1,104 @@
 {
  "sci": "Tanysiptera nais",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1720129,
+  "name": "Tanysiptera nais",
+  "observations": 5,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amboyna_paradise_kingfisher",
+  "common": "Amboyna Paradise-Kingfisher"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/559758697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mfathni, some rights reserved (CC BY-NC)",
+   "obs": 310161422,
+   "place": "Indonesia",
+   "date": "2025-08-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627654636/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mangiring Sibarani, some rights reserved (CC BY-NC)",
+   "obs": 344474276,
+   "place": "Indonesia",
+   "date": "2018-09-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247438380/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "obs": 144196194,
+   "place": "Ambon, Central Maluku Regency, Maluku, Indonesia",
+   "date": "2022-11-26"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440527634/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 246731003,
+   "place": "Boano Island, Huamual Belakang, West Seram, Maluku, Indonesia",
+   "date": "2014-12-16"
+  }
+ ],
+ "wiki": {
+  "title": "Amboyna paradise kingfisher",
+  "url": "https://en.wikipedia.org/wiki/Amboyna_paradise_kingfisher",
+  "revision": 1381875096,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Amboyna paradise kingfisher (Tanysiptera nais) is a species of bird in the family Alcedinidae. It is found in the southern Moluccas in Indonesia. It was described by George Robert Gray in 1861."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered a subspecies of the common paradise kingfisher but was separated from it along with four other species based on an examination of the calls of the members of the galatea complex.",
+     "Three subspecies are recognised-",
+     "Tanysiptera nais nais Gray, 1861- Ambon, Manipa, Seram, Manawoka, and Gorong",
+     "Tanysiptera nais boanensis Mees, 1964- Boano",
+     "Tanysiptera nais acis Wallace, 1863- Buru"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "Subspecies nais is similar to subspecies galatea of the common paradise kingfisher, but it differs from it because of brighter-blue upperparts and the line of feathers encircling the crown. Subspecies boanensis is similar to nais, but the crown is pale azure blue. Subspecies acis is similar to galatea but the upperparts are blackish and there are some dark streaks in the white rump."
+    ]
+   },
+   {
+    "h": "Habits",
+    "level": 2,
+    "paras": [
+     "The call of this species is similar to galatea, but the trill notes in this species are deflected downwards."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627654623/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mangiring Sibarani, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika Mangiring Sibarani",
+   "photo": 627654623
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440527634/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "brak praw zastrzeżonych, przesłane przez użytkownika James Eaton",
+   "photo": 440527634
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/559758697/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) mfathni, niektóre prawa zastrzeżone (CC BY-NC), przesłane przez użytkownika mfathni",
+   "photo": 559758697
+  }
+ ]
 }

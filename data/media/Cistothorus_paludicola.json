@@ -1,7 +1,98 @@
 {
  "sci": "Cistothorus paludicola",
- "fetched": "2026-10-23",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-05",
+ "inat": {
+  "id": 1721810,
+  "name": "Cistothorus paludicola",
+  "observations": 11929,
+  "wikipedia_url": null,
+  "common": "Western Marsh Wren"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/704398403/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jenna Berman, some rights reserved (CC BY-NC)",
+   "obs": 384787699,
+   "place": "Iona Beach Regional Park, 900 Ferguson Rd, Richmond, BC V6N 4A6, Canada",
+   "date": "2026-06-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601149197/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) sglevanik, some rights reserved (CC BY-NC)",
+   "obs": 331383607,
+   "place": "Tijuana Slough National Wildlife Refuge, 301 Caspian Wy, Imperial Beach, CA 91932, USA",
+   "date": "2025-12-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC)",
+   "obs": 170558,
+   "place": "Bear River Migratory Bird Refuge, Utah",
+   "date": "2007-06-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658940289/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 361077518,
+   "place": "Waterfront Loop Trail, Seattle, WA, US",
+   "date": "2026-05-12"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445790158/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sanam, some rights reserved (CC BY-NC)",
+   "obs": 249386919,
+   "place": "San Elijo Lagoon Ecological Reserve, Encinitas, CA, US",
+   "date": "2024-10-27"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/747506526/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sarab Seth, some rights reserved (CC BY-NC)",
+   "obs": 406825427,
+   "place": "Yolo Bypass Wildlife Area, 45211 Co Rd 32B, Davis, CA 95618, USA",
+   "date": "2016-07-06"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451491988/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) artzerphotog, some rights reserved (CC BY-NC)",
+   "obs": 252234662,
+   "place": "Imperial Beach, CA, USA",
+   "date": "2024-11-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457078250/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC)",
+   "obs": 255097730,
+   "place": "Sacramento National Wildlife Refuge, Glenn County, CA, USA",
+   "date": "2024-12-11"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226701/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+   "photo": 226701
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379338/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
+   "photo": 379338
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2657659/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Manuel Grosselet, some rights reserved (CC BY-NC), uploaded by Manuel Grosselet",
+   "photo": 2657659
+  }
+ ]
 }
