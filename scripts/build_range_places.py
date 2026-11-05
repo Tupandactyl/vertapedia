@@ -220,6 +220,24 @@ def between(codes, cen, outline):
     return set(), set()
 
 
+# 넓은 지역 이름 앞에 동서 방향이 붙으면('central Palearctic') 그 쪽 나라만 나온 곳으로 치고, 나머지는 기록이 충분할 때만 남긴다
+# 지역별 (서쪽, 가운데, 동쪽) 경도 범위. northern·temperate 처럼 동서를 정하지 않는 말은 지역 전체로 둔다
+BAND = {"Palearctic": ((-30, 60), (40, 180), (60, 180)), "Eurasia": ((-30, 60), (40, 180), (60, 180)),
+        "Europe": ((-30, 20), (5, 30), (15, 70)), "Asia": ((25, 70), (55, 105), (100, 180)),
+        "Africa": ((-30, 15), (5, 35), (20, 60))}
+SIDE = re.compile(r"\b(?:(west)|(central)|(east))\w*[\s,]*(?:and\s+)?$|\b(?:north|south)-?(?:(west)|(central)|(east))\w*[\s,]*(?:and\s+)?$", re.I)
+
+
+def outside_band(term, before, codes, cen):
+    """넓은 지역 이름 앞말이 가리키는 쪽에서 벗어나는 지도 코드"""
+    m = SIDE.search(before[-30:]) if term in BAND else None
+    if not m:
+        return set()
+    side = next(i for i, g in enumerate(m.groups()) if g) % 3
+    lo, hi = BAND[term][side]
+    return {k for k in codes if k in cen and not lo <= sum(x for x, _ in cen[k]) / len(cen[k]) <= hi}
+
+
 def parse(text, rx, gaz, ambig_rx, ambig, cen, outline):
     native, intro, hull, touch, former = set(), set(), set(), set(), set()
     found_all = {m.group(1) for m in rx.finditer(text)}
@@ -238,7 +256,10 @@ def parse(text, rx, gaz, ambig_rx, ambig, cen, outline):
                 former |= set(gaz[g.group(1)].split())
             codes = set()
             for g in rx.finditer(part):
-                codes |= set(gaz[g.group(1)].split())
+                found = set(gaz[g.group(1)].split())
+                far = outside_band(g.group(1), part[:g.start()], found, cen)
+                touch |= far
+                codes |= found - far
             if ambig_rx:
                 for g in ambig_rx.finditer(part):
                     codes |= {c for c in ambig[g.group(1)] if c.split("-")[0] in base_named}
