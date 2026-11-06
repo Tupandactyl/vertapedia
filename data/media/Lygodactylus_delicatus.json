@@ -1,7 +1,92 @@
 {
  "sci": "Lygodactylus delicatus",
- "fetched": "2026-10-10",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1718760,
+  "name": "Lygodactylus delicatus",
+  "observations": 24,
+  "wikipedia_url": null,
+  "common": "Príncipe Dwarf Gecko"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13013254/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA)",
+   "obs": 9539985,
+   "place": "Pague, São Tomé and Príncipe",
+   "date": "2018-01-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342559204/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 194821646,
+   "place": "Santo Antonio, São Tomé and Príncipe",
+   "date": "2020-10-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342559630/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Luke Verburgt, some rights reserved (CC BY-NC)",
+   "obs": 194821647,
+   "place": "Santo Antonio, São Tomé and Príncipe",
+   "date": "2020-10-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105637401/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Dan Riley, some rights reserved (CC BY)",
+   "obs": 65614536,
+   "place": "Pague, São Tomé and Príncipe",
+   "date": "2010-07-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247736768/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) tfilipa, some rights reserved (CC BY-NC)",
+   "obs": 144353038,
+   "place": "Príncipe, Príncipe, ST",
+   "date": "2022-12-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506958/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) 108868629379180184230, some rights reserved (CC BY-NC)",
+   "obs": 405066,
+   "place": "Príncipe island, São Tomé and Príncipe",
+   "date": "2012-04-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352136915/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Olivier De Clerck, some rights reserved (CC BY-NC)",
+   "obs": 199657927,
+   "place": "Príncipe, São Tomé and Príncipe",
+   "date": "2024-02-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518278854/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Martim Melo, some rights reserved (CC BY-NC)",
+   "obs": 288209835,
+   "place": "Príncipe, ST",
+   "date": "2025-06-04"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138085771/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 138085771
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13013254/{size}.jpeg",
+   "license": "cc-by-sa",
+   "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
+   "photo": 13013254
+  }
+ ]
 }

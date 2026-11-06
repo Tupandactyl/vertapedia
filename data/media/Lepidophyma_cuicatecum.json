@@ -1,7 +1,40 @@
 {
  "sci": "Lepidophyma cuicatecum",
- "fetched": "2026-10-13",
- "inat": null,
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 104239,
+  "name": "Lepidophyma cuicatecum",
+  "observations": 0,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lepidophyma_cuicateca",
+  "common": null
+ },
  "photos": [],
- "wiki": null
+ "wiki": {
+  "title": "Lepidophyma cuicateca",
+  "url": "https://en.wikipedia.org/wiki/Lepidophyma_cuicateca",
+  "revision": 1368729867,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Lepidophyma cuicateca, the Sunidero tropical night lizard, is a species of lizard in the family Xantusiidae. It is a small lizard found in Santa María Texcatitlán, Oaxaca, Mexico at 1180 meters  elevation."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57267427/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Jay, some rights reserved (CC BY-NC), uploaded by Jay",
+   "photo": 57267427
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24090787/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Vince Scheidt, some rights reserved (CC BY-NC), uploaded by Vince Scheidt",
+   "photo": 24090787
+  }
+ ]
 }

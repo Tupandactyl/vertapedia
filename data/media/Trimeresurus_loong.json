@@ -1,7 +1,30 @@
 {
  "sci": "Trimeresurus loong",
- "fetched": "2026-10-14",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1718986,
+  "name": "Trimeresurus loong",
+  "observations": 1,
+  "wikipedia_url": null,
+  "common": "Kunming Green Pit Viper"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/756391025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xirui xia, some rights reserved (CC BY-NC)",
+   "obs": 411189864,
+   "place": "Kunming, CN-YN, CN",
+   "date": "2026-09-27"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/756391025/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xirui xia, some rights reserved (CC BY-NC), uploaded by xirui xia",
+   "photo": 756391025
+  }
+ ]
 }

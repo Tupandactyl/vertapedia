@@ -1,7 +1,23 @@
 {
  "sci": "Calotes vultuosus",
- "fetched": "2026-10-13",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1718873,
+  "name": "Calotes vultuosus",
+  "observations": 0,
+  "wikipedia_url": null,
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759027192/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) kokosnuss, some rights reserved (CC BY-NC)",
+   "obs": 412497747,
+   "place": "Entre-Deux 97414, Réunion",
+   "date": "2024-08-22"
+  }
+ ],
+ "wiki": null,
+ "curated": []
 }

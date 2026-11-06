@@ -1,7 +1,63 @@
 {
  "sci": "Phyllopezus sapiranga",
- "fetched": "2026-10-13",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1718972,
+  "name": "Phyllopezus sapiranga",
+  "observations": 10,
+  "wikipedia_url": null,
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451303846/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pedro H. Martins, some rights reserved (CC BY-NC)",
+   "obs": 252140468,
+   "place": "Santo Amaro, BA, Brazil",
+   "date": "2022-03-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393810986/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) globalherping, some rights reserved (CC BY-NC)",
+   "obs": 222325517,
+   "place": "Bahia, BR",
+   "date": "2024-06-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739112549/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Carlos Otávio Gussoni, some rights reserved (CC BY)",
+   "obs": 402606612,
+   "place": "CXXF+5M - Açu da Torre, Mata de São João - BA, 48280-000, Brasil",
+   "date": "2026-09-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333003123/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gabriela Piovesan, some rights reserved (CC BY-NC)",
+   "obs": 190013553,
+   "place": "Elísio Medrado, BA, BR",
+   "date": "2023-11-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598740557/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) judit_aus, some rights reserved (CC BY-NC)",
+   "obs": 330214048,
+   "place": "Mata de São João - State of Bahia, Brazil",
+   "date": "2025-12-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628198719/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ivan L. F. Magalhaes, some rights reserved (CC BY-NC)",
+   "obs": 344762151,
+   "place": "Santa Teresinha, Bahia, Brazil",
+   "date": "2026-01-21"
+  }
+ ],
+ "wiki": null,
+ "curated": []
 }

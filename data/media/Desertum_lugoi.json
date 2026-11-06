@@ -1,7 +1,82 @@
 {
  "sci": "Desertum lugoi",
- "fetched": "2026-10-12",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1718711,
+  "name": "Desertum lugoi",
+  "observations": 7,
+  "wikipedia_url": null,
+  "common": "Lugo's Alligator Lizard"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/710575557/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Esaú Valdenegro-Brito, some rights reserved (CC BY-NC-SA)",
+   "obs": 388010988,
+   "place": "García, N.L., México",
+   "date": "2026-07-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167850416/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ryan Collister, some rights reserved (CC BY-NC)",
+   "obs": 100557054,
+   "place": "Coahuila, MX",
+   "date": "2021-11-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5137999/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Herrera, some rights reserved (CC BY-NC)",
+   "obs": 4286267,
+   "place": "Loma Larga, 64710 Monterrey, N.L., México",
+   "date": "2010-10-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304492418/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eric05, some rights reserved (CC BY-NC)",
+   "obs": 175222567,
+   "place": "García, N.L., México",
+   "date": "2021-08-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88107764/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jauregui, some rights reserved (CC BY-NC)",
+   "obs": 55336975,
+   "place": "Arteaga, COAH, MX",
+   "date": "2020-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158660224/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) David Ernesto Cruz Sanchez, some rights reserved (CC BY-NC)",
+   "obs": 95560462,
+   "place": "66043 N.L., México",
+   "date": "2021-09-18"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2858260/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Herrera, some rights reserved (CC BY-NC), uploaded by Gerson Herrera",
+   "photo": 2858260
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2858261/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Herrera, some rights reserved (CC BY-NC), uploaded by Gerson Herrera",
+   "photo": 2858261
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2858262/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Gerson Herrera, some rights reserved (CC BY-NC), uploaded by Gerson Herrera",
+   "photo": 2858262
+  }
+ ]
 }

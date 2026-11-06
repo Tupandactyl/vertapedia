@@ -1,7 +1,92 @@
 {
  "sci": "Darevskia obscura",
- "fetched": "2026-10-12",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1719106,
+  "name": "Darevskia obscura",
+  "observations": 238,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Darevskia_obscura",
+  "common": null
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306709321/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandro Kiladze, some rights reserved (CC BY-NC)",
+   "obs": 176415405,
+   "place": "Borjomi, GE-SJ, GE",
+   "date": "2023-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600498084/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) robihidveg, some rights reserved (CC BY-NC)",
+   "obs": 331067873,
+   "place": "Hopa/Artvin, Turecko",
+   "date": "2025-05-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306709494/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sandro Kiladze, some rights reserved (CC BY-NC)",
+   "obs": 176415516,
+   "place": "Borjomi, GE-SJ, GE",
+   "date": "2023-08-03"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313938017/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Edouard Veuillet, some rights reserved (CC BY-NC)",
+   "obs": 180245335,
+   "place": "Adjara, Georgia",
+   "date": "2023-06-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167957054/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Stanislav Murashkin, some rights reserved (CC BY)",
+   "obs": 100617250,
+   "place": "Аджария, Грузия",
+   "date": "2018-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171410781/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Grigory Evtukh, some rights reserved (CC BY-NC)",
+   "obs": 102527887,
+   "place": "Adjara, Georgia",
+   "date": "2018-06-18"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729669737/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Денис Попов, some rights reserved (CC BY-NC)",
+   "obs": 397817173,
+   "place": "Khelvachauri Municipality, Грузия",
+   "date": "2026-07-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36962/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) DDohler, some rights reserved (CC BY)",
+   "obs": 20906,
+   "place": "Gonio, Georgia",
+   "date": "2011-05-28"
+  }
+ ],
+ "wiki": {
+  "title": "Darevskia obscura",
+  "url": "https://en.wikipedia.org/wiki/Darevskia_obscura",
+  "revision": 1157870028,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "Darevskia obscura is a lizard species in the genus Darevskia. It is found in Georgia and Turkey."
+    ]
+   }
+  ]
+ },
+ "curated": []
 }

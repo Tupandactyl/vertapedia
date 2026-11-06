@@ -1,7 +1,46 @@
 {
  "sci": "Hebius vogeli",
- "fetched": "2026-10-13",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1717056,
+  "name": "Hebius vogeli",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Vogel’s Keelback"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654844603/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) esoue, some rights reserved (CC BY-NC)",
+   "obs": 358942422,
+   "place": "Chongzuo, CN-GX, CN",
+   "date": "2026-05-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680894960/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) xwmm, some rights reserved (CC BY-NC)",
+   "obs": 372607673,
+   "place": "中国 广西壮族自治区崇左市江州区 叫册",
+   "date": "2026-06-17"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/750020601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 这是一个好人°, some rights reserved (CC BY-NC)",
+   "obs": 408072867,
+   "place": "Guangxi, CN",
+   "date": "2026-05-01"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/750020601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) 张德卛, some rights reserved (CC BY-NC), uploaded by 张德卛",
+   "photo": 750020601
+  }
+ ]
 }

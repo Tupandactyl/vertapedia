@@ -1,7 +1,78 @@
 {
  "sci": "Phrynocephalus longicaudatus",
- "fetched": "2026-10-13",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-06",
+ "inat": {
+  "id": 1718970,
+  "name": "Phrynocephalus longicaudatus",
+  "observations": 12,
+  "wikipedia_url": null,
+  "common": "Long-tailed Toad-headed Agama"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13571336/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 9898055,
+   "place": "Thumrait, OM-JA, OM",
+   "date": "2013-10-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129806219/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) damianraptor, some rights reserved (CC BY-NC)",
+   "obs": 79121067,
+   "place": "Buqayq Saudi Arabia",
+   "date": "2021-05-15"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13537763/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)",
+   "obs": 9877617,
+   "place": "Al Wusta, Al Wusta, OM",
+   "date": "2010-11-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518696328/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Theo Busschau, some rights reserved (CC BY)",
+   "obs": 288425389,
+   "place": "Abu Dhabi, AE",
+   "date": "2023-05-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234373477/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) rudyclaeys, some rights reserved (CC BY-NC)",
+   "obs": 137250151,
+   "place": "Barr al-Hikmán, Oman",
+   "date": "2018-11-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/598473884/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) patrickdebeuf, some rights reserved (CC BY-NC)",
+   "obs": 330084102,
+   "place": "Al Wusta, Oman",
+   "date": "2018-11-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523826656/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jean jacques gozard, some rights reserved (CC BY-NC)",
+   "obs": 291151952,
+   "place": "Dhofar, OM",
+   "date": "2016-09-15"
+  }
+ ],
+ "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13571336/{size}.jpeg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA), uploaded by Roberto Sindaco",
+   "photo": 13571336
+  }
+ ]
 }
