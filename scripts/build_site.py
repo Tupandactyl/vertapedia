@@ -155,11 +155,21 @@ for gname, tsci in load("type_species.json", {}).items():
         type_of.setdefault((_sp_group[tsci], gname), tsci)
 
 
+# iNaturalist가 다른 종의 위키 문서를 걸어 둔 종
+OTHER_SPECIES_DOC = {"Larus mongolicus", "Melanitta stejnegeri", "Riparia diluta"}
+# fetch_media.py 의 SKIP_SECTIONS 에 없던 참고문헌 절 (이미 받은 자료에서도 뺀다)
+BIB_SECTIONS = {"cited texts", "cited text", "cited books", "other sources", "general bibliography", "cited literature", "literature cited",
+                "sources cited", "texts cited", "general references", "general sources", "general and cited references", "cited references",
+                "print sources", "web sources", "additional sources"}
+
+
 def wiki_of(t, m):
     """위키 문서가 종이 아니라 속 문서이면 표시해 둔다(iNaturalist가 속 문서를 걸어 둔 경우)."""
     w = linker.wiki(m.get("wiki"))
     if w and len(w.get("title", "").split()) == 1:
         w = dict(w, genus_doc=True)
+    if w and t["sci"] in OTHER_SPECIES_DOC:
+        w = dict(w, other_doc=True)
     return w
 
 
@@ -350,6 +360,9 @@ for g, lst in seq.items():
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         rec["wiki_ko"] = wiki_ko_of(t, rec["wiki"])
+        if rec["wiki"]:
+            rec["wiki"] = dict(rec["wiki"], sections=[s for s in rec["wiki"].get("sections") or []
+                                                      if (s.get("h") or "").strip().lower() not in BIB_SECTIONS])
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")
         shares[t["sci"]] = share_tags(rec)
 
