@@ -156,12 +156,6 @@ for gname, tsci in load("type_species.json", {}).items():
         type_of.setdefault((_sp_group[tsci], gname), tsci)
 
 
-# 분류 변동으로 독립했으나 iNaturalist 가 아직 옛 상위 종의 위키 문서를 걸어 둔 종: {학명: (문서의 종, 안내문)}
-OTHER_SPECIES_DOC = {
-    "Larus mongolicus": ("Larus vegae", "이 종은 {p} 등의 아종으로 다뤄지다가 2024년에 독립종으로 분리되었습니다. 아래 글은 분리 전 상위 종의 문서입니다."),
-    "Melanitta stejnegeri": ("Melanitta deglandi", "이 종은 {p}와 같은 종으로 다뤄지다가 2019년에 독립종으로 분리되었습니다. 아래 글은 분리 전 상위 종의 문서입니다."),
-    "Riparia diluta": ("Riparia riparia", "이 종은 {p}의 아종으로 다뤄지다가 독립종으로 분리되었습니다. 아래 글은 분리 전 상위 종의 문서입니다."),
-}
 _by_sci = {}
 for _t in names:
     _by_sci.setdefault(_t["sci"], _t)
@@ -180,13 +174,13 @@ BIB_SECTIONS = {"cited texts", "cited text", "cited books", "other sources", "ge
 
 
 def wiki_of(t, m):
-    """위키 문서가 종이 아니라 속 문서이면 표시해 둔다(iNaturalist가 속 문서를 걸어 둔 경우)."""
+    """위키 문서가 종이 아니라 속 문서이면 표시해 둔다."""
     w = linker.wiki(m.get("wiki"))
-    if w and len(w.get("title", "").split()) == 1:
+    secs = (m.get("wiki") or {}).get("sections") or []
+    lead = " ".join(next((x["paras"] for x in secs if x["paras"]), []))[:500].lower()
+    # 제목이 한 단어여도 Emu·Mallard 같은 종 문서가 많다. 제목이 속명이고 첫머리에 종 학명이 없을 때만 속 문서로 본다
+    if w and w.get("title") == t["sci"].split()[0] and t["sci"].lower() not in lead:
         w = dict(w, genus_doc=True)
-    if w and t["sci"] in OTHER_SPECIES_DOC:
-        parent, text = OTHER_SPECIES_DOC[t["sci"]]
-        w = dict(w, other_doc=text.format(p=f"{show_name(parent)[1]}(*{parent}*)"))
     return w
 
 
@@ -430,8 +424,31 @@ for g, lst in fam_seq.items():
 # --- 분포 지도 ---
 # 지역을 나눈 세계지도(scripts/build_world_map.py). 지도에 마우스를 올리면 한국어 이름
 world = load("world.geojson", {"features": []})
+
+
+def densify(ring, step=2.0):
+    """긴 변에 점을 넣는다. d3 는 변을 대권 곡선으로 그려서, 북위 49도 같은 긴 국경의 끝점이 조금만 달라도 두 나라 사이가 벌어진다."""
+    out = [ring[0]]
+    for a, b in zip(ring, ring[1:]):
+        dx, dy = b[0] - a[0], b[1] - a[1]
+        n = int(max(abs(dx), abs(dy)) // step) if abs(dx) < 180 else 0
+        out += [[round(a[0] + dx * i / (n + 1), 2), round(a[1] + dy * i / (n + 1), 2)] for i in range(1, n + 1)] + [b]
+    return out
+
+
+def real_hole(ring):
+    """지역을 합칠 때 생긴 가느다란 틈이 아니라 넓이가 있는 구멍인가"""
+    area = abs(sum(a[0] * b[1] - b[0] * a[1] for a, b in zip(ring, ring[1:]))) / 2
+    length = sum(((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2) ** .5 for a, b in zip(ring, ring[1:]))
+    return area >= .3 and 12.57 * area / (length * length or 1) >= .1
+
+
 for f in world["features"]:
     f["properties"]["n"] = REGION_KO.get(f["properties"]["c"], f["properties"]["n"])
+    g = f["geometry"]
+    polys = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]
+    polys = [[densify(p[0])] + [densify(h) for h in p[1:] if real_hole(h)] for p in polys if p]
+    g["coordinates"] = polys if g["type"] == "MultiPolygon" else (polys[0] if polys else [])
 (SITE / "data" / "world.json").write_text(json.dumps(world, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 # --- 페이지 ---

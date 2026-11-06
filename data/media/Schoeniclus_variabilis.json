@@ -74,7 +74,25 @@
    "date": "2022-09-09"
   }
  ],
- "wiki": null,
+ "wiki": {
+  "title": "Grey bunting",
+  "url": "https://en.wikipedia.org/wiki/Grey_bunting",
+  "revision": 1381769933,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The grey bunting (Schoeniclus variabilis) is a species of bird in the family Emberizidae. It breeds in southern Kamchatka, Sakhalin, Kuril Islands and northern Japan, it migrates to southern Japan and the Ryukyu Islands. Its natural habitats are boreal and temperate forest.",
+     "This species was formerly placed in the genus Emberiza. In 2026 it was moved to the resurrected genus Schoeniclus based on the results of a 2021 molecular genetic study. Within the genus the grey bunting is most closely related to Tristram's bunting (Schoeniclus tristrami).",
+     "Two subspecies are recognised:",
+     "S. v. variabilis (Temminck, 1836) – breeds Sakhalin and Kuril Islands southward to Shikoku (central Japan); winters to southern Japan",
+     "S. v. musicus (Kittlitz, 1858) – breeds central and southern Kamchatka Peninsula; winters Japan"
+    ]
+   }
+  ],
+  "found_by": "Schoeniclus variabilis"
+ },
  "curated": [
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111282962/{size}.jpg",

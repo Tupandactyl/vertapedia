@@ -8,6 +8,10 @@
     python scripts/fetch_media.py                 # 국명이 있는 한국 출현종 (--scope named/unnamed/all)
     python scripts/fetch_media.py --limit 200     # 이번에 새로 받을 최대 종 수
     python scripts/fetch_media.py --covers        # 이미 받은 종에 대표 사진(큐레이터 선정)만 채우기
+    python scripts/fetch_media.py --wiki-fix      # 위키 문서가 없거나 속 문서뿐인 종을 옛 학명·영명으로 다시 찾기
+
+위키 문서: data/wiki_overrides.json 에 적은 문서 → iNaturalist 가 걸어 둔 문서 → 학명·옛 학명·영명으로 찾은 문서(wiki_found) 순서.
+찾은 문서는 첫머리에 그 종의 학명(또는 옛 학명)과 영명이 함께 있을 때만 받아들인다.
 """
 import argparse
 import json
@@ -198,6 +202,92 @@ def wiki_full(url):
                 revision=pg.get("lastrevid"), sections=out)
 
 
+OVERRIDES = json.loads((DATA / "wiki_overrides.json").read_text(encoding="utf-8")) if (DATA / "wiki_overrides.json").exists() else {}
+_old_names = {}
+
+
+def norm_name(s):
+    return re.sub(r"[-‐–'’\s]+", " ", s or "").lower().strip()
+
+
+def lead_of(w):
+    for sec in w.get("sections") or []:
+        if sec["paras"]:
+            return " ".join(sec["paras"])[:500]
+    return ""
+
+
+def is_genus_doc(w, sci):
+    """종이 아니라 속을 다루는 문서인가: 제목이 속명이고 첫머리에 종 학명이 없다"""
+    return bool(w) and w.get("title") == sci.split()[0] and sci.lower() not in lead_of(w).lower()
+
+
+def wiki_find(t):
+    """지금 학명·옛 학명·영명으로 문서를 찾는다. 첫머리에 학명류와 영명이 모두 있어야 받는다."""
+    sci, en = t["sci"], t.get("en")
+    binoms = _old_names.get(sci) or [sci]
+    tried = set()
+    for c in binoms + ([en] if en else []):
+        w = wiki_full("/wiki/" + c)
+        if not w or w["title"] in tried or not w.get("sections"):
+            continue
+        tried.add(w["title"])
+        lead = lead_of(w).lower()
+        # 학명으로 찾아 들어왔고 제목이 영명과 같으면 첫머리 학명에 오타가 있어도 받는다(Schoeniclusa tristrami)
+        same_title = c in binoms and en and norm_name(en) == norm_name(w["title"])
+        if not same_title and not any(b.lower() in lead for b in binoms):
+            continue
+        if en and norm_name(en) not in norm_name(w["title"]) and norm_name(en) not in norm_name(lead):
+            continue
+        return dict(w, found_by=c)
+    return None
+
+
+def wiki_for(t, inat_url, old=None):
+    """종의 위키 문서: 지정 문서 → iNaturalist 문서 → 찾은 문서 → 전에 찾아 둔 문서"""
+    if t["sci"] in OVERRIDES:
+        w = wiki_full("/wiki/" + OVERRIDES[t["sci"]])
+        if w:
+            return w
+    w = wiki_full(inat_url)
+    if w and w.get("sections") and not is_genus_doc(w, t["sci"]):
+        return w
+    found = wiki_find(t)
+    if found:
+        return found
+    prev = (old or {}).get("wiki") or {}
+    return prev if prev.get("found_by") else w
+
+
+def load_old_names(names):
+    from fetch_distribution import old_names
+    _old_names.update(old_names(names, [t for t in names if t["rank"] == "species"]))
+
+
+def wiki_fix(scope):
+    """문서가 없거나 속 문서뿐인 종, 지정 문서가 있는 종을 다시 찾는다."""
+    names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
+    load_old_names(names)
+    fixed = checked = 0
+    for t in targets(scope):
+        f = OUT / (t["sci"].replace(" ", "_") + ".json")
+        m = json.loads(f.read_text(encoding="utf-8")) if f.exists() else dict(sci=t["sci"], fetched=date.today().isoformat(), inat=None, photos=[], wiki=None)
+        w = m.get("wiki") or {}
+        if t["sci"] in OVERRIDES:
+            new = wiki_full("/wiki/" + OVERRIDES[t["sci"]])
+        elif w.get("sections") and not is_genus_doc(w, t["sci"]):
+            continue
+        else:
+            checked += 1
+            new = wiki_find(t)
+        if new and new.get("title") != w.get("title"):
+            print(t["sci"], "|", w.get("title"), "→", new["title"], "|", new.get("found_by"), flush=True)
+            m["wiki"] = new
+            f.write_text(json.dumps(m, ensure_ascii=False, indent=1), encoding="utf-8")
+            fixed += 1
+    print(f"위키 문서 다시 찾기: 확인 {checked} · 바꿈 {fixed}")
+
+
 def targets(scope):
     """korean: 한국 출현종 · named: 국명이 있는 모든 종 · unnamed: 국명이 없는 종만 · all: 전부"""
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
@@ -217,12 +307,16 @@ def main():
     ap.add_argument("--all-named", action="store_true", help="--scope named 와 같다(예전 이름)")
     ap.add_argument("--covers", action="store_true", help="이미 받은 종의 대표 사진만 채운다")
     ap.add_argument("--common", action="store_true", help="이미 받은 종의 iNaturalist 영명만 채운다")
+    ap.add_argument("--wiki-fix", action="store_true", help="위키 문서가 없거나 속 문서뿐인 종을 다시 찾는다")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     if a.covers:
         return backfill_covers()
     if a.common:
         return backfill_common()
+    if a.wiki_fix:
+        return wiki_fix("named" if a.scope == "korean" else a.scope)
+    load_old_names(json.loads((DATA / "names.json").read_text(encoding="utf-8")))
     cutoff = (date.today() - timedelta(days=a.max_age)).isoformat()
     retry_cutoff = (date.today() - timedelta(days=RETRY_DAYS)).isoformat()
     done = 0
@@ -249,7 +343,7 @@ def main():
             rec["photos"] = inat_photos(tx["id"])
             rec["inat"]["common"] = tx.get("preferred_common_name")
             rec["curated"] = inat_curated_many([tx["id"]]).get(tx["id"], [])
-            rec["wiki"] = wiki_full(tx.get("wikipedia_url"))
+            rec["wiki"] = wiki_for(t, tx.get("wikipedia_url"), old)
         f.write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
         done += 1
         print(f"{done:4} {t['sci']:34} 사진 {len(rec['photos'])} 위키 {'O' if rec['wiki'] else '-'}", flush=True)
