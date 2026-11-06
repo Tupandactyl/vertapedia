@@ -165,13 +165,15 @@ def old_names(names, targets):
     """찾을 학명: 지금 학명 + AviList 옛 학명·원기재 학명 + 시트 이명 + Reptile Database 이명.
     다른 현재 종의 학명이거나 대상 종 둘 이상이 함께 쓰는 옛 학명은 다른 종 기록이 섞이므로 뺀다."""
     current = {t["sci"] for t in names if t["rank"] == "species"}
-    syn = {}
+    syn, owners = {}, {}
     p = DATA / "rdb_synonyms.xlsx"
     if p.exists():
         import openpyxl
         for a, b in list(openpyxl.load_workbook(p, read_only=True).worksheets[0].iter_rows(values_only=True))[1:]:
             if a and b:
                 syn.setdefault(b.strip(), []).append(a.strip())
+                owners.setdefault(a.strip(), set()).add(b.strip())
+    syn = {k: [n for n in v if len(owners[n]) == 1] for k, v in syn.items()}  # 여러 종의 이명으로 쓰인 이름은 뺀다
     aliases = avilist_aliases()
     cand = {t["sci"]: [n for n in dict.fromkeys(aliases.get(t["sci"], []) + (t.get("synonyms") or []) + syn.get(t["sci"], []))
                        if n != t["sci"] and n not in current and len(n.split()) >= 2] for t in targets}
