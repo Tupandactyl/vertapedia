@@ -5,6 +5,230 @@
  "revision": 1372035428,
  "translator": "Claude",
  "date": "2026-11-06",
+ "names": {
+  "Astur gentilis": [
+   "참매"
+  ],
+  "Accipitridae": [
+   "수리과"
+  ],
+  "Accipiter": [
+   "새매속"
+  ],
+  "Astur": [
+   "참매속"
+  ],
+  "Aquila fasciata": [
+   "흰배줄무늬수리"
+  ],
+  "Circaetus gallicus": [
+   "작은뱀수리"
+  ],
+  "Accipiter nisus": [
+   "새매"
+  ],
+  "Lophospiza trivirgata": [
+   "뿔참매"
+  ],
+  "Tachyspiza": [
+   "조롱이속"
+  ],
+  "Garrulus glandarius": [
+   "어치"
+  ],
+  "Pica pica": [
+   "대륙까치"
+  ],
+  "Corvus": [
+   "까마귀속"
+  ],
+  "Coloeus monedula": [
+   "서양갈까마귀"
+  ],
+  "Corvus frugilegus": [
+   "떼까마귀"
+  ],
+  "Corvus corax": [
+   "큰까마귀"
+  ],
+  "Columba livia": [
+   "집비둘기"
+  ],
+  "Columba palumbus": [
+   "숲비둘기"
+  ],
+  "Lyrurus tetrix": [
+   "멧닭"
+  ],
+  "Tetrastes bonasia": [
+   "들꿩"
+  ],
+  "Tetrao urogallus": [
+   "큰뇌조"
+  ],
+  "Lagopus lagopus": [
+   "버들뇌조"
+  ],
+  "Phasianus colchicus": [
+   "꿩"
+  ],
+  "Tetraogallus altaicus": [
+   "알타이설계"
+  ],
+  "Coturnix coturnix": [
+   "진메추라기"
+  ],
+  "Gallus gallus": [
+   "적색야계"
+  ],
+  "Lagopus scotica": [
+   "붉은뇌조"
+  ],
+  "Alectoris rufa": [
+   "홍다리츄카"
+  ],
+  "Buteo jamaicensis": [
+   "북미말똥가리"
+  ],
+  "Dendrocopos major": [
+   "오색딱다구리"
+  ],
+  "Picus viridis": [
+   "가면청딱다구리/흰눈청딱다구리"
+  ],
+  "Dryobates minor": [
+   "쇠오색딱다구리"
+  ],
+  "Dryocopus martius": [
+   "까막딱다구리"
+  ],
+  "Anas platyrhynchos": [
+   "청둥오리"
+  ],
+  "Aythya": [
+   "흰죽지속"
+  ],
+  "Aix galericulata": [
+   "원앙"
+  ],
+  "Anser albifrons": [
+   "쇠기러기"
+  ],
+  "Somateria mollissima": [
+   "솜털북방오리"
+  ],
+  "Gavia stellata": [
+   "아비"
+  ],
+  "Tachybaptus ruficollis": [
+   "논병아리"
+  ],
+  "Phalacrocorax carbo": [
+   "민물가마우지"
+  ],
+  "Nipponia nippon": [
+   "따오기"
+  ],
+  "Ciconia nigra": [
+   "먹황새"
+  ],
+  "Burhinus oedicnemus": [
+   "돌물떼새"
+  ],
+  "Haematopus ostralegus": [
+   "검은머리물떼새"
+  ],
+  "Stercorarius longicaudus": [
+   "긴꼬리도둑갈매기"
+  ],
+  "Turdus merula": [
+   "유럽검은지빠귀"
+  ],
+  "Turdus": [
+   "지빠귀속"
+  ],
+  "Turdus viscivorus": [
+   "대륙점지빠귀"
+  ],
+  "Regulus regulus": [
+   "상모솔새"
+  ],
+  "Bubo bubo": [
+   "수리부엉이"
+  ],
+  "Buteo buteo": [
+   "대륙말똥가리"
+  ],
+  "Falco tinnunculus": [
+   "황조롱이"
+  ],
+  "Pernis apivorus": [
+   "유럽/양벌매"
+  ],
+  "Tachyspiza gularis": [
+   "조롱이"
+  ],
+  "Milvus migrans": [
+   "솔개"
+  ],
+  "Circus aeruginosus": [
+   "큰개구리매"
+  ],
+  "Circus pygargus": [
+   "작은잿빛개구리매"
+  ],
+  "Circus macrourus": [
+   "옅은개구리매"
+  ],
+  "Hieraaetus pennatus": [
+   "흰점어깨수리"
+  ],
+  "Pernis ptilorhynchus": [
+   "벌매"
+  ],
+  "Clanga pomarina": [
+   "쇠항라수리"
+  ],
+  "Asio otus": [
+   "칡부엉이"
+  ],
+  "Strix aluco": [
+   "누른올빼미"
+  ],
+  "Glaucidium passerinum": [
+   "북방쇠올빼미"
+  ],
+  "Strix": [
+   "올빼미속"
+  ],
+  "Falco columbarius": [
+   "쇠황조롱이"
+  ],
+  "Falco cherrug": [
+   "헨다손매"
+  ],
+  "Falco peregrinus": [
+   "매"
+  ],
+  "Haliaeetus albicilla": [
+   "흰꼬리수리"
+  ],
+  "Aquila heliaca": [
+   "흰죽지수리"
+  ],
+  "Bubo scandiacus": [
+   "흰올빼미"
+  ],
+  "Strix uralensis": [
+   "긴점박이올빼미"
+  ],
+  "Aythya fuligula": [
+   "댕기흰죽지"
+  ],
+  "Corvus corone": [
+   "까마귀"
+  ]
+ },
  "sections": [
   {
    "h": null,

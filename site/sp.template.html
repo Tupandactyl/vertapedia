@@ -166,7 +166,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
   <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
-  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 검토</a></nav>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a></nav>
 </div></header>
 <div class="stickbar" id="stickbar" hidden title="맨 위로"><div class="stickbar-in"></div></div>
 <div class="page">
@@ -218,8 +218,8 @@ function descKo(d){
   const body=k.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)}>${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(q=>`<p>${paraKo(q.p,d.sci)}${q.n.map(i=>`<sup class="kn" title="${esc(k.notes[i-1].text.replace(/\*/g,''))}">${i}</sup>`).join('')}</p>`).join('')).join('');
   const notes=k.notes.length?`<div class="konotes"><h3>번역 주석</h3><ol>${k.notes.map(n=>`<li><span class="kt${n.type==='수정'?' fix':''}">${esc(n.type)}</span> ${koText(n.text)}</li>`).join('')}</ol></div>`:'';
   const skip=k.skipped.length?`<p class="src">분량이 긴 문서라 핵심 절만 옮겼습니다. 옮기지 않은 절: ${k.skipped.map(esc).join(', ')}. 원문에서 볼 수 있습니다.</p>`:'';
-  const gen=w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:w.other_doc?`<div class="notice">아래 글은 이 종이 아니라 <b>다른 종의 문서(${esc(w.title)})</b>입니다. 이 종의 설명으로 읽지 말아 주세요.</div>`:'';
-  return `<div class="l-ko">${gen}${body}${skip}<div class="notice">AI(Claude)를 이용한 번역본입니다. 설명 옆의 아이콘을 선택하여 원문과 비교할 수 있습니다.${k.notes.length?' 재검토가 필요한 정보 및 수정 내용은 아래 주석에 적었습니다.':''}</div>${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
+  const gen=w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:w.other_doc?`<div class="notice">${koText(w.other_doc)}</div>`:'';
+  return `<div class="l-ko">${gen}${body}${skip}<div class="notice">AI(Claude)를 이용한 번역본입니다. 설명 옆의 아이콘을 선택하여 원문과 비교할 수 있습니다.${k.notes.length?' 재검토가 필요한 정보 및 수정 내용은 아래 주석에 적었습니다.':''}${k.renamed&&k.renamed.length?` 번역 뒤 바뀐 국명은 현재 이름으로 고쳐 실었습니다(${k.renamed.map(([a,b])=>`${esc(a)} → ${koText(b)}`).join(', ')}).`:''}</div>${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
   <div class="l-en">${gen}<div class="notice">영문 위키백과 본문입니다(참고문헌·바깥 링크 절 제외).</div>${w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${paraEn(p,d.sci)}</p>`).join('')).join('')}<p class="src">출처: ${src}${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>`;
 }
 const langTog=()=>`<span class="langtog" role="group" aria-label="설명 언어"><button type="button" data-l="ko" aria-pressed="${DESC_LANG==='ko'}" title="한국어 번역 보기" aria-label="한국어 번역 보기">가</button><button type="button" data-l="en" aria-pressed="${DESC_LANG==='en'}" title="영어 원문 보기" aria-label="영어 원문 보기">A</button></span>`;
@@ -437,14 +437,14 @@ function distNames(g){
 }
 function distCard(d){
   if(!d.dist&&!d.range&&!(d.inat&&d.inat.observations))return '';
-  const to=d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:d.dist?`https://www.gbif.org/species/${d.dist.key}`:'';
+  const to=d.inat?`https://www.inaturalist.org/observations?taxon_id=${d.inat.id}&subview=map`:d.dist&&d.dist.key?`https://www.gbif.org/species/${d.dist.key}`:d.dist?`https://www.gbif.org/occurrence/search?verbatim_scientific_name=${encodeURIComponent(d.dist.verbatim[0])}`:'';
   return `<div class="card distcard"><h3>분포${distNames(d.dist)}</h3>
     ${d.dist?`<div class="distwrap"><a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a><button type="button" class="distzoom" id="distzoom" hidden></button></div>
     <p class="distleg"><span class="lg"><span class="sw m"></span>서식국가 ${d.dist.mn.toLocaleString()}건</span>${d.dist.inn?`<span class="lg"><span class="sw i"></span>이입국가 ${d.dist.inn.toLocaleString()}건</span>`:''}${d.dist.rn?`<span class="lg"><span class="sw r"></span>소수기록 ${d.dist.rn.toLocaleString()}건</span>`:''}</p>
     <p class="distnote" id="distnote" hidden>진한 칸은 GBIF 기록이 있는 곳(약 40km 단위), 옅은 바탕은 그 기록이 속한 나라·지역입니다.</p>`:''}
     ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
     ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
-    ${d.dist?`<p class="src">GBIF 기록 ${d.dist.n.toLocaleString()}건</p>`:''}
+    ${d.dist?`<p class="src">GBIF 기록 ${d.dist.n.toLocaleString()}건${d.dist.verbatim?` · GBIF 분류 체계에 없는 학명이라 원자료에 적힌 학명으로 찾았습니다(${d.dist.verbatim.map(n=>`<i>${esc(n)}</i>`).join(', ')})`:''}</p>`:''}
   </div>`;
 }
 function render(d){

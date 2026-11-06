@@ -18,6 +18,7 @@ from urllib.parse import quote
 
 from ko_link import Linker
 import distrule
+import ko_names
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -75,7 +76,7 @@ def dist_of(sci):
     native, intro = (sorted(s, key=lambda k: (-c[k], k)) for s in (major - intro, intro))  # 기록 많은 곳부터
     ko = lambda a: [REGION_KO.get(k, k) for k in a]
     total = lambda a: sum(c[k] for k in a)
-    return dict(m=native, i=intro, r=rare, n=sum(c.values()), key=d.get("key"), wild=bool(d.get("w")),
+    return dict(m=native, i=intro, r=rare, n=sum(c.values()), key=d.get("key"), wild=bool(d.get("w")), verbatim=d.get("verbatim"),
                 mk=ko(native), ik=ko(intro), mn=total(native), inn=total(intro), rn=total(rare))
 
 
@@ -155,8 +156,23 @@ for gname, tsci in load("type_species.json", {}).items():
         type_of.setdefault((_sp_group[tsci], gname), tsci)
 
 
-# iNaturalist가 다른 종의 위키 문서를 걸어 둔 종
-OTHER_SPECIES_DOC = {"Larus mongolicus", "Melanitta stejnegeri", "Riparia diluta"}
+# 분류 변동으로 독립했으나 iNaturalist 가 아직 옛 상위 종의 위키 문서를 걸어 둔 종: {학명: (문서의 종, 안내문)}
+OTHER_SPECIES_DOC = {
+    "Larus mongolicus": ("Larus vegae", "이 종은 {p} 등의 아종으로 다뤄지다가 2024년에 독립종으로 분리되었습니다. 아래 글은 분리 전 상위 종의 문서입니다."),
+    "Melanitta stejnegeri": ("Melanitta deglandi", "이 종은 {p}와 같은 종으로 다뤄지다가 2019년에 독립종으로 분리되었습니다. 아래 글은 분리 전 상위 종의 문서입니다."),
+    "Riparia diluta": ("Riparia riparia", "이 종은 {p}의 아종으로 다뤄지다가 독립종으로 분리되었습니다. 아래 글은 분리 전 상위 종의 문서입니다."),
+}
+_by_sci = {}
+for _t in names:
+    _by_sci.setdefault(_t["sci"], _t)
+NAME_ALIASES = {k: v for k, v in load("name_aliases.json", {}).items() if not k.startswith("_")}
+name_changes = []  # 번역문에 자동으로 반영한 국명 변경
+
+
+def show_name(sci):
+    """(현재 국명, 표시할 이름). 국명이 없으면 영명, 그것도 없으면 학명. 목록에 없는 학명은 None"""
+    t = _by_sci.get(sci)
+    return (t.get("name"), t.get("name") or t.get("en") or f"*{sci}*") if t else None
 # fetch_media.py 의 SKIP_SECTIONS 에 없던 참고문헌 절 (이미 받은 자료에서도 뺀다)
 BIB_SECTIONS = {"cited texts", "cited text", "cited books", "other sources", "general bibliography", "cited literature", "literature cited",
                 "sources cited", "texts cited", "general references", "general sources", "general and cited references", "cited references",
@@ -169,7 +185,8 @@ def wiki_of(t, m):
     if w and len(w.get("title", "").split()) == 1:
         w = dict(w, genus_doc=True)
     if w and t["sci"] in OTHER_SPECIES_DOC:
-        w = dict(w, other_doc=True)
+        parent, text = OTHER_SPECIES_DOC[t["sci"]]
+        w = dict(w, other_doc=text.format(p=f"{show_name(parent)[1]}(*{parent}*)"))
     return w
 
 
@@ -180,6 +197,13 @@ def wiki_ko_of(t, wiki):
     if not p.exists():
         return None
     k = json.loads(p.read_text(encoding="utf-8"))
+    # 번역 뒤 바뀐 국명을 현재 국명으로
+    wanted, skipped = ko_names.plan(k.get("names") or {}, show_name, NAME_ALIASES)
+    fix = lambda s: ko_names.apply(s, wanted)
+    joined = " ".join(q["text"] for s in k["sections"] for q in s["paras"])
+    renamed = sorted((o, n) for o, n in wanted.items() if ko_names.pattern([o]).search(joined))
+    name_changes.extend(dict(doc=t["sci"], old=o, new=n) for o, n in renamed)
+    name_changes.extend(dict(doc=t["sci"], old=o, new=None, sci=s) for s, o in skipped if ko_names.pattern([o]).search(joined))
     names = {}
     for s in (wiki or {}).get("sections") or []:
         for para in s["paras"]:
@@ -213,10 +237,10 @@ def wiki_ko_of(t, wiki):
 
     notes = [n for n in k.get("notes", []) if n.get("type") != "번역 메모"]
     secs = [dict(h=s.get("h"), level=s.get("level") or 2,
-                 paras=[dict(p=link(q["text"]), n=[i + 1 for i, n in enumerate(notes) if n["ref"] == q["ref"]]) for q in s["paras"]])
+                 paras=[dict(p=link(fix(q["text"])), n=[i + 1 for i, n in enumerate(notes) if n["ref"] == q["ref"]]) for q in s["paras"]])
             for s in k["sections"]]
     return dict(revision=k.get("revision"), date=k.get("date"), translator=k.get("translator"), sections=secs, skipped=k.get("skipped") or [],
-                notes=[dict(type=n["type"], text=n["text"]) for n in notes])
+                renamed=renamed, notes=[dict(type=n["type"], text=fix(n["text"])) for n in notes])
 
 
 dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
@@ -400,6 +424,8 @@ for g, lst in fam_seq.items():
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         (SITE / "fam" / fname(f["sci"])).write_text(dump(rec), encoding="utf-8")
+
+(DATA / "name_changes.json").write_text(json.dumps(name_changes, ensure_ascii=False, indent=0), encoding="utf-8")  # 검토 페이지에서 읽는다
 
 # --- 분포 지도 ---
 # 지역을 나눈 세계지도(scripts/build_world_map.py). 지도에 마우스를 올리면 한국어 이름

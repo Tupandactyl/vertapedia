@@ -5,6 +5,239 @@
  "revision": 1374913931,
  "translator": "Claude",
  "date": "2026-11-06",
+ "names": {
+  "Bubo scandiacus": [
+   "흰올빼미"
+  ],
+  "Bubo bubo": [
+   "수리부엉이"
+  ],
+  "Bubo virginianus": [
+   "북미수리부엉이"
+  ],
+  "Caprimulgiformes": [
+   "쏙독새목"
+  ],
+  "Strix": [
+   "올빼미속"
+  ],
+  "Strix nebulosa": [
+   "큰회색올빼미"
+  ],
+  "Buteo": [
+   "말똥가리속"
+  ],
+  "Asio flammeus": [
+   "쇠부엉이"
+  ],
+  "Larus marinus": [
+   "큰검은등갈매기"
+  ],
+  "Pygoscelis adeliae": [
+   "아델리펭귄"
+  ],
+  "Pandion haliaetus": [
+   "물수리"
+  ],
+  "Haematopus ostralegus": [
+   "검은머리물떼새"
+  ],
+  "Stercorarius parasiticus": [
+   "북극도둑갈매기"
+  ],
+  "Numenius phaeopus": [
+   "중부리도요"
+  ],
+  "Lagopus lagopus": [
+   "버들뇌조"
+  ],
+  "Lagopus muta": [
+   "뇌조"
+  ],
+  "Plectrophenax nivalis": [
+   "흰멧새"
+  ],
+  "Calcarius lapponicus": [
+   "긴발톱멧새"
+  ],
+  "Somateria spectabilis": [
+   "호사북방오리"
+  ],
+  "Somateria mollissima": [
+   "솜털북방오리"
+  ],
+  "Branta bernicla": [
+   "흑기러기"
+  ],
+  "Anser caerulescens": [
+   "흰기러기"
+  ],
+  "Branta hutchinsii": [
+   "캐나다기러기"
+  ],
+  "Polysticta stelleri": [
+   "꼬마북방오리"
+  ],
+  "Pluvialis apricaria": [
+   "유럽검은가슴물떼새"
+  ],
+  "Anser fabalis": [
+   "큰부리큰기러기"
+  ],
+  "Synthliboramphus antiquus": [
+   "바다쇠오리"
+  ],
+  "Anas crecca": [
+   "쇠오리"
+  ],
+  "Histrionicus histrionicus": [
+   "흰줄박이오리"
+  ],
+  "Anas acuta": [
+   "고방오리"
+  ],
+  "Phalaropus fulicarius": [
+   "붉은배지느러미발도요"
+  ],
+  "Bucephala albeola": [
+   "꼬마오리"
+  ],
+  "Podiceps auritus": [
+   "귀뿔논병아리"
+  ],
+  "Larus glaucescens": [
+   "수리갈매기"
+  ],
+  "Mareca americana": [
+   "아메리카홍머리오리"
+  ],
+  "Perdix perdix": [
+   "회색멧자고"
+  ],
+  "Alle alle": [
+   "작은바다쇠오리"
+  ],
+  "Anas rubripes": [
+   "미국오리"
+  ],
+  "Gallus gallus": [
+   "적색야계"
+  ],
+  "Colinus virginianus": [
+   "북방콜린"
+  ],
+  "Phasianus colchicus": [
+   "꿩"
+  ],
+  "Bonasa umbellus": [
+   "목도리들꿩"
+  ],
+  "Columba livia": [
+   "집비둘기"
+  ],
+  "Agelaius phoeniceus": [
+   "붉은날개까막새"
+  ],
+  "Fulica americana": [
+   "아메리카물닭"
+  ],
+  "Fratercula arctica": [
+   "퍼핀"
+  ],
+  "Lagopus scotica": [
+   "붉은뇌조"
+  ],
+  "Clangula hyemalis": [
+   "바다꿩"
+  ],
+  "Alauda arvensis": [
+   "종다리"
+  ],
+  "Emberiza citrinella": [
+   "노랑멧새"
+  ],
+  "Branta canadensis": [
+   "큰캐나다기러기"
+  ],
+  "Ardea herodias": [
+   "큰청왜가리"
+  ],
+  "Larus smithsonianus": [
+   "옅은재갈매기"
+  ],
+  "Larus argentatus": [
+   "유럽재갈매기"
+  ],
+  "Nannopterum auritum": [
+   "귀뿔가마우지"
+  ],
+  "Tetrao urogallus": [
+   "큰뇌조"
+  ],
+  "Centrocercus urophasianus": [
+   "산쑥들꿩"
+  ],
+  "Gavia adamsii": [
+   "흰부리아비"
+  ],
+  "Cygnus columbianus": [
+   "고니"
+  ],
+  "Stercorarius pomarinus": [
+   "넓적꼬리도둑갈매기"
+  ],
+  "Stercorarius longicaudus": [
+   "긴꼬리도둑갈매기"
+  ],
+  "Buteo lagopus": [
+   "털발말똥가리"
+  ],
+  "Circus cyaneus": [
+   "잿빛개구리매"
+  ],
+  "Circus hudsonius": [
+   "얼룩잿빛개구리매"
+  ],
+  "Falco rusticolus": [
+   "흰매"
+  ],
+  "Falco peregrinus": [
+   "매"
+  ],
+  "Larus hyperboreus": [
+   "흰갈매기"
+  ],
+  "Corvus corax": [
+   "큰까마귀"
+  ],
+  "Aquila chrysaetos": [
+   "검독수리"
+  ],
+  "Haliaeetus leucocephalus": [
+   "흰머리수리"
+  ],
+  "Haliaeetus albicilla": [
+   "흰꼬리수리"
+  ],
+  "Haliaeetus pelagicus": [
+   "참수리"
+  ],
+  "Sterna paradisaea": [
+   "극제비갈매기"
+  ],
+  "Falco sparverius": [
+   "아메리카황조롱이"
+  ],
+  "Strix varia": [
+   "줄무늬올빼미"
+  ],
+  "Aegolius acadicus": [
+   "숫돌쇠올빼미"
+  ],
+  "Falco columbarius": [
+   "쇠황조롱이"
+  ]
+ },
  "sections": [
   {
    "h": null,

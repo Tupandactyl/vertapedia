@@ -2,15 +2,19 @@
 
     python scripts/wiki_ko.py prep 학명1 학명2 ...   # 번역할 입력 만들기(translation_review/in/)
     python scripts/wiki_ko.py prep --korea           # 한국 기록종 가운데 아직 번역하지 않은 모든 종
-    python scripts/wiki_ko.py check                  # 번역본 검사 후 합치기(translation_review/out/ → data/wiki_ko/)
+    python scripts/wiki_ko.py next --chars 150000    # 합의 국명 종을 시트 순서대로, 원문 글자 수만큼 다음 작업으로 준비(batches.json)
+    python scripts/wiki_ko.py status                 # 남은 양
+    python scripts/wiki_ko.py check [--all]          # 새 번역본 검사 후 합치기(translation_review/out/ → data/wiki_ko/). --all 은 전부 다시
 
 - 전문을 옮긴다. 일부만 번역된 문서는 빠진 문단만 <학명>.add 입력으로 만든다.
 - 긴 문서는 나눠 <이름>.part1.json 처럼 저장해도 check 가 한 문서로 합친다.
 - 번역본은 원문 판과 함께 따로 두므로, 위키 원문이 갱신되어도 그대로 보여 줄 수 있다.
+- 번역본에 그때 쓴 국명 목록(names)을 함께 적는다. 시트의 국명이 바뀌면 사이트를 만들 때 scripts/ko_names.py 가 본문을 고친다.
 """
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -20,6 +24,7 @@ BATCH = 75000  # 한 묶음 원문 글자 수
 # 숫자 대조에서 빼는 야드파운드 병기
 IMPERIAL = re.compile(r"\([^()]*\b(?:in|ft|lb|mi|oz|yd|sq mi|mph|acres?|°F)\b[^()]*\)")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
+AGREED = ("consensus", "kos", "kshr")  # 합의된 국명: 시트 합의본, 한국조류목록, 한국양서파충류학회
 PUBLIC = ("수정", "확인 필요")
 TYPES = PUBLIC + ("번역 메모",)
 
@@ -114,11 +119,42 @@ def prep(names):
     print("묶음", len(bins), "· 문서", len(report), "· 합계", sum(c for _, c in report), "· 가장 큰 묶음", max((c for c, _ in bins), default=0))
 
 
+def names_used(src):
+    """번역 입력에 있던 국명: {학명: [국명]}"""
+    used = {src["sci"]: [src["ko"]]} if src.get("ko") else {}
+    for v in src.get("glossary", {}).values():
+        m = re.fullmatch(r"(.+) \((.+)\)", v)
+        if m and m[1] not in used.setdefault(m[2], []):
+            used[m[2]].append(m[1])
+    return used
+
+
+def queue():
+    """번역할 차례: 합의 국명이 있고 위키 본문이 있으며 번역본이 없는 종, 시트 순서"""
+    return [(t["sci"], sum(len(p) for s in w["sections"] for p in s["paras"]))
+            for t in load(DATA / "names.json", []) if t.get("rank") == "species" and t.get("status") in AGREED
+            and not (FINAL / fname(t["sci"])).exists() and (w := wiki_of(t["sci"])).get("sections")]
+
+
+def next_batch(chars):
+    q, picked, total = queue(), [], 0
+    for sci, c in q:
+        if picked and total + c > chars:
+            break
+        picked.append(sci)
+        total += c
+    prep(picked)
+    print(f"이번 {len(picked)}종 {total:,}자 · 남은 전체 {len(q):,}종 {sum(c for _, c in q):,}자")
+
+
 def check():
     FINAL.mkdir(parents=True, exist_ok=True)
     bad = ok = 0
     for f in sorted({OUT / (x.name.split(".")[0] + ".json") for x in OUT.glob("*.json")}):
         sci = f.stem.replace("_", " ")
+        parts = [x for x in OUT.glob(f.stem + "*.json") if x.stem == f.stem or x.stem.startswith(f.stem + ".")]
+        if "--all" not in sys.argv and (FINAL / f.name).exists() and (FINAL / f.name).stat().st_mtime >= max(x.stat().st_mtime for x in parts):
+            continue  # 합친 뒤로 바뀌지 않은 번역본
         src = load(IN / f.name)
         if src is None:  # 처음 10종처럼 입력 파일이 없으면 만들어 둔 번역본을 그대로 검사
             print("입력 없음:", f.name)
@@ -167,8 +203,8 @@ def check():
         levels = [s.get("level") for s in w.get("sections") or []]
         sections = [dict(h=heads.get(str(i)), en=src["heads"].get(str(i)), level=levels[i] if i < len(levels) else 2,
                          paras=[dict(ref=k, text=ko[k]) for k in refs]) for i, refs in sorted(secs_by.items())]
-        final = dict(sci=sci, title=src["title"], url=src["url"], revision=src["revision"], translator="Claude", date=tr.get("date") or "2026-11-06",
-                     sections=sections, skipped=src.get("skipped") or [], notes=notes)
+        final = dict(sci=sci, title=src["title"], url=src["url"], revision=src["revision"], translator="Claude", date=tr.get("date") or date.today().isoformat(),
+                     names=names_used(src), sections=sections, skipped=src.get("skipped") or [], notes=notes)
         (FINAL / f.name).write_text(json.dumps(final, ensure_ascii=False, indent=1), encoding="utf-8")
         ok += 1
         if warn:
@@ -184,5 +220,10 @@ if __name__ == "__main__":
             prep([s for s in names if wiki_of(s).get("sections")])
         else:
             prep([a for a in sys.argv[2:] if not a.startswith("--")])
+    elif sys.argv[1] == "next":
+        next_batch(int(sys.argv[sys.argv.index("--chars") + 1]))
+    elif sys.argv[1] == "status":
+        q = queue()
+        print(f"남은 {len(q):,}종 {sum(c for _, c in q):,}자 · 다음: {[s for s, _ in q[:3]]}")
     else:
         check()

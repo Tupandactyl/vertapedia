@@ -25,6 +25,7 @@ PDF = Path(sys.argv[1]) if len(sys.argv) > 1 else None
 RDB_LABEL = "Reptile Database"
 USE_NIBR = False  # 국가생물종목록 Ⅱ(2019): 2026-10-21 편집진 결정으로 국명 출처에서 뺐다
 RANKS = ["class", "order", "suborder", "family", "subfamily", "genus"]
+UNSETTLED = re.compile(r"[/\-‐–—]")
 
 
 def cell(r, i):
@@ -646,6 +647,9 @@ def main():
             t["official_ref"] = o
             t["official"] = None
         t["name"], t["status"] = pick_name(t)
+        # 한 칸에 빗금·하이픈으로 여러 이름을 적은 제안은 미합의로 보고 합의될 때까지 싣지 않는다
+        if t["status"] in ("proposal", "consensus", "kos_held") and UNSETTLED.search(t["name"] or ""):
+            t["name"], t["status"] = None, "split"
     # 개인 제안 국명이 다른 종과 겹치면 그 제안은 국명으로 쓰지 않는다(영명 표시)
     # (종뿐 아니라 속·과 등 같은 계급끼리도)
     used = Counter((t["group"], t["rank"], norm(t["name"])) for t in sheet if t["name"])
@@ -688,7 +692,8 @@ def main():
     (DATA / "names.json").write_text(json.dumps(sheet, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "review.json").write_text(json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1), encoding="utf-8")
-    (DATA / "kos.json").write_text(json.dumps(dict(diff=kos_diff, used=kos_used, unlinked=kos_unlinked),
+    kos_changed = [r for r in kos_rows if r["sheet_sci"] and r["sheet_sci"] != r["kos_sci"] and not r["held"]]
+    (DATA / "kos.json").write_text(json.dumps(dict(diff=kos_diff, used=kos_used, unlinked=kos_unlinked, changed=kos_changed),
                                               ensure_ascii=False, indent=1), encoding="utf-8")
 
     rep = ["== 계급·상태별 개수 =="] + [f"{k[0]:9} {k[1]:10} {k[2]:10} {stat[k]}" for k in sorted(stat)]

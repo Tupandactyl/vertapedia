@@ -5,6 +5,260 @@
  "revision": 1368918638,
  "translator": "Claude",
  "date": "2026-11-06",
+ "names": {
+  "Haliaeetus albicilla": [
+   "흰꼬리수리"
+  ],
+  "Accipitridae": [
+   "수리과"
+  ],
+  "Haliaeetus leucocephalus": [
+   "흰머리수리"
+  ],
+  "Icthyophaga ichthyaetus": [
+   "큰강수리"
+  ],
+  "Ichthyaetus": [
+   "큰검은머리갈매기속"
+  ],
+  "Icthyophaga sanfordi": [
+   "갈색바다수리"
+  ],
+  "Icthyophaga leucogaster": [
+   "흰배바다수리"
+  ],
+  "Haliastur indus": [
+   "황솔개"
+  ],
+  "Gypohierax angolensis": [
+   "야자수리"
+  ],
+  "Hieraaetus pennatus": [
+   "흰점어깨수리"
+  ],
+  "Haliaeetus pelagicus": [
+   "참수리"
+  ],
+  "Harpia harpyja": [
+   "하피수리"
+  ],
+  "Pithecophaga jefferyi": [
+   "필리핀수리"
+  ],
+  "Aquila chrysaetos": [
+   "검독수리"
+  ],
+  "Gyps fulvus": [
+   "대머리수리"
+  ],
+  "Aegypius monachus": [
+   "독수리"
+  ],
+  "Aquila": [
+   "검독수리속"
+  ],
+  "Clanga clanga": [
+   "항라머리검독수리"
+  ],
+  "Aquila heliaca": [
+   "흰죽지수리"
+  ],
+  "Clanga": [
+   "항라머리검독수리속"
+  ],
+  "Ciconia nigra": [
+   "먹황새"
+  ],
+  "Anas platyrhynchos": [
+   "청둥오리"
+  ],
+  "Pandion haliaetus": [
+   "물수리"
+  ],
+  "Ardea cinerea": [
+   "왜가리"
+  ],
+  "Somateria mollissima": [
+   "솜털북방오리"
+  ],
+  "Tachybaptus ruficollis": [
+   "논병아리"
+  ],
+  "Anser fabalis": [
+   "큰부리큰기러기"
+  ],
+  "Astur gentilis": [
+   "참매"
+  ],
+  "Fulica atra": [
+   "물닭"
+  ],
+  "Calidris minuta": [
+   "작은도요"
+  ],
+  "Tringa glareola": [
+   "알락도요"
+  ],
+  "Charadrius hiaticula": [
+   "흰죽지꼬마물떼새"
+  ],
+  "Fulmarus glacialis": [
+   "북방풀마"
+  ],
+  "Bucephala clangula": [
+   "흰뺨오리"
+  ],
+  "Mergus merganser": [
+   "비오리"
+  ],
+  "Mergus serrator": [
+   "바다비오리"
+  ],
+  "Aythya fuligula": [
+   "댕기흰죽지"
+  ],
+  "Anser anser": [
+   "회색기러기"
+  ],
+  "Branta ruficollis": [
+   "붉은가슴기러기"
+  ],
+  "Branta canadensis": [
+   "큰캐나다기러기"
+  ],
+  "Gavia immer": [
+   "큰아비"
+  ],
+  "Botaurus stellaris": [
+   "알락해오라기"
+  ],
+  "Ciconia ciconia": [
+   "홍부리황새"
+  ],
+  "Grus grus": [
+   "검은목두루미"
+  ],
+  "Cygnus olor": [
+   "혹고니"
+  ],
+  "Cygnus cygnus": [
+   "큰고니"
+  ],
+  "Cygnus columbianus": [
+   "고니"
+  ],
+  "Phalacrocorax carbo": [
+   "민물가마우지"
+  ],
+  "Phalacrocorax capillatus": [
+   "가마우지"
+  ],
+  "Morus bassanus": [
+   "북방가넷"
+  ],
+  "Phoebastria immutabilis": [
+   "검은등알바트로스"
+  ],
+  "Phoebastria nigripes": [
+   "검은발알바트로스"
+  ],
+  "Phasianus colchicus": [
+   "꿩"
+  ],
+  "Tetrao urogallus": [
+   "큰뇌조"
+  ],
+  "Otis tarda": [
+   "느시"
+  ],
+  "Parus major": [
+   "노랑배박새"
+  ],
+  "Sturnus vulgaris": [
+   "흰점찌르레기"
+  ],
+  "Corvus macrorhynchos": [
+   "큰부리까마귀"
+  ],
+  "Corvus corone": [
+   "까마귀"
+  ],
+  "Aquila nipalensis": [
+   "초원수리"
+  ],
+  "Clanga pomarina": [
+   "쇠항라수리"
+  ],
+  "Accipiter nisus": [
+   "새매"
+  ],
+  "Circus aeruginosus": [
+   "큰개구리매"
+  ],
+  "Milvus migrans": [
+   "솔개"
+  ],
+  "Pernis apivorus": [
+   "유럽/양벌매"
+  ],
+  "Buteo buteo": [
+   "대륙말똥가리"
+  ],
+  "Glaucidium passerinum": [
+   "북방쇠올빼미"
+  ],
+  "Aegolius funereus": [
+   "북방올빼미/금눈올빼미"
+  ],
+  "Falco subbuteo": [
+   "새호리기"
+  ],
+  "Asio otus": [
+   "칡부엉이"
+  ],
+  "Surnia ulula": [
+   "긴꼬리올빼미"
+  ],
+  "Asio flammeus": [
+   "쇠부엉이"
+  ],
+  "Falco peregrinus": [
+   "매"
+  ],
+  "Bubo scandiacus": [
+   "흰올빼미"
+  ],
+  "Bubo bubo": [
+   "수리부엉이"
+  ],
+  "Corvus corax": [
+   "큰까마귀"
+  ],
+  "Falco cherrug": [
+   "헨다손매"
+  ],
+  "Passer montanus": [
+   "참새"
+  ],
+  "Motacilla alba": [
+   "알락할미새"
+  ],
+  "Certhia familiaris": [
+   "나무발발이"
+  ],
+  "Phoenicurus phoenicurus": [
+   "흰이마딱새"
+  ],
+  "Lophophanes cristatus": [
+   "뿔박새"
+  ],
+  "Columba oenas": [
+   "분홍가슴비둘기"
+  ],
+  "Puffinus puffinus": [
+   "쇠슴새"
+  ]
+ },
  "sections": [
   {
    "h": null,

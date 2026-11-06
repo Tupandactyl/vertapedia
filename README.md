@@ -2,13 +2,13 @@
 
 조류·파충류의 학명과 한국어 국명을 한곳에서 찾는 사전. 편집진이 구글 시트에 적은 국명 합의본·제안·명칭 근거를 공식 목록과 합쳐 보여 준다.
 
-사이트: https://tupandactyl.github.io/vertapedia/ · 국명 검토: https://tupandactyl.github.io/vertapedia/review.html
+사이트: https://tupandactyl.github.io/vertapedia/ · 국명 부여 기준: https://tupandactyl.github.io/vertapedia/review.html
 
 ## 이름을 정하는 순서
 
 | | 학명 | 국명 |
 |---|---|---|
-| 조류 | 조류 시트(eBird/Clements·AviList) | 한국조류목록 2025 → 시트 합의본 → 개인 제안(모두 같을 때) |
+| 조류 | 조류 시트(AviList) | 한국조류목록 2025 → 시트 합의본 → 개인 제안(모두 같을 때) |
 | 파충류 | Reptile Database 웹사이트의 현재 종 목록(`data/rdb_live.json`)이 기준, 과·아종은 checklist(`data/rdb_checklist.xlsx`). 둘 다 `scripts/fetch_rdb.py`로 갱신. 시트 종은 이 목록에 맞춰 학명 변경·아종 통합 | 한국양서파충류학회 파충류 종 목록 2025 → 시트 합의본 |
 
 - 국명이 없으면 영명을 표시한다.

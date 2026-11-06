@@ -9,6 +9,7 @@
     python scripts/fetch_distribution.py --limit 50      # 시험
     python scripts/fetch_distribution.py --retry         # 못 찾은 종도 다시 (--group AVES 로 강을 좁힐 수 있다)
     python scripts/fetch_distribution.py --wild          # 야생 출처(eBird·iNaturalist·표본)만 센 나라별 기록 w 채우기
+    python scripts/fetch_distribution.py --verbatim      # 못 찾은 종을 원자료에 적힌 학명(옛 학명 포함)으로 찾기
 """
 import json
 import re
@@ -119,12 +120,15 @@ EBIRD = "4fa7b334-ce0d-4e88-aaae-2e0c138d049e"   # eBird 관찰(야생만)
 INAT = "50c9509d-22c7-4a22-a47d-8c48425ef4a7"    # iNaturalist 연구등급(사육·재배 제외)
 
 
-def wild(key):
-    """야생 출처만 나라별로: eBird·iNaturalist 관찰 + 박물관 표본. 다른 관찰 기록 사이트의 동물원 기록을 뺀다."""
-    base = dict(taxon_key=key, limit=0, facet="country", facetLimit=300, occurrence_status="present")
+def wild(key=None, verbatim=()):
+    """야생 출처만 나라별로: eBird·iNaturalist 관찰 + 박물관 표본. 다른 관찰 기록 사이트의 동물원 기록을 뺀다.
+    key 대신 verbatim 을 주면 원자료에 적힌 학명으로 찾는다."""
+    base = dict(limit=0, facet="country", facetLimit=300, occurrence_status="present")
+    if key:
+        base["taxon_key"] = key
     url = "https://api.gbif.org/v1/occurrence/search"
     # 나눈 나라(US·ID·RU 등)의 지역별 기록을 위해 행정구역(GADM 1단계) 집계도 함께 받는다
-    extra = [("facet", "gadmLevel1Gid"), ("gadmLevel1Gid.facetLimit", 2000)]
+    extra = [("facet", "gadmLevel1Gid"), ("gadmLevel1Gid.facetLimit", 2000)] + [("verbatimScientificName", n) for n in verbatim]
     obs = get_multi(url, base, [("dataset_key", EBIRD), ("dataset_key", INAT)] + extra)
     spec = get_multi(url, dict(base, basis_of_record="PRESERVED_SPECIMEN"), extra)
     if obs is None or spec is None:
@@ -157,10 +161,60 @@ def iucn(key):
     return (r or {}).get("code")
 
 
+def old_names(names, targets):
+    """찾을 학명: 지금 학명 + AviList 옛 학명·원기재 학명 + 시트 이명 + Reptile Database 이명.
+    다른 현재 종의 학명이거나 대상 종 둘 이상이 함께 쓰는 옛 학명은 다른 종 기록이 섞이므로 뺀다."""
+    current = {t["sci"] for t in names if t["rank"] == "species"}
+    syn = {}
+    p = DATA / "rdb_synonyms.xlsx"
+    if p.exists():
+        import openpyxl
+        for a, b in list(openpyxl.load_workbook(p, read_only=True).worksheets[0].iter_rows(values_only=True))[1:]:
+            if a and b:
+                syn.setdefault(b.strip(), []).append(a.strip())
+    aliases = avilist_aliases()
+    cand = {t["sci"]: [n for n in dict.fromkeys(aliases.get(t["sci"], []) + (t.get("synonyms") or []) + syn.get(t["sci"], []))
+                       if n != t["sci"] and n not in current and len(n.split()) >= 2] for t in targets}
+    uses = Counter(n for v in cand.values() for n in v)
+    return {s: [s] + [n for n in v if uses[n] == 1] for s, v in cand.items()}
+
+
+def by_verbatim(sci, names):
+    """GBIF 분류 체계에 항목이 없는 종: 원자료에 적힌 학명으로 기록을 모은다. 기록이 없으면 None"""
+    url = "https://api.gbif.org/v1/occurrence/search"
+    base = dict(limit=0, facet="country", facetLimit=300, occurrence_status="present")
+    d = get_multi(url, base, [("verbatimScientificName", n) for n in names])
+    if d is None or not d.get("count"):
+        return None
+    w = wild(verbatim=names)
+    if w is None:
+        return None
+    rec = dict(key=None, verbatim=names, n=d["count"], c={f["name"]: f["count"] for f in (d.get("facets") or [{}])[0].get("counts", [])}, iucn=None)
+    rec["w"], rec["g"] = w
+    return rec
+
+
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
     out = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    if "--verbatim" in sys.argv:  # 못 찾은 종을 원자료 학명(옛 학명 포함)으로 다시 찾는다
+        targets = [t for t in names if t["rank"] == "species" and not out.get(t["sci"])]
+        targets.sort(key=lambda t: (not t.get("name"), t["group"] != "AVES"))
+        targets = targets[:limit] if limit else targets
+        lists = old_names(names, targets)
+        found = 0
+        with ThreadPoolExecutor(max_workers=2) as ex:
+            for i, (t, rec) in enumerate(zip(targets, ex.map(lambda t: by_verbatim(t["sci"], lists[t["sci"]]), targets)), 1):
+                if rec:
+                    out[t["sci"]] = rec
+                    found += 1
+                if i % 100 == 0:
+                    OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+                    print(f"원자료 학명 {i}/{len(targets)} · 찾음 {found}", flush=True)
+        OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        print("원자료 학명으로 찾은 종:", found, "/", len(targets), flush=True)
+        return
     # 예전에 받은 기록에 IUCN 등급이 없으면 등급만 채운다
     old = [s for s, v in out.items() if v and "iucn" not in v]
     if old:
@@ -196,7 +250,7 @@ def main():
     with ThreadPoolExecutor(max_workers=4) as ex:
         results = list(ex.map(one, todo))
     # 다른 학명으로 찾았는데 그 GBIF 항목을 다른 종도 쓰면 갈라지기 전 기록이 섞인 것이라 버린다
-    uses = Counter(v["key"] for v in out.values() if v)
+    uses = Counter(v["key"] for v in out.values() if v and v.get("key"))
     uses.update(rec["key"] for _, rec in results if rec)
     dropped = 0
     for sci, rec in results:

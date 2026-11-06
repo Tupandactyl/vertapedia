@@ -1,167 +1,94 @@
+<!doctype html>
+<html lang="ko">
 <meta charset="utf-8">
 <script src="theme.js"></script>
-<title>Vertapedia 국명 검토</title>
+<title>Vertapedia 국명 부여 기준</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
 <style>
-/* Layout: 상단 요약 → 탭(학명 연결 / 국명 차이) → 필터 → 표. 검토자가 훑고 고칠 곳을 찾는 작업용 화면 */
-:root{
-  --bg:#eef1ee; --panel:#ffffff; --ink:#1d2621; --muted:#5d6b63; --line:#d3dbd5;
-  --moss:#2f5d46; --moss-soft:#dfeae3; --ok:#2e7d4f; --warn:#a86a12; --bad:#a63b32; --info:#3b5f8a;
-  --ok-bg:#e1f1e7; --warn-bg:#f8ecd6; --bad-bg:#f6e0dd; --info-bg:#e2eaf4;
-  --display:"Gowun Batang",Georgia,serif; --body:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif; --mono:"IBM Plex Mono",Consolas,monospace;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
-  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --bad:#ec8f86; --info:#9bbbe3;
-  --ok-bg:#1f3428; --warn-bg:#3a2e17; --bad-bg:#3d221f; --info-bg:#1e2a3a; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#141a17; --panel:#1c2420; --ink:#e4ebe6; --muted:#9aa9a0; --line:#2f3a34;
-  --moss:#8cc4a5; --moss-soft:#24352c; --ok:#7fcf9c; --warn:#e2b261; --bad:#ec8f86; --info:#9bbbe3;
-  --ok-bg:#1f3428; --warn-bg:#3a2e17; --bad-bg:#3d221f; --info-bg:#1e2a3a; color-scheme:dark}
+:root{--bg:#eef1ee;--panel:#fff;--ink:#1d2621;--muted:#5d6b63;--line:#d3dbd5;--moss:#2f5d46;--warn:#a86a12;
+  --display:"Gowun Batang",Georgia,serif;--body:"IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141a17;--panel:#1c2420;--ink:#e4ebe6;--muted:#9aa9a0;--line:#2f3a34;--moss:#8cc4a5;--warn:#e2b261;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141a17;--panel:#1c2420;--ink:#e4ebe6;--muted:#9aa9a0;--line:#2f3a34;--moss:#8cc4a5;--warn:#e2b261;color-scheme:dark}
 *{box-sizing:border-box}
-[hidden]{display:none!important}
-body{background:var(--bg);word-break:keep-all;overflow-wrap:break-word;color:var(--ink);font-family:var(--body);font-size:14.5px;line-height:1.6;margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.75 var(--body);margin:0;word-break:keep-all;overflow-wrap:break-word}
 a{color:var(--moss)}
-.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 64px}
-header.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;border-bottom:1px solid var(--line);padding-bottom:14px}
-.logo{font-family:var(--display);font-size:22px;font-weight:700;color:var(--ink);text-decoration:none}
-.top .sub{color:var(--muted);font-size:13px}
-.top .links{margin-left:auto;font-size:13px;display:flex;gap:14px;flex-wrap:wrap}
-h1{font-family:var(--display);font-size:clamp(24px,4vw,32px);margin:22px 0 4px;text-wrap:balance}
-.lead{color:var(--muted);max-width:70ch;margin:0 0 18px}
-.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:22px}
-.sum button{font:inherit;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;cursor:pointer;color:var(--ink)}
-.sum button[aria-pressed="true"]{border-color:var(--moss);box-shadow:inset 0 0 0 1px var(--moss)}
-.sum b{display:block;font-size:24px;font-variant-numeric:tabular-nums;font-weight:600}
-.sum span{font-size:12.5px;color:var(--muted)}
-.sum .need b{color:var(--bad)} .sum .moved b{color:var(--info)}
-.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
-.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
-.seg button{font:inherit;font-size:13px;border:0;background:var(--panel);color:var(--muted);padding:5px 12px;cursor:pointer}
-.seg button+button{border-left:1px solid var(--line)}
-.seg button[aria-pressed="true"]{background:var(--moss);color:var(--panel)}
-.bar input{flex:1;min-width:200px;font:inherit;font-size:14px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
-.count{font-size:12.5px;color:var(--muted);margin-left:auto}
-.tbl{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
-table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:760px}
-th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--panel)}
-tr:last-child td{border-bottom:0}
-td i{font-style:italic}
+.wrap{max-width:820px;margin:0 auto;padding:20px 16px 64px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.logo{font:700 22px var(--display);color:var(--ink);text-decoration:none}
+nav{margin-left:auto;font-size:13px;display:flex;gap:14px;flex-wrap:wrap}
+h1{font:700 clamp(24px,4vw,32px)/1.3 var(--display);margin:24px 0 8px;text-wrap:balance}
+h2{font:700 21px/1.4 var(--display);margin:40px 0 10px}
+h3{font-size:16px;margin:26px 0 8px;scroll-margin-top:12px}
+h3 span{font-weight:500}
+.lead{color:var(--muted);margin:0 0 18px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 18px;margin:14px 0}
+.box ol{margin:0;padding-left:20px}
+.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:2px 16px;font-size:14px}
+.law p{margin:8px 0}
+.law .clause{padding-left:1.3em;text-indent:-1.3em}
+.law .rank{font-weight:600;margin:12px 0 2px 1.3em}
+.law .item{margin:2px 0 2px 2.3em;padding-left:1.2em;text-indent:-1.2em}
+details{margin-top:12px}
+summary{cursor:pointer;color:var(--moss);font-weight:500}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.5;margin-top:10px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td small,li small{display:block;font-size:12px;color:var(--muted)}
 .ko{font-weight:600}
-.arrow{color:var(--muted);text-align:center;width:28px}
-.st{font-size:11.5px;padding:1px 8px;border-radius:999px;white-space:nowrap;font-weight:500;display:inline-block}
-.st.ok{background:var(--ok-bg);color:var(--ok)} .st.warn{background:var(--warn-bg);color:var(--warn)} .st.bad{background:var(--bad-bg);color:var(--bad)} .st.info{background:var(--info-bg);color:var(--info)}
-.how{font-size:12px;color:var(--muted);display:block;margin-top:2px}
-.cands{font-size:12.5px;color:var(--muted);max-width:44ch}
-.cands i{color:var(--ink)}
-.grp{font-family:var(--mono);font-size:11px;color:var(--muted)}
-.note{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;font-size:13px;margin-top:22px;max-width:80ch}
-.note h2{font-size:13px;margin:0 0 6px}
-.note ul,.note ol{margin:0;padding-left:18px}
-.refs li{margin-bottom:6px}
-.refs .use{display:block;font-size:12px;color:var(--muted)}
-.empty{padding:24px;text-align:center;color:var(--muted)}
-button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+.warn{color:var(--warn);font-size:13.5px}
+.refs li{margin-bottom:8px;font-size:14px}
+.built{color:var(--muted);font-size:12.5px;margin-top:32px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
 </style>
-
 <div class="wrap">
-  <header class="top">
+  <header>
     <a class="logo" href="./">Vertapedia</a>
-    <span class="sub">국명 검토</span>
-    <nav class="links">
+    <nav><a href="find.html">분류군</a>
       <a href="https://docs.google.com/spreadsheets/d/1TPAgkLflsX0GjkcQdcRhrYSnJ7bvscmVESK5wyIVfxA/edit">조류 시트 ↗</a>
-      <a href="https://docs.google.com/spreadsheets/d/1YC9IBMxBf1wBsbiXj7umJ6k0HD1eY3GsKCGGTxDlPD4/edit">파충류 시트 ↗</a>
-    </nav>
+      <a href="https://docs.google.com/spreadsheets/d/1YC9IBMxBf1wBsbiXj7umJ6k0HD1eY3GsKCGGTxDlPD4/edit">파충류 시트 ↗</a></nav>
   </header>
 
-  <h1>국명·학명 근거 대조</h1>
-  <p class="lead">학명은 조류는 시트(eBird·AviList), 파충류는 The Reptile Database를 따릅니다. 국명은 조류는 한국조류목록 2025, 파충류는 한국양서파충류학회 파충류 종 목록 2025를 가장 먼저 쓰고, 그다음 시트 합의본을 씁니다. 근거 자료와 시트가 어긋나는 항목을 모았습니다. 고칠 내용은 시트에 적으면 다음 갱신 때 반영됩니다. <span id="built"></span></p>
+  <h1>국명 부여 기준</h1>
+  <p class="lead">Vertapedia가 국명을 고르고 새로 짓는 기준입니다. 편집진이 제안한 이름은 공식 국명이 아니라 이 사이트의 편집상 명칭입니다.</p>
 
-  <div class="sum" id="sum"></div>
+  <div class="box">
+    <strong>이 사이트에서 이름을 고르는 순서</strong>
+    <ol>
+      <li>조류는 한국조류목록 2025, 파충류는 한국양서파충류학회 파충류 종 목록(2025)</li>
+      <li>편집진 시트의 합의본</li>
+      <li>편집진 제안 가운데 의견이 일치한 이름</li>
+      <li>합의되지 않은 이름은 싣지 않고 영명으로 적습니다.</li>
+    </ol>
+    학명과 분류 체계는 조류는 AviList, 파충류는 The Reptile Database를 따릅니다. 고칠 내용을 시트에 적으면 다음 갱신 때 사이트 전체와 번역문에 반영됩니다.
+  </div>
 
-  <div class="bar">
-    <div class="seg" id="grp" role="group" aria-label="동물군">
-      <button aria-pressed="true" data-v="">전체</button><button aria-pressed="false" data-v="AVES">조류</button><button aria-pressed="false" data-v="REPTILIA">파충류</button>
-    </div>
-    <input id="q" type="search" placeholder="학명·국명 검색">
-    <span class="count" id="count"></span>
+  <h2>생물 국명의 채택 및 제정에 관한 편집 지침</h2>
+  <nav class="box toc" aria-label="조 목차">{{TOC}}</nav>
+  <div class="law">
+{{GUIDELINE}}
   </div>
-  <div class="tbl"><table>
-    <thead id="thead"></thead>
-    <tbody id="tbody"></tbody>
-  </table></div>
 
-  <div class="note">
-    <h2>시트에서 확인할 것</h2>
-    <ul id="notes"></ul>
-  </div>
-  <div class="note refs">
-    <h2>참고문헌</h2>
-    <ol id="refs"></ol>
-  </div>
+  <h2>분류 변동이 있는 종</h2>
+  <p class="lead">국내 목록·시트의 학명과 사이트 학명이 달라진 종만 적습니다(지침 제2조 제3항·제4항). 학명이 같은 종은 적지 않습니다.</p>
+  <details>
+    <summary>{{NROWS}}종 펼치기</summary>
+    <div class="scroll"><table>
+      <thead><tr><th>군</th><th>목록의 학명</th><th>국명</th><th>사이트 학명</th><th>변동</th></tr></thead>
+      <tbody>{{ROWS}}</tbody>
+    </table></div>
+  </details>
+
+  <h2>번역문에 반영된 국명 변경</h2>
+  <p class="lead">번역 뒤 국명이 바뀌면 번역문의 이름도 현재 이름으로 자동으로 고칩니다(지침 제7조 제3항).</p>
+  <details>
+    <summary>변경 내역 펼치기</summary>
+    <div class="scroll">{{CHANGES}}</div>
+  </details>
+
+  <h2>참고문헌</h2>
+  <ol class="refs">{{REFS}}</ol>
+  <p class="built">자료 기준: {{BUILT}}</p>
 </div>
-
-<script>
-const D=/*DATA*/null;
-const esc=t=>String(t??'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
-const it=s=>s?`<i>${esc(s)}</i>`:'<span class="grp">—</span>';
-const G={AVES:'조류',REPTILIA:'파충류'};
-const views={
-  kos:{label:'한국조류목록 2025 반영',cls:'',kind:'kos',rows:()=>[...D.kos.unlinked.map(r=>({...r,k:'unlinked',group:'AVES'})),...D.kos.used.map(r=>({...r,k:'used',group:'AVES'}))]},
-  kshr:{label:'한국양서파충류학회 2025 반영',cls:'',kind:'kshr',rows:()=>D.kshr.map(r=>({...r,group:'REPTILIA'}))},
-  rdb:{label:'Reptile Database 대조',cls:'need',kind:'rdb',rows:()=>[...D.rdb.merged.map(r=>({...r,k:'merged'})),...D.rdb.dropped.map(r=>({...r,k:'dropped'})),...D.rdb.renamed.map(r=>({...r,k:'renamed'}))].map(r=>({...r,group:'REPTILIA'}))},
-};
-let view='kos',grp='',q='';
-try{view=localStorage.getItem('vp-review-view')||view}catch(e){}
-if(!views[view])view='kos';
-
-function sum(){
-  document.getElementById('sum').innerHTML=Object.entries(views).map(([k,v])=>
-    `<button class="${v.cls}" data-k="${k}" aria-pressed="${k===view}"><b>${v.rows().length}</b><span>${v.label}</span></button>`).join('');
-  document.querySelectorAll('#sum button').forEach(b=>b.onclick=()=>{view=b.dataset.k;try{localStorage.setItem('vp-review-view',view)}catch(e){}render()});
-}
-function rowReview(r){
-  const st=r.result==='자동 연결'?'<span class="st ok">자동 연결</span>':r.result==='후보 여러 개'?'<span class="st warn">후보 여러 개</span>':'<span class="st bad">후보 없음</span>';
-  const right=r.sheet_sci?`${it(r.sheet_sci)}<span class="how">${esc(r.sheet_name||'')}${r.sheet_tab?' · 탭 '+esc(r.sheet_tab.trim()):''}</span>`
-    :`<div class="cands">${r.candidates.length?'후보: '+r.candidates.map(c=>`<i>${esc(c)}</i>`).join(', '):'시트에서 찾지 못함'}</div>`;
-  return `<tr><td><span class="grp">${G[r.group]}</span></td><td>${it(r.nibr_sci)}<span class="how">${esc(r.family||'')}</span></td><td class="ko">${esc(r.ko)}</td><td class="arrow">→</td><td>${right}</td><td>${st}${r.how?`<span class="how">${esc(r.how)}</span>`:''}</td></tr>`;
-}
-function rowConflict(c){
-  const moved=c.moved_to.length===1;
-  return `<tr><td><span class="grp">${G[c.group]}</span></td><td>${it(c.sci)}<span class="how">${esc(c.rank)}</span></td><td class="ko">${esc(c.official)}</td><td class="arrow">↔</td><td>${esc(c.sheet).replace(/\n/g,' ')}</td><td>${moved?`<span class="st info">국명 이동</span><span class="how">→ <i>${esc(c.moved_to[0])}</i></span>`:c.moved_to.length?`<span class="st warn">여러 곳에 쓰임</span><span class="how">${c.moved_to.map(esc).join(', ')}</span>`:'<span class="st warn">이름 다름</span><span class="how">목록 국명 사용</span>'}</td></tr>`;
-}
-function rowKos(r){
-  const st=r.k==='unlinked'?'<span class="st bad">시트에서 못 찾음</span>':'<span class="st ok">빈 국명 채움</span>';
-  return `<tr><td><span class="grp">조류</span></td><td>${it(r.kos_sci)}<span class="how">범주 ${esc(r.category||'')}${r.held?' · 보류종':''}</span></td><td class="ko">${esc(r.ko)}</td><td class="arrow">→</td><td>${r.sheet_sci?it(r.sheet_sci)+`<span class="how">${esc((r.sheet||'').split('\n').join(' '))||'시트 이름 없음'} · ${esc(r.how)}</span>`:`<div class="cands">${r.candidates.length?'후보: '+r.candidates.map(c=>`<i>${esc(c)}</i>`).join(', '):'후보 없음'}</div>`}</td><td>${st}</td></tr>`;
-}
-function rowKshr(r){
-  return `<tr><td><span class="grp">파충류</span></td><td>${it(r.kshr_sci)}</td><td class="ko">${esc(r.ko)}</td><td class="arrow">→</td><td>${r.sheet_sci?it(r.sheet_sci):'<span class="st bad">못 찾음</span>'}</td><td>${r.sheet_sci&&r.sheet_sci!==r.kshr_sci?'<span class="st info">학명 다름</span>':'<span class="st ok">일치</span>'}<span class="how">${esc(r.how||'')}</span></td></tr>`;
-}
-function rowRdb(r){
-  const st={merged:'<span class="st info">다른 종에 통합</span>',dropped:'<span class="st warn">목록에 없음</span>',renamed:'<span class="st ok">학명 변경</span>'}[r.k];
-  const left=r.k==='dropped'?r.sci:r.old;
-  const right=r.k==='renamed'?it(r.new):r.k==='merged'?it(r.into)+(r.ssp?`<span class="how">아종 ${esc(r.ssp)}</span>`:''):'<span class="how">이명 처리 추정</span>';
-  return `<tr><td><span class="grp">파충류</span></td><td>${it(left)}<span class="how">${esc(r.family||'')}</span></td><td class="ko">${esc(r.name||'')}</td><td class="arrow">→</td><td>${right}</td><td>${st}${r.how?`<span class="how">${esc(r.how)}</span>`:''}</td></tr>`;
-}
-const HEAD={kshr:'<tr><th>군</th><th>학회 목록 학명</th><th>국명</th><th></th><th>사이트 학명</th><th>처리</th></tr>',
-  rdb:'<tr><th>군</th><th>시트 학명</th><th>시트 국명</th><th></th><th>Reptile Database</th><th>처리</th></tr>',
-  kos:'<tr><th>군</th><th>한국조류목록 2025 학명</th><th>2025 국명</th><th></th><th>시트 학명</th><th>처리</th></tr>'};
-const ROW={kos:rowKos,kshr:rowKshr,rdb:rowRdb};
-function render(){
-  sum();
-  const kind=views[view].kind;
-  document.getElementById('thead').innerHTML=HEAD[kind];
-  const qq=q.trim().toLowerCase();
-  const rows=views[view].rows().filter(r=>(!grp||r.group===grp)&&(!qq||JSON.stringify(r).toLowerCase().includes(qq)));
-  document.getElementById('tbody').innerHTML=rows.length?rows.map(ROW[kind]).join(''):'<tr><td colspan="6" class="empty">조건에 맞는 항목이 없습니다.</td></tr>';
-  document.getElementById('count').textContent=`${rows.length}건`;
-}
-document.querySelectorAll('#grp button').forEach(b=>b.onclick=()=>{grp=b.dataset.v;document.querySelectorAll('#grp button').forEach(o=>o.setAttribute('aria-pressed',o===b));render()});
-document.getElementById('q').oninput=e=>{q=e.target.value;render()};
-document.getElementById('notes').innerHTML=D.notes.map(n=>`<li>${n}</li>`).join('');
-document.getElementById('refs').innerHTML=D.refs.map(r=>`<li>${esc(r.text)}${r.url?` <a href="${esc(r.url)}">↗</a>`:''}<span class="use">${esc(r.use)}</span></li>`).join('');
-document.getElementById('built').textContent=`(자료 기준: ${D.built})`;
-render();
-</script>
+</html>
