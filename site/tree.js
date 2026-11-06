@@ -13,7 +13,10 @@
   var GROUP = { A: "조류", R: "파충류" };
   var OPEN_FIRST = { Squamata: 1 };  // 처음부터 펴 두는 목(유린목)
   var isLeaf = function (n) { return !Array.isArray(n[3]); };
-  var href = function (page, sci) { return page + ".html#" + encodeURIComponent(sci.replace(/ /g, "_")); };
+  var href = function (page, sci) {
+    var s = encodeURIComponent(sci.replace(/ /g, "_"));
+    return page === "sp" ? "sp/" + s + ".html" : page + ".html#" + s;
+  };
 
   function count(n) {
     if (isLeaf(n)) return 1;

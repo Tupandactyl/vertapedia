@@ -63,7 +63,10 @@
     });
     return hits.slice(0, 5).map(function (h) { return h[1].r; });
   }
-  var href = function (r) { return (r[1] === "f" ? "fam.html#" : "sp.html#") + encodeURIComponent(r[2].replace(/ /g, "_")); };
+  var href = function (r) {
+    var s = encodeURIComponent(r[2].replace(/ /g, "_"));
+    return r[1] === "f" ? "fam.html#" + s : "sp/" + s + ".html";
+  };
 
   document.addEventListener("DOMContentLoaded", function () {
     var form = document.querySelector("form.hs"), input = form && form.querySelector("input");

@@ -155,7 +155,7 @@ function render(){
     const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic,alias]=r;
     const hitAlias=(alias||[]).filter(x=>key(x[1]).includes(k)).sort((a,b)=>(a[0]==='국내 유통명'?0:1)-(b[0]==='국내 유통명'?0:1));
     const label=name?`<span class="nm">${esc(name)}</span>`:`<span class="nm en">${esc(en||sci)}</span>`;
-    const title=rk==='s'?`<a class="go" href="sp.html#${esc(sci.replace(/ /g,'_'))}">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:rk==='f'?`<a class="go" href="fam.html#${esc(sci)}">${label}</a>`:label;
+    const title=rk==='s'?`<a class="go" href="sp/${esc(sci.replace(/ /g,'_'))}.html">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:rk==='f'?`<a class="go" href="fam.html#${esc(sci)}">${label}</a>`:label;
     return `<li><div>${title}</div><span class="st ${st}">${ST[st]||st}</span>
       <div class="sci"><span class="rk">${RK[rk]}</span>${esc(sci)}${name&&en?` · <span style="font-style:normal">${esc(en)}</span>`:''}</div>
       ${hitAlias.length?`<div class="meta">${hitAlias.map(x=>`${x[0]}: <b>${esc(x[1])}</b>`).join(' · ')}</div>`:''}

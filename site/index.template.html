@@ -19,7 +19,7 @@ a{color:var(--moss)} p{color:var(--muted)}
 // 처음 들어오면 국명과 사진이 있는 종 가운데 하나를 무작위로 연다.
 fetch('data/random.json').then(r=>r.json()).then(pool=>{
   const sci=pool[Math.floor(Math.random()*pool.length)];
-  location.replace('sp.html#'+encodeURIComponent(sci.replace(/ /g,'_')));
+  location.replace('sp/'+encodeURIComponent(sci.replace(/ /g,'_'))+'.html');
 }).catch(()=>{location.replace('find.html')});
 </script>
 </body>

@@ -5,13 +5,16 @@
 - site/data/random.json    : 첫 화면에서 고를 종 (국명과 사진이 있는 종)
 - site/sp/<학명>.json      : 종 문서 (시트 기준 이전·다음 종 포함)
 - site/fam/<학명>.json     : 과 문서 — 명칭 근거와 포함 속·종 목록
-- site/{index,find,sp,fam}.html
+- site/sp/<학명>.html      : 종 주소. 공유 미리보기(Open Graph) 태그를 담고 본문은 sp.css·sp.js 로 그린다
+- site/{index,find,sp,fam}.html (sp.html 은 옛 주소 sp.html#학명 을 새 주소로 넘긴다)
 """
+import html
 import json
 import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 from ko_link import Linker
 import distrule
@@ -19,6 +22,7 @@ import distrule
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SITE = ROOT / "site"
+SITE_URL = "https://tupandactyl.github.io/vertapedia/"
 
 
 def load(name, default=None):
@@ -209,6 +213,40 @@ dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 fname = lambda sci: sci.replace(" ", "_") + ".json"
 
 
+def photo_credit(p):
+    """미리보기 설명 줄에 넣을 사진 저작자와 라이선스."""
+    a = p.get("attribution") or ""
+    m = re.match(r"\(c\)\s*(.*?),\s*(?:some|all|no) rights", a, re.I) or re.match(r"(.*?),?\s*no rights reserved", a, re.I)
+    who = m.group(1) if m else a
+    lic = (p.get("license") or "").upper().replace("CC-", "CC ")
+    return f"{who} ({lic})" if who and lic else who or lic
+
+
+def share_tags(rec):
+    """채팅앱 등이 링크 미리보기로 읽는 <title>과 Open Graph 태그."""
+    e = lambda s: html.escape(str(s), quote=True)
+    title = " ".join(filter(None, [rec["name"] or rec["en"], rec["sci"]]))
+    fam = rec["family"] or {}
+    desc = [rec["en"] if rec["name"] else None, "조류" if rec["group"] == "AVES" else "파충류", fam.get("name") or fam.get("sci")]
+    ph = (rec["photos"] or [None])[0]
+    if ph:
+        desc.append("사진: " + photo_credit(ph))
+    desc = " · ".join(filter(None, desc))
+    url = SITE_URL + "sp/" + quote(rec["sci"].replace(" ", "_")) + ".html"
+    tags = [f"<title>{e(rec['name'] or rec['en'] or rec['sci'])} · Vertapedia</title>",
+            f'<meta name="description" content="{e(desc)}">',
+            '<meta property="og:site_name" content="Vertapedia">',
+            '<meta property="og:type" content="article">',
+            f'<meta property="og:url" content="{e(url)}">',
+            f'<meta property="og:title" content="{e(title)}">',
+            f'<meta property="og:description" content="{e(desc)}">']
+    if ph:
+        tags += [f'<meta property="og:image" content="{e(ph["url"].replace("{size}", "large"))}">',
+                 f'<meta property="og:image:alt" content="{e(title)}">',
+                 '<meta name="twitter:card" content="summary_large_image">']
+    return "\n".join(tags)
+
+
 def short(t):
     return dict(sci=t["sci"], name=t.get("name"), status=t["status"]) if t else None
 
@@ -284,6 +322,7 @@ pool = [t["sci"] for t in species if t.get("name") and has_pic(t["sci"])]
 shutil.rmtree(SITE / "sp", ignore_errors=True)
 (SITE / "sp").mkdir(parents=True)
 seq = {g: [t for t in species if t["group"] == g] for g in G}
+shares = {}
 for g, lst in seq.items():
     for i, t in enumerate(lst):
         o, so, sup = lineage(t)
@@ -312,6 +351,7 @@ for g, lst in seq.items():
         )
         rec["wiki_ko"] = wiki_ko_of(t, rec["wiki"])
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")
+        shares[t["sci"]] = share_tags(rec)
 
 # --- 과 문서: 명칭 근거 + 포함 속·종 ---
 shutil.rmtree(SITE / "fam", ignore_errors=True)
@@ -360,8 +400,28 @@ stats = {g: dict(total=len(seq[g]), named=sum(1 for t in seq[g] if t.get("name")
                  photos=sum(1 for t in seq[g] if has_pic(t["sci"])),
                  translated=sum(1 for t in seq[g] if (DATA / "wiki_ko" / fname(t["sci"])).exists())) for g in G}
 meta = dict(stats=stats, built=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M KST"))
-for name in ("index", "find", "sp", "fam"):
+for name in ("index", "find", "fam"):
     tpl = (SITE / f"{name}.template.html").read_text(encoding="utf-8")
     (SITE / f"{name}.html").write_text(tpl.replace("/*META*/null", json.dumps(meta, ensure_ascii=False)), encoding="utf-8")
+
+# 종 문서: 2만 개가 넘으니 CSS와 JS는 한 벌만 두고 종별 HTML은 머리말과 뼈대만 담는다
+tpl = (SITE / "sp.template.html").read_text(encoding="utf-8").replace("/*META*/null", json.dumps(meta, ensure_ascii=False))
+css_at, css_end = tpl.index("<style>"), tpl.index("</style>")
+(SITE / "sp.css").write_text(tpl[css_at + len("<style>"):css_end], encoding="utf-8")
+js_at, js_end = tpl.rindex("<script>"), tpl.rindex("</script>")
+(SITE / "sp.js").write_text(tpl[js_at + len("<script>"):js_end], encoding="utf-8")
+shell = (tpl[:css_at] + '<link rel="stylesheet" href="sp.css">' + tpl[css_end + len("</style>"):js_at]
+         + '<script src="sp.js"></script>' + tpl[js_end + len("</script>"):])
+shell = shell.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="../">', 1)
+for sci, tags in shares.items():
+    (SITE / "sp" / (sci.replace(" ", "_") + ".html")).write_text(shell.replace("<title>Vertapedia</title>", tags, 1), encoding="utf-8")
+# 옛 주소 sp.html#학명
+(SITE / "sp.html").write_text("""<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<title>Vertapedia</title>
+<script>const s=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');location.replace(s?'sp/'+encodeURIComponent(s)+'.html':'find.html')</script>
+</html>
+""", encoding="utf-8")
 print("검색 목록", len(rows), "· 종 문서", len(species), "· 과 문서", sum(len(v) for v in fam_seq.values()),
       "· 첫 화면 후보", len(pool))

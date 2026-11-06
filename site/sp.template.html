@@ -181,8 +181,9 @@ const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','
 // 본문 속 생물 이름: [국명, 원래 이름, 계급(s 종·S 학명·g 속·f 과·o 목), 학명, 처음?].
 // 국명은 문장 속 낱말로 둬야 번역기가 명사로 보고 조사를 붙인다. 괄호 속 원래 이름과 학명만 translate="no"
 const NM_PAGE={s:'sp',S:'sp',f:'fam'};
+const pageUrl=(page,sci)=>{const s=encodeURIComponent(sci.replace(/ /g,'_'));return page==='sp'?`sp/${s}.html`:`${page}.html#${s}`};
 function nmHtml(x,self){
-  const [ko,orig,rk,sci,first]=x, page=NM_PAGE[rk], go=page&&sci!==self?`${page}.html#${encodeURIComponent(sci.replace(/ /g,'_'))}`:null;
+  const [ko,orig,rk,sci,first]=x, page=NM_PAGE[rk], go=page&&sci!==self?pageUrl(page,sci):null;
   const it=rk==='S'||rk==='g', o=it?`<i>${esc(orig)}</i>`:esc(orig);
   if(rk==='S')return `<span class="nm notranslate" translate="no" title="${esc(ko)}">${go?`<a href="${go}">${o}</a>`:o}</span>`;
   const k=go?`<a href="${go}">${esc(ko)}</a>`:`<b>${esc(ko)}</b>`;
@@ -208,7 +209,7 @@ function paraEn(p,self){
   if(typeof p==='string')return esc(p);
   return p.map(x=>{
     if(typeof x==='string')return esc(x);
-    const page=NM_PAGE[x[2]],go=page&&x[3]!==self?`${page}.html#${encodeURIComponent(x[3].replace(/ /g,'_'))}`:null;
+    const page=NM_PAGE[x[2]],go=page&&x[3]!==self?pageUrl(page,x[3]):null;
     return esc(x[5]||'')+(go?`<a href="${go}" title="${esc(x[0])}">${esc(x[1])}</a>`:esc(x[1]));
   }).join('');
 }
@@ -239,7 +240,7 @@ function memo(t){
   return esc(t);
 }
 const nm=x=>x&&x.name?`${esc(x.name)} <i>${esc(x.sci)}</i>`:x?`<i>${esc(x.sci)}</i>`:'';
-const link=x=>`sp.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
+const link=x=>pageUrl('sp',x.sci);
 function pn(d){
   const side=(x,cls,label)=>x?`<a class="${cls}" href="${link(x)}" ${cls==='pv'?'rel="prev"':'rel="next"'}><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
   return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 종')}<span class="pos">${d.pos[0].toLocaleString()} / ${d.pos[1].toLocaleString()}</span>${side(d.next,'nx','다음 종 ›')}</nav>`;
@@ -504,19 +505,25 @@ function render(d){
   stickTitle(d);
 }
 function load(){
-  const sci=decodeURIComponent(location.hash.slice(1)).replace(/ /g,'_');
-  if(!sci){document.getElementById('main').innerHTML='<p class="empty">종을 고르지 않았습니다. <a href="find.html">이름 찾기</a>에서 골라 주세요.</p>';return}
+  const sci=decodeURIComponent(location.pathname.split('/').pop().replace(/\.html$/,''));
   fetch(`sp/${encodeURIComponent(sci)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
     .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci.replace(/_/g,' '))}” 종을 찾지 못했습니다. <a href="find.html">이름 찾기</a>로 돌아가기</p>`});
   scrollTo(0,0);
 }
 setPanel(OPEN);
-addEventListener('hashchange',load);load();
+// 종 사이를 오갈 때는 페이지를 새로 읽지 않고 주소만 바꾼다
+const go=url=>{history.pushState(null,'',url);load()};
+addEventListener('popstate',load);load();
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href]');
+  if(!a||e.defaultPrevented||e.button||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||a.target||a.origin!==location.origin||!/\/sp\/[^/]+\.html$/.test(a.pathname))return;
+  e.preventDefault();go(a.href);
+});
 // ← → 로 시트 순서의 이전·다음 종
 addEventListener('keydown',e=>{
   if(!CUR||e.altKey||e.ctrlKey||e.metaKey||/input|textarea|select/i.test(e.target.tagName))return;
   const x=e.key==='ArrowLeft'?CUR.prev:e.key==='ArrowRight'?CUR.next:null;
-  if(x){location.hash=x.sci.replace(/ /g,'_')}
+  if(x)go(link(x));
 });
 </script>
 </body>

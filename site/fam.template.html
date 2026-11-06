@@ -109,7 +109,7 @@ const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
 const nm=x=>x&&x.name?`${esc(x.name)} ${esc(x.sci)}`:x?esc(x.sci):'';
-const link=(page,x)=>`${page}.html#${encodeURIComponent(x.sci.replace(/ /g,'_'))}`;
+const link=(page,x)=>{const s=encodeURIComponent(x.sci.replace(/ /g,'_'));return page==='sp'?`sp/${s}.html`:`${page}.html#${s}`};
 function pn(d){
   const side=(x,cls,label)=>x?`<a class="${cls}" href="${link('fam',x)}"><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
   return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 과')}<span class="pos">${d.pos[0]} / ${d.pos[1]}</span>${side(d.next,'nx','다음 과 ›')}</nav>`;

@@ -34,13 +34,13 @@ GitHub Actions(`.github/workflows/build.yml`)가 6시간마다 시트를 받아 
 ## 문서
 
 - 첫 화면(`index.html`)은 국명과 사진이 있는 종 가운데 하나를 무작위로 연다.
-- 종 문서 `sp.html#학명`, 과 문서 `fam.html#과학명`(명칭 근거 + 포함 속·종). 둘 다 시트 순서로 이전·다음 이동(← → 키).
+- 종 문서 `sp/학명.html`(링크를 공유하면 종 이름과 사진이 미리보기로 뜬다. 옛 주소 `sp.html#학명`은 새 주소로 넘어간다), 과 문서 `fam.html#과학명`(명칭 근거 + 포함 속·종). 둘 다 시트 순서로 이전·다음 이동(← → 키).
 - 이름 찾기 `find.html`: 검색어가 없으면 분류군(목 > 아목 > 과 > 속 > 종)을 접고 펴서 본다. 종·과 문서 왼쪽의 분류군 창은 기본으로 접혀 있다.
 - 파충류 유린목: 뱀은 뱀아목(Serpentes) 아래, 도마뱀 과들은 유린목 바로 아래에 둔다. 도마뱀아목은 측계통군이라 쓰지 않는다(`data/overrides.json`).
 
 ## 사진·설명
 
-- 종 페이지(`sp.html#학명`)는 iNaturalist 연구등급 관찰 사진 가운데 재사용이 허락된 것(CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)만 싣고 촬영자를 밝힌다.
+- 종 페이지(`sp/학명.html`)는 iNaturalist 연구등급 관찰 사진 가운데 재사용이 허락된 것(CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)만 싣고 촬영자를 밝힌다.
 - 설명은 지금은 영문 위키백과 요약을 그대로 싣는다(CC BY-SA). 한국어 번역은 비용 문제로 미뤄 두었다.
 - eBird·Macaulay Library·Birds of the World는 링크로만 잇는다(재게시 불가).
 - `.github/workflows/media.yml`: 매주 국명이 있는 종의 사진·본문을 갱신하고, 매일 국명이 없는 종을 2,500종씩 채워 `data/media/`에 커밋한다. Actions 탭에서 범위(`named`/`unnamed`/`korean`/`all`)를 골라 바로 돌릴 수도 있다.
