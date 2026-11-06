@@ -78,6 +78,13 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 .nophoto{padding:28px;border:1px dashed var(--line);border-radius:8px;text-align:center;color:var(--muted);font-size:13.5px}
 .galnote{font-size:12px;color:var(--muted);margin:8px 0 0}
 .prose{max-width:66ch}
+.prose[data-lang=ko] .l-en,.prose[data-lang=en] .l-ko{display:none}
+.langtog{display:inline-flex;vertical-align:middle;margin-left:10px;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-family:var(--body,inherit)}
+.langtog button{font:inherit;font-size:12px;line-height:1.5;min-width:30px;padding:1px 8px;background:none;border:0;color:var(--muted);cursor:pointer}
+.langtog button:hover{color:var(--ink)}.langtog button[aria-pressed=true]{background:var(--moss);color:var(--panel);font-weight:700}
+.kn{font-size:10.5px;color:var(--moss);margin-left:2px;cursor:help;font-weight:700}
+.konotes{margin:18px 0 12px;padding-top:12px;border-top:1px solid var(--line);font-size:13px;line-height:1.6}.konotes h3{font-size:14px;margin:0 0 6px}.konotes ol{margin:0;padding-left:20px}.konotes li{margin:0 0 5px}
+.kt{font-size:11px;background:var(--warn-bg);border-radius:4px;padding:0 5px;white-space:nowrap}.kt.fix{background:color-mix(in srgb,var(--moss) 20%,transparent)}
 .prose h2,.card h3{font-family:var(--display);font-size:21px;margin:0 0 8px}
 .prose p{margin:0 0 12px}
 .notice{font-size:12.5px;background:var(--warn-bg);padding:8px 12px;border-radius:6px;margin-bottom:14px}
@@ -182,6 +189,38 @@ function nmHtml(x,self){
   return `<span class="nm" title="${esc(orig)}">${k}${first?`<span class="notranslate" translate="no"> (<span lang="en">${o}</span>)</span>`:''}</span>`;
 }
 const para=(p,self)=>typeof p==='string'?esc(p):p.map(x=>typeof x==='string'?esc(x):nmHtml(x,self)).join('');
+// 설명 언어: 번역(ko)·원문(en). 고른 값은 화면 모드처럼 이 브라우저에 기억한다.
+let DESC_LANG='ko';
+try{if(localStorage.getItem('vp-desc-lang')==='en')DESC_LANG='en'}catch(e){}
+document.addEventListener('click',e=>{
+  const b=e.target.closest&&e.target.closest('.langtog button');
+  if(!b)return;
+  DESC_LANG=b.dataset.l;
+  try{localStorage.setItem('vp-desc-lang',DESC_LANG)}catch(err){}
+  const sec=b.closest('.prose');
+  sec.dataset.lang=DESC_LANG;
+  sec.querySelectorAll('.langtog button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+});
+const koText=s=>esc(s).replace(/\*([^*]+)\*/g,'<i>$1</i>');
+const paraKo=(p,self)=>typeof p==='string'?koText(p):p.map(x=>typeof x==='string'?koText(x):nmHtml(x,self)).join('');
+// 원문 보기: 끼워 넣은 국명 없이 위키백과 문장 그대로. 이름 링크만 남긴다.
+function paraEn(p,self){
+  if(typeof p==='string')return esc(p);
+  return p.map(x=>{
+    if(typeof x==='string')return esc(x);
+    const page=NM_PAGE[x[2]],go=page&&x[3]!==self?`${page}.html#${encodeURIComponent(x[3].replace(/ /g,'_'))}`:null;
+    return esc(x[5]||'')+(go?`<a href="${go}" title="${esc(x[0])}">${esc(x[1])}</a>`:esc(x[1]));
+  }).join('');
+}
+function descKo(d){
+  const w=d.wiki,k=d.wiki_ko,src=`<a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>`;
+  const body=k.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)}>${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(q=>`<p>${paraKo(q.p,d.sci)}${q.n.map(i=>`<sup class="kn" title="${esc(k.notes[i-1].text.replace(/\*/g,''))}">${i}</sup>`).join('')}</p>`).join('')).join('');
+  const notes=k.notes.length?`<div class="konotes"><h3>번역 주석</h3><ol>${k.notes.map(n=>`<li><span class="kt${n.type==='수정'?' fix':''}">${esc(n.type)}</span> ${koText(n.text)}</li>`).join('')}</ol></div>`:'';
+  const skip=k.skipped.length?`<p class="src">분량이 긴 문서라 핵심 절만 옮겼습니다. 옮기지 않은 절: ${k.skipped.map(esc).join(', ')}. <b>A</b> 단추를 누르면 볼 수 있습니다.</p>`:'';
+  return `<div class="l-ko"><div class="notice">AI(Claude)가 영문 위키백과를 옮긴 번역입니다. 오류가 있을 수 있으니 중요한 내용은 위의 <b>A</b> 단추로 원문과 비교해 주세요. 낡은 정보를 고친 곳과 확인이 필요한 곳은 번호를 달아 아래 주석에 적었습니다.</div>${body}${skip}${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
+  <div class="l-en"><div class="notice">영문 위키백과 본문입니다(참고문헌·바깥 링크 절 제외).</div>${w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${paraEn(p,d.sci)}</p>`).join('')).join('')}<p class="src">출처: ${src}${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>`;
+}
+const langTog=()=>`<span class="langtog" role="group" aria-label="설명 언어"><button type="button" data-l="ko" aria-pressed="${DESC_LANG==='ko'}" title="한국어 번역 보기" aria-label="한국어 번역 보기">가</button><button type="button" data-l="en" aria-pressed="${DESC_LANG==='en'}" title="영어 원문 보기" aria-label="영어 원문 보기">A</button></span>`;
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
 const IUCN={EX:'절멸',EW:'야생절멸',CR:'위급',EN:'위기',VU:'취약',NT:'준위협',LC:'관심대상',DD:'정보부족',NE:'미평가'};
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
@@ -424,7 +463,7 @@ function render(d){
   const w=d.wiki;
   const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${para(p,d.sci)}</p>`).join('')).join('')
     :w&&w.extract?`<p lang="en">${esc(w.extract)}</p>`:'';
-  const desc=body?`${w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:''}<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).'+(w.ko_linked?' 생물 이름은 버타피디아 국명으로 바꿨고, 처음 나올 때 원래 이름을 괄호에 함께 적었습니다. 이름을 누르면 해당 문서로 갑니다.':''):'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
+  const desc=d.wiki_ko&&w&&w.sections?descKo(d):body?`${w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:''}<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).'+(w.ko_linked?' 생물 이름은 버타피디아 국명으로 바꿨고, 처음 나올 때 원래 이름을 괄호에 함께 적었습니다. 이름을 누르면 해당 문서로 갑니다.':''):'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
     :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
@@ -449,7 +488,7 @@ function render(d){
     <div class="chips">${chips.join('')}</div>
     ${gal}
     <div class="cols">
-      <section class="prose"><h2>설명</h2>${desc}</section>
+      <section class="prose"${d.wiki_ko?` data-lang="${DESC_LANG}"`:''}><h2>설명${d.wiki_ko?langTog():''}</h2>${desc}</section>
       <div class="card namecard"><h3>국명</h3>
         <div class="big">${d.name?esc(d.name):'—'}</div>
         <span class="st ${d.status}">${ST[d.status]||d.status}</span>

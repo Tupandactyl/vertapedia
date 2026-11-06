@@ -107,12 +107,14 @@ class Linker:
                 i = j  # 국명 없는 종이거나 더 긴 다른 이름의 일부 → 영어 그대로
                 continue
             a, b = toks[i].start(), toks[j - 1].end()
-            before = text[pos:a]
+            before, art = text[pos:a], ""
             if rk != "S":  # 국명 앞 관사(the·a·an)는 뺀다 — 남겨 두면 번역기가 "the ○○"를 "그만큼" 따위로 옮긴다
-                before = THE.sub("", before)
+                trimmed = THE.sub("", before)
+                before, art = trimmed, before[len(trimmed):]
             if before:
                 out.append(before)
-            out.append([ko, text[a:b], rk, sci, 0 if rk == "S" or sci in seen else 1])
+            # 뺀 관사는 여섯째 칸에 남겨 원문 보기에서 되살린다
+            out.append([ko, text[a:b], rk, sci, 0 if rk == "S" or sci in seen else 1] + ([art] if art else []))
             if rk != "S":
                 seen.add(sci)
             pos, i = b, j

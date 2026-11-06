@@ -8,6 +8,7 @@
 - site/{index,find,sp,fam}.html
 """
 import json
+import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -156,6 +157,54 @@ def wiki_of(t, m):
     if w and len(w.get("title", "").split()) == 1:
         w = dict(w, genus_doc=True)
     return w
+
+
+def wiki_ko_of(t, wiki):
+    """data/wiki_ko 의 한국어 번역 → 종 문서용. 공개 주석만 싣고 번호를 매긴다.
+    본문 속 국명은 원문 링크(ko_link)로 찾은 이름만, 문서에서 처음 나올 때 링크한다."""
+    p = DATA / "wiki_ko" / (t["sci"].replace(" ", "_") + ".json")
+    if not p.exists():
+        return None
+    k = json.loads(p.read_text(encoding="utf-8"))
+    names = {}
+    for s in (wiki or {}).get("sections") or []:
+        for para in s["paras"]:
+            for x in [] if isinstance(para, str) else para:
+                if isinstance(x, list) and x[2] in ("s", "S", "f"):
+                    names.setdefault(x[0], ("s" if x[2] == "S" else x[2], x[3]))
+    if t.get("name"):
+        names[t["name"]] = ("s", t["sci"])
+    words = sorted(names, key=len, reverse=True)
+    # 이름 뒤에는 한글이 아니거나 조사만 오게 한다('매'가 '매우'에, '황새'가 '황새과'에 걸리지 않게)
+    josa = r"(?:은|는|이|가|을|를|의|에|와|과|도|로|만|으로|에서|에게|보다|처럼|까지|부터|이다|이며|이고|였다|라고)?(?![가-힣])"
+    pat = re.compile(r"(?<![가-힣])(" + "|".join(map(re.escape, words)) + r")(?=" + josa + ")") if words else None
+    seen = set()
+
+    def link(text):
+        out, pos = [], 0
+        for m in pat.finditer(text) if pat else []:
+            if m.group(1) in seen:
+                continue
+            seen.add(m.group(1))
+            if m.start() > pos:
+                out.append(text[pos:m.start()])
+            rk, sci = names[m.group(1)]
+            out.append([m.group(1), m.group(1), rk, sci, 0])
+            pos = m.end()
+        if not out:
+            return text
+        if pos < len(text):
+            out.append(text[pos:])
+        return out
+
+    notes = [n for n in k.get("notes", []) if n.get("type") != "번역 메모"]
+    secs = [dict(h=s.get("h"), level=s.get("level") or 2,
+                 paras=[dict(p=link(q["text"]), n=[i + 1 for i, n in enumerate(notes) if n["ref"] == q["ref"]]) for q in s["paras"]])
+            for s in k["sections"]]
+    return dict(revision=k.get("revision"), date=k.get("date"), translator=k.get("translator"), sections=secs, skipped=k.get("skipped") or [],
+                notes=[dict(type=n["type"], text=n["text"]) for n in notes])
+
+
 dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 fname = lambda sci: sci.replace(" ", "_") + ".json"
 
@@ -261,6 +310,7 @@ for g, lst in seq.items():
             inat=m.get("inat"), photos=pics(m), wiki=wiki_of(t, m), fetched=m.get("fetched"),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
+        rec["wiki_ko"] = wiki_ko_of(t, rec["wiki"])
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")
 
 # --- 과 문서: 명칭 근거 + 포함 속·종 ---
