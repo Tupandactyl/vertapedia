@@ -79,7 +79,8 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 .nophoto{padding:28px;border:1px dashed var(--line);border-radius:8px;text-align:center;color:var(--muted);font-size:13.5px}
 .galnote{font-size:12px;color:var(--muted);margin:8px 0 0}
 .prose{max-width:42em;font-size:16px;line-height:1.75}
-@media (max-width:640px){.prose{line-height:1.7}}
+.prose p,.konotes li{word-break:normal}
+@media (max-width:640px){.prose{font-size:15px;line-height:1.7}}
 .prose[data-lang=ko] .l-en,.prose[data-lang=en] .l-ko{display:none}
 .langtog{display:inline-flex;vertical-align:middle;margin-left:10px;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-family:var(--body,inherit)}
 .langtog button{font:inherit;font-size:12px;line-height:1.5;min-width:30px;padding:1px 8px;background:none;border:0;color:var(--muted);cursor:pointer}
