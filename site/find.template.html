@@ -98,7 +98,7 @@ const RK={o:'목',u:'아목',f:'과',g:'속',s:'종'};
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 let rows=[],g='',q='',limit=60,TREE=null;
 const s=META.stats;
-document.getElementById('stats').innerHTML=`<span>조류 <b>${s.AVES.total.toLocaleString()}</b>종 · 국명 <b>${s.AVES.named.toLocaleString()}</b> · 사진 <b>${s.AVES.photos.toLocaleString()}</b></span><span>파충류 <b>${s.REPTILIA.total.toLocaleString()}</b>종 · 국명 <b>${s.REPTILIA.named.toLocaleString()}</b> · 사진 <b>${s.REPTILIA.photos.toLocaleString()}</b></span>`;
+document.getElementById('stats').innerHTML=`<span>조류 <b>${s.AVES.total.toLocaleString()}</b>종 · 국명 <b>${s.AVES.named.toLocaleString()}</b> · 사진 <b>${s.AVES.photos.toLocaleString()}</b> · 번역 <b>${s.AVES.translated.toLocaleString()}</b></span><span>파충류 <b>${s.REPTILIA.total.toLocaleString()}</b>종 · 국명 <b>${s.REPTILIA.named.toLocaleString()}</b> · 사진 <b>${s.REPTILIA.photos.toLocaleString()}</b> · 번역 <b>${s.REPTILIA.translated.toLocaleString()}</b></span>`;
 document.getElementById('built').textContent=`마지막 갱신: ${META.built}`;
 // 공백·하이픈·아포스트로피·마침표 등을 지우고 비교한다: red tailed = red-tailed = redtailed, Blyth's = Blyths
 const key=t=>(t||'').toLowerCase().replace(/[\s\-‐-―'’.,()]+/g,'');

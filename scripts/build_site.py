@@ -357,7 +357,8 @@ for f in world["features"]:
 
 # --- 페이지 ---
 stats = {g: dict(total=len(seq[g]), named=sum(1 for t in seq[g] if t.get("name")),
-                 photos=sum(1 for t in seq[g] if has_pic(t["sci"]))) for g in G}
+                 photos=sum(1 for t in seq[g] if has_pic(t["sci"])),
+                 translated=sum(1 for t in seq[g] if (DATA / "wiki_ko" / fname(t["sci"])).exists())) for g in G}
 meta = dict(stats=stats, built=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M KST"))
 for name in ("index", "find", "sp", "fam"):
     tpl = (SITE / f"{name}.template.html").read_text(encoding="utf-8")
