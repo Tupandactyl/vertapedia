@@ -1,7 +1,13 @@
 {
  "sci": "Eublepharis jhuma",
- "fetched": "2026-10-13",
- "inat": null,
+ "fetched": "2026-11-08",
+ "inat": {
+  "id": 1718806,
+  "name": "Eublepharis jhuma",
+  "observations": 0,
+  "wikipedia_url": null,
+  "common": null
+ },
  "photos": [],
  "wiki": {
   "title": "Eublepharis jhuma",
@@ -31,5 +37,6 @@
    }
   ],
   "found_by": "Eublepharis jhuma"
- }
+ },
+ "curated": []
 }
