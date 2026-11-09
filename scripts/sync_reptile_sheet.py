@@ -98,7 +98,7 @@ def main(apply):
             if m:
                 fam = m.group(1)
                 continue
-            if len(a.split()) != 2:
+            if len(a.split()) != 2 or a.endswith(")"):  # 아속 줄 「Varanus (Odatria)」은 종 행이 아니다
                 continue
             rows.append((tab, i, a, fam))
             cell = lambda c: row[c] if len(row) > c else ""

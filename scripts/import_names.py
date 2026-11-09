@@ -94,6 +94,7 @@ def parse_nibr(pdf_path, first=155, last=215):
 
 # ---------- 조류 시트 ----------
 FAM_RE = re.compile(r"^([A-Z][a-z]+idae)\b\s*(?:\(([^)]*)\))?")
+SUBGENUS_RE = re.compile(r"^[A-Z][a-z]+ \([^)]+\)$")  # 「Varanus (Odatria)」, 「Varanus (아속 미정)」
 
 
 def parse_birds_v2026(title, rows):
@@ -251,6 +252,8 @@ def parse_reptiles(path, ov):
             m = FAM_RE.match(sci)
             if m:
                 family = m.group(1)
+                continue
+            if SUBGENUS_RE.match(sci):  # 아속 줄 「Varanus (Odatria)」: 시트 정렬용, 사이트에는 아직 넣지 않음
                 continue
             rank = {1: "genus", 2: "species"}.get(len(sci.split()), "subspecies")  # 세 단어 = 아종 행
             hint = unplaced.get(ws.title.strip())
