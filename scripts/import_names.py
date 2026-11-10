@@ -94,7 +94,8 @@ def parse_nibr(pdf_path, first=155, last=215):
 
 # ---------- 조류 시트 ----------
 FAM_RE = re.compile(r"^([A-Z][a-z]+idae)\b\s*(?:\(([^)]*)\))?")
-SUBGENUS_RE = re.compile(r"^[A-Z][a-z]+ \([^)]+\)$")  # 「Varanus (Odatria)」, 「Varanus (아속 미정)」
+SUBGENUS_RE = re.compile(r"^[A-Z][a-z]+ \([^)]+\)$")  # 옛 꼴 아속 줄 「Varanus (Odatria)」
+NOSUB = "(아속 미정)"  # 아속을 못 정한 종들의 머리 줄
 
 
 def parse_birds_v2026(title, rows):
@@ -244,18 +245,44 @@ def parse_reptiles(path, ov):
             continue
         ix = {k: h.index(k) for k in ("학명", "환경부 지정명", "국내 통용/유통명", "명칭 제안", "명칭 근거", "Author", "영명")
               if k in h}
-        family = None
-        for r in rows[1:]:
-            sci = clean(cell(r, ix["학명"]))
+        # 아속 줄은 아속 이름 한 단어(「Odatria」, 미정은 「(아속 미정)」)라 속 줄과 모양이 같다.
+        # 속 줄 아래 그 속 종들 사이에 있고 바로 다음 종이 그 속이면 아속 줄로 본다(속과 같은 이름이면 명명 아속).
+        sci_col = [clean(cell(r, ix["학명"])) or "" for r in rows]
+        next_genus, nxt = [None] * len(rows), None
+        for i in range(len(rows) - 1, 0, -1):
+            w = sci_col[i].split()
+            if len(w) == 2 and not sci_col[i].endswith(")"):
+                nxt = w[0]
+            elif FAM_RE.match(sci_col[i]):
+                nxt = None
+            next_genus[i] = nxt
+        family = genus = subgenus = subgenus_ko = None
+        subgenus_seen = False
+        for i, r in enumerate(rows[1:], start=1):
+            sci = sci_col[i]
             if not sci:
                 continue
             m = FAM_RE.match(sci)
             if m:
                 family = m.group(1)
+                genus = subgenus = subgenus_ko = None
                 continue
-            if SUBGENUS_RE.match(sci):  # 아속 줄 「Varanus (Odatria)」: 시트 정렬용, 사이트에는 아직 넣지 않음
+            one = len(sci.split()) == 1
+            if SUBGENUS_RE.match(sci) or sci == NOSUB or (one and genus and next_genus[i] == genus and (sci != genus or subgenus_seen)):
+                # 아속 줄: 아래 종 행들이 이 아속에 든다. 「(아속 미정)」은 None. 옛 꼴 「Varanus (Odatria)」도 읽는다.
+                sub = SUBGENUS_RE.match(sci)
+                subgenus = None if "미정" in sci else (re.sub(r"^[A-Z][a-z]+ \((.+)\)$", r"\1", sci) if sub else sci)
+                subgenus_ko = clean(cell(r, ix["명칭 제안"])) or None
+                subgenus_seen = True
+                continue
+            if one and genus == sci and next_genus[i] == genus:  # 속 줄 바로 다음의 명명 아속 줄(「Varanus」 아래 「Varanus」)
+                subgenus, subgenus_ko, subgenus_seen = sci, clean(cell(r, ix["명칭 제안"])) or None, True
                 continue
             rank = {1: "genus", 2: "species"}.get(len(sci.split()), "subspecies")  # 세 단어 = 아종 행
+            if rank == "genus":
+                genus, subgenus, subgenus_ko, subgenus_seen = sci, None, None, False
+            elif rank == "species" and sci.split()[0] != genus:
+                genus, subgenus, subgenus_ko = sci.split()[0], None, None
             hint = unplaced.get(ws.title.strip())
             taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, family=alias.get(family, family),
                              order_hint=hint[0] if hint else None, suborder_hint=hint[1] if hint else None,
@@ -263,7 +290,9 @@ def parse_reptiles(path, ov):
                              moe=clean(cell(r, ix.get("환경부 지정명"))),
                              trade=clean(cell(r, ix.get("국내 통용/유통명"))),
                              consensus=clean(cell(r, ix["명칭 제안"])), proposals={},
-                             rationale=clean(cell(r, ix["명칭 근거"])), sheet=ws.title))
+                             rationale=clean(cell(r, ix["명칭 근거"])), sheet=ws.title,
+                             **(dict(subgenus=subgenus, subgenus_ko=subgenus_ko, subgenus_genus=genus)
+                                if subgenus and rank == "species" else {})))
     return taxa
 
 

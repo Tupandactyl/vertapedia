@@ -1,6 +1,6 @@
-// 분류군: 목 > (아목) > (상과) > 과 > (아과) > 속 > 종. Wegener's Dream 의 환경 목록처럼 ▸/▾ 로 접고 편다.
+// 분류군: 목 > (아목) > (상과) > 과 > (아과) > 속 > (아속) > 종. Wegener's Dream 의 환경 목록처럼 ▸/▾ 로 접고 편다.
 // 자료는 data/tree.json — { A: [...], R: [...] }
-//   마디 = [계급(o 목·u 아목·p 상과·f 과·s 아과·g 속), 학명, 국명, 자식들, (속이면) 모식종 학명]
+//   마디 = [계급(o 목·u 아목·p 상과·f 과·s 아과·g 속·h 아속), 학명, 국명, 자식들, (속이면) 모식종 학명]
 //   종   = [학명, 국명, 영명, 사진있음]
 // 아래 단계는 펼칠 때 그린다(종이 2만 개가 넘는다). 과 이름은 과 문서, 속 이름은 모식종 문서로 가는 링크다.
 (function () {
@@ -9,7 +9,7 @@
       return { "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;" }[c];
     });
   };
-  var RANK = { o: "목", u: "아목", p: "상과", f: "과", s: "아과", g: "속" };
+  var RANK = { o: "목", u: "아목", p: "상과", f: "과", s: "아과", g: "속", h: "아속" };
   var GROUP = { A: "조류", R: "파충류" };
   var OPEN_FIRST = { Squamata: 1 };  // 처음부터 펴 두는 목(유린목)
   var isLeaf = function (n) { return !Array.isArray(n[3]); };
@@ -41,8 +41,8 @@
     var rank = n[0], sci = n[1], ko = n[2];
     var el = document.createElement("div");
     el.className = "tnode r-" + rank;
-    var italic = rank === "g", isCur = rank === "f" && sci === current;
-    var label = '<span class="tname">' + esc(ko || sci) + "</span> " +
+    var italic = rank === "g" || (rank === "h" && sci.charAt(0) !== "("), isCur = rank === "f" && sci === current;
+    var label = '<span class="tname">' + (!ko && italic ? "<i>" + esc(sci) + "</i>" : esc(ko || sci)) + "</span> " +
       (ko ? '<span class="torig">' + (italic ? "<i>" + esc(sci) + "</i>" : esc(sci)) + "</span>" : "");
     // 과 이름 → 과 문서, 속 이름 → 그 속의 모식종 문서(n[4])
     var typeSp = rank === "g" ? n[4] : null;

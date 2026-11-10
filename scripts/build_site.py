@@ -135,6 +135,22 @@ for g, f in _fam_of_genus.items():
     if len(_subs_in_fam[f]) == 1:
         sub_of.pop(("REPTILIA", g), None)
 subfamilies = [t for t in names if t["rank"] == "subfamily"]
+# 파충류 큰 속의 아속 (시트의 아속 줄, scripts/add_subgenus_rows.py). 아속 이름만 쓴다(「Odatria」).
+# 속이 바뀐 종(Reptile Database 반영)은 아속을 버린다. 아속이 있는 속에서 아속을 못 정한 종은 「(아속 미정)」.
+NOSUB = "(아속 미정)"
+_has_sub = lambda t: t.get("subgenus") and t.get("subgenus_genus") == t["sci"].split()[0]
+subgens = {}  # (강, 속, 아속) → {sci, name}
+for t in names:
+    if t["rank"] == "species" and _has_sub(t):
+        subgens.setdefault((t["group"], t["subgenus_genus"], t["subgenus"]), dict(sci=t["subgenus"], name=t.get("subgenus_ko")))
+_sub_genera = {(g, ge) for g, ge, _ in subgens}
+
+
+def subgenus_of(t):
+    """그 종의 아속 이름. 아속을 쓰지 않는 속이면 None"""
+    if (t["group"], t["sci"].split()[0]) not in _sub_genera:
+        return None
+    return t["subgenus"] if _has_sub(t) else NOSUB
 species = [t for t in names if t["rank"] == "species"]
 linker = Linker(names)
 
@@ -302,23 +318,24 @@ for t in species:
     g = t["group"]
     o, so, sup = lineage(t)
     sf = sub_of.get((g, t["sci"].split()[0]))
-    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + ([("p", sup)] if sup else []) +         [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])]
+    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + ([("p", sup)] if sup else []) +         [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])] + \
+        ([("h", subgenus_of(t))] if subgenus_of(t) else [])
     node = tree.setdefault(g, {})
     for key in path:
         node = node.setdefault(key, {})
     node.setdefault("_sp", []).append(t)
 
 
-def emit(g, d):
+def emit(g, d, genus=None):
     out = []
     for key, child in d.items():
         if key == "_sp":
             continue
         rank, sci = key
-        src = {"o": orders, "u": orders, "p": orders, "f": families, "s": subfams, "g": genera}[rank]
-        x = src.get((g, sci))
+        src = {"o": orders, "u": orders, "p": orders, "f": families, "s": subfams, "g": genera}.get(rank)
+        x = src.get((g, sci)) if src else subgens.get((g, genus, sci))
         kids = [[s["sci"], s.get("name"), s.get("en"), 1 if has_pic(s["sci"]) else 0] for s in child["_sp"]] \
-            if rank == "g" else emit(g, child)
+            if set(child) == {"_sp"} else emit(g, child, sci if rank == "g" else genus)  # 아속이 있는 속은 속 → 아속 → 종
         out.append([rank, sci, x.get("name") if x else None, kids] + ([type_of[(g, sci)]] if rank == "g" and (g, sci) in type_of else []))
     return out
 
@@ -367,6 +384,7 @@ for g, lst in seq.items():
             genus=dict(taxon(genera, g, t["sci"].split()[0]), type=type_of.get((g, t["sci"].split()[0]))),
             type_species=type_of.get((g, t["sci"].split()[0])) == t["sci"],
             subfamily=taxon(subfams, g, sub_of.get((g, t["sci"].split()[0]))),
+            subgenus=(subgens.get((g, t["sci"].split()[0], subgenus_of(t))) or {"sci": NOSUB}) if subgenus_of(t) else None,
             subspecies=subspecies_of(t),
             kos=dict(category=t["kos"].get("category")) if t.get("kos") else None, kr=t.get("kr"),
             refs=dict(official=None,  # 국가생물종목록은 쓰지 않는다
@@ -412,7 +430,9 @@ for g, lst in fam_seq.items():
                          type=type_of.get((g, ge)),
                          status=(genera.get((g, ge)) or {}).get("status"),
                          rationale=(genera.get((g, ge)) or {}).get("rationale"),
+                         subgenera={k: v.get("name") for (gg, gn, k), v in subgens.items() if gg == g and gn == ge},
                          species=[[s["sci"], s.get("name"), s.get("en"), s["status"], 1 if has_pic(s["sci"]) else 0]
+                                  + ([subgenus_of(s)] if subgenus_of(s) else [])
                                   for s in ss]) for ge, ss in gens.items()],
             counts=dict(genera=len(gens), species=len(sps), named=sum(1 for s in sps if s.get("name"))),
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],

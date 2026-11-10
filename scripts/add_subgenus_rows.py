@@ -1,6 +1,7 @@
 """파충류 시트에서 큰 속(data/subgenus.json 에 아속 배정이 있는 속)의 종 행을 아속별로 정렬하고,
 아속마다 머리 줄(옅은 분홍)을 넣는다. 속 줄(연두색, add_genus_rows.py)과 같은 모양:
-학명 열에 「Varanus (Odatria)」, 행 전체 배경 #FCE4EC. 아속을 못 정한 종은 맨 뒤 「Varanus (아속 미정)」 아래에 둔다.
+학명 열에 아속 이름만(「Odatria」), 행 전체 배경 #FCE4EC. 아속을 못 정한 종은 맨 뒤 「(아속 미정)」 아래에 둔다.
+아속 줄은 속 줄처럼 한 단어지만, 속 줄 아래 그 속 종들 사이에 있다는 것으로 구별한다(import_names.py 도 같은 규칙).
 
 정렬: 아속 이름 알파벳 순, 아속 안에서는 종소명 순. 아종 행(세 단어)은 그 종 바로 뒤에 붙어 다닌다.
 행은 moveDimension으로 옮기므로 서식·메모가 그대로 따라간다. 다시 돌리면 기존 아속 줄을 지우고 새로 만든다.
@@ -31,13 +32,33 @@ def cell(row, c):
     return (row[c] if len(row) > c else "").strip()
 
 
+def is_sub_row(a):
+    """아속 줄 모양: 아속 이름 한 단어(「Odatria」), 「(아속 미정)」, 옛 꼴 「Varanus (Odatria)」"""
+    return bool(SUB_RE.match(a)) or a == f"({UNPLACED})" or (len(a.split()) == 1 and a[:1].isupper())
+
+
 def find_block(values, off, genus):
-    """속 줄 다음부터 그 속의 종·아종·아속 줄이 이어지는 구간 [s, e)."""
+    """속 줄 다음부터 그 속의 종·아종·아속 줄이 이어지는 구간 [s, e).
+    한 단어 줄은 바로 다음 종 행이 이 속일 때만 아속 줄로 본다(아니면 다음 속 줄)."""
     for i, row in enumerate(values):
         if cell(row, off) == genus:
             s = e = i + 1
-            while e < len(values) and (cell(values[e], off).startswith(genus + " ")):
-                e += 1
+            while e < len(values):
+                a = cell(values[e], off)
+                if a.startswith(genus + " ") and not SUB_RE.match(a):
+                    e += 1
+                    continue
+                if is_sub_row(a):
+                    k = e + 1
+                    while k < len(values) and is_sub_row(cell(values[k], off)):
+                        k += 1
+                    if k < len(values) and cell(values[k], off).startswith(genus + " "):
+                        e += 1
+                        continue
+                if SUB_RE.match(a) and a.startswith(genus + " "):
+                    e += 1
+                    continue
+                break
             return i, s, e
     return None
 
@@ -47,7 +68,7 @@ def units(values, off, s, e):
     out, subs = [], []
     for i in range(s, e):
         a = cell(values[i], off)
-        if SUB_RE.match(a):
+        if is_sub_row(a):
             subs.append(i)
         elif len(a.split()) == 2:
             out.append([i, 1, a])
@@ -124,7 +145,8 @@ def main(apply, only):
             n = min(ncols, 12)
             for k, (p, sub) in enumerate(heads):
                 r = p + k
-                cells = [{"userEnteredValue": {"stringValue": f"{genus} ({sub})"}} if c == off else {} for c in range(n)]
+                label = f"({UNPLACED})" if sub == UNPLACED else sub
+                cells = [{"userEnteredValue": {"stringValue": label}} if c == off else {} for c in range(n)]
                 reqs.append({"updateCells": {"range": {"sheetId": sid, "startRowIndex": r, "endRowIndex": r + 1,
                                                        "startColumnIndex": 0, "endColumnIndex": n},
                                              "rows": [{"values": [dict(c, userEnteredFormat={"backgroundColor": PINK,

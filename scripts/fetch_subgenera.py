@@ -1,8 +1,14 @@
 """Reptile Database 종 문서의 이명(Synonym) 목록에서 아속 조합 「Genus (Subgenus) epithet — AUTHOR YEAR」을 찾아
 종마다 가장 최근 연도의 아속을 고른다. 받은 이명 글은 data/rdb_subgenus_cache.json 에 모아 두고 다시 받지 않는다.
 
-    python scripts/fetch_subgenera.py --sample 6          # 종이 50종 이상인 속마다 6종씩 보고 아속을 쓰는 속을 찾는다
+    python scripts/fetch_subgenera.py --sample 6          # 종이 30종 이상인 속마다 6종씩 보고 아속을 쓰는 속을 찾는다
     python scripts/fetch_subgenera.py Varanus Gekko ...   # 그 속 전체 종을 받아 data/rdb_subgenus.json 에 쓴다
+    python scripts/fetch_subgenera.py --fill Varanus ...  # 아속을 못 정한 종: 문서 전체의 아속 언급(data/rdb_subgenus_hints.json)
+    python scripts/fetch_subgenera.py --build             # 기준을 넘는 속만 골라 data/subgenus.json (시트 스크립트 입력)
+
+아속을 넣는 속의 기준: 종 30종 이상, 아속 2개 이상, 소속 종의 50% 이상에 아속을 정할 수 있음.
+Anolis는 Reptile Database가 아속을 쓰지 않으므로 이명 목록의 Nicholson et al. 2012·2018 분류(Norops, Dactyloa 등,
+2012년 이후 조합)를 아속으로 취급한다.
 """
 import json
 import re
@@ -17,7 +23,55 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 CACHE = DATA / "rdb_subgenus_cache.json"
 OUT = DATA / "rdb_subgenus.json"
 HINTS = DATA / "rdb_subgenus_hints.json"  # --fill: 문서 전체에서 센 아속 언급
-MIN_SPECIES = 50
+MIN_SPECIES = 30
+MIN_SHARE = 0.5
+TYPO = {"Rhaderemias": "Rhabderemias"}  # Reptile Database 이명 목록의 철자 실수
+ANOLIS_CLADES = ["Audantia", "Chamaelinorops", "Ctenonotus", "Dactyloa", "Deiroptyx", "Norops", "Xiphosurus"]
+
+
+def anolis_clades(cache, species):
+    from rdb import stem
+    out = {}
+    for s in species:
+        e = s.split()[1]
+        t = cache.get(s, "")
+        hits = []
+        for m in re.finditer(rf"\b({'|'.join(ANOLIS_CLADES)}) ({re.escape(stem(e))}[a-z]*)\b(?! [a-z]+ )", t):
+            y = re.search(r"\b(1[789]\d\d|20\d\d)\b", t[m.end():m.end() + 100])
+            if y and int(y.group(1)) >= 2012:
+                hits.append((int(y.group(1)), m.group(1)))
+        out[s] = max(hits)[1] if hits else None
+    return out
+
+
+def build(by_g, cache):
+    rdb = json.loads(OUT.read_text(encoding="utf-8"))
+    hints = json.loads(HINTS.read_text(encoding="utf-8")) if HINTS.exists() else {}
+    res = {}
+    for g in sorted(set(rdb) | {"Anolis"}, key=lambda g: -len(by_g[g])):
+        if g == "Anolis":
+            sp = anolis_clades(cache, by_g[g])
+            how = {s: "이명(Nicholson)" for s, v in sp.items() if v}
+            src = ("Reptile Database 이명 목록의 Nicholson et al. 2012·2018 분류"
+                   "(Norops, Dactyloa 등, 2012년 이후 조합)를 아속으로 취급")
+        else:
+            subs = {v for v in rdb[g].values() if v}
+            sp, how = {}, {}
+            for s, v in rdb[g].items():
+                c = {k: n for k, n in hints.get(s, {}).items() if k in subs}
+                sp[s] = v or (next(iter(c)) if len(c) == 1 else None)
+                sp[s] = TYPO.get(sp[s], sp[s])
+                if sp[s]:
+                    how[s] = "이명" if v else "본문 언급"
+            src = "Reptile Database 종 문서 이명 목록의 가장 최근 아속 조합(없으면 문서 본문의 아속 언급)"
+        n_sub = len({v for v in sp.values() if v})
+        share = sum(1 for v in sp.values() if v) / len(sp)
+        ok = len(sp) >= MIN_SPECIES and n_sub >= 2 and share >= MIN_SHARE
+        print(f"{'O' if ok else '-'} {g}: {len(sp)}종 · 아속 {n_sub} · 정함 {share:.0%}")
+        if ok:
+            res[g] = dict(source=src, species=sp, how=how)
+    (DATA / "subgenus.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("data/subgenus.json:", ", ".join(res))
 
 
 def synonym_text(g, e):
@@ -68,6 +122,8 @@ def main():
     for s in sorted(live):
         by_g.setdefault(s.split()[0], []).append(s)
     cache = load_cache()
+    if "--build" in sys.argv:
+        return build(by_g, cache)
     if "--sample" in sys.argv:
         k = int(sys.argv[sys.argv.index("--sample") + 1])
         big = [g for g, l in by_g.items() if len(l) >= MIN_SPECIES]
