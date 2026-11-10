@@ -23,6 +23,7 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 CACHE = DATA / "rdb_subgenus_cache.json"
 OUT = DATA / "rdb_subgenus.json"
 HINTS = DATA / "rdb_subgenus_hints.json"  # --fill: 문서 전체에서 센 아속 언급
+MANUAL = DATA / "subgenus_manual.json"  # 손으로 확인한 배정(기재논문 등) — 자동 배정을 덮어쓴다
 MIN_SPECIES = 30
 MIN_SHARE = 0.5
 TYPO = {"Rhaderemias": "Rhabderemias"}  # Reptile Database 이명 목록의 철자 실수
@@ -47,6 +48,8 @@ def anolis_clades(cache, species):
 def build(by_g, cache):
     rdb = json.loads(OUT.read_text(encoding="utf-8"))
     hints = json.loads(HINTS.read_text(encoding="utf-8")) if HINTS.exists() else {}
+    manual = {k: v for k, v in json.loads(MANUAL.read_text(encoding="utf-8")).items() if not k.startswith("_")} \
+        if MANUAL.exists() else {}
     res = {}
     for g in sorted(set(rdb) | {"Anolis"}, key=lambda g: -len(by_g[g])):
         if g == "Anolis":
@@ -64,6 +67,9 @@ def build(by_g, cache):
                 if sp[s]:
                     how[s] = "이명" if v else "본문 언급"
             src = "Reptile Database 종 문서 이명 목록의 가장 최근 아속 조합(없으면 문서 본문의 아속 언급)"
+        for s, (sub, why) in manual.items():  # 손으로 확인한 배정이 자동 배정보다 앞선다
+            if s in sp:
+                sp[s], how[s] = sub, why
         n_sub = len({v for v in sp.values() if v})
         share = sum(1 for v in sp.values() if v) / len(sp)
         ok = len(sp) >= MIN_SPECIES and n_sub >= 2 and share >= MIN_SHARE
