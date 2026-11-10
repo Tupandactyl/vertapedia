@@ -33,7 +33,7 @@ a{color:var(--moss)}
 .top-in{max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
 .logo{font-family:var(--display);font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
 .top nav{margin-left:auto;font-size:13.5px;display:flex;gap:14px}
-.page{max-width:1320px;margin:0 auto;padding-inline:16px;display:grid;grid-template-columns:270px minmax(0,1fr);gap:28px}
+.page{max-width:1320px;margin:0 auto;padding-inline:16px;display:grid;grid-template-columns:var(--navw,270px) 10px minmax(0,1fr);gap:28px 9px}
 .wrap{padding-block:16px 64px;min-width:0;max-width:860px}
 .navtree{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto;padding-block:12px 40px;font-size:13px}
 .paneltog{font:inherit;font-size:12.5px;font-weight:600;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 12px;cursor:pointer}
@@ -41,8 +41,15 @@ a{color:var(--moss)}
 .paneltog .arr{display:inline-block;width:1em}
 .navtree #tree{margin-top:8px}
 .page.closed{grid-template-columns:minmax(0,1fr)}
+/* 분류군 창 너비 손잡이 (tree.js) */
+.navgrip{position:sticky;top:0;align-self:start;height:100vh;cursor:col-resize;touch-action:none;user-select:none;display:flex;justify-content:center;outline:none}
+.navgrip::before{content:"";width:2px;height:100%;background:var(--line);border-radius:2px;transition:background .15s,width .15s}
+.navgrip:hover::before,.navgrip.drag::before,.navgrip:focus-visible::before{background:var(--moss);width:3px}
+body.stuck .navgrip{top:var(--barh,40px);height:calc(100vh - var(--barh,40px))}
+body.resizing{cursor:col-resize;user-select:none}
+.page.closed .navgrip{display:none}
 .page.closed .navtree{position:static;max-height:none;padding-block:12px 0;border-top:0;order:0}
-@media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navtree{position:static;max-height:60vh;order:2;border-top:1px solid var(--line)}}
+@media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navgrip{display:none}.navtree{position:static;max-height:60vh;order:2;border-top:1px solid var(--line)}}
 .pn{display:flex;align-items:stretch;gap:8px;margin:0 0 14px;font-size:13px}
 .pn a,.pn span.off{flex:1;min-width:0;display:flex;flex-direction:column;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-decoration:none}
 .pn a:hover{border-color:var(--moss)}

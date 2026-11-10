@@ -86,6 +86,66 @@
 
   // box 에 나무를 그린다. opts.groups: ["A","R"](이 순서로), opts.current: 지금 종 또는 과의 학명(그 경로를 펴 둔다),
   // opts.folded: 처음에 접어 둘 강(펼칠 때 그린다)
+  // 분류군 창 너비: 창과 본문 사이의 손잡이(.navgrip)를 끌어 조절한다. 이 브라우저에 기억하고, 두 번 누르면 처음 너비(270px).
+  // 키보드: 손잡이에 초점을 두고 ←/→ 로 20px씩.
+  (function () {
+    var page = document.querySelector(".page"), nav = page && page.querySelector(".navtree");
+    if (!nav) return;
+    var MIN = 180, MAX = 640, KEY = "vp-navw";
+    var grip = document.createElement("div");
+    grip.className = "navgrip";
+    grip.tabIndex = 0;
+    grip.title = "끌어서 너비 조절 · 두 번 누르면 처음 너비로";
+    [["role", "separator"], ["aria-orientation", "vertical"], ["aria-label", "분류군 창 너비"],
+     ["aria-valuemin", MIN], ["aria-valuemax", MAX], ["aria-valuenow", 270]].forEach(function (a) { grip.setAttribute(a[0], a[1]); });
+    nav.parentNode.insertBefore(grip, nav.nextSibling);
+    var set = function (w, save) {
+      var max = Math.max(MIN, Math.min(MAX, page.clientWidth - 460));  // 본문이 너무 좁아지지 않게
+      w = Math.round(Math.max(MIN, Math.min(max, w)));
+      page.style.setProperty("--navw", w + "px");
+      grip.setAttribute("aria-valuenow", w);
+      if (save) try { localStorage.setItem(KEY, w); } catch (e) {}
+    };
+    try { var saved = +localStorage.getItem(KEY); if (saved) set(saved); } catch (e) {}
+    grip.addEventListener("pointerdown", function (e) {
+      if (e.button !== 0) return;
+      e.preventDefault();
+      grip.setPointerCapture(e.pointerId);
+      grip.classList.add("drag");
+      document.body.classList.add("resizing");
+      var left = nav.getBoundingClientRect().left;
+      var noSelect = function (ev) { ev.preventDefault(); };  // 끄는 동안 글자가 선택되지 않게
+      document.addEventListener("selectstart", noSelect);
+      var sel = window.getSelection && window.getSelection();
+      if (sel) sel.removeAllRanges();
+      var move = function (ev) { set(ev.clientX - left); };
+      var up = function () {
+        document.removeEventListener("selectstart", noSelect);
+        grip.removeEventListener("pointermove", move);
+        grip.removeEventListener("pointerup", up);
+        grip.removeEventListener("pointercancel", up);
+        grip.classList.remove("drag");
+        document.body.classList.remove("resizing");
+        set(nav.getBoundingClientRect().width, true);
+      };
+      grip.addEventListener("pointermove", move);
+      grip.addEventListener("pointerup", up);
+      grip.addEventListener("pointercancel", up);
+    });
+    grip.addEventListener("mousedown", function (e) { e.preventDefault(); });
+    grip.addEventListener("dblclick", function () {
+      page.style.removeProperty("--navw");
+      grip.setAttribute("aria-valuenow", 270);
+      try { localStorage.removeItem(KEY); } catch (e) {}
+    });
+    grip.addEventListener("keydown", function (e) {
+      var d = e.key === "ArrowLeft" ? -20 : e.key === "ArrowRight" ? 20 : 0;
+      if (!d) return;
+      e.preventDefault();
+      set(nav.getBoundingClientRect().width + d, true);
+    });
+  })();
+
   window.VTree = function (box, data, opts) {
     opts = opts || {};
     box.innerHTML = "";
