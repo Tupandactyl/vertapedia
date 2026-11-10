@@ -12,7 +12,7 @@
 ## 2. 준비
 - `python scripts/wiki_ko.py status`: 남은 양. 0종이면 끝낸다.
 - `git pull --rebase --autostash`, `python scripts/fetch_sheets.py`, `python scripts/import_names.py`
-- `python scripts/wiki_ko.py next --chars 300000`: 묶음은 `translation_review/batches.json`
+- `python scripts/wiki_ko.py next --chars 300000`: 묶음은 `translation_review/batches.json`. 글자 수의 30%는 파충류, 나머지는 조류(각각 시트 순서). 한쪽이 끝나면 다른 쪽이 전부 쓴다.
 
 ## 3. 번역
 - 묶음마다 서브에이전트(model: sonnet)를 하나씩, 동시에 최대 4개. 지침은 `scripts/wiki_ko_brief.md`.

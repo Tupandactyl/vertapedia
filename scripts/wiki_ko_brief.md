@@ -6,7 +6,7 @@ Vertapedia(한국어 조류·파충류 이름 사전)의 종 문서에 실을 �
 - 입력: `translation_review/in/<이름>.json` (이름은 작업 목록에 있는 그대로. 예: `Ciconia_boyciana`, 이미 번역된 문서의 나머지 절이면 `Grus_japonensis.add`)
   - `paras`: 옮길 문단(`"절번호.문단번호": 영어`) · `heads`: 옮길 절 제목(`"절번호": 영어`)
   - `glossary`: 본문에 나온 이름 → 사이트 국명(학명). 생물 이름이면 이 표를 따른다. 자동으로 뽑은 표라 사람 이름이나 지명이 생물 이름과 같으면(Sappho 시인, Sula 제도) 문맥을 따른다.
-  - `ko`: 이 종의 국명 · `site_facts`: 사이트 자료(IUCN 등급, AviList 분포 설명, 명명자, 아종, GBIF 대한민국 기록 수). `subspecies`는 한국 관련 아종만 담은 목록이니 원문 아종 수와 비교해 주석을 달지 않는다
+  - `ko`: 이 종의 국명 · `site_facts`: 사이트 자료(IUCN 등급, AviList 분포 설명, 명명자, 아종, GBIF 대한민국 기록 수). `subspecies`는 한국 관련 아종만 담은 목록이니 원문 아종 수와 비교해 주석을 달지 않는다. 파충류(`group`이 `REPTILIA`)는 `avilist_range`가 없으니 분포는 원문대로 옮기고, 학명·분류는 Reptile Database를 따르는 사이트 학명(`sci`) 기준이다
 - 출력: `translation_review/out/<이름>.json` (UTF-8)
 ```json
 {"sci":"Ciconia boyciana","date":"오늘 날짜","heads":{"1":"분류"},"ko":{"0.0":"..."},"notes":[{"ref":"0.0","type":"수정","text":"..."}]}

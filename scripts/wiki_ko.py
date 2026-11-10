@@ -3,6 +3,7 @@
     python scripts/wiki_ko.py prep 학명1 학명2 ...   # 번역할 입력 만들기(translation_review/in/)
     python scripts/wiki_ko.py prep --korea           # 한국 기록종 가운데 아직 번역하지 않은 모든 종
     python scripts/wiki_ko.py next --chars 150000    # 합의 국명 종을 시트 순서대로, 원문 글자 수만큼 다음 작업으로 준비(batches.json)
+                                                     # 글자 수의 30%는 파충류(--reptiles 0.3 으로 바꿀 수 있다)
     python scripts/wiki_ko.py status                 # 남은 양
     python scripts/wiki_ko.py check [--all]          # 새 번역본 검사 후 합치기(translation_review/out/ → data/wiki_ko/). --all 은 전부 다시
 
@@ -21,6 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 IN, OUT, FINAL = ROOT / "translation_review" / "in", ROOT / "translation_review" / "out", DATA / "wiki_ko"
 BATCH = 75000  # 한 묶음 원문 글자 수
+REPTILE_SHARE = 0.3  # next: 한 회차 글자 수 가운데 파충류 몫(조류가 훨씬 많이 남아 있어도 파충류를 함께 진행)
 # 숫자 대조에서 빼는 야드파운드 병기
 IMPERIAL = re.compile(r"\([^()]*\b(?:in|ft|lb|mi|oz|yd|sq mi|mph|acres?|°F)\b[^()]*\)")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
@@ -136,15 +138,40 @@ def queue():
             and not (FINAL / fname(t["sci"])).exists() and (w := wiki_of(t["sci"])).get("sections")]
 
 
-def next_batch(chars):
-    q, picked, total = queue(), [], 0
+def by_group(q):
+    grp = {t["sci"]: t["group"] for t in load(DATA / "names.json", []) if t.get("rank") == "species"}
+    out = {"AVES": [], "REPTILIA": []}
     for sci, c in q:
-        if picked and total + c > chars:
+        out.setdefault(grp.get(sci), []).append((sci, c))
+    return out
+
+
+def take(lst, budget, start=0):
+    """lst[start:]에서 시트 순서대로 budget 글자까지(첫 종은 길어도 넣는다). (고른 수, 글자 수)"""
+    n, total = 0, 0
+    for sci, c in lst[start:]:
+        if (n or start) and total + c > budget:
             break
-        picked.append(sci)
+        n += 1
         total += c
+    return n, total
+
+
+def next_batch(chars, reptile_share=REPTILE_SHARE):
+    """조류와 파충류를 따로 시트 순서대로. 글자 수의 reptile_share는 파충류, 나머지는 조류.
+    한쪽이 모자라면 남은 몫을 다른 쪽이 쓴다."""
+    q = queue()
+    g = by_group(q)
+    birds, reps = g["AVES"], g["REPTILIA"]
+    nr, cr = take(reps, chars * reptile_share)
+    nb, cb = take(birds, chars - cr)
+    if nb == len(birds) and nr < len(reps):  # 조류가 다 끝났으면 파충류로 채운다
+        k, c = take(reps, chars - cb - cr, nr)
+        nr, cr = nr + k, cr + c
+    picked = [s for s, _ in birds[:nb]] + [s for s, _ in reps[:nr]]
     prep(picked)
-    print(f"이번 {len(picked)}종 {total:,}자 · 남은 전체 {len(q):,}종 {sum(c for _, c in q):,}자")
+    print(f"이번 {len(picked)}종 {cb + cr:,}자 (조류 {nb}종 {cb:,}자 · 파충류 {nr}종 {cr:,}자)"
+          f" · 남은 전체 {len(q):,}종 {sum(c for _, c in q):,}자")
 
 
 def check():
@@ -221,9 +248,12 @@ if __name__ == "__main__":
         else:
             prep([a for a in sys.argv[2:] if not a.startswith("--")])
     elif sys.argv[1] == "next":
-        next_batch(int(sys.argv[sys.argv.index("--chars") + 1]))
+        share = float(sys.argv[sys.argv.index("--reptiles") + 1]) if "--reptiles" in sys.argv else REPTILE_SHARE
+        next_batch(int(sys.argv[sys.argv.index("--chars") + 1]), share)
     elif sys.argv[1] == "status":
         q = queue()
-        print(f"남은 {len(q):,}종 {sum(c for _, c in q):,}자 · 다음: {[s for s, _ in q[:3]]}")
+        g = by_group(q)
+        print(f"남은 {len(q):,}종 {sum(c for _, c in q):,}자 (조류 {len(g['AVES']):,}종 · 파충류 {len(g['REPTILIA']):,}종)"
+              f" · 다음: {[s for s, _ in g['AVES'][:2] + g['REPTILIA'][:2]]}")
     else:
         check()
