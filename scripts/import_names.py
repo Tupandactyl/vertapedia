@@ -95,7 +95,7 @@ def parse_nibr(pdf_path, first=155, last=215):
 # ---------- 조류 시트 ----------
 FAM_RE = re.compile(r"^([A-Z][a-z]+idae)\b\s*(?:\(([^)]*)\))?")
 SUBGENUS_RE = re.compile(r"^[A-Z][a-z]+ \([^)]+\)$")  # 옛 꼴 아속 줄 「Varanus (Odatria)」
-NOSUB = "(아속 미정)"  # 아속을 못 정한 종들의 머리 줄
+NOSUB = ("미분류", "(아속 미정)")  # 아속을 못 정한 종들의 머리 줄(뒤는 옛 꼴)
 
 
 def parse_birds_v2026(title, rows):
@@ -245,7 +245,7 @@ def parse_reptiles(path, ov):
             continue
         ix = {k: h.index(k) for k in ("학명", "환경부 지정명", "국내 통용/유통명", "명칭 제안", "명칭 근거", "Author", "영명")
               if k in h}
-        # 아속 줄은 아속 이름 한 단어(「Odatria」, 미정은 「(아속 미정)」)라 속 줄과 모양이 같다.
+        # 아속 줄은 아속 이름 한 단어(「Odatria」, 미분류는 「미분류」)라 속 줄과 모양이 같다.
         # 속 줄 아래 그 속 종들 사이에 있고 바로 다음 종이 그 속이면 아속 줄로 본다(속과 같은 이름이면 명명 아속).
         sci_col = [clean(cell(r, ix["학명"])) or "" for r in rows]
         next_genus, nxt = [None] * len(rows), None
@@ -268,10 +268,10 @@ def parse_reptiles(path, ov):
                 genus = subgenus = subgenus_ko = None
                 continue
             one = len(sci.split()) == 1
-            if SUBGENUS_RE.match(sci) or sci == NOSUB or (one and genus and next_genus[i] == genus and (sci != genus or subgenus_seen)):
-                # 아속 줄: 아래 종 행들이 이 아속에 든다. 「(아속 미정)」은 None. 옛 꼴 「Varanus (Odatria)」도 읽는다.
+            if SUBGENUS_RE.match(sci) or sci in NOSUB or (one and genus and next_genus[i] == genus and (sci != genus or subgenus_seen)):
+                # 아속 줄: 아래 종 행들이 이 아속에 든다. 「미분류」는 None. 옛 꼴 「Varanus (Odatria)」도 읽는다.
                 sub = SUBGENUS_RE.match(sci)
-                subgenus = None if "미정" in sci else (re.sub(r"^[A-Z][a-z]+ \((.+)\)$", r"\1", sci) if sub else sci)
+                subgenus = None if sci in NOSUB or "미정" in sci else (re.sub(r"^[A-Z][a-z]+ \((.+)\)$", r"\1", sci) if sub else sci)
                 subgenus_ko = clean(cell(r, ix["명칭 제안"])) or None
                 subgenus_seen = True
                 continue

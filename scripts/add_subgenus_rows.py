@@ -1,6 +1,6 @@
 """파충류 시트에서 큰 속(data/subgenus.json 에 아속 배정이 있는 속)의 종 행을 아속별로 정렬하고,
 아속마다 머리 줄(옅은 분홍)을 넣는다. 속 줄(연두색, add_genus_rows.py)과 같은 모양:
-학명 열에 아속 이름만(「Odatria」), 행 전체 배경 #FCE4EC. 아속을 못 정한 종은 맨 뒤 「(아속 미정)」 아래에 둔다.
+학명 열에 아속 이름만(「Odatria」), 행 전체 배경 #FCE4EC. 아속을 못 정한 종은 맨 뒤 「미분류」 줄 아래에 둔다.
 아속 줄은 속 줄처럼 한 단어지만, 속 줄 아래 그 속 종들 사이에 있다는 것으로 구별한다(import_names.py 도 같은 규칙).
 
 정렬: 아속 이름 알파벳 순, 아속 안에서는 종소명 순. 아종 행(세 단어)은 그 종 바로 뒤에 붙어 다닌다.
@@ -24,7 +24,8 @@ from sheets_api import API, Sheet
 DATA = Path(__file__).resolve().parent.parent / "data"
 PINK = {"red": 0.98823529, "green": 0.89411765, "blue": 0.9254902}  # #FCE4EC
 SKIP_TABS = {"과단위 번역", "지정관리종목록", "통합목록"}
-UNPLACED = "아속 미정"
+UNPLACED = "미분류"
+OLD_UNPLACED = ("(아속 미정)",)  # 옛 꼴
 SUB_RE = re.compile(r"^([A-Z][a-z]+) \(([^)]+)\)$")
 
 
@@ -33,8 +34,8 @@ def cell(row, c):
 
 
 def is_sub_row(a):
-    """아속 줄 모양: 아속 이름 한 단어(「Odatria」), 「(아속 미정)」, 옛 꼴 「Varanus (Odatria)」"""
-    return bool(SUB_RE.match(a)) or a == f"({UNPLACED})" or (len(a.split()) == 1 and a[:1].isupper())
+    """아속 줄 모양: 아속 이름 한 단어(「Odatria」), 「미분류」, 옛 꼴 「Varanus (Odatria)」·「(아속 미정)」"""
+    return bool(SUB_RE.match(a)) or a == UNPLACED or a in OLD_UNPLACED or (len(a.split()) == 1 and a[:1].isupper())
 
 
 def find_block(values, off, genus):
@@ -145,7 +146,7 @@ def main(apply, only):
             n = min(ncols, 12)
             for k, (p, sub) in enumerate(heads):
                 r = p + k
-                label = f"({UNPLACED})" if sub == UNPLACED else sub
+                label = sub
                 cells = [{"userEnteredValue": {"stringValue": label}} if c == off else {} for c in range(n)]
                 reqs.append({"updateCells": {"range": {"sheetId": sid, "startRowIndex": r, "endRowIndex": r + 1,
                                                        "startColumnIndex": 0, "endColumnIndex": n},

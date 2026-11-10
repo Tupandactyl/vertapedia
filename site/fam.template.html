@@ -88,10 +88,10 @@ section>h2{font-family:var(--display);font-size:21px;margin:0 0 10px}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
 button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
 .sfh{font-size:15px;margin:22px 0 8px;display:flex;gap:8px;align-items:baseline}.sfh span{font-weight:400;color:var(--muted)}.sfh small{margin-left:auto;color:var(--muted);font-weight:400}
-.sgh{font-size:13px;margin:12px 0 4px;display:flex;gap:6px;align-items:baseline;font-weight:600}.sgh span{font-weight:400;color:var(--muted)}.sgh small{margin-left:auto;color:var(--muted);font-weight:400}
+.sgh{font-size:13px;margin:10px 0 0;padding:4px 14px 2px;display:flex;gap:6px;align-items:baseline;font-weight:600;border-top:1px dashed var(--line)}.genus>header+.sgh,.genus>p+.sgh{border-top:0}.sgh span{font-weight:400;color:var(--muted)}.sgh small{margin-left:auto;color:var(--muted);font-weight:400}
 .hs{flex:1;max-width:320px;margin:0 12px}.hs input{width:100%;box-sizing:border-box;padding:7px 12px;border-radius:8px;border:1px solid var(--line,#3a4a40);background:transparent;color:inherit;font:inherit;font-size:14px}
 @media (max-width:640px){.top-in{flex-wrap:wrap}.hs{order:3;flex-basis:100%;max-width:none;margin:8px 0 0}}
-.genus header a{color:inherit;text-decoration:none}.genus header a:hover b{text-decoration:underline}
+.genus header a{color:inherit;text-decoration:none;display:inline-flex;align-items:baseline;gap:4px 10px;flex-wrap:wrap}.genus header a:hover b{text-decoration:underline}
 .tsp{font-size:11px;padding:1px 6px;border-radius:999px;background:var(--ok-bg,#24382c);color:var(--ok,#8cc4a5);margin-left:6px}
 </style>
 <body>
@@ -143,20 +143,20 @@ function render(d){
       ${g.rationale?`<p>${esc(g.rationale)}</p>`:''}
       ${subList(g)}
     </article>`;
-  // 아속이 있는 속은 아속별로 나눠 적는다(시트 순서, 미정은 맨 뒤)
+  // 아속이 있는 속은 아속별로 나눠 적는다(시트 순서, 미분류는 맨 뒤)
   const spItem=(g,s)=>`<li><a href="${link('sp',{sci:s[0]})}"><span class="ko${s[1]?'':' en'}">${esc(s[1]||s[2]||s[0])}${s[4]?'<span class="pic" title="사진 있음">●</span>':''}${g.type===s[0]?'<span class="tsp">모식종</span>':''}</span><span class="st ${s[3]}">${ST[s[3]]||s[3]}</span>${s[1]||s[2]?`<span class="s"><i>${esc(s[0])}</i>${s[1]&&s[2]?` · ${esc(s[2])}`:''}</span>`:''}</a></li>`;
   const subList=g=>{
     if(!g.species.some(s=>s[5]))return `<ul>${g.species.map(s=>spItem(g,s)).join('')}</ul>`;
     const subs=[];
-    g.species.forEach(s=>{const k=s[5]||'(아속 미정)';let x=subs.find(y=>y.k===k);if(!x)subs.push(x={k,list:[]});x.list.push(s)});
+    g.species.forEach(s=>{const k=s[5]||'미분류';let x=subs.find(y=>y.k===k);if(!x)subs.push(x={k,list:[]});x.list.push(s)});
     const sn=g.subgenera||{};
-    return subs.map(x=>`<h4 class="sgh">${sn[x.k]?`${esc(sn[x.k])} `:''}<span>${x.k.charAt(0)==='('?esc(x.k):`<i>${esc(x.k)}</i>`}</span><small>${x.list.length}종</small></h4><ul>${x.list.map(s=>spItem(g,s)).join('')}</ul>`).join('');
+    return subs.map(x=>`<h4 class="sgh">${sn[x.k]?`${esc(sn[x.k])} `:''}<span>${!/^[A-Z]/.test(x.k)?esc(x.k):`<i>${esc(x.k)}</i>`}</span><small>${x.list.length}종</small></h4><ul>${x.list.map(s=>spItem(g,s)).join('')}</ul>`).join('');
   };
   // 아과가 정해진 속이 있으면 아과별로 묶는다(처음 나온 순서)
   const sfName=Object.fromEntries(d.subfamilies.map(s=>[s.sci,s.name]));
   const groups=[];
   d.genera.forEach(g=>{const k=g.subfamily||'';let x=groups.find(y=>y.k===k);if(!x)groups.push(x={k,list:[]});x.list.push(g)});
-  const gens=groups.length>1||groups[0]&&groups[0].k?groups.map(x=>`<h3 class="sfh">${x.k?`${sfName[x.k]?`${esc(sfName[x.k])} `:''}<span>${esc(x.k)}</span>`:'아과 미정'}<small>${x.list.length}속</small></h3>${x.list.map(genCard).join('')}`).join(''):d.genera.map(genCard).join('');
+  const gens=groups.length>1||groups[0]&&groups[0].k?groups.map(x=>`<h3 class="sfh">${x.k?`${sfName[x.k]?`${esc(sfName[x.k])} `:''}<span>${esc(x.k)}</span>`:'미분류'}<small>${x.list.length}속</small></h3>${x.list.map(genCard).join('')}`).join(''):d.genera.map(genCard).join('');
   document.getElementById('main').innerHTML=`
     ${pn(d)}
     <div class="crumb">${crumb.map(c=>`<span>${c}</span>`).join('')}</div>

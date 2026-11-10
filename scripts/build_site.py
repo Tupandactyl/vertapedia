@@ -92,7 +92,7 @@ for t in names:
     if t["group"] == "REPTILIA" and t["rank"] == "species" and not t.get("en"):
         t["en"] = ((media.get(t["sci"]) or {}).get("inat") or {}).get("common")
 G = {"AVES": "A", "REPTILIA": "R"}
-NOFAM = "(과 미정)"
+NOFAM = "미분류"  # 과·목·아속을 정하지 못한 묶음
 
 
 def first_by(*ranks):
@@ -136,8 +136,8 @@ for g, f in _fam_of_genus.items():
         sub_of.pop(("REPTILIA", g), None)
 subfamilies = [t for t in names if t["rank"] == "subfamily"]
 # 파충류 큰 속의 아속 (시트의 아속 줄, scripts/add_subgenus_rows.py). 아속 이름만 쓴다(「Odatria」).
-# 속이 바뀐 종(Reptile Database 반영)은 아속을 버린다. 아속이 있는 속에서 아속을 못 정한 종은 「(아속 미정)」.
-NOSUB = "(아속 미정)"
+# 속이 바뀐 종(Reptile Database 반영)은 아속을 버린다. 아속이 있는 속에서 아속을 못 정한 종은 「미분류」.
+NOSUB = "미분류"
 _has_sub = lambda t: t.get("subgenus") and t.get("subgenus_genus") == t["sci"].split()[0]
 subgens = {}  # (강, 속, 아속) → {sci, name}
 for t in names:
@@ -318,7 +318,7 @@ for t in species:
     g = t["group"]
     o, so, sup = lineage(t)
     sf = sub_of.get((g, t["sci"].split()[0]))
-    path = [("o", o or "(목 미정)")] + ([("u", so)] if so else []) + ([("p", sup)] if sup else []) +         [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])] + \
+    path = [("o", o or "미분류")] + ([("u", so)] if so else []) + ([("p", sup)] if sup else []) +         [("f", t.get("family") or NOFAM)] +         ([("s", sf)] if sf else []) + [("g", t["sci"].split()[0])] + \
         ([("h", subgenus_of(t))] if subgenus_of(t) else [])
     node = tree.setdefault(g, {})
     for key in path:

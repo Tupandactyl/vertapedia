@@ -41,12 +41,12 @@
     var rank = n[0], sci = n[1], ko = n[2];
     var el = document.createElement("div");
     el.className = "tnode r-" + rank;
-    var italic = rank === "g" || (rank === "h" && sci.charAt(0) !== "("), isCur = rank === "f" && sci === current;
+    var italic = rank === "g" || (rank === "h" && /^[A-Z]/.test(sci)), isCur = rank === "f" && sci === current;
     var label = '<span class="tname">' + (!ko && italic ? "<i>" + esc(sci) + "</i>" : esc(ko || sci)) + "</span> " +
       (ko ? '<span class="torig">' + (italic ? "<i>" + esc(sci) + "</i>" : esc(sci)) + "</span>" : "");
     // 과 이름 → 과 문서, 속 이름 → 그 속의 모식종 문서(n[4])
     var typeSp = rank === "g" ? n[4] : null;
-    var linked = (rank === "f" && sci.charAt(0) !== "(") || !!typeSp;
+    var linked = (rank === "f" && /^[A-Z]/.test(sci)) || !!typeSp;
     var to = typeSp ? href("sp", typeSp) : href("fam", sci);
     el.innerHTML = '<div class="trow' + (isCur ? " current" : "") + '">' +
       '<button type="button" class="ttog" aria-expanded="false" aria-label="펼치기">▸</button>' +
