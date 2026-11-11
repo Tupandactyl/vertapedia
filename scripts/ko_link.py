@@ -2,6 +2,8 @@
 
 - 종: 영명(대소문자 무시, grey/gray 같게, 복수형 -s/-es 포함). 이명법 학명은 바꾸지 않고 종 문서 링크만 건다(계급 S)
 - 과·목: 학명, 속: 학명(뒤에 종소명이 붙어 있으면 건너뜀 — 국명 없는 종일 수 있다)
+- groups=True 이면 과·아과 영명(geckos, alligators)도 무리 이름으로 잡는다(계급 c). 국명은 '과'·'아과'를 뗀 꼴(도마뱀부치).
+  번역 입력의 용어표에만 쓴다. 사이트 원문 보기에는 쓰지 않는다.
 - 국명이 있는 분류군만 바꾼다. 문단은 문자열 또는 [문자열 | [국명, 원래 이름, 계급, 학명, 처음?]] 목록이 된다.
 """
 import re
@@ -28,7 +30,7 @@ def _norm(w):
 
 
 class Linker:
-    def __init__(self, names):
+    def __init__(self, names, groups=False):
         self.en, self.sci, self.genus = {}, {}, {}
         for t in names:
             ko = t.get("name")
@@ -50,7 +52,24 @@ class Linker:
                 self.sci.setdefault((t["sci"],), (ko, rk[0] if rk != "suborder" else "o", t["sci"]))
             elif rk == "genus":
                 self.genus.setdefault(t["sci"], (ko, "g", t["sci"]))
+        if groups:
+            self._add_groups(names)
         self.maxlen = max([len(k) for k in self.en] + [len(k) for k in self.sci] + [1])
+
+    def _add_groups(self, names):
+        """과·아과 영명 → 무리 이름. 'and'·쉼표로 여러 무리를 묶은 영명은 뺀다. 과가 아과보다 먼저."""
+        for rk in ("family", "subfamily"):
+            for t in names:
+                ko, en = t.get("name") or "", (t.get("en") or "").strip().lower()
+                if t["rank"] != rk or not en or re.search(r"\band\b|[,/&(]", en) or not ko.endswith("과"):
+                    continue
+                root = ko[:-2] if rk == "subfamily" else ko[:-1]  # 보아과 → 보아
+                words = [_norm(w) for w in WORD.findall(en)]
+                last = words[-1]
+                one = (last[:-3] + "y" if last.endswith("ies") else last[:-2] if re.search(r"(ch|sh|ss|x)es$", last)
+                       else last[:-1] if last.endswith("s") and not last.endswith("ss") else last)
+                for k in {tuple(words), tuple(words[:-1] + [one])} - {("swift",), ("whitehead",)}:  # 흔한 영어 낱말
+                    self.en.setdefault(k, (root, "c", t["sci"]))
 
     def _match(self, text, toks, i):
         """toks[i] 에서 시작하는 가장 긴 이름 → (끝 토큰 번호, 값)"""

@@ -71,7 +71,7 @@ def prep(names):
     OUT.mkdir(parents=True, exist_ok=True)
     all_names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
     by = {t["sci"]: t for t in all_names}
-    linker = Linker(all_names)
+    linker = Linker(all_names, groups=True)
     dist, bird_iucn, rng, auth = load(DATA / "distribution.json", {}), load(DATA / "bird_iucn.json", {}), load(DATA / "bird_range.json", {}), load(DATA / "bird_authority.json", {})
     report = []
     for sci in names:
@@ -88,7 +88,9 @@ def prep(names):
                 paras[f"{i}.{j}"] = p
                 linked = linker.paragraph(p, seen)
                 for x in [] if isinstance(linked, str) else linked:
-                    if isinstance(x, list):
+                    if isinstance(x, list) and x[2] == "c":  # 무리 이름: 괄호 꼴이 아니어야 names 기록(국명 대체)에 안 들어간다
+                        gloss[x[1]] = f"{x[0]} [무리 이름. 과 국명 {by[x[3]]['name']} {x[3]}]"
+                    elif isinstance(x, list):
                         gloss[x[1]] = f"{x[0]} ({x[3]})"
         rec = dict(sci=sci, ko=t.get("name"), group=t["group"], title=w.get("title"), url=w.get("url"), revision=w.get("revision"),
                    site_facts=dict(iucn=bird_iucn.get(sci) if t["group"] == "AVES" else (dist.get(sci) or {}).get("iucn"),
@@ -174,6 +176,35 @@ def next_batch(chars, reptile_share=REPTILE_SHARE):
           f" · 남은 전체 {len(q):,}종 {sum(c for _, c in q):,}자")
 
 
+SPELLING = {k: v for k, v in load(DATA / "ko_spelling.json", {}).items() if not k.startswith("_")}
+
+
+def spell(text):
+    """버타피디아 표기로: 도마뱀붙이 → 도마뱀부치 (data/ko_spelling.json). 바꾼 글자 수도 받침이 같아 조사는 그대로 둔다."""
+    for a, b in SPELLING.items():
+        text = text.replace(a, b)
+    return text
+
+
+def spelling():
+    """이미 합친 번역본 전체에 표기 교정을 적용한다."""
+    n = 0
+    for f in FINAL.glob("*.json"):
+        s = f.read_text(encoding="utf-8")
+        d = json.loads(s)
+        for sec in d["sections"]:
+            sec["h"] = sec["h"] and spell(sec["h"])
+            for p in sec["paras"]:
+                p["text"] = spell(p["text"])
+        for x in d["notes"]:
+            x["text"] = spell(x["text"])
+        t = json.dumps(d, ensure_ascii=False, indent=1)
+        if t != s:
+            f.write_text(t, encoding="utf-8")
+            n += 1
+    print(f"표기 교정 {n}종")
+
+
 def check():
     FINAL.mkdir(parents=True, exist_ok=True)
     bad = ok = 0
@@ -190,6 +221,9 @@ def check():
         tr = merged(f.stem)
         errs = []
         ko, heads, notes = tr.get("ko", {}), tr.get("heads", {}), tr.get("notes", [])
+        ko = {k: spell(v) for k, v in ko.items()}
+        heads = {k: v and spell(v) for k, v in heads.items()}
+        notes = [dict(n, text=spell(n.get("text", ""))) for n in notes]
         # omit: 일부러 뺀 문단(끊긴 문단을 앞 문단에 합쳤거나, 다른 문서를 가리키기만 하는 문장)
         src["paras"] = {k: v for k, v in src["paras"].items() if k not in tr.get("omit", [])}
         missing = [k for k in src["paras"] if not (ko.get(k) or "").strip()]
@@ -247,6 +281,8 @@ if __name__ == "__main__":
             prep([s for s in names if wiki_of(s).get("sections")])
         else:
             prep([a for a in sys.argv[2:] if not a.startswith("--")])
+    elif sys.argv[1] == "spelling":
+        spelling()
     elif sys.argv[1] == "next":
         share = float(sys.argv[sys.argv.index("--reptiles") + 1]) if "--reptiles" in sys.argv else REPTILE_SHARE
         next_batch(int(sys.argv[sys.argv.index("--chars") + 1]), share)
