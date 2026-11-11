@@ -24,6 +24,10 @@ AMBIGUOUS = {"merlin", "rook", "redhead", "whitehead", "hardhead", "ruff", "ou",
              "redwing", "sora", "standardwing", "watercock", "morningbird"}
 
 
+# 무리 이름으로 쓰지 않는 과: cuckoo 는 관용대로 뻐꾸기로 옮긴다(과 국명 두견이과)
+GROUP_SKIP = {"Cuculidae"}
+
+
 def _norm(w):
     w = w.lower().replace("’", "'")
     return "gray" if w == "grey" else w
@@ -61,7 +65,7 @@ class Linker:
         for rk in ("family", "subfamily"):
             for t in names:
                 ko, en = t.get("name") or "", (t.get("en") or "").strip().lower()
-                if t["rank"] != rk or not en or re.search(r"\band\b|[,/&(]", en) or not ko.endswith("과"):
+                if t["sci"] in GROUP_SKIP or t["rank"] != rk or not en or re.search(r"\band\b|[,/&(]", en) or not ko.endswith("과"):
                     continue
                 root = ko[:-2] if rk == "subfamily" else ko[:-1]  # 보아과 → 보아
                 words = [_norm(w) for w in WORD.findall(en)]
