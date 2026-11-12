@@ -121,7 +121,8 @@ def parse_birds_v2026(title, rows):
             continue
         p = {props[i]: clean(cell(r, i)) for i in props if clean(cell(r, i))}
         t = dict(group="AVES", rank=rank, sci=sci, en=clean(cell(r, i_en)), consensus=clean(cell(r, i_cons)),
-                 consensus_label="명칭 제안", proposals=p, rationale=clean(cell(r, i_why)), sheet=title)
+                 consensus_label="명칭 제안", proposals=p, rationale=clean(cell(r, i_why)), sheet=title,
+                 moe=clean(cell(r, col("환경부 지정명"))), trade=clean(cell(r, col("국내 통용/유통명"))))
         if rank in ("family", "genus", "species", "subspecies"):
             t["family"] = clean(cell(r, i_fam))
             t["order"] = clean(cell(r, i_ord))

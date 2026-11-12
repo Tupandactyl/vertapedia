@@ -54,6 +54,19 @@ class Sheet:
         r.raise_for_status()
         return r.json()
 
+    def values_many(self, tabs):
+        """여러 탭을 한 번에 읽는다(읽기 횟수 제한 회피): {탭: 값}"""
+        r = requests.get(API + self.id + "/values:batchGet", headers=self._h(), timeout=300,
+                         params=[("ranges", f"'{t}'") for t in tabs])
+        r.raise_for_status()
+        return {t: v.get("values", []) for t, v in zip(tabs, r.json()["valueRanges"])}
+
+    def batch(self, reqs):
+        """구조 바꾸기(열 끼워 넣기·탭 추가 등): spreadsheets.batchUpdate"""
+        r = requests.post(API + self.id + ":batchUpdate", headers=self._h(), timeout=300, json={"requests": reqs})
+        r.raise_for_status()
+        return r.json()
+
     def append(self, tab, rows):
         r = requests.post(API + self.id + "/values/" + urllib.parse.quote(f"'{tab}'!A1") + ":append", headers=self._h(),
                           params={"valueInputOption": "RAW", "insertDataOption": "INSERT_ROWS"}, json={"values": rows}, timeout=300)
