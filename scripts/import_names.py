@@ -135,7 +135,8 @@ def parse_birds_v2026(title, rows):
 def parse_birds(path):
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     taxa = []
-    skip = {"남극해 조류 번역", "남극해 조류 스플릿 정리", "캐나다 조류 번역", "상사조과", "v2026 변경 대조"}
+    skip = {"남극해 조류 번역", "남극해 조류 스플릿 정리", "캐나다 조류 번역", "상사조과", "v2026 변경 대조",
+            "지정관리종목록"}  # 지정관리종목록: 법정 목록 대조용(종 탭의 환경부 지정명과 같은 내용)
     for ws in wb.worksheets:
         rows = [r for r in ws.iter_rows(values_only=True) if any(c is not None for c in r)]
         if not rows:
