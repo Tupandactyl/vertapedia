@@ -26,7 +26,8 @@ REPTILE_SHARE = 0.3  # next: 한 회차 글자 수 가운데 파충류 몫(조�
 # 숫자 대조에서 빼는 야드파운드 병기
 IMPERIAL = re.compile(r"\([^()]*\b(?:in|ft|lb|mi|oz|yd|sq mi|mph|acres?|°F)\b[^()]*\)")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
-AGREED = ("consensus", "kos", "kshr")  # 합의된 국명: 시트 합의본, 한국조류목록, 한국양서파충류학회
+AGREED = ("consensus", "kos", "kshr")
+LATER = ("proposal", "kos_held")  # 합의 국명 종이 다 끝나면 번역: 사이트에 실린 제안 국명  # 합의된 국명: 시트 합의본, 한국조류목록, 한국양서파충류학회
 PUBLIC = ("수정", "확인 필요")
 TYPES = PUBLIC + ("번역 메모",)
 
@@ -134,10 +135,14 @@ def names_used(src):
 
 
 def queue():
-    """번역할 차례: 합의 국명이 있고 위키 본문이 있으며 번역본이 없는 종, 시트 순서"""
-    return [(t["sci"], sum(len(p) for s in w["sections"] for p in s["paras"]))
-            for t in load(DATA / "names.json", []) if t.get("rank") == "species" and t.get("status") in AGREED
-            and not (FINAL / fname(t["sci"])).exists() and (w := wiki_of(t["sci"])).get("sections")]
+    """번역할 차례: 위키 본문이 있고 번역본이 없는 종. 합의 국명 종을 먼저(시트 순서), 그다음 사이트에 실린 제안·보류 국명 종.
+    제안 국명이 나중에 바뀌어도 번역본의 names 기록으로 새 국명이 들어간다(ko_names.py)."""
+    names = [t for t in load(DATA / "names.json", []) if t.get("rank") == "species" and not (FINAL / fname(t["sci"])).exists()]
+    out = []
+    for ok in (lambda t: t.get("status") in AGREED, lambda t: t.get("status") in LATER and t.get("name")):
+        out += [(t["sci"], sum(len(p) for s in w["sections"] for p in s["paras"]))
+                for t in names if ok(t) and (w := wiki_of(t["sci"])).get("sections")]
+    return out
 
 
 def by_group(q):
