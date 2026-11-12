@@ -119,7 +119,7 @@ function near1(a,b){
 function score(r,k){
   const n=r._n,sc=key(r[2]),en=key(r[4]);
   if(n===k||sc===k||en===k)return 0;
-  // 같은 단계 안에서는 편집진 합의 국명 > 국내 유통명 > 환경부 지정명 > 아종 국명
+  // 같은 단계 안에서는 편집진 합의 국명 > 국내 관용명 > 환경부 지정명 > 아종 국명
   if(r._tr.includes(k))return 0.2;
   if(r._mo.includes(k))return 0.4;
   if(r._ss.includes(k))return 0.6;
@@ -154,7 +154,7 @@ function render(){
   const list=hits.slice(0,limit);
   document.getElementById('res').innerHTML=list.length?list.map(r=>{
     const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic,alias]=r;
-    const hitAlias=(alias||[]).filter(x=>key(x[1]).includes(k)).sort((a,b)=>(a[0]==='국내 유통명'?0:1)-(b[0]==='국내 유통명'?0:1));
+    const hitAlias=(alias||[]).filter(x=>key(x[1]).includes(k)).sort((a,b)=>(a[0]==='국내 관용명'?0:1)-(b[0]==='국내 관용명'?0:1));
     const label=name?`<span class="nm">${esc(name)}</span>`:`<span class="nm en">${esc(en||sci)}</span>`;
     const title=rk==='s'?`<a class="go" href="sp/${esc(sci.replace(/ /g,'_'))}.html">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:rk==='f'?`<a class="go" href="fam.html#${esc(sci)}">${label}</a>`:label;
     return `<li><div>${title}</div><span class="st ${st}">${ST[st]||st}</span>
@@ -172,7 +172,7 @@ fetch('data/names.min.json').then(r=>r.json()).then(d=>{
     _a:[...(r[10]||[]).map(x=>key(x[1])),...(r[7]||[]).map(x=>key(x[1]))].filter(Boolean)}));
   const al=(r,l)=>(r[10]||[]).filter(x=>x[0]===l).map(x=>key(x[1]));
   rows.forEach(r=>{r._k+=r._a.join('|');r._c+='|'+(r[10]||[]).map(x=>cho(key(x[1]))).join('|');
-    r._tr=al(r,'국내 유통명');r._mo=al(r,'환경부 지정명');r._ss=(r[7]||[]).map(x=>key(x[1])).filter(Boolean)});
+    r._tr=al(r,'국내 관용명');r._mo=al(r,'환경부 지정명');r._ss=(r[7]||[]).map(x=>key(x[1])).filter(Boolean)});
   render();
 }).catch(()=>{document.getElementById('count').textContent='목록을 불러오지 못했습니다. 새로고침해 주세요.'});
 const q0=new URLSearchParams(location.search).get('q');

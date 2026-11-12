@@ -484,7 +484,7 @@ function render(d){
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
   if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
-  if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 유통명',d.refs.trade]);
+  if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 관용명',d.refs.trade]);
   if(d.synonyms&&d.synonyms.length)refs.push(['이명',d.synonyms.map(s=>`<i>${esc(s)}</i>`).join(', ')]);
   if(d.review)refs.push(['명칭 메모',`<span class="memo">${memo(d.review)}</span>`]);
   const ssp=d.subspecies&&d.subspecies.length?`<div class="card"><h3>아종</h3><ul class="ssp">${d.subspecies.map(s=>`<li><i>${esc(s.sci)}</i>${s.author?` <span class="src">${esc(s.author)}</span>`:''} ${esc(s.ko)}${s.note?` <span class="src">(${esc(s.note.split(' · ')[0])})</span>`:''}</li>`).join('')}</ul></div>`:'';

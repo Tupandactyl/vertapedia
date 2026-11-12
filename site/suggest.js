@@ -24,7 +24,7 @@
     loading = fetch("data/names.min.json").then(function (r) { return r.json(); }).then(function (d) {
       rows = d.filter(function (r) { return r[1] === "s" || r[1] === "f"; }).map(function (r) {
         var al = function (label) { return (r[10] || []).filter(function (x) { return x[0] === label; }).map(function (x) { return key(x[1]); }); };
-        var tr = al("국내 유통명"), mo = al("환경부 지정명"), ss = (r[7] || []).map(function (x) { return key(x[1]); }).filter(Boolean);
+        var tr = al("국내 관용명"), mo = al("환경부 지정명"), ss = (r[7] || []).map(function (x) { return key(x[1]); }).filter(Boolean);
         var a = tr.concat(mo, ss).filter(Boolean);
         return { r: r, n: key(r[3]), sc: key(r[2]), en: key(r[4]), a: a, tr: tr, mo: mo, ss: ss, c: cho(key(r[3])),
                  w: [r[2], r[4]].join(" ").toLowerCase().split(/[\s\-']+/).filter(Boolean),
@@ -33,7 +33,7 @@
     });
     return loading;
   }
-  // 같은 단계 안에서는 편집진 합의 국명 > 국내 유통명 > 환경부 지정명 > 아종 국명
+  // 같은 단계 안에서는 편집진 합의 국명 > 국내 관용명 > 환경부 지정명 > 아종 국명
   var eq = function (list, k) { return list.indexOf(k) >= 0; };
   var pre = function (list, k) { return list.some(function (a) { return a.indexOf(k) === 0; }); };
   function score(x, k) {
@@ -98,7 +98,7 @@
       if (!items.length) { box.hidden = true; input.setAttribute("aria-expanded", "false"); return; }
       box.innerHTML = items.map(function (r, i) {
         var byLabel = function (l) { return (r[10] || []).filter(function (x) { return x[0] === l; }); };
-        var alias = byLabel("국내 유통명").concat(byLabel("환경부 지정명"), (r[7] || []).map(function (x) { return ["아종", x[1]]; }))
+        var alias = byLabel("국내 관용명").concat(byLabel("환경부 지정명"), (r[7] || []).map(function (x) { return ["아종", x[1]]; }))
           .filter(function (x) { return x[1] && key(x[1]).indexOf(k) >= 0 && key(r[3]).indexOf(k) < 0; })[0];
         return '<li role="option"><a href="' + href(r) + '" data-i="' + i + '"><span class="rk">' + RK[r[1]] + "</span><b>" +
           esc(r[3] || r[4] || r[2]) + "</b>" + (alias ? '<span class="al">' + esc(alias[1]) + "</span>" : "") +
