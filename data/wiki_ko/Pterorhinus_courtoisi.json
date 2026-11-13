@@ -1,0 +1,90 @@
+{
+ "sci": "Pterorhinus courtoisi",
+ "title": "Blue-crowned laughingthrush",
+ "url": "https://en.wikipedia.org/wiki/Blue-crowned_laughingthrush",
+ "revision": 1362903606,
+ "translator": "Claude",
+ "date": "2026-11-14",
+ "names": {
+  "Pterorhinus courtoisi": [
+   "쪽빛머리웃음지빠귀"
+  ],
+  "Leiothrichidae": [
+   "웃음지빠귀과"
+  ],
+  "Pterorhinus galbanus": [
+   "노랑턱웃음지빠귀"
+  ],
+  "Garrulax": [
+   "눈썹웃음지빠귀속"
+  ]
+ },
+ "sections": [
+  {
+   "h": null,
+   "en": null,
+   "level": 1,
+   "paras": [
+    {
+     "ref": "0.0",
+     "text": "쪽빛머리웃음지빠귀(blue-crowned laughingthrush 또는 Courtois's laughingbird, *Pterorhinus courtoisi*)는 웃음지빠귀과(Leiothrichidae)에 속하는 새이다. 지금은 중국 장시성에서만 발견된다. 최근까지 이 위급종은 대체로 노랑턱웃음지빠귀(yellow-throated laughingthrush, *Pterorhinus galbanus*)의 아종으로 취급되었으나, 노랑턱웃음지빠귀의 정수리는 푸른빛이 아니라 옅은 회색이다."
+    },
+    {
+     "ref": "0.1",
+     "text": "쪽빛머리웃음지빠귀는 이전에는 눈썹웃음지빠귀속(*Garrulax*)에 놓였으나, 2018년 포괄적인 분자 계통 연구가 발표된 뒤 부활한 *Pterorhinus* 속으로 옮겨졌다. 종소명은 중국에 파견된 프랑스 선교사 프레데리크 쿠르투아(Frédéric Courtois, 1860~1928)를 기려 지었다."
+    }
+   ]
+  },
+  {
+   "h": "유전체",
+   "en": "Genomics",
+   "level": 2,
+   "paras": [
+    {
+     "ref": "1.0",
+     "text": "*Pterorhinus courtoisi*의 염색체 수준 유전체 조립본이 2026년에 발표되었다. 유전체 크기는 약 1.26 Gb이며 서열의 92.32%가 39개의 의사염색체에 고정되었다. 조립본의 BUSCO 완전성은 96.6%이고 단백질 암호화 유전자 16,807개가 예측되었다."
+    }
+   ]
+  },
+  {
+   "h": "개체군",
+   "en": "Population",
+   "level": 2,
+   "paras": [
+    {
+     "ref": "2.0",
+     "text": "기준 아종은 2000년에 장시성 우위안현에서 재발견되었을 뿐이며, 야생 개체군은 총 약 200마리로 여전히 매우 드물다. *P. c. simaoensis* 아종은 1956년 윈난성 쓰마오에서 기준 표본이 채집된 이후 야생에서 발견되지 않았다. 100마리가 넘는 쪽빛머리웃음지빠귀가 동물원(포획 번식 프로그램의 일부)과 개인 사육에서 길러지고 있으나 어느 아종에 속하는지는 분명하지 않다. 최근의 검토는 두 아종의 구분을 뒷받침하지 못했고, 그 결과 *P. c. simaoensis*는 『세계의 새 핸드북』(Handbook of the Birds of the World)에서 기준 아종의 이명으로 취급된다."
+    }
+   ]
+  },
+  {
+   "h": "보전 현황",
+   "en": "Conservation status",
+   "level": 2,
+   "paras": [
+    {
+     "ref": "3.0",
+     "text": "이 새는 2006년 IUCN 적색목록에 잘못해서 관심대상종으로 올라 있었다. 현재는 적어도 야생에서는 멸종에 가까운 것으로 보이며, 이에 따라 2007년 적색목록에서 등급이 위급(CR)으로 바로잡혔다."
+    }
+   ]
+  }
+ ],
+ "skipped": [],
+ "notes": [
+  {
+   "ref": "0.0",
+   "type": "번역 메모",
+   "text": "원문의 'Courtois's laughingbird'는 'laughingthrush'의 오기로 보이며 원문 표기를 그대로 두었다."
+  },
+  {
+   "ref": "2.0",
+   "type": "확인 필요",
+   "text": "'야생 개체군 약 200마리'는 원문 수치이며 현재 값은 다른 출처와 대조하지 못했다."
+  },
+  {
+   "ref": "1.0",
+   "type": "확인 필요",
+   "text": "2026년 발표된 유전체 조립본의 수치는 원문 그대로이며 출처를 대조하지 못했다."
+  }
+ ]
+}
