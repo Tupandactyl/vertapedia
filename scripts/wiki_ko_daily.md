@@ -6,10 +6,14 @@
 다음 중 하나면 이번 회차를 건너뛴다.
 - 5시간 한도 사용량 40% 이상
 - 주간 한도 사용량이 허용치 이상. 허용치 = 25 + 8 × (이번 주 경과 일수), 최대 75
+- `translation_review/LOCK` 파일이 있고 3시간이 안 됐다(다른 세션이 번역 중). 3시간이 넘은 LOCK은 지우고 진행한다.
+
+주말 가속(2026-11-13 금 ~ 11-15 일, 한국 시간, 사용자 요청): 5시간 기준 60%(새 에이전트는 70%), 주간 허용치 = 30 + 10 × 경과 일수, 최대 60. 이 기간에는 `next --chars 600000`으로 준비하고 예약은 1시간마다 돈다. 11-16 월요일부터는 위 기본값으로 돌아간다.
 
 이 기준은 사람의 다른 작업이 쓴 양까지 포함하므로, 다른 작업이 많은 날은 번역이 저절로 줄어든다.
 
 ## 2. 준비
+- 시작할 때 `translation_review/LOCK`에 현재 시각을 쓰고, 4단계가 끝나면 지운다.
 - `python scripts/wiki_ko.py status`: 남은 양. 0종이면 끝낸다.
 - `git pull --rebase --autostash`, `python scripts/fetch_sheets.py`, `python scripts/import_names.py`
 - `python scripts/wiki_ko.py next --chars 300000`: 묶음은 `translation_review/batches.json`. 글자 수의 30%는 파충류, 나머지는 조류(각각 시트 순서). 한쪽이 끝나면 다른 쪽이 전부 쓴다.
