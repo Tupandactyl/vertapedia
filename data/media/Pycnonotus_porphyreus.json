@@ -1,7 +1,126 @@
 {
  "sci": "Pycnonotus porphyreus",
- "fetched": "2026-11-05",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-13",
+ "inat": {
+  "id": 1722457,
+  "name": "Pycnonotus porphyreus",
+  "observations": 30,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Barusan_bulbul",
+  "common": "Barusan Bulbul"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616756149/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kalvin Chan, some rights reserved (CC BY)",
+   "obs": 339084470,
+   "place": "Sumatera Barat, ID",
+   "date": "2026-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616756072/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Kalvin Chan, some rights reserved (CC BY)",
+   "obs": 339084433,
+   "place": "Sumatera Barat, ID",
+   "date": "2026-01-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/630599010/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Niels de Haan, some rights reserved (CC BY-NC)",
+   "obs": 345993338,
+   "place": "Padang City, West Sumatra, Indonesia",
+   "date": "2024-07-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571659674/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Scott Bowers, some rights reserved (CC BY-NC)",
+   "obs": 316406372,
+   "place": "Sipura Island",
+   "date": "2025-08-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/549764795/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Finn Klessmann, some rights reserved (CC BY-NC)",
+   "obs": 304945581,
+   "place": "Padang City, West Sumatra, Indonesien",
+   "date": "2025-03-23"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618847975/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Jason Alexander, some rights reserved (CC BY)",
+   "obs": 340265920,
+   "place": "Sumatera Barat, ID",
+   "date": "2026-01-24"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159143505/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC)",
+   "obs": 95834995,
+   "place": "Muaro Duo Bay, Sungai Pisang, Tlk. Kabung Sel., Bungus Tlk. Kabung, Kota Padang, Sumatera Barat, Indonesia",
+   "date": "2018-12-09"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27260806/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Subir B. Shakya, some rights reserved (CC BY)",
+   "obs": 17857039,
+   "place": "Pasakiat Taileleu, Seberut Barat Daya, Kepulauan Mentawai, West Sumatra, Indonesia",
+   "date": "2018-03-03"
+  }
+ ],
+ "wiki": {
+  "title": "Barusan bulbul",
+  "url": "https://en.wikipedia.org/wiki/Barusan_bulbul",
+  "revision": 1383795324,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Barusan bulbul (Pycnonotus porphyreus) is a member of the family Pycnonotidae.",
+     "It is found in western Sumatra and the islands of Nias, Siberut, Batu Islands, Banyak Islands and Sipura. It was described by Harry Church Oberholser in 1912. It is monotypic."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered a subspecies of the olive-winged bulbul, however, it was separated from it based on differences in eye color and vocalizations."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This species is similar to the olive-winged bulbul, but it differs in its eye color; this species has ochre, yellow and orange eyes as compared to the olive-winged bulbul's reddish or brown eyes. It also has an unusual contrast between the olive back and the gray, scaly crown."
+    ]
+   }
+  ]
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27260806/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Subir B. Shakya, some rights reserved (CC BY), uploaded by Subir B. Shakya",
+   "photo": 27260806
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159143505/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Wild Sumatra, some rights reserved (CC BY-NC), uploaded by Wild Sumatra",
+   "photo": 159143505
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364006282/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Samuel GUIRAUDOU, some rights reserved (CC BY), uploaded by Samuel GUIRAUDOU",
+   "photo": 364006282
+  }
+ ]
 }

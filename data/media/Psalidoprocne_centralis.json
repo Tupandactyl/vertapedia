@@ -1,7 +1,74 @@
 {
  "sci": "Psalidoprocne centralis",
- "fetched": "2026-11-05",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-13",
+ "inat": {
+  "id": 1722458,
+  "name": "Psalidoprocne centralis",
+  "observations": 3,
+  "wikipedia_url": null,
+  "common": "Congo Saw-wing"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13634176/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Dérozier Violette, some rights reserved (CC BY-NC)",
+   "obs": 9935148,
+   "place": "Mai-Ndombe, République démocratique du Congo",
+   "date": "2016-03-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41538950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC)",
+   "obs": 26740950,
+   "place": "Ituri, Democratic Republic of the Congo",
+   "date": "2019-06-05"
+  }
+ ],
+ "wiki": {
+  "title": "Congo saw-wing",
+  "url": "https://en.wikipedia.org/wiki/Congo_saw-wing",
+  "revision": 1384621776,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The Congo saw-wing (Psalidoprocne centralis) is a species of bird in the family Hirundinidae. It is endemic to the Democratic Republic of the Congo. It was described by Oscar Rudolph Neumann in 1904. It is monotypic."
+    ]
+   },
+   {
+    "h": "Taxonomy and systematics",
+    "level": 2,
+    "paras": [
+     "This species was formerly considered conspecific with the square-tailed saw-wing. It was separated from the square-tailed saw-wing by a combination of plumage and genetics."
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "This species is a dark, glossy green, with a blackish-brown throat. The juvenile is duller brown, with a duller green sheen."
+    ]
+   },
+   {
+    "h": "Habits and habitat",
+    "level": 2,
+    "paras": [
+     "This species is common in the northern and central Democratic Republic of the Congo and is found in lowland primary and secondary forest. Its diet includes beetles, flies, ants, and termites, and it forages in pairs or small flocks.",
+     "It sometimes twitters in flocks and gives a sip sound. It has been observed breeding in February, May and July-October with a clutch size of 2 eggs. One nest contained 4 eggs, which may have been the result of two birds laying their eggs in the same nest. The burrow is dug 0.3-2 m long and is lined with lichens and moss."
+    ]
+   }
+  ],
+  "found_by": "Psalidoprocne centralis"
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41538950/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+   "photo": 41538950
+  }
+ ]
 }
