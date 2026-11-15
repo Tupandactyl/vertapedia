@@ -1,7 +1,136 @@
 {
  "sci": "Bubo nacurutu",
- "fetched": "2026-11-05",
- "inat": null,
- "photos": [],
- "wiki": null
+ "fetched": "2026-11-15",
+ "inat": {
+  "id": 1722708,
+  "name": "Bubo nacurutu",
+  "observations": 128,
+  "wikipedia_url": null,
+  "common": "Tropical Horned Owl"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/540455954/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Valentín Alfano, some rights reserved (CC BY)",
+   "obs": 299975281,
+   "place": "Palermo, Cdad. Autónoma de Buenos Aires, Argentina",
+   "date": "2025-07-21"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286978920/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Ricardo Palacios, some rights reserved (CC BY-NC)",
+   "obs": 165765932,
+   "place": "Santo Tomé, Corrientes, Argentina",
+   "date": "2023-05-01"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516600529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alejo De Luca, some rights reserved (CC BY-NC)",
+   "obs": 287036286,
+   "place": "Vicente López, Provincia de Buenos Aires, Argentina",
+   "date": "2025-05-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167646526/{size}.jpeg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 100445376,
+   "place": "Funes, Santa Fe, Argentina",
+   "date": "2021-11-05"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258866428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) claudioconsonni, some rights reserved (CC BY-NC)",
+   "obs": 150160143,
+   "place": "Lagamar - MG, 38785-000, Brasil",
+   "date": "2021-01-19"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244567574/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guille Ivan Spajic, some rights reserved (CC BY-NC)",
+   "obs": 142631891,
+   "place": "Lago Regatas, CABA, Argentina",
+   "date": "2022-09-07"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30083699/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Guille Ivan Spajic, some rights reserved (CC BY-NC)",
+   "obs": 19545971,
+   "place": "Lago Regatas, CABA, Argentina",
+   "date": "2016-05-31"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277536495/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) reinaldogibin, some rights reserved (CC BY-NC)",
+   "obs": 160605337,
+   "place": "Conceição dos Ouros, MG, 37548-000, Brasil",
+   "date": "2022-07-29"
+  }
+ ],
+ "wiki": {
+  "title": "Tropical horned owl",
+  "url": "https://en.wikipedia.org/wiki/Tropical_horned_owl",
+  "revision": 1385484730,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The tropical horned owl (Bubo nacurutu), also known as the Colombian great horned owl, Venezuelan great horned owl, or desert great horned owl, is a species of owl in the genus Bubo. It was formerly treated as a subspecies of the great horned owl (Bubo virginianus). It lives in tropical South America. It generally occurs in more open areas than the North American great horned owl, and avoids dense humid forest, e.g. the Amazon rainforest. Unlike other species of the great horned owl complex, the eyes of the South American horned owl are amber rather than yellow. Although the largest owl in its range, it is a relatively small horned owl."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The tropical horned owl was formally described in 1817 by the French ornithologist Louis Vieillot as Strix nacurutu. Vieillot based his account on a plate engraved by François-Nicolas Martinet that was produced to accompany a work by the French polymath Comte de Buffon. The type location of \"Megallanic lands\" is from the caption to  Martinet's plate. The specific epithet nacurutu is from the Spanish name \"el Ñacurutu\" given to this owl in 1802 by the Spanish naturalist Félix de Azara in his book Apuntamientos para la historia natural de los páxaros del Paragüay y Rio de la Plata. The Spanish word comes from the Guarani language name \"Nhakûrutû\" for an owl. This owl was formerly considered to be a subspecies of the great horned owl (Bubo virginianus) but is now treated as a separate species based on a combination of vocal and genetic evidence.",
+     "Two subspecies are recognised:",
+     "B. n. nacurutu (Vieillot, 1817) – lowland South America, from northern Colombia eastward to the Guianas, and from southeastern Peru eastward to northeastern Brazil and northeastern Argentina",
+     "B. n. deserti Reiser, 1905 – north-central Bahia (northeastern Brazil)"
+    ]
+   },
+   {
+    "h": "Description",
+    "level": 2,
+    "paras": [
+     "The tropical horned owl is a dull brownish colour with a long bill; birds from the semi-arid interior of Brazil often have much white on uppertail-coverts and ear-coverts. The iris is amber, not yellow."
+    ]
+   },
+   {
+    "h": "Distribution and habitat",
+    "level": 2,
+    "paras": [
+     "The tropical horned owl is known from eastern Colombia, Venezuela, Belize, French Guiana, northeastern Brazil, Bolivia, Paraguay, Uruguay and Argentina."
+    ]
+   }
+  ],
+  "found_by": "Bubo nacurutu"
+ },
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258866428/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) claudioconsonni, algunos derechos reservados (CC BY-NC), subido por claudioconsonni",
+   "photo": 258866428
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/680094964/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Stefan Göttel, algunos derechos reservados (CC BY-NC), subido por Stefan Göttel",
+   "photo": 680094964
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390502462/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Thieres Pinto, algunos derechos reservados (CC BY-NC), subido por Thieres Pinto",
+   "photo": 390502462
+  }
+ ]
 }
