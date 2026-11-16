@@ -82,7 +82,7 @@
       (isReply ? "" : '<select name="kind" aria-label="종류"><option value="opinion">댓글</option><option value="error">검토 필요</option><option value="info">추가 정보</option></select>') +
       (ADMIN ? '<input name="nick" maxlength="16" placeholder="표시 이름" value="' + nick + '" aria-label="표시 이름">'
              : '<input name="nick" maxlength="16" placeholder="경추" value="' + nick + '" aria-label="닉네임"><input name="pw" type="password" minlength="4" maxlength="40" placeholder="비밀번호" aria-label="삭제용 비밀번호" autocomplete="new-password">') +
-      '<textarea name="body" maxlength="3000" required placeholder="' + (isReply ? "답글" : "제안 및 의견을 공유해 주세요. 출처가 있으면 함께 적어 주시면 좋습니다") + '"></textarea>' +
+      '<textarea name="body" maxlength="3000" required placeholder="' + "제안 및 의견을 공유해 주세요. 출처가 있으면 함께 적어 주시면 좋습니다" + '"></textarea>' +
       '<div class="vt-cap"></div><div class="vt-row"><span class="vt-err" role="alert"></span><button type="submit">' + (isReply ? "답글 등록" : "등록") + "</button></div></form>";
   }
 
