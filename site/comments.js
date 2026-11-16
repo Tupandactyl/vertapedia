@@ -6,7 +6,7 @@
   var LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
   var CFG = Object.assign({ api: LOCAL ? "http://127.0.0.1:8787" : "https://api.vertapedia.org", turnstile: "0x4AAAAAAGCt4FRnujHizDWS", google: "648752126074-gg5vskn6k8dbo1magp2kgddt0ls4dg36.apps.googleusercontent.com" }, window.VTALK || {});
   var API = CFG.api;
-  var KIND = { opinion: "의견", error: "오류 지적", info: "정보 추가" };
+  var KIND = { opinion: "댓글", error: "검토 필요", info: "추가 정보" };
   var STATUS = { open: "처리 전", review: "검토 중", done: "반영됨", wontfix: "반영 안 함" };
   var esc = function (t) { return String(t == null ? "" : t).replace(/[<>&"]/g, function (c) { return { "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;" }[c]; }); };
   function bodyHtml(t) {
@@ -79,10 +79,10 @@
   function form(isReply) {
     var nick = esc(store.lget("vtalk-nick") || "");
     return '<form class="vt-form' + (isReply ? " vt-replyform" : "") + '">' +
-      (isReply ? "" : '<select name="kind" aria-label="종류"><option value="opinion">의견</option><option value="error">오류 지적</option><option value="info">정보 추가</option></select>') +
+      (isReply ? "" : '<select name="kind" aria-label="종류"><option value="opinion">댓글</option><option value="error">검토 필요</option><option value="info">추가 정보</option></select>') +
       (ADMIN ? '<input name="nick" maxlength="16" placeholder="표시 이름" value="' + nick + '" aria-label="표시 이름">'
-             : '<input name="nick" maxlength="16" placeholder="ㅇㅇ" value="' + nick + '" aria-label="닉네임"><input name="pw" type="password" minlength="4" maxlength="40" placeholder="비밀번호" aria-label="삭제용 비밀번호" autocomplete="new-password">') +
-      '<textarea name="body" maxlength="3000" required placeholder="' + (isReply ? "답글을 적어 주세요" : "틀린 곳, 더할 정보, 의견을 적어 주세요. 출처가 있으면 함께 적어 주시면 좋습니다") + '"></textarea>' +
+             : '<input name="nick" maxlength="16" placeholder="경추" value="' + nick + '" aria-label="닉네임"><input name="pw" type="password" minlength="4" maxlength="40" placeholder="비밀번호" aria-label="삭제용 비밀번호" autocomplete="new-password">') +
+      '<textarea name="body" maxlength="3000" required placeholder="' + (isReply ? "답글" : "내용") + '"></textarea>' +
       '<div class="vt-cap"></div><div class="vt-row"><span class="vt-err" role="alert"></span><button type="submit">' + (isReply ? "답글 등록" : "등록") + "</button></div></form>";
   }
 
@@ -94,13 +94,12 @@
       var tops = items.filter(function (c) { return !c.parent; });
       var n = items.filter(function (c) { return !c.hidden; }).length;
       el.innerHTML = '<h2>의견 <span class="vt-n">' + n + "</span></h2>" +
-        '<p class="vt-note">누구나 남길 수 있습니다. 닉네임과 IP 앞 두 자리가 공개되며, 전체 IP는 남기지 않습니다(도배 막기용 암호화 값만 보관). <a href="talk.html">모든 의견 보기</a></p>' +
         '<div class="vt-list">' + (tops.length ? tops.map(function (t) {
           var kids = items.filter(function (c) { return c.parent === t.id; });
           return '<div class="vt-thread">' + item(t) + (kids.length ? '<div class="vt-kids">' + kids.map(item).join("") + "</div>" : "") + "</div>";
-        }).join("") : '<p class="vt-empty">아직 의견이 없습니다. 틀린 곳이나 더할 정보가 있으면 첫 의견을 남겨 주세요.</p>') + "</div>" +
+        }).join("") : "") + "</div>" +
         form(false) +
-        '<p class="vt-admin">' + (ADMIN ? '관리자로 로그인됨 · <a href="#" data-act="logout">로그아웃</a>' : '<a href="#" data-act="login">관리자 로그인</a>') + '</p><div class="vt-gsi"></div>';
+        '<p class="vt-admin">' + (ADMIN ? '관리자 · <a href="talk.html">모든 의견</a> · <a href="#" data-act="logout">로그아웃</a>' : '<a href="#" data-act="login">관리자 로그인</a>') + '</p><div class="vt-gsi"></div>';
     }
     function refresh() {
       return call("/comments?page=" + encodeURIComponent(page)).then(function (j) {

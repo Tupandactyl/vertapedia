@@ -108,7 +108,7 @@ async function post(req, env) {
   const ip = req.headers.get("CF-Connecting-IP") || "";
   const ipHash = await sha256(env.IP_SALT + "|" + ip);
   const page = clean(b.page, 200), body = clean(b.body, 3000), title = clean(b.title, 80);
-  let nick = clean(b.nick, 16) || (admin ? "관리자" : "ㅇㅇ");
+  let nick = clean(b.nick, 16) || (admin ? "관리자" : "경추");
   const kind = KINDS.includes(b.kind) ? b.kind : "opinion";
   if (!/^(sp|fam):[A-Za-z_ -]+$/.test(page)) return fail(req, env, "문서를 알 수 없습니다");
   if (!body) return fail(req, env, "내용을 적어 주세요");

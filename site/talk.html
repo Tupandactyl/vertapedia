@@ -19,12 +19,11 @@
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
   <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
-  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a><a href="talk.html">의견</a></nav>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a></nav>
 </div></header>
 <main class="talkpage">
   <h1>의견 모아보기</h1>
-  <p class="vt-note">각 문서 맨 아래에 남겨진 의견입니다. 글을 누르면 그 문서의 의견창으로 갑니다. 의견은 해당 문서에서 남겨 주세요.</p>
-  <div class="vt vt-feed" id="feed">
+    <div class="vt vt-feed" id="feed">
     <div class="vt-filters" id="kinds" aria-label="종류"></div>
     <div class="vt-filters" id="states" aria-label="처리 상태"></div>
     <div id="list"><p class="vt-empty">불러오는 중입니다.</p></div>
@@ -37,7 +36,7 @@
 <script>
 (function(){
   const V=window.VTalk, esc=V.esc;
-  const KINDS=[['','전체'],['error','오류 지적'],['info','정보 추가'],['opinion','의견']];
+  const KINDS=[['','전체'],['error','검토 필요'],['info','추가 정보'],['opinion','댓글']];
   const STATES=[['','모든 상태'],['todo','처리 전·검토 중'],['done','반영됨'],['wontfix','반영 안 함']];
   let kind='', status='', last=0;
   const href=c=>{const [t,s]=c.page.split(':');return (t==='sp'?`sp/${encodeURIComponent(s)}.html`:`fam.html#${encodeURIComponent(s)}`)+'#talk'};
