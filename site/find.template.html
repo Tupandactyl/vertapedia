@@ -87,9 +87,8 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
   <button class="more" id="more" hidden>더 보기</button>
 
   <footer>
-    <p>학명: AviList·eBird/Clements(조류), The Reptile Database(파충류)</p>
-    <p>국명 우선순위: 한국조류목록 2025 → 편집진 합의 → 편집진 제안(조류) · 한국양서파충류학회 2025 → 편집진 합의(파충류) · 국명 없으면 영명</p>
-    <p>시트 반영 주기: 6시간 <span id="built"></span></p>
+    <p>학명은 eBird/Clements·AviList(조류)와 The Reptile Database(파충류)를 따릅니다. 조류 국명은 한국조류목록 2025 → 편집진 합의 → 편집진 제안 순으로 씁니다. 파충류 국명은 한국양서파충류학회 2025 → 편집진 합의 순입니다. 국명이 없으면 영명을 표시합니다.</p>
+    <p>편집진 시트가 바뀌면 6시간 안에 반영됩니다. <span id="built"></span></p>
   </footer>
 </div>
 <script src="tree.js"></script>
@@ -101,7 +100,7 @@ const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','
 let rows=[],g='',q='',limit=60,TREE=null;
 const s=META.stats;
 document.getElementById('stats').innerHTML=`<span>조류 <b>${s.AVES.total.toLocaleString()}</b>종 · 국명 <b>${s.AVES.named.toLocaleString()}</b> · 사진 <b>${s.AVES.photos.toLocaleString()}</b> · 번역 <b>${s.AVES.translated.toLocaleString()}</b></span><span>파충류 <b>${s.REPTILIA.total.toLocaleString()}</b>종 · 국명 <b>${s.REPTILIA.named.toLocaleString()}</b> · 사진 <b>${s.REPTILIA.photos.toLocaleString()}</b> · 번역 <b>${s.REPTILIA.translated.toLocaleString()}</b></span>`;
-document.getElementById('built').textContent=`· 마지막 갱신 ${META.built}`;
+document.getElementById('built').textContent=`마지막 갱신: ${META.built}`;
 // 공백·하이픈·아포스트로피·마침표 등을 지우고 비교한다: red tailed = red-tailed = redtailed, Blyth's = Blyths
 const key=t=>(t||'').toLowerCase().replace(/[\s\-‐-―'’.,()]+/g,'');
 // 초성: 두루미 → ㄷㄹㅁ

@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="tree.css">
 <link rel="stylesheet" href="comments.css">
 <style>
-/* Layout: 계통 경로 → 국명·학명 머리 → 사진 갤러리 → (설명 | 국명 카드·바깥 링크) */
+/* Layout: 계통 경로 → 국명·학명 머리 → 사진 갤러리 → (설명 | 국명 카드·외부 링크) */
 :root{
   --bg:#eef1ee; --panel:#ffffff; --ink:#1d2621; --muted:#5d6b63; --line:#d3dbd5;
   --moss:#2f5d46; --moss-soft:#dfeae3; --ok:#2e7d4f; --warn:#a86a12; --info:#3b5f8a;
@@ -231,8 +231,8 @@ function descKo(d){
   const notes=k.notes.length?`<div class="konotes"><h3>번역 주석</h3><ol>${k.notes.map(n=>`<li><span class="kt${n.type==='수정'?' fix':''}">${esc(n.type)}</span> ${koText(n.text)}</li>`).join('')}</ol></div>`:'';
   const skip=k.skipped.length?`<p class="src">번역 생략한 절: ${k.skipped.map(esc).join(', ')}</p>`:'';
   const gen=w.genus_doc?`<div class="notice">종 문서 없음 · <b>속(<i>${esc(w.title)}</i>) 문서</b>로 대신함</div>`:'';
-  return `<div class="l-ko">${gen}${body}${skip}<div class="notice">AI(Claude) 번역 · 원문 대조: 제목 옆 아이콘${k.notes.length?' · 검토·수정 사항: 아래 주석':''}${k.renamed&&k.renamed.length?` · 바뀐 국명 반영: ${k.renamed.map(([a,b])=>`${esc(a)} → ${koText(b)}`).join(', ')}`:''}</div>${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
-  <div class="l-en">${gen}<div class="notice">영문 위키백과 원문 (참고문헌·바깥 링크 제외)</div>${w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${paraEn(p,d.sci)}</p>`).join('')).join('')}<p class="src">출처: ${src}${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>`;
+  return `<div class="l-ko">${gen}${body}${skip}<div class="notice">AI(Claude) 번역본으로, 검토를 위해 원본 문서 및 연구논문과의 대조를 권장합니다${k.renamed&&k.renamed.length?` · 바뀐 국명 반영: ${k.renamed.map(([a,b])=>`${esc(a)} → ${koText(b)}`).join(', ')}`:''}</div>${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
+  <div class="l-en">${gen}<div class="notice">영문 위키백과 원문 (참고문헌·외부 링크 제외)</div>${w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${paraEn(p,d.sci)}</p>`).join('')).join('')}<p class="src">출처: ${src}${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>`;
 }
 const langTog=()=>`<span class="langtog" role="group" aria-label="설명 언어"><button type="button" data-l="ko" aria-pressed="${DESC_LANG==='ko'}" title="한국어 번역 보기" aria-label="한국어 번역 보기">가</button><button type="button" data-l="en" aria-pressed="${DESC_LANG==='en'}" title="영어 원문 보기" aria-label="영어 원문 보기">A</button></span>`;
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
@@ -481,7 +481,7 @@ function render(d){
   const w=d.wiki;
   const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${para(p,d.sci)}</p>`).join('')).join('')
     :w&&w.extract?`<p lang="en">${esc(w.extract)}</p>`:'';
-  const desc=d.wiki_ko&&w&&w.sections?descKo(d):body?`${w.genus_doc?`<div class="notice">종 문서 없음 · <b>속(<i>${esc(w.title)}</i>) 문서</b>로 대신함</div>`:''}<div class="notice">${w.sections?'영문 위키백과 원문 (참고문헌·바깥 링크 제외)'+(w.ko_linked?' · 생물 이름: 버타피디아 국명':''):'영문 위키백과 요약'} · 번역 준비 중</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
+  const desc=d.wiki_ko&&w&&w.sections?descKo(d):body?`${w.genus_doc?`<div class="notice">종 문서 없음 · <b>속(<i>${esc(w.title)}</i>) 문서</b>로 대신함</div>`:''}<div class="notice">${w.sections?'영문 위키백과 원문 (참고문헌·외부 링크 제외)'+(w.ko_linked?' · 생물 이름: 버타피디아 국명':''):'영문 위키백과 요약'} · 번역 준비 중</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
     :`<p class="src">위키백과 문서 없음</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
