@@ -76,6 +76,17 @@
     if (c.hidden) return '<div class="vt-item vt-gone" data-id="' + c.id + '">' + (c.hidden === 2 ? "관리자가 숨긴 의견입니다." : "작성자가 지운 의견입니다.") + "</div>";
     return '<div class="vt-item" data-id="' + c.id + '">' + meta(c) + '<div class="vt-body">' + bodyHtml(c.body) + "</div>" + tools(c) + "</div>";
   }
+  // 닉네임을 비워 두면 국명 가운데 하나를 무작위로 쓴다(폼을 그릴 때마다 새로 고름)
+  var NICKS = null;
+  function loadNicks() {
+    if (NICKS) return Promise.resolve(NICKS);
+    return fetch("/data/nicks.json").then(function (r) { return r.json(); })
+      .then(function (a) { NICKS = a && a.length ? a : ["경추"]; return NICKS; }).catch(function () { return (NICKS = ["경추"]); });
+  }
+  function rollNick(f) {
+    var x = f.elements.nick;
+    if (x && !ADMIN) loadNicks().then(function (a) { x.placeholder = a[Math.floor(Math.random() * a.length)]; });
+  }
   function form(isReply) {
     var nick = esc(store.lget("vtalk-nick") || "");
     return '<form class="vt-form' + (isReply ? " vt-replyform" : "") + '">' +
@@ -100,6 +111,7 @@
         }).join("") : "") + "</div>" +
         form(false) +
         '<p class="vt-admin">' + (ADMIN ? '관리자 · <a href="talk.html">모든 의견</a> · <a href="#" data-act="logout">로그아웃</a>' : '<a href="#" data-act="login">관리자 로그인</a>') + '</p><div class="vt-gsi"></div>';
+      Array.prototype.forEach.call(el.querySelectorAll(".vt-form"), rollNick);
     }
     function refresh() {
       return call("/comments?page=" + encodeURIComponent(page)).then(function (j) {
@@ -118,7 +130,8 @@
       if (CFG.turnstile && !ADMIN && !tok) { err.textContent = "자동 등록 방지 확인이 끝나지 않았습니다. 잠시 뒤 다시 눌러 주세요"; captcha(cap); return; }
       btn.disabled = true;
       if (v("nick")) store.lset("vtalk-nick", v("nick"));
-      call("/comments", { body: { page: page, title: title, parent: parent || null, kind: v("kind") || "opinion", nick: v("nick"), pw: v("pw"), body: v("body"), turnstile: tok } })
+      var nx = f.elements.nick;
+      call("/comments", { body: { page: page, title: title, parent: parent || null, kind: v("kind") || "opinion", nick: v("nick") || (!ADMIN && nx ? nx.placeholder : ""), pw: v("pw"), body: v("body"), turnstile: tok } })
         .then(refresh).catch(function (e) { err.textContent = e.message; btn.disabled = false; if (cap._tw != null) window.turnstile.reset(cap._tw); });
     }
     el.addEventListener("focusin", function (e) { var f = e.target.closest(".vt-form"); if (f) captcha(f.querySelector(".vt-cap")); });
@@ -141,7 +154,7 @@
       if (act === "reply") {
         var th = b.closest(".vt-thread"), old = th.querySelector(".vt-replyform");
         if (old) { old.remove(); return; }
-        th.insertAdjacentHTML("beforeend", form(true)); th.querySelector(".vt-replyform textarea").focus(); return;
+        th.insertAdjacentHTML("beforeend", form(true)); rollNick(th.querySelector(".vt-replyform")); th.querySelector(".vt-replyform textarea").focus(); return;
       }
       if (act === "delete") {
         var pw = prompt("글을 쓸 때 정한 비밀번호");

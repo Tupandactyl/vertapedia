@@ -167,7 +167,7 @@ def pics(m):
     pid = lambda p: p["url"].split("/photos/")[-1].split("/")[0]
     seen = {pid(c) for c in cover}
     out = cover + [p for p in m.get("photos", []) if pid(p) not in seen]
-    return out or list(m.get("commons") or [])  # iNaturalist 사진이 없으면 위키미디어 커먼즈 자유 이미지
+    return out + list(m.get("commons") or []) if len(out) <= 2 else out  # iNaturalist 사진이 2장 이하면 위키미디어 커먼즈 자유 이미지를 뒤에 붙인다
 
 
 has_pic = lambda sci: bool(media.get(sci, {}).get("photos") or media.get(sci, {}).get("curated") or media.get(sci, {}).get("commons"))
@@ -374,6 +374,8 @@ for t in names:
 # --- 첫 화면에 띄울 종 ---
 pool = [t["sci"] for t in species if t.get("name") and has_pic(t["sci"])]
 (SITE / "data" / "random.json").write_text(dump(pool), encoding="utf-8")
+# 의견창의 무작위 닉네임: 국명 가운데 띄어쓰기 없이 16자 이하인 것
+(SITE / "data" / "nicks.json").write_text(dump(sorted({t["name"] for t in species if t.get("name") and len(t["name"]) <= 16 and " " not in t["name"]})), encoding="utf-8")
 
 # --- 종 문서 ---
 shutil.rmtree(SITE / "sp", ignore_errors=True)
