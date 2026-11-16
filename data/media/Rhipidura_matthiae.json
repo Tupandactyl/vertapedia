@@ -32,5 +32,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Rhipidura_matthiae.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rhipidura_matthiae.jpg",
+   "license": "Public domain",
+   "artist": "Journal für Ornithologie 50, 1902 plate 9, figure 2.",
+   "title": "Rhipidura matthiae.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Rhipidura_matthiae_3.jpg/960px-Rhipidura_matthiae_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rhipidura_matthiae_3.jpg",
+   "license": "Public domain",
+   "artist": "Journal für Ornithologie 50, 1902 plate 9, figure 2.",
+   "title": "Rhipidura matthiae 3.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

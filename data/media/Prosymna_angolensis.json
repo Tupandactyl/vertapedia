@@ -80,5 +80,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Prosymna_angolensis.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Prosymna_angolensis.png",
+   "license": "CC BY 4.0",
+   "artist": "Francois Theart",
+   "title": "Prosymna angolensis.png"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Prosymna_angolensis_2.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Prosymna_angolensis_2.png",
+   "license": "CC BY 4.0",
+   "artist": "Justin R. Nicolau",
+   "title": "Prosymna angolensis 2.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

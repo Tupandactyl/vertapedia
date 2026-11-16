@@ -68,5 +68,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg/960px-Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Thomaz de Carvalho Callado",
+   "title": "Scytalopus gonzagai by Thomaz de Carvalho Callado.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado_%28cropped%29.jpg/960px-Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Thomaz de Carvalho Callado",
+   "title": "Scytalopus gonzagai by Thomaz de Carvalho Callado (cropped).jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

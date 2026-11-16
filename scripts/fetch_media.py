@@ -9,7 +9,7 @@
     python scripts/fetch_media.py --limit 200     # 이번에 새로 받을 최대 종 수
     python scripts/fetch_media.py --covers        # 이미 받은 종에 대표 사진(큐레이터 선정)만 채우기
     python scripts/fetch_media.py --wiki-fix      # 위키 문서가 없거나 속 문서뿐인 종을 옛 학명·영명으로 다시 찾기
-    python scripts/fetch_media.py --commons       # 사진이 없는 종에 위키미디어 커먼즈 자유 이미지(논문 도판·표본 포함) 채우기
+    python scripts/fetch_media.py --commons       # iNaturalist 사진이 2장 이하인 종에 위키미디어 커먼즈 자유 이미지(논문 도판·표본 포함) 채우기
 
 위키 문서: data/wiki_overrides.json 에 적은 문서 → iNaturalist 가 걸어 둔 문서 → 학명·옛 학명·영명으로 찾은 문서(wiki_found) 순서.
 찾은 문서는 첫머리에 그 종의 학명(또는 옛 학명)과 영명이 함께 있을 때만 받아들인다.
@@ -355,8 +355,17 @@ def commons_info(titles):
     return out
 
 
+COMMONS_MAX_INAT = 2  # iNaturalist 사진이 이 수 이하인 종만 커먼즈를 확인한다
+
+
+def inat_count(m):
+    """iNaturalist 사진 수(대표 사진과 관찰 사진, 같은 사진은 한 번만)"""
+    pid = lambda p: p["url"].split("/photos/")[-1].split("/")[0]
+    return len({pid(p) for p in (m.get("curated") or [])[:1] + (m.get("photos") or [])})
+
+
 def fill_commons(limit, max_age=60):
-    """사진이 없는 종(iNaturalist 사진·대표 사진 모두 없음)에 커먼즈 이미지를 채운다."""
+    """iNaturalist 사진이 2장 이하인 종에 커먼즈 이미지를 채운다."""
     cutoff = (date.today() - timedelta(days=max_age)).isoformat()
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
     todo = []
@@ -365,7 +374,7 @@ def fill_commons(limit, max_age=60):
             continue
         f = OUT / (t["sci"].replace(" ", "_") + ".json")
         m = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
-        if not m or m.get("photos") or m.get("curated") or m.get("commons_checked", "") >= cutoff:
+        if not m or inat_count(m) > COMMONS_MAX_INAT or m.get("commons_checked", "") >= cutoff:
             continue
         todo.append((t["sci"], f, m))
     todo = todo[:limit]
@@ -407,7 +416,7 @@ def main():
     ap.add_argument("--covers", action="store_true", help="이미 받은 종의 대표 사진만 채운다")
     ap.add_argument("--common", action="store_true", help="이미 받은 종의 iNaturalist 영명만 채운다")
     ap.add_argument("--wiki-fix", action="store_true", help="위키 문서가 없거나 속 문서뿐인 종을 다시 찾는다")
-    ap.add_argument("--commons", action="store_true", help="사진이 없는 종에 위키미디어 커먼즈 이미지를 채운다")
+    ap.add_argument("--commons", action="store_true", help="iNaturalist 사진이 2장 이하인 종에 위키미디어 커먼즈 이미지를 채운다")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     if a.covers:
@@ -446,7 +455,7 @@ def main():
             rec["inat"]["common"] = tx.get("preferred_common_name")
             rec["curated"] = inat_curated_many([tx["id"]]).get(tx["id"], [])
             rec["wiki"] = wiki_for(t, tx.get("wikipedia_url"), old)
-        if old and not rec["photos"] and not rec.get("curated"):  # 커먼즈 이미지는 다시 받을 때도 남긴다
+        if old and inat_count(rec) <= COMMONS_MAX_INAT:  # 커먼즈 이미지는 다시 받을 때도 남긴다
             for k in ("commons", "commons_checked"):
                 if k in old:
                     rec[k] = old[k]

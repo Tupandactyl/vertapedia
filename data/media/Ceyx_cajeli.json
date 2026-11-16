@@ -41,5 +41,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/CeyxCajelliWolf.jpg/960px-CeyxCajelliWolf.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CeyxCajelliWolf.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Wolf ?",
+   "title": "CeyxCajelliWolf.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Buru_dwarf_kingfisher_%28Ceyx_cajeli%29_%28cropped%29.jpg/960px-Buru_dwarf_kingfisher_%28Ceyx_cajeli%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buru_dwarf_kingfisher_(Ceyx_cajeli)_(cropped).jpg",
+   "license": "CC0",
+   "artist": "James Eaton",
+   "title": "Buru dwarf kingfisher (Ceyx cajeli) (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Buru_dwarf_kingfisher_%28Ceyx_cajeli%29.jpg/960px-Buru_dwarf_kingfisher_%28Ceyx_cajeli%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buru_dwarf_kingfisher_(Ceyx_cajeli).jpg",
+   "license": "CC0",
+   "artist": "James Eaton",
+   "title": "Buru dwarf kingfisher (Ceyx cajeli).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Ceyx_cajeli.png/960px-Ceyx_cajeli.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Ceyx_cajeli.png",
+   "license": "CC0",
+   "artist": "James Eaton",
+   "title": "Ceyx cajeli.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

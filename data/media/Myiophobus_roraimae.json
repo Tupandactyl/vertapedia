@@ -106,5 +106,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Myiophobus_roraimae.jpg/960px-Myiophobus_roraimae.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Myiophobus_roraimae.jpg",
+   "license": "Public domain",
+   "artist": "Ana Agreda, Aves y Conservación",
+   "title": "Myiophobus roraimae.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/MyiobiusRoraimaeSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MyiobiusRoraimaeSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "title": "MyiobiusRoraimaeSmit.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

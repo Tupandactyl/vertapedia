@@ -33,5 +33,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Psalidoprocne_fuliginosa_1894.jpg/960px-Psalidoprocne_fuliginosa_1894.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Psalidoprocne_fuliginosa_1894.jpg",
+   "license": "Public domain",
+   "artist": "Richard Bowdler Sharpe",
+   "title": "Psalidoprocne fuliginosa 1894.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Mountain_Saw-wing.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mountain_Saw-wing.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight",
+   "title": "Mountain Saw-wing.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Psalidoprocne_fuliginosa_1894%2C_crop.jpg/960px-Psalidoprocne_fuliginosa_1894%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Psalidoprocne_fuliginosa_1894,_crop.jpg",
+   "license": "Public domain",
+   "artist": "Richard Bowdler Sharpe",
+   "title": "Psalidoprocne fuliginosa 1894, crop.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

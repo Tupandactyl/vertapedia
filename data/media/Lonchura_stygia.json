@@ -47,5 +47,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Naturalis_Biodiversity_Center_-_RMNH.AVES.42680_1_-_Lonchura_stygia_Stresemann%2C_1934_-_Estrildidae_-_bird_skin_specimen_%28cropped%29.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.42680_1_-_Lonchura_stygia_Stresemann,_1934_-_Estrildidae_-_bird_skin_specimen_(cropped).jpeg",
+   "license": "CC0",
+   "artist": "Stresemann, 1934",
+   "title": "Naturalis Biodiversity Center - RMNH.AVES.42680 1 - Lonchura stygia Stresemann, 1934 - Estrildidae - bird skin specimen (cropped).jpeg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Lonchura_stygia_-_James_Eaton_-_760599079.jpeg/960px-Lonchura_stygia_-_James_Eaton_-_760599079.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lonchura_stygia_-_James_Eaton_-_760599079.jpeg",
+   "license": "CC0",
+   "artist": "James Eaton",
+   "title": "Lonchura stygia - James Eaton - 760599079.jpeg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Lonchura_stygia_-_tlaloc27_-_226811419.jpeg/960px-Lonchura_stygia_-_tlaloc27_-_226811419.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lonchura_stygia_-_tlaloc27_-_226811419.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "tlaloc27",
+   "title": "Lonchura stygia - tlaloc27 - 226811419.jpeg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

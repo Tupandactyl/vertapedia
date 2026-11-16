@@ -33,5 +33,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Gastropholis_echinata.jpg/960px-Gastropholis_echinata.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gastropholis_echinata.jpg",
+   "license": "Public domain",
+   "artist": "K.P. Schmidt, American Museum of Natural History",
+   "title": "Gastropholis echinata.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Head_of_Gastropholis_echinata.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Head_of_Gastropholis_echinata.jpg",
+   "license": "Public domain",
+   "artist": "K.P. Schmidt, American Museum of Natural History",
+   "title": "Head of Gastropholis echinata.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

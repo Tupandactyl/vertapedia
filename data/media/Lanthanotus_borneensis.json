@@ -108,5 +108,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Real_Lanthanotus_borneensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Real_Lanthanotus_borneensis.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Chien C. Lee, Wild Borneo Photography",
+   "title": "Real Lanthanotus borneensis.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Lanthanotus_borneensis_map.jpg/960px-Lanthanotus_borneensis_map.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanthanotus_borneensis_map.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ubs6u!d-onstory",
+   "title": "Lanthanotus borneensis map.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

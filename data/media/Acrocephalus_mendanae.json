@@ -47,5 +47,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/AcrocephalusMendanaeKeulemans.jpg/960px-AcrocephalusMendanaeKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AcrocephalusMendanaeKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans",
+   "title": "AcrocephalusMendanaeKeulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Acrocephalus_mendanae_-_R%C3%A9mi_Bigonneau_-_443436672.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Acrocephalus_mendanae_-_R%C3%A9mi_Bigonneau_-_443436672.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Rémi Bigonneau",
+   "title": "Acrocephalus mendanae - Rémi Bigonneau - 443436672.jpeg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

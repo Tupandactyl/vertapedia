@@ -54,5 +54,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/CinnyrisUrsulaeKeulemans.jpg/960px-CinnyrisUrsulaeKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CinnyrisUrsulaeKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "CinnyrisUrsulaeKeulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/ApalisCyanomitraKeulemans.jpg/960px-ApalisCyanomitraKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ApalisCyanomitraKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans",
+   "title": "ApalisCyanomitraKeulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cinnyris_ursulae_-_avocat_-_657839425.jpeg/960px-Cinnyris_ursulae_-_avocat_-_657839425.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinnyris_ursulae_-_avocat_-_657839425.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "avocat",
+   "title": "Cinnyris ursulae - avocat - 657839425.jpeg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

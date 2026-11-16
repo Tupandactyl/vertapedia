@@ -48,5 +48,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cape_Verde_storm_petrel_%28Hydrobates_jabejabe%29_%28cropped%29.jpg/960px-Cape_Verde_storm_petrel_%28Hydrobates_jabejabe%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cape_Verde_storm_petrel_(Hydrobates_jabejabe)_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Charlotte Kirchner",
+   "title": "Cape Verde storm petrel (Hydrobates jabejabe) (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Cape_Verde_storm_petrel_%28Hydrobates_jabejabe%29.jpg/960px-Cape_Verde_storm_petrel_%28Hydrobates_jabejabe%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cape_Verde_storm_petrel_(Hydrobates_jabejabe).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Charlotte Kirchner",
+   "title": "Cape Verde storm petrel (Hydrobates jabejabe).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Hydrobates_jabejabe_-_Charlotte_Kirchner_-_333452293.jpeg/960px-Hydrobates_jabejabe_-_Charlotte_Kirchner_-_333452293.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hydrobates_jabejabe_-_Charlotte_Kirchner_-_333452293.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Charlotte Kirchner",
+   "title": "Hydrobates jabejabe - Charlotte Kirchner - 333452293.jpeg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Hydrobates_jabejabe_mito_in_flight.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Hydrobates_jabejabe_mito_in_flight.png",
+   "license": "CC BY 4.0",
+   "artist": "Kirk Zufelt",
+   "title": "Hydrobates jabejabe mito in flight.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

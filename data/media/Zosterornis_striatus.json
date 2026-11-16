@@ -58,5 +58,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Zosterornis_striatus_Keulemans.jpg/960px-Zosterornis_striatus_Keulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterornis_striatus_Keulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Zosterornis striatus Keulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Luzon_Striped-babbler.jpg/960px-Luzon_Striped-babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Luzon_Striped-babbler.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Chetatata",
+   "title": "Luzon Striped-babbler.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Zosterornis-DendrophilaKeulemans.jpg/960px-Zosterornis-DendrophilaKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterornis-DendrophilaKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Zosterornis-DendrophilaKeulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/ZosterornisDendrophilaKeulemans.jpg/960px-ZosterornisDendrophilaKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ZosterornisDendrophilaKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "ZosterornisDendrophilaKeulemans.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

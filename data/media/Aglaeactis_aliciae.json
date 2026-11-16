@@ -70,5 +70,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Aglaeactis_aliciae_1897.jpg/960px-Aglaeactis_aliciae_1897.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aglaeactis_aliciae_1897.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Aglaeactis aliciae 1897.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Aglaeactis_aliciae_%26_Melanopareia_elegans_elegans_1897.jpg/960px-Aglaeactis_aliciae_%26_Melanopareia_elegans_elegans_1897.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aglaeactis_aliciae_%26_Melanopareia_elegans_elegans_1897.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Aglaeactis aliciae & Melanopareia elegans elegans 1897.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Purple-backed_Sunbeam_Hummingbird_%28cropped%29.jpg/960px-Purple-backed_Sunbeam_Hummingbird_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple-backed_Sunbeam_Hummingbird_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Carole Turek",
+   "title": "Purple-backed Sunbeam Hummingbird (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Purple-backed_Sunbeam_Hummingbird.jpg/960px-Purple-backed_Sunbeam_Hummingbird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple-backed_Sunbeam_Hummingbird.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Carole Turek",
+   "title": "Purple-backed Sunbeam Hummingbird.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

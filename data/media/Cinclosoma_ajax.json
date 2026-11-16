@@ -41,5 +41,48 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cinclosoma_ajax_1838.jpg/960px-Cinclosoma_ajax_1838.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinclosoma_ajax_1838.jpg",
+   "license": "Public domain",
+   "artist": "Nicolas Huet / Jean Gabriel Prêtre",
+   "title": "Cinclosoma ajax 1838.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cinclosoma_ajax_-_James_Eaton_-_760598901.jpeg/960px-Cinclosoma_ajax_-_James_Eaton_-_760598901.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinclosoma_ajax_-_James_Eaton_-_760598901.jpeg",
+   "license": "CC0",
+   "artist": "James Eaton",
+   "title": "Cinclosoma ajax - James Eaton - 760598901.jpeg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Cinclosoma_ajax_-_The_Birds_of_New_Guinea.jpg/960px-Cinclosoma_ajax_-_The_Birds_of_New_Guinea.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinclosoma_ajax_-_The_Birds_of_New_Guinea.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / William Matthew Hart",
+   "title": "Cinclosoma ajax - The Birds of New Guinea.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Eupetes_ajax_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ16300401.tif/lossy-page1-960px-Eupetes_ajax_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ16300401.tif.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eupetes_ajax_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ16300401.tif",
+   "license": "Public domain",
+   "artist": "Jean Gabriel Prêtre",
+   "title": "Eupetes ajax - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ16300401.tif"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Naturalis_Biodiversity_Center_-_MMNAT01_AF_NNM001000074_-_Natuurkundige_Commissie_voor_Nederlandsch-Indi%C3%AB_-_Bird_species_-_Art_by_Oort%2C_P._van.jpg/960px-Naturalis_Biodiversity_Center_-_MMNAT01_AF_NNM001000074_-_Natuurkundige_Commissie_voor_Nederlandsch-Indi%C3%AB_-_Bird_species_-_Art_by_Oort%2C_P._van.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_MMNAT01_AF_NNM001000074_-_Natuurkundige_Commissie_voor_Nederlandsch-Indi%C3%AB_-_Bird_species_-_Art_by_Oort,_P._van.jpg",
+   "license": "CC0",
+   "artist": "Oort, P. van",
+   "title": "Naturalis Biodiversity Center - MMNAT01 AF NNM001000074 - Natuurkundige Commissie voor Nederlandsch-Indië - Bird species - Art by Oort, P. van.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }
