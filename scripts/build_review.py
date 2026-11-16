@@ -24,7 +24,7 @@ def guideline():
         if m:
             if toc:
                 body.append("</section>")
-            toc.append(f'<a href="#a{m[1]}">제{m[1]}조 {e(m[2])}</a>')
+            toc.append(f'<a href="#a{m[1]}"><span class="no">제{m[1]}조</span><span class="t">{e(m[2])}</span></a>')
             body.append(f'<section id="a{m[1]}"><h3>제{m[1]}조 <span>{e(m[2])}</span></h3>')
         elif re.match(r"[가나다라]\. ", line):
             body.append(f'<p class="rank">{e(line)}</p>')

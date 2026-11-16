@@ -25,7 +25,12 @@ h3 span{font-weight:500}
 .lead{color:var(--muted);margin:0 0 18px}
 .box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 18px;margin:14px 0}
 .box ol{margin:0;padding-left:20px}
-.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:2px 16px;font-size:14px}
+.toc{display:flex;flex-direction:column;padding:6px 8px;font-size:14.5px}
+.toc a{display:flex;gap:12px;align-items:baseline;padding:3px 10px;border-radius:6px;text-decoration:none;color:var(--ink)}
+.toc a:hover{background:var(--bg)}
+.toc a:hover .t{color:var(--moss);text-decoration:underline}
+.toc .no{flex:none;width:3.4em;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.toc .t{min-width:0}
 .law p{margin:8px 0}
 .law .clause{padding-left:1.3em;text-indent:-1.3em}
 .law .rank{font-weight:600;margin:12px 0 2px 1.3em}
