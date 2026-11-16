@@ -244,7 +244,7 @@ const IUCN={EX:'절멸',EW:'야생절멸',CR:'위급',EN:'위기',VU:'취약',NT
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
 const credit=p=>{
-  if(p.src==='commons')return `${/^public domain|^pd/i.test(p.license)?'':'© '}${p.artist||'작자 미상'} · ${p.license} · Wikimedia Commons`;
+  if(p.src==='commons')return `${/^public domain|^pd|^cc0/i.test(p.license)?'':'© '}${p.artist||'작자 미상'} · ${p.license} · Wikimedia Commons`;
   const a=p.attribution||'',m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(a);
   const who=m?m[1]:/no rights reserved/i.test(a)?(/^(.*?),?\s*no rights reserved/i.exec(a)||[])[1]||'':a;
   return p.license==='cc0'?`${who?who+' · ':''}CC0 (저작권 없음)`:`© ${who} · ${LIC[p.license]||p.license}`};
