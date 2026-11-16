@@ -23,6 +23,9 @@ DATA = ROOT / "data"
 PDF = Path(sys.argv[1]) if len(sys.argv) > 1 else None
 
 RDB_LABEL = "Reptile Database"
+# 한국양서파충류학회 2025 학명(속)을 Reptile Database 대신 따르는 종. 2026-11-16 편집진 결정: 능구렁이는 Lycodon,
+# 줄꼬리뱀은 Orthriophis 를 Elaphe 에 통합한 Reptile Database 를 그대로 따른다
+KSHR_GENUS = {"Lycodon rufozonatus"}
 USE_NIBR = False  # 국가생물종목록 Ⅱ(2019): 2026-10-21 편집진 결정으로 국명 출처에서 뺐다
 RANKS = ["class", "order", "suborder", "family", "subfamily", "genus"]
 UNSETTLED = re.compile(r"[/\-‐–—]")
@@ -643,8 +646,12 @@ def main():
                 t.setdefault("kshr", dict(sci=k["sci"], ko=k["ko"], en=k["en"], north=k["north"]))
             continue
         t["kshr"] = dict(sci=k["sci"], ko=k["ko"], en=k["en"], north=k["north"])
-        if k["sci"] != t["sci"]:
-            # 학회 목록이 다른 속에 둔 종은 학회 분류를 따른다(2026-11-16 편집진 결정: 능구렁이 Lycodon, 줄꼬리뱀 Orthriophis).
+        if k["sci"] != t["sci"] and k["sci"] not in KSHR_GENUS:
+            t.setdefault("synonyms", [])
+            if k["sci"] not in t["synonyms"]:
+                t["synonyms"].append(k["sci"])
+        elif k["sci"] != t["sci"]:
+            # 편집진이 학회 분류를 따르기로 한 종(KSHR_GENUS)만 학회 학명으로 바꾼다.
             # Reptile Database 학명은 이명으로 남기고, 옛 학명으로 받아 둔 사진·분포·번역은 build_site 가 old_sci 로 잇는다.
             old = t["sci"]
             by_key.pop(("REPTILIA", old), None)
