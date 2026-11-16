@@ -87,6 +87,12 @@ media = {}
 for f in (DATA / "media").glob("*.json"):
     m = json.loads(f.read_text(encoding="utf-8"))
     media[m["sci"]] = m
+# 학회 분류를 따라 학명을 바꾼 종(import_names 의 old_sci): 옛 학명으로 받아 둔 사진·분포를 그대로 잇는다
+for t in names:
+    for o in t.get("old_sci") or []:
+        for d in (media, dist, RANGE_PLACES):
+            if t["sci"] not in d and o in d:
+                d[t["sci"]] = d[o]
 # 파충류는 시트에 영명이 없으면 iNaturalist 영명을 쓴다
 for t in names:
     if t["group"] == "REPTILIA" and t["rank"] == "species" and not t.get("en"):
@@ -204,6 +210,9 @@ def wiki_ko_of(t, wiki):
     """data/wiki_ko 의 한국어 번역 → 종 문서용. 공개 주석만 싣고 번호를 매긴다.
     본문 속 국명은 원문 링크(ko_link)로 찾은 이름만, 문서에서 처음 나올 때 링크한다."""
     p = DATA / "wiki_ko" / (t["sci"].replace(" ", "_") + ".json")
+    for o in t.get("old_sci") or []:
+        if not p.exists():
+            p = DATA / "wiki_ko" / (o.replace(" ", "_") + ".json")
     if not p.exists():
         return None
     k = json.loads(p.read_text(encoding="utf-8"))
@@ -491,6 +500,14 @@ shell = (tpl[:css_at] + '<link rel="stylesheet" href="sp.css">' + tpl[css_end + 
 shell = shell.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="../">', 1)
 for sci, tags in shares.items():
     (SITE / "sp" / (sci.replace(" ", "_") + ".html")).write_text(shell.replace("<title>Vertapedia</title>", tags, 1), encoding="utf-8")
+# 학명을 바꾼 종의 옛 주소는 새 주소로 넘긴다
+for t in species:
+    for o in t.get("old_sci") or []:
+        if o not in shares:
+            new = t["sci"].replace(" ", "_") + ".html"
+            (SITE / "sp" / (o.replace(" ", "_") + ".html")).write_text(
+                f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url={new}">'
+                f'<link rel="canonical" href="{SITE_URL}sp/{new}"><a href="{new}">{t["sci"]}</a>', encoding="utf-8")
 # 옛 주소 sp.html#학명
 (SITE / "sp.html").write_text("""<!doctype html>
 <html lang="ko">

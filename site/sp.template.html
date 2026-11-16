@@ -248,6 +248,7 @@ function memo(t){
   let m;
   if(m=/^분류 변경: 한국조류목록 2025에서는 (.+)$/.exec(t))return `한국조류목록 2025: <i>${esc(m[1])}</i>`;
   if(m=/^분류 변경: 한국조류목록 2025 국명 (\S+) → (.+)$/.exec(t))return `한국조류목록 2025 국명 ${esc(m[1])} → <i>${esc(m[2])}</i>`;
+  if(m=/^학명 변경: 한국양서파충류학회 2025 기준 \(Reptile Database (.+)\)$/.exec(t))return `한국양서파충류학회 2025 분류 · Reptile Database: <i>${esc(m[1])}</i>`;
   if(m=/^학명 변경: 시트 (.+?) → .*? (\S+ \S+)$/.exec(t))return `이전 학명: <i>${esc(m[1])}</i> (Reptile Database)`;
   return esc(t);
 }

@@ -608,6 +608,8 @@ def main():
             t["review"] = f"분류 변경: 한국조류목록 2025 국명 {k['ko']} → {dst['sci']}"
     # 하위 아종에 '아종 단위 통합'으로 붙인 국명은 한국조류목록 아종명과 비교해 둔다
     for t in sheet:
+        if t["group"] != "AVES":
+            continue
         for s in t.get("subspecies", []):
             s.setdefault("source", "한국조류목록 2025")
 
@@ -642,9 +644,32 @@ def main():
             continue
         t["kshr"] = dict(sci=k["sci"], ko=k["ko"], en=k["en"], north=k["north"])
         if k["sci"] != t["sci"]:
-            t.setdefault("synonyms", [])
-            if k["sci"] not in t["synonyms"]:
-                t["synonyms"].append(k["sci"])
+            # 학회 목록이 다른 속에 둔 종은 학회 분류를 따른다(2026-11-16 편집진 결정: 능구렁이 Lycodon, 줄꼬리뱀 Orthriophis).
+            # Reptile Database 학명은 이명으로 남기고, 옛 학명으로 받아 둔 사진·분포·번역은 build_site 가 old_sci 로 잇는다.
+            old = t["sci"]
+            by_key.pop(("REPTILIA", old), None)
+            t["sci"] = k["sci"]
+            by_key[("REPTILIA", t["sci"])] = t
+            t["old_sci"] = sorted(set(t.get("old_sci", [])) | {old})
+            t["synonyms"] = [x for x in (t.get("synonyms") or []) if x != t["sci"]] + ([old] if old not in (t.get("synonyms") or []) else [])
+            for x in t.get("subspecies", []):
+                if x["sci"].startswith(old + " "):
+                    x["sci"] = t["sci"] + x["sci"][len(old):]
+            t["review"] = f"학명 변경: 한국양서파충류학회 2025 기준 (Reptile Database {old})"
+            kshr_rows[-1]["sheet_sci"] = t["sci"]
+            g, og = t["sci"].split()[0], old.split()[0]
+            if ("REPTILIA", g) not in by_key:  # 시트에 없는 속(Orthriophis): 옛 속 행을 본떠 만든다
+                src = by_key.get(("REPTILIA", og), {})
+                row = dict(group="REPTILIA", rank="genus", sci=g, family=t.get("family"), order_hint=src.get("order_hint"),
+                           suborder_hint=src.get("suborder_hint"), author=None, en=None, moe=None, trade=None, consensus=None,
+                           proposals={}, rationale=None, sheet=t.get("sheet"))
+                sheet.insert(sheet.index(src) + 1 if src in sheet else sheet.index(t), row)
+                by_key[("REPTILIA", g)] = row
+            # 시트 순서(이전·다음 종)도 학회 속 자리로: 같은 속 마지막 종 뒤, 없으면 속 행 바로 뒤
+            sheet.remove(t)
+            mates = [i for i, x in enumerate(sheet) if x["group"] == "REPTILIA" and x["rank"] == "species" and x["sci"].split()[0] == g]
+            at = mates[-1] + 1 if mates else sheet.index(by_key[("REPTILIA", g)]) + 1
+            sheet.insert(at, t)
 
     # 학회 목록의 목·아목·과·속 국명: ☆(수정의견) 줄이 같은 국명·같은 학명의 다른 줄을 대체한다.
     # 속은 그 속에 실린 학회 목록 종이 지금 어느 속에 있는지로 잇는다(예: Lycodon 능구렁이속 → Dinodon).
