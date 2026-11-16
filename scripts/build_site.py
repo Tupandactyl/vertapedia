@@ -387,7 +387,7 @@ for g, lst in seq.items():
             author=t.get("author") or (bird_auth.get(t["sci"]) if g == "AVES" else None),
             rationale=t.get("rationale") if t["status"] in ("consensus", "proposal") else None,
             review=t.get("review") if "국가생물종목록" not in (t.get("review") or "") else None,
-            synonyms=t.get("synonyms"),
+            synonyms=t.get("synonyms"), taxo_note=t.get("avilist_change"),
             order=taxon(orders, g, o), suborder=taxon(orders, g, so), superfamily=taxon(orders, g, sup),
             family=taxon(families, g, t.get("family")),
             genus=dict(taxon(genera, g, t["sci"].split()[0]), type=type_of.get((g, t["sci"].split()[0]))),

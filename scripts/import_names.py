@@ -755,6 +755,25 @@ def main():
     kos_unlinked = [r for r in kos_rows if not r["sheet_sci"]]
     (DATA / "kshr.json").write_text(json.dumps(kshr_rows, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "rdb.json").write_text(json.dumps(rdb_log, ensure_ascii=False, indent=1), encoding="utf-8")
+    # 시트 해설 칸의 AviList 변경 메모([AviList v2026] …)는 명칭 근거가 아니다: 이전 학명·통합된 학명은 이명으로,
+    # 종 분리·신종 기재·영명 변경은 분류 변경 메모로 옮긴다
+    AVI_CHANGE = {"split": "종 분리", "newly-described species": "신종 기재", "english name change": "영명 변경"}
+    for t in sheet:
+        r = t.get("rationale") or ""
+        m = re.match(r"^\[AviList v?(\d+)\]\s*(.*)$", r.strip(), re.S)
+        if not m:
+            continue
+        t["rationale"] = None
+        body, olds, notes = m[2].strip(), [], []
+        for part in [p.strip() for p in body.split(";") if p.strip()]:
+            if mm := re.match(r"^(?:이전 학명|통합:)\s*(.+)$", part):
+                olds += [x.strip() for x in mm[1].split(",") if x.strip()]
+            else:
+                notes.append(AVI_CHANGE.get(part.lower(), part))
+        syn = t.get("synonyms") or []
+        t["synonyms"] = syn + [x for x in olds if x not in syn and x != t["sci"]] or None
+        if notes:
+            t["avilist_change"] = f"AviList v{m[1]}: " + " · ".join(notes)
     (DATA / "names.json").write_text(json.dumps(sheet, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "review.json").write_text(json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1), encoding="utf-8")
