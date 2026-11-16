@@ -76,6 +76,39 @@ def blocks(rows):
     return out
 
 
+def merge(allb):
+    """같은 속이 여러 곳(다른 탭 포함)에 나뉘어 있으면 하나로 합친다. 속 줄은 하나만 남기고,
+    합친 속은 종 행을 학명 순으로 정렬한다(아종 행은 그 종 바로 뒤에 붙어 다닌다)."""
+    order, got, dropped = [], {}, []
+    for g, rows in allb:
+        if g not in got:
+            got[g] = []
+            order.append(g)
+        got[g].append(rows)
+    out = []
+    for g in order:
+        parts = got[g]
+        if len(parts) == 1:
+            out.append((g, parts[0]))
+            continue
+        dropped.append(f"{g}({len(parts)}곳)")
+        heads = [r[0] for r in parts if len(text(r[0]["values"][0]).split()) == 1]
+        units = []
+        for rows in parts:
+            for row in rows:
+                a = text(row["values"][0]) if row.get("values") else ""
+                w = a.split()
+                if len(w) == 1:
+                    continue
+                if len(w) == 2 or not units or not a.startswith(units[-1][0] + " "):
+                    units.append((a, [row]))
+                else:
+                    units[-1][1].append(row)
+        units.sort(key=lambda u: u[0])
+        out.append((g, heads[:1] + [r for _, rs in units for r in rs]))
+    return out, dropped
+
+
 def header_row(sf, ko):
     label = f"{UNPLACED} (아과 미정)" if sf == UNPLACED else (f"{sf} ({ko})" if ko else sf)
     fmt = {"backgroundColor": ORANGE, "verticalAlignment": "TOP",
@@ -92,7 +125,10 @@ def main(apply):
     allb = []
     for t in TABS:
         allb += blocks(grid[t]["data"][0].get("rowData", []))
+    allb, dropped = merge(allb)
     n_old = sum(len(b[1]) for b in allb)
+    if dropped:
+        print("겹친 속 줄을 하나로 합쳤다:", ", ".join(dropped))
     by_sf = {}
     for g, rows in allb:
         by_sf.setdefault(sf_of.get(g) or UNPLACED, []).append((g, rows))
@@ -117,6 +153,7 @@ def main(apply):
     moved = sum(len(r) for r in new.values()) - sum(1 for r in new.values() for x in r if SUBFAM_RE.match(text(x['values'][0])))
     print(f"속 묶음 {len(allb)} · 옮길 행 {moved} (원래 {n_old})")
     assert moved == n_old
+    print("합친 뒤 행", n_old)
     if not apply:
         return
 
@@ -142,9 +179,11 @@ def main(apply):
         for m in s.get("merges", []):  # 과 머리 줄(행 1) 말고 데이터 칸 병합은 풀었다가 아과 줄에만 다시 건다
             if m["startRowIndex"] >= 2:
                 reqs.append({"unmergeCells": {"range": m}})
-        blank = [{"values": []}] * max(0, old_len - end)
         reqs.append({"updateCells": {"start": {"sheetId": sid, "rowIndex": 2, "columnIndex": 0},
-                                     "rows": rows + blank, "fields": FIELDS}})
+                                     "rows": rows, "fields": FIELDS}})
+        if old_len > end:  # 줄어든 탭: 새 목록 아래 예전 행을 비운다(빈 행을 rows 로 보내면 무시된다)
+            reqs.append({"updateCells": {"range": {"sheetId": sid, "startRowIndex": end, "endRowIndex": old_len},
+                                         "fields": FIELDS}})
         for i, row in enumerate(rows):
             if SUBFAM_RE.match(text(row["values"][0])):
                 reqs.append({"mergeCells": {"mergeType": "MERGE_ALL", "range": {
