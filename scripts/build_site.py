@@ -23,7 +23,7 @@ import ko_names
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SITE = ROOT / "site"
-SITE_URL = "https://tupandactyl.github.io/vertapedia/"
+SITE_URL = "https://vertapedia.org/"
 
 
 def load(name, default=None):

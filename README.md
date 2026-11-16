@@ -2,7 +2,7 @@
 
 조류·파충류의 학명과 한국어 국명을 한곳에서 찾는 사전. 편집진이 구글 시트에 적은 국명 합의본·제안·명칭 근거를 공식 목록과 합쳐 보여 준다.
 
-사이트: https://tupandactyl.github.io/vertapedia/ · 국명 부여 기준: https://tupandactyl.github.io/vertapedia/review.html
+사이트: https://vertapedia.org/ · 국명 부여 기준: https://vertapedia.org/review.html
 
 ## 이름을 정하는 순서
 

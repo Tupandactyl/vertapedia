@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Mono:wght@400&display=swap">
 <link rel="stylesheet" href="tree.css">
+<link rel="stylesheet" href="comments.css">
 <style>
 /* Layout: 계통 경로 → 국명·학명 머리 → 사진 갤러리 → (설명 | 국명 카드·바깥 링크) */
 :root{
@@ -176,7 +177,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
   <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
-  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a></nav>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a><a href="talk.html">의견</a></nav>
 </div></header>
 <div class="stickbar" id="stickbar" hidden title="맨 위로"><div class="stickbar-in"></div></div>
 <div class="page">
@@ -185,6 +186,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 </div>
 <script src="tree.js"></script>
 <script src="suggest.js"></script>
+<script src="comments.js"></script>
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
@@ -514,7 +516,9 @@ function render(d){
       <div class="distbox">${iucnCard(d)}${distCard(d)}</div>
       <div class="more">${ssp}<div class="card"><h3>더 보기</h3><ul class="links">${links.join('')}</ul></div></div>
     </div>
+    <section id="talk"></section>
     <div style="margin-top:28px">${pn(d)}</div>`;
+  VTalk.mount(document.getElementById('talk'),'sp:'+d.sci.replace(/ /g,'_'),d.name||d.sci);
   drawDist(d);
   stickTitle(d);
 }

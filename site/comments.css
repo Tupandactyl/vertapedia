@@ -1,0 +1,48 @@
+/* 의견(댓글)창 — comments.js. 색은 각 페이지의 :root 변수(--panel·--line·--moss…)를 쓴다 */
+.vt{margin-top:36px;border-top:1px solid var(--line);padding-top:18px}
+.vt h2{font-family:var(--display);font-size:20px;margin:0 0 4px}
+.vt-n{font-family:var(--body);font-size:14px;color:var(--muted);font-weight:400}
+.vt-note{font-size:12.5px;color:var(--muted);margin:0 0 14px;max-width:80ch}
+.vt-empty{font-size:14px;color:var(--muted);margin:0 0 14px}
+.vt-thread{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:0 0 10px}
+.vt-item{padding:4px 0}
+.vt-kids{margin:6px 0 0 4px;padding-left:14px;border-left:2px solid var(--line)}
+.vt-kids .vt-item+.vt-item{border-top:1px dashed var(--line);margin-top:4px;padding-top:8px}
+.vt-meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;font-size:12.5px;color:var(--muted)}
+.vt-nick{color:var(--ink);font-weight:600}
+.vt-ip{font-family:var(--mono);font-size:12px}
+.vt-adm{font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--moss);color:var(--panel)}
+.vt-tag{font-size:11px;padding:1px 7px;border-radius:999px;border:1px solid var(--line)}
+.vt-tag.k-error{background:var(--warn-bg);color:var(--warn);border-color:transparent}
+.vt-tag.k-info{background:var(--info-bg);color:var(--info);border-color:transparent}
+.vt-tag.s-open{color:var(--muted)}
+.vt-tag.s-review{background:var(--warn-bg);color:var(--warn);border-color:transparent}
+.vt-tag.s-done{background:var(--ok-bg);color:var(--ok);border-color:transparent}
+.vt-tag.s-wontfix{color:var(--muted);text-decoration:line-through}
+.vt-body{font-size:14.5px;margin:3px 0 2px;white-space:normal;overflow-wrap:anywhere}
+.vt-gone{font-size:13px;color:var(--muted);font-style:italic}
+.vt-tools{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.vt-tools button,.vt-admin a{font:inherit;font-size:12px;color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:none}
+.vt-tools button:hover,.vt-admin a:hover{color:var(--moss);text-decoration:underline}
+.vt-tools select{font:inherit;font-size:12px;padding:1px 4px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.vt-form{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px}
+.vt-replyform{margin:8px 0 0 18px;border-style:dashed}
+.vt-form input,.vt-form select,.vt-form textarea{font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 8px}
+.vt-form input{width:9.5em}
+.vt-form textarea{flex-basis:100%;min-height:76px;resize:vertical}
+.vt-form input:focus,.vt-form select:focus,.vt-form textarea:focus{outline:2px solid var(--moss);outline-offset:-1px}
+.vt-cap:empty{display:none}
+.vt-row{flex-basis:100%;display:flex;align-items:center;gap:10px}
+.vt-err{flex:1;font-size:12.5px;color:#c0392b}
+.vt-row button{font:inherit;font-size:14px;font-weight:600;color:var(--panel);background:var(--moss);border:0;border-radius:6px;padding:6px 16px;cursor:pointer}
+.vt-row button:disabled{opacity:.55;cursor:default}
+.vt-admin{font-size:12px;color:var(--muted);margin:10px 0 0;text-align:right}
+.vt-gsi{display:flex;justify-content:flex-end}
+/* 모아보기(talk.html) */
+.vt-feed .vt-thread{display:block;text-decoration:none;color:inherit}
+.vt-feed .vt-thread:hover{border-color:var(--moss)}
+.vt-doc{font-weight:600;color:var(--moss)}
+.vt-filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.vt-filters button{font:inherit;font-size:13px;padding:3px 12px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--muted);cursor:pointer}
+.vt-filters button[aria-pressed="true"]{border-color:var(--moss);color:var(--moss);font-weight:600}
+.vt-more{font:inherit;font-size:13px;margin:6px 0;padding:6px 16px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);cursor:pointer}

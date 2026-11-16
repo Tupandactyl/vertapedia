@@ -30,6 +30,12 @@ jobs:
         run: python scripts/fetch_sheets.py
       - name: 국명 합치기
         run: python scripts/import_names.py
+      - name: 의견창 관리자 목록 동기화 (시트 편집자)
+        continue-on-error: true
+        env:
+          COMMENTS_SYNC_TOKEN: ${{ secrets.COMMENTS_SYNC_TOKEN }}
+          GOOGLE_SHEETS_KEY: ${{ secrets.GOOGLE_SHEETS_KEY }}
+        run: python scripts/sync_admins.py
       - name: 페이지 만들기
         run: |
           python scripts/build_site.py

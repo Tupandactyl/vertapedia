@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Mono:wght@400&display=swap">
 <link rel="stylesheet" href="tree.css">
+<link rel="stylesheet" href="comments.css">
 <style>
 /* Layout: 왼쪽 분류군 창(기본 접힘) | 과 문서(이전·다음 → 머리 → 명칭 근거 → 아과 → 포함 속·종) */
 :root{
@@ -105,7 +106,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <header class="top"><div class="top-in">
   <a class="logo" href="./">Vertapedia</a>
   <form class="hs" action="find.html" role="search"><input name="q" type="search" placeholder="이름 찾기 (국명·학명·초성)" aria-label="이름 찾기"></form>
-  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a></nav>
+  <nav><a href="./" title="무작위 종 문서">무작위 종</a><a href="find.html">분류군</a><a href="review.html">국명 기준</a><a href="talk.html">의견</a></nav>
 </div></header>
 <div class="page">
   <aside class="navtree" aria-label="분류군"><button type="button" class="paneltog" id="paneltog" aria-expanded="false" aria-controls="tree"><span class="arr">▸</span> 분류군</button><div id="tree" hidden></div></aside>
@@ -113,6 +114,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 </div>
 <script src="tree.js"></script>
 <script src="suggest.js"></script>
+<script src="comments.js"></script>
 <script>
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
@@ -174,7 +176,9 @@ function render(d){
     <section><h2>명칭 근거</h2>${why}</section>
     ${subf}
     <section><h2>포함 속·종</h2>${gens}</section>
+    <section id="talk"></section>
     <div style="margin-top:28px">${pn(d)}</div>`;
+  VTalk.mount(document.getElementById('talk'),'fam:'+d.sci,d.name||d.sci);
 }
 function load(){
   const sci=decodeURIComponent(location.hash.slice(1));
