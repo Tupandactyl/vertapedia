@@ -151,7 +151,15 @@
       if (act === "hide" && confirm("이 의견을 숨길까요?")) call("/comments/" + id + "/delete", { body: {} }).then(refresh).catch(function (x) { alert(x.message); });
       if (act === "ban" && confirm("이 의견을 쓴 IP를 차단하고 그 IP의 글을 모두 숨길까요?")) call("/comments/" + id + "/ban", { body: {} }).then(refresh).catch(function (x) { alert(x.message); });
     });
-    whoami().then(refresh);
+    // 댓글 서버는 해외 거점을 거쳐 느릴 수 있어, 의견창이 화면에 가까워질 때 불러온다
+    draw();
+    var started = false, go = function () { if (!started) { started = true; whoami().then(refresh); } };
+    if (location.hash === "#talk" || !("IntersectionObserver" in window)) go();
+    else {
+      var io = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { io.disconnect(); go(); } }, { rootMargin: "800px 0px" });
+      io.observe(el);
+      setTimeout(go, 3000);  // 화면 감지가 멈춘 경우(백그라운드 탭 등)에도 첫 화면을 다 그린 뒤 불러온다
+    }
   }
 
   function whoami() {
