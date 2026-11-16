@@ -1,4 +1,4 @@
-"""파충류 시트의 도마뱀과 탭들(도마뱀과 1~4)을 사이트처럼 아과별로 묶는다.
+"""파충류 시트의 큰 과 탭들(도마뱀과 1~4, 뱀과 1~4)을 사이트처럼 아과별로 묶는다.
 
 속 묶음(속 줄 + 그 속의 종·아종 행)을 아과(data/rdb_subfamily.json, Reptile Database) 순서로 다시 늘어놓고,
 아과마다 머리 줄을 넣는다. 머리 줄 모양: 학명 열에 「Eugongylinae (뱀눈도마뱀아과)」(국명이 없으면 학명만),
@@ -8,8 +8,8 @@ A~J 열 병합, 배경 #FCE5CD, 굵게. 아과를 못 정한 속은 맨 뒤 「I
 서식·병합까지 옮겨 쓴다(줄무늬 범위는 그대로)(셀 값·서식·메모·데이터 확인). 다시 돌리면 기존 아과 줄을 지우고 새로 만든다.
 사이트(import_names.py)·시트 동기화(sync_reptile_sheet.py)·속 줄/아속 줄 스크립트는 아과 줄을 건너뛴다.
 
-    python scripts/group_subfamily_rows.py           # 미리보기(탭별 아과·속·행 수)
-    python scripts/group_subfamily_rows.py --apply   # 먼저 .secrets/backup 에 xlsx 백업 후 시트에 쓴다
+    python scripts/group_subfamily_rows.py Colubridae           # 미리보기(탭별 아과·속·행 수). 과를 빼면 Scincidae
+    python scripts/group_subfamily_rows.py Colubridae --apply   # 먼저 .secrets/backup 에 xlsx 백업 후 시트에 쓴다
 """
 import json
 import re
@@ -24,13 +24,21 @@ from sheets_api import API, SHEETS, Sheet
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+# 과마다 탭과 탭별 아과(알파벳 순). 여기 없는 아과·미정은 마지막 탭 끝에 붙는다.
+CONFIGS = {
+    "Scincidae": (["도마뱀과 1", "도마뱀과 2", "도마뱀과 3", "도마뱀과 4"],
+                  [["Acontiinae", "Egerniinae", "Eugongylinae"],
+                   ["Lygosominae", "Mabuyinae", "Ristellinae"],
+                   ["Scincinae"],
+                   ["Sphenomorphinae"]]),
+    "Colubridae": (["뱀과 1", "뱀과 2", "뱀과 3", "뱀과 4"],
+                   [["Calamariinae", "Chrysopeleinae", "Colubrinae"],
+                    ["Dipsadinae"],
+                    ["Grayiinae", "Natricinae"],
+                    ["Pseudoxenodontinae", "Sibynophiinae"]]),
+}
 FAMILY = "Scincidae"
-TABS = ["도마뱀과 1", "도마뱀과 2", "도마뱀과 3", "도마뱀과 4"]
-# 탭마다 들어갈 아과(알파벳 순). 여기 없는 아과·미정은 마지막 탭 끝에 붙는다.
-PLAN = [["Acontiinae", "Egerniinae", "Eugongylinae"],
-        ["Lygosominae", "Mabuyinae", "Ristellinae"],
-        ["Scincinae"],
-        ["Sphenomorphinae"]]
+TABS, PLAN = CONFIGS[FAMILY]
 UNPLACED = "Incertae sedis"
 SUBFAM_RE = re.compile(r"^(?:[A-Z][a-z]+inae|Incertae sedis)\b")
 ORANGE = {"red": 0.98823529, "green": 0.89803922, "blue": 0.80392157}  # #FCE5CD
@@ -158,7 +166,7 @@ def main(apply):
         return
 
     stamp = datetime.now().strftime("%Y%m%d_%H%M")
-    bk = ROOT / ".secrets" / "backup" / f"reptiles_before_subfamily_rows_{stamp}.xlsx"
+    bk = ROOT / ".secrets" / "backup" / f"reptiles_before_subfamily_rows_{FAMILY}_{stamp}.xlsx"
     with urllib.request.urlopen(f"https://docs.google.com/spreadsheets/d/{SHEETS['reptiles']}/export?format=xlsx",
                                 timeout=180) as r:
         body = r.read()
@@ -196,4 +204,7 @@ def main(apply):
 
 
 if __name__ == "__main__":
+    fam = next((a for a in sys.argv[1:] if a in CONFIGS), "Scincidae")
+    FAMILY = fam
+    TABS, PLAN = CONFIGS[fam]
     main("--apply" in sys.argv)
