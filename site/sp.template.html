@@ -135,6 +135,8 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 .distmap .hascells .land.m{fill:color-mix(in srgb,var(--hab) 30%,var(--land))}.distmap .hascells .land.i{fill:color-mix(in srgb,var(--intro) 30%,var(--land))}.distmap .hascells .land.r{fill:var(--land)}
 .distmap .cell{opacity:.88}.distmap .cell.m{fill:var(--hab-dot)}.distmap .cell.i{fill:var(--intro)}.distmap .cell.r{fill:var(--rare-dot)}
 .distnote{font-size:11px;color:var(--muted);margin:2px 0}
+.distexp{font-size:11.5px;color:var(--muted);margin:4px 0 2px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px}
+.distexp button{font:inherit;font-size:11px;line-height:1.4;padding:1px 7px;border-radius:6px;border:1px solid var(--line);background:transparent;color:inherit;cursor:pointer}.distexp button:hover{border-color:var(--moss)}.distexp button:disabled{opacity:.5;cursor:wait}
 .distmap .sphere{fill:none;stroke:var(--line);stroke-width:.8}
 .distmap:hover .sphere{stroke:var(--moss);stroke-width:1.5}
 .card h3 .distnames{display:block;margin-top:3px;font-family:var(--body);font-size:12.5px;font-weight:400;line-height:1.55;color:var(--muted)}
@@ -407,6 +409,55 @@ function cellPaths(cells,proj){
   }
   return ['r','i','m'].map(k=>d[k].length?`<path class="cell ${k}" d="${d[k].join('')}"/>`:'').join('');
 }
+// 지도 내보내기(PNG·TIFF): 밝은 색 지도에 종 이름·범례·출처를 붙여 4배 크기로 그린다
+const EXP={sea:'#dce6ea',land:'#b9c4bd',hab:'#e8a317',habSoft:'#cfcca8',intro:'#2a9d8f',habDot:'#c2410c',rareDot:'#6f7a72',edge:'#9aa5a0',ink:'#1d2621',muted:'#5d6b63'};
+const mixHex=(a,b,t)=>'#'+[1,3,5].map(i=>Math.round(parseInt(a.substr(i,2),16)*t+parseInt(b.substr(i,2),16)*(1-t)).toString(16).padStart(2,'0')).join('');
+function expStyle(){const E=EXP;return `<style>.land{fill:${E.land};stroke:${E.sea};stroke-width:.3}.land.m{fill:${E.hab}}.land.i{fill:${E.intro}}.land.r{fill:${E.habSoft}}
+.hascells .land.m{fill:${mixHex(E.hab,E.land,.3)}}.hascells .land.i{fill:${mixHex(E.intro,E.land,.3)}}.hascells .land.r{fill:${E.land}}
+.cell{opacity:.88}.cell.m{fill:${E.habDot}}.cell.i{fill:${E.intro}}.cell.r{fill:${E.rareDot}}.sphere{fill:none;stroke:${E.edge};stroke-width:.8}</style>`}
+function tiffBlob(img){  // 압축하지 않은 RGB TIFF(300 dpi)
+  const {width:w,height:h,data}=img,n=w*h*3,ntag=12,ifd=8,extra=ifd+2+ntag*12+4,bps=extra,res=bps+6,px=res+16;
+  const buf=new ArrayBuffer(px+n),v=new DataView(buf),u=new Uint8Array(buf);
+  v.setUint16(0,0x4949);v.setUint16(2,42,true);v.setUint32(4,ifd,true);v.setUint16(ifd,ntag,true);
+  const tags=[[256,3,1,w],[257,3,1,h],[258,3,3,bps],[259,3,1,1],[262,3,1,2],[273,4,1,px],[277,3,1,3],[278,3,1,h],[279,4,1,n],[282,5,1,res],[283,5,1,res+8],[296,3,1,2]];
+  tags.forEach(([t,ty,c,val],k)=>{const o=ifd+2+k*12;v.setUint16(o,t,true);v.setUint16(o+2,ty,true);v.setUint32(o+4,c,true);if(ty===3&&c===1)v.setUint16(o+8,val,true);else v.setUint32(o+8,val,true)});
+  [8,8,8].forEach((b,k)=>v.setUint16(bps+k*2,b,true));
+  v.setUint32(res,300,true);v.setUint32(res+4,1,true);v.setUint32(res+8,300,true);v.setUint32(res+12,1,true);
+  for(let i=0,j=px;i<data.length;i+=4){u[j++]=data[i];u[j++]=data[i+1];u[j++]=data[i+2]}
+  return new Blob([buf],{type:'image/tiff'});
+}
+async function exportMap(d,svgStr,W,H,hasCells,label,fmt){
+  const S=4,pad=48,head=96,MW=W*S,MH=H*S;
+  const src=svgStr.replace('<svg ',`<svg xmlns="http://www.w3.org/2000/svg" width="${MW}" height="${MH}" `).replace(/var\(--sea\)/g,EXP.sea).replace(/<title>.*?<\/title>/g,'').replace(/^(<svg[^>]*>)/,'$1'+expStyle());
+  const img=new Image(),url=URL.createObjectURL(new Blob([src],{type:'image/svg+xml'}));
+  await new Promise((ok,no)=>{img.onload=ok;img.onerror=no;img.src=url});URL.revokeObjectURL(url);
+  const leg=[['m',EXP.habDot,EXP.hab,`서식국가 ${d.dist.mn.toLocaleString()}건`]];
+  if(d.dist.inn)leg.push(['i',EXP.intro,EXP.intro,`이입국가 ${d.dist.inn.toLocaleString()}건`]);
+  if(d.dist.rn)leg.push(['r',EXP.rareDot,EXP.habSoft,`소수기록 ${d.dist.rn.toLocaleString()}건`]);
+  const c=document.createElement('canvas');c.width=MW+pad*2;c.height=head+MH+(hasCells?150:110)+pad;
+  const g=c.getContext('2d'),font=getComputedStyle(document.body).fontFamily;
+  g.fillStyle='#fff';g.fillRect(0,0,c.width,c.height);
+  g.fillStyle=EXP.ink;g.textBaseline='alphabetic';g.font=`600 40px ${font}`;
+  const t1=d.name||'';g.fillText(t1,pad,pad+40);const x1=pad+(t1?g.measureText(t1).width+18:0);
+  g.font=`italic 34px ${font}`;g.fillText(d.sci,x1,pad+40);
+  g.font=`26px ${font}`;g.fillStyle=EXP.muted;g.textAlign='right';g.fillText(label,c.width-pad,pad+38);g.textAlign='left';
+  g.drawImage(img,pad,head);
+  let y=head+MH+52,x=pad;g.font=`26px ${font}`;
+  for(const [,cell,base,txt] of leg){g.fillStyle=hasCells?cell:base;g.fillRect(x,y-22,26,26);g.fillStyle=EXP.ink;g.fillText(txt,x+38,y);x+=38+g.measureText(txt).width+44}
+  g.fillStyle=EXP.muted;g.font=`22px ${font}`;y+=46;
+  if(hasCells){g.fillText('진한 칸: GBIF 기록(약 40km 격자) · 옅은 바탕: 기록이 있는 나라·지역',pad,y);y+=38}
+  g.fillText(`자료: GBIF 기록 ${d.dist.n.toLocaleString()}건 · Natural Earth · vertapedia.org`,pad,y);
+  const blob=fmt==='tiff'?tiffBlob(g.getImageData(0,0,c.width,c.height)):await new Promise(ok=>c.toBlob(ok,'image/png'));
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`${d.sci.replace(/ /g,'_')}_${label.replace(/ /g,'')}.${fmt==='tiff'?'tif':'png'}`;
+  document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+}
+function expButtons(d,views){  // views: [[이름, svg 만드는 함수, 기록 칸 여부]]
+  const el=document.getElementById('distexp');if(!el)return;
+  el.innerHTML='지도 저장'+views.map(([n],k)=>['png','tiff'].map(f=>`<button type="button" data-k="${k}" data-f="${f}">${n} ${f.toUpperCase()}</button>`).join('')).join('');
+  el.hidden=false;
+  el.onclick=async e=>{const b=e.target.closest('button');if(!b)return;const [n,mk,hc]=views[b.dataset.k];
+    b.disabled=true;try{await exportMap(d,mk(),360,180,hc,n,b.dataset.f)}catch(err){alert('지도를 저장하지 못했습니다.')}finally{b.disabled=false}};
+}
 async function drawDist(d){
   const box=document.getElementById('distmap');if(!box||!d.dist)return;
   const W=360,H=180;
@@ -420,16 +471,18 @@ async function drawDist(d){
       return `<svg class="${cells?'hascells':''}" viewBox="0 0 ${W} ${H}" role="img">${bg}${land.map(f=>{const p=path(f);return p?`<path class="land ${cls(f)}" d="${p}"><title>${esc(f.properties.n)}</title></path>`:''}).join('')}${cells?cellPaths(cells,proj):''}${zoom?'':`<path class="sphere" d="${path({type:'Sphere'})}"/>`}</svg>`;
     };
     box.innerHTML=svg(world);  // 기록 칸을 받기 전까지(또는 못 받으면) 나라별 지도
+    expButtons(d,[['세계 분포',()=>svg(world),false]]);
     const cells=d.dist.key?await gbifCells(d.dist.key):[];
     if(!box.isConnected||!cells.length)return;
     classify(cells,land,cls);
     const note=document.getElementById('distnote');if(note)note.hidden=false;
     const fo=focusOf(cells),btn=document.getElementById('distzoom');
-    if(!fo||!btn){box.innerHTML=svg(world,cells);return}
+    if(!fo||!btn){box.innerHTML=svg(world,cells);expButtons(d,[['세계 분포',()=>svg(world,cells),true]]);return}
     const near=d3.geoAzimuthalEqualArea().rotate([-fo.lon,-fo.lat]).clipAngle(80).fitExtent([[8,8],[W-8,H-8]],{type:'MultiPoint',coordinates:fo.edge});
     let zoomed=true;
     const show=()=>{box.innerHTML=zoomed?svg(near,cells,true):svg(world,cells);btn.textContent=zoomed?'세계 지도':'분포 확대'};
     btn.hidden=false;btn.onclick=()=>{zoomed=!zoomed;show()};
+    expButtons(d,[['지역 분포',()=>svg(near,cells,true),true],['세계 분포',()=>svg(world,cells),true]]);
     show();
   }catch(e){if(!box.querySelector('svg'))box.innerHTML='<p class="src" style="padding:12px">지도를 불러오지 못했습니다.</p>'}
 }
@@ -461,7 +514,8 @@ function distCard(d){
   return `<div class="card distcard"><h3>분포${distNames(d.dist)}</h3>
     ${d.dist?`<div class="distwrap"><a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a><button type="button" class="distzoom" id="distzoom" hidden></button></div>
     <p class="distleg"><span class="lg"><span class="sw m"></span>서식국가 ${d.dist.mn.toLocaleString()}건</span>${d.dist.inn?`<span class="lg"><span class="sw i"></span>이입국가 ${d.dist.inn.toLocaleString()}건</span>`:''}${d.dist.rn?`<span class="lg"><span class="sw r"></span>소수기록 ${d.dist.rn.toLocaleString()}건</span>`:''}</p>
-    <p class="distnote" id="distnote" hidden>진한 칸: GBIF 기록(약 40km 격자) · 옅은 바탕: 기록이 있는 나라·지역</p>`:''}
+    <p class="distnote" id="distnote" hidden>진한 칸: GBIF 기록(약 40km 격자) · 옅은 바탕: 기록이 있는 나라·지역</p>
+    <p class="distexp" id="distexp" hidden></p>`:''}
     ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
     ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
     ${d.dist?`<p class="src">GBIF 기록 ${d.dist.n.toLocaleString()}건${d.dist.verbatim?` · 원자료 학명으로 검색: ${d.dist.verbatim.map(n=>`<i>${esc(n)}</i>`).join(', ')}`:''}</p>`:''}
