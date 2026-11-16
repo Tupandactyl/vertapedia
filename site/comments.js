@@ -4,7 +4,7 @@
   // turnstile: Cloudflare Turnstile 사이트 키(공개값), google: 구글 OAuth 클라이언트 ID(공개값)
   // 내 컴퓨터에서 미리 볼 때(127.0.0.1)는 시험 서버(127.0.0.1:8787)를 쓴다
   var LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  var CFG = Object.assign({ api: LOCAL ? "http://127.0.0.1:8787" : "https://api.vertapedia.org", turnstile: "0x4AAAAAAGCt4FRnujHizDWS", google: "" }, window.VTALK || {});
+  var CFG = Object.assign({ api: LOCAL ? "http://127.0.0.1:8787" : "https://api.vertapedia.org", turnstile: "0x4AAAAAAGCt4FRnujHizDWS", google: "648752126074-gg5vskn6k8dbo1magp2kgddt0ls4dg36.apps.googleusercontent.com" }, window.VTALK || {});
   var API = CFG.api;
   var KIND = { opinion: "의견", error: "오류 지적", info: "정보 추가" };
   var STATUS = { open: "처리 전", review: "검토 중", done: "반영됨", wontfix: "반영 안 함" };
