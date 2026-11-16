@@ -35,6 +35,8 @@ def cell(row, c):
 
 def is_sub_row(a):
     """아속 줄 모양: 아속 이름 한 단어(「Odatria」), 「미분류」, 옛 꼴 「Varanus (Odatria)」·「(아속 미정)」"""
+    if re.match(r"^(?:[A-Z][a-z]+inae|Incertae sedis)\b", a):  # 아과 머리 줄(group_subfamily_rows.py)
+        return False
     return bool(SUB_RE.match(a)) or a == UNPLACED or a in OLD_UNPLACED or (len(a.split()) == 1 and a[:1].isupper())
 
 

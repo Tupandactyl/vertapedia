@@ -99,6 +99,7 @@ def parse_nibr(pdf_path, first=155, last=215):
 FAM_RE = re.compile(r"^([A-Z][a-z]+idae)\b\s*(?:\(([^)]*)\))?")
 SUBGENUS_RE = re.compile(r"^[A-Z][a-z]+ \([^)]+\)$")  # 옛 꼴 아속 줄 「Varanus (Odatria)」
 NOSUB = ("미분류", "(아속 미정)")  # 아속을 못 정한 종들의 머리 줄(뒤는 옛 꼴)
+SUBFAM_RE = re.compile(r"^(?:[A-Z][a-z]+inae|Incertae sedis)\b")  # 아과 머리 줄 「Eugongylinae (뱀눈도마뱀아과)」(scripts/group_subfamily_rows.py)
 
 
 def parse_birds_v2026(title, rows):
@@ -270,6 +271,9 @@ def parse_reptiles(path, ov):
             m = FAM_RE.match(sci)
             if m:
                 family = m.group(1)
+                genus = subgenus = subgenus_ko = None
+                continue
+            if SUBFAM_RE.match(sci):  # 아과 머리 줄: 아과는 Reptile Database(rdb_subfamily.json)에서 받는다
                 genus = subgenus = subgenus_ko = None
                 continue
             one = len(sci.split()) == 1

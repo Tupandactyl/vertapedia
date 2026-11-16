@@ -1,0 +1,160 @@
+"""파충류 시트의 도마뱀과 탭들(도마뱀과 1~4)을 사이트처럼 아과별로 묶는다.
+
+속 묶음(속 줄 + 그 속의 종·아종 행)을 아과(data/rdb_subfamily.json, Reptile Database) 순서로 다시 늘어놓고,
+아과마다 머리 줄을 넣는다. 머리 줄 모양: 학명 열에 「Eugongylinae (뱀눈도마뱀아과)」(국명이 없으면 학명만),
+A~J 열 병합, 배경 #FCE5CD, 굵게. 아과를 못 정한 속은 맨 뒤 「Incertae sedis (아과 미정)」 아래에 둔다.
+아과 안에서는 속 이름 순서(지금 시트 순서)를 그대로 둔다. 탭 나누기는 PLAN 을 따른다.
+
+서식·병합까지 옮겨 쓴다(줄무늬 범위는 그대로)(셀 값·서식·메모·데이터 확인). 다시 돌리면 기존 아과 줄을 지우고 새로 만든다.
+사이트(import_names.py)·시트 동기화(sync_reptile_sheet.py)·속 줄/아속 줄 스크립트는 아과 줄을 건너뛴다.
+
+    python scripts/group_subfamily_rows.py           # 미리보기(탭별 아과·속·행 수)
+    python scripts/group_subfamily_rows.py --apply   # 먼저 .secrets/backup 에 xlsx 백업 후 시트에 쓴다
+"""
+import json
+import re
+import sys
+import urllib.request
+from datetime import datetime
+from pathlib import Path
+
+import requests
+
+from sheets_api import API, SHEETS, Sheet
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+FAMILY = "Scincidae"
+TABS = ["도마뱀과 1", "도마뱀과 2", "도마뱀과 3", "도마뱀과 4"]
+# 탭마다 들어갈 아과(알파벳 순). 여기 없는 아과·미정은 마지막 탭 끝에 붙는다.
+PLAN = [["Acontiinae", "Egerniinae", "Eugongylinae"],
+        ["Lygosominae", "Mabuyinae", "Ristellinae"],
+        ["Scincinae"],
+        ["Sphenomorphinae"]]
+UNPLACED = "Incertae sedis"
+SUBFAM_RE = re.compile(r"^(?:[A-Z][a-z]+inae|Incertae sedis)\b")
+ORANGE = {"red": 0.98823529, "green": 0.89803922, "blue": 0.80392157}  # #FCE5CD
+FIELDS = "userEnteredValue,userEnteredFormat,note,dataValidation,textFormatRuns"
+MERGE_COLS = 10  # 과 머리 줄과 같이 A~J
+
+
+def text(v):
+    return ((v or {}).get("userEnteredValue") or {}).get("stringValue", "").strip()
+
+
+def ko_names():
+    names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
+    return {t["sci"]: t.get("name") for t in names
+            if t["group"] == "REPTILIA" and t["rank"] == "subfamily" and t.get("family") == FAMILY}
+
+
+def read(sh):
+    params = [("ranges", f"'{t}'") for t in TABS] + [
+        ("includeGridData", "true"),
+        ("fields", "sheets(properties(sheetId,title,gridProperties),merges,"
+                   f"data(rowData(values({FIELDS}))))")]
+    r = requests.get(API + sh.id, headers=sh._h(), params=params, timeout=300)
+    r.raise_for_status()
+    return {s["properties"]["title"]: s for s in r.json()["sheets"]}
+
+
+def blocks(rows):
+    """[(속, [행...])] — 행 2(0부터, 머리말·과 줄 다음)부터. 기존 아과 줄과 빈 줄 꼬리는 버린다."""
+    out = []
+    for row in rows[2:]:
+        vals = row.get("values", [])
+        a = text(vals[0]) if vals else ""
+        if not a:
+            continue
+        if SUBFAM_RE.match(a):
+            continue
+        w = a.split()
+        if len(w) == 1 or not out or w[0] != out[-1][0]:
+            out.append((w[0], [row]))
+        else:
+            out[-1][1].append(row)
+    return out
+
+
+def header_row(sf, ko):
+    label = f"{UNPLACED} (아과 미정)" if sf == UNPLACED else (f"{sf} ({ko})" if ko else sf)
+    fmt = {"backgroundColor": ORANGE, "verticalAlignment": "TOP",
+           "textFormat": {"fontFamily": "Calibri", "fontSize": 11, "bold": True}}
+    return {"values": [{"userEnteredValue": {"stringValue": label}, "userEnteredFormat": fmt}]
+            + [{"userEnteredFormat": fmt} for _ in range(MERGE_COLS - 1)]}
+
+
+def main(apply):
+    sf_of = json.loads((DATA / "rdb_subfamily.json").read_text(encoding="utf-8"))
+    ko = ko_names()
+    sh = Sheet("reptiles")
+    grid = read(sh)
+    allb = []
+    for t in TABS:
+        allb += blocks(grid[t]["data"][0].get("rowData", []))
+    n_old = sum(len(b[1]) for b in allb)
+    by_sf = {}
+    for g, rows in allb:
+        by_sf.setdefault(sf_of.get(g) or UNPLACED, []).append((g, rows))
+    planned = [s for p in PLAN for s in p]
+    extra = sorted(s for s in by_sf if s not in planned and s != UNPLACED) + ([UNPLACED] if UNPLACED in by_sf else [])
+    plan = [list(p) for p in PLAN]
+    plan[-1] += extra
+
+    new = {}
+    for t, sfs in zip(TABS, plan):
+        rows = []
+        for s in sfs:
+            if s not in by_sf:
+                continue
+            rows.append(header_row(s, ko.get(s)))
+            for g, rs in by_sf[s]:
+                rows += rs
+        new[t] = rows
+        print(f"{t}: " + ", ".join(f"{s}({ko.get(s) or '-'}) 속 {len(by_sf.get(s, []))}"
+                                    f"·행 {sum(len(r) for _, r in by_sf.get(s, []))}" for s in sfs if s in by_sf)
+              + f" → 데이터 행 {len(rows)}")
+    moved = sum(len(r) for r in new.values()) - sum(1 for r in new.values() for x in r if SUBFAM_RE.match(text(x['values'][0])))
+    print(f"속 묶음 {len(allb)} · 옮길 행 {moved} (원래 {n_old})")
+    assert moved == n_old
+    if not apply:
+        return
+
+    stamp = datetime.now().strftime("%Y%m%d_%H%M")
+    bk = ROOT / ".secrets" / "backup" / f"reptiles_before_subfamily_rows_{stamp}.xlsx"
+    with urllib.request.urlopen(f"https://docs.google.com/spreadsheets/d/{SHEETS['reptiles']}/export?format=xlsx",
+                                timeout=180) as r:
+        body = r.read()
+    assert body.startswith(b"PK"), "백업 실패"
+    bk.write_bytes(body)
+    print("백업:", bk.name, len(body) // 1024, "KB")
+
+    reqs = []
+    for t in TABS:
+        s = grid[t]
+        sid = s["properties"]["sheetId"]
+        old_len = len(s["data"][0].get("rowData", []))
+        rows = new[t]
+        end = 2 + len(rows)
+        cap = s["properties"]["gridProperties"]["rowCount"]
+        if end > cap:
+            reqs.append({"appendDimension": {"sheetId": sid, "dimension": "ROWS", "length": end - cap + 20}})
+        for m in s.get("merges", []):  # 과 머리 줄(행 1) 말고 데이터 칸 병합은 풀었다가 아과 줄에만 다시 건다
+            if m["startRowIndex"] >= 2:
+                reqs.append({"unmergeCells": {"range": m}})
+        blank = [{"values": []}] * max(0, old_len - end)
+        reqs.append({"updateCells": {"start": {"sheetId": sid, "rowIndex": 2, "columnIndex": 0},
+                                     "rows": rows + blank, "fields": FIELDS}})
+        for i, row in enumerate(rows):
+            if SUBFAM_RE.match(text(row["values"][0])):
+                reqs.append({"mergeCells": {"mergeType": "MERGE_ALL", "range": {
+                    "sheetId": sid, "startRowIndex": 2 + i, "endRowIndex": 3 + i,
+                    "startColumnIndex": 0, "endColumnIndex": MERGE_COLS}}})
+    r = requests.post(API + sh.id + ":batchUpdate", headers=sh._h(), timeout=600, json={"requests": reqs})
+    if not r.ok:
+        sys.exit(r.text[:2000])
+    print("시트에 썼다:", len(reqs), "요청")
+
+
+if __name__ == "__main__":
+    main("--apply" in sys.argv)
