@@ -87,5 +87,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kerilia_jerdoni_lores.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kerilia_jerdoni_lores.jpg",
+   "license": "Public domain",
+   "artist": "",
+   "title": "Kerilia jerdoni lores.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/KeriliaJerdoniSmith.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:KeriliaJerdoniSmith.jpg",
+   "license": "Public domain",
+   "artist": "M A Smith",
+   "title": "KeriliaJerdoniSmith.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

@@ -59,5 +59,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Phelsuma_gigas_-_Giant_Rodrigues_Gecko_-_extinct_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phelsuma_gigas_-_Giant_Rodrigues_Gecko_-_extinct_2.jpg",
+   "license": "CC0",
+   "artist": "Alces caucsicus",
+   "title": "Phelsuma gigas - Giant Rodrigues Gecko - extinct 2.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Phelsuma_gigas_-_Giant_Rodrigues_Gecko_-_extinct_2.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Phelsuma_gigas_-_Giant_Rodrigues_Gecko_-_extinct_2.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alces caucsicus",
+   "title": "Phelsuma gigas - Giant Rodrigues Gecko - extinct 2.png"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Phelsuma_gigas.jpg/960px-Phelsuma_gigas.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phelsuma_gigas.jpg",
+   "license": "Public domain",
+   "artist": "Gunther, A",
+   "title": "Phelsuma gigas.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

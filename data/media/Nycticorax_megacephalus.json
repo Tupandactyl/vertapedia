@@ -82,5 +82,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rodrigues_Night_Heron.jpg/960px-Rodrigues_Night_Heron.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rodrigues_Night_Heron.jpg",
+   "license": "Public domain",
+   "artist": "Alphonse Milne-Edwards. Published by G. Masson in Paris, France",
+   "title": "Rodrigues Night Heron.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Nycticorax_megacephalus.jpg/960px-Nycticorax_megacephalus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nycticorax_megacephalus.jpg",
+   "license": "Public domain",
+   "artist": "R. Mintern",
+   "title": "Nycticorax megacephalus.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Rodrigues_night_heron_restoration_%28transparent%29.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Rodrigues_night_heron_restoration_(transparent).png",
+   "license": "CC BY-SA 3.0",
+   "artist": "FunkMonk",
+   "title": "Rodrigues night heron restoration (transparent).png"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Rodrigues_night_heron_restoration.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rodrigues_night_heron_restoration.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "FunkMonk",
+   "title": "Rodrigues night heron restoration.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

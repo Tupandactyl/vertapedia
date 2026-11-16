@@ -94,5 +94,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Mindoro_bleeding-heart_Smithsonian_specimen.jpg/960px-Mindoro_bleeding-heart_Smithsonian_specimen.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mindoro_bleeding-heart_Smithsonian_specimen.jpg",
+   "license": "CC0",
+   "artist": "Anand Krishnan",
+   "title": "Mindoro bleeding-heart Smithsonian specimen.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Mindoro_bleeding-heart_song_sonogram.png/960px-Mindoro_bleeding-heart_song_sonogram.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Mindoro_bleeding-heart_song_sonogram.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Albert Lastukhin",
+   "title": "Mindoro bleeding-heart song sonogram.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

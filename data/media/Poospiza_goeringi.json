@@ -24,5 +24,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/ChlorospingusGoeringiSmit.jpg/960px-ChlorospingusGoeringiSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ChlorospingusGoeringiSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "title": "ChlorospingusGoeringiSmit.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Slaty-backed_Hemispingus_Poospiza_goeringi_in_T%C3%A1chira%2C_Venezuela_01.png/960px-Slaty-backed_Hemispingus_Poospiza_goeringi_in_T%C3%A1chira%2C_Venezuela_01.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Slaty-backed_Hemispingus_Poospiza_goeringi_in_T%C3%A1chira,_Venezuela_01.png",
+   "license": "CC BY 4.0",
+   "artist": "Robert Lambeck",
+   "title": "Slaty-backed Hemispingus Poospiza goeringi in Táchira, Venezuela 01.png"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Slaty-backed_Hemispingus_Poospiza_goeringi_in_T%C3%A1chira%2C_Venezuela_02.png/960px-Slaty-backed_Hemispingus_Poospiza_goeringi_in_T%C3%A1chira%2C_Venezuela_02.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Slaty-backed_Hemispingus_Poospiza_goeringi_in_T%C3%A1chira,_Venezuela_02.png",
+   "license": "CC BY 4.0",
+   "artist": "Robert Lambeck",
+   "title": "Slaty-backed Hemispingus Poospiza goeringi in Táchira, Venezuela 02.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

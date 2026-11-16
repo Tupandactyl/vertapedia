@@ -83,5 +83,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Paroedura_masobe.jpg/960px-Paroedura_masobe.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Paroedura_masobe.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Jyine",
+   "title": "Paroedura masobe.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Parodeura.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Parodeura.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Derfel73; Visionholder et al. Avery Rebar added red stars and circle",
+   "title": "Parodeura.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

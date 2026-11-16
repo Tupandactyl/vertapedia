@@ -66,5 +66,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Micrurus_remotus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Micrurus_remotus.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Leandro J.C.L. Moraes, Alexandre P. de Almeida, Rafael de Fraga, Rommel R. Zamora, Renata M. Pirani, Ariane A.A. Silva, ",
+   "title": "Micrurus remotus.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Micrurus_remotus_Map.jpg/960px-Micrurus_remotus_Map.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Micrurus_remotus_Map.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ubs6u!d-pongsakorn",
+   "title": "Micrurus remotus Map.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Snake_diversity_%2810.3897-zookeys.715.20288%29_Figure_7.jpg/960px-Snake_diversity_%2810.3897-zookeys.715.20288%29_Figure_7.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Snake_diversity_(10.3897-zookeys.715.20288)_Figure_7.jpg",
+   "license": "CC BY 4.0",
+   "artist": "[Photographs by Haroldo Palo Jr. (a, c, e–h)] Moraes LJCL, Almeida AP, Fraga R, Rojas RR, Pirani RM, Silva AAA, de Carva",
+   "title": "Snake diversity (10.3897-zookeys.715.20288) Figure 7.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

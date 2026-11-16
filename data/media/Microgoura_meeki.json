@@ -78,5 +78,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Choiseul_Crested_Pigeon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Choiseul_Crested_Pigeon.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Choiseul Crested Pigeon.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_of_Choiseul.png/960px-Flag_of_Choiseul.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Flag_of_Choiseul.png",
+   "license": "Public domain",
+   "artist": "Juergen Krause",
+   "title": "Flag of Choiseul.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

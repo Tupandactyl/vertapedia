@@ -96,5 +96,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Gerygone_insularis.jpg/960px-Gerygone_insularis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gerygone_insularis.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "title": "Gerygone insularis.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gerygone_insularis_a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gerygone_insularis_a.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "title": "Gerygone insularis a.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

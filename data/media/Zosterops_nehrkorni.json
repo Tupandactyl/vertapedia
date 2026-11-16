@@ -25,5 +25,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Zosterops_nehrkorni.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterops_nehrkorni.jpg",
+   "license": "Public domain",
+   "artist": "Wilhelm Blasius (1845-1912)",
+   "title": "Zosterops nehrkorni.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Zosterops_nehrkorni_1898.jpg/960px-Zosterops_nehrkorni_1898.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterops_nehrkorni_1898.jpg",
+   "license": "Public domain",
+   "artist": "Bruno Geisler",
+   "title": "Zosterops nehrkorni 1898.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

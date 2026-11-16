@@ -10,5 +10,24 @@
  },
  "photos": [],
  "wiki": null,
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Cyrtodactylus_arnei_female.jpg/960px-Cyrtodactylus_arnei_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyrtodactylus_arnei_female.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Cuong The Pham",
+   "title": "Cyrtodactylus arnei female.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cyrtodactylus_arnei_male.jpg/960px-Cyrtodactylus_arnei_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyrtodactylus_arnei_male.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Cuong The Pham",
+   "title": "Cyrtodactylus arnei male.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

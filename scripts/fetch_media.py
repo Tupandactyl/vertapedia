@@ -9,6 +9,7 @@
     python scripts/fetch_media.py --limit 200     # 이번에 새로 받을 최대 종 수
     python scripts/fetch_media.py --covers        # 이미 받은 종에 대표 사진(큐레이터 선정)만 채우기
     python scripts/fetch_media.py --wiki-fix      # 위키 문서가 없거나 속 문서뿐인 종을 옛 학명·영명으로 다시 찾기
+    python scripts/fetch_media.py --commons       # 사진이 없는 종에 위키미디어 커먼즈 자유 이미지(논문 도판·표본 포함) 채우기
 
 위키 문서: data/wiki_overrides.json 에 적은 문서 → iNaturalist 가 걸어 둔 문서 → 학명·옛 학명·영명으로 찾은 문서(wiki_found) 순서.
 찾은 문서는 첫머리에 그 종의 학명(또는 옛 학명)과 영명이 함께 있을 때만 받아들인다.
@@ -288,6 +289,104 @@ def wiki_fix(scope):
     print(f"위키 문서 다시 찾기: 확인 {checked} · 바꿈 {fixed}")
 
 
+# --- 위키미디어 커먼즈: iNaturalist 사진이 없는 종만 ---
+# 자유 라이선스(CC0·퍼블릭 도메인·CC BY·CC BY-SA)만 쓴다. 논문 도판·표본 사진·옛 삽화도 받되 지도·도식은 뺀다.
+# 위키데이터 대표 이미지(P18)를 먼저, 그다음 커먼즈 'Category:<학명>' 파일.
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+COMMONS_SKIP = re.compile(r"distribut|range|map|karte|verbreitung|areal|locator|svg$|\.gif$|\.pdf$|\.djvu$|sound|\.ogg$|\.wav$|\.mp3$|\.webm$", re.I)
+COMMONS_FREE = re.compile(r"^(cc0|public domain|pd|pd-|cc by(-sa)? ?\d|cc-by(-sa)?-?\d|cc by(-sa)?$)", re.I)
+
+
+def wiki_get(url, params):
+    """위키미디어 API(1초에 여러 번까지 괜찮지만 0.3초 간격으로)"""
+    url += "?" + urllib.parse.urlencode(dict(params, format="json"))
+    for attempt in range(4):
+        try:
+            time.sleep(0.3)
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
+                return json.load(r)
+        except (urllib.error.URLError, ConnectionError, TimeoutError, OSError):
+            time.sleep(5 * (attempt + 1))
+    return {}
+
+
+def wikidata_p18(scis):
+    """학명 → 위키데이터 대표 이미지 파일 이름"""
+    out = {}
+    for i in range(0, len(scis), 150):
+        part = scis[i:i + 150]
+        q = "SELECT ?n ?img WHERE { VALUES ?n {%s} ?i wdt:P225 ?n . ?i wdt:P18 ?img }" % " ".join(json.dumps(x) for x in part)
+        req = urllib.request.Request("https://query.wikidata.org/sparql", headers=dict(UA, Accept="application/sparql-results+json"),
+                                     data=urllib.parse.urlencode({"query": q}).encode())
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=90) as r:
+                    for b in json.load(r)["results"]["bindings"]:
+                        f = urllib.parse.unquote(b["img"]["value"].rsplit("/", 1)[-1])
+                        out.setdefault(b["n"]["value"], []).append("File:" + f)
+                break
+            except (urllib.error.URLError, ConnectionError, TimeoutError, OSError):
+                time.sleep(10 * (attempt + 1))
+        time.sleep(1)
+    return out
+
+
+def strip_html(h):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", h or "")).strip()
+
+
+def commons_info(titles):
+    """파일 이름들 → 표시용 사진 정보(자유 라이선스·사진 파일만)"""
+    out = {}
+    for i in range(0, len(titles), 40):
+        d = wiki_get(COMMONS_API, dict(action="query", titles="|".join(titles[i:i + 40]), prop="imageinfo",
+                                       iiprop="url|extmetadata|mime", iiurlwidth=800))
+        for pg in (d.get("query") or {}).get("pages", {}).values():
+            ii = (pg.get("imageinfo") or [None])[0]
+            if not ii or not ii.get("mime", "").startswith("image/") or ii["mime"] in ("image/svg+xml", "image/gif"):
+                continue
+            em = ii.get("extmetadata") or {}
+            lic = strip_html((em.get("LicenseShortName") or {}).get("value"))
+            if not COMMONS_FREE.match(lic):
+                continue
+            out[pg["title"]] = dict(src="commons", url=(ii.get("thumburl") or ii["url"]).split("?")[0], page=ii.get("descriptionurl"),
+                                    license=lic, artist=strip_html((em.get("Artist") or {}).get("value"))[:120],
+                                    title=pg["title"][5:])
+    return out
+
+
+def fill_commons(limit, max_age=60):
+    """사진이 없는 종(iNaturalist 사진·대표 사진 모두 없음)에 커먼즈 이미지를 채운다."""
+    cutoff = (date.today() - timedelta(days=max_age)).isoformat()
+    names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
+    todo = []
+    for t in names:
+        if t["rank"] != "species":
+            continue
+        f = OUT / (t["sci"].replace(" ", "_") + ".json")
+        m = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+        if not m or m.get("photos") or m.get("curated") or m.get("commons_checked", "") >= cutoff:
+            continue
+        todo.append((t["sci"], f, m))
+    todo = todo[:limit]
+    print("커먼즈 확인할 종:", len(todo), flush=True)
+    p18 = wikidata_p18([s for s, _, _ in todo])
+    got = 0
+    for n, (sci, f, m) in enumerate(todo, 1):
+        titles = list(p18.get(sci, []))
+        d = wiki_get(COMMONS_API, dict(action="query", list="categorymembers", cmtitle="Category:" + sci, cmtype="file", cmlimit=20))
+        titles += [x["title"] for x in (d.get("query") or {}).get("categorymembers", []) if x["title"] not in titles]
+        titles = [x for x in titles if not COMMONS_SKIP.search(x)]
+        info = commons_info(titles) if titles else {}
+        m["commons"] = [info[x] for x in titles if x in info][:PER_SPECIES]
+        m["commons_checked"] = date.today().isoformat()
+        f.write_text(json.dumps(m, ensure_ascii=False, indent=1), encoding="utf-8")
+        got += bool(m["commons"])
+        if m["commons"] or n % 100 == 0:
+            print(f"{n:5} {sci:34} 커먼즈 {len(m['commons'])} (누적 {got})", flush=True)
+    print("커먼즈 이미지가 있는 종:", got)
+
+
 def targets(scope):
     """korean: 한국 출현종 · named: 국명이 있는 모든 종 · unnamed: 국명이 없는 종만 · all: 전부"""
     names = json.loads((DATA / "names.json").read_text(encoding="utf-8"))
@@ -308,12 +407,15 @@ def main():
     ap.add_argument("--covers", action="store_true", help="이미 받은 종의 대표 사진만 채운다")
     ap.add_argument("--common", action="store_true", help="이미 받은 종의 iNaturalist 영명만 채운다")
     ap.add_argument("--wiki-fix", action="store_true", help="위키 문서가 없거나 속 문서뿐인 종을 다시 찾는다")
+    ap.add_argument("--commons", action="store_true", help="사진이 없는 종에 위키미디어 커먼즈 이미지를 채운다")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     if a.covers:
         return backfill_covers()
     if a.common:
         return backfill_common()
+    if a.commons:
+        return fill_commons(a.limit)
     if a.wiki_fix:
         return wiki_fix("named" if a.scope == "korean" else a.scope)
     load_old_names(json.loads((DATA / "names.json").read_text(encoding="utf-8")))
@@ -344,6 +446,10 @@ def main():
             rec["inat"]["common"] = tx.get("preferred_common_name")
             rec["curated"] = inat_curated_many([tx["id"]]).get(tx["id"], [])
             rec["wiki"] = wiki_for(t, tx.get("wikipedia_url"), old)
+        if old and not rec["photos"] and not rec.get("curated"):  # 커먼즈 이미지는 다시 받을 때도 남긴다
+            for k in ("commons", "commons_checked"):
+                if k in old:
+                    rec[k] = old[k]
         f.write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
         done += 1
         print(f"{done:4} {t['sci']:34} 사진 {len(rec['photos'])} 위키 {'O' if rec['wiki'] else '-'}", flush=True)

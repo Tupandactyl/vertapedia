@@ -60,5 +60,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/ActenoidesBougainvilleiKeulemans.jpg/960px-ActenoidesBougainvilleiKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ActenoidesBougainvilleiKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans (1842 - 1912)",
+   "title": "ActenoidesBougainvilleiKeulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/ActenoidesBougainvilleiKeulemans_%28cropped%29.jpg/960px-ActenoidesBougainvilleiKeulemans_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ActenoidesBougainvilleiKeulemans_(cropped).jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans (1842 - 1912)",
+   "title": "ActenoidesBougainvilleiKeulemans (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Moustached_Kingfisher_%28Actenoides_bougainvillei%29_in_Bougainviille.png/960px-Moustached_Kingfisher_%28Actenoides_bougainvillei%29_in_Bougainviille.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Moustached_Kingfisher_(Actenoides_bougainvillei)_in_Bougainviille.png",
+   "license": "CC BY 4.0",
+   "artist": "Barry Reed",
+   "title": "Moustached Kingfisher (Actenoides bougainvillei) in Bougainviille.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

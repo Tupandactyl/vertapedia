@@ -93,5 +93,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Dodo_and_other_extinct_birds_Plate_33.jpg/960px-Dodo_and_other_extinct_birds_Plate_33.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dodo_and_other_extinct_birds_Plate_33.jpg",
+   "license": "Public domain",
+   "artist": "unknown: Edward Newton (create creator page) unknown: Hans Gadow (create creator page)",
+   "title": "Dodo and other extinct birds Plate 33.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mascarenotus_sauzieri.jpg/960px-Mascarenotus_sauzieri.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mascarenotus_sauzieri.jpg",
+   "license": "Public domain",
+   "artist": "Edward Newton, Hans Gadow",
+   "title": "Mascarenotus sauzieri.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Mauritius_owl.jpg/960px-Mauritius_owl.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mauritius_owl.jpg",
+   "license": "Public domain",
+   "artist": "Paul Philippe Sanguin de Jossigny",
+   "title": "Mauritius owl.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Scops_commersoni.jpg/960px-Scops_commersoni.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scops_commersoni.jpg",
+   "license": "Public domain",
+   "artist": "Émile Oustalet (1844-1905) after Paul Philippe Sanguin de Jossigny (from 1770)",
+   "title": "Scops commersoni.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

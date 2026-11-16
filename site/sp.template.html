@@ -81,6 +81,7 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 .ph{position:relative;border-radius:6px;overflow:hidden;background:var(--moss-soft);margin:0;min-width:0}
 .ph:first-child{grid-row:span 2}
 .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph.cm img{object-fit:contain;background:var(--panel)}  /* 커먼즈 논문 도판·표본: 잘리지 않게 */
 .ph a{display:block;height:100%}
 .ph figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 8px 5px;font-size:10.5px;line-height:1.35;background:linear-gradient(transparent,var(--shade));color:#fff}
 /* 모바일: 대표사진은 자르지 않고 원래 비율로(전신이 보이게). 아주 긴 세로 사진만 화면 높이에 맞춘다 */
@@ -241,6 +242,7 @@ const IUCN={EX:'절멸',EW:'야생절멸',CR:'위급',EN:'위기',VU:'취약',NT
 const LIC={'cc0':'CC0','cc-by':'CC BY','cc-by-sa':'CC BY-SA','cc-by-nc':'CC BY-NC','cc-by-nc-sa':'CC BY-NC-SA'};
 const KOS={'가-1':'한국 기록종','가-2':'북한 기록종','나':'보류(선박 등 인위적 도래)','다':'보류(재검토 필요)','라':'보류(근거 부족)','마':'도입종'};
 const credit=p=>{
+  if(p.src==='commons')return `${/^public domain|^pd/i.test(p.license)?'':'© '}${p.artist||'작자 미상'} · ${p.license} · Wikimedia Commons`;
   const a=p.attribution||'',m=/^\(c\)\s*(.*?),\s*(some|all|no) rights/i.exec(a);
   const who=m?m[1]:/no rights reserved/i.test(a)?(/^(.*?),?\s*no rights reserved/i.exec(a)||[])[1]||'':a;
   return p.license==='cc0'?`${who?who+' · ':''}CC0 (저작권 없음)`:`© ${who} · ${LIC[p.license]||p.license}`};
@@ -477,7 +479,7 @@ function render(d){
   if(d.kr)chips.push(`<span class="chip" title="한국양서파충류학회 2025 수록">${esc(d.kr)}</span>`);
   if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);
   const ph=d.photos||[];
-  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
+  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph${p.src==='commons'?' cm':''}"><a href="${p.src==='commons'?esc(p.page):`https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
 `
     :`<div class="nophoto">${d.fetched?'사진 없음':'사진 준비 중'}</div>`;
   const w=d.wiki;

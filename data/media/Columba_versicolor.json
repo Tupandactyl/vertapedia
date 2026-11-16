@@ -44,5 +44,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Columba_versicolor_1832.jpg/960px-Columba_versicolor_1832.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Columba_versicolor_1832.jpg",
+   "license": "Public domain",
+   "artist": "Heinrich von Kittlitz",
+   "title": "Columba versicolor 1832.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Columba_versicolor.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Columba_versicolor.jpg",
+   "license": "Public domain",
+   "artist": "Lydia Kingsley Kefford",
+   "title": "Columba versicolor.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

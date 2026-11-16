@@ -32,5 +32,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Robust_White-eye.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Robust_White-eye.jpg",
+   "license": "Public domain",
+   "artist": "John Gould",
+   "title": "Robust White-eye.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/White-eyes.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-eyes.jpg",
+   "license": "Public domain",
+   "artist": "G.J. Broinowski",
+   "title": "White-eyes.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Zosterops_strenuus_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterops_strenuus_2.jpg",
+   "license": "Public domain",
+   "artist": "G.J. Broinowski",
+   "title": "Zosterops strenuus 2.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Zosterops_strenuus.jpg/960px-Zosterops_strenuus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterops_strenuus.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Gronvold",
+   "title": "Zosterops strenuus.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

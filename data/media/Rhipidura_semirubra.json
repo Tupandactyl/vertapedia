@@ -55,5 +55,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Rhipidura_semirubra_01.jpg/960px-Rhipidura_semirubra_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rhipidura_semirubra_01.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "title": "Rhipidura semirubra 01.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Manus_Fantail_Rhipidura_semirubra_in_Manus%2C_Papua_New_Guinea.png/960px-Manus_Fantail_Rhipidura_semirubra_in_Manus%2C_Papua_New_Guinea.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Manus_Fantail_Rhipidura_semirubra_in_Manus,_Papua_New_Guinea.png",
+   "license": "CC BY 4.0",
+   "artist": "Barry Reed",
+   "title": "Manus Fantail Rhipidura semirubra in Manus, Papua New Guinea.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

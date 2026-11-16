@@ -166,10 +166,11 @@ def pics(m):
     cover = [dict(c, cover=1) for c in (m.get("curated") or [])[:1]]
     pid = lambda p: p["url"].split("/photos/")[-1].split("/")[0]
     seen = {pid(c) for c in cover}
-    return cover + [p for p in m.get("photos", []) if pid(p) not in seen]
+    out = cover + [p for p in m.get("photos", []) if pid(p) not in seen]
+    return out or list(m.get("commons") or [])  # iNaturalist 사진이 없으면 위키미디어 커먼즈 자유 이미지
 
 
-has_pic = lambda sci: bool(media.get(sci, {}).get("photos") or media.get(sci, {}).get("curated"))
+has_pic = lambda sci: bool(media.get(sci, {}).get("photos") or media.get(sci, {}).get("curated") or media.get(sci, {}).get("commons"))
 # 속 → 모식종: 파충류는 Reptile Database 표시, 조류(와 표시 없는 파충류 속)는 data/type_species.json (AviList 등)
 type_of = {(t["group"], t["sci"].split()[0]): t["sci"] for t in names if t["rank"] == "species" and t.get("type_species")}
 _sp_group = {t["sci"]: t["group"] for t in names if t["rank"] == "species"}
@@ -268,6 +269,8 @@ fname = lambda sci: sci.replace(" ", "_") + ".json"
 
 def photo_credit(p):
     """미리보기 설명 줄에 넣을 사진 저작자와 라이선스."""
+    if p.get("src") == "commons":
+        return f"{p.get('artist') or '작자 미상'} ({p.get('license')}, Wikimedia Commons)"
     a = p.get("attribution") or ""
     m = re.match(r"\(c\)\s*(.*?),\s*(?:some|all|no) rights", a, re.I) or re.match(r"(.*?),?\s*no rights reserved", a, re.I)
     who = m.group(1) if m else a

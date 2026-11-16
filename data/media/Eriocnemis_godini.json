@@ -46,5 +46,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Eriocnemis_godini.jpg/960px-Eriocnemis_godini.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eriocnemis_godini.jpg",
+   "license": "Public domain",
+   "artist": "J. Gould",
+   "title": "Eriocnemis godini.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Eriocnemis_godini_%28cropped%29.jpg/960px-Eriocnemis_godini_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eriocnemis_godini_(cropped).jpg",
+   "license": "Public domain",
+   "artist": "J. Gould",
+   "title": "Eriocnemis godini (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Eriocnemis_godini_detail.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eriocnemis_godini_detail.jpg",
+   "license": "CC0",
+   "artist": "J. Gould (1849-87)",
+   "title": "Eriocnemis godini detail.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/MonographTrochi4Goul_0306.jpg/960px-MonographTrochi4Goul_0306.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MonographTrochi4Goul_0306.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / Henry Constantine Richter",
+   "title": "MonographTrochi4Goul 0306.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

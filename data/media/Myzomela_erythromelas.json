@@ -23,5 +23,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/MyzomelaGuentheriSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MyzomelaGuentheriSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "title": "MyzomelaGuentheriSmit.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/MyzomelaGuentheriSmit_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MyzomelaGuentheriSmit_(cropped).jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "title": "MyzomelaGuentheriSmit (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Naturalis_Biodiversity_Center_-_RMNH.AVES.133884_1_-_Myzomela_erythromelas_Salvadori%2C_1881_-_Meliphagidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.133884_1_-_Myzomela_erythromelas_Salvadori%2C_1881_-_Meliphagidae_-_bird_skin_specimen.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.133884_1_-_Myzomela_erythromelas_Salvadori,_1881_-_Meliphagidae_-_bird_skin_specimen.jpeg",
+   "license": "CC0",
+   "artist": "Salvadori, 1881",
+   "title": "Naturalis Biodiversity Center - RMNH.AVES.133884 1 - Myzomela erythromelas Salvadori, 1881 - Meliphagidae - bird skin specimen.jpeg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Naturalis_Biodiversity_Center_-_RMNH.AVES.133884_2_-_Myzomela_erythromelas_Salvadori%2C_1881_-_Meliphagidae_-_bird_skin_specimen.jpeg/960px-Naturalis_Biodiversity_Center_-_RMNH.AVES.133884_2_-_Myzomela_erythromelas_Salvadori%2C_1881_-_Meliphagidae_-_bird_skin_specimen.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.133884_2_-_Myzomela_erythromelas_Salvadori,_1881_-_Meliphagidae_-_bird_skin_specimen.jpeg",
+   "license": "CC0",
+   "artist": "Salvadori, 1881",
+   "title": "Naturalis Biodiversity Center - RMNH.AVES.133884 2 - Myzomela erythromelas Salvadori, 1881 - Meliphagidae - bird skin specimen.jpeg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

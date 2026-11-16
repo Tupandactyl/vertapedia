@@ -26,5 +26,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Mundia.elpenor.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mundia.elpenor.jpg",
+   "license": "Public domain",
+   "artist": "Peter Mundy",
+   "title": "Mundia.elpenor.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Ascension_crake_bones_in_Scotland.jpg/960px-Ascension_crake_bones_in_Scotland.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ascension_crake_bones_in_Scotland.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "FunkMonk",
+   "title": "Ascension crake bones in Scotland.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Ascension_crake_skull.png/960px-Ascension_crake_skull.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Ascension_crake_skull.png",
+   "license": "Public domain",
+   "artist": "Olson, Storrs L.",
+   "title": "Ascension crake skull.png"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ascension_crake.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Ascension_crake.png",
+   "license": "Public domain",
+   "artist": "Peter Mundy",
+   "title": "Ascension crake.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

@@ -39,5 +39,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/DryodromasPearsoniGronvold.jpg/960px-DryodromasPearsoniGronvold.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:DryodromasPearsoniGronvold.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Gronvold",
+   "title": "DryodromasPearsoniGronvold.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Cisticola_melanurus%2C_Cuanavale-rivier%2C_a_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cisticola_melanurus,_Cuanavale-rivier,_a_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Maans Booysen, Birding Weto",
+   "title": "Cisticola melanurus, Cuanavale-rivier, a (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cisticola_melanurus%2C_Cuanavale-rivier%2C_a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cisticola_melanurus,_Cuanavale-rivier,_a.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Maans Booysen, Birding Weto",
+   "title": "Cisticola melanurus, Cuanavale-rivier, a.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

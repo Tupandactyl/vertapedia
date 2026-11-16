@@ -89,5 +89,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Newton%27s_Parakeet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Newton%27s_Parakeet.jpg",
+   "license": "Public domain",
+   "artist": "Jossigny",
+   "title": "Newton's Parakeet.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Rodrigues_parakeets%2C_Cambridge_zoology_museum.jpg/960px-Rodrigues_parakeets%2C_Cambridge_zoology_museum.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rodrigues_parakeets,_Cambridge_zoology_museum.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dolly Jørgensen",
+   "title": "Rodrigues parakeets, Cambridge zoology museum.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vadaspark_Madarak_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vadaspark_Madarak_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Szalax",
+   "title": "Vadaspark Madarak 01.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

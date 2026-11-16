@@ -54,5 +54,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Gallirallus_wakensis_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallirallus_wakensis_(cropped).jpg",
+   "license": "Public domain",
+   "artist": "Grooch, W. S.",
+   "title": "Gallirallus wakensis (cropped).jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Gallirallus_wakensis.jpg/960px-Gallirallus_wakensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallirallus_wakensis.jpg",
+   "license": "Public domain",
+   "artist": "Grooch, W. S.",
+   "title": "Gallirallus wakensis.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

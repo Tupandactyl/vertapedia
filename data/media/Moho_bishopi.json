@@ -58,5 +58,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Moho-bishopi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Moho-bishopi.jpg",
+   "license": "Public domain",
+   "artist": "Frederick William Frohawk",
+   "title": "Moho-bishopi.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Moho_bishopi_%28Bishop%27s_%27O%27o%29%2C_Bishop_Museum%2C_Honolulu.jpg/960px-Moho_bishopi_%28Bishop%27s_%27O%27o%29%2C_Bishop_Museum%2C_Honolulu.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Moho_bishopi_(Bishop%27s_%27O%27o),_Bishop_Museum,_Honolulu.jpg",
+   "license": "CC0",
+   "artist": "Wmpearl",
+   "title": "Moho bishopi (Bishop's 'O'o), Bishop Museum, Honolulu.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Moho_bishopi.jpg/960px-Moho_bishopi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Moho_bishopi.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Moho bishopi.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

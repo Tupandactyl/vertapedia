@@ -79,5 +79,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/MicrocerculusKeulemans.jpg/960px-MicrocerculusKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MicrocerculusKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans, cropped by User:Kersti Nebelsiek",
+   "title": "MicrocerculusKeulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/BrotogerysMicrocerculusKeulemans.jpg/960px-BrotogerysMicrocerculusKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BrotogerysMicrocerculusKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans",
+   "title": "BrotogerysMicrocerculusKeulemans.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

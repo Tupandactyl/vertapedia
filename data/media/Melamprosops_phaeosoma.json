@@ -68,5 +68,32 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Po%CA%BBouli.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Po%CA%BBouli.jpg",
+   "license": "Public domain",
+   "artist": "U.S. Fish and Wildlife Service (Photographer Paul E. Baker)",
+   "title": "Poʻouli.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Black-faced_Honeycreeper.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-faced_Honeycreeper.jpg",
+   "license": "Public domain",
+   "artist": "Paul E. Baker",
+   "title": "Black-faced Honeycreeper.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Melamprosops.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Melamprosops.jpg",
+   "license": "Public domain",
+   "artist": "Paul E. Baker",
+   "title": "Melamprosops.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

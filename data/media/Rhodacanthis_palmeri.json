@@ -44,5 +44,40 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Telespiza_palmeri1.jpg/960px-Telespiza_palmeri1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Telespiza_palmeri1.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "title": "Telespiza palmeri1.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Rhodacanthis_palmeri_AvesHawaiienses00Wils_0206.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rhodacanthis_palmeri_AvesHawaiienses00Wils_0206.jpg",
+   "license": "Public domain",
+   "artist": "Frederick William Frohawk",
+   "title": "Rhodacanthis palmeri AvesHawaiienses00Wils 0206.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Rhodacanthis_palmeri%2C_male%2C_Bishop_Museum%2C_Honolulu.JPG/960px-Rhodacanthis_palmeri%2C_male%2C_Bishop_Museum%2C_Honolulu.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Rhodacanthis_palmeri,_male,_Bishop_Museum,_Honolulu.JPG",
+   "license": "CC0",
+   "artist": "Hiart",
+   "title": "Rhodacanthis palmeri, male, Bishop Museum, Honolulu.JPG"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Zzzgreaterkoafinch.jpg/960px-Zzzgreaterkoafinch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zzzgreaterkoafinch.jpg",
+   "license": "Public domain",
+   "artist": "Frederick William Frohawk",
+   "title": "Zzzgreaterkoafinch.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

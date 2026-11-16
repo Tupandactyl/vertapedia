@@ -33,5 +33,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Paradesia_decora_Keulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Paradesia_decora_Keulemans.jpg",
+   "license": "Public domain",
+   "artist": "",
+   "title": "Paradesia decora Keulemans.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Paradisaea_decora_by_Bowdler_Sharpe.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Paradisaea_decora_by_Bowdler_Sharpe.jpg",
+   "license": "Public domain",
+   "artist": "Richard Bowdler Sharpe",
+   "title": "Paradisaea decora by Bowdler Sharpe.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

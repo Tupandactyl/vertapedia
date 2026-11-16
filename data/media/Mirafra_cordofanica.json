@@ -38,5 +38,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/MirafraCordonfanicaWolf.jpg/960px-MirafraCordonfanicaWolf.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MirafraCordonfanicaWolf.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Wolf",
+   "title": "MirafraCordonfanicaWolf.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/MirafraCordonfanicaWolf_%28cropped%29.jpg/960px-MirafraCordonfanicaWolf_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MirafraCordonfanicaWolf_(cropped).jpg",
+   "license": "Public domain",
+   "artist": "Joseph Wolf",
+   "title": "MirafraCordonfanicaWolf (cropped).jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

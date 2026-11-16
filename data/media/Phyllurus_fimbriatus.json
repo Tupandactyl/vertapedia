@@ -46,5 +46,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Scawfell_Island_Leaf-tailed_Gecko.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scawfell_Island_Leaf-tailed_Gecko.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Conrad Hoskin",
+   "title": "Scawfell Island Leaf-tailed Gecko.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Habitat_of_Phyllurus_fimbriatus.png/960px-Habitat_of_Phyllurus_fimbriatus.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Habitat_of_Phyllurus_fimbriatus.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr Conrad Hoskin",
+   "title": "Habitat of Phyllurus fimbriatus.png"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }

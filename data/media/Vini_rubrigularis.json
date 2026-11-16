@@ -34,5 +34,24 @@
    }
   ]
  },
- "curated": []
+ "curated": [],
+ "commons": [
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Charmosyna_rubrigularis.jpg/960px-Charmosyna_rubrigularis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charmosyna_rubrigularis.jpg",
+   "license": "Public domain",
+   "artist": "Artwork by John Gerard Keulemans (1842-1912).",
+   "title": "Charmosyna rubrigularis.jpg"
+  },
+  {
+   "src": "commons",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Loriidae5_Wytsman.jpg/960px-Loriidae5_Wytsman.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Loriidae5_Wytsman.jpg",
+   "license": "Public domain",
+   "artist": "Philogène Wytsman",
+   "title": "Loriidae5 Wytsman.jpg"
+  }
+ ],
+ "commons_checked": "2026-11-16"
 }
