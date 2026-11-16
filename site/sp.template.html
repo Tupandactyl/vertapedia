@@ -98,7 +98,7 @@ h1.en{font-family:var(--body);font-weight:600;font-size:clamp(24px,5vw,34px)}
 .kt{font-size:11px;background:var(--warn-bg);border-radius:4px;padding:0 5px;white-space:nowrap}.kt.fix{background:color-mix(in srgb,var(--moss) 20%,transparent)}
 .prose h2,.card h3{font-family:var(--display);font-size:21px;margin:0 0 8px}
 .prose p{margin:0 0 1.05em;text-wrap:pretty}
-.notice{font-size:12.5px;background:var(--warn-bg);padding:8px 12px;border-radius:6px;margin-bottom:14px}
+.notice{font-size:12.5px;color:var(--muted);background:var(--moss-soft);border:1px solid var(--line);padding:6px 12px;border-radius:6px;margin-bottom:14px}
 .src{font-size:12px;color:var(--muted)}
 .side{display:flex;flex-direction:column;gap:14px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px}
@@ -229,10 +229,10 @@ function descKo(d){
   const w=d.wiki,k=d.wiki_ko,src=`<a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>`;
   const body=k.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)}>${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(q=>`<p>${paraKo(q.p,d.sci)}${q.n.map(i=>`<sup class="kn" title="${esc(k.notes[i-1].text.replace(/\*/g,''))}">${i}</sup>`).join('')}</p>`).join('')).join('');
   const notes=k.notes.length?`<div class="konotes"><h3>번역 주석</h3><ol>${k.notes.map(n=>`<li><span class="kt${n.type==='수정'?' fix':''}">${esc(n.type)}</span> ${koText(n.text)}</li>`).join('')}</ol></div>`:'';
-  const skip=k.skipped.length?`<p class="src">분량이 긴 문서라 핵심 절만 옮겼습니다. 옮기지 않은 절: ${k.skipped.map(esc).join(', ')}. 원문에서 볼 수 있습니다.</p>`:'';
-  const gen=w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:'';
-  return `<div class="l-ko">${gen}${body}${skip}<div class="notice">AI(Claude)를 이용한 번역본입니다. 설명 옆의 아이콘을 선택하여 원문과 비교할 수 있습니다.${k.notes.length?' 재검토가 필요한 정보 및 수정 내용은 아래 주석에 적었습니다.':''}${k.renamed&&k.renamed.length?` 번역 뒤 바뀐 국명은 현재 이름으로 고쳐 실었습니다(${k.renamed.map(([a,b])=>`${esc(a)} → ${koText(b)}`).join(', ')}).`:''}</div>${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
-  <div class="l-en">${gen}<div class="notice">영문 위키백과 본문입니다(참고문헌·바깥 링크 절 제외).</div>${w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${paraEn(p,d.sci)}</p>`).join('')).join('')}<p class="src">출처: ${src}${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>`;
+  const skip=k.skipped.length?`<p class="src">번역 생략한 절: ${k.skipped.map(esc).join(', ')}</p>`:'';
+  const gen=w.genus_doc?`<div class="notice">종 문서 없음 · <b>속(<i>${esc(w.title)}</i>) 문서</b>로 대신함</div>`:'';
+  return `<div class="l-ko">${gen}${body}${skip}<div class="notice">AI(Claude) 번역 · 원문 대조: 제목 옆 아이콘${k.notes.length?' · 검토·수정 사항: 아래 주석':''}${k.renamed&&k.renamed.length?` · 바뀐 국명 반영: ${k.renamed.map(([a,b])=>`${esc(a)} → ${koText(b)}`).join(', ')}`:''}</div>${notes}<p class="src">출처: ${src}${k.revision?` (번역 기준 판 ${k.revision})`:''} · 번역 Claude${k.date?`, ${esc(k.date)}`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>
+  <div class="l-en">${gen}<div class="notice">영문 위키백과 원문 (참고문헌·바깥 링크 제외)</div>${w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${paraEn(p,d.sci)}</p>`).join('')).join('')}<p class="src">출처: ${src}${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p></div>`;
 }
 const langTog=()=>`<span class="langtog" role="group" aria-label="설명 언어"><button type="button" data-l="ko" aria-pressed="${DESC_LANG==='ko'}" title="한국어 번역 보기" aria-label="한국어 번역 보기">가</button><button type="button" data-l="en" aria-pressed="${DESC_LANG==='en'}" title="영어 원문 보기" aria-label="영어 원문 보기">A</button></span>`;
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
@@ -246,9 +246,9 @@ const credit=p=>{
 // 검토용 메모를 읽기 쉬운 문장으로
 function memo(t){
   let m;
-  if(m=/^분류 변경: 한국조류목록 2025에서는 (.+)$/.exec(t))return `한국조류목록 2025에서는 <i>${esc(m[1])}</i>(으)로 실려 있습니다.`;
-  if(m=/^분류 변경: 한국조류목록 2025 국명 (\S+) → (.+)$/.exec(t))return `한국조류목록 2025의 국명 ${esc(m[1])}은(는) <i>${esc(m[2])}</i>에 붙였습니다.`;
-  if(m=/^학명 변경: 시트 (.+?) → .*? (\S+ \S+)$/.exec(t))return `이전 학명 <i>${esc(m[1])}</i>에서 바뀌었습니다(Reptile Database 기준).`;
+  if(m=/^분류 변경: 한국조류목록 2025에서는 (.+)$/.exec(t))return `한국조류목록 2025: <i>${esc(m[1])}</i>`;
+  if(m=/^분류 변경: 한국조류목록 2025 국명 (\S+) → (.+)$/.exec(t))return `한국조류목록 2025 국명 ${esc(m[1])} → <i>${esc(m[2])}</i>`;
+  if(m=/^학명 변경: 시트 (.+?) → .*? (\S+ \S+)$/.exec(t))return `이전 학명: <i>${esc(m[1])}</i> (Reptile Database)`;
   return esc(t);
 }
 const nm=x=>x&&x.name?`${esc(x.name)} <i>${esc(x.sci)}</i>`:x?`<i>${esc(x.sci)}</i>`:'';
@@ -457,10 +457,10 @@ function distCard(d){
   return `<div class="card distcard"><h3>분포${distNames(d.dist)}</h3>
     ${d.dist?`<div class="distwrap"><a class="distmap" id="distmap" href="${to}" target="_blank" rel="noopener" aria-label="분포 지도. 누르면 ${d.inat?'iNaturalist':'GBIF'} 관찰 지도로 갑니다"></a><button type="button" class="distzoom" id="distzoom" hidden></button></div>
     <p class="distleg"><span class="lg"><span class="sw m"></span>서식국가 ${d.dist.mn.toLocaleString()}건</span>${d.dist.inn?`<span class="lg"><span class="sw i"></span>이입국가 ${d.dist.inn.toLocaleString()}건</span>`:''}${d.dist.rn?`<span class="lg"><span class="sw r"></span>소수기록 ${d.dist.rn.toLocaleString()}건</span>`:''}</p>
-    <p class="distnote" id="distnote" hidden>진한 칸은 GBIF 기록이 있는 곳(약 40km 단위), 옅은 바탕은 그 기록이 속한 나라·지역입니다.</p>`:''}
+    <p class="distnote" id="distnote" hidden>진한 칸: GBIF 기록(약 40km 격자) · 옅은 바탕: 기록이 있는 나라·지역</p>`:''}
     ${d.inat&&d.inat.observations?`<p class="obs"><a href="${to}" target="_blank" rel="noopener">iNaturalist 관찰 <b>${d.inat.observations.toLocaleString()}</b>건 ↗</a></p>`:''}
     ${d.range?`<p class="range"><span>AviList 분포 설명</span><span lang="en">${esc(d.range)}</span></p>`:''}
-    ${d.dist?`<p class="src">GBIF 기록 ${d.dist.n.toLocaleString()}건${d.dist.verbatim?` · GBIF 분류 체계에 없는 학명이라 원자료에 적힌 학명으로 찾았습니다(${d.dist.verbatim.map(n=>`<i>${esc(n)}</i>`).join(', ')})`:''}</p>`:''}
+    ${d.dist?`<p class="src">GBIF 기록 ${d.dist.n.toLocaleString()}건${d.dist.verbatim?` · 원자료 학명으로 검색: ${d.dist.verbatim.map(n=>`<i>${esc(n)}</i>`).join(', ')}`:''}</p>`:''}
   </div>`;
 }
 function render(d){
@@ -476,13 +476,13 @@ function render(d){
   if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);
   const ph=d.photos||[];
   const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph"><a href="https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
-    <p class="galnote">사진: iNaturalist에서 재사용이 허락된 사진(${[...new Set(ph.map(p=>LIC[p.license]||p.license))].join(', ')}). ${ph[0].cover?'첫 사진은 iNaturalist 큐레이터가 고른 이 종의 대표 사진입니다. ':''}사진을 누르면 원래 기록으로 갑니다.</p>`
-    :`<div class="nophoto">${d.fetched?'재사용이 허락된 iNaturalist 사진이 아직 없습니다.':'사진을 아직 받지 않은 종입니다. 한국 출현종부터 차례로 받고 있습니다.'}</div>`;
+`
+    :`<div class="nophoto">${d.fetched?'사진 없음':'사진 준비 중'}</div>`;
   const w=d.wiki;
   const body=w&&w.sections?w.sections.map(s=>(s.h?`<h${Math.min(s.level+1,5)} lang="en">${esc(s.h)}</h${Math.min(s.level+1,5)}>`:'')+s.paras.map(p=>`<p lang="en">${para(p,d.sci)}</p>`).join('')).join('')
     :w&&w.extract?`<p lang="en">${esc(w.extract)}</p>`:'';
-  const desc=d.wiki_ko&&w&&w.sections?descKo(d):body?`${w.genus_doc?`<div class="notice">이 종의 영문 위키백과 문서가 없어 <b>속(<i>${esc(w.title)}</i>) 문서</b>를 대신 싣습니다. 이 종만의 설명은 아닙니다.</div>`:''}<div class="notice">${w.sections?'영문 위키백과 본문을 그대로 싣습니다(참고문헌·바깥 링크 절 제외).'+(w.ko_linked?' 생물 이름은 버타피디아 국명으로 바꿨고, 처음 나올 때 원래 이름을 괄호에 함께 적었습니다. 이름을 누르면 해당 문서로 갑니다.':''):'영문 위키백과 요약입니다. 본문 전체는 곧 받아 옵니다.'} 한국어 번역은 준비 중입니다.</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
-    :`<p class="src">이 종의 위키백과 설명을 아직 찾지 못했습니다.</p>`;
+  const desc=d.wiki_ko&&w&&w.sections?descKo(d):body?`${w.genus_doc?`<div class="notice">종 문서 없음 · <b>속(<i>${esc(w.title)}</i>) 문서</b>로 대신함</div>`:''}<div class="notice">${w.sections?'영문 위키백과 원문 (참고문헌·바깥 링크 제외)'+(w.ko_linked?' · 생물 이름: 버타피디아 국명':''):'영문 위키백과 요약'} · 번역 준비 중</div>${body}<p class="src">출처: <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia, “${esc(w.title)}”</a>${w.revision?` (판 ${w.revision})`:''} · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ko" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>`
+    :`<p class="src">위키백과 문서 없음</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
   if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
@@ -493,7 +493,7 @@ function render(d){
   const [g,e]=d.sci.split(' ');
   const links=[];
   if(d.ebird){links.push(`<li><a href="https://ebird.org/species/${d.ebird}" target="_blank" rel="noopener">eBird 종 정보 ↗</a><small>분포 지도, 관찰 기록</small></li>`);
-    links.push(`<li><a href="https://media.ebird.org/catalog?taxonCode=${d.ebird}&mediaType=photo" target="_blank" rel="noopener">Macaulay Library 사진 ↗</a><small>eBird 사진·소리 (저작권 보호, 원문에서 보기)</small></li>`);
+    links.push(`<li><a href="https://media.ebird.org/catalog?taxonCode=${d.ebird}&mediaType=photo" target="_blank" rel="noopener">Macaulay Library 사진 ↗</a><small>eBird 사진·소리</small></li>`);
     links.push(`<li><a href="https://birdsoftheworld.org/bow/species/${d.ebird}/cur/introduction" target="_blank" rel="noopener">Birds of the World ↗</a><small>코넬대 종 해설 (구독)</small></li>`);}
   if(d.group==='REPTILIA')links.push(`<li><a href="https://reptile-database.reptarium.cz/species?genus=${encodeURIComponent(g)}&species=${encodeURIComponent(e)}" target="_blank" rel="noopener">The Reptile Database ↗</a><small>분류, 분포, 문헌</small></li>`);
   if(d.inat)links.push(`<li><a href="https://www.inaturalist.org/taxa/${d.inat.id}" target="_blank" rel="noopener">iNaturalist ↗</a><small>관찰 기록, 사진</small></li>`);

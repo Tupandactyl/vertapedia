@@ -144,7 +144,7 @@ function render(d){
   const crumb=[d.group==='AVES'?'조류':'파충류',d.order?nm(d.order):null,d.suborder&&d.suborder.sci?nm(d.suborder):null,d.superfamily&&d.superfamily.sci?nm(d.superfamily):null].filter(Boolean);
   const refs=[];
   if(d.refs.kos)refs.push(['한국조류목록 2025',d.refs.kos]);
-  const why=`<div class="why">${d.rationale?esc(d.rationale):`<span class="none">${d.status==='kos'||d.status==='official'?`${ST[d.status]}에 실린 국명을 그대로 씁니다.`:'명칭 근거가 아직 적히지 않았습니다. 시트의 과단위 번역 탭에 적으면 반영됩니다.'}</span>`}
+  const why=`<div class="why">${d.rationale?esc(d.rationale):`<span class="none">${d.status==='kos'||d.status==='official'?`${ST[d.status]} 국명 그대로`:'명칭 근거 미기재'}</span>`}
     ${refs.length?`<dl>${refs.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('')}</dl>`:''}</div>`;
   const subf=d.subfamilies.length?`<section><h2>아과</h2><ul class="subf">${d.subfamilies.map(s=>`<li>${s.name?`<b>${esc(s.name)}</b> `:''}${esc(s.sci)}${s.en?` · ${esc(s.en)}`:''}${s.rationale?`<small>${esc(s.rationale)}</small>`:''}</li>`).join('')}</ul></section>`:'';
   const genCard=g=>`<article class="genus">
