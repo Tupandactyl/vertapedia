@@ -15,6 +15,7 @@
 찾은 문서는 첫머리에 그 종의 학명(또는 옛 학명)과 영명이 함께 있을 때만 받아들인다.
 """
 import argparse
+import html
 import json
 import re
 import time
@@ -335,6 +336,123 @@ def strip_html(h):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", h or "")).strip()
 
 
+# 커먼즈 작가 표기 정리
+_YEAR = re.compile(r"\((?:\d{1,2} \w+ )?(\d{4})[a-z]?\)")
+_INIT = re.compile(r"^(?:[A-ZÀ-Ý][a-z]?\.?[\s-]*){1,3}$")  # 'G.', 'W. R.', 'J-P'
+_ORG = re.compile(r"Service|Department|Dept|Museum|Universit|Library|Institut|Center|Centre|Archive|Images|Wikipedia|Society|Survey|Collection|Commons|Conservation|Corporation|Press|USA|U\.S\.|Firm|Expedition|Laborator|Photography", re.I)
+_NAME = re.compile(r"^(?:(?:de|da|dos|van|von|del|du|le|la) )?(?:[A-ZÀ-Ý][\w.'’-]*|[A-Z]{1,4})(?: (?:[A-ZÀ-Ý][\w.'’-]*|[A-Z]{1,4}|de|da|dos|das|do|van|von|der|den|del|la|le|du|Jr\.?)){0,5}$")
+_UNKNOWN = {"", "unknown", "unspecified", "unknown artist", "anonymous", "unknown author"}
+
+
+def _lead_bracket(s):
+    """맨 앞 [ … ] 또는 ( … ) 묶음(사진 출처 설명)을 뗀다. 괄호가 겹쳐도 짝을 맞춘다."""
+    s = s.lstrip()
+    if not s or s[0] not in "[(":
+        return s
+    close, depth = {"[": "]", "(": ")"}[s[0]], 0
+    for i, ch in enumerate(s):
+        if ch == s[0]:
+            depth += 1
+        elif ch == close:
+            depth -= 1
+            if depth == 0:
+                return s[i + 1:].lstrip()
+    return s
+
+
+def _people(a):
+    """저자·작가 목록 → 사람(또는 단체) 이름 목록"""
+    a = re.sub(r"\s*\([^()]*\)", "", a).strip(" .,;&")
+    if ";" in a:
+        parts = [p.strip(" .") for p in a.split(";")]
+    else:
+        ch = [c.strip() for c in re.split(r",|&| and | dan ", a) if c.strip()]
+        parts, i = [], 0
+        while i < len(ch):  # 'Chávez, G.' 꼴은 성과 머리글자를 다시 붙인다
+            if " " not in ch[i] and i + 1 < len(ch) and _INIT.match(ch[i + 1]):
+                parts.append(f"{ch[i]}, {ch[i + 1]}"); i += 2
+            else:
+                parts.append(ch[i]); i += 1
+    out = []
+    for p in parts:
+        p = p.strip(" .")
+        if p and not re.match(r"^\d", p) and p not in out:
+            out.append(p)
+    return out
+
+
+def _names(parts, cite=False):
+    if not parts:
+        return ""
+    if not cite:  # 첫 이름 뒤에서는 사람 이름처럼 보이는 것만 센다(단체·지명은 빼고, 설명문이 끼어 있으면 첫 이름만)
+        if any(re.match(r"^[a-z]", p) and not re.match(r"^(?:de|da|dos|van|von|del|du|le|la) ", p) for p in parts[1:]):
+            return parts[0]
+        parts = parts[:1] + [p for p in parts[1:] if _NAME.match(p.replace(", ", " ")) and not _ORG.search(p)]
+    if len(parts) == 1:
+        return parts[0]
+    if len(parts) == 2 and len(parts[0]) + len(parts[1]) <= 34:
+        return f"{parts[0]} & {parts[1]}"
+    return parts[0] + " 외"
+
+
+def clean_artist(s, limit=48):
+    """커먼즈 작가 표기를 짧게: 논문은 '첫 저자 외 (연도)', 사진 설명·URL·생몰년·군더더기 머리말은 뺀다."""
+    s = html.unescape(s or "").replace("\ufeff", "").strip()
+    s = re.sub(r"(Unknown author)+", "", s).strip()
+    s = re.sub(r"^(?:\*?(?:File:)?[^:*]+\.(?:jpe?g|png|tiff?|svg|gif)\s*:\s*)+", "", s, flags=re.I)
+    s = re.sub(r"\s*\*?derivative work:.*$", "", s, flags=re.I)
+    m = re.match(r"^No machine-readable author provided\.\s*(\S+?)(?:~commonswiki)? assumed", s)
+    if m:
+        return m.group(1)
+    m = re.match(r"^(?:The )?original uploader was (\S+)", s, flags=re.I)
+    if m:
+        return m.group(1)
+    m = re.match(r"^\(c\)\s*(.+?),\s*some rights reserved", s, flags=re.I)
+    if m:
+        return m.group(1)
+    m = re.match(r"^iNat\w*(?: [\w ]+?)? user:\s*(\S+)", s, flags=re.I)
+    if m:
+        return m.group(1) + " (iNaturalist)"
+    if re.fullmatch(r"https?://\S+", s):
+        host = re.sub(r"^https?://(www\.)?", "", s).split("/")[0]
+        return "Flickr" if "flickr" in host else host
+    s = re.sub(r"^(?:image credit|artist|author|künstler|artist/künstler|photographer|designer)\s*:\s*©?\s*", "", s, flags=re.I)
+    s = re.sub(r"^(?:Artwork|Drawn|Depiction|Photographs?|All photographs|By|This illustration was made)\s+by\s+|^By\s+|^Author\s+", "", s, flags=re.I)
+    s = re.sub(r"^unknown:\s*|\s*\(create creator page\)\s*(?:unknown:\s*)?", lambda m: "" if m.start() == 0 else ", ", s)
+    s = re.sub(r"\s*-\s*BIOWEB,?\s*", ", ", s)
+    s = re.sub(r"^((?:\S+ ){0,3}\S+) from [A-Z][^,]*(?:,.*)?$", r"\1", s)  # Flickr 'X from 도시, 나라'
+    if re.match(r"^Photo\w*(?: credits)?\s*:", s, flags=re.I) and not _YEAR.search(s):
+        s = re.sub(r"^Photo\w*(?: credits)?\s*:\s*", "", s, flags=re.I)
+        s = re.sub(r"(?:(?<=^)|(?<=; ))[A-J](?:\s*[,–-]\s*[A-J])*\s*[.:=]\s*", "", s)  # 'A, C, D.' 같은 그림 칸 표시
+    s = re.sub(r"\S+@\S+|\s*\(?https?://[^\s)]*\)?", "", s)  # 메일·URL
+    if "@" in s:
+        s = re.sub(r"\s*∙.*$", "", s)
+        s = re.sub(r"(?<=[a-z])\d+(?:,\d+)*", "", s)  # 'Rijsdijk1,9' 소속 번호
+    s = re.sub(r"\s*\((?:Life time:)?[^()]*\d{4}\s*[-–][^()]*\)|\s*\(d\. \d{4}.*$|,?\s*\d{4}\s*[-–]\s*\d{4}\b", "", s)  # 생몰년
+    s = s.strip(" ,;")
+    y = _YEAR.search(s)
+    if y:  # 논문 인용
+        a = _lead_bracket(s[:y.start()])
+        a = re.sub(r"^Photo\w*:.*?\.\s+(?=[A-Z])", "", a)
+        a = a.replace("et al.", "et al")
+        if "et al" in a:
+            return f"{a.split('et al')[0].strip(' ,')} 외 ({y.group(1)})"
+        nm = _names(_people(a), cite=True)
+        if nm:
+            return f"{nm} ({y.group(1)})"
+    if s.lower() in _UNKNOWN or re.match(r"^Unknown,", s):
+        return ""
+    if len(s) > limit:
+        s = _lead_bracket(s)
+    if len(s) > limit or ";" in s:
+        nm = _names(_people(s))
+        if nm and len(nm) <= limit:
+            return nm
+    if len(s) > limit:
+        s = s[:limit].rsplit(" ", 1)[0].rstrip(" ,;-–") + "…"
+    return re.sub(r"(?<=\w{3})\.$", "", s)
+
+
 def commons_info(titles):
     """파일 이름들 → 표시용 사진 정보(자유 라이선스·사진 파일만)"""
     out = {}
@@ -350,7 +468,7 @@ def commons_info(titles):
             if not COMMONS_FREE.match(lic):
                 continue
             out[pg["title"]] = dict(src="commons", url=(ii.get("thumburl") or ii["url"]).split("?")[0], page=ii.get("descriptionurl"),
-                                    license=lic, artist=strip_html((em.get("Artist") or {}).get("value"))[:120],
+                                    license=lic, artist=clean_artist(strip_html((em.get("Artist") or {}).get("value"))),
                                     title=pg["title"][5:])
     return out
 
