@@ -146,9 +146,66 @@
     });
   })();
 
+  // 보기 전환: 서랍(린네식 분류) | 분기도(phylo.js, 조류·파충류). 고른 보기는 이 브라우저에 기억한다.
+  var MODE_KEY = "vp-treemode";
+  var getMode = function () { try { return localStorage.getItem(MODE_KEY) === "phylo" ? "phylo" : "drawer"; } catch (e) { return "drawer"; } };
+  var BASE = (document.currentScript && document.currentScript.src || "").replace(/tree\.js(\?.*)?$/, "");
+  var phyloLoading = null;
+  var loadPhylo = function () {
+    return phyloLoading || (phyloLoading = new Promise(function (ok, no) {
+      var s = document.createElement("script"); s.src = BASE + "phylo.js"; s.onload = ok; s.onerror = no; document.head.appendChild(s);
+    }));
+  };
+
   window.VTree = function (box, data, opts) {
     opts = opts || {};
-    box.innerHTML = "";
+    var mode = getMode();
+    box.innerHTML = '<div class="tmode" role="group" aria-label="분류군 보기">' +
+      '<button type="button" data-m="drawer" aria-pressed="' + (mode === "drawer") + '">서랍</button>' +
+      '<button type="button" data-m="phylo" aria-pressed="' + (mode === "phylo") + '">분기도</button></div>';
+    box.querySelectorAll(".tmode button").forEach(function (b) {
+      b.onclick = function () {
+        if (b.dataset.m === getMode()) return;
+        try { localStorage.setItem(MODE_KEY, b.dataset.m); } catch (e) {}
+        window.VTree(box, data, opts);
+      };
+    });
+    var inner = document.createElement("div");
+    box.appendChild(inner);
+    if (mode === "phylo") {
+      var groups = (opts.groups || ["A", "R"]).filter(function (g) { return data[g]; });
+      var GKEY = "vp-phylo-group", pg = groups[0];
+      if (!opts.current) { try { var sg = localStorage.getItem(GKEY); if (groups.indexOf(sg) >= 0) pg = sg; } catch (e) {} }
+      if (opts.phyloGroup && groups.indexOf(opts.phyloGroup) >= 0) pg = opts.phyloGroup;
+      if (groups.length > 1) {
+        var gs = document.createElement("div");
+        gs.className = "tmode tgrp"; gs.setAttribute("role", "group"); gs.setAttribute("aria-label", "분기도 무리");
+        gs.innerHTML = groups.map(function (g) { return '<button type="button" data-g="' + g + '" aria-pressed="' + (g === pg) + '">' + GROUP[g] + "</button>"; }).join("");
+        inner.appendChild(gs);
+        gs.querySelectorAll("button").forEach(function (b) {
+          b.onclick = function () {
+            if (b.dataset.g === pg) return;
+            try { localStorage.setItem(GKEY, b.dataset.g); } catch (e) {}
+            var o2 = {}; for (var k in opts) o2[k] = opts[k];
+            o2.phyloGroup = b.dataset.g;
+            window.VTree(box, data, o2);
+          };
+        });
+      }
+      var pbox = document.createElement("div");
+      inner.appendChild(pbox);
+      pbox.innerHTML = '<p class="pnote">분기도를 불러오는 중…</p>';
+      loadPhylo().then(function () {
+        window.VPhylo(pbox, data, { group: pg, current: pg === groups[0] ? opts.current : null });
+      }, function () { pbox.innerHTML = '<p class="pnote">분기도를 불러오지 못했습니다.</p>'; });
+      return;
+    }
+    drawer(inner, data, opts);
+    var curEl = inner.querySelector(".current");
+    if (curEl && opts.scroll !== false) box.scrollTop = Math.max(0, curEl.offsetTop - box.offsetTop - box.clientHeight / 3);
+  };
+
+  function drawer(box, data, opts) {
     var opened = null;
     (opts.groups || ["A", "R"]).forEach(function (g) {
       if (!data[g]) return;
@@ -190,7 +247,5 @@
       }
       opened = el;
     });
-    var cur = box.querySelector(".current");
-    if (cur && opts.scroll !== false) box.scrollTop = Math.max(0, cur.offsetTop - box.offsetTop - box.clientHeight / 3);
-  };
+  }
 })();

@@ -1,0 +1,142 @@
+#NEXUS
+
+begin mrbayes;
+
+[1 - preparatory commands]
+
+	log start filename=r1_log.txt; set seed=1117 swapseed=1319;
+	execute molecularmatrix.nex;
+	set autoclose=yes nowarn=yes;
+
+[2 - define charsets for gene borders according to Oaks 2011 + Lee and Yates 2018]
+    
+    [Oaks 2011 - nuclear]
+	charset cmos_1 = 1-579\3;
+	charset cmos_2 = 2-579\3;
+	charset cmos_3 = 3-579\3;
+	charset LDHB_exon_6 = 580-626;
+	charset LDHB_exon_7 = 627-652;
+	charset LDHA_exon_7 = 653-687;
+	charset LDHA_exon_8 = 688-809;
+	charset RHO_exon_2 = 810-900;
+	charset RHO_exon_3 = 901-940;
+	charset ACTC_exon_4 = 941-948;
+	charset ACTC_exon_5 = 949-1004;
+	charset AChR_exon_7 = 1005-1078;
+	charset AChR_exon_8 = 1079-1114;
+	charset aTROP_exon_5 = 1115-1174;
+	charset aTROP_exon_6 = 1175-1253;
+	charset ACTB_exon_3 = 1254-1285;
+	charset ACTB_exon_4 = 1286-1419;
+	charset GAPDH_exon_11 = 1420-1452;
+	charset GAPDH_exon_12 = 1453-1471;
+	charset ACTC_intron_4 = 1472-1591;
+	charset AChR_intron_7 = 1592-2003;
+	charset aTROP_intron_5 = 2004-2171;
+	charset ACTB_intron_3 = 2172-2305;
+	charset GAPDH_intron_11 = 2306-2713;
+	charset LDHA_intron_7 = 2714-3263;
+	charset LDHB_intron_6 = 3264-3815;
+	charset RHO_intron_2 = 3816-3947;
+	
+	[Oaks 2011 - mitochondrial]
+	charset CYTB_1 = 3948-5144\3;
+	charset CYTB_2 = 3949-5144\3;
+	charset CYTB_3 = 3950-5144\3;
+	charset ND2_1 = 5145-6200\3;
+	charset ND2_2 = 5146-6200\3;
+	charset ND2_3 = 5147-6200\3;
+	charset ND3_1 = 6201-6548\3;
+	charset ND3_2 = 6202-6548\3;
+	charset ND3_3 = 6203-6548\3;
+	charset tRNAarg = 6549-6587;
+	charset tRNAglu = 6588-6646;
+	charset tRNAgly = 6647-6674;
+	charset tRNAmet = 6675-6698;
+	charset tRNAtrp = 6699-6718;
+	charset DLOOP = 6719-7282;
+	
+	[Lee and Yates 2018 - rag gene]
+	charset rag1_1 = 7283-9284\3;
+	charset rag1_2 = 7284-9284\3;	
+	charset rag1_3 = 7285-9284\3;	
+
+[3 - define best partitioning scheme according to Lee and Yates 2018]
+
+	charset subset1 = LDHB_exon_6 ACTC_exon_4 aTROP_exon_6 rag1_1 cmos_1 ACTC_exon_5 LDHA_exon_7 LDHB_exon_7 rag1_2 GAPDH_exon_12 ACTB_exon_4 GAPDH_exon_11 LDHA_exon_8 cmos_2 RHO_exon_3 ACTB_exon_3 AChR_exon_8;
+	charset subset2 = GAPDH_intron_11 cmos_3 aTROP_intron_5 ACTB_intron_3 AChR_intron_7 LDHA_intron_7 LDHB_intron_6 AChR_exon_7 ACTC_intron_4 aTROP_exon_5 RHO_exon_2 rag1_3 RHO_intron_2;
+	charset subset3 = tRNAarg CYTB_1 DLOOP ND2_1 tRNAmet tRNAglu tRNAgly ND3_1;
+	charset subset4 = ND2_2 ND3_2 tRNAtrp CYTB_2;
+	charset subset5 = CYTB_3 ND3_3 ND2_3;
+	
+	partition 5partitions = 5: subset1, subset2, subset3, subset4, subset5; [see above]
+	set partition = 5partitions;
+	
+[4 - set the evolutionary model and specify the birth-death process]
+
+	lset applyto=(1) nst=2 rates=propinv; [HKY+I]
+    lset applyto=(2) nst=2 rates=gamma;
+	prset applyto=(2) statefreqpr=fixed(equal); [K80+G]
+	lset applyto=(3) nst=6 rates=gamma; [GTR+G]
+	lset applyto=(4) nst=2 rates=gamma; [HKY+G]
+	lset applyto=(5) nst=6 rates=invgamma; [GTR+I+G]
+	
+	unlink statefreq = (all) revmat = (all) shape = (all) pinvar = (all);
+	prset applyto=(all) ratepr=variable;
+	
+	prset brlenspr=clock:birthdeath;
+    prset speciationpr = uniform(0,10);
+    prset extinctionpr = beta(1,1);
+    prset sampleprob = 0.93;
+	
+[5 - Enforce topological constraints and specify node calibrations]
+    
+    [specify nodes to be calibrated]
+    constraint Crocodylia hard = 1-.;
+    constraint Caimaninae hard = 1-6;
+    constraint Alligatoridae hard = 1-8;
+    constraint Alligator hard = 7-8;
+    constraint Crocodylidae hard = 9-23;
+    constraint Longirostres hard = 9-25;
+           
+    [calibrate nodes with age constraints]
+    calibrate
+       Crocodylia = uniform(74.99, 95)
+       Caimaninae = offsetexp(18.64, 37.28)
+       Alligatoridae = uniform(62.53,83.4)
+       Alligator = offsetexp(14.8,29.6)
+       Crocodylidae = offsetexp(17,34)
+       Longirostres = offsetexp(53.9,107.8);
+    
+    [enforce constraints]      
+    prset topologypr=constraints(Crocodylia,Caimaninae,Alligatoridae,Alligator,Crocodylidae,Longirostres);
+    prset nodeagepr=calibrated;
+
+[6 - set the clock model]
+
+    prset clockratepr = gamma(2, 67.6);
+    prset clockvarpr = IGR;
+    prset tk02varpr = exp(10);
+
+[7 - set MCMC settings]
+	
+	[beagle off]
+	mcmcp nchain=1 samplefreq=1000 printfr=10000 nruns=1 append=no diagnfreq=100000;
+	mcmcp filename=r1;
+    
+    [The commands below are suggested at https://github.com/NBISweden/MrBayes/issues/38 to try and enforce both the topology and the branch lengths]
+    startvals Tau{all}=croc_molecular;  [starting tree]
+    propset ExtSprClock(Tau{all}, V{all})$prob=0;  [disable topology moves]
+    propset NNIClock(Tau{all}, V{all})$prob=0;
+    propset ParsSPRClock(Tau{all}, V{all})$prob=0;
+
+	mcmc ngen=3000000;
+	
+[8 - summarise trees and other model parameters sampled during MCMC]
+
+
+
+
+[ END BLOCK ]
+quit;
+end;

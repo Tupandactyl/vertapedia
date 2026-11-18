@@ -39,6 +39,7 @@ jobs:
       - name: 페이지 만들기
         run: |
           python scripts/build_site.py
+          python scripts/build_phylo.py
           python scripts/build_review.py
           rm site/*.template.html
       - uses: actions/upload-pages-artifact@v3

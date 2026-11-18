@@ -14,3 +14,45 @@
 .tn{margin-left:auto;color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums;flex:none;padding-left:6px}
 .tpic{color:var(--ok);font-size:8px;flex:none}
 .tkids{padding-left:14px;border-left:1px dashed var(--line);margin-left:9px}
+
+/* 보기 전환(서랍 | 분기도) */
+.tmode{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:2px 0 6px}
+.tmode button{font:inherit;font-size:12px;border:0;background:var(--panel);color:var(--muted);padding:3px 12px;cursor:pointer}
+.tmode button+button{border-left:1px solid var(--line)}
+.tmode.tgrp{margin-left:6px}
+.tmode button[aria-pressed="true"]{background:var(--moss);color:var(--panel);font-weight:600}
+
+/* 분기도 — phylo.js */
+.pnote{font-size:12.5px;color:var(--muted);margin:6px 2px}
+.pbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:2px 0 6px;font-size:12px}
+.pcrumbs{flex:1 1 100%;line-height:1.6;color:var(--muted)}
+.pcrumb{font:inherit;border:0;background:none;padding:0;color:var(--moss);cursor:pointer}
+.pcrumb:last-child{color:var(--ink);font-weight:600}
+.plev{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.plev button{font:inherit;font-size:11.5px;border:0;background:var(--panel);color:var(--muted);padding:2px 9px;cursor:pointer}
+.plev button+button{border-left:1px solid var(--line)}
+.plev button[aria-pressed="true"]{background:var(--moss-soft);color:var(--ink);font-weight:600}
+.plin{color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer}
+svg.phylo{display:block;overflow:visible;font-family:var(--body)}
+.pbr{fill:none;stroke:var(--muted);stroke-width:1.1}
+.pbr.dash{stroke-dasharray:3 2.5}
+.pgrid{stroke:var(--line);stroke-width:1}
+.ptick{font-size:9.5px;fill:var(--muted);text-anchor:middle;font-family:var(--mono)}
+.ptick.unit{text-anchor:start}
+.pdot{fill:var(--moss);cursor:pointer}
+.pdot:hover{r:4.5}
+.plab{font-size:10px;fill:var(--moss);cursor:pointer;paint-order:stroke;stroke:var(--panel);stroke-width:3px;stroke-linejoin:round}
+.plab.poly,.ptip .poly{fill:var(--warn)}
+.ptip rect{fill:transparent}
+.ptip:hover rect{fill:var(--moss-soft)}
+.ptip.current rect{fill:var(--moss-soft)}
+.ptip.current text{font-weight:700}
+.ptip text{font-size:12.5px;fill:var(--ink)}
+.ptip text.en{fill:var(--muted);font-style:italic}
+.ptip.grp{cursor:pointer}
+.ptip .pn{fill:var(--muted);font-size:10.5px}
+.pkey{font-size:11px;color:var(--muted);margin:8px 2px 2px}
+.pkey .poly{color:var(--warn);font-weight:600}
+.pdash{display:inline-block;width:18px;border-top:1.5px dashed var(--muted);vertical-align:middle}
+.psrc{font-size:10.5px;color:var(--muted);margin:4px 2px 0;line-height:1.5}
+.psrc a{color:inherit}
