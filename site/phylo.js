@@ -1,12 +1,12 @@
 // 분기도: 분류군 창의 '분기도' 보기. tree.js 가 처음 쓸 때 불러온다.
-// 자료 data/phylo_A.json(조류: Birds of the World Phylogeny Explorer 와 같은 나무, clootl)
-//      data/phylo_R.json(파충류: 논문 나무 여럿을 이어 붙인 것). 둘 다 scripts/build_phylo.py 가 만든다.
+// 자료 data/phylo_A.json(조류: Birds of the World Phylogeny Explorer 와 같은 계통수, clootl)
+//      data/phylo_R.json(파충류: 논문 계통수 여럿을 이어 붙인 것). 둘 다 scripts/build_phylo.py 가 만든다.
 // 보는 법은 Birds of the World 를 따른다.
 //  - 가로축은 시간(백만 년 전). 기본은 제곱근 눈금이라 최근 갈래에 자리를 더 준다.
 //  - 끝을 목·과·속·종 가운데 하나로 접는다. 접힌 끝이나 이름 붙은 마디를 누르면 그 무리를 뿌리로 다시 그린다.
 //  - 목·과·속 이름은 그 무리 모든 종의 가장 가까운 공통 조상 마디에 붙인다.
 //    그 마디 아래에 다른 무리의 종이 섞여 있으면 단계통이 아니므로 주황색으로 표시한다.
-//  - 유전자 자료 없이 둔 종은 점선으로 그린다: 파충류 유린목은 Title et al. 2024 imputed 나무의 속별 빈자리,
+//  - 유전자 자료 없이 둔 종은 점선으로 그린다: 파충류 유린목은 Title et al. 2024 imputed 계통수의 속별 빈자리,
 //    그 밖에는 같은 속(없으면 아과·과) 곁. 어느 쪽이든 위치는 추정이다.
 //  - 형제 가지의 위아래 순서는 시트(분류 목록) 순서에 맞춘다.
 (function () {
@@ -96,7 +96,7 @@
 
   // ---- 그리기 ----
   function shown(n, level, top) {
-    // 지금 보이는 나무: 끝 단계(level)로 접는다. 뿌리 자체는 접지 않는다.
+    // 지금 보이는 계통수: 끝 단계(level)로 접는다. 뿌리 자체는 접지 않는다.
     if (!top && level !== "sp" && n.pure[level]) return { tip: true, node: n, taxon: P.taxa[level + ":" + n.pure[level]] };
     if (!n.k.length) return { tip: true, node: n };
     return { node: n, k: n.k.map(function (c) { return shown(c, level); }) };
@@ -116,7 +116,7 @@
     })(vis);
 
     var W = Math.max(220, box.clientWidth || 260);
-    // 이름 칸은 가장 긴 이름만큼만 두고 나머지 폭은 모두 나무에 준다(넓은 화면에서 오른쪽이 비지 않게)
+    // 이름 칸은 가장 긴 이름만큼만 두고 나머지 폭은 모두 계통수에 준다(넓은 화면에서 오른쪽이 비지 않게)
     var tw = function (str, fs) { var w = 0; for (var c = 0; c < str.length; c++) w += str.charCodeAt(c) > 0x1100 ? fs : fs * 0.58; return w; };
     var labW = 0;
     rows.forEach(function (v) {
@@ -125,7 +125,7 @@
       else { var inf = v.node.info || {}; w = tw(inf.ko || inf.en || v.node.name, 12.5); }
       if (w > labW) labW = w;
     });
-    labW = Math.min(Math.max(labW + 16, 80), W * (W < 560 ? 0.45 : 0.6));  // 좁은 화면(모바일)은 나무에 더 주고 긴 이름은 줄인다
+    labW = Math.min(Math.max(labW + 16, 80), W * (W < 560 ? 0.45 : 0.6));  // 좁은 화면(모바일)은 계통수에 더 주고 긴 이름은 줄인다
     var room = labW - 10;
     var clip = function (str, fs, extra) {
       if (tw(str, fs) + (extra || 0) <= room) return str;

@@ -1,27 +1,27 @@
 """분기도 자료를 만든다: site/data/phylo_A.json(조류), site/data/phylo_R.json(파충류).
 
-조류: Birds of the World Phylogeny Explorer 와 같은 나무(clootl, McTavish et al. 2025, PNAS 122:e2409658122).
+조류: Birds of the World Phylogeny Explorer 와 같은 계통수(clootl, McTavish et al. 2025, PNAS 122:e2409658122).
   data/phylo/aves_1.7_clements2025.nex = McTavishLab/AvesDataLite 의 Tree_versions/Aves_1.7/Clements2025/summary_dated_clements.nex
 
-파충류: 논문 나무 다섯을 시간 축에 맞춰 이어 붙인다.
+파충류: 논문 계통수 다섯을 시간 축에 맞춰 이어 붙인다.
   유린목  data/phylo/squamata_title2024_imputed.tre  Title et al. 2024, Science 383:918 (5,400 유전자 자리, 시간 보정 6,885종)
             — Dryad doi:10.5061/dryad.p5hqbzkvb 의 2.time_calibration_imputation/primarytree-imputed-trees.zip 가운데
-              best-full-trees/squams-full-imputed-xx1.tre. 주 나무(data/phylo/squamata_title2024.tre)에 유전자 자료가 없는 종 3,872 자리를
+              best-full-trees/squams-full-imputed-xx1.tre. 주 계통수(data/phylo/squamata_title2024.tre)에 유전자 자료가 없는 종 3,872 자리를
               분류에 맞춰 무작위로 끼워 넣은 100개 복제 중 첫째. 자리는 속별 이름표(「Ficimia_xzx2」)뿐이라
               그 속에서 유전자 자료가 없는 사이트 종을 시트 순서대로 넣는다(점선, 위치는 한 가지 가능한 배치일 뿐).
   뼈대    data/phylo/Data_S8_Dated_Astral_IQ_Point_Tree  Burbrink et al. 2020, Syst. Biol. 69:502 (유린목·훼두목·바깥 무리 연대)
   거북목  data/phylo/turtle_thomson2021.tre  Thomson, Spinks & Shaffer 2021, PNAS 118:e2012215118
             — Dryad doi:10.5061/dryad.jh9w0vt8w 의 bd.mcc.median_heights.tre(종마다 개체 하나, 시간 보정)
   악어목  data/phylo/crocodylia_davies2026.tre  Davies et al. 2026, Proc. R. Soc. B 293:20260635 (figshare 33121148)
-            — 공개 자료에 결과 나무가 없어 마디 보정·분자 자료 분석을 MrBayes 로 다시 돌린 것(scripts/croc_dates.py)
-  뿌리    Jenkins et al. 2026, Curr. Biol. (OSF t945w) FBD 화석 나무 — 파충류 크라운·거북+주룡류 갈래 나이
-  각 무리 나무는 제 연대를 그대로 쓰고, 인룡류(투아타라 x 유린목) 나이는 Burbrink 뼈대 나무, 그 위 두 마디는 Jenkins 나무에서 읽는다.
+            — 공개 자료에 결과 계통수가 없어 마디 보정·분자 자료 분석을 MrBayes 로 다시 돌린 것(scripts/croc_dates.py)
+  뿌리    Jenkins et al. 2026, Curr. Biol. (OSF t945w) FBD 화석 계통수 — 파충류 크라운·거북+주룡류 갈래 나이
+  각 무리 계통수는 제 연대를 그대로 쓰고, 인룡류(투아타라 x 유린목) 나이는 Burbrink 뼈대 계통수, 그 위 두 마디는 Jenkins 계통수에서 읽는다.
 
 공통 처리(fit)
-1. 나무의 끝을 사이트 종(tree.json)에 맞춘다. 같은 학명 → 그대로. 종소명 철자가 조금 다르거나 속만 바뀐 종 → 하나만 맞으면 그 끝.
-2. imputed 나무의 속별 빈자리(유린목)가 있으면 그 속의 나머지 사이트 종을 넣는다('*', 화면은 점선).
+1. 계통수의 끝을 사이트 종(tree.json)에 맞춘다. 같은 학명 → 그대로. 종소명 철자가 조금 다르거나 속만 바뀐 종 → 하나만 맞으면 그 끝.
+2. imputed 계통수의 속별 빈자리(유린목)가 있으면 그 속의 나머지 사이트 종을 넣는다('*', 화면은 점선).
    그래도 남는 사이트 종은 같은 속(없으면 같은 아과·과) 종들의 공통 조상에서 갈라진 것으로 붙이고 '*'로 표시한다(화면은 점선).
-   그 속에 나무에 있는 종이 하나뿐이면 그 가지 중간에서 가른다.
+   그 속에 계통수에 있는 종이 하나뿐이면 그 가지 중간에서 가른다.
 3. 사이트에 없는 끝(통합된 종, 개체 중복 등)은 지운다.
 4. 자식 순서는 시트 순서에 맞춘다.
 
@@ -88,7 +88,7 @@ def parse_newick(s):
 
 
 def parse_tree_file(txt):
-    """Newick 또는 NEXUS(Translate 표 포함). 첫 나무를 읽는다."""
+    """Newick 또는 NEXUS(Translate 표 포함). 첫 계통수를 읽는다."""
     if "#NEXUS" not in txt[:200].upper():
         return parse_newick(txt.strip().split(";")[0] + ";")
     trans = {}
@@ -157,7 +157,7 @@ def mrca(nodes):
 
 
 def height(node):
-    """마디 나이(끝까지 거리). 초계량 나무라 첫 자식 쪽으로만 내려간다."""
+    """마디 나이(끝까지 거리). 초계량 계통수라 첫 자식 쪽으로만 내려간다."""
     h = 0.0
     while node.kids:
         node = node.kids[0]; h += node.bl
@@ -241,7 +241,7 @@ def fit(root, rows, verbose=False, impute=None):
             a = a.up
         return set()
 
-    for sci in [r[0] for r in rows if r[0] not in matched]:  # (나) 속이 바뀜: 종소명이 같고, 나무에서 곁의 종들이 같은 과
+    for sci in [r[0] for r in rows if r[0] not in matched]:  # (나) 속이 바뀜: 종소명이 같고, 계통수에서 곁의 종들이 같은 과
         ep, fam = sci.split(" ")[1], info[sci].get("f")
         cands = [c for c in tree_only if len(c.split(" ")) > 1 and stem(c.split(" ")[1]) == stem(ep) and
                  fam in gfam.get(c.split(" ")[0], {fam})]
@@ -250,13 +250,13 @@ def fit(root, rows, verbose=False, impute=None):
             take(sci, cands[0])
             fam_of_leaf[id(byname[sci] if sci in byname else matched[sci])] = fam
 
-    # (다) imputed 나무의 속별 자리표(「Ficimia xzx2」)에 그 속에서 아직 못 맞춘 사이트 종을 시트 순서대로 넣는다
+    # (다) imputed 계통수의 속별 자리표(「Ficimia xzx2」)에 그 속에서 아직 못 맞춘 사이트 종을 시트 순서대로 넣는다
     imputed = []
     slots = {}
     for c in sorted(tree_only, key=lambda c: (c.split(" ")[0], int(re.sub(r"\D", "", c.split(" ")[1]) or 0))):
         if re.fullmatch(r"[A-Z][a-z]+ xzx\d+", c):
             slots.setdefault(c.split(" ")[0], []).append(c)
-    # 자리가 사이트 분류와 맞는 곳에 있을 때만 쓴다(imputed 나무는 자리를 상위 무리 안에 무작위로 두기도 한다).
+    # 자리가 사이트 분류와 맞는 곳에 있을 때만 쓴다(imputed 계통수는 자리를 상위 무리 안에 무작위로 두기도 한다).
     #  - 그 자리를 품은 '같은 속만으로 된 가장 큰 무리'를 찾는다(자리표도 이름의 속으로 본다. 지울 끝은 없는 셈 친다).
     #  - 그 속에 유전자 자료 종이 있으면: 그 무리 안에 유전자 자료 종이 하나라도 있어야 한다(속 덩어리에 붙은 자리).
     #  - 없으면: 그 무리의 자매 쪽 속들이 모두 그 안에 통째로 들어 있고(남의 속 안에 끼어들지 않음) 같은 과여야 한다.
@@ -385,7 +385,7 @@ def write(G, src, cite, nwk, stats):
     out = OUT / f"phylo_{G}.json"
     out.write_text(json.dumps({"src": src, "cite": cite, "nwk": nwk, "add": stats["added"], "imp": stats["imputed"]},
                               ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"{G}: 사이트 {stats['rows']}종 · 나무 끝 {stats['leaves']} · 학명 그대로 {stats['exact']} · 속·철자 맞춤 {stats['renamed']} · "
+    print(f"{G}: 사이트 {stats['rows']}종 · 계통수 끝 {stats['leaves']} · 학명 그대로 {stats['exact']} · 속·철자 맞춤 {stats['renamed']} · "
           f"imputed 자리 {stats['imputed']}(남은 자리 {stats['slots_left']}) · 붙임 {stats['added']} · 못 붙임 {stats['lost']} · 지운 끝 {stats['dropped']} · "
           f"{out.stat().st_size // 1024} KB")
 
@@ -396,7 +396,7 @@ def birds(verbose):
     write("A", "Birds of the World Phylogeny · Tree v1.7 / Clements 2025 (McTavish et al. 2025, PNAS; clootl)", CITE_A, nwk, stats)
 
 
-# ---------------- 파충류: 나무 잇기 ----------------
+# ---------------- 파충류: 계통수 잇기 ----------------
 def keep_species(root):
     """끝 이름을 종 이름으로 줄이고(개체·아종 꼬리 떼기), 같은 종 개체는 하나만 남긴다."""
     seen = set()
@@ -429,7 +429,7 @@ def node_age(root, a, b):
 
 def croc_tree():
     """Davies et al. 2026 의 현생 악어 25종 고정 계통 + MrBayes 마디 보정(분자 자료) 연대.
-    figshare 자료에 결과 나무가 없어 scripts/croc_dates.py 로 그 분석을 다시 돌려 만든 나무를 쓴다."""
+    figshare 자료에 결과 계통수가 없어 scripts/croc_dates.py 로 그 분석을 다시 돌려 만든 계통수를 쓴다."""
     return parse_tree_file((PH / "crocodylia_davies2026.tre").read_text(encoding="utf-8"))
 
 
@@ -443,7 +443,7 @@ def graft(kids_ages, age):
 
 
 # 무리 사이 마디 나이(백만 년 전)
-# Jenkins et al. 2026(Curr. Biol., OSF t945w)의 FBD 화석 나무는 가장 젊은 끝(Huehuecuetzpalli, 100-105 Ma)을 0으로 둔
+# Jenkins et al. 2026(Curr. Biol., OSF t945w)의 FBD 화석 계통수는 가장 젊은 끝(Huehuecuetzpalli, 100-105 Ma)을 0으로 둔
 # 상대 나이라, 다른 화석 끝들의 보정 범위가 모두 맞는 103.2 Ma 를 더해 절대 나이로 바꾼다.
 #   파충류 크라운(Clevosaurus x Protosuchus) 173.81 → 277.0, 거북+주룡류(Proganochelys x Protosuchus) 166.95 → 270.2
 JENKINS_OFFSET = 103.2
@@ -459,15 +459,15 @@ def reptiles(verbose):
     tu = keep_species(tu)
     cr = keep_species(croc_tree())
     bb = parse_tree_file((PH / "Data_S8_Dated_Astral_IQ_Point_Tree").read_text(encoding="utf-8", errors="replace"))
-    age_lep = height(bb)  # 뼈대 나무 뿌리 = 투아타라 x 유린목
-    assert any(x.name == "Sphenodon_punctatus" for x in bb.kids), "뼈대 나무 뿌리가 투아타라 갈래가 아님"
+    age_lep = height(bb)  # 뼈대 계통수 뿌리 = 투아타라 x 유린목
+    assert any(x.name == "Sphenodon_punctatus" for x in bb.kids), "뼈대 계통수 뿌리가 투아타라 갈래가 아님"
     sph = N("Sphenodon punctatus")
     lep = graft([(sph, 0.0), (sq, height(sq))], age_lep)
     arc = graft([(tu, height(tu)), (cr, height(cr))], AGE_ARCHELOSAURIA)
     root = graft([(lep, age_lep), (arc, AGE_ARCHELOSAURIA)], AGE_REPTILIA)
     print(f"R 연대: 파충류 {AGE_REPTILIA} · 인룡류 {age_lep:.1f} · 유린목 {height(sq):.1f} · 거북+악어 {AGE_ARCHELOSAURIA} · "
           f"거북목 {height(tu):.1f} · 악어목 {height(cr):.1f}")
-    # 거북목·악어목은 imputed 나무가 없어 같은 방식(속 무리 안 가지 위 무작위 배치)으로 직접 채운다
+    # 거북목·악어목은 imputed 계통수가 없어 같은 방식(속 무리 안 가지 위 무작위 배치)으로 직접 채운다
     nwk, stats = fit(root, rows, verbose, impute=lambda p: p.get("o") in ("Testudines", "Crocodylia"))
     write("R", "Title et al. 2024; Thomson et al. 2021; Davies et al. 2026; Burbrink et al. 2020; Jenkins et al. 2026", CITE_R, nwk, stats)
 
