@@ -51,7 +51,8 @@ body.stuck .navgrip{top:var(--barh,40px);height:calc(100vh - var(--barh,40px))}
 body.resizing{cursor:col-resize;user-select:none}
 .page.closed .navgrip{display:none}
 .page.closed .navtree{position:static;max-height:none;padding-block:12px 0;border-top:0;order:0}
-@media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navgrip{display:none}.navtree{position:static;max-height:70vh;order:0;border-bottom:1px solid var(--line)}}  /* 좁은 화면: 분류군 창은 단추 바로 아래(본문 위)에서 펼친다 */
+@media (max-width:980px){.page{grid-template-columns:minmax(0,1fr)}.navgrip{display:none}.navtree{position:static;max-height:70vh;order:0;border-bottom:1px solid var(--line)}}  /* 좁은 화면: 분류군 창은 본문 끝 댓글 위(placeNav) */
+.navtree.inbody{border-top:1px solid var(--line);border-bottom:0;margin-top:28px;padding-bottom:12px}
 .pn{display:flex;align-items:stretch;gap:8px;margin:0 0 14px;font-size:13px}
 .pn a,.pn span.off{flex:1;min-width:0;display:flex;flex-direction:column;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-decoration:none}
 .pn a:hover{border-color:var(--moss)}
@@ -117,6 +118,15 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--moss);outline-offse
 <script src="suggest.js"></script>
 <script src="comments.js"></script>
 <script>
+// 좁은 화면(모바일)에서는 분류군 창을 본문 끝, 댓글 바로 위에 둔다. 넓은 화면에서는 왼쪽 곁창으로
+const NARROW=matchMedia('(max-width:980px)');
+function placeNav(){
+  const a=document.querySelector('.navtree'),t=document.getElementById('talk'),pg=document.querySelector('.page');
+  if(!a||!pg)return;
+  if(NARROW.matches&&t){if(a.nextElementSibling!==t)t.before(a);a.classList.add('inbody')}
+  else if(a.parentElement!==pg){pg.prepend(a);a.classList.remove('inbody')}
+}
+NARROW.addEventListener('change',placeNav);
 const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
@@ -167,6 +177,7 @@ function render(d){
   const groups=[];
   d.genera.forEach(g=>{const k=g.subfamily||'';let x=groups.find(y=>y.k===k);if(!x)groups.push(x={k,list:[]});x.list.push(g)});
   const gens=groups.length>1||groups[0]&&groups[0].k?groups.map(x=>`<h3 class="sfh">${x.k?`${sfName[x.k]?`${esc(sfName[x.k])} `:''}<span>${esc(x.k)}</span>`:'미분류'}<small>${x.list.length}속</small></h3>${x.list.map(genCard).join('')}`).join(''):d.genera.map(genCard).join('');
+  document.querySelector('.page').prepend(document.querySelector('.navtree'));
   document.getElementById('main').innerHTML=`
     ${pn(d)}
     <div class="crumb">${crumb.map(c=>`<span>${c}</span>`).join('')}</div>
@@ -180,6 +191,7 @@ function render(d){
     <section id="talk"></section>
     <div style="margin-top:28px">${pn(d)}</div>`;
   VTalk.mount(document.getElementById('talk'),'fam:'+d.sci,d.name||d.sci);
+  placeNav();
 }
 function load(){
   // 과 문서 주소는 fam/<학명>.html. 옛 주소 fam.html#<학명> 은 새 주소로 넘긴다
