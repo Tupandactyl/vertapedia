@@ -278,6 +278,88 @@ def photo_credit(p):
     return f"{who} ({lic})" if who and lic else who or lic
 
 
+GROUP_KO = {"AVES": "조류", "REPTILIA": "파충류"}
+
+
+def plain_paras(rec, n=2):
+    """번역된 위키 설명(없으면 None)의 앞 문단들을 꾸밈 없는 글로"""
+    out = []
+    for sec in ((rec.get("wiki_ko") or {}).get("sections") or [])[:1]:
+        for para in sec.get("paras") or []:
+            p = para.get("p") if isinstance(para, dict) else para
+            if isinstance(p, str):
+                txt = p
+            else:
+                txt = "".join(x if isinstance(x, str) else str(x[0]) for x in p or [])
+            txt = re.sub(r"\*([^*]+)\*", r"\1", txt).strip()
+            if txt:
+                out.append(txt)
+            if len(out) >= n:
+                return out
+    return out
+
+
+def cut(txt, n):
+    txt = re.sub(r"\s+", " ", txt or "").strip()
+    if len(txt) <= n:
+        return txt
+    t = txt[:n]
+    k = max(t.rfind(". "), t.rfind("다. "), t.rfind("다."))
+    return (t[:k + 2] if k > n * 0.5 else t.rstrip() + "…").strip()
+
+
+def search_desc(rec):
+    """검색 결과에 보일 한국어 설명"""
+    head = f"{rec['name']}({rec['sci']})" if rec.get("name") else rec["sci"]
+    fam = rec.get("family") or {}
+    kind = " ".join(filter(None, [fam.get("name") or fam.get("sci"), GROUP_KO.get(rec["group"])]))
+    body = (plain_paras(rec, 1) or [None])[0] or rec.get("rationale") or rec.get("en") or ""
+    return cut(f"{head} — {kind}. {body}", 155)
+
+
+def seo_body(rec):
+    """검색엔진이 자바스크립트 없이 읽는 본문. 화면은 sp.js 가 곧바로 새로 그린다."""
+    e = lambda t: html.escape(str(t), quote=True)
+    fam = rec.get("family") or {}
+    nm = lambda k: (rec.get(k) or {}).get("name") or (rec.get(k) or {}).get("sci")
+    cr = [e(x) for x in [GROUP_KO.get(rec["group"]), nm("order")] if x]
+    if fam.get("sci"):
+        cr.append(f'<a href="fam/{quote(fam["sci"])}.html">{e(fam.get("name") or fam["sci"])}</a>')
+    if nm("genus"):
+        cr.append(e(nm("genus")))
+    parts = [f'<p class="crumb">{" › ".join(cr)}</p>',
+             f'<h1>{e(rec.get("name") or rec.get("en") or rec["sci"])}</h1>',
+             f'<p class="sci"><i>{e(rec["sci"])}</i> {e(rec.get("author") or "")}</p>']
+    if rec.get("en"):
+        parts.append(f"<p>{e(rec['en'])}</p>")
+    if rec.get("rationale"):
+        parts.append(f"<section><h2>명칭 근거</h2><p>{e(rec['rationale'])}</p></section>")
+    paras = plain_paras(rec, 2)
+    if paras:
+        parts.append("<section><h2>설명</h2>" + "".join(f"<p>{e(p)}</p>" for p in paras) + "</section>")
+    return "\n".join(parts)
+
+
+def ld_json(rec):
+    """구조화 데이터: 분류군(bioschemas Taxon) + 이동 경로"""
+    url = SITE_URL + "sp/" + quote(rec["sci"].replace(" ", "_")) + ".html"
+    names = [x for x in [rec.get("name"), rec.get("en")] if x]
+    taxon = {"@context": "https://schema.org", "@type": "Taxon", "name": rec["sci"], "taxonRank": "species", "url": url}
+    if names:
+        taxon["alternateName"] = names
+    if (rec.get("genus") or {}).get("sci"):
+        taxon["parentTaxon"] = {"@type": "Taxon", "name": rec["genus"]["sci"], "taxonRank": "genus"}
+    items = [{"@type": "ListItem", "position": 1, "name": "Vertapedia", "item": SITE_URL}]
+    fam = rec.get("family") or {}
+    if fam.get("sci"):
+        items.append({"@type": "ListItem", "position": 2, "name": fam.get("name") or fam["sci"],
+                      "item": SITE_URL + "fam/" + quote(fam["sci"]) + ".html"})
+    items.append({"@type": "ListItem", "position": len(items) + 1, "name": rec.get("name") or rec["sci"], "item": url})
+    crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
+    j = json.dumps([taxon, crumb], ensure_ascii=False).replace("</", "<\\/")
+    return f'<script type="application/ld+json">{j}</script>'
+
+
 def share_tags(rec):
     """채팅앱 등이 링크 미리보기로 읽는 <title>과 Open Graph 태그."""
     e = lambda s: html.escape(str(s), quote=True)
@@ -289,8 +371,12 @@ def share_tags(rec):
         desc.append("사진: " + photo_credit(ph))
     desc = " · ".join(filter(None, desc))
     url = SITE_URL + "sp/" + quote(rec["sci"].replace(" ", "_")) + ".html"
-    tags = [f"<title>{e(rec['name'] or rec['en'] or rec['sci'])} · Vertapedia</title>",
-            f'<meta name="description" content="{e(desc)}">',
+    sdesc = search_desc(rec)
+    page_title = f"{rec['name']} ({rec['sci']})" if rec["name"] else (rec["en"] or rec["sci"]) + (f" ({rec['sci']})" if rec["en"] else "")
+    tags = [f"<title>{e(page_title)} · Vertapedia</title>",
+            f'<meta name="description" content="{e(sdesc)}">',
+            f'<link rel="canonical" href="{e(url)}">',
+            ld_json(rec),
             '<meta property="og:site_name" content="Vertapedia">',
             '<meta property="og:type" content="article">',
             f'<meta property="og:url" content="{e(url)}">',
@@ -381,7 +467,7 @@ pool = [t["sci"] for t in species if t.get("name") and has_pic(t["sci"])]
 shutil.rmtree(SITE / "sp", ignore_errors=True)
 (SITE / "sp").mkdir(parents=True)
 seq = {g: [t for t in species if t["group"] == g] for g in G}
-shares = {}
+shares, bodies = {}, {}
 for g, lst in seq.items():
     for i, t in enumerate(lst):
         o, so, sup = lineage(t)
@@ -415,8 +501,34 @@ for g, lst in seq.items():
                                                       if (s.get("h") or "").strip().lower() not in BIB_SECTIONS])
         (SITE / "sp" / fname(t["sci"])).write_text(dump(rec), encoding="utf-8")
         shares[t["sci"]] = share_tags(rec)
+        bodies[t["sci"]] = seo_body(rec)
 
 # --- 과 문서: 명칭 근거 + 포함 속·종 ---
+def fam_seo(rec, sps):
+    """과 문서 머리말(제목·설명·canonical)과 검색엔진용 본문(속·종 목록과 링크)"""
+    e = lambda t: html.escape(str(t), quote=True)
+    url = SITE_URL + "fam/" + quote(rec["sci"]) + ".html"
+    head = f"{rec['name']}({rec['sci']})" if rec.get("name") else rec["sci"]
+    kind = " ".join(filter(None, [(rec.get("order") or {}).get("name"), GROUP_KO.get(rec["group"])]))
+    desc = cut(f"{head} — {kind}. 속 {rec['counts']['genera']}개, 종 {rec['counts']['species']:,}종. "
+               + (rec.get("rationale") or ""), 155)
+    title = f"{rec['name']} ({rec['sci']})" if rec.get("name") else rec["sci"]
+    tags = "\n".join([f"<title>{e(title)} · Vertapedia</title>", f'<meta name="description" content="{e(desc)}">',
+                      f'<link rel="canonical" href="{e(url)}">', '<meta property="og:site_name" content="Vertapedia">',
+                      f'<meta property="og:title" content="{e(title)}">', f'<meta property="og:description" content="{e(desc)}">',
+                      f'<meta property="og:url" content="{e(url)}">'])
+    lis = []
+    for gn in rec["genera"]:
+        sp_links = ", ".join(f'<a href="sp/{quote(x[0].replace(" ", "_"))}.html">{e(x[1] or x[0])}</a>' for x in gn["species"])
+        lis.append(f"<li><b>{e(gn.get('name') or gn['sci'])}</b> <i>{e(gn['sci'])}</i>: {sp_links}</li>")
+    body = "\n".join([f'<p class="crumb">{e(" › ".join(filter(None, [GROUP_KO.get(rec["group"]), (rec.get("order") or {}).get("name")])))}</p>',
+                      f"<h1>{e(rec.get('name') or rec['sci'])}</h1>", f'<p class="sci">{e(rec["sci"])}</p>']
+                     + ([f"<section><h2>명칭 근거</h2><p>{e(rec['rationale'])}</p></section>"] if rec.get("rationale") else [])
+                     + [f"<section><h2>포함 속·종</h2><ul>{''.join(lis)}</ul></section>"])
+    return tags, body
+
+
+fam_pages = {}
 shutil.rmtree(SITE / "fam", ignore_errors=True)
 (SITE / "fam").mkdir(parents=True)
 fam_seq = {g: [] for g in G}
@@ -452,6 +564,7 @@ for g, lst in fam_seq.items():
             prev=nb(i - 1), next=nb(i + 1), pos=[i + 1, len(lst)],
         )
         (SITE / "fam" / fname(f["sci"])).write_text(dump(rec), encoding="utf-8")
+        fam_pages[f["sci"]] = fam_seo(rec, sps)
 
 (DATA / "name_changes.json").write_text(json.dumps(name_changes, ensure_ascii=False, indent=0), encoding="utf-8")  # 검토 페이지에서 읽는다
 
@@ -503,8 +616,29 @@ js_at, js_end = tpl.rindex("<script>"), tpl.rindex("</script>")
 shell = (tpl[:css_at] + '<link rel="stylesheet" href="sp.css">' + tpl[css_end + len("</style>"):js_at]
          + '<script src="sp.js"></script>' + tpl[js_end + len("</script>"):])
 shell = shell.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="../">', 1)
+MAIN_EMPTY = '<main class="wrap" id="main"><p class="empty">불러오는 중입니다.</p></main>'
+assert MAIN_EMPTY in shell
 for sci, tags in shares.items():
-    (SITE / "sp" / (sci.replace(" ", "_") + ".html")).write_text(shell.replace("<title>Vertapedia</title>", tags, 1), encoding="utf-8")
+    page = shell.replace("<title>Vertapedia</title>", tags, 1).replace(
+        MAIN_EMPTY, '<main class="wrap" id="main">' + bodies[sci] + "</main>", 1)
+    (SITE / "sp" / (sci.replace(" ", "_") + ".html")).write_text(page, encoding="utf-8")
+
+# 과 문서: fam/<학명>.html (옛 주소 fam.html#<학명> 은 fam.html 이 넘긴다)
+fam_tpl = (SITE / "fam.html").read_text(encoding="utf-8").replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="../">', 1)
+assert MAIN_EMPTY in fam_tpl and "<title>Vertapedia</title>" in fam_tpl
+for sci, (tags, body) in fam_pages.items():
+    (SITE / "fam" / (quote(sci, safe="") + ".html")).write_text(
+        fam_tpl.replace("<title>Vertapedia</title>", tags, 1).replace(MAIN_EMPTY, '<main class="wrap" id="main">' + body + "</main>", 1),
+        encoding="utf-8")
+
+# 검색엔진: robots.txt 와 사이트맵(종·과 문서). 편집진 검토 페이지는 뺀다
+(SITE / "robots.txt").write_text(f"User-agent: *\nDisallow: /review.html\n\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
+urls = [SITE_URL, SITE_URL + "find.html"] + [SITE_URL + "fam/" + quote(f) + ".html" for f in fam_pages] + \
+       [SITE_URL + "sp/" + quote(x.replace(" ", "_")) + ".html" for x in shares]
+today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+(SITE / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                  + "".join(f"<url><loc>{html.escape(u)}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)
+                                  + "</urlset>\n", encoding="utf-8")
 # 학명을 바꾼 종의 옛 주소는 새 주소로 넘긴다
 for t in species:
     for o in t.get("old_sci") or []:

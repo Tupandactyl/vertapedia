@@ -45,3 +45,7 @@ data/dist.log
 # 위키 번역 작업 폴더(결과는 data/wiki_ko)
 translation_review/
 data/name_changes.json
+
+# scripts/build_site.py 가 만드는 검색엔진 파일
+site/robots.txt
+site/sitemap.xml

@@ -65,7 +65,7 @@
   }
   var href = function (r) {
     var s = encodeURIComponent(r[2].replace(/ /g, "_"));
-    return r[1] === "f" ? "fam.html#" + s : "sp/" + s + ".html";
+    return r[1] === "f" ? "fam/" + s + ".html" : "sp/" + s + ".html";
   };
 
   document.addEventListener("DOMContentLoaded", function () {

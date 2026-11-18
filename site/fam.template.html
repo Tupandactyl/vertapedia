@@ -121,7 +121,7 @@ const META=/*META*/null;
 const esc=t=>String(t==null?'':t).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 const ST={kos:'한국조류목록 2025',kshr:'한국양서파충류학회 2025',consensus:'편집진 합의',proposal:'편집진 제안',none:'국명 없음',split:'국명 없음',kos_held:'보류종 국명',derived:'과 국명에서 만든 이름'};
 const nm=x=>x&&x.name?`${esc(x.name)} ${esc(x.sci)}`:x?esc(x.sci):'';
-const link=(page,x)=>{const s=encodeURIComponent(x.sci.replace(/ /g,'_'));return page==='sp'?`sp/${s}.html`:`${page}.html#${s}`};
+const link=(page,x)=>{const s=encodeURIComponent(x.sci.replace(/ /g,'_'));return page==='sp'?`sp/${s}.html`:page==='fam'?`fam/${s}.html`:`${page}.html#${s}`};
 function pn(d){
   const side=(x,cls,label)=>x?`<a class="${cls}" href="${link('fam',x)}"><small>${label}</small><b>${esc(x.name||x.sci)}</b></a>`:'<span class="off"></span>';
   return `<nav class="pn" aria-label="시트 순서로 넘기기">${side(d.prev,'pv','‹ 이전 과')}<span class="pos">${d.pos[0]} / ${d.pos[1]}</span>${side(d.next,'nx','다음 과 ›')}</nav>`;
@@ -182,7 +182,10 @@ function render(d){
   VTalk.mount(document.getElementById('talk'),'fam:'+d.sci,d.name||d.sci);
 }
 function load(){
-  const sci=decodeURIComponent(location.hash.slice(1));
+  // 과 문서 주소는 fam/<학명>.html. 옛 주소 fam.html#<학명> 은 새 주소로 넘긴다
+  const m=location.pathname.match(/\/fam\/([^/]+)\.html$/);
+  if(!m&&location.hash.length>1){location.replace('fam/'+location.hash.slice(1)+'.html');return}
+  const sci=decodeURIComponent(m?m[1]:'');
   if(!sci){location.replace('find.html');return}
   fetch(`fam/${encodeURIComponent(sci)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
     .catch(()=>{document.getElementById('main').innerHTML=`<p class="empty">“${esc(sci)}” 과를 찾지 못했습니다. <a href="find.html">이름 찾기</a>로 돌아가기</p>`});
@@ -194,7 +197,7 @@ addEventListener('hashchange',load);load();
 addEventListener('keydown',e=>{
   if(!CUR||e.altKey||e.ctrlKey||e.metaKey||/input|textarea|select/i.test(e.target.tagName))return;
   const x=e.key==='ArrowLeft'?CUR.prev:e.key==='ArrowRight'?CUR.next:null;
-  if(x)location.hash=x.sci;
+  if(x)location.href=link('fam',x);
 });
 </script>
 </body>

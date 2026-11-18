@@ -15,7 +15,7 @@
   var isLeaf = function (n) { return !Array.isArray(n[3]); };
   var href = function (page, sci) {
     var s = encodeURIComponent(sci.replace(/ /g, "_"));
-    return page === "sp" ? "sp/" + s + ".html" : page + ".html#" + s;
+    return page === "sp" ? "sp/" + s + ".html" : page === "fam" ? "fam/" + s + ".html" : page + ".html#" + s;
   };
 
   function count(n) {
