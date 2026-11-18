@@ -210,7 +210,23 @@
 
     var redraw = function () { draw(box, st, opts); };
     var reroot = function (t, lvl) { if (!t) return; st.root = t.node; st.level = lvl || NEXT[t.r]; redraw(); scrollTo(box, null); };
-    box.querySelectorAll(".plev button").forEach(function (b) { b.onclick = function () { st.level = b.dataset.l; store("level", st.level); redraw(); }; });
+    box.querySelectorAll(".plev button").forEach(function (b) {
+      b.onclick = function () {
+        var L = b.dataset.l;
+        st.level = L; store("level", L);
+        // 지금 뿌리가 그 단계의 무리 하나 안에 있으면(예: 올빼미과에서 '과') 그 단계 무리가 둘 이상 보이는
+        // 가장 가까운 상위 분류군으로 뿌리를 올린다(올빼미과 → 올빼미목을 과 단위로)
+        if (L !== "sp" && st.root.pure[L]) {
+          var a = st.root;
+          while (a.up && a.pure[L]) a = a.up;
+          while (a.up && !(a.labels || []).some(function (t) { return t.mono; })) a = a.up;
+          st.root = a;
+          redraw(); scrollTo(box, null);
+          return;
+        }
+        redraw();
+      };
+    });
     box.querySelector(".plin input").onchange = function (e) { st.linear = e.target.checked; store("linear", st.linear); redraw(); };
     box.querySelectorAll(".pcrumb").forEach(function (b) {
       b.onclick = function () { if (!b.dataset.t) { st.root = P.root; st.level = "o"; redraw(); return; } reroot(P.taxa[b.dataset.t], st.level === "o" ? "f" : st.level); };
