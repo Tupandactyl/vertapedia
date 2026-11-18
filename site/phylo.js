@@ -116,7 +116,17 @@
     })(vis);
 
     var W = Math.max(220, box.clientWidth || 260);
-    var treeW = Math.round(Math.max(70, Math.min(W * 0.42, 240)));
+    // 이름 칸은 가장 긴 이름만큼만 두고 나머지 폭은 모두 나무에 준다(넓은 화면에서 오른쪽이 비지 않게)
+    var tw = function (str, fs) { var w = 0; for (var c = 0; c < str.length; c++) w += str.charCodeAt(c) > 0x1100 ? fs : fs * 0.58; return w; };
+    var labW = 0;
+    rows.forEach(function (v) {
+      var w;
+      if (v.taxon) w = tw(nameOf(v.taxon), 12.5) + tw(" " + v.node.n.toLocaleString(), 10.5);
+      else { var inf = v.node.info || {}; w = tw(inf.ko || inf.en || v.node.name, 12.5); }
+      if (w > labW) labW = w;
+    });
+    labW = Math.min(Math.max(labW + 16, 80), W * 0.6);
+    var treeW = Math.round(Math.max(70, W - 6 - labW));
     var X0 = 6, X1 = X0 + treeW, rootAge = root.age || 1;
     var f = st.linear ? function (a) { return a; } : Math.sqrt;
     var x = function (age) { return X0 + (X1 - X0) * (1 - f(age) / f(rootAge)); };

@@ -31,8 +31,10 @@
     python scripts/build_phylo.py R -v     # 파충류만, 맞춤 내역 출력
 """
 import json
+import random
 import re
 import sys
+import zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,7 +48,7 @@ CITE_A = ("나무: " + A("https://birdsoftheworld.org/bow/phylogeny", "Birds of 
           + A("https://doi.org/10.1073/pnas.2409658122", "<i>PNAS</i> 122:e2409658122") + " · "
           + A("https://github.com/eliotmiller/clootl", "clootl") + ". 분류 이름은 이 사이트의 목록(AviList)에 맞춤.")
 CITE_R = ("나무: 유린목 Title et al. 2024, " + A("https://doi.org/10.1126/science.adh2449", "<i>Science</i> 383:918")
-          + "(유전자 자료가 없는 종은 imputed 나무 100개 중 첫째의 자리에 배치)"
+          + "(유전자 자료가 없는 종은 imputed 나무 100개 중 첫째의 자리에 배치. 거북목·악어목은 같은 방식으로 속 무리 안 가지 위에 무작위 배치)"
           + " · 거북목 Thomson et al. 2021, " + A("https://doi.org/10.1073/pnas.2012215118", "<i>PNAS</i> 118:e2012215118")
           + " · 악어목 Davies et al. 2026, " + A("https://doi.org/10.1098/rspb.2026.0635", "<i>Proc. R. Soc. B</i> 293:20260635")
           + " (MrBayes 마디 보정 분석을 다시 돌림) · 인룡류 연대 Burbrink et al. 2020, " + A("https://doi.org/10.1093/sysbio/syz062", "<i>Syst. Biol.</i> 69:502")
@@ -134,6 +136,13 @@ def close(a, b):
     return prev[-1] <= 2
 
 
+def _nodes(node):
+    out, st = [], [node]
+    while st:
+        x = st.pop(); out.append(x); st.extend(x.kids)
+    return out
+
+
 def mrca(nodes):
     if not nodes:
         return None
@@ -190,7 +199,8 @@ def prune(lf):
         gp = p.up; gp.kids[gp.kids.index(p)] = only
 
 
-def fit(root, rows, verbose=False):
+def fit(root, rows, verbose=False, impute=None):
+    """impute(경로) 가 참인 종은 같은 속 가지 위에 무작위로 붙인다(유전자 자료 없는 종의 imputed 배치)."""
     order = {r[0]: k for k, r in enumerate(rows)}
     info = dict(rows)
     leaves = tips(root)
@@ -311,6 +321,29 @@ def fit(root, rows, verbose=False):
         if not group:
             lost.append(sci); continue
         new = N(sci); new.star = True
+        if impute and rank == "g" and impute(path):
+            # TACT 처럼: 그 속 크라운 무리 안의 가지 하나(길이에 비례해 고름, 속에 종이 하나면 그 끝 가지) 위
+            # 무작위 시점에서 갈라진 것으로 둔다. 종마다 난수를 고정해 빌드마다 같은 결과.
+            rnd = random.Random(zlib.crc32(sci.encode("utf-8")))
+            crown = mrca(group)
+            br = [x for x in _nodes(crown) if x is not crown and x.bl > 0] or [crown]
+            tot = sum(x.bl for x in br)
+            pick, acc = rnd.uniform(0, tot), 0.0
+            for x in br:
+                acc += x.bl
+                if acc >= pick:
+                    break
+            low = height(x)
+            t = low + rnd.uniform(0.05, 0.95) * x.bl
+            par = x.up
+            mid = N(bl=x.bl - (t - low)); mid.up = par
+            par.kids[par.kids.index(x)] = mid
+            x.bl = t - low; x.up = mid
+            new.bl = t; new.up = mid
+            mid.kids = [x, new]
+            matched[sci] = new
+            imputed.append(sci)
+            continue
         if len(group) == 1:  # 형제 하나: 그 가지 중간에서 가른다
             t = group[0]; half = t.bl / 2
             mid = N(bl=t.bl - half); mid.up = t.up
@@ -437,7 +470,8 @@ def reptiles(verbose):
     root = graft([(lep, age_lep), (arc, AGE_ARCHELOSAURIA)], AGE_REPTILIA)
     print(f"R 연대: 파충류 {AGE_REPTILIA} · 인룡류 {age_lep:.1f} · 유린목 {height(sq):.1f} · 거북+악어 {AGE_ARCHELOSAURIA} · "
           f"거북목 {height(tu):.1f} · 악어목 {height(cr):.1f}")
-    nwk, stats = fit(root, rows, verbose)
+    # 거북목·악어목은 imputed 나무가 없어 같은 방식(속 무리 안 가지 위 무작위 배치)으로 직접 채운다
+    nwk, stats = fit(root, rows, verbose, impute=lambda p: p.get("o") in ("Testudines", "Crocodylia"))
     write("R", "Title et al. 2024; Thomson et al. 2021; Davies et al. 2026; Burbrink et al. 2020; Jenkins et al. 2026", CITE_R, nwk, stats)
 
 
