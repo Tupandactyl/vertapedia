@@ -99,7 +99,19 @@
     // 지금 보이는 계통수: 끝 단계(level)로 접는다. 뿌리 자체는 접지 않는다.
     if (!top && level !== "sp" && n.pure[level]) return { tip: true, node: n, taxon: P.taxa[level + ":" + n.pure[level]] };
     if (!n.k.length) return { tip: true, node: n };
-    return { node: n, k: n.k.map(function (c) { return shown(c, level); }) };
+    // 다분지(polytomy)에서 같은 무리로 접힌 형제들은 한 줄로 합친다(다분지를 그렇게 풀어도 어긋나지 않는다)
+    var k = [], at = {};
+    n.k.forEach(function (c) {
+      var v = shown(c, level);
+      if (v.taxon) {
+        var key = v.taxon.r + ":" + v.taxon.sci, w = at[key];
+        if (w) { w.cnt += v.node.n; w.star = w.star && !!v.node.star; return; }
+        at[key] = v; v.cnt = v.node.n; v.star = !!v.node.star;
+      }
+      k.push(v);
+    });
+    if (k.length === 1 && !top) return k[0];
+    return { node: n, k: k };
   }
 
   function nameOf(t) { return t ? (t.ko || t.sci) : GROUP[P.G]; }
@@ -121,7 +133,7 @@
     var labW = 0;
     rows.forEach(function (v) {
       var w;
-      if (v.taxon) w = tw(nameOf(v.taxon), 12.5) + tw(" " + v.node.n.toLocaleString(), 10.5);
+      if (v.taxon) w = tw(nameOf(v.taxon), 12.5) + tw(" " + (v.cnt || v.node.n).toLocaleString(), 10.5);
       else { var inf = v.node.info || {}; w = tw(inf.ko || inf.en || v.node.name, 12.5); }
       if (w > labW) labW = w;
     });
@@ -142,7 +154,7 @@
     (function edges(v, px) {
       var n = v.node, nx = x(n.age);
       var seg = "M" + px.toFixed(1) + " " + v.y.toFixed(1) + "H" + (v.tip ? X1 : nx).toFixed(1);
-      (n.star ? dashed : solid).push(seg);
+      ((v.taxon && v.star !== undefined ? v.star : n.star) ? dashed : solid).push(seg);
       if (v.tip) return;
       solid.push("M" + nx.toFixed(1) + " " + v.k[0].y.toFixed(1) + "V" + v.k[v.k.length - 1].y.toFixed(1));
       var lab = (n.labels || []).filter(function (t) { return n !== root && RANKS.indexOf(t.r) < (level === "sp" ? 9 : RANKS.indexOf(level)); });
@@ -162,12 +174,12 @@
     var tipsHtml = rows.map(function (v, k) {
       var y = v.y + 4, tx0 = X1 + 6, n = v.node;
       if (v.taxon) {
-        var t = v.taxon, isCur = cur && t.sci === cur;
+        var t = v.taxon, isCur = cur && t.sci === cur, cnt = (v.cnt || n.n).toLocaleString();
         if (isCur) curRow = k;
         if (st.hit && t.sci === st.hit) hitRow = k;
         return '<g class="ptip grp' + (isCur ? " current" : "") + '" data-t="' + esc(t.r + ":" + t.sci) + '" data-n="' + nodeId(n) + '">' +
           '<rect x="' + X1 + '" y="' + (v.y - ROW / 2) + '" width="' + (W - X1) + '" height="' + ROW + '"/>' +
-          '<text x="' + tx0 + '" y="' + y + '"><tspan class="' + (t.mono ? "" : "poly") + '">' + esc(clip(nameOf(t), 12.5, tw(" " + n.n.toLocaleString(), 10.5))) + '</tspan> <tspan class="pn">' + n.n.toLocaleString() + "</tspan></text>" +
+          '<text x="' + tx0 + '" y="' + y + '"><tspan class="' + (t.mono ? "" : "poly") + '">' + esc(clip(nameOf(t), 12.5, tw(" " + cnt, 10.5))) + '</tspan> <tspan class="pn">' + cnt + "</tspan></text>" +
           "<title>" + esc(RK[t.r] + " " + t.sci + (t.mono ? "" : " · 이 무리는 단계통이 아님(다른 곳에도 나뉘어 있음)")) + "</title></g>";
       }
       var inf = n.info || {}, isC = cur && n.name === cur, isH = st.hit && n.name === st.hit;
