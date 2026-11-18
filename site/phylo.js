@@ -269,10 +269,9 @@
       var inf = P.byTip[cur].info, t = P.taxa["f:" + inf.f];
       if (!t || !t.mono) t = P.taxa["o:" + inf.o];
       if (t) { st.root = t.node; st.level = "sp"; }
-    } else if (cur && P.taxa["f:" + cur]) {       // 과 문서: 그 과가 든 목을 뿌리로, 끝은 과
-      var ft = P.taxa["f:" + cur], o = P.tips[ft.node.lo].info.o, ot = P.taxa["o:" + o];
-      if (ot) st.root = ot.node;
-      st.level = "f";
+    } else if (cur && P.taxa["f:" + cur]) {       // 과 문서: 그 과(의 공통 조상)를 뿌리로 종까지 펼친다
+      st.root = P.taxa["f:" + cur].node;
+      st.level = "sp";
     }
     draw(box, st, opts);
   };
