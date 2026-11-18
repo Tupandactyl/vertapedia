@@ -635,9 +635,9 @@ for sci, (tags, body) in fam_pages.items():
 (SITE / "robots.txt").write_text(f"User-agent: *\nDisallow: /review.html\n\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
 urls = [SITE_URL, SITE_URL + "find.html"] + [SITE_URL + "fam/" + quote(f) + ".html" for f in fam_pages] + \
        [SITE_URL + "sp/" + quote(x.replace(" ", "_")) + ".html" for x in shares]
-today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+# lastmod 는 넣지 않는다: 6시간마다 다시 빌드하므로 모두 오늘 날짜가 되면 검색엔진이 그 값을 믿지 않는다
 (SITE / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                  + "".join(f"<url><loc>{html.escape(u)}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)
+                                  + "".join(f"<url><loc>{html.escape(u)}</loc></url>\n" for u in urls)
                                   + "</urlset>\n", encoding="utf-8")
 # 학명을 바꾼 종의 옛 주소는 새 주소로 넘긴다
 for t in species:
