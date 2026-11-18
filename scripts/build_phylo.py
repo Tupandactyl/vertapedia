@@ -44,16 +44,13 @@ OUT = ROOT / "site" / "data"
 sys.setrecursionlimit(100000)
 
 A = lambda href, text: f'<a href="{href}" target="_blank" rel="noopener">{text}</a>'
-CITE_A = ("나무: " + A("https://birdsoftheworld.org/bow/phylogeny", "Birds of the World Phylogeny") + " v1.7 · McTavish et al. 2025, "
-          + A("https://doi.org/10.1073/pnas.2409658122", "<i>PNAS</i> 122:e2409658122") + " · "
-          + A("https://github.com/eliotmiller/clootl", "clootl") + ". 분류 이름은 이 사이트의 목록(AviList)에 맞춤.")
-CITE_R = ("나무: 유린목 Title et al. 2024, " + A("https://doi.org/10.1126/science.adh2449", "<i>Science</i> 383:918")
-          + "(유전자 자료가 없는 종은 imputed 나무 100개 중 첫째의 자리에 배치. 거북목·악어목은 같은 방식으로 속 무리 안 가지 위에 무작위 배치)"
-          + " · 거북목 Thomson et al. 2021, " + A("https://doi.org/10.1073/pnas.2012215118", "<i>PNAS</i> 118:e2012215118")
-          + " · 악어목 Davies et al. 2026, " + A("https://doi.org/10.1098/rspb.2026.0635", "<i>Proc. R. Soc. B</i> 293:20260635")
-          + " (MrBayes 마디 보정 분석을 다시 돌림) · 인룡류 연대 Burbrink et al. 2020, " + A("https://doi.org/10.1093/sysbio/syz062", "<i>Syst. Biol.</i> 69:502")
-          + " · 파충류·거북+악어 갈래 연대 Jenkins et al. 2026, " + A("https://doi.org/10.1016/j.cub.2026.04.070", "<i>Curr. Biol.</i> 2026")
-          + ". 나무 다섯을 시간 축에 맞춰 이어 붙였고, 분류 이름은 이 사이트의 목록(Reptile Database)에 맞춤.")
+CITE_A = ("출처: " + A("https://birdsoftheworld.org/bow/phylogeny", "Birds of the World Phylogeny v1.7") + " · McTavish et al. 2025, "
+          + A("https://doi.org/10.1073/pnas.2409658122", "<i>PNAS</i>"))
+CITE_R = ("출처: 유린목 Title et al. 2024, " + A("https://doi.org/10.1126/science.adh2449", "<i>Science</i>")
+          + " · 거북목 Thomson et al. 2021, " + A("https://doi.org/10.1073/pnas.2012215118", "<i>PNAS</i>")
+          + " · 악어목 Davies et al. 2026, " + A("https://doi.org/10.1098/rspb.2026.0635", "<i>Proc. R. Soc. B</i>")
+          + " · 인룡류 Burbrink et al. 2020, " + A("https://doi.org/10.1093/sysbio/syz062", "<i>Syst. Biol.</i>")
+          + " · 뿌리 Jenkins et al. 2026, " + A("https://doi.org/10.1016/j.cub.2026.04.070", "<i>Curr. Biol.</i>"))
 
 
 class N:

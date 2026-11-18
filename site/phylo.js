@@ -196,8 +196,7 @@
         return '<button type="button" data-l="' + l + '" aria-pressed="' + (l === level) + '">' + RK[l] + "</button>";
       }).join("") + '</div><label class="plin"><input type="checkbox"' + (st.linear ? " checked" : "") + "> 선형 시간</label></div>" +
       svg +
-      '<p class="pkey"><span class="poly">주황</span> 단계통이 아닌 무리 · <span class="pdash"></span> 유전자 자료 없이 위치를 추정해 둔 종(' + (P.add + P.imp).toLocaleString() +
-        (P.imp ? ': 그중 ' + P.imp.toLocaleString() + '종은 imputed 나무의 자리' : '') + ')</p>' +
+      '<p class="pkey"><span class="poly">주황</span> 단계통 아님 · <span class="pdash"></span> 유전자 자료 없음(위치 추정)</p>' +
       '<p class="psrc">' + P.cite + '</p>';
 
     var redraw = function () { draw(box, st, opts); };
