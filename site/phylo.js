@@ -125,7 +125,14 @@
       else { var inf = v.node.info || {}; w = tw(inf.ko || inf.en || v.node.name, 12.5); }
       if (w > labW) labW = w;
     });
-    labW = Math.min(Math.max(labW + 16, 80), W * 0.6);
+    labW = Math.min(Math.max(labW + 16, 80), W * (W < 560 ? 0.45 : 0.6));  // 좁은 화면(모바일)은 나무에 더 주고 긴 이름은 줄인다
+    var room = labW - 10;
+    var clip = function (str, fs, extra) {
+      if (tw(str, fs) + (extra || 0) <= room) return str;
+      var out = "";
+      for (var c = 0; c < str.length; c++) { if (tw(out + str[c] + "…", fs) + (extra || 0) > room) break; out += str[c]; }
+      return out + "…";
+    };
     var treeW = Math.round(Math.max(70, W - 6 - labW));
     var X0 = 6, X1 = X0 + treeW, rootAge = root.age || 1;
     var f = st.linear ? function (a) { return a; } : Math.sqrt;
@@ -151,24 +158,26 @@
     var ticks = [200, 100, 50, 20, 10, 5, 2, 1].filter(function (a) { return a < rootAge * 0.95; });
     var axis = ticks.map(function (a) { var ax = x(a).toFixed(1); return '<line class="pgrid" x1="' + ax + '" x2="' + ax + '" y1="' + (TOP - 6) + '" y2="' + (TOP + rows.length * ROW) + '"/><text class="ptick" x="' + ax + '" y="' + (TOP - 9) + '">' + a + "</text>"; }).join("");
 
-    var curRow = -1;
+    var curRow = -1, hitRow = -1;
     var tipsHtml = rows.map(function (v, k) {
       var y = v.y + 4, tx0 = X1 + 6, n = v.node;
       if (v.taxon) {
         var t = v.taxon, isCur = cur && t.sci === cur;
         if (isCur) curRow = k;
+        if (st.hit && t.sci === st.hit) hitRow = k;
         return '<g class="ptip grp' + (isCur ? " current" : "") + '" data-t="' + esc(t.r + ":" + t.sci) + '" data-n="' + nodeId(n) + '">' +
           '<rect x="' + X1 + '" y="' + (v.y - ROW / 2) + '" width="' + (W - X1) + '" height="' + ROW + '"/>' +
-          '<text x="' + tx0 + '" y="' + y + '"><tspan class="' + (t.mono ? "" : "poly") + '">' + esc(nameOf(t)) + '</tspan> <tspan class="pn">' + n.n.toLocaleString() + "</tspan></text>" +
+          '<text x="' + tx0 + '" y="' + y + '"><tspan class="' + (t.mono ? "" : "poly") + '">' + esc(clip(nameOf(t), 12.5, tw(" " + n.n.toLocaleString(), 10.5))) + '</tspan> <tspan class="pn">' + n.n.toLocaleString() + "</tspan></text>" +
           "<title>" + esc(RK[t.r] + " " + t.sci + (t.mono ? "" : " · 이 무리는 단계통이 아님(다른 곳에도 나뉘어 있음)")) + "</title></g>";
       }
-      var inf = n.info || {}, isC = cur && n.name === cur;
+      var inf = n.info || {}, isC = cur && n.name === cur, isH = st.hit && n.name === st.hit;
       if (isC) curRow = k;
+      if (isH) hitRow = k;
       var nm = inf.ko || inf.en || n.name;
-      return '<a class="ptip' + (isC ? " current" : "") + '" href="sp/' + encodeURIComponent(n.name.replace(/ /g, "_")) + '.html">' +
+      return '<a class="ptip' + (isC ? " current" : "") + (isH ? " hit" : "") + '" href="sp/' + encodeURIComponent(n.name.replace(/ /g, "_")) + '.html">' +
         '<rect x="' + X1 + '" y="' + (v.y - ROW / 2) + '" width="' + (W - X1) + '" height="' + ROW + '"/>' +
-        '<text x="' + tx0 + '" y="' + y + '"' + (inf.ko ? "" : ' class="en"') + ">" + esc(nm) + "</text>" +
-        "<title>" + esc(n.name + (n.star ? " · 유전자 자료가 없어 위치를 추정해 둔 종" : "")) + "</title></a>";
+        '<text x="' + tx0 + '" y="' + y + '"' + (inf.ko ? "" : ' class="en"') + ">" + esc(clip(nm, 12.5)) + "</text>" +
+        "<title>" + esc((nm !== n.name ? nm + " · " : "") + n.name + (n.star ? " · 유전자 자료가 없어 위치를 추정해 둔 종" : "")) + "</title></a>";
     }).join("");
 
     var Hh = TOP + rows.length * ROW + 8;
@@ -209,7 +218,14 @@
     box.querySelectorAll(".pdot,.plab,.ptip.grp").forEach(function (el) {
       el.addEventListener("click", function () { reroot(P.taxa[el.getAttribute("data-t")]); });
     });
-    if (curRow >= 0 && st.scroll) { st.scroll = false; scrollTo(box, TOP + curRow * ROW); }
+    if (hitRow >= 0 && st.scroll) {  // 찾은 줄: 패널이든 페이지든 스크롤되는 쪽으로 가운데에 오게
+      st.scroll = false;
+      var hEl = box.querySelector(".ptip.hit");
+      if (hEl) hEl.scrollIntoView({ block: "center" });
+    }
+    var goRow = curRow;
+    if (goRow >= 0 && st.scroll) { st.scroll = false; scrollTo(box, TOP + goRow * ROW); }
+    else if (st.scroll && opts.focus) { st.scroll = false; scrollTo(box, null); }
   }
 
   var ids = 0;
@@ -235,7 +251,20 @@
     }
     P = PS[G];
     var st = { P: P, root: P.root, level: store("level") || "o", linear: !!store("linear"), scroll: true };
-    var cur = opts.current;
+    var cur = opts.current, fx = opts.focus;
+    if (fx) {  // 분류군 찾기로 고른 것: 종이면 그 과(단계통이 아니면 목)를 뿌리로, 무리면 그 무리를 뿌리로
+      var hitT = P.taxa[fx.r + ":" + fx.sci];
+      if (fx.r === "sp" && P.byTip[fx.sci]) {
+        var fi = P.byTip[fx.sci].info, ft2 = P.taxa["f:" + fi.f];
+        if (!ft2 || !ft2.mono) ft2 = P.taxa["o:" + fi.o];
+        if (ft2) st.root = ft2.node;
+        st.level = "sp"; st.hit = fx.sci;
+      } else if (hitT) {
+        st.root = hitT.node; st.level = NEXT[fx.r] || "sp";
+      }
+      draw(box, st, opts);
+      return;
+    }
     if (cur && P.byTip[cur]) {                    // 종 문서: 그 종의 과(단계통이 아니면 목)를 뿌리로, 끝은 종
       var inf = P.byTip[cur].info, t = P.taxa["f:" + inf.f];
       if (!t || !t.mono) t = P.taxa["o:" + inf.o];

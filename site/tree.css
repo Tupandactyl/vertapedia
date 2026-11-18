@@ -56,3 +56,17 @@ svg.phylo{display:block;overflow:visible;font-family:var(--body)}
 .pdash{display:inline-block;width:18px;border-top:1.5px dashed var(--muted);vertical-align:middle}
 .psrc{font-size:10.5px;color:var(--muted);margin:4px 2px 0;line-height:1.5}
 .psrc a{color:inherit}
+
+/* 분류군 찾기 */
+.tbar{position:relative;display:flex;align-items:center;gap:6px;margin:2px 0 6px}
+.tbar .tmode{margin:0;flex:none}
+.tsearch{flex:1 1 auto;min-width:0;font:inherit;font-size:12px;padding:3px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--ink)}
+.tsearch:focus{outline:none;border-color:var(--moss)}
+.tsugg{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:30;background:var(--panel);border:1px solid var(--line);border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.25);max-height:300px;overflow:auto;padding:3px}
+.tsugg button{display:flex;align-items:baseline;gap:5px;width:100%;text-align:left;font:inherit;font-size:12.5px;border:0;background:none;color:var(--ink);padding:4px 6px;border-radius:5px;cursor:pointer}
+.tsugg button[aria-selected="true"],.tsugg button:hover{background:var(--moss-soft)}
+.tsugg .torig{color:var(--muted);font-size:11.5px}
+.tsugg .tn{margin-left:auto}
+.trow.hit{background:var(--moss-soft);outline:1px solid var(--moss);border-radius:4px}
+.ptip.hit rect{fill:var(--moss-soft);stroke:var(--moss);stroke-width:1}
+.ptip.hit text{font-weight:700}

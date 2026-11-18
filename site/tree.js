@@ -84,6 +84,52 @@
     return null;
   }
 
+  // 아무 분류군(종·속·과·목 …)까지 가는 자식 번호들
+  function findAny(list, target) {
+    for (var i = 0; i < list.length; i++) {
+      var n = list[i];
+      if (isLeaf(n)) { if (n[0] === target) return [i]; continue; }
+      if (n[1] === target) return [i];
+      var sub = findAny(n[3], target);
+      if (sub) return [i].concat(sub);
+    }
+    return null;
+  }
+
+  // 분류군 찾기 색인: 국명·학명·영명(종)
+  var IDX = null, IDX_OF = null;
+  function index(data) {
+    if (IDX && IDX_OF === data) return IDX;
+    var out = [];
+    ["A", "R"].forEach(function (g) {
+      (function walk(list) {
+        list.forEach(function (n) {
+          if (isLeaf(n)) { out.push({ g: g, r: "sp", sci: n[0], ko: n[1] || "", en: n[2] || "" }); return; }
+          if (n[0] !== "h") out.push({ g: g, r: n[0], sci: n[1], ko: n[2] || "", en: "" });
+          walk(n[3]);
+        });
+      })(data[g] || []);
+    });
+    out.forEach(function (x) { x.k = (x.ko + "\u0001" + x.sci + "\u0001" + x.en).toLowerCase(); });
+    IDX = out; IDX_OF = data;
+    return out;
+  }
+  var RORD = { o: 0, u: 1, p: 2, f: 3, s: 4, g: 5, sp: 6 };
+  function search(data, q) {
+    q = q.trim().toLowerCase();
+    if (!q) return [];
+    var hits = [];
+    index(data).forEach(function (x) {
+      var i = x.k.indexOf(q);
+      if (i < 0) return;
+      var exact = x.ko.toLowerCase() === q || x.sci.toLowerCase() === q || x.en.toLowerCase() === q;
+      var head = i === 0 || x.k.charAt(i - 1) === "\u0001" || x.k.charAt(i - 1) === " ";
+      hits.push({ x: x, s: (exact ? 0 : head ? 1 : 2) * 10 + RORD[x.r] });
+    });
+    hits.sort(function (a, b) { return a.s - b.s || a.x.k.length - b.x.k.length; });
+    return hits.slice(0, 10).map(function (h) { return h.x; });
+  }
+
   // box 에 나무를 그린다. opts.groups: ["A","R"](이 순서로), opts.current: 지금 종 또는 과의 학명(그 경로를 펴 둔다),
   // opts.folded: 처음에 접어 둘 강(펼칠 때 그린다)
   // 분류군 창 너비: 창과 본문 사이의 손잡이(.navgrip)를 끌어 조절한다. 이 브라우저에 기억하고, 두 번 누르면 처음 너비(270px).
@@ -160,9 +206,44 @@
   window.VTree = function (box, data, opts) {
     opts = opts || {};
     var mode = getMode();
-    box.innerHTML = '<div class="tmode" role="group" aria-label="분류군 보기">' +
+    box.innerHTML = '<div class="tbar"><div class="tmode" role="group" aria-label="분류군 보기">' +
       '<button type="button" data-m="drawer" aria-pressed="' + (mode === "drawer") + '">서랍</button>' +
-      '<button type="button" data-m="phylo" aria-pressed="' + (mode === "phylo") + '">분기도</button></div>';
+      '<button type="button" data-m="phylo" aria-pressed="' + (mode === "phylo") + '">분기도</button></div>' +
+      '<input class="tsearch" type="search" placeholder="분류군 찾기" aria-label="분류군 찾기" autocomplete="off" spellcheck="false">' +
+      '<div class="tsugg" role="listbox" hidden></div></div>';
+    (function () {  // 분류군 찾기: 고르면 지금 보기(서랍·분기도)에서 그 자리로 간다
+      var inp = box.querySelector(".tsearch"), sug = box.querySelector(".tsugg"), list = [], sel = -1;
+      var go = function (x) {
+        var o2 = {}; for (var k in opts) o2[k] = opts[k];
+        o2.focus = x; o2.phyloGroup = x.g;
+        o2.folded = (opts.folded || []).filter(function (g) { return g !== x.g; });
+        window.VTree(box, data, o2);
+      };
+      var paint = function () {
+        sug.hidden = !list.length;
+        sug.innerHTML = list.map(function (x, i) {
+          var nm = x.ko || (x.r === "sp" ? x.en : "") || x.sci;
+          return '<button type="button" role="option" data-i="' + i + '" aria-selected="' + (i === sel) + '">' +
+            '<span class="trank">' + (x.r === "sp" ? "종" : RANK[x.r]) + "</span>" + esc(nm) +
+            (nm !== x.sci ? ' <i class="torig">' + esc(x.sci) + "</i>" : "") + '<small class="tn">' + GROUP[x.g] + "</small></button>";
+        }).join("");
+      };
+      inp.addEventListener("input", function () { list = search(data, inp.value); sel = list.length ? 0 : -1; paint(); });
+      inp.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          if (!list.length) return;
+          e.preventDefault();
+          sel = (sel + (e.key === "ArrowDown" ? 1 : list.length - 1)) % list.length; paint();
+        } else if (e.key === "Enter") {
+          if (sel >= 0 && list[sel]) { e.preventDefault(); go(list[sel]); }
+        } else if (e.key === "Escape") { list = []; paint(); }
+      });
+      sug.addEventListener("mousedown", function (e) { e.preventDefault(); });
+      sug.addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-i]"); if (b) go(list[+b.dataset.i]);
+      });
+      inp.addEventListener("blur", function () { setTimeout(function () { list = []; paint(); }, 150); });
+    })();
     box.querySelectorAll(".tmode button").forEach(function (b) {
       b.onclick = function () {
         if (b.dataset.m === getMode()) return;
@@ -196,17 +277,20 @@
       inner.appendChild(pbox);
       pbox.innerHTML = '<p class="pnote">분기도를 불러오는 중…</p>';
       loadPhylo().then(function () {
-        window.VPhylo(pbox, data, { group: pg, current: pg === groups[0] ? opts.current : null });
+        window.VPhylo(pbox, data, { group: pg, current: pg === groups[0] ? opts.current : null,
+                                    focus: opts.focus && opts.focus.g === pg ? opts.focus : null });
       }, function () { pbox.innerHTML = '<p class="pnote">분기도를 불러오지 못했습니다.</p>'; });
       return;
     }
     drawer(inner, data, opts);
+    var hitEl = inner.querySelector(".trow.hit");
+    if (hitEl) { hitEl.scrollIntoView({ block: "center" }); return; }
     var curEl = inner.querySelector(".current");
     if (curEl && opts.scroll !== false) box.scrollTop = Math.max(0, curEl.offsetTop - box.offsetTop - box.clientHeight / 3);
   };
 
   function drawer(box, data, opts) {
-    var opened = null;
+    var opened = null, tops_by = {};
     (opts.groups || ["A", "R"]).forEach(function (g) {
       if (!data[g]) return;
       var head = document.createElement("div");
@@ -228,6 +312,7 @@
           if (OPEN_FIRST[o[1]]) el._open(true);
           return el;
         });
+        tops_by[g] = tops;
       };
       head.addEventListener("click", function () {
         draw();
@@ -247,5 +332,19 @@
       }
       opened = el;
     });
+    // 찾은 분류군: 조상들을 펴고 그 줄을 표시한다
+    var f = opts.focus;
+    if (f && tops_by[f.g]) {
+      var p2 = findAny(data[f.g], f.sci);
+      if (p2) {
+        var e2 = tops_by[f.g][p2[0]];
+        for (var j = 1; j < p2.length; j++) {
+          if (e2._open) e2._open(true);
+          e2 = e2.querySelector(".tkids").children[p2[j]];
+        }
+        var row = e2 && e2.querySelector(".trow");
+        if (row) row.classList.add("hit");
+      }
+    }
   }
 })();
