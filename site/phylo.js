@@ -6,7 +6,8 @@
 //  - 끝을 목·과·속·종 가운데 하나로 접는다. 접힌 끝이나 이름 붙은 마디를 누르면 그 무리를 뿌리로 다시 그린다.
 //  - 목·과·속 이름은 그 무리 모든 종의 가장 가까운 공통 조상 마디에 붙인다.
 //    그 마디 아래에 다른 무리의 종이 섞여 있으면 단계통이 아니므로 주황색으로 표시한다.
-//  - 계통 자료 없이 붙인 종(나무에 없어 같은 속 곁에 둔 종)은 점선으로 그린다.
+//  - 유전자 자료 없이 둔 종은 점선으로 그린다: 파충류 유린목은 Title et al. 2024 imputed 나무의 속별 빈자리,
+//    그 밖에는 같은 속(없으면 아과·과) 곁. 어느 쪽이든 위치는 추정이다.
 //  - 형제 가지의 위아래 순서는 시트(분류 목록) 순서에 맞춘다.
 (function () {
   var esc = function (t) {
@@ -90,7 +91,7 @@
       taxa[key] = t;
     });
     nodes.forEach(function (n) { if (n.labels) n.labels.sort(function (x, y) { return RANKS.indexOf(x.r) - RANKS.indexOf(y.r); }); });
-    return { G: G, root: root, tips: tips, taxa: taxa, byTip: byTip, src: raw.src, cite: raw.cite || "", add: raw.add };
+    return { G: G, root: root, tips: tips, taxa: taxa, byTip: byTip, src: raw.src, cite: raw.cite || "", add: raw.add, imp: raw.imp || 0 };
   }
 
   // ---- 그리기 ----
@@ -157,7 +158,7 @@
       return '<a class="ptip' + (isC ? " current" : "") + '" href="sp/' + encodeURIComponent(n.name.replace(/ /g, "_")) + '.html">' +
         '<rect x="' + X1 + '" y="' + (v.y - ROW / 2) + '" width="' + (W - X1) + '" height="' + ROW + '"/>' +
         '<text x="' + tx0 + '" y="' + y + '"' + (inf.ko ? "" : ' class="en"') + ">" + esc(nm) + "</text>" +
-        "<title>" + esc(n.name + (n.star ? " · 계통 자료 없이 같은 무리 곁에 둔 종" : "")) + "</title></a>";
+        "<title>" + esc(n.name + (n.star ? " · 유전자 자료가 없어 위치를 추정해 둔 종" : "")) + "</title></a>";
     }).join("");
 
     var Hh = TOP + rows.length * ROW + 8;
@@ -185,7 +186,8 @@
         return '<button type="button" data-l="' + l + '" aria-pressed="' + (l === level) + '">' + RK[l] + "</button>";
       }).join("") + '</div><label class="plin"><input type="checkbox"' + (st.linear ? " checked" : "") + "> 선형 시간</label></div>" +
       svg +
-      '<p class="pkey"><span class="poly">주황</span> 단계통이 아닌 무리 · <span class="pdash"></span> 계통 자료 없이 붙인 종(' + P.add + ')</p>' +
+      '<p class="pkey"><span class="poly">주황</span> 단계통이 아닌 무리 · <span class="pdash"></span> 유전자 자료 없이 위치를 추정해 둔 종(' + (P.add + P.imp).toLocaleString() +
+        (P.imp ? ': 그중 ' + P.imp.toLocaleString() + '종은 imputed 나무의 자리' : '') + ')</p>' +
       '<p class="psrc">' + P.cite + '</p>';
 
     var redraw = function () { draw(box, st, opts); };

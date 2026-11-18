@@ -4,8 +4,11 @@
   data/phylo/aves_1.7_clements2025.nex = McTavishLab/AvesDataLite 의 Tree_versions/Aves_1.7/Clements2025/summary_dated_clements.nex
 
 파충류: 논문 나무 다섯을 시간 축에 맞춰 이어 붙인다.
-  유린목  data/phylo/squamata_title2024.tre  Title et al. 2024, Science 383:918 (5,400 유전자 자리, 시간 보정 6,885종)
-            — Dryad doi:10.5061/dryad.p5hqbzkvb 의 1.tree_inference/mainTrees/best_ultrametric_fulltree_ddBD_revision.tre
+  유린목  data/phylo/squamata_title2024_imputed.tre  Title et al. 2024, Science 383:918 (5,400 유전자 자리, 시간 보정 6,885종)
+            — Dryad doi:10.5061/dryad.p5hqbzkvb 의 2.time_calibration_imputation/primarytree-imputed-trees.zip 가운데
+              best-full-trees/squams-full-imputed-xx1.tre. 주 나무(data/phylo/squamata_title2024.tre)에 유전자 자료가 없는 종 3,872 자리를
+              분류에 맞춰 무작위로 끼워 넣은 100개 복제 중 첫째. 자리는 속별 이름표(「Ficimia_xzx2」)뿐이라
+              그 속에서 유전자 자료가 없는 사이트 종을 시트 순서대로 넣는다(점선, 위치는 한 가지 가능한 배치일 뿐).
   뼈대    data/phylo/Data_S8_Dated_Astral_IQ_Point_Tree  Burbrink et al. 2020, Syst. Biol. 69:502 (유린목·훼두목·바깥 무리 연대)
   거북목  data/phylo/turtle_thomson2021.tre  Thomson, Spinks & Shaffer 2021, PNAS 118:e2012215118
             — Dryad doi:10.5061/dryad.jh9w0vt8w 의 bd.mcc.median_heights.tre(종마다 개체 하나, 시간 보정)
@@ -16,7 +19,8 @@
 
 공통 처리(fit)
 1. 나무의 끝을 사이트 종(tree.json)에 맞춘다. 같은 학명 → 그대로. 종소명 철자가 조금 다르거나 속만 바뀐 종 → 하나만 맞으면 그 끝.
-2. 나무에 없는 사이트 종은 같은 속(없으면 같은 아과·과) 종들의 공통 조상에서 갈라진 것으로 붙이고 '*'로 표시한다(화면은 점선).
+2. imputed 나무의 속별 빈자리(유린목)가 있으면 그 속의 나머지 사이트 종을 넣는다('*', 화면은 점선).
+   그래도 남는 사이트 종은 같은 속(없으면 같은 아과·과) 종들의 공통 조상에서 갈라진 것으로 붙이고 '*'로 표시한다(화면은 점선).
    그 속에 나무에 있는 종이 하나뿐이면 그 가지 중간에서 가른다.
 3. 사이트에 없는 끝(통합된 종, 개체 중복 등)은 지운다.
 4. 자식 순서는 시트 순서에 맞춘다.
@@ -42,6 +46,7 @@ CITE_A = ("나무: " + A("https://birdsoftheworld.org/bow/phylogeny", "Birds of 
           + A("https://doi.org/10.1073/pnas.2409658122", "<i>PNAS</i> 122:e2409658122") + " · "
           + A("https://github.com/eliotmiller/clootl", "clootl") + ". 분류 이름은 이 사이트의 목록(AviList)에 맞춤.")
 CITE_R = ("나무: 유린목 Title et al. 2024, " + A("https://doi.org/10.1126/science.adh2449", "<i>Science</i> 383:918")
+          + "(유전자 자료가 없는 종은 imputed 나무 100개 중 첫째의 자리에 배치)"
           + " · 거북목 Thomson et al. 2021, " + A("https://doi.org/10.1073/pnas.2012215118", "<i>PNAS</i> 118:e2012215118")
           + " · 악어목 Davies et al. 2026, " + A("https://doi.org/10.1098/rspb.2026.0635", "<i>Proc. R. Soc. B</i> 293:20260635")
           + " (MrBayes 마디 보정 분석을 다시 돌림) · 인룡류 연대 Burbrink et al. 2020, " + A("https://doi.org/10.1093/sysbio/syz062", "<i>Syst. Biol.</i> 69:502")
@@ -238,6 +243,57 @@ def fit(root, rows, verbose=False):
             take(sci, cands[0])
             fam_of_leaf[id(byname[sci] if sci in byname else matched[sci])] = fam
 
+    # (다) imputed 나무의 속별 자리표(「Ficimia xzx2」)에 그 속에서 아직 못 맞춘 사이트 종을 시트 순서대로 넣는다
+    imputed = []
+    slots = {}
+    for c in sorted(tree_only, key=lambda c: (c.split(" ")[0], int(re.sub(r"\D", "", c.split(" ")[1]) or 0))):
+        if re.fullmatch(r"[A-Z][a-z]+ xzx\d+", c):
+            slots.setdefault(c.split(" ")[0], []).append(c)
+    # 자리가 사이트 분류와 맞는 곳에 있을 때만 쓴다(imputed 나무는 자리를 상위 무리 안에 무작위로 두기도 한다).
+    #  - 그 자리를 품은 '같은 속만으로 된 가장 큰 무리'를 찾는다(자리표도 이름의 속으로 본다. 지울 끝은 없는 셈 친다).
+    #  - 그 속에 유전자 자료 종이 있으면: 그 무리 안에 유전자 자료 종이 하나라도 있어야 한다(속 덩어리에 붙은 자리).
+    #  - 없으면: 그 무리의 자매 쪽 속들이 모두 그 안에 통째로 들어 있고(남의 속 안에 끼어들지 않음) 같은 과여야 한다.
+    #  쓰지 않은 자리의 종은 아래 (라)에서 속 공통 조상에 붙는다.
+    PH_RE = re.compile(r"[A-Z][a-z]+ xzx\d+")
+    drop_named = {id(byname[c]) for c in tree_only if not PH_RE.fullmatch(c)}
+    gen = lambda x: x.name.split(" ")[0]
+    seq_ids = {id(lf) for lf in matched.values()}
+    has_seq = {s.split(" ")[0] for s in matched}
+    fam_of_g = {r.split(" ")[0]: p.get("f") for r, p in rows}
+    fam_of_id = {id(lf): info[s].get("f") for s, lf in matched.items()}
+    live = lambda a: [x for x in tips(a) if id(x) not in drop_named]
+    gtotal = {}
+    for x in live(root):
+        gtotal[gen(x)] = gtotal.get(gen(x), 0) + 1
+
+    def near_ok(lf, g):
+        a = lf
+        while a.up and all(gen(x) == g for x in live(a.up)):
+            a = a.up
+        if g in has_seq:
+            return any(id(x) in seq_ids for x in live(a))
+        if not a.up:
+            return False
+        inner = {id(x) for x in live(a)}
+        others = [x for x in live(a.up) if id(x) not in inner]
+        cnt = {}
+        for x in others:
+            cnt[gen(x)] = cnt.get(gen(x), 0) + 1
+        if any(cnt[h] != gtotal.get(h) for h in cnt):
+            return False
+        fams = {fam_of_id[id(x)] for x in others if id(x) in fam_of_id}
+        return fams == {fam_of_g.get(g)}
+    for g in list(slots):
+        slots[g] = [c for c in slots[g] if near_ok(byname[c], g)]
+    for sci in [r[0] for r in rows if r[0] not in matched]:
+        sl = slots.get(sci.split(" ")[0])
+        if sl:
+            c = sl.pop(0)
+            take(sci, c)
+            renamed.pop()
+            byname[c].star = True
+            imputed.append(sci)
+
     dropped = sorted(tree_only)
     for k in dropped:
         prune(byname[k])
@@ -283,8 +339,10 @@ def fit(root, rows, verbose=False):
         return "(" + ",".join(nwk(c) for c in node.kids) + "):" + bl
 
     root.bl = 0.0
-    stats = dict(rows=len(rows), leaves=len(leaves), exact=len(rows) - len(renamed) - len(added) - len(lost),
-                 renamed=len(renamed), added=len(added), lost=len(lost), dropped=len(dropped))
+    stats = dict(rows=len(rows), leaves=len(leaves), exact=len(rows) - len(renamed) - len(added) - len(lost) - len(imputed),
+                 renamed=len(renamed), imputed=len(imputed), added=len(added), lost=len(lost),
+                 dropped=len([d for d in dropped if not re.fullmatch(r"[A-Z][a-z]+ xzx\d+", d)]),
+                 slots_left=sum(len(v) for v in slots.values()))
     if verbose:
         print("속·철자 맞춤:", renamed)
         print("붙임:", added[:400], "…" if len(added) > 400 else "")
@@ -295,10 +353,11 @@ def fit(root, rows, verbose=False):
 
 def write(G, src, cite, nwk, stats):
     out = OUT / f"phylo_{G}.json"
-    out.write_text(json.dumps({"src": src, "cite": cite, "nwk": nwk, "add": stats["added"]},
+    out.write_text(json.dumps({"src": src, "cite": cite, "nwk": nwk, "add": stats["added"], "imp": stats["imputed"]},
                               ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{G}: 사이트 {stats['rows']}종 · 나무 끝 {stats['leaves']} · 학명 그대로 {stats['exact']} · 속·철자 맞춤 {stats['renamed']} · "
-          f"붙임 {stats['added']} · 못 붙임 {stats['lost']} · 지운 끝 {stats['dropped']} · {out.stat().st_size // 1024} KB")
+          f"imputed 자리 {stats['imputed']}(남은 자리 {stats['slots_left']}) · 붙임 {stats['added']} · 못 붙임 {stats['lost']} · 지운 끝 {stats['dropped']} · "
+          f"{out.stat().st_size // 1024} KB")
 
 
 def birds(verbose):
@@ -364,7 +423,7 @@ AGE_ARCHELOSAURIA = round(166.95 + JENKINS_OFFSET, 1)
 
 def reptiles(verbose):
     rows = site_rows("R")
-    sq = keep_species(parse_tree_file((PH / "squamata_title2024.tre").read_text(encoding="utf-8")))
+    sq = keep_species(parse_tree_file((PH / "squamata_title2024_imputed.tre").read_text(encoding="utf-8")))
     tu = parse_tree_file((PH / "turtle_thomson2021.tre").read_text(encoding="utf-8", errors="replace"))
     tu = subtree_of(tu, {sp_name(x.name) for x in tips(tu) if not x.name.startswith("AA_")})  # 바깥 무리(닭·앨리게이터) 빼기
     tu = keep_species(tu)
