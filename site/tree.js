@@ -205,6 +205,7 @@
 
   window.VTree = function (box, data, opts) {
     opts = opts || {};
+    var pg = null;  // 분기도에서 보고 있는 무리(A·R·X)
     var mode = getMode();
     box.innerHTML = '<div class="tbar"><div class="tmode" role="group" aria-label="분류군 보기">' +
       '<button type="button" data-m="drawer" aria-pressed="' + (mode === "drawer") + '">서랍</button>' +
@@ -215,7 +216,7 @@
       var inp = box.querySelector(".tsearch"), sug = box.querySelector(".tsugg"), list = [], sel = -1;
       var go = function (x) {
         var o2 = {}; for (var k in opts) o2[k] = opts[k];
-        o2.focus = x; o2.phyloGroup = x.g;
+        o2.focus = x; o2.phyloGroup = pg === "X" ? "X" : x.g;
         o2.folded = (opts.folded || []).filter(function (g) { return g !== x.g; });
         window.VTree(box, data, o2);
       };
@@ -255,13 +256,15 @@
     box.appendChild(inner);
     if (mode === "phylo") {
       var groups = (opts.groups || ["A", "R"]).filter(function (g) { return data[g]; });
-      var GKEY = "vp-phylo-group", pg = groups[0];
-      if (!opts.current) { try { var sg = localStorage.getItem(GKEY); if (groups.indexOf(sg) >= 0) pg = sg; } catch (e) {} }
+      if (groups.length > 1) groups.push("X");  // X: 조류+파충류 한 계통수(주룡류 마디에서 악어목과 조류가 갈라짐)
+      var GKEY = "vp-phylo-group";
+      pg = groups[0];
+      try { var sg = localStorage.getItem(GKEY); if (sg === "X" && groups.indexOf("X") >= 0) pg = "X"; else if (!opts.current && groups.indexOf(sg) >= 0) pg = sg; } catch (e) {}
       if (opts.phyloGroup && groups.indexOf(opts.phyloGroup) >= 0) pg = opts.phyloGroup;
       if (groups.length > 1) {
         var gs = document.createElement("div");
         gs.className = "tmode tgrp"; gs.setAttribute("role", "group"); gs.setAttribute("aria-label", "분기도 무리");
-        gs.innerHTML = groups.map(function (g) { return '<button type="button" data-g="' + g + '" aria-pressed="' + (g === pg) + '">' + GROUP[g] + "</button>"; }).join("");
+        gs.innerHTML = groups.map(function (g) { return '<button type="button" data-g="' + g + '" aria-pressed="' + (g === pg) + '">' + (g === "X" ? "전체" : GROUP[g]) + "</button>"; }).join("");
         inner.appendChild(gs);
         gs.querySelectorAll("button").forEach(function (b) {
           b.onclick = function () {
@@ -277,8 +280,8 @@
       inner.appendChild(pbox);
       pbox.innerHTML = '<p class="pnote">분기도를 불러오는 중…</p>';
       loadPhylo().then(function () {
-        window.VPhylo(pbox, data, { group: pg, current: pg === groups[0] ? opts.current : null,
-                                    focus: opts.focus && opts.focus.g === pg ? opts.focus : null });
+        window.VPhylo(pbox, data, { group: pg, current: pg === groups[0] || pg === "X" ? opts.current : null,
+                                    focus: opts.focus && (opts.focus.g === pg || pg === "X") ? opts.focus : null });
       }, function () { pbox.innerHTML = '<p class="pnote">분기도를 불러오지 못했습니다.</p>'; });
       return;
     }

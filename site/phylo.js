@@ -16,7 +16,7 @@
     });
   };
   var RANKS = ["o", "u", "p", "f", "s", "g"], RK = { o: "목", u: "아목", p: "상과", f: "과", s: "아과", g: "속", sp: "종" };
-  var GROUP = { A: "조류", R: "파충류" };
+  var GROUP = { A: "조류", R: "파충류", X: "파충류(조류 포함)" };
   var NEXT = { o: "f", u: "f", p: "f", f: "sp", s: "sp", g: "sp", sp: "sp" };
   var ROW = 19, TOP = 26, KEY = "vp-phylo";
   var store = function (k, v) { try { if (v === undefined) return JSON.parse(localStorage.getItem(KEY) || "{}")[k]; var o = JSON.parse(localStorage.getItem(KEY) || "{}"); o[k] = v; localStorage.setItem(KEY, JSON.stringify(o)); } catch (e) {} };
@@ -33,7 +33,7 @@
         if (tx[n[0]]) { p[n[0]] = n[1]; tx[n[0]][n[1]] = { ko: n[2], sci: n[1], rank: n[0] }; }
         walk(n[3], p);
       });
-    })(tree[G] || [], {});
+    })(G === "X" ? (tree.A || []).concat(tree.R || []) : (tree[G] || []), {});
 
     // Newick 읽기
     var s = raw.nwk, i = 0, root = { k: [] }, cur = root, stack = [], nodes = [];

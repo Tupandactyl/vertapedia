@@ -393,6 +393,7 @@ def write(G, src, cite, nwk, stats):
 def birds(verbose):
     root = parse_tree_file((PH / "aves_1.7_clements2025.nex").read_text(encoding="utf-8"))
     nwk, stats = fit(root, site_rows("A"), verbose)
+    OUTS["A"] = nwk
     write("A", "Birds of the World Phylogeny · Tree v1.7 / Clements 2025 (McTavish et al. 2025, PNAS; clootl)", CITE_A, nwk, stats)
 
 
@@ -449,6 +450,34 @@ def graft(kids_ages, age):
 JENKINS_OFFSET = 103.2
 AGE_REPTILIA = round(173.81 + JENKINS_OFFSET, 1)
 AGE_ARCHELOSAURIA = round(166.95 + JENKINS_OFFSET, 1)
+#   주룡류(Protosuchus x Coelophysis) 149.93 → 253.1 (Thomson et al. 2021 거북 계통수의 닭 x 앨리게이터 253.7 과도 맞는다)
+AGE_ARCHOSAURIA = round(149.93 + JENKINS_OFFSET, 1)
+OUTS = {}
+
+
+def combined():
+    """조류+파충류: 파충류 계통수의 악어목 갈래를 주룡류 마디(악어목 + 조류)로 바꿔 끼운다. 둘 다 fit 을 거친 계통수."""
+    A_, R_ = parse_newick(OUTS["A"]), parse_newick(OUTS["R"])
+    crocs = {r for r, p in site_rows("R") if p.get("o") == "Crocodylia"}
+    cr = mrca([x for x in tips(R_) if x.name.rstrip("*").replace("_", " ") in crocs])
+    par, bl_old = cr.up, cr.bl
+    age_par = height(cr) + bl_old
+    arch = graft([(cr, height(cr)), (A_, height(A_))], AGE_ARCHOSAURIA)
+    arch.bl = age_par - AGE_ARCHOSAURIA
+    arch.up = par
+    par.kids[par.kids.index(cr)] = arch
+
+    def nwk(node):
+        bl = ("%.3f" % max(node.bl, 0)).rstrip("0").rstrip(".") or "0"
+        return (node.name if not node.kids else "(" + ",".join(nwk(c) for c in node.kids) + ")") + ":" + bl
+    R_.bl = 0
+    ra, rr = (json.loads((OUT / f"phylo_{g}.json").read_text(encoding="utf-8")) for g in "AR")
+    out = OUT / "phylo_X.json"
+    cite = (ra["cite"] + " · " + rr["cite"].replace("출처: ", "", 1) + " · 주룡류 Jenkins et al. 2026")
+    out.write_text(json.dumps({"src": ra["src"] + "; " + rr["src"], "cite": cite, "nwk": nwk(R_) + ";",
+                               "add": ra["add"] + rr["add"], "imp": ra["imp"] + rr["imp"]},
+                              ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"X: 조류+파충류 · 주룡류 {AGE_ARCHOSAURIA} · 조류 크라운 {height(A_):.1f} · 악어목 {height(cr):.1f} · {out.stat().st_size // 1024} KB")
 
 
 def reptiles(verbose):
@@ -469,6 +498,7 @@ def reptiles(verbose):
           f"거북목 {height(tu):.1f} · 악어목 {height(cr):.1f}")
     # 거북목·악어목은 imputed 계통수가 없어 같은 방식(속 무리 안 가지 위 무작위 배치)으로 직접 채운다
     nwk, stats = fit(root, rows, verbose, impute=lambda p: p.get("o") in ("Testudines", "Crocodylia"))
+    OUTS["R"] = nwk
     write("R", "Title et al. 2024; Thomson et al. 2021; Davies et al. 2026; Burbrink et al. 2020; Jenkins et al. 2026", CITE_R, nwk, stats)
 
 
@@ -479,6 +509,8 @@ def main():
         birds(v)
     if "R" in which:
         reptiles(v)
+    if len(OUTS) == 2:
+        combined()
 
 
 if __name__ == "__main__":
