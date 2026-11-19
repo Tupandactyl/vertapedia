@@ -36,6 +36,10 @@ CONFIGS = {
                     ["Dipsadinae"],
                     ["Grayiinae", "Natricinae"],
                     ["Pseudoxenodontinae", "Sibynophiinae"]]),
+    # 「이구아나과, 아가마과 1」은 이구아나과 다음 아가마과 머리 줄 아래부터만 다룬다
+    "Agamidae": (["이구아나과, 아가마과 1", "아가마과 2"],
+                 [["Agaminae", "Amphibolurinae"],
+                  ["Draconinae", "Hydrosaurinae", "Leiolepidinae", "Uromastycinae"]]),
 }
 FAMILY = "Scincidae"
 TABS, PLAN = CONFIGS[FAMILY]
@@ -66,10 +70,30 @@ def read(sh):
     return {s["properties"]["title"]: s for s in r.json()["sheets"]}
 
 
-def blocks(rows):
-    """[(속, [행...])] — 행 2(0부터, 머리말·과 줄 다음)부터. 기존 아과 줄과 빈 줄 꼬리는 버린다."""
+def start_row(rows):
+    """이 과 머리 줄(「Agamidae (아가마과)」) 다음 행(0부터). 한 탭에 여러 과가 있으면 그 과 부분만 다룬다."""
+    for i, row in enumerate(rows):
+        vals = row.get("values", [])
+        if vals and re.match(rf"^{FAMILY}\b", text(vals[0])):
+            return i + 1
+    raise SystemExit(f"{FAMILY} 머리 줄을 못 찾았다")
+
+
+def first_word_after(rows, i):
+    for row in rows[i + 1:]:
+        vals = row.get("values", [])
+        a = text(vals[0]) if vals else ""
+        if a:
+            return a
+    return ""
+
+
+def blocks(rows, start=2):
+    """[(속, [행...])] — 과 머리 줄 다음부터. 기존 아과 줄과 빈 줄 꼬리는 버린다.
+    아속 줄(한 단어·「미분류」)은 바로 다음 종 행이 지금 속이면 그 속 묶음에 넣는다(속 이름과 같은 아속 줄 포함)."""
     out = []
-    for row in rows[2:]:
+    for i in range(start, len(rows)):
+        row = rows[i]
         vals = row.get("values", [])
         a = text(vals[0]) if vals else ""
         if not a:
@@ -77,6 +101,9 @@ def blocks(rows):
         if SUBFAM_RE.match(a):
             continue
         w = a.split()
+        if (len(w) == 1 or a == "미분류") and out and first_word_after(rows, i).startswith(out[-1][0] + " "):
+            out[-1][1].append(row)
+            continue
         if len(w) == 1 or not out or w[0] != out[-1][0]:
             out.append((w[0], [row]))
         else:
@@ -130,9 +157,11 @@ def main(apply):
     ko = ko_names()
     sh = Sheet("reptiles")
     grid = read(sh)
-    allb = []
+    allb, starts = [], {}
     for t in TABS:
-        allb += blocks(grid[t]["data"][0].get("rowData", []))
+        rd = grid[t]["data"][0].get("rowData", [])
+        starts[t] = start_row(rd)
+        allb += blocks(rd, starts[t])
     allb, dropped = merge(allb)
     n_old = sum(len(b[1]) for b in allb)
     if dropped:
@@ -180,14 +209,15 @@ def main(apply):
         sid = s["properties"]["sheetId"]
         old_len = len(s["data"][0].get("rowData", []))
         rows = new[t]
-        end = 2 + len(rows)
+        st = starts[t]
+        end = st + len(rows)
         cap = s["properties"]["gridProperties"]["rowCount"]
         if end > cap:
             reqs.append({"appendDimension": {"sheetId": sid, "dimension": "ROWS", "length": end - cap + 20}})
         for m in s.get("merges", []):  # 과 머리 줄(행 1) 말고 데이터 칸 병합은 풀었다가 아과 줄에만 다시 건다
-            if m["startRowIndex"] >= 2:
+            if m["startRowIndex"] >= st:
                 reqs.append({"unmergeCells": {"range": m}})
-        reqs.append({"updateCells": {"start": {"sheetId": sid, "rowIndex": 2, "columnIndex": 0},
+        reqs.append({"updateCells": {"start": {"sheetId": sid, "rowIndex": st, "columnIndex": 0},
                                      "rows": rows, "fields": FIELDS}})
         if old_len > end:  # 줄어든 탭: 새 목록 아래 예전 행을 비운다(빈 행을 rows 로 보내면 무시된다)
             reqs.append({"updateCells": {"range": {"sheetId": sid, "startRowIndex": end, "endRowIndex": old_len},
@@ -195,7 +225,7 @@ def main(apply):
         for i, row in enumerate(rows):
             if SUBFAM_RE.match(text(row["values"][0])):
                 reqs.append({"mergeCells": {"mergeType": "MERGE_ALL", "range": {
-                    "sheetId": sid, "startRowIndex": 2 + i, "endRowIndex": 3 + i,
+                    "sheetId": sid, "startRowIndex": st + i, "endRowIndex": st + i + 1,
                     "startColumnIndex": 0, "endColumnIndex": MERGE_COLS}}})
     r = requests.post(API + sh.id + ":batchUpdate", headers=sh._h(), timeout=600, json={"requests": reqs})
     if not r.ok:
