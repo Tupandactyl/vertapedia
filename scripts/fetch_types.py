@@ -131,7 +131,7 @@ def avilist_types(have, by_genus, birds):
             w = str(r[ix["Protonym"]]).split()[:2]
             if len(w) == 2:
                 proto.setdefault(f"{w[0]} {w[1].lower()}", r[ix["Scientific_name"]])
-    out = {}
+    out, texts = {}, {}
     for r in rows[1:]:
         if r[ix["Taxon_rank"]] != "genus" or not r[ix["Type_species_of_genus"]]:
             continue
@@ -139,6 +139,7 @@ def avilist_types(have, by_genus, birds):
         if g not in birds:
             continue
         txt = str(r[ix["Type_species_of_genus"]])
+        texts[g] = txt
         # 「Anas boschas [...]; ... = Anas platyrhynchos Linnaeus, 1758」 처럼 지금 이름이 = 뒤에 있으면 그것
         w = re.findall(r"[A-Za-z]+", txt.rsplit("=", 1)[1] if "=" in txt else txt)[:2]
         if len(w) < 2:
@@ -163,6 +164,25 @@ def avilist_types(have, by_genus, birds):
         if cur and m.get("matchType") in ("EXACT", "FUZZY") and len(cur.split()) == 2:
             out[g] = resolve(cur.split(), have, by_genus, g)
         time.sleep(0.3)
+    # 그래도 못 찾은 속: 1) 지금 종이 하나뿐인 속은 그 종(모식종은 늘 그 속에 든다)
+    # 2) 원문의 종소명(= 뒤 이름 포함)이 속 안 꼭 한 종의 종소명이나 아종명과 같으면 그 종(옛 종이 지금은 아종인 경우)
+    sf = DATA / "bird_subspecies.json"
+    ssp = json.loads(sf.read_text(encoding="utf-8")) if sf.exists() else {}
+    for g in birds:
+        if out.get(g):
+            continue
+        sps = by_genus.get(g, [])
+        if len(sps) == 1:
+            out[g] = sps[0]
+            continue
+        eps = set()
+        for part in re.split(r"[;=]", texts.get(g, "")):
+            w = [x for x in re.findall(r"\(?[A-Za-z]+\)?", part) if not x.startswith("(")]
+            if len(w) >= 2 and w[0][0].isupper() and w[1].islower():
+                eps.add(stem(w[1].lower()))
+        hit = {s for s in sps if stem(s.split()[1]) in eps} | {s for s in sps for x in ssp.get(s, []) if stem(x[0].split()[-1]) in eps}
+        if len(hit) == 1:
+            out[g] = hit.pop()
     out.pop("_avilist_orig", None)
     return out
 
