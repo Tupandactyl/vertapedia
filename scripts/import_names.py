@@ -364,6 +364,15 @@ class Linker:
         return None, None, cands
 
 
+INFIX_RE = re.compile(r"^[가-힣]+\([가-힣]+\)[가-힣]+$")  # 「히아신스(금강)앵무」: 괄호 부분은 넣어도 빼도 되는 말
+
+
+def sheet_name(v):
+    """명칭 제안 칸의 대표명. 이름 중간의 괄호는 그대로 둔다"""
+    s = str(v).split("\n")[0].replace(" ", "")
+    return s if INFIX_RE.match(s) else (norm(v) or v)
+
+
 def pick_name(t):
     """국명 우선순위: 한국조류목록 2025(조류)·한국양서파충류학회 2025(파충류) > 시트 합의본
     > 일치하는 개인 제안 > 없음(영명). 국가생물종목록은 USE_NIBR 일 때만(지금은 쓰지 않음)."""
@@ -374,7 +383,7 @@ def pick_name(t):
     if USE_NIBR and t.get("official"):
         return t["official"], "official"
     if t.get("consensus"):
-        return norm(t["consensus"]) or t["consensus"], "consensus"
+        return sheet_name(t["consensus"]), "consensus"
     if t["proposals"]:
         distinct = {norm(v) for v in t["proposals"].values()}
         if len(distinct) == 1:
