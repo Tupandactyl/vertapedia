@@ -183,8 +183,45 @@ def avilist_types(have, by_genus, birds):
         hit = {s for s in sps if stem(s.split()[1]) in eps} | {s for s in sps for x in ssp.get(s, []) if stem(x[0].split()[-1]) in eps}
         if len(hit) == 1:
             out[g] = hit.pop()
+    for g, sp in MANUAL_TYPES.items():
+        if g in birds and not out.get(g) and sp in have:
+            out[g] = sp
     out.pop("_avilist_orig", None)
     return out
+
+
+# AviList 원문(옛 학명)만으로는 지금 종을 정할 수 없어 문헌으로 확인한 것
+MANUAL_TYPES = {
+    "Acrochordopus": "Acrochordopus burmeisteri",  # Phyllomyias subviridis Pelzeln = burmeisteri (SACC 962)
+    "Anaplectes": "Anaplectes rubriceps",  # Ploceus leuconotus = A. rubriceps leuconotos
+    "Anodorhynchus": "Anodorhynchus hyacinthinus",  # A. maximiliani Spix = hyacinthinus
+    "Arses": "Arses telescopthalmus",
+    "Artamus": "Artamus leucorynchus",
+    "Basilinna": "Basilinna leucotis",  # AviList 는 Trochilus guimeti(지금 Klais)로 적었으나 Boie 의 모식종은 leucotis
+    "Brachygalba": "Brachygalba albogularis",
+    "Dendroma": "Dendroma rufa",  # D. caniceps Swainson = Dendrocopus rufus (AOS 61st suppl.)
+    "Dysithamnus": "Dysithamnus stictothorax",
+    "Guttera": "Guttera verreauxi",  # Numida cristata Pallas = G. pallasi Stone = Numida verreauxi (Peters 1934)
+    "Kleinothraupis": "Kleinothraupis atropileus",
+    "Leuconotopicus": "Leuconotopicus stricklandi",
+    "Lophoceros": "Lophoceros nasutus",  # Buceros forskalii = L. n. nasutus
+    "Mionectes": "Mionectes striaticollis",  # M. poliocephalus = M. s. poliocephalus
+    "Montecincla": "Montecincla cachinnans",
+    "Pachyglossa": "Pachyglossa melanozantha",
+    "Pachyramphus": "Pachyramphus viridis",  # Psaris cuvierii = Tityra viridis (ICZN Opinion 2263)
+    "Pampa": "Pampa curvipennis",  # P. campyloptera = Ornismya pampa = P. c. pampa
+    "Pampusana": "Pampusana xanthonura",  # Columba pampusan = xanthonura (Bruce 2016, BBOC 136)
+    "Phylidonyris": "Phylidonyris pyrrhopterus",  # Certhia australasiana Shaw = C. pyrrhoptera (AFD)
+    "Pyrilia": "Pyrilia pyrilia",  # P. typica Bonaparte, 동음 이름
+    "Saucerottia": "Saucerottia saucerottei",
+    "Spilornis": "Spilornis cheela",  # Falco bacha = S. c. bacha
+    "Stilpnia": "Stilpnia cyanoptera",
+    "Tachyspiza": "Tachyspiza soloensis",
+    "Thraupis": "Thraupis ornata",  # Tanagra archiepiscopus Desmarest = ornata
+    "Tyranniscus": "Tyranniscus nigrocapillus",
+    "Vermivora": "Vermivora cyanoptera",  # Certhia pinus = cyanoptera
+    "Yungipicus": "Yungipicus nanus",  # Picus hardwickii = Y. n. hardwickii
+}
 
 
 def tried_wiki(out_f):
