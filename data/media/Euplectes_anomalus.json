@@ -74,7 +74,29 @@
    "date": "2023-02-01"
   }
  ],
- "wiki": null,
+ "wiki": {
+  "title": "Bob-tailed weaver",
+  "url": "https://en.wikipedia.org/wiki/Bob-tailed_weaver",
+  "revision": 1383017365,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The bob-tailed weaver (Euplectes anomalus) is a species of bird in the family Ploceidae.",
+     "It is native to the Congo Basin."
+    ]
+   },
+   {
+    "h": "Taxonomy",
+    "level": 2,
+    "paras": [
+     "The bob-tailed weaver was formally described in 1887 by the German ornithologist Anton Reichenow based on a specimen collected near the Stanley Falls (now the Boyoma Falls) in the Democratic Republic of the Congo. Reichenow coined the binomial name Ploceus anomalus. The species was formerly placed in the monotypic genus Brachycope but in 2026 was moved to the genus Euplectes."
+    ]
+   }
+  ],
+  "found_by": "Euplectes anomalus"
+ },
  "curated": [
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55557355/{size}.jpg",

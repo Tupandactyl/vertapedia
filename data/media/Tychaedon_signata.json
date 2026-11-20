@@ -74,7 +74,32 @@
    "date": "2021-01-12"
   }
  ],
- "wiki": null,
+ "wiki": {
+  "title": "Brown scrub robin",
+  "url": "https://en.wikipedia.org/wiki/Brown_scrub_robin",
+  "revision": 1380728842,
+  "sections": [
+   {
+    "h": null,
+    "level": 1,
+    "paras": [
+     "The brown scrub robin (Tychaedon signata) is a species of bird in the family Muscicapidae. It is found in Eswatini, Mozambique and, South Africa. Its natural habitat is subtropical dry or moist forests. This species was formerly placed in the genus Cercotrichas."
+    ]
+   },
+   {
+    "h": "Races",
+    "level": 2,
+    "paras": [
+     "There are two accepted races:",
+     "T. s. signata – South African coastal bush and Afromontane forest",
+     "Description: Greyish brown plumage",
+     "T. s. tongensis – coastal plain from northern KZN to southern Mozambique",
+     "Description: Smaller with shorter bill. Paler brown plumage above and warmer buff plumage below. More conspicuous supercilium and moustache stripe."
+    ]
+   }
+  ],
+  "found_by": "Tychaedon signata"
+ },
  "curated": [
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/773861/{size}.jpg",
