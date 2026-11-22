@@ -3,6 +3,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vertapedia</title>
+<meta name="description" content="Vertapedia — 세계 조류·파충류의 한국어 이름 사전. 학명·영명·국명과 명칭 근거, 분류 계통수.">
+<link rel="canonical" href="https://vertapedia.org/">
+<meta property="og:site_name" content="Vertapedia">
+<meta property="og:title" content="Vertapedia">
+<meta property="og:url" content="https://vertapedia.org/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Vertapedia","alternateName":["버타피디아","vertapedia.org"],"url":"https://vertapedia.org/","inLanguage":"ko","potentialAction":{"@type":"SearchAction","target":"https://vertapedia.org/find.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 :root{--bg:#eef1ee;--ink:#1d2621;--muted:#5d6b63;--moss:#2f5d46;color-scheme:light}
@@ -18,7 +24,8 @@ a{color:var(--moss)} p{color:var(--muted)}
 </main>
 <script>
 // 처음 들어오면 국명과 사진이 있는 종 가운데 하나를 무작위로 연다.
-fetch('data/random.json').then(r=>r.json()).then(pool=>{
+// 검색엔진 수집기는 넘기지 않는다(첫 화면의 사이트 이름 표시를 읽도록)
+if(/bot|crawl|spider|slurp/i.test(navigator.userAgent)){document.getElementById('msg').textContent='세계 조류·파충류의 한국어 이름 사전'}else fetch('data/random.json').then(r=>r.json()).then(pool=>{
   const sci=pool[Math.floor(Math.random()*pool.length)];
   location.replace('sp/'+encodeURIComponent(sci.replace(/ /g,'_'))+'.html');
 }).catch(()=>{location.replace('find.html')});
