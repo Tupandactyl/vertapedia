@@ -1,9 +1,66 @@
 {
  "sci": "Lielaphis diehli",
- "fetched": "2026-11-14",
- "inat": null,
- "photos": [],
+ "fetched": "2026-11-23",
+ "inat": {
+  "id": 1725121,
+  "name": "Lielaphis diehli",
+  "observations": 6,
+  "wikipedia_url": null,
+  "common": "Diehl's Little Groundsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324077441/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) barefootwanderer, some rights reserved (CC BY-NC)",
+   "obs": 185549535,
+   "place": "Aitape-Lumi, PG-SA, PG",
+   "date": "2023-09-30"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327500257/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved",
+   "obs": 187292615,
+   "place": "Usino Bundi District, Papua-Neuguinea",
+   "date": "2023-09-02"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309231541/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mattia Menchetti, some rights reserved (CC BY)",
+   "obs": 177770563,
+   "place": "Astrolabe Bay Rural LLG, Papua New Guinea",
+   "date": "2023-08-08"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253021021/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC)",
+   "obs": 147082157,
+   "place": "Huon, PG-MR, PG",
+   "date": "2008-07-09"
+  }
+ ],
  "wiki": null,
- "commons": [],
- "commons_checked": "2026-11-16"
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253021021/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC), uploaded by Eric N. Rittmeyer",
+   "photo": 253021021
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327500257/{size}.jpg",
+   "license": "cc0",
+   "attribution": "no rights reserved, uploaded by Philipp Hoenle",
+   "photo": 327500257
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309231610/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Mattia Menchetti, some rights reserved (CC BY), uploaded by Mattia Menchetti",
+   "photo": 309231610
+  }
+ ]
 }

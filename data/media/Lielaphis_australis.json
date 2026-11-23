@@ -1,9 +1,98 @@
 {
  "sci": "Lielaphis australis",
- "fetched": "2026-11-14",
- "inat": null,
- "photos": [],
+ "fetched": "2026-11-23",
+ "inat": {
+  "id": 1725119,
+  "name": "Lielaphis australis",
+  "observations": 555,
+  "wikipedia_url": null,
+  "common": "Slaty-grey snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222125172/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Pete Woodall, some rights reserved (CC BY-NC)",
+   "obs": 130596934,
+   "place": "Kingfisher Park, Julatten QLD 4871, Australia",
+   "date": "2004-01-04"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347128601/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) enmotologists, some rights reserved (CC BY-NC)",
+   "obs": 197133952,
+   "place": "Queensland, AU",
+   "date": "2023-03-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310293633/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Philip Griffin, some rights reserved (CC BY-NC)",
+   "obs": 178344680,
+   "place": "Muirella Campground, Kakadu NT, Australia",
+   "date": "2023-06-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298308661/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Nick Talbot, some rights reserved (CC BY-NC)",
+   "obs": 171883656,
+   "place": "Kakadu NT 0822, Australia",
+   "date": "2023-06-25"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380907008/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) jackchong, some rights reserved (CC BY-NC)",
+   "obs": 215445091,
+   "place": "Pajinka Rd, Bamaga, QLD, AU",
+   "date": "2024-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/489198574/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Linda Reinhold, some rights reserved (CC BY-NC)",
+   "obs": 271933452,
+   "place": "Mount Sheridan QLD 4868, Australia",
+   "date": "2025-04-16"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172258129/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) phedges, some rights reserved (CC BY-NC)",
+   "obs": 102981030,
+   "place": "Wattle Tce, Trunding, QLD, AU",
+   "date": "2021-12-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351913226/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Isaac Clarey, some rights reserved (CC BY-NC)",
+   "obs": 196416544,
+   "place": "Rinyirru (Lakefield) National Park (CYPAL), Lakefield, QLD, AU",
+   "date": "2023-10-15"
+  }
+ ],
  "wiki": null,
- "commons": [],
- "commons_checked": "2026-11-16"
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219150522/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Liepack, some rights reserved (CC BY-NC), uploaded by Daniel Liepack",
+   "photo": 219150522
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219150593/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Liepack, some rights reserved (CC BY-NC), uploaded by Daniel Liepack",
+   "photo": 219150593
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219150703/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Daniel Liepack, some rights reserved (CC BY-NC), uploaded by Daniel Liepack",
+   "photo": 219150703
+  }
+ ]
 }

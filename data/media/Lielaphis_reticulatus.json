@@ -1,9 +1,68 @@
 {
  "sci": "Lielaphis reticulatus",
- "fetched": "2026-11-14",
- "inat": null,
- "photos": [],
+ "fetched": "2026-11-23",
+ "inat": {
+  "id": 1725129,
+  "name": "Lielaphis reticulatus",
+  "observations": 8,
+  "wikipedia_url": null,
+  "common": "Reticulated Slaty Snake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253127981/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC)",
+   "obs": 147137835,
+   "place": "Kairuku-Hiri, PG-CE, PG",
+   "date": "2015-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253139670/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC)",
+   "obs": 147143846,
+   "place": "Kairuku-Hiri, PG-CE, PG",
+   "date": "2015-03-13"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/702411360/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Steward Sengimeli, some rights reserved (CC BY-NC)",
+   "obs": 383760222,
+   "place": "Port Moresby Nature Park",
+   "date": "2026-07-22"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579696181/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Alexander A. Fomichev, some rights reserved (CC BY)",
+   "obs": 320607683,
+   "place": "Papua New Guinea, Central Province, Varirata National Park",
+   "date": "2025-08-20"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576788489/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) eclectic_earthling, some rights reserved (CC BY-NC)",
+   "obs": 319099748,
+   "place": "Port Moresby National Capital District, Papua New Guinea",
+   "date": "2025-10-06"
+  }
+ ],
  "wiki": null,
- "commons": [],
- "commons_checked": "2026-11-16"
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104330134/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) snake_111, some rights reserved (CC BY-NC)",
+   "photo": 104330134
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253149033/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Eric N. Rittmeyer, some rights reserved (CC BY-NC), uploaded by Eric N. Rittmeyer",
+   "photo": 253149033
+  }
+ ]
 }

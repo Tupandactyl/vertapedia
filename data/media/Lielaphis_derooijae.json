@@ -1,9 +1,40 @@
 {
  "sci": "Lielaphis derooijae",
- "fetched": "2026-11-14",
- "inat": null,
- "photos": [],
+ "fetched": "2026-11-23",
+ "inat": {
+  "id": 1725120,
+  "name": "Lielaphis derooijae",
+  "observations": 5,
+  "wikipedia_url": null,
+  "common": "De Rooij's Groundsnake"
+ },
+ "photos": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118569474/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC)",
+   "obs": 72698804,
+   "place": "Kri, Îles Raja Ampat, Papouasie occidentale, Indonésie",
+   "date": "2015-03-11"
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/499487387/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Hakim, some rights reserved (CC BY-NC)",
+   "obs": 278181040,
+   "place": "Klafdalim, Distrik Moisegen, Kabupaten Sorong, Papua Bar., Indonesia",
+   "date": "2024-10-24"
+  }
+ ],
  "wiki": null,
+ "curated": [
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118569474/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer",
+   "photo": 118569474
+  }
+ ],
  "commons": [],
  "commons_checked": "2026-11-16"
 }
