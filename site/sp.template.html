@@ -545,7 +545,7 @@ function render(d){
   if(d.kr)chips.push(`<span class="chip" title="한국양서파충류학회 2025 수록">${esc(d.kr)}</span>`);
   if(d.type_species)chips.push(`<span class="chip" title="${esc(d.genus&&(d.genus.name||d.genus.sci))}의 모식종">모식종</span>`);
   const ph=d.photos||[];
-  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph${p.src==='commons'?' cm':''}"><a href="${p.src==='commons'?esc(p.page):`https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
+  const gal=ph.length?`<div class="gallery">${ph.map((p,i)=>`<figure class="ph${p.src==='commons'?' cm':''}"><a href="${p.src==='commons'?esc(p.page):`https://www.inaturalist.org/${p.obs?`observations/${p.obs}`:`photos/${p.photo}`}`}" target="_blank" rel="noopener"><img src="${esc(p.url.replace('{size}',i===0?'large':'medium'))}" alt="${esc(d.name||d.sci)} 사진 ${i+1}" loading="${i<3?'eager':'lazy'}" onerror="this.closest('figure').remove()"></a><figcaption>${esc(credit(p))}${i===0&&p.place?' · '+esc(p.place):''}</figcaption></figure>`).join('')}</div>
 `
     :`<div class="nophoto">${d.fetched?'사진 없음':'사진 준비 중'}</div>`;
   const w=d.wiki;

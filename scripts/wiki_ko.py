@@ -135,14 +135,27 @@ def names_used(src):
 
 
 def queue():
-    """번역할 차례: 위키 본문이 있고 번역본이 없는 종. 합의 국명 종을 먼저(시트 순서), 그다음 사이트에 실린 제안·보류 국명 종.
+    """번역할 차례: 위키 본문이 있고 번역본이 없는 종. 합의 국명 종을 먼저(시트 순서), 그다음 사이트에 실린 제안·보류 국명 종,
+    그다음 국명과 상관없이 사진이 있는 종.
     제안 국명이 나중에 바뀌어도 번역본의 names 기록으로 새 국명이 들어간다(ko_names.py)."""
     names = [t for t in load(DATA / "names.json", []) if t.get("rank") == "species" and not (FINAL / fname(t["sci"])).exists()]
-    out = []
-    for ok in (lambda t: t.get("status") in AGREED, lambda t: t.get("status") in LATER and t.get("name")):
-        out += [(t["sci"], sum(len(p) for s in w["sections"] for p in s["paras"]))
-                for t in names if ok(t) and (w := wiki_of(t["sci"])).get("sections")]
+    out, seen = [], set()
+    # 3순위(2026-11-24): 국명이 없거나 미확정이어도 사진과 위키 문서가 있는 종
+    for ok in (lambda t: t.get("status") in AGREED, lambda t: t.get("status") in LATER and t.get("name"), has_photo):
+        for t in names:
+            if t["sci"] in seen or not ok(t):
+                continue
+            m = load(DATA / "media" / fname(t["sci"]), {}) or {}
+            w = m.get("wiki") or {}
+            if w.get("sections"):
+                seen.add(t["sci"])
+                out.append((t["sci"], sum(len(p) for s in w["sections"] for p in s["paras"])))
     return out
+
+
+def has_photo(t):
+    m = load(DATA / "media" / fname(t["sci"]), {}) or {}
+    return bool(m.get("photos") or m.get("curated") or m.get("commons"))
 
 
 def by_group(q):
