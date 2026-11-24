@@ -10,14 +10,6 @@
  },
  "photos": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118593212/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 72709843,
-   "place": "Rio Branco, AC, Brasil",
-   "date": "2019-09-20"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426765180/{size}.jpg",
    "license": "cc0",
    "attribution": "no rights reserved",
@@ -143,12 +135,5 @@
    }
   ]
  },
- "curated": [
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118593212/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 118593212
-  }
- ]
+ "curated": []
 }

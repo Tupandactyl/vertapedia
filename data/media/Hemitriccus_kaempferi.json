@@ -26,14 +26,6 @@
    "date": "2020-04-25"
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118430106/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 72618775,
-   "place": "Santa Catarina, BR",
-   "date": "2019-10-15"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188140086/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC)",
@@ -159,22 +151,22 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118430106/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Luciano Bernardes",
-   "photo": 118430106
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203353078/{size}.jpg",
    "license": "cc-by-nc",
-   "attribution": "(c) Maria Isabel Weyermanns, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Maria Isabel Weyermanns",
+   "attribution": "(c) Maria Isabel Weyermanns, some rights reserved (CC BY-NC), uploaded by Maria Isabel Weyermanns",
    "photo": 203353078
   },
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203265411/{size}.jpg",
    "license": "cc-by-nc",
-   "attribution": "(c) Maria Isabel Weyermanns, einige Rechte vorbehalten (CC BY-NC), hochgeladen von Maria Isabel Weyermanns",
+   "attribution": "(c) Maria Isabel Weyermanns, some rights reserved (CC BY-NC), uploaded by Maria Isabel Weyermanns",
    "photo": 203265411
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203259177/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Maria Isabel Weyermanns, some rights reserved (CC BY-NC), uploaded by Maria Isabel Weyermanns",
+   "photo": 203259177
   }
  ]
 }

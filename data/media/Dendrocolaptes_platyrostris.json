@@ -152,12 +152,6 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278377638/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 278377638
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196280161/{size}.jpg",
    "license": "cc0",
    "attribution": "no rights reserved, uploaded by Hugo Hulsberg",
@@ -168,6 +162,12 @@
    "license": "cc-by-nc",
    "attribution": "(c) André Adeodato, some rights reserved (CC BY-NC), uploaded by André Adeodato",
    "photo": 177487746
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384070/{size}.JPG",
+   "license": "cc-by-nc",
+   "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+   "photo": 384070
   }
  ]
 }

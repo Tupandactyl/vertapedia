@@ -34,14 +34,6 @@
    "date": "2014-04-10"
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118303252/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 72549648,
-   "place": "Mato Grosso, BR",
-   "date": "2018-11-03"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254188535/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) Anderson Sandro, some rights reserved (CC BY-NC)",
@@ -158,16 +150,16 @@
    "photo": 443923443
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118303252/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 118303252
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254188535/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) Anderson Sandro, some rights reserved (CC BY-NC), uploaded by Anderson Sandro",
    "photo": 254188535
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94369541/{size}.jpeg",
+   "license": "cc-by",
+   "attribution": "(c) Helio Lourencini, some rights reserved (CC BY), uploaded by Helio Lourencini",
+   "photo": 94369541
   }
  ]
 }

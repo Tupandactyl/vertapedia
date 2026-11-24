@@ -64,14 +64,6 @@
    "obs": 126394864,
    "place": "Gral Manuel Belgrano, Misiones, Argentina",
    "date": "2022-07-09"
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313425283/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 179977831,
-   "place": "Trilha dos Tucanos, Tapiraí - SP, 18180-000, Brasil",
-   "date": "2023-07-28"
   }
  ],
  "wiki": {
@@ -120,12 +112,6 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313425280/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 313425280
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75946/{size}.jpg",
    "license": "cc-by-nc-sa",
    "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
@@ -136,6 +122,12 @@
    "license": "cc-by-nc-sa",
    "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
    "photo": 75945
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126919436/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Sergio R Porto, some rights reserved (CC BY-NC), uploaded by Sergio R Porto",
+   "photo": 126919436
   }
  ]
 }

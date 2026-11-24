@@ -92,12 +92,6 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222933542/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC), uploaded by Mengshuai Ge",
-   "photo": 222933542
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558450970/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) Илья Уколов, some rights reserved (CC BY-NC), uploaded by Илья Уколов",
@@ -108,6 +102,12 @@
    "license": "cc-by-nc",
    "attribution": "(c) Kelly Hu, some rights reserved (CC BY-NC), uploaded by Kelly Hu",
    "photo": 609421726
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563052857/{size}.jpg",
+   "license": "cc-by",
+   "attribution": "(c) Johannes S., some rights reserved (CC BY), uploaded by Johannes S.",
+   "photo": 563052857
   }
  ]
 }

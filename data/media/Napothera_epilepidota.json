@@ -42,14 +42,6 @@
    "date": "2013-05-01"
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212426409/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Mengshuai Ge, some rights reserved (CC BY-NC)",
-   "obs": 125272391,
-   "place": "中国海南省乐东黎族自治县",
-   "date": "2022-01-12"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/547889780/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) John Sterling, some rights reserved (CC BY-NC)",
@@ -92,21 +84,15 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212426409/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Mengshuai Ge, algunos derechos reservados (CC BY-NC), subido por Mengshuai Ge",
-   "photo": 212426409
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94316401/{size}.jpeg",
    "license": "cc-by",
-   "attribution": "(c) Christoph Moning, algunos derechos reservados (CC BY), subido por Christoph Moning",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
    "photo": 94316401
   },
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225253393/{size}.jpg",
    "license": "cc-by-nc",
-   "attribution": "(c) Langur Eco Travels, algunos derechos reservados (CC BY-NC), subido por Langur Eco Travels",
+   "attribution": "(c) Langur Eco Travels, some rights reserved (CC BY-NC), uploaded by Langur Eco Travels",
    "photo": 225253393
   }
  ]

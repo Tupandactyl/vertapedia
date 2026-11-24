@@ -10,14 +10,6 @@
  },
  "photos": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412304811/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 232101310,
-   "place": "Minas Gerais, BR",
-   "date": "2024-07-22"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411621504/{size}.jpeg",
    "license": "cc-by-nc",
    "attribution": "(c) Chris Bell, some rights reserved (CC BY-NC)",
@@ -141,16 +133,16 @@
    "photo": 550377735
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412304811/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 412304811
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102433055/{size}.jpg",
    "license": "cc-by-sa",
    "attribution": "(c) \nSávio Freire Bruno, some rights reserved (CC BY-SA)",
    "photo": 102433055
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102433056/{size}.jpg",
+   "license": "cc-by-nc-sa",
+   "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
+   "photo": 102433056
   }
  ]
 }

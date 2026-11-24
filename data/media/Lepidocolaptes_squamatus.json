@@ -58,14 +58,6 @@
    "date": "2019-03-03"
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207507964/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 122557260,
-   "place": "Caconde - SP, 13770-000, Brasil",
-   "date": "2014-08-30"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669744447/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) Lívia Granata, some rights reserved (CC BY-NC)",
@@ -152,22 +144,22 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117853165/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 117853165
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207507964/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 207507964
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204478063/{size}.jpeg",
    "license": "cc-by-nc",
    "attribution": "(c) Fausto Rocha Araújo, some rights reserved (CC BY-NC), uploaded by Fausto Rocha Araújo",
    "photo": 204478063
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264659099/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Perk's images, some rights reserved (CC BY-NC), uploaded by Perk's images",
+   "photo": 264659099
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466547529/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) clicque, some rights reserved (CC BY-NC), uploaded by clicque",
+   "photo": 466547529
   }
  ]
 }

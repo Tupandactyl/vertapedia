@@ -10,28 +10,12 @@
  },
  "photos": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263108656/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 152414703,
-   "place": "Nogueira, Guararema - SP, 08900-000, Brasil",
-   "date": "2023-03-25"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116109709/{size}.jpeg",
    "license": "cc-by-nc",
    "attribution": "(c) Rodrigo BD, some rights reserved (CC BY-NC)",
    "obs": 71325966,
    "place": "Santo Antônio da Patrulha - RS, Brasil",
    "date": "2021-03-04"
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334114435/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 190571872,
-   "place": "Suzano - Palmeiras de São Paulo, Suzano - SP, Brasil",
-   "date": "2023-10-14"
   },
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418239188/{size}.jpeg",
@@ -153,22 +137,22 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442402880/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 442402880
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442402882/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 442402882
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57046077/{size}.jpg",
    "license": "cc0",
    "attribution": "no rights reserved, uploaded by Fernando Sessegolo",
    "photo": 57046077
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58089160/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+   "photo": 58089160
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55702995/{size}.jpeg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Alessandro De Almeida, some rights reserved (CC BY-NC), uploaded by Alessandro De Almeida",
+   "photo": 55702995
   }
  ]
 }

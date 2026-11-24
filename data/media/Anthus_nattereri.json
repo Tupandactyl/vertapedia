@@ -64,14 +64,6 @@
    "obs": 351316290,
    "place": "Minas Gerais, BR",
    "date": "2022-10-02"
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442322218/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 247636544,
-   "place": "Minas Gerais, BR",
-   "date": "2024-10-08"
   }
  ],
  "wiki": {
@@ -152,12 +144,6 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442322172/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 442322172
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500209558/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) luizanjos, some rights reserved (CC BY-NC)",
@@ -168,6 +154,12 @@
    "license": "cc-by-nc",
    "attribution": "(c) sunny1az, some rights reserved (CC BY-NC)",
    "photo": 441714030
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21851686/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Michelle Delaloye, some rights reserved (CC BY-NC), uploaded by Michelle Delaloye",
+   "photo": 21851686
   }
  ]
 }

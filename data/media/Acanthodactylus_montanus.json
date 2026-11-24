@@ -64,14 +64,6 @@
    "obs": 161369829,
    "place": "RN9, Zerkten, Marrakesh-Safi, MA",
    "date": "2023-05-01"
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/674129692/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Association Morocco Herpetology, some rights reserved (CC BY-NC)",
-   "obs": 369074015,
-   "place": "Ouarzazate, MA-SM, MA",
-   "date": "2025-08-22"
   }
  ],
  "wiki": {
@@ -90,12 +82,6 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/674129692/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Association Morocco Herpetology, some rights reserved (CC BY-NC), uploaded by Association Morocco Herpetology",
-   "photo": 674129692
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606950625/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) André MIQUET, some rights reserved (CC BY-NC), uploaded by André MIQUET",
@@ -106,6 +92,12 @@
    "license": "cc-by-sa",
    "attribution": "(c) Théalie Dhellemmes, some rights reserved (CC BY-SA), uploaded by Théalie Dhellemmes",
    "photo": 543226785
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672800503/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Youp van den Heuvel, some rights reserved (CC BY-NC), uploaded by Youp van den Heuvel",
+   "photo": 672800503
   }
  ]
 }

@@ -42,28 +42,12 @@
    "date": "2018-09-22"
   },
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442320430/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 247635036,
-   "place": "São Sebastião da Grama - SP, 13790-000, Brasil",
-   "date": "2024-10-07"
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545337970/{size}.jpg",
    "license": "cc-by-nc",
    "attribution": "(c) Augusto Matheus dos Santos, some rights reserved (CC BY-NC)",
    "obs": 302588772,
    "place": "Salesópolis, SP, 08970-000, Brasil",
    "date": "2025-07-29"
-  },
-  {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/452776736/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC)",
-   "obs": 252905377,
-   "place": "Sítio Barrocada, São Paulo - SP, Brasil",
-   "date": "2024-11-24"
   },
   {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/542340621/{size}.jpg",
@@ -162,12 +146,6 @@
  },
  "curated": [
   {
-   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118442274/{size}.jpg",
-   "license": "cc-by-nc",
-   "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
-   "photo": 118442274
-  },
-  {
    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394020/{size}.JPG",
    "license": "cc-by-nc",
    "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
@@ -178,6 +156,12 @@
    "license": "cc-by",
    "attribution": "(c) Reinaldo de Oliveira Elias, some rights reserved (CC BY), uploaded by Reinaldo de Oliveira Elias",
    "photo": 97815474
+  },
+  {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89733641/{size}.jpg",
+   "license": "cc-by-nc",
+   "attribution": "(c) Juan Diego Döke, some rights reserved (CC BY-NC), uploaded by Juan Diego Döke",
+   "photo": 89733641
   }
  ]
 }
