@@ -6,7 +6,7 @@ Vertapedia(한국어 조류·파충류 이름 사전)의 종 문서에 실을 �
 - 입력: `translation_review/in/<이름>.json` (이름은 작업 목록에 있는 그대로. 예: `Ciconia_boyciana`, 이미 번역된 문서의 나머지 절이면 `Grus_japonensis.add`)
   - `paras`: 옮길 문단(`"절번호.문단번호": 영어`) · `heads`: 옮길 절 제목(`"절번호": 영어`)
   - `glossary`: 본문에 나온 이름 → 사이트 국명(학명). 생물 이름이면 이 표를 따른다. 자동으로 뽑은 표라 사람 이름이나 지명이 생물 이름과 같으면(Sappho 시인, Sula 제도) 문맥을 따른다.
-  - `ko`: 이 종의 국명 · `site_facts`: 사이트 자료(IUCN 등급, AviList 분포 설명, 명명자, 아종, GBIF 대한민국 기록 수). `subspecies`는 한국 관련 아종만 담은 목록이니 원문 아종 수와 비교해 주석을 달지 않는다. 파충류(`group`이 `REPTILIA`)는 `avilist_range`가 없으니 분포는 원문대로 옮기고, 학명·분류는 Reptile Database를 따르는 사이트 학명(`sci`) 기준이다
+  - `ko`: 이 종의 국명 · `site_facts`: 사이트 자료(과·목 학명과 국명, IUCN 등급, AviList 분포 설명, 명명자, 아종, GBIF 대한민국 기록 수). `subspecies`는 한국 관련 아종만 담은 목록이니 원문 아종 수와 비교해 주석을 달지 않는다. 파충류(`group`이 `REPTILIA`)는 `avilist_range`가 없으니 분포는 원문대로 옮기고, 학명·분류는 Reptile Database를 따르는 사이트 학명(`sci`) 기준이다
 - 출력: `translation_review/out/<이름>.json` (UTF-8)
 ```json
 {"sci":"Ciconia boyciana","date":"오늘 날짜","heads":{"1":"분류"},"ko":{"0.0":"..."},"notes":[{"ref":"0.0","type":"수정","text":"..."}]}
@@ -19,6 +19,7 @@ Vertapedia(한국어 조류·파충류 이름 사전)의 종 문서에 실을 �
 - 이 종은 `ko` 국명으로 쓴다. `ko`가 없으면 학명을 쓴다. 첫 문단 첫머리는 `국명(English name, *학명*)` 꼴이다.
 - 국명은 ko와 glossary에 적힌 글자 그대로 쓰고 줄이거나 바꾸지 않는다. 국명이 바뀌면 나중에 프로그램이 이 글자를 찾아 고치기 때문이다.
 - 무리를 가리키는 일반명(gecko, skink, warbler 등)도 버타피디아 이름을 따른다. glossary에 `[무리 이름. 과 국명 …]`으로 적힌 것은 그 글자로 쓴다(geckos → 도마뱀부치, 도마뱀붙이 아님). 'leaf-toed gecko'처럼 수식어가 붙으면 수식어만 옮기고 뒤는 무리 이름을 쓴다. 무리 이름에는 영어를 괄호로 달지 않아도 된다.
+- 과·목 이름은 학명(Estrildidae)이든 형용사(estrildid finch)든 `site_facts`의 `family`·`order`와 glossary에 있는 국명만 글자 그대로 쓴다(까마귀과를 까마귓과로 바꾸지 않는다). 'estrildid finch'는 '납부리새과의 새'처럼 과 국명으로 옮긴다. 표에 없는 과는 국명을 짓거나 기억으로 옮기지 말고 학명을 쓴다(예: Raphidae). 원문이 이 종을 `site_facts.family`와 다른 과에 넣으면 사이트 자료를 따르고 `수정` 주석을 단다. 조류·파충류가 아닌 생물의 과는 널리 쓰는 국명이 확실할 때만 국명을 쓰고 학명을 괄호로 함께 적는다.
 - 다른 생물은 glossary의 국명을 쓰고, 문서에서 처음 나올 때 영어 이름이나 학명을 괄호로 함께 적는다. glossary에 없으면 영어 이름을 그대로 두거나 괄호로 함께 적는다. 국명을 지어내지 않는다.
 - 사람 이름은 문서에서 처음 나올 때 원어를 괄호로 함께 적는다. 예: 리처드 보들러 샤프(Richard Bowdler Sharpe), 스윈호(Swinhoe). 명명자 표기(Gould, 1845)와 참고문헌식 인용(Jin 등, 2008)은 원어 그대로 둔다.
 - 학명은 `*Genus species*`처럼 별표로 감싼다. 별표는 속 이하 학명에만 쓴다.

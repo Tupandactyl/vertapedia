@@ -74,6 +74,7 @@ def prep(names):
     by = {t["sci"]: t for t in all_names}
     linker = Linker(all_names, groups=True)
     dist, bird_iucn, rng, auth = load(DATA / "distribution.json", {}), load(DATA / "bird_iucn.json", {}), load(DATA / "bird_range.json", {}), load(DATA / "bird_authority.json", {})
+    famadj = {f[:-4].lower() + "id": f for f, t in by.items() if t["rank"] == "family" and t.get("name") and f.endswith("idae")}
     report = []
     for sci in names:
         t, w = by[sci], wiki_of(sci)
@@ -93,9 +94,16 @@ def prep(names):
                         gloss[x[1]] = f"{x[0]} [무리 이름. 과 국명 {by[x[3]]['name']} {x[3]}]"
                     elif isinstance(x, list):
                         gloss[x[1]] = f"{x[0]} ({x[3]})"
+                # 과 형용사(estrildid, fringillids): 과 국명을 짐작하지 않도록 사이트 과 이름을 넣는다(2026-11-24)
+                for a in re.findall(r"\b([a-z]{3,}id)s?\b", p):
+                    f = famadj.get(a)
+                    if f and a not in gloss:
+                        gloss[a] = f"{by[f]['name']} ({f})"
         rec = dict(sci=sci, ko=t.get("name"), group=t["group"], title=w.get("title"), url=w.get("url"), revision=w.get("revision"),
                    site_facts=dict(iucn=bird_iucn.get(sci) if t["group"] == "AVES" else (dist.get(sci) or {}).get("iucn"),
                                    avilist_range=rng.get(sci), authority=auth.get(sci), kos=t.get("kos"),
+                                   family=dict(sci=t.get("family"), ko=(by.get(t.get("family")) or {}).get("name")),
+                                   order=dict(sci=t.get("order"), ko=(by.get(t.get("order")) or {}).get("name")),
                                    subspecies=[s.get("sci") for s in t.get("subspecies") or []],
                                    gbif_korea_records=((dist.get(sci) or {}).get("c") or {}).get("KR")),
                    glossary=gloss, heads=heads, paras=paras,
