@@ -87,7 +87,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
   <button class="more" id="more" hidden>더 보기</button>
 
   <footer>
-    <p>학명은 eBird/Clements·AviList(조류)와 The Reptile Database(파충류)를 따릅니다. 조류 국명은 한국조류목록 2025 → 편집진 합의 → 편집진 제안 순으로 씁니다. 파충류 국명은 한국양서파충류학회 2025 → 편집진 합의 순입니다. 국명이 없으면 영명을 표시합니다.</p>
+    <p>학명은 eBird/Clements·AviList(조류)와 The Reptile Database(파충류)를 따릅니다. 조류 국명은 한국조류목록 2025 → 편집진 합의 → 편집진 제안 순으로 씁니다. 파충류 국명은 한국양서파충류학회 2025 → 편집진 합의 순입니다. 국명이 없으면 영명을 표시합니다. 북한 동물명은 국립생물자원관 「국가 생물종 목록집(북한지역 척추동물)」(2012)을 따릅니다.</p>
     <p>편집진 시트가 바뀌면 6시간 안에 반영됩니다. <span id="built"></span></p>
   </footer>
 </div>
@@ -116,14 +116,17 @@ function near1(a,b){
   return d+(a.length-i)+(b.length-j)<=1;
 }
 // 점수가 낮을수록 위: 정확히 같음 0 · 국명 앞부분 1 · 학명·영명 앞부분 2 · 단어 앞부분 3 · 포함 4 · 초성 5 · 한 글자 오타 6
+const AL=['북한 동물명','국내 관용명','환경부 지정명'];
 function score(r,k){
   const n=r._n,sc=key(r[2]),en=key(r[4]);
   if(n===k||sc===k||en===k)return 0;
-  // 같은 단계 안에서는 편집진 합의 국명 > 국내 관용명 > 환경부 지정명 > 아종 국명
+  // 같은 단계 안에서는 편집진 합의 국명 > 북한 동물명 > 국내 관용명 > 환경부 지정명 > 아종 국명
+  if(r._nk.includes(k))return 0.1;
   if(r._tr.includes(k))return 0.2;
   if(r._mo.includes(k))return 0.4;
   if(r._ss.includes(k))return 0.6;
   if(n&&n.startsWith(k))return 1;
+  if(r._nk.some(a=>a.startsWith(k)))return 1.1;
   if(r._tr.some(a=>a.startsWith(k)))return 1.2;
   if(r._mo.some(a=>a.startsWith(k)))return 1.4;
   if(r._ss.some(a=>a.startsWith(k)))return 1.6;
@@ -154,7 +157,7 @@ function render(){
   const list=hits.slice(0,limit);
   document.getElementById('res').innerHTML=list.length?list.map(r=>{
     const [grp,rk,sci,name,en,st,fam,ssp,famKo,pic,alias]=r;
-    const hitAlias=(alias||[]).filter(x=>key(x[1]).includes(k)).sort((a,b)=>(a[0]==='국내 관용명'?0:1)-(b[0]==='국내 관용명'?0:1));
+    const hitAlias=(alias||[]).filter(x=>key(x[1]).includes(k)).sort((a,b)=>AL.indexOf(a[0])-AL.indexOf(b[0]));
     const label=name?`<span class="nm">${esc(name)}</span>`:`<span class="nm en">${esc(en||sci)}</span>`;
     const title=rk==='s'?`<a class="go" href="sp/${esc(sci.replace(/ /g,'_'))}.html">${label}</a>${pic?' <span class="pic" title="사진 있음">●</span>':''}`:rk==='f'?`<a class="go" href="fam/${esc(sci)}.html">${label}</a>`:label;
     return `<li><div>${title}</div><span class="st ${st}">${ST[st]||st}</span>
@@ -172,7 +175,7 @@ fetch('data/names.min.json').then(r=>r.json()).then(d=>{
     _a:[...(r[10]||[]).map(x=>key(x[1])),...(r[7]||[]).map(x=>key(x[1]))].filter(Boolean)}));
   const al=(r,l)=>(r[10]||[]).filter(x=>x[0]===l).map(x=>key(x[1]));
   rows.forEach(r=>{r._k+=r._a.join('|');r._c+='|'+(r[10]||[]).map(x=>cho(key(x[1]))).join('|');
-    r._tr=al(r,'국내 관용명');r._mo=al(r,'환경부 지정명');r._ss=(r[7]||[]).map(x=>key(x[1])).filter(Boolean)});
+    r._nk=al(r,'북한 동물명');r._tr=al(r,'국내 관용명');r._mo=al(r,'환경부 지정명');r._ss=(r[7]||[]).map(x=>key(x[1])).filter(Boolean)});
   render();
 }).catch(()=>{document.getElementById('count').textContent='목록을 불러오지 못했습니다. 새로고침해 주세요.'});
 const q0=new URLSearchParams(location.search).get('q');

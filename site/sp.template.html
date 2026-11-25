@@ -555,6 +555,7 @@ function render(d){
     :`<p class="src">위키백과 문서 없음</p>`;
   const why=d.rationale?`<p class="why"><b>명칭 근거</b>${esc(d.rationale)}</p>`:'';
   const refs=[];
+  if(d.refs.nk)refs.push(['북한 동물명',d.refs.nk]);
   if(d.refs.moe)refs.push(['환경부 지정명',d.refs.moe]);
   if(d.refs.trade&&d.refs.trade!=='-')refs.push(['국내 관용명',d.refs.trade]);
   if(d.synonyms&&d.synonyms.length)refs.push(['이명',d.synonyms.map(s=>`<i>${esc(s)}</i>`).join(', ')]);

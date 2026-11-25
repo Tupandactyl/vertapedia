@@ -126,7 +126,7 @@ def parse_birds_v2026(title, rows):
         p = {props[i]: clean(cell(r, i)) for i in props if clean(cell(r, i))}
         t = dict(group="AVES", rank=rank, sci=sci, en=clean(cell(r, i_en)), consensus=clean(cell(r, i_cons)),
                  consensus_label="명칭 제안", proposals=p, rationale=clean(cell(r, i_why)), sheet=title,
-                 moe=clean(cell(r, col("환경부 지정명"))), trade=clean(cell(r, col("국내 통용/유통명"))))
+                 nk=clean(cell(r, col("북한명"))), moe=clean(cell(r, col("환경부 지정명"))), trade=clean(cell(r, col("국내 통용/유통명"))))
         if rank in ("family", "genus", "species", "subspecies"):
             t["family"] = clean(cell(r, i_fam))
             t["order"] = clean(cell(r, i_ord))
@@ -249,7 +249,7 @@ def parse_reptiles(path, ov):
             continue
         if ws.title in ("통합목록", "지정관리종목록") or "명칭 제안" not in h:
             continue
-        ix = {k: h.index(k) for k in ("학명", "환경부 지정명", "국내 통용/유통명", "명칭 제안", "명칭 근거", "Author", "영명")
+        ix = {k: h.index(k) for k in ("학명", "북한명", "환경부 지정명", "국내 통용/유통명", "명칭 제안", "명칭 근거", "Author", "영명")
               if k in h}
         # 아속 줄은 아속 이름 한 단어(「Odatria」, 미분류는 「미분류」)라 속 줄과 모양이 같다.
         # 속 줄 아래 그 속 종들 사이에 있고 바로 다음 종이 그 속이면 아속 줄로 본다(속과 같은 이름이면 명명 아속).
@@ -296,6 +296,7 @@ def parse_reptiles(path, ov):
             taxa.append(dict(group="REPTILIA", rank=rank, sci=sci, family=alias.get(family, family),
                              order_hint=hint[0] if hint else None, suborder_hint=hint[1] if hint else None,
                              author=clean(cell(r, ix.get("Author"))), en=clean(cell(r, ix.get("영명"))),
+                             nk=clean(cell(r, ix.get("북한명"))),
                              moe=clean(cell(r, ix.get("환경부 지정명"))),
                              trade=clean(cell(r, ix.get("국내 통용/유통명"))),
                              consensus=clean(cell(r, ix["명칭 제안"])), proposals={},

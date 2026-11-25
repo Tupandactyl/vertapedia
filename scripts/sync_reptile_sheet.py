@@ -25,7 +25,7 @@ from sheets_api import Sheet
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SKIP_TABS = {"과단위 번역", "지정관리종목록", "통합목록"}
-COL = dict(sci=0, genus=1, ep=2, ssp=7, author=8)
+HEADS = dict(sci="학명", genus="속명", ep="종명", ssp="Subspecies", author="Author")  # 열 번호는 머리글로 찾는다(열이 끼어도 어긋나지 않게)
 EN_H, NOTE_H = "영명", "비고 (Reptile Database 대조)"
 TODAY = date.today().isoformat()
 
@@ -89,7 +89,7 @@ def main(apply):
         if NOTE_H not in h:
             put(tab, 0, note_c, "", NOTE_H, "열 추가")
         off = h.index("학명") if "학명" in h else 0  # 분류미정 뱀 탭은 B열부터
-        C = {k: v + off for k, v in COL.items()}
+        C = {k: h.index(v) for k, v in HEADS.items()}
         grid[tab] = (g, en_c, note_c, off)
         fam = None
         for i, row in enumerate(g[1:], start=1):
@@ -150,9 +150,10 @@ def main(apply):
         vals = [""] * (max(en_c, note_c) + 1)
         if off:
             vals[0] = fam or ""
-        vals[COL["sci"] + off], vals[COL["genus"] + off], vals[COL["ep"] + off] = s, g, s.split()[1]
-        vals[COL["ssp"] + off] = ssp_text(cur.get(s, {}).get("subspecies", []))
-        vals[COL["author"] + off] = author_fmt(cur.get(s, {}).get("author"))
+        C = {k: grid[tab][0][0].index(v) for k, v in HEADS.items()}
+        vals[C["sci"]], vals[C["genus"]], vals[C["ep"]] = s, g, s.split()[1]
+        vals[C["ssp"]] = ssp_text(cur.get(s, {}).get("subspecies", []))
+        vals[C["author"]] = author_fmt(cur.get(s, {}).get("author"))
         vals[en_c] = media_en.get(s, "")
         vals[note_c] = f"{TODAY} Reptile Database 새 종 ({a.get('change') or '추가'})"
         rows_at.append((tab, by_tab_id[tab], at[1], vals, s))

@@ -449,8 +449,8 @@ for t in names:
     ssp = [[s["sci"], s.get("ko"), s.get("note")] for s in t.get("subspecies", []) if s.get("ko")]
     fam = families.get((t["group"], t.get("family")))
     rk = "u" if t["rank"] == "suborder" else t["rank"][0]
-    # 별칭: 환경부 지정명·국내 관용명(정식 국명과 다를 때만)
-    alias = [[label, v] for label, v in (("환경부 지정명", t.get("moe")), ("국내 관용명", t.get("trade")))
+    # 별칭: 북한 동물명·환경부 지정명·국내 관용명(정식 국명과 다를 때만)
+    alias = [[label, v] for label, v in (("북한 동물명", t.get("nk")), ("환경부 지정명", t.get("moe")), ("국내 관용명", t.get("trade")))
              if v and v not in ("-", t.get("name"))]
     rows.append([G[t["group"]], rk, t["sci"], t.get("name"), t.get("en"),
                  t["status"], t.get("family"), ssp or None, (fam or {}).get("name"), 1 if has_pic(t["sci"]) else 0,
@@ -488,7 +488,7 @@ for g, lst in seq.items():
             subspecies=subspecies_of(t),
             kos=dict(category=t["kos"].get("category")) if t.get("kos") else None, kr=t.get("kr"),
             refs=dict(official=None,  # 국가생물종목록은 쓰지 않는다
-                      moe=t.get("moe"), trade=t.get("trade")),
+                      nk=t.get("nk"), moe=t.get("moe"), trade=t.get("trade")),
             ebird=ebird.get(t["sci"]),
             dist=dist_of(t["sci"]), range=bird_range.get(t["sci"]) if g == "AVES" else None,
             iucn=(bird_iucn.get(t["sci"]) if g == "AVES" else None) or (dist.get(t["sci"]) or {}).get("iucn"),
